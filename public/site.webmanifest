@@ -1,0 +1,13 @@
+{
+  "name": "LaplandStays",
+  "short_name": "LaplandStays",
+  "description": "Luxury cabins and aurora villas in Finnish Lapland",
+  "icons": [
+    { "src": "/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" }
+  ],
+  "theme_color": "#0F172A",
+  "background_color": "#0F172A",
+  "display": "standalone",
+  "start_url": "/"
+}
