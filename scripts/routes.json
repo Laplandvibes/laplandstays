@@ -1,0 +1,16 @@
+[
+  { "path": "/",                       "copyFile": "src/pages/Home.copy.{lang}.ts" },
+  { "path": "/about",                  "copyFile": "src/pages/About.copy.{lang}.ts" },
+  { "path": "/editorial-policy",       "copyFile": "src/pages/EditorialPolicy.copy.{lang}.ts" },
+  { "path": "/property-types",         "copyFile": "src/pages/PropertyTypesPage.copy.{lang}.ts" },
+  { "path": "/transport",              "copyFile": "src/pages/Transport.copy.{lang}.ts" },
+  { "path": "/when-to-go",             "copyFile": "src/pages/WhenToGo.copy.{lang}.ts" },
+  { "path": "/destinations/levi",      "pageFile": "src/pages/Levi.tsx" },
+  { "path": "/destinations/yllas",     "pageFile": "src/pages/Yllas.tsx" },
+  { "path": "/destinations/saariselka","pageFile": "src/pages/Saariselka.tsx" },
+  { "path": "/destinations/inari",     "pageFile": "src/pages/Inari.tsx" },
+  { "path": "/destinations/rovaniemi", "pageFile": "src/pages/Rovaniemi.tsx" },
+  { "path": "/privacy",                "fallbackTitle": "Privacy Policy | LaplandStays" },
+  { "path": "/terms",                  "fallbackTitle": "Terms of Use | LaplandStays" },
+  { "path": "/cookie-policy",          "fallbackTitle": "Cookie Policy | LaplandStays" }
+]

@@ -27,17 +27,18 @@ const xmlEscape = (s) =>
     .replace(/"/g, '&quot;')
     .replace(/'/g, '&apos;');
 
-// Gradient overlay — darker toward bottom-left (where text sits).
+// Gradient overlay — darker toward CENTER (where the centered, square-crop-safe
+// text sits) so the wordmark stays legible even when Google crops to a centre square.
 const gradientSvg = Buffer.from(`
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.30"/>
-      <stop offset="45%" stop-color="${NIGHT}" stop-opacity="0.55"/>
-      <stop offset="100%" stop-color="${NIGHT}" stop-opacity="0.93"/>
+      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.40"/>
+      <stop offset="50%" stop-color="${NIGHT}" stop-opacity="0.42"/>
+      <stop offset="100%" stop-color="${NIGHT}" stop-opacity="0.90"/>
     </linearGradient>
-    <radialGradient id="r" cx="20%" cy="65%" r="70%">
-      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.78"/>
+    <radialGradient id="r" cx="50%" cy="46%" r="72%">
+      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.62"/>
       <stop offset="100%" stop-color="${NIGHT}" stop-opacity="0"/>
     </radialGradient>
   </defs>
@@ -46,14 +47,28 @@ const gradientSvg = Buffer.from(`
 </svg>
 `);
 
-// Using tspan inside a single <text> means the layout engine spaces the pieces
-// naturally regardless of siteBrand length.
+// CENTRE-COMPOSED layout: everything is horizontally centred and kept inside the
+// ~630px-wide centre "square-safe" zone, so Google's centre-square thumbnail crop
+// (which keeps roughly x 285–915 of the 1200-wide card) never clips the wordmark.
+// The wordmark is STACKED (#LAPLAND / BRAND) and its size adapts to the longest
+// line so even long brands (SAARISELKÄ) fit the safe zone.
 function textSvg({ siteBrand, subtitle, price, badge }) {
   const brand = xmlEscape(siteBrand);
   const sub = xmlEscape(subtitle);
   const pr = xmlEscape(price || '');
   const bg = xmlEscape(badge);
-  const prWidth = Math.max(260, (price || '').length * 14 + 40);
+  const cx = W / 2; // 600 — horizontal centre
+
+  // Adaptive wordmark size: longest line is max("#LAPLAND"=8, brand length).
+  // Target ≤ ~545px wide (well inside the 630px safe zone). Impact cap ≈ 0.62em.
+  const longest = Math.max(8, siteBrand.length);
+  const brandSize = Math.max(70, Math.min(106, Math.floor(545 / (longest * 0.62))));
+  const lineGap = Math.round(brandSize * 1.0);
+  const line1Y = 232;            // baseline of "#LAPLAND"
+  const line2Y = line1Y + lineGap; // baseline of BRAND
+  const subY = line2Y + 64;
+  const prWidth = Math.max(250, (price || '').length * 13 + 56);
+  const prY = subY + 34;
 
   return Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
@@ -76,36 +91,40 @@ function textSvg({ siteBrand, subtitle, price, badge }) {
     </filter>
   </defs>
 
-  <!-- Pink accent line + site URL top-right -->
-  <rect x="${W - 190}" y="58" width="130" height="4" fill="${PINK}" rx="2"/>
-  <text x="${W - 60}" y="72" font-family="Arial, sans-serif"
-        font-size="14" font-weight="700" fill="${SNOW}" opacity="0.8"
-        text-anchor="end" letter-spacing="3">LAPLANDSTAYS.COM</text>
+  <!-- Centred kicker URL + accent line, top -->
+  <text x="${cx}" y="70" font-family="Arial, sans-serif"
+        font-size="15" font-weight="700" fill="${SNOW}" opacity="0.82"
+        text-anchor="middle" letter-spacing="4">LAPLANDSTAYS.COM</text>
+  <rect x="${cx - 65}" y="84" width="130" height="4" fill="${PINK}" rx="2"/>
 
-  <!-- Hashtag logo (single text, tspans flow naturally) -->
-  <text x="70" y="355" font-family="Impact, 'Arial Black', sans-serif"
-        font-size="118" letter-spacing="3" filter="url(#textShadow)">
-    <tspan fill="${PINK}" filter="url(#pinkGlow)">#</tspan><tspan fill="${SNOW}">LAPLAND</tspan><tspan fill="${PINK}" filter="url(#pinkGlow)">${brand}</tspan>
+  <!-- Stacked, centred hashtag wordmark (square-crop safe) -->
+  <text x="${cx}" y="${line1Y}" font-family="Impact, 'Arial Black', sans-serif"
+        font-size="${brandSize}" letter-spacing="2" text-anchor="middle" filter="url(#textShadow)">
+    <tspan fill="${PINK}" filter="url(#pinkGlow)">#</tspan><tspan fill="${SNOW}">LAPLAND</tspan>
+  </text>
+  <text x="${cx}" y="${line2Y}" font-family="Impact, 'Arial Black', sans-serif"
+        font-size="${brandSize}" letter-spacing="2" text-anchor="middle" filter="url(#textShadow)">
+    <tspan fill="${PINK}" filter="url(#pinkGlow)">${brand}</tspan>
   </text>
 
-  <!-- Subtitle -->
-  <text x="72" y="410" font-family="Arial, sans-serif"
-        font-size="28" font-weight="500" fill="${SNOW}" opacity="0.94"
-        letter-spacing="0.5">${sub}</text>
+  <!-- Subtitle, centred -->
+  <text x="${cx}" y="${subY}" font-family="Arial, sans-serif"
+        font-size="26" font-weight="500" fill="${SNOW}" opacity="0.95"
+        text-anchor="middle" letter-spacing="0.5">${sub}</text>
 
   ${price ? `
-  <!-- Price chip -->
-  <g transform="translate(72, 452)">
-    <rect width="${prWidth}" height="56" rx="28" ry="28" fill="${PINK}"/>
-    <text x="${prWidth / 2}" y="37"
-          font-family="Arial Black, Arial, sans-serif" font-size="22" font-weight="900"
+  <!-- Price chip, centred -->
+  <g transform="translate(${cx - prWidth / 2}, ${prY})">
+    <rect width="${prWidth}" height="54" rx="27" ry="27" fill="${PINK}"/>
+    <text x="${prWidth / 2}" y="36"
+          font-family="Arial Black, Arial, sans-serif" font-size="21" font-weight="900"
           fill="${SNOW}" text-anchor="middle" letter-spacing="2">${pr}</text>
   </g>` : ''}
 
-  <!-- Network badge bottom -->
-  <text x="72" y="582" font-family="Arial, sans-serif"
-        font-size="17" font-weight="700" fill="${SNOW}" opacity="0.72"
-        letter-spacing="3">${bg}</text>
+  <!-- Network badge, centred bottom -->
+  <text x="${cx}" y="592" font-family="Arial, sans-serif"
+        font-size="16" font-weight="700" fill="${SNOW}" opacity="0.74"
+        text-anchor="middle" letter-spacing="3">${bg}</text>
 </svg>
 `);
 }
@@ -158,6 +177,16 @@ const variants = [
     subtitle: "Santa's hometown hotels & glass cabins",
     price: 'FROM €115 / NIGHT',
     badge: 'LAPLANDSTAYS.COM · ROVANIEMI GUIDE',
+  },
+  {
+    // Accommodation-types guide page (was the legacy synthetic, left-anchored card
+    // from gen-assets.mjs which also clipped in Google's square crop). Now uses the
+    // same photo + centre-safe layout as the rest.
+    name: 'og-property-types',
+    source: 'public/images/aurora-villas.webp',
+    siteBrand: 'STAYS',
+    subtitle: 'Aurora villas, glass igloos & log cabins',
+    badge: 'LAPLANDSTAYS.COM · STAY-TYPE GUIDE',
   },
 ];
 

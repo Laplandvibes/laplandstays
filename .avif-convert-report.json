@@ -1,0 +1,62 @@
+{
+  "site": "laplandstays-new",
+  "scanned_webp": 23,
+  "converted": 8,
+  "skipped_exists": 0,
+  "skipped_avif_larger": 15,
+  "errors": 0,
+  "total_webp_bytes": 1119162,
+  "total_avif_bytes": 1079494,
+  "saved_mb": "0.04",
+  "saved_pct": "3.5",
+  "report": [
+    {
+      "file": "public\\images\\arctic-lakeside-retreat-inari.webp",
+      "webp_bytes": 186688,
+      "avif_bytes": 185032,
+      "saved_pct": "0.9"
+    },
+    {
+      "file": "public\\images\\aurora-villas.webp",
+      "webp_bytes": 159920,
+      "avif_bytes": 154721,
+      "saved_pct": "3.3"
+    },
+    {
+      "file": "public\\images\\booking-cta-bg.webp",
+      "webp_bytes": 123068,
+      "avif_bytes": 117043,
+      "saved_pct": "4.9"
+    },
+    {
+      "file": "public\\images\\hero-alt.webp",
+      "webp_bytes": 96792,
+      "avif_bytes": 87173,
+      "saved_pct": "9.9"
+    },
+    {
+      "file": "public\\images\\hero.webp",
+      "webp_bytes": 108450,
+      "avif_bytes": 99430,
+      "saved_pct": "8.3"
+    },
+    {
+      "file": "public\\images\\inari-card.webp",
+      "webp_bytes": 153798,
+      "avif_bytes": 153019,
+      "saved_pct": "0.5"
+    },
+    {
+      "file": "public\\images\\inari-hero.webp",
+      "webp_bytes": 106538,
+      "avif_bytes": 100338,
+      "saved_pct": "5.8"
+    },
+    {
+      "file": "public\\images\\saariselka-card.webp",
+      "webp_bytes": 183908,
+      "avif_bytes": 182738,
+      "saved_pct": "0.6"
+    }
+  ]
+}

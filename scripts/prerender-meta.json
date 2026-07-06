@@ -1,0 +1,140 @@
+{
+  "/cookie-policy": {
+    "en": {
+      "title": "Cookie Policy | LaplandStays",
+      "description": "Which cookies LaplandStays uses and why, essential consent storage, Google Analytics 4 (only after opt-in), and Commission Junction affiliate attribution."
+    },
+    "fi": {
+      "title": "Evästekäytäntö | LaplandStays",
+      "description": "Mitä evästeitä LaplandStays käyttää ja miksi, välttämätön suostumuksen tallennus, Google Analytics 4 (vain luvalla) ja Commission Junction -affiliate-attribuutio."
+    },
+    "de": {
+      "title": "Cookie-Richtlinie | LaplandStays",
+      "description": "Welche Cookies LaplandStays verwendet und warum, essenzielle Consent-Speicherung, Google Analytics 4 (nur nach Opt-in) und Commission-Junction-Affiliate-Attribution."
+    },
+    "ja": {
+      "title": "クッキーポリシー。LaplandStays",
+      "description": "LaplandStaysが使用するCookieとその目的。同意保存用の必須Cookie、Google Analytics 4（オプトイン後のみ）、Commission Junctionアフィリエイト計測。"
+    },
+    "es": {
+      "title": "Política de cookies | LaplandStays",
+      "description": "Qué cookies usa LaplandStays y por qué: almacenamiento esencial del consentimiento, Google Analytics 4 (solo tras aceptar) y atribución de afiliados de Commission Junction."
+    },
+    "pt-BR": {
+      "title": "Política de cookies | LaplandStays",
+      "description": "Quais cookies o LaplandStays usa e por quê, armazenamento essencial de consentimento, Google Analytics 4 (somente após opt-in) e atribuição de afiliados da Commission Junction."
+    },
+    "zh-CN": {
+      "title": "Cookie 政策。LaplandStays",
+      "description": "LaplandStays 使用哪些 Cookie 及原因。必要的同意状态存储、Google Analytics 4（仅在同意后启用）以及 Commission Junction 联盟归因。"
+    },
+    "ko": {
+      "title": "쿠키 정책. LaplandStays",
+      "description": "LaplandStays가 사용하는 쿠키와 그 이유. 필수 동의 저장, Google Analytics 4(동의 후에만), Commission Junction 제휴 어트리뷰션."
+    },
+    "fr": {
+      "title": "Politique relative aux cookies | LaplandStays",
+      "description": "Quels cookies LaplandStays utilise et pourquoi, stockage essentiel du consentement, Google Analytics 4 (après opt-in uniquement) et attribution d'affiliation Commission Junction."
+    },
+    "it": {
+      "title": "Cookie policy | LaplandStays",
+      "description": "Quali cookie usa LaplandStays e perché, salvataggio essenziale del consenso, Google Analytics 4 (solo dopo l'opt-in) e attribuzione affiliata Commission Junction."
+    },
+    "nl": {
+      "title": "Cookiebeleid | LaplandStays",
+      "description": "Welke cookies LaplandStays gebruikt en waarom, essentiële opslag van toestemming, Google Analytics 4 (alleen na opt-in) en Commission Junction affiliate-attributie."
+    }
+  },
+  "/privacy": {
+    "en": {
+      "title": "Privacy Policy | LaplandStays",
+      "description": "How Lapeso Oy (LaplandStays) processes personal data: newsletter signups, analytics and affiliate cookies. GDPR / ePrivacy compliant."
+    },
+    "fi": {
+      "title": "Tietosuojaseloste | LaplandStays",
+      "description": "Miten Lapeso Oy (LaplandStays) käsittelee henkilötietoja: uutiskirjetilaukset, analytiikka ja affiliate-evästeet. GDPR- ja ePrivacy-yhteensopiva."
+    },
+    "de": {
+      "title": "Datenschutzerklärung | LaplandStays",
+      "description": "Wie Lapeso Oy (LaplandStays) personenbezogene Daten verarbeitet: Newsletter-Anmeldungen, Analytics und Affiliate-Cookies. DSGVO-/ePrivacy-konform."
+    },
+    "ja": {
+      "title": "プライバシーポリシー。LaplandStays",
+      "description": "Lapeso Oy（LaplandStays）の個人データの取り扱い：ニュースレター登録、アナリティクス、アフィリエイトCookie。GDPR／ePrivacy準拠。"
+    },
+    "es": {
+      "title": "Política de privacidad | LaplandStays",
+      "description": "Cómo trata Lapeso Oy (LaplandStays) los datos personales: suscripciones al boletín, analítica y cookies de afiliados. Conforme al RGPD y ePrivacy."
+    },
+    "pt-BR": {
+      "title": "Política de privacidade | LaplandStays",
+      "description": "Como a Lapeso Oy (LaplandStays) trata dados pessoais: inscrições na newsletter, analytics e cookies de afiliados. Em conformidade com GDPR/ePrivacy."
+    },
+    "zh-CN": {
+      "title": "隐私政策。LaplandStays",
+      "description": "Lapeso Oy（LaplandStays）如何处理个人数据：新闻通讯订阅、分析及联盟 Cookie。符合 GDPR/ePrivacy。"
+    },
+    "ko": {
+      "title": "개인정보 처리방침. LaplandStays",
+      "description": "Lapeso Oy(LaplandStays)의 개인정보 처리: 뉴스레터 신청, 분석 및 제휴 쿠키. GDPR/ePrivacy 준수."
+    },
+    "fr": {
+      "title": "Politique de confidentialité | LaplandStays",
+      "description": "Comment Lapeso Oy (LaplandStays) traite les données personnelles : inscriptions à la newsletter, analytics et cookies d'affiliation. Conforme RGPD/ePrivacy."
+    },
+    "it": {
+      "title": "Informativa sulla privacy | LaplandStays",
+      "description": "Come Lapeso Oy (LaplandStays) tratta i dati personali: iscrizioni alla newsletter, analytics e cookie di affiliazione. Conforme a GDPR/ePrivacy."
+    },
+    "nl": {
+      "title": "Privacybeleid | LaplandStays",
+      "description": "Hoe Lapeso Oy (LaplandStays) persoonsgegevens verwerkt: nieuwsbriefinschrijvingen, analytics en affiliate-cookies. AVG-/ePrivacy-conform."
+    }
+  },
+  "/terms": {
+    "en": {
+      "title": "Terms of Use | LaplandStays",
+      "description": "Terms of use for laplandstays.com: an editorial affiliate travel guide operated by Lapeso Oy. Bookings are handled by partner platforms, not by us."
+    },
+    "fi": {
+      "title": "Käyttöehdot | LaplandStays",
+      "description": "Laplandstays.comin käyttöehdot: Lapeso Oy:n ylläpitämä toimituksellinen affiliate-matkaopas. Varaukset hoitavat kumppanialustat, eivät me."
+    },
+    "de": {
+      "title": "Nutzungsbedingungen | LaplandStays",
+      "description": "Nutzungsbedingungen für laplandstays.com: ein redaktioneller Affiliate-Reiseführer von Lapeso Oy. Buchungen laufen über Partnerplattformen, nicht über uns."
+    },
+    "ja": {
+      "title": "利用規約。LaplandStays",
+      "description": "laplandstays.comの利用規約：Lapeso Oyが運営する編集型アフィリエイト旅行ガイド。予約は当サイトではなく提携プラットフォームが取り扱います。"
+    },
+    "es": {
+      "title": "Términos de uso | LaplandStays",
+      "description": "Términos de uso de laplandstays.com: una guía de viaje editorial de afiliados operada por Lapeso Oy. Las reservas las gestionan plataformas asociadas, no nosotros."
+    },
+    "pt-BR": {
+      "title": "Termos de uso | LaplandStays",
+      "description": "Termos de uso do laplandstays.com: um guia de viagem editorial de afiliados operado pela Lapeso Oy. As reservas são feitas por plataformas parceiras, não por nós."
+    },
+    "zh-CN": {
+      "title": "使用条款。LaplandStays",
+      "description": "laplandstays.com 使用条款：由 Lapeso Oy 运营的编辑型联盟旅行指南。预订由合作平台处理，而非本站。"
+    },
+    "ko": {
+      "title": "이용약관. LaplandStays",
+      "description": "laplandstays.com 이용약관: Lapeso Oy가 운영하는 에디토리얼 제휴 여행 가이드입니다. 예약은 저희가 아닌 파트너 플랫폼에서 처리합니다."
+    },
+    "fr": {
+      "title": "Conditions d'utilisation | LaplandStays",
+      "description": "Conditions d'utilisation de laplandstays.com : un guide de voyage éditorial affilié exploité par Lapeso Oy. Les réservations sont gérées par des plateformes partenaires, pas par nous."
+    },
+    "it": {
+      "title": "Termini di utilizzo | LaplandStays",
+      "description": "Termini di utilizzo di laplandstays.com: una guida di viaggio editoriale in affiliazione gestita da Lapeso Oy. Le prenotazioni sono gestite da piattaforme partner, non da noi."
+    },
+    "nl": {
+      "title": "Gebruiksvoorwaarden | LaplandStays",
+      "description": "Gebruiksvoorwaarden van laplandstays.com: een redactionele affiliate-reisgids beheerd door Lapeso Oy. Boekingen lopen via partnerplatforms, niet via ons."
+    }
+  }
+}

@@ -3,9 +3,14 @@ import { Search, MapPin, Calendar, Users, Car, Hotel, Plane, ArrowRight } from '
 import { trackAffiliateClick } from '../lib/analytics'
 import { buildAffiliateUrl } from '../lib/affiliate'
 import { buildTripFlightUrl } from '../lib/tripcom'
+import { useLang, type Lang } from '../i18n/useLang'
+import { useCopy } from '../i18n/useCopy'
+import enCopy from './TravelSearchWidget.copy.en'
+import type { Copy } from './TravelSearchWidget.copy.types'
+
 
 const HOTEL_DESTINATIONS = [
-  // "Lapland, Finland" alone Helsinki-snaps on Hotels.com — anchor the
+  // "Lapland, Finland" alone Helsinki-snaps on Hotels.com, anchor the
   // generic option to Rovaniemi (regional capital, deep inventory).
   { label: 'All of Finnish Lapland (Rovaniemi)', value: 'Rovaniemi%2C+Finland' },
   { label: 'Rovaniemi', value: 'Rovaniemi%2C+Finland' },
@@ -32,11 +37,11 @@ const CAR_LOCATIONS = [
 // Flights tab (Trip.com): Helsinki → Lapland airport. Trip.com handles the
 // fare comparison and booking. SID: snake_case, no domain prefix.
 const FLIGHT_DESTINATIONS = [
-  { label: 'Rovaniemi (RVN) — gateway to all of Lapland', iata: 'rvn', sid: 'hero_widget_flight_hel_rvn' },
-  { label: 'Kittilä (KTT) — Levi & Ylläs', iata: 'ktt', sid: 'hero_widget_flight_hel_ktt' },
-  { label: 'Ivalo (IVL) — Saariselkä & Inari', iata: 'ivl', sid: 'hero_widget_flight_hel_ivl' },
-  { label: 'Enontekiö (ENF) — far north fells', iata: 'enf', sid: 'hero_widget_flight_hel_enf' },
-  { label: 'Kemi (KEM) — sea Lapland', iata: 'kem', sid: 'hero_widget_flight_hel_kem' },
+  { label: 'Rovaniemi (RVN), gateway to all of Lapland', iata: 'rvn', sid: 'hero_widget_flight_hel_rvn' },
+  { label: 'Kittilä (KTT), Levi & Ylläs', iata: 'ktt', sid: 'hero_widget_flight_hel_ktt' },
+  { label: 'Ivalo (IVL), Saariselkä & Inari', iata: 'ivl', sid: 'hero_widget_flight_hel_ivl' },
+  { label: 'Enontekiö (ENF), far north fells', iata: 'enf', sid: 'hero_widget_flight_hel_enf' },
+  { label: 'Kemi (KEM), sea Lapland', iata: 'kem', sid: 'hero_widget_flight_hel_kem' },
 ]
 
 // Hotels search → go.laplandvibes.com/go/hotels (CJ Hotels.com via Worker)
@@ -70,9 +75,28 @@ interface Props {
   className?: string
 }
 
+
+const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
+  'en': () => import('./TravelSearchWidget.copy.en'),
+  'fi': () => import('./TravelSearchWidget.copy.fi'),
+  'de': () => import('./TravelSearchWidget.copy.de'),
+  'ja': () => import('./TravelSearchWidget.copy.ja'),
+  'es': () => import('./TravelSearchWidget.copy.es'),
+  'pt-BR': () => import('./TravelSearchWidget.copy.ptBR'),
+  'zh-CN': () => import('./TravelSearchWidget.copy.zhCN'),
+  'ko': () => import('./TravelSearchWidget.copy.ko'),
+  'fr': () => import('./TravelSearchWidget.copy.fr'),
+  'it': () => import('./TravelSearchWidget.copy.it'),
+  'nl': () => import('./TravelSearchWidget.copy.nl'),
+}
+
+const cache: Partial<Record<Lang, Copy>> = {}
+
 export default function TravelSearchWidget({ defaultTab = 'hotels', className = '' }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>(defaultTab)
   const defaults = getDefaults()
+  const lang = useLang()
+  const wc = useCopy<Copy>(enCopy, loaders, cache)
 
   const [hotelDest, setHotelDest] = useState(HOTEL_DESTINATIONS[0].value)
   const [hotelCheckIn, setHotelCheckIn] = useState(defaults.checkIn)
@@ -104,6 +128,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
         depart: flightDepart,
         returnDate: flightReturn,
         triptype: 'rt',
+        lang,
       })
       partner = 'tripcom'
       type = `flight:hel_${opt.iata}`
@@ -122,16 +147,20 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
       type = 'car-rental'
     }
     trackAffiliateClick(partner, type, url)
-    // `noopener` only — the redirect Worker reads Referer to attribute clicks per-domain;
+    // `noopener` only, the redirect Worker reads Referer to attribute clicks per-domain;
     // `noreferrer` would strip that and break sub_site tracking.
     window.open(url, '_blank', 'noopener')
   }
 
   const tabs: { key: Tab; label: string; icon: typeof Hotel; provider: string }[] = [
-    { key: 'hotels', label: 'Hotels & Cabins', icon: Hotel, provider: 'Hotels.com' },
-    { key: 'flights', label: 'Flights', icon: Plane, provider: 'Trip.com' },
-    { key: 'cars', label: 'Car Rental', icon: Car, provider: 'EconomyBookings' },
+    { key: 'hotels', label: wc.tabs.hotels, icon: Hotel, provider: 'Hotels.com' },
+    { key: 'flights', label: wc.tabs.flights, icon: Plane, provider: 'Trip.com' },
+    { key: 'cars', label: wc.tabs.cars, icon: Car, provider: 'EconomyBookings' },
   ]
+  // Translate first destination label only, the others are place names
+  const hotelDestOptions = HOTEL_DESTINATIONS.map((d, i) =>
+    i === 0 ? { ...d, label: wc.destOptions.all } : d
+  )
 
   const selectCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-4 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none appearance-none cursor-pointer transition-colors'
   const dateCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-3 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none [color-scheme:dark] transition-colors'
@@ -151,13 +180,13 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
             <button
               key={key}
               onClick={() => setActiveTab(key)}
-              className={`flex-1 flex items-center justify-center gap-3 py-5 sm:py-6 text-[14px] sm:text-[16px] font-bold tracking-wide uppercase transition-all border-b-2 ${
+              className={`flex-1 min-w-0 flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2.5 px-1 py-3 sm:py-6 text-[11px] sm:text-[16px] font-bold tracking-wide uppercase leading-tight text-center transition-all border-b-2 ${
                 activeTab === key
                   ? 'bg-vibe-pink/20 text-white border-vibe-pink'
                   : 'text-white/85 hover:text-white hover:bg-white/10 border-transparent'
               }`}
             >
-              <Icon className="w-5 h-5" />
+              <Icon className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
               <span>{label}</span>
             </button>
           ))}
@@ -169,37 +198,37 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
           {activeTab === 'hotels' && (
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div>
-                <label className={labelCls}>Destination</label>
+                <label className={labelCls}>{wc.destination}</label>
                 <div className="relative">
                   <MapPin className={iconCls} />
-                  <select value={hotelDest} onChange={(e) => setHotelDest(e.target.value)} className={selectCls}>
-                    {HOTEL_DESTINATIONS.map((d) => (
+                  <select aria-label={wc.destination} value={hotelDest} onChange={(e) => setHotelDest(e.target.value)} className={selectCls}>
+                    {hotelDestOptions.map((d) => (
                       <option key={d.label} value={d.value} style={optStyle}>{d.label}</option>
                     ))}
                   </select>
                 </div>
               </div>
               <div>
-                <label className={labelCls}>Guests</label>
+                <label className={labelCls}>{wc.guests}</label>
                 <div className="relative">
                   <Users className={iconCls} />
-                  <select value={hotelGuests} onChange={(e) => setHotelGuests(Number(e.target.value))} className={selectCls}>
-                    {[1, 2, 3, 4, 5, 6].map(n => <option key={n} value={n} style={optStyle}>{n} {n === 1 ? 'Guest' : 'Guests'}</option>)}
+                  <select aria-label={wc.guests} value={hotelGuests} onChange={(e) => setHotelGuests(Number(e.target.value))} className={selectCls}>
+                    {[1, 2, 3, 4, 5, 6].map(n => <option key={n} value={n} style={optStyle}>{n} {n === 1 ? wc.guestSingular : wc.guestPlural}</option>)}
                   </select>
                 </div>
               </div>
               <div>
-                <label className={labelCls}>Check in</label>
+                <label className={labelCls}>{wc.checkIn}</label>
                 <div className="relative">
                   <Calendar className={iconCls} />
-                  <input type="date" value={hotelCheckIn} onChange={(e) => setHotelCheckIn(e.target.value)} className={dateCls} />
+                  <input aria-label={wc.checkIn} type="date" value={hotelCheckIn} onChange={(e) => setHotelCheckIn(e.target.value)} className={dateCls} />
                 </div>
               </div>
               <div>
-                <label className={labelCls}>Check out</label>
+                <label className={labelCls}>{wc.checkOut}</label>
                 <div className="relative">
                   <Calendar className={iconCls} />
-                  <input type="date" value={hotelCheckOut} onChange={(e) => setHotelCheckOut(e.target.value)} className={dateCls} />
+                  <input aria-label={wc.checkOut} type="date" value={hotelCheckOut} onChange={(e) => setHotelCheckOut(e.target.value)} className={dateCls} />
                 </div>
               </div>
             </div>
@@ -208,10 +237,10 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
           {activeTab === 'flights' && (
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div>
-                <label className={labelCls}>Helsinki to</label>
+                <label className={labelCls}>{wc.helsinkiTo}</label>
                 <div className="relative">
                   <Plane className={iconCls} />
-                  <select value={flightDest} onChange={(e) => setFlightDest(e.target.value)} className={selectCls}>
+                  <select aria-label={wc.helsinkiTo} value={flightDest} onChange={(e) => setFlightDest(e.target.value)} className={selectCls}>
                     {FLIGHT_DESTINATIONS.map((d) => (
                       <option key={d.iata} value={d.iata} style={optStyle}>{d.label}</option>
                     ))}
@@ -219,17 +248,17 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
                 </div>
               </div>
               <div>
-                <label className={labelCls}>Depart</label>
+                <label className={labelCls}>{wc.depart}</label>
                 <div className="relative">
                   <Calendar className={iconCls} />
-                  <input type="date" value={flightDepart} onChange={(e) => setFlightDepart(e.target.value)} className={dateCls} />
+                  <input aria-label={wc.depart} type="date" value={flightDepart} onChange={(e) => setFlightDepart(e.target.value)} className={dateCls} />
                 </div>
               </div>
               <div>
-                <label className={labelCls}>Return</label>
+                <label className={labelCls}>{wc.return}</label>
                 <div className="relative">
                   <Calendar className={iconCls} />
-                  <input type="date" value={flightReturn} onChange={(e) => setFlightReturn(e.target.value)} className={dateCls} />
+                  <input aria-label={wc.return} type="date" value={flightReturn} onChange={(e) => setFlightReturn(e.target.value)} className={dateCls} />
                 </div>
               </div>
             </div>
@@ -238,26 +267,26 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
           {activeTab === 'cars' && (
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div>
-                <label className={labelCls}>Pick-up location</label>
+                <label className={labelCls}>{wc.pickUpLocation}</label>
                 <div className="relative">
                   <Car className={iconCls} />
-                  <select value={carLocation} onChange={(e) => setCarLocation(e.target.value)} className={selectCls}>
+                  <select aria-label={wc.pickUpLocation} value={carLocation} onChange={(e) => setCarLocation(e.target.value)} className={selectCls}>
                     {CAR_LOCATIONS.map(l => <option key={l.value} value={l.value} style={optStyle}>{l.label}</option>)}
                   </select>
                 </div>
               </div>
               <div>
-                <label className={labelCls}>Pick-up date</label>
+                <label className={labelCls}>{wc.pickUpDate}</label>
                 <div className="relative">
                   <Calendar className={iconCls} />
-                  <input type="date" value={carPickUp} onChange={(e) => setCarPickUp(e.target.value)} className={dateCls} />
+                  <input aria-label={wc.pickUpDate} type="date" value={carPickUp} onChange={(e) => setCarPickUp(e.target.value)} className={dateCls} />
                 </div>
               </div>
               <div>
-                <label className={labelCls}>Drop-off date</label>
+                <label className={labelCls}>{wc.dropOffDate}</label>
                 <div className="relative">
                   <Calendar className={iconCls} />
-                  <input type="date" value={carDropOff} onChange={(e) => setCarDropOff(e.target.value)} className={dateCls} />
+                  <input aria-label={wc.dropOffDate} type="date" value={carDropOff} onChange={(e) => setCarDropOff(e.target.value)} className={dateCls} />
                 </div>
               </div>
             </div>
@@ -268,16 +297,12 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
             className="mt-6 w-full bg-vibe-pink hover:bg-vibe-pink/90 text-white font-bold py-4 sm:py-5 rounded-xl transition-all duration-300 text-[15px] sm:text-base uppercase tracking-wider inline-flex items-center justify-center gap-2.5 hover:shadow-xl hover:shadow-vibe-pink/30 hover:-translate-y-0.5 active:translate-y-0"
           >
             <Search className="w-5 h-5" />
-            {activeTab === 'hotels'
-              ? 'Search Hotels & Cabins'
-              : activeTab === 'flights'
-                ? 'Search Flights'
-                : 'Compare Car Rentals'}
+            {activeTab === 'hotels' ? wc.searchHotels : activeTab === 'flights' ? wc.searchFlights : wc.compareCars}
             <ArrowRight className="w-4 h-4" />
           </button>
 
           <p className="text-center text-white/65 text-xs mt-4">
-            Powered by {tabs.find(t => t.key === activeTab)?.provider} — you book securely on their&nbsp;platform
+            {wc.poweredBy(tabs.find(t => t.key === activeTab)?.provider || '')}
           </p>
         </div>
       </div>

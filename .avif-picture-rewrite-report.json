@@ -1,0 +1,14 @@
+{
+  "site": "laplandstays-new",
+  "files_touched": 1,
+  "img_rewrites": 1,
+  "skipped_no_avif": 0,
+  "skipped_in_picture": 0,
+  "skipped_dynamic": 0,
+  "log": [
+    {
+      "file": "src\\components\\BookingCTA.tsx",
+      "src": "/images/booking-cta-bg.webp"
+    }
+  ]
+}

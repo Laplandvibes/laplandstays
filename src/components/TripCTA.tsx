@@ -1,6 +1,7 @@
 import type { ReactNode, MouseEvent } from 'react';
-import { buildTripFlightUrl, buildTripTransportUrl, buildTripFlightHome, buildTripTransportHome } from '../lib/tripcom';
+import { buildTripFlightUrl, buildTripTransportUrl, buildTripFlightHome, buildTripTransportHome, type TripLang } from '../lib/tripcom';
 import { trackAffiliateClick } from '../lib/analytics';
+import { useLang } from '../i18n/useLang';
 
 interface BaseProps {
   /** snake_case placement tag, e.g. `hero_cta`, `transport_flight_hel_rvn`. */
@@ -41,12 +42,13 @@ export type TripCTAProps = FlightProps | TransportProps | HomeProps;
  * `rel="sponsored nofollow noopener"`. Tracks click via GA4
  * `affiliate_click` (partner=tripcom).
  *
- * Trip.com URLs DO NOT route through go.laplandvibes.com — go.lv is for CJ
+ * Trip.com URLs DO NOT route through go.laplandvibes.com, go.lv is for CJ
  * partners only. Trip.com tracks via the Allianceid / SID / trip_sub*
  * params attached by the URL builders in `lib/tripcom.ts`.
  */
 export default function TripCTA(props: TripCTAProps) {
-  const href = buildHref(props);
+  const lang = useLang();
+  const href = buildHref(props, lang);
 
   const handleClick = () => {
     trackAffiliateClick('tripcom', `${props.kind}:${props.sid}`, href);
@@ -68,7 +70,7 @@ export default function TripCTA(props: TripCTAProps) {
   );
 }
 
-function buildHref(p: TripCTAProps): string {
+function buildHref(p: TripCTAProps, lang: TripLang): string {
   switch (p.kind) {
     case 'flight':
       return buildTripFlightUrl({
@@ -78,6 +80,7 @@ function buildHref(p: TripCTAProps): string {
         depart: p.depart,
         returnDate: p.returnDate,
         triptype: p.triptype,
+        lang,
       });
     case 'bus':
       return buildTripTransportUrl({
@@ -86,6 +89,7 @@ function buildHref(p: TripCTAProps): string {
         tab: 'coach',
         sid: p.sid,
         depart: p.depart,
+        lang,
       });
     case 'train':
       return buildTripTransportUrl({
@@ -94,10 +98,11 @@ function buildHref(p: TripCTAProps): string {
         tab: 'train',
         sid: p.sid,
         depart: p.depart,
+        lang,
       });
     case 'flight-home':
-      return buildTripFlightHome(p.sid);
+      return buildTripFlightHome(p.sid, lang);
     case 'transport-home':
-      return buildTripTransportHome(p.sid);
+      return buildTripTransportHome(p.sid, 'coach', lang);
   }
 }

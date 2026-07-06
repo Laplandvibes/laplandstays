@@ -1,8 +1,11 @@
 import { useState, type FormEvent } from 'react'
+import { Link } from 'react-router-dom'
 import { ArrowRight, CheckCircle2, Bell, BedDouble, Compass, Sparkles, AlertCircle } from 'lucide-react'
 import { trackNewsletterSignup } from '../lib/analytics'
+import { useLang, useLocalePath } from '../i18n/useLang'
+import { useCopy } from '../locales/copy'
 
-// Same-origin Cloudflare Pages Function — proxies the call to the shared
+// Same-origin Cloudflare Pages Function, proxies the call to the shared
 // Supabase Edge Function `send-welcome-email`. Routes via /api/newsletter so
 // the browser never sees a cross-origin request (Supabase function only
 // allow-lists laplandvibes.com origin; spoke sites use this proxy).
@@ -10,33 +13,15 @@ import { trackNewsletterSignup } from '../lib/analytics'
 const ENDPOINT = '/api/newsletter'
 const SOURCE = 'laplandstays'
 
-const benefits: { icon: typeof Bell; title: string; body: string }[] = [
-  {
-    icon: Bell,
-    title: 'Aurora alerts',
-    body: 'Heads-up when Kp spikes line up with clear skies — book the right night, not the wrong one.',
-  },
-  {
-    icon: BedDouble,
-    title: 'Cabin drops',
-    body: 'First word when Kakslauttanen, Levin Iglut, Star Arctic and Aurora Village release peak-season inventory.',
-  },
-  {
-    icon: Compass,
-    title: 'Planning help',
-    body: 'When to come, what to book first, what to skip — written by people who actually live in Finnish Lapland.',
-  },
-  {
-    icon: Sparkles,
-    title: 'Insider rates',
-    body: 'Seasonal and partner-only deals our operators share with the list before anyone else.',
-  },
-]
+const ICONS: typeof Bell[] = [Bell, BedDouble, Compass, Sparkles]
 
 export default function Newsletter() {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle')
   const [error, setError] = useState<string | null>(null)
+  const lang = useLang()
+  const to = useLocalePath()
+  const c = useCopy().newsletter
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault()
@@ -58,10 +43,15 @@ export default function Newsletter() {
       setStatus('done')
     } catch (err) {
       setStatus('error')
+      const fallback = lang === 'fi'
+        ? 'Tilauksen lähetys epäonnistui. Yritä uudelleen tai lähetä sähköpostia info@laplandvibes.com.'
+        : 'Could not subscribe. Try again or email info@laplandvibes.com.'
       setError(
         err instanceof Error
-          ? `Could not subscribe (${err.message}). Try again or email info@laplandvibes.com.`
-          : 'Could not subscribe. Try again or email info@laplandvibes.com.',
+          ? lang === 'fi'
+            ? `Tilauksen lähetys epäonnistui (${err.message}). Yritä uudelleen tai lähetä sähköpostia info@laplandvibes.com.`
+            : `Could not subscribe (${err.message}). Try again or email info@laplandvibes.com.`
+          : fallback,
       )
     }
   }
@@ -77,20 +67,19 @@ export default function Newsletter() {
       <div className="max-w-5xl mx-auto">
         <div className="text-center max-w-3xl mx-auto">
           <p className="text-xs sm:text-sm tracking-[0.3em] uppercase text-white/85 font-semibold mb-3">
-            LaplandStays Insider
+            {c.eyebrow}
           </p>
           <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl text-white tracking-wide mb-4">
-            Plan Your Lapland Trip With Us
+            {c.h2}
           </h2>
           <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
-            One short email through aurora season — written by the team that lives in Finnish
-            Lapland. Skip the search, get the dates, lock the cabin.
+            {c.lead}
           </p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-12">
-          {benefits.map((b) => {
-            const Icon = b.icon
+          {c.benefits.map((b, i) => {
+            const Icon = ICONS[i] ?? Sparkles
             return (
               <div
                 key={b.title}
@@ -110,19 +99,19 @@ export default function Newsletter() {
           {status === 'done' ? (
             <div className="inline-flex items-center gap-3 bg-white/15 backdrop-blur-sm border border-white/30 text-white px-6 py-4 rounded-2xl">
               <CheckCircle2 className="w-6 h-6 shrink-0" />
-              <p className="text-base font-medium">You're on the list. See you under the aurora.</p>
+              <p className="text-base font-medium">{c.success}</p>
             </div>
           ) : (
             <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-3">
               <label className="sr-only" htmlFor="newsletter-email">
-                Email address
+                {c.emailLabel}
               </label>
               <input
                 id="newsletter-email"
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="your@email.com"
+                placeholder={c.emailPlaceholder}
                 required
                 className="flex-1 px-5 py-4 rounded-xl text-night bg-white placeholder:text-charcoal/50 focus:outline-none focus:ring-2 focus:ring-white/70 border border-white/40"
               />
@@ -132,7 +121,7 @@ export default function Newsletter() {
                 className="px-6 py-4 bg-white text-pink font-bold rounded-xl hover:bg-gray-100 transition-colors flex items-center gap-2 justify-center disabled:opacity-70 disabled:cursor-not-allowed"
                 style={{ color: '#DB2777' }}
               >
-                {status === 'loading' ? 'Joining…' : 'Get the next email'}
+                {status === 'loading' ? c.submitting : c.submit}
                 <ArrowRight className="w-4 h-4" />
               </button>
             </form>
@@ -145,9 +134,9 @@ export default function Newsletter() {
             </div>
           )}
 
-          <p className="text-white/70 text-xs mt-5">
-            Roughly 2–4 emails per month through aurora season. One-click unsubscribe.{' '}
-            <a href="/privacy" className="underline hover:text-white">Privacy Policy</a>.
+          <p className="text-white/90 text-xs mt-5">
+            {c.footnote}{' '}
+            <Link to={to('/privacy')} className="underline hover:text-white">{c.privacyLink}</Link>.
           </p>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import type { ReactNode, MouseEvent } from 'react'
 import { buildAffiliateUrl, type Partner } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
+import { useLang } from '../i18n/useLang'
 
 interface AffiliateCTAProps {
   partner: Partner
@@ -23,7 +24,7 @@ interface AffiliateCTAProps {
  * Required attributes per spec §6:
  *   target="_blank"
  *   rel="sponsored nofollow noopener"
- * `noreferrer` is intentionally OMITTED — the redirect Worker reads `Referer`
+ * `noreferrer` is intentionally OMITTED, the redirect Worker reads `Referer`
  * to resolve the per-domain CJ Website ID for attribution.
  */
 export default function AffiliateCTA({
@@ -37,7 +38,8 @@ export default function AffiliateCTA({
   onMouseEnter,
   onMouseLeave,
 }: AffiliateCTAProps) {
-  const href = buildAffiliateUrl({ partner, sid, destination, query })
+  const lang = useLang()
+  const href = buildAffiliateUrl({ partner, sid, destination, query, lang })
 
   const handleClick = () => {
     trackAffiliateClick(partnerToTrackingLabel(partner), sid, href)

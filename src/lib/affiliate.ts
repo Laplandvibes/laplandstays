@@ -3,6 +3,8 @@
 // Spec: "LaplandVibes Affiliate System — Developer Handoff" (2026-04-25).
 
 const REDIRECT_BASE = 'https://go.laplandvibes.com'
+const GYG_PARTNER_ID = 'VRMKD7N'
+const SITE_ID = 'laplandstays'
 
 export type Partner =
   | 'hotels'
@@ -11,6 +13,65 @@ export type Partner =
   | 'cars'
   | 'activities'
 
+
+export type Lang = "en" | "fi" | "de" | "ja" | "es" | "pt-BR" | "zh-CN" | "ko" | "fr" | "it" | "nl";
+
+const HOTELS_LOCALE: Record<Lang, string> = {
+  en: "en_US",
+  fi: "fi_FI",
+  de: "de_DE",
+  ja: "ja_JP",
+  es: "es_ES",
+  "pt-BR": "pt_BR",
+  "zh-CN": "zh_CN",
+  ko: "ko_KR",
+  fr: "fr_FR",
+  it: "it_IT",
+  nl: "nl_NL",
+};
+
+const CARS_LANG: Record<Lang, string> = {
+  en: "en",
+  fi: "fi",
+  de: "de",
+  ja: "ja",
+  es: "es",
+  "pt-BR": "pt",
+  "zh-CN": "zh",
+  ko: "ko",
+  fr: "fr",
+  it: "it",
+  nl: "nl",
+};
+
+const GYG_DOMAIN: Record<Lang, string> = {
+  en: "https://www.getyourguide.com",
+  fi: "https://www.getyourguide.com",
+  de: "https://www.getyourguide.de",
+  ja: "https://www.getyourguide.com",
+  es: "https://www.getyourguide.es",
+  "pt-BR": "https://www.getyourguide.com.br",
+  "zh-CN": "https://www.getyourguide.com",
+  ko: "https://www.getyourguide.com",
+  fr: "https://www.getyourguide.fr",
+  it: "https://www.getyourguide.it",
+  nl: "https://www.getyourguide.nl",
+};
+
+const GYG_LANGUAGE: Record<Lang, string | undefined> = {
+  en: undefined,
+  fi: "fi",
+  de: undefined,
+  ja: "ja",
+  es: "es",
+  "pt-BR": "pt-br",
+  "zh-CN": "zh",
+  ko: "ko",
+  fr: "fr",
+  it: "it",
+  nl: "nl",
+};
+
 export interface BuildAffiliateOptions {
   partner: Partner
   sid: string
@@ -18,6 +79,8 @@ export interface BuildAffiliateOptions {
   destination?: string
   /** Any additional query params (checkin, pickup_date, adults, etc). */
   query?: Record<string, string | number | undefined>
+  /** Active site language; defaults to "en" for backwards compat. */
+  lang?: Lang;
 }
 
 export function buildAffiliateUrl({
@@ -25,30 +88,51 @@ export function buildAffiliateUrl({
   sid,
   destination,
   query,
+  lang = "en",
 }: BuildAffiliateOptions): string {
-  const params = new URLSearchParams()
-  params.set('sid', sid)
+  // ─── GYG direct deep-link (Worker-bypass) ─────────────────────────────
+  if (partner === "activities") {
+    const base = GYG_DOMAIN[lang];
+    const path = (destination ?? "").replace(/^\/+/, "").replace(/\/+$/, "");
+    const url = new URL(path ? `${base}/${path}/` : `${base}/`);
+    url.searchParams.set("partner_id", GYG_PARTNER_ID);
+    url.searchParams.set("cmp", `lv_${SITE_ID}_${sid}`);
+    const gygLang = GYG_LANGUAGE[lang];
+    if (gygLang) url.searchParams.set("language", gygLang);
+    if (query) {
+      for (const [k, v] of Object.entries(query)) {
+        if (v !== undefined && v !== null && v !== "") {
+          url.searchParams.set(k, String(v));
+        }
+      }
+    }
+    return url.toString();
+  }
 
-  if (destination && partner !== 'activities') {
-    params.set('ss', destination)
+  // ─── Hotels / Cars via Worker ─────────────────────────────────────────
+  const params = new URLSearchParams();
+  params.set("sid", sid);
+
+  if (destination) {
+    params.set("ss", destination);
+  }
+
+  if (partner === "hotels" || partner === "hotels-seasonal" || partner === "hotels-budget") {
+    params.set("locale", HOTELS_LOCALE[lang]);
+  } else if (partner === "cars") {
+    params.set("lang", CARS_LANG[lang]);
   }
 
   if (query) {
     for (const [k, v] of Object.entries(query)) {
-      if (v !== undefined && v !== null && v !== '') {
-        params.set(k, String(v))
+      if (v !== undefined && v !== null && v !== "") {
+        params.set(k, String(v));
       }
     }
   }
 
-  let pathname = `/go/${partner}`
-  if (partner === 'activities' && destination) {
-    pathname = `/go/activities/${destination}`
-  }
-
-  return `${REDIRECT_BASE}${pathname}?${params.toString()}`
+  return `${REDIRECT_BASE}/go/${partner}?${params.toString()}`;
 }
-
 // ─── Convenience: search-style hotel URL ─────────────────────────────────────
 // Use when a specific property name isn't known and we just want the destination
 // city's Hotels.com results. SID convention: snake_case, no domain prefix.
@@ -83,52 +167,68 @@ export function buildHotelSearchWithDates(
 // fall back to the user's geo-snapped city (Helsinki for FI users) and show
 // non-Lapland results. Always pin generic "all of Lapland" CTAs to Rovaniemi
 // (regional capital, valid destination, deepest inventory in the region).
-export const HOTEL_SEARCH = {
+function buildHotelSearchLang(lang: Lang = "en") {
+  return {
   // Generic landings — used by Nav "Book Now" and homepage hero CTA.
   // Pinned to Rovaniemi so the result page actually shows Lapland properties.
-  lapland: buildAffiliateUrl({ partner: 'hotels', sid: 'hero_cta', destination: 'Rovaniemi, Finland' }),
-  navBookNow: buildAffiliateUrl({ partner: 'hotels', sid: 'nav_book_now', destination: 'Rovaniemi, Finland' }),
+  lapland: buildAffiliateUrl({ partner: 'hotels', sid: 'hero_cta', destination: 'Rovaniemi, Finland', lang }),
+  navBookNow: buildAffiliateUrl({ partner: 'hotels', sid: 'nav_book_now', destination: 'Rovaniemi, Finland', lang }),
 
   // Destinations (real Hotels.com locations).
-  levi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_levi', destination: 'Levi, Finland' }),
-  yllas: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_yllas', destination: 'Ylläs, Finland' }),
-  saariselka: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_saariselka', destination: 'Saariselkä, Finland' }),
-  inari: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_inari', destination: 'Inari, Finland' }),
-  rovaniemi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_rovaniemi', destination: 'Rovaniemi, Finland' }),
+  levi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_levi', destination: 'Levi, Finland', lang }),
+  yllas: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_yllas', destination: 'Ylläs, Finland', lang }),
+  saariselka: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_saariselka', destination: 'Saariselkä, Finland', lang }),
+  inari: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_inari', destination: 'Inari, Finland', lang }),
+  rovaniemi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_rovaniemi', destination: 'Rovaniemi, Finland', lang }),
 
   // Property categories — point at the city where the category is concentrated.
   // SID still records the category; user lands on real results, not a 0-hit page.
-  auroraGlass: buildAffiliateUrl({ partner: 'hotels', sid: 'property_aurora_glass', destination: 'Saariselkä, Finland' }),
-  lakesideCabin: buildAffiliateUrl({ partner: 'hotels', sid: 'property_lakeside_cabin', destination: 'Inari, Finland' }),
-  mountainChalet: buildAffiliateUrl({ partner: 'hotels', sid: 'property_mountain_chalet', destination: 'Levi, Finland' }),
-  designerLodge: buildAffiliateUrl({ partner: 'hotels', sid: 'property_designer_lodge', destination: 'Saariselkä, Finland' }),
-  hotel: buildAffiliateUrl({ partner: 'hotels', sid: 'property_hotel', destination: 'Rovaniemi, Finland' }),
-  apartment: buildAffiliateUrl({ partner: 'hotels', sid: 'property_apartment', destination: 'Levi, Finland' }),
+  auroraGlass: buildAffiliateUrl({ partner: 'hotels', sid: 'property_aurora_glass', destination: 'Saariselkä, Finland', lang }),
+  lakesideCabin: buildAffiliateUrl({ partner: 'hotels', sid: 'property_lakeside_cabin', destination: 'Inari, Finland', lang }),
+  mountainChalet: buildAffiliateUrl({ partner: 'hotels', sid: 'property_mountain_chalet', destination: 'Levi, Finland', lang }),
+  designerLodge: buildAffiliateUrl({ partner: 'hotels', sid: 'property_designer_lodge', destination: 'Saariselkä, Finland', lang }),
+  hotel: buildAffiliateUrl({ partner: 'hotels', sid: 'property_hotel', destination: 'Rovaniemi, Finland', lang }),
+  apartment: buildAffiliateUrl({ partner: 'hotels', sid: 'property_apartment', destination: 'Levi, Finland', lang }),
+  };
 }
 
 // ─── Specific properties — deep-link via ?ss=PROPERTY_NAME ───────────────────
 // Spec section 8: when a card features a known property, send the visitor to
 // Hotels.com with that property name pre-filled.
-export const PROPERTY_SEARCH = {
-  kakslauttanen: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Kakslauttanen Arctic Resort' }),
-  levinIglut: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Levin Iglut' }),
-  arcticTreeHouse: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Arctic TreeHouse Hotel' }),
-  starArctic: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Star Arctic Hotel' }),
-  auroraVillage: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Aurora Village Ivalo' }),
-  arcticSnowHotel: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Arctic Snow Hotel' }),
-  nellim: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Wilderness Hotel Nellim' }),
-  muotka: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Wilderness Hotel Muotka' }),
-  novaSkyland: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Novasky Land' }),
-  apukka: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Apukka Resort Rovaniemi' }),
-  laplandHotels: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Lapland Hotels' }),
-  harriniva: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Harriniva' }),
+function buildPropertySearchLang(lang: Lang = "en") {
+  return {
+  kakslauttanen: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Kakslauttanen Arctic Resort', lang }),
+  levinIglut: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Levin Iglut', lang }),
+  arcticTreeHouse: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Arctic TreeHouse Hotel', lang }),
+  starArctic: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Star Arctic Hotel', lang }),
+  auroraVillage: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Aurora Village Ivalo', lang }),
+  arcticSnowHotel: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Arctic Snow Hotel', lang }),
+  nellim: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Wilderness Hotel Nellim', lang }),
+  muotka: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Wilderness Hotel Muotka', lang }),
+  novaSkyland: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Novasky Land', lang }),
+  apukka: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Apukka Resort Rovaniemi', lang }),
+  laplandHotels: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Lapland Hotels', lang }),
+  harriniva: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Harriniva', lang }),
+  };
 }
 
 // ─── EconomyBookings (cars) ──────────────────────────────────────────────────
-export const CARS = {
+function buildCarsLang(lang: Lang = "en") {
+  return {
   fromHelsinki: buildAffiliateUrl({ partner: 'cars', sid: 'cars_helsinki', query: { pickup_location: 'HEL' } }),
   fromRovaniemi: buildAffiliateUrl({ partner: 'cars', sid: 'cars_rovaniemi', query: { pickup_location: 'RVN' } }),
   fromKittila: buildAffiliateUrl({ partner: 'cars', sid: 'cars_kittila', query: { pickup_location: 'KTT' } }),
   fromIvalo: buildAffiliateUrl({ partner: 'cars', sid: 'cars_ivalo', query: { pickup_location: 'IVL' } }),
-  generic: buildAffiliateUrl({ partner: 'cars', sid: 'cars_generic' }),
+  generic: buildAffiliateUrl({ partner: 'cars', sid: 'cars_generic', lang }),
+  };
 }
+
+/** Default EN-locale exports (backward compat — existing pages reference these as objects). */
+export const HOTEL_SEARCH = buildHotelSearchLang('en');
+export const PROPERTY_SEARCH = buildPropertySearchLang('en');
+export const CARS = buildCarsLang('en');
+
+/** Locale-aware factories — use these when you need DE/FI URLs. */
+export const HOTEL_SEARCH_FOR = buildHotelSearchLang;
+export const PROPERTY_SEARCH_FOR = buildPropertySearchLang;
+export const CARS_FOR = buildCarsLang;
