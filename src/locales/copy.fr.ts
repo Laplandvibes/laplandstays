@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Politique éditoriale', about: 'À propos' },
   pages: {
     home: {
-      faq: [
-        { q: 'Combien coûte un iglou en verre en Laponie par nuit ?', a: "Les iglous en verre en Laponie finlandaise vont d'environ 250 €/nuit au Nova Skyland de Rovaniemi jusqu'à 1 500 €/nuit au Kakslauttanen Arctic Resort à Saariselkä en haute saison aurore." },
-        { q: 'Quel est le meilleur endroit en Laponie pour les aurores boréales ?', a: "Pour une fréquence élevée d'aurores, montez le plus au nord possible. Saariselkä et Inari se trouvent dans l'ovale auroral et bénéficient d'environ 200 nuits d'aurores par an." },
-        { q: 'Combien coûte un hébergement en Laponie pour un petit budget ?', a: 'Les hôtels et chaînes de chalets en Laponie commencent à environ 100 €/nuit. Les chalets aurores boréales commencent près de 150 €/nuit hors haute saison.' },
-        { q: "Quel est le meilleur moment pour voir les aurores depuis un chalet de Laponie ?", a: "La saison des aurores en Laponie finlandaise s'étend de fin août à début avril. De novembre à février offre les créneaux d'observation les plus réguliers." },
-        { q: 'Les chalets et iglous de Laponie ont-ils des saunas privés ?', a: 'Oui. Presque chaque chalet, villa et chalet en Laponie finlandaise dispose de son propre sauna, au bois, électrique ou les deux.' },
-        { q: 'Quelle destination en Laponie est la mieux pour une première visite ?', a: "Levi est l'introduction la plus facile, vols directs en hiver vers Kittilä, restaurants et boutiques à distance de marche, programme de safari complet depuis le village." },
-      ],
       seoTitle: 'Où loger en Laponie 2026, iglous, chalets, vrais tarifs',
       seoDescription: 'Préparez votre séjour Laponie 2026 : iglous en verre dès 250 €/nuit, chalets aurores dès 150 €, hôtels dès 100 €. Levi, Ylläs, Saariselkä, Inari.',
     },

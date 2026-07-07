@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Política editorial', about: 'Acerca de' },
   pages: {
     home: {
-      faq: [
-        { q: '¿Cuánto cuesta un iglú de cristal en Laponia por noche?', a: 'Los iglús de cristal en la Laponia finlandesa van desde unos 250 € por noche en Nova Skyland (Rovaniemi) hasta 1.500 € por noche en Kakslauttanen Arctic Resort (Saariselkä) en temporada alta de auroras.' },
-        { q: '¿Cuál es el mejor lugar para ver la aurora boreal en Laponia?', a: 'Para una alta frecuencia de auroras, suba lo más al norte posible. Saariselkä e Inari están dentro del óvalo auroral y tienen unas 200 noches con aurora visible al año.' },
-        { q: '¿Qué cuesta alojarse en Laponia con presupuesto ajustado?', a: 'Los hoteles laponos y cadenas de cabañas empiezan en torno a los 100 € por noche. Las cabañas de aurora en Apukka Resort, Arctic SnowHotel y similares parten de unos 150 € por noche fuera de temporada alta.' },
-        { q: '¿Cuál es la mejor época para ver la aurora desde una cabaña?', a: 'La temporada de auroras en la Laponia finlandesa va desde finales de agosto a principios de abril. De noviembre a febrero ofrece las ventanas de observación más estables.' },
-        { q: '¿Las cabañas e iglús de Laponia tienen sauna privada?', a: 'Sí. Casi todas las cabañas, villas y chalets en la Laponia finlandesa cuentan con sauna propia, ya sea de leña, eléctrica o ambas.' },
-        { q: '¿Qué destino lapón es mejor para una primera visita?', a: 'Levi es la introducción más fácil: vuelos directos invernales a Kittilä, restaurantes y tiendas a pocos pasos y un programa completo de safaris desde el pueblo.' },
-      ],
       seoTitle: 'Alojamiento en Laponia: iglús de cristal | LaplandStays',
       seoDescription: 'Dónde alojarse en Laponia: iglús de cristal desde 250 €/noche, cabañas de aurora boreal desde 150 € y hoteles desde 100 € en Levi, Ylläs, Saariselkä e Inari.',
     },

@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Redactioneel beleid', about: 'Over ons' },
   pages: {
     home: {
-      faq: [
-        { q: 'Hoeveel kost een glazen iglo in Lapland per nacht?', a: "Glazen iglo's in Fins Lapland variëren van ongeveer €250/nacht bij Nova Skyland in Rovaniemi tot €1.500/nacht bij Kakslauttanen Arctic Resort in Saariselkä in het noorderlicht-hoogseizoen." },
-        { q: 'Wat is de beste plek in Lapland voor het noorderlicht?', a: "Voor een hoge noorderlicht-frequentie gaat u zo ver mogelijk naar het noorden. Saariselkä en Inari liggen in het noorderlicht-ovaal en hebben ongeveer 200 nachten met zichtbare aurora per jaar." },
-        { q: 'Wat kost een Lapland-accommodatie op budget?', a: 'Lapland-hotels en hutketens beginnen rond €100/nacht. Aurora-hutten beginnen vanaf €150/nacht buiten het hoogseizoen.' },
-        { q: 'Wanneer is de beste tijd om het noorderlicht vanuit een Lapland-hut te zien?', a: 'Het noorderlicht-seizoen in Fins Lapland loopt van eind augustus tot begin april. November tot februari biedt de meest consistente kijkvensters.' },
-        { q: "Hebben Lapland-hutten en glazen iglo's privé-sauna's?", a: 'Ja. Bijna elke hut, villa en chalet in Fins Lapland heeft een eigen sauna, hout, elektrisch of beide.' },
-        { q: 'Welke Lapland-bestemming is het beste voor eerste bezoekers?', a: 'Levi is de makkelijkste introductie, directe wintervluchten naar Kittilä, restaurants en winkels binnen loopafstand, volledig safariprogramma vanuit het dorp.' },
-      ],
       seoTitle: "Verblijven in Lapland 2026, iglo's en hutten, echte prijzen",
       seoDescription: "Plan uw verblijf Lapland 2026, glazen iglo's vanaf €250/nacht, noorderlicht-hutten vanaf €150, hotels vanaf €100. Levi, Ylläs, Saariselkä, Inari.",
     },

@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Redaktionsrichtlinien', about: 'Über uns' },
   pages: {
     home: {
-      faq: [
-        { q: 'Was kostet ein Glasiglu in Lappland pro Nacht?', a: 'Glasiglus in Finnisch-Lappland kosten zwischen rund 250 €/Nacht im Nova Skyland und bis zu 1.500 €/Nacht im Kakslauttanen Arctic Resort.' },
-        { q: 'Wo übernachtet man in Lappland am besten für die Nordlichter?', a: 'Reisen Sie so weit nördlich wie möglich. Saariselkä und Inari liegen innerhalb des Polarlichtovals und haben rund 200 polarlicht-aktive Nächte pro Jahr.' },
-        { q: 'Wie viel kostet Lappland-Unterkunft mit kleinem Budget?', a: 'Lappland-Hotels beginnen bei rund 100 €/Nacht. Polarlicht-Hütten beginnen außerhalb der Hauptsaison bei rund 150 €/Nacht.' },
-        { q: 'Wann sieht man Nordlichter am besten?', a: 'Die Polarlicht-Saison läuft von Ende August bis Anfang April. November bis Februar bietet die zuverlässigsten Beobachtungsfenster.' },
-        { q: 'Haben Lappland-Hütten und Glasiglus eigene Saunen?', a: 'Ja. Fast jede Hütte, Villa und jedes Chalet in Lappland hat eine eigene Sauna, holzbeheizt, elektrisch oder beides.' },
-        { q: 'Welches Reiseziel in Lappland eignet sich am besten für Erstbesucher?', a: 'Levi ist der einfachste Einstieg, direkte Winterflüge nach Kittilä, Restaurants in Gehweite, ein volles Safari-Programm aus dem Dorf.' },
-      ],
       seoTitle: 'Lappland-Unterkünfte: Glasiglus & Hütten | LaplandStays',
       seoDescription: 'Wo Sie in Lappland übernachten: Glasiglus ab 250 €/Nacht vergleichen, Nordlicht-Hütten ab 150 € und Lappland-Hotels ab 100 €.',
     },

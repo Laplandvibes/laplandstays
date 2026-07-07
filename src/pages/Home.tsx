@@ -8,6 +8,7 @@ import Locations from '../components/Locations'
 import Reviews from '../components/Reviews'
 import BookingCTA from '../components/BookingCTA'
 import ActivitiesCrossSell from '../components/ActivitiesCrossSell'
+import FAQSection, { type FAQItem } from '../components/FAQSection'
 import PartnerStayAd from '../components/PartnerStayAd'
 import Newsletter from '../components/Newsletter'
 import SEO from '../components/SEO'
@@ -126,6 +127,13 @@ export default function Home() {
   const lodgingSchema = buildLodgingSchema(lang)
   const jsonLd: Record<string, unknown>[] = [organizationJsonLd, websiteJsonLd, lodgingSchema]
   if (faq) jsonLd.push(faq)
+  // Visible FAQ derives from the same localized FAQPage schema block, so the
+  // on-page accordion and the JSON-LD can never drift apart.
+  const faqItems: FAQItem[] = (
+    ((faq?.mainEntity as { name?: string; acceptedAnswer?: { text?: string } }[] | undefined) ?? [])
+  )
+    .map((e) => ({ q: e.name ?? '', a: e.acceptedAnswer?.text ?? '' }))
+    .filter((it) => it.q && it.a)
   return (
     <>
       <SEO
@@ -161,6 +169,7 @@ export default function Home() {
       <Locations />
       <Reviews />
       <ActivitiesCrossSell />
+      <FAQSection items={faqItems} />
       <BookingCTA />
       {/* EKTA travel-insurance ad removed 2026-07-03 (Vesa): off-topic for an
           accommodation site; the relevant Lomarengas cabin ad stays above. */}

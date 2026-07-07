@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Política editorial', about: 'Sobre' },
   pages: {
     home: {
-      faq: [
-        { q: 'Quanto custa um iglu de vidro na Lapônia por noite?', a: 'Os iglus de vidro na Lapônia finlandesa custam de cerca de €250 a noite no Nova Skyland em Rovaniemi até €1.500 a noite no Kakslauttanen Arctic Resort em Saariselkä na alta temporada de auroras.' },
-        { q: 'Qual o melhor lugar para ver a aurora boreal na Lapônia?', a: 'Para alta frequência de aurora, vá o mais ao norte possível. Saariselkä e Inari ficam dentro do oval auroral e têm cerca de 200 noites com aurora visível por ano.' },
-        { q: 'Quanto custa hospedagem na Lapônia com pouco orçamento?', a: 'Hotéis e redes de cabanas na Lapônia começam por volta de €100 a noite. Cabanas com aurora no Apukka Resort, Arctic SnowHotel e similares começam em torno de €150 a noite fora da alta temporada.' },
-        { q: 'Qual a melhor época para ver a aurora de uma cabana?', a: 'A temporada de aurora na Lapônia finlandesa vai do fim de agosto ao início de abril. Novembro a fevereiro tem as janelas de observação mais consistentes.' },
-        { q: 'As cabanas e iglus na Lapônia têm sauna privativa?', a: 'Sim. Quase toda cabana, vila e chalé na Lapônia finlandesa tem sauna própria, a lenha, elétrica ou ambas.' },
-        { q: 'Qual destino lapônio é melhor para a primeira viagem?', a: 'Levi é a introdução mais fácil, voos diretos de inverno até Kittilä, restaurantes e lojas a poucos passos e programa completo de safáris saindo da vila.' },
-      ],
       seoTitle: 'Hospedagem na Lapônia: iglus de vidro | LaplandStays',
       seoDescription: 'Onde se hospedar na Lapônia: iglus de vidro a partir de €250/noite, cabanas da aurora a partir de €150 e hotéis a partir de €100 em Levi, Ylläs e Saariselkä.',
     },

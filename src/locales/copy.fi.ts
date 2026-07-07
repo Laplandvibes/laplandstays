@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Toimituspolitiikka', about: 'Tietoa' },
   pages: {
     home: {
-      faq: [
-        { q: 'Mitä lasi-iglu Lapissa maksaa per yö?', a: 'Suomen Lapin lasi-iglut maksavat noin 250 €/yö Rovaniemen Nova Skylandissa aina 1 500 €:oon/yö Kakslauttasen Arctic Resortissa.' },
-        { q: 'Mikä on paras paikka revontulille Lapissa?', a: 'Suuntaa niin pohjoiseen kuin pääset. Saariselkä ja Inari sijaitsevat aurora-ovaalissa ja saavat noin 200 revontuliyötä vuodessa.' },
-        { q: 'Paljonko edullisin Lapin majoitus maksaa?', a: 'Lapin hotellit ja mökkiketjut alkavat noin 100 €/yö. Revontulimökit alkavat noin 150 €:sta sesongin ulkopuolella.' },
-        { q: 'Mikä on paras aika nähdä revontulet?', a: 'Revontulisesonki kestää elokuun lopusta huhtikuun alkuun. Marraskuu–helmikuu tarjoaa tasaisimmat katseluikkunat.' },
-        { q: 'Onko Lapin mökeissä ja igluissa omat saunat?', a: 'Kyllä. Lähes jokaisessa mökissä, villassa ja chaletissa on oma sauna, joko puulla lämpiävä, sähkö tai molemmat.' },
-        { q: 'Mikä Lapin kohde on paras ensikertalaiselle?', a: 'Levi on helpoin sisäänkäynti, suorat lennot Kittilään, ravintolat kävelyetäisyydellä, täysi safarivalikoima.' },
-      ],
       seoTitle: 'Lapin majoitus: lasi-iglut ja mökit | LaplandStays',
       seoDescription: 'Missä yöpyä Lapissa: vertaa lasi-igluja alkaen 250 €/yö, revontulimökkejä alkaen 150 € ja Lapin hotelleja alkaen 100 €.',
     },

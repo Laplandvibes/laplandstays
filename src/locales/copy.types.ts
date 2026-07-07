@@ -60,7 +60,8 @@ export type ChromeCopy = {
   /** Per-page body copy that drives /ja/* and other locale routes. */
   pages: {
     home: {
-      faq: { q: string; a: string }[]
+      // NOTE: the home FAQ lives in src/pages/Home.copy.*.ts (FAQPage schema),
+      // which drives both the JSON-LD and the visible <FAQSection> accordion.
       seoTitle: string
       seoDescription: string
     }

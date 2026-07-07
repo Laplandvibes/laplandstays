@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Politica editoriale', about: 'Chi siamo' },
   pages: {
     home: {
-      faq: [
-        { q: 'Quanto costa un iglù di vetro in Lapponia a notte?', a: "Gli iglù di vetro nella Lapponia finlandese vanno da circa 250 €/notte al Nova Skyland di Rovaniemi fino a 1.500 €/notte al Kakslauttanen Arctic Resort di Saariselkä in alta stagione aurora." },
-        { q: 'Qual è il posto migliore per vedere l\'aurora boreale in Lapponia?', a: "Per un'alta frequenza di aurora, si diriga il più a nord possibile. Saariselkä e Inari si trovano all'interno dell'ovale aurorale e hanno circa 200 notti di aurora all'anno." },
-        { q: 'Quanto costa un alloggio in Lapponia con un budget contenuto?', a: 'Gli hotel e le catene di chalet in Lapponia partono da circa 100 €/notte. Gli chalet aurora partono da circa 150 €/notte fuori alta stagione.' },
-        { q: 'Qual è il momento migliore per vedere l\'aurora da uno chalet in Lapponia?', a: "La stagione dell'aurora nella Lapponia finlandese va da fine agosto a inizio aprile. Da novembre a febbraio offre le finestre di osservazione più costanti." },
-        { q: 'Chalet e iglù di vetro in Lapponia hanno sauna privata?', a: 'Sì. Quasi ogni chalet, villa e chalet nella Lapponia finlandese ha la propria sauna, a legna, elettrica o entrambe.' },
-        { q: 'Quale destinazione in Lapponia è la migliore per chi visita per la prima volta?', a: 'Levi è l\'introduzione più semplice, voli diretti invernali per Kittilä, ristoranti e negozi a distanza pedonale, programma safari completo dal villaggio.' },
-      ],
       seoTitle: 'Alloggiare in Lapponia 2026, iglù e chalet, prezzi reali',
       seoDescription: 'Pianifichi il soggiorno Lapponia 2026, iglù di vetro da €250/notte, chalet aurora da €150, hotel da €100. Levi, Ylläs, Saariselkä, Inari. Scelte verificate.',
     },

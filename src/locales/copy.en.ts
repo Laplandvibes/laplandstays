@@ -59,14 +59,6 @@ const copy: ChromeCopy = {
   footerExtraLegal: { editorialPolicy: 'Editorial Policy', about: 'About' },
   pages: {
     home: {
-      faq: [
-        { q: 'How much does a glass igloo in Lapland cost per night?', a: 'Glass igloos in Finnish Lapland range from about €250 per night at Nova Skyland in Rovaniemi up to €1,500 per night at Kakslauttanen Arctic Resort in Saariselkä during peak aurora season.' },
-        { q: 'Where is the best place to stay in Lapland for the Northern Lights?', a: 'For high aurora frequency, head as far north as you can. Saariselkä and Inari sit inside the auroral oval and get roughly 200 aurora-visible nights per year.' },
-        { q: 'What does Lapland accommodation cost on a budget?', a: 'Lapland hotels and cabin chains start around €100 per night. Aurora cabins at Apukka Resort, Arctic SnowHotel and similar properties start near €150 per night outside peak season.' },
-        { q: 'When is the best time to see the Northern Lights from a Lapland cabin?', a: 'Aurora season in Finnish Lapland runs from late August to early April. November through February gives the most consistent viewing windows.' },
-        { q: 'Do Lapland cabins and glass igloos have private saunas?', a: 'Yes. Almost every cabin, villa and chalet in Finnish Lapland has its own sauna, whether wood-burning, electric, or both.' },
-        { q: 'Which Lapland destination is best for first-time visitors?', a: 'Levi is the easiest introduction, with direct winter flights to Kittilä, restaurants and shops within walking distance, full safari programme from the village.' },
-      ],
       seoTitle: 'Where to Stay in Lapland 2026: Glass Igloos, Aurora Cabins, Real Rates',
       seoDescription: 'Plan your 2026 Lapland stay: glass igloos from €250/night, aurora cabins from €150, hotels from €100 across Levi, Ylläs, Saariselkä, Inari. Verified picks, no fluff.',
     },
