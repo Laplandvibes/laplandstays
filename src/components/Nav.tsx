@@ -120,7 +120,7 @@ export default function Nav() {
           <div className="flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandstays.com" variant={scrolled ? 'light' : 'dark'} />
             <Link to={to('/')} className="flex items-center shrink-0" aria-label="LaplandStays home">
-              <span className="tracking-wider leading-none font-heading text-xl sm:text-2xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
+              <span className="tracking-[0.04em] sm:tracking-[0.14em] leading-none font-heading font-bold text-lg sm:text-2xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
                 <span className="text-pink">#</span>
                 <span className={scrolled ? 'text-night' : 'text-white'}>LAPLAND</span>
                 <span className="text-pink">STAYS</span>

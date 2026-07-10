@@ -114,7 +114,7 @@ export function buildAffiliateUrl({
   params.set("sid", sid);
 
   if (destination) {
-    params.set("ss", destination);
+    params.set('ss', anchorHotelsSs(partner, destination));
   }
 
   if (partner === "hotels" || partner === "hotels-seasonal" || partner === "hotels-budget") {
@@ -232,3 +232,16 @@ export const CARS = buildCarsLang('en');
 export const HOTEL_SEARCH_FOR = buildHotelSearchLang;
 export const PROPERTY_SEARCH_FOR = buildPropertySearchLang;
 export const CARS_FOR = buildCarsLang;
+
+/**
+ * Anchor any hotels search to Finnish Lapland. A bare "Lapland"/"Levi"/etc.
+ * makes Hotels.com geocode to *Lapland, Indiana, USA* — a real revenue/trust
+ * bug (Vesa 2026-07-08). Force ", Finland" onto every hotels query that does
+ * not already name the country; leave cars/activities queries untouched.
+ * Callers cannot re-introduce the bug.
+ */
+function anchorHotelsSs(partner: string, destination: string): string {
+  const isHotels = partner === "hotels" || partner === "hotels-seasonal" || partner === "hotels-budget";
+  if (!isHotels) return destination;
+  return /finland|suomi/i.test(destination) ? destination : `${destination.replace(/[\s,]+$/, "")}, Finland`;
+}

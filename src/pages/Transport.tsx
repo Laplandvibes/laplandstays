@@ -9,6 +9,8 @@ import PageBreadcrumb from '../components/PageBreadcrumb'
 import TripCTA from '../components/TripCTA'
 import { CARS, HOTEL_SEARCH, buildAffiliateUrl } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
+import AdUnit from '../../../shared/ads/AdUnit'
+import semboAd from '../../../shared/ads/advertisers/sembo'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import type { PageCopy } from './Transport.copy.types'
 import enCopy from './Transport.copy.en'
@@ -91,6 +93,7 @@ const AIRPORT_META = [
 
 export default function Transport() {
   const to = useLocalePath()
+  const lang = useLang()
   const copy = usePageCopy()
   const { seo, ui } = copy
   const onClick = (sid: string, href: string) => () => trackAffiliateClick('economybookings', sid, href)
@@ -321,6 +324,21 @@ export default function Transport() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Sembo ad — FI-only spec (do.sembo.fi storefront): bundle stay + flight
+          + car into one booking. Renders only on /fi; other locales skip it.
+          (shared/ads, registry targetPages: stays trip-bundle pages.) */}
+      <section className="py-10 px-4 sm:px-6 bg-white">
+        <div className="max-w-5xl mx-auto">
+          <AdUnit
+            spec={semboAd}
+            sid="transport_bundle_sembo"
+            lang={lang}
+            variant="light"
+            onCtaClick={(specKey, sid, url) => trackAffiliateClick(specKey, `ad_unit:${sid}`, url)}
+          />
         </div>
       </section>
 

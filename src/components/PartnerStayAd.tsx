@@ -1,5 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
-import { ArrowRight, Home, ShieldCheck, BedDouble, CarTaxiFront } from 'lucide-react'
+import { ArrowRight, Home, ShieldCheck, BedDouble, Car } from 'lucide-react'
 import { useLang, type Lang } from '../i18n/useLang'
 import { trackAffiliateClick } from '../lib/analytics'
 import { buildHotelSearch } from '../lib/affiliate'
@@ -33,11 +33,13 @@ import AffiliateDisclosure from './AffiliateDisclosure'
 // Worker URL; EKTA substitutes {placement}→sub_id; Lomarengas is a static link.
 // ─────────────────────────────────────────────────────────────────────────────
 
-type PartnerKey = 'hotels' | 'lomarengas' | 'ekta' | 'kiwitaxi'
+type PartnerKey = 'hotels' | 'lomarengas' | 'ekta' | 'cars'
 
 interface PartnerConfig {
   brand: string
-  logo: string
+  /** Optional: a category advertiser (car rental) has no single brand logo, so
+   *  the card renders the brand name as a wordmark instead. */
+  logo?: string
   /** Resolve the final tracking href for a given placement SID + language. */
   linkFor: (sid: string, lang: Lang) => string
   /** Advertiser brand accent, border rule, icon, trust dots, CTA pill. */
@@ -85,21 +87,19 @@ const CONFIG: Record<PartnerKey, PartnerConfig> = {
     icon: ShieldCheck,
     trackKey: 'ekta',
   },
-  // Kiwitaxi, fixed-price airport transfers (driver waits with a name sign,
-  // flight tracked). COMPLEMENTS the site's own Hotels.com routing instead of
-  // cannibalising it (Vesa 2026-07-06). Travelpayouts p=647. Brand orange.
-  kiwitaxi: {
-    brand: 'Kiwitaxi',
-    logo: '/images/partners/kiwitaxi.svg',
-    linkFor: (sid) =>
-      'https://tp.media/r?marker=723794&trs=524131&p=647&u=https%3A%2F%2Fkiwitaxi.com%2F&campaign_id=1&sub_id={placement}'.replace(
-        '{placement}',
-        encodeURIComponent(sid),
-      ),
-    accent: '#F97316',
-    accentDark: '#EA580C',
-    icon: CarTaxiFront,
-    trackKey: 'kiwitaxi',
+  // Car rental (EconomyBookings via the go.laplandvibes.com/go/cars Worker).
+  // Replaced the Kiwitaxi transfer ad 2026-07-09 — Kiwitaxi doesn't serve
+  // Lapland airports (Vesa tested it), so it was misleading; car rental works
+  // from Rovaniemi/Kittilä/Ivalo. No logo (DiscoverCars is pending TP approval,
+  // EconomyBookings has none) → the card shows the brand wordmark. Teal.
+  cars: {
+    brand: 'EconomyBookings',
+    logo: '/images/partners/economybookings.svg',
+    linkFor: (sid) => `https://go.laplandvibes.com/go/cars?sid=${encodeURIComponent(sid)}`,
+    accent: '#0F766E',
+    accentDark: '#0B5E57',
+    icon: Car,
+    trackKey: 'cars',
   },
 }
 
@@ -426,108 +426,108 @@ const HOTELS_COPY: Record<Lang, AdCopy> = {
   },
 }
 
-// ── Kiwitaxi copy (11 langs). Angle: the concrete midnight-arrival pain
-// (−25 °C, no taxi at the rank, foreign language) → fixed price locked at
-// booking, driver tracks the flight and waits with a name sign. Evergreen. ────
-const KIWITAXI_COPY: Record<Lang, AdCopy> = {
+// ── Car-rental copy (11 langs). Angle: Lapland distances are long + buses
+// sparse → your own car reaches the ski resort, husky farm and aurora spots on
+// your schedule. Pick up at the airport, winter tyres standard. Evergreen. ────
+const CARS_COPY: Record<Lang, AdCopy> = {
   fi: {
     adLabel: 'Mainos',
-    eyebrow: 'Kentältä perille asti',
-    headline: 'Kiwitaxi, kuljettaja odottaa nimikyltin kanssa, vaikka kone olisi myöhässä',
-    sub: 'Rovaniemen tai Kittilän kentällä keskiyöllä, 25 astetta pakkasta, eikä taksitolpalla ole autoa. Kiwitaxilla hinta lyödään lukkoon jo varatessa, kuljettaja seuraa lentoasi ja odottaa aulassa nimikyltin kanssa. Lastenistuimet ja tila suksipussille hoituvat samalla varauksella.',
-    trust: ['Kiinteä hinta varatessa', 'Kuljettaja seuraa lentoa', 'Nouto myös yölennoilta'],
-    cta: 'Varaa kuljetus kentältä',
-    poweredBy: 'Kuljetus Kiwitaxin kautta',
+    eyebrow: 'Oma tahti Lapissa',
+    headline: 'Vuokra-auto Lapin kentältä, tuntureille ja revontulille silloin kun itse haluat',
+    sub: 'Lapissa välimatkat ovat pitkät ja julkinen liikenne harvassa. Omalla autolla ehdit hotellilta hiihtokeskukseen, husky-tilalle ja parhaille revontulipaikoille ilman aikatauluja. Nouto suoraan lentokentältä, ja talvirenkaat kuuluvat Suomessa vakiona.',
+    trust: ['Nouto lentokentältä', 'Talvirenkaat vakiona', 'Vertaa vuokraamoja'],
+    cta: 'Katso vuokra-autot',
+    poweredBy: 'Autovuokraus EconomyBookingsin kautta',
   },
   en: {
     adLabel: 'Ad',
-    eyebrow: 'From the airport, door to door',
-    headline: 'Kiwitaxi, your driver waits with a name sign, even when the flight runs late',
-    sub: "Landing at Rovaniemi or Kittilä at midnight, minus 25 outside, and not a taxi at the rank. With Kiwitaxi the price is locked when you book, the driver tracks your flight and waits in arrivals with a name sign. Child seats and ski-bag space go on the same booking.",
-    trust: ['Price fixed at booking', 'Driver tracks your flight', 'Night arrivals covered'],
-    cta: 'Book your transfer',
-    poweredBy: 'Transfer via Kiwitaxi',
+    eyebrow: 'Your own pace in Lapland',
+    headline: 'A rental car from the airport, reach the fells and the aurora on your own schedule',
+    sub: 'Distances in Lapland are long and public transport is sparse. With your own car you get from the hotel to the ski resort, the husky farm and the best aurora spots without waiting for a bus. Pick up right at the airport, and winter tyres come as standard in Finland.',
+    trust: ['Pick up at the airport', 'Winter tyres included', 'Compare rental companies'],
+    cta: 'See rental cars',
+    poweredBy: 'Car rental via EconomyBookings',
   },
   de: {
     adLabel: 'Anzeige',
-    eyebrow: 'Vom Flughafen bis vor die Tür',
-    headline: 'Kiwitaxi, Ihr Fahrer wartet mit Namensschild, auch wenn der Flug Verspätung hat',
-    sub: 'Mitternacht in Rovaniemi oder Kittilä, minus 25 Grad, und am Taxistand steht kein Wagen. Bei Kiwitaxi steht der Preis schon bei der Buchung fest, der Fahrer verfolgt Ihren Flug und wartet in der Ankunftshalle mit Namensschild. Kindersitze und Platz für den Skisack gibt es in derselben Buchung.',
-    trust: ['Festpreis bei Buchung', 'Fahrer verfolgt den Flug', 'Auch für Nachtankünfte'],
-    cta: 'Transfer buchen',
-    poweredBy: 'Transfer über Kiwitaxi',
+    eyebrow: 'Ihr eigenes Tempo in Lappland',
+    headline: 'Ein Mietwagen ab dem Flughafen, zu den Fjälls und Nordlichtern, wann Sie wollen',
+    sub: 'In Lappland sind die Entfernungen groß und öffentliche Verkehrsmittel selten. Mit dem eigenen Auto kommen Sie ohne Fahrplan vom Hotel zum Skigebiet, zur Huskyfarm und zu den besten Nordlicht-Plätzen. Abholung direkt am Flughafen, Winterreifen sind in Finnland Standard.',
+    trust: ['Abholung am Flughafen', 'Winterreifen inklusive', 'Autovermietungen vergleichen'],
+    cta: 'Mietwagen ansehen',
+    poweredBy: 'Autovermietung über EconomyBookings',
   },
   ja: {
     adLabel: '広告',
-    eyebrow: '空港からドアまで',
-    headline: 'Kiwitaxi：飛行機が遅れても、ドライバーがネームボードを持って待っています',
-    sub: '深夜のロヴァニエミやキッティラ、外は氷点下25度、タクシー乗り場に車はなし。Kiwitaxiなら予約時に料金が確定し、ドライバーがフライトを追跡して到着ロビーでネームボードを掲げて待ちます。チャイルドシートやスキーバッグのスペースも同じ予約でOK。',
-    trust: ['予約時に料金確定', 'フライトを追跡', '深夜到着にも対応'],
-    cta: '送迎を予約する',
-    poweredBy: '送迎はKiwitaxi経由',
+    eyebrow: 'ラップランドを自分のペースで',
+    headline: '空港からレンタカーで、フィエルやオーロラへ好きな時間に',
+    sub: 'ラップランドは距離が長く、公共交通は限られています。自分の車があれば、ホテルからスキー場、ハスキー牧場、オーロラの名所まで時刻表を気にせず移動できます。空港で直接受け取り、フィンランドでは冬用タイヤが標準装備です。',
+    trust: ['空港で受け取り', '冬用タイヤ標準装備', 'レンタカー会社を比較'],
+    cta: 'レンタカーを見る',
+    poweredBy: 'レンタカーはEconomyBookings経由',
   },
   es: {
     adLabel: 'Anuncio',
-    eyebrow: 'Del aeropuerto a la puerta',
-    headline: 'Kiwitaxi, tu conductor espera con un cartel, aunque el vuelo llegue tarde',
-    sub: 'Medianoche en Rovaniemi o Kittilä, 25 bajo cero, y ni un taxi en la parada. Con Kiwitaxi el precio queda fijado al reservar, el conductor sigue tu vuelo y te espera en llegadas con un cartel con tu nombre. Sillas infantiles y espacio para los esquís, en la misma reserva.',
-    trust: ['Precio fijo al reservar', 'Sigue tu vuelo', 'Cubre llegadas nocturnas'],
-    cta: 'Reserva tu traslado',
-    poweredBy: 'Traslado con Kiwitaxi',
+    eyebrow: 'Tu propio ritmo en Laponia',
+    headline: 'Un coche de alquiler desde el aeropuerto, a los montes y las auroras cuando quieras',
+    sub: 'En Laponia las distancias son largas y el transporte público escaso. Con tu propio coche vas del hotel a la estación de esquí, a la granja de huskies y a los mejores puntos para ver auroras sin esperar el autobús. Recogida en el aeropuerto y neumáticos de invierno de serie en Finlandia.',
+    trust: ['Recogida en el aeropuerto', 'Neumáticos de invierno incluidos', 'Compara empresas de alquiler'],
+    cta: 'Ver coches de alquiler',
+    poweredBy: 'Alquiler de coches vía EconomyBookings',
   },
   'pt-BR': {
     adLabel: 'Anúncio',
-    eyebrow: 'Do aeroporto até a porta',
-    headline: 'Kiwitaxi, o motorista espera com uma placa, mesmo se o voo atrasar',
-    sub: 'Meia-noite em Rovaniemi ou Kittilä, 25 graus negativos, e nenhum táxi no ponto. Com a Kiwitaxi o preço é travado na reserva, o motorista acompanha seu voo e espera no desembarque com uma placa com seu nome. Cadeirinha e espaço para o equipamento de esqui entram na mesma reserva.',
-    trust: ['Preço travado na reserva', 'Motorista acompanha o voo', 'Atende chegadas noturnas'],
-    cta: 'Reservar o traslado',
-    poweredBy: 'Traslado pela Kiwitaxi',
+    eyebrow: 'Seu próprio ritmo na Lapônia',
+    headline: 'Um carro alugado no aeroporto, até as montanhas e a aurora na sua hora',
+    sub: 'Na Lapônia as distâncias são longas e o transporte público é escasso. Com o seu carro você vai do hotel à estação de esqui, à fazenda de huskies e aos melhores pontos de aurora sem esperar ônibus. Retirada no aeroporto e pneus de inverno de série na Finlândia.',
+    trust: ['Retirada no aeroporto', 'Pneus de inverno incluídos', 'Compare locadoras'],
+    cta: 'Ver carros para alugar',
+    poweredBy: 'Aluguel de carro via EconomyBookings',
   },
   'zh-CN': {
     adLabel: '广告',
-    eyebrow: '从机场直达住处',
-    headline: 'Kiwitaxi：司机举着名牌等你,航班晚点也一样',
-    sub: '深夜落地罗瓦涅米或基蒂莱,室外零下25度,出租车站空无一车。用Kiwitaxi,价格在预订时即已锁定,司机会跟踪你的航班,在到达大厅举名牌等候。儿童座椅和滑雪装备空间,同一订单一并搞定。',
-    trust: ['预订即锁定价格', '司机跟踪航班', '深夜到达也接'],
-    cta: '预订接送',
-    poweredBy: '接送由 Kiwitaxi 提供',
+    eyebrow: '在拉普兰按自己的节奏',
+    headline: '机场租车,随时前往雪山和极光',
+    sub: '拉普兰地广人稀,公共交通班次很少。自驾就能随时从酒店前往滑雪场、哈士奇农场和最佳极光地点,不必等巴士。机场直接取车,芬兰的租车标配冬季轮胎。',
+    trust: ['机场取车', '标配冬季轮胎', '比较租车公司'],
+    cta: '查看租车',
+    poweredBy: '租车服务由 EconomyBookings 提供',
   },
   ko: {
     adLabel: '광고',
-    eyebrow: '공항에서 숙소 문 앞까지',
-    headline: 'Kiwitaxi: 비행기가 늦어도 기사가 이름 팻말을 들고 기다립니다',
-    sub: '자정의 로바니에미나 키틸래, 바깥은 영하 25도, 택시 승강장엔 차가 없습니다. Kiwitaxi는 예약 시 요금이 확정되고, 기사가 항공편을 추적해 도착장에서 이름 팻말을 들고 기다립니다. 카시트와 스키 가방 공간도 같은 예약으로 해결됩니다.',
-    trust: ['예약 시 요금 확정', '항공편 실시간 추적', '심야 도착도 픽업'],
-    cta: '픽업 예약하기',
-    poweredBy: 'Kiwitaxi를 통한 픽업',
+    eyebrow: '라플란드를 내 속도로',
+    headline: '공항에서 렌터카로, 원할 때 언제든 산과 오로라로',
+    sub: '라플란드는 이동 거리가 길고 대중교통이 드뭅니다. 렌터카가 있으면 버스를 기다리지 않고 호텔에서 스키장, 허스키 농장, 최고의 오로라 명소까지 갈 수 있습니다. 공항에서 바로 픽업하고, 핀란드에서는 겨울용 타이어가 기본입니다.',
+    trust: ['공항에서 픽업', '겨울용 타이어 기본', '렌터카 업체 비교'],
+    cta: '렌터카 보기',
+    poweredBy: '렌터카는 EconomyBookings 제공',
   },
   fr: {
     adLabel: 'Annonce',
-    eyebrow: "De l'aéroport à la porte",
-    headline: 'Kiwitaxi, votre chauffeur attend avec une pancarte, même si le vol a du retard',
-    sub: "Minuit à Rovaniemi ou Kittilä, moins 25 dehors, et pas un taxi à la borne. Avec Kiwitaxi, le prix est verrouillé à la réservation, le chauffeur suit votre vol et vous attend aux arrivées avec une pancarte à votre nom. Sièges enfants et place pour les skis, dans la même réservation.",
-    trust: ['Prix fixé à la réservation', 'Suivi de votre vol', 'Arrivées de nuit assurées'],
-    cta: 'Réserver le transfert',
-    poweredBy: 'Transfert via Kiwitaxi',
+    eyebrow: 'Votre rythme en Laponie',
+    headline: 'Une voiture de location à l’aéroport, vers les fjells et les aurores quand vous voulez',
+    sub: "En Laponie les distances sont longues et les transports en commun rares. Avec votre propre voiture, vous allez de l'hôtel à la station de ski, à la ferme de huskies et aux meilleurs spots d'aurores sans attendre le bus. Retrait directement à l'aéroport, pneus hiver de série en Finlande.",
+    trust: ['Retrait à l’aéroport', 'Pneus hiver inclus', 'Comparez les loueurs'],
+    cta: 'Voir les voitures',
+    poweredBy: 'Location de voiture via EconomyBookings',
   },
   it: {
     adLabel: 'Annuncio',
-    eyebrow: "Dall'aeroporto alla porta",
-    headline: "Kiwitaxi, l'autista ti aspetta con un cartello, anche se il volo è in ritardo",
-    sub: 'Mezzanotte a Rovaniemi o Kittilä, 25 gradi sotto zero, e nemmeno un taxi al posteggio. Con Kiwitaxi il prezzo si blocca alla prenotazione, l\'autista segue il tuo volo e ti aspetta agli arrivi con un cartello col tuo nome. Seggiolini e spazio per la sacca da sci nella stessa prenotazione.',
-    trust: ['Prezzo bloccato alla prenotazione', "L'autista segue il volo", 'Anche arrivi notturni'],
-    cta: 'Prenota il transfer',
-    poweredBy: 'Transfer con Kiwitaxi',
+    eyebrow: 'Il tuo ritmo in Lapponia',
+    headline: 'Un’auto a noleggio dall’aeroporto, verso i fjell e l’aurora quando vuoi',
+    sub: "In Lapponia le distanze sono lunghe e i mezzi pubblici scarsi. Con la tua auto raggiungi dall'hotel la stazione sciistica, la fattoria degli husky e i punti migliori per l'aurora senza aspettare il bus. Ritiro direttamente in aeroporto, pneumatici invernali di serie in Finlandia.",
+    trust: ['Ritiro in aeroporto', 'Pneumatici invernali inclusi', 'Confronta gli autonoleggi'],
+    cta: 'Vedi le auto a noleggio',
+    poweredBy: 'Autonoleggio tramite EconomyBookings',
   },
   nl: {
     adLabel: 'Advertentie',
-    eyebrow: 'Van het vliegveld tot de deur',
-    headline: 'Kiwitaxi, je chauffeur wacht met een naambord, ook als de vlucht vertraagd is',
-    sub: 'Middernacht in Rovaniemi of Kittilä, min 25 buiten, en geen taxi bij de standplaats. Bij Kiwitaxi staat de prijs vast bij het boeken, de chauffeur volgt je vlucht en wacht in de aankomsthal met een naambord. Kinderzitjes en ruimte voor de skitas regel je in dezelfde boeking.',
-    trust: ['Vaste prijs bij boeking', 'Chauffeur volgt je vlucht', 'Ook nachtelijke aankomsten'],
-    cta: 'Boek je transfer',
-    poweredBy: 'Transfer via Kiwitaxi',
+    eyebrow: 'Je eigen tempo in Lapland',
+    headline: 'Een huurauto vanaf de luchthaven, naar de fjells en het noorderlicht wanneer je wilt',
+    sub: 'In Lapland zijn de afstanden groot en het openbaar vervoer schaars. Met je eigen auto rijd je van het hotel naar het skigebied, de huskyfarm en de beste noorderlichtplekken zonder op de bus te wachten. Ophalen direct op de luchthaven, en winterbanden zijn in Finland standaard.',
+    trust: ['Ophalen op de luchthaven', 'Winterbanden inbegrepen', 'Vergelijk verhuurbedrijven'],
+    cta: 'Bekijk huurauto’s',
+    poweredBy: 'Autohuur via EconomyBookings',
   },
 }
 
@@ -535,7 +535,7 @@ const COPY: Record<PartnerKey, Record<Lang, AdCopy>> = {
   hotels: HOTELS_COPY,
   lomarengas: LOMARENGAS_COPY,
   ekta: EKTA_COPY,
-  kiwitaxi: KIWITAXI_COPY,
+  cars: CARS_COPY,
 }
 
 interface PartnerStayAdProps {
@@ -580,15 +580,23 @@ export default function PartnerStayAd({ partner, sid, className = '' }: PartnerS
               {c.eyebrow}
             </p>
           </div>
-          <img
-            src={cfg.logo}
-            alt={cfg.brand}
-            width={260}
-            height={80}
-            loading="lazy"
-            decoding="async"
-            className="h-14 sm:h-20 w-auto max-w-[260px] shrink-0"
-          />
+          {cfg.logo ? (
+            <img
+              src={cfg.logo}
+              alt={cfg.brand}
+              width={260}
+              height={80}
+              loading="lazy"
+              decoding="async"
+              className="h-14 sm:h-20 w-auto max-w-[260px] shrink-0"
+            />
+          ) : (
+            // Category advertiser (car rental) without a brand logo: brand name
+            // as a wordmark keeps the header balanced, no fake logo.
+            <span className="font-heading text-2xl sm:text-3xl text-night tracking-wide shrink-0">
+              {cfg.brand}
+            </span>
+          )}
         </div>
 
         <h3 className="font-heading text-2xl sm:text-3xl text-night tracking-wide leading-tight mb-3 max-w-2xl text-balance">
@@ -606,7 +614,7 @@ export default function PartnerStayAd({ partner, sid, className = '' }: PartnerS
           ))}
         </ul>
 
-        <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2">
+        <div className="mt-6">
           <a
             href={href}
             target="_blank"
@@ -618,7 +626,8 @@ export default function PartnerStayAd({ partner, sid, className = '' }: PartnerS
             {c.cta}
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
           </a>
-          <span className="text-charcoal/45 text-[11px] uppercase tracking-[0.12em]">{c.poweredBy}</span>
+          {/* Attribution under the CTA, not beside it (Vesa 2026-07-07). */}
+          <p className="mt-2.5 text-charcoal/40 text-[10.5px] uppercase tracking-[0.12em]">{c.poweredBy}</p>
         </div>
 
         <AffiliateDisclosure variant="compact" className="mt-6 !justify-start text-left" />

@@ -371,8 +371,9 @@ export default function DestinationPage(p: DestinationPageProps) {
         <div className="max-w-5xl mx-auto grid grid-cols-1 gap-6">
           {/* Hotels.com ad removed here: the page's own search already routes to
               Hotels.com, so this slot sells a COMPLEMENTARY product instead
-              (airport transfer) — no cannibalising our own affiliate route. */}
-          <PartnerStayAd partner="kiwitaxi" sid={`destination_${p.slug}_kiwitaxi`} />
+              (car rental — replaced Kiwitaxi 2026-07-09, which doesn't serve
+              Lapland airports; no cannibalising our own affiliate route). */}
+          <PartnerStayAd partner="cars" sid={`destination_${p.slug}_cars`} />
           <PartnerStayAd partner="lomarengas" sid={`destination_${p.slug}_lomarengas`} />
         </div>
       </section>

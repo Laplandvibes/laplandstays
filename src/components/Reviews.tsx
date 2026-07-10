@@ -167,14 +167,18 @@ export default function Reviews() {
   const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl)
 
   return (
-    <section className="py-20 sm:py-28 px-4 sm:px-6 bg-white">
+    // Dark "beat" mid-page: a run of pale cream sections (Locations → this →
+    // Activities → FAQ) had no rhythm and read as empty (Vesa 2026-07-09). A
+    // deep-night testimonial band breaks the monotony and reads as premium,
+    // while the cream editorial look stays the page's default.
+    <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14 max-w-3xl mx-auto">
           <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{c.eyebrow}</p>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-snow tracking-wide">
             {c.h2}
           </h2>
-          <p className="mt-5 text-charcoal/70 text-lg leading-relaxed">
+          <p className="mt-5 text-snow/70 text-lg leading-relaxed">
             {c.lead}
           </p>
         </div>
@@ -183,12 +187,12 @@ export default function Reviews() {
           {c.items.map((v) => (
             <div
               key={v.tag}
-              className="relative bg-gradient-to-b from-pink/5 to-white rounded-2xl p-8 border border-pink/10"
+              className="relative bg-white/[0.04] rounded-2xl p-8 border border-white/10"
             >
-              <Quote className="w-8 h-8 text-pink/30 mb-4" />
+              <Quote className="w-8 h-8 text-pink/50 mb-4" />
               <p className="text-xs uppercase tracking-[0.25em] text-pink font-semibold mb-2">{v.tag}</p>
-              <h3 className="text-2xl font-heading text-night tracking-wide mb-3">{v.headline}</h3>
-              <p className="text-charcoal/70 leading-relaxed">{v.body}</p>
+              <h3 className="text-2xl font-heading text-snow tracking-wide mb-3">{v.headline}</h3>
+              <p className="text-snow/70 leading-relaxed">{v.body}</p>
             </div>
           ))}
         </div>

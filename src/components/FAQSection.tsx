@@ -107,7 +107,7 @@ export default function FAQSection({ items }: { items: FAQItem[] }) {
   }
 
   return (
-    <section id="faq" className="py-20 sm:py-28 px-4 sm:px-6 bg-white">
+    <section id="faq" className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-14 max-w-3xl mx-auto">
           <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{c.eyebrow}</p>
