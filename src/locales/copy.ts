@@ -189,7 +189,7 @@ export function footerDict(lang: Lang): FooterDict {
       travelGuideKicker: 'ラップランド旅行ガイド',
       about: {
         eyebrow: 'LaplandVibesについて',
-        body: 'フィンランド・ラップランドの決定版ガイド。オーロラから白夜まで。厳選された体験、インサイダーの情報、北極の冒険を計画するために必要なすべて。',
+        body: 'フィンランド・ラップランドの決定版ガイド。オーロラから白夜まで。厳選された体験とインサイダーの視点、出典を明記した情報で、北極の旅の計画を支えます。',
         badge: '独立運営 · 出典明記',
       },
       spottedError: {
@@ -413,7 +413,7 @@ export function footerDict(lang: Lang): FooterDict {
       travelGuideKicker: '라플란드 여행 가이드',
       about: {
         eyebrow: 'LaplandVibes 소개',
-        body: '핀란드 라플란드의 결정적인 가이드. 오로라부터 백야까지. 엄선된 체험, 인사이더 팁, 그리고 북극 모험을 계획하는 데 필요한 모든 것.',
+        body: '핀란드 라플란드의 결정적인 가이드. 오로라부터 백야까지. 엄선된 체험과 인사이더 팁, 출처를 밝힌 정보로 북극 여행 계획을 돕습니다.',
         badge: '독립적으로 관리됨 · 출처 명시',
       },
       spottedError: { title: '오류를 발견하셨나요?', body: '수정이 필요한 부분이 있으신가요? 알려주세요. 즉시 바로잡겠습니다.', cta: '오류 신고 →' },

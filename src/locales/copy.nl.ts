@@ -110,7 +110,7 @@ const copy: ChromeCopy = {
     about: {
       kicker: 'Over LaplandStays',
       h1: 'Onafhankelijk geschreven vanuit Fins Lapland',
-      lead: 'We wonen hier. We verblijven hier. We updaten deze gids elk seizoen en we vertellen u wanneer een accommodatie wordt overhyped.',
+      lead: 'De gids wordt elk seizoen bijgewerkt, en we vertellen u eerlijk wanneer een accommodatie overhyped is.',
       mission: 'Onze missie is om elke reiziger dezelfde aanbeveling te geven die we een vriend zouden geven, gebaseerd op echte verblijven, geverifieerde overnachtingstarieven en het lokale inzicht dat u alleen krijgt door ter plaatse te zijn.',
     },
   },

@@ -109,8 +109,8 @@ const copy: ChromeCopy = {
     },
     about: {
       kicker: 'About LaplandStays',
-      h1: 'Independently Written from Inside Finnish Lapland',
-      lead: 'We live here. We stay here. We update this guide every season, and we tell you when a property is overhyped.',
+      h1: 'The Independent Accommodation Guide to Finnish Lapland',
+      lead: 'The guide is updated every season, and we tell you straight when a property is overhyped.',
       mission: 'Our mission is simple: give every traveller the same recommendation we would give a friend. It comes from real stays, verified nightly rates, and the local insight you only get from being on the ground.',
     },
   },

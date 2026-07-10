@@ -110,7 +110,7 @@ const copy: ChromeCopy = {
     about: {
       kicker: 'Sobre LaplandStays',
       h1: 'Escrito de forma independiente desde la Laponia finlandesa',
-      lead: 'Vivimos aquí, dormimos aquí, actualizamos la guía cada temporada y le decimos cuándo una propiedad está sobrevalorada.',
+      lead: 'La guía se actualiza cada temporada. Si un alojamiento está sobrevalorado, se lo decimos sin rodeos.',
       mission: 'Nuestra misión es dar a cada viajero la misma recomendación que le daríamos a un amigo, basada en estancias reales, tarifas verificadas y la perspectiva local que solo se tiene viviendo aquí.',
     },
   },
