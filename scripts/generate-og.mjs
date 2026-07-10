@@ -33,12 +33,12 @@ const gradientSvg = Buffer.from(`
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.40"/>
-      <stop offset="50%" stop-color="${NIGHT}" stop-opacity="0.42"/>
-      <stop offset="100%" stop-color="${NIGHT}" stop-opacity="0.90"/>
+      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.28"/>
+      <stop offset="50%" stop-color="${NIGHT}" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="${NIGHT}" stop-opacity="0.72"/>
     </linearGradient>
     <radialGradient id="r" cx="50%" cy="46%" r="72%">
-      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.62"/>
+      <stop offset="0%" stop-color="${NIGHT}" stop-opacity="0.36"/>
       <stop offset="100%" stop-color="${NIGHT}" stop-opacity="0"/>
     </radialGradient>
   </defs>
@@ -59,16 +59,15 @@ function textSvg({ siteBrand, subtitle, price, badge }) {
   const bg = xmlEscape(badge);
   const cx = W / 2; // 600 — horizontal centre
 
-  // Adaptive wordmark size: longest line is max("#LAPLAND"=8, brand length).
-  // Target ≤ ~545px wide (well inside the 630px safe zone). Impact cap ≈ 0.62em.
-  const longest = Math.max(8, siteBrand.length);
-  const brandSize = Math.max(70, Math.min(106, Math.floor(545 / (longest * 0.62))));
-  const lineGap = Math.round(brandSize * 1.0);
-  const line1Y = 232;            // baseline of "#LAPLAND"
-  const line2Y = line1Y + lineGap; // baseline of BRAND
-  const subY = line2Y + 64;
+  // ONE-LINE wordmark ("#LAPLAND"+brand on a single line, like tours/dining/hub),
+  // auto-sized so even a long brand (SAARISELKÄ) stays inside the ~560px centre
+  // square-crop-safe zone. Vesa 2026-07-10: one line, never stacked.
+  const lineChars = 8 + siteBrand.length; // "#LAPLAND" = 8 glyphs, + brand
+  const brandSize = Math.max(44, Math.min(92, Math.floor(560 / (lineChars * 0.6))));
+  const wordY = 300;             // baseline of the single wordmark line
+  const subY = 372;
   const prWidth = Math.max(250, (price || '').length * 13 + 56);
-  const prY = subY + 34;
+  const prY = subY + 30;
 
   return Buffer.from(`<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}">
@@ -97,14 +96,10 @@ function textSvg({ siteBrand, subtitle, price, badge }) {
         text-anchor="middle" letter-spacing="4">LAPLANDSTAYS.COM</text>
   <rect x="${cx - 65}" y="84" width="130" height="4" fill="${PINK}" rx="2"/>
 
-  <!-- Stacked, centred hashtag wordmark (square-crop safe) -->
-  <text x="${cx}" y="${line1Y}" font-family="Impact, 'Arial Black', sans-serif"
+  <!-- One-line, centred hashtag wordmark (square-crop safe, auto-sized) -->
+  <text x="${cx}" y="${wordY}" font-family="Impact, 'Arial Black', sans-serif"
         font-size="${brandSize}" letter-spacing="2" text-anchor="middle" filter="url(#textShadow)">
-    <tspan fill="${PINK}" filter="url(#pinkGlow)">#</tspan><tspan fill="${SNOW}">LAPLAND</tspan>
-  </text>
-  <text x="${cx}" y="${line2Y}" font-family="Impact, 'Arial Black', sans-serif"
-        font-size="${brandSize}" letter-spacing="2" text-anchor="middle" filter="url(#textShadow)">
-    <tspan fill="${PINK}" filter="url(#pinkGlow)">${brand}</tspan>
+    <tspan fill="${PINK}" filter="url(#pinkGlow)">#</tspan><tspan fill="${SNOW}">LAPLAND</tspan><tspan fill="${PINK}" filter="url(#pinkGlow)">${brand}</tspan>
   </text>
 
   <!-- Subtitle, centred -->
@@ -196,7 +191,7 @@ async function buildOne(v) {
 
   const base = await sharp(srcPath)
     .resize(W, H, { fit: 'cover', position: 'attention' })
-    .modulate({ brightness: 0.76, saturation: 1.14 })
+    .modulate({ brightness: 0.92, saturation: 1.14 })
     .toBuffer();
 
   await sharp(base)
