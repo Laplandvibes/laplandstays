@@ -90,7 +90,7 @@ const copy: ChromeCopy = {
       h1: 'Een maand-per-maand Lapland-kalender',
       lead: 'Poolnacht, ijsfestivals, middernachtszon, ruska-herfst, elke maand in Lapland is een ander land.',
       months: [
-        { month: 'November', tip: 'De poolnacht begint. Aurora keert terug. Hutten vullen, boek vroeg voor kerst.' },
+        { month: 'November', tip: 'De poolnacht begint. Het noorderlicht keert terug. Hutten vullen, boek vroeg voor kerst.' },
         { month: 'December', tip: 'Kerstman-seizoen op volle intensiteit. Sneeuw is gegarandeerd. Kortste dagen, helderste sneeuw.' },
         { month: 'Januari', tip: 'Koudste maand. Stilste week van het jaar tussen nieuwjaar en de eerste skikampen.' },
         { month: 'Februari', tip: 'Lange noorderlicht-nachten, de zon keert langzaam terug, ideaal voor safari\'s en ijsvissen.' },
