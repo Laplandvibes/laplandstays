@@ -141,7 +141,7 @@ export default function EditorialPolicy() {
           <p className="text-white/65 text-base leading-relaxed mb-8 max-w-2xl">
             {ui.sourcesLead}
           </p>
-          <div className="overflow-x-auto rounded-xl border border-white/10">
+          <div className="stack-table overflow-x-auto rounded-xl border border-white/10">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-white/[0.04] text-left">
@@ -153,7 +153,7 @@ export default function EditorialPolicy() {
                 {ui.sources.map((s, i) => (
                   <tr key={s.label} className={i % 2 === 0 ? 'bg-white/[0.02]' : ''}>
                     <td className="px-4 py-3 font-heading text-base text-pink whitespace-nowrap align-top">{s.label}</td>
-                    <td className="px-4 py-3 text-white/75 text-[14px] leading-relaxed">{s.use}</td>
+                    <td data-label={ui.useLabel} className="px-4 py-3 text-white/75 text-[14px] leading-relaxed">{s.use}</td>
                   </tr>
                 ))}
               </tbody>

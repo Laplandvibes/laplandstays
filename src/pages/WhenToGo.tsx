@@ -150,7 +150,7 @@ export default function WhenToGo() {
             {ui.monthLead}
           </p>
 
-          <div className="overflow-x-auto rounded-xl border border-white/10">
+          <div className="stack-table overflow-x-auto rounded-xl border border-white/10">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-white/[0.04] text-left">
@@ -167,12 +167,12 @@ export default function WhenToGo() {
                 {ui.months.map((m, i) => (
                   <tr key={m.m} className={i % 2 === 0 ? 'bg-white/[0.02]' : ''}>
                     <td className="px-4 py-3 font-heading text-base text-pink whitespace-nowrap">{m.m}</td>
-                    <td className="px-4 py-3 text-white/75 whitespace-nowrap text-[13px]">{m.daylight}</td>
-                    <td className="px-4 py-3 text-white/75 text-[13px]">{m.aurora}</td>
-                    <td className="px-4 py-3 text-white/75 text-[13px]">{m.snow}</td>
-                    <td className="px-4 py-3 text-white/75 text-[13px]">{m.vibe}</td>
-                    <td className="px-4 py-3 text-white/75 text-[13px]">{m.bookingNote}</td>
-                    <td className="px-4 py-3 font-heading text-amber whitespace-nowrap">{m.fromPrice}</td>
+                    <td data-label={ui.th.daylight} className="px-4 py-3 text-white/75 whitespace-nowrap text-[13px]">{m.daylight}</td>
+                    <td data-label={ui.th.aurora} className="px-4 py-3 text-white/75 text-[13px]">{m.aurora}</td>
+                    <td data-label={ui.th.snow} className="px-4 py-3 text-white/75 text-[13px]">{m.snow}</td>
+                    <td data-label={ui.th.vibe} className="px-4 py-3 text-white/75 text-[13px]">{m.vibe}</td>
+                    <td data-label={ui.th.booking} className="px-4 py-3 text-white/75 text-[13px]">{m.bookingNote}</td>
+                    <td data-label={ui.th.from} className="px-4 py-3 font-heading text-amber whitespace-nowrap">{m.fromPrice}</td>
                   </tr>
                 ))}
               </tbody>
