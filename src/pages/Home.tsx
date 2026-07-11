@@ -10,6 +10,8 @@ import BookingCTA from '../components/BookingCTA'
 import ActivitiesCrossSell from '../components/ActivitiesCrossSell'
 import FAQSection, { type FAQItem } from '../components/FAQSection'
 import PartnerStayAd from '../components/PartnerStayAd'
+import HomeAdSlots from '../../../shared/HomeAdSlots'
+import { AD_SLOTS } from '../data/adSlots'
 import Newsletter from '../components/Newsletter'
 import SEO from '../components/SEO'
 import { useLang, type Lang } from '../i18n/useLang'
@@ -169,6 +171,9 @@ export default function Home() {
       <Locations />
       <Reviews />
       <ActivitiesCrossSell />
+      {/* LV Media -mainospaikat: 2 pääsponsoria + 6 kohdepaikkaa (house-adit kun
+          tyhjänä). Vaalea pinta — sivun cream-tausta, pinkki vain aksenttina. */}
+      <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
       <FAQSection items={faqItems} />
       <BookingCTA />
       {/* EKTA travel-insurance ad removed 2026-07-03 (Vesa): off-topic for an
