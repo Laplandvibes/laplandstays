@@ -10,7 +10,7 @@ import BookingCTA from '../components/BookingCTA'
 import ActivitiesCrossSell from '../components/ActivitiesCrossSell'
 import FAQSection, { type FAQItem } from '../components/FAQSection'
 import PartnerStayAd from '../components/PartnerStayAd'
-import HomeAdSlots from '../../../shared/HomeAdSlots'
+import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots'
 import { AD_SLOTS } from '../data/adSlots'
 import Newsletter from '../components/Newsletter'
 import SEO from '../components/SEO'
@@ -157,7 +157,13 @@ export default function Home() {
         jsonLd={jsonLd}
       />
       <Hero />
+      {/* PÄÄKUMPPANI-banneri HETI heron alle (LV Media; tyhjä → house-ad).
+          Vaalea pinta — istuu sivun cream-taustaan. */}
+      <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
       <PropertyTypes />
+      {/* LV Media -kumppaniosio heti ensimmäisen sisältöosion jälkeen:
+          kakkospääkumppani + 6 kohdepaikkaa (house-adit kun tyhjänä). */}
+      <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
       <PriceGuide />
       <FeaturedProperties />
       {/* Lomarengas, whole-cabin angle, in the booking-intent zone after the
@@ -171,9 +177,6 @@ export default function Home() {
       <Locations />
       <Reviews />
       <ActivitiesCrossSell />
-      {/* LV Media -mainospaikat: 2 pääsponsoria + 6 kohdepaikkaa (house-adit kun
-          tyhjänä). Vaalea pinta — sivun cream-tausta, pinkki vain aksenttina. */}
-      <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
       <FAQSection items={faqItems} />
       <BookingCTA />
       {/* EKTA travel-insurance ad removed 2026-07-03 (Vesa): off-topic for an
