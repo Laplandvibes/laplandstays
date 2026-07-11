@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Search, MapPin, Calendar, Users, Car, Hotel, Plane, ArrowRight } from 'lucide-react'
+import { Search, MapPin, Calendar, Users, Car, Hotel, Plane, ArrowRight, ChevronDown } from 'lucide-react'
 import { trackAffiliateClick } from '../lib/analytics'
 import { buildAffiliateUrl } from '../lib/affiliate'
 import { buildTripFlightUrl } from '../lib/tripcom'
@@ -162,7 +162,9 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
     i === 0 ? { ...d, label: wc.destOptions.all } : d
   )
 
-  const selectCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-4 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none appearance-none cursor-pointer transition-colors'
+  const selectCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-10 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none appearance-none cursor-pointer transition-colors'
+  // appearance-none hides the OS arrow, so every <select> draws its own chevron
+  const chevronCls = 'absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/60 pointer-events-none'
   const dateCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-3 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none [color-scheme:dark] transition-colors'
   const iconCls = 'absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-vibe-pink pointer-events-none'
   const labelCls = 'block text-[11px] uppercase tracking-[0.18em] text-white/85 font-semibold mb-2'
@@ -206,6 +208,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
                       <option key={d.label} value={d.value} style={optStyle}>{d.label}</option>
                     ))}
                   </select>
+                  <ChevronDown className={chevronCls} aria-hidden="true" />
                 </div>
               </div>
               <div>
@@ -215,6 +218,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
                   <select aria-label={wc.guests} value={hotelGuests} onChange={(e) => setHotelGuests(Number(e.target.value))} className={selectCls}>
                     {[1, 2, 3, 4, 5, 6].map(n => <option key={n} value={n} style={optStyle}>{n} {n === 1 ? wc.guestSingular : wc.guestPlural}</option>)}
                   </select>
+                  <ChevronDown className={chevronCls} aria-hidden="true" />
                 </div>
               </div>
               <div>
@@ -245,6 +249,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
                       <option key={d.iata} value={d.iata} style={optStyle}>{d.label}</option>
                     ))}
                   </select>
+                  <ChevronDown className={chevronCls} aria-hidden="true" />
                 </div>
               </div>
               <div>
@@ -273,6 +278,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
                   <select aria-label={wc.pickUpLocation} value={carLocation} onChange={(e) => setCarLocation(e.target.value)} className={selectCls}>
                     {CAR_LOCATIONS.map(l => <option key={l.value} value={l.value} style={optStyle}>{l.label}</option>)}
                   </select>
+                  <ChevronDown className={chevronCls} aria-hidden="true" />
                 </div>
               </div>
               <div>
