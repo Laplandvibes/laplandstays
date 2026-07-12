@@ -39,14 +39,22 @@ export default function ReviewedBy({
 
   return (
     <div
-      className={`inline-flex items-center gap-2.5 ${bg} border ${border} rounded-full px-4 py-1.5 ${className}`}
+      className={`inline-flex items-center gap-2.5 ${bg} border ${border} rounded-2xl px-4 py-1.5 ${className}`}
       role="note"
       aria-label="Editorial attribution"
     >
       <ShieldCheck className="w-3.5 h-3.5 text-pink shrink-0" />
       <p className={`text-[12px] ${dim} font-medium leading-snug`}>
-        {reviewedLabel} <span className={`${strong} font-semibold`}>{reviewer}</span> · {resolvedDate} ·{' '}
-        <Link to={to('/editorial-policy')} className={`${link} font-semibold underline-offset-2 hover:underline`}>
+        <span className="whitespace-nowrap">
+          {reviewedLabel} <span className={`${strong} font-semibold`}>{reviewer}</span>
+        </span>
+        <span aria-hidden="true"> · </span>
+        <span className="whitespace-nowrap">{resolvedDate}</span>
+        <span aria-hidden="true"> · </span>
+        <Link
+          to={to('/editorial-policy')}
+          className={`${link} font-semibold underline-offset-2 hover:underline whitespace-nowrap`}
+        >
           {policyLabel}
         </Link>
       </p>
