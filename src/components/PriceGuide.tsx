@@ -31,6 +31,7 @@ const loaders: Record<Lang, () => Promise<{ default: PriceGuideCopy }>> = {
   fr: () => import('./PriceGuide.copy.fr'),
   it: () => import('./PriceGuide.copy.it'),
   nl: () => import('./PriceGuide.copy.nl'),
+  sv: () => import('./PriceGuide.copy.sv'),
 }
 
 function usePriceGuideCopy(): PriceGuideCopy {

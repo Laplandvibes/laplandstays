@@ -14,7 +14,7 @@ export type Partner =
   | 'activities'
 
 
-export type Lang = "en" | "fi" | "de" | "ja" | "es" | "pt-BR" | "zh-CN" | "ko" | "fr" | "it" | "nl";
+export type Lang = "en" | "fi" | "de" | "ja" | "es" | "pt-BR" | "zh-CN" | "ko" | "fr" | "it" | "nl" | "sv";
 
 const HOTELS_LOCALE: Record<Lang, string> = {
   en: "en_US",
@@ -28,6 +28,7 @@ const HOTELS_LOCALE: Record<Lang, string> = {
   fr: "fr_FR",
   it: "it_IT",
   nl: "nl_NL",
+  sv: "sv_SE",
 };
 
 const CARS_LANG: Record<Lang, string> = {
@@ -42,6 +43,7 @@ const CARS_LANG: Record<Lang, string> = {
   fr: "fr",
   it: "it",
   nl: "nl",
+  sv: "sv",
 };
 
 const GYG_DOMAIN: Record<Lang, string> = {
@@ -56,6 +58,7 @@ const GYG_DOMAIN: Record<Lang, string> = {
   fr: "https://www.getyourguide.fr",
   it: "https://www.getyourguide.it",
   nl: "https://www.getyourguide.nl",
+  sv: "https://www.getyourguide.com",
 };
 
 const GYG_LANGUAGE: Record<Lang, string | undefined> = {
@@ -70,6 +73,7 @@ const GYG_LANGUAGE: Record<Lang, string | undefined> = {
   fr: "fr",
   it: "it",
   nl: "nl",
+  sv: "sv",
 };
 
 export interface BuildAffiliateOptions {

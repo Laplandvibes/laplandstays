@@ -58,6 +58,11 @@ const META: Record<Lang, { title: string; description: string }> = {
     description:
       'Welke cookies LaplandStays gebruikt en waarom, essentiële opslag van toestemming, Google Analytics 4 (alleen na opt-in) en Commission Junction affiliate-attributie.',
   },
+  sv: {
+    title: 'Cookiepolicy | LaplandStays',
+    description:
+      'Vilka cookies LaplandStays använder och varför: nödvändig lagring av samtycke, Google Analytics 4 (endast efter opt-in) och Commission Junction-affiliateattribuering.',
+  },
 };
 
 export default function CookiePolicy() {

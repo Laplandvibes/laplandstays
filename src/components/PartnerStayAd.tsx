@@ -215,6 +215,15 @@ const LOMARENGAS_COPY: Record<Lang, AdCopy> = {
     cta: 'Bekijk vrije huisjes',
     poweredBy: 'Boeking via Lomarengas',
   },
+  sv: {
+    adLabel: 'Annons',
+    eyebrow: 'En hel stuga, inte ett hotellrum',
+    headline: 'Hyr en hel stuga i Lappland, med egen bastu och plats för alla',
+    sub: 'Finlands största stuguthyrare. Tusentals stugor runt om i Lappland, många med egen bastu vid sjön och öppen spis. Du bokar direkt och får hela stället för er själva, inte bara ett rum. När du vill ha plats, lugn och eget kök vinner stugan över hotellet.',
+    trust: ['Egen bastu i de flesta', 'Hela stugan, inte delad', 'Stugor i hela Lappland'],
+    cta: 'Se lediga stugor',
+    poweredBy: 'Bokning via Lomarengas',
+  },
 }
 
 // ── EKTA copy (11 langs). Angle: travel insurance you can buy from ANY country,
@@ -318,6 +327,15 @@ const EKTA_COPY: Record<Lang, AdCopy> = {
     trust: ['Direct online actief', 'Vanuit elk land af te sluiten', 'Dekt winteractiviteiten'],
     cta: 'Bereken de prijs',
     poweredBy: 'Verzekering via EKTA',
+  },
+  sv: {
+    adLabel: 'Annons',
+    eyebrow: 'Innan du åker',
+    headline: 'EKTA, reseförsäkring för din Lapplandsresa, teckna den från vilket land som helst',
+    sub: 'Vintern i Lappland är kall och halkig, och en skoter- eller huskytur kan överraska. EKTA:s reseförsäkring tecknar du online på några minuter, oavsett om du bor i Finland eller någon annanstans. Den täcker vård, avbokningar och vinteraktiviteter. En liten sak, men du sover bättre.',
+    trust: ['Gäller direkt online', 'Teckna från vilket land som helst', 'Täcker vinteraktiviteter'],
+    cta: 'Räkna ut priset',
+    poweredBy: 'Försäkring via EKTA',
   },
 }
 
@@ -424,6 +442,15 @@ const HOTELS_COPY: Record<Lang, AdCopy> = {
     cta: 'Bekijk vrije kamers',
     poweredBy: 'Zoeken op Hotels.com',
   },
+  sv: {
+    adLabel: 'Annons',
+    eyebrow: 'Jämför allt i en sökning',
+    headline: 'Hotels.com, jämför Lapplands hotell, glasiglos och stugor på ett ställe',
+    sub: 'Det enkla sättet att se vad som faktiskt är ledigt för dina datum i Levi, Ylläs, Saariselkä och Rovaniemi. Du ser priserna sida vid sida, de flesta rum går att avboka gratis och många kan du betala när du kommer fram. Samla tio nätter så får du en på köpet.',
+    trust: ['Fri avbokning på de flesta', 'Betala när du kommer fram', '10 nätter = 1 gratis'],
+    cta: 'Se lediga rum',
+    poweredBy: 'Sök på Hotels.com',
+  },
 }
 
 // ── Car-rental copy (11 langs). Angle: Lapland distances are long + buses
@@ -528,6 +555,15 @@ const CARS_COPY: Record<Lang, AdCopy> = {
     trust: ['Ophalen op de luchthaven', 'Winterbanden inbegrepen', 'Vergelijk verhuurbedrijven'],
     cta: 'Bekijk huurauto’s',
     poweredBy: 'Autohuur via EconomyBookings',
+  },
+  sv: {
+    adLabel: 'Annons',
+    eyebrow: 'Din egen takt i Lappland',
+    headline: 'En hyrbil från flygplatsen, nå fjällen och norrskenet när det passar dig',
+    sub: 'Avstånden i Lappland är långa och kollektivtrafiken gles. Med egen bil tar du dig från hotellet till skidorten, huskygården och de bästa norrskensplatserna utan att vänta på bussen. Hämta direkt på flygplatsen, och vinterdäck ingår som standard i Finland.',
+    trust: ['Hämta på flygplatsen', 'Vinterdäck ingår', 'Jämför biluthyrare'],
+    cta: 'Se hyrbilar',
+    poweredBy: 'Biluthyrning via EconomyBookings',
   },
 }
 

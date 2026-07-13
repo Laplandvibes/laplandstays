@@ -29,6 +29,7 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
   'fr': () => import('./AmenitiesShowcase.copy.fr'),
   'it': () => import('./AmenitiesShowcase.copy.it'),
   'nl': () => import('./AmenitiesShowcase.copy.nl'),
+  'sv': () => import('./AmenitiesShowcase.copy.sv'),
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}

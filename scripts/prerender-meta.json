@@ -43,6 +43,10 @@
     "nl": {
       "title": "Cookiebeleid | LaplandStays",
       "description": "Welke cookies LaplandStays gebruikt en waarom, essentiële opslag van toestemming, Google Analytics 4 (alleen na opt-in) en Commission Junction affiliate-attributie."
+    },
+    "sv": {
+      "title": "Cookiepolicy | LaplandStays",
+      "description": "Vilka cookies LaplandStays använder och varför: nödvändig lagring av samtycke, Google Analytics 4 (endast efter opt-in) och Commission Junction-affiliateattribuering."
     }
   },
   "/privacy": {
@@ -89,6 +93,10 @@
     "nl": {
       "title": "Privacybeleid | LaplandStays",
       "description": "Hoe Lapeso Oy (LaplandStays) persoonsgegevens verwerkt: nieuwsbriefinschrijvingen, analytics en affiliate-cookies. AVG-/ePrivacy-conform."
+    },
+    "sv": {
+      "title": "Integritetspolicy | LaplandStays",
+      "description": "Hur Lapeso Oy (LaplandStays) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. Följer GDPR/ePrivacy."
     }
   },
   "/terms": {
@@ -135,6 +143,10 @@
     "nl": {
       "title": "Gebruiksvoorwaarden | LaplandStays",
       "description": "Gebruiksvoorwaarden van laplandstays.com: een redactionele affiliate-reisgids beheerd door Lapeso Oy. Boekingen lopen via partnerplatforms, niet via ons."
+    },
+    "sv": {
+      "title": "Användarvillkor | LaplandStays",
+      "description": "Användarvillkor för laplandstays.com: en redaktionell affiliate-reseguide som drivs av Lapeso Oy. Bokningar hanteras av partnerplattformar, inte av oss."
     }
   }
 }

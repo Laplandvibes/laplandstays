@@ -3,7 +3,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 const STORAGE_KEY = 'lv_locale_choice';
 
-type StoredLocale = 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl';
+type StoredLocale = 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl' | 'sv';
 
 const URL_PREFIX: Record<StoredLocale, string> = {
   en: '',
@@ -17,6 +17,7 @@ const URL_PREFIX: Record<StoredLocale, string> = {
   fr: '/fr',
   it: '/it',
   nl: '/nl',
+  sv: '/sv',
 };
 
 export default function LocaleAutoRedirect() {
@@ -38,7 +39,7 @@ export default function LocaleAutoRedirect() {
     }
 
     let target: StoredLocale = 'en';
-    const validValues: StoredLocale[] = ['en', 'fi', 'de', 'ja', 'es', 'pt-BR', 'zh-CN', 'ko', 'fr', 'it', 'nl'];
+    const validValues: StoredLocale[] = ['en', 'fi', 'de', 'ja', 'es', 'pt-BR', 'zh-CN', 'ko', 'fr', 'it', 'nl', 'sv'];
 
     // An explicit, valid stored choice always wins — that is the user's intent.
     // (Empty strings and stale/unknown values fall through to geo-detection so a
@@ -65,6 +66,7 @@ export default function LocaleAutoRedirect() {
         if (lang.startsWith('fr')) return 'fr';
         if (lang.startsWith('it')) return 'it';
         if (lang.startsWith('nl')) return 'nl';
+        if (lang.startsWith('sv')) return 'sv';
         if (lang.startsWith('en')) return 'en';
         return null;
       };

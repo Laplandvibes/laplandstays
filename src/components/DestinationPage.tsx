@@ -102,6 +102,7 @@ const ecoPrefix: Record<Lang, string> = {
   'fr': '/fr',
   'it': '/it',
   'nl': '/nl',
+  'sv': '/sv',
 }
 
 const transportIcon: Record<NonNullable<TransportRow['mode']>, typeof Plane> = {
@@ -125,6 +126,7 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
   'fr': () => import('./DestinationPage.copy.fr'),
   'it': () => import('./DestinationPage.copy.it'),
   'nl': () => import('./DestinationPage.copy.nl'),
+  'sv': () => import('./DestinationPage.copy.sv'),
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}
@@ -184,7 +186,9 @@ export default function DestinationPage(p: DestinationPageProps) {
                 ? 'Viaggiatori di alloggi di lusso, cacciatori di aurore, famiglie, coppie'
                 : lang === 'nl'
                   ? 'Reizigers in luxe accommodaties, aurora-jagers, gezinnen, stellen'
-                  : 'Luxury accommodation travellers, aurora hunters, families, couples',
+                  : lang === 'sv'
+                    ? 'Resenärer på lyxboende, norrskensjägare, familjer, par'
+                    : 'Luxury accommodation travellers, aurora hunters, families, couples',
   }
 
   const cityJsonLd = {

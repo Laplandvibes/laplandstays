@@ -49,6 +49,7 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
   fr: () => import('./About.copy.fr'),
   it: () => import('./About.copy.it'),
   nl: () => import('./About.copy.nl'),
+  sv: () => import('./About.copy.sv'),
 }
 
 function usePageCopy(): PageCopy {

@@ -58,6 +58,11 @@ const META: Record<Lang, { title: string; description: string }> = {
     description:
       'Gebruiksvoorwaarden van laplandstays.com: een redactionele affiliate-reisgids beheerd door Lapeso Oy. Boekingen lopen via partnerplatforms, niet via ons.',
   },
+  sv: {
+    title: 'Användarvillkor | LaplandStays',
+    description:
+      'Användarvillkor för laplandstays.com: en redaktionell affiliate-reseguide som drivs av Lapeso Oy. Bokningar hanteras av partnerplattformar, inte av oss.',
+  },
 };
 
 export default function Terms() {

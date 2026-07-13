@@ -305,6 +305,22 @@ export default function App() {
             <Route path="/nl/terms" element={<Terms />} />
             <Route path="/nl/cookie-policy" element={<CookiePolicy />} />
 
+            {/* SV routes */}
+            <Route path="/sv" element={<Home />} />
+            <Route path="/sv/destinations/levi" element={<Levi />} />
+            <Route path="/sv/destinations/yllas" element={<Yllas />} />
+            <Route path="/sv/destinations/saariselka" element={<Saariselka />} />
+            <Route path="/sv/destinations/inari" element={<Inari />} />
+            <Route path="/sv/destinations/rovaniemi" element={<Rovaniemi />} />
+            <Route path="/sv/property-types" element={<PropertyTypesPage />} />
+            <Route path="/sv/about" element={<About />} />
+            <Route path="/sv/when-to-go" element={<WhenToGo />} />
+            <Route path="/sv/transport" element={<Transport />} />
+            <Route path="/sv/editorial-policy" element={<EditorialPolicy />} />
+            <Route path="/sv/privacy" element={<PrivacyPolicy />} />
+            <Route path="/sv/terms" element={<Terms />} />
+            <Route path="/sv/cookie-policy" element={<CookiePolicy />} />
+
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>

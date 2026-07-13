@@ -58,6 +58,11 @@ const META: Record<Lang, { title: string; description: string }> = {
     description:
       'Hoe Lapeso Oy (LaplandStays) persoonsgegevens verwerkt: nieuwsbriefinschrijvingen, analytics en affiliate-cookies. AVG-/ePrivacy-conform.',
   },
+  sv: {
+    title: 'Integritetspolicy | LaplandStays',
+    description:
+      'Hur Lapeso Oy (LaplandStays) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. Följer GDPR/ePrivacy.',
+  },
 };
 
 export default function PrivacyPolicy() {

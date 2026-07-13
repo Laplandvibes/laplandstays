@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build && node scripts/generate-prerender-meta.mjs && node ../_prerender_routes.mjs --site=https://laplandstays.com --siteName=LaplandStays --twitter=@laplandvibes --defaultOg=/og-default.jpg?v=20260624 --routes=scripts/routes.json --meta=scripts/prerender-meta.json",
+    "build": "tsc -b && vite build && node scripts/generate-prerender-meta.mjs && node ../_prerender_routes.mjs --site=https://laplandstays.com --siteName=LaplandStays --twitter=@laplandvibes --defaultOg=/og-default.jpg?v=20260624 --routes=scripts/routes.json --meta=scripts/prerender-meta.json --addLocales=sv",
     "lint": "eslint .",
     "preview": "vite preview"
   },

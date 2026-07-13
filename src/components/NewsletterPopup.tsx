@@ -20,7 +20,7 @@ export default function NewsletterPopup() {
   const langRaw = useLang();
   return (
     <SharedNewsletterPopup
-lang={langRaw as 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl'}
+lang={langRaw as 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl' | 'sv'}
             siteId="laplandstays"
       brandWord="STAYS"
       endpoint="/api/newsletter"

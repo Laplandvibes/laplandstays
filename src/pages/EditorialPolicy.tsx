@@ -51,6 +51,7 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
   fr: () => import('./EditorialPolicy.copy.fr'),
   it: () => import('./EditorialPolicy.copy.it'),
   nl: () => import('./EditorialPolicy.copy.nl'),
+  sv: () => import('./EditorialPolicy.copy.sv'),
 }
 
 function usePageCopy(): PageCopy {
