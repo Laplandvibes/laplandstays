@@ -8,7 +8,8 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Sobre",
     "h1": "A Lapônia real, tarifas verificadas",
-    "intro": "LaplandStays é o diretório de hospedagem que o editor queria que existisse quando os amigos perguntavam onde dormir. Operado de dentro da Lapônia finlandesa pela Lapeso Oy.",
+    "heroAlt": "Fells nevados da Lapônia ao pôr do sol de inverno, abetos sob a espessa neve tykky em luz rosa pastel",
+    "intro": "LaplandStays é o diretório de hospedagem que o editor queria que existisse quando os amigos perguntavam onde dormir.",
     "missionEyebrow": "Por que isso existe",
     "missionH2": "Um guia honesto sobre onde dormir na Lapônia",
     "missionP1": "A maioria das listagens de hospedagem na Lapônia online inventa preços (\"a partir de 99 €/noite\" em uma hospedagem que não oferece essa faixa há seis anos), esconde divulgações de afiliação ou recomenda os mesmos cinco resorts no piloto automático. LaplandStays é uma correção, um guia pequeno, focado em hospedagens nomeadas, que reverifica as tarifas a cada temporada e te avisa quando algo está esgotado com 12 meses de antecedência em vez de fingir o contrário.",

@@ -22,6 +22,7 @@ export default function PageBreadcrumb() {
     '/destinations/rovaniemi': c.rovaniemi,
     '/when-to-go': c.whenToGo,
     '/transport': c.transport,
+    '/cabins': c.cabins,
     '/about': c.about,
   }
   return (

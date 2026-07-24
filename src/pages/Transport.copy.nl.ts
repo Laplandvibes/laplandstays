@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Aankomst',
     h1: 'Hoe komt u in Lapland',
-    lead: 'Vier luchthavens, één nachttrein vanuit Helsinki, vier echte busprijzen. Kies de luchthaven die bij uw bestemming past en sla het Europese overstapcircus over.',
+    heroAlt: 'Turboprop-vliegtuig op het besneeuwde platform van een kleine luchthaven in Lapland tijdens het blauwe uur, met brandende baanverlichting',
+    lead: 'Vier luchthavens, één nachttrein vanuit Helsinki, vier echte busprijzen.',
     airportsEyebrow: 'Per luchthaven',
     airportsH2: 'Kies de luchthaven, niet het land',
     airportsLead: 'Fins Lapland heeft vier werkende luchthavens. De meeste reizigers kiezen standaard Helsinki en voegen 12 uur land­vervoer toe, meestal onnodig. Directe wintervluchten vanuit Londen, Parijs, Amsterdam en Frankfurt laten u landen op de baan die het dichtst bij uw cabin ligt.',

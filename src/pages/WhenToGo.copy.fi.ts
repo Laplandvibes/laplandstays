@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Suunnittelu',
     h1: 'Milloin matkustaa',
-    lead: 'Aito Lapin kalenteri, milloin revontuli-ikkunat aukeavat, milloin rinteet pitävät lunta, milloin kohteet menevät täyteen 12 kuukautta etukäteen ja mikä kuukausi on salainen hintapommi jonka useimmat matkailijat ohittavat.',
+    heroAlt: 'Ruskan värit Lapin tuntureilla, punaiset ja kullanväriset rinteet tummansinisen järven ympärillä',
+    lead: 'Aito Lapin kalenteri: milloin revontulet syttyvät, milloin rinteet pitävät lunta ja milloin kaikki on jo varattu.',
     seasonsEyebrow: 'Neljä päällekkäistä sesonkia',
     seasonsH2: 'Valitse matkasi tarkoitus',
     monthEyebrow: 'Kuukausi kuukaudelta',

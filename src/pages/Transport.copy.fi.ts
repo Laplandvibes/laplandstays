@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Saapuminen',
     h1: 'Miten päästä Lappiin',
-    lead: 'Neljä lentokenttää, yksi yöjuna Helsingistä, neljä todellista bussihintaa. Valitse lentokenttä joka vastaa kohdetta ja ohita eurooppalaistyyppinen monireittinen seikkailu.',
+    heroAlt: 'Potkuriturbiinikone pienen Lapin lentokentän lumisella asematasolla sinisen hetken aikaan, kiitotievalot palavat',
+    lead: 'Neljä lentokenttää, yksi yöjuna Helsingistä, neljä todellista bussihintaa.',
     airportsEyebrow: 'Lentokentittäin',
     airportsH2: 'Valitse lentokenttä, älä maa',
     airportsLead: 'Suomen Lapissa on neljä toimivaa lentokenttää. Useimmat matkailijat menevät Helsinkiin ja lisäävät 12 tuntia maakulutusta, yleensä turhaa. Suorat talvireitit Lontoosta, Pariisista, Amsterdamista ja Frankfurtista laskeutuvat lähimpänä mökkiäsi olevalle kiitotielle.',

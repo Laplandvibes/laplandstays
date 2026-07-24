@@ -8,7 +8,8 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "About",
     "h1": "Real Lapland, Verified Rates",
-    "intro": "LaplandStays is the accommodation directory the operator wished existed when friends asked where to stay. Run from Finnish Lapland by Lapeso Oy.",
+    "heroAlt": "Snow-covered Lapland fells at winter sunset, spruce trees under thick tykky snow in pastel pink light",
+    "intro": "LaplandStays is the accommodation directory the operator wished existed when friends asked where to stay.",
     "missionEyebrow": "Why this exists",
     "missionH2": "One honest guide to where to sleep in Lapland",
     "missionP1": "Most Lapland accommodation listings online either invent prices (\"from €99/night\" for a property that has not opened that tier in six years), bury affiliate disclosures, or recommend the same five resorts on autopilot. LaplandStays is a corrective, a small, named-property guide that re-checks rates every season and tells you when something is sold out 12 months ahead instead of pretending otherwise.",

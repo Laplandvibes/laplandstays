@@ -8,7 +8,9 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Über uns",
     "h1": "Echtes Lappland, geprüfte Preise",
-    "intro": "LaplandStays ist das Unterkunftsverzeichnis, das der Betreiber sich gewünscht hätte, als Freunde fragten, wo man übernachten soll. Geführt aus Finnisch-Lappland von Lapeso Oy.",
+
+    "heroAlt": "Verschneite Fjälls in Lappland bei winterlichem Sonnenuntergang, Fichten unter dickem Tykky-Schnee in pastellrosa Licht",
+    "intro": "LaplandStays ist das Unterkunftsverzeichnis, das der Betreiber sich gewünscht hätte, als Freunde fragten, wo man übernachten soll.",
     "missionEyebrow": "Warum es das gibt",
     "missionH2": "Ein ehrlicher Leitfaden, wo Sie in Lappland schlafen",
     "missionP1": "Die meisten Lappland-Unterkunftslisten im Netz erfinden entweder Preise („ab 99 €/Nacht\" für eine Unterkunft, die diesen Tarif seit sechs Jahren nicht mehr anbietet), verstecken Affiliate-Hinweise oder empfehlen automatisch dieselben fünf Resorts. LaplandStays ist eine Korrektur, ein kleiner, an benannten Unterkünften orientierter Leitfaden, der die Preise jede Saison neu prüft und Ihnen sagt, wenn etwas 12 Monate im Voraus ausverkauft ist, statt etwas anderes zu behaupten.",

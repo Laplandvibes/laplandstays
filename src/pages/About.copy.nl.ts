@@ -8,7 +8,8 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Over ons",
     "h1": "Het echte Lapland, geverifieerde tarieven",
-    "intro": "LaplandStays is de accommodatiegids waarvan de beheerder hoopte dat hij bestond toen vrienden vroegen waar ze konden slapen. Vanuit Fins Lapland gerund door Lapeso Oy.",
+    "heroAlt": "Besneeuwde fjellen in Lapland bij winterse zonsondergang, sparren onder dikke tykky-sneeuw in pastelroze licht",
+    "intro": "LaplandStays is de accommodatiegids waarvan de beheerder hoopte dat hij bestond toen vrienden vroegen waar ze konden slapen.",
     "missionEyebrow": "Waarom dit bestaat",
     "missionH2": "Eén eerlijke gids voor waar u in Lapland slaapt",
     "missionP1": "De meeste online accommodatieoverzichten van Lapland verzinnen prijzen (\"vanaf €99/nacht\" voor een adres dat dat tarief al zes jaar niet meer hanteert), verbergen affiliate-vermeldingen of bevelen op de automatische piloot dezelfde vijf resorts aan. LaplandStays is een correctie, een kleine, op specifiek benoemde accommodaties gerichte gids die elk seizoen de tarieven opnieuw nakijkt en u meldt dat iets 12 maanden vooruit is uitverkocht, in plaats van te doen alsof dat niet zo is.",

@@ -9,6 +9,7 @@ export type ChromeCopy = {
     propertyTypes: string
     whenToGo: string
     transport: string
+    cabins: string
     about: string
     levi: string
     yllas: string

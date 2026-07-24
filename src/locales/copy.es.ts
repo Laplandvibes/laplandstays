@@ -13,6 +13,7 @@ const copy: ChromeCopy = {
     inari: 'Inari',
     rovaniemi: 'Rovaniemi',
     bookNow: 'Reservar',
+    cabins: 'Cabañas',
     langSwitch: 'Cambiar idioma',
   },
   hero: {

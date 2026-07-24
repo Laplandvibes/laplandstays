@@ -9,7 +9,9 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Planung',
     h1: 'Beste Reisezeit',
-    lead: 'Der echte Lappland-Kalender, wann Polarlicht-Fenster öffnen, wann Pisten Schnee halten, wann Unterkünfte 12 Monate im Voraus ausgebucht sind und welcher Monat das heimliche Schnäppchen ist, das die meisten Reisenden verpassen.',
+
+    heroAlt: 'Herbstliche Ruska-Farben auf Lapplands Fjälls, rote und goldene Hänge um einen dunkelblauen See',
+    lead: 'Der echte Lappland-Kalender: wann das Polarlicht kommt, wann die Pisten Schnee halten und wann alles ausgebucht ist.',
     seasonsEyebrow: 'Vier sich überlappende Saisons',
     seasonsH2: 'Wählen Sie die Reise, für die Sie kommen',
     monthEyebrow: 'Monat für Monat',

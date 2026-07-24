@@ -7,7 +7,8 @@ const copy = {
   ui: {
     eyebrow: 'Planning',
     h1: 'When to Go',
-    lead: 'The real Lapland calendar, when aurora windows open, when ski runs hold snow, when properties book out 12 months ahead, and which month is the secret bargain most travellers miss.',
+    heroAlt: 'Autumn ruska colours on Lapland fells, red and gold slopes around a dark blue lake',
+    lead: 'The real Lapland calendar: when the aurora opens, when the slopes hold snow, and when everything books out.',
     seasonsEyebrow: 'Four overlapping seasons',
     seasonsH2: 'Pick the trip you came for',
     monthEyebrow: 'Month by month',

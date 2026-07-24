@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Arrivare',
     h1: 'Come arrivare in Lapponia',
-    lead: 'Quattro aeroporti, un treno notturno da Helsinki, quattro prezzi reali di autobus. Scelga l\'aeroporto giusto per la sua destinazione ed eviti la trafila di scali in stile europeo.',
+    heroAlt: "Aereo a turboelica sul piazzale innevato di un piccolo aeroporto della Lapponia all'ora blu, luci della pista accese",
+    lead: 'Quattro aeroporti, un treno notturno da Helsinki, quattro prezzi reali di autobus.',
     airportsEyebrow: 'Per aeroporto',
     airportsH2: 'Scelga l\'aeroporto, non il paese',
     airportsLead: 'La Lapponia finlandese ha quattro aeroporti operativi. Quasi tutti i viaggiatori puntano automaticamente su Helsinki, aggiungendo 12 ore di viaggio via terra, di solito inutili. I voli invernali diretti da Londra, Parigi, Amsterdam e Francoforte la fanno atterrare sulla pista più vicina al suo cottage.',

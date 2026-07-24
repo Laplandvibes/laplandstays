@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Planering',
     h1: 'När du ska åka',
-    lead: 'Den riktiga Lapplandskalendern, när norrskensfönstren öppnar, när skidbackarna håller snö, när boenden blir slutbokade 12 månader i förväg och vilken månad som är fyndet de flesta resenärer missar.',
+    heroAlt: 'Höstens ruskafärger på Lapplands fjäll, röda och gyllene sluttningar kring en mörkblå sjö',
+    lead: 'Den riktiga Lapplandskalendern: när norrskenet kommer, när backarna håller snö och när allt är slutbokat.',
     seasonsEyebrow: 'Fyra överlappande årstider',
     seasonsH2: 'Välj resan du kom för',
     monthEyebrow: 'Månad för månad',

@@ -7,7 +7,8 @@ const copy = {
   ui: {
     eyebrow: 'Getting there',
     h1: 'How to Get to Lapland',
-    lead: 'Four airports, one overnight train from Helsinki, four real bus prices. Pick the airport that matches your destination and skip the European-style multi-stop misadventure.',
+    heroAlt: 'Turboprop aircraft on the snowy apron of a small Lapland airport at blue hour, runway lights glowing',
+    lead: 'Four airports, one overnight train from Helsinki, four real bus prices.',
     airportsEyebrow: 'By airport',
     airportsH2: 'Pick the airport, not the country',
     airportsLead: 'Finnish Lapland has four working airports. Most travellers default to Helsinki and add 12 hours of overland travel, usually unnecessary. Direct winter routes from London, Paris, Amsterdam and Frankfurt land you on the runway closest to your cabin.',

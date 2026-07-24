@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Att ta sig dit',
     h1: 'Så tar du dig till Lappland',
-    lead: 'Fyra flygplatser, ett nattåg från Helsingfors, fyra riktiga busspriser. Välj den flygplats som matchar ditt resmål, så slipper du krångliga mellanlandningar.',
+    heroAlt: 'Turbopropplan på den snöiga plattan vid en liten flygplats i Lappland i blå timmen, banljusen lyser',
+    lead: 'Fyra flygplatser, ett nattåg från Helsingfors, fyra riktiga busspriser.',
     airportsEyebrow: 'Efter flygplats',
     airportsH2: 'Välj flygplats, inte land',
     airportsLead: 'Finska Lappland har fyra flygplatser i drift. De flesta resenärer väljer Helsingfors av gammal vana och lägger på 12 timmars marktransport, oftast i onödan. Direkta vinterrutter från London, Paris, Amsterdam och Frankfurt landar dig på den bana som ligger närmast din stuga.',

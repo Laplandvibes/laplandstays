@@ -32,6 +32,7 @@ export interface Principle {
 export interface PageUi {
   eyebrow: string
   h1: string
+  heroAlt: string
   intro: string
   missionEyebrow: string
   missionH2: string

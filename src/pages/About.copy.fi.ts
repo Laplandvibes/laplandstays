@@ -8,7 +8,8 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Tietoa",
     "h1": "Aitoa Lappia, tarkistetut hinnat",
-    "intro": "LaplandStays on majoitushakemisto, jonka ylläpitäjä olisi toivonut olevan olemassa, kun ystävät kysyivät missä Lapissa kannattaa yöpyä. Oppaasta vastaa Lapeso Oy Suomen Lapista käsin.",
+    "heroAlt": "Lumiset Lapin tunturit talviauringonlaskussa, tykkylumen peittämät kuuset pastellinpunaisessa valossa",
+    "intro": "LaplandStays on majoitushakemisto, jonka ylläpitäjä olisi toivonut olevan olemassa, kun ystävät kysyivät missä Lapissa kannattaa yöpyä.",
     "missionEyebrow": "Miksi tämä on olemassa",
     "missionH2": "Yksi rehellinen opas Lapin majoitukseen",
     "missionP1": "Useimmat Lapin majoituslistaukset verkossa joko keksivät hintoja (\"alkaen 99 €/yö\" kohteelle joka ei ole avannut tuota tasoa kuuteen vuoteen), piilottavat kumppanuusilmoitukset tai suosittelevat samoja viittä lomakeskusta automaattisesti. LaplandStays on korjaus, pieni, nimettyihin kohteisiin keskittyvä opas joka tarkistaa hinnat joka kausi ja kertoo kun jokin on loppuunmyyty 12 kuukautta etukäteen sen sijaan että teeskentelisi muuta.",

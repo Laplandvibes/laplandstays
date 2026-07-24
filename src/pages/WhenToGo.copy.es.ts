@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Planificación',
     h1: 'Cuándo ir',
-    lead: 'El calendario real de Laponia, cuándo se abren las ventanas de aurora, cuándo las pistas aguantan la nieve, cuándo los alojamientos se agotan con 12 meses de antelación y qué mes es la ganga secreta que la mayoría pasa por alto.',
+    heroAlt: 'Colores otoñales de la ruska en los fells de Laponia, laderas rojas y doradas alrededor de un lago azul oscuro',
+    lead: 'El calendario real de Laponia: cuándo aparece la aurora, cuándo las pistas aguantan la nieve y cuándo todo se agota.',
     seasonsEyebrow: 'Cuatro temporadas que se solapan',
     seasonsH2: 'Elija el viaje al que vino',
     monthEyebrow: 'Mes a mes',

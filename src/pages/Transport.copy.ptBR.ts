@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Como chegar',
     h1: 'Como chegar à Lapônia',
-    lead: 'Quatro aeroportos, um trem noturno de Helsinki, quatro preços reais de ônibus. Escolha o aeroporto que combina com seu destino e pule a aventura europeia de várias conexões.',
+    heroAlt: 'Avião turboélice no pátio nevado de um pequeno aeroporto da Lapônia na hora azul, com as luzes da pista acesas',
+    lead: 'Quatro aeroportos, um trem noturno de Helsinki, quatro preços reais de ônibus.',
     airportsEyebrow: 'Por aeroporto',
     airportsH2: 'Escolha o aeroporto, não o país',
     airportsLead: 'A Lapônia finlandesa tem quatro aeroportos em operação. A maioria dos viajantes vai a Helsinki por padrão e adiciona 12 horas de trajeto por terra, normalmente desnecessário. Rotas diretas de inverno de Londres, Paris, Amsterdã e Frankfurt te colocam na pista mais próxima da sua cabana.',

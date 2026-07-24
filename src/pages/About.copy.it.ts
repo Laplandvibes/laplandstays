@@ -8,7 +8,8 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Chi siamo",
     "h1": "La vera Lapponia, tariffe verificate",
-    "intro": "LaplandStays è la directory di alloggi che il gestore desiderava esistesse quando gli amici chiedevano dove dormire. Gestita dalla Lapponia finlandese da Lapeso Oy.",
+    "heroAlt": "Fell innevati della Lapponia al tramonto invernale, abeti sotto la spessa neve tykky in una luce rosa pastello",
+    "intro": "LaplandStays è la directory di alloggi che il gestore desiderava esistesse quando gli amici chiedevano dove dormire.",
     "missionEyebrow": "Perché esiste",
     "missionH2": "Una guida onesta su dove dormire in Lapponia",
     "missionP1": "La maggior parte degli elenchi di alloggi in Lapponia online inventa i prezzi (\"da 99 €/notte\" per una struttura che non offre quella tariffa da sei anni), nasconde le note di affiliazione o consiglia gli stessi cinque resort in automatico. LaplandStays è una correzione, una guida piccola, fatta di strutture con nome e cognome, che ricontrolla le tariffe ogni stagione e dice quando qualcosa è esaurito con 12 mesi d'anticipo invece di fingere il contrario.",

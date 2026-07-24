@@ -227,6 +227,25 @@ function buildCarsLang(lang: Lang = "en") {
   };
 }
 
+// ─── Lomarengas (cabins, Adtraction) ─────────────────────────────────────────
+// go/lomarengas → 302 on.lomarengas.fi/t/t?…&epi=<site_sid>&url=<dest>.
+// Fixed 20 €/booking, 7-day tracking. `dest` must be a full lomarengas.fi URL;
+// Lomarengas has no DE site (404), so every non-FI locale deep-links to /en.
+const LOMARENGAS_AREAS = {
+  lapland: { fi: 'https://www.lomarengas.fi/mokit/lappi', intl: 'https://www.lomarengas.fi/en/cottages/lapland' },
+  levi: { fi: 'https://www.lomarengas.fi/mokit/levi', intl: 'https://www.lomarengas.fi/en/cottages/levi' },
+  yllas: { fi: 'https://www.lomarengas.fi/mokit/yllas', intl: 'https://www.lomarengas.fi/en/cottages/yllas' },
+  ruka: { fi: 'https://www.lomarengas.fi/mokit/ruka', intl: 'https://www.lomarengas.fi/en/cottages/ruka' },
+  saariselka: { fi: 'https://www.lomarengas.fi/mokit/saariselka', intl: 'https://www.lomarengas.fi/en/cottages/saariselka' },
+} as const;
+
+export type LomarengasArea = keyof typeof LOMARENGAS_AREAS;
+
+export function buildLomarengasUrl(area: LomarengasArea, sid: string, lang: Lang = 'en'): string {
+  const dest = lang === 'fi' ? LOMARENGAS_AREAS[area].fi : LOMARENGAS_AREAS[area].intl;
+  return `${REDIRECT_BASE}/go/lomarengas?sid=${encodeURIComponent(sid)}&dest=${encodeURIComponent(dest)}`;
+}
+
 /** Default EN-locale exports (backward compat — existing pages reference these as objects). */
 export const HOTEL_SEARCH = buildHotelSearchLang('en');
 export const PROPERTY_SEARCH = buildPropertySearchLang('en');

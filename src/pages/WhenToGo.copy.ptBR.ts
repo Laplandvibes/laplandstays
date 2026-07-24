@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Planejamento',
     h1: 'Quando ir',
-    lead: 'O calendário real da Lapônia, quando as janelas de aurora abrem, quando as pistas seguram a neve, quando as hospedagens esgotam 12 meses antes e qual mês é a barganha secreta que a maioria dos viajantes perde.',
+    heroAlt: 'Cores da ruska de outono nos fells da Lapônia, encostas vermelhas e douradas ao redor de um lago azul-escuro',
+    lead: 'O calendário real da Lapônia: quando a aurora aparece, quando as pistas seguram a neve e quando tudo esgota.',
     seasonsEyebrow: 'Quatro temporadas sobrepostas',
     seasonsH2: 'Escolha a viagem pela qual veio',
     monthEyebrow: 'Mês a mês',

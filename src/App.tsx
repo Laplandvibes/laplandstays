@@ -23,6 +23,7 @@ function FooterWrapper() {
     { name: c.nav.propertyTypes, href: to('/property-types') },
     { name: c.nav.whenToGo, href: to('/when-to-go') },
     { name: c.nav.transport, href: to('/transport') },
+    { name: c.nav.cabins, href: to('/cabins') },
     { name: c.nav.about, href: to('/about') },
     { name: c.networkHub.huskySafaris, href: 'https://laplandhuskysafaris.com' },
     { name: c.networkHub.skiResorts, href: 'https://laplandskiresorts.com' },
@@ -51,6 +52,7 @@ const PropertyTypesPage = lazy(() => import('./pages/PropertyTypesPage'))
 const About = lazy(() => import('./pages/About'))
 const WhenToGo = lazy(() => import('./pages/WhenToGo'))
 const Transport = lazy(() => import('./pages/Transport'))
+const Cabins = lazy(() => import('./pages/Cabins'))
 const EditorialPolicy = lazy(() => import('./pages/EditorialPolicy'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 const Terms = lazy(() => import('./pages/Terms'))
@@ -140,6 +142,7 @@ export default function App() {
             <Route path="/about" element={<About />} />
             <Route path="/when-to-go" element={<WhenToGo />} />
             <Route path="/transport" element={<Transport />} />
+            <Route path="/cabins" element={<Cabins />} />
             <Route path="/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<Terms />} />
@@ -156,6 +159,7 @@ export default function App() {
             <Route path="/fi/about" element={<About />} />
             <Route path="/fi/when-to-go" element={<WhenToGo />} />
             <Route path="/fi/transport" element={<Transport />} />
+            <Route path="/fi/cabins" element={<Cabins />} />
             <Route path="/fi/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/fi/privacy" element={<PrivacyPolicy />} />
             <Route path="/fi/terms" element={<Terms />} />
@@ -172,6 +176,7 @@ export default function App() {
             <Route path="/de/about" element={<About />} />
             <Route path="/de/when-to-go" element={<WhenToGo />} />
             <Route path="/de/transport" element={<Transport />} />
+            <Route path="/de/cabins" element={<Cabins />} />
             <Route path="/de/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/de/privacy" element={<PrivacyPolicy />} />
             <Route path="/de/terms" element={<Terms />} />
@@ -188,6 +193,7 @@ export default function App() {
             <Route path="/ja/about" element={<About />} />
             <Route path="/ja/when-to-go" element={<WhenToGo />} />
             <Route path="/ja/transport" element={<Transport />} />
+            <Route path="/ja/cabins" element={<Cabins />} />
             <Route path="/ja/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/ja/privacy" element={<PrivacyPolicy />} />
             <Route path="/ja/terms" element={<Terms />} />
@@ -204,6 +210,7 @@ export default function App() {
             <Route path="/es/about" element={<About />} />
             <Route path="/es/when-to-go" element={<WhenToGo />} />
             <Route path="/es/transport" element={<Transport />} />
+            <Route path="/es/cabins" element={<Cabins />} />
             <Route path="/es/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/es/privacy" element={<PrivacyPolicy />} />
             <Route path="/es/terms" element={<Terms />} />
@@ -220,6 +227,7 @@ export default function App() {
             <Route path="/br/about" element={<About />} />
             <Route path="/br/when-to-go" element={<WhenToGo />} />
             <Route path="/br/transport" element={<Transport />} />
+            <Route path="/br/cabins" element={<Cabins />} />
             <Route path="/br/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/br/privacy" element={<PrivacyPolicy />} />
             <Route path="/br/terms" element={<Terms />} />
@@ -236,6 +244,7 @@ export default function App() {
             <Route path="/cn/about" element={<About />} />
             <Route path="/cn/when-to-go" element={<WhenToGo />} />
             <Route path="/cn/transport" element={<Transport />} />
+            <Route path="/cn/cabins" element={<Cabins />} />
             <Route path="/cn/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/cn/privacy" element={<PrivacyPolicy />} />
             <Route path="/cn/terms" element={<Terms />} />
@@ -252,6 +261,7 @@ export default function App() {
             <Route path="/kr/about" element={<About />} />
             <Route path="/kr/when-to-go" element={<WhenToGo />} />
             <Route path="/kr/transport" element={<Transport />} />
+            <Route path="/kr/cabins" element={<Cabins />} />
             <Route path="/kr/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/kr/privacy" element={<PrivacyPolicy />} />
             <Route path="/kr/terms" element={<Terms />} />
@@ -268,6 +278,7 @@ export default function App() {
             <Route path="/fr/about" element={<About />} />
             <Route path="/fr/when-to-go" element={<WhenToGo />} />
             <Route path="/fr/transport" element={<Transport />} />
+            <Route path="/fr/cabins" element={<Cabins />} />
             <Route path="/fr/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/fr/privacy" element={<PrivacyPolicy />} />
             <Route path="/fr/terms" element={<Terms />} />
@@ -284,6 +295,7 @@ export default function App() {
             <Route path="/it/about" element={<About />} />
             <Route path="/it/when-to-go" element={<WhenToGo />} />
             <Route path="/it/transport" element={<Transport />} />
+            <Route path="/it/cabins" element={<Cabins />} />
             <Route path="/it/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/it/privacy" element={<PrivacyPolicy />} />
             <Route path="/it/terms" element={<Terms />} />
@@ -300,6 +312,7 @@ export default function App() {
             <Route path="/nl/about" element={<About />} />
             <Route path="/nl/when-to-go" element={<WhenToGo />} />
             <Route path="/nl/transport" element={<Transport />} />
+            <Route path="/nl/cabins" element={<Cabins />} />
             <Route path="/nl/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/nl/privacy" element={<PrivacyPolicy />} />
             <Route path="/nl/terms" element={<Terms />} />
@@ -316,6 +329,7 @@ export default function App() {
             <Route path="/sv/about" element={<About />} />
             <Route path="/sv/when-to-go" element={<WhenToGo />} />
             <Route path="/sv/transport" element={<Transport />} />
+            <Route path="/sv/cabins" element={<Cabins />} />
             <Route path="/sv/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/sv/privacy" element={<PrivacyPolicy />} />
             <Route path="/sv/terms" element={<Terms />} />

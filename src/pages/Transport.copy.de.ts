@@ -9,7 +9,9 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Anreise',
     h1: 'Wie Sie nach Lappland kommen',
-    lead: 'Vier Flughäfen, ein Nachtzug aus Helsinki, vier echte Buspreise. Wählen Sie den Flughafen, der zu Ihrem Ziel passt, und sparen Sie sich das mehrstufige Umsteige-Abenteuer.',
+
+    heroAlt: 'Turboprop-Flugzeug auf dem verschneiten Vorfeld eines kleinen Flughafens in Lappland zur blauen Stunde, leuchtende Pistenbefeuerung',
+    lead: 'Vier Flughäfen, ein Nachtzug aus Helsinki, vier echte Buspreise.',
     airportsEyebrow: 'Per Flughafen',
     airportsH2: 'Wählen Sie den Flughafen, nicht das Land',
     airportsLead: 'Finnisch Lappland hat vier funktionierende Flughäfen. Die meisten Reisenden landen standardmäßig in Helsinki und hängen 12 Stunden Landreise an, meist unnötig. Direkte Winterrouten aus London, Paris, Amsterdam und Frankfurt bringen Sie auf die Landebahn, die Ihrer Hütte am nächsten liegt.',

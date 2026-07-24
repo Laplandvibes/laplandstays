@@ -4,6 +4,7 @@
   { "path": "/editorial-policy",       "copyFile": "src/pages/EditorialPolicy.copy.{lang}.ts" },
   { "path": "/property-types",         "copyFile": "src/pages/PropertyTypesPage.copy.{lang}.ts" },
   { "path": "/transport",              "copyFile": "src/pages/Transport.copy.{lang}.ts" },
+  { "path": "/cabins",                 "copyFile": "src/pages/Cabins.copy.{lang}.ts" },
   { "path": "/when-to-go",             "copyFile": "src/pages/WhenToGo.copy.{lang}.ts" },
   { "path": "/destinations/levi",      "pageFile": "src/pages/Levi.tsx" },
   { "path": "/destinations/yllas",     "pageFile": "src/pages/Yllas.tsx" },

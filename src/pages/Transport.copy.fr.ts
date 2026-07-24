@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Arriver',
     h1: 'Comment aller en Laponie',
-    lead: 'Quatre aéroports, un train de nuit depuis Helsinki, quatre vrais prix de bus. Choisissez l\'aéroport correspondant à votre destination et évitez les correspondances multiples à l\'européenne.',
+    heroAlt: "Avion à turbopropulseurs sur le tarmac enneigé d'un petit aéroport de Laponie à l'heure bleue, balisage lumineux allumé",
+    lead: 'Quatre aéroports, un train de nuit depuis Helsinki, quatre vrais prix de bus.',
     airportsEyebrow: 'Par aéroport',
     airportsH2: 'Choisissez l\'aéroport, pas le pays',
     airportsLead: 'La Laponie finlandaise compte quatre aéroports en service. La plupart des voyageurs visent Helsinki par défaut et ajoutent 12 heures de route, généralement inutile. Les vols hivernaux directs depuis Londres, Paris, Amsterdam et Francfort vous posent sur la piste la plus proche de votre chalet.',

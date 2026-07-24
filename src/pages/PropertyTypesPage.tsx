@@ -8,6 +8,7 @@ import SEO from '../components/SEO'
 import PageBreadcrumb from '../components/PageBreadcrumb'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import ReviewedBy from '../components/ReviewedBy'
+import { REVIEWED_DATE } from '../lib/reviewDates'
 import { HOTEL_SEARCH, buildAffiliateUrl } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
@@ -144,10 +145,10 @@ function CategorySection(p: CategoryProps) {
         ))}
       </div>
 
-      <div className="flex items-center gap-3 mb-7 text-sm">
+      <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 mb-7 text-sm">
         <MapPin className="w-4 h-4 text-charcoal/45 shrink-0" />
         <span className="text-charcoal/70 uppercase text-xs tracking-widest font-semibold">{p.concentratedLabel}</span>
-        <div className="flex items-center gap-3">
+        <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
           {p.concentratedIn.map((c, i) => (
             <span key={c.to} className="flex items-center gap-3">
               {i > 0 && <span className="text-charcoal/30">·</span>}
@@ -379,7 +380,7 @@ export default function PropertyTypesPage() {
           <p className="text-amber uppercase tracking-[0.32em] text-xs sm:text-sm font-semibold mb-5 [text-shadow:0_2px_14px_rgba(0,0,0,0.85)]">
             {ui.eyebrow}
           </p>
-          <h1 className="font-heading font-bold text-[2.75rem] leading-[1.05] sm:text-6xl md:text-7xl tracking-tight mb-6 [text-shadow:0_3px_30px_rgba(0,0,0,0.7),0_1px_4px_rgba(0,0,0,0.55)]">
+          <h1 className="font-heading text-[2.75rem] leading-[1.05] sm:text-6xl md:text-7xl tracking-wide mb-6 [text-shadow:0_3px_30px_rgba(0,0,0,0.7),0_1px_4px_rgba(0,0,0,0.55)]">
             {ui.h1}
           </h1>
           <p className="text-white/90 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-7 [text-shadow:0_2px_16px_rgba(0,0,0,0.8)]">
@@ -449,7 +450,7 @@ export default function PropertyTypesPage() {
       {/* E-E-A-T byline, bottom-of-page placement; pairs with the Article
           JSON-LD author entity above */}
       <section className="bg-[#FAFAF8] py-10 px-4 sm:px-6 flex justify-center">
-        <ReviewedBy />
+        <ReviewedBy date={REVIEWED_DATE.june2026[lang]} />
       </section>
     </>
   )

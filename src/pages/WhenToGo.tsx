@@ -4,6 +4,7 @@ import { ArrowRight, Sparkles, Snowflake, Sun, TreePine, Bell } from 'lucide-rea
 import SEO from '../components/SEO'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import ReviewedBy from '../components/ReviewedBy'
+import { REVIEWED_DATE } from '../lib/reviewDates'
 import Newsletter from '../components/Newsletter'
 import PageBreadcrumb from '../components/PageBreadcrumb'
 import { HOTEL_SEARCH } from '../lib/affiliate'
@@ -87,6 +88,7 @@ const SEASON_COLORS = ['text-pink', 'text-blue-400', 'text-amber', 'text-orange-
 
 export default function WhenToGo() {
   const to = useLocalePath()
+  const lang = useLang()
   const copy = usePageCopy()
   const { seo, ui } = copy
   const onCta = (cta: string) => () => trackAffiliateClick('hotelscom', `whentogo_${cta}`, HOTEL_SEARCH.lapland)
@@ -102,18 +104,34 @@ export default function WhenToGo() {
         jsonLd={[articleJsonLd, breadcrumbJsonLd]}
       />
 
-      <section className="relative overflow-hidden bg-night text-white pt-28 sm:pt-32 pb-16 px-4 sm:px-6">
-        <div aria-hidden="true" className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-pink opacity-[0.10] blur-[120px] rounded-full pointer-events-none" />
-        <div className="relative max-w-4xl mx-auto text-center">
-          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-4">{ui.eyebrow}</p>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5">
-            {ui.h1}
-          </h1>
-          <p className="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed mb-8">
-            {ui.lead}
-          </p>
-          <ReviewedBy variant="light" className="mb-4" />
-          <AffiliateDisclosure variant="compact" className="text-white/55 [&>svg]:text-white/55" />
+      <section className="relative overflow-hidden bg-night text-white">
+        <div className="relative min-h-[70svh] flex items-center justify-center px-4 sm:px-6 pt-24 sm:pt-28 pb-14 sm:pb-16">
+          <picture>
+            <source type="image/avif" srcSet="/images/hero-whentogo-800.avif 800w, /images/hero-whentogo-1200.avif 1200w" sizes="100vw" />
+            <source type="image/webp" srcSet="/images/hero-whentogo-800.webp 800w, /images/hero-whentogo-1200.webp 1200w, /images/hero-whentogo-1920.webp 1920w" sizes="100vw" />
+            <img
+              src="/images/hero-whentogo-1920.webp"
+              alt={ui.heroAlt}
+              className="absolute inset-0 w-full h-full object-cover object-[center_45%]"
+              loading="eager"
+              fetchPriority="high"
+              decoding="async"
+              width="2752"
+              height="1536"
+            />
+          </picture>
+          <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/35 to-night" />
+          <div className="relative z-10 max-w-4xl mx-auto text-center">
+            <p className="text-pink uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 [text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{ui.eyebrow}</p>
+            <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
+              {ui.h1}
+            </h1>
+            <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
+              {ui.lead}
+            </p>
+            <ReviewedBy variant="light" date={REVIEWED_DATE.june2026[lang]} className="mb-4" />
+            <AffiliateDisclosure variant="compact" className="text-white/70 [&>svg]:text-white/70 [text-shadow:0_1px_8px_rgba(0,0,0,0.8)]" />
+          </div>
         </div>
       </section>
 

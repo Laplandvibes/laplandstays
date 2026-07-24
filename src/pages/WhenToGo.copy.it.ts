@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Pianificazione',
     h1: 'Quando partire',
-    lead: 'Il vero calendario della Lapponia, quando si aprono le finestre aurora, quando le piste tengono la neve, quando gli alloggi vanno esauriti 12 mesi prima e quale mese resta l\'affare segreto che molti viaggiatori si perdono.',
+    heroAlt: 'Colori autunnali della ruska sui fell della Lapponia, pendii rossi e dorati attorno a un lago blu scuro',
+    lead: "Il vero calendario della Lapponia: quando appare l'aurora, quando le piste tengono la neve e quando tutto è esaurito.",
     seasonsEyebrow: 'Quattro stagioni che si sovrappongono',
     seasonsH2: 'Scelga il viaggio che è venuto a cercare',
     monthEyebrow: 'Mese per mese',

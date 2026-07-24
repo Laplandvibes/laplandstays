@@ -9,7 +9,8 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Plannen',
     h1: 'Wanneer gaan',
-    lead: 'De echte Lapland-kalender, wanneer aurorabuien openen, wanneer de pistes sneeuw houden, wanneer accommodaties 12 maanden vooruit volgeboekt zitten en welke maand de geheime koopje-maand is die de meeste reizigers missen.',
+    heroAlt: 'Herfstkleuren van de ruska op de fjellen van Lapland, rode en gouden hellingen rond een donkerblauw meer',
+    lead: 'De echte Lapland-kalender: wanneer het noorderlicht komt, wanneer de pistes sneeuw houden en wanneer alles volgeboekt is.',
     seasonsEyebrow: 'Vier overlappende seizoenen',
     seasonsH2: 'Kies de reis waarvoor u kwam',
     monthEyebrow: 'Maand voor maand',
