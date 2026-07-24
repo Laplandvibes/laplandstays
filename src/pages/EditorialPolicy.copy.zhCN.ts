@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "每季核实房价",
-        "body": "每一句\"X欧元/晚起\"都来自运营商自己的预订页面或Hotels.com。价格每季度至少核实一次,并在极光季伊始(9月)显式核实。如果某住宿在旺季已售罄,页面会在开头明确告知,而非把读者引向零结果搜索。"
+        "body": "每一句\"X欧元/晚起\"都来自运营商自己的预订页面或我们的预订合作伙伴。价格每季度至少核实一次,并在极光季伊始(9月)显式核实。如果某住宿在旺季已售罄,页面会在开头明确告知,而非把读者引向零结果搜索。"
       },
       {
         "title": "点名住宿,不说\"5星高端\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "联盟独立",
-        "body": "LaplandStays通过合作链接的预订赚取联盟佣金(经CJ的Hotels.com、EconomyBookings、GetYourGuide)。合作伙伴计划中各方佣金率相似,因此不会影响推荐。当非联盟的运营商是正确答案时,我们也会推荐(如火车的VR)。详见/transport页面。"
+        "body": "LaplandStays通过合作链接的预订赚取联盟佣金(酒店为经Adtraction的Sembo和Trip.com,租车为经Travelpayouts的EconomyBookings,活动为GetYourGuide)。合作伙伴计划中各方佣金率相似,因此不会影响推荐。当非联盟的运营商是正确答案时,我们也会推荐(如火车的VR)。详见/transport页面。"
       },
       {
         "title": "更正,而非默默修改",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "联盟与编辑:前四项来源会产生佣金,后三项不产生。这一区别从不改变读者被引向哪个来源。它改变的是哪个被标为付费。",
     "sources": [
       {
-        "label": "Hotels.com(CJ合作方)",
+        "label": "Sembo & Trip.com(酒店合作方)",
         "use": "12家主要住宿+城市/区域搜索的实时空房与季节性\"起价\"。"
       },
       {
         "label": "运营商预订页面",
-        "use": "当Hotels.com库存不完整时直接核实房价(如Kakslauttanen自营预订、Levin Iglut、Aurora Village)。"
+        "use": "当合作方库存不完整时直接核实房价(如Kakslauttanen自营预订、Levin Iglut、Aurora Village)。"
       },
       {
-        "label": "EconomyBookings(CJ)",
+        "label": "EconomyBookings(Travelpayouts)",
         "use": "KTT / RVN / IVL机场租车价格,以及赫尔辛基单向取车。"
       },
       {

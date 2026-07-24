@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: '空室を確認',
     anchorEyebrow: '主要施設',
     whereToStayH2: (n: string) => `${n}でどこに泊まるか`,
-    anchorLead: 'Hotels.comの確認済み料金へ。ピーク期は4〜8カ月前の予約が必要です。',
+    anchorLead: 'Trip.comの最新料金へ。ピーク期は4〜8カ月前の予約が必要です。',
     gettingThereH2: (n: string) => `${n}までの交通`,
     transportLead: '運営者ページの実料金。季節ごとに再確認。送迎は通常、宿泊施設経由で事前予約が可能です。',
     rentCarLabel: 'レンタカー · EconomyBookings',

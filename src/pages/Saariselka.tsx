@@ -41,7 +41,7 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'The original glass igloos. Books 8–12 mo ahead for peak aurora.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'On Kaunispää fell, glass-roofed rooms with the best Saariselkä village skyline.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'All-suite designer lodge with full safari programme.' },
-    { name: 'All Saariselkä accommodation', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Browse every Saariselkä property on Hotels.com.' },
+    { name: 'All Saariselkä accommodation', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Browse every Saariselkä property on Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Ivalo Airport (IVL)', detail: 'Direct winter flights from HEL · LHR · CDG. 30 km / 30 min south to Saariselkä village.' },
@@ -105,7 +105,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Alkuperäiset lasi-iglut. Varataan 8–12 kk etukäteen revontuli-huipulle.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Kaunispään tunturilla, lasikattoiset huoneet ja paras näkymä Saariselän kylälle.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Pelkkiä sviittejä, design-erämaakohde täydellä safariohjelmalla.' },
-    { name: 'Kaikki Saariselän majoitukset', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Selaa kaikki Saariselän kohteet Hotels.comissa.' },
+    { name: 'Kaikki Saariselän majoitukset', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Selaa kaikki Saariselän kohteet Trip.comissa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ivalon lentokentältä (IVL)', detail: 'Suorat talvilennot HEL · LHR · CDG. 30 km / 30 min etelään Saariselän kylälle.' },
@@ -169,7 +169,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Die ursprünglichen Glasiglus. 8–12 Monate im Voraus für die Polarlicht-Hauptsaison ausgebucht.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Auf dem Fjäll Kaunispää, Räume mit Glasdach und der beste Blick auf das Dorf.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Nur Suiten, Designer-Lodge mit vollem Safari-Programm.' },
-    { name: 'Alle Saariselkä-Unterkünfte', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Stöbern Sie in allen Unterkünften auf Hotels.com.' },
+    { name: 'Alle Saariselkä-Unterkünfte', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Stöbern Sie in allen Unterkünften auf Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Ivalo (IVL)', detail: 'Direkte Winterflüge ab HEL · LHR · CDG. 30 km / 30 min südlich ins Dorf Saariselkä.' },
@@ -233,7 +233,7 @@ const ko: DestinationBody = {
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '글래스 이글루의 원조. 오로라 성수기는 8–12개월 전 마감.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Kaunispää 봉우리 위. 유리 천장 객실과 사리셀카 최고의 스카이라인 뷰.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: '전 객실 스위트의 디자이너 로지, 풀 사파리 프로그램 포함.' },
-    { name: '사리셀카 전체 숙소', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Hotels.com에서 사리셀카의 모든 숙소를 비교하세요.' },
+    { name: '사리셀카 전체 숙소', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.com에서 사리셀카의 모든 숙소를 비교하세요.' },
   ],
   transport: [
     { mode: 'plane', label: '이발로 공항(IVL)에서', detail: 'HEL · LHR · CDG 겨울 직항편. 사리셀카 마을까지 남쪽으로 30km / 30분.' },
@@ -297,7 +297,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Les igloos de verre originels. Complets 8 à 12 mois à l\'avance en haute saison aurores.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sur le fjell Kaunispää, chambres à toit de verre et la plus belle ligne de toits sur Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge signé tout-suites avec programme safari complet.' },
-    { name: 'Tous les hébergements de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Parcourez chaque adresse de Saariselkä sur Hotels.com.' },
+    { name: 'Tous les hébergements de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Parcourez chaque adresse de Saariselkä sur Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Depuis l\'aéroport d\'Ivalo (IVL)', detail: 'Vols hivernaux directs HEL · LHR · CDG. 30 km / 30 min vers le sud jusqu\'au village.' },
@@ -361,7 +361,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Gli igloo di vetro originali. Si prenotano 8–12 mesi prima in alta stagione aurorale.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sul fjell Kaunispää, camere con tetto di vetro e la migliore vista sullo skyline di Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge solo suite di design con programma safari completo.' },
-    { name: 'Tutti gli alloggi di Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Esplori ogni struttura di Saariselkä su Hotels.com.' },
+    { name: 'Tutti gli alloggi di Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Esplori ogni struttura di Saariselkä su Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Dall\'aeroporto di Ivalo (IVL)', detail: 'Voli invernali diretti HEL · LHR · CDG. 30 km / 30 min verso sud fino al paese di Saariselkä.' },
@@ -425,7 +425,7 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De oorspronkelijke glasiglo\'s. 8–12 maanden vooruit volgeboekt in aurora-hoogseizoen.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Op het Kaunispää-fjell, kamers met glazen dak en het mooiste zicht op Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Designerlodge met enkel suites en volledig safariprogramma.' },
-    { name: 'Alle Saariselkä-accommodaties', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Bekijk elke Saariselkä-accommodatie op Hotels.com.' },
+    { name: 'Alle Saariselkä-accommodaties', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Bekijk elke Saariselkä-accommodatie op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Ivalo (IVL)', detail: 'Directe wintervluchten HEL · LHR · CDG. 30 km / 30 min zuidwaarts naar het dorp Saariselkä.' },
@@ -489,7 +489,7 @@ const ja: DestinationBody = {
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '元祖ガラス・イグルー。オーロラのピーク期は8〜12か月前に予約。' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'カウニスパー山上。ガラス屋根の客室から、サーリセルカ村のスカイラインが最も美しく見えます。' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'オールスイートのデザイナーロッジ。サファリ全プログラム付き。' },
-    { name: 'サーリセルカのすべての宿泊施設', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Hotels.comでサーリセルカの全宿を閲覧できます。' },
+    { name: 'サーリセルカのすべての宿泊施設', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.comでサーリセルカの全宿を閲覧できます。' },
   ],
   transport: [
     { mode: 'plane', label: 'イヴァロ空港(IVL)から', detail: 'HEL · LHR · CDG からの冬季直行便。30km / 30分南でサーリセルカ村。' },
@@ -553,7 +553,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Los iglús de cristal originales. Se reservan con 8–12 meses para la mejor aurora.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'En el fell Kaunispää, habitaciones con techo de cristal y la mejor línea del pueblo de Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge de diseño con todas las suites y programa completo de safaris.' },
-    { name: 'Todos los alojamientos de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Consulte todas las propiedades de Saariselkä en Hotels.com.' },
+    { name: 'Todos los alojamientos de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Consulte todas las propiedades de Saariselkä en Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Desde el aeropuerto de Ivalo (IVL)', detail: 'Vuelos directos invernales desde HEL · LHR · CDG. 30 km / 30 min al sur hasta el pueblo de Saariselkä.' },
@@ -617,7 +617,7 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Os iglus de vidro originais. Reserve com 8–12 meses para o pico da aurora.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'No fell Kaunispää, quartos com teto de vidro e o melhor skyline da vila de Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge de design com todas as suítes e programa completo de safáris.' },
-    { name: 'Todas as hospedagens de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Veja todas as propriedades de Saariselkä no Hotels.com.' },
+    { name: 'Todas as hospedagens de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Veja todas as propriedades de Saariselkä no Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Do Aeroporto de Ivalo (IVL)', detail: 'Voos diretos de inverno de HEL · LHR · CDG. 30 km / 30 min ao sul até a vila de Saariselkä.' },
@@ -681,7 +681,7 @@ const zhCN: DestinationBody = {
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '初代玻璃冰屋。极光旺季需提前8–12个月预订。' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: '位于Kaunispää山。玻璃屋顶客房俯瞰最佳的萨利瑟尔卡村轮廓。' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: '全套房设计师小屋,配有完整探险项目。' },
-    { name: '萨利瑟尔卡全部住宿', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: '在Hotels.com浏览萨利瑟尔卡的所有房源。' },
+    { name: '萨利瑟尔卡全部住宿', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: '在Trip.com浏览萨利瑟尔卡的所有房源。' },
   ],
   transport: [
     { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '冬季直飞自HEL · LHR · CDG。南行30公里 / 30分钟抵达萨利瑟尔卡村。' },

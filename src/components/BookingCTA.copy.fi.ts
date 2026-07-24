@@ -11,7 +11,7 @@ const copy: Copy = {
     trust: [
       { title: 'Tarkistetut hinnat', body: 'Hinnat tarkistetaan operaattorien sivuilta, ei paisuteltuja "alkaen"-hintoja, ei piilolisämaksuja.' },
       { title: 'Maksuton peruutus', body: 'Useimmilla mökeillä ja päivillä on peruutusikkuna. Jokainen kohde näyttää määräajan.' },
-      { title: 'Välitön vahvistus', body: 'Varaa suoraan kumppanimme Hotels.comin kautta. Päivät lukitaan heti kun maksu menee läpi.' },
+      { title: 'Välitön vahvistus', body: 'Varaa suoraan kumppanimme Trip.comin kautta. Päivät lukitaan heti kun maksu menee läpi.' },
       { title: 'Paikallinen opastus', body: 'Lähetä sähköpostia ennen varausta. Vastaukset tulevat Lapista, yleensä samana päivänä.' },
     ],
     seasonAnchors: [

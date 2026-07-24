@@ -11,7 +11,7 @@ const copy: Copy = {
     trust: [
       { title: 'Tarifas verificadas', body: 'Preços reconferidos nas páginas dos operadores, sem preços "a partir de" inflados nem taxas ocultas.' },
       { title: 'Cancelamento gratuito', body: 'A maioria das cabanas e datas têm janela de cancelamento. Cada anúncio mostra o prazo final.' },
-      { title: 'Confirmação imediata', body: 'Reserve direto com nosso parceiro Hotels.com. As datas ficam travadas no momento em que o pagamento é aprovado.' },
+      { title: 'Confirmação imediata', body: 'Reserve direto com nosso parceiro Trip.com. As datas ficam travadas no momento em que o pagamento é aprovado.' },
       { title: 'Orientação local', body: 'Mande e-mail antes de reservar. As respostas vêm de dentro da Lapônia, normalmente no mesmo dia.' },
     ],
     seasonAnchors: [

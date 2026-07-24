@@ -13,7 +13,7 @@ const copy: PageCopy = {
     "missionEyebrow": "Perché esiste",
     "missionH2": "Una guida onesta su dove dormire in Lapponia",
     "missionP1": "La maggior parte degli elenchi di alloggi in Lapponia online inventa i prezzi (\"da 99 €/notte\" per una struttura che non offre quella tariffa da sei anni), nasconde le note di affiliazione o consiglia gli stessi cinque resort in automatico. LaplandStays è una correzione, una guida piccola, fatta di strutture con nome e cognome, che ricontrolla le tariffe ogni stagione e dice quando qualcosa è esaurito con 12 mesi d'anticipo invece di fingere il contrario.",
-    "missionP2": "Questo è un editore, non una piattaforma di prenotazione. Quando clicca verso Hotels.com o uno dei partner, il contratto è tra Lei e loro, prenotazioni e pagamenti vengono gestiti là. Sulle prenotazioni effettuate tramite questi link viene riconosciuta una commissione di affiliazione, ma il tasso è simile in tutto il programma partner: non influisce su ciò che viene consigliato.",
+    "missionP2": "Questo è un editore, non una piattaforma di prenotazione. Quando clicca verso uno dei partner di prenotazione, il contratto è tra Lei e loro, prenotazioni e pagamenti vengono gestiti là. Sulle prenotazioni effettuate tramite questi link viene riconosciuta una commissione di affiliazione, ma il tasso è simile in tutto il programma partner: non influisce su ciò che viene consigliato.",
     "opEyebrow": "Gestore",
     "opH2": "Lapeso Oy",
     "opCards": [
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Prezzi \"da\" onesti",
-        "body": "Ogni \"da X €/notte\" è preso dalla pagina di prenotazione dell'operatore o da Hotels.com, controllato almeno una volta a stagione. Se nelle settimane di punta è tutto esaurito, la pagina lo dice subito, anziché rimandarLa a una ricerca con zero risultati."
+        "body": "Ogni \"da X €/notte\" è preso dalla pagina di prenotazione dell'operatore o dai nostri partner di prenotazione, controllato almeno una volta a stagione. Se nelle settimane di punta è tutto esaurito, la pagina lo dice subito, anziché rimandarLa a una ricerca con zero risultati."
       },
       {
         "title": "Cornice \"adatto a / da evitare se\"",

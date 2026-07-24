@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "missionEyebrow": "Warum es das gibt",
     "missionH2": "Ein ehrlicher Leitfaden, wo Sie in Lappland schlafen",
     "missionP1": "Die meisten Lappland-Unterkunftslisten im Netz erfinden entweder Preise („ab 99 €/Nacht\" für eine Unterkunft, die diesen Tarif seit sechs Jahren nicht mehr anbietet), verstecken Affiliate-Hinweise oder empfehlen automatisch dieselben fünf Resorts. LaplandStays ist eine Korrektur, ein kleiner, an benannten Unterkünften orientierter Leitfaden, der die Preise jede Saison neu prüft und Ihnen sagt, wenn etwas 12 Monate im Voraus ausverkauft ist, statt etwas anderes zu behaupten.",
-    "missionP2": "Dies ist ein redaktioneller Verlag, keine Buchungsplattform. Wenn Sie zu Hotels.com oder einem der Partner durchklicken, besteht der Vertrag zwischen Ihnen und ihnen, Reservierungen und Zahlungen werden dort abgewickelt. Eine Partnerprovision wird auf Buchungen über diese Links erzielt, aber der Provisionssatz ist im Partnerprogramm ähnlich, sodass er keinen Einfluss darauf hat, was empfohlen wird.",
+    "missionP2": "Dies ist ein redaktioneller Verlag, keine Buchungsplattform. Wenn Sie zu einem der Buchungspartner durchklicken, besteht der Vertrag zwischen Ihnen und ihnen, Reservierungen und Zahlungen werden dort abgewickelt. Eine Partnerprovision wird auf Buchungen über diese Links erzielt, aber der Provisionssatz ist im Partnerprogramm ähnlich, sodass er keinen Einfluss darauf hat, was empfohlen wird.",
     "opEyebrow": "Betreiber",
     "opH2": "Lapeso Oy",
     "opCards": [
@@ -49,7 +49,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Ehrliche „ab\"-Preise",
-        "body": "Jedes „ab X €/Nacht\" stammt von der Buchungsseite des Betreibers oder von Hotels.com, mindestens einmal pro Saison geprüft. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Sie zu einer 0-Treffer-Suche zu schicken."
+        "body": "Jedes „ab X €/Nacht\" stammt von der Buchungsseite des Betreibers oder von unseren Buchungspartnern, mindestens einmal pro Saison geprüft. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Sie zu einer 0-Treffer-Suche zu schicken."
       },
       {
         "title": "„Geeignet für / vermeiden, wenn\"-Rahmen",

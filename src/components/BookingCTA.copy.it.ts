@@ -11,7 +11,7 @@ const copy: Copy = {
     trust: [
       { title: 'Tariffe verificate', body: 'Prezzi controllati di nuovo sulle pagine degli operatori, niente prezzi "da" gonfiati, niente supplementi nascosti.' },
       { title: 'Cancellazione gratuita', body: 'La maggior parte degli chalet, nella maggior parte delle date, prevede una finestra di cancellazione. Ogni annuncio mostra la scadenza.' },
-      { title: 'Conferma immediata', body: 'Prenoti direttamente tramite Hotels.com. Le date si bloccano nel momento in cui il pagamento va a buon fine.' },
+      { title: 'Conferma immediata', body: 'Prenoti direttamente tramite Trip.com. Le date si bloccano nel momento in cui il pagamento va a buon fine.' },
       { title: 'Consigli dal posto', body: 'Ci scriva una mail prima di prenotare. Le risposte arrivano dalla Lapponia, di norma in giornata.' },
     ],
     seasonAnchors: [

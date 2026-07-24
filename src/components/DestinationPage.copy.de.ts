@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: 'Verfügbarkeit prüfen',
     anchorEyebrow: 'Anker-Unterkünfte',
     whereToStayH2: (n: string) => `Wo in ${n} übernachten`,
-    anchorLead: 'Durchklicken zu geprüften Hotels.com-Preisen. Unterkünfte werden in der Hauptsaison 4–8 Monate im Voraus gebucht.',
+    anchorLead: 'Durchklicken zu tagesaktuellen Trip.com-Preisen. Unterkünfte werden in der Hauptsaison 4–8 Monate im Voraus gebucht.',
     gettingThereH2: (n: string) => `Anreise nach ${n}`,
     transportLead: 'Echte Preise von den Betreiberseiten, saisonal überprüft. Transfers meist über Ihre Unterkunft vorbuchbar.',
     rentCarLabel: 'Mietwagen · EconomyBookings',

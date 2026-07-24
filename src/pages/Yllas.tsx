@@ -40,7 +40,7 @@ Kolari train station, 40 min away, receives overnight trains from Helsinki with 
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio and ski-in apartments from ~€150/night.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min from Ylläs, husky safari packages and lakeside cabins.' },
-    { name: 'All Ylläs accommodation', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Browse every Ylläs cabin and chalet on Hotels.com.' },
+    { name: 'All Ylläs accommodation', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Browse every Ylläs cabin and chalet on Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Kittilä Airport (KTT)', detail: 'Same airport as Levi. 50 km / 45 min to Äkäslompolo (north Ylläs), 35 km / 30 min to Ylläsjärvi (south Ylläs).' },
@@ -103,7 +103,7 @@ Kolarin juna-asema, 40 min päässä, vastaanottaa yöjunat Helsingistä autonku
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio ja rinneasunnot alkaen ~150 €/yö.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min Ylläkseltä, husky-safari-paketit ja rantamökit.' },
-    { name: 'Kaikki Ylläksen majoitukset', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Selaa kaikki Ylläksen mökit ja chalet-asunnot Hotels.comissa.' },
+    { name: 'Kaikki Ylläksen majoitukset', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Selaa kaikki Ylläksen mökit ja chalet-asunnot Trip.comissa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Kittilän lentokentältä (KTT)', detail: 'Sama lentokenttä kuin Levillä. 50 km / 45 min Äkäslompoloon (pohjois-Ylläs), 35 km / 30 min Ylläsjärvelle (etelä-Ylläs).' },
@@ -166,7 +166,7 @@ Bahnhof Kolari, 40 min entfernt, empfängt die Nachtzüge aus Helsinki mit Autot
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio und Ski-in-Apartments ab ~150 €/Nacht.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min von Ylläs, Husky-Safari-Pakete und Seehütten.' },
-    { name: 'Alle Ylläs-Unterkünfte', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Stöbern Sie in allen Ylläs-Hütten und Chalets auf Hotels.com.' },
+    { name: 'Alle Ylläs-Unterkünfte', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Stöbern Sie in allen Ylläs-Hütten und Chalets auf Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Kittilä (KTT)', detail: 'Derselbe Flughafen wie Levi. 50 km / 45 min nach Äkäslompolo (Nord-Ylläs), 35 km / 30 min nach Ylläsjärvi (Süd-Ylläs).' },
@@ -229,7 +229,7 @@ const ko: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio, 스키 인 아파트가 1박 150€부터.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '일래스에서 40분. 허스키 사파리 패키지와 호숫가 캐빈.' },
-    { name: '일래스 전체 숙소', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Hotels.com에서 일래스 캐빈과 샬레 전체를 비교하세요.' },
+    { name: '일래스 전체 숙소', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Trip.com에서 일래스 캐빈과 샬레 전체를 비교하세요.' },
   ],
   transport: [
     { mode: 'plane', label: '키틸레 공항(KTT)에서', detail: '레비와 같은 공항입니다. Äkäslompolo(북 일래스)까지 50km / 45분, Ylläsjärvi(남 일래스)까지 35km / 30분.' },
@@ -292,7 +292,7 @@ La gare de Kolari, à 40 min, accueille les trains de nuit depuis Helsinki avec 
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio et appartements ski-in à partir de ~150 €/nuit.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'À 40 min d\'Ylläs, formules safari husky et chalets au bord du lac.' },
-    { name: 'Tous les hébergements d\'Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Parcourez tous les chalets et villas d\'Ylläs sur Hotels.com.' },
+    { name: 'Tous les hébergements d\'Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Parcourez tous les chalets et villas d\'Ylläs sur Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: "Depuis l'aéroport de Kittilä (KTT)", detail: 'Même aéroport que Levi. 50 km / 45 min jusqu\'à Äkäslompolo (Ylläs nord), 35 km / 30 min jusqu\'à Ylläsjärvi (Ylläs sud).' },
@@ -355,7 +355,7 @@ La stazione di Kolari, a 40 min, accoglie i treni notturni da Helsinki con servi
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio e appartamenti ski-in da ~150 €/notte.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min da Ylläs, pacchetti safari husky e chalet sul lago.' },
-    { name: 'Tutti gli alloggi di Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Esplori tutti gli chalet e le ville di Ylläs su Hotels.com.' },
+    { name: 'Tutti gli alloggi di Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Esplori tutti gli chalet e le ville di Ylläs su Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Dall\'aeroporto di Kittilä (KTT)', detail: 'Stesso aeroporto di Levi. 50 km / 45 min ad Äkäslompolo (Ylläs nord), 35 km / 30 min a Ylläsjärvi (Ylläs sud).' },
@@ -418,7 +418,7 @@ Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservic
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio en ski-in appartementen vanaf ~€150/nacht.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min van Ylläs, husky-safari-pakketten en cabins aan het meer.' },
-    { name: 'Alle Ylläs-accommodaties', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Bekijk alle Ylläs-cabins en chalets op Hotels.com.' },
+    { name: 'Alle Ylläs-accommodaties', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Bekijk alle Ylläs-cabins en chalets op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Kittilä (KTT)', detail: 'Dezelfde luchthaven als Levi. 50 km / 45 min naar Äkäslompolo (Ylläs noord), 35 km / 30 min naar Ylläsjärvi (Ylläs zuid).' },
@@ -481,7 +481,7 @@ const ja: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'サーガ、イラスカルティオ、スキーインアパートメントが1泊約150ユーロから。' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'イラスから40分。ハスキーサファリのパッケージと湖畔キャビン。' },
-    { name: 'イラスのすべての宿泊施設', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Hotels.comでイラスのキャビンとシャレーをすべて比較できます。' },
+    { name: 'イラスのすべての宿泊施設', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Trip.comでイラスのキャビンとシャレーをすべて比較できます。' },
   ],
   transport: [
     { mode: 'plane', label: 'キッティラ空港(KTT)から', detail: 'レビと同じ空港です。アカスロンポロ(北イラス)まで50km / 45分、イラスヤルヴィ(南イラス)まで35km / 30分。' },
@@ -544,7 +544,7 @@ La estación de Kolari, a 40 min, recibe trenes nocturnos desde Helsinki con ser
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio y apartamentos ski-in desde ~150 €/noche.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min de Ylläs, paquetes de safari de huskys y cabañas junto al lago.' },
-    { name: 'Todos los alojamientos de Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Consulte todas las cabañas y chalets de Ylläs en Hotels.com.' },
+    { name: 'Todos los alojamientos de Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Consulte todas las cabañas y chalets de Ylläs en Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Desde el aeropuerto de Kittilä (KTT)', detail: 'Mismo aeropuerto que Levi. 50 km / 45 min a Äkäslompolo (norte), 35 km / 30 min a Ylläsjärvi (sur).' },
@@ -607,7 +607,7 @@ A estação ferroviária de Kolari, a 40 min, recebe trens noturnos de Helsinque
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio e apartamentos ski-in a partir de ~€150/noite.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min de Ylläs, pacotes de safári de huskies e cabanas à beira do lago.' },
-    { name: 'Todas as hospedagens de Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Veja todas as cabanas e chalés de Ylläs no Hotels.com.' },
+    { name: 'Todas as hospedagens de Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Veja todas as cabanas e chalés de Ylläs no Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Do Aeroporto de Kittilä (KTT)', detail: 'Mesmo aeroporto de Levi. 50 km / 45 min até Äkäslompolo (norte), 35 km / 30 min até Ylläsjärvi (sul).' },
@@ -670,7 +670,7 @@ const zhCN: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga、Ylläskaltio与滑入式公寓,每晚约150欧元起。' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '距伊拉斯40分钟。哈士奇探险套餐与湖畔小屋。' },
-    { name: '伊拉斯全部住宿', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: '在Hotels.com浏览伊拉斯的所有小屋与木屋。' },
+    { name: '伊拉斯全部住宿', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: '在Trip.com浏览伊拉斯的所有小屋与木屋。' },
   ],
   transport: [
     { mode: 'plane', label: '从基蒂莱机场(KTT)出发', detail: '与莱维同一机场。距阿卡斯隆波罗(北伊拉斯)50公里 / 45分钟,距伊拉斯耶尔维(南伊拉斯)35公里 / 30分钟。' },

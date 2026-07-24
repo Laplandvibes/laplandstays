@@ -30,7 +30,7 @@ export const en = {
     checkAvailability: 'Check availability',
     anchorEyebrow: 'Anchor properties',
     whereToStayH2: (n: string) => `Where to stay in ${n}`,
-    anchorLead: 'Click through to verified Hotels.com rates. Properties book 4–8 months ahead in peak season.',
+    anchorLead: 'Click through to live Trip.com rates. Properties book 4–8 months ahead in peak season.',
     gettingThereH2: (n: string) => `Transport to ${n}`,
     transportLead: 'Real fares from operator pages, re-checked seasonally. Transfers usually pre-bookable through your property.',
     rentCarLabel: 'Rent a car · EconomyBookings',

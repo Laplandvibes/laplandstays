@@ -154,7 +154,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
   }
 
   const tabs: { key: Tab; label: string; icon: typeof Hotel; provider: string }[] = [
-    { key: 'hotels', label: wc.tabs.hotels, icon: Hotel, provider: 'Hotels.com' },
+    { key: 'hotels', label: wc.tabs.hotels, icon: Hotel, provider: 'Trip.com' },
     { key: 'flights', label: wc.tabs.flights, icon: Plane, provider: 'Trip.com' },
     { key: 'cars', label: wc.tabs.cars, icon: Car, provider: 'EconomyBookings' },
   ]

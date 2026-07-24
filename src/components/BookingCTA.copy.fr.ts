@@ -11,7 +11,7 @@ const copy: Copy = {
     trust: [
       { title: 'Tarifs vérifiés', body: 'Prix recontrôlés sur les pages des opérateurs, pas de prix « à partir de » gonflés, pas de suppléments cachés.' },
       { title: 'Annulation gratuite', body: 'La majorité des chalets et des dates incluent une fenêtre d\'annulation. Chaque fiche affiche la date limite.' },
-      { title: 'Confirmation immédiate', body: 'Réservez directement chez notre partenaire Hotels.com. Dates bloquées dès la validation du paiement.' },
+      { title: 'Confirmation immédiate', body: 'Réservez directement chez notre partenaire Trip.com. Dates bloquées dès la validation du paiement.' },
       { title: 'Conseil sur place', body: 'Écrivez-nous avant de réserver. Les réponses partent de Laponie, généralement le jour même.' },
     ],
     seasonAnchors: [

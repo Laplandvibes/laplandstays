@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Geprüfte Preise, jede Saison",
-        "body": "Jede „ab X €/Nacht\"-Aussage wird von der Buchungsseite des Betreibers oder von Hotels.com übernommen. Preise werden mindestens einmal pro Quartal und ausdrücklich zu Beginn der Polarlicht-Saison (September) neu geprüft. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Leser auf eine 0-Treffer-Suche zu leiten."
+        "body": "Jede „ab X €/Nacht\"-Aussage wird von der Buchungsseite des Betreibers oder von unseren Buchungspartnern übernommen. Preise werden mindestens einmal pro Quartal und ausdrücklich zu Beginn der Polarlicht-Saison (September) neu geprüft. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Leser auf eine 0-Treffer-Suche zu leiten."
       },
       {
         "title": "Benannte Unterkünfte, keine „Premium-5-Sterne\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Partner-Unabhängigkeit",
-        "body": "LaplandStays erzielt eine Partnerprovision auf Buchungen über Partnerlinks (Hotels.com via CJ, EconomyBookings, GetYourGuide). Der Provisionssatz ist im Partnerprogramm ähnlich, sodass er keinen Einfluss darauf hat, welche Unterkünfte empfohlen werden. Ein nicht-affiliierter Anbieter wird ebenfalls empfohlen (z. B. VR für Züge), wenn er die richtige Antwort ist, siehe die /transport-Seite als Beispiel."
+        "body": "LaplandStays erzielt eine Partnerprovision auf Buchungen über Partnerlinks (Sembo via Adtraction und Trip.com für Hotels, EconomyBookings via Travelpayouts für Mietwagen, GetYourGuide für Aktivitäten). Der Provisionssatz ist im Partnerprogramm ähnlich, sodass er keinen Einfluss darauf hat, welche Unterkünfte empfohlen werden. Ein nicht-affiliierter Anbieter wird ebenfalls empfohlen (z. B. VR für Züge), wenn er die richtige Antwort ist, siehe die /transport-Seite als Beispiel."
       },
       {
         "title": "Korrekturen, keine stillen Änderungen",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Affiliate vs. redaktionell: Auf die ersten vier Quellen wird eine Partnerprovision erzielt, auf die letzten drei nicht. Diese Unterscheidung ändert nie, zu welcher Quelle die Leser geschickt werden, sie ändert, welche als bezahlt gekennzeichnet wird.",
     "sources": [
       {
-        "label": "Hotels.com (CJ-Partner)",
+        "label": "Sembo & Trip.com (Hotelpartner)",
         "use": "Echtzeit-Verfügbarkeit und saisonale „ab\"-Preise für die 12 Anker-Unterkünfte + Stadt-/Regionssuchen."
       },
       {
         "label": "Buchungsseiten der Betreiber",
-        "use": "Direkte Preisprüfung, wenn das Hotels.com-Kontingent unvollständig ist (z. B. Kakslauttanen-Eigenbuchung, Levin Iglut, Aurora Village)."
+        "use": "Direkte Preisprüfung, wenn das Partner-Kontingent unvollständig ist (z. B. Kakslauttanen-Eigenbuchung, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Mietwagenpreise ab den Flughäfen KTT / RVN / IVL und Helsinki-Einweg-Abholungen."
       },
       {

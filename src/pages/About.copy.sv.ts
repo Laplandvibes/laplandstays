@@ -13,7 +13,7 @@ const copy: PageCopy = {
     "missionEyebrow": "Varför den finns",
     "missionH2": "En ärlig guide till var du sover i Lappland",
     "missionP1": "De flesta boendelistor för Lappland på nätet hittar antingen på priser (\"från 99 €/natt\" för ett boende som inte har öppnat den prisnivån på sex år), gömmer affiliateinformation eller rekommenderar samma fem resorter på autopilot. LaplandStays är en motvikt, en liten guide med namngivna boenden som kontrollerar priserna varje säsong och talar om när något är slutbokat 12 månader i förväg i stället för att låtsas något annat.",
-    "missionP2": "Det här är en redaktionell utgivare, inte en bokningsplattform. När du klickar dig vidare till Hotels.com eller en av partnerna uppstår avtalet mellan dig och dem, bokningar och betalningar sköts där. En affiliateprovision tjänas in på bokningar via de här länkarna, men provisionsnivån är likartad i hela partnerprogrammet, så den påverkar inte vad som rekommenderas.",
+    "missionP2": "Det här är en redaktionell utgivare, inte en bokningsplattform. När du klickar dig vidare till en av bokningspartnerna uppstår avtalet mellan dig och dem, bokningar och betalningar sköts där. En affiliateprovision tjänas in på bokningar via de här länkarna, men provisionsnivån är likartad i hela partnerprogrammet, så den påverkar inte vad som rekommenderas.",
     "opEyebrow": "Operatör",
     "opH2": "Lapeso Oy",
     "opCards": [
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Ärliga \"från\"-priser",
-        "body": "Varje \"från X €/natt\" hämtas direkt från leverantörens egen bokningssida eller Hotels.com, kontrollerad minst en gång per säsong. Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka dig till en sökning med noll träffar."
+        "body": "Varje \"från X €/natt\" hämtas direkt från leverantörens egen bokningssida eller våra bokningspartner, kontrollerad minst en gång per säsong. Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka dig till en sökning med noll träffar."
       },
       {
         "title": "\"Passar för / undvik om\"-upplägg",

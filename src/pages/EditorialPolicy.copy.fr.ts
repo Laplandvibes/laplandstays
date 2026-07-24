@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Des tarifs vérifiés à chaque saison",
-        "body": "Chaque mention « à partir de X €/nuit » est tirée de la page de réservation de l'opérateur ou de Hotels.com. Les prix sont revérifiés au moins une fois par trimestre, et systématiquement au début de la saison des aurores (septembre). Lorsqu'un hébergement est complet sur les semaines de pointe, la page le précise d'emblée plutôt que de renvoyer vers une recherche à zéro résultat."
+        "body": "Chaque mention « à partir de X €/nuit » est tirée de la page de réservation de l'opérateur ou de nos partenaires de réservation. Les prix sont revérifiés au moins une fois par trimestre, et systématiquement au début de la saison des aurores (septembre). Lorsqu'un hébergement est complet sur les semaines de pointe, la page le précise d'emblée plutôt que de renvoyer vers une recherche à zéro résultat."
       },
       {
         "title": "Des hébergements nommés, pas des « 5 étoiles premium »",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Indépendance vis-à-vis des partenaires",
-        "body": "LaplandStays perçoit une commission d'affiliation sur les réservations effectuées via les liens partenaires (Hotels.com via CJ, EconomyBookings, GetYourGuide). Les taux de commission sont comparables au sein du programme, ce qui n'influence donc pas le choix des hébergements recommandés. Un opérateur sans affiliation est aussi recommandé (par exemple VR pour les trains) lorsque c'est la bonne réponse, voyez la page /transport."
+        "body": "LaplandStays perçoit une commission d'affiliation sur les réservations effectuées via les liens partenaires (Sembo via Adtraction et Trip.com pour les hôtels, EconomyBookings via Travelpayouts pour les voitures, GetYourGuide pour les activités). Les taux de commission sont comparables au sein du programme, ce qui n'influence donc pas le choix des hébergements recommandés. Un opérateur sans affiliation est aussi recommandé (par exemple VR pour les trains) lorsque c'est la bonne réponse, voyez la page /transport."
       },
       {
         "title": "Des corrections, pas des modifications silencieuses",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Affiliation et rédaction : une commission est perçue sur les quatre premières sources, aucune sur les trois dernières. Cette distinction ne change jamais la source vers laquelle on vous oriente, elle change seulement celle qui est signalée comme payante.",
     "sources": [
       {
-        "label": "Hotels.com (partenaire CJ)",
+        "label": "Sembo & Trip.com (partenaires hôteliers)",
         "use": "Disponibilités en temps réel et tarifs « à partir de » saisonniers pour les 12 hébergements de référence et les recherches par ville/région."
       },
       {
         "label": "Pages de réservation des opérateurs",
-        "use": "Vérification directe des tarifs lorsque le stock Hotels.com est incomplet (par ex. réservations directes Kakslauttanen, Levin Iglut, Aurora Village)."
+        "use": "Vérification directe des tarifs lorsque le stock partenaire est incomplet (par ex. réservations directes Kakslauttanen, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Tarifs de location de voiture depuis KTT / RVN / IVL et prises en charge aller simple à Helsinki."
       },
       {

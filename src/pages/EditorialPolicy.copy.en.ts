@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Verified rates, every season",
-        "body": "Every \"from €X/night\" claim is pulled from the operator's own booking page or Hotels.com. Prices are re-checked at least once per quarter and explicitly at the start of aurora season (September). Where a property is sold out for peak weeks the page says so up front instead of routing readers to a 0-result search."
+        "body": "Every \"from €X/night\" claim is pulled from the operator's own booking page or our booking partners. Prices are re-checked at least once per quarter and explicitly at the start of aurora season (September). Where a property is sold out for peak weeks the page says so up front instead of routing readers to a 0-result search."
       },
       {
         "title": "Named properties, not \"premium 5-stars\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Affiliate independence",
-        "body": "LaplandStays earns an affiliate commission on bookings made through partner links (Hotels.com via CJ, EconomyBookings, GetYourGuide). The commission rate is similar across the partner programme, so it has no influence on which properties are recommended. A non-affiliate operator is also recommended (e.g. VR for trains) when it is the right answer, see the /transport page for an example."
+        "body": "LaplandStays earns an affiliate commission on bookings made through partner links (Sembo via Adtraction and Trip.com for hotels, EconomyBookings via Travelpayouts for cars, GetYourGuide for activities). The commission rate is similar across the partner programme, so it has no influence on which properties are recommended. A non-affiliate operator is also recommended (e.g. VR for trains) when it is the right answer, see the /transport page for an example."
       },
       {
         "title": "Corrections, not silent edits",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Affiliate vs editorial: an affiliate commission is earned on the first four sources, none on the last three. That distinction never changes which source readers are sent to, it changes which one is flagged as paid.",
     "sources": [
       {
-        "label": "Hotels.com (CJ partner)",
+        "label": "Sembo & Trip.com (hotel partners)",
         "use": "Real-time availability and seasonal \"from\" prices for the 12 anchor properties + city/region searches."
       },
       {
         "label": "Operator booking pages",
-        "use": "Direct rate verification when Hotels.com inventory is incomplete (e.g. Kakslauttanen own booking, Levin Iglut, Aurora Village)."
+        "use": "Direct rate verification when partner inventory is incomplete (e.g. Kakslauttanen own booking, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Car rental rates from KTT / RVN / IVL airports and Helsinki one-way pickups."
       },
       {

@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tarkistetut hinnat joka kausi",
-        "body": "Jokainen \"alkaen X €/yö\" -väite otetaan operaattorin omasta varaussivulta tai Hotels.comista. Hinnat tarkistetaan vähintään kerran neljännesvuosittain ja erityisesti revontulisesongin alussa (syyskuu). Kun kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan että ohjaisi lukijat nollahakuun."
+        "body": "Jokainen \"alkaen X €/yö\" -väite otetaan operaattorin omasta varaussivulta tai varauskumppaneiltamme. Hinnat tarkistetaan vähintään kerran neljännesvuosittain ja erityisesti revontulisesongin alussa (syyskuu). Kun kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan että ohjaisi lukijat nollahakuun."
       },
       {
         "title": "Nimettyjä kohteita, ei \"premium-5-tähtiä\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Kumppanuusriippumattomuus",
-        "body": "LaplandStays ansaitsee kumppanuusprovision varauksista jotka tehdään kumppanilinkkien kautta (Hotels.com CJ:n kautta, EconomyBookings, GetYourGuide). Provisioaste on samankaltainen kumppaniohjelmassa, joten se ei vaikuta siihen mitä suositellaan. Suositellaan myös ei-kumppania (esim. VR junissa) kun se on oikea vastaus, katso /transport-sivu esimerkkinä."
+        "body": "LaplandStays ansaitsee kumppanuusprovision varauksista jotka tehdään kumppanilinkkien kautta (hotellit Sembon (Adtraction) ja Trip.comin kautta, autot EconomyBookings (Travelpayouts), aktiviteetit GetYourGuide). Provisioaste on samankaltainen kumppaniohjelmassa, joten se ei vaikuta siihen mitä suositellaan. Suositellaan myös ei-kumppania (esim. VR junissa) kun se on oikea vastaus, katso /transport-sivu esimerkkinä."
       },
       {
         "title": "Korjauksia, ei hiljaisia muokkauksia",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Kumppanuus vs. toimituksellinen: kumppanuusprovisio ansaitaan neljästä ensimmäisestä lähteestä, ei kolmesta viimeisestä. Tämä ero ei muuta minne lukijat ohjataan, se muuttaa mikä merkitään maksulliseksi.",
     "sources": [
       {
-        "label": "Hotels.com (CJ-kumppani)",
+        "label": "Sembo & Trip.com (hotellikumppanit)",
         "use": "Reaaliaikainen saatavuus ja kausittaiset \"alkaen\"-hinnat 12 ankkurikohteelle + kaupunki/aluehakuihin."
       },
       {
         "label": "Operaattorien varaussivut",
-        "use": "Suora hintojen tarkistus kun Hotels.comin tarjonta on epätäydellinen (esim. Kakslauttasen oma varaus, Levin Iglut, Aurora Village)."
+        "use": "Suora hintojen tarkistus kun kumppanin tarjonta on epätäydellinen (esim. Kakslauttasen oma varaus, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Vuokra-autohinnat KTT / RVN / IVL -lentokentiltä ja Helsingin yhdensuuntaisista noudoista."
       },
       {

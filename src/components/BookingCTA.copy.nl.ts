@@ -11,7 +11,7 @@ const copy: Copy = {
     trust: [
       { title: 'Geverifieerde tarieven', body: 'Prijzen opnieuw nagekeken op de aanbiederpagina\'s, geen opgeblazen "vanaf"-prijzen, geen verborgen toeslagen.' },
       { title: 'Gratis annuleren', body: 'De meeste cabins en data hebben een annuleringsvenster. Elke aanbieding vermeldt de uiterste datum.' },
-      { title: 'Directe bevestiging', body: 'Boek direct via Hotels.com. Data zijn vastgelegd zodra de betaling is verwerkt.' },
+      { title: 'Directe bevestiging', body: 'Boek direct via Trip.com. Data zijn vastgelegd zodra de betaling is verwerkt.' },
       { title: 'Lokale begeleiding', body: 'Stuur een e-mail voor u boekt. Antwoorden komen vanuit Lapland, meestal dezelfde dag.' },
     ],
     seasonAnchors: [

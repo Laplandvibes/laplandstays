@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: 'Verifica disponibilità',
     anchorEyebrow: 'Strutture-ancora',
     whereToStayH2: (n: string) => `Dove soggiornare a ${n}`,
-    anchorLead: 'Clicchi per accedere alle tariffe verificate su Hotels.com. In alta stagione le strutture si prenotano con 4–8 mesi di anticipo.',
+    anchorLead: 'Clicchi per accedere alle tariffe aggiornate su Trip.com. In alta stagione le strutture si prenotano con 4–8 mesi di anticipo.',
     gettingThereH2: (n: string) => `Come raggiungere ${n}`,
     transportLead: 'Tariffe reali dalle pagine degli operatori, verificate ogni stagione. I trasferimenti sono di norma prenotabili in anticipo tramite la struttura.',
     rentCarLabel: 'Noleggia un\'auto · EconomyBookings',

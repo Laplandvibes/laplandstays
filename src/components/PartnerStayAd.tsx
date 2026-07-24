@@ -2,14 +2,16 @@ import type { LucideIcon } from 'lucide-react'
 import { ArrowRight, Home, ShieldCheck, BedDouble, Car } from 'lucide-react'
 import { useLang, type Lang } from '../i18n/useLang'
 import { trackAffiliateClick } from '../lib/analytics'
-import { buildHotelSearch } from '../lib/affiliate'
+import { buildAffiliateUrl } from '../lib/affiliate'
 import AffiliateDisclosure from './AffiliateDisclosure'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PartnerStayAd, a brand-skinned affiliate ad card for LaplandStays' booking
 // partners. Three advertisers, each in their OWN brand skin:
-//   • Hotels.com (BedDouble / red), routed through the go.laplandvibes.com Worker
-//     (?sid=&ss=&locale=) so per-site CJ attribution + locale resolve correctly.
+//   • Hotels (BedDouble), brand-split per locale: the go.laplandvibes.com Worker
+//     (?sid=&ss=&locale=) routes locale=fi_FI to Sembo (Adtraction) and every
+//     other locale to Trip.com, so the card renders the brand the click
+//     actually lands on. Text wordmark, no logo asset (CJ exit 2026-07).
 //   • Lomarengas (Home / green), Finland's biggest holiday-cottage agency,
 //     direct Adtraction deep-link (channel as=2086870803; no client SID slot).
 //   • EKTA (ShieldCheck / blue), travel insurance, direct Travelpayouts link
@@ -21,16 +23,17 @@ import AffiliateDisclosure from './AffiliateDisclosure'
 // "Mainos / Ad" unit. The card is rendered in this site's LIGHT editorial idiom
 // (warm paper-white .lvs-card with the advertiser's accent as a top rule + soft
 // corner wash) so it reads as an authentic partner placement that still belongs
-// on the cream page, Hotels.com red, Lomarengas green and EKTA blue all sit
-// cleanly on white. Offers are EVERGREEN and accurate (no time-limited promos
+// on the cream page, Sembo sky-blue / Trip.com blue, Lomarengas green and EKTA
+// blue all sit cleanly on white. Offers are EVERGREEN and accurate (no time-limited promos
 // hardcoded, no invented stats), per the affiliate creative rule.
 //
 // Required affiliate attributes (LV spec): target="_blank"
 // rel="sponsored nofollow noopener", NO noreferrer (the Worker / CJ attribution
 // reads Referer; we keep it consistent across every affiliate <a>).
 //
-// Link resolution: `linkFor(sid, lang)` per partner. Hotels.com builds a fresh
-// Worker URL; EKTA substitutes {placement}→sub_id; Lomarengas is a static link.
+// Link resolution: `linkFor(sid, lang)` per partner. Hotels builds a fresh
+// Worker URL (with the lang's locale param, so the Worker routing matches the
+// brand shown); EKTA substitutes {placement}→sub_id; Lomarengas is static.
 // ─────────────────────────────────────────────────────────────────────────────
 
 type PartnerKey = 'hotels' | 'lomarengas' | 'ekta' | 'cars'
@@ -50,16 +53,17 @@ interface PartnerConfig {
 }
 
 const CONFIG: Record<PartnerKey, PartnerConfig> = {
-  // Hotels.com, routed through the LV redirect Worker so the per-site CJ Website
-  // ID + locale resolve from Referer. `ss` pins the search to a real Lapland
-  // destination (Rovaniemi has the deepest regional inventory and is a valid
-  // Hotels.com location, unlike "Lapland" which geo-snaps to Helsinki). Brand red.
+  // Hotels, routed through the LV redirect Worker (fi_FI → Sembo, everything
+  // else → Trip.com). `ss` pins the search to a real Lapland destination
+  // (Rovaniemi has the deepest regional inventory; bare "Lapland" geo-snaps to
+  // Helsinki). Trip.com blue baseline; the component overrides brand + accents
+  // to Sembo sky-blue for the fi locale. trackKey stays 'hotelscom' so GA4
+  // series remain continuous across the partner switch.
   hotels: {
-    brand: 'Hotels.com',
-    logo: '/images/partners/hotelscom.svg',
-    linkFor: (sid) => buildHotelSearch('Rovaniemi, Finland', sid),
-    accent: '#D32F2F',
-    accentDark: '#B71C1C',
+    brand: 'Trip.com',
+    linkFor: (sid, lang) => buildAffiliateUrl({ partner: 'hotels', sid, destination: 'Rovaniemi, Finland', lang }),
+    accent: '#3264FF',
+    accentDark: '#2449B8',
     icon: BedDouble,
     trackKey: 'hotelscom',
   },
@@ -339,117 +343,118 @@ const EKTA_COPY: Record<Lang, AdCopy> = {
   },
 }
 
-// ── Hotels.com copy (11 langs). Angle: compare every Lapland hotel, igloo and
-// cabin in one place, real rates, free cancellation on most rooms, pay later.
-// Evergreen + accurate (no hardcoded sale %), warm stays voice. ───────────────
+// ── Hotels copy (12 langs), brand-split like the Worker's locale routing:
+// fi → Sembo, every other locale → Trip.com. Angle: compare every Lapland
+// hotel, glass igloo and cabin in one place, live prices side by side, book in
+// your own language. Evergreen + accurate, no carried-over Hotels.com perks. ──
 const HOTELS_COPY: Record<Lang, AdCopy> = {
   fi: {
     adLabel: 'Mainos',
     eyebrow: 'Vertaa kaikki yhdellä haulla',
-    headline: 'Hotels.com, vertaa Lapin hotellit, lasi-iglut ja mökit yhdestä paikasta',
-    sub: 'Helpoin tapa katsoa, mitä Levillä, Ylläksellä, Saariselällä ja Rovaniemellä on oikeasti vapaana sun päiville. Näet hinnat rinnakkain, suurin osa huoneista on peruutettavissa ilmaiseksi ja moneen voi maksaa vasta paikan päällä. Kun keräät kymmenen yötä, saat yhden kylkiäisenä.',
-    trust: ['Ilmainen peruutus useimmissa', 'Maksa vasta perillä', '10 yötä = 1 ilmaiseksi'],
+    headline: 'Sembo, vertaa Lapin hotellit, lasi-iglut ja mökit yhdestä paikasta',
+    sub: 'Helpoin tapa katsoa, mitä Levillä, Ylläksellä, Saariselällä ja Rovaniemellä on oikeasti vapaana sun päiville. Näet ajantasaiset hinnat rinnakkain, hotellien lisäksi haussa on mökkejä ja lasi-igluja, ja koko varauksen teet suomeksi.',
+    trust: ['Ajantasaiset hinnat ja saatavuus', 'Hotellit, iglut ja mökit samassa haussa', 'Palvelu suomeksi'],
     cta: 'Katso vapaat huoneet',
-    poweredBy: 'Haku Hotels.comissa',
+    poweredBy: 'Haku Sembossa',
   },
   en: {
     adLabel: 'Ad',
     eyebrow: 'Compare it all in one search',
-    headline: 'Hotels.com, compare every Lapland hotel, glass igloo and cabin in one place',
-    sub: "The easy way to see what's actually free for your dates across Levi, Ylläs, Saariselkä and Rovaniemi. You get the prices side by side, most rooms cancel free, and many let you pay when you arrive. Collect ten nights and you get one on the house.",
-    trust: ['Free cancellation on most', 'Pay when you arrive', '10 nights = 1 free'],
+    headline: 'Trip.com, compare every Lapland hotel, glass igloo and cabin in one place',
+    sub: "The easy way to see what's actually free for your dates across Levi, Ylläs, Saariselkä and Rovaniemi. You get live prices side by side, from city hotels to glass igloos, and you book in your own language and currency.",
+    trust: ['Live prices and availability', 'Hotels, igloos and cabins in one search', 'Book in your own language'],
     cta: 'See available rooms',
-    poweredBy: 'Search on Hotels.com',
+    poweredBy: 'Search on Trip.com',
   },
   de: {
     adLabel: 'Anzeige',
     eyebrow: 'Alles in einer Suche vergleichen',
-    headline: 'Hotels.com, Lappland-Hotels, Glasiglus und Hütten an einem Ort vergleichen',
-    sub: 'Der einfache Weg, zu sehen, was für Ihre Tage in Levi, Ylläs, Saariselkä und Rovaniemi wirklich frei ist. Sie sehen die Preise nebeneinander, die meisten Zimmer sind kostenlos stornierbar und viele zahlen Sie erst vor Ort. Zehn Nächte sammeln, eine gratis bekommen.',
-    trust: ['Meist kostenlos stornierbar', 'Erst vor Ort zahlen', '10 Nächte = 1 gratis'],
+    headline: 'Trip.com, Lappland-Hotels, Glasiglus und Hütten an einem Ort vergleichen',
+    sub: 'Der einfache Weg, zu sehen, was für Ihre Tage in Levi, Ylläs, Saariselkä und Rovaniemi wirklich frei ist. Sie sehen aktuelle Preise nebeneinander, vom Stadthotel bis zum Glasiglu, und buchen in Ihrer Sprache und Währung.',
+    trust: ['Aktuelle Preise und Verfügbarkeit', 'Hotels, Iglus und Hütten in einer Suche', 'Buchung auf Deutsch'],
     cta: 'Freie Zimmer ansehen',
-    poweredBy: 'Suche auf Hotels.com',
+    poweredBy: 'Suche auf Trip.com',
   },
   ja: {
     adLabel: '広告',
     eyebrow: '一度の検索でまとめて比較',
-    headline: 'Hotels.com：ラップランドのホテル、ガラスイグルー、コテージを一括比較',
-    sub: 'レヴィ、ウッラス、サーリセルカ、ロヴァニエミで、あなたの日程に本当に空いている宿をまとめて確認。料金を並べて見られ、多くの部屋は無料キャンセル、現地払いも選べます。10泊たまると1泊分が無料に。',
-    trust: ['多くが無料キャンセル', '現地払いも選べる', '10泊で1泊無料'],
+    headline: 'Trip.com：ラップランドのホテル、ガラスイグルー、コテージを一括比較',
+    sub: 'レヴィ、ウッラス、サーリセルカ、ロヴァニエミで、あなたの日程に本当に空いている宿をまとめて確認。最新料金を並べて比較でき、シティホテルからガラスイグルーまで、日本語で予約できます。',
+    trust: ['最新の料金と空室状況', 'ホテルもイグルーもコテージも一括検索', '日本語で予約できる'],
     cta: '空室を見る',
-    poweredBy: 'Hotels.comで検索',
+    poweredBy: 'Trip.comで検索',
   },
   es: {
     adLabel: 'Anuncio',
     eyebrow: 'Compáralo todo en una búsqueda',
-    headline: 'Hotels.com, compara hoteles, iglús de cristal y cabañas de Laponia en un solo sitio',
-    sub: 'La forma fácil de ver qué hay libre de verdad para tus fechas en Levi, Ylläs, Saariselkä y Rovaniemi. Ves los precios uno al lado del otro, la mayoría de las habitaciones se cancelan gratis y en muchas pagas al llegar. Junta diez noches y te llevas una gratis.',
-    trust: ['Cancelación gratis en la mayoría', 'Paga al llegar', '10 noches = 1 gratis'],
+    headline: 'Trip.com, compara hoteles, iglús de cristal y cabañas de Laponia en un solo sitio',
+    sub: 'La forma fácil de ver qué hay libre de verdad para tus fechas en Levi, Ylläs, Saariselkä y Rovaniemi. Ves los precios actualizados uno al lado del otro, del hotel urbano al iglú de cristal, y reservas en tu idioma y tu moneda.',
+    trust: ['Precios y disponibilidad en tiempo real', 'Hoteles, iglús y cabañas en una búsqueda', 'Reserva en tu idioma'],
     cta: 'Ver habitaciones libres',
-    poweredBy: 'Búsqueda en Hotels.com',
+    poweredBy: 'Búsqueda en Trip.com',
   },
   'pt-BR': {
     adLabel: 'Anúncio',
     eyebrow: 'Compare tudo numa busca só',
-    headline: 'Hotels.com, compare hotéis, iglus de vidro e cabanas da Lapônia num lugar só',
-    sub: 'O jeito fácil de ver o que está realmente livre nas suas datas em Levi, Ylläs, Saariselkä e Rovaniemi. Você vê os preços lado a lado, a maioria dos quartos cancela de graça e em muitos dá para pagar na chegada. Junte dez diárias e ganhe uma.',
-    trust: ['Cancelamento grátis na maioria', 'Pague na chegada', '10 diárias = 1 grátis'],
+    headline: 'Trip.com, compare hotéis, iglus de vidro e cabanas da Lapônia num lugar só',
+    sub: 'O jeito fácil de ver o que está realmente livre nas suas datas em Levi, Ylläs, Saariselkä e Rovaniemi. Você vê os preços atualizados lado a lado, do hotel na cidade ao iglu de vidro, e reserva no seu idioma e na sua moeda.',
+    trust: ['Preços e disponibilidade em tempo real', 'Hotéis, iglus e cabanas numa busca só', 'Reserve no seu idioma'],
     cta: 'Ver quartos livres',
-    poweredBy: 'Busca no Hotels.com',
+    poweredBy: 'Busca no Trip.com',
   },
   'zh-CN': {
     adLabel: '广告',
     eyebrow: '一次搜索,全部对比',
-    headline: 'Hotels.com：拉普兰的酒店、玻璃穹顶屋和小屋,一处对比',
-    sub: '想知道你的日期里莱维、于拉斯、萨利色尔卡和罗瓦涅米还有哪些空房,这是最省事的方式。价格并排呈现,多数房间可免费取消,不少还能到店再付。住满十晚,送你一晚。',
-    trust: ['多数可免费取消', '可到店再付', '住十晚送一晚'],
+    headline: 'Trip.com：拉普兰的酒店、玻璃穹顶屋和小屋,一处对比',
+    sub: '想知道你的日期里莱维、于拉斯、萨利色尔卡和罗瓦涅米还有哪些空房,这是最省事的方式。实时价格并排呈现,从城市酒店到玻璃穹顶屋,还支持中文预订。',
+    trust: ['实时价格与空房', '酒店、穹顶屋、小屋一次搜索', '支持中文预订'],
     cta: '查看空房',
-    poweredBy: '在 Hotels.com 搜索',
+    poweredBy: '在 Trip.com 搜索',
   },
   ko: {
     adLabel: '광고',
     eyebrow: '한 번의 검색으로 한눈에 비교',
-    headline: 'Hotels.com: 라플란드의 호텔, 글래스 이글루, 오두막을 한곳에서 비교',
-    sub: '레비, 일래스, 사리셀카, 로바니에미에서 원하는 날짜에 실제로 빈 숙소를 가장 쉽게 확인하는 방법입니다. 가격을 나란히 보고, 대부분의 객실은 무료 취소가 되며, 상당수는 현지 결제도 됩니다. 열 박을 모으면 한 박이 무료입니다.',
-    trust: ['대부분 무료 취소', '현지 결제 가능', '10박이면 1박 무료'],
+    headline: 'Trip.com: 라플란드의 호텔, 글래스 이글루, 오두막을 한곳에서 비교',
+    sub: '레비, 일래스, 사리셀카, 로바니에미에서 원하는 날짜에 실제로 빈 숙소를 가장 쉽게 확인하는 방법입니다. 실시간 가격을 나란히 보고, 시내 호텔부터 글래스 이글루까지 한국어로 예약할 수 있습니다.',
+    trust: ['실시간 가격과 잔여 객실', '호텔, 이글루, 오두막을 한 번에 검색', '한국어로 예약 가능'],
     cta: '빈 객실 보기',
-    poweredBy: 'Hotels.com에서 검색',
+    poweredBy: 'Trip.com에서 검색',
   },
   fr: {
     adLabel: 'Annonce',
     eyebrow: 'Tout comparer en une recherche',
-    headline: 'Hotels.com, comparez hôtels, igloos de verre et chalets de Laponie au même endroit',
-    sub: "La façon simple de voir ce qui est vraiment libre à vos dates à Levi, Ylläs, Saariselkä et Rovaniemi. Vous voyez les prix côte à côte, la plupart des chambres s'annulent gratuitement et beaucoup se paient à l'arrivée. Dix nuits cumulées, une offerte.",
-    trust: ['Annulation gratuite le plus souvent', "Payez à l'arrivée", '10 nuits = 1 offerte'],
+    headline: 'Trip.com, comparez hôtels, igloos de verre et chalets de Laponie au même endroit',
+    sub: "La façon simple de voir ce qui est vraiment libre à vos dates à Levi, Ylläs, Saariselkä et Rovaniemi. Vous voyez les prix à jour côte à côte, de l'hôtel en ville à l'igloo de verre, et vous réservez dans votre langue et votre devise.",
+    trust: ['Prix et disponibilités en direct', 'Hôtels, igloos et chalets en une recherche', 'Réservez dans votre langue'],
     cta: 'Voir les chambres libres',
-    poweredBy: 'Recherche sur Hotels.com',
+    poweredBy: 'Recherche sur Trip.com',
   },
   it: {
     adLabel: 'Annuncio',
     eyebrow: 'Confronta tutto in una ricerca',
-    headline: 'Hotels.com, confronta hotel, igloo di vetro e baite della Lapponia in un posto solo',
-    sub: "Il modo semplice per vedere cosa è davvero libero nelle tue date a Levi, Ylläs, Saariselkä e Rovaniemi. Vedi i prezzi affiancati, la maggior parte delle camere si cancella gratis e molte le paghi all'arrivo. Metti insieme dieci notti e una è in regalo.",
-    trust: ['Cancellazione gratis nella maggior parte', "Paghi all'arrivo", '10 notti = 1 in regalo'],
+    headline: 'Trip.com, confronta hotel, igloo di vetro e baite della Lapponia in un posto solo',
+    sub: "Il modo semplice per vedere cosa è davvero libero nelle tue date a Levi, Ylläs, Saariselkä e Rovaniemi. Vedi i prezzi aggiornati affiancati, dall'hotel in città all'igloo di vetro, e prenoti nella tua lingua e nella tua valuta.",
+    trust: ['Prezzi e disponibilità in tempo reale', 'Hotel, igloo e baite in una ricerca', 'Prenoti nella tua lingua'],
     cta: 'Vedi camere libere',
-    poweredBy: 'Ricerca su Hotels.com',
+    poweredBy: 'Ricerca su Trip.com',
   },
   nl: {
     adLabel: 'Advertentie',
     eyebrow: 'Vergelijk alles in één zoekopdracht',
-    headline: 'Hotels.com, vergelijk Lapland-hotels, glasiglo\'s en huisjes op één plek',
-    sub: 'De makkelijke manier om te zien wat er echt vrij is voor jouw dagen in Levi, Ylläs, Saariselkä en Rovaniemi. Je ziet de prijzen naast elkaar, de meeste kamers annuleer je gratis en veel kamers betaal je pas bij aankomst. Spaar tien nachten en je krijgt er één gratis.',
-    trust: ['Meestal gratis annuleren', 'Betaal bij aankomst', '10 nachten = 1 gratis'],
+    headline: 'Trip.com, vergelijk Lapland-hotels, glasiglo\'s en huisjes op één plek',
+    sub: 'De makkelijke manier om te zien wat er echt vrij is voor jouw dagen in Levi, Ylläs, Saariselkä en Rovaniemi. Je ziet actuele prijzen naast elkaar, van stadshotel tot glasiglo, en je boekt in je eigen taal en valuta.',
+    trust: ['Actuele prijzen en beschikbaarheid', 'Hotels, iglo\'s en huisjes in één zoekopdracht', 'Boek in je eigen taal'],
     cta: 'Bekijk vrije kamers',
-    poweredBy: 'Zoeken op Hotels.com',
+    poweredBy: 'Zoeken op Trip.com',
   },
   sv: {
     adLabel: 'Annons',
     eyebrow: 'Jämför allt i en sökning',
-    headline: 'Hotels.com, jämför Lapplands hotell, glasiglos och stugor på ett ställe',
-    sub: 'Det enkla sättet att se vad som faktiskt är ledigt för dina datum i Levi, Ylläs, Saariselkä och Rovaniemi. Du ser priserna sida vid sida, de flesta rum går att avboka gratis och många kan du betala när du kommer fram. Samla tio nätter så får du en på köpet.',
-    trust: ['Fri avbokning på de flesta', 'Betala när du kommer fram', '10 nätter = 1 gratis'],
+    headline: 'Trip.com, jämför Lapplands hotell, glasiglos och stugor på ett ställe',
+    sub: 'Det enkla sättet att se vad som faktiskt är ledigt för dina datum i Levi, Ylläs, Saariselkä och Rovaniemi. Du ser aktuella priser sida vid sida, från stadshotell till glasiglo, och bokar på ditt eget språk och i din egen valuta.',
+    trust: ['Aktuella priser och tillgänglighet', 'Hotell, iglos och stugor i en sökning', 'Boka på ditt eget språk'],
     cta: 'Se lediga rum',
-    poweredBy: 'Sök på Hotels.com',
+    poweredBy: 'Sök på Trip.com',
   },
 }
 
@@ -583,7 +588,12 @@ interface PartnerStayAdProps {
 
 export default function PartnerStayAd({ partner, sid, className = '' }: PartnerStayAdProps) {
   const lang = useLang()
-  const cfg = CONFIG[partner]
+  // The hotels slot is brand-split per locale: the Worker sends fi_FI to Sembo
+  // and every other locale to Trip.com, so the fi card wears Sembo's skin.
+  const cfg =
+    partner === 'hotels' && lang === 'fi'
+      ? { ...CONFIG.hotels, brand: 'Sembo', accent: '#0EA5E9', accentDark: '#0369A1' }
+      : CONFIG[partner]
   const c = COPY[partner][lang] ?? COPY[partner].en
   const Icon = cfg.icon
   const href = cfg.linkFor(sid, lang)

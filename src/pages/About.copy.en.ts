@@ -13,7 +13,7 @@ const copy: PageCopy = {
     "missionEyebrow": "Why this exists",
     "missionH2": "One honest guide to where to sleep in Lapland",
     "missionP1": "Most Lapland accommodation listings online either invent prices (\"from €99/night\" for a property that has not opened that tier in six years), bury affiliate disclosures, or recommend the same five resorts on autopilot. LaplandStays is a corrective, a small, named-property guide that re-checks rates every season and tells you when something is sold out 12 months ahead instead of pretending otherwise.",
-    "missionP2": "This is an editorial publisher, not a booking platform. When you click through to Hotels.com or one of the partners, the contract is between you and them, reservations and payments are handled there. An affiliate commission is earned on bookings made through these links, but the commission rate is similar across the partner programme, so it has no influence on what is recommended.",
+    "missionP2": "This is an editorial publisher, not a booking platform. When you click through to one of the booking partners, the contract is between you and them, reservations and payments are handled there. An affiliate commission is earned on bookings made through these links, but the commission rate is similar across the partner programme, so it has no influence on what is recommended.",
     "opEyebrow": "Operator",
     "opH2": "Lapeso Oy",
     "opCards": [
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Honest \"from\" prices",
-        "body": "Every \"from €X/night\" pulls from the operator's own booking page or Hotels.com, checked at least once per season. If a property is sold out for peak weeks, the page says so up front instead of routing you to a 0-result search."
+        "body": "Every \"from €X/night\" pulls from the operator's own booking page or our booking partners, checked at least once per season. If a property is sold out for peak weeks, the page says so up front instead of routing you to a 0-result search."
       },
       {
         "title": "\"Best for / Avoid if\" framing",

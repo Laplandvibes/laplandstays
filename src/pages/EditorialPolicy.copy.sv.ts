@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Verifierade priser, varje säsong",
-        "body": "Varje uppgift om \"från X €/natt\" hämtas från leverantörens egen bokningssida eller Hotels.com. Priserna kontrolleras minst en gång per kvartal och särskilt i början av norrskenssäsongen (september). Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka läsaren till en sökning med noll träffar."
+        "body": "Varje uppgift om \"från X €/natt\" hämtas från leverantörens egen bokningssida eller våra bokningspartner. Priserna kontrolleras minst en gång per kvartal och särskilt i början av norrskenssäsongen (september). Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka läsaren till en sökning med noll träffar."
       },
       {
         "title": "Namngivna boenden, inte \"premium med fem stjärnor\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Oberoende av affiliatepartner",
-        "body": "LaplandStays tjänar en affiliateprovision på bokningar via partnerlänkar (Hotels.com via CJ, EconomyBookings, GetYourGuide). Provisionsnivån är likartad i hela partnerprogrammet, så den påverkar inte vilka boenden som rekommenderas. En leverantör utan affiliateavtal rekommenderas också (t.ex. VR för tåg) när det är rätt svar, se sidan /transport för ett exempel."
+        "body": "LaplandStays tjänar en affiliateprovision på bokningar via partnerlänkar (Sembo via Adtraction och Trip.com för hotell, EconomyBookings via Travelpayouts för hyrbilar, GetYourGuide för aktiviteter). Provisionsnivån är likartad i hela partnerprogrammet, så den påverkar inte vilka boenden som rekommenderas. En leverantör utan affiliateavtal rekommenderas också (t.ex. VR för tåg) när det är rätt svar, se sidan /transport för ett exempel."
       },
       {
         "title": "Rättelser, inte tysta ändringar",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Affiliate kontra redaktionellt: en affiliateprovision tjänas in på de fyra första källorna, ingen på de tre sista. Den skillnaden ändrar aldrig vilken källa läsaren skickas till, den avgör bara vilken som markeras som betald.",
     "sources": [
       {
-        "label": "Hotels.com (CJ-partner)",
+        "label": "Sembo & Trip.com (hotellpartner)",
         "use": "Tillgänglighet i realtid och säsongsbaserade \"från\"-priser för de 12 huvudboendena samt sökningar på stad/region."
       },
       {
         "label": "Leverantörernas bokningssidor",
-        "use": "Direkt priskontroll när utbudet på Hotels.com är ofullständigt (t.ex. Kakslauttanens egen bokning, Levin Iglut, Aurora Village)."
+        "use": "Direkt priskontroll när utbudet hos partnern är ofullständigt (t.ex. Kakslauttanens egen bokning, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Hyrbilspriser från flygplatserna KTT / RVN / IVL och enkelupphämtning i Helsingfors."
       },
       {

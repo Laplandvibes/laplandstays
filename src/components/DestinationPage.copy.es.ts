@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: 'Ver disponibilidad',
     anchorEyebrow: 'Alojamientos ancla',
     whereToStayH2: (n: string) => `Dónde alojarse en ${n}`,
-    anchorLead: 'Haga clic para ver tarifas verificadas en Hotels.com. Los alojamientos se reservan 4–8 meses antes en temporada alta.',
+    anchorLead: 'Haga clic para ver tarifas actualizadas en Trip.com. Los alojamientos se reservan 4–8 meses antes en temporada alta.',
     gettingThereH2: (n: string) => `Cómo llegar a ${n}`,
     transportLead: 'Tarifas reales de las páginas de los operadores, reverificadas estacionalmente. Los traslados suelen prereservarse a través del alojamiento.',
     rentCarLabel: 'Alquilar coche · EconomyBookings',

@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: 'Vérifier la disponibilité',
     anchorEyebrow: 'Hébergements piliers',
     whereToStayH2: (n: string) => `Où loger à ${n}`,
-    anchorLead: 'Cliquez pour des tarifs vérifiés sur Hotels.com. Les hébergements se réservent 4 à 8 mois à l\'avance en haute saison.',
+    anchorLead: 'Cliquez pour des tarifs à jour sur Trip.com. Les hébergements se réservent 4 à 8 mois à l\'avance en haute saison.',
     gettingThereH2: (n: string) => `Transports vers ${n}`,
     transportLead: 'Tarifs réels relevés sur les pages des opérateurs, révisés chaque saison. Les transferts sont en général réservables en amont via votre hébergement.',
     rentCarLabel: 'Louer une voiture · EconomyBookings',

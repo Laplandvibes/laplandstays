@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: '查看空房',
     anchorEyebrow: '主要住宿',
     whereToStayH2: (n: string) => `${n}在哪里住`,
-    anchorLead: '点击查看Hotels.com核实价格。旺季需提前4–8个月预订。',
+    anchorLead: '点击查看Trip.com实时价格。旺季需提前4–8个月预订。',
     gettingThereH2: (n: string) => `前往${n}的交通`,
     transportLead: '来自运营商页面的真实价格。每季度复核。接送通常可通过住宿提前预订。',
     rentCarLabel: '租车 · EconomyBookings',

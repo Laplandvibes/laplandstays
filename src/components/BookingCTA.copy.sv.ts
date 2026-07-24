@@ -11,7 +11,7 @@ const copy: Copy = {
     trust: [
       { title: 'Verifierade priser', body: 'Priser kontrollerade på nytt på leverantörernas sidor – inga uppblåsta "från"-priser, inga dolda avgifter.' },
       { title: 'Fri avbokning', body: 'De flesta stugor, de flesta datum har ett avbokningsfönster. Varje annons visar sista datum.' },
-      { title: 'Omedelbar bekräftelse', body: 'Boka direkt via Hotels.com. Datumen låses så snart betalningen går igenom.' },
+      { title: 'Omedelbar bekräftelse', body: 'Boka direkt via Trip.com. Datumen låses så snart betalningen går igenom.' },
       { title: 'Lokal vägledning', body: 'Mejla innan du bokar. Svaren kommer från Lappland – oftast samma dag.' },
     ],
     seasonAnchors: [

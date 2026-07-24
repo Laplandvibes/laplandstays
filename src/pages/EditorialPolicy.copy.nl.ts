@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tarieven elk seizoen geverifieerd",
-        "body": "Elke vermelding \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van Hotels.com. Prijzen worden minstens eens per kwartaal opnieuw gecontroleerd en uitdrukkelijk aan het begin van het auroraseizoen (september). Is een accommodatie volgeboekt voor de piekweken, dan vermeldt de pagina dat vooraf in plaats van u door te sturen naar een lege zoekopdracht."
+        "body": "Elke vermelding \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van onze boekingspartners. Prijzen worden minstens eens per kwartaal opnieuw gecontroleerd en uitdrukkelijk aan het begin van het auroraseizoen (september). Is een accommodatie volgeboekt voor de piekweken, dan vermeldt de pagina dat vooraf in plaats van u door te sturen naar een lege zoekopdracht."
       },
       {
         "title": "Genoemde accommodaties, geen \"premium 5-sterren\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Onafhankelijk van partners",
-        "body": "LaplandStays ontvangt een affiliate-commissie op boekingen via partnerlinks (Hotels.com via CJ, EconomyBookings, GetYourGuide). De commissiepercentages binnen het partnerprogramma zijn vergelijkbaar, dus dit heeft geen invloed op welke accommodaties worden aanbevolen. Een niet-affiliate aanbieder wordt ook aanbevolen (bijv. VR voor de trein) wanneer dat het juiste antwoord is, zie de pagina /transport."
+        "body": "LaplandStays ontvangt een affiliate-commissie op boekingen via partnerlinks (Sembo via Adtraction en Trip.com voor hotels, EconomyBookings via Travelpayouts voor huurauto's, GetYourGuide voor activiteiten). De commissiepercentages binnen het partnerprogramma zijn vergelijkbaar, dus dit heeft geen invloed op welke accommodaties worden aanbevolen. Een niet-affiliate aanbieder wordt ook aanbevolen (bijv. VR voor de trein) wanneer dat het juiste antwoord is, zie de pagina /transport."
       },
       {
         "title": "Correcties, geen stille aanpassingen",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Affiliate vs redactioneel: op de eerste vier bronnen wordt een commissie verdiend, op de laatste drie niet. Dit onderscheid verandert nooit naar welke bron u wordt verwezen, het bepaalt alleen welke als betaald wordt gemarkeerd.",
     "sources": [
       {
-        "label": "Hotels.com (CJ-partner)",
+        "label": "Sembo & Trip.com (hotelpartners)",
         "use": "Realtime beschikbaarheid en seizoens-\"vanaf\"-prijzen voor de 12 hoofdaccommodaties en stad/regio-zoekopdrachten."
       },
       {
         "label": "Boekingspagina's van aanbieders",
-        "use": "Directe tariefcontrole wanneer de Hotels.com-voorraad onvolledig is (bijv. directe boeking Kakslauttanen, Levin Iglut, Aurora Village)."
+        "use": "Directe tariefcontrole wanneer de partnervoorraad onvolledig is (bijv. directe boeking Kakslauttanen, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Huurautotarieven vanaf KTT / RVN / IVL en eenrichtingsritten vanuit Helsinki."
       },
       {

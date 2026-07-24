@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tarifas verificadas cada temporada",
-        "body": "Cada \"desde X €/noche\" sale de la página de reservas del operador o de Hotels.com. Los precios se reverifican al menos una vez por trimestre y explícitamente al inicio de la temporada de auroras (septiembre). Si está agotado, la página lo dice por adelantado en lugar de enviar al lector a una búsqueda sin resultados."
+        "body": "Cada \"desde X €/noche\" sale de la página de reservas del operador o de nuestros socios de reserva. Los precios se reverifican al menos una vez por trimestre y explícitamente al inicio de la temporada de auroras (septiembre). Si está agotado, la página lo dice por adelantado en lugar de enviar al lector a una búsqueda sin resultados."
       },
       {
         "title": "Alojamientos nombrados, no \"premium 5 estrellas\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Independencia de afiliación",
-        "body": "LaplandStays gana una comisión de afiliación sobre reservas hechas a través de enlaces de socios (Hotels.com vía CJ, EconomyBookings, GetYourGuide). La tasa es similar en todo el programa, por lo que no influye en qué se recomienda. También se recomienda un operador no afiliado (p. ej. VR para los trenes) cuando es la respuesta correcta, vea /transport como ejemplo."
+        "body": "LaplandStays gana una comisión de afiliación sobre reservas hechas a través de enlaces de socios (Sembo vía Adtraction y Trip.com para hoteles, EconomyBookings vía Travelpayouts para coches, GetYourGuide para actividades). La tasa es similar en todo el programa, por lo que no influye en qué se recomienda. También se recomienda un operador no afiliado (p. ej. VR para los trenes) cuando es la respuesta correcta, vea /transport como ejemplo."
       },
       {
         "title": "Correcciones, no ediciones silenciosas",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Afiliado vs editorial: las primeras cuatro fuentes generan comisión, las tres últimas no. Esa distinción nunca cambia adónde se envía al lector, cambia cuál se marca como pagada.",
     "sources": [
       {
-        "label": "Hotels.com (socio CJ)",
+        "label": "Sembo & Trip.com (socios hoteleros)",
         "use": "Disponibilidad en tiempo real y precios \"desde\" estacionales para los 12 alojamientos ancla + búsquedas de ciudad/región."
       },
       {
         "label": "Páginas de reserva de operadores",
-        "use": "Verificación directa de tarifas cuando el inventario de Hotels.com está incompleto (p. ej. reserva propia de Kakslauttanen, Levin Iglut, Aurora Village)."
+        "use": "Verificación directa de tarifas cuando el inventario del socio está incompleto (p. ej. reserva propia de Kakslauttanen, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Tarifas de alquiler desde aeropuertos KTT / RVN / IVL y recogidas one-way desde Helsinki."
       },
       {

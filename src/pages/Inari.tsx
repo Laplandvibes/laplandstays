@@ -41,7 +41,7 @@ For extended wilderness trips, the road continues to Utsjoki and the Norwegian b
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'On the eastern shore of Lake Inari, near the Russian border. Sámi-fish-and-sauna culture.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min from Ivalo airport, glass-roofed cabins, aurora wake-up service.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Architect-designed all-suite lodge between Inari and Saariselkä.' },
-    { name: 'All Inari accommodation', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Browse every Inari property on Hotels.com.' },
+    { name: 'All Inari accommodation', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Browse every Inari property on Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Ivalo Airport (IVL)', detail: 'Direct winter flights from HEL · LHR · CDG · AMS. 50 km / 40 min north to Inari village.' },
@@ -105,7 +105,7 @@ Pidemmille erämaamatkoille tie jatkuu Utsjokeen ja Norjan rajalle.`,
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Inarijärven itärannalla, lähellä Venäjän rajaa. Saamelaista kala- ja saunakulttuuria.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min Ivalon lentokentältä, lasikattoiset mökit, revontulien herätys.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Arkkitehtien suunnittelema sviittikohde Inarin ja Saariselän välillä.' },
-    { name: 'Kaikki Inarin majoitukset', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Selaa kaikki Inarin kohteet Hotels.comissa.' },
+    { name: 'Kaikki Inarin majoitukset', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Selaa kaikki Inarin kohteet Trip.comissa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ivalon lentokentältä (IVL)', detail: 'Suorat talvilennot HEL · LHR · CDG · AMS. 50 km / 40 min pohjoiseen Inarin kylälle.' },
@@ -169,7 +169,7 @@ Für ausgedehnte Wildnisreisen führt die Straße weiter nach Utsjoki und zur no
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Am Ostufer des Inarisees, nahe der russischen Grenze. Sámi-Fisch- und Saunakultur.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min vom Flughafen Ivalo, Hütten mit Glasdach, Polarlicht-Weckdienst.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Architektonisch gestaltete Suiten-Lodge zwischen Inari und Saariselkä.' },
-    { name: 'Alle Inari-Unterkünfte', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Stöbern Sie in allen Inari-Unterkünften auf Hotels.com.' },
+    { name: 'Alle Inari-Unterkünfte', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Stöbern Sie in allen Inari-Unterkünften auf Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Ivalo (IVL)', detail: 'Direkte Winterflüge ab HEL · LHR · CDG · AMS. 50 km / 40 min nordwärts ins Dorf Inari.' },
@@ -233,7 +233,7 @@ const ko: DestinationBody = {
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: '이나리 호수 동쪽 기슭, 러시아 국경 근처. 사미 어업과 사우나 문화가 살아 있습니다.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '이발로 공항에서 20분. 유리 천장 캐빈과 오로라 모닝콜 서비스.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: '이나리와 사리셀카 사이에 자리한 건축가 설계 전 객실 스위트 로지.' },
-    { name: '이나리 전체 숙소', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Hotels.com에서 이나리의 모든 숙소를 둘러보세요.' },
+    { name: '이나리 전체 숙소', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Trip.com에서 이나리의 모든 숙소를 둘러보세요.' },
   ],
   transport: [
     { mode: 'plane', label: '이발로 공항(IVL)에서', detail: 'HEL · LHR · CDG · AMS 겨울 직항편. 이나리 마을까지 북쪽으로 50km / 40분.' },
@@ -297,7 +297,7 @@ Pour une virée plus longue dans la nature, la route continue jusqu\'à Utsjoki 
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Sur la rive est du lac Inari, près de la frontière russe. Culture sámi du poisson et du sauna.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: 'À 20 min de l\'aéroport d\'Ivalo, chalets à toit de verre, service de réveil aurores.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Lodge signé tout-suites entre Inari et Saariselkä.' },
-    { name: 'Tous les hébergements d\'Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Parcourez chaque adresse d\'Inari sur Hotels.com.' },
+    { name: 'Tous les hébergements d\'Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Parcourez chaque adresse d\'Inari sur Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: "Depuis l'aéroport d'Ivalo (IVL)", detail: 'Vols hivernaux directs HEL · LHR · CDG · AMS. 50 km / 40 min vers le nord jusqu\'au village d\'Inari.' },
@@ -361,7 +361,7 @@ Per viaggi più lunghi nella natura, la strada prosegue fino a Utsjoki e al conf
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Sulla riva orientale del lago Inari, vicino al confine russo. Cultura sámi di pesce e sauna.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: 'A 20 min dall\'aeroporto di Ivalo, chalet con tetto di vetro, sveglia dedicata all\'aurora.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Lodge firmato, solo suite, tra Inari e Saariselkä.' },
-    { name: 'Tutti gli alloggi di Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Esplori ogni struttura di Inari su Hotels.com.' },
+    { name: 'Tutti gli alloggi di Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Esplori ogni struttura di Inari su Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Dall\'aeroporto di Ivalo (IVL)', detail: 'Voli invernali diretti HEL · LHR · CDG · AMS. 50 km / 40 min verso nord fino al paese di Inari.' },
@@ -425,7 +425,7 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Aan de oostoever van het Inari-meer, dicht bij de Russische grens. Sámi-vis- en saunacultuur.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min van luchthaven Ivalo, cabins met glazen dak, aurora-wekservice.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Door architecten ontworpen all-suite lodge tussen Inari en Saariselkä.' },
-    { name: 'Alle Inari-accommodaties', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Bekijk elke Inari-accommodatie op Hotels.com.' },
+    { name: 'Alle Inari-accommodaties', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Bekijk elke Inari-accommodatie op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Ivalo (IVL)', detail: 'Directe wintervluchten HEL · LHR · CDG · AMS. 50 km / 40 min noordwaarts naar het dorp Inari.' },
@@ -489,7 +489,7 @@ const ja: DestinationBody = {
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'イナリ湖の東岸、ロシア国境近く。サーミの魚とサウナの文化。' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: 'イヴァロ空港から20分。ガラス屋根のキャビン、オーロラ・ウェイクアップサービス。' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'イナリとサーリセルカの間にある、建築家設計のオールスイートロッジ。' },
-    { name: 'イナリのすべての宿泊施設', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Hotels.comでイナリの全宿を閲覧できます。' },
+    { name: 'イナリのすべての宿泊施設', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Trip.comでイナリの全宿を閲覧できます。' },
   ],
   transport: [
     { mode: 'plane', label: 'イヴァロ空港(IVL)から', detail: 'HEL · LHR · CDG · AMS からの冬季直行便。北へ50km / 40分でイナリ村。' },
@@ -553,7 +553,7 @@ Para viajes prolongados al territorio salvaje, la carretera continúa a Utsjoki 
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'En la orilla oriental del lago Inari, cerca de la frontera rusa. Cultura sami de pesca y sauna.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: 'A 20 min del aeropuerto de Ivalo, cabañas con techo de cristal, servicio de aviso por aurora.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Lodge de diseño de arquitectos, todo suites, entre Inari y Saariselkä.' },
-    { name: 'Todos los alojamientos de Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Consulte todas las propiedades de Inari en Hotels.com.' },
+    { name: 'Todos los alojamientos de Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Consulte todas las propiedades de Inari en Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Desde el aeropuerto de Ivalo (IVL)', detail: 'Vuelos directos invernales desde HEL · LHR · CDG · AMS. 50 km / 40 min al norte hasta el pueblo de Inari.' },
@@ -617,7 +617,7 @@ Para viagens prolongadas na natureza, a estrada continua até Utsjoki e a fronte
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Na margem leste do Lago Inari, perto da fronteira com a Rússia. Cultura sámi de peixe e sauna.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: 'A 20 min do aeroporto de Ivalo, cabanas com teto de vidro, serviço de despertar por aurora.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Lodge projetado por arquitetos, todo em suítes, entre Inari e Saariselkä.' },
-    { name: 'Todas as hospedagens de Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Veja todas as propriedades de Inari no Hotels.com.' },
+    { name: 'Todas as hospedagens de Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Veja todas as propriedades de Inari no Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Do Aeroporto de Ivalo (IVL)', detail: 'Voos diretos de inverno de HEL · LHR · CDG · AMS. 50 km / 40 min ao norte até a vila de Inari.' },
@@ -681,7 +681,7 @@ const zhCN: DestinationBody = {
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: '位于伊纳里湖东岸、邻近俄罗斯边境。萨米的渔与桑拿文化。' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '距伊瓦洛机场20分钟。玻璃屋顶小屋,提供极光呼叫服务。' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: '位于伊纳里与萨利瑟尔卡之间,由建筑师设计的全套房小屋。' },
-    { name: '伊纳里全部住宿', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: '在Hotels.com浏览伊纳里所有房源。' },
+    { name: '伊纳里全部住宿', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: '在Trip.com浏览伊纳里所有房源。' },
   ],
   transport: [
     { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '冬季直飞自HEL · LHR · CDG · AMS。北行50公里 / 40分钟抵达伊纳里村。' },

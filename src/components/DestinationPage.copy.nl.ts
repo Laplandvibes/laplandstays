@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: 'Beschikbaarheid bekijken',
     anchorEyebrow: 'Anker-accommodaties',
     whereToStayH2: (n: string) => `Waar verblijven in ${n}`,
-    anchorLead: 'Klik door naar geverifieerde tarieven op Hotels.com. In het hoogseizoen wordt 4–8 maanden vooruit geboekt.',
+    anchorLead: 'Klik door naar actuele tarieven op Trip.com. In het hoogseizoen wordt 4–8 maanden vooruit geboekt.',
     gettingThereH2: (n: string) => `Vervoer naar ${n}`,
     transportLead: 'Reële prijzen van aanbiederpagina\'s, per seizoen opnieuw nagekeken. Transfers zijn meestal vooruit te boeken via uw accommodatie.',
     rentCarLabel: 'Auto huren · EconomyBookings',

@@ -13,7 +13,7 @@ const copy: PageCopy = {
     "missionEyebrow": "Por qué existe",
     "missionH2": "Una guía honesta sobre dónde dormir en Laponia",
     "missionP1": "La mayoría de los listados de alojamiento en Laponia inventan precios (\"desde 99 €/noche\" en un alojamiento que no ofrece ese precio desde hace seis años), esconden las disclosures de afiliación o recomiendan los mismos cinco resorts en automático. LaplandStays es un correctivo, una guía pequeña, centrada en propiedades nombradas, que reverifica las tarifas cada temporada y avisa cuando algo está agotado con 12 meses de antelación, en lugar de fingir lo contrario.",
-    "missionP2": "Es una publicación editorial, no una plataforma de reservas. Cuando hace clic a Hotels.com o a un socio, el contrato es entre usted y ellos, reservas y pagos se gestionan allí. Se gana una comisión de afiliación por las reservas hechas a través de estos enlaces, pero la tasa es similar en todo el programa de socios, así que no influye en lo que se recomienda.",
+    "missionP2": "Es una publicación editorial, no una plataforma de reservas. Cuando hace clic a uno de los socios de reserva, el contrato es entre usted y ellos, reservas y pagos se gestionan allí. Se gana una comisión de afiliación por las reservas hechas a través de estos enlaces, pero la tasa es similar en todo el programa de socios, así que no influye en lo que se recomienda.",
     "opEyebrow": "Operador",
     "opH2": "Lapeso Oy",
     "opCards": [
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Precios \"desde\" honestos",
-        "body": "Cada \"desde X €/noche\" sale de la página de reservas del operador o de Hotels.com, verificado al menos una vez por temporada. Si está agotado en semanas pico, la página lo dice por adelantado en lugar de enviarle a una búsqueda con 0 resultados."
+        "body": "Cada \"desde X €/noche\" sale de la página de reservas del operador o de nuestros socios de reserva, verificado al menos una vez por temporada. Si está agotado en semanas pico, la página lo dice por adelantado en lugar de enviarle a una búsqueda con 0 resultados."
       },
       {
         "title": "Enfoque \"ideal para / evite si\"",

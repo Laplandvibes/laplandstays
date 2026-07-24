@@ -19,7 +19,7 @@ const copy: Copy = {
     checkAvailability: '객실 확인',
     anchorEyebrow: '대표 숙소',
     whereToStayH2: (n: string) => `${n}에서 어디에 묵을까`,
-    anchorLead: '검증된 Hotels.com 요금으로 바로 이동합니다. 성수기에는 4–8개월 전 예약이 필요합니다.',
+    anchorLead: '실시간 Trip.com 요금으로 바로 이동합니다. 성수기에는 4–8개월 전 예약이 필요합니다.',
     gettingThereH2: (n: string) => `${n}까지 가는 길`,
     transportLead: '운영사 페이지에서 확인한 실제 운임. 시즌마다 재검토합니다. 픽업은 보통 숙소를 통해 사전 예약하실 수 있습니다.',
     rentCarLabel: '렌터카 · EconomyBookings',

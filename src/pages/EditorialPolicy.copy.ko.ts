@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "시즌마다 검증된 요금",
-        "body": "\"€X/박부터\"라는 모든 표기는 운영사의 자체 예약 페이지나 Hotels.com에서 직접 가져옵니다. 분기마다 최소 1회, 오로라 시즌 시작(9월)에는 반드시 다시 확인합니다. 성수기에 매진된 숙소는 결과 0건 검색으로 보내지 않고, 페이지 상단에서 미리 알려 드립니다."
+        "body": "\"€X/박부터\"라는 모든 표기는 운영사의 자체 예약 페이지나 저희 예약 파트너에서 직접 가져옵니다. 분기마다 최소 1회, 오로라 시즌 시작(9월)에는 반드시 다시 확인합니다. 성수기에 매진된 숙소는 결과 0건 검색으로 보내지 않고, 페이지 상단에서 미리 알려 드립니다."
       },
       {
         "title": "실명 숙소, \"프리미엄 5성급\" 같은 표현 지양",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "제휴로부터의 독립",
-        "body": "LaplandStays는 파트너 링크(CJ를 통한 Hotels.com, EconomyBookings, GetYourGuide)를 통한 예약에서 제휴 수수료를 받습니다. 파트너 프로그램 전반의 수수료율이 비슷하기 때문에 추천 숙소 선정에는 영향을 주지 않습니다. 비제휴 운영사라도 정답이라면 추천합니다(예: 기차의 VR). /transport 페이지가 그 예시입니다."
+        "body": "LaplandStays는 파트너 링크(호텔은 Adtraction을 통한 Sembo와 Trip.com, 렌터카는 Travelpayouts를 통한 EconomyBookings, 액티비티는 GetYourGuide)를 통한 예약에서 제휴 수수료를 받습니다. 파트너 프로그램 전반의 수수료율이 비슷하기 때문에 추천 숙소 선정에는 영향을 주지 않습니다. 비제휴 운영사라도 정답이라면 추천합니다(예: 기차의 VR). /transport 페이지가 그 예시입니다."
       },
       {
         "title": "정정 기록, 조용한 수정 금지",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "제휴 vs 편집: 앞의 네 출처에서는 제휴 수수료가 발생하고 뒤의 세 출처에서는 발생하지 않습니다. 이 구분은 독자가 안내받는 출처를 바꾸지 않으며, 단지 어떤 것이 유료 표기되는지를 정합니다.",
     "sources": [
       {
-        "label": "Hotels.com (CJ 파트너)",
+        "label": "Sembo & Trip.com (호텔 파트너)",
         "use": "12개 주요 숙소 및 도시/지역 검색의 실시간 예약 가능 여부와 시즌별 \"최저가\"."
       },
       {
         "label": "운영사 예약 페이지",
-        "use": "Hotels.com 재고가 불완전할 때 직접 요금 확인(예: Kakslauttanen 직영 예약, Levin Iglut, Aurora Village)."
+        "use": "파트너 재고가 불완전할 때 직접 요금 확인(예: Kakslauttanen 직영 예약, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "KTT / RVN / IVL 공항 및 헬싱키 편도 픽업 렌터카 요금."
       },
       {

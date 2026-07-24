@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tariffe verificate ogni stagione",
-        "body": "Ogni indicazione \"da X €/notte\" è ricavata dalla pagina di prenotazione dell'operatore o da Hotels.com. I prezzi vengono ricontrollati almeno una volta a trimestre e in modo specifico all'inizio della stagione delle aurore (settembre). Quando una struttura è esaurita per le settimane di punta, la pagina lo segnala in apertura invece di rimandare a una ricerca con zero risultati."
+        "body": "Ogni indicazione \"da X €/notte\" è ricavata dalla pagina di prenotazione dell'operatore o dai nostri partner di prenotazione. I prezzi vengono ricontrollati almeno una volta a trimestre e in modo specifico all'inizio della stagione delle aurore (settembre). Quando una struttura è esaurita per le settimane di punta, la pagina lo segnala in apertura invece di rimandare a una ricerca con zero risultati."
       },
       {
         "title": "Strutture citate per nome, niente \"5 stelle premium\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Indipendenza dai partner",
-        "body": "LaplandStays riceve una commissione di affiliazione sulle prenotazioni effettuate tramite link partner (Hotels.com via CJ, EconomyBookings, GetYourGuide). Le commissioni sono simili all'interno del programma, quindi non influenzano la scelta delle strutture consigliate. Un operatore non affiliato viene consigliato comunque (ad esempio VR per i treni) quando è la risposta giusta, veda la pagina /transport."
+        "body": "LaplandStays riceve una commissione di affiliazione sulle prenotazioni effettuate tramite link partner (Sembo via Adtraction e Trip.com per gli hotel, EconomyBookings via Travelpayouts per le auto, GetYourGuide per le attività). Le commissioni sono simili all'interno del programma, quindi non influenzano la scelta delle strutture consigliate. Un operatore non affiliato viene consigliato comunque (ad esempio VR per i treni) quando è la risposta giusta, veda la pagina /transport."
       },
       {
         "title": "Correzioni, non modifiche silenziose",
@@ -34,15 +34,15 @@ const copy: PageCopy = {
     "sourcesLead": "Affiliazione vs redazione: una commissione viene maturata sulle prime quattro fonti, nessuna sulle ultime tre. Questa distinzione non cambia mai la fonte verso cui Lei viene indirizzato, cambia solo quale viene segnalata come a pagamento.",
     "sources": [
       {
-        "label": "Hotels.com (partner CJ)",
+        "label": "Sembo & Trip.com (partner alberghieri)",
         "use": "Disponibilità in tempo reale e tariffe \"da\" stagionali per le 12 strutture di riferimento e per le ricerche di città/regione."
       },
       {
         "label": "Pagine di prenotazione degli operatori",
-        "use": "Verifica diretta delle tariffe quando l'inventario Hotels.com è incompleto (ad es. prenotazione diretta Kakslauttanen, Levin Iglut, Aurora Village)."
+        "use": "Verifica diretta delle tariffe quando l'inventario del partner è incompleto (ad es. prenotazione diretta Kakslauttanen, Levin Iglut, Aurora Village)."
       },
       {
-        "label": "EconomyBookings (CJ)",
+        "label": "EconomyBookings (Travelpayouts)",
         "use": "Tariffe di autonoleggio dagli aeroporti KTT / RVN / IVL e ritiri sola andata a Helsinki."
       },
       {

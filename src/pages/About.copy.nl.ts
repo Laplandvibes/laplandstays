@@ -13,7 +13,7 @@ const copy: PageCopy = {
     "missionEyebrow": "Waarom dit bestaat",
     "missionH2": "Eén eerlijke gids voor waar u in Lapland slaapt",
     "missionP1": "De meeste online accommodatieoverzichten van Lapland verzinnen prijzen (\"vanaf €99/nacht\" voor een adres dat dat tarief al zes jaar niet meer hanteert), verbergen affiliate-vermeldingen of bevelen op de automatische piloot dezelfde vijf resorts aan. LaplandStays is een correctie, een kleine, op specifiek benoemde accommodaties gerichte gids die elk seizoen de tarieven opnieuw nakijkt en u meldt dat iets 12 maanden vooruit is uitverkocht, in plaats van te doen alsof dat niet zo is.",
-    "missionP2": "Dit is een redactioneel medium, geen boekingsplatform. Wanneer u doorklikt naar Hotels.com of een partner, ontstaat het contract tussen u en hen, reserveringen en betalingen verlopen daar. Op boekingen via deze links wordt een affiliatevergoeding ontvangen, maar het tarief is in het hele partnerprogramma vergelijkbaar, dus dat heeft geen invloed op wat wordt aanbevolen.",
+    "missionP2": "Dit is een redactioneel medium, geen boekingsplatform. Wanneer u doorklikt naar een van de boekingspartners, ontstaat het contract tussen u en hen, reserveringen en betalingen verlopen daar. Op boekingen via deze links wordt een affiliatevergoeding ontvangen, maar het tarief is in het hele partnerprogramma vergelijkbaar, dus dat heeft geen invloed op wat wordt aanbevolen.",
     "opEyebrow": "Beheerder",
     "opH2": "Lapeso Oy",
     "opCards": [
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Eerlijke \"vanaf\"-prijzen",
-        "body": "Elke \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van Hotels.com, minstens één keer per seizoen nagekeken. Is een adres in piekweken volgeboekt, dan zegt de pagina dat vooraan, in plaats van u naar een zoekopdracht met 0 resultaten te sturen."
+        "body": "Elke \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van onze boekingspartners, minstens één keer per seizoen nagekeken. Is een adres in piekweken volgeboekt, dan zegt de pagina dat vooraan, in plaats van u naar een zoekopdracht met 0 resultaten te sturen."
       },
       {
         "title": "\"Geschikt voor / vermijd als\"-aanpak",
