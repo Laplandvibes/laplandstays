@@ -9,52 +9,105 @@ import enCopy from './TravelSearchWidget.copy.en'
 import type { Copy } from './TravelSearchWidget.copy.types'
 
 
-const HOTEL_DESTINATIONS = [
-  // "Lapland, Finland" alone Helsinki-snaps on Hotels.com, anchor the
-  // generic option to Rovaniemi (regional capital, deep inventory).
-  { label: 'All of Finnish Lapland (Rovaniemi)', value: 'Rovaniemi%2C+Finland' },
-  { label: 'Rovaniemi', value: 'Rovaniemi%2C+Finland' },
-  { label: 'Levi', value: 'Levi%2C+Kittil%C3%A4%2C+Finland' },
-  { label: 'Saariselka', value: 'Saariselk%C3%A4%2C+Finland' },
-  { label: 'Yllas', value: 'Yll%C3%A4s%2C+Finland' },
-  { label: 'Inari', value: 'Inari%2C+Finland' },
-  { label: 'Luosto', value: 'Luosto%2C+Sodankyl%C3%A4%2C+Finland' },
-  { label: 'Pyha', value: 'Pyh%C3%A4%2C+Finland' },
-  { label: 'Sodankyla', value: 'Sodankyl%C3%A4%2C+Finland' },
-  { label: 'Kemi', value: 'Kemi%2C+Finland' },
-  { label: 'Kilpisjarvi', value: 'Kilpisj%C3%A4rvi%2C+Finland' },
-  { label: 'Muonio', value: 'Muonio%2C+Finland' },
+// Hotels search destinations. Values feed the Worker's ss= as-is: the fi
+// locale routes to Sembo, whose autosuggest resolves ANY Finnish place, and
+// the other locales route to Trip.com, which deep-links the towns in the
+// Worker's TRIP_CITY map and falls back to a tracked trip.com front page
+// (dates kept) for the rest. "Lapland, Finland" alone Helsinki-snaps, so the
+// generic option stays anchored to Rovaniemi (regional capital, deep inventory).
+const HOTEL_RESORTS = [
+  { label: 'Rovaniemi', value: 'Rovaniemi, Finland' },
+  { label: 'Levi', value: 'Levi, Kittilä, Finland' },
+  { label: 'Ylläs (Äkäslompolo)', value: 'Ylläs, Finland' },
+  { label: 'Saariselkä', value: 'Saariselkä, Finland' },
+  { label: 'Ruka (Kuusamo)', value: 'Ruka, Kuusamo, Finland' },
+  { label: 'Pyhä', value: 'Pyhä, Finland' },
+  { label: 'Luosto', value: 'Luosto, Sodankylä, Finland' },
+  { label: 'Ivalo', value: 'Ivalo, Finland' },
+  { label: 'Hetta (Enontekiö)', value: 'Hetta, Enontekiö, Finland' },
+  { label: 'Kilpisjärvi', value: 'Kilpisjärvi, Finland' },
 ]
+// Every Lapland municipality, so no town is missing from the menu (Vesa
+// 2026-07-24). Proper nouns render identically in all 12 locales.
+const HOTEL_MUNICIPALITIES = [
+  'Inari', 'Sodankylä', 'Kittilä', 'Kolari', 'Muonio', 'Enontekiö', 'Utsjoki',
+  'Kemijärvi', 'Salla', 'Posio', 'Ranua', 'Pello', 'Ylitornio', 'Tornio',
+  'Kemi', 'Keminmaa', 'Tervola', 'Simo', 'Savukoski', 'Pelkosenniemi',
+].map((name) => ({ label: name, value: `${name}, Finland` }))
 
-const CAR_LOCATIONS = [
-  { label: 'Rovaniemi Airport', value: 'Rovaniemi+Airport%2C+Finland' },
-  { label: 'Kittila Airport', value: 'Kittila+Airport%2C+Finland' },
-  { label: 'Ivalo Airport', value: 'Ivalo+Airport%2C+Finland' },
-  { label: 'Enontekio Airport', value: 'Enontekio+Airport%2C+Finland' },
-  { label: 'Kemi Airport', value: 'Kemi+Airport%2C+Finland' },
+// EconomyBookings pickup points with real inventory (hascontracts=true),
+// harvested 2026-07-24 from EB's own /gapi searchLocations index — the same
+// source the redirect Worker's EB_PLC map was verified against (2026-05-02).
+// plc = EB MergedLocationId. The widget builds the /cars/results deep link
+// itself and sends it via dest=, so the Worker's Travelpayouts click wrap
+// keeps tracking identical to the IATA path while covering town offices the
+// Worker's 4-airport map does not. Enontekiö (ENF) has no EB office → omitted.
+const CAR_AIRPORTS = [
+  { label: 'Rovaniemi (RVN)', plc: '61909' },
+  { label: 'Kittilä (KTT)', plc: '61893' },
+  { label: 'Ivalo (IVL)', plc: '61888' },
+  { label: 'Kemi-Tornio (KEM)', plc: '61892' },
+  { label: 'Kuusamo (KAO)', plc: '61897' },
+  { label: 'Helsinki-Vantaa (HEL)', plc: '61885' },
+]
+const CAR_TOWNS = [
+  { label: 'Rovaniemi', plc: '61911' },
+  { label: 'Levi (Sirkka)', plc: '172926' },
+  { label: 'Kittilä', plc: '440633' },
+  { label: 'Saariselkä', plc: '371231' },
+  { label: 'Ivalo', plc: '402167' },
+  { label: 'Sodankylä', plc: '261587' },
+  { label: 'Muonio', plc: '261574' },
+  { label: 'Kemi', plc: '261566' },
+  { label: 'Kemijärvi', plc: '261567' },
+  { label: 'Tornio', plc: '172953' },
+  { label: 'Pello', plc: '261578' },
 ]
 
 // Flights tab (Trip.com): Helsinki → Lapland airport. Trip.com handles the
-// fare comparison and booking. SID: snake_case, no domain prefix.
+// fare comparison and booking. SID: snake_case, no domain prefix. Labels are
+// proper nouns only, so they read correctly in all 12 locales.
 const FLIGHT_DESTINATIONS = [
-  { label: 'Rovaniemi (RVN), gateway to all of Lapland', iata: 'rvn', sid: 'hero_widget_flight_hel_rvn' },
+  { label: 'Rovaniemi (RVN)', iata: 'rvn', sid: 'hero_widget_flight_hel_rvn' },
   { label: 'Kittilä (KTT), Levi & Ylläs', iata: 'ktt', sid: 'hero_widget_flight_hel_ktt' },
   { label: 'Ivalo (IVL), Saariselkä & Inari', iata: 'ivl', sid: 'hero_widget_flight_hel_ivl' },
-  { label: 'Enontekiö (ENF), far north fells', iata: 'enf', sid: 'hero_widget_flight_hel_enf' },
-  { label: 'Kemi (KEM), sea Lapland', iata: 'kem', sid: 'hero_widget_flight_hel_kem' },
+  { label: 'Enontekiö (ENF)', iata: 'enf', sid: 'hero_widget_flight_hel_enf' },
+  { label: 'Kemi-Tornio (KEM)', iata: 'kem', sid: 'hero_widget_flight_hel_kem' },
 ]
 
-// Hotels search → go.laplandvibes.com/go/hotels (CJ Hotels.com via Worker)
-function buildHotelsComUrl(dest: string, checkIn: string, checkOut: string, adults: number): string {
-  // The HOTEL_DESTINATIONS values are URL-encoded already (e.g. "Levi%2C+Kittil%C3%A4%2C+Finland"),
-  // so decode before passing to URLSearchParams (which encodes again).
-  const decoded = decodeURIComponent(dest.replace(/\+/g, ' '))
+// Hotels search → go.laplandvibes.com/go/hotels. The locale param makes the
+// Worker route fi → Sembo and everything else → Trip.com, which is also what
+// the provider chip under the search button claims.
+function buildHotelsUrl(dest: string, checkIn: string, checkOut: string, adults: number, lang: Lang): string {
   return buildAffiliateUrl({
     partner: 'hotels',
     sid: 'hero_widget_hotels',
-    destination: decoded,
+    destination: dest,
     query: { checkin: checkIn, checkout: checkOut, adults },
+    lang,
   })
+}
+
+// EconomyBookings results-page deep link (plc/dlc = EB location id, date split
+// py/pm/pd) — mirrors the Worker's own builder so the visitor lands on a
+// results page with cars listed, never the empty EB front page.
+function buildEbResultsUrl(plc: string, pickUpDate: string, dropOffDate: string, lang: Lang): string {
+  const site = lang === 'fi' ? 'fi' : 'en'
+  const [py, pm, pd] = pickUpDate.split('-')
+  const [dy, dm, dd] = dropOffDate.split('-')
+  const u = new URL(`https://www.economybookings.com/${site}/cars/results`)
+  u.searchParams.set('plc', plc)
+  u.searchParams.set('dlc', plc)
+  u.searchParams.set('cr', '73')
+  u.searchParams.set('crcy', 'EUR')
+  u.searchParams.set('lang', site)
+  u.searchParams.set('age', '35')
+  u.searchParams.set('pcntry', 'FI')
+  u.searchParams.set('pt', '1000')
+  u.searchParams.set('dt', '1000')
+  u.searchParams.set('py', py); u.searchParams.set('pm', pm); u.searchParams.set('pd', pd)
+  u.searchParams.set('dy', dy); u.searchParams.set('dm', dm); u.searchParams.set('dd', dd)
+  return u.toString()
 }
 
 function getDefaults() {
@@ -99,7 +152,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
   const lang = useLang()
   const wc = useCopy<Copy>(enCopy, loaders, cache)
 
-  const [hotelDest, setHotelDest] = useState(HOTEL_DESTINATIONS[0].value)
+  const [hotelDest, setHotelDest] = useState(HOTEL_RESORTS[0].value)
   const [hotelCheckIn, setHotelCheckIn] = useState(defaults.checkIn)
   const [hotelCheckOut, setHotelCheckOut] = useState(defaults.checkOut)
   const [hotelGuests, setHotelGuests] = useState(2)
@@ -108,7 +161,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
   const [flightDepart, setFlightDepart] = useState(defaults.checkIn)
   const [flightReturn, setFlightReturn] = useState(defaults.checkOut)
 
-  const [carLocation, setCarLocation] = useState(CAR_LOCATIONS[0].value)
+  const [carLocation, setCarLocation] = useState(CAR_AIRPORTS[0].plc)
   const [carPickUp, setCarPickUp] = useState(defaults.checkIn)
   const [carDropOff, setCarDropOff] = useState(defaults.checkOut)
 
@@ -117,7 +170,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
     let partner = ''
     let type = ''
     if (activeTab === 'hotels') {
-      url = buildHotelsComUrl(hotelDest, hotelCheckIn, hotelCheckOut, hotelGuests)
+      url = buildHotelsUrl(hotelDest, hotelCheckIn, hotelCheckOut, hotelGuests, lang)
       partner = 'hotelscom'
       type = 'accommodation'
     } else if (activeTab === 'flights') {
@@ -134,15 +187,12 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
       partner = 'tripcom'
       type = `flight:hel_${opt.iata}`
     } else {
-      const decoded = decodeURIComponent(carLocation.replace(/\+/g, ' '))
+      const ebUrl = buildEbResultsUrl(carLocation, carPickUp, carDropOff, lang)
       url = buildAffiliateUrl({
         partner: 'cars',
         sid: 'hero_widget_cars',
-        query: {
-          pickup_location: decoded,
-          pickup_date: carPickUp,
-          dropoff_date: carDropOff,
-        },
+        query: { dest: ebUrl },
+        lang,
       })
       partner = 'economybookings'
       type = 'car-rental'
@@ -154,14 +204,11 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
   }
 
   const tabs: { key: Tab; label: string; icon: typeof Hotel; provider: string }[] = [
-    { key: 'hotels', label: wc.tabs.hotels, icon: Hotel, provider: 'Trip.com' },
+    // Hotels brand follows the Worker's locale routing: fi → Sembo, rest → Trip.com.
+    { key: 'hotels', label: wc.tabs.hotels, icon: Hotel, provider: lang === 'fi' ? 'Sembo' : 'Trip.com' },
     { key: 'flights', label: wc.tabs.flights, icon: Plane, provider: 'Trip.com' },
     { key: 'cars', label: wc.tabs.cars, icon: Car, provider: 'EconomyBookings' },
   ]
-  // Translate first destination label only, the others are place names
-  const hotelDestOptions = HOTEL_DESTINATIONS.map((d, i) =>
-    i === 0 ? { ...d, label: wc.destOptions.all } : d
-  )
 
   const selectCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-10 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none appearance-none cursor-pointer transition-colors'
   // appearance-none hides the OS arrow, so every <select> draws its own chevron
@@ -205,9 +252,17 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
                 <div className="relative">
                   <MapPin className={iconCls} />
                   <select aria-label={wc.destination} value={hotelDest} onChange={(e) => setHotelDest(e.target.value)} className={selectCls}>
-                    {hotelDestOptions.map((d) => (
-                      <option key={d.label} value={d.value} style={optStyle}>{d.label}</option>
-                    ))}
+                    <option value={HOTEL_RESORTS[0].value} style={optStyle}>{wc.destOptions.all}</option>
+                    <optgroup label={wc.groups.resorts} style={optStyle}>
+                      {HOTEL_RESORTS.map((d) => (
+                        <option key={d.label} value={d.value} style={optStyle}>{d.label}</option>
+                      ))}
+                    </optgroup>
+                    <optgroup label={wc.groups.municipalities} style={optStyle}>
+                      {HOTEL_MUNICIPALITIES.map((d) => (
+                        <option key={d.label} value={d.value} style={optStyle}>{d.label}</option>
+                      ))}
+                    </optgroup>
                   </select>
                   <ChevronDown className={chevronCls} aria-hidden="true" />
                 </div>
@@ -277,7 +332,12 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
                 <div className="relative">
                   <Car className={iconCls} />
                   <select aria-label={wc.pickUpLocation} value={carLocation} onChange={(e) => setCarLocation(e.target.value)} className={selectCls}>
-                    {CAR_LOCATIONS.map(l => <option key={l.value} value={l.value} style={optStyle}>{l.label}</option>)}
+                    <optgroup label={wc.groups.airports} style={optStyle}>
+                      {CAR_AIRPORTS.map(l => <option key={l.plc} value={l.plc} style={optStyle}>{l.label}</option>)}
+                    </optgroup>
+                    <optgroup label={wc.groups.towns} style={optStyle}>
+                      {CAR_TOWNS.map(l => <option key={l.plc} value={l.plc} style={optStyle}>{l.label}</option>)}
+                    </optgroup>
                   </select>
                   <ChevronDown className={chevronCls} aria-hidden="true" />
                 </div>

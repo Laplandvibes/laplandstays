@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: '핀란드 라플란드 전역 (로바니에미)',
     },
+    groups: {
+      resorts: '스키 리조트와 마을',
+      municipalities: '지자체와 도시',
+      airports: '공항',
+      towns: '시내와 역',
+    },
   }
 
 export default copy

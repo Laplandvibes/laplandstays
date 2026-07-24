@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: '整个芬兰拉普兰(罗瓦涅米)',
     },
+    groups: {
+      resorts: '滑雪度假村与村庄',
+      municipalities: '市镇',
+      airports: '机场',
+      towns: '市区与车站',
+    },
   }
 
 export default copy

@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: 'フィンランド・ラップランド全域(ロヴァニエミ)',
     },
+    groups: {
+      resorts: 'スキーリゾートと村',
+      municipalities: '市町村',
+      airports: '空港',
+      towns: '市街地と駅',
+    },
   }
 
 export default copy

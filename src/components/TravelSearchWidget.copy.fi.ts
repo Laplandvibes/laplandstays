@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: 'Koko Suomen Lappi (Rovaniemi)',
     },
+    groups: {
+      resorts: 'Hiihtokeskukset ja kylät',
+      municipalities: 'Kunnat ja kaupungit',
+      airports: 'Lentokentät',
+      towns: 'Keskustat ja asemat',
+    },
   }
 
 export default copy

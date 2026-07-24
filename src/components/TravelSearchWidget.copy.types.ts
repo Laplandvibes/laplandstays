@@ -32,6 +32,12 @@ export const en = {
     destOptions: {
       all: 'All of Finnish Lapland (Rovaniemi)',
     },
+    groups: {
+      resorts: 'Ski resorts & villages',
+      municipalities: 'Towns & municipalities',
+      airports: 'Airports',
+      towns: 'Town centres & stations',
+    },
   }
 
 export type Copy = Widen<typeof en>

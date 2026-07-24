@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: 'Hela finska Lappland (Rovaniemi)',
     },
+    groups: {
+      resorts: 'Skidorter och byar',
+      municipalities: 'Kommuner och städer',
+      airports: 'Flygplatser',
+      towns: 'Centrum och stationer',
+    },
   }
 
 export default copy

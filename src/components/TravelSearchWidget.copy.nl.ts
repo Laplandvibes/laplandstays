@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: 'Heel Fins Lapland (Rovaniemi)',
     },
+    groups: {
+      resorts: 'Skigebieden en dorpen',
+      municipalities: 'Gemeenten en steden',
+      airports: 'Luchthavens',
+      towns: 'Stadscentra en stations',
+    },
   }
 
 export default copy

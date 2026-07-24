@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: 'Toda a Lapônia finlandesa (Rovaniemi)',
     },
+    groups: {
+      resorts: 'Estações de esqui e vilarejos',
+      municipalities: 'Municípios e cidades',
+      airports: 'Aeroportos',
+      towns: 'Centros e estações',
+    },
   }
 
 export default copy

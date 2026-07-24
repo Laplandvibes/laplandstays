@@ -21,6 +21,12 @@ const copy: Copy = {
     destOptions: {
       all: 'Ganz Finnisch-Lappland (Rovaniemi)',
     },
+    groups: {
+      resorts: 'Skigebiete und Dörfer',
+      municipalities: 'Gemeinden und Städte',
+      airports: 'Flughäfen',
+      towns: 'Innenstädte und Bahnhöfe',
+    },
   }
 
 export default copy
