@@ -26,7 +26,7 @@ export const en = {
     searchHotels: 'Search Hotels & Cabins',
     searchFlights: 'Search Flights',
     compareCars: 'Compare Car Rentals',
-    poweredBy: (provider: string) => `Powered by ${provider} — you book securely on their platform`,
+    poweredBy: (provider: string) => `Powered by ${provider}: you book securely on their platform`,
     guestSingular: 'Guest',
     guestPlural: 'Guests',
     destOptions: {

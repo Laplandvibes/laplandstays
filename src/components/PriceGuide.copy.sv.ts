@@ -4,7 +4,7 @@ import type { PriceGuideCopy } from './PriceGuide.copy.en'
 const copy: PriceGuideCopy = {
   eyebrow: 'Boendepriser i Lappland',
   heading: 'Vad en natt i Lappland faktiskt kostar',
-  lead: 'Norrsken som glider förbi glastaket, en bastu som redan är varm, en snötyst skog utanför fönstret vid frukosten — en sådan natt i Lappland kan kosta 100 € eller 1 500 €. Vi samlade de verkliga prisintervallen för 15 boenden direkt från bokningssidorna, så att du med en blick ser vilken dröm din budget räcker till.',
+  lead: 'Norrsken som glider förbi glastaket, en bastu som redan är varm, en snötyst skog utanför fönstret vid frukosten: en sådan natt i Lappland kan kosta 100 € eller 1 500 €. Vi samlade de verkliga prisintervallen för 15 boenden direkt från bokningssidorna, så att du med en blick ser vilken dröm din budget räcker till.',
   propertiesLabel: 'Boenden:',
   tiers: [
     {
@@ -13,7 +13,7 @@ const copy: PriceGuideCopy = {
       range: '€250 – €1,500',
       note: 'per natt, per iglo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
-      body: 'Rum och iglor med glastak, byggda särskilt för att titta på norrsken. Den dyraste kategorin — glastak, avlägsna platser och ett begränsat utbud gör att Kakslauttanen är fullbokat 8–12 månader i förväg.',
+      body: 'Rum och iglor med glastak, byggda särskilt för att titta på norrsken. Den dyraste kategorin: glastak, avlägsna platser och ett begränsat utbud gör att Kakslauttanen är fullbokat 8–12 månader i förväg.',
       ctaLabel: 'Hitta glasiglor',
     },
     {
@@ -31,7 +31,7 @@ const copy: PriceGuideCopy = {
       range: '€150 – €400',
       note: 'per natt, endast under säsong',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
-      body: 'Marker för en enda natt — huggna ur is varje december, bortsmälta varje april. Varma omklädningsrum, termosovsäckar och en historia du berättar för alltid.',
+      body: 'Marker för en enda natt, huggna ur is varje december, bortsmälta varje april. Varma omklädningsrum, termosovsäckar och en historia du berättar för alltid.',
       ctaLabel: 'Hitta snöhotell',
     },
     {
@@ -49,7 +49,7 @@ const copy: PriceGuideCopy = {
       range: '€100 – €350',
       note: 'per natt, per rum',
       examples: ['Lapland Hotels (flera orter)', 'Harriniva (Muonio)'],
-      body: 'Den mest pålitliga ingången — etablerade Lapplandshotell och stugkedjor i Levi, Ylläs, Saariselkä, Rovaniemi och Muonio. Gångavstånd till restauranger, safarier utgår från dörren.',
+      body: 'Den mest pålitliga ingången: etablerade Lapplandshotell och stugkedjor i Levi, Ylläs, Saariselkä, Rovaniemi och Muonio. Gångavstånd till restauranger, safarier utgår från dörren.',
       ctaLabel: 'Hitta hotell och stugor',
     },
   ],

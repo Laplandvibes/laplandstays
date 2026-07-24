@@ -22,7 +22,7 @@ const L: Record<Lang, { heading: string; blurb: string; cta: string }> = {
   'fr':    { heading: 'À faire près de votre hébergement', blurb: 'Safaris en traîneau à chiens, chasses aux aurores et motoneige, réservez les meilleures expériences de Laponie auprès d’opérateurs locaux de confiance.', cta: 'Voir les activités' },
   'it':    { heading: 'Cosa fare vicino al tuo alloggio', blurb: 'Safari con gli husky, caccia all’aurora e tour in motoslitta, prenota le migliori esperienze della Lapponia con operatori locali affidabili.', cta: 'Scopri le attività' },
   'nl':    { heading: 'Activiteiten in de buurt van je verblijf', blurb: 'Huskysafari’s, noorderlichttochten en sneeuwscootertours, boek topervaringen in Lapland bij vertrouwde lokale aanbieders.', cta: 'Activiteiten bekijken' },
-  'sv':    { heading: 'Saker att göra nära ditt boende', blurb: 'Huskysafarier, norrskensturer och skotersafarier — boka Lapplands mest omtyckta upplevelser hos pålitliga lokala arrangörer.', cta: 'Bläddra bland aktiviteter' },
+  'sv':    { heading: 'Saker att göra nära ditt boende', blurb: 'Huskysafarier, norrskensturer och skotersafarier. Boka Lapplands mest omtyckta upplevelser hos pålitliga lokala arrangörer.', cta: 'Bläddra bland aktiviteter' },
 }
 
 interface Props {

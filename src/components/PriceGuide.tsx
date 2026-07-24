@@ -94,7 +94,7 @@ export default function PriceGuide() {
                 target="_blank"
                 rel="sponsored nofollow noopener"
                 onClick={onClick(meta.campaign, meta.cta)}
-                aria-label={`${tier.name} — ${tier.ctaLabel}`}
+                aria-label={`${tier.name}: ${tier.ctaLabel}`}
                 className="group flex items-center gap-3 sm:gap-6 px-4 sm:px-8 py-4 sm:py-5 border-b border-night/[0.06] last:border-b-0 hover:bg-pink/[0.03] transition-colors"
               >
                 <div className="hidden sm:flex w-11 h-11 rounded-xl bg-pink/10 items-center justify-center shrink-0">

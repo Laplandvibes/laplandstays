@@ -15,7 +15,7 @@ const copy: Copy = {
     searchHotels: 'Sök hotell & stugor',
     searchFlights: 'Sök flyg',
     compareCars: 'Jämför hyrbilar',
-    poweredBy: (provider: string) => `Tillhandahålls av ${provider} — du bokar säkert på deras plattform`,
+    poweredBy: (provider: string) => `Tillhandahålls av ${provider}: du bokar säkert på deras plattform`,
     guestSingular: 'gäst',
     guestPlural: 'gäster',
     destOptions: {
