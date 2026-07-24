@@ -124,8 +124,8 @@ export default function EditorialPolicy() {
                     </div>
                     <p className="font-heading text-2xl text-pink/40 mt-2 text-center leading-none">{String(i + 1).padStart(2, '0')}</p>
                   </div>
-                  <div>
-                    <h3 className="font-heading text-2xl text-night tracking-wide mb-2">{p.title}</h3>
+                  <div className="min-w-0">
+                    <h3 className="font-heading text-2xl text-night tracking-wide mb-2 break-words">{p.title}</h3>
                     <p className="text-charcoal/75 leading-relaxed text-[15px]">{p.body}</p>
                   </div>
                 </li>
