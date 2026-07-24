@@ -34,6 +34,7 @@ const copy: Copy = {
     planTripEyebrow: "Más allá del alojamiento",
     planTripH2: "Planifica todo el viaje",
     planActivities: "Actividades",
+    planSkiResorts: "Estaciones de esquí",
     planTransfers: "Traslados",
     planCarRental: "Alquiler de coches",
   }

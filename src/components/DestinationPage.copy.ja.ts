@@ -34,6 +34,7 @@ const copy: Copy = {
     planTripEyebrow: "滞在の先へ",
     planTripH2: "旅全体をプランニング",
     planActivities: "アクティビティ",
+    planSkiResorts: "スキーリゾート",
     planTransfers: "送迎・交通",
     planCarRental: "レンタカー",
   }

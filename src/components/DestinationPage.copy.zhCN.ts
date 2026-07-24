@@ -34,6 +34,7 @@ const copy: Copy = {
     planTripEyebrow: "住宿之外",
     planTripH2: "规划整趟旅程",
     planActivities: "活动",
+    planSkiResorts: "滑雪度假区",
     planTransfers: "接驳交通",
     planCarRental: "租车",
   }

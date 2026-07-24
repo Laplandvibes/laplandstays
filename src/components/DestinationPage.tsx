@@ -112,6 +112,30 @@ const transportIcon: Record<NonNullable<TransportRow['mode']>, typeof Plane> = {
   train: Train,
 }
 
+/**
+ * Destination pages that exist on laplandactivities.fi (/destinations/:slug,
+ * verified live). Missing slugs fall back to the front page.
+ */
+const activitiesDestSlug: Record<string, string> = {
+  yllas: 'yllas',
+  levi: 'levi',
+  saariselka: 'saariselka',
+  rovaniemi: 'rovaniemi',
+  inari: 'inari',
+}
+
+/**
+ * Matching resort page on laplandskiresorts.com (/resort/:slug, verified live).
+ * Rovaniemi maps to Ounasvaara, the city's own resort. Inari has no resort,
+ * so it falls back to the front page.
+ */
+const skiResortSlug: Record<string, string> = {
+  yllas: 'yllas',
+  levi: 'levi',
+  saariselka: 'saariselka',
+  rovaniemi: 'ounasvaara',
+}
+
 
 
 const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
@@ -525,9 +549,18 @@ export default function DestinationPage(p: DestinationPageProps) {
         <div className="max-w-5xl mx-auto">
           <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3 text-center">{ui.planTripEyebrow}</p>
           <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-8 text-center">{ui.planTripH2}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
-              { label: ui.planActivities, host: 'laplandskiresorts.com', href: `https://laplandskiresorts.com${pfx}/` },
+              {
+                label: ui.planActivities,
+                host: 'laplandactivities.fi',
+                href: `https://laplandactivities.fi${pfx}${activitiesDestSlug[p.slug] ? `/destinations/${activitiesDestSlug[p.slug]}/` : '/'}`,
+              },
+              {
+                label: ui.planSkiResorts,
+                host: 'laplandskiresorts.com',
+                href: `https://laplandskiresorts.com${pfx}${skiResortSlug[p.slug] ? `/resort/${skiResortSlug[p.slug]}/` : '/'}`,
+              },
               { label: ui.planTransfers, host: 'laplandtransport.com', href: `https://laplandtransport.com${pfx}/` },
               { label: ui.planCarRental, host: 'laplandcarrental.com', href: `https://laplandcarrental.com${pfx}/` },
             ].map((l) => (

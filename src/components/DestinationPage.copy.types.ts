@@ -45,6 +45,7 @@ export const en = {
     planTripEyebrow: 'Beyond the stay',
     planTripH2: 'Plan the whole trip',
     planActivities: 'Activities',
+    planSkiResorts: 'Ski resorts',
     planTransfers: 'Transfers',
     planCarRental: 'Car rental',
   }

@@ -52,6 +52,7 @@ const copy: Copy = {
     planTripEyebrow: "Majoituksen lisäksi",
     planTripH2: "Suunnittele koko matka",
     planActivities: "Aktiviteetit",
+    planSkiResorts: "Hiihtokeskukset",
     planTransfers: "Kuljetukset",
     planCarRental: "Autonvuokraus",
   }
