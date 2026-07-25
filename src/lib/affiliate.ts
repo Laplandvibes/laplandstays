@@ -231,13 +231,18 @@ function buildCarsLang(lang: Lang = "en") {
 // ─── Lomarengas (cabins, Adtraction) ─────────────────────────────────────────
 // go/lomarengas → 302 on.lomarengas.fi/t/t?…&epi=<site_sid>&url=<dest>.
 // Fixed 20 €/booking, 7-day tracking. `dest` must be a full lomarengas.fi URL;
-// Lomarengas has no DE site (404), so every non-FI locale deep-links to /en.
+// Lomarengas has no DE site, so every non-FI locale deep-links to /en.
+// Search pages live under /mokkihaku (fi) and /en/cottage-search — the old
+// /mokit/* and /en/cottages/* paths became cottage-DETAIL namespaces that
+// render a client-side 404 with HTTP 200 and no SSR <title>, so verify any
+// URL change against page CONTENT (title), never the status code.
+// Ruka sits under pohjois-pohjanmaa, not lappi (it is not in Lapland).
 const LOMARENGAS_AREAS = {
-  lapland: { fi: 'https://www.lomarengas.fi/mokit/lappi', intl: 'https://www.lomarengas.fi/en/cottages/lapland' },
-  levi: { fi: 'https://www.lomarengas.fi/mokit/levi', intl: 'https://www.lomarengas.fi/en/cottages/levi' },
-  yllas: { fi: 'https://www.lomarengas.fi/mokit/yllas', intl: 'https://www.lomarengas.fi/en/cottages/yllas' },
-  ruka: { fi: 'https://www.lomarengas.fi/mokit/ruka', intl: 'https://www.lomarengas.fi/en/cottages/ruka' },
-  saariselka: { fi: 'https://www.lomarengas.fi/mokit/saariselka', intl: 'https://www.lomarengas.fi/en/cottages/saariselka' },
+  lapland: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi' },
+  levi: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/hiihtokeskus/levi', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/ski-resort/levi' },
+  yllas: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/hiihtokeskus/yllas', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/ski-resort/yllas' },
+  ruka: { fi: 'https://www.lomarengas.fi/mokkihaku/pohjois-pohjanmaa/hiihtokeskus/ruka', intl: 'https://www.lomarengas.fi/en/cottage-search/pohjois-pohjanmaa/ski-resort/ruka' },
+  saariselka: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/hiihtokeskus/saariselka', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/ski-resort/saariselka' },
 } as const;
 
 export type LomarengasArea = keyof typeof LOMARENGAS_AREAS;
