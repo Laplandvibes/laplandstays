@@ -15,17 +15,25 @@ import type { Copy } from './TravelSearchWidget.copy.types'
 // Worker's TRIP_CITY map and falls back to a tracked trip.com front page
 // (dates kept) for the rest. "Lapland, Finland" alone Helsinki-snaps, so the
 // generic option stays anchored to Rovaniemi (regional capital, deep inventory).
+// Values verified 2026-07-24 against Sembo's own place index (the autosuggest
+// the Worker resolves ss= through) and its inventory count per polygon. Two
+// traps this list now avoids:
+//   • a thin namesake polygon — "Ylläs" resolves to a 3-property polygon while
+//     the resort's actual village Äkäslompolo has 13;
+//   • a "Town, Municipality, Finland" string matching a HOTEL instead of a
+//     place, which then silently searches that hotel's home area: "Luosto,
+//     Sodankylä, Finland" landed on Vuotso, ~100 km from Luosto.
+// Counts in comments are Sembo properties in that polygon.
 const HOTEL_RESORTS = [
-  { label: 'Rovaniemi', value: 'Rovaniemi, Finland' },
-  { label: 'Levi', value: 'Levi, Kittilä, Finland' },
-  { label: 'Ylläs (Äkäslompolo)', value: 'Ylläs, Finland' },
-  { label: 'Saariselkä', value: 'Saariselkä, Finland' },
-  { label: 'Ruka (Kuusamo)', value: 'Ruka, Kuusamo, Finland' },
-  { label: 'Pyhä', value: 'Pyhä, Finland' },
-  { label: 'Luosto', value: 'Luosto, Sodankylä, Finland' },
-  { label: 'Ivalo', value: 'Ivalo, Finland' },
-  { label: 'Hetta (Enontekiö)', value: 'Hetta, Enontekiö, Finland' },
-  { label: 'Kilpisjärvi', value: 'Kilpisjärvi, Finland' },
+  { label: 'Rovaniemi', value: 'Rovaniemi, Finland' },            // 81
+  { label: 'Levi', value: 'Levi, Finland' },                      // 33
+  { label: 'Ylläs (Äkäslompolo)', value: 'Äkäslompolo, Finland' },// 13
+  { label: 'Saariselkä', value: 'Saariselkä, Finland' },          // 30
+  { label: 'Ruka (Kuusamo)', value: 'Ruka, Kuusamo, Finland' },   // 38
+  { label: 'Pyhä', value: 'Pyhä, Finland' },                      // 11
+  { label: 'Luosto', value: 'Luosto, Finland' },                  // 3
+  { label: 'Ivalo', value: 'Ivalo, Finland' },                    // 5
+  { label: 'Kilpisjärvi', value: 'Kilpisjärvi, Finland' },        // 4
 ]
 // Every Lapland municipality, so no town is missing from the menu (Vesa
 // 2026-07-24). Proper nouns render identically in all 12 locales.
