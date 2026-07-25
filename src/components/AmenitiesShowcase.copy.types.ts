@@ -16,7 +16,9 @@ export const en = {
     h2: 'Six Things That Decide the Trip',
     lead: 'Use these as search criteria, not a wishlist. For each one we tell you which property types have it as standard, and who clearly promises it.',
     lookForLabel: 'Found in',
-    cta: 'Search cabins with these',
+    cta: 'See available stays',
+
+    ctaByDestination: 'or pick a destination:',
     items: [
       {
         title: 'Private sauna',

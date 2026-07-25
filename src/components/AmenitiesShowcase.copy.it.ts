@@ -5,7 +5,9 @@ const copy: Copy = {
     h2: 'Sei filtri che decidono il viaggio',
     lead: "Li usi come filtri di ricerca, non come lista dei desideri. Ognuno indica le categorie di alloggio in cui quel dotazione è davvero di serie, e gli operatori che la dichiarano in modo chiaro.",
     lookForLabel: 'Da cercare presso',
-    cta: 'Trova uno chalet con queste dotazioni',
+    cta: 'Vedi alloggi disponibili',
+
+    ctaByDestination: 'oppure scegli una destinazione:',
     items: [
       { title: 'Sauna privata', body: "Lo standard negli chalet e nelle ville, a legna nelle fasce premium, elettrica negli appartamenti. Molti chalet sul lago si aprono direttamente sul pontile per il tuffo nel foro nel ghiaccio (avanto).", lookForIn: 'Di serie negli chalet sul lago e negli chalet ski-in. Rara nelle camere d\'albergo standard.', exampleNames: ['Chalet sul lago', 'Wilderness Hotel Nellim'] },
       { title: 'Allerta aurora', body: "La struttura La sveglia quando il cielo è sereno e l'aurora si accende. Il servizio fa parte del soggiorno, nessuna app da ricordarsi di installare.", lookForIn: 'Kakslauttanen, Aurora Village Ivalo, Star Arctic, Levin Iglut, Apukka Resort.', exampleNames: ['Kakslauttanen Arctic Resort', 'Aurora Village Ivalo'] },

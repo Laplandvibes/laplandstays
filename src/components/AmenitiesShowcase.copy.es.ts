@@ -5,7 +5,8 @@ const copy: Copy = {
     h2: 'Seis cosas que deciden el viaje',
     lead: 'Úselas como criterios de búsqueda, no como lista de deseos. En cada una le contamos en qué tipos de alojamiento viene de serie, y quiénes lo prometen con claridad.',
     lookForLabel: 'Se encuentra en',
-    cta: 'Buscar cabaña con estos criterios',
+    cta: 'Ver alojamientos disponibles',
+    ctaByDestination: 'o elige un destino:',
     items: [
       { title: 'Sauna privada', body: 'En cabañas y villas la sauna es estándar, de leña en las propiedades premium, con estufa eléctrica en apartamentos. En muchas cabañas junto al lago se pasa del banco de la sauna directo al embarcadero y al agujero en el hielo.', lookForIn: 'Estándar en cabañas junto al lago y apartamentos junto a las pistas; una rareza en habitaciones de hotel normales.', exampleNames: ['Cabañas junto al lago', 'Wilderness Hotel Nellim'] },
       { title: 'Aviso de aurora', body: 'El alojamiento le despierta cuando el cielo está despejado y la aurora se enciende. El servicio viene incluido con la estancia, no hay ninguna app que recordar instalar.', lookForIn: 'Kakslauttanen, Aurora Village Ivalo, Star Arctic, Levin Iglut, Apukka Resort.', exampleNames: ['Kakslauttanen Arctic Resort', 'Aurora Village Ivalo'] },

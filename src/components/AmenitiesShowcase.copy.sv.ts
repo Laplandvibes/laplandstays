@@ -5,7 +5,8 @@ const copy: Copy = {
     h2: 'Sex saker som avgör resan',
     lead: 'Använd dem som sökkriterier, inte som en önskelista. För varje sak säger vi vilka boendetyper som har den som standard – och vilka som tydligt lovar den.',
     lookForLabel: 'Finns hos',
-    cta: 'Sök stugor med de här',
+    cta: 'Se lediga boenden',
+    ctaByDestination: 'eller välj en destination:',
     items: [
       { title: 'Egen bastu', body: 'I stugor och villor är bastun standard – vedeldad i de dyrare boendena, elaggregat i lägenheterna. I många sjönära stugor kliver du från lavan rakt ut på bryggan och ner i vaken.', lookForIn: 'Standard i stugor vid sjön och lägenheter vid pisten, ovanligt i vanliga hotellrum.', exampleNames: ['Stugor vid sjön', 'Wilderness Hotel Nellim'] },
       { title: 'Norrskensväckning', body: 'Boendet väcker dig när himlen är klar och norrskenet kommer fram. Tjänsten ingår i vistelsen – ingen app som du måste komma ihåg att installera.', lookForIn: 'Kakslauttanen, Aurora Village Ivalo, Star Arctic, Levin Iglut, Apukka Resort.', exampleNames: ['Kakslauttanen Arctic Resort', 'Aurora Village Ivalo'] },

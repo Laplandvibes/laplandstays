@@ -5,7 +5,8 @@ const copy: Copy = {
     h2: 'Sechs Dinge, die die Reise entscheiden',
     lead: 'Nutzen Sie diese als Suchkriterien, nicht als Wunschliste. Zu jedem Punkt sagen wir, in welchen Unterkunftstypen das Merkmal Standard ist, und wer es klar zusagt.',
     lookForLabel: 'Zu finden in',
-    cta: 'Hütte mit diesen Kriterien suchen',
+    cta: 'Freie Unterkünfte ansehen',
+    ctaByDestination: 'oder Reiseziel wählen:',
     items: [
       {
         title: 'Eigene Sauna',

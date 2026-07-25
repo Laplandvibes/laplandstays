@@ -5,7 +5,8 @@ const copy: Copy = {
     h2: 'Kuusi asiaa, jotka ratkaisevat matkan',
     lead: 'Käytä näitä hakuehtoina, älä toivelistana. Jokaisen kohdalla kerromme, missä majoitustyypeissä ominaisuus on vakiona, ja ketkä sen selkeästi lupaavat.',
     lookForLabel: 'Näistä löytyy',
-    cta: 'Etsi mökki näillä ehdoilla',
+    cta: 'Katso vapaat majoitukset',
+    ctaByDestination: 'tai valitse kohde:',
     items: [
       {
         title: 'Oma sauna',

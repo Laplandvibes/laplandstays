@@ -5,7 +5,9 @@ const copy: Copy = {
     h2: 'Six filtres qui décident du voyage',
     lead: "Utilisez-les comme filtres de recherche, pas comme liste de souhaits. Chacun désigne les catégories d'hébergement où l'équipement est réellement standard, et les opérateurs qui l'affichent clairement.",
     lookForLabel: 'À chercher chez',
-    cta: 'Trouver un chalet avec ces équipements',
+    cta: 'Voir les hébergements libres',
+
+    ctaByDestination: 'ou choisissez une destination :',
     items: [
       { title: 'Sauna privatif', body: "Standard dans les chalets et villas, au bois en gamme premium, électrique en appartement. Beaucoup de chalets au bord du lac donnent directement sur le ponton pour le plongeon dans le trou de glace.", lookForIn: 'Standard dans les chalets au bord du lac et chalets ski-in. Rare dans les chambres d\'hôtel classiques.', exampleNames: ['Chalets au bord du lac', 'Wilderness Hotel Nellim'] },
       { title: 'Réveil aurores', body: "L'établissement vous réveille quand le ciel est dégagé et que les aurores s'allument. Le service fait partie du séjour, aucune appli à penser à installer.", lookForIn: 'Kakslauttanen, Aurora Village Ivalo, Star Arctic, Levin Iglut, Apukka Resort.', exampleNames: ['Kakslauttanen Arctic Resort', 'Aurora Village Ivalo'] },

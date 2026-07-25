@@ -5,7 +5,8 @@ const copy: Copy = {
     h2: '决定旅程的6件事',
     lead: '把这些当作搜索条件,而不是愿望清单。每一项我们都会告诉你:哪些住宿类型把它作为标配。以及哪些运营商明确承诺提供。',
     lookForLabel: '可在这里找到',
-    cta: '按这些条件找小屋',
+    cta: '查看可订住宿',
+    ctaByDestination: '或选择目的地：',
     items: [
       { title: '私人桑拿', body: '木屋和别墅里桑拿是标配。高端物业为烧柴式,公寓为电炉式。许多湖畔木屋可以从桑拿凳直接走上码头、跳进冰洞。', lookForIn: '湖畔木屋和雪道旁公寓的标配,普通酒店客房中很少见。', exampleNames: ['湖畔木屋', 'Wilderness Hotel Nellim'] },
       { title: '极光叫醒', body: '当天空晴朗、极光亮起时,住宿会叫醒你。这项服务包含在住宿中。不需要记得安装任何应用。', lookForIn: 'Kakslauttanen、Aurora Village Ivalo、Star Arctic、Levin Iglut、Apukka Resort。', exampleNames: ['Kakslauttanen Arctic Resort', 'Aurora Village Ivalo'] },

@@ -5,7 +5,8 @@ const copy: Copy = {
     h2: 'Zes filters die de reis bepalen',
     lead: 'Gebruik deze als zoekfilters, niet als verlanglijst. Elk wijst u op de accommodatiecategorieën waarin de voorziening écht standaard is, en op de aanbieders die haar zichtbaar vermelden.',
     lookForLabel: 'Te vinden bij',
-    cta: 'Cabin met deze voorzieningen zoeken',
+    cta: 'Beschikbare accommodaties bekijken',
+    ctaByDestination: 'of kies een bestemming:',
     items: [
       { title: 'Eigen sauna', body: 'De standaard bij cabin- en villaverblijven, houtgestookt in de topklasse, elektrisch in appartementen. Veel cabins aan het meer geven direct uit op de steiger voor de duik door het ijswak.', lookForIn: 'Standaard in cabins aan het meer en ski-in chalets. Zelden in standaard hotelkamers.', exampleNames: ['Cabins aan het meer', 'Wilderness Hotel Nellim'] },
       { title: 'Aurora-wekker', body: 'Het verblijf wekt u zodra de hemel helder is en het noorderlicht verschijnt. De service hoort bij de accommodatie, geen app die u vergeet te installeren.', lookForIn: 'Kakslauttanen, Aurora Village Ivalo, Star Arctic, Levin Iglut, Apukka Resort.', exampleNames: ['Kakslauttanen Arctic Resort', 'Aurora Village Ivalo'] },

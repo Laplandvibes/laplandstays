@@ -5,7 +5,9 @@ const copy: Copy = {
     h2: '여행을 결정짓는 6가지 필터',
     lead: '이것은 위시리스트가 아니라 검색 필터로 활용하세요. 각 항목은 그 설비가 실제로 기본인 숙소 카테고리와, 그 사실을 명확히 표기하는 운영사를 가리킵니다.',
     lookForLabel: '찾을 수 있는 곳',
-    cta: '이런 캐빈 찾기',
+    cta: '예약 가능한 숙소 보기',
+
+    ctaByDestination: '또는 목적지 선택:',
     items: [
       { title: '전용 사우나', body: '캐빈과 빌라 숙박의 기본 사양. 프리미엄 등급은 장작, 아파트형은 전기식입니다. 호숫가 캐빈은 곧장 부두로 연결되어 얼음 구멍 입수가 가능한 곳이 많습니다.', lookForIn: '호숫가 캐빈과 스키 인 샬레의 기본 사양. 일반 호텔 객실에는 드뭅니다.', exampleNames: ['호숫가 캐빈', 'Wilderness Hotel Nellim'] },
       { title: '오로라 알람', body: '하늘이 맑고 오로라가 나타나면 숙소가 직접 깨워줍니다. 서비스는 숙박에 포함되어 있어 따로 앱을 설치할 필요가 없습니다.', lookForIn: 'Kakslauttanen, Aurora Village Ivalo, Star Arctic, Levin Iglut, Apukka Resort.', exampleNames: ['Kakslauttanen Arctic Resort', 'Aurora Village Ivalo'] },
