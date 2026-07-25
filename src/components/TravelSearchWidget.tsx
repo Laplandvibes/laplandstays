@@ -29,7 +29,7 @@ const HOTEL_RESORTS = [
   { label: 'Levi', value: 'Levi, Finland' },                      // 33
   { label: 'Ylläs (Äkäslompolo)', value: 'Äkäslompolo, Finland' },// 13
   { label: 'Saariselkä', value: 'Saariselkä, Finland' },          // 30
-  { label: 'Ruka (Kuusamo)', value: 'Ruka, Kuusamo, Finland' },   // 38
+  { label: 'Ruka (Kuusamo)', value: 'Ruka, Finland' },            // 38
   { label: 'Pyhä', value: 'Pyhä, Finland' },                      // 11
   { label: 'Luosto', value: 'Luosto, Finland' },                  // 3
   { label: 'Ivalo', value: 'Ivalo, Finland' },                    // 5

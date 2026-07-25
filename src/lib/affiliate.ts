@@ -180,7 +180,8 @@ function buildHotelSearchLang(lang: Lang = "en") {
 
   // Destinations (real Hotels.com locations).
   levi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_levi', destination: 'Levi, Finland', lang }),
-  yllas: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_yllas', destination: 'Ylläs, Finland', lang }),
+  // Sembo "Ylläs" polygon = 3 properties; main village Äkäslompolo = 13 (Trip.com: same city id).
+  yllas: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_yllas', destination: 'Äkäslompolo, Finland', lang }),
   saariselka: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_saariselka', destination: 'Saariselkä, Finland', lang }),
   inari: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_inari', destination: 'Inari, Finland', lang }),
   rovaniemi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_rovaniemi', destination: 'Rovaniemi, Finland', lang }),
