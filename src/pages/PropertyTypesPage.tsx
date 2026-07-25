@@ -376,25 +376,27 @@ export default function PropertyTypesPage() {
           className="absolute -bottom-24 left-1/2 -translate-x-1/2 w-[760px] max-w-[120%] h-[320px] bg-pink opacity-[0.18] blur-[130px] rounded-full pointer-events-none"
         />
 
-        <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6 pt-32 sm:pt-40 pb-16 sm:pb-20">
-          <p className="text-amber uppercase tracking-[0.32em] text-xs sm:text-sm font-semibold mb-5 [text-shadow:0_2px_14px_rgba(0,0,0,0.85)]">
-            {ui.eyebrow}
-          </p>
-          <h1 className="font-heading text-[2.75rem] leading-[1.05] sm:text-6xl md:text-7xl tracking-wide mb-6 [text-shadow:0_3px_30px_rgba(0,0,0,0.7),0_1px_4px_rgba(0,0,0,0.55)]">
-            {ui.h1}
-          </h1>
-          <p className="text-white/90 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-7 [text-shadow:0_2px_16px_rgba(0,0,0,0.8)]">
-            {ui.lead}
-          </p>
+        <div className="relative z-10 min-h-[70svh] flex items-center justify-center px-4 sm:px-6 pt-24 sm:pt-28 pb-14 sm:pb-16">
+          <div className="max-w-4xl mx-auto text-center">
+            <p className="text-amber uppercase tracking-[0.32em] text-xs sm:text-sm font-semibold mb-5 [text-shadow:0_2px_14px_rgba(0,0,0,0.85)]">
+              {ui.eyebrow}
+            </p>
+            <h1 className="font-heading text-[2.75rem] leading-[1.05] sm:text-6xl md:text-7xl tracking-wide mb-6 [text-shadow:0_3px_30px_rgba(0,0,0,0.7),0_1px_4px_rgba(0,0,0,0.55)]">
+              {ui.h1}
+            </h1>
+            <p className="text-white/90 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-7 [text-shadow:0_2px_16px_rgba(0,0,0,0.8)]">
+              {ui.lead}
+            </p>
 
-          {/* Single-line editorial stat subtitle, replaces the old boxy stat pill */}
-          <p className="text-snow/80 uppercase text-xs sm:text-sm font-medium tracking-[0.18em] [text-shadow:0_2px_12px_rgba(0,0,0,0.8)]">
-            4 {ui.statCategories}
-            <span className="mx-2.5 text-snow/45">·</span>
-            12+ {ui.statAnchors}
-            <span className="mx-2.5 text-snow/45">·</span>
-            €100–€1,500 {PER_NIGHT[lang]}
-          </p>
+            {/* Single-line editorial stat subtitle, replaces the old boxy stat pill */}
+            <p className="text-snow/80 uppercase text-xs sm:text-sm font-medium tracking-[0.18em] [text-shadow:0_2px_12px_rgba(0,0,0,0.8)]">
+              4 {ui.statCategories}
+              <span className="mx-2.5 text-snow/45">·</span>
+              12+ {ui.statAnchors}
+              <span className="mx-2.5 text-snow/45">·</span>
+              €100–€1,500 {PER_NIGHT[lang]}
+            </p>
+          </div>
         </div>
       </section>
 
