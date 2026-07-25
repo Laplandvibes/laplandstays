@@ -158,6 +158,11 @@ export default function CabinShowcase({ copy, areaNames, lang }: { copy: Showcas
             : cabins.map((c) => {
                 const sid = `cabin_card_${tab}`
                 const href = buildLomarengasCabinUrl(c.slug, sid, lang)
+                // 'relative' is load-bearing: the sr-only spans inside are
+                // position:absolute, and without a positioned ancestor they
+                // anchor to the initial containing block — in a scrolled row
+                // that widens the document and mobile Chrome expands the
+                // layout viewport (was a real 375px horizontal-scroll bug).
                 return (
                   <a
                     key={c.id}
@@ -165,7 +170,7 @@ export default function CabinShowcase({ copy, areaNames, lang }: { copy: Showcas
                     target="_blank"
                     rel="sponsored nofollow noopener"
                     onClick={() => trackAffiliateClick('lomarengas', sid, href)}
-                    className="snap-start shrink-0 w-[78%] sm:w-auto sm:shrink bg-white rounded-2xl overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.25)] hover:shadow-[0_10px_36px_rgba(236,72,153,0.35)] transition-shadow"
+                    className="relative snap-start shrink-0 w-[78%] sm:w-auto sm:shrink bg-white rounded-2xl overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.25)] hover:shadow-[0_10px_36px_rgba(236,72,153,0.35)] transition-shadow"
                   >
                     <div className="aspect-[4/3] overflow-hidden bg-charcoal/30">
                       <img
