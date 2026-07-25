@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'Igloo di vetro',
-      keyword: 'igloo di vetro lapponia',
-      range: '€250 – €1,500',
       note: 'a notte, per igloo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: "Camere e igloo con tetto di vetro costruiti apposta per osservare l'aurora. La categoria più cara, tetti in vetro, località remote e disponibilità limitata fanno sì che Kakslauttanen si esaurisca con 8–12 mesi di anticipo.",
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: "Baite per l'aurora boreale",
-      keyword: 'baita aurora boreale',
-      range: '€150 – €700',
       note: 'a notte, per baita',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: "Il classico soggiorno in baita lappone: finestre rivolte verso l'aurora, sauna privata e foresta tutt'intorno. Il miglior rapporto prezzo-esperienza per coppie e piccoli gruppi a caccia dell'aurora.",
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hotel di neve e ghiaccio',
-      keyword: 'hotel di ghiaccio lapponia',
-      range: '€150 – €400',
       note: 'a notte, solo stagionale',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: 'Territorio da una notte sola, scolpiti nel ghiaccio ogni dicembre, sciolti ogni aprile. Spogliatoi riscaldati, sacchi a pelo termici e una storia che racconterà per sempre.',
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lodge nella natura selvaggia',
-      keyword: 'alloggio di lusso lapponia',
-      range: '€200 – €600',
       note: 'a notte, solo suite',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: "Pensati per i cacciatori di aurore che vogliono il servizio. Piccoli, remoti, con guide. La natura selvaggia in versione all inclusive, cucina d'autore, husky a portata di mano e l'intero menù di safari direttamente dalla lobby.",
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hotel e catene di baite della Lapponia',
-      keyword: 'hotel lapponia',
-      range: '€100 – €350',
       note: 'a notte, per camera',
       examples: ['Lapland Hotels (più resort)', 'Harriniva (Muonio)'],
       body: "Il punto d'ingresso più affidabile, hotel e catene di baite affermati a Levi, Ylläs, Saariselkä, Rovaniemi e Muonio. Ristoranti raggiungibili a piedi, safari in partenza dalla porta.",

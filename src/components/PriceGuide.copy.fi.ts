@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'Lasi-iglut',
-      keyword: 'lasi-iglu lappi',
-      range: '€250 – €1,500',
       note: 'per yö / iglu',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: 'Lasikattoiset huoneet ja iglut, jotka on rakennettu nimenomaan revontulien katselua varten. Kallein kategoria, lasikatot, syrjäiset sijainnit ja pieni kapasiteetti tarkoittavat, että Kakslauttanen varataan täyteen 8–12 kuukautta etukäteen.',
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Revontulimökit',
-      keyword: 'revontulimökki',
-      range: '€150 – €700',
       note: 'per yö / mökki',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: 'Klassista Lapin mökkimajoitusta revontuli-ikkunoilla, omalla saunalla ja metsän keskellä. Paras hinta–elämys-suhde pariskunnille ja pienille ryhmille revontulijahdissa.',
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lumi- ja jäähotellit',
-      keyword: 'lumihotelli lappi',
-      range: '€150 – €400',
       note: 'per yö, vain talvikausi',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: 'Yhden yön elämys, veistetään jäästä joka joulukuu ja sulaa joka huhtikuu. Lämpimät pukuhuoneet, termomakuupussit ja tarina, jota kerrot vielä vuosien päästä.',
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Erämaalodget',
-      keyword: 'luksusmajoitus lappi',
-      range: '€200 – €600',
       note: 'per yö, vain sviittejä',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: 'Rakennettu revontulimatkailijoille, jotka haluavat palvelua. Pieniä, syrjäisiä, opastettuja. Ajattele all inclusive -erämaata, keittiömestarin ruokaa, huskyja ja koko safarivalikoima suoraan aulasta.',
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lapin hotellit ja mökkiketjut',
-      keyword: 'lapin hotelli',
-      range: '€100 – €350',
       note: 'per yö / huone',
       examples: ['Lapland Hotels (useita kohteita)', 'Harriniva (Muonio)'],
       body: 'Luotettavin tapa aloittaa, tunnetut Lapin hotellit ja mökkiketjut Levillä, Ylläksellä, Saariselällä, Rovaniemellä ja Muoniossa. Ravintolat kävelymatkan päässä, safarit lähtevät ovelta.',

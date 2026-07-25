@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'ガラスイグルー',
-      keyword: 'ガラスイグルー ラップランド',
-      range: '€250 – €1,500',
       note: '1泊・1イグルーあたり',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: 'オーロラ観賞のために設計されたガラス屋根の客室とイグルー。最も高価なカテゴリー。ガラス屋根、辺境の立地、限られた客室数のため、カクシラウッタネンは8〜12か月前に満室になります。',
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'オーロラキャビン',
-      keyword: 'オーロラ キャビン',
-      range: '€150 – €700',
       note: '1泊・1キャビンあたり',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: 'オーロラが見える窓、プライベートサウナ、森に囲まれた定番のラップランド・キャビン。オーロラを追うカップルや少人数グループにとって、価格と体験のバランスが最も良い選択肢です。',
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'スノーホテル・アイスホテル',
-      keyword: 'スノーホテル ラップランド',
-      range: '€150 – €400',
       note: '1泊・冬季限定',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: '一夜限りの体験。毎年12月に氷から彫り出され、4月には溶けてなくなります。暖かい更衣室、防寒寝袋、そして一生語り続けられる思い出。',
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'ウィルダネスロッジ',
-      keyword: 'ラップランド 高級宿泊',
-      range: '€200 – €600',
       note: '1泊・全室スイート',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: 'サービスを求めるオーロラハンターのために作られた宿。小規模で人里離れ、ガイド付き。オールインクルーシブの大自然。シェフの料理、ハスキー体験、ロビーから直接申し込めるサファリの数々。',
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'ラップランドのホテル・キャビンチェーン',
-      keyword: 'ラップランド ホテル',
-      range: '€100 – €350',
       note: '1泊・1室あたり',
       examples: ['Lapland Hotels (複数リゾート)', 'Harriniva (Muonio)'],
       body: '最も手堅い入口。レヴィ、ユッラス、サーリセルカ、ロヴァニエミ、ムオニオに展開する有名ホテル・キャビンチェーン。レストランへは徒歩圏内、サファリはドアの前から出発します。',

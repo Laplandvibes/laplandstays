@@ -3,16 +3,17 @@
 
 export interface PriceGuideTier {
   name: string
-  /** SEO keyword shown as the small uppercase label under the tier name. */
-  keyword: string
-  /** Price range, € values must stay identical across all locales. */
-  range: string
+  /** Unit the price is quoted in, e.g. "per night / igloo". */
   note: string
   /** Property names stay untranslated; only parenthetical glosses (e.g. "multiple resorts") are localized. */
   examples: string[]
   body: string
   ctaLabel: string
 }
+
+// The € figures are NOT here: they are identical in every language and only
+// their formatting is locale-specific, so they live in TIER_META in
+// PriceGuide.tsx and are rendered through Intl.NumberFormat.
 
 export interface PriceGuideCopy {
   eyebrow: string
@@ -37,8 +38,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'Glass Igloos',
-      keyword: 'glass igloo lapland',
-      range: '€250 – €1,500',
       note: 'per night, per igloo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: 'Glass-roofed rooms and igloos built specifically for aurora viewing. Priciest category, glass roofs, remote locations and limited inventory mean Kakslauttanen books 8–12 months ahead.',
@@ -46,8 +45,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Aurora & Northern Lights Cabins',
-      keyword: 'northern lights cabin',
-      range: '€150 – €700',
       note: 'per night, per cabin',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: 'Classic Lapland cabin stays with aurora-facing windows, private saunas and forest surroundings. Best value-to-experience ratio for couples and small groups chasing the aurora.',
@@ -55,8 +52,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Snow & Ice Hotels',
-      keyword: 'snow hotel lapland',
-      range: '€150 – €400',
       note: 'per night, seasonal only',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: 'One-night-only territory, carved from ice each December, melted each April. Warm changing rooms, thermal sleeping bags, and a story you will tell forever.',
@@ -64,8 +59,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Wilderness Lodges',
-      keyword: 'luxury lapland accommodation',
-      range: '€200 – €600',
       note: 'per night, all-suite',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: 'Purpose-built for aurora hunters who want service. Small, remote, guided. Think all-inclusive wilderness, chef kitchens, husky access and a full safari menu from the lobby.',
@@ -73,8 +66,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lapland Hotels & Cabin Chains',
-      keyword: 'lapland hotel',
-      range: '€100 – €350',
       note: 'per night, per room',
       examples: ['Lapland Hotels (multiple resorts)', 'Harriniva (Muonio)'],
       body: 'The most reliable entry point, branded Lapland hotels and cabin chains across Levi, Ylläs, Saariselkä, Rovaniemi and Muonio. Walkable to restaurants, safaris leave from the door.',

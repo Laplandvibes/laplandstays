@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'Iglús de cristal',
-      keyword: 'iglú de cristal laponia',
-      range: '€250 – €1,500',
       note: 'por noche, por iglú',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: 'Habitaciones e iglús con techo de cristal construidos específicamente para ver auroras. La categoría más cara, techos de cristal, ubicaciones remotas e inventario limitado hacen que Kakslauttanen se reserve con 8–12 meses de antelación.',
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Cabañas para auroras boreales',
-      keyword: 'cabaña auroras boreales',
-      range: '€150 – €700',
       note: 'por noche, por cabaña',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: 'La clásica cabaña lapona con ventanas orientadas a la aurora, sauna privada y bosque alrededor. La mejor relación precio-experiencia para parejas y grupos pequeños que persiguen la aurora.',
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hoteles de nieve y hielo',
-      keyword: 'hotel de nieve laponia',
-      range: '€150 – €400',
       note: 'por noche, solo en temporada',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: 'Territorio de una sola noche, se esculpen en hielo cada diciembre y se derriten cada abril. Vestuarios calefactados, sacos de dormir térmicos y una historia que contará para siempre.',
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lodges en plena naturaleza',
-      keyword: 'alojamiento de lujo laponia',
-      range: '€200 – €600',
       note: 'por noche, solo suites',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: 'Pensados para cazadores de auroras que quieren servicio. Pequeños, remotos, con guías. Naturaleza salvaje en plan todo incluido, cocina de chef, huskies a mano y el menú completo de safaris desde la recepción.',
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hoteles y cadenas de cabañas de Laponia',
-      keyword: 'hotel laponia',
-      range: '€100 – €350',
       note: 'por noche, por habitación',
       examples: ['Lapland Hotels (varios resorts)', 'Harriniva (Muonio)'],
       body: 'La puerta de entrada más fiable, hoteles y cadenas de cabañas consolidados en Levi, Ylläs, Saariselkä, Rovaniemi y Muonio. Restaurantes a pie y safaris que salen desde la puerta.',

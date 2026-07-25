@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'Iglus de vidro',
-      keyword: 'iglu de vidro lapônia',
-      range: '€250 – €1,500',
       note: 'por noite, por iglu',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: 'Quartos e iglus com teto de vidro construídos especialmente para ver a aurora. A categoria mais cara, tetos de vidro, locais remotos e poucas unidades fazem o Kakslauttanen lotar com 8–12 meses de antecedência.',
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Cabanas para aurora boreal',
-      keyword: 'cabana aurora boreal',
-      range: '€150 – €700',
       note: 'por noite, por cabana',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: 'A clássica cabana da Lapônia com janelas voltadas para a aurora, sauna privativa e floresta ao redor. O melhor custo-benefício em experiência para casais e grupos pequenos em busca da aurora.',
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hotéis de neve e gelo',
-      keyword: 'hotel de neve lapônia',
-      range: '€150 – €400',
       note: 'por noite, apenas na temporada',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: 'Território de uma noite só, esculpidos no gelo todo dezembro, derretidos todo abril. Vestiários aquecidos, sacos de dormir térmicos e uma história que você vai contar para sempre.',
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lodges na natureza selvagem',
-      keyword: 'hospedagem de luxo lapônia',
-      range: '€200 – €600',
       note: 'por noite, só suítes',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: 'Feitos para caçadores de aurora que querem serviço. Pequenos, remotos, com guias. Natureza selvagem em modo all-inclusive, cozinha de chef, huskies por perto e o cardápio completo de safáris direto do lobby.',
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hotéis e redes de cabanas da Lapônia',
-      keyword: 'hotel lapônia',
-      range: '€100 – €350',
       note: 'por noite, por quarto',
       examples: ['Lapland Hotels (vários resorts)', 'Harriniva (Muonio)'],
       body: 'A porta de entrada mais confiável, hotéis e redes de cabanas consolidados em Levi, Ylläs, Saariselkä, Rovaniemi e Muonio. Restaurantes a pé e safáris saindo da porta.',

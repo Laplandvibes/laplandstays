@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'Glasiglus',
-      keyword: 'glasiglu lappland',
-      range: '€250 – €1,500',
       note: 'pro Nacht, pro Iglu',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: 'Zimmer und Iglus mit Glasdach, gebaut speziell für die Polarlichtbeobachtung. Die teuerste Kategorie, Glasdächer, abgelegene Lagen und knappes Angebot bedeuten: Kakslauttanen ist 8–12 Monate im Voraus ausgebucht.',
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Aurora- & Polarlicht-Hütten',
-      keyword: 'polarlicht hütte',
-      range: '€150 – €700',
       note: 'pro Nacht, pro Hütte',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: 'Klassische Lappland-Hütten mit Aurora-Fenstern, eigener Sauna und Wald ringsum. Das beste Verhältnis von Preis zu Erlebnis für Paare und kleine Gruppen auf Polarlichtjagd.',
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Schnee- & Eishotels',
-      keyword: 'schneehotel lappland',
-      range: '€150 – €400',
       note: 'pro Nacht, nur saisonal',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: 'Ein Erlebnis für genau eine Nacht, jeden Dezember aus Eis gebaut, jeden April geschmolzen. Warme Umkleiden, Thermoschlafsäcke und eine Geschichte, die Sie für immer erzählen werden.',
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Wildnis-Lodges',
-      keyword: 'luxusunterkunft lappland',
-      range: '€200 – €600',
       note: 'pro Nacht, nur Suiten',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: 'Gebaut für Polarlichtjäger, die Service wollen. Klein, abgelegen, geführt. Wildnis als All-inclusive, Küchenchefs, Huskys vor der Tür und das volle Safari-Programm direkt aus der Lobby.',
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lappland-Hotels & Hüttenketten',
-      keyword: 'hotel lappland',
-      range: '€100 – €350',
       note: 'pro Nacht, pro Zimmer',
       examples: ['Lapland Hotels (mehrere Resorts)', 'Harriniva (Muonio)'],
       body: 'Der verlässlichste Einstieg, etablierte Lappland-Hotels und Hüttenketten in Levi, Ylläs, Saariselkä, Rovaniemi und Muonio. Restaurants zu Fuß erreichbar, Safaris starten direkt vor der Tür.',

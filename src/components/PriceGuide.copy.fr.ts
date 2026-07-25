@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: 'Igloos de verre',
-      keyword: 'igloo de verre laponie',
-      range: '€250 – €1,500',
       note: 'par nuit, par igloo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: "Chambres et igloos au toit de verre conçus spécialement pour observer les aurores. La catégorie la plus chère, toits vitrés, lieux isolés et offre limitée : Kakslauttanen affiche complet 8 à 12 mois à l'avance.",
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Chalets aurores boréales',
-      keyword: 'chalet aurores boréales',
-      range: '€150 – €700',
       note: 'par nuit, par chalet',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: "Le séjour classique en chalet lapon : fenêtres orientées vers les aurores, sauna privé et forêt tout autour. Le meilleur rapport prix-expérience pour les couples et petits groupes en quête d'aurores.",
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hôtels de neige et de glace',
-      keyword: 'hôtel de neige laponie',
-      range: '€150 – €400',
       note: 'par nuit, en saison uniquement',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: "Le territoire d'une seule nuit, sculptés dans la glace chaque décembre, fondus chaque avril. Vestiaires chauffés, sacs de couchage thermiques et une histoire que vous raconterez toute votre vie.",
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Lodges en pleine nature',
-      keyword: 'hébergement de luxe laponie',
-      range: '€200 – €600',
       note: 'par nuit, tout suites',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: "Pensés pour les chasseurs d'aurores qui veulent du service. Petits, isolés, encadrés par des guides. La nature sauvage version tout compris, cuisine de chef, huskys à portée de main et tout le menu des safaris depuis le lobby.",
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Hôtels et chaînes de chalets de Laponie',
-      keyword: 'hôtel laponie',
-      range: '€100 – €350',
       note: 'par nuit, par chambre',
       examples: ['Lapland Hotels (plusieurs resorts)', 'Harriniva (Muonio)'],
       body: "La porte d'entrée la plus fiable, hôtels et chaînes de chalets établis à Levi, Ylläs, Saariselkä, Rovaniemi et Muonio. Restaurants accessibles à pied, safaris au départ de la porte.",

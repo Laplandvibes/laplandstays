@@ -9,8 +9,6 @@ const copy: PriceGuideCopy = {
   tiers: [
     {
       name: "Glasiglo's",
-      keyword: 'glasiglo lapland',
-      range: '€250 – €1,500',
       note: 'per nacht, per iglo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       body: "Kamers en iglo's met glazen dak, speciaal gebouwd om het noorderlicht te bekijken. De duurste categorie, glazen daken, afgelegen locaties en beperkt aanbod betekenen dat Kakslauttanen 8–12 maanden vooruit volgeboekt is.",
@@ -18,8 +16,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Noorderlichthutten',
-      keyword: 'noorderlicht hut lapland',
-      range: '€150 – €700',
       note: 'per nacht, per hut',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       body: 'Klassiek Laplands hutverblijf met ramen op het noorderlicht, privésauna en bos rondom. De beste prijs-belevingsverhouding voor stellen en kleine groepen die het noorderlicht najagen.',
@@ -27,8 +23,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Sneeuw- en ijshotels',
-      keyword: 'sneeuwhotel lapland',
-      range: '€150 – €400',
       note: 'per nacht, alleen in het seizoen',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       body: 'Het domein van één enkele nacht, elke december uit ijs gehouwen, elke april gesmolten. Verwarmde kleedruimtes, thermische slaapzakken en een verhaal dat u voor altijd blijft vertellen.',
@@ -36,8 +30,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Wildernislodges',
-      keyword: 'luxe accommodatie lapland',
-      range: '€200 – €600',
       note: 'per nacht, alleen suites',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       body: "Gebouwd voor noorderlichtjagers die service willen. Klein, afgelegen, met gids. Wildernis in all-inclusive-stijl, chef-koks, husky's binnen handbereik en het volledige safari-aanbod vanuit de lobby.",
@@ -45,8 +37,6 @@ const copy: PriceGuideCopy = {
     },
     {
       name: 'Laplandse hotels en hutketens',
-      keyword: 'hotel lapland',
-      range: '€100 – €350',
       note: 'per nacht, per kamer',
       examples: ['Lapland Hotels (meerdere resorts)', 'Harriniva (Muonio)'],
       body: "De betrouwbaarste eerste keuze, gevestigde Laplandse hotels en hutketens in Levi, Ylläs, Saariselkä, Rovaniemi en Muonio. Restaurants op loopafstand, safari's vertrekken vanaf de deur.",
