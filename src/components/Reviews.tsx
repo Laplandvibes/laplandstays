@@ -160,11 +160,21 @@ const COPY = {
       { tag: 'De hemel', headline: 'Aurora-wekkers en glazen plafonds.', body: 'Een melding zoemt midden in de nacht. U trekt het dekbed tot uw kin en kijkt hoe groen licht over het glazen plafond golft, recht boven het bed. Van september tot april hoort de arctische hemel bij het verblijf, en in de juiste kamer hoeft u er niet eens voor de kou in.' },
     ],
   },
+  sv: {
+    eyebrow: 'Det du kommer för',
+    h2: 'De tre sakerna resenärer minns',
+    lead: 'Vad du än planerar, hundspann, skidåkning, renar, god mat, det här är sakerna gästerna berättar om först när de kommer hem.',
+    items: [
+      { tag: 'Tystnaden', headline: 'Inget brus. Ingen trafik. Ingen granne.', body: 'Du kliver ut på terrassen när mörkret fallit och världen stannar. Snön knarrar under fötterna, långt från varje gatlykta är himlen full av stjärnor, och tystnaden är så fullständig att det susar i öronen. Första kvällen skrämmer den nästan. Den tredje vill du inte lämna tillbaka den.' },
+      { tag: 'Värmen', headline: 'En bastu, varenda kväll.', body: 'Du kommer in från kylan och kaminen glöder redan. Ångan stiger, snön glittrar utanför fönstret och dagen smälter av axlarna. Egen bastu är standard här, inte ett lyxtillägg, och från andra kvällen planerar du resten av dagen runt den.' },
+      { tag: 'Himlen', headline: 'Norrskenslarm och glastak.', body: 'Ett larm surrar i de små timmarna. Du drar täcket upp till hakan och ser det gröna ljuset välla fram över glastaket, rakt ovanför sängen. Från september till april är den arktiska himlen en del av vistelsen, och i rätt rum behöver du aldrig gå ut i kylan för att se den.' },
+    ],
+  },
 }
 
 export default function Reviews() {
   const lang = useLang()
-  const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl)
+  const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl, COPY.sv)
 
   return (
     // Dark "beat" mid-page: a run of pale cream sections (Locations → this →

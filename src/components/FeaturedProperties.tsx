@@ -161,13 +161,24 @@ const COPY = {
       { title: 'Geboekt op vertrouwde platforms', body: 'Elke zoekopdracht opent direct bij een vertrouwde boekingspartner. Transparante prijzen, gratis annuleringsvensters en de bescherming die u al kent.' },
     ],
   },
+  sv: {
+    eyebrow: 'Varför Lappland, varför nu',
+    h2: 'Ett boende som blir ett minne i sig',
+    lead: 'De flesta resenärer får bara ett försök i Arktis. Rätt stuga gör det till resan du berättar om i tio år. Så här hjälper vi dig att välja den.',
+    cta: 'Se lediga boenden',
+    reasons: [
+      { title: 'Redaktionellt utvalt', body: 'Skrivet inifrån finska Lappland. De glömda boendena sållas bort, kvar blir stugorna, villorna och lodgerna som är värda flygresan.' },
+      { title: 'Rätt sorts rum för resan', body: 'Glasstuga för norrskenet, ski-in-chalet för Levi, sjöstuga för tystnaden, matchat mot vad resan faktiskt kräver.' },
+      { title: 'Bokat hos pålitliga plattformar', body: 'Varje sökning öppnas direkt hos en pålitlig bokningspartner. Transparenta priser, fria avbokningsfönster och skyddet du redan känner till.' },
+    ],
+  },
 }
 
 const ICONS = [Compass, Bed, ShieldCheck]
 
 export default function WhyBookWithUs() {
   const lang = useLang()
-  const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl)
+  const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl, COPY.sv)
   const onClick = () => {
     trackAffiliateClick('hotelscom', 'why_book_cta', HOTEL_SEARCH.lapland)
   }

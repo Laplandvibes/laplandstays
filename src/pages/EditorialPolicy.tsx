@@ -93,8 +93,14 @@ export default function EditorialPolicy() {
         jsonLd={[articleJsonLd, breadcrumbJsonLd]}
       />
 
-      <section className="relative overflow-hidden bg-night text-white pt-28 sm:pt-32 pb-16 px-4 sm:px-6">
+      {/* Same hero frame as the other sub-pages (WhenToGo/Transport/PropertyTypes
+          use min-h-[70svh], About 64svh). This page had no min-height at all, so
+          its hero came out ~379 px vs 576–717 px elsewhere — the exact "hero is
+          shorter than the other pages" defect Vesa caught on /property-types
+          2026-07-25. Imageless hero, so it sits at the 56svh recipe floor. */}
+      <section className="relative overflow-hidden bg-night text-white">
         <div aria-hidden="true" className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[300px] bg-pink opacity-[0.10] blur-[120px] rounded-full pointer-events-none" />
+        <div className="relative min-h-[56svh] flex items-center justify-center px-4 sm:px-6 pt-24 sm:pt-28 pb-14 sm:pb-16">
         <div className="relative max-w-4xl mx-auto text-center">
           <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-4">{ui.eyebrow}</p>
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5">
@@ -103,6 +109,7 @@ export default function EditorialPolicy() {
           <p className="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
             {ui.intro}
           </p>
+          </div>
         </div>
       </section>
 

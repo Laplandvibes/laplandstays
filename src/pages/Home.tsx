@@ -57,6 +57,7 @@ const LODGING_DESC: Record<string, string> = {
   fr: 'Igloos de verre, chalets aurores et hôtels nature en Laponie finlandaise, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',
   it: 'Igloo di vetro, chalet aurora e hotel natura nella Lapponia finlandese, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',
   nl: 'Glasiglo\'s, aurora-cabins en natuurhotels in Fins Lapland, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',
+  sv: 'Glasiglor, norrskensstugor och naturhotell i finska Lappland, Levi, Ylläs, Saariselkä, Enare, Rovaniemi.',
 }
 
 function buildLodgingSchema(lang: string) {

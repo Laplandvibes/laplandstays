@@ -84,6 +84,11 @@ const COPY = {
     h2: 'De vragen die reizigers ons het vaakst stellen',
     lead: 'Echte prijzen, aurora-kansen en waar u begint. Dezelfde antwoorden die we geven als vrienden vragen naar overnachten hier in het noorden.',
   },
+  sv: {
+    eyebrow: 'Vanliga frågor om boende',
+    h2: 'Frågorna som resenärer ställer oftast',
+    lead: 'Verkliga priser, chansen för norrsken och var du börjar. Samma svar som vi ger när vänner frågar om att bo häruppe i norr.',
+  },
 }
 
 /** Visible counterpart of the FAQPage JSON-LD emitted by Home. `items` comes
@@ -93,7 +98,7 @@ export default function FAQSection({ items }: { items: FAQItem[] }) {
   const lang = useLang()
   const to = useLocalePath()
   const chrome = useCopy()
-  const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl)
+  const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl, COPY.sv)
   const [openIndex, setOpenIndex] = useState<number | null>(null)
 
   if (items.length === 0) return null

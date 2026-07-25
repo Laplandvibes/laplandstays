@@ -38,7 +38,7 @@ export default function Hero() {
           <source type="image/webp" srcSet={HERO.webp} sizes="100vw" />
           <img
             src={HERO.base}
-            alt="Luxury cabin retreat in Finnish Lapland"
+            alt={c.alt}
             className="absolute inset-0 w-full h-full object-cover object-[center_38%]"
             loading="eager"
             fetchPriority="high"
