@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: '从适合您团队的区域开始,然后在Lomarengas的列表页比较木屋。预订在lomarengas.fi完成。',
     ctaPrimary: '在Lomarengas查看全部木屋',
     ctaSecondary: '何时出行',
+
+    showcase: {
+      eyebrow: '来自实时房源',
+      h2: '真实木屋,真实照片',
+      lead: '以下是Lomarengas目前在各度假区周边登记的部分房源,数据每日直接从产品目录更新。价格为每周起价,实际价格视具体周次而定。',
+      weekFrom: '每周 {price} € 起',
+      guestsLabel: '人数',
+      bedroomsLabel: '卧室',
+      sizeLabel: '面积',
+      viewCabin: '查看木屋',
+      browseAll: '浏览该地区全部 {count} 栋木屋',
+      dataNote: '照片与价格:Lomarengas 产品数据,每日更新。',
+    },
   },
 }
 

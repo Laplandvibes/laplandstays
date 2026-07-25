@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: 'Comece pela região que combina com o seu grupo e depois compare as cabanas nas páginas da Lomarengas. A reserva é feita no lomarengas.fi.',
     ctaPrimary: 'Todas as cabanas na Lomarengas',
     ctaSecondary: 'Quando ir',
+
+    showcase: {
+      eyebrow: 'Direto do catálogo',
+      h2: 'Cabanas reais, fotos reais',
+      lead: 'Uma seleção atualizada diariamente das ofertas da Lomarengas ao redor de cada estação, tirada direto do feed de produtos. Os preços são semanais «a partir de»; o valor final depende da semana.',
+      weekFrom: 'semana a partir de {price} €',
+      guestsLabel: 'pessoas',
+      bedroomsLabel: 'quartos',
+      sizeLabel: 'área',
+      viewCabin: 'Ver cabana',
+      browseAll: 'Ver todas as {count} cabanas da região',
+      dataNote: 'Fotos e preços: dados de produto da Lomarengas, atualizados diariamente.',
+    },
   },
 }
 

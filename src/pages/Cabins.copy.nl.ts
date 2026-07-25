@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: 'Begin bij de regio die bij uw groep past en vergelijk daarna huisjes op de lijstpagina’s van Lomarengas. Boeken gebeurt op lomarengas.fi.',
     ctaPrimary: 'Alle huisjes op Lomarengas',
     ctaSecondary: 'Wanneer te gaan',
+
+    showcase: {
+      eyebrow: 'Rechtstreeks uit het aanbod',
+      h2: 'Echte huisjes, echte foto’s',
+      lead: 'Een dagelijks bijgewerkte selectie uit het Lomarengas-aanbod rond elk skigebied, rechtstreeks uit de productfeed. Prijzen zijn weekprijzen vanaf; de uiteindelijke prijs hangt af van de week.',
+      weekFrom: 'week vanaf {price} €',
+      guestsLabel: 'personen',
+      bedroomsLabel: 'slaapkamers',
+      sizeLabel: 'oppervlakte',
+      viewCabin: 'Bekijk het huisje',
+      browseAll: 'Bekijk alle {count} huisjes in het gebied',
+      dataNote: 'Foto’s en prijzen: Lomarengas-productdata, dagelijks bijgewerkt.',
+    },
   },
 }
 

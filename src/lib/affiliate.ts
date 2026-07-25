@@ -252,6 +252,21 @@ export function buildLomarengasUrl(area: LomarengasArea, sid: string, lang: Lang
   return `${REDIRECT_BASE}/go/lomarengas?sid=${encodeURIComponent(sid)}&dest=${encodeURIComponent(dest)}`;
 }
 
+// Cabin-DETAIL deep link from a product-feed slug (kunta-kylä-nimi-id, e.g.
+// kittila-sirkka-naava-17156). Content-verified 2026-07-25: /mokit/<slug> (fi)
+// and /en/cottages/<slug> (intl) both SSR the cabin title for real slugs;
+// bogus slugs render the client-side 404 shell with no SSR <title>.
+export function buildLomarengasCabinUrl(slug: string, sid: string, lang: Lang = 'en'): string {
+  const dest = lang === 'fi'
+    ? `https://www.lomarengas.fi/mokit/${slug}`
+    : `https://www.lomarengas.fi/en/cottages/${slug}`;
+  return `${REDIRECT_BASE}/go/lomarengas?sid=${encodeURIComponent(sid)}&dest=${encodeURIComponent(dest)}`;
+}
+
+/** Live cabin-showcase JSON: the affiliate Worker's KV-cached parse of the
+ *  Lomarengas product feed (pfid 375), grouped by resort, refreshed daily. */
+export const CABINS_API = `${REDIRECT_BASE}/_cabins`;
+
 /** Default EN-locale exports (backward compat — existing pages reference these as objects). */
 export const HOTEL_SEARCH = buildHotelSearchLang('en');
 export const PROPERTY_SEARCH = buildPropertySearchLang('en');

@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: 'Beginnen Sie mit der Region, die zu Ihrer Gruppe passt, und vergleichen Sie dann Hütten auf den Listenseiten von Lomarengas. Gebucht wird auf lomarengas.fi.',
     ctaPrimary: 'Alle Hütten auf Lomarengas',
     ctaSecondary: 'Beste Reisezeit',
+
+    showcase: {
+      eyebrow: 'Direkt aus dem Angebot',
+      h2: 'Echte Hütten, echte Fotos',
+      lead: 'Eine täglich aktualisierte Auswahl aus dem Lomarengas-Angebot rund um jedes Skigebiet, direkt aus den Produktdaten. Die Preise sind Wochenpreise ab; der Endpreis hängt von der jeweiligen Woche ab.',
+      weekFrom: 'Woche ab {price} €',
+      guestsLabel: 'Personen',
+      bedroomsLabel: 'Schlafzimmer',
+      sizeLabel: 'Größe',
+      viewCabin: 'Hütte ansehen',
+      browseAll: 'Alle {count} Hütten der Region ansehen',
+      dataNote: 'Fotos und Preise: Lomarengas-Produktdaten, täglich aktualisiert.',
+    },
   },
 }
 

@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: '일행에 맞는 지역에서 시작해 Lomarengas 목록 페이지에서 코티지를 비교하십시오. 예약은 lomarengas.fi에서 이루어집니다.',
     ctaPrimary: 'Lomarengas 코티지 전체 보기',
     ctaSecondary: '여행 시기',
+
+    showcase: {
+      eyebrow: '실시간 등록 매물에서',
+      h2: '실제 코티지, 실제 사진',
+      lead: '각 리조트 주변에서 Lomarengas가 현재 등록 중인 매물 가운데 매일 갱신되는 셀렉션입니다. 데이터는 상품 피드에서 직접 가져오며, 가격은 주 단위 최저 기준으로 실제 요금은 주에 따라 다릅니다.',
+      weekFrom: '주당 {price} €부터',
+      guestsLabel: '인원',
+      bedroomsLabel: '침실',
+      sizeLabel: '면적',
+      viewCabin: '코티지 보기',
+      browseAll: '지역의 코티지 {count}곳 모두 보기',
+      dataNote: '사진과 가격: Lomarengas 상품 데이터, 매일 업데이트됩니다.',
+    },
   },
 }
 

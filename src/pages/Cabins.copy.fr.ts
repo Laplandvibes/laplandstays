@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: 'Partez de la région qui correspond à votre groupe, puis comparez les chalets sur les pages de Lomarengas. La réservation se fait sur lomarengas.fi.',
     ctaPrimary: 'Tous les chalets sur Lomarengas',
     ctaSecondary: 'Quand partir',
+
+    showcase: {
+      eyebrow: 'Direct du catalogue',
+      h2: 'De vrais chalets, de vraies photos',
+      lead: 'Une sélection actualisée chaque jour parmi les offres Lomarengas autour de chaque station, issue directement du flux produits. Les prix sont des prix hebdomadaires « à partir de » ; le tarif final dépend de la semaine.',
+      weekFrom: 'semaine dès {price} €',
+      guestsLabel: 'personnes',
+      bedroomsLabel: 'chambres',
+      sizeLabel: 'surface',
+      viewCabin: 'Voir le chalet',
+      browseAll: 'Voir les {count} chalets de la région',
+      dataNote: 'Photos et prix : données produits Lomarengas, mises à jour chaque jour.',
+    },
   },
 }
 

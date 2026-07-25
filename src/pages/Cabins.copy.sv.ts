@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: 'Börja med regionen som passar ditt sällskap och jämför sedan stugor på Lomarengas listsidor. Bokningen sker på lomarengas.fi.',
     ctaPrimary: 'Alla stugor på Lomarengas',
     ctaSecondary: 'När du ska åka',
+
+    showcase: {
+      eyebrow: 'Direkt ur utbudet',
+      h2: 'Riktiga stugor, riktiga bilder',
+      lead: 'Ett dagligen uppdaterat urval ur Lomarengas utbud kring varje skidort, hämtat direkt ur produktdatan. Priserna är veckopriser från; slutpriset beror på veckan.',
+      weekFrom: 'vecka från {price} €',
+      guestsLabel: 'personer',
+      bedroomsLabel: 'sovrum',
+      sizeLabel: 'storlek',
+      viewCabin: 'Se stugan',
+      browseAll: 'Bläddra bland områdets alla {count} stugor',
+      dataNote: 'Bilder och priser: Lomarengas produktdata, uppdateras dagligen.',
+    },
   },
 }
 

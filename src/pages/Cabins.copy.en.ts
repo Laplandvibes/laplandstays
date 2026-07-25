@@ -127,6 +127,19 @@ const copy = {
     ctaLead: 'Start from the region that matches your group, then compare cabins on the Lomarengas listing pages. Booking happens on lomarengas.fi.',
     ctaPrimary: 'All cabins on Lomarengas',
     ctaSecondary: 'When to go',
+
+    showcase: {
+      eyebrow: 'From the live listings',
+      h2: 'Real cabins, real photos',
+      lead: 'A sample of what Lomarengas lists right now around each resort, refreshed daily straight from their product data. Prices are weekly from-prices; the exact rate depends on the week.',
+      weekFrom: 'week from {price} €',
+      guestsLabel: 'guests',
+      bedroomsLabel: 'bedrooms',
+      sizeLabel: 'size',
+      viewCabin: 'View cabin',
+      browseAll: 'Browse all {count} cabins in the area',
+      dataNote: 'Photos and prices: Lomarengas product data, updated daily.',
+    },
   },
 }
 

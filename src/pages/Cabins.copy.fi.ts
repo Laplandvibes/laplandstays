@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: 'Aloita alueesta, joka sopii porukallesi, ja vertaile sitten mökkejä Lomarenkaan listaussivuilla. Varaus tehdään lomarengas.fi-sivustolla.',
     ctaPrimary: 'Kaikki mökit Lomarenkaalla',
     ctaSecondary: 'Milloin matkustaa',
+
+    showcase: {
+      eyebrow: 'Suoraan valikoimasta',
+      h2: 'Aitoja mökkejä, aidot kuvat',
+      lead: 'Poimintoja Lomarenkaan tämänhetkisestä tarjonnasta kunkin keskuksen ympäriltä. Tiedot haetaan päivittäin suoraan tuotetiedoista; hinnat ovat viikkohintoja alkaen, ja lopullinen hinta riippuu viikosta.',
+      weekFrom: 'vko alkaen {price} €',
+      guestsLabel: 'henkilöä',
+      bedroomsLabel: 'makuuhuonetta',
+      sizeLabel: 'koko',
+      viewCabin: 'Katso mökki',
+      browseAll: 'Selaa alueen kaikkia {count} mökkiä',
+      dataNote: 'Kuvat ja hinnat: Lomarenkaan tuotetiedot, päivittyvät päivittäin.',
+    },
   },
 }
 

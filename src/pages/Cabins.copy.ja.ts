@@ -129,6 +129,19 @@ const copy: PageCopy = {
     ctaLead: 'グループに合うエリアから始めて、Lomarengasの一覧ページでコテージを比べてください。予約はlomarengas.fiで行われます。',
     ctaPrimary: '全コテージをLomarengasで見る',
     ctaSecondary: 'ベストシーズン',
+
+    showcase: {
+      eyebrow: '最新の掲載情報から',
+      h2: '実際のコテージと実際の写真',
+      lead: '各リゾート周辺でLomarengasが現在掲載している物件から、商品データをもとに毎日更新されるセレクションです。価格は週単位の「〜から」の目安で、実際の料金は週によって異なります。',
+      weekFrom: '1週間 {price} €〜',
+      guestsLabel: '定員',
+      bedroomsLabel: '寝室',
+      sizeLabel: '広さ',
+      viewCabin: 'コテージを見る',
+      browseAll: 'この地域の全{count}件のコテージを見る',
+      dataNote: '写真と価格:Lomarengasの商品データ(毎日更新)。',
+    },
   },
 }
 

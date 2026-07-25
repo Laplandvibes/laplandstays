@@ -4,6 +4,7 @@ import { ArrowRight, Flame, Users, UtensilsCrossed, MoonStar, ExternalLink, Mega
 import SEO from '../components/SEO'
 import Newsletter from '../components/Newsletter'
 import PageBreadcrumb from '../components/PageBreadcrumb'
+import CabinShowcase from '../components/CabinShowcase'
 import { buildLomarengasUrl, type LomarengasArea } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, type Lang } from '../i18n/useLang'
@@ -257,6 +258,9 @@ export default function Cabins() {
           </div>
         </div>
       </section>
+
+      {/* Live cabin showcase: real Lomarengas photos from the /_cabins feed API */}
+      <CabinShowcase copy={ui.showcase} areaNames={ui.areas.map((a) => a.name)} lang={lang} />
 
       {/* Practical: how to read a listing */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
