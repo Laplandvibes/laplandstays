@@ -10,6 +10,7 @@ import BookingCTA from '../components/BookingCTA'
 import ActivitiesCrossSell from '../components/ActivitiesCrossSell'
 import FAQSection, { type FAQItem } from '../components/FAQSection'
 import PartnerStayAd from '../components/PartnerStayAd'
+import HomeCabinShowcase from '../components/HomeCabinShowcase'
 import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots'
 import { AD_SLOTS } from '../data/adSlots'
 import Newsletter from '../components/Newsletter'
@@ -163,6 +164,11 @@ export default function Home() {
           Vaalea pinta — istuu sivun cream-taustaan. */}
       <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
       <PropertyTypes />
+      {/* Real, bookable cabins with real photos, high on the page (Vesa
+          2026-07-26). The same band already runs on /cabins; showing it here
+          too means the first thing a visitor sees after the categories is
+          actual inventory rather than another promise. */}
+      <HomeCabinShowcase />
       {/* LV Media -kumppaniosio heti ensimmäisen sisältöosion jälkeen:
           kakkospääkumppani + 6 kohdepaikkaa (house-adit kun tyhjänä). */}
       <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
