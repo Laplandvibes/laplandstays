@@ -1,5 +1,5 @@
 import DestinationPage, { type DestinationBody } from '../components/DestinationPage'
-import { HOTEL_SEARCH, CARS } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
 
 const en: DestinationBody = {
   tagline: 'The capital of Finnish Lapland, Santa Claus Village, two rivers, and direct aurora access from a full-service city.',
@@ -41,7 +41,7 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architect-designed glass-front nest suites at Santa Claus Village.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Lakeside aurora cabins 15 min from the city, full safari menu on site.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Newer glass-roofed apartments with skyline views from Ounasvaara fell.' },
-    { name: 'All Rovaniemi accommodation', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Browse every Rovaniemi hotel and cabin on Trip.com.' },
+    { name: 'All Rovaniemi accommodation', href: HOTEL_SEARCH_FOR('en').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Browse every Rovaniemi hotel and cabin on Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Rovaniemi Airport (RVN)', detail: 'Year-round flights from HEL plus winter routes from LHR · CDG · BCN · MAD. 10 km / 15 min to city centre.' },
@@ -50,7 +50,7 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     { mode: 'train', label: 'Helsinki–Rovaniemi sleeper', detail: 'VR overnight train with car-carriage option, ~€90 in a couchette. The most popular family arrival route.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('en').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Pickup at Rovaniemi Airport (RVN)',
     blurb: '10 km to city · the easiest pickup in Lapland · year-round availability',
@@ -105,7 +105,7 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkkitehtien suunnittelemat lasipääsiviit Joulupukin pajakylällä.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Rannan aurora-mökit 15 min päässä kaupungista, täysi safarivalikoima paikan päällä.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Uudet lasikattoiset huoneistot Ounasvaaran tunturilta kaupunkinäkymin.' },
-    { name: 'Kaikki Rovaniemen majoitukset', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Selaa kaikki Rovaniemen hotellit ja mökit Trip.comissa.' },
+    { name: 'Kaikki Rovaniemen majoitukset', href: HOTEL_SEARCH_FOR('fi').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Selaa kaikki Rovaniemen hotellit ja mökit Sembossa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Rovaniemen lentokentältä (RVN)', detail: 'Ympärivuotiset lennot HEL:stä sekä talvireitit LHR · CDG · BCN · MAD. 10 km / 15 min kaupungin keskustaan.' },
@@ -114,7 +114,7 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     { mode: 'train', label: 'Helsinki–Rovaniemi-makuujuna', detail: 'VR:n yöjuna autonkuljetusvaihtoehdolla, noin 90 € makuupaikassa. Suosituin perhematkareitti.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('fi').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Nouto Rovaniemen lentokentältä (RVN)',
     blurb: '10 km kaupunkiin · Lapin helpoin nouto · saatavuus ympäri vuoden',
@@ -169,7 +169,7 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architektonisch gestaltete Nest-Suiten mit Glasfront am Weihnachtsmanndorf.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Polarlicht-Hütten am See 15 min von der Stadt, volles Safari-Menü vor Ort.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Neuere Apartments mit Glasdach mit Skyline-Blick vom Fjäll Ounasvaara.' },
-    { name: 'Alle Rovaniemi-Unterkünfte', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Stöbern Sie in allen Rovaniemi-Hotels und Hütten auf Trip.com.' },
+    { name: 'Alle Rovaniemi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Stöbern Sie in allen Rovaniemi-Hotels und Hütten auf Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Rovaniemi (RVN)', detail: 'Ganzjährige Flüge ab HEL plus Winterrouten ab LHR · CDG · BCN · MAD. 10 km / 15 min ins Stadtzentrum.' },
@@ -178,7 +178,7 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
     { mode: 'train', label: 'Nachtzug Helsinki–Rovaniemi', detail: 'VR-Nachtzug mit Autotransport-Option, ~90 € im Liegewagen. Die beliebteste Anreise für Familien.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('de').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Abholung am Flughafen Rovaniemi (RVN)',
     blurb: '10 km zur Stadt · die einfachste Abholung in Lappland · ganzjährig verfügbar',
@@ -233,7 +233,7 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '산타클로스 마을의 건축가가 설계한 유리 정면 네스트 스위트.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '도심에서 15분 거리의 호숫가 오로라 캐빈. 풀 사파리 프로그램이 현장에서 운영됩니다.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Ounasvaara 봉우리에서 도심 스카이라인이 펼쳐지는 신축 유리 천장 아파트.' },
-    { name: '로바니에미 전체 숙소', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.com에서 로바니에미의 모든 호텔과 캐빈을 비교하세요.' },
+    { name: '로바니에미 전체 숙소', href: HOTEL_SEARCH_FOR('ko').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.com에서 로바니에미의 모든 호텔과 캐빈을 비교하세요.' },
   ],
   transport: [
     { mode: 'plane', label: '로바니에미 공항(RVN)에서', detail: '연중 헬싱키발 노선과 LHR · CDG · BCN · MAD 겨울 직항편. 도심까지 10km / 15분.' },
@@ -242,7 +242,7 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
     { mode: 'train', label: '헬싱키–로바니에미 침대 열차', detail: '자동차 운송 옵션이 포함된 VR 야간 열차, 침대 1석 약 90€. 가족 단위 여행자가 가장 선호하는 도착 경로입니다.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('ko').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: '로바니에미 공항(RVN) 픽업',
     blurb: '도심까지 10km · 라플란드에서 가장 쉬운 픽업 · 연중 운영',
@@ -297,7 +297,7 @@ La location de voiture est simple ; la ville est la base logistique des road tri
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites-nichoirs à façade vitrée signées par un architecte, au village du Père Noël.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Chalets aurores au bord du lac à 15 min de la ville, carte complète de safaris sur place.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartements à toit de verre récents avec vue sur la ligne d\'horizon depuis Ounasvaara.' },
-    { name: 'Tous les hébergements de Rovaniemi', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Parcourez tous les hôtels et chalets de Rovaniemi sur Trip.com.' },
+    { name: 'Tous les hébergements de Rovaniemi', href: HOTEL_SEARCH_FOR('fr').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Parcourez tous les hôtels et chalets de Rovaniemi sur Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Depuis l\'aéroport de Rovaniemi (RVN)', detail: 'Vols toute l\'année depuis HEL, lignes hivernales depuis LHR · CDG · BCN · MAD. 10 km / 15 min au centre.' },
@@ -306,7 +306,7 @@ La location de voiture est simple ; la ville est la base logistique des road tri
     { mode: 'train', label: 'Couchette Helsinki–Rovaniemi', detail: 'Train de nuit VR avec option auto-train, ~90 € en couchette. La voie d\'arrivée préférée des familles.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('fr').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Prise en charge à l\'aéroport de Rovaniemi (RVN)',
     blurb: '10 km jusqu\'à la ville · la prise en charge la plus simple de Laponie · disponible toute l\'année',
@@ -361,7 +361,7 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suite-nido firmate da un architetto con facciata in vetro, al villaggio di Babbo Natale.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Chalet aurora sul lago a 15 min dalla città, menù safari completo in struttura.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartamenti con tetto di vetro più recenti, vista skyline dal fjell Ounasvaara.' },
-    { name: 'Tutti gli alloggi di Rovaniemi', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Esplori ogni hotel e chalet di Rovaniemi su Trip.com.' },
+    { name: 'Tutti gli alloggi di Rovaniemi', href: HOTEL_SEARCH_FOR('it').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Esplori ogni hotel e chalet di Rovaniemi su Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Dall\'aeroporto di Rovaniemi (RVN)', detail: 'Voli tutto l\'anno da HEL e rotte invernali da LHR · CDG · BCN · MAD. 10 km / 15 min al centro.' },
@@ -370,7 +370,7 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
     { mode: 'train', label: 'Vagone letto Helsinki–Rovaniemi', detail: 'Treno notturno VR con opzione auto al seguito, ~90 € in cuccetta. È la via d\'arrivo preferita dalle famiglie.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('it').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Ritiro all\'aeroporto di Rovaniemi (RVN)',
     blurb: '10 km fino in città · il ritiro più semplice di Lapponia · disponibilità tutto l\'anno',
@@ -425,7 +425,7 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Door architecten ontworpen nest-suites met glazen front bij het Kerstmandorp.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Aurora-cabins aan het meer op 15 min van de stad, volledig safarimenu ter plaatse.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nieuwere appartementen met glazen dak en zicht op de skyline vanaf Ounasvaara.' },
-    { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elke Rovaniemi-hotel en cabin op Trip.com.' },
+    { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH_FOR('nl').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elke Rovaniemi-hotel en cabin op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Rovaniemi (RVN)', detail: 'Jaarrond vluchten vanaf HEL plus winterroutes vanaf LHR · CDG · BCN · MAD. 10 km / 15 min naar het centrum.' },
@@ -434,7 +434,7 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
     { mode: 'train', label: 'Slaaprijtuig Helsinki–Rovaniemi', detail: 'VR-nachttrein met autorail-optie, ~€90 in een couchette. De geliefdste aankomst voor gezinnen.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('nl').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Ophalen op luchthaven Rovaniemi (RVN)',
     blurb: '10 km tot de stad · de makkelijkste pick-up in Lapland · jaarrond beschikbaar',
@@ -489,7 +489,7 @@ const ja: DestinationBody = {
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'サンタクロース村にある、建築家設計のガラスフロント・ネストスイート。' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '市から15分の湖畔オーロラキャビン。サファリのフルメニューを敷地内に。' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'オウナスヴァーラ山からスカイラインを望むガラス屋根の新しいアパートメント。' },
-    { name: 'ロヴァニエミのすべての宿泊施設', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.comでロヴァニエミの全宿を閲覧できます。' },
+    { name: 'ロヴァニエミのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.comでロヴァニエミの全宿を閲覧できます。' },
   ],
   transport: [
     { mode: 'plane', label: 'ロヴァニエミ空港(RVN)から', detail: '通年HEL便、加えて冬季はLHR · CDG · BCN · MADから。市中心まで10km / 15分。' },
@@ -498,7 +498,7 @@ const ja: DestinationBody = {
     { mode: 'train', label: 'ヘルシンキ〜ロヴァニエミ寝台', detail: 'VR夜行(車両運搬車オプションあり)、寝台で約90ユーロ。家族旅行で最も人気の到着ルート。' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('ja').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'ロヴァニエミ空港(RVN)で受け取り',
     blurb: '市まで10km・ラップランド最楽の受け取り・通年利用可',
@@ -553,7 +553,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites tipo nido con frente de cristal diseñadas por arquitectos en el Pueblo de Papá Noel.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabañas aurora junto al lago a 15 min de la ciudad, carta completa de safaris en el mismo recinto.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos más nuevos con techo de cristal y vistas desde el fell Ounasvaara.' },
-    { name: 'Todos los alojamientos de Rovaniemi', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Consulte todos los hoteles y cabañas de Rovaniemi en Trip.com.' },
+    { name: 'Todos los alojamientos de Rovaniemi', href: HOTEL_SEARCH_FOR('es').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Consulte todos los hoteles y cabañas de Rovaniemi en Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Desde el aeropuerto de Rovaniemi (RVN)', detail: 'Vuelos todo el año desde HEL y rutas invernales desde LHR · CDG · BCN · MAD. 10 km / 15 min al centro.' },
@@ -562,7 +562,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     { mode: 'train', label: 'Coche cama Helsinki–Rovaniemi', detail: 'Tren nocturno VR con opción de transporte de coches, ~90 € en litera. La ruta familiar más popular.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('es').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Recogida en el aeropuerto de Rovaniemi (RVN)',
     blurb: '10 km a la ciudad · la recogida más sencilla de Laponia · disponible todo el año',
@@ -617,7 +617,7 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suítes tipo ninho com frente de vidro projetadas por arquitetos na Vila do Papai Noel.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabanas aurora à beira do lago a 15 min da cidade, cardápio completo de safáris no local.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos mais novos com teto de vidro e vistas do fell Ounasvaara.' },
-    { name: 'Todas as hospedagens de Rovaniemi', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Veja todos os hotéis e cabanas de Rovaniemi no Trip.com.' },
+    { name: 'Todas as hospedagens de Rovaniemi', href: HOTEL_SEARCH_FOR('pt-BR').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Veja todos os hotéis e cabanas de Rovaniemi no Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Do Aeroporto de Rovaniemi (RVN)', detail: 'Voos o ano todo de HEL e rotas de inverno de LHR · CDG · BCN · MAD. 10 km / 15 min até o centro.' },
@@ -626,7 +626,7 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
     { mode: 'train', label: 'Vagão-leito Helsinque–Rovaniemi', detail: 'Trem noturno VR com opção de transporte de automóvel, ~€90 em cama. A rota de chegada mais popular para famílias.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('pt-BR').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Retirada no Aeroporto de Rovaniemi (RVN)',
     blurb: '10 km até a cidade · a retirada mais fácil da Lapônia · disponível o ano todo',
@@ -681,7 +681,7 @@ const zhCN: DestinationBody = {
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '圣诞老人村内由建筑师设计的玻璃幕墙巢式套房。' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '距市区15分钟的湖畔极光小屋。园区内提供全套探险菜单。' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: '位于Ounasvaara山的较新玻璃屋顶公寓,可眺望天际线。' },
-    { name: '罗瓦涅米全部住宿', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: '在Trip.com浏览罗瓦涅米所有酒店与小屋。' },
+    { name: '罗瓦涅米全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').rovaniemi, sid: 'destination_rovaniemi_all_search', note: '在Trip.com浏览罗瓦涅米所有酒店与小屋。' },
   ],
   transport: [
     { mode: 'plane', label: '从罗瓦涅米机场(RVN)出发', detail: '全年HEL航班,以及冬季来自LHR · CDG · BCN · MAD。距市中心10公里 / 15分钟。' },
@@ -690,7 +690,7 @@ const zhCN: DestinationBody = {
     { mode: 'train', label: '赫尔辛基。罗瓦涅米卧铺', detail: 'VR夜车含轿车托运选项,卧铺约90欧元。家庭出行最受欢迎的抵达方式。' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('zh-CN').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: '罗瓦涅米机场(RVN)取车',
     blurb: '距市区10公里 · 拉普兰最便捷的取车点 · 全年可用',
@@ -745,7 +745,7 @@ Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilres
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkitektritade sviter med glasfront, som fågelbon, vid Santa Claus Village.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Norrskensstugor vid sjön 15 min från staden, med hela safariutbudet på plats.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nyare lägenheter med glastak och vy över staden från Ounasvaara.' },
-    { name: 'Alla boenden i Rovaniemi', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bläddra bland alla hotell och stugor i Rovaniemi på Trip.com.' },
+    { name: 'Alla boenden i Rovaniemi', href: HOTEL_SEARCH_FOR('sv').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bläddra bland alla hotell och stugor i Rovaniemi på Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Från Rovaniemi flygplats (RVN)', detail: 'Flyg året runt från HEL plus vinterlinjer från LHR · CDG · BCN · MAD. 10 km / 15 min till centrum.' },
@@ -754,7 +754,7 @@ Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilres
     { mode: 'train', label: 'Sovvagn Helsingfors–Rovaniemi', detail: 'VR:s nattåg med möjlighet till bilvagn, ca 90 € i liggvagn. Den populäraste ankomstvägen för familjer.' },
   ],
   carRental: {
-    href: CARS.fromRovaniemi,
+    href: CARS_FOR('sv').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
     airport: 'Upphämtning på Rovaniemi flygplats (RVN)',
     blurb: '10 km till staden · Lapplands enklaste upphämtning · tillgängligt året runt',

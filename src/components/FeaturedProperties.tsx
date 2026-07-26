@@ -1,5 +1,5 @@
 import { ArrowRight, ShieldCheck, Compass, Bed } from 'lucide-react'
-import { HOTEL_SEARCH } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, pick } from '../i18n/useLang'
 
@@ -180,7 +180,7 @@ export default function WhyBookWithUs() {
   const lang = useLang()
   const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl, COPY.sv)
   const onClick = () => {
-    trackAffiliateClick('hotelscom', 'why_book_cta', HOTEL_SEARCH.lapland)
+    trackAffiliateClick('hotelscom', 'why_book_cta', HOTEL_SEARCH_FOR(lang).lapland)
   }
 
   return (
@@ -216,7 +216,7 @@ export default function WhyBookWithUs() {
 
         <div className="text-center">
           <a
-            href={HOTEL_SEARCH.lapland}
+            href={HOTEL_SEARCH_FOR(lang).lapland}
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onClick}

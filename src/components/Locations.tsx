@@ -1,8 +1,8 @@
 import { MapPin, ArrowRight } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import { HOTEL_SEARCH } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
-import { useLocalePath, type Lang } from '../i18n/useLang'
+import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
 import enCopy from './Locations.copy.en'
 import type { Copy } from './Locations.copy.types'
@@ -10,7 +10,11 @@ import type { Copy } from './Locations.copy.types'
 
 const SLUGS = ['levi', 'yllas', 'saariselka', 'inari'] as const
 const IMAGES = ['/images/levi-card.webp', '/images/yllas-card.webp', '/images/saariselka-card.webp', '/images/inari-card.webp']
-const SEARCH_URLS = [HOTEL_SEARCH.levi, HOTEL_SEARCH.yllas, HOTEL_SEARCH.saariselka, HOTEL_SEARCH.inari]
+// Per language, not per module load: `locale` decides Sembo (fi) vs Trip.com.
+const searchUrlsFor = (lang: Lang) => {
+  const h = HOTEL_SEARCH_FOR(lang)
+  return [h.levi, h.yllas, h.saariselka, h.inari]
+}
 
 
 const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
@@ -32,12 +36,14 @@ const cache: Partial<Record<Lang, Copy>> = {}
 
 export default function Locations() {
   const to = useLocalePath()
+  const lang = useLang()
   const c = useCopy<Copy>(enCopy, loaders, cache)
+  const searchUrls = searchUrlsFor(lang)
   const locations = c.locations.map((loc, i) => ({
     ...loc,
     slug: SLUGS[i],
     image: IMAGES[i],
-    searchUrl: SEARCH_URLS[i],
+    searchUrl: searchUrls[i],
   }))
 
   return (

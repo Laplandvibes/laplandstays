@@ -1,5 +1,5 @@
 import DestinationPage, { type DestinationBody } from '../components/DestinationPage'
-import { HOTEL_SEARCH, CARS } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
 
 const en: DestinationBody = {
   tagline: "Finland's biggest ski resort with restaurants, safaris and aurora cabins a short drive from the lifts.",
@@ -40,7 +40,7 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glass igloos on the fell, peak weeks book 10–12 mo ahead.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Walkable village apartments and rooms from €100/night.' },
-    { name: 'All Levi accommodation', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Compare every Levi hotel and chalet on Trip.com.' },
+    { name: 'All Levi accommodation', href: HOTEL_SEARCH_FOR('en').levi, sid: 'destination_levi_all_search', note: 'Compare every Levi hotel and chalet on Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Kittilä Airport (KTT)', detail: 'Direct winter flights LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min to Levi village.' },
@@ -49,7 +49,7 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
     { mode: 'train', label: 'Overnight train to Kolari', detail: 'VR sleeper from Helsinki ~€90, then 1 h transfer to Levi. Scenic alternative in winter.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('en').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Pickup at Kittilä Airport (KTT)',
     blurb: '15 min from Levi village · winter studded tyres standard',
@@ -103,7 +103,7 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Lasi-iglut tunturilla, huippuviikot varataan 10–12 kk etukäteen.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Kylän kävelyetäisyydellä olevat huoneistot ja huoneet alkaen 100 €/yö.' },
-    { name: 'Kaikki Levin majoitukset', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Vertaa kaikki Levin hotellit ja chalet-asunnot Trip.comissa.' },
+    { name: 'Kaikki Levin majoitukset', href: HOTEL_SEARCH_FOR('fi').levi, sid: 'destination_levi_all_search', note: 'Vertaa kaikki Levin hotellit ja chalet-asunnot Sembossa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Kittilän lentokentältä (KTT)', detail: 'Suorat talvilennot LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min Levin kylälle.' },
@@ -112,7 +112,7 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
     { mode: 'train', label: 'Yöjuna Kolariin', detail: 'VR:n makuuvaunu Helsingistä noin 90 €, sitten 1 h kuljetus Leville. Maisemallinen vaihtoehto talvella.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('fi').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Nouto Kittilän lentokentältä (KTT)',
     blurb: '15 min Levin kylälle · nastarenkaat vakiona talvella',
@@ -166,7 +166,7 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasiglus am Fjäll, Hauptwochen werden 10–12 Monate im Voraus gebucht.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Fußläufige Dorf-Apartments und Zimmer ab 100 €/Nacht.' },
-    { name: 'Alle Levi-Unterkünfte', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Vergleichen Sie alle Levi-Hotels und Chalets auf Trip.com.' },
+    { name: 'Alle Levi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').levi, sid: 'destination_levi_all_search', note: 'Vergleichen Sie alle Levi-Hotels und Chalets auf Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Kittilä (KTT)', detail: 'Direkte Winterflüge LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min ins Levi-Dorf.' },
@@ -175,7 +175,7 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
     { mode: 'train', label: 'Nachtzug nach Kolari', detail: 'VR-Schlafwagen ab Helsinki ~90 €, dann 1 h Transfer nach Levi. Landschaftliche Winter-Alternative.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('de').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Abholung am Flughafen Kittilä (KTT)',
     blurb: '15 min vom Levi-Dorf · Winter-Spikereifen Standard',
@@ -229,7 +229,7 @@ const ko: DestinationBody = {
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '산자락의 글래스 이글루. 성수기 주차는 10–12개월 전 예약됩니다.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: '마을 도보 거리의 아파트와 객실, 1박 100€부터.' },
-    { name: '레비 전체 숙소', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Trip.com에서 레비의 모든 호텔과 샬레를 한 번에 비교하세요.' },
+    { name: '레비 전체 숙소', href: HOTEL_SEARCH_FOR('ko').levi, sid: 'destination_levi_all_search', note: 'Trip.com에서 레비의 모든 호텔과 샬레를 한 번에 비교하세요.' },
   ],
   transport: [
     { mode: 'plane', label: '키틸레 공항(KTT)에서', detail: 'LHR · CDG · AMS · FRA · ZRH · HEL 겨울 직항편. 레비 마을까지 15km / 15분.' },
@@ -238,7 +238,7 @@ const ko: DestinationBody = {
     { mode: 'train', label: 'Kolari행 야간 열차', detail: '헬싱키발 VR 침대차 약 90€, 이후 1시간 트랜스퍼로 레비. 겨울철 풍경 좋은 대안입니다.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('ko').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: '키틸레 공항(KTT) 픽업',
     blurb: '레비 마을까지 15분 · 겨울 스파이크 타이어 기본',
@@ -292,7 +292,7 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Igloos de verre sur le fjell, les semaines fortes se réservent 10 à 12 mois à l\'avance.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Appartements et chambres dans le village, accessibles à pied, à partir de 100 €/nuit.' },
-    { name: 'Tous les hébergements de Levi', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Comparez tous les hôtels et chalets de Levi sur Trip.com.' },
+    { name: 'Tous les hébergements de Levi', href: HOTEL_SEARCH_FOR('fr').levi, sid: 'destination_levi_all_search', note: 'Comparez tous les hôtels et chalets de Levi sur Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: "Depuis l'aéroport de Kittilä (KTT)", detail: 'Vols hivernaux directs LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min jusqu\'au village de Levi.' },
@@ -301,7 +301,7 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
     { mode: 'train', label: 'Train de nuit vers Kolari', detail: 'Wagon-lit VR depuis Helsinki ~90 €, puis 1 h de transfert jusqu\'à Levi. Alternative panoramique en hiver.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('fr').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Prise en charge à l\'aéroport de Kittilä (KTT)',
     blurb: '15 min du village de Levi · pneus cloutés hiver fournis',
@@ -355,7 +355,7 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Igloo di vetro sul fjell, le settimane di punta si prenotano con 10–12 mesi di anticipo.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Appartamenti e camere in paese, a piedi, da 100 €/notte.' },
-    { name: 'Tutti gli alloggi di Levi', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Confronti tutti gli hotel e gli chalet di Levi su Trip.com.' },
+    { name: 'Tutti gli alloggi di Levi', href: HOTEL_SEARCH_FOR('it').levi, sid: 'destination_levi_all_search', note: 'Confronti tutti gli hotel e gli chalet di Levi su Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Dall\'aeroporto di Kittilä (KTT)', detail: 'Voli invernali diretti LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min al paese di Levi.' },
@@ -364,7 +364,7 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
     { mode: 'train', label: 'Treno notturno per Kolari', detail: 'Vagone letto VR da Helsinki ~90 €, poi 1 h di trasferimento a Levi. Alternativa panoramica in inverno.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('it').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Ritiro all\'aeroporto di Kittilä (KTT)',
     blurb: '15 min dal paese di Levi · pneumatici chiodati invernali di serie',
@@ -418,7 +418,7 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasiglo\'s op de fjell, piekweken zijn 10–12 maanden vooruit volgeboekt.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Appartementen en kamers op loopafstand in het dorp, vanaf €100/nacht.' },
-    { name: 'Alle Levi-accommodaties', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Vergelijk alle Levi-hotels en chalets op Trip.com.' },
+    { name: 'Alle Levi-accommodaties', href: HOTEL_SEARCH_FOR('nl').levi, sid: 'destination_levi_all_search', note: 'Vergelijk alle Levi-hotels en chalets op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Kittilä (KTT)', detail: 'Directe wintervluchten LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min naar het dorp Levi.' },
@@ -427,7 +427,7 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
     { mode: 'train', label: 'Nachttrein naar Kolari', detail: 'VR-slaaptrein vanuit Helsinki ~€90, daarna 1 uur transfer naar Levi. Schilderachtig winteralternatief.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('nl').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Ophalen op luchthaven Kittilä (KTT)',
     blurb: '15 min van het dorp Levi · winterspijkerbanden standaard',
@@ -481,7 +481,7 @@ const ja: DestinationBody = {
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上のガラスイグルー。ピーク週は10〜12か月前に予約が埋まります。' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: '村中心の徒歩圏アパートメント・客室、1泊100ユーロから。' },
-    { name: 'レビのすべての宿泊施設', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Trip.comでレビのホテルとシャレーをまとめて比較できます。' },
+    { name: 'レビのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').levi, sid: 'destination_levi_all_search', note: 'Trip.comでレビのホテルとシャレーをまとめて比較できます。' },
   ],
   transport: [
     { mode: 'plane', label: 'キッティラ空港(KTT)から', detail: 'LHR · CDG · AMS · FRA · ZRH · HEL からの冬季直行便。レビ村まで15km / 15分。' },
@@ -490,7 +490,7 @@ const ja: DestinationBody = {
     { mode: 'train', label: 'コラリ行き夜行列車', detail: 'ヘルシンキ発VR寝台車約90ユーロ、その後1時間の送迎でレビへ。冬季の景観を楽しむ代替ルートです。' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('ja').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'キッティラ空港(KTT)で受け取り',
     blurb: 'レビ村まで15分・冬季はスパイクタイヤ標準装備',
@@ -544,7 +544,7 @@ Desde Helsinki, el tren nocturno a Kolari y 1 hora de traslado es una alternativ
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglús de cristal en el fell, las semanas punta se reservan con 10–12 meses de antelación.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Apartamentos y habitaciones en el pueblo, a pie, desde 100 €/noche.' },
-    { name: 'Todos los alojamientos de Levi', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Compare todos los hoteles y chalets de Levi en Trip.com.' },
+    { name: 'Todos los alojamientos de Levi', href: HOTEL_SEARCH_FOR('es').levi, sid: 'destination_levi_all_search', note: 'Compare todos los hoteles y chalets de Levi en Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Desde el aeropuerto de Kittilä (KTT)', detail: 'Vuelos directos invernales LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min al pueblo de Levi.' },
@@ -553,7 +553,7 @@ Desde Helsinki, el tren nocturno a Kolari y 1 hora de traslado es una alternativ
     { mode: 'train', label: 'Tren nocturno a Kolari', detail: 'Coche cama VR desde Helsinki ~90 €, después 1 h de traslado a Levi. Alternativa panorámica en invierno.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('es').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Recogida en el aeropuerto de Kittilä (KTT)',
     blurb: '15 min del pueblo de Levi · neumáticos con clavos de invierno de serie',
@@ -607,7 +607,7 @@ De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglus de vidro no fell, semanas de pico são reservadas com 10–12 meses de antecedência.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Apartamentos e quartos a pé na vila, a partir de €100/noite.' },
-    { name: 'Todas as hospedagens de Levi', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Compare todos os hotéis e chalés de Levi no Trip.com.' },
+    { name: 'Todas as hospedagens de Levi', href: HOTEL_SEARCH_FOR('pt-BR').levi, sid: 'destination_levi_all_search', note: 'Compare todos os hotéis e chalés de Levi no Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Do Aeroporto de Kittilä (KTT)', detail: 'Voos diretos de inverno LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min até a vila de Levi.' },
@@ -616,7 +616,7 @@ De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa
     { mode: 'train', label: 'Trem noturno para Kolari', detail: 'Vagão-leito VR de Helsinque ~€90, depois 1 h de traslado até Levi. Alternativa panorâmica no inverno.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('pt-BR').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Retirada no Aeroporto de Kittilä (KTT)',
     blurb: '15 min da vila de Levi · pneus com cravos de inverno de série',
@@ -670,7 +670,7 @@ const zhCN: DestinationBody = {
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上的玻璃冰屋。旺季周次需提前10–12个月预订。' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: '村内步行可达的公寓与客房,每晚100欧元起。' },
-    { name: '莱维所有住宿', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: '在Trip.com比较莱维所有酒店与木屋。' },
+    { name: '莱维所有住宿', href: HOTEL_SEARCH_FOR('zh-CN').levi, sid: 'destination_levi_all_search', note: '在Trip.com比较莱维所有酒店与木屋。' },
   ],
   transport: [
     { mode: 'plane', label: '从基蒂莱机场(KTT)出发', detail: '冬季直飞LHR · CDG · AMS · FRA · ZRH · HEL。距莱维村15公里 / 15分钟。' },
@@ -679,7 +679,7 @@ const zhCN: DestinationBody = {
     { mode: 'train', label: '至Kolari的夜班列车', detail: '从赫尔辛基出发的VR卧铺车约90欧元,再换乘1小时抵达莱维。冬季风景优美的备选。' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('zh-CN').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: '基蒂莱机场(KTT)取车',
     blurb: '距莱维村15分钟 · 冬季标配防滑钉胎',
@@ -733,7 +733,7 @@ Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert al
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasigloor på fjället, högsäsongsveckorna bokas 10–12 månader i förväg.' },
     { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Lägenheter och rum i byn med gångavstånd, från 100 €/natt.' },
-    { name: 'Alla boenden i Levi', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Jämför alla hotell och stugor i Levi på Trip.com.' },
+    { name: 'Alla boenden i Levi', href: HOTEL_SEARCH_FOR('sv').levi, sid: 'destination_levi_all_search', note: 'Jämför alla hotell och stugor i Levi på Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Från Kittilä flygplats (KTT)', detail: 'Direkta vinterflyg LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min till Levi by.' },
@@ -742,7 +742,7 @@ Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert al
     { mode: 'train', label: 'Nattåg till Kolari', detail: 'VR:s sovvagn från Helsingfors ca 90 €, sedan 1 h transfer till Levi. Vackert alternativ på vintern.' },
   ],
   carRental: {
-    href: CARS.fromKittila,
+    href: CARS_FOR('sv').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Upphämtning på Kittilä flygplats (KTT)',
     blurb: '15 min från Levi by · dubbdäck som standard på vintern',

@@ -9,7 +9,7 @@ import { REVIEWED_DATE } from '../lib/reviewDates'
 import Newsletter from '../components/Newsletter'
 import PageBreadcrumb from '../components/PageBreadcrumb'
 import TripCTA from '../components/TripCTA'
-import { CARS, HOTEL_SEARCH, buildAffiliateUrl } from '../lib/affiliate'
+import { CARS_FOR, HOTEL_SEARCH_FOR, buildAffiliateUrl } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import AdUnit from '../../../shared/ads/AdUnit'
 import semboAd from '../../../shared/ads/advertisers/sembo'
@@ -87,11 +87,12 @@ function usePageCopy(): PageCopy {
 }
 
 
-const AIRPORT_META = [
-  { iata: 'rvn', carsHref: CARS.fromRovaniemi, carsSid: 'transport_cars_rvn', flightSid: 'transport_flight_hel_rvn' },
-  { iata: 'ktt', carsHref: CARS.fromKittila, carsSid: 'transport_cars_ktt', flightSid: 'transport_flight_hel_ktt' },
-  { iata: 'ivl', carsHref: CARS.fromIvalo, carsSid: 'transport_cars_ivl', flightSid: 'transport_flight_hel_ivl' },
-  { iata: 'enf', carsHref: CARS.generic, carsSid: 'transport_cars_enf', flightSid: 'transport_flight_hel_enf' },
+// Per language, not per module load (see lib/affiliate.ts).
+const airportMetaFor = (lang: Lang) => [
+  { iata: 'rvn', carsHref: CARS_FOR(lang).fromRovaniemi, carsSid: 'transport_cars_rvn', flightSid: 'transport_flight_hel_rvn' },
+  { iata: 'ktt', carsHref: CARS_FOR(lang).fromKittila, carsSid: 'transport_cars_ktt', flightSid: 'transport_flight_hel_ktt' },
+  { iata: 'ivl', carsHref: CARS_FOR(lang).fromIvalo, carsSid: 'transport_cars_ivl', flightSid: 'transport_flight_hel_ivl' },
+  { iata: 'enf', carsHref: CARS_FOR(lang).generic, carsSid: 'transport_cars_enf', flightSid: 'transport_flight_hel_enf' },
 ]
 
 export default function Transport() {
@@ -102,8 +103,8 @@ export default function Transport() {
   const onClick = (sid: string, href: string) => () => trackAffiliateClick('economybookings', sid, href)
   const onHotels = (sid: string, href: string) => () => trackAffiliateClick('hotelscom', sid, href)
 
-  const carsFromHelsinki = CARS.fromHelsinki
-  const carsRovaniemiOneWay = buildAffiliateUrl({ partner: 'cars', sid: 'transport_cars_rvn_oneway', query: { pickup_location: 'RVN' } })
+  const carsFromHelsinki = CARS_FOR(lang).fromHelsinki
+  const carsRovaniemiOneWay = buildAffiliateUrl({ partner: 'cars', sid: 'transport_cars_rvn_oneway', query: { pickup_location: 'RVN' }, lang })
 
   return (
     <>
@@ -162,7 +163,7 @@ export default function Transport() {
 
           <div className="space-y-5">
             {ui.airports.map((a, i) => {
-              const meta = AIRPORT_META[i]
+              const meta = airportMetaFor(lang)[i]
               return (
                 <div key={a.code} className="bg-gradient-to-r from-pink/5 to-white border border-pink/10 rounded-2xl p-6 sm:p-7">
                   <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 items-start">
@@ -240,7 +241,9 @@ export default function Transport() {
               </ul>
               <p>
                 {ui.railP2Pre}
-                <a href="https://www.vr.fi" target="_blank" rel="noopener" className="text-pink hover:underline font-semibold">vr.fi</a>
+                {/* Operator's own site (no affiliate program) → UTM so the referral
+                    shows up in VR's analytics as LaplandVibes, per network policy. */}
+                <a href="https://www.vr.fi/?utm_source=laplandvibes&utm_medium=referral&utm_campaign=laplandstays_transport" target="_blank" rel="noopener" className="text-pink hover:underline font-semibold">vr.fi</a>
                 {ui.railP2Mid}
               </p>
               <div className="flex flex-wrap gap-2 pt-1">
@@ -369,10 +372,10 @@ export default function Transport() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={HOTEL_SEARCH.lapland}
+              href={HOTEL_SEARCH_FOR(lang).lapland}
               target="_blank"
               rel="sponsored nofollow noopener"
-              onClick={onHotels('transport_cta_lapland', HOTEL_SEARCH.lapland)}
+              onClick={onHotels('transport_cta_lapland', HOTEL_SEARCH_FOR(lang).lapland)}
               className="bg-pink hover:bg-pink/90 text-white font-semibold py-4 px-8 rounded-xl transition-colors text-sm uppercase tracking-widest inline-flex items-center justify-center gap-2"
             >
               {ui.ctaPrimary}

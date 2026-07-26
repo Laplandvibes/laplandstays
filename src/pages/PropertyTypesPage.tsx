@@ -10,7 +10,7 @@ import PageBreadcrumb from '../components/PageBreadcrumb'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import ReviewedBy from '../components/ReviewedBy'
 import { REVIEWED_DATE } from '../lib/reviewDates'
-import { HOTEL_SEARCH, buildAffiliateUrl } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR, buildAffiliateUrl } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import type { PageCopy } from './PropertyTypesPage.copy.types'
@@ -79,7 +79,8 @@ interface CategoryProps {
 }
 
 function AnchorPill({ name, propertyQuery, sid }: Anchor) {
-  const href = buildAffiliateUrl({ partner: 'hotels', sid, destination: propertyQuery })
+  const lang = useLang()
+  const href = buildAffiliateUrl({ partner: 'hotels', sid, destination: propertyQuery, lang })
   return (
     <a
       href={href}
@@ -233,7 +234,8 @@ function usePageCopy(): PageCopy {
 }
 
 
-const CATEGORY_META = [
+// Per language, not per module load: locale decides Sembo (fi) vs Trip.com.
+const categoryMetaFor = (lang: Lang) => [
   {
     id: 'aurora-villas',
     Icon: Sparkles,
@@ -248,7 +250,7 @@ const CATEGORY_META = [
       { name: 'Arctic SnowHotel & Glass Igloos', propertyQuery: 'Arctic Snow Hotel', sid: 'property_aurora_arctic_snow' },
     ],
     concentratedSlugs: ['saariselka', 'levi', 'inari', 'rovaniemi'],
-    ctaHref: HOTEL_SEARCH.auroraGlass,
+    ctaHref: HOTEL_SEARCH_FOR(lang).auroraGlass,
     ctaSid: 'property_aurora_glass_section_cta',
     image: '/images/aurora-villas.webp',
     bg: 'bg-white',
@@ -267,7 +269,7 @@ const CATEGORY_META = [
       { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'property_lakeside_harriniva' },
     ],
     concentratedSlugs: ['inari', 'rovaniemi', 'saariselka'],
-    ctaHref: HOTEL_SEARCH.lakesideCabin,
+    ctaHref: HOTEL_SEARCH_FOR(lang).lakesideCabin,
     ctaSid: 'property_lakeside_cabin_section_cta',
     image: '/images/lakeside-cabins.webp',
     bg: 'bg-gradient-to-b from-white to-pink/5',
@@ -287,7 +289,7 @@ const CATEGORY_META = [
       { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'property_chalet_harriniva' },
     ],
     concentratedSlugs: ['levi', 'yllas'],
-    ctaHref: HOTEL_SEARCH.mountainChalet,
+    ctaHref: HOTEL_SEARCH_FOR(lang).mountainChalet,
     ctaSid: 'property_mountain_chalet_section_cta',
     image: '/images/mountain-chalets.webp',
     bg: 'bg-white',
@@ -305,7 +307,7 @@ const CATEGORY_META = [
       { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'property_designer_star_arctic' },
     ],
     concentratedSlugs: ['rovaniemi', 'inari'],
-    ctaHref: HOTEL_SEARCH.designerLodge,
+    ctaHref: HOTEL_SEARCH_FOR(lang).designerLodge,
     ctaSid: 'property_designer_lodge_section_cta',
     image: '/images/designer-lodges.webp',
     bg: 'bg-gradient-to-b from-white to-pink/5',
@@ -414,7 +416,7 @@ export default function PropertyTypesPage() {
       <PropertyTypes />
 
       {cats.map((cat, i) => {
-        const meta = CATEGORY_META[i]
+        const meta = categoryMetaFor(lang)[i]
         return (
           <CategorySection
             key={meta.id}

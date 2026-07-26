@@ -175,7 +175,7 @@ export default function DestinationPage(p: DestinationPageProps) {
     p.body.nl ?? p.body.en,
     p.body.sv ?? p.body.en,
   )
-  const searchUrl = buildHotelSearch(`${p.name}, Finland`, `destination_${p.slug}`)
+  const searchUrl = buildHotelSearch(`${p.name}, Finland`, `destination_${p.slug}`, lang)
   const pfx = ecoPrefix[lang]
 
   const breadcrumbJsonLd = {
@@ -416,6 +416,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                       partner: 'hotels',
                       sid: a.sid,
                       destination: a.propertyQuery ?? a.name,
+                      lang,
                     })
                     return (
                     <li key={a.name}>

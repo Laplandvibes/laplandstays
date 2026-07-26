@@ -8,7 +8,7 @@ import ReviewedBy from '../components/ReviewedBy'
 import { REVIEWED_DATE } from '../lib/reviewDates'
 import Newsletter from '../components/Newsletter'
 import PageBreadcrumb from '../components/PageBreadcrumb'
-import { HOTEL_SEARCH } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import type { PageCopy } from './WhenToGo.copy.types'
@@ -92,7 +92,7 @@ export default function WhenToGo() {
   const lang = useLang()
   const copy = usePageCopy()
   const { seo, ui } = copy
-  const onCta = (cta: string) => () => trackAffiliateClick('hotelscom', `whentogo_${cta}`, HOTEL_SEARCH.lapland)
+  const onCta = (cta: string) => () => trackAffiliateClick('hotelscom', `whentogo_${cta}`, HOTEL_SEARCH_FOR(lang).lapland)
 
   return (
     <>
@@ -233,7 +233,7 @@ export default function WhenToGo() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href={HOTEL_SEARCH.lapland}
+              href={HOTEL_SEARCH_FOR(lang).lapland}
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={onCta('lapland_search')}

@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { Menu, X, Globe, ChevronDown } from 'lucide-react'
-import { HOTEL_SEARCH } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, stripLocale, pick } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
@@ -53,13 +53,13 @@ export default function Nav() {
 
   const homePath = to('/')
   const isHome = location.pathname === homePath
-  const bookHref = isHome ? '#search' : HOTEL_SEARCH.navBookNow
+  const bookHref = isHome ? '#search' : HOTEL_SEARCH_FOR(lang).navBookNow
   const bookProps = isHome
     ? {}
     : {
         target: '_blank' as const,
         rel: 'sponsored nofollow noopener',
-        onClick: () => trackAffiliateClick('hotelscom', 'nav_book_now', HOTEL_SEARCH.navBookNow),
+        onClick: () => trackAffiliateClick('hotelscom', 'nav_book_now', HOTEL_SEARCH_FOR(lang).navBookNow),
       }
 
   type LangCode = 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl' | 'sv'
@@ -264,7 +264,7 @@ export default function Nav() {
                 ? {}
                 : { target: '_blank' as const, rel: 'sponsored nofollow noopener' })}
               onClick={() => {
-                if (!isHome) trackAffiliateClick('hotelscom', 'nav_book_now_mobile', HOTEL_SEARCH.navBookNow)
+                if (!isHome) trackAffiliateClick('hotelscom', 'nav_book_now_mobile', HOTEL_SEARCH_FOR(lang).navBookNow)
                 setOpen(false)
               }}
               className="mt-4 px-4 py-3.5 text-white text-base font-semibold rounded-xl text-center uppercase tracking-wider"

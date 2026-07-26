@@ -2,15 +2,19 @@ import { useEffect, useState } from 'react'
 import { useLocation } from 'react-router-dom'
 import { ArrowRight } from 'lucide-react'
 import { buildAffiliateUrl } from '../lib/affiliate'
+import { useLang, type Lang } from '../i18n/useLang'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useCopy } from '../locales/copy'
 
-// Dedicated SID so CJ Reports / GA4 can attribute mobile sticky-bar clicks
+// Dedicated SID so partner reports / GA4 can attribute mobile sticky-bar clicks
 // separately from the hero CTA (different placement, different intent).
-const STICKY_HREF = buildAffiliateUrl({
+// Built per language, not per module load: `locale` decides whether the Worker
+// sends the visitor to Sembo (fi) or Trip.com.
+const stickyHrefFor = (lang: Lang) => buildAffiliateUrl({
   partner: 'hotels',
   sid: 'mobile_sticky_cta',
   destination: 'Rovaniemi, Finland',
+  lang,
 })
 
 /**
@@ -30,6 +34,8 @@ const HIDE_ON_PATHS = /\/(privacy|terms|cookie-policy)\/?$/
 
 export default function MobileStickyCta() {
   const [visible, setVisible] = useState(false)
+  const lang = useLang()
+  const stickyHref = stickyHrefFor(lang)
   const { pathname } = useLocation()
   const c = useCopy().mobileStickyCta
 
@@ -60,10 +66,10 @@ export default function MobileStickyCta() {
             <p className="text-[13px] text-white font-semibold leading-tight truncate">{c.headline}</p>
           </div>
           <a
-            href={STICKY_HREF}
+            href={stickyHref}
             target="_blank"
             rel="sponsored nofollow noopener"
-            onClick={() => trackAffiliateClick('hotelscom', 'mobile_sticky_cta', STICKY_HREF)}
+            onClick={() => trackAffiliateClick('hotelscom', 'mobile_sticky_cta', stickyHref)}
             className="shrink-0 inline-flex items-center gap-1.5 bg-pink hover:bg-pink/90 text-white font-bold text-[13px] uppercase tracking-wider px-4 py-2.5 rounded-lg whitespace-nowrap"
           >
             {c.cta}

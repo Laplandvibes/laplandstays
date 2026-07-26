@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { ArrowRight, Sparkles, TreePine, Snowflake, Mountain, Building2 } from 'lucide-react'
-import { HOTEL_SEARCH, buildHotelSearch } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR, buildHotelSearch } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import AffiliateDisclosure from './AffiliateDisclosure'
 import { useLang, type Lang } from '../i18n/useLang'
@@ -11,12 +11,13 @@ import enCopy from './PriceGuide.copy.en'
 // The € figures live here rather than in the copy files: the numbers are the
 // same in every language, only their formatting differs (fi "1 500 €", en
 // "€1,500"), and Intl derives that from the locale further down.
-const TIER_META = [
-  { icon: Sparkles, from: 250, to: 1500, cta: HOTEL_SEARCH.auroraGlass, campaign: 'price-glass-igloo' },
-  { icon: TreePine, from: 150, to: 700, cta: HOTEL_SEARCH.lakesideCabin, campaign: 'price-aurora-cabin' },
-  { icon: Snowflake, from: 150, to: 400, cta: buildHotelSearch('Kittilä, Finland', 'property_snow_hotel'), campaign: 'price-snow-hotel' },
-  { icon: Mountain, from: 200, to: 600, cta: HOTEL_SEARCH.designerLodge, campaign: 'price-wilderness-lodge' },
-  { icon: Building2, from: 100, to: 350, cta: HOTEL_SEARCH.hotel, campaign: 'price-hotel-chain' },
+// Per language, not per module load: locale decides Sembo (fi) vs Trip.com.
+const tierMetaFor = (lang: Lang) => [
+  { icon: Sparkles, from: 250, to: 1500, cta: HOTEL_SEARCH_FOR(lang).auroraGlass, campaign: 'price-glass-igloo' },
+  { icon: TreePine, from: 150, to: 700, cta: HOTEL_SEARCH_FOR(lang).lakesideCabin, campaign: 'price-aurora-cabin' },
+  { icon: Snowflake, from: 150, to: 400, cta: buildHotelSearch('Kittilä, Finland', 'property_snow_hotel', lang), campaign: 'price-snow-hotel' },
+  { icon: Mountain, from: 200, to: 600, cta: HOTEL_SEARCH_FOR(lang).designerLodge, campaign: 'price-wilderness-lodge' },
+  { icon: Building2, from: 100, to: 350, cta: HOTEL_SEARCH_FOR(lang).hotel, campaign: 'price-hotel-chain' },
 ]
 
 // Shared scale for every range bar. Starts at the cheapest room on the page
@@ -223,7 +224,7 @@ export default function PriceGuide() {
           </div>
 
           {copy.tiers.map((tier, i) => {
-            const meta = TIER_META[i]
+            const meta = tierMetaFor(lang)[i]
             const Icon = meta.icon
             const [r, g, b] = rampRgb(pct(meta.to) / 100)
             const accent = `rgb(${r} ${g} ${b})`

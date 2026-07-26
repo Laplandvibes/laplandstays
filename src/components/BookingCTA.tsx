@@ -1,5 +1,5 @@
 import { ArrowRight, ShieldCheck, Clock, Headphones, BadgeCheck, Calendar, MapPin } from 'lucide-react'
-import { HOTEL_SEARCH } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
@@ -30,8 +30,8 @@ const cache: Partial<Record<Lang, Copy>> = {}
 export default function BookingCTA() {
   const lang = useLang()
   const c = useCopy<Copy>(enCopy, loaders, cache)
-  const onPrimary = () => trackAffiliateClick('hotelscom', 'final_cta_primary', HOTEL_SEARCH.lapland)
-  const onSecondary = () => trackAffiliateClick('hotelscom', 'final_cta_secondary', HOTEL_SEARCH.levi)
+  const onPrimary = () => trackAffiliateClick('hotelscom', 'final_cta_primary', HOTEL_SEARCH_FOR(lang).lapland)
+  const onSecondary = () => trackAffiliateClick('hotelscom', 'final_cta_secondary', HOTEL_SEARCH_FOR(lang).levi)
 
   return (
     <section className="py-20 sm:py-28 px-4 sm:px-6 relative overflow-hidden">
@@ -70,7 +70,7 @@ export default function BookingCTA() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-14">
           <a
-            href={HOTEL_SEARCH.lapland}
+            href={HOTEL_SEARCH_FOR(lang).lapland}
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onPrimary}
@@ -80,7 +80,7 @@ export default function BookingCTA() {
             <ArrowRight className="w-4 h-4" />
           </a>
           <a
-            href={HOTEL_SEARCH.levi}
+            href={HOTEL_SEARCH_FOR(lang).levi}
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onSecondary}

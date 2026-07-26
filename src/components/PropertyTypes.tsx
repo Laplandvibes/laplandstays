@@ -1,17 +1,18 @@
 import { Sparkles, TreePine, Mountain, Gem, ArrowRight } from 'lucide-react'
-import { HOTEL_SEARCH } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
-import { type Lang } from '../i18n/useLang'
+import { useLang, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
 import enCopy from './PropertyTypes.copy.en'
 import type { Copy } from './PropertyTypes.copy.types'
 
 
-const META = [
-  { icon: Sparkles, image: '/images/aurora-villas.webp', href: HOTEL_SEARCH.auroraGlass, campaign: 'aurora-glass' },
-  { icon: TreePine, image: '/images/lakeside-cabins.webp', href: HOTEL_SEARCH.lakesideCabin, campaign: 'lakeside-cabin' },
-  { icon: Mountain, image: '/images/mountain-chalets.webp', href: HOTEL_SEARCH.mountainChalet, campaign: 'mountain-chalet' },
-  { icon: Gem, image: '/images/designer-lodges.webp', href: HOTEL_SEARCH.designerLodge, campaign: 'designer-lodge' },
+// Per language, not per module load: `locale` decides Sembo (fi) vs Trip.com.
+const metaFor = (lang: Lang) => [
+  { icon: Sparkles, image: '/images/aurora-villas.webp', href: HOTEL_SEARCH_FOR(lang).auroraGlass, campaign: 'aurora-glass' },
+  { icon: TreePine, image: '/images/lakeside-cabins.webp', href: HOTEL_SEARCH_FOR(lang).lakesideCabin, campaign: 'lakeside-cabin' },
+  { icon: Mountain, image: '/images/mountain-chalets.webp', href: HOTEL_SEARCH_FOR(lang).mountainChalet, campaign: 'mountain-chalet' },
+  { icon: Gem, image: '/images/designer-lodges.webp', href: HOTEL_SEARCH_FOR(lang).designerLodge, campaign: 'designer-lodge' },
 ]
 
 
@@ -33,7 +34,9 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 const cache: Partial<Record<Lang, Copy>> = {}
 
 export default function PropertyTypes() {
+  const lang = useLang()
   const c = useCopy<Copy>(enCopy, loaders, cache)
+  const META = metaFor(lang)
   const types = c.types.map((t, i) => ({ ...t, ...META[i] }))
 
   const onClick = (campaign: string, href: string) => () => {

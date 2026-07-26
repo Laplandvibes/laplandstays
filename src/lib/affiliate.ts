@@ -83,8 +83,10 @@ export interface BuildAffiliateOptions {
   destination?: string
   /** Any additional query params (checkin, pickup_date, adults, etc). */
   query?: Record<string, string | number | undefined>
-  /** Active site language; defaults to "en" for backwards compat. */
-  lang?: Lang;
+  /** Active site language. REQUIRED: it becomes the `locale` param, and the
+   *  go/hotels Worker routes fi_FI to Sembo and everything else to Trip.com.
+   *  An optional-with-"en"-default sent Finnish visitors past Sembo unnoticed. */
+  lang: Lang;
 }
 
 export function buildAffiliateUrl({
@@ -92,7 +94,7 @@ export function buildAffiliateUrl({
   sid,
   destination,
   query,
-  lang = "en",
+  lang,
 }: BuildAffiliateOptions): string {
   // ─── GYG direct deep-link (Worker-bypass) ─────────────────────────────
   if (partner === "activities") {
@@ -140,13 +142,14 @@ export function buildAffiliateUrl({
 // ─── Convenience: search-style hotel URL ─────────────────────────────────────
 // Use when a specific property name isn't known and we just want the destination
 // city's Hotels.com results. SID convention: snake_case, no domain prefix.
-export function buildHotelSearch(destination: string, sid: string): string {
-  return buildAffiliateUrl({ partner: 'hotels', sid, destination })
+export function buildHotelSearch(destination: string, sid: string, lang: Lang): string {
+  return buildAffiliateUrl({ partner: 'hotels', sid, destination, lang })
 }
 
 export function buildHotelSearchWithDates(
   destination: string,
   sid: string,
+  lang: Lang,
   checkIn?: string,
   checkOut?: string,
   adults?: number,
@@ -156,6 +159,7 @@ export function buildHotelSearchWithDates(
     sid,
     destination,
     query: { checkin: checkIn, checkout: checkOut, adults },
+    lang,
   })
 }
 
@@ -220,10 +224,10 @@ function buildPropertySearchLang(lang: Lang = "en") {
 // ─── EconomyBookings (cars) ──────────────────────────────────────────────────
 function buildCarsLang(lang: Lang = "en") {
   return {
-  fromHelsinki: buildAffiliateUrl({ partner: 'cars', sid: 'cars_helsinki', query: { pickup_location: 'HEL' } }),
-  fromRovaniemi: buildAffiliateUrl({ partner: 'cars', sid: 'cars_rovaniemi', query: { pickup_location: 'RVN' } }),
-  fromKittila: buildAffiliateUrl({ partner: 'cars', sid: 'cars_kittila', query: { pickup_location: 'KTT' } }),
-  fromIvalo: buildAffiliateUrl({ partner: 'cars', sid: 'cars_ivalo', query: { pickup_location: 'IVL' } }),
+  fromHelsinki: buildAffiliateUrl({ partner: 'cars', sid: 'cars_helsinki', query: { pickup_location: 'HEL' }, lang }),
+  fromRovaniemi: buildAffiliateUrl({ partner: 'cars', sid: 'cars_rovaniemi', query: { pickup_location: 'RVN' }, lang }),
+  fromKittila: buildAffiliateUrl({ partner: 'cars', sid: 'cars_kittila', query: { pickup_location: 'KTT' }, lang }),
+  fromIvalo: buildAffiliateUrl({ partner: 'cars', sid: 'cars_ivalo', query: { pickup_location: 'IVL' }, lang }),
   generic: buildAffiliateUrl({ partner: 'cars', sid: 'cars_generic', lang }),
   };
 }
@@ -267,12 +271,13 @@ export function buildLomarengasCabinUrl(slug: string, sid: string, lang: Lang = 
  *  Lomarengas product feed (pfid 375), grouped by resort, refreshed daily. */
 export const CABINS_API = `${REDIRECT_BASE}/_cabins`;
 
-/** Default EN-locale exports (backward compat — existing pages reference these as objects). */
-export const HOTEL_SEARCH = buildHotelSearchLang('en');
-export const PROPERTY_SEARCH = buildPropertySearchLang('en');
-export const CARS = buildCarsLang('en');
-
-/** Locale-aware factories — use these when you need DE/FI URLs. */
+/** Locale-aware factories — the ONLY way to build these URLs.
+ *
+ *  There used to be `HOTEL_SEARCH`/`PROPERTY_SEARCH`/`CARS` constants frozen to
+ *  'en' "for backward compat". They were a silent revenue leak: the go/hotels
+ *  Worker routes locale=fi_FI to Sembo (9 % / 45 d) and every other locale to
+ *  Trip.com, so every page that used the frozen objects sent Finnish visitors
+ *  past Sembo. Removed 2026-07-26 — always pass the visitor's language. */
 export const HOTEL_SEARCH_FOR = buildHotelSearchLang;
 export const PROPERTY_SEARCH_FOR = buildPropertySearchLang;
 export const CARS_FOR = buildCarsLang;

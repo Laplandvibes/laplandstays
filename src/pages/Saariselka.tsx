@@ -1,5 +1,5 @@
 import DestinationPage, { type DestinationBody } from '../components/DestinationPage'
-import { HOTEL_SEARCH, CARS } from '../lib/affiliate'
+import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
 
 const en: DestinationBody = {
   tagline: "The gateway to Urho Kekkonen National Park, premium cabins at the edge of Europe's last real wilderness.",
@@ -41,7 +41,7 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'The original glass igloos. Books 8–12 mo ahead for peak aurora.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'On Kaunispää fell, glass-roofed rooms with the best Saariselkä village skyline.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'All-suite designer lodge with full safari programme.' },
-    { name: 'All Saariselkä accommodation', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Browse every Saariselkä property on Trip.com.' },
+    { name: 'All Saariselkä accommodation', href: HOTEL_SEARCH_FOR('en').saariselka, sid: 'destination_saariselka_all_search', note: 'Browse every Saariselkä property on Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Ivalo Airport (IVL)', detail: 'Direct winter flights from HEL · LHR · CDG. 30 km / 30 min south to Saariselkä village.' },
@@ -50,7 +50,7 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
     { mode: 'train', label: 'Helsinki–Rovaniemi sleeper', detail: 'VR overnight train to Rovaniemi (~€90), then 4-hour bus or rental car. Slow alternative to flying IVL.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('en').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Pickup at Ivalo Airport (IVL)',
     blurb: '30 min to Saariselkä · useful for the Inari/Lake Inari side-trip',
@@ -105,7 +105,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Alkuperäiset lasi-iglut. Varataan 8–12 kk etukäteen revontuli-huipulle.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Kaunispään tunturilla, lasikattoiset huoneet ja paras näkymä Saariselän kylälle.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Pelkkiä sviittejä, design-erämaakohde täydellä safariohjelmalla.' },
-    { name: 'Kaikki Saariselän majoitukset', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Selaa kaikki Saariselän kohteet Trip.comissa.' },
+    { name: 'Kaikki Saariselän majoitukset', href: HOTEL_SEARCH_FOR('fi').saariselka, sid: 'destination_saariselka_all_search', note: 'Selaa kaikki Saariselän kohteet Sembossa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ivalon lentokentältä (IVL)', detail: 'Suorat talvilennot HEL · LHR · CDG. 30 km / 30 min etelään Saariselän kylälle.' },
@@ -114,7 +114,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
     { mode: 'train', label: 'Helsinki–Rovaniemi-makuujuna', detail: 'VR:n yöjuna Rovaniemelle (~90 €), sitten 4 tunnin bussi tai vuokra-auto. Hidas vaihtoehto IVL-lennon sijaan.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('fi').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Nouto Ivalon lentokentältä (IVL)',
     blurb: '30 min Saariselälle · hyödyllinen Inarin/Inarijärven sivumatkalle',
@@ -169,7 +169,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Die ursprünglichen Glasiglus. 8–12 Monate im Voraus für die Polarlicht-Hauptsaison ausgebucht.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Auf dem Fjäll Kaunispää, Räume mit Glasdach und der beste Blick auf das Dorf.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Nur Suiten, Designer-Lodge mit vollem Safari-Programm.' },
-    { name: 'Alle Saariselkä-Unterkünfte', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Stöbern Sie in allen Unterkünften auf Trip.com.' },
+    { name: 'Alle Saariselkä-Unterkünfte', href: HOTEL_SEARCH_FOR('de').saariselka, sid: 'destination_saariselka_all_search', note: 'Stöbern Sie in allen Unterkünften auf Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Ivalo (IVL)', detail: 'Direkte Winterflüge ab HEL · LHR · CDG. 30 km / 30 min südlich ins Dorf Saariselkä.' },
@@ -178,7 +178,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { mode: 'train', label: 'Nachtzug Helsinki–Rovaniemi', detail: 'VR-Nachtzug nach Rovaniemi (~90 €), dann 4-stündiger Bus oder Mietwagen. Langsame Alternative zum IVL-Flug.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('de').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Abholung am Flughafen Ivalo (IVL)',
     blurb: '30 min nach Saariselkä · nützlich für den Inari/Inarisee-Abstecher',
@@ -233,7 +233,7 @@ const ko: DestinationBody = {
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '글래스 이글루의 원조. 오로라 성수기는 8–12개월 전 마감.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Kaunispää 봉우리 위. 유리 천장 객실과 사리셀카 최고의 스카이라인 뷰.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: '전 객실 스위트의 디자이너 로지, 풀 사파리 프로그램 포함.' },
-    { name: '사리셀카 전체 숙소', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.com에서 사리셀카의 모든 숙소를 비교하세요.' },
+    { name: '사리셀카 전체 숙소', href: HOTEL_SEARCH_FOR('ko').saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.com에서 사리셀카의 모든 숙소를 비교하세요.' },
   ],
   transport: [
     { mode: 'plane', label: '이발로 공항(IVL)에서', detail: 'HEL · LHR · CDG 겨울 직항편. 사리셀카 마을까지 남쪽으로 30km / 30분.' },
@@ -242,7 +242,7 @@ const ko: DestinationBody = {
     { mode: 'train', label: '헬싱키–로바니에미 침대 열차', detail: '로바니에미까지 VR 야간 열차(약 90€), 이후 버스 또는 렌터카로 4시간. IVL 항공편의 대안이지만 시간이 더 소요됩니다.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('ko').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: '이발로 공항(IVL) 픽업',
     blurb: '사리셀카까지 30분 · 이나리·이나리 호수 사이드트립에 유용',
@@ -297,7 +297,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Les igloos de verre originels. Complets 8 à 12 mois à l\'avance en haute saison aurores.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sur le fjell Kaunispää, chambres à toit de verre et la plus belle ligne de toits sur Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge signé tout-suites avec programme safari complet.' },
-    { name: 'Tous les hébergements de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Parcourez chaque adresse de Saariselkä sur Trip.com.' },
+    { name: 'Tous les hébergements de Saariselkä', href: HOTEL_SEARCH_FOR('fr').saariselka, sid: 'destination_saariselka_all_search', note: 'Parcourez chaque adresse de Saariselkä sur Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Depuis l\'aéroport d\'Ivalo (IVL)', detail: 'Vols hivernaux directs HEL · LHR · CDG. 30 km / 30 min vers le sud jusqu\'au village.' },
@@ -306,7 +306,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
     { mode: 'train', label: 'Couchette Helsinki–Rovaniemi', detail: 'Train de nuit VR jusqu\'à Rovaniemi (~90 €), puis 4 h en bus ou voiture. Alternative lente au vol IVL.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('fr').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Prise en charge à l\'aéroport d\'Ivalo (IVL)',
     blurb: '30 min jusqu\'à Saariselkä · utile pour l\'excursion Inari / lac Inari',
@@ -361,7 +361,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Gli igloo di vetro originali. Si prenotano 8–12 mesi prima in alta stagione aurorale.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sul fjell Kaunispää, camere con tetto di vetro e la migliore vista sullo skyline di Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge solo suite di design con programma safari completo.' },
-    { name: 'Tutti gli alloggi di Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Esplori ogni struttura di Saariselkä su Trip.com.' },
+    { name: 'Tutti gli alloggi di Saariselkä', href: HOTEL_SEARCH_FOR('it').saariselka, sid: 'destination_saariselka_all_search', note: 'Esplori ogni struttura di Saariselkä su Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Dall\'aeroporto di Ivalo (IVL)', detail: 'Voli invernali diretti HEL · LHR · CDG. 30 km / 30 min verso sud fino al paese di Saariselkä.' },
@@ -370,7 +370,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
     { mode: 'train', label: 'Vagone letto Helsinki–Rovaniemi', detail: 'Treno notturno VR fino a Rovaniemi (~90 €), poi 4 ore in bus o auto a noleggio. Alternativa lenta al volo per IVL.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('it').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Ritiro all\'aeroporto di Ivalo (IVL)',
     blurb: '30 min fino a Saariselkä · utile per la gita a Inari/Lago Inari',
@@ -425,7 +425,7 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De oorspronkelijke glasiglo\'s. 8–12 maanden vooruit volgeboekt in aurora-hoogseizoen.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Op het Kaunispää-fjell, kamers met glazen dak en het mooiste zicht op Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Designerlodge met enkel suites en volledig safariprogramma.' },
-    { name: 'Alle Saariselkä-accommodaties', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Bekijk elke Saariselkä-accommodatie op Trip.com.' },
+    { name: 'Alle Saariselkä-accommodaties', href: HOTEL_SEARCH_FOR('nl').saariselka, sid: 'destination_saariselka_all_search', note: 'Bekijk elke Saariselkä-accommodatie op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Ivalo (IVL)', detail: 'Directe wintervluchten HEL · LHR · CDG. 30 km / 30 min zuidwaarts naar het dorp Saariselkä.' },
@@ -434,7 +434,7 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
     { mode: 'train', label: 'Slaaprijtuig Helsinki–Rovaniemi', detail: 'VR-nachttrein naar Rovaniemi (~€90), daarna 4 uur bus of huurauto. Langzamer alternatief voor de IVL-vlucht.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('nl').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Ophalen op luchthaven Ivalo (IVL)',
     blurb: '30 min naar Saariselkä · handig voor de zijtrip naar Inari/Inarimeer',
@@ -489,7 +489,7 @@ const ja: DestinationBody = {
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '元祖ガラス・イグルー。オーロラのピーク期は8〜12か月前に予約。' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'カウニスパー山上。ガラス屋根の客室から、サーリセルカ村のスカイラインが最も美しく見えます。' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'オールスイートのデザイナーロッジ。サファリ全プログラム付き。' },
-    { name: 'サーリセルカのすべての宿泊施設', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.comでサーリセルカの全宿を閲覧できます。' },
+    { name: 'サーリセルカのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.comでサーリセルカの全宿を閲覧できます。' },
   ],
   transport: [
     { mode: 'plane', label: 'イヴァロ空港(IVL)から', detail: 'HEL · LHR · CDG からの冬季直行便。30km / 30分南でサーリセルカ村。' },
@@ -498,7 +498,7 @@ const ja: DestinationBody = {
     { mode: 'train', label: 'ヘルシンキ〜ロヴァニエミ寝台', detail: 'VR夜行でロヴァニエミ(約90ユーロ)、その後バスかレンタカーで4時間。IVL便のゆったりした代替。' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('ja').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'イヴァロ空港(IVL)で受け取り',
     blurb: 'サーリセルカまで30分・イナリ/イナリ湖サイドトリップに便利',
@@ -553,7 +553,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Los iglús de cristal originales. Se reservan con 8–12 meses para la mejor aurora.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'En el fell Kaunispää, habitaciones con techo de cristal y la mejor línea del pueblo de Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge de diseño con todas las suites y programa completo de safaris.' },
-    { name: 'Todos los alojamientos de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Consulte todas las propiedades de Saariselkä en Trip.com.' },
+    { name: 'Todos los alojamientos de Saariselkä', href: HOTEL_SEARCH_FOR('es').saariselka, sid: 'destination_saariselka_all_search', note: 'Consulte todas las propiedades de Saariselkä en Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Desde el aeropuerto de Ivalo (IVL)', detail: 'Vuelos directos invernales desde HEL · LHR · CDG. 30 km / 30 min al sur hasta el pueblo de Saariselkä.' },
@@ -562,7 +562,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
     { mode: 'train', label: 'Coche cama Helsinki–Rovaniemi', detail: 'Tren nocturno VR a Rovaniemi (~90 €), después 4 h en autobús o coche de alquiler. Alternativa lenta al vuelo a IVL.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('es').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Recogida en el aeropuerto de Ivalo (IVL)',
     blurb: '30 min a Saariselkä · útil para la escapada a Inari/Lago Inari',
@@ -617,7 +617,7 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Os iglus de vidro originais. Reserve com 8–12 meses para o pico da aurora.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'No fell Kaunispää, quartos com teto de vidro e o melhor skyline da vila de Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge de design com todas as suítes e programa completo de safáris.' },
-    { name: 'Todas as hospedagens de Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Veja todas as propriedades de Saariselkä no Trip.com.' },
+    { name: 'Todas as hospedagens de Saariselkä', href: HOTEL_SEARCH_FOR('pt-BR').saariselka, sid: 'destination_saariselka_all_search', note: 'Veja todas as propriedades de Saariselkä no Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Do Aeroporto de Ivalo (IVL)', detail: 'Voos diretos de inverno de HEL · LHR · CDG. 30 km / 30 min ao sul até a vila de Saariselkä.' },
@@ -626,7 +626,7 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
     { mode: 'train', label: 'Vagão-leito Helsinque–Rovaniemi', detail: 'Trem noturno VR até Rovaniemi (~€90), depois 4 h de ônibus ou carro alugado. Alternativa lenta ao voo para IVL.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('pt-BR').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Retirada no Aeroporto de Ivalo (IVL)',
     blurb: '30 min até Saariselkä · útil para o bate-volta a Inari/Lago Inari',
@@ -681,7 +681,7 @@ const zhCN: DestinationBody = {
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '初代玻璃冰屋。极光旺季需提前8–12个月预订。' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: '位于Kaunispää山。玻璃屋顶客房俯瞰最佳的萨利瑟尔卡村轮廓。' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: '全套房设计师小屋,配有完整探险项目。' },
-    { name: '萨利瑟尔卡全部住宿', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: '在Trip.com浏览萨利瑟尔卡的所有房源。' },
+    { name: '萨利瑟尔卡全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').saariselka, sid: 'destination_saariselka_all_search', note: '在Trip.com浏览萨利瑟尔卡的所有房源。' },
   ],
   transport: [
     { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '冬季直飞自HEL · LHR · CDG。南行30公里 / 30分钟抵达萨利瑟尔卡村。' },
@@ -690,7 +690,7 @@ const zhCN: DestinationBody = {
     { mode: 'train', label: '赫尔辛基。罗瓦涅米卧铺', detail: 'VR夜车至罗瓦涅米(约90欧元),再乘巴士或租车4小时。是IVL直飞的慢速替代。' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('zh-CN').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: '伊瓦洛机场(IVL)取车',
     blurb: '至萨利瑟尔卡30分钟 · 便于前往伊纳里/伊纳里湖一日游',
@@ -745,7 +745,7 @@ Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort b
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De ursprungliga glasigloorna. Bokas 8–12 månader i förväg för norrskenshögsäsongen.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'På Kaunispääfjället, rum med glastak och den bästa utsikten över Saariselkä by.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Designlodge med bara sviter och ett fullt safariprogram.' },
-    { name: 'Alla boenden i Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Bläddra bland alla boenden i Saariselkä på Trip.com.' },
+    { name: 'Alla boenden i Saariselkä', href: HOTEL_SEARCH_FOR('sv').saariselka, sid: 'destination_saariselka_all_search', note: 'Bläddra bland alla boenden i Saariselkä på Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Från Ivalo flygplats (IVL)', detail: 'Direkta vinterflyg från HEL · LHR · CDG. 30 km / 30 min söderut till Saariselkä by.' },
@@ -754,7 +754,7 @@ Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort b
     { mode: 'train', label: 'Sovvagn Helsingfors–Rovaniemi', detail: 'VR:s nattåg till Rovaniemi (ca 90 €), sedan 4 timmars buss eller hyrbil. Ett långsamt alternativ till flyget till IVL.' },
   ],
   carRental: {
-    href: CARS.fromIvalo,
+    href: CARS_FOR('sv').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: 'Upphämtning på Ivalo flygplats (IVL)',
     blurb: '30 min till Saariselkä · praktiskt för utflykten till Inari och Inarisjön',
