@@ -58,7 +58,7 @@ For extended wilderness trips, the road continues to Utsjoki and the Norwegian b
   dayPlan: [
     { day: '01', title: 'Land · lakeside cabin', body: 'IVL midday flight, drive north to Inari village or further to Nellim. Settle, sauna, lake-edge walk. The Inari quiet sets in by hour two.' },
     { day: '02', title: 'Sámi culture · Siida museum', body: 'Morning at Siida (the indigenous Sámi museum, the most complete Sámi collection in the Nordics). Lunch in Inari village. Afternoon ice-fishing or a guided forest walk.' },
-    { day: '03', title: 'Lake Inari snowshoe', body: 'Head out onto frozen Inarijärvi by snowmobile with a guide, open ice with the sacred island Ukonkivi on the horizon (the island itself is off-limits). Dark by 14:30 in winter, back at the cabin for the long aurora window.' },
+    { day: '03', title: 'Lake Inari by snowmobile', body: 'Head out onto frozen Inarijärvi by snowmobile with a guide, open ice with the sacred island Ukonkivi on the horizon (the island itself is off-limits). Dark by 14:30 in winter, back at the cabin for the long aurora window.' },
     { day: '04', title: 'Slow departure', body: 'Reindeer farm visit, last sauna, drive back to IVL. Extend by 2 days if you can, Inari rewards slow.' },
   ],
   seoTitle: 'Inari Accommodation: Lakeside Cabins & Aurora Villas',
@@ -122,7 +122,7 @@ Pidemmille erämaamatkoille tie jatkuu Utsjokeen ja Norjan rajalle.`,
   dayPlan: [
     { day: '01', title: 'Lasku · rantamökki', body: 'IVL-keskipäivän lento, ajo pohjoiseen Inarin kylälle tai Nellimiin. Asettuminen, sauna, rannankäynti. Inarin hiljaisuus asettuu tunnin kahden kuluttua.' },
     { day: '02', title: 'Saamelaiskulttuuri · Siida-museo', body: 'Aamu Siidassa (alkuperäinen saamelaismuseo, hiljainen huippuluokan kokoelma). Lounas Inarin kylällä. Iltapäivällä pilkki tai opastettu metsäkävely.' },
-    { day: '03', title: 'Inarijärven lumikenkä', body: 'Lähde oppaan kanssa moottorikelkkaretkelle Inarijärven jäälle, pyhä Ukonsaari siintää horisontissa (saarelle ei nousta maihin). Pimeää klo 14:30 talvella, takaisin mökille pitkään revontuli-ikkunaan.' },
+    { day: '03', title: 'Inarijärvi moottorikelkalla', body: 'Lähde oppaan kanssa moottorikelkkaretkelle Inarijärven jäälle, pyhä Ukonsaari siintää horisontissa (saarelle ei nousta maihin). Pimeää klo 14:30 talvella, takaisin mökille pitkään revontuli-ikkunaan.' },
     { day: '04', title: 'Rauhallinen lähtö', body: 'Porotilakäynti, viimeinen sauna, ajo takaisin IVL:lle. Pidennä kahdella päivällä jos voit, Inari palkitsee hitaasti.' },
   ],
   seoTitle: 'Inarin majoitus: rantamökit ja aurora-villat',
@@ -186,7 +186,7 @@ Für ausgedehnte Wildnisreisen führt die Straße weiter nach Utsjoki und zur no
   dayPlan: [
     { day: '01', title: 'Landung · Seehütte', body: 'IVL-Mittagsflug, Fahrt nordwärts ins Dorf Inari oder weiter nach Nellim. Einrichten, Sauna, Spaziergang am Ufer. Die Inari-Stille setzt nach zwei Stunden ein.' },
     { day: '02', title: 'Sámi-Kultur · Siida-Museum', body: 'Vormittag im Siida (das indigene Sámi-Museum, die umfassendste Sámi-Sammlung der nordischen Länder). Mittag im Dorf Inari. Nachmittags Eisfischen oder geführter Waldspaziergang.' },
-    { day: '03', title: 'Inarisee-Schneeschuhwanderung', body: 'Geführte Schneemobiltour über das Eis des Inarisees, mit Blick auf die heilige Insel Ukonkivi (die Insel selbst darf nicht betreten werden). Dunkelheit ab 14:30 im Winter, zurück in der Hütte für das lange Polarlicht-Fenster.' },
+    { day: '03', title: 'Inarisee per Schneemobil', body: 'Geführte Schneemobiltour über das Eis des Inarisees, mit Blick auf die heilige Insel Ukonkivi (die Insel selbst darf nicht betreten werden). Dunkelheit ab 14:30 im Winter, zurück in der Hütte für das lange Polarlicht-Fenster.' },
     { day: '04', title: 'Ruhige Abreise', body: 'Besuch einer Rentierfarm, letzte Sauna, Rückfahrt nach IVL. Verlängern Sie um 2 Tage, wenn möglich, Inari belohnt Entschleunigung.' },
   ],
   seoTitle: 'Inari-Unterkünfte: Seehütten & Polarlicht-Villen',
@@ -250,7 +250,7 @@ const ko: DestinationBody = {
   dayPlan: [
     { day: '01', title: '도착 · 호숫가 캐빈', body: 'IVL 정오 항공편, 북쪽으로 운전해 이나리 마을 또는 Nellim까지. 짐 정리, 사우나, 호반 산책. 두 시간이면 이나리의 고요가 몸에 스며듭니다.' },
     { day: '02', title: '사미 문화 · Siida 박물관', body: '오전 Siida에서 시간 보내기(사미 토착 박물관, 북유럽에서 가장 충실한 사미 컬렉션). 이나리 마을에서 점심. 오후는 얼음 낚시 또는 가이드 숲 산책.' },
-    { day: '03', title: '이나리 호수 스노슈', body: '가이드와 함께 스노모빌로 얼어붙은 호수 위를 달립니다. 신성한 Ukko 섬이 수평선 위로 보입니다(섬에는 오르지 않습니다). 겨울에는 14:30이면 어두워지므로. 캐빈으로 돌아와 긴 오로라 윈도우를 누리세요.' },
+    { day: '03', title: '이나리 호수 스노모빌 투어', body: '가이드와 함께 스노모빌로 얼어붙은 호수 위를 달립니다. 신성한 Ukko 섬이 수평선 위로 보입니다(섬에는 오르지 않습니다). 겨울에는 14:30이면 어두워지므로. 캐빈으로 돌아와 긴 오로라 윈도우를 누리세요.' },
     { day: '04', title: '느긋한 출발', body: '순록 농장 방문, 마지막 사우나, IVL로 귀로. 가능하면 이틀 더 머무세요. 이나리는 천천히 보는 분께 보답합니다.' },
   ],
   seoTitle: '이나리 숙박: 호숫가 캐빈과 오로라 빌라',
@@ -314,7 +314,7 @@ Pour une virée plus longue dans la nature, la route continue jusqu\'à Utsjoki 
   dayPlan: [
     { day: '01', title: 'Atterrissage · chalet au bord du lac', body: 'Vol IVL en début d\'après-midi, route vers le nord jusqu\'au village d\'Inari ou plus loin vers Nellim. Installation, sauna, marche au bord de l\'eau. Le silence d\'Inari s\'installe au bout de deux heures.' },
     { day: '02', title: 'Culture sámi · musée Siida', body: 'Matinée au Siida (musée sámi indigène, la collection sámi la plus complète des pays nordiques). Déjeuner au village d\'Inari. Après-midi pêche sur glace ou balade guidée en forêt.' },
-    { day: '03', title: 'Raquettes sur le lac Inari', body: 'Sortie guidée en motoneige sur le lac gelé, avec vue sur l\'île sacrée d\'Ukonkivi (on n\'y débarque pas). Nuit dès 14h30 en hiver, retour au chalet pour la longue fenêtre aurores.' },
+    { day: '03', title: 'Motoneige sur le lac Inari', body: 'Sortie guidée en motoneige sur le lac gelé, avec vue sur l\'île sacrée d\'Ukonkivi (on n\'y débarque pas). Nuit dès 14h30 en hiver, retour au chalet pour la longue fenêtre aurores.' },
     { day: '04', title: 'Départ tranquille', body: 'Visite d\'une ferme à rennes, dernier sauna, route retour vers IVL. Prolongez de deux jours si possible, Inari récompense la lenteur.' },
   ],
   seoTitle: "Hébergements à Inari : chalets au lac et villas aurores",
@@ -378,7 +378,7 @@ Per viaggi più lunghi nella natura, la strada prosegue fino a Utsjoki e al conf
   dayPlan: [
     { day: '01', title: 'Atterraggio · chalet sul lago', body: 'Volo IVL a metà giornata, auto verso nord fino al paese di Inari o oltre, a Nellim. Sistemazione, sauna, passeggiata sulla riva. Dopo due ore il silenzio di Inari fa il Suo lavoro.' },
     { day: '02', title: 'Cultura sámi · museo Siida', body: 'Mattina al Siida (museo sámi indigeno, la collezione sámi più completa dei Paesi nordici). Pranzo in paese. Pomeriggio sul ghiaccio per la pesca o passeggiata guidata nel bosco.' },
-    { day: '03', title: 'Ciaspolata sul lago Inari', body: 'Escursione guidata in motoslitta sul ghiaccio del lago, con vista sull\'isola sacra di Ukonkivi (senza sbarcare sull\'isola). In inverno è buio dalle 14:30, ritorno in chalet per la lunga finestra dell\'aurora.' },
+    { day: '03', title: 'In motoslitta sul lago Inari', body: 'Escursione guidata in motoslitta sul ghiaccio del lago, con vista sull\'isola sacra di Ukonkivi (senza sbarcare sull\'isola). In inverno è buio dalle 14:30, ritorno in chalet per la lunga finestra dell\'aurora.' },
     { day: '04', title: 'Partenza lenta', body: 'Visita a una fattoria di renne, ultima sauna, ritorno verso IVL. Se può, prolunghi di due giorni, Inari premia la lentezza.' },
   ],
   seoTitle: 'Alloggi a Inari: chalet sul lago e ville aurora',
@@ -442,7 +442,7 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
   dayPlan: [
     { day: '01', title: 'Landing · cabin aan het meer', body: 'IVL-vlucht rond het middaguur, noordwaarts naar het dorp Inari of door naar Nellim. Installeren, sauna, wandeling langs het water. Na twee uur is de Inari-stilte tot u doorgedrongen.' },
     { day: '02', title: 'Sámi-cultuur · Siida-museum', body: 'Ochtend in Siida (het inheemse Sámi-museum, de meest complete Sámi-collectie van Noord-Europa). Lunch in het dorp Inari. Middag ijsvissen of een begeleide boswandeling.' },
-    { day: '03', title: 'Sneeuwschoenwandeling op het Inari-meer', body: 'Met gids per sneeuwscooter het bevroren meer op, met zicht op het heilige Ukko-eiland (het eiland zelf betreedt u niet). \'s Winters al donker om 14:30, terug in de cabin voor het lange aurora-venster.' },
+    { day: '03', title: 'Sneeuwscootertocht op het Inari-meer', body: 'Met gids per sneeuwscooter het bevroren meer op, met zicht op het heilige Ukko-eiland (het eiland zelf betreedt u niet). \'s Winters al donker om 14:30, terug in de cabin voor het lange aurora-venster.' },
     { day: '04', title: 'Rustige vertrekdag', body: 'Bezoek rendierboerderij, laatste sauna, terug naar IVL. Verleng zo mogelijk met twee dagen, Inari beloont traagheid.' },
   ],
   seoTitle: 'Inari-accommodatie: cabins aan het meer en aurora-villa\'s',
@@ -506,7 +506,7 @@ const ja: DestinationBody = {
   dayPlan: [
     { day: '01', title: '到着・湖畔キャビン', body: 'IVL昼便、北へ走りイナリ村またはネリムへ。落ち着き、サウナ、湖岸を散策。2時間目にはイナリの静けさが身体に染みます。' },
     { day: '02', title: 'サーミ文化・Siida博物館', body: '午前はSiida(サーミの先住民博物館。北欧でもっとも充実したサーミ・コレクション)。昼はイナリ村で。午後は氷釣りまたはガイド付きの森歩き。' },
-    { day: '03', title: 'イナリ湖のスノーシュー', body: 'ガイド付きスノーモービルで凍ったイナリ湖の氷上へ。聖なるウッコ島を遠くに望みます(島への上陸はできません)。冬は14:30には暗くなります。キャビンに戻り、長いオーロラ・ウィンドウへ。' },
+    { day: '03', title: 'イナリ湖のスノーモービル', body: 'ガイド付きスノーモービルで凍ったイナリ湖の氷上へ。聖なるウッコ島を遠くに望みます(島への上陸はできません)。冬は14:30には暗くなります。キャビンに戻り、長いオーロラ・ウィンドウへ。' },
     { day: '04', title: 'ゆっくり出発', body: 'トナカイ農場訪問、最後のサウナ、IVLへ運転。可能なら2日延ばしてください。イナリはゆっくり過ごすほど報われます。' },
   ],
   seoTitle: 'イナリの宿泊:湖畔キャビン&オーロラ・ヴィラ',
@@ -570,7 +570,7 @@ Para viajes prolongados al territorio salvaje, la carretera continúa a Utsjoki 
   dayPlan: [
     { day: '01', title: 'Aterrizaje · cabaña junto al lago', body: 'Vuelo al mediodía a IVL, conducir al norte hasta el pueblo de Inari o más lejos hasta Nellim. Acomodarse, sauna, paseo por la orilla. El silencio de Inari se asienta a la segunda hora.' },
     { day: '02', title: 'Cultura sami · museo Siida', body: 'Mañana en Siida (el museo sami indígena, la colección sami más completa de los países nórdicos). Almuerzo en el pueblo. Por la tarde, pesca en hielo o paseo guiado por el bosque.' },
-    { day: '03', title: 'Raquetas en el lago Inari', body: 'Salida guiada en motonieve por el lago helado, con vistas a la isla sagrada de Ukko (no se desembarca en ella). En invierno oscurece a las 14:30, vuelta a la cabaña para la larga ventana de aurora.' },
+    { day: '03', title: 'Motonieve en el lago Inari', body: 'Salida guiada en motonieve por el lago helado, con vistas a la isla sagrada de Ukko (no se desembarca en ella). En invierno oscurece a las 14:30, vuelta a la cabaña para la larga ventana de aurora.' },
     { day: '04', title: 'Salida pausada', body: 'Visita a una granja de renos, última sauna, vuelta a IVL. Amplíe 2 días si puede, Inari recompensa la calma.' },
   ],
   seoTitle: 'Alojamiento en Inari: cabañas junto al lago y villas aurora',
@@ -634,7 +634,7 @@ Para viagens prolongadas na natureza, a estrada continua até Utsjoki e a fronte
   dayPlan: [
     { day: '01', title: 'Pouso · cabana à beira do lago', body: 'Voo do meio-dia para IVL, dirigir ao norte até a vila de Inari ou mais adiante até Nellim. Acomodar-se, sauna, caminhada à beira do lago. O silêncio de Inari se instala já na segunda hora.' },
     { day: '02', title: 'Cultura sámi · museu Siida', body: 'Manhã no Siida (o museu indígena sámi, a coleção sámi mais completa dos países nórdicos). Almoço na vila. À tarde, pesca no gelo ou caminhada guiada pela floresta.' },
-    { day: '03', title: 'Raquete no Lago Inari', body: 'Passeio guiado de snowmobile pelo lago congelado, com vista para a ilha sagrada Ukko (sem desembarcar nela). No inverno escurece às 14:30, de volta à cabana para a longa janela de aurora.' },
+    { day: '03', title: 'Snowmobile no Lago Inari', body: 'Passeio guiado de snowmobile pelo lago congelado, com vista para a ilha sagrada Ukko (sem desembarcar nela). No inverno escurece às 14:30, de volta à cabana para a longa janela de aurora.' },
     { day: '04', title: 'Partida lenta', body: 'Visita a uma fazenda de renas, última sauna, retorno a IVL. Estenda 2 dias se possível, Inari recompensa quem fica devagar.' },
   ],
   seoTitle: 'Hospedagem em Inari: cabanas à beira do lago e vilas aurora',
@@ -698,7 +698,7 @@ const zhCN: DestinationBody = {
   dayPlan: [
     { day: '01', title: '抵达 · 湖畔小屋', body: '中午抵达IVL,向北驱车至伊纳里村或更远的Nellim。安顿、桑拿、湖边散步。第二个小时,伊纳里的寂静就会沉下来。' },
     { day: '02', title: '萨米文化 · Siida博物馆', body: '上午在Siida(萨米原住民博物馆,北欧最完整的萨米馆藏)。在伊纳里村午餐。下午冰钓或随导游森林漫步。' },
-    { day: '03', title: '伊纳里湖雪鞋行', body: '由导游带领,乘雪地摩托驰骋于冻结的湖面,远眺神圣的Ukko岛(不可登岛)。冬季14:30天即暗。回到小屋,迎接漫长的极光窗口。' },
+    { day: '03', title: '伊纳里湖雪地摩托', body: '由导游带领,乘雪地摩托驰骋于冻结的湖面,远眺神圣的Ukko岛(不可登岛)。冬季14:30天即暗。回到小屋,迎接漫长的极光窗口。' },
     { day: '04', title: '缓慢启程', body: '驯鹿农场参观、最后一次桑拿、驱车返回IVL。条件允许就多加两天。伊纳里慢游回报最丰。' },
   ],
   seoTitle: '伊纳里住宿:湖畔小屋与极光别墅',
@@ -762,7 +762,7 @@ För längre vildmarksresor fortsätter vägen till Utsjoki och norska gränsen.
   dayPlan: [
     { day: '01', title: 'Landa · stuga vid sjön', body: 'Middagsflyg till IVL, kör norrut till Inari by eller vidare till Nellim. Packa upp, basta, gå en runda vid vattnet. Inaris tystnad sätter sig efter ungefär två timmar.' },
     { day: '02', title: 'Samisk kultur · museet Siida', body: 'Förmiddag på Siida (samernas eget museum, med Nordens mest kompletta samiska samling). Lunch i Inari by. Pimpelfiske eller en guidad skogsvandring på eftermiddagen.' },
-    { day: '03', title: 'Ut på Inarisjön', body: 'Ut på Inarijärvis is med snöskoter och guide, öppen is med den heliga ön Ukonkivi vid horisonten (själva ön är stängd för besök). Mörkt vid 14:30 på vintern, tillbaka i stugan i tid för det långa norrskensfönstret.' },
+    { day: '03', title: 'Inarisjön med snöskoter', body: 'Ut på Inarijärvis is med snöskoter och guide, öppen is med den heliga ön Ukonkivi vid horisonten (själva ön är stängd för besök). Mörkt vid 14:30 på vintern, tillbaka i stugan i tid för det långa norrskensfönstret.' },
     { day: '04', title: 'Långsam hemresa', body: 'Besök på en rengård, sista bastun, kör tillbaka till IVL. Lägg till 2 dagar om du kan, Inari belönar den som tar det långsamt.' },
   ],
   seoTitle: 'Boende i Inari: stugor vid sjön och norrskensvillor',
