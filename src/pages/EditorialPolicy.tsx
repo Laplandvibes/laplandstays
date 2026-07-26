@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { ArrowRight, ShieldCheck, Edit3, AlertCircle, Repeat, Mail } from 'lucide-react'
 import SEO from '../components/SEO'
+import { localizeArticle } from '../lib/jsonLd'
 import Newsletter from '../components/Newsletter'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import type { PageCopy } from './EditorialPolicy.copy.types'
@@ -90,7 +91,7 @@ export default function EditorialPolicy() {
         canonicalPath="/editorial-policy"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['laplandstays editorial policy', 'how laplandstays works', 'lapland accommodation guide standards', 'affiliate independence', 'correction policy']}
-        jsonLd={[articleJsonLd, breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
       />
 
       {/* Same hero frame as the other sub-pages (WhenToGo/Transport/PropertyTypes

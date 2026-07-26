@@ -705,6 +705,70 @@ const zhCN: DestinationBody = {
   seoDescription: '芬兰拉普兰伊纳里住宿指南:湖畔原木小屋每晚200欧元起、Aurora Village与Nellim Wilderness Hotel 300欧元起。伊纳里湖私人湖岸、萨米传统、暗空、直接预订。',
 }
 
+const sv: DestinationBody = {
+  tagline: 'Samisk huvudort, Finlands tredje största sjö och de mest avlägsna stugorna i finska Lappland.',
+  description: `Inari är huvudorten för den finska samiska kulturen och Finlands största kommun till ytan. Inarisjön, Inarijärvi, är 1 040 km² med 3 000 öar, landets tredje största sjö och ett av Europas klaraste vatten.
+
+Det här är djupa norr. Stugorna är på riktigt avlägsna: tio minuters bilresa från byn kan sätta dig på en strand där inga andra ljus syns över 180° av horisonten. Museet SIIDA i Inari by är navet för det samiska kulturarvet, och vildmarken runtom sträcker sig upp mot tundraplatåerna vid gränsen mot Utsjoki.`,
+  facts: [
+    { label: 'Stugor vid sjön från', value: '200 €/natt' },
+    { label: 'Aurora Village från', value: '300 €/natt' },
+    { label: 'Sjöns yta', value: '1 040 km²' },
+    { label: 'Närmaste flygplats', value: 'IVL 40 min' },
+  ],
+  highlights: [
+    { title: 'Utrymme vid Inarisjön', body: 'Boendena vid sjöstranden ligger medvetet långt från varandra. Egen brygga, pimpelhål på vintern och båtturer på sommaren förbi den heliga ön Ukonkivi (det är inte längre tillåtet att gå i land).' },
+    { title: 'SIIDA, samiskt museum och naturum', body: 'Den bästa introduktionen till samisk kultur i Norden: urfolkets historia, språket och Sápmis ekologi, allt i samma byggnad.' },
+    { title: 'Norrsken över öppet vatten', body: 'Sjöstranden ger en ovanligt fri himmel över 180°. På vintern speglas norrskenet i den frusna ytan, vilket gör upplevelsen ovanligt stark.' },
+    { title: 'Samiska mattraditioner', body: 'Köken här serverar poronkäristys (stekt renskav), kallrökt röding och desserter på hjortron, med råvaror från marken runt omkring dig.' },
+    { title: 'Vandring på kalfjället', body: 'Norr om Inari tynar trädgränsen ut i öppet lappländskt fjäll. Sommarvandring över Kevo och Utsjoki är så avlägset som Europa blir.' },
+    { title: 'Hundspann och snöskoter på vintern', body: 'Hundgårdarna runt Inari kör slädleder ut på Inarijärvis is: vidöppet, inga träd, ovanligt snabbt och tyst.' },
+  ],
+  whenToGo: `Slutet av september–början av april är norrskenssäsong; på den här breddgraden ligger norrskensovalen regelbundet rakt över huvudet.
+Mitten av juni–slutet av juli är midnattssol: solen går inte ner på ungefär sex veckor.
+Mitten av augusti ger den korta, intensiva ruskan (höstfärgerna), rött och orange över fjället.`,
+  howToGet: `Flyg till Ivalo (IVL), 40 min transfer. Direkt Helsingfors–Ivalo dagligen, säsongsvisa charterlinjer från Storbritannien och Centraleuropa.
+Hyr bil: de bästa stugorna ligger vid sidovägar längs sjöstranden och kräver egen transport.
+För längre vildmarksresor fortsätter vägen till Utsjoki och norska gränsen.`,
+  stayTypes: [
+    'Timmerstugor vid Inarijärvi, 4–6 gäster, egen strand, vedeldad bastu och pimpelutrustning.',
+    'Avlägsna vildmarksvillor, känslan av att vara utanför nätet men med full komfort, timmar av orörd skog i alla riktningar.',
+    'Stugor som drivs av samiska familjer, små och personliga, ofta med renskötsel i släkten och berättande på plats.',
+    'Norrskensboenden i glas norr om Inari by, byggda just för att titta på himlen så här långt norrut.',
+  ],
+  siblings: [
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porten till UKK-vildmarken, 50 min söderut.' },
+    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapplands huvudstad och främsta ankomstort.' },
+    { name: 'Levi', href: '/destinations/levi', blurb: 'Den stora skidbyn med ett centrum du går runt i.' },
+  ],
+  anchorProperties: [
+    { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Vid Inarisjöns östra strand, nära den ryska gränsen. Samisk kultur med fisk och bastu.' },
+    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min från Ivalo flygplats, stugor med glastak och väckning när norrskenet kommer.' },
+    { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Arkitektritad lodge med bara sviter, mellan Inari och Saariselkä.' },
+    { name: 'Alla boenden i Inari', href: HOTEL_SEARCH.inari, sid: 'destination_inari_all_search', note: 'Bläddra bland alla boenden i Inari på Trip.com.' },
+  ],
+  transport: [
+    { mode: 'plane', label: 'Från Ivalo flygplats (IVL)', detail: 'Direkta vinterflyg från HEL · LHR · CDG · AMS. 50 km / 40 min norrut till Inari by.' },
+    { mode: 'bus', label: 'Flygbussen från IVL till Inari', detail: '15 € enkel resa · 40 min · möter vinterflygen.' },
+    { mode: 'car', label: 'Taxi eller förbokad transfer', detail: '60–80 € från IVL till Inari by. De flesta premiumboenden erbjuder privat transfer.' },
+    { mode: 'car', label: 'Bil från Saariselkä', detail: '50 min längs E75. En enkel dagsutflykt om du bor i Saariselkä, och många delar nätterna mellan orterna.' },
+  ],
+  carRental: {
+    href: CARS.fromIvalo,
+    sid: 'destination_inari_cars_ivl',
+    airport: 'Upphämtning på Ivalo flygplats (IVL)',
+    blurb: '40 min till Inari by · nödvändigt för Nellim och stugorna vid Inarisjöns strand',
+  },
+  dayPlan: [
+    { day: '01', title: 'Landa · stuga vid sjön', body: 'Middagsflyg till IVL, kör norrut till Inari by eller vidare till Nellim. Packa upp, basta, gå en runda vid vattnet. Inaris tystnad sätter sig efter ungefär två timmar.' },
+    { day: '02', title: 'Samisk kultur · museet Siida', body: 'Förmiddag på Siida (samernas eget museum, med Nordens mest kompletta samiska samling). Lunch i Inari by. Pimpelfiske eller en guidad skogsvandring på eftermiddagen.' },
+    { day: '03', title: 'Ut på Inarisjön', body: 'Ut på Inarijärvis is med snöskoter och guide, öppen is med den heliga ön Ukonkivi vid horisonten (själva ön är stängd för besök). Mörkt vid 14:30 på vintern, tillbaka i stugan i tid för det långa norrskensfönstret.' },
+    { day: '04', title: 'Långsam hemresa', body: 'Besök på en rengård, sista bastun, kör tillbaka till IVL. Lägg till 2 dagar om du kan, Inari belönar den som tar det långsamt.' },
+  ],
+  seoTitle: 'Boende i Inari: stugor vid sjön och norrskensvillor',
+  seoDescription: 'Var du bor i Inari, Lappland: timmerstugor vid sjön från 200 €/natt, Aurora Village och Nellim Wilderness Hotel från 300 €. Egna stränder vid Inarisjön.',
+}
+
 export default function Inari() {
   return (
     <DestinationPage
@@ -713,7 +777,7 @@ export default function Inari() {
       heroImage="/images/inari-hero.webp"
       ogImage="https://laplandstays.com/og-inari.jpg"
       seoKeywords={['inari accommodation', 'inari cabin', 'lake inari villa', 'aurora village ivalo', 'nellim wilderness hotel', 'where to stay in inari', 'sami cabin lapland', 'inarijärvi accommodation']}
-      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl }}
+      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}
       highlightLinks={{
         1: { base: 'https://laplandvisit.com' },
         2: { base: 'https://laplandvibes.com', path: '/northern-lights/' },

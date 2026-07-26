@@ -13,7 +13,6 @@ type Widen<T> = T extends string ? string
 
 export const en = {
     breadcrumbHome: 'Home',
-    breadcrumbDest: 'Destinations',
     overviewEyebrow: 'Overview',
     overviewH2: (n: string) => `Why stay in ${n}`,
     seePricesIn: (n: string) => `See prices in ${n}`,

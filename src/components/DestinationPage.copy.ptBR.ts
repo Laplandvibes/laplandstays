@@ -2,7 +2,6 @@ import type { Copy } from './DestinationPage.copy.types'
 
 const copy: Copy = {
     breadcrumbHome: 'Início',
-    breadcrumbDest: 'Destinos',
     overviewEyebrow: 'Visão geral',
     overviewH2: (n: string) => `Por que se hospedar em ${n}`,
     seePricesIn: (n: string) => `Ver preços em ${n}`,

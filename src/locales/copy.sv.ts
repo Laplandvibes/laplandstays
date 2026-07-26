@@ -13,8 +13,8 @@ const copy: ChromeCopy = {
     inari: 'Inari',
     rovaniemi: 'Rovaniemi',
     bookNow: 'Boka nu',
+    homeAria: 'LaplandStays, startsida',
     cabins: 'Stugsemester',
-    langSwitch: 'Byt språk',
   },
   hero: {
     eyebrow: 'Boende i Lappland · Finland',
@@ -28,6 +28,7 @@ const copy: ChromeCopy = {
     reviewedLabel: 'Granskad av',
     policyLabel: 'redaktionell policy',
     resolvedDate: 'april 2026',
+    ariaLabel: 'Redaktionell information',
   },
   networkHub: {
     huskySafaris: 'Hundspannssafarier',
@@ -47,6 +48,7 @@ const copy: ChromeCopy = {
     submit: 'Få nästa mejl',
     submitting: 'Anmäler…',
     success: 'Du är med på listan. Vi ses under norrskenet.',
+    error: 'Prenumerationen gick inte igenom. Försök igen eller mejla info@laplandvibes.com.',
     footnote: 'Bara när vi verkligen har något att berätta. Avsluta med ett klick.',
     privacyLink: 'Integritetspolicy',
     benefits: [
@@ -58,63 +60,6 @@ const copy: ChromeCopy = {
   },
   footerEditorialNote: 'Drivs oberoende av Lapeso Oy i finska Lappland · senast granskad april 2026 · vi tjänar affiliateprovision på vissa bokningar, men det påverkar aldrig vilka boenden vi rekommenderar.',
   footerExtraLegal: { editorialPolicy: 'Redaktionell policy', about: 'Om oss' },
-  pages: {
-    home: {
-      seoTitle: 'Var du ska bo i Lappland 2026, glasiglor, stugor, riktiga priser',
-      seoDescription: 'Planera din vistelse i Lappland 2026, glasiglor från 250 €/natt, norrskensstugor från 150 €, hotell från 100 €. Levi, Ylläs, Saariselkä, Inari.',
-    },
-    propertyTypes: {
-      kicker: 'Boendetyper',
-      h1: 'Glasiglor, stugor, hotell och villor',
-      lead: 'Från vedeldade stugor vid sjön till trippelglasade glasiglor, så här känns det att vakna i varje format under den arktiska natten.',
-      types: [
-        { title: 'Glasiglo', body: 'Trippelglasad kupol med egen säng, komplett badrum och panoramautsikt över norrskenet från kudden.' },
-        { title: 'Norrskensstuga', body: 'Traditionell finsk stuga med bastu, öppen spis och mörk himmel, ofta med ett norrskenslarm.' },
-        { title: 'Lapplandshotell', body: 'Fullservicehotell med restaurang, lobby, bastu och ski-in-läge där byns placering tillåter det.' },
-        { title: 'Villa och chalet', body: 'Större format för familjer och grupper, ofta med flera sovrum, eget kök, bastu och badtunna.' },
-      ],
-    },
-    locations: {
-      kicker: 'Resmål',
-      h1: 'Där Lappland lever, fem baser, ett norrsken',
-      lead: 'Levi för den enkla introduktionen, Ylläs för lugnet, Saariselkä och Inari för djupare vistelser under mörk himmel, Rovaniemi för jultomten och polcirkeln.',
-      cards: [
-        { name: 'Levi', desc: 'Den största skidorten, de enklaste flygen, ett komplett restaurangutbud och en heltäckande safarimeny.' },
-        { name: 'Ylläs', desc: 'Två byar, sju leder i nationalparken, den mest autentiska och tysta Lapplandsvistelsen.' },
-        { name: 'Saariselkä', desc: 'Inne i norrskensovalen, hem för Kakslauttanen och det djupaste utbudet av stugor under mörk himmel.' },
-        { name: 'Inari', desc: 'Inarisjön, samisk kultur, landets nordligaste ände, och de allra bästa norrskenschanserna.' },
-        { name: 'Rovaniemi', desc: 'Jultomtens by, polcirkeln och den enklaste internationella flygplatsen i Lappland.' },
-      ],
-    },
-    whenToGo: {
-      kicker: 'Bästa tiden',
-      h1: 'En Lapplandskalender månad för månad',
-      lead: 'Polarnatt, isfestivaler, midnattssol, ruska-hösten, varje månad i Lappland är ett annat land.',
-      months: [
-        { month: 'November', tip: 'Polarnatten börjar. Norrskenet återvänder. Stugorna fylls, boka tidigt inför julen.' },
-        { month: 'December', tip: 'Jultomtesäsongen på full intensitet. Snön är garanterad. Kortaste dagarna, ljusaste snön.' },
-        { month: 'Januari', tip: 'Kallaste månaden. Årets lugnaste vecka mellan nyår och de första skidlägren.' },
-        { month: 'Februari', tip: 'Långa norrskensnätter, solen återvänder långsamt, perfekt för safarier och pilkfiske.' },
-        { month: 'Mars', tip: 'Långa dagar, gott om snö och vårskidfönstret öppnar i Levi och Ylläs.' },
-      ],
-    },
-    transport: {
-      kicker: 'Så tar du dig dit',
-      h1: 'Så tar du dig till finska Lappland',
-      lead: 'Direkta vinterflyg till Kittilä, Rovaniemi och Ivalo, plus nattåget från Helsingfors, så här fungerar varje alternativ i praktiken.',
-      airports: [
-        { name: 'Kittilä (KTT)', desc: 'Direkta vintercharter från London, Paris, Amsterdam, Zürich och längre bort. Ingången till Levi och Ylläs.' },
-        { name: 'Rovaniemi (RVN)', desc: 'Finnair-förbindelser året runt via Helsingfors. Gångavstånd till transfererna mot Jultomtens by.' },
-        { name: 'Ivalo (IVL)', desc: 'EU:s nordligaste flygplats, ingången till Saariselkä, Inari och norrskensbältet.' },
-      ],
-    },
-    about: {
-      kicker: 'Om LaplandStays',
-      h1: 'Oberoende skrivet från finska Lappland',
-      lead: 'Guiden uppdateras varje säsong, och vi säger rakt ut när ett boende är överhypat.',
-      mission: 'Vårt uppdrag är att ge varje resenär samma rekommendation som vi skulle ge en vän, byggd på riktiga vistelser, verifierade nattpriser och den lokalkännedom du bara får av att vara på plats.',
-    },
-  },
 }
 
 export default copy

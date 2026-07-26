@@ -13,8 +13,8 @@ const copy: ChromeCopy = {
     inari: 'Inari',
     rovaniemi: 'Rovaniemi',
     bookNow: 'Prenota ora',
+    homeAria: 'LaplandStays, home',
     cabins: 'Vacanze in chalet',
-    langSwitch: 'Cambia lingua',
   },
   hero: {
     eyebrow: 'Alloggi in Lapponia · Finlandia',
@@ -28,6 +28,7 @@ const copy: ChromeCopy = {
     reviewedLabel: 'Verificato da',
     policyLabel: 'politica editoriale',
     resolvedDate: 'aprile 2026',
+    ariaLabel: 'Informazioni editoriali',
   },
   networkHub: {
     huskySafaris: 'Safari con i husky',
@@ -47,6 +48,7 @@ const copy: ChromeCopy = {
     submit: 'Ricevi la prossima e-mail',
     submitting: 'Iscrizione…',
     success: 'È in lista. Ci vediamo sotto l\'aurora.',
+    error: 'Iscrizione non riuscita. Riprova o scrivi a info@laplandvibes.com.',
     footnote: 'Solo quando c\'è davvero qualcosa da raccontare. Disiscrizione con un clic.',
     privacyLink: 'Informativa sulla privacy',
     benefits: [
@@ -58,63 +60,6 @@ const copy: ChromeCopy = {
   },
   footerEditorialNote: 'Gestita in modo indipendente da Lapeso Oy nella Lapponia finlandese · ultima revisione aprile 2026 · riceviamo una commissione di affiliazione su alcune prenotazioni, ma non influisce mai sulle proprietà che raccomandiamo.',
   footerExtraLegal: { editorialPolicy: 'Politica editoriale', about: 'Chi siamo' },
-  pages: {
-    home: {
-      seoTitle: 'Alloggiare in Lapponia 2026, iglù e chalet, prezzi reali',
-      seoDescription: 'Pianifichi il soggiorno Lapponia 2026, iglù di vetro da €250/notte, chalet aurora da €150, hotel da €100. Levi, Ylläs, Saariselkä, Inari. Scelte verificate.',
-    },
-    propertyTypes: {
-      kicker: 'Tipi di alloggio',
-      h1: 'Iglù di vetro, chalet, hotel & ville',
-      lead: 'Da chalet sul lago con stufa a legna a iglù con triplo vetro, ecco come ognuno di questi formati si sente davvero nella notte artica.',
-      types: [
-        { title: 'Iglù di vetro', body: "Cupola con triplo vetro, letto privato, bagno completo e vista panoramica sull'aurora dal cuscino." },
-        { title: 'Chalet aurora', body: "Chalet tradizionale finlandese con sauna, camino e cielo stellato, spesso con servizio allarme aurora." },
-        { title: 'Hotel di Lapponia', body: 'Hotel a servizio completo con ristorante, hall, sauna e accesso ski-in se la posizione del villaggio lo consente.' },
-        { title: 'Villa & chalet', body: 'Formato più ampio per famiglie e gruppi, spesso con più camere, cucina privata, sauna e vasca idromassaggio.' },
-      ],
-    },
-    locations: {
-      kicker: 'Destinazioni',
-      h1: 'Dove vive la Lapponia, cinque basi, un\'aurora',
-      lead: 'Levi per l\'introduzione facile, Ylläs per la quiete, Saariselkä e Inari per soggiorni più profondi sotto il cielo scuro, Rovaniemi per Babbo Natale e il Circolo Polare.',
-      cards: [
-        { name: 'Levi', desc: 'Il più grande comprensorio sciistico, i voli più semplici, una scena ristorantistica completa e un menu safari a 360°.' },
-        { name: 'Ylläs', desc: 'Due villaggi, sette sentieri del parco nazionale, il soggiorno più autentico e tranquillo in Lapponia.' },
-        { name: 'Saariselkä', desc: "All'interno dell'ovale aurorale, casa di Kakslauttanen e della più profonda scena di chalet sotto il cielo scuro." },
-        { name: 'Inari', desc: 'Lago Inari, cultura sami, l\'estrema punta settentrionale del paese, e le migliori probabilità di aurora.' },
-        { name: 'Rovaniemi', desc: 'Villaggio di Babbo Natale, Circolo Polare e l\'aeroporto internazionale più facile in Lapponia.' },
-      ],
-    },
-    whenToGo: {
-      kicker: 'Periodo migliore',
-      h1: 'Calendario mese per mese della Lapponia',
-      lead: 'Notte polare, festival di ghiaccio, sole di mezzanotte, autunno ruska, ogni mese in Lapponia è un paese diverso.',
-      months: [
-        { month: 'Novembre', tip: 'Inizia la notte polare. Torna l\'aurora. Gli chalet si riempiono, prenoti presto per Natale.' },
-        { month: 'Dicembre', tip: 'Stagione di Babbo Natale a piena intensità. La neve è garantita. Giorni più corti, neve più brillante.' },
-        { month: 'Gennaio', tip: 'Mese più freddo. Settimana più tranquilla dell\'anno tra Capodanno e i primi camp sciistici.' },
-        { month: 'Febbraio', tip: 'Lunghe notti di aurora, il sole torna lentamente, ideale per safari e pesca sul ghiaccio.' },
-        { month: 'Marzo', tip: 'Giorni lunghi, molta neve e si apre la finestra dello sci primaverile a Levi e Ylläs.' },
-      ],
-    },
-    transport: {
-      kicker: 'Come arrivare',
-      h1: 'Come raggiungere la Lapponia finlandese',
-      lead: 'Voli diretti invernali per Kittilä, Rovaniemi e Ivalo, oltre al treno notturno da Helsinki, ecco come funziona davvero ogni opzione.',
-      airports: [
-        { name: 'Kittilä (KTT)', desc: 'Voli charter diretti invernali da Londra, Parigi, Amsterdam, Zurigo e oltre. Porta d\'accesso a Levi e Ylläs.' },
-        { name: 'Rovaniemi (RVN)', desc: 'Collegamenti Finnair tutto l\'anno via Helsinki. A distanza pedonale dai trasferimenti per il Villaggio di Babbo Natale.' },
-        { name: 'Ivalo (IVL)', desc: 'L\'aeroporto più settentrionale dell\'UE, porta d\'accesso a Saariselkä, Inari e la cintura aurorale.' },
-      ],
-    },
-    about: {
-      kicker: 'Informazioni su LaplandStays',
-      h1: 'Scritto in modo indipendente dalla Lapponia finlandese',
-      lead: 'La guida viene aggiornata ogni stagione e Le diciamo apertamente quando una struttura è sopravvalutata.',
-      mission: 'La nostra missione è dare a ogni viaggiatore lo stesso consiglio che daremmo a un amico, basato su soggiorni reali, tariffe verificate e l\'intuizione locale che si ottiene solo essendo sul posto.',
-    },
-  },
 }
 
 export default copy

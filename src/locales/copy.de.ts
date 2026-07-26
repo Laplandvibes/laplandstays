@@ -13,8 +13,8 @@ const copy: ChromeCopy = {
     inari: 'Inari',
     rovaniemi: 'Rovaniemi',
     bookNow: 'Jetzt buchen',
+    homeAria: 'LaplandStays, Startseite',
     cabins: 'Hüttenurlaub',
-    langSwitch: 'Sprache wechseln',
   },
   hero: {
     eyebrow: 'Lappland-Unterkünfte · Finnland',
@@ -28,6 +28,7 @@ const copy: ChromeCopy = {
     reviewedLabel: 'Geprüft von',
     policyLabel: 'Redaktionsrichtlinie',
     resolvedDate: 'April 2026',
+    ariaLabel: 'Redaktionelle Angaben',
   },
   networkHub: {
     huskySafaris: 'Husky-Safaris',
@@ -47,6 +48,7 @@ const copy: ChromeCopy = {
     submit: 'Nächste E-Mail erhalten',
     submitting: 'Wird eingetragen…',
     success: 'Sie stehen auf der Liste. Bis bald unter dem Polarlicht.',
+    error: 'Anmeldung nicht möglich. Versuchen Sie es erneut oder schreiben Sie an info@laplandvibes.com.',
     footnote: 'Post nur, wenn es wirklich etwas zu erzählen gibt. Abbestellen mit einem Klick.',
     privacyLink: 'Datenschutzerklärung',
     benefits: [
@@ -58,63 +60,6 @@ const copy: ChromeCopy = {
   },
   footerEditorialNote: 'Unabhängig gepflegt von Lapeso Oy in Finnisch-Lappland · zuletzt geprüft April 2026 · wir erhalten eine Partnerprovision auf manche Buchungen, aber sie beeinflusst nicht, welche Unterkünfte wir empfehlen.',
   footerExtraLegal: { editorialPolicy: 'Redaktionsrichtlinien', about: 'Über uns' },
-  pages: {
-    home: {
-      seoTitle: 'Lappland-Unterkünfte: Glasiglus & Hütten | LaplandStays',
-      seoDescription: 'Wo Sie in Lappland übernachten: Glasiglus ab 250 €/Nacht vergleichen, Nordlicht-Hütten ab 150 € und Lappland-Hotels ab 100 €.',
-    },
-    propertyTypes: {
-      kicker: 'Unterkunftsarten',
-      h1: 'Glasiglus, Hütten, Hotels und Villen',
-      lead: 'Von holzbefeuerten Seehütten bis zu dreifach verglasten Iglus, so fühlt sich jede Unterkunftsart in der arktischen Nacht wirklich an.',
-      types: [
-        { title: 'Glasiglu', body: 'Dreifach verglaste Kuppel mit eigenem Bett, kompletter Badeinrichtung und Panoramablick auf das Polarlicht.' },
-        { title: 'Polarlicht-Hütte', body: 'Traditionelle finnische Hütte mit Sauna, Kamin und Dunkelhimmel-Blick, oft mit Polarlicht-Weckdienst.' },
-        { title: 'Lappland-Hotel', body: 'Vollausgestattetes Hotel mit Restaurant, Lobby, Sauna und Ski-in-Zugang, wo der Ortsbedarf es verlangt.' },
-        { title: 'Villa und Chalet', body: 'Größere Unterkunft für Familien und Gruppen mit mehreren Schlafzimmern, eigener Küche, Sauna und Hot Tub.' },
-      ],
-    },
-    locations: {
-      kicker: 'Reiseziele',
-      h1: 'Wo Lappland lebt, fünf Standorte, ein Polarlicht',
-      lead: 'Levi für den leichten Einstieg, Ylläs für die Ruhe, Saariselkä und Inari für tiefere Dunkelhimmel-Aufenthalte, Rovaniemi für Santa.',
-      cards: [
-        { name: 'Levi', desc: 'Das größte Skigebiet, einfachste Flüge, volle Restaurantszene und ein lückenloses Safari-Menü.' },
-        { name: 'Ylläs', desc: 'Zwei Dörfer, sieben Nationalpark-Pfade, der authentischste und ruhigste Lappland-Aufenthalt.' },
-        { name: 'Saariselkä', desc: 'Innerhalb des Polarlichtovals, Heimat von Kakslauttanen und tiefste Dunkelhimmel-Hüttenszene.' },
-        { name: 'Inari', desc: 'Inarisee, Sámi-Kultur, das nördlichste Ende des Landes, und die besten Polarlicht-Chancen.' },
-        { name: 'Rovaniemi', desc: 'Weihnachtsmanndorf, Polarkreis und der einfachste internationale Flughafen Lapplands.' },
-      ],
-    },
-    whenToGo: {
-      kicker: 'Beste Reisezeit',
-      h1: 'Lappland Monat für Monat',
-      lead: 'Polarnacht, Eisfestivals, Mitternachtssonne, ruska, jeder Monat in Lappland ist ein anderes Land.',
-      months: [
-        { month: 'November', tip: 'Polarnacht beginnt. Polarlicht kehrt zurück. Hütten füllen sich, früh für Weihnachten buchen.' },
-        { month: 'Dezember', tip: 'Santa-Saison in voller Intensität. Schnee ist sicher. Kürzeste Tage, hellster Schnee.' },
-        { month: 'Januar', tip: 'Kältester Monat. Ruhigste Woche des Jahres zwischen Neujahr und den ersten Skicamps.' },
-        { month: 'Februar', tip: 'Lange Polarlicht-Nächte, Sonne kehrt langsam zurück, ideal für Safaris und Eisfischen.' },
-        { month: 'März', tip: 'Lange Tage, viel Schnee und das Frühjahrs-Ski-Fenster öffnet in Levi und Ylläs.' },
-      ],
-    },
-    transport: {
-      kicker: 'Anreise',
-      h1: 'So erreichen Sie Finnisch-Lappland',
-      lead: 'Direktwinterflüge nach Kittilä, Rovaniemi und Ivalo sowie der Nachtzug aus Helsinki, so funktioniert jede Option.',
-      airports: [
-        { name: 'Kittilä (KTT)', desc: 'Direktcharter aus London, Paris, Amsterdam, Zürich und mehr. Tor zu Levi und Ylläs.' },
-        { name: 'Rovaniemi (RVN)', desc: 'Ganzjährige Finnair-Verbindungen über Helsinki. Kurze Strecke zum Weihnachtsmanndorf.' },
-        { name: 'Ivalo (IVL)', desc: 'Der nördlichste Flughafen der EU, Tor zu Saariselkä, Inari und dem Polarlicht-Gürtel.' },
-      ],
-    },
-    about: {
-      kicker: 'Über LaplandStays',
-      h1: 'Unabhängig aus Finnisch-Lappland geschrieben',
-      lead: 'Der Guide wird jede Saison aktualisiert. Ist eine Unterkunft überbewertet, sagen wir es Ihnen offen.',
-      mission: 'Unsere Mission ist es, jedem Reisenden dieselbe Empfehlung zu geben, die wir einem Freund geben würden, basierend auf echten Aufenthalten, geprüften Übernachtungspreisen und lokalem Wissen.',
-    },
-  },
 }
 
 export default copy

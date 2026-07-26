@@ -705,6 +705,70 @@ const zhCN: DestinationBody = {
   seoDescription: '芬兰拉普兰罗瓦涅米的滨河原木小屋、玻璃极光别墅与圣诞老人村住宿。北极圈入口、主要机场、直接预订。',
 }
 
+const sv: DestinationBody = {
+  tagline: 'Finska Lapplands huvudstad: Santa Claus Village, två älvar och norrsken inom räckhåll från en stad med all service.',
+  description: `Rovaniemi är finska Lapplands administrativa huvudstad och regionens viktigaste internationella inkörsport. Staden ligger på polcirkeln, där älvarna Kemijoki och Ounasjoki möts, och har omkring 65 000 invånare, litet med europeiska mått men med stor marginal den största orten i regionen.
+
+Blandningen är ovanlig: en fungerande nordlig stad med restauranger, vetenskapsmuseet Arktikum och offentlig arkitektur ritad av Aalto, sida vid sida med det ursprungliga Santa Claus Village på polcirkellinjen och ett nät av stugområden en kort bilresa bort. För dig som vill ha norrsken och vildmark men också flyga hem via en större flygplats är Rovaniemi den självklara basen.`,
+  facts: [
+    { label: 'Närmaste flygplats', value: 'RVN 10 min' },
+    { label: 'Invånare', value: 'ca 65 000' },
+    { label: 'Polcirkeln', value: 'Går genom staden' },
+    { label: 'Santa Claus Village', value: 'Öppet året runt' },
+  ],
+  highlights: [
+    { title: 'Santa Claus Village på polcirkeln', body: 'Originalet: en vit linje markerar polcirkeln tvärs över torget, och tomten har kontorstid varje dag året runt.' },
+    { title: 'Museet Arktikum', body: 'Finlands främsta museum om arktisk vetenskap, samisk kultur och Lapplands historia, ett 172 meter långt glasrör på Ounasjokis strand, riktat mot norr.' },
+    { title: 'Ranua djurpark', body: '80 km söderut: en av världens nordligaste djurparker, med 50 arktiska och boreala arter, bland dem Finlands enda isbjörnar, järvar och lodjur.' },
+    { title: 'Fjället Ounasvaara inne i staden', body: 'Skidbacke, downhillcykelpark och norrskensutsikt, 10 minuter med bil från centrum, utan att du behöver köra till en nationalpark.' },
+    { title: 'Flygförbindelser', body: 'Rovaniemi flygplats har Lapplands bredaste vinterlinjenät: direkt till London, Paris, Frankfurt och Wien, plus dussintals charterlinjer.' },
+    { title: 'Stugbälten längs älven', body: 'Boenden längs Kemijoki och på Ounasvaara ger mörk himmel för norrsken inom 15 minuter från restauranger och butiker.' },
+  ],
+  whenToGo: `Mitten av september–slutet av mars är norrskenssäsong; november–februari är djupvinter.
+"Kaamos", polarnatten, pågår några veckor på var sida om den 21 december. Blå skymning hela dagen, ingen egentlig sol.
+Juni–juli ger midnattssol och forsränning i Oikaraisenkoski.`,
+  howToGet: `Flyg till Rovaniemi (RVN), Lapplands bäst förbundna flygplats.
+Finska statsjärnvägarna kör nattåg från Helsingfors med bilvagn direkt till Rovaniemi station.
+Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilresor i Lapplands inland.`,
+  stayTypes: [
+    'Timmerstugor vid Kemijoki och Ounasjoki, 6–10 gäster, bastu, öppen spis och fri utsikt över älven.',
+    'Norrskensvillor i glas runt Santa Claus Village, byggda för polcirkelupplevelsen, med sovrum där du ser himlen.',
+    'Designlägenheter i centrum, gångavstånd till restaurangerna, en bas för safariprogram i dagsutflyktsformat.',
+    'Stugor på Ounasvaaras sidor, ski in på vintern, cykelleder på sommaren och en horisont för norrsken fem minuter från centrum.',
+  ],
+  siblings: [
+    { name: 'Levi', href: '/destinations/levi', blurb: 'Finlands största skidby, 2 timmar norrut.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Lugnare fjälldestination, 2 timmar nordväst.' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porten till vildmarken, 3 timmar längre norrut.' },
+  ],
+  anchorProperties: [
+    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkitektritade sviter med glasfront, som fågelbon, vid Santa Claus Village.' },
+    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Norrskensstugor vid sjön 15 min från staden, med hela safariutbudet på plats.' },
+    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nyare lägenheter med glastak och vy över staden från Ounasvaara.' },
+    { name: 'Alla boenden i Rovaniemi', href: HOTEL_SEARCH.rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bläddra bland alla hotell och stugor i Rovaniemi på Trip.com.' },
+  ],
+  transport: [
+    { mode: 'plane', label: 'Från Rovaniemi flygplats (RVN)', detail: 'Flyg året runt från HEL plus vinterlinjer från LHR · CDG · BCN · MAD. 10 km / 15 min till centrum.' },
+    { mode: 'bus', label: 'Flygbussen från RVN', detail: '7 € enkel resa · 15 min till centrum · möter varje flyg.' },
+    { mode: 'car', label: 'Taxi till centrum', detail: '15–25 €. De flesta centrala hotell har transfer i sina vinterpaket.' },
+    { mode: 'train', label: 'Sovvagn Helsingfors–Rovaniemi', detail: 'VR:s nattåg med möjlighet till bilvagn, ca 90 € i liggvagn. Den populäraste ankomstvägen för familjer.' },
+  ],
+  carRental: {
+    href: CARS.fromRovaniemi,
+    sid: 'destination_rovaniemi_cars_rvn',
+    airport: 'Upphämtning på Rovaniemi flygplats (RVN)',
+    blurb: '10 km till staden · Lapplands enklaste upphämtning · tillgängligt året runt',
+  },
+  dayPlan: [
+    { day: '01', title: 'Ankomst · Santa Claus Village', body: 'RVN ligger 10 km från staden. Lämna väskorna och åk direkt till Santa Claus Village (öppet året runt). Kliv över polcirkellinjen och posta ett kort. Middag i stan på Nili.' },
+    { day: '02', title: 'Hundspann + isflytning', body: 'Apukka eller en gård i närheten för en hundspannssafari (boka i förväg). På eftermiddagen isflytning i torrdräkt på Ounasjoki, förvånansvärt varmt och helt tyst. Norrskensfönster från Ounasvaara.' },
+    { day: '03', title: 'Arktikum + stadens kultur', body: 'Halvdag på Arktikum (museum om samisk kultur och Lapplands historia, med en vacker glaskorridor). Lunch i stan. Eftermiddagen fri, eller en dagsutflykt till Lainio Snow Village om säsongen tillåter.' },
+    { day: '04', title: 'Långsam morgon · vidare', body: 'Sista bastun, frukost i stan. Antingen flyger du hem från RVN eller hyr bil och kör 2 timmar norrut till Levi för en andra etapp.' },
+  ],
+  seoTitle: 'Stugor och norrskensvillor i Rovaniemi vid polcirkeln',
+  seoDescription: 'Timmerstugor vid älven, norrskensvillor i glas och boende vid Santa Claus Village i Rovaniemi, finska Lappland. Polcirkeln, stor flygplats och direktbokning.',
+}
+
 export default function Rovaniemi() {
   return (
     <DestinationPage
@@ -713,7 +777,7 @@ export default function Rovaniemi() {
       heroImage="/images/extra-2.webp"
       ogImage="https://laplandstays.com/og-rovaniemi.jpg"
       seoKeywords={['Rovaniemi cabin', 'Santa Claus Village accommodation', 'Rovaniemi aurora villa', 'Arctic Circle cabin', 'Ounasvaara chalet', 'Rovaniemi holiday']}
-      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl }}
+      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}
       highlightLinks={{
         0: { base: 'https://laplandchristmas.com', path: '/santa-village/' },
         1: { base: 'https://laplandvisit.com' },

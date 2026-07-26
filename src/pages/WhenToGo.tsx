@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { ArrowRight, Sparkles, Snowflake, Sun, TreePine, Bell } from 'lucide-react'
 import SEO from '../components/SEO'
+import { localizeArticle } from '../lib/jsonLd'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import ReviewedBy from '../components/ReviewedBy'
 import { REVIEWED_DATE } from '../lib/reviewDates'
@@ -101,7 +102,7 @@ export default function WhenToGo() {
         canonicalPath="/when-to-go"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['when to visit lapland', 'best time lapland', 'aurora season finland', 'midnight sun lapland', 'lapland weather by month', 'lapland march', 'lapland new year']}
-        jsonLd={[articleJsonLd, breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
       />
 
       <section className="relative overflow-hidden bg-night text-white">

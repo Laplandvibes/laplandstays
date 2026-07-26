@@ -13,8 +13,8 @@ const copy: ChromeCopy = {
     inari: 'Inari',
     rovaniemi: 'Rovaniemi',
     bookNow: 'Reservar',
+    homeAria: 'LaplandStays, inicio',
     cabins: 'Cabañas',
-    langSwitch: 'Cambiar idioma',
   },
   hero: {
     eyebrow: 'Alojamiento en Laponia · Finlandia',
@@ -28,6 +28,7 @@ const copy: ChromeCopy = {
     reviewedLabel: 'Revisado por',
     policyLabel: 'política editorial',
     resolvedDate: 'abril de 2026',
+    ariaLabel: 'Información editorial',
   },
   networkHub: {
     huskySafaris: 'Safaris en husky',
@@ -47,6 +48,7 @@ const copy: ChromeCopy = {
     submit: 'Recibir el próximo email',
     submitting: 'Uniéndose…',
     success: 'Está en la lista. Nos vemos bajo la aurora.',
+    error: 'No se pudo completar la suscripción. Inténtalo de nuevo o escribe a info@laplandvibes.com.',
     footnote: 'Solo cuando de verdad hay algo que contar. Baja con un clic.',
     privacyLink: 'Política de privacidad',
     benefits: [
@@ -58,63 +60,6 @@ const copy: ChromeCopy = {
   },
   footerEditorialNote: 'Mantenido de forma independiente por Lapeso Oy en la Laponia finlandesa · última revisión abril 2026 · ganamos una comisión de afiliación en algunas reservas, pero nunca condiciona las propiedades recomendadas.',
   footerExtraLegal: { editorialPolicy: 'Política editorial', about: 'Acerca de' },
-  pages: {
-    home: {
-      seoTitle: 'Alojamiento en Laponia: iglús de cristal | LaplandStays',
-      seoDescription: 'Dónde alojarse en Laponia: iglús de cristal desde 250 €/noche, cabañas de aurora boreal desde 150 € y hoteles desde 100 € en Levi, Ylläs, Saariselkä e Inari.',
-    },
-    propertyTypes: {
-      kicker: 'Tipos de alojamiento',
-      h1: 'Iglús de cristal, cabañas, hoteles y villas',
-      lead: 'De cabañas con estufa junto al lago a iglús con triple acristalamiento: aquí tiene cómo se siente cada formato en la noche ártica.',
-      types: [
-        { title: 'Iglú de cristal', body: 'Cúpula con triple acristalamiento, cama propia, baño completo y vista panorámica a la aurora desde la almohada.' },
-        { title: 'Cabaña de aurora', body: 'Cabaña finlandesa tradicional con sauna, chimenea y cielos oscuros, frecuentemente con servicio de alarma de aurora.' },
-        { title: 'Hotel lapón', body: 'Hotel con servicios completos: restaurante, lobby, sauna y acceso ski-in donde el pueblo lo permita.' },
-        { title: 'Villa y chalet', body: 'Formato más grande para familias y grupos, con varios dormitorios, cocina privada, sauna y jacuzzi.' },
-      ],
-    },
-    locations: {
-      kicker: 'Destinos',
-      h1: 'Donde vive Laponia, cinco bases, una aurora',
-      lead: 'Levi para una introducción fácil, Ylläs para la calma, Saariselkä e Inari para estancias más profundas bajo cielos oscuros, Rovaniemi para Papá Noel y el Círculo Polar Ártico.',
-      cards: [
-        { name: 'Levi',       desc: 'La mayor estación de esquí, vuelos sencillos, escena gastronómica completa y un menú integral de safaris.' },
-        { name: 'Ylläs',      desc: 'Dos pueblos, siete senderos de parque nacional, la estancia más auténtica y tranquila de Laponia.' },
-        { name: 'Saariselkä', desc: 'Dentro del óvalo auroral, hogar de Kakslauttanen y de la escena más profunda de cabañas bajo cielos oscuros.' },
-        { name: 'Inari',      desc: 'Lago Inari, cultura sami, el extremo norte del país, y las mejores probabilidades de aurora.' },
-        { name: 'Rovaniemi',  desc: 'Pueblo de Papá Noel, Círculo Polar Ártico y el aeropuerto internacional más accesible de Laponia.' },
-      ],
-    },
-    whenToGo: {
-      kicker: 'Mejor época',
-      h1: 'Calendario lapón mes a mes',
-      lead: 'Noche polar, festivales de hielo, sol de medianoche, ruska: cada mes en Laponia es un país distinto.',
-      months: [
-        { month: 'Noviembre', tip: 'Empieza la noche polar. Vuelve la aurora. Las cabañas se llenan: reserve pronto para Navidad.' },
-        { month: 'Diciembre', tip: 'Temporada de Papá Noel a tope. Nieve garantizada. Días más cortos, nieve más brillante.' },
-        { month: 'Enero',     tip: 'Mes más frío. La semana más tranquila del año entre Año Nuevo y los primeros campamentos de esquí.' },
-        { month: 'Febrero',   tip: 'Noches de aurora largas, vuelve el sol poco a poco, ideal para safaris y pesca en hielo.' },
-        { month: 'Marzo',     tip: 'Días largos, mucha nieve y abre la ventana del esquí primaveral en Levi e Ylläs.' },
-      ],
-    },
-    transport: {
-      kicker: 'Cómo llegar',
-      h1: 'Cómo viajar a la Laponia finlandesa',
-      lead: 'Vuelos directos invernales a Kittilä, Rovaniemi e Ivalo, y el tren nocturno desde Helsinki: aquí tiene cómo funciona cada opción.',
-      airports: [
-        { name: 'Kittilä (KTT)',   desc: 'Vuelos directos invernales desde Londres, París, Ámsterdam, Zúrich y más. Puerta de Levi e Ylläs.' },
-        { name: 'Rovaniemi (RVN)', desc: 'Conexiones Finnair todo el año vía Helsinki. A pocos pasos del traslado al Pueblo de Papá Noel.' },
-        { name: 'Ivalo (IVL)',     desc: 'El aeropuerto más al norte de la UE, puerta a Saariselkä, Inari y el cinturón auroral.' },
-      ],
-    },
-    about: {
-      kicker: 'Sobre LaplandStays',
-      h1: 'Escrito de forma independiente desde la Laponia finlandesa',
-      lead: 'La guía se actualiza cada temporada. Si un alojamiento está sobrevalorado, se lo decimos sin rodeos.',
-      mission: 'Nuestra misión es dar a cada viajero la misma recomendación que le daríamos a un amigo, basada en estancias reales, tarifas verificadas y la perspectiva local que solo se tiene viviendo aquí.',
-    },
-  },
 }
 
 export default copy

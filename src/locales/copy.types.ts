@@ -17,7 +17,8 @@ export type ChromeCopy = {
     inari: string
     rovaniemi: string
     bookNow: string
-    langSwitch: string
+    /** Accessible name for the logo link (was hardcoded EN). */
+    homeAria: string
   }
   hero: {
     eyebrow: string
@@ -33,6 +34,8 @@ export type ChromeCopy = {
     reviewedLabel: string
     policyLabel: string
     resolvedDate: string
+    /** Accessible name for the reviewer byline region (was hardcoded EN). */
+    ariaLabel: string
   }
   networkHub: {
     huskySafaris: string
@@ -52,49 +55,11 @@ export type ChromeCopy = {
     submit: string
     submitting: string
     success: string
+    error: string
     footnote: string
     privacyLink: string
     benefits: { title: string; body: string }[]
   }
   footerEditorialNote: string
   footerExtraLegal: { editorialPolicy: string; about: string }
-  /** Per-page body copy that drives /ja/* and other locale routes. */
-  pages: {
-    home: {
-      // NOTE: the home FAQ lives in src/pages/Home.copy.*.ts (FAQPage schema),
-      // which drives both the JSON-LD and the visible <FAQSection> accordion.
-      seoTitle: string
-      seoDescription: string
-    }
-    propertyTypes: {
-      kicker: string
-      h1: string
-      lead: string
-      types: { title: string; body: string }[]
-    }
-    locations: {
-      kicker: string
-      h1: string
-      lead: string
-      cards: { name: string; desc: string }[]
-    }
-    whenToGo: {
-      kicker: string
-      h1: string
-      lead: string
-      months: { month: string; tip: string }[]
-    }
-    transport: {
-      kicker: string
-      h1: string
-      lead: string
-      airports: { name: string; desc: string }[]
-    }
-    about: {
-      kicker: string
-      h1: string
-      lead: string
-      mission: string
-    }
-  }
 }

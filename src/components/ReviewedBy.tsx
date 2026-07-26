@@ -41,7 +41,7 @@ export default function ReviewedBy({
     <div
       className={`inline-flex items-center gap-2.5 ${bg} border ${border} rounded-2xl px-4 py-1.5 ${className}`}
       role="note"
-      aria-label="Editorial attribution"
+      aria-label={c.ariaLabel}
     >
       <ShieldCheck className="w-3.5 h-3.5 text-pink shrink-0" />
       <p className={`text-[12px] ${dim} font-medium leading-snug`}>

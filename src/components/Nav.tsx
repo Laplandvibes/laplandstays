@@ -120,7 +120,7 @@ export default function Nav() {
         <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-3 h-16">
           <div className="flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandstays.com" variant={scrolled ? 'light' : 'dark'} />
-            <Link to={to('/')} className="flex items-center shrink-0" aria-label="LaplandStays home">
+            <Link to={to('/')} className="flex items-center shrink-0" aria-label={c.homeAria}>
               <span className="tracking-wide leading-none font-heading text-2xl sm:text-3xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
                 <span className="text-pink">#</span>
                 <span className={scrolled ? 'text-night' : 'text-white'}>LAPLAND</span>

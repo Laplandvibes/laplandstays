@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { ArrowRight, Flame, Users, UtensilsCrossed, MoonStar, ExternalLink, Megaphone } from 'lucide-react'
 import SEO from '../components/SEO'
+import { localizeArticle } from '../lib/jsonLd'
 import Newsletter from '../components/Newsletter'
 import PageBreadcrumb from '../components/PageBreadcrumb'
 import CabinShowcase from '../components/CabinShowcase'
@@ -122,7 +123,7 @@ export default function Cabins() {
         canonicalPath="/cabins"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['lapland cabin holiday', 'lapland log cabin', 'levi cabin', 'yllas cabin', 'ruka cabin', 'saariselka cabin', 'finnish mokki', 'lomarengas lapland']}
-        jsonLd={[articleJsonLd, breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
       />
 
       <section className="relative overflow-hidden bg-night text-white">

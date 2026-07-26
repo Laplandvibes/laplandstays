@@ -5,6 +5,7 @@ import PropertyTypes from '../components/PropertyTypes'
 import AmenitiesShowcase from '../components/AmenitiesShowcase'
 import Newsletter from '../components/Newsletter'
 import SEO from '../components/SEO'
+import { localizeArticle } from '../lib/jsonLd'
 import PageBreadcrumb from '../components/PageBreadcrumb'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import ReviewedBy from '../components/ReviewedBy'
@@ -339,7 +340,7 @@ export default function PropertyTypesPage() {
         canonicalPath="/property-types"
         ogImage="https://laplandstays.com/og-property-types.jpg"
         keywords={['Lapland aurora villa', 'Finnish log cabin', 'ski-in chalet Finland', 'designer lodge Lapland', 'glass igloo Finland']}
-        jsonLd={[articleJsonLd, breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
       />
 
       {/* Editorial hero, background image with a soft directional scrim */}

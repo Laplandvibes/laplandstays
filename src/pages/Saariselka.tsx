@@ -705,6 +705,70 @@ const zhCN: DestinationBody = {
   seoDescription: '芬兰拉普兰萨利瑟尔卡住宿指南:Kakslauttanen玻璃冰屋每晚400欧元起、Muotka与Star Arctic等荒野小屋200欧元起。位于乌尔霍·凯科宁国家公园边缘。私人桑拿、暗空、直接预订。',
 }
 
+const sv: DestinationBody = {
+  tagline: 'Porten till Urho Kekkonens nationalpark: premiumstugor i kanten av Europas sista riktiga vildmark.',
+  description: `Saariselkä ligger i Inari kommun, 250 km norr om polcirkeln, vid trädgränsen. Österut sträcker sig Urho Kekkonens nationalpark: 2 550 kvadratkilometer nästan orörd fjällterräng, älvar och gammelskog, ett av EU:s största vildmarksområden.
+
+Byn är liten och går att gå runt i, samlad kring några hotell, restauranger och skidbackar. Premiumstugorna ligger längs vägen mot Ivalo och i kanten av nationalparken. Läget är hela poängen: du kan gå ut genom dörren till en eftermiddag med hundspann och komma tillbaka till egen bastu under norrsken samma kväll.`,
+  facts: [
+    { label: 'Glasigloor från', value: '400 €/natt' },
+    { label: 'Vildmarkslodger från', value: '200 €/natt' },
+    { label: 'Norrskensnätter', value: 'ca 200/år' },
+    { label: 'Närmaste flygplats', value: 'IVL 25 min' },
+  ],
+  highlights: [
+    { title: 'UKK nationalpark utanför dörren', body: 'Finlands näst största nationalpark. Markerade skid- och vandringsleder startar i Saariselkä och löper 60 km österut in i vildmarken.' },
+    { title: 'Utsiktsplatsen på Kaunispää', body: 'Fjället ovanför byn har både väg och lift upp till toppen. Norrsken med fri horisont och panoramavyer i midnattssol på sommaren.' },
+    { title: 'Hundgårdar och rengårdar', body: 'Flera hundgårdar i drift inom 20 minuter från byn ordnar slädturer på halvdag och över flera dagar in i nationalparken.' },
+    { title: 'Täta norrsken', body: 'På den här breddgraden passerar norrskensovalen rakt över huvudet oftare än vid destinationer längre söderut, och du ser ljusen betydligt oftare än längre ner i landet.' },
+    { title: 'Guldbyn i Tankavaara', body: '30 minuters bilresa söderut: Lapplands verkliga guldgrävararv, med kurser i guldvaskning och Guldmuseet.' },
+    { title: 'Tysta vinterleder', body: 'Spårnätet är omfattande men lite använt: kilometer av pistade spår med nästan inga andra skidåkare en vardagsmorgon.' },
+  ],
+  whenToGo: `Slutet av augusti–april är norrskenssäsong. Oktober och februari är de stabilaste fönstren med klar himmel.
+December–mars ger heltäckande snö och korta dagar i blått ljus.
+Juli–augusti är subarktisk sommar: midnattssol, vandring, kanot på älven, och inga mygg när september kommer.`,
+  howToGet: `Flyg till Ivalo (IVL), 25 min transfer. Daglig trafik från Helsingfors och säsongsvisa direktlinjer från Storbritannien och Centraleuropa.
+Från Helsingfors med nattåg till Rovaniemi plus 3 timmars bilresa, eller direkta charterflyg på vintern.
+Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort bilresa från bykärnan.`,
+  stayTypes: [
+    'Norrskensstugor i glas i kanten av UKK nationalpark, små, för 2 personer, glastak och inget omgivande ljus.',
+    'Timmervillor på Kakslauttanen-sidan, 6–10 gäster, egen bastu, vedeldad brasa och total vildmarkstystnad.',
+    'Ski in-lägenheter i byn, gångavstånd till restaurangerna och liften upp till Kaunispää, bra för familjer.',
+    'Arkitektritade premiumstugor mot Ivalo, större tomter, egna sjöar och de tystaste boendena i Lappland.',
+  ],
+  siblings: [
+    { name: 'Inari', href: '/destinations/inari', blurb: 'Längre norrut vid den stora sjön, samiskt kärnland.' },
+    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapplands huvudstad, Santa Claus Village och mer service.' },
+    { name: 'Levi', href: '/destinations/levi', blurb: 'Lapplands största by och enklaste ankomst.' },
+  ],
+  anchorProperties: [
+    { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De ursprungliga glasigloorna. Bokas 8–12 månader i förväg för norrskenshögsäsongen.' },
+    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'På Kaunispääfjället, rum med glastak och den bästa utsikten över Saariselkä by.' },
+    { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Designlodge med bara sviter och ett fullt safariprogram.' },
+    { name: 'Alla boenden i Saariselkä', href: HOTEL_SEARCH.saariselka, sid: 'destination_saariselka_all_search', note: 'Bläddra bland alla boenden i Saariselkä på Trip.com.' },
+  ],
+  transport: [
+    { mode: 'plane', label: 'Från Ivalo flygplats (IVL)', detail: 'Direkta vinterflyg från HEL · LHR · CDG. 30 km / 30 min söderut till Saariselkä by.' },
+    { mode: 'bus', label: 'Flygbussen från IVL', detail: '15–20 € enkel resa · 30 min · möter varje flyg.' },
+    { mode: 'car', label: 'Taxi eller förbokad transfer', detail: '40–60 € till Saariselkä. Kakslauttanen och Muotka inkluderar privat transfer i premiumklassen.' },
+    { mode: 'train', label: 'Sovvagn Helsingfors–Rovaniemi', detail: 'VR:s nattåg till Rovaniemi (ca 90 €), sedan 4 timmars buss eller hyrbil. Ett långsamt alternativ till flyget till IVL.' },
+  ],
+  carRental: {
+    href: CARS.fromIvalo,
+    sid: 'destination_saariselka_cars_ivl',
+    airport: 'Upphämtning på Ivalo flygplats (IVL)',
+    blurb: '30 min till Saariselkä · praktiskt för utflykten till Inari och Inarisjön',
+  },
+  dayPlan: [
+    { day: '01', title: 'Ankomst · glasigloo', body: 'IVL på eftermiddagen, 30 min transfer söderut, checka in på Kakslauttanen, Star Arctic eller Muotka. Bastu, middag och norrskenslarmet påslaget.' },
+    { day: '02', title: 'Snöskovandring i UKK nationalpark', body: 'Guidad snöskovandring på halvdag in i Urho Kekkonens nationalpark, förbi guldvaskningsälvar och ryggar av dvärgbjörk. Lunch tillbaka på boendet, andra halvan av dagen fri.' },
+    { day: '03', title: 'Dag med hundspann och renar', body: 'Hundspannssafari från Saariselkä by på morgonen. Renåkning på en samisk gård i närheten på eftermiddagen. På kvällen pimpelfiske eller ett dopp i sjön från bastun, och norrskensspaning om himlen är klar.' },
+    { day: '04', title: 'Långsam morgon · vidare till Inari', body: 'Sista morgonen i iglon, kör 50 min norrut till Inarisjön för en dag med samisk kultur på museet Siida. Ta kvällsflyget från IVL eller lägg till en natt i Inari.' },
+  ],
+  seoTitle: 'Glasigloor och boende i Saariselkä från 200 €/natt',
+  seoDescription: 'Var du bor i Saariselkä, Lappland: Kakslauttanens glasigloor från 400 €/natt, vildmarkslodger (Muotka, Star Arctic) från 200 €. Mörk himmel och direktbokning.',
+}
+
 export default function Saariselka() {
   return (
     <DestinationPage
@@ -713,7 +777,7 @@ export default function Saariselka() {
       heroImage="/images/saariselka-hero.webp"
       ogImage="https://laplandstays.com/og-saariselka.jpg"
       seoKeywords={['saariselka accommodation', 'saariselkä glass igloo', 'kakslauttanen', 'star arctic hotel', 'muotka wilderness lodge', 'where to stay in saariselkä', 'ukk park accommodation', 'ivalo cabin']}
-      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl }}
+      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}
       highlightLinks={{
         3: { base: 'https://laplandvibes.com', path: '/northern-lights/' },
         5: { base: 'https://laplandskiresorts.com', path: '/resort/saariselka/' },

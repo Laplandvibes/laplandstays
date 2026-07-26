@@ -694,6 +694,69 @@ const zhCN: DestinationBody = {
   seoDescription: '芬兰拉普兰伊拉斯住宿指南:原木小屋每晚150欧元起、湖畔别墅与紧邻帕拉斯-伊拉斯通图里国家公园的滑入式木屋。私人桑拿、面向极光的湖岸、直接预订。',
 }
 
+const sv: DestinationBody = {
+  tagline: 'Tvillingfjäll, Finlands längsta nedfarter och tysta skogsstugor: Lappland för dig som vill ha mycket vildmark och lite by.',
+  description: `Ylläs är det fjäll som har störst fallhöjd bland de finska skidorterna, 464 meter, och landets längsta nedfarter. Fjället ligger i kommunerna Kolari och Kittilä, omkring 115 km norr om polcirkeln, i kanten av Pallas-Yllästunturi nationalpark.
+
+Två små byar ramar in fjället: Ylläsjärvi på södra sidan och Äkäslompolo på den norra. Någon samlad ortskärna finns inte: premiumstugorna ligger utspridda i skogen och längs sjöarna, vilket har gett Ylläs ryktet som det lugnare, mer naturnära alternativet till Levi.`,
+  facts: [
+    { label: 'Timmerstugor från', value: '150 €/natt' },
+    { label: 'Hotell från', value: '100 €/natt' },
+    { label: 'Närmaste flygplats', value: 'KTT 50 min' },
+    { label: 'Fallhöjd', value: '464 m' },
+  ],
+  highlights: [
+    { title: 'Finlands längsta nedfarter', body: 'Den 3 km långa nedfarten på Yllästunturis framsida går från kalfjället högst upp genom tallskogen ner till dalen. Ovanligt i Finland, där de flesta orter har nedfarter på 1 km.' },
+    { title: '330 km längdspår', body: 'Pistade spår för klassisk stil och skate löper genom nationalparken och binder samman Ylläsjärvi, Äkäslompolo och Pallas.' },
+    { title: 'Pallas-Yllästunturi nationalpark', body: 'Finlands tredje största nationalpark: gammelskog, sju namngivna fjäll och några av de renaste luftvärden som uppmätts i Europa.' },
+    { title: 'Tysta skogsstugor', body: 'Boendena här ligger medvetet långt från varandra. Grannen, om du har någon, finns några hundra meter tallskog bort över en glänta.' },
+    { title: 'Norrskensstranden i Äkäslompolo', body: 'Sjön vid Äkäslompolo öppnar sig mot norr: fri horisont, inga byljus på andra sidan och starkt norrsken sett från isen.' },
+    { title: 'Fjällvandring på sommaren', body: 'Lederna över fjälltopparna mellan Ylläs och Pallas går på spänger ovanför trädgränsen, öppna från juli till september i midnattssolens ljus.' },
+  ],
+  whenToGo: `December–mars är djupvinterns fönster, med pålitlig snö och full norrskenssäsong.
+Början av april ger "kevättalvi", vårvintern: långa ljusa dagar, bländande snö och fortfarande fullgoda skidförhållanden.
+September ger ruska, höstfärgerna; juli betyder midnattssol och vandring.`,
+  howToGet: `Flyg till Kittilä (KTT), 50 min transfer till Ylläs.
+Rovaniemi flygplats (RVN) är ett alternativ, 2 timmars bilresa.
+Kolari järnvägsstation, 40 min bort, tar emot nattåg från Helsingfors med bilvagn.`,
+  stayTypes: [
+    'Timmerstugor i skogssluttningarna på fjället, 4–8 gäster, vedeldad bastu, öppen spis, ofta med badtunna.',
+    'Sjövillor vid Äkäslompolo och Kesänkijärvi, egen strand och isvak för vinterbad.',
+    'Ski in-stugor i Äkäslompolo och Ylläsjärvi, direkt tillgång till backen, förvaring för utrustning och mindre folk än i Levi.',
+    'Arkitektritade vildmarksboenden i nationalparkens randzon, med känslan av att vara helt utanför nätet men med full komfort.',
+  ],
+  siblings: [
+    { name: 'Levi', href: '/destinations/levi', blurb: 'Större by, fler restauranger, snabbare liftar.' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porten till UKK-vildmarken längre norrut.' },
+    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Regionens huvudstad och Santa Claus Village.' },
+  ],
+  anchorProperties: [
+    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio och ski in-lägenheter från ca 150 €/natt.' },
+    { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min från Ylläs, paket med hundspannssafari och stugor vid vattnet.' },
+    { name: 'Alla boenden i Ylläs', href: HOTEL_SEARCH.yllas, sid: 'destination_yllas_all_search', note: 'Bläddra bland alla stugor och chalets i Ylläs på Trip.com.' },
+  ],
+  transport: [
+    { mode: 'plane', label: 'Från Kittilä flygplats (KTT)', detail: 'Samma flygplats som för Levi. 50 km / 45 min till Äkäslompolo (norra Ylläs), 35 km / 30 min till Ylläsjärvi (södra Ylläs).' },
+    { mode: 'bus', label: 'Flygbussen från KTT till Ylläs', detail: '25–30 € enkel resa · 50 min · möter vinterflygen.' },
+    { mode: 'train', label: 'Nattåg till Kolari', detail: 'VR:s sovvagn från Helsingfors ca 90 € · 35 km / 35 min transfer till Ylläs med buss eller taxi.' },
+    { mode: 'car', label: 'Taxi från KTT', detail: '100–120 € till Ylläs by, oftast värt det bara för grupper på 3 personer eller fler.' },
+  ],
+  carRental: {
+    href: CARS.fromKittila,
+    sid: 'destination_yllas_cars_ktt',
+    airport: 'Upphämtning på Kittilä flygplats (KTT)',
+    blurb: '50 min till Ylläs · klart billigare än taxi för 100 € och uppåt när ni är 3 eller fler',
+  },
+  dayPlan: [
+    { day: '01', title: 'Landa · stuga · bastu', body: 'Ankomst till KTT eller Kolari, transfer till Äkäslompolo eller Ylläsjärvi. Lätt middag i stugan, bastu och lite stretch efter flyget. Inget program.' },
+    { day: '02', title: 'Längdskiddag', body: 'Ylläs har Finlands längsta nät av längdspår (330 km). Åk den markerade slingan runt Aakenusjärvi eller ta gondolen upp på Yllästunturi för utförsåkning. Ta med en termos.' },
+    { day: '03', title: 'Vandring i nationalparken + renar', body: 'Snöskovandring inne i Pallas-Yllästunturi nationalpark. Besök en rengård, renarna vid Lainio Snow Village eller Aakenus gård. Spana efter norrsken från stugans norra strand.' },
+    { day: '04', title: 'Långsam morgon · hemresa', body: 'Sista bastun, frukost, transfer tillbaka. Reser du påskveckan: lägg till en dag och åk skidor i högsäsongens sol.' },
+  ],
+  seoTitle: 'Boende i Ylläs: timmerstugor och chalets från 150 €/natt',
+  seoDescription: 'Var du bor i Ylläs, Lappland: timmerstugor från 150 €/natt, sjövillor och ski in-stugor i kanten av Pallas-Yllästunturi nationalpark.',
+}
+
 export default function Yllas() {
   return (
     <DestinationPage
@@ -702,7 +765,7 @@ export default function Yllas() {
       heroImage="/images/yllas-hero.webp"
       ogImage="https://laplandstays.com/og-yllas.jpg"
       seoKeywords={['yllas accommodation', 'ylläs cabin', 'ylläs log cabin', 'ylläs hotel', 'äkäslompolo villa', 'pallas-yllästunturi accommodation', 'ylläs chalet', 'where to stay in ylläs']}
-      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl }}
+      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}
       highlightLinks={{
         0: { base: 'https://laplandskiresorts.com', path: '/resort/yllas/' },
         4: { base: 'https://laplandvibes.com', path: '/northern-lights/' },

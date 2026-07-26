@@ -84,6 +84,7 @@ export interface DestinationPageProps {
     fr?: DestinationBody
     it?: DestinationBody
     nl?: DestinationBody
+    sv?: DestinationBody
   }
   /** Optional ecosystem cross-links per highlight card, keyed by highlight index. */
   highlightLinks?: Record<number, HighlightLink>
@@ -172,6 +173,7 @@ export default function DestinationPage(p: DestinationPageProps) {
     p.body.fr ?? p.body.en,
     p.body.it ?? p.body.en,
     p.body.nl ?? p.body.en,
+    p.body.sv ?? p.body.en,
   )
   const searchUrl = buildHotelSearch(`${p.name}, Finland`, `destination_${p.slug}`)
   const pfx = ecoPrefix[lang]
@@ -261,20 +263,11 @@ export default function DestinationPage(p: DestinationPageProps) {
         </div>
       </section>
 
-      {/* Ecosystem breadcrumb (network trail), below the hero */}
+      {/* Ecosystem breadcrumb (network trail), below the hero. This is the ONLY
+          visible breadcrumb — a second local "Home / Destinations / {name}" nav
+          used to render right under it (double breadcrumb, removed 2026-07-25);
+          the shared 2-level trail also matches the BreadcrumbList JSON-LD. */}
       <PageBreadcrumb />
-
-      {/* BREADCRUMB */}
-      <nav aria-label="Breadcrumb" className="bg-white border-b border-gray-100">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 py-3 text-xs sm:text-sm text-charcoal/80 flex items-center gap-2">
-          <Link to={to('/')} className="hover:text-pink transition-colors">{ui.breadcrumbHome}</Link>
-          <span className="text-pink/70">/</span>
-          {/* Non-link: no destinations index page exists, so this crumb is a plain label. */}
-          <span>{ui.breadcrumbDest}</span>
-          <span className="text-pink/70">/</span>
-          <span className="text-charcoal font-semibold">{p.name}</span>
-        </div>
-      </nav>
 
       {/* OVERVIEW */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">

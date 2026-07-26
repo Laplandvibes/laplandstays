@@ -694,6 +694,69 @@ const zhCN: DestinationBody = {
   seoDescription: '拉普兰莱维住宿指南:Lapland Hotels每晚100欧元起、Levin Iglut玻璃冰屋350欧元起、滑入式木屋200欧元起。距基蒂莱机场15分钟。已核实价格,直接预订。',
 }
 
+const sv: DestinationBody = {
+  tagline: 'Finlands största skidort, med restauranger, safarier och norrskensstugor en kort bilresa från liftarna.',
+  description: `Levi ligger i Kittilä kommun, omkring 170 km norr om polcirkeln. Från en enda lift på 1960-talet har orten vuxit till Finlands största skidort: 43 nedfarter och 28 liftar, med ett kompakt bycentrum som går att gå runt i.
+
+Det är den enklaste vägen in i Lapplands lyxresande: Kittilä flygplats ligger 15 minuter bort, FIS-världscupens slalom öppnar säsongen varje november på Levi Black, och premiumstugorna ligger utspridda i fjällandskapet runtom, nära nog byn för en middag, långt nog bort för tystnad och norrsken under mörk himmel.`,
+  facts: [
+    { label: 'Hotell från', value: '100 €/natt' },
+    { label: 'Glasigloor från', value: '350 €/natt' },
+    { label: 'Närmaste flygplats', value: 'KTT 15 min' },
+    { label: 'Nedfarter', value: '43' },
+  ],
+  highlights: [
+    { title: 'Ski in-stugor på Levitunturi', body: 'Stugorna på Levifjällets sidor ger direkt tillgång till gondolen och till de långa blå och röda nedfarterna som ringar in fjället.' },
+    { title: 'En by du går runt i, med kök att räkna med', body: 'I centrum finns Michelin-rekommenderade restauranger, avsmakningsmenyer på ren och ett tätt kluster av kaféer, ovanligt för en fjälldestination.' },
+    { title: 'Hela safariutbudet', body: 'Hundspann, snöskotrar, renslädar, fototurer efter norrsken och bad i isvak startar alla från upphämtningsplatser inne i byn.' },
+    { title: 'Mörka zoner för norrsken', body: 'Kör 15 minuter ut från byn och ljusföroreningarna faller till nästan noll. Stugorna på fjällets norra sida har den renaste horisonten.' },
+    { title: 'Fjällcykling på sommaren och midnattssol', body: 'I juni och juli går solen inte ner. Levi öppnar gondoler och leder för downhill och cross country på mountainbike.' },
+    { title: 'Världscupens slalompremiär', body: 'Varje november inleds FIS alpina världscup på Levi Black, den tidigaste och mest pålitliga snön i hela cupen.' },
+  ],
+  whenToGo: `November–mars är högsäsong: pålitlig snö, norrskensnätter och full safarisäsong.
+Slutet av augusti–oktober ger ruska (höstfärgerna) och de första norrskensfönstren utan trängsel.
+Juni–juli är midnattssolens tid: ljus dygnet runt och en annan sorts stugsemester.`,
+  howToGet: `Flyg till Kittilä (KTT). Direkta vinterlinjer från London, Paris, Amsterdam, Frankfurt, Zürich och Helsingfors.
+Till Levi by är det 15 km. De flesta premiumstugor inkluderar privat transfer.
+Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert alternativ.`,
+  stayTypes: [
+    'Norrskensvillor i glas, sovrum med glastak för utsikt från horisont till horisont, oftast för 2–4 gäster.',
+    'Ski in-stugor på fjället, 6–10 gäster, egen bastu, ofta med badtunna utomhus och torkrum för utrustningen.',
+    'Timmerstugor vid Immeljärvi, lugnare, i skogen, några minuters bilresa från byn.',
+    'Designlägenheter i bykärnan, gångavstånd till restaurangerna, bra för dig som besöker Lappland första gången.',
+  ],
+  siblings: [
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Lugnare tvillingfjäll med Finlands längsta nedfarter.' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porten till vildmarken i UKK nationalpark.' },
+    { name: 'Inari', href: '/destinations/inari', blurb: 'Avlägsen sjö, samiskt arv och den djupa nordens himmel.' },
+  ],
+  anchorProperties: [
+    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasigloor på fjället, högsäsongsveckorna bokas 10–12 månader i förväg.' },
+    { name: 'Lapland Hotels Levi', propertyQuery: 'Lapland Hotels Levi', sid: 'destination_levi_lapland_hotels', note: 'Lägenheter och rum i byn med gångavstånd, från 100 €/natt.' },
+    { name: 'Alla boenden i Levi', href: HOTEL_SEARCH.levi, sid: 'destination_levi_all_search', note: 'Jämför alla hotell och stugor i Levi på Trip.com.' },
+  ],
+  transport: [
+    { mode: 'plane', label: 'Från Kittilä flygplats (KTT)', detail: 'Direkta vinterflyg LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min till Levi by.' },
+    { mode: 'bus', label: 'Flygbussen från KTT', detail: '8 € enkel resa · 25 min · möter varje flyg.' },
+    { mode: 'car', label: 'Taxi eller förbokad transfer', detail: '25–35 € till byn. De flesta premiumstugor inkluderar privat transfer.' },
+    { mode: 'train', label: 'Nattåg till Kolari', detail: 'VR:s sovvagn från Helsingfors ca 90 €, sedan 1 h transfer till Levi. Vackert alternativ på vintern.' },
+  ],
+  carRental: {
+    href: CARS.fromKittila,
+    sid: 'destination_levi_cars_ktt',
+    airport: 'Upphämtning på Kittilä flygplats (KTT)',
+    blurb: '15 min från Levi by · dubbdäck som standard på vintern',
+  },
+  dayPlan: [
+    { day: '01', title: 'Ankomst · landa in · en kort tur', body: 'Landning på KTT tidig eftermiddag, transfer till byn, hämta hyrutrustning på Zero Point. En lätt nedfart innan solnedgången för att testa utrustning och ben.' },
+    { day: '02', title: 'Full skiddag · bastu på kvällen', body: 'Liftarna öppnar 09:30. Lunch på Tuikku högst upp vid gondolen. Nere vid 15:00, bastu i stugan. Norrskenslarmet på innan du somnar.' },
+    { day: '03', title: 'Hundspannssafari + middag i byn', body: 'Safari på huskygård på morgonen (boka 2 veckor i förväg). Promenad i byn på eftermiddagen, Kammi-Bar för ren, Saamen Kammi för det traditionella. En klar kväll spanar du efter norrsken från Levitoppen.' },
+    { day: '04', title: 'Natt i norrskensstuga · en lugn dag', body: 'Kör 15 min norrut till en glasigloo för sista natten. Långsam morgon, bastu, titta på himlen. Tidigast möjliga flyg hem nästa morgon.' },
+  ],
+  seoTitle: 'Boende i Levi: hotell, stugor och igloor | LaplandStays',
+  seoDescription: 'Var du bor i Levi, Lappland: Lapland Hotels från 100 €/natt, glasigloor på Levin Iglut från 350 €, ski in-stugor från 200 €. 15 min från Kittilä flygplats.',
+}
+
 export default function Levi() {
   return (
     <DestinationPage
@@ -702,7 +765,7 @@ export default function Levi() {
       heroImage="/images/levi-hero.webp"
       ogImage="https://laplandstays.com/og-levi.jpg"
       seoKeywords={['levi accommodation', 'levi hotel', 'levi cabin rental', 'levi glass igloo', 'levin iglut', 'levi ski chalet', 'kittilä cabin', 'luxury levi accommodation']}
-      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl }}
+      body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}
       highlightLinks={{
         0: { base: 'https://laplandskiresorts.com', path: '/resort/levi/' },
         3: { base: 'https://laplandvibes.com', path: '/northern-lights/' },

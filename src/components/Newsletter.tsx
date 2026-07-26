@@ -2,7 +2,7 @@ import { useState, type FormEvent } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, CheckCircle2, Bell, BedDouble, Compass, Sparkles, AlertCircle } from 'lucide-react'
 import { trackNewsletterSignup } from '../lib/analytics'
-import { useLang, useLocalePath } from '../i18n/useLang'
+import { useLocalePath } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
 
 // Same-origin Cloudflare Pages Function, proxies the call to the shared
@@ -19,7 +19,7 @@ export default function Newsletter() {
   const [email, setEmail] = useState('')
   const [status, setStatus] = useState<'idle' | 'loading' | 'done' | 'error'>('idle')
   const [error, setError] = useState<string | null>(null)
-  const lang = useLang()
+  const [errorDetail, setErrorDetail] = useState<string | null>(null)
   const to = useLocalePath()
   const c = useCopy().newsletter
 
@@ -29,6 +29,7 @@ export default function Newsletter() {
 
     setStatus('loading')
     setError(null)
+    setErrorDetail(null)
     try {
       const res = await fetch(ENDPOINT, {
         method: 'POST',
@@ -43,16 +44,11 @@ export default function Newsletter() {
       setStatus('done')
     } catch (err) {
       setStatus('error')
-      const fallback = lang === 'fi'
-        ? 'Tilauksen lähetys epäonnistui. Yritä uudelleen tai lähetä sähköpostia info@laplandvibes.com.'
-        : 'Could not subscribe. Try again or email info@laplandvibes.com.'
-      setError(
-        err instanceof Error
-          ? lang === 'fi'
-            ? `Tilauksen lähetys epäonnistui (${err.message}). Yritä uudelleen tai lähetä sähköpostia info@laplandvibes.com.`
-            : `Could not subscribe (${err.message}). Try again or email info@laplandvibes.com.`
-          : fallback,
-      )
+      // The prose is localized in all 12 locales (`newsletter.error`); the raw
+      // technical cause (e.g. "HTTP 502") is appended in parentheses and left
+      // untranslated on purpose, so support requests carry a usable code.
+      setError(c.error)
+      setErrorDetail(err instanceof Error ? err.message : null)
     }
   }
 
@@ -130,7 +126,10 @@ export default function Newsletter() {
           {error && (
             <div className="mt-4 inline-flex items-center gap-2 bg-white/15 backdrop-blur-sm border border-white/30 text-white px-4 py-2.5 rounded-xl">
               <AlertCircle className="w-4 h-4 shrink-0" />
-              <p className="text-sm">{error}</p>
+              <p className="text-sm">
+                {error}
+                {errorDetail ? ` (${errorDetail})` : ''}
+              </p>
             </div>
           )}
 

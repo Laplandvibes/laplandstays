@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { ArrowRight, Plane, Bus, Car as CarIcon, Train } from 'lucide-react'
 import SEO from '../components/SEO'
+import { localizeArticle } from '../lib/jsonLd'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import ReviewedBy from '../components/ReviewedBy'
 import { REVIEWED_DATE } from '../lib/reviewDates'
@@ -112,7 +113,7 @@ export default function Transport() {
         canonicalPath="/transport"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['how to get to lapland', 'flights to lapland', 'kittila airport', 'rovaniemi airport', 'ivalo airport', 'helsinki rovaniemi train', 'lapland car rental', 'lapland transport']}
-        jsonLd={[articleJsonLd, breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
       />
 
       <section className="relative overflow-hidden bg-night text-white">
