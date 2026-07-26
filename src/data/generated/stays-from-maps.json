@@ -110,6 +110,18 @@
       },
       "lastVerified": "2026-07-26"
     },
+    "wildernessInari": {
+      "matchedName": "Wilderness Hotel Inari",
+      "rating": 4.7,
+      "reviewCount": 951,
+      "googlePlaceId": "ChIJed7ESl0GzUUROKklwLi1i8I",
+      "address": "Inarintie 2, 99870 Inari",
+      "location": {
+        "latitude": 68.89869639999999,
+        "longitude": 27.0861865
+      },
+      "lastVerified": "2026-07-26"
+    },
     "apukka": {
       "matchedName": "Apukka Resort - Glass Igloos Hotel - Husky & Reindeer Farm and Tours",
       "rating": 4.5,

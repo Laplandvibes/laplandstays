@@ -69,7 +69,7 @@ Ratings sorted: 3.9, 4.1, 4.2, 4.2, 4.3, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.5,
 4.5, 4.5, 4.6, 4.6, 4.6, 4.7, 4.8
 
 - `PICK_MIN_RATING = 4.3` is the field's first quartile. It disqualifies 4 of
-  19, most notably Kakslauttanen Arctic Resort (4.1 from 1 415 reviews) — the
+  20, most notably Kakslauttanen Arctic Resort (4.1 from 1 415 reviews) — the
   site's most heavily promoted property — from winning the Saariselkä chip on
   review volume alone.
 - `PICK_MIN_REVIEWS = 100` currently excludes **nothing** (min n = 173). It is
@@ -78,7 +78,15 @@ Ratings sorted: 3.9, 4.1, 4.2, 4.2, 4.3, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.5,
   granularity, so a future boutique entry with 8 reviews and a 5.0 cannot walk
   past a 4.6 from 2 543.
 
-Three names printed on the site are **deliberately not in the registry** — see
-the exclusion block in `src/data/properties.ts` for the full reasoning. Short
-version: `Lapland Hotels Ylläs` and `Inari Lake Cottages` do not identify a
-single business, and no property trades as `Lapland Hotels Levi`.
+Three names the site used to print are **banned from the registry and from the
+copy** (fixed 2026-07-26) — see the exclusion block in `src/data/properties.ts`
+for the full reasoning and the sources. Short version: `Lapland Hotels Ylläs`
+and `Inari Lake Cottages` do not identify a single business, and no property
+trades as `Lapland Hotels Levi` at all. They were not merely unratable, they
+were wrong on the page, so they were replaced with the real businesses they
+had been standing in for: `Lapland Hotels Sirkantähti` and `Hotel Levi
+Panorama` at Levi, `Lapland Hotels Saaga` and `Lapland Hotels Ylläskaltio` at
+Ylläs, and `Wilderness Hotel Inari` in the lakeside list.
+
+The rule: an anchor card names a business you could ring up. A chain, a region,
+a chain-plus-region, or a category is not one.

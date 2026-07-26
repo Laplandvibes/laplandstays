@@ -38,7 +38,8 @@ Kolari train station, 40 min away, receives overnight trains from Helsinki with 
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'The regional capital and Santa Claus Village.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio and ski-in apartments from ~€150/night.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spa hotel in Ylläsjärvi on the south side, pool area and the gondola 300 m away.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Sauna-equipped rooms in Äkäslompolo village, panoramic restaurant, ski resort 4.5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min from Ylläs, husky safari packages and lakeside cabins.' },
     { name: 'All Ylläs accommodation', href: HOTEL_SEARCH_FOR('en').yllas, sid: 'destination_yllas_all_search', note: 'Browse every Ylläs cabin and chalet on Trip.com.' },
   ],
@@ -101,7 +102,8 @@ Kolarin juna-asema, 40 min päässä, vastaanottaa yöjunat Helsingistä autonku
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapin pääkaupunki ja Joulupukin pajakylä.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio ja rinneasunnot alkaen ~150 €/yö.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Kylpylähotelli Ylläsjärvellä etelärinteiden puolella, allasosasto ja gondoli 300 m päässä.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Saunallisia hotellihuoneita Äkäslompolon kylässä, panoraamaravintola, hiihtokeskus 4,5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min Ylläkseltä, husky-safari-paketit ja rantamökit.' },
     { name: 'Kaikki Ylläksen majoitukset', href: HOTEL_SEARCH_FOR('fi').yllas, sid: 'destination_yllas_all_search', note: 'Selaa kaikki Ylläksen mökit ja chalet-asunnot Sembossa.' },
   ],
@@ -164,7 +166,8 @@ Bahnhof Kolari, 40 min entfernt, empfängt die Nachtzüge aus Helsinki mit Autot
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Die Regionalhauptstadt und das Weihnachtsmanndorf.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio und Ski-in-Apartments ab ~150 €/Nacht.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spa-Hotel in Ylläsjärvi auf der Südseite, Badelandschaft und Gondel 300 m entfernt.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Zimmer mit eigener Sauna im Dorf Äkäslompolo, Panoramarestaurant, Skigebiet 4,5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min von Ylläs, Husky-Safari-Pakete und Seehütten.' },
     { name: 'Alle Ylläs-Unterkünfte', href: HOTEL_SEARCH_FOR('de').yllas, sid: 'destination_yllas_all_search', note: 'Stöbern Sie in allen Ylläs-Hütten und Chalets auf Trip.com.' },
   ],
@@ -227,7 +230,8 @@ const ko: DestinationBody = {
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '라플란드의 중심 도시이자 산타클로스 마을.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio, 스키 인 아파트가 1박 150€부터.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '남쪽 윌래스야르비의 스파 호텔. 수영장 구역이 있고 곤돌라까지 300m.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '애캐슬롬폴로 마을의 사우나 완비 객실, 파노라마 레스토랑, 스키장까지 4.5km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '일래스에서 40분. 허스키 사파리 패키지와 호숫가 캐빈.' },
     { name: '일래스 전체 숙소', href: HOTEL_SEARCH_FOR('ko').yllas, sid: 'destination_yllas_all_search', note: 'Trip.com에서 일래스 캐빈과 샬레 전체를 비교하세요.' },
   ],
@@ -290,7 +294,8 @@ La gare de Kolari, à 40 min, accueille les trains de nuit depuis Helsinki avec 
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'La capitale régionale et le village du Père Noël.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio et appartements ski-in à partir de ~150 €/nuit.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hôtel spa à Ylläsjärvi, côté sud, espace piscine et télécabine à 300 m.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: "Chambres avec sauna au village d'Äkäslompolo, restaurant panoramique, domaine skiable à 4,5 km." },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'À 40 min d\'Ylläs, formules safari husky et chalets au bord du lac.' },
     { name: 'Tous les hébergements d\'Ylläs', href: HOTEL_SEARCH_FOR('fr').yllas, sid: 'destination_yllas_all_search', note: 'Parcourez tous les chalets et villas d\'Ylläs sur Trip.com.' },
   ],
@@ -353,7 +358,8 @@ La stazione di Kolari, a 40 min, accoglie i treni notturni da Helsinki con servi
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'La capitale regionale e il villaggio di Babbo Natale.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio e appartamenti ski-in da ~150 €/notte.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hotel spa a Ylläsjärvi, sul versante sud, area piscine e cabinovia a 300 m.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Camere con sauna nel villaggio di Äkäslompolo, ristorante panoramico, comprensorio a 4,5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min da Ylläs, pacchetti safari husky e chalet sul lago.' },
     { name: 'Tutti gli alloggi di Ylläs', href: HOTEL_SEARCH_FOR('it').yllas, sid: 'destination_yllas_all_search', note: 'Esplori tutti gli chalet e le ville di Ylläs su Trip.com.' },
   ],
@@ -416,7 +422,8 @@ Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservic
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'De regionale hoofdstad en het Kerstmandorp.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio en ski-in appartementen vanaf ~€150/nacht.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spahotel in Ylläsjärvi aan de zuidkant, zwembadgedeelte en gondel op 300 m.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Kamers met eigen sauna in het dorp Äkäslompolo, panoramarestaurant, skigebied op 4,5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min van Ylläs, husky-safari-pakketten en cabins aan het meer.' },
     { name: 'Alle Ylläs-accommodaties', href: HOTEL_SEARCH_FOR('nl').yllas, sid: 'destination_yllas_all_search', note: 'Bekijk alle Ylläs-cabins en chalets op Trip.com.' },
   ],
@@ -479,7 +486,8 @@ const ja: DestinationBody = {
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '地方の中心都市、サンタクロース村。' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'サーガ、イラスカルティオ、スキーインアパートメントが1泊約150ユーロから。' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '南側ユッラスヤルヴィのスパホテル。プールエリアを備え、ゴンドラまで300m。' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'アカスロンポロ村のサウナ付き客室、パノラマレストラン、スキー場まで4.5km。' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'イラスから40分。ハスキーサファリのパッケージと湖畔キャビン。' },
     { name: 'イラスのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').yllas, sid: 'destination_yllas_all_search', note: 'Trip.comでイラスのキャビンとシャレーをすべて比較できます。' },
   ],
@@ -542,7 +550,8 @@ La estación de Kolari, a 40 min, recibe trenes nocturnos desde Helsinki con ser
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Capital regional y Pueblo de Papá Noel.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio y apartamentos ski-in desde ~150 €/noche.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hotel spa en Ylläsjärvi, en la vertiente sur, zona de piscinas y telecabina a 300 m.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Habitaciones con sauna en el pueblo de Äkäslompolo, restaurante panorámico, estación a 4,5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min de Ylläs, paquetes de safari de huskys y cabañas junto al lago.' },
     { name: 'Todos los alojamientos de Ylläs', href: HOTEL_SEARCH_FOR('es').yllas, sid: 'destination_yllas_all_search', note: 'Consulte todas las cabañas y chalets de Ylläs en Trip.com.' },
   ],
@@ -605,7 +614,8 @@ A estação ferroviária de Kolari, a 40 min, recebe trens noturnos de Helsinque
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'A capital regional e a Vila do Papai Noel.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio e apartamentos ski-in a partir de ~€150/noite.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hotel spa em Ylläsjärvi, no lado sul, área de piscinas e teleférico a 300 m.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Quartos com sauna na vila de Äkäslompolo, restaurante panorâmico, estação a 4,5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min de Ylläs, pacotes de safári de huskies e cabanas à beira do lago.' },
     { name: 'Todas as hospedagens de Ylläs', href: HOTEL_SEARCH_FOR('pt-BR').yllas, sid: 'destination_yllas_all_search', note: 'Veja todas as cabanas e chalés de Ylläs no Trip.com.' },
   ],
@@ -668,7 +678,8 @@ const zhCN: DestinationBody = {
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '地区首府与圣诞老人村。' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga、Ylläskaltio与滑入式公寓,每晚约150欧元起。' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '位于南侧于莱斯耶尔维的水疗酒店,设泳池区,距缆车300米。' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '阿卡斯隆波洛村内的桑拿客房,设全景餐厅,距滑雪场4.5公里。' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '距伊拉斯40分钟。哈士奇探险套餐与湖畔小屋。' },
     { name: '伊拉斯全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').yllas, sid: 'destination_yllas_all_search', note: '在Trip.com浏览伊拉斯的所有小屋与木屋。' },
   ],
@@ -731,7 +742,8 @@ Kolari järnvägsstation, 40 min bort, tar emot nattåg från Helsingfors med bi
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Regionens huvudstad och Santa Claus Village.' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels (Ylläs)', propertyQuery: 'Lapland Hotels Ylläs', sid: 'destination_yllas_lapland_hotels', note: 'Saaga, Ylläskaltio och ski in-lägenheter från ca 150 €/natt.' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spahotell i Ylläsjärvi på södra sidan, poolavdelning och gondol 300 m bort.' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Rum med egen bastu i byn Äkäslompolo, panoramarestaurang, skidanläggning 4,5 km.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min från Ylläs, paket med hundspannssafari och stugor vid vattnet.' },
     { name: 'Alla boenden i Ylläs', href: HOTEL_SEARCH_FOR('sv').yllas, sid: 'destination_yllas_all_search', note: 'Bläddra bland alla stugor och chalets i Ylläs på Trip.com.' },
   ],

@@ -289,7 +289,7 @@ const categoryMetaFor = (lang: Lang) => [
       { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'property_lakeside_nellim' },
       { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'property_lakeside_muotka' },
       { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'property_lakeside_apukka' },
-      { name: 'Inari Lake Cottages', propertyQuery: 'Inari Lake', sid: 'property_lakeside_inari_lake' },
+      { name: 'Wilderness Hotel Inari', propertyQuery: 'Wilderness Hotel Inari', sid: 'property_lakeside_wilderness_inari' },
       { name: 'Lapland Hotels Ounasvaara', propertyQuery: 'Lapland Hotels Ounasvaara', sid: 'property_lakeside_ounasvaara' },
       { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'property_lakeside_harriniva' },
     ],

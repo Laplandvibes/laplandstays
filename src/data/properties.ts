@@ -136,6 +136,7 @@ export const PROPERTIES = withGoogleReviews({
   // ── Lakeside / wilderness lodges ──────────────────────────────────────
   nellim: { name: "Wilderness Hotel Nellim", destination: "Wilderness Hotel Nellim" },
   muotka: { name: "Wilderness Hotel Muotka", destination: "Wilderness Hotel Muotka" },
+  wildernessInari: { name: "Wilderness Hotel Inari", destination: "Wilderness Hotel Inari" },
   apukka: { name: "Apukka Resort", destination: "Apukka Resort Rovaniemi" },
   laplandHotelsOunasvaara: { name: "Lapland Hotels Ounasvaara Chalets", destination: "Lapland Hotels Ounasvaara" },
   harriniva: { name: "Harriniva Hotels & Safaris", destination: "Harriniva" },
@@ -153,35 +154,40 @@ export const PROPERTIES = withGoogleReviews({
 });
 
 /**
- * DELIBERATELY NOT IN THE REGISTRY — do not "helpfully" add these back.
+ * NAMES THIS SITE MUST NEVER PRINT AGAIN — do not "helpfully" reintroduce them.
  *
- * A Google rating belongs to ONE business. Three of the names this site prints
- * on its anchor lists do not identify one, so there is nothing a rating could
- * honestly be attached to, and each of them actively attracted a wrong match
- * during the 2026-07-26 sync:
+ * A Google rating belongs to ONE business. Until 2026-07-26 three names on this
+ * site's anchor lists did not identify one, so the sync had nothing it could
+ * honestly attach a rating to and each attracted a wrong match. The 2026-07-26
+ * sync caught them; the fix below (same day) removed them from the published
+ * copy as well, because a name that cannot be rated because it does not exist
+ * is not merely unratable — it is wrong on the page.
  *
- *   "Lapland Hotels Ylläs" (/destinations/yllas) — a chain-plus-region label;
- *     the card's own note says it means "Saaga, Ylläskaltio and ski-in
- *     apartments", i.e. several hotels. Google resolved it first to Lapland
- *     Hotels Äkäshotelli (Dice 0.79) and then, after the chain guard, to
- *     Lapland Hotels Ylläskaltio — because "Lapland Hotels Ylläs" is a literal
- *     prefix of "Lapland Hotels Ylläskaltio". Two different hotels, either of
- *     which would have been a fabricated score on that card.
+ *   "Lapland Hotels Levi" (was /destinations/levi) — NO SUCH HOTEL. Verified
+ *     against the chain's own destination index
+ *     (laplandhotels.com/en/hotels-and-destinations): the chain lists exactly
+ *     ONE hotel at Levi, Lapland Hotels Sirkantähti. Note that the earlier
+ *     revision of this comment also got it wrong in the other direction —
+ *     Hotel Levi Panorama is NOT a chain property, it is an independent hotel
+ *     on the fell, as is Levi Hotel Spa. The card now names Sirkantähti, and
+ *     Hotel Levi Panorama was added alongside it under its own real name.
  *
- *   "Lapland Hotels Levi" (/destinations/levi) — no chain property trades under
- *     that name; the chain's Levi hotels are Sirkantähti and Levi Panorama, and
- *     Levi Hotel Spa is a different company altogether. Google offered all
- *     three and all three were rejected. 🔴 The card is editorially wrong, not
- *     just unratable — worth a copy fix in a separate pass.
+ *   "Lapland Hotels (Ylläs)" (was /destinations/yllas) — a chain-plus-region
+ *     label. The chain's own index lists FOUR separate hotels at Ylläs (Saaga
+ *     in Ylläsjärvi, Äkäshotelli and Ylläskaltio in Äkäslompolo, and SnowVillage
+ *     — which is a different thing again, at Lainio). Google resolved the label
+ *     first to Äkäshotelli (Dice 0.79) and then, after the chain guard, to
+ *     Ylläskaltio, because the label is a literal prefix of that name. The card
+ *     was split into the two hotels its own note had been describing.
  *
- *   "Inari Lake Cottages" (/property-types, lakeside anchors) — a lake plus a
- *     category, not a business. Google offered "Lake Inari Mobile Cabins".
+ *   "Inari Lake Cottages" (was /property-types, lakeside anchors) — a lake plus
+ *     a category, not a business. Google offered "Lake Inari Mobile Cabins".
+ *     Replaced with Wilderness Hotel Inari, a real hotel on the Lake Inari
+ *     shore run by the same family as Nellim and Muotka above.
  *
- * They keep their affiliate links and their editorial text; they simply render
- * no rating row, which is the correct fail-closed outcome. Keeping them out of
- * the registry (rather than letting the sync gates re-reject them every run)
- * costs one Places request less each and records WHY here, where the next
- * person looks.
+ * The rule these three encode: an anchor card names a business you could ring
+ * up. A chain, a region, a chain-plus-region, or a category is not one, however
+ * natural it reads as a headline.
  */
 
 export type PropertyKey = keyof typeof PROPERTIES;
@@ -225,8 +231,8 @@ export function propertyForQuery(query: string | undefined | null): (Property & 
 /**
  * Minimum review count for a property to be rankable.
  *
- * THIS SITE'S FIELD (sync 2026-07-26, n = 19): review counts run 173 … 2 543,
- * median 706. So be honest about what this constant is: **it currently
+ * THIS SITE'S FIELD (sync 2026-07-26, n = 20): review counts run 173 … 2 543,
+ * median 762.5. So be honest about what this constant is: **it currently
  * excludes nothing.** It is a forward guard, not a filter on today's data.
  *
  * Why 100 and not, say, 30: Google publishes its average to one decimal, so a
@@ -245,12 +251,12 @@ export const PICK_MIN_REVIEWS = 100;
 /**
  * Minimum rating for a property to be rankable.
  *
- * THIS SITE'S FIELD (sync 2026-07-26, n = 19), sorted:
+ * THIS SITE'S FIELD (sync 2026-07-26, n = 20), sorted:
  *   3.9, 4.1, 4.2, 4.2, 4.3, 4.4, 4.4, 4.4, 4.4, 4.4, 4.4, 4.5, 4.5, 4.5,
- *   4.6, 4.6, 4.6, 4.7, 4.8      (min 3.9 · Q1 4.3 · median 4.4 · max 4.8)
+ *   4.6, 4.6, 4.6, 4.7, 4.7, 4.8 (min 3.9 · Q1 4.3 · median 4.4 · max 4.8)
  *
  * 4.3 is the field's first quartile, and that is the derivation: the bottom
- * fifth of what this site names cannot be crowned. It disqualifies 4 of 19
+ * fifth of what this site names cannot be crowned. It disqualifies 4 of 20
  * (3.9, 4.1, 4.2, 4.2), so unlike the review floor above it does real work —
  * most visibly it keeps Kakslauttanen Arctic Resort (4.1 from 1 415 reviews),
  * the single most heavily promoted property on the site, from taking the

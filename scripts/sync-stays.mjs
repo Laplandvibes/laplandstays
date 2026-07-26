@@ -101,6 +101,7 @@ const TARGETS = {
   // ── Lakeside / wilderness lodges ───────────────────────────────────────
   nellim:                   { queryCity: 'Nellim, Inari, Lapland, Finland',     locality: ['nellim', 'inari', 'ivalo'] },
   muotka:                   { queryCity: 'Inari, Lapland, Finland',             locality: ['inari', 'ivalo', 'muotka', 'saariselka'] },
+  wildernessInari:          { queryCity: 'Inari, Lapland, Finland',             locality: ['inari'] },
   apukka:                   { queryCity: 'Rovaniemi, Lapland, Finland',         locality: ['rovaniemi'] },
   laplandHotelsOunasvaara:  { queryCity: 'Rovaniemi, Lapland, Finland',         locality: ['rovaniemi', 'ounasvaara'] },
   harriniva:                { queryCity: 'Muonio, Lapland, Finland',            locality: ['muonio', 'harriniva'] },

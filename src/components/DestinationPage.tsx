@@ -192,10 +192,16 @@ export default function DestinationPage(p: DestinationPageProps) {
    *
    * Derived from real Google review data (`bestGoogleRated`), so it is `null`
    * — no chip at all — whenever the page names fewer than two properties with
-   * a rating that clears both thresholds. On the current content that silences
-   * the chip on Levi and Ylläs, where only one named anchor resolves to a
-   * single identifiable business, and that is the correct outcome: there is no
+   * a rating that clears both thresholds. If a destination page shows no chip,
+   * that is the correct outcome and not a bug to route around: there is no
    * field to be top of. Do not paper over it with a hand-picked winner.
+   *
+   * Levi and Ylläs were exactly that case until 2026-07-26, for the wrong
+   * reason: each named a chain or chain-plus-region label instead of a real
+   * hotel, so only one anchor per page resolved to an identifiable business.
+   * Fixing the copy (see the exclusion block in `src/data/properties.ts`) gave
+   * both pages a real field and the chip returned on its own. The lesson is
+   * that a missing chip is worth reading as a signal about the copy.
    *
    * `anchorProperties` also contains city-search rows ("All Levi
    * accommodation"); `propertyForQuery` returns null for those, and
