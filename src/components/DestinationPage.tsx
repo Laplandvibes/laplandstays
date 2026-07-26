@@ -5,6 +5,12 @@ import Newsletter from './Newsletter'
 import PageBreadcrumb from './PageBreadcrumb'
 import AffiliateDisclosure from './AffiliateDisclosure'
 import PartnerStayAd from './PartnerStayAd'
+import FeaturedPartnerSlot from './FeaturedPartnerSlot'
+import EditorsPickChip from './EditorsPickChip'
+import GoogleRatingRow from './GoogleRatingRow'
+import { DESTINATION_PLACEMENT } from '../data/adSlots'
+import { propertyForQuery, bestGoogleRated, editorialPickNote } from '../data/properties'
+import { useCopy as useChrome } from '../locales/copy'
 import { buildHotelSearch, buildAffiliateUrl } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, pick, type Lang } from '../i18n/useLang'
@@ -177,6 +183,28 @@ export default function DestinationPage(p: DestinationPageProps) {
   )
   const searchUrl = buildHotelSearch(`${p.name}, Finland`, `destination_${p.slug}`, lang)
   const pfx = ecoPrefix[lang]
+  const chrome = useChrome()
+
+  /**
+   * The earned editorial pick for this destination's "Where to stay" list.
+   * EARNED, NOT FOR SALE — the sellable thing on this surface is the
+   * Esittelykumppani slot at the head of the list (`FeaturedPartnerSlot`).
+   *
+   * Derived from real Google review data (`bestGoogleRated`), so it is `null`
+   * — no chip at all — whenever the page names fewer than two properties with
+   * a rating that clears both thresholds. On the current content that silences
+   * the chip on Levi and Ylläs, where only one named anchor resolves to a
+   * single identifiable business, and that is the correct outcome: there is no
+   * field to be top of. Do not paper over it with a hand-picked winner.
+   *
+   * `anchorProperties` also contains city-search rows ("All Levi
+   * accommodation"); `propertyForQuery` returns null for those, and
+   * `bestGoogleRated` drops them.
+   */
+  const editorsPick = bestGoogleRated(
+    (b.anchorProperties ?? []).map((a) => propertyForQuery(a.propertyQuery ?? a.name)),
+  )
+  const pickNote = editorialPickNote(chrome.editorial, editorsPick, lang)
 
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
@@ -410,6 +438,18 @@ export default function DestinationPage(p: DestinationPageProps) {
                 <p className="text-white/65 text-base leading-relaxed mb-6">
                   {ui.anchorLead}
                 </p>
+
+                {/* Myytävä Esittelykumppani-paikka tämän nimettyjen kohteiden
+                    listan kärjessä (KKV: merkitty mainokseksi). Tyhjänä =
+                    kanoninen vaalea house-ad; muilla kuin fi/en/sv ei
+                    renderöidy mitään eikä listaan jää aukkoa. */}
+                <FeaturedPartnerSlot
+                  placement={DESTINATION_PLACEMENT[p.slug]}
+                  locale={lang}
+                  surface="dark"
+                  className="mb-6 sm:mb-6"
+                />
+
                 <ul className="space-y-3">
                   {b.anchorProperties.map((a) => {
                     const finalHref = a.href ?? buildAffiliateUrl({
@@ -418,14 +458,23 @@ export default function DestinationPage(p: DestinationPageProps) {
                       destination: a.propertyQuery ?? a.name,
                       lang,
                     })
+                    // Registry lookup by the affiliate search string the card
+                    // already carries. `null` for city-search rows ("All Levi
+                    // accommodation") and for names that do not identify a
+                    // single business — those simply show no rating.
+                    const prop = propertyForQuery(a.propertyQuery ?? a.name)
+                    const isPick = editorsPick !== null && prop === editorsPick
                     return (
-                    <li key={a.name}>
+                    <li
+                      key={a.name}
+                      className="rounded-xl bg-white/[0.05] border border-white/10 hover:border-pink/40 hover:bg-white/[0.09] focus-within:border-pink/40 transition-all"
+                    >
                       <a
                         href={finalHref}
                         target="_blank"
                         rel="sponsored nofollow noopener"
                         onClick={() => trackAffiliateClick('lodging', a.sid, finalHref)}
-                        className="group flex items-center justify-between gap-4 px-5 py-4 rounded-xl bg-white/[0.05] border border-white/10 hover:border-pink/40 hover:bg-white/[0.09] transition-all"
+                        className="group flex items-center justify-between gap-4 px-5 py-4"
                       >
                         <div className="min-w-0">
                           <p className="font-heading text-lg text-white tracking-wide group-hover:text-pink transition-colors">{a.name}</p>
@@ -433,6 +482,24 @@ export default function DestinationPage(p: DestinationPageProps) {
                         </div>
                         <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
                       </a>
+                      {/* The rating row sits OUTSIDE the booking link on
+                          purpose: it is its own link to Google's review list
+                          (an <a> cannot nest), and it is rendered on EVERY
+                          rated card, not only the winner — "highest rated on
+                          this page" is checkable only if the reader can see
+                          the numbers it beat. */}
+                      {(prop || isPick) && (
+                        <div className="px-5 pb-4 -mt-1 flex flex-wrap items-start gap-x-2 gap-y-1.5">
+                          <GoogleRatingRow property={prop} tone="dark" />
+                          {isPick && (
+                            <EditorsPickChip
+                              label={chrome.editorial.pickLabel}
+                              reason={chrome.editorial.pickReason}
+                              note={pickNote}
+                            />
+                          )}
+                        </div>
+                      )}
                     </li>
                     )
                   })}

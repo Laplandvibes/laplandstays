@@ -181,8 +181,11 @@ export default function Home() {
           <PartnerStayAd partner="lomarengas" sid="home_lomarengas" />
         </div>
       </section>
-      <AmenitiesShowcase />
-      <Locations />
+      {/* Kaksi ILMAISTA nimettyjen kohteiden pintaa (mukavuuskorttien
+          kohdepillerit + kohdekortit) saivat kärkeensä myytävän
+          Esittelykumppani-paikan, Vesa 2026-07-26. Ks. src/data/adSlots.ts. */}
+      <AmenitiesShowcase placement="home_amenities" />
+      <Locations placement="home_locations" />
       <Reviews />
       <ActivitiesCrossSell />
       <FAQSection items={faqItems} />

@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'このページにはアフィリエイトリンクが含まれます。リンク経由でご予約いただいた場合、追加費用なしでLaplandStaysに手数料が支払われることがあります。',
     alt: 'オーロラの空の下、雪のフィンランド・ラップランドに佇む暖かな光のラグジュアリーキャビン',
   },
+  editorial: {
+    pickLabel: '編集部の選定',
+    pickReason: 'このページで最も高いGoogle評価',
+    ratingLine: 'Google {r}・口コミ{n}件',
+    ratingAria: 'Googleの口コミを新しいタブで開く',
+    verifiedOn: '{d}時点',
+  },
   reviewedBy: {
     reviewedLabel: '確認者',
     policyLabel: '編集方針',

@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'Deze pagina bevat affiliate links. Als u via deze links boekt, kan LaplandStays een commissie ontvangen zonder extra kosten voor u.',
     alt: 'Warm verlichte luxe hut in besneeuwd Fins Lapland onder het noorderlicht',
   },
+  editorial: {
+    pickLabel: 'Keuze van de redactie',
+    pickReason: 'De hoogste Google-beoordeling op deze pagina',
+    ratingLine: 'Google {r} · {n} beoordelingen',
+    ratingAria: 'Open de Google-beoordelingen in een nieuw tabblad',
+    verifiedOn: 'Gecontroleerd op {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Beoordeeld door',
     policyLabel: 'redactioneel beleid',

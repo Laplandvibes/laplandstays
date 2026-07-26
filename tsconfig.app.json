@@ -7,6 +7,10 @@
     "module": "ESNext",
     "types": ["vite/client"],
     "skipLibCheck": true,
+    /* src/data/generated/stays-from-maps.json — the gitted Google review
+       snapshot written by scripts/sync-stays.mjs, imported by
+       src/data/properties.ts. */
+    "resolveJsonModule": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",

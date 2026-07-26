@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: "Cette page contient des liens d'affiliation. Si vous réservez via ces liens, LaplandStays peut percevoir une commission sans coût supplémentaire pour vous.",
     alt: 'Chalet de luxe chaleureusement éclairé dans la Laponie finlandaise enneigée sous les aurores boréales',
   },
+  editorial: {
+    pickLabel: 'Choix de la rédaction',
+    pickReason: 'La meilleure note Google de cette page',
+    ratingLine: 'Google {r} · {n} avis',
+    ratingAria: 'Ouvrir les avis Google dans un nouvel onglet',
+    verifiedOn: 'Vérifié le {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Vérifié par',
     policyLabel: 'politique éditoriale',

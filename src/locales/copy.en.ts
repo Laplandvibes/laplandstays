@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'This page contains affiliate links. If you book through them, LaplandStays may earn a commission at no extra cost to you.',
     alt: 'Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies',
   },
+  editorial: {
+    pickLabel: 'Editor\'s pick',
+    pickReason: 'Highest Google rating on this page',
+    ratingLine: 'Google {r} · {n} reviews',
+    ratingAria: 'Open the Google reviews in a new tab',
+    verifiedOn: 'Checked {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Reviewed by',
     policyLabel: 'editorial policy',

@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'Questa pagina contiene link di affiliazione. Se prenota tramite questi link, LaplandStays può ricevere una commissione senza costi aggiuntivi per Lei.',
     alt: "Chalet di lusso dalle calde luci nella Lapponia finlandese innevata sotto l'aurora boreale",
   },
+  editorial: {
+    pickLabel: 'Scelta della redazione',
+    pickReason: 'La valutazione Google più alta di questa pagina',
+    ratingLine: 'Google {r} · {n} recensioni',
+    ratingAria: 'Apri le recensioni Google in una nuova scheda',
+    verifiedOn: 'Verificato il {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Verificato da',
     policyLabel: 'politica editoriale',

@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: '本页面包含联盟链接。如果您通过这些链接预订,LaplandStays可能获得佣金,您本人不会产生额外费用。',
     alt: '极光下芬兰拉普兰雪原中暖光融融的豪华小屋',
   },
+  editorial: {
+    pickLabel: '编辑推荐',
+    pickReason: '本页最高的 Google 评分',
+    ratingLine: 'Google {r} · {n} 条评价',
+    ratingAria: '在新标签页中打开 Google 评价',
+    verifiedOn: '{d} 核实',
+  },
   reviewedBy: {
     reviewedLabel: '审核者',
     policyLabel: '编辑方针',

@@ -5,6 +5,8 @@ import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
 import { useCopy as useChrome } from '../locales/copy'
+import FeaturedPartnerSlot from './FeaturedPartnerSlot'
+import type { FeaturedPlacement } from '../data/adSlots'
 import enCopy from './AmenitiesShowcase.copy.en'
 import type { Copy } from './AmenitiesShowcase.copy.types'
 
@@ -53,7 +55,14 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 
 const cache: Partial<Record<Lang, Copy>> = {}
 
-export default function AmenitiesShowcase() {
+/**
+ * `placement` is opt-in rather than baked in because this section renders on
+ * BOTH `/` and `/property-types`. The sellable slot belongs to the home page
+ * surface; `/property-types` already opens with its own
+ * `property_types` slot, and a second house ad further down the same page
+ * would read as broken inventory rather than as available inventory.
+ */
+export default function AmenitiesShowcase({ placement }: { placement?: FeaturedPlacement } = {}) {
   const c = useCopy<Copy>(enCopy, loaders, cache)
   const lang = useLang()
   const chrome = useChrome()
@@ -82,6 +91,12 @@ export default function AmenitiesShowcase() {
             {c.lead}
           </p>
         </div>
+
+        {/* Myytävä Esittelykumppani-paikka (KKV: merkitty mainokseksi).
+            Tyhjänä = kanoninen vaalea house-ad. Ei-mainoslokaaleilla ei
+            renderöidy mitään, ja kortisto alla säilyy ennallaan kaikilla
+            12 kielellä. */}
+        <FeaturedPartnerSlot placement={placement} locale={lang} surface="dark" />
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {amenities.map((amenity) => {

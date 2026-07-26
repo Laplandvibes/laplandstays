@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 LaplandStays가 추가 비용 없이 수수료를 받을 수 있습니다.',
     alt: '오로라가 펼쳐진 하늘 아래 눈 덮인 핀란드 라플란드의 따뜻한 조명의 럭셔리 캐빈',
   },
+  editorial: {
+    pickLabel: '편집부 선정',
+    pickReason: '이 페이지에서 가장 높은 Google 평점',
+    ratingLine: 'Google {r} · 리뷰 {n}개',
+    ratingAria: '새 탭에서 Google 리뷰 열기',
+    verifiedOn: '{d} 기준',
+  },
   reviewedBy: {
     reviewedLabel: '검토자',
     policyLabel: '편집 정책',

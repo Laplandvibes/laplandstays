@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'Den här sidan innehåller affiliatelänkar. Om du bokar via dem kan LaplandStays få provision utan extra kostnad för dig.',
     alt: 'Varmt upplyst lyxstuga i snöiga finska Lappland under norrskenshimlen',
   },
+  editorial: {
+    pickLabel: 'Redaktionens val',
+    pickReason: 'Sidans högsta Google-betyg',
+    ratingLine: 'Google {r} · {n} omdömen',
+    ratingAria: 'Öppna Google-omdömena i en ny flik',
+    verifiedOn: 'Kontrollerat {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Granskad av',
     policyLabel: 'redaktionell policy',

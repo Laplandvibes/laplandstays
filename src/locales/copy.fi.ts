@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'Sivu sisältää kumppanuuslinkkejä. Kun varaat näiden kautta, LaplandStays saa pienen provision ilman lisäkustannuksia sinulle.',
     alt: 'Lämmin lasimökki lumisessa Suomen Lapissa revontulten alla',
   },
+  editorial: {
+    pickLabel: 'Toimituksen valinta',
+    pickReason: 'Sivun paras Google-arvio',
+    ratingLine: 'Google {r} · {n} arvostelua',
+    ratingAria: 'Avaa Google-arvostelut uudessa välilehdessä',
+    verifiedOn: 'Tarkistettu {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Tarkistanut',
     policyLabel: 'toimituspolitiikka',

@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'Esta página contém links de afiliados. Se você reservar por eles, o LaplandStays pode receber uma comissão sem custo adicional para você.',
     alt: 'Cabana de luxo com iluminação acolhedora na Lapônia finlandesa nevada sob a aurora boreal',
   },
+  editorial: {
+    pickLabel: 'Escolha da redação',
+    pickReason: 'A melhor avaliação do Google desta página',
+    ratingLine: 'Google {r} · {n} avaliações',
+    ratingAria: 'Abrir as avaliações do Google em uma nova aba',
+    verifiedOn: 'Verificado em {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Revisado por',
     policyLabel: 'política editorial',

@@ -24,6 +24,13 @@ const copy: ChromeCopy = {
     disclosure: 'Diese Seite enthält Partnerlinks. Wenn Sie darüber buchen, erhält LaplandStays möglicherweise eine Provision ohne Mehrkosten für Sie.',
     alt: 'Warm beleuchtete Luxushütte im verschneiten Finnisch-Lappland unter dem Polarlicht',
   },
+  editorial: {
+    pickLabel: 'Redaktionsempfehlung',
+    pickReason: 'Beste Google-Bewertung auf dieser Seite',
+    ratingLine: 'Google {r} · {n} Bewertungen',
+    ratingAria: 'Google-Bewertungen in einem neuen Tab öffnen',
+    verifiedOn: 'Geprüft am {d}',
+  },
   reviewedBy: {
     reviewedLabel: 'Geprüft von',
     policyLabel: 'Redaktionsrichtlinie',

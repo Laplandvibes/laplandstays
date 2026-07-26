@@ -10,6 +10,9 @@ import PageBreadcrumb from '../components/PageBreadcrumb'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import ReviewedBy from '../components/ReviewedBy'
 import { REVIEWED_DATE } from '../lib/reviewDates'
+import FeaturedPartnerSlot from '../components/FeaturedPartnerSlot'
+import GoogleRatingRow from '../components/GoogleRatingRow'
+import { propertyForQuery } from '../data/properties'
 import { HOTEL_SEARCH_FOR, buildAffiliateUrl } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
@@ -78,19 +81,41 @@ interface CategoryProps {
   imageSide: 'left' | 'right'
 }
 
+/**
+ * One named anchor property: the affiliate pill plus, when the Places sync
+ * could verify the property beyond doubt, its real Google score as a separate
+ * link to Google's own review list.
+ *
+ * Two links, not one, because an <a> cannot nest — and the second one must
+ * stay a link: the whole point of printing the number is that the reader can
+ * click through and check it.
+ *
+ * NO EDITOR'S PICK CHIP ON THIS PAGE, deliberately. The chip is a per-surface
+ * claim ("highest rated on this page"), and this page carries four independent
+ * ranked fields, one per category. Four "Editor's pick" marks on a single page
+ * dilutes the mark into decoration, and this page's editorial job is to explain
+ * the categories, not to crown a property inside each. The chip lives on the
+ * five destination pages, where there is exactly one field per page. The
+ * ratings still render here, because transparency about the numbers costs
+ * nothing and is what makes the chip credible elsewhere.
+ */
 function AnchorPill({ name, propertyQuery, sid }: Anchor) {
   const lang = useLang()
   const href = buildAffiliateUrl({ partner: 'hotels', sid, destination: propertyQuery, lang })
+  const prop = propertyForQuery(propertyQuery)
   return (
-    <a
-      href={href}
-      target="_blank"
-      rel="sponsored nofollow noopener"
-      onClick={() => trackAffiliateClick('lodging', sid, href)}
-      className="text-[13px] px-3 py-1.5 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
-    >
-      {name}
-    </a>
+    <span className="inline-flex items-center gap-1.5">
+      <a
+        href={href}
+        target="_blank"
+        rel="sponsored nofollow noopener"
+        onClick={() => trackAffiliateClick('lodging', sid, href)}
+        className="text-[13px] px-3 py-1.5 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
+      >
+        {name}
+      </a>
+      <GoogleRatingRow property={prop} tone="light" />
+    </span>
   )
 }
 
@@ -414,6 +439,17 @@ export default function PropertyTypesPage() {
 
       {/* Quick-pick cards */}
       <PropertyTypes />
+
+      {/* Myytävä Esittelykumppani-paikka ennen ankkurikohteiden osioita: alla
+          nimetään 24 oikeaa kohdetta isolla toimituksellisella painoarvolla,
+          ja se pinta oli aiemmin kokonaan ilmainen (Vesa 2026-07-26).
+          Tyhjänä = kanoninen vaalea house-ad; muilla kuin fi/en/sv ei
+          renderöidy mitään eikä sivuun jää aukkoa. */}
+      <div className="bg-white px-4 sm:px-6 pt-16 sm:pt-20 -mb-6">
+        <div className="max-w-6xl mx-auto">
+          <FeaturedPartnerSlot placement="property_types" locale={lang} surface="light" />
+        </div>
+      </div>
 
       {cats.map((cat, i) => {
         const meta = categoryMetaFor(lang)[i]
