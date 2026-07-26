@@ -179,7 +179,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
     let type = ''
     if (activeTab === 'hotels') {
       url = buildHotelsUrl(hotelDest, hotelCheckIn, hotelCheckOut, hotelGuests, lang)
-      partner = 'hotelscom'
+      partner = 'lodging'
       type = 'accommodation'
     } else if (activeTab === 'flights') {
       const opt = FLIGHT_DESTINATIONS.find((f) => f.iata === flightDest) ?? FLIGHT_DESTINATIONS[0]

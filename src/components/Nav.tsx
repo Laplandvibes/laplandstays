@@ -59,7 +59,7 @@ export default function Nav() {
     : {
         target: '_blank' as const,
         rel: 'sponsored nofollow noopener',
-        onClick: () => trackAffiliateClick('hotelscom', 'nav_book_now', HOTEL_SEARCH_FOR(lang).navBookNow),
+        onClick: () => trackAffiliateClick('lodging', 'nav_book_now', HOTEL_SEARCH_FOR(lang).navBookNow),
       }
 
   type LangCode = 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl' | 'sv'
@@ -264,7 +264,7 @@ export default function Nav() {
                 ? {}
                 : { target: '_blank' as const, rel: 'sponsored nofollow noopener' })}
               onClick={() => {
-                if (!isHome) trackAffiliateClick('hotelscom', 'nav_book_now_mobile', HOTEL_SEARCH_FOR(lang).navBookNow)
+                if (!isHome) trackAffiliateClick('lodging', 'nav_book_now_mobile', HOTEL_SEARCH_FOR(lang).navBookNow)
                 setOpen(false)
               }}
               className="mt-4 px-4 py-3.5 text-white text-base font-semibold rounded-xl text-center uppercase tracking-wider"

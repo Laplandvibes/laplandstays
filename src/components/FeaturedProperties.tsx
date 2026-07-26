@@ -180,7 +180,7 @@ export default function WhyBookWithUs() {
   const lang = useLang()
   const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl, COPY.sv)
   const onClick = () => {
-    trackAffiliateClick('hotelscom', 'why_book_cta', HOTEL_SEARCH_FOR(lang).lapland)
+    trackAffiliateClick('lodging', 'why_book_cta', HOTEL_SEARCH_FOR(lang).lapland)
   }
 
   return (

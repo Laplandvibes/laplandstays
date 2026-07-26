@@ -86,7 +86,7 @@ function AnchorPill({ name, propertyQuery, sid }: Anchor) {
       href={href}
       target="_blank"
       rel="sponsored nofollow noopener"
-      onClick={() => trackAffiliateClick('hotelscom', sid, href)}
+      onClick={() => trackAffiliateClick('lodging', sid, href)}
       className="text-[13px] px-3 py-1.5 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
     >
       {name}
@@ -166,7 +166,7 @@ function CategorySection(p: CategoryProps) {
         href={p.ctaHref}
         target="_blank"
         rel="sponsored nofollow noopener"
-        onClick={() => trackAffiliateClick('hotelscom', p.ctaSid, p.ctaHref)}
+        onClick={() => trackAffiliateClick('lodging', p.ctaSid, p.ctaHref)}
         className="inline-flex items-center gap-2.5 bg-pink hover:bg-pink/90 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
       >
         {p.ctaLabel}

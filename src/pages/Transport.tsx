@@ -101,7 +101,7 @@ export default function Transport() {
   const copy = usePageCopy()
   const { seo, ui } = copy
   const onClick = (sid: string, href: string) => () => trackAffiliateClick('economybookings', sid, href)
-  const onHotels = (sid: string, href: string) => () => trackAffiliateClick('hotelscom', sid, href)
+  const onHotels = (sid: string, href: string) => () => trackAffiliateClick('lodging', sid, href)
 
   const carsFromHelsinki = CARS_FOR(lang).fromHelsinki
   const carsRovaniemiOneWay = buildAffiliateUrl({ partner: 'cars', sid: 'transport_cars_rvn_oneway', query: { pickup_location: 'RVN' }, lang })

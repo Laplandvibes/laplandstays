@@ -123,7 +123,7 @@ export default function AmenitiesShowcase() {
                       href={ex.href}
                       target="_blank"
                       rel="sponsored nofollow noopener"
-                      onClick={() => trackAffiliateClick('hotelscom', ex.sid, ex.href)}
+                      onClick={() => trackAffiliateClick('lodging', ex.sid, ex.href)}
                       className="text-[12px] px-2.5 py-1 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                     >
                       {ex.name}
@@ -148,7 +148,7 @@ export default function AmenitiesShowcase() {
             href={allLaplandHref}
             target="_blank"
             rel="sponsored nofollow noopener"
-            onClick={() => trackAffiliateClick('hotelscom', 'amenities_cta_all', allLaplandHref)}
+            onClick={() => trackAffiliateClick('lodging', 'amenities_cta_all', allLaplandHref)}
             className="inline-flex items-center gap-3 bg-pink hover:bg-pink/90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             {c.cta}
@@ -167,7 +167,7 @@ export default function AmenitiesShowcase() {
                   href={href}
                   target="_blank"
                   rel="sponsored nofollow noopener"
-                  onClick={() => trackAffiliateClick('hotelscom', `amenities_dest_${d.key}`, href)}
+                  onClick={() => trackAffiliateClick('lodging', `amenities_dest_${d.key}`, href)}
                   className="text-[13px] font-semibold px-4 py-3 sm:px-3 sm:py-1.5 rounded-full border border-white/15 text-white/85 hover:border-pink/50 hover:bg-pink/10 hover:text-white transition-colors"
                 >
                   {chrome.nav[d.key]}

@@ -178,7 +178,7 @@ export default function PriceGuide() {
   const copy = usePriceGuideCopy()
   const fmt = usePrices(lang)
   const onClick = (campaign: string, href: string) => () => {
-    trackAffiliateClick('hotelscom', campaign, href)
+    trackAffiliateClick('lodging', campaign, href)
   }
 
   // A price ladder rather than a list of five identical rows: every category

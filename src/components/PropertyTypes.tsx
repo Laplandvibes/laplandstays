@@ -40,7 +40,7 @@ export default function PropertyTypes() {
   const types = c.types.map((t, i) => ({ ...t, ...META[i] }))
 
   const onClick = (campaign: string, href: string) => () => {
-    trackAffiliateClick('hotelscom', `property_type_${campaign.replace(/-/g, '_')}`, href)
+    trackAffiliateClick('lodging', `property_type_${campaign.replace(/-/g, '_')}`, href)
   }
 
   return (

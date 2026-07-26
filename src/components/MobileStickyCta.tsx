@@ -69,7 +69,7 @@ export default function MobileStickyCta() {
             href={stickyHref}
             target="_blank"
             rel="sponsored nofollow noopener"
-            onClick={() => trackAffiliateClick('hotelscom', 'mobile_sticky_cta', stickyHref)}
+            onClick={() => trackAffiliateClick('lodging', 'mobile_sticky_cta', stickyHref)}
             className="shrink-0 inline-flex items-center gap-1.5 bg-pink hover:bg-pink/90 text-white font-bold text-[13px] uppercase tracking-wider px-4 py-2.5 rounded-lg whitespace-nowrap"
           >
             {c.cta}

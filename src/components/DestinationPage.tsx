@@ -290,7 +290,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               href={searchUrl}
               target="_blank"
               rel="sponsored nofollow noopener"
-              onClick={() => trackAffiliateClick('hotelscom', `destination_overview_${p.slug}`, searchUrl)}
+              onClick={() => trackAffiliateClick('lodging', `destination_overview_${p.slug}`, searchUrl)}
               className="inline-flex items-center gap-3 bg-pink hover:bg-pink/90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               {ui.seePricesIn(p.name)}
@@ -376,7 +376,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               href={searchUrl}
               target="_blank"
               rel="sponsored nofollow noopener"
-              onClick={() => trackAffiliateClick('hotelscom', `destination_book_${p.slug}`, searchUrl)}
+              onClick={() => trackAffiliateClick('lodging', `destination_book_${p.slug}`, searchUrl)}
               className="inline-flex items-center gap-2 bg-pink hover:bg-pink/90 text-white font-semibold px-8 py-4 rounded-xl transition-colors uppercase tracking-widest text-sm"
             >
               {ui.checkAvailability} <ArrowRight className="w-4 h-4" />
@@ -424,7 +424,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                         href={finalHref}
                         target="_blank"
                         rel="sponsored nofollow noopener"
-                        onClick={() => trackAffiliateClick('hotelscom', a.sid, finalHref)}
+                        onClick={() => trackAffiliateClick('lodging', a.sid, finalHref)}
                         className="group flex items-center justify-between gap-4 px-5 py-4 rounded-xl bg-white/[0.05] border border-white/10 hover:border-pink/40 hover:bg-white/[0.09] transition-all"
                       >
                         <div className="min-w-0">

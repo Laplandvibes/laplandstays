@@ -30,8 +30,8 @@ const cache: Partial<Record<Lang, Copy>> = {}
 export default function BookingCTA() {
   const lang = useLang()
   const c = useCopy<Copy>(enCopy, loaders, cache)
-  const onPrimary = () => trackAffiliateClick('hotelscom', 'final_cta_primary', HOTEL_SEARCH_FOR(lang).lapland)
-  const onSecondary = () => trackAffiliateClick('hotelscom', 'final_cta_secondary', HOTEL_SEARCH_FOR(lang).levi)
+  const onPrimary = () => trackAffiliateClick('lodging', 'final_cta_primary', HOTEL_SEARCH_FOR(lang).lapland)
+  const onSecondary = () => trackAffiliateClick('lodging', 'final_cta_secondary', HOTEL_SEARCH_FOR(lang).levi)
 
   return (
     <section className="py-20 sm:py-28 px-4 sm:px-6 relative overflow-hidden">

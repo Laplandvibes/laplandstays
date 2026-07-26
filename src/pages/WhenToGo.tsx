@@ -92,7 +92,7 @@ export default function WhenToGo() {
   const lang = useLang()
   const copy = usePageCopy()
   const { seo, ui } = copy
-  const onCta = (cta: string) => () => trackAffiliateClick('hotelscom', `whentogo_${cta}`, HOTEL_SEARCH_FOR(lang).lapland)
+  const onCta = (cta: string) => () => trackAffiliateClick('lodging', `whentogo_${cta}`, HOTEL_SEARCH_FOR(lang).lapland)
 
   return (
     <>

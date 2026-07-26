@@ -106,7 +106,7 @@ export default function Locations() {
                     href={location.searchUrl}
                     target="_blank"
                     rel="sponsored nofollow noopener"
-                    onClick={() => trackAffiliateClick('hotelscom', `locations_${location.slug}`, location.searchUrl)}
+                    onClick={() => trackAffiliateClick('lodging', `locations_${location.slug}`, location.searchUrl)}
                     className="inline-flex items-center justify-center gap-2 bg-pink hover:bg-pink/90 text-white px-6 py-3 rounded-xl text-sm font-semibold uppercase tracking-wider transition-all shadow-md hover:shadow-lg"
                   >
                     {c.checkAvailability}
