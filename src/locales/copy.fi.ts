@@ -19,8 +19,8 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: 'Lapin majoitus · Suomi',
     h1: 'Missä yöpyä Suomen Lapissa',
-    lead: 'Lasi-iglu, jossa katsot revontulia suoraan tyynyltä, hirsimökki jossa on oma sauna ja järvi heti pihalla, tai kunnon hotelli kylän keskellä.',
-    leadSummer: 'Rantamökki keskiyön auringon alla omalla saunalla, jokivarsimaja vihreällä tunturilla, tai kunnon hotelli kylän keskellä.',
+    lead: 'Lasi-iglu, jossa katsot revontulia suoraan tyynyltä, hirsimökki, jossa on oma sauna ja järvi heti pihalla, tai kunnon hotelli kylän keskellä.',
+    leadSummer: 'Rantamökki keskiyön auringon alla omalla saunalla, jokivarsimaja vihreällä tunturilla tai kunnon hotelli kylän keskellä.',
     disclosure: 'Sivu sisältää kumppanuuslinkkejä. Kun varaat näiden kautta, LaplandStays saa pienen provision ilman lisäkustannuksia sinulle.',
     alt: 'Lämmin lasimökki lumisessa Suomen Lapissa revontulten alla',
   },
