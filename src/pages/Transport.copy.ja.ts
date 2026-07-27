@@ -26,7 +26,7 @@ const copy: PageCopy = {
     railBullets: [
       'クシェット(寝台席)は1名約90ユーロから、個室寝台は約140ユーロから',
       '自動車輸送が利用可能。自家用車をロヴァニエミまたはコラリで列車から降ろせます',
-      'コラリ終着駅はウッラスから35km(西部フィエルへの玄関口としてロヴァニエミより便利)',
+      'コラリ終着駅はウッラスから35km(西部の山々への玄関口としてロヴァニエミより便利)',
       'レストランカーで夕食、目的地で朝食',
     ],
     railBulletStrong: ['クシェット約90ユーロから', '自動車輸送', 'コラリ終着駅', 'レストランカー'],
@@ -74,7 +74,7 @@ const copy: PageCopy = {
       { code: 'RVN', name: 'ロヴァニエミ', serves: 'ロヴァニエミ(8km)', routes: '通年HEL · 冬季LHR · CDG · BCN · MAD', busPrice: '7ユーロ · 15分', taxiPrice: '15〜25ユーロ' },
       { code: 'KTT', name: 'キッティラ', serves: 'レヴィ(15km) · ウッラス(50km)', routes: '冬季LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: 'レヴィへ8ユーロ · ウッラスへ25〜30ユーロ', taxiPrice: 'レヴィへ25〜35ユーロ · ウッラスへ100〜120ユーロ' },
       { code: 'IVL', name: 'イヴァロ', serves: 'サーリセルカ(30km) · イナリ(40km)', routes: '冬季HEL · LHR · CDG · AMS', busPrice: 'サーリセルカへ15〜20ユーロ · イナリへ15ユーロ', taxiPrice: 'サーリセルカへ40〜60ユーロ · イナリへ60〜80ユーロ' },
-      { code: 'ENF', name: 'エノンテキエ', serves: '北部フィエル(ウッラス · ヘッタ)', routes: '冬季HELのみで限定運航', busPrice: '事前手配の送迎のみ', taxiPrice: '80ユーロ以上' },
+      { code: 'ENF', name: 'エノンテキエ', serves: '北部の山々(ウッラス · ヘッタ)', routes: '冬季HELのみで限定運航', busPrice: '事前手配の送迎のみ', taxiPrice: '80ユーロ以上' },
     ],
   },
 }
