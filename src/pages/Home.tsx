@@ -161,6 +161,10 @@ export default function Home() {
         jsonLd={jsonLd}
       />
       <Hero />
+      {/* App launch block, directly under the site's own opening. At the foot
+          of the page it measured 81 % down a 33 000 px front page, and an
+          announcement nobody scrolls to is not an announcement. */}
+      <AppPromoHero />
       {/* PÄÄKUMPPANI-banneri HETI heron alle (LV Media; tyhjä → house-ad).
           Vaalea pinta — istuu sivun cream-taustaan. */}
       <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
@@ -194,9 +198,6 @@ export default function Home() {
       {/* EKTA travel-insurance ad removed 2026-07-03 (Vesa): off-topic for an
           accommodation site; the relevant Lomarengas cabin ad stays above. */}
       <Newsletter />
-    {/* App launch block. Bottom of the page on purpose: the site's own
-        hero is what the search result promised. */}
-    <AppPromoHero />
     </>
   )
 }
