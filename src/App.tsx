@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { AppPromoNudge } from './components/AppPromo'
 import { useEffect, lazy, Suspense } from 'react'
 import Nav from './components/Nav'
 import Footer from '../../shared/Footer'
@@ -344,6 +345,7 @@ export default function App() {
       <MobileStickyCta />
       <LocalisedCookieBanner />
       <NewsletterPopup />
+    <AppPromoNudge />
     </BrowserRouter>
   )
 }

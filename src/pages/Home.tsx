@@ -18,6 +18,7 @@ import SEO from '../components/SEO'
 import { useLang, type Lang } from '../i18n/useLang'
 import type { PageCopy } from './Home.copy.types'
 import enCopy from './Home.copy.en'
+import { AppPromoHero } from '../components/AppPromo';
 
 const organizationJsonLd = {
   '@context': 'https://schema.org',
@@ -193,6 +194,9 @@ export default function Home() {
       {/* EKTA travel-insurance ad removed 2026-07-03 (Vesa): off-topic for an
           accommodation site; the relevant Lomarengas cabin ad stays above. */}
       <Newsletter />
+    {/* App launch block. Bottom of the page on purpose: the site's own
+        hero is what the search result promised. */}
+    <AppPromoHero />
     </>
   )
 }
