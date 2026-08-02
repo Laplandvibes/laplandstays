@@ -13,7 +13,8 @@ import { REVIEWED_DATE } from '../lib/reviewDates'
 import FeaturedPartnerSlot from '../components/FeaturedPartnerSlot'
 import GoogleRatingRow from '../components/GoogleRatingRow'
 import { propertyForQuery } from '../data/properties'
-import { HOTEL_SEARCH_FOR, buildAffiliateUrl } from '../lib/affiliate'
+import { bookingForQuery } from '../data/propertyBooking'
+import { HOTEL_SEARCH_FOR, buildAffiliateUrl, propertyLodgingLink } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import type { PageCopy } from './PropertyTypesPage.copy.types'
@@ -101,7 +102,12 @@ interface CategoryProps {
  */
 function AnchorPill({ name, propertyQuery, sid }: Anchor) {
   const lang = useLang()
-  const href = buildAffiliateUrl({ partner: 'hotels', sid, destination: propertyQuery, lang })
+  // Deep-link to the property's own page when the registry knows it; a query
+  // that resolves to nothing keeps the old city search rather than an invented id.
+  const booking = bookingForQuery(propertyQuery)
+  const href = booking
+    ? propertyLodgingLink(booking, sid, lang)
+    : buildAffiliateUrl({ partner: 'hotels', sid, destination: propertyQuery, lang })
   const prop = propertyForQuery(propertyQuery)
   return (
     <span className="inline-flex items-center gap-1.5">

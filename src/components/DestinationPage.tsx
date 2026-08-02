@@ -10,8 +10,9 @@ import EditorsPickChip from './EditorsPickChip'
 import GoogleRatingRow from './GoogleRatingRow'
 import { DESTINATION_PLACEMENT } from '../data/adSlots'
 import { propertyForQuery, bestGoogleRated, editorialPickNote } from '../data/properties'
+import { bookingForQuery } from '../data/propertyBooking'
 import { useCopy as useChrome } from '../locales/copy'
-import { buildHotelSearch, buildAffiliateUrl } from '../lib/affiliate'
+import { buildHotelSearch, buildAffiliateUrl, propertyLodgingLink } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, pick, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
@@ -458,12 +459,20 @@ export default function DestinationPage(p: DestinationPageProps) {
 
                 <ul className="space-y-3">
                   {b.anchorProperties.map((a) => {
-                    const finalHref = a.href ?? buildAffiliateUrl({
-                      partner: 'hotels',
-                      sid: a.sid,
-                      destination: a.propertyQuery ?? a.name,
-                      lang,
-                    })
+                    // A named property gets its OWN booking page via the
+                    // partner's property id; `?ss=` carries the TOWN. Rows with
+                    // an explicit `href` are the city-search row, and a query
+                    // that is not in the registry keeps the old city behaviour
+                    // rather than guessing an id.
+                    const booking = a.href ? null : bookingForQuery(a.propertyQuery ?? a.name)
+                    const finalHref = a.href ?? (booking
+                      ? propertyLodgingLink(booking, a.sid, lang)
+                      : buildAffiliateUrl({
+                        partner: 'hotels',
+                        sid: a.sid,
+                        destination: a.propertyQuery ?? a.name,
+                        lang,
+                      }))
                     // Registry lookup by the affiliate search string the card
                     // already carries. `null` for city-search rows ("All Levi
                     // accommodation") and for names that do not identify a

@@ -205,13 +205,13 @@ const QUERY_ALIASES: Record<string, PropertyKey> = {
   "Novasky Land": "novaSkyland",
 };
 
-const BY_QUERY: Map<string, Property & GoogleReview> = (() => {
-  const m = new Map<string, Property & GoogleReview>();
+const KEY_BY_QUERY: Map<string, PropertyKey> = (() => {
+  const m = new Map<string, PropertyKey>();
   for (const key of Object.keys(PROPERTIES) as PropertyKey[]) {
-    m.set(PROPERTIES[key].destination.toLowerCase(), PROPERTIES[key]);
+    m.set(PROPERTIES[key].destination.toLowerCase(), key);
   }
   for (const [alias, key] of Object.entries(QUERY_ALIASES)) {
-    m.set(alias.toLowerCase(), PROPERTIES[key]);
+    m.set(alias.toLowerCase(), key);
   }
   return m;
 })();
@@ -224,8 +224,20 @@ const BY_QUERY: Map<string, Property & GoogleReview> = (() => {
  * rating at all.
  */
 export function propertyForQuery(query: string | undefined | null): (Property & GoogleReview) | null {
+  const key = keyForQuery(query);
+  return key ? PROPERTIES[key] : null;
+}
+
+/**
+ * Same join, but returning the registry KEY. `data/propertyBooking.ts` needs the
+ * key rather than the record so the partner property ids can live in their own
+ * file: the ids are verified partner data with their own provenance, and mixing
+ * them into the editorial registry would put a machine-resolvable field in the
+ * file whose header says it is never machine-written.
+ */
+export function keyForQuery(query: string | undefined | null): PropertyKey | null {
   if (!query) return null;
-  return BY_QUERY.get(query.toLowerCase()) ?? null;
+  return KEY_BY_QUERY.get(query.toLowerCase()) ?? null;
 }
 
 /**

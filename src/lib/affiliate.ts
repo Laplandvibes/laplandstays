@@ -2,6 +2,8 @@
 // Worker resolves per-site CJ Website ID from Referer (laplandstays.com -> 101729772).
 // Spec: "LaplandVibes Affiliate System — Developer Handoff" (2026-04-25).
 
+import { PROPERTY_BOOKING } from '../data/propertyBooking'
+
 const REDIRECT_BASE = 'https://go.laplandvibes.com'
 const GYG_PARTNER_ID = 'VRMKD7N'
 const SITE_ID = 'laplandstays'
@@ -146,6 +148,51 @@ export function buildHotelSearch(destination: string, sid: string, lang: Lang): 
   return buildAffiliateUrl({ partner: 'hotels', sid, destination, lang })
 }
 
+/**
+ * Lodging link for a NAMED property — resolves to that hotel's own booking page.
+ *
+ * 🔴 `?ss=` is the TOWN, never the hotel name. `anchorHotelsSs()` is correct for
+ * a town and breaks a hotel name: Sembo's autosuggest returns [] for many
+ * multi-word hotel terms, so the Worker gets no destination and serves the
+ * partner's FRONT PAGE. Measured 2026-08-02 — 20 of 46 property CTAs landed
+ * there and not one reached a property page. The hotel is addressed by id
+ * instead (`sembo_hotel`+`sembo_poly` for fi, `trip_hotel`+`trip_city`
+ * otherwise), which the Worker has accepted since 2026-07-27.
+ *
+ * 🔴 Keep `sid` short AND distinct. The Worker truncates `<domain>_<sid>` at 50
+ * chars and `laplandstays_com_` is already 17, leaving 33. Truncation is the
+ * lesser problem: the real one is COLLISION. Before this change every named
+ * property reported as `laplandstays_com_property_card`, so twelve hotels shared
+ * one line in CJ reporting. `p_` leaves 31 characters; the longest slug in
+ * `PROPERTY_BOOKING` is 16, so nothing truncates and all sub-ids are distinct.
+ * Re-check that before adding a property whose slug is longer than 31 chars.
+ *
+ * The per-surface sids the destination and property-type pages already carry
+ * (`destination_levi_levin_iglut`, `property_aurora_kakslauttanen`, …) are kept
+ * as-is and passed in by the caller: they encode WHICH surface converted, which
+ * is information `p_<slug>` does not have. `scripts/check-sids.mjs` asserts the
+ * whole set stays distinct after the Worker's 50-char cut.
+ */
+export function propertyLodgingLink(
+  b: { slug: string; town: string; semboHotel?: string; semboPoly?: string; tripHotel?: string; tripCity?: string },
+  sid: string | undefined,
+  lang: Lang,
+): string {
+  const params = new URLSearchParams()
+  params.set('sid', sid ?? `p_${b.slug}`)
+  params.set('ss', anchorHotelsSs('hotels', b.town))
+  params.set('locale', HOTELS_LOCALE[lang])
+  if (b.semboHotel && b.semboPoly) {
+    params.set('sembo_hotel', b.semboHotel)
+    params.set('sembo_poly', b.semboPoly)
+  }
+  if (b.tripHotel) {
+    params.set('trip_hotel', b.tripHotel)
+    if (b.tripCity) params.set('trip_city', b.tripCity)
+  }
+  return `${REDIRECT_BASE}/go/hotels?${params.toString()}`
+}
+
 export function buildHotelSearchWithDates(
   destination: string,
   sid: string,
@@ -201,23 +248,33 @@ function buildHotelSearchLang(lang: Lang = "en") {
   };
 }
 
-// ─── Specific properties — deep-link via ?ss=PROPERTY_NAME ───────────────────
-// Spec section 8: when a card features a known property, send the visitor to
-// Hotels.com with that property name pre-filled.
+// ─── Specific properties — deep-link to the property's OWN booking page ──────
+// Built from `data/propertyBooking.ts`, so a card featuring a known property
+// opens that hotel at the partner instead of a city list. Each entry gets its
+// own `p_<slug>` sub-id; they all used to be `property_card`, which merged
+// twelve hotels into one line of CJ reporting.
+//
+// 🔴 `laplandHotels` was REMOVED, not fixed. "Lapland Hotels" is a chain, not a
+// business you could ring up, so there is no property page to deep-link to and
+// no honest id to give it — the same rule `data/properties.ts` already applies
+// to "Lapland Hotels Levi" and "Lapland Hotels (Ylläs)". It had no call sites.
 function buildPropertySearchLang(lang: Lang = "en") {
+  const link = (key: keyof typeof PROPERTY_BOOKING) => {
+    const b = PROPERTY_BOOKING[key]
+    return b ? propertyLodgingLink(b, undefined, lang) : buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Rovaniemi, Finland', lang })
+  }
   return {
-  kakslauttanen: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Kakslauttanen Arctic Resort', lang }),
-  levinIglut: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Levin Iglut', lang }),
-  arcticTreeHouse: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Arctic TreeHouse Hotel', lang }),
-  starArctic: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Star Arctic Hotel', lang }),
-  auroraVillage: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Aurora Village Ivalo', lang }),
-  arcticSnowHotel: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Arctic Snow Hotel', lang }),
-  nellim: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Wilderness Hotel Nellim', lang }),
-  muotka: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Wilderness Hotel Muotka', lang }),
-  novaSkyland: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Novasky Land', lang }),
-  apukka: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Apukka Resort Rovaniemi', lang }),
-  laplandHotels: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Lapland Hotels', lang }),
-  harriniva: buildAffiliateUrl({ partner: 'hotels', sid: 'property_card', destination: 'Harriniva', lang }),
+  kakslauttanen: link('kakslauttanen'),
+  levinIglut: link('levinIglut'),
+  arcticTreeHouse: link('arcticTreeHouse'),
+  starArctic: link('starArctic'),
+  auroraVillage: link('auroraVillage'),
+  arcticSnowHotel: link('arcticSnowHotel'),
+  nellim: link('nellim'),
+  muotka: link('muotka'),
+  novaSkyland: link('novaSkyland'),
+  apukka: link('apukka'),
+  harriniva: link('harriniva'),
   };
 }
 
