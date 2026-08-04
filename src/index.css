@@ -3,6 +3,9 @@
 @source "../../shared/**/*.{ts,tsx}";
 
 @theme {
+  /* LV ecosystem tokens required by shared/ components (added 2026-08-04:
+     without them Tailwind v4 silently drops e.g. bg-vibe-pink from the build). */
+  --color-arctic-cyan: #06B6D4;
   --font-heading: 'Bebas Neue', sans-serif;
   --font-body: 'DM Sans', sans-serif;
   --font-display: 'Bebas Neue', sans-serif;
