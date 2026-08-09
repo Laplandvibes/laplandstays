@@ -36,7 +36,7 @@ const copy: Copy = {
     checkAvailability: 'Tarkista saatavuus',
     anchorEyebrow: 'Ankkurikohteet',
     whereToStayH2: (n: string) => `Missä yöpyä kohteessa ${n}`,
-    anchorLead: 'Klikkaa ajantasaisiin Trip.com-hintoihin. Kohteet varataan 4–8 kuukautta etukäteen sesongin huipulla.',
+    anchorLead: 'Klikkaa ajantasaisiin Sembo-hintoihin. Kohteet varataan 4–8 kuukautta etukäteen sesongin huipulla.',
     gettingThereH2: (n: string) => `Saapuminen kohteeseen ${n}`,
     transportLead: 'Todelliset hinnat operaattorien sivuilta, tarkistettu kausittain. Kuljetukset yleensä esivarattavissa kohteen kautta.',
     rentCarLabel: 'Vuokraa auto · EconomyBookings',
