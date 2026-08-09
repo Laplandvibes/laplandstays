@@ -347,9 +347,12 @@ export default function PartnerStayAd({ partner, sid, className = '' }: PartnerS
 
       <div className="relative p-6 sm:p-8">
         {/* Header: icon badge + eyebrow left, BIG real partner logo right.
-            (Ad label moved to the bottom-right corner — Vesa 2026-07-06.) */}
-        <div className="flex items-start justify-between gap-4 mb-4">
-          <div className="flex items-center gap-3">
+            (Ad label moved to the bottom-right corner — Vesa 2026-07-06.)
+            <sm the logo gets its own row on top (flex-col-reverse): the h-14
+            logo + shrink-0 next to the eyebrow overflowed the card's inner
+            ~300px at 375px and overflow-hidden clipped it (Vesa 2026-08-09). */}
+        <div className="mb-4 flex flex-col-reverse gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+          <div className="flex items-center gap-3 min-w-0">
             <span
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl"
               style={{ background: `${cfg.accent}14`, boxShadow: `inset 0 0 0 1px ${cfg.accent}33` }}
@@ -368,12 +371,12 @@ export default function PartnerStayAd({ partner, sid, className = '' }: PartnerS
               height={80}
               loading="lazy"
               decoding="async"
-              className="h-14 sm:h-20 w-auto max-w-[260px] shrink-0"
+              className="h-10 sm:h-14 md:h-20 w-auto max-w-[240px] sm:max-w-[260px] shrink-0 self-start"
             />
           ) : (
             // Category advertiser (car rental) without a brand logo: brand name
             // as a wordmark keeps the header balanced, no fake logo.
-            <span className="font-heading text-2xl sm:text-3xl text-night tracking-wide shrink-0">
+            <span className="font-heading text-2xl sm:text-3xl text-night tracking-wide shrink-0 self-start">
               {cfg.brand}
             </span>
           )}

@@ -184,31 +184,37 @@ export default function WhyBookWithUs() {
   }
 
   return (
-    <section className="py-20 sm:py-28 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
+    // Mobile is deliberately COMPACT: this section is pure reassurance copy, and
+    // as three tower cards it filled ~3 phone screens without giving the reader
+    // anything concrete (Vesa 2026-08-09). Below md each reason is an icon-left
+    // ROW (network rule: rivi > tornikortti), md+ keeps the 3-card grid.
+    <section className="py-14 sm:py-20 lg:py-28 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-14 max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{c.eyebrow}</p>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">
+        <div className="text-center mb-8 sm:mb-14 max-w-3xl mx-auto">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-3">{c.eyebrow}</p>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">
             {c.h2}
           </h2>
-          <p className="mt-5 text-charcoal/70 text-lg leading-relaxed">
+          <p className="mt-4 sm:mt-5 text-charcoal/70 text-base sm:text-lg leading-relaxed">
             {c.lead}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 md:gap-6 mb-8 sm:mb-12">
           {c.reasons.map((r, i) => {
             const Icon = ICONS[i] ?? Compass
             return (
               <div
                 key={r.title}
-                className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100 hover:shadow-lg hover:border-pink/30 transition-all duration-300"
+                className="bg-white rounded-2xl p-5 md:p-8 shadow-sm border border-gray-100 hover:shadow-lg hover:border-pink/30 transition-all duration-300 flex items-start gap-4 md:block"
               >
-                <div className="w-12 h-12 rounded-xl bg-pink/10 flex items-center justify-center mb-5">
-                  <Icon className="w-6 h-6 text-pink" />
+                <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-pink/10 flex items-center justify-center shrink-0 md:mb-5">
+                  <Icon className="w-5 h-5 md:w-6 md:h-6 text-pink" />
                 </div>
-                <h3 className="text-2xl font-heading text-night tracking-wide mb-3">{r.title}</h3>
-                <p className="text-charcoal/70 leading-relaxed">{r.body}</p>
+                <div className="min-w-0">
+                  <h3 className="text-xl md:text-2xl font-heading text-night tracking-wide mb-1 md:mb-3">{r.title}</h3>
+                  <p className="text-charcoal/70 leading-relaxed text-sm md:text-base">{r.body}</p>
+                </div>
               </div>
             )
           })}

@@ -1,4 +1,3 @@
-import { Quote } from 'lucide-react'
 import { useLang, pick } from '../i18n/useLang'
 
 const COPY = {
@@ -172,6 +171,18 @@ const COPY = {
   },
 }
 
+// Mood image per memory, order matches items: [quiet, warmth, sky]. Pulled from
+// the site's own previously-unused pool (the old FeaturedProperties card art) —
+// AI-generated, unique to this site, already optimized. They illustrate the
+// THEME (alt = the card headline), they do not name or promise any property.
+// TODO(Picsart): swap the "warmth" slot to a real sauna-interior image once
+// gen-ai login works again on info@ (tokens dead 2026-08-09).
+const IMAGES = [
+  '/images/arctic-lakeside-retreat-inari.webp',
+  '/images/northern-crown-lodge-saariselka.webp',
+  '/images/aurora-class-villa-levi.webp',
+]
+
 export default function Reviews() {
   const lang = useLang()
   const c = pick(lang, COPY.en, COPY.fi, COPY.de, COPY.ja, COPY.es, COPY['pt-BR'], COPY['zh-CN'], COPY.ko, COPY.fr, COPY.it, COPY.nl, COPY.sv)
@@ -181,28 +192,45 @@ export default function Reviews() {
     // Activities → FAQ) had no rhythm and read as empty (Vesa 2026-07-09). A
     // deep-night testimonial band breaks the monotony and reads as premium,
     // while the cream editorial look stays the page's default.
-    <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night">
+    <section className="py-14 sm:py-20 px-4 sm:px-6 bg-night">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-14 max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{c.eyebrow}</p>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-snow tracking-wide">
+        <div className="text-center mb-8 sm:mb-14 max-w-3xl mx-auto">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-3">{c.eyebrow}</p>
+          <h2 className="text-3xl sm:text-5xl lg:text-6xl font-heading text-snow tracking-wide">
             {c.h2}
           </h2>
-          <p className="mt-5 text-snow/70 text-lg leading-relaxed">
+          <p className="mt-4 sm:mt-5 text-snow/70 text-base sm:text-lg leading-relaxed">
             {c.lead}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {c.items.map((v) => (
+        {/* Image-led cards (Vesa 2026-08-09: text-only dark cards had zero pull).
+            The tag pill sits on the image over a bottom scrim; body stays below. */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
+          {c.items.map((v, i) => (
             <div
               key={v.tag}
-              className="relative bg-white/[0.04] rounded-2xl p-8 border border-white/10"
+              className="relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04]"
             >
-              <Quote className="w-8 h-8 text-pink/50 mb-4" />
-              <p className="text-xs uppercase tracking-[0.25em] text-pink font-semibold mb-2">{v.tag}</p>
-              <h3 className="text-2xl font-heading text-snow tracking-wide mb-3">{v.headline}</h3>
-              <p className="text-snow/70 leading-relaxed">{v.body}</p>
+              <div className="relative">
+                <img
+                  src={IMAGES[i]}
+                  alt={v.headline}
+                  width={1920}
+                  height={1440}
+                  loading="lazy"
+                  decoding="async"
+                  className="h-44 sm:h-52 w-full object-cover"
+                />
+                <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-t from-night/70 via-transparent to-transparent" />
+                <p className="absolute bottom-3 left-5 text-xs uppercase tracking-[0.25em] text-pink font-semibold [text-shadow:0_1px_8px_rgba(0,0,0,0.9)]">
+                  {v.tag}
+                </p>
+              </div>
+              <div className="p-5 sm:p-8">
+                <h3 className="text-2xl font-heading text-snow tracking-wide mb-2.5">{v.headline}</h3>
+                <p className="text-snow/70 text-[15px] sm:text-base leading-relaxed">{v.body}</p>
+              </div>
             </div>
           ))}
         </div>
