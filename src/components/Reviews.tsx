@@ -171,15 +171,14 @@ const COPY = {
   },
 }
 
-// Mood image per memory, order matches items: [quiet, warmth, sky]. Pulled from
-// the site's own previously-unused pool (the old FeaturedProperties card art) —
-// AI-generated, unique to this site, already optimized. They illustrate the
-// THEME (alt = the card headline), they do not name or promise any property.
-// TODO(Picsart): swap the "warmth" slot to a real sauna-interior image once
-// gen-ai login works again on info@ (tokens dead 2026-08-09).
+// Mood image per memory, order matches items: [quiet, warmth, sky]. Quiet and
+// sky come from the site's own previously-unused pool (the old FeaturedProperties
+// card art); warmth is a purpose-generated sauna interior (Picsart gemini-2K,
+// 2026-08-09). All AI-generated, unique to this site. They illustrate the THEME
+// (alt = the card headline), they do not name or promise any property.
 const IMAGES = [
   '/images/arctic-lakeside-retreat-inari.webp',
-  '/images/northern-crown-lodge-saariselka.webp',
+  '/images/sense-sauna.webp',
   '/images/aurora-class-villa-levi.webp',
 ]
 
