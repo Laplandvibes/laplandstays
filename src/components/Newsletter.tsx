@@ -4,6 +4,7 @@ import { ArrowRight, CheckCircle2, Bell, BedDouble, Compass, Sparkles, AlertCirc
 import { trackNewsletterSignup } from '../lib/analytics'
 import { useLocalePath } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
+import FounderByline from '../../../shared/FounderByline';
 
 // Same-origin Cloudflare Pages Function, proxies the call to the shared
 // Supabase Edge Function `send-welcome-email`. Routes via /api/newsletter so
@@ -98,6 +99,7 @@ export default function Newsletter() {
               <p className="text-base font-medium">{c.success}</p>
             </div>
           ) : (
+            <FounderByline tone="pink" />
             <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-3">
               <label className="sr-only" htmlFor="newsletter-email">
                 {c.emailLabel}
