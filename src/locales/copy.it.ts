@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Pianifichi il Suo viaggio in Lapponia con noi',
-    lead: 'Scritto dalla Lapponia finlandese, e solo quando c\'è davvero qualcosa da raccontare: una finestra di date perfetta, un iglù appena liberato, una tariffa da cogliere al volo. Lei sceglie solo i giorni e prepara i calzini di lana.',
+    lead: "Solo quando c'è davvero qualcosa da raccontare: come si preannuncia la stagione, quando igloo e chalet tendono a esaurirsi e cosa conviene prenotare per primo. Lei sceglie solo i giorni e prepara i calzini di lana.",
     emailPlaceholder: 'tua@email.com',
     emailLabel: 'Indirizzo email',
     submit: 'Ricevi la prossima e-mail',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Solo quando c\'è davvero qualcosa da raccontare. Disiscrizione con un clic.',
     privacyLink: 'Informativa sulla privacy',
     benefits: [
-      { title: 'Avvisi aurora', body: 'La avvisiamo quando si avvicina una buona notte di aurore, così sarà sotto il tetto di vetro proprio la notte giusta.' },
-      { title: 'Aperture chalet', body: 'Lo saprà per primo quando Kakslauttanen, Levin Iglut, Star Arctic e Aurora Village aprono le notti della stagione, le migliori spariscono in fretta.' },
-      { title: 'Aiuto alla pianificazione', body: 'Quando venire, cosa prenotare per primo, cosa saltare senza rimpianti, raccontato come a un amico, direttamente dalla Lapponia.' },
-      { title: 'Tariffe insider', body: 'Le offerte stagionali dei nostri partner arrivano prima agli iscritti, Lei prenota prima di tutti gli altri.' },
+      { title: "Stagioni dell'aurora", body: 'Quando la stagione è al culmine, come leggere le previsioni Kp e quali mesi sono i più bui sotto un tetto di vetro.' },
+      { title: 'Finestre di prenotazione degli igloo', body: 'Quando Kakslauttanen, Levin Iglut, Star Arctic e Aurora Village aprono di solito la stagione, e quali notti si esauriscono per prime.' },
+      { title: 'Aiuto alla pianificazione', body: 'Quando venire, cosa prenotare per primo, cosa saltare senza rimpianti, raccontato come a un amico, scritto dalla Finlandia.' },
+      { title: 'Scelte dei partner', body: 'Mettiamo in evidenza le offerte stagionali dei nostri partner quando ci sono.' },
     ],
   },
   footerEditorialNote: 'Gestita in modo indipendente da Lapeso Oy nella Lapponia finlandese · ultima revisione aprile 2026 · riceviamo una commissione di affiliazione su alcune prenotazioni, ma non influisce mai sulle proprietà che raccomandiamo.',

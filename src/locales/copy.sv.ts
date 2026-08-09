@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Planera din Lapplandsresa med oss',
-    lead: 'Skrivet härifrån, och bara när vi verkligen har något att berätta: ett bra datumfönster, en iglo som just blev ledig, ett pris värt att haffa innan det försvinner. Du väljer bara dagarna och packar ullstrumporna.',
+    lead: 'Bara när vi verkligen har något att berätta: hur säsongen ser ut, när igloor och stugor brukar bli fullbokade och vad som är värt att boka först. Du väljer bara dagarna och packar ullstrumporna.',
     emailPlaceholder: 'din@epost.se',
     emailLabel: 'E-postadress',
     submit: 'Få nästa mejl',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Bara när vi verkligen har något att berätta. Avsluta med ett klick.',
     privacyLink: 'Integritetspolicy',
     benefits: [
-      { title: 'Norrskenslarm', body: 'Vi hör av oss när en bra norrskensnatt är på väg, så att du ligger under glastaket exakt rätt natt.' },
-      { title: 'Nya lediga stugor', body: 'Du hör det först när Kakslauttanen, Levin Iglut, Star Arctic och Aurora Village öppnar säsongen, de bästa nätterna går snabbt.' },
-      { title: 'Planeringshjälp', body: 'När du ska komma, vad du ska boka först, vad du lugnt kan hoppa över, berättat som vi skulle berätta för en vän, direkt härifrån Lappland.' },
-      { title: 'Insiderpriser', body: 'Våra partners säsongserbjudanden landar först hos prenumeranterna, så du bokar innan alla andra hör talas om dem.' },
+      { title: 'Norrskenssäsongen', body: 'När säsongen är som bäst, hur du läser Kp-prognosen och vilka månader som är mörkast under glastaket.' },
+      { title: 'Bokningsfönster för igloor', body: 'När Kakslauttanen, Levin Iglut, Star Arctic och Aurora Village brukar öppna säsongen, och vilka nätter som går först.' },
+      { title: 'Planeringshjälp', body: 'När du ska komma, vad du ska boka först, vad du lugnt kan hoppa över, berättat som till en vän, skrivet från Finland.' },
+      { title: 'Partnerplock', body: 'Vi lyfter fram våra partners säsongserbjudanden när de finns.' },
     ],
   },
   footerEditorialNote: 'Drivs oberoende av Lapeso Oy i finska Lappland · senast granskad april 2026 · vi tjänar affiliateprovision på vissa bokningar, men det påverkar aldrig vilka boenden vi rekommenderar.',

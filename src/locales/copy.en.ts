@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Plan Your Lapland Trip With Us',
-    lead: 'Written from up here, and only when we actually have something to tell you. A good window of dates, an igloo that just freed up, a rate worth grabbing before it goes. You pick the days and pack the wool socks.',
+    lead: 'Only when we actually have something to tell you: how the season is shaping up, when the igloos and cabins tend to sell out, and what is worth booking first. You pick the days and pack the wool socks.',
     emailPlaceholder: 'your@email.com',
     emailLabel: 'Email address',
     submit: 'Get the next email',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Only when we genuinely have something to tell you. One-click unsubscribe.',
     privacyLink: 'Privacy Policy',
     benefits: [
-      { title: 'Aurora alerts', body: 'We send a heads-up when a good aurora night is coming, so you’re under the glass roof on exactly the right night.' },
-      { title: 'Cabin drops', body: 'First word when Kakslauttanen, Levin Iglut, Star Arctic and Aurora Village open their season. The best nights go fast.' },
-      { title: 'Planning help', body: 'When to come, what to book first, what you can happily skip. Told the way we’d tell a friend, from right here in Lapland.' },
-      { title: 'Insider rates', body: 'Our partners’ seasonal deals land with subscribers first, so you book before everyone else hears about them.' },
+      { title: 'Aurora seasons', body: 'When the aurora season peaks, how to read the Kp forecast, and which months are darkest above a glass roof.' },
+      { title: 'Igloo booking windows', body: 'When Kakslauttanen, Levin Iglut, Star Arctic and Aurora Village usually open their seasons, and which nights sell out first.' },
+      { title: 'Planning help', body: 'When to come, what to book first, what you can happily skip. Told the way we would tell a friend, written from Finland.' },
+      { title: 'Partner picks', body: "We highlight our partners' seasonal offers when they are around." },
     ],
   },
   footerEditorialNote: 'Independently maintained by Lapeso Oy in Finnish Lapland · last reviewed April 2026 · we earn an affiliate commission on some bookings, but it never shapes which properties we recommend.',

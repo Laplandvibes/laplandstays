@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Plan uw Lapland-reis met ons',
-    lead: 'Geschreven vanuit Fins Lapland, en alleen wanneer er echt iets te vertellen valt: een ideaal datumvenster, een iglo die net is vrijgekomen, een tarief dat u moet grijpen. U kiest alleen de data en pakt de wollen sokken in.',
+    lead: "Alleen wanneer er echt iets te vertellen valt: hoe het seizoen zich aftekent, wanneer iglo's en hutten doorgaans uitverkocht raken en wat u het eerst moet boeken. U kiest alleen de data en pakt de wollen sokken in.",
     emailPlaceholder: 'uw@email.com',
     emailLabel: 'E-mailadres',
     submit: 'Ontvang de volgende e-mail',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Alleen wanneer er echt iets te vertellen valt. Uitschrijven met één klik.',
     privacyLink: 'Privacybeleid',
     benefits: [
-      { title: 'Auroramelding', body: 'U krijgt bericht wanneer een mooie noorderlichtnacht eraan komt, zodat u precies de juiste nacht onder het glazen dak ligt.' },
-      { title: 'Hut-openingen', body: 'U hoort het als eerste wanneer Kakslauttanen, Levin Iglut, Star Arctic en Aurora Village hun seizoensnachten vrijgeven, de beste zijn snel weg.' },
-      { title: 'Planninghulp', body: 'Wanneer te komen, wat eerst te boeken, wat u gerust kunt overslaan, verteld zoals aan een vriend, rechtstreeks vanuit Lapland.' },
-      { title: 'Insidertarieven', body: 'De seizoensdeals van onze partners landen eerst bij abonnees, u boekt voordat de rest het hoort.' },
+      { title: 'Noorderlichtseizoen', body: 'Wanneer het seizoen piekt, hoe u de Kp-voorspelling leest en welke maanden het donkerst zijn onder een glazen dak.' },
+      { title: "Boekingsvensters voor iglo's", body: 'Wanneer Kakslauttanen, Levin Iglut, Star Arctic en Aurora Village hun seizoen doorgaans openen, en welke nachten het eerst weg zijn.' },
+      { title: 'Planninghulp', body: 'Wanneer te komen, wat eerst te boeken, wat u gerust kunt overslaan, verteld zoals aan een vriend, geschreven vanuit Finland.' },
+      { title: 'Partnertips', body: 'We lichten de seizoensaanbiedingen van onze partners uit wanneer ze er zijn.' },
     ],
   },
   footerEditorialNote: 'Onafhankelijk beheerd door Lapeso Oy in Fins Lapland · laatst beoordeeld april 2026 · we verdienen affiliate commissie op sommige boekingen, maar dit beïnvloedt nooit welke accommodaties we aanbevelen.',

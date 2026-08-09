@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Planifique su viaje a Laponia con nosotros',
-    lead: 'Escrito desde la Laponia finlandesa, y solo cuando de verdad hay algo que contar: unas fechas ideales, un iglú que se acaba de liberar, una tarifa que conviene atrapar. Usted solo elige los días y prepara los calcetines de lana.',
+    lead: 'Solo cuando de verdad hay algo que contar: cómo se presenta la temporada, cuándo suelen agotarse los iglús y las cabañas, y qué conviene reservar primero. Usted solo elige los días y prepara los calcetines de lana.',
     emailPlaceholder: 'su@correo.com',
     emailLabel: 'Correo electrónico',
     submit: 'Recibir el próximo email',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Solo cuando de verdad hay algo que contar. Baja con un clic.',
     privacyLink: 'Política de privacidad',
     benefits: [
-      { title: 'Alertas de aurora', body: 'Le avisamos cuando se acerca una buena noche de auroras, para que esté bajo el techo de cristal justo la noche correcta.' },
-      { title: 'Aperturas de cabañas', body: 'Será el primero en saber cuándo Kakslauttanen, Levin Iglut, Star Arctic y Aurora Village abren las noches de temporada, las mejores vuelan.' },
-      { title: 'Ayuda de planificación', body: 'Cuándo venir, qué reservar primero y qué puede saltarse sin pena, contado como a un amigo, desde la propia Laponia.' },
-      { title: 'Tarifas internas', body: 'Las ofertas de temporada de nuestros socios llegan primero a los suscriptores, usted reserva antes que nadie.' },
+      { title: 'Temporada de auroras', body: 'Cuándo alcanza su punto álgido la temporada, cómo leer el pronóstico Kp y qué meses son los más oscuros bajo un techo de cristal.' },
+      { title: 'Ventanas de reserva de iglús', body: 'Cuándo suelen abrir su temporada Kakslauttanen, Levin Iglut, Star Arctic y Aurora Village, y qué noches se agotan primero.' },
+      { title: 'Ayuda de planificación', body: 'Cuándo venir, qué reservar primero y qué puede saltarse sin pena, contado como a un amigo, escrito desde Finlandia.' },
+      { title: 'Selección de socios', body: 'Destacamos las ofertas de temporada de nuestros socios cuando las hay.' },
     ],
   },
   footerEditorialNote: 'Mantenido de forma independiente por Lapeso Oy en la Laponia finlandesa · última revisión abril 2026 · ganamos una comisión de afiliación en algunas reservas, pero nunca condiciona las propiedades recomendadas.',

@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays 内行通讯',
     h2: '与我们一起规划您的拉普兰之旅',
-    lead: '我们在芬兰拉普兰为您撰写。只在真正有事可说时发送:一段绝佳的日期、刚刚空出的玻璃屋、值得立刻锁定的价格。您只需选好日子,备好羊毛袜。',
+    lead: '只在真正有事可说时发送：本季的走势、玻璃屋和木屋通常何时订满、什么值得先预订。您只需选好日子，备好羊毛袜。',
     emailPlaceholder: 'your@email.com',
     emailLabel: '电子邮件地址',
     submit: '接收下一封邮件',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: '只在真正有事可说时发送。一键退订。',
     privacyLink: '隐私政策',
     benefits: [
-      { title: '极光预警', body: '当一个好的极光之夜临近时,我们会提前告诉您。让您在对的那一晚,正好躺在玻璃屋顶下。' },
-      { title: '木屋上架', body: '当Kakslauttanen、Levin Iglut、Star Arctic与Aurora Village放出当季房源时,您将第一时间知道。最好的夜晚总是最先订完。' },
-      { title: '行程规划协助', body: '何时来、先订什么、哪些可以放心跳过。像朋友聊天一样告诉您,写自拉普兰当地。' },
-      { title: '内行价', body: '合作伙伴的季节优惠最先送到订阅者手中。您总能抢先预订。' },
+      { title: '极光季节', body: '极光季何时最佳、如何读懂 Kp 预报，以及玻璃屋顶下哪些月份夜空最暗。' },
+      { title: '玻璃屋预订窗口', body: 'Kakslauttanen、Levin Iglut、Star Arctic 与 Aurora Village 通常何时开放当季房源，哪些夜晚最先订完。' },
+      { title: '行程规划协助', body: '何时来、先订什么、哪些可以放心跳过。像朋友聊天一样告诉您，写自芬兰。' },
+      { title: '伙伴精选', body: '当合作伙伴有季节优惠时，我们会为您精选呈现。' },
     ],
   },
   footerEditorialNote: '由Lapeso Oy在芬兰拉普兰独立运营 · 上次审阅于2026年4月 · 我们从部分预订中获得联盟佣金,但绝不影响我们推荐的房源选择。',

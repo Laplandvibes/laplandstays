@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Suunnittele Lapin matkasi kanssamme',
-    lead: 'Kirjoitetaan sulle suoraan täältä Lapista, vain silloin kun on oikeasti jotain kerrottavaa. Hyvä ajankohta, vapautunut iglu, tai hinta joka kannattaa napata ennen kuin se menee. Sä valitset vaan päivät ja pakkaat villasukat.',
+    lead: 'Postia vain silloin kun on oikeasti jotain kerrottavaa: miltä kausi näyttää, milloin iglut ja mökit yleensä myydään loppuun ja mitä kannattaa varata ensin. Sä valitset vaan päivät ja pakkaat villasukat.',
     emailPlaceholder: 'sahkopostisi@esimerkki.fi',
     emailLabel: 'Sähköpostiosoite',
     submit: 'Liity listalle',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Postia vain silloin, kun on oikeasti jotain kerrottavaa. Pääset pois listalta yhdellä klikkauksella.',
     privacyLink: 'Tietosuojaseloste',
     benefits: [
-      { title: 'Revontulihälytykset', body: 'Saat viestin kun hyvä revontuliyö on tulossa, niin olet lasikaton alla juuri oikeana yönä.' },
-      { title: 'Mökkivinkit', body: 'Kuulet ensimmäisenä kun Kakslauttanen, Levin Iglut, Star Arctic ja Aurora Village avaavat sesongin. Parhaat yöt viedään käsistä.' },
-      { title: 'Suunnitteluapu', body: 'Milloin kannattaa tulla, mitä varata ensin ja minkä voi huoletta jättää väliin. Kerromme kuin kaverille, täältä Lapista käsin.' },
-      { title: 'Sisäpiirin hinnat', body: 'Kumppaniemme sesonkiedut tulevat ensin tilaajille, niin sä ehdit varata ennen muita.' },
+      { title: 'Revontulikaudet', body: 'Milloin revontulikausi on parhaimmillaan, miten Kp-ennustetta luetaan ja mitkä kuukaudet ovat pimeimmät lasikaton alla.' },
+      { title: 'Iglujen varausikkunat', body: 'Milloin Kakslauttanen, Levin Iglut, Star Arctic ja Aurora Village yleensä avaavat kautensa, ja mitkä yöt viedään ensimmäisenä.' },
+      { title: 'Suunnitteluapu', body: 'Milloin kannattaa tulla, mitä varata ensin ja minkä voi huoletta jättää väliin. Kerromme kuin kaverille.' },
+      { title: 'Kumppanipoiminnat', body: 'Nostamme kumppaniemme sesonkitarjouksia esiin silloin, kun niitä on.' },
     ],
   },
   footerEditorialNote: 'Riippumaton opas, ylläpitäjä Lapeso Oy, Suomen Lappi · viimeksi tarkistettu huhtikuussa 2026 · saamme provision joistakin varauksista, mutta se ei vaikuta siihen mitä suosittelemme.',

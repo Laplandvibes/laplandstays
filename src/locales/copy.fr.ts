@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Planifiez votre voyage en Laponie avec nous',
-    lead: "Écrit depuis la Laponie finlandaise, et seulement quand nous avons vraiment quelque chose à vous dire : un créneau de dates idéal, un igloo qui vient de se libérer, un tarif à saisir. Vous n'avez qu'à choisir les dates et préparer les chaussettes en laine.",
+    lead: "Seulement quand nous avons vraiment quelque chose à vous dire : la tournure que prend la saison, quand les iglous et les chalets affichent généralement complet, et quoi réserver en premier. Vous n'avez qu'à choisir les dates et préparer les chaussettes en laine.",
     emailPlaceholder: 'votre@email.com',
     emailLabel: 'Adresse e-mail',
     submit: 'Recevoir le prochain e-mail',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: "Seulement quand nous avons vraiment quelque chose à vous dire. Désinscription en un clic.",
     privacyLink: 'Politique de confidentialité',
     benefits: [
-      { title: 'Alertes aurores', body: "Nous vous prévenons quand une belle nuit d'aurores approche, pour que vous soyez sous le toit de verre exactement la bonne nuit." },
-      { title: "Ouvertures de chalets", body: "Les premières infos quand Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village ouvrent leurs nuits de saison, les meilleures partent vite." },
-      { title: 'Aide à la planification', body: "Quand venir, quoi réserver en premier, quoi laisser de côté sans regret, raconté comme à un ami, depuis la Laponie même." },
-      { title: 'Tarifs initiés', body: "Les offres de saison de nos partenaires arrivent d'abord chez les abonnés, vous réservez avant tout le monde." },
+      { title: 'Saisons des aurores', body: 'Quand la saison bat son plein, comment lire les prévisions Kp et quels mois sont les plus sombres sous un toit de verre.' },
+      { title: 'Fenêtres de réservation des iglous', body: 'Quand Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village ouvrent généralement leur saison, et quelles nuits partent en premier.' },
+      { title: 'Aide à la planification', body: 'Quand venir, quoi réserver en premier, quoi laisser de côté sans regret, raconté comme à un ami, écrit depuis la Finlande.' },
+      { title: 'Sélection partenaires', body: 'Nous mettons en avant les offres de saison de nos partenaires quand il y en a.' },
     ],
   },
   footerEditorialNote: "Maintenu de façon indépendante par Lapeso Oy en Laponie finlandaise · dernière révision avril 2026 · nous percevons une commission d'affiliation sur certaines réservations, mais cela ne conditionne jamais nos recommandations.",

@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Planeje sua viagem à Lapônia com a gente',
-    lead: 'Escrito da Lapônia finlandesa, e só quando há algo que realmente vale a pena contar: datas perfeitas, um iglu que acabou de vagar, uma tarifa boa demais para deixar passar. Você só escolhe os dias e separa as meias de lã.',
+    lead: 'Só quando há algo que realmente vale a pena contar: como a temporada está se desenhando, quando os iglus e chalés costumam esgotar e o que reservar primeiro. Você só escolhe os dias e separa as meias de lã.',
     emailPlaceholder: 'seu@email.com',
     emailLabel: 'Endereço de e-mail',
     submit: 'Receber o próximo e-mail',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Só quando há algo que realmente vale a pena contar. Cancelamento com um clique.',
     privacyLink: 'Política de Privacidade',
     benefits: [
-      { title: 'Alertas de aurora', body: 'A gente avisa quando uma boa noite de aurora está chegando, para você estar sob o teto de vidro na noite certa.' },
-      { title: 'Abertura de cabanas', body: 'Você fica sabendo primeiro quando Kakslauttanen, Levin Iglut, Star Arctic e Aurora Village abrem as noites da temporada, as melhores somem rápido.' },
-      { title: 'Ajuda no planejamento', body: 'Quando vir, o que reservar primeiro, o que dá para pular sem culpa, contado como a um amigo, direto da Lapônia.' },
-      { title: 'Tarifas internas', body: 'As ofertas de temporada dos nossos parceiros chegam primeiro aos assinantes, você reserva antes de todo mundo.' },
+      { title: 'Temporada de auroras', body: 'Quando a temporada chega ao auge, como ler a previsão Kp e quais meses são os mais escuros sob um teto de vidro.' },
+      { title: 'Janelas de reserva dos iglus', body: 'Quando Kakslauttanen, Levin Iglut, Star Arctic e Aurora Village costumam abrir a temporada, e quais noites esgotam primeiro.' },
+      { title: 'Ajuda no planejamento', body: 'Quando vir, o que reservar primeiro, o que dá para pular sem culpa, contado como a um amigo, escrito da Finlândia.' },
+      { title: 'Dicas de parceiros', body: 'Destacamos as ofertas de temporada dos nossos parceiros quando elas existem.' },
     ],
   },
   footerEditorialNote: 'Mantido de forma independente pela Lapeso Oy na Lapônia finlandesa · última revisão em abril de 2026 · recebemos comissão de afiliados em algumas reservas, mas isso nunca define quais imóveis recomendamos.',

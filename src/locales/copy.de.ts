@@ -49,7 +49,7 @@ const copy: ChromeCopy = {
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Planen Sie Ihre Lappland-Reise mit uns',
-    lead: 'Geschrieben aus Finnisch-Lappland, und nur, wenn es wirklich etwas zu erzählen gibt: ein ideales Datumsfenster, ein frei gewordenes Iglu, ein Preis, den man sich sichern sollte. Sie wählen nur die Tage und packen die Wollsocken ein.',
+    lead: 'Post nur, wenn es wirklich etwas zu erzählen gibt: wie sich die Saison entwickelt, wann Iglus und Hütten erfahrungsgemäß ausgebucht sind und was man zuerst buchen sollte. Sie wählen nur die Tage und packen die Wollsocken ein.',
     emailPlaceholder: 'ihre@email.de',
     emailLabel: 'E-Mail-Adresse',
     submit: 'Nächste E-Mail erhalten',
@@ -59,10 +59,10 @@ const copy: ChromeCopy = {
     footnote: 'Post nur, wenn es wirklich etwas zu erzählen gibt. Abbestellen mit einem Klick.',
     privacyLink: 'Datenschutzerklärung',
     benefits: [
-      { title: 'Polarlicht-Warnungen', body: 'Sie bekommen eine Nachricht, wenn eine gute Polarlichtnacht bevorsteht, damit Sie genau in der richtigen Nacht unter dem Glasdach liegen.' },
-      { title: 'Hütten-Drops', body: 'Sie erfahren als Erste, wenn Kakslauttanen, Levin Iglut, Star Arctic und Aurora Village ihre Saisonnächte freigeben, die besten sind schnell vergriffen.' },
-      { title: 'Planungshilfe', body: 'Wann Sie kommen sollten, was Sie zuerst buchen und was Sie getrost auslassen können, erzählt wie unter Freunden, direkt aus Lappland.' },
-      { title: 'Insider-Preise', body: 'Die Saisonangebote unserer Partner landen zuerst bei den Abonnenten, Sie buchen, bevor andere davon hören.' },
+      { title: 'Polarlicht-Saison', body: 'Wann die Polarlicht-Saison ihren Höhepunkt hat, wie man die Kp-Prognose liest und welche Monate unter dem Glasdach am dunkelsten sind.' },
+      { title: 'Iglu-Buchungsfenster', body: 'Wann Kakslauttanen, Levin Iglut, Star Arctic und Aurora Village ihre Saison üblicherweise öffnen und welche Nächte zuerst vergriffen sind.' },
+      { title: 'Planungshilfe', body: 'Wann Sie kommen sollten, was Sie zuerst buchen und was Sie getrost auslassen können, erzählt wie unter Freunden, geschrieben aus Finnland.' },
+      { title: 'Partner-Empfehlungen', body: 'Wir heben die Saisonangebote unserer Partner hervor, wenn es sie gibt.' },
     ],
   },
   footerEditorialNote: 'Unabhängig gepflegt von Lapeso Oy in Finnisch-Lappland · zuletzt geprüft April 2026 · wir erhalten eine Partnerprovision auf manche Buchungen, aber sie beeinflusst nicht, welche Unterkünfte wir empfehlen.',
