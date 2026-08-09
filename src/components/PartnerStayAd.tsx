@@ -2,6 +2,7 @@ import type { LucideIcon } from 'lucide-react'
 import { ArrowRight, Home, Car } from 'lucide-react'
 import { useLang, type Lang } from '../i18n/useLang'
 import { trackAffiliateClick } from '../lib/analytics'
+import { buildAffiliateUrl, buildLomarengasUrl, type LomarengasArea } from '../lib/affiliate'
 import AffiliateDisclosure from './AffiliateDisclosure'
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -40,8 +41,6 @@ interface PartnerConfig {
   /** Optional: a category advertiser (car rental) has no single brand logo, so
    *  the card renders the brand name as a wordmark instead. */
   logo?: string
-  /** Resolve the final tracking href for a given placement SID. */
-  linkFor: (sid: string) => string
   /** Advertiser brand accent, border rule, icon, trust dots, CTA pill. */
   accent: string
   accentDark: string
@@ -54,7 +53,6 @@ const CONFIG: Record<PartnerKey, PartnerConfig> = {
   lomarengas: {
     brand: 'Lomarengas',
     logo: '/images/partners/lomarengas.png',
-    linkFor: () => 'https://go.laplandvibes.com/go/lomarengas?sid=stays_partner',
     accent: '#10B981',
     accentDark: '#047857',
     icon: Home,
@@ -68,7 +66,6 @@ const CONFIG: Record<PartnerKey, PartnerConfig> = {
   cars: {
     brand: 'EconomyBookings',
     logo: '/images/partners/economybookings.svg',
-    linkFor: (sid) => `https://go.laplandvibes.com/go/cars?sid=${encodeURIComponent(sid)}`,
     accent: '#0F766E',
     accentDark: '#0B5E57',
     icon: Car,
@@ -322,15 +319,28 @@ interface PartnerStayAdProps {
   partner: PartnerKey
   /** snake_case GA4/attribution SID. */
   sid: string
+  /** cars: IATA pickup for the deep results page. NEVER omit into a generic
+   *  search — Rovaniemi is the floor default (Vesa 2026-08-09: the ad landed
+   *  on EB's front page with an empty pickup field, "aivan kamala suoritus"). */
+  carsPickup?: string
+  /** lomarengas: cottage-search area for the deep link (default: all Lapland).
+   *  Same rule — the ad must never land on lomarengas.fi's front page. */
+  lomarengasArea?: LomarengasArea
   className?: string
 }
 
-export default function PartnerStayAd({ partner, sid, className = '' }: PartnerStayAdProps) {
+export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomarengasArea = 'lapland', className = '' }: PartnerStayAdProps) {
   const lang = useLang()
   const cfg = CONFIG[partner]
   const c = COPY[partner][lang] ?? COPY[partner].en
   const Icon = cfg.icon
-  const href = cfg.linkFor(sid)
+  // Deep links only: cars → the airport's EB results (pickup preselected),
+  // lomarengas → the area's cottage-search listing, both locale-aware and
+  // carrying the REAL placement sid (the old fixed 'stays_partner' blended
+  // every placement into one attribution row).
+  const href = partner === 'lomarengas'
+    ? buildLomarengasUrl(lomarengasArea, sid, lang)
+    : buildAffiliateUrl({ partner: 'cars', sid, destination: carsPickup, lang })
 
   return (
     <section

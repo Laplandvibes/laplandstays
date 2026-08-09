@@ -12,7 +12,7 @@ import { DESTINATION_PLACEMENT } from '../data/adSlots'
 import { propertyForQuery, bestGoogleRated, editorialPickNote } from '../data/properties'
 import { bookingForQuery } from '../data/propertyBooking'
 import { useCopy as useChrome } from '../locales/copy'
-import { buildHotelSearch, buildAffiliateUrl, propertyLodgingLink } from '../lib/affiliate'
+import { buildHotelSearch, buildAffiliateUrl, propertyLodgingLink, type LomarengasArea } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, pick, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
@@ -25,6 +25,23 @@ export interface DestinationAnchor {
   propertyQuery?: string
   sid: string
   note?: string
+}
+
+// Ad deep-link targets per destination — the partner ads must never land on a
+// partner's generic front page (Vesa 2026-08-09). Cars: the destination's own
+// airport results (RVN is the network floor default). Lomarengas: the area's
+// cottage-search listing; Inari/Rovaniemi fall back to the all-Lapland search.
+const CARS_PICKUP_FOR: Record<string, string> = {
+  levi: 'KTT',
+  yllas: 'KTT',
+  saariselka: 'IVL',
+  inari: 'IVL',
+  rovaniemi: 'RVN',
+}
+const LOMARENGAS_AREA_FOR: Record<string, LomarengasArea> = {
+  levi: 'levi',
+  yllas: 'yllas',
+  saariselka: 'saariselka',
 }
 
 export interface TransportRow {
@@ -369,21 +386,26 @@ export default function DestinationPage(p: DestinationPageProps) {
       </section>
 
       {/* WHEN / HOW */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
-          <div>
-            <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.whenToGoEyebrow}</p>
-            <h3 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4 flex items-center gap-3">
-              <Thermometer className="w-7 h-7 text-pink" /> {ui.seasonsH3}
-            </h3>
-            <p className="text-white/75 leading-relaxed whitespace-pre-line">{b.whenToGo}</p>
-          </div>
-          <div>
-            <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.gettingThereEyebrow}</p>
-            <h3 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4 flex items-center gap-3">
-              <Bell className="w-7 h-7 text-pink" /> {ui.travelH3}
-            </h3>
-            <p className="text-white/75 leading-relaxed whitespace-pre-line">{b.howToGet}</p>
+      {/* Contained dark panel, not a full-bleed stripe — on wide desktops the
+          edge-to-edge night bands cut the cream page into slabs (Vesa
+          2026-08-09: "leventää nää palkit koko sivun mittaisiksi"). */}
+      <section className="py-12 sm:py-14 px-4 sm:px-6 bg-white">
+        <div className="max-w-6xl mx-auto rounded-3xl bg-night text-white px-6 sm:px-10 lg:px-14 py-10 sm:py-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            <div>
+              <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.whenToGoEyebrow}</p>
+              <h3 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4 flex items-center gap-3">
+                <Thermometer className="w-7 h-7 text-pink" /> {ui.seasonsH3}
+              </h3>
+              <p className="text-white/75 leading-relaxed whitespace-pre-line">{b.whenToGo}</p>
+            </div>
+            <div>
+              <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.gettingThereEyebrow}</p>
+              <h3 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4 flex items-center gap-3">
+                <Bell className="w-7 h-7 text-pink" /> {ui.travelH3}
+              </h3>
+              <p className="text-white/75 leading-relaxed whitespace-pre-line">{b.howToGet}</p>
+            </div>
           </div>
         </div>
       </section>
@@ -429,33 +451,22 @@ export default function DestinationPage(p: DestinationPageProps) {
               Hotels.com, so this slot sells a COMPLEMENTARY product instead
               (car rental — replaced Kiwitaxi 2026-07-09, which doesn't serve
               Lapland airports; no cannibalising our own affiliate route). */}
-          <PartnerStayAd partner="cars" sid={`destination_${p.slug}_cars`} />
-          <PartnerStayAd partner="lomarengas" sid={`destination_${p.slug}_lomarengas`} />
+          <PartnerStayAd partner="cars" sid={`destination_${p.slug}_cars`} carsPickup={CARS_PICKUP_FOR[p.slug] ?? 'RVN'} />
+          <PartnerStayAd partner="lomarengas" sid={`destination_${p.slug}_lomarengas`} lomarengasArea={LOMARENGAS_AREA_FOR[p.slug] ?? 'lapland'} />
         </div>
       </section>
 
       {/* ANCHOR PROPERTIES & TRANSPORT */}
       {(b.anchorProperties || b.transport) && (
-        <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white">
-          <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <section className="py-12 sm:py-14 px-4 sm:px-6 bg-white">
+          <div className="max-w-6xl mx-auto rounded-3xl bg-night text-white px-6 sm:px-10 lg:px-14 py-10 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12">
             {b.anchorProperties && b.anchorProperties.length > 0 && (
               <div>
                 <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.anchorEyebrow}</p>
                 <h2 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4">{ui.whereToStayH2(p.name)}</h2>
-                <p className="text-white/65 text-base leading-relaxed mb-6">
+                <p className="text-white/70 text-base leading-relaxed mb-6">
                   {ui.anchorLead}
                 </p>
-
-                {/* Myytävä Esittelykumppani-paikka tämän nimettyjen kohteiden
-                    listan kärjessä (KKV: merkitty mainokseksi). Tyhjänä =
-                    kanoninen vaalea house-ad; muilla kuin fi/en/sv ei
-                    renderöidy mitään eikä listaan jää aukkoa. */}
-                <FeaturedPartnerSlot
-                  placement={DESTINATION_PLACEMENT[p.slug]}
-                  locale={lang}
-                  surface="dark"
-                  className="mb-6 sm:mb-6"
-                />
 
                 <ul className="space-y-3">
                   {b.anchorProperties.map((a) => {
@@ -519,6 +530,18 @@ export default function DestinationPage(p: DestinationPageProps) {
                     )
                   })}
                 </ul>
+
+                {/* Myytävä Esittelykumppani-paikka (KKV: merkitty mainokseksi)
+                    SIIRRETTY listan kärjestä sen alle — tyhjä house-ad listan
+                    ensimmäisenä teki koko osiosta puuroa (Vesa 2026-08-09).
+                    Tyhjänä = kanoninen vaalea house-ad; muilla kuin fi/en/sv ei
+                    renderöidy mitään eikä listaan jää aukkoa. */}
+                <FeaturedPartnerSlot
+                  placement={DESTINATION_PLACEMENT[p.slug]}
+                  locale={lang}
+                  surface="dark"
+                  className="mt-6"
+                />
               </div>
             )}
 
@@ -593,25 +616,26 @@ export default function DestinationPage(p: DestinationPageProps) {
         </section>
       )}
 
-      {/* SIBLINGS */}
-      <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
+      {/* SIBLINGS — compact router rows, not a full band of near-empty cards
+          (Vesa 2026-08-09: "miten vie näin paljon tilaa tällainen osio") */}
+      <section className="py-10 sm:py-12 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-5xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3 text-center">{ui.moreLapland}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-10 text-center">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-2 text-center">{ui.moreLapland}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 text-center">
             {ui.otherDestinations}
           </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 sm:gap-4">
             {b.siblings.map((s) => (
               <Link
                 key={s.href}
                 to={to(s.href)}
-                className="group bg-white border border-gray-100 rounded-2xl p-6 hover:border-pink/40 hover:shadow-lg transition-all"
+                className="group bg-white border border-gray-100 rounded-2xl p-5 hover:border-pink/40 hover:shadow-lg transition-all"
               >
-                <h3 className="font-heading text-2xl text-night tracking-wide mb-2 group-hover:text-pink transition-colors">
+                <h3 className="font-heading text-xl text-night tracking-wide mb-1.5 group-hover:text-pink transition-colors">
                   {s.name}
                 </h3>
-                <p className="text-charcoal/60 text-sm leading-relaxed mb-4">{s.blurb}</p>
-                <span className="inline-flex items-center gap-1 text-pink text-sm font-semibold">
+                <p className="text-charcoal/60 text-sm leading-snug mb-3">{s.blurb}</p>
+                <span className="inline-flex items-center gap-1 text-[#DB2777] text-sm font-semibold">
                   {ui.seeStays} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </span>
               </Link>
@@ -621,11 +645,11 @@ export default function DestinationPage(p: DestinationPageProps) {
       </section>
 
       {/* PLAN THE WHOLE TRIP, ecosystem sister sites (own network, no affiliate attrs) */}
-      <section className="py-14 sm:py-16 px-4 sm:px-6 bg-white border-t border-gray-100">
+      <section className="py-10 sm:py-12 px-4 sm:px-6 bg-white border-t border-gray-100">
         <div className="max-w-5xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3 text-center">{ui.planTripEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-8 text-center">{ui.planTripH2}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-2 text-center">{ui.planTripEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 text-center">{ui.planTripH2}</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
             {[
               {
                 label: ui.planActivities,
@@ -645,10 +669,10 @@ export default function DestinationPage(p: DestinationPageProps) {
                 href={l.href}
                 target="_blank"
                 rel="noopener"
-                className="group flex items-center justify-between gap-4 px-5 py-4 rounded-xl bg-pink/5 border border-pink/20 hover:border-pink/50 hover:bg-pink/10 transition-all"
+                className="group flex items-center justify-between gap-4 px-4 py-3.5 rounded-xl bg-pink/5 border border-pink/20 hover:border-pink/50 hover:bg-pink/10 transition-all"
               >
                 <div className="min-w-0">
-                  <p className="font-heading text-xl text-night tracking-wide group-hover:text-pink transition-colors">{l.label}</p>
+                  <p className="font-heading text-lg text-night tracking-wide group-hover:text-pink transition-colors">{l.label}</p>
                   <p className="text-charcoal/55 text-xs mt-0.5">{l.host}</p>
                 </div>
                 <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />

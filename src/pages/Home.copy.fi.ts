@@ -12,10 +12,10 @@ const copy: PageCopy = {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Mitä lasi-iglu Lapissa maksaa per yö?",
+        "name": "Mitä lasi-iglu Lapissa maksaa yöltä?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Suomen Lapin lasi-iglut maksavat noin 250 €/yö Rovaniemen Nova Skylandissa aina 1 500 €:oon/yö Kakslauttasen Arctic Resortissa Saariselällä revontulisesongin huippuna. Keskihintaisten Levin Iglutin, Star Arcticin ja Ivalon Aurora Villagen lasi-iglut sijoittuvat tyypillisesti 300–700 €/yö välille."
+          "text": "Lasi-iglujen hinnat alkavat noin 250 €:sta yöltä (Nova Skyland, Rovaniemi) ja nousevat revontulisesongin huipussa noin 1 500 €:oon yöltä (Kakslauttanen Arctic Resort, Saariselkä). Keskihintaiset lasi-iglut, kuten Levin Iglut, Star Arctic ja Aurora Village Ivalossa, maksavat tyypillisesti 300–700 € yöltä."
         }
       },
       {
@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "Mikä on paras paikka revontulille Lapissa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Korkean revontulitaajuuden vuoksi suuntaa niin pohjoiseen kuin pääset. Saariselkä ja Inari sijaitsevat aurora-ovaalissa ja saavat noin 200 revontuliyötä vuodessa. Revontulimökit Saariselällä (Kakslauttanen, Muotka, Star Arctic) tai Inarijärvellä (Nellim, Aurora Village Ivalo) tarjoavat selkeimmät pimeät horisontit."
+          "text": "Mitä pohjoisemmas menet, sitä useammin revontulet näkyvät. Saariselkä ja Inari sijaitsevat revontuliovaalin alla, ja revontulia voi nähdä siellä noin 200 yönä vuodessa. Pimeimmän ja avarimman taivaan saat revontulimökeistä Saariselällä (Kakslauttanen, Muotka, Star Arctic) tai Inarijärven suunnalla (Nellim, Aurora Village Ivalo)."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "Paljonko edullisin Lapin majoitus maksaa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lapin hotellit ja mökkiketjut alkavat noin 100 €/yö, Lapland Hotels toimii Levillä, Ylläksellä, Saariselällä ja Rovaniemellä tällä alkuhinnalla. Harriniva Muoniossa alkaa noin 150 €:sta. Revontulimökit Apukka Resortissa, Arctic SnowHotelissa ja vastaavissa kohteissa alkavat noin 150 €:sta yöltä sesongin ulkopuolella."
+          "text": "Lapin hotellien ja mökkiketjujen hinnat alkavat noin 100 €:sta yöltä: Lapland Hotels toimii tällä hintatasolla Levillä, Ylläksellä, Saariselällä ja Rovaniemellä. Harrinivan hinnat Muoniossa alkavat noin 150 €:sta. Revontulimökit (Apukka Resort, Arctic SnowHotel ja vastaavat) alkavat sesongin ulkopuolella noin 150 €:sta yöltä."
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "Mikä on paras aika nähdä revontulet Lapin mökistä?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Revontulisesonki Suomen Lapissa kestää elokuun lopusta huhtikuun alkuun. Pimeimmät ja kylmimmät kuukaudet, marraskuu–helmikuu, tarjoavat tasaisimmat katseluikkunat. Kohteet joissa on revontulihälytys herättävät sinut vain silloin, kun taivas on selkeä ja revontulet oikeasti syttyvät, pilvisinä öinä saat nukkua rauhassa."
+          "text": "Revontulisesonki kestää Suomen Lapissa elokuun lopusta huhtikuun alkuun. Tasaisimmin revontulia näkyy pimeimpinä kuukausina marraskuusta helmikuuhun. Revontulihälytyksellä varustetut kohteet herättävät vain, kun taivas on selkeä ja revontulet oikeasti syttyvät; pilvisinä öinä saat nukkua rauhassa."
         }
       },
       {
@@ -47,7 +47,7 @@ const copy: PageCopy = {
         "name": "Onko Lapin mökeissä ja lasi-igluissa omat saunat?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Kyllä. Lähes jokaisessa mökissä, villassa ja chaletissa Suomen Lapissa on oma sauna, puulla lämpiävä, sähkö tai molemmat. Monet rantakohteet (Muotka, Nellim, Ylläksen rantamökit) sisältävät suoran yhteyden saunasta järveen perinteistä avantouintia varten."
+          "text": "Kyllä. Lähes jokaisessa Lapin mökissä, huvilassa ja chalet-kohteessa on oma sauna, joko puulämmitteinen, sähkökiukaallinen tai molemmat. Monissa rantakohteissa (Muotka, Nellim, Ylläksen rantamökit) saunasta pääsee suoraan järvelle avantouintiin."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Mikä Lapin kohde on paras ensikertalaiselle?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi on helpoin sisäänkäynti, suorat talvilennot Kittilään, ravintolat ja kaupat kävelyetäisyydellä, Lapland Hotels alkaen 100 €/yö ja täysi safarivalikoima kylästä. Ylläs tarjoaa hiljaisemman, luontopainotteisemman yöpymisen, kun taas Saariselkä ja Inari sopivat parhaiten matkailijoille jotka haluavat syvempää erämaata ja enemmän lasi-iglu-tarjontaa."
+          "text": "Levi on helpoin aloituskohde: suorat talvilennot Kittilään, ravintolat ja kaupat kävelymatkan päässä, Lapland Hotels alkaen 100 €/yö ja koko safarivalikoima suoraan kylästä. Ylläs on hiljaisempi ja luontopainotteisempi. Saariselkä ja Inari sopivat parhaiten niille, jotka haluavat syvemmälle erämaahan ja laajimman lasi-igluvalikoiman."
         }
       }
     ]

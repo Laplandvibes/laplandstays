@@ -124,19 +124,23 @@ export default function FAQSection({ items }: { items: FAQItem[] }) {
           {items.map((faq, index) => {
             const isOpen = openIndex === index
             return (
+              // Open state stays a WHITE card (the old pink/5 wash turned the whole
+              // card pale and the answer text mushy — Vesa 2026-08-09), and the
+              // button gets a brand focus ring instead of the browser's black
+              // default outline that framed the clicked question.
               <div
                 key={index}
                 className={`rounded-2xl border transition-all duration-300 ${
-                  isOpen ? 'bg-pink/5 border-pink/30' : 'bg-white border-gray-100 shadow-sm hover:border-pink/30'
+                  isOpen ? 'bg-white border-pink/40 shadow-md' : 'bg-white border-gray-100 shadow-sm hover:border-pink/30'
                 }`}
               >
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : index)}
-                  className="w-full flex items-start justify-between gap-4 px-5 sm:px-7 py-5 sm:py-6 text-left"
+                  className="w-full flex items-start justify-between gap-4 px-5 sm:px-7 py-5 sm:py-6 text-left rounded-2xl focus:outline-none focus-visible:ring-2 focus-visible:ring-pink/60"
                   aria-expanded={isOpen}
                 >
                   <div className="flex items-start gap-4 flex-1 min-w-0">
-                    <span className="font-heading text-xl text-pink/50 shrink-0 leading-tight pt-0.5">
+                    <span className={`font-heading text-xl shrink-0 leading-tight pt-0.5 ${isOpen ? 'text-pink' : 'text-pink/50'}`}>
                       {String(index + 1).padStart(2, '0')}
                     </span>
                     <span className="font-semibold text-night text-base sm:text-lg leading-snug">{faq.q}</span>
@@ -150,20 +154,22 @@ export default function FAQSection({ items }: { items: FAQItem[] }) {
                 </button>
                 {isOpen && (
                   <div className="px-5 sm:px-7 pb-6 pl-14 sm:pl-[4.25rem]">
-                    <p className="text-charcoal/75 leading-relaxed text-sm sm:text-base">{faq.a}</p>
-                    {(FAQ_LINKS[index] ?? []).length > 0 && (
-                      <div className="flex flex-wrap gap-x-6 gap-y-2 mt-4">
-                        {FAQ_LINKS[index].map((key) => (
-                          <Link
-                            key={key}
-                            to={to(FAQ_ROUTE[key])}
-                            className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-pink hover:text-night transition-colors"
-                          >
-                            {navLabels[key]} <ArrowRight className="w-3.5 h-3.5 shrink-0" />
-                          </Link>
-                        ))}
-                      </div>
-                    )}
+                    <div className="border-t border-gray-100 pt-4">
+                      <p className="text-charcoal/90 leading-relaxed text-sm sm:text-base">{faq.a}</p>
+                      {(FAQ_LINKS[index] ?? []).length > 0 && (
+                        <div className="flex flex-wrap gap-x-6 gap-y-2 mt-4">
+                          {FAQ_LINKS[index].map((key) => (
+                            <Link
+                              key={key}
+                              to={to(FAQ_ROUTE[key])}
+                              className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#DB2777] hover:text-night transition-colors"
+                            >
+                              {navLabels[key]} <ArrowRight className="w-3.5 h-3.5 shrink-0" />
+                            </Link>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   </div>
                 )}
               </div>
