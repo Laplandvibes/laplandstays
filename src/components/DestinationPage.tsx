@@ -468,8 +468,16 @@ export default function DestinationPage(p: DestinationPageProps) {
                   {ui.anchorLead}
                 </p>
 
+                {/* Toimituksen valinta johtaa listaa (Vesa 2026-08-09: "jos
+                    toimituksen valinta on tehty, miksi se ei ole ekana?") —
+                    muu järjestys ja "kaikki majoitukset" -häntärivi ennallaan. */}
                 <ul className="space-y-3">
-                  {b.anchorProperties.map((a) => {
+                  {(() => {
+                    const list = b.anchorProperties!
+                    if (!editorsPick) return list
+                    const i = list.findIndex((x) => propertyForQuery(x.propertyQuery ?? x.name) === editorsPick)
+                    return i > 0 ? [list[i], ...list.slice(0, i), ...list.slice(i + 1)] : list
+                  })().map((a) => {
                     // A named property gets its OWN booking page via the
                     // partner's property id; `?ss=` carries the TOWN. Rows with
                     // an explicit `href` are the city-search row, and a query
@@ -495,6 +503,27 @@ export default function DestinationPage(p: DestinationPageProps) {
                       key={a.name}
                       className="rounded-xl bg-white/[0.05] border border-white/10 hover:border-pink/40 hover:bg-white/[0.09] focus-within:border-pink/40 transition-all"
                     >
+                      {/* Rating + pick chip at the card's TOP RIGHT (Vesa
+                          2026-08-09: arvion paikka on ylälaidassa valinnan
+                          kanssa, ei kuvauksen alla). The strip stays OUTSIDE
+                          the booking link on purpose: GoogleRatingRow is its
+                          own link to Google's review list (an <a> cannot
+                          nest), and it renders on EVERY rated card, not only
+                          the winner — "highest rated on this page" is
+                          checkable only if the reader sees the numbers it
+                          beat. */}
+                      {(prop || isPick) && (
+                        <div className="px-5 pt-3 -mb-1 flex flex-wrap items-start justify-end gap-x-2 gap-y-1.5">
+                          {isPick && (
+                            <EditorsPickChip
+                              label={chrome.editorial.pickLabel}
+                              reason={chrome.editorial.pickReason}
+                              note={pickNote}
+                            />
+                          )}
+                          <GoogleRatingRow property={prop} tone="dark" />
+                        </div>
+                      )}
                       <a
                         href={finalHref}
                         target="_blank"
@@ -508,24 +537,6 @@ export default function DestinationPage(p: DestinationPageProps) {
                         </div>
                         <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
                       </a>
-                      {/* The rating row sits OUTSIDE the booking link on
-                          purpose: it is its own link to Google's review list
-                          (an <a> cannot nest), and it is rendered on EVERY
-                          rated card, not only the winner — "highest rated on
-                          this page" is checkable only if the reader can see
-                          the numbers it beat. */}
-                      {(prop || isPick) && (
-                        <div className="px-5 pb-4 -mt-1 flex flex-wrap items-start gap-x-2 gap-y-1.5">
-                          <GoogleRatingRow property={prop} tone="dark" />
-                          {isPick && (
-                            <EditorsPickChip
-                              label={chrome.editorial.pickLabel}
-                              reason={chrome.editorial.pickReason}
-                              note={pickNote}
-                            />
-                          )}
-                        </div>
-                      )}
                     </li>
                     )
                   })}

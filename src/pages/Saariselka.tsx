@@ -44,7 +44,7 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
     { name: 'All Saariselkä accommodation', href: HOTEL_SEARCH_FOR('en').saariselka, sid: 'destination_saariselka_all_search', note: 'Browse every Saariselkä property on Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'From Ivalo Airport (IVL)', detail: 'Direct winter flights from HEL · LHR · CDG. 30 km / 30 min south to Saariselkä village.' },
+    { mode: 'plane', label: 'From Ivalo Airport (IVL)', detail: 'Direct flights from Helsinki year-round; seasonal winter routes from e.g. London Gatwick and Paris. 30 km / 30 min south to Saariselkä village.' },
     { mode: 'bus', label: 'IVL airport bus', detail: '€15–20 one-way · 30 min · meets every flight.' },
     { mode: 'car', label: 'Taxi or pre-booked transfer', detail: '€40–60 to Saariselkä. Kakslauttanen and Muotka include private transfer at premium tier.' },
     { mode: 'train', label: 'Helsinki–Rovaniemi sleeper', detail: 'VR overnight train to Rovaniemi (~€90), then 4-hour bus or rental car. Slow alternative to flying IVL.' },
@@ -108,7 +108,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
     { name: 'Kaikki Saariselän majoitukset', href: HOTEL_SEARCH_FOR('fi').saariselka, sid: 'destination_saariselka_all_search', note: 'Selaa kaikki Saariselän kohteet Sembossa.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Ivalon lentokentältä (IVL)', detail: 'Suorat talvilennot HEL · LHR · CDG. 30 km / 30 min etelään Saariselän kylälle.' },
+    { mode: 'plane', label: 'Ivalon lentokentältä (IVL)', detail: 'Suorat lennot Helsingistä ympäri vuoden; talvikaudella kausireittejä mm. Lontoosta (Gatwick) ja Pariisista. 30 km / 30 min etelään Saariselän kylälle.' },
     { mode: 'bus', label: 'IVL-lentokenttäbussi', detail: '15–20 € yhteen suuntaan · 30 min · jokaisen lennon yhteydessä.' },
     { mode: 'car', label: 'Taksi tai esivarattu kuljetus', detail: '40–60 € Saariselälle. Kakslauttanen ja Muotka sisältävät yksityiskuljetuksen premium-tasolla.' },
     { mode: 'train', label: 'Helsinki–Rovaniemi-makuujuna', detail: 'VR:n yöjuna Rovaniemelle (~90 €), sitten 4 tunnin bussi tai vuokra-auto. Hidas vaihtoehto IVL-lennon sijaan.' },
@@ -172,7 +172,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { name: 'Alle Saariselkä-Unterkünfte', href: HOTEL_SEARCH_FOR('de').saariselka, sid: 'destination_saariselka_all_search', note: 'Stöbern Sie in allen Unterkünften auf Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Ab Flughafen Ivalo (IVL)', detail: 'Direkte Winterflüge ab HEL · LHR · CDG. 30 km / 30 min südlich ins Dorf Saariselkä.' },
+    { mode: 'plane', label: 'Ab Flughafen Ivalo (IVL)', detail: 'Direktflüge ab Helsinki ganzjährig; im Winter Saisonrouten u. a. ab London-Gatwick und Paris. 30 km / 30 min südlich ins Dorf Saariselkä.' },
     { mode: 'bus', label: 'IVL-Flughafenbus', detail: '15–20 € einfach · 30 min · zu jedem Flug.' },
     { mode: 'car', label: 'Taxi oder vorgebuchter Transfer', detail: '40–60 € nach Saariselkä. Kakslauttanen und Muotka beinhalten privaten Transfer im Premium-Tarif.' },
     { mode: 'train', label: 'Nachtzug Helsinki–Rovaniemi', detail: 'VR-Nachtzug nach Rovaniemi (~90 €), dann 4-stündiger Bus oder Mietwagen. Langsame Alternative zum IVL-Flug.' },
@@ -236,7 +236,7 @@ const ko: DestinationBody = {
     { name: '사리셀카 전체 숙소', href: HOTEL_SEARCH_FOR('ko').saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.com에서 사리셀카의 모든 숙소를 비교하세요.' },
   ],
   transport: [
-    { mode: 'plane', label: '이발로 공항(IVL)에서', detail: 'HEL · LHR · CDG 겨울 직항편. 사리셀카 마을까지 남쪽으로 30km / 30분.' },
+    { mode: 'plane', label: '이발로 공항(IVL)에서', detail: '헬싱키발 직항은 연중 운항, 겨울에는 런던 개트윅·파리 등 시즌 노선. 사리셀카 마을까지 남쪽으로 30km / 30분.' },
     { mode: 'bus', label: 'IVL 공항버스', detail: '편도 15–20€ · 30분 · 모든 항공편에 맞춰 운행.' },
     { mode: 'car', label: '택시 또는 사전 예약 트랜스퍼', detail: '사리셀카까지 40–60€. Kakslauttanen과 Muotka는 프리미엄 티어에 프라이빗 트랜스퍼가 포함됩니다.' },
     { mode: 'train', label: '헬싱키–로바니에미 침대 열차', detail: '로바니에미까지 VR 야간 열차(약 90€), 이후 버스 또는 렌터카로 4시간. IVL 항공편의 대안이지만 시간이 더 소요됩니다.' },
@@ -300,7 +300,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
     { name: 'Tous les hébergements de Saariselkä', href: HOTEL_SEARCH_FOR('fr').saariselka, sid: 'destination_saariselka_all_search', note: 'Parcourez chaque adresse de Saariselkä sur Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Depuis l\'aéroport d\'Ivalo (IVL)', detail: 'Vols hivernaux directs HEL · LHR · CDG. 30 km / 30 min vers le sud jusqu\'au village.' },
+    { mode: 'plane', label: 'Depuis l\'aéroport d\'Ivalo (IVL)', detail: 'Vols directs depuis Helsinki toute l\'année ; en hiver, liaisons saisonnières depuis Londres-Gatwick et Paris notamment. 30 km / 30 min vers le sud jusqu\'au village.' },
     { mode: 'bus', label: 'Bus aéroport IVL', detail: '15 à 20 € l\'aller · 30 min · à chaque vol.' },
     { mode: 'car', label: 'Taxi ou transfert pré-réservé', detail: '40 à 60 € jusqu\'à Saariselkä. Kakslauttanen et Muotka incluent un transfert privé en formule premium.' },
     { mode: 'train', label: 'Couchette Helsinki–Rovaniemi', detail: 'Train de nuit VR jusqu\'à Rovaniemi (~90 €), puis 4 h en bus ou voiture. Alternative lente au vol IVL.' },
@@ -364,7 +364,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
     { name: 'Tutti gli alloggi di Saariselkä', href: HOTEL_SEARCH_FOR('it').saariselka, sid: 'destination_saariselka_all_search', note: 'Esplori ogni struttura di Saariselkä su Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Dall\'aeroporto di Ivalo (IVL)', detail: 'Voli invernali diretti HEL · LHR · CDG. 30 km / 30 min verso sud fino al paese di Saariselkä.' },
+    { mode: 'plane', label: 'Dall\'aeroporto di Ivalo (IVL)', detail: 'Voli diretti da Helsinki tutto l\'anno; in inverno rotte stagionali ad es. da Londra Gatwick e Parigi. 30 km / 30 min verso sud fino al paese di Saariselkä.' },
     { mode: 'bus', label: 'Bus aeroporto IVL', detail: '15–20 € sola andata · 30 min · in coincidenza con ogni volo.' },
     { mode: 'car', label: 'Taxi o transfer pre-prenotato', detail: '40–60 € fino a Saariselkä. Kakslauttanen e Muotka includono il transfer privato in fascia premium.' },
     { mode: 'train', label: 'Vagone letto Helsinki–Rovaniemi', detail: 'Treno notturno VR fino a Rovaniemi (~90 €), poi 4 ore in bus o auto a noleggio. Alternativa lenta al volo per IVL.' },
@@ -428,7 +428,7 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
     { name: 'Alle Saariselkä-accommodaties', href: HOTEL_SEARCH_FOR('nl').saariselka, sid: 'destination_saariselka_all_search', note: 'Bekijk elke Saariselkä-accommodatie op Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Vanaf luchthaven Ivalo (IVL)', detail: 'Directe wintervluchten HEL · LHR · CDG. 30 km / 30 min zuidwaarts naar het dorp Saariselkä.' },
+    { mode: 'plane', label: 'Vanaf luchthaven Ivalo (IVL)', detail: 'Directe vluchten vanaf Helsinki het hele jaar; in de winter seizoensroutes vanaf o.a. Londen Gatwick en Parijs. 30 km / 30 min zuidwaarts naar het dorp Saariselkä.' },
     { mode: 'bus', label: 'IVL-luchthavenbus', detail: '€15–20 enkele reis · 30 min · sluit aan op elke vlucht.' },
     { mode: 'car', label: 'Taxi of vooraf geboekte transfer', detail: '€40–60 naar Saariselkä. Kakslauttanen en Muotka inclusief privétransfer in premium-tier.' },
     { mode: 'train', label: 'Slaaprijtuig Helsinki–Rovaniemi', detail: 'VR-nachttrein naar Rovaniemi (~€90), daarna 4 uur bus of huurauto. Langzamer alternatief voor de IVL-vlucht.' },
@@ -492,7 +492,7 @@ const ja: DestinationBody = {
     { name: 'サーリセルカのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.comでサーリセルカの全宿を閲覧できます。' },
   ],
   transport: [
-    { mode: 'plane', label: 'イヴァロ空港(IVL)から', detail: 'HEL · LHR · CDG からの冬季直行便。30km / 30分南でサーリセルカ村。' },
+    { mode: 'plane', label: 'イヴァロ空港(IVL)から', detail: 'ヘルシンキからは通年直行便。冬季はロンドン(ガトウィック)やパリなどから季節便。南へ30km / 30分でサーリセルカ村。' },
     { mode: 'bus', label: 'IVL空港バス', detail: '片道15〜20ユーロ・30分・全便に接続。' },
     { mode: 'car', label: 'タクシーまたは事前予約送迎', detail: 'サーリセルカまで40〜60ユーロ。カクスラウッタネンとムオトカの上級プランには専用送迎が含まれます。' },
     { mode: 'train', label: 'ヘルシンキ〜ロヴァニエミ寝台', detail: 'VR夜行でロヴァニエミ(約90ユーロ)、その後バスかレンタカーで4時間。IVL便のゆったりした代替。' },
@@ -556,7 +556,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
     { name: 'Todos los alojamientos de Saariselkä', href: HOTEL_SEARCH_FOR('es').saariselka, sid: 'destination_saariselka_all_search', note: 'Consulte todas las propiedades de Saariselkä en Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Desde el aeropuerto de Ivalo (IVL)', detail: 'Vuelos directos invernales desde HEL · LHR · CDG. 30 km / 30 min al sur hasta el pueblo de Saariselkä.' },
+    { mode: 'plane', label: 'Desde el aeropuerto de Ivalo (IVL)', detail: 'Vuelos directos desde Helsinki todo el año; en invierno rutas estacionales desde Londres-Gatwick y París, entre otras. 30 km / 30 min al sur hasta el pueblo de Saariselkä.' },
     { mode: 'bus', label: 'Autobús del aeropuerto IVL', detail: '15–20 € ida · 30 min · enlaza con cada vuelo.' },
     { mode: 'car', label: 'Taxi o traslado reservado', detail: '40–60 € hasta Saariselkä. Kakslauttanen y Muotka incluyen traslado privado en su categoría premium.' },
     { mode: 'train', label: 'Coche cama Helsinki–Rovaniemi', detail: 'Tren nocturno VR a Rovaniemi (~90 €), después 4 h en autobús o coche de alquiler. Alternativa lenta al vuelo a IVL.' },
@@ -620,7 +620,7 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
     { name: 'Todas as hospedagens de Saariselkä', href: HOTEL_SEARCH_FOR('pt-BR').saariselka, sid: 'destination_saariselka_all_search', note: 'Veja todas as propriedades de Saariselkä no Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Do Aeroporto de Ivalo (IVL)', detail: 'Voos diretos de inverno de HEL · LHR · CDG. 30 km / 30 min ao sul até a vila de Saariselkä.' },
+    { mode: 'plane', label: 'Do Aeroporto de Ivalo (IVL)', detail: 'Voos diretos de Helsinque o ano todo; no inverno, rotas sazonais de Londres-Gatwick e Paris, entre outras. 30 km / 30 min ao sul até a vila de Saariselkä.' },
     { mode: 'bus', label: 'Ônibus do aeroporto IVL', detail: '€15–20 só ida · 30 min · liga com todos os voos.' },
     { mode: 'car', label: 'Táxi ou traslado pré-agendado', detail: '€40–60 até Saariselkä. Kakslauttanen e Muotka incluem traslado privativo no nível premium.' },
     { mode: 'train', label: 'Vagão-leito Helsinque–Rovaniemi', detail: 'Trem noturno VR até Rovaniemi (~€90), depois 4 h de ônibus ou carro alugado. Alternativa lenta ao voo para IVL.' },
@@ -684,7 +684,7 @@ const zhCN: DestinationBody = {
     { name: '萨利瑟尔卡全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').saariselka, sid: 'destination_saariselka_all_search', note: '在Trip.com浏览萨利瑟尔卡的所有房源。' },
   ],
   transport: [
-    { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '冬季直飞自HEL · LHR · CDG。南行30公里 / 30分钟抵达萨利瑟尔卡村。' },
+    { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '赫尔辛基直飞全年运营;冬季有伦敦盖特威克、巴黎等季节性航线。南行30公里 / 30分钟抵达萨利瑟尔卡村。' },
     { mode: 'bus', label: 'IVL机场巴士', detail: '单程15–20欧元 · 30分钟 · 每趟航班均衔接。' },
     { mode: 'car', label: '出租车或预订接送', detail: '至萨利瑟尔卡40–60欧元。Kakslauttanen与Muotka的高级套餐含私人接送。' },
     { mode: 'train', label: '赫尔辛基。罗瓦涅米卧铺', detail: 'VR夜车至罗瓦涅米(约90欧元),再乘巴士或租车4小时。是IVL直飞的慢速替代。' },
@@ -748,7 +748,7 @@ Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort b
     { name: 'Alla boenden i Saariselkä', href: HOTEL_SEARCH_FOR('sv').saariselka, sid: 'destination_saariselka_all_search', note: 'Bläddra bland alla boenden i Saariselkä på Trip.com.' },
   ],
   transport: [
-    { mode: 'plane', label: 'Från Ivalo flygplats (IVL)', detail: 'Direkta vinterflyg från HEL · LHR · CDG. 30 km / 30 min söderut till Saariselkä by.' },
+    { mode: 'plane', label: 'Från Ivalo flygplats (IVL)', detail: 'Direktflyg från Helsingfors året runt; vintertid säsongsrutter från bl.a. London Gatwick och Paris. 30 km / 30 min söderut till Saariselkä by.' },
     { mode: 'bus', label: 'Flygbussen från IVL', detail: '15–20 € enkel resa · 30 min · möter varje flyg.' },
     { mode: 'car', label: 'Taxi eller förbokad transfer', detail: '40–60 € till Saariselkä. Kakslauttanen och Muotka inkluderar privat transfer i premiumklassen.' },
     { mode: 'train', label: 'Sovvagn Helsingfors–Rovaniemi', detail: 'VR:s nattåg till Rovaniemi (ca 90 €), sedan 4 timmars buss eller hyrbil. Ett långsamt alternativ till flyget till IVL.' },
