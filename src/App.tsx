@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AppPromoNudge } from './components/AppPromo'
 import { useEffect, lazy, Suspense } from 'react'
@@ -9,6 +10,23 @@ import NewsletterPopup from './components/NewsletterPopup'
 import { useLang, useLocalePath, useHtmlLang } from './i18n/useLang'
 import LocaleAutoRedirect from './i18n/LocaleAutoRedirect'
 import { useCopy, footerDict } from './locales/copy'
+
+/**
+ * 🔴 The app layout's landmark, EXCEPT on /terms.
+ *
+ * shared/Legal/TermsContent opens its own <main>; nesting it inside this one is
+ * invalid HTML and gives a screen reader two "main" regions. Its siblings
+ * PrivacyContent/CookieContent open a <div>, so only /terms is affected.
+ * Measured from the rendered DOM 2026-08-13 (12 network sites) -- the raw HTML
+ * has zero <main> elements, so this is invisible to grep.
+ *
+ * Do NOT "simplify" this back to a plain <main>.
+ */
+function MainOrDiv({ children }: { children?: ReactNode }) {
+  const { pathname } = useLocation();
+  const Tag = /(^|\/)terms\/?$/.test(pathname) ? 'div' : 'main';
+  return <Tag className="flex-1">{children}</Tag>;
+}
 
 function LocalisedCookieBanner() {
   const lang = useLang()
@@ -126,7 +144,7 @@ export default function App() {
       <AffiliateLinkWarmup />
       <Nav />
       <div className="min-h-screen flex flex-col">
-        <main className="flex-1">
+        <MainOrDiv>
           {/* Reserve viewport height while the lazy route chunk loads, otherwise
               the app-level Footer pins to the viewport bottom and then jumps down
               a full page when content arrives (CLS up to 1.0). */}
@@ -339,7 +357,7 @@ export default function App() {
             <Route path="*" element={<NotFound />} />
           </Routes>
           </Suspense>
-        </main>
+        </MainOrDiv>
         <FooterWrapper />
       </div>
       <MobileStickyCta />
