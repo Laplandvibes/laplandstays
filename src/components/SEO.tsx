@@ -15,6 +15,15 @@ interface SEOProps {
   ogImage?: string
   keywords?: string[]
   jsonLd?: object | object[]
+  /**
+   * Restrict the emitted hreflang alternates to these langs (e.g. ['fi'] for a
+   * Finnish-market-only page whose route exists ONLY under /fi). Default:
+   * every supported locale. Must mirror the route's "locales" restriction in
+   * scripts/routes.json, or hydration would advertise ghost locale URLs the
+   * prerenderer (and the router) do not serve. Pass a MODULE-LEVEL const, not
+   * an inline array literal — this is an effect dependency.
+   */
+  hreflangLangs?: string[]
 }
 
 function upsertMeta(selector: string, attr: 'name' | 'property', key: string, content: string) {
@@ -57,6 +66,7 @@ export default function SEO({
   ogImage = DEFAULT_OG,
   keywords,
   jsonLd,
+  hreflangLangs,
 }: SEOProps) {
   const lang = useLang()
   // URL prefix uses the path token (/kr for ko, /br for pt-BR, /cn for zh-CN); other locales = lang code.
@@ -99,7 +109,9 @@ export default function SEO({
     // doesn't disagree with the static HTML.
     const oldAlts = document.head.querySelectorAll('link[rel="alternate"][data-seo-hreflang]')
     oldAlts.forEach((el) => el.remove())
-    const HREFLANGS = Object.keys(PATH_PREFIX) as Array<keyof typeof PATH_PREFIX>
+    const HREFLANGS = (hreflangLangs ?? Object.keys(PATH_PREFIX)).filter(
+      (l): l is keyof typeof PATH_PREFIX => l in PATH_PREFIX,
+    )
     HREFLANGS.forEach((l) => {
       const link = document.createElement('link')
       link.setAttribute('rel', 'alternate')
@@ -108,10 +120,13 @@ export default function SEO({
       link.setAttribute('data-seo-hreflang', 'true')
       document.head.appendChild(link)
     })
+    // x-default mirrors the prerenderer: the EN URL when EN is among the
+    // alternates, otherwise the first restricted locale's own URL.
+    const xDefaultPrefix = HREFLANGS.includes('en') || HREFLANGS.length === 0 ? '' : PATH_PREFIX[HREFLANGS[0]]
     const xDefault = document.createElement('link')
     xDefault.setAttribute('rel', 'alternate')
     xDefault.setAttribute('hreflang', 'x-default')
-    xDefault.setAttribute('href', `${SITE_URL}${canonicalPath}`.replace(/\/?$/, '/'))
+    xDefault.setAttribute('href', `${SITE_URL}${xDefaultPrefix}${canonicalPath}`.replace(/\/?$/, '/'))
     xDefault.setAttribute('data-seo-hreflang', 'true')
     document.head.appendChild(xDefault)
 
@@ -133,7 +148,7 @@ export default function SEO({
     upsertMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description)
     upsertMeta('meta[name="twitter:image"]', 'name', 'twitter:image', ogImageV)
     upsertMeta('meta[name="twitter:site"]', 'name', 'twitter:site', '@laplandvibes')
-  }, [title, description, canonicalPath, ogImage, keywords, localePrefix, ogLocale, bcp47])
+  }, [title, description, canonicalPath, ogImage, keywords, localePrefix, ogLocale, bcp47, hreflangLangs])
 
   return (
     <>

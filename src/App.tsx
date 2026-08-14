@@ -72,6 +72,8 @@ const About = lazy(() => import('./pages/About'))
 const WhenToGo = lazy(() => import('./pages/WhenToGo'))
 const Transport = lazy(() => import('./pages/Transport'))
 const Cabins = lazy(() => import('./pages/Cabins'))
+// FI-only vertailusivu — reitti on olemassa VAIN /fi/-puolella (ks. Igloos.tsx).
+const Igloos = lazy(() => import('./pages/Igloos'))
 const EditorialPolicy = lazy(() => import('./pages/EditorialPolicy'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 const Terms = lazy(() => import('./pages/Terms'))
@@ -179,6 +181,7 @@ export default function App() {
             <Route path="/fi/when-to-go" element={<WhenToGo />} />
             <Route path="/fi/transport" element={<Transport />} />
             <Route path="/fi/cabins" element={<Cabins />} />
+            <Route path="/fi/iglumajoitus" element={<Igloos />} />
             <Route path="/fi/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/fi/privacy" element={<PrivacyPolicy />} />
             <Route path="/fi/terms" element={<Terms />} />

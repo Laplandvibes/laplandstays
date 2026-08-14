@@ -3241,4 +3241,12 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/cabins/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/cabins/" />
   </url>
+  <!-- FI-only comparison page: exists ONLY under /fi/ (routes.json "locales": ["fi"]) -->
+  <url>
+    <loc>https://laplandstays.com/fi/iglumajoitus/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/iglumajoitus/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/fi/iglumajoitus/" />
+  </url>
 </urlset>
