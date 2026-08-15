@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useEffect, useState, type ComponentType, type SVGProps } from 'react'
+import { Fragment, useEffect, useState, type ComponentType, type SVGProps } from 'react'
 import { ArrowRight, Sparkles, TreePine, Mountain, Gem, Check, X, MapPin } from 'lucide-react'
 import PropertyTypes from '../components/PropertyTypes'
 import AmenitiesShowcase from '../components/AmenitiesShowcase'
@@ -460,8 +460,8 @@ export default function PropertyTypesPage() {
       {cats.map((cat, i) => {
         const meta = categoryMetaFor(lang)[i]
         return (
+          <Fragment key={meta.id}>
           <CategorySection
-            key={meta.id}
             id={meta.id}
             eyebrow={cat.eyebrow}
             title={cat.title}
@@ -488,6 +488,22 @@ export default function PropertyTypesPage() {
             bg={meta.bg}
             imageSide={meta.imageSide}
           />
+          {/* ja-only: syvempi ガラスイグルー-vertailu elää vain /ja/-lokaalissa
+              (GlassIgloos.tsx) — muille kielille linkkiä ei renderöidä, koska
+              reittiä ei ole eikä aavelokaalilinkkejä saa mainostaa. */}
+          {meta.id === 'aurora-villas' && lang === 'ja' && (
+            <div className={`px-4 sm:px-6 pb-14 sm:pb-16 -mt-8 sm:-mt-10 ${meta.bg}`}>
+              <div className="max-w-6xl mx-auto">
+                <p className="text-charcoal/75 text-[15px] leading-relaxed max-w-3xl">
+                  このカテゴリーだけを深掘りした比較ページがあります：
+                  <Link to="/ja/glass-igloos" className="text-pink font-semibold hover:underline">
+                    ガラスイグルー比較 — 11施設を料金・場所・予約時期で
+                  </Link>
+                </p>
+              </div>
+            </div>
+          )}
+          </Fragment>
         )
       })}
 

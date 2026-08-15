@@ -3249,4 +3249,11 @@
     <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/iglumajoitus/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/fi/iglumajoitus/" />
   </url>
+  <url>
+    <loc>https://laplandstays.com/ja/glass-igloos/</loc>
+    <lastmod>2026-08-15</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/glass-igloos/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ja/glass-igloos/" />
+  </url>
 </urlset>

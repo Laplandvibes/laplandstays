@@ -484,6 +484,8 @@ const ja: DestinationBody = {
     { name: 'Inari', href: '/destinations/inari', blurb: 'さらに北、大湖のほとり、サーミ文化の中心。' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'ラップランドの首府、サンタクロース村、より整った設備。' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'ラップランドで最大の村、最も到着しやすい場所。' },
+    // ja-only: /ja/glass-igloos on olemassa vain ja-lokaalissa (GlassIgloos.tsx)
+    { name: 'ガラスイグルー比較', href: '/glass-igloos', blurb: 'カクスラウッタネンからレヴィまで、11施設を料金と場所で比較。' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '元祖ガラス・イグルー。オーロラのピーク期は8〜12か月前に予約。' },
