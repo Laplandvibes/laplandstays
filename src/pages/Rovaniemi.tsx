@@ -516,7 +516,10 @@ const ja: DestinationBody = {
 }
 
 const es: DestinationBody = {
-  tagline: 'La capital de la Laponia finlandesa, Pueblo de Papá Noel, dos ríos y acceso directo a la aurora desde una ciudad con todos los servicios.',
+  // ES targets `cabañas en rovaniemi` (brief 187, 2026-08-15): hero H1 override +
+  // guide-osio alla. Muut lokaalit renderöityvät ennallaan.
+  heroH1: 'Cabañas en Rovaniemi',
+  tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar — con el Círculo Polar y todos los servicios de la capital lapona al lado.',
   description: `Rovaniemi es la capital administrativa de la Laponia finlandesa y la principal puerta internacional. La ciudad está sobre el Círculo Polar, en la confluencia de los ríos Kemijoki y Ounasjoki, con unos 65.000 habitantes, pequeña para los estándares europeos, pero, con diferencia, el mayor asentamiento de la región.
 
 La mezcla es inusual: una ciudad norteña en activo con restaurantes, el museo de ciencia Arktikum y arquitectura cívica diseñada por Aalto, junto con el Pueblo de Papá Noel original sobre el Círculo Polar y una red de zonas de cabañas a corta distancia. Para quienes quieren aurora y naturaleza pero también volar a casa desde un aeropuerto importante, Rovaniemi es la base natural.`,
@@ -535,7 +538,7 @@ La mezcla es inusual: una ciudad norteña en activo con restaurantes, el museo d
     { title: 'Cinturones de cabañas junto al río', body: 'Las propiedades a lo largo del Kemijoki y sobre Ounasvaara ofrecen cielos oscuros aptos para auroras a 15 minutos de restaurantes y compras.' },
   ],
   whenToGo: `Mediados de septiembre – finales de marzo es temporada de aurora; noviembre – febrero es el invierno más profundo.
-"Kaamos", la noche polar, dura unas semanas en torno al 21 de diciembre. Crepúsculo azul todo el día, sin sol pleno.
+Rovaniemi no tiene noche polar: incluso el 21 de diciembre el sol sale unas dos horas, y el mediodía es un largo crepúsculo azul.
 Junio – julio trae sol de medianoche y aguas bravas en Oikaraisenkoski.`,
   howToGet: `Vuele a Rovaniemi (RVN), el aeropuerto mejor conectado de Laponia.
 Los ferrocarriles finlandeses operan trenes nocturnos desde Helsinki con servicio de transporte de coches directo a la estación de Rovaniemi.
@@ -575,8 +578,121 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     { day: '03', title: 'Arktikum + cultura urbana', body: 'Media jornada en Arktikum (museo sami + historia de Laponia, hermoso corredor de cristal). Almuerzo en la ciudad. Tarde libre, excursión a Lainio Snow Village si la temporada lo permite.' },
     { day: '04', title: 'Mañana tranquila · siguiente parada', body: 'Última sauna, desayuno en la ciudad. Volar de vuelta desde RVN o alquilar coche y conducir 2 h al norte hasta Levi para una segunda etapa.' },
   ],
-  seoTitle: 'Cabañas y villas aurora en Rovaniemi, Círculo Polar',
-  seoDescription: 'Cabañas de troncos junto al río, villas aurora de cristal y estancias en el Pueblo de Papá Noel en Rovaniemi. Acceso al Círculo Polar, aeropuerto principal.',
+  guide: {
+    eyebrow: 'Guía de cabañas',
+    h2: 'Cabañas en Rovaniemi: qué es un mökki y cuál le conviene',
+    intro: `Los buscadores le enseñan cientos de "cabañas" en Rovaniemi, pero no le dicen lo único que de verdad decide la estancia: qué tipo de cabaña es, en qué zona está y qué incluye. Esta guía no es un listado — es el criterio de elección: la diferencia entre un mökki y un iglú de cristal, las cuatro zonas de Rovaniemi con sus distancias reales, cuándo hace falta coche y qué preguntar antes de pagar. Distancias y transporte comprobados el 15.8.2026 con fuentes oficiales.`,
+    sections: [
+      {
+        h3: 'Qué es un mökki (y en qué se diferencia de un iglú de cristal)',
+        paras: [
+          'En Finlandia, la palabra para cabaña es mökki: una construcción independiente, casi siempre de madera, pensada para alojarse por cuenta propia — con cocina, chimenea o estufa y, muy a menudo, sauna propia. Es alojamiento, no producto de experiencia: se paga por metros, equipamiento y ubicación.',
+          'Un iglú de cristal es lo contrario: una habitación con techo de cristal que se vende como experiencia — una o dos noches, precio por el cielo sobre la cama, servicios de hotel. Entre ambos quedan chalets y villas con servicio hotelero. Si busca una semana con cocina y sauna, busque mökki; si busca una noche mirando el cielo desde la cama, eso es otra categoría y otro presupuesto.',
+        ],
+        links: [
+          { label: 'Tipos de alojamiento en Laponia', href: '/property-types' },
+          { label: 'Cabañas en Levi, Ylläs, Ruka y Saariselkä', href: '/cabins' },
+          { label: 'Las cabañas de cristal, aclaradas por categorías', href: 'https://laplandvibes.com/es/blog/lapland-glass-cabin-categories/', external: true },
+        ],
+      },
+      {
+        h3: 'Las cuatro zonas: centro, Ounasvaara, Pueblo de Papá Noel y los cinturones de río',
+        paras: [
+          'La elección de zona decide más que la elección de cabaña: fija cuánto conducirá, qué cielo verá por la noche y si la cena es un paseo o un trayecto. Rovaniemi se reparte, a efectos de alojamiento, en cuatro zonas:',
+        ],
+        table: {
+          head: ['Zona', 'Distancia', '¿Coche?', 'Para quién'],
+          rows: [
+            ['Centro', 'Todo a pie', 'No', 'Restaurantes y servicios al lado; más apartamentos que cabañas propiamente dichas'],
+            ['Ounasvaara', '~10 min en coche del centro', 'Útil, no imprescindible', 'Pistas, sendas y horizonte de auroras casi dentro de la ciudad'],
+            ['Pueblo de Papá Noel', '8 km al norte del centro', 'No imprescindible: bus urbano 8 todo el año', 'Familias y villas de cristal junto al Círculo Polar'],
+            ['Cinturones de río y bosque', '~15 min en coche (Kemijoki / Ounasjoki)', 'Sí, en la práctica', 'Cabañas clásicas con sauna y cielo oscuro para auroras'],
+          ],
+          note: 'Distancia y bus del Pueblo de Papá Noel: santaclausvillage.info ("8 km al norte del centro"; bus 8 todo el año), comprobado el 15.8.2026. Resto: datos publicados de este sitio. En invierno cuente los trayectos en tiempo, no en kilómetros.',
+        },
+      },
+      {
+        h3: '¿Hace falta coche? Distancias y transporte zona por zona',
+        paras: [
+          'Depende de la zona, y la tabla de arriba es la respuesta corta. La larga: el aeropuerto (RVN) está a 10 km del centro, con autobús de enlace (7 € por trayecto, 15 min) y taxis por 15–25 €. Al Pueblo de Papá Noel llega el autobús urbano 8 durante todo el año. Con base en el centro o junto al Pueblo, el día a día se resuelve sin volante.',
+          'La cuenta cambia en los cinturones de río y bosque: allí la cabaña se elige precisamente por estar lejos de las luces, y eso significa conducir — al supermercado, a los safaris, a cualquier cena que no cocine usted. Si su cabaña está a más de un cuarto de hora del centro, alquile coche desde el aeropuerto y confirme con el propietario que el acceso se mantiene despejado de nieve.',
+        ],
+        links: [{ label: 'Transporte en Laponia: cómo moverse', href: '/transport' }],
+        cta: {
+          kind: 'cars',
+          label: 'Comparar coches en el aeropuerto (RVN)',
+          sid: 'stays_es_rovcab_car',
+          destination: 'RVN',
+          note: 'Recogida en el aeropuerto de Rovaniemi. Los coches de alquiler en Laponia llevan neumáticos de invierno en temporada.',
+        },
+      },
+      {
+        h3: 'Sauna propia, sauna compartida o sin sauna: lo que cambia de verdad',
+        paras: [
+          'En una cabaña finlandesa la sauna no es un extra de spa: es parte del tipo de alojamiento. La diferencia práctica es triple. Sauna propia dentro de la cabaña: se calienta cuando usted quiera, tantas veces como quiera — el estándar del mökki clásico. Sauna compartida del complejo: funciona con horarios o turnos reservados, lo habitual en apartamentos y villas. Sin sauna: raro en cabañas, normal en apartamentos de centro.',
+          'Dos preguntas concretas al anunciante: ¿la sauna es eléctrica o de leña? La leña es parte del ritual, pero exige encenderla y a veces se cobra por saco. ¿Y está dentro de la cabaña o en un edificio aparte en el patio? Con −15 °C, ese trayecto en toalla importa.',
+        ],
+      },
+      {
+        h3: 'Orientación al norte: cuándo una cabaña sirve para ver auroras',
+        paras: [
+          'Para auroras, lo primero no es la orientación sino la oscuridad: una cabaña en el cinturón de río con cielo abierto gana a cualquier ventanal dentro del resplandor urbano. Lo segundo sí es hacia dónde mira la cabaña: las auroras aparecen sobre el horizonte norte, así que ventanas o terraza hacia el norte permiten vigilar el cielo desde dentro, con la calefacción puesta.',
+          'Y una regla de honestidad: la orientación exacta y la vista libre de una cabaña concreta solo las conoce el propietario. Los buscadores no las filtran y las fotos engañan — si es su prioridad, pregúntelo directamente antes de reservar.',
+        ],
+        links: [
+          { label: 'Auroras boreales en Laponia: cuándo y dónde', href: 'https://laplandvibes.com/es/northern-lights/', external: true },
+          { label: 'Guía completa de Rovaniemi', href: 'https://laplandvibes.com/es/destination/rovaniemi/', external: true },
+        ],
+      },
+      {
+        h3: 'Lo que no siempre viene incluido: pregúntelo antes',
+        paras: [
+          'Ninguna de estas líneas es universal — ese es exactamente el punto: varían por propiedad, y las sorpresas de última hora se evitan con cuatro preguntas al reservar.',
+        ],
+        bullets: [
+          'Ropa de cama y toallas: en cabañas de alquiler pueden facturarse aparte o esperarse que las traiga.',
+          'Leña para la estufa o la sauna: a veces incluida, a veces por saco.',
+          'Ropa térmica: casi nunca la da el alojamiento. Los operadores de safaris prestan monos y botas para sus salidas, y en la ciudad se alquila equipamiento por días.',
+          'Traslados: una cabaña fuera del centro rara vez incluye recogida en el aeropuerto — cuente con taxi o coche de alquiler.',
+          'Limpieza final: en alquileres tipo mökki suele ser un cargo aparte o una tarea que se deja hecha.',
+        ],
+      },
+      {
+        h3: 'Cabañas en verano: río, mosquitos y otro ritmo de precios',
+        paras: [
+          'La misma cabaña vive dos vidas. En invierno mandan las auroras y la nieve; de junio a agosto mandan el río y la luz — en Rovaniemi el sol no se pone del 6 de junio al 5 de julio — con remo y pesca en el Kemijoki y la sauna con baño en el río como programa de la tarde.',
+          'Los mosquitos son reales desde finales de junio, más en el bosque que en el centro; repelente y mosquiteras resuelven la mayor parte. En precios, el invierno navideño es la temporada alta de la zona: el verano juega en una categoría más tranquila, con más disponibilidad para semanas enteras.',
+        ],
+        links: [
+          { label: 'Cuándo ir: la temporada mes a mes', href: '/when-to-go' },
+          { label: 'Mosquitos en Laponia: qué funciona de verdad', href: 'https://laplandvibes.com/es/blog/lapland-mosquitoes-summer-guide/', external: true },
+        ],
+      },
+      {
+        h3: 'Qué preguntar antes de reservar',
+        paras: [
+          'La lista corta para cerrar sin sorpresas — cinco minutos de mensajes al propietario valen más que una hora de fotos:',
+        ],
+        bullets: [
+          '¿A cuántos minutos en coche está el supermercado más cercano, y el acceso se mantiene despejado de nieve en invierno?',
+          '¿La sauna es propia o compartida, eléctrica o de leña, dentro de la cabaña o en el patio?',
+          '¿Ropa de cama, toallas, leña y limpieza final: incluidas o aparte?',
+          '¿Hay vista libre hacia el horizonte norte para las auroras?',
+          '¿Hace falta coche para esa ubicación, o hay transporte razonable?',
+          '¿Cuáles son las condiciones de cancelación en fechas de diciembre? La semana de Navidad se reserva con meses de antelación.',
+        ],
+        cta: {
+          kind: 'hotels',
+          label: 'Ver cabañas y villas en Rovaniemi',
+          sid: 'stays_es_rovcab_search',
+          destination: 'Rovaniemi, Finland',
+        },
+      },
+    ],
+    footnote: 'Distancias y transporte comprobados el 15.8.2026 (santaclausvillage.info y datos publicados de este sitio). Los servicios concretos de cada cabaña — sauna, orientación, extras — son datos del anunciante: confírmelos en la página de la propiedad antes de reservar.',
+  },
+  seoTitle: 'Cabañas en Rovaniemi: cómo elegir y qué mirar antes',
+  seoDescription: 'Qué es un mökki, en qué zona de Rovaniemi dormir — centro, Ounasvaara, Pueblo de Papá Noel o cinturones de río —, cuándo hace falta coche y qué preguntar antes de reservar una cabaña.',
 }
 
 const ptBR: DestinationBody = {

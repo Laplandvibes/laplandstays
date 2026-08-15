@@ -62,8 +62,36 @@ export interface HighlightLink {
   path?: string
 }
 
+/**
+ * Optional long-form buying-guide block, rendered between OVERVIEW and
+ * HIGHLIGHTS. Added 2026-08-15 for the ES Rovaniemi cabin expansion (brief
+ * `cabañas en rovaniemi`); any locale that provides `guide` gets the section,
+ * all others render exactly as before.
+ */
+export interface GuideSection {
+  h3: string
+  paras: string[]
+  bullets?: string[]
+  table?: { head: string[]; rows: string[][]; note?: string }
+  links?: { label: string; href: string; external?: boolean }[]
+  cta?: { kind: 'hotels' | 'cars'; label: string; sid: string; destination: string; note?: string }
+}
+export interface DestinationGuide {
+  eyebrow: string
+  h2: string
+  intro: string
+  sections: GuideSection[]
+  footnote?: string
+}
+
 /** Translatable body content per language. */
 export interface DestinationBody {
+  /**
+   * Optional per-locale hero H1 override (defaults to the destination name).
+   * Rendered at a reduced size when set — used when a locale targets a longer
+   * keyword phrase than the bare city name.
+   */
+  heroH1?: string
   /** Hero tagline, just under the H1. */
   tagline: string
   /** Overview prose (whitespace-pre-line). */
@@ -77,6 +105,7 @@ export interface DestinationBody {
   stayTypes: string[]
   anchorProperties?: DestinationAnchor[]
   transport?: TransportRow[]
+  guide?: DestinationGuide
   dayPlan?: { day: string; title: string; body: string }[]
   carRental?: {
     href: string
@@ -310,7 +339,7 @@ export default function DestinationPage(p: DestinationPageProps) {
           <p className="text-pink uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 flex items-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
             <MapPin className="w-4 h-4" /> {ui.finnishLapland}
           </p>
-          <h1 className="font-heading text-5xl sm:text-7xl md:text-8xl tracking-wide mb-4 [text-shadow:0_3px_28px_rgba(0,0,0,0.85),0_1px_4px_rgba(0,0,0,0.6)]">{p.name}</h1>
+          <h1 className={`font-heading tracking-wide mb-4 [text-shadow:0_3px_28px_rgba(0,0,0,0.85),0_1px_4px_rgba(0,0,0,0.6)] ${b.heroH1 ? 'text-4xl sm:text-6xl md:text-7xl' : 'text-5xl sm:text-7xl md:text-8xl'}`}>{b.heroH1 ?? p.name}</h1>
           <p className="text-xl sm:text-2xl md:text-3xl text-white/90 max-w-3xl leading-snug [text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{b.tagline}</p>
         </div>
       </section>
@@ -352,6 +381,110 @@ export default function DestinationPage(p: DestinationPageProps) {
           </div>
         </div>
       </section>
+
+      {/* GUIDE — optional per-locale long-form buying guide (2026-08-15).
+          Renders only when the active locale's body provides `guide`; other
+          locales are untouched. Links resolve via to() for own-site paths and
+          plain hrefs for absolute network URLs. CTAs route through the Worker
+          via buildAffiliateUrl exactly like every other paid link here. */}
+      {b.guide && (
+        <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-pink/5 to-white">
+          <div className="max-w-4xl mx-auto">
+            <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{b.guide.eyebrow}</p>
+            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-5">{b.guide.h2}</h2>
+            <p className="text-charcoal/75 text-lg leading-relaxed whitespace-pre-line mb-10">{b.guide.intro}</p>
+
+            <div className="space-y-10">
+              {b.guide.sections.map((s) => (
+                <div key={s.h3}>
+                  <h3 className="font-heading text-2xl sm:text-3xl text-night tracking-wide mb-3">{s.h3}</h3>
+                  {s.paras.map((para, i) => (
+                    <p key={i} className="text-charcoal/75 leading-relaxed mb-3">{para}</p>
+                  ))}
+                  {s.bullets && (
+                    <ul className="space-y-2 mb-3">
+                      {s.bullets.map((bl) => (
+                        <li key={bl} className="flex items-start gap-3">
+                          <Snowflake className="w-4 h-4 text-pink shrink-0 mt-1" aria-hidden="true" />
+                          <span className="text-charcoal/75 leading-relaxed">{bl}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                  {s.table && (
+                    <figure className="mb-3">
+                      <div className="overflow-x-auto rounded-2xl border border-pink/20">
+                        <table className="w-full text-left text-[14px] sm:text-[15px]">
+                          <thead>
+                            <tr className="bg-pink/5">
+                              {s.table.head.map((h) => (
+                                <th key={h} className="px-4 py-3 font-semibold text-night whitespace-nowrap">{h}</th>
+                              ))}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {s.table.rows.map((r, ri) => (
+                              <tr key={ri} className="border-t border-pink/10 bg-white">
+                                {r.map((c, ci) => (
+                                  <td key={ci} className={`px-4 py-3 leading-relaxed ${ci === 0 ? 'font-semibold text-night' : 'text-charcoal/75'}`}>{c}</td>
+                                ))}
+                              </tr>
+                            ))}
+                          </tbody>
+                        </table>
+                      </div>
+                      {s.table.note && (
+                        <figcaption className="mt-2 text-xs text-charcoal/55 leading-relaxed">{s.table.note}</figcaption>
+                      )}
+                    </figure>
+                  )}
+                  {s.links && s.links.length > 0 && (
+                    <p className="text-[15px] text-charcoal/70 leading-relaxed">
+                      {s.links.map((l, li) => (
+                        <span key={l.href}>
+                          {li > 0 && ' · '}
+                          {l.external ? (
+                            <a href={l.href} target="_blank" rel="noopener" className="text-[#DB2777] font-semibold underline decoration-dotted underline-offset-2 hover:no-underline">{l.label}</a>
+                          ) : (
+                            <Link to={to(l.href)} className="text-[#DB2777] font-semibold underline decoration-dotted underline-offset-2 hover:no-underline">{l.label}</Link>
+                          )}
+                        </span>
+                      ))}
+                    </p>
+                  )}
+                  {s.cta && (() => {
+                    const ctaHref = buildAffiliateUrl({
+                      partner: s.cta.kind === 'cars' ? 'cars' : 'hotels',
+                      sid: s.cta.sid,
+                      destination: s.cta.destination,
+                      lang,
+                    })
+                    return (
+                      <div className="mt-4">
+                        <a
+                          href={ctaHref}
+                          target="_blank"
+                          rel="sponsored nofollow noopener"
+                          onClick={() => trackAffiliateClick(s.cta!.kind === 'cars' ? 'economybookings' : 'lodging', s.cta!.sid, ctaHref)}
+                          className="inline-flex items-center gap-2 bg-pink hover:bg-pink/90 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                        >
+                          {s.cta.label}
+                          <ArrowRight className="w-4 h-4" aria-hidden="true" />
+                        </a>
+                        {s.cta.note && <p className="mt-2 text-xs text-charcoal/55">{s.cta.note}</p>}
+                      </div>
+                    )
+                  })()}
+                </div>
+              ))}
+            </div>
+
+            {b.guide.footnote && (
+              <p className="mt-10 text-xs text-charcoal/55 leading-relaxed border-t border-pink/10 pt-4">{b.guide.footnote}</p>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* HIGHLIGHTS */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
