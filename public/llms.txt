@@ -1,0 +1,26 @@
+# LaplandStays
+
+> Where to stay in Lapland: glass igloos, aurora cabins and village hotels across Levi, Ylläs, Saariselkä and Inari.
+
+## Main pages
+
+- [Home](https://laplandstays.com/): Accommodation guide for Finnish Lapland
+- [Property types](https://laplandstays.com/property-types/): Glass igloos, cabins, hotels and apartments compared
+- [Cabins](https://laplandstays.com/cabins/): Cabin stays across Finnish Lapland
+- [When to go](https://laplandstays.com/when-to-go/): Seasons and booking timing in Lapland
+- [Transport](https://laplandstays.com/transport/): Getting to and around Lapland accommodation
+- [Levi](https://laplandstays.com/destinations/levi/): Where to stay in Levi
+- [Ylläs](https://laplandstays.com/destinations/yllas/): Where to stay in Ylläs
+- [Saariselkä](https://laplandstays.com/destinations/saariselka/): Where to stay in Saariselkä
+- [Inari](https://laplandstays.com/destinations/inari/): Where to stay in Inari
+- [Rovaniemi](https://laplandstays.com/destinations/rovaniemi/): Where to stay in Rovaniemi
+
+## Languages
+
+English (default), Finnish (/fi/), Swedish (/sv/), German (/de/), French (/fr/), Spanish (/es/), Italian (/it/), Dutch (/nl/), Japanese (/ja/), Brazilian Portuguese (/br/), Chinese (/cn/), Korean (/kr/)
+
+## Network
+
+- [LaplandVibes hub](https://laplandvibes.com/)
+- [Sitemap](https://laplandstays.com/sitemap.xml)
+- Contact: info@laplandstays.com
