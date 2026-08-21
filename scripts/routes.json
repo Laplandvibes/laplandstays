@@ -53,23 +53,38 @@
   },
   {
     "path": "/destinations/levi",
-    "pageFile": "src/pages/Levi.tsx"
+    "pageFile": "src/pages/Levi.tsx",
+    "harvestFiles": [
+      "src/pages/Levi.tsx"
+    ]
   },
   {
     "path": "/destinations/yllas",
-    "pageFile": "src/pages/Yllas.tsx"
+    "pageFile": "src/pages/Yllas.tsx",
+    "harvestFiles": [
+      "src/pages/Yllas.tsx"
+    ]
   },
   {
     "path": "/destinations/saariselka",
-    "pageFile": "src/pages/Saariselka.tsx"
+    "pageFile": "src/pages/Saariselka.tsx",
+    "harvestFiles": [
+      "src/pages/Saariselka.tsx"
+    ]
   },
   {
     "path": "/destinations/inari",
-    "pageFile": "src/pages/Inari.tsx"
+    "pageFile": "src/pages/Inari.tsx",
+    "harvestFiles": [
+      "src/pages/Inari.tsx"
+    ]
   },
   {
     "path": "/destinations/rovaniemi",
-    "pageFile": "src/pages/Rovaniemi.tsx"
+    "pageFile": "src/pages/Rovaniemi.tsx",
+    "harvestFiles": [
+      "src/pages/Rovaniemi.tsx"
+    ]
   },
   {
     "path": "/privacy",
@@ -82,14 +97,16 @@
     "path": "/terms",
     "fallbackTitle": "Terms of Use | LaplandStays",
     "harvestFiles": [
-      "../shared/Legal/TermsContent.tsx"
+      "../shared/Legal/TermsContent.tsx",
+      "src/pages/Terms.tsx"
     ]
   },
   {
     "path": "/cookie-policy",
     "fallbackTitle": "Cookie Policy | LaplandStays",
     "harvestFiles": [
-      "../shared/Legal/CookieContent.tsx"
+      "../shared/Legal/CookieContent.tsx",
+      "src/pages/CookiePolicy.tsx"
     ]
   }
 ]
