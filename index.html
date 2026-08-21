@@ -100,15 +100,20 @@
     <meta name="twitter:description" content="Where to stay in Lapland: glass igloos, northern lights cabins and hotels with verified nightly rates across Finnish Lapland." />
     <meta name="twitter:image" content="https://laplandstays.com/og-default.jpg?v=20260811" />
 
-    <!-- Google Fonts — LV ecosystem brand fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-    <!-- Preload Bebas Neue (latin) so the #LAPLANDSTAYS logo never flashes a
-         fallback on slow mobile connections. If Google bumps the font version
-         this URL 404s harmlessly — refresh from css2 above. -->
+    <!-- Fonts are self-hosted from public/fonts (2026-08-16) — Google Fonts links
+         removed with them. Both families were the network standard Bebas Neue +
+         DM Sans, so nothing here needed keeping.
+         🔴 The preloads below replace the old gstatic one that was removed with
+         the rest. selfhost_fonts.mjs saw that existing preload, decided the file
+         already had one, and skipped adding its own — so deleting the Google
+         block left this site with self-hosted fonts and NO preload at all.
+         crossorigin is required even same-origin: fonts are fetched in CORS mode
+         and a preload without it downloads the file twice. -->
     <link rel="preload" as="font" type="font/woff2" crossorigin
-      href="https://fonts.gstatic.com/s/bebasneue/v16/JTUSjIg69CK48gW7PXoo9Wlhyw.woff2" />
+          href="/fonts/v16-JTUSjIg69CK48gW7PXoo9Wlhyw.woff2" />
+    <link rel="preload" as="font" type="font/woff2" crossorigin
+          href="/fonts/v17-rP2Hp2ywxg089UriCZOIHQ.woff2" />
+
 
     <!-- Hero LCP preload — the homepage Hero is the largest-contentful element.
          It is a seasonal SPA component (summer/winter) rendered only after React
@@ -216,7 +221,7 @@
     </script>
     -->
     <!-- Umami Cloud — cookieless analytics, no consent gate needed (writes nothing to the browser) -->
-    <script defer src="https://cloud.umami.is/script.js" data-website-id="30397099-e14e-49be-952c-36cf80ff6523"></script>
+    <script defer src="https://cloud.umami.is/script.js" data-website-id="30397099-e14e-49be-952c-36cf80ff6523" data-domains="laplandstays.com,www.laplandstays.com"></script>
   </head>
   <body>
     <!-- Facebook Pixel noscript fallback — uncomment when Pixel ID is available:
