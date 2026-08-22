@@ -2,8 +2,8 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Lapland Accommodation: Glass Igloos & Cabins | LaplandStays",
-    "description": "Where to stay in Lapland: compare glass igloos from €250/night, aurora cabins from €150 and hotels from €100 across Levi, Ylläs, Saariselkä and Inari."
+    "title": "Where to Stay in Lapland: Levi, Ylläs, Saariselkä, Inari",
+    "description": "Which Lapland village to sleep in, and where inside it: Levi, Ylläs, Saariselkä, Inari and Rovaniemi compared. What each is like in winter and what to book first."
   },
   "faq": {
     "@context": "https://schema.org",

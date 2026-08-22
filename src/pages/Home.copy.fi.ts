@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Lapin majoitus: lasi-iglut ja mökit | LaplandStays",
+    "title": "Missä yöpyä Lapissa: Levi, Ylläs, Saariselkä, Inari",
     "description": "Missä yöpyä Lapissa: vertaa lasi-igluja alkaen 250 €/yö, revontulimökkejä alkaen 150 € ja Lapin hotelleja alkaen 100 € Levillä, Ylläksellä, Saariselällä ja Inarissa. Tarkistetut hinnat, omat saunat, revontulihälytykset."
   },
   "faq": {
