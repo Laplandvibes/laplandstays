@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: '滑雪胜地',
   },
   mobileStickyCta: {
-    fromPrice: '每晚100欧元起',
     headline: '经过核实的拉普兰木屋与冰屋',
     cta: '立即预订',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: '电子邮件地址',
     submit: '接收下一封邮件',
     submitting: '加入中…',
-    success: '您已加入。极光下见。',
+    success: '就快好了：请在我们刚发送的邮件中确认订阅。',
     error: '订阅未成功。请重试，或发送邮件至 info@laplandvibes.com。',
     footnote: '只在真正有事可说时发送。一键退订。',
     privacyLink: '隐私政策',

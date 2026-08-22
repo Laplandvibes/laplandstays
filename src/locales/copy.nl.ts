@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Skigebieden',
   },
   mobileStickyCta: {
-    fromPrice: 'Vanaf €100/nacht',
     headline: 'Geverifieerde Lapland-hutten & iglo\'s',
     cta: 'Nu boeken',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'E-mailadres',
     submit: 'Ontvang de volgende e-mail',
     submitting: 'Aanmelden…',
-    success: 'U staat op de lijst. Tot ziens onder het noorderlicht.',
+    success: 'Bijna klaar: bevestig je aanmelding via de e-mail die we net hebben gestuurd.',
     error: 'Aanmelden is niet gelukt. Probeer het opnieuw of mail naar info@laplandvibes.com.',
     footnote: 'Alleen wanneer er echt iets te vertellen valt. Uitschrijven met één klik.',
     privacyLink: 'Privacybeleid',

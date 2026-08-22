@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Hiihtokeskukset',
   },
   mobileStickyCta: {
-    fromPrice: 'Alkaen 100 €/yö',
     headline: 'Tarkistetut Lapin mökit ja iglut',
     cta: 'Varaa nyt',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'Sähköpostiosoite',
     submit: 'Liity listalle',
     submitting: 'Liitytään…',
-    success: 'Olet listalla. Nähdään revontulten alla.',
+    success: 'Melkein valmista: käy vahvistamassa tilaus sähköpostiisi tulleesta viestistä.',
     error: 'Tilauksen lähetys epäonnistui. Yritä uudelleen tai lähetä sähköpostia info@laplandvibes.com.',
     footnote: 'Postia vain silloin, kun on oikeasti jotain kerrottavaa. Pääset pois listalta yhdellä klikkauksella.',
     privacyLink: 'Tietosuojaseloste',

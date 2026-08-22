@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'スキーリゾート',
   },
   mobileStickyCta: {
-    fromPrice: '100ユーロ/泊から',
     headline: '確認済みのラップランドのロッジとイグルー',
     cta: '今すぐ予約',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'メールアドレス',
     submit: '次のメールを受け取る',
     submitting: '登録中…',
-    success: 'リストに追加されました。オーロラの下でお会いしましょう。',
+    success: 'あと少しです。いまお送りしたメールから登録を確認してください。',
     error: '登録できませんでした。もう一度お試しいただくか、info@laplandvibes.com までご連絡ください。',
     footnote: '本当にお伝えしたいことがあるときだけお送りします。ワンクリックで配信停止できます。',
     privacyLink: 'プライバシーポリシー',

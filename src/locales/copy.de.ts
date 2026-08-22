@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Skigebiete',
   },
   mobileStickyCta: {
-    fromPrice: 'Ab 100 €/Nacht',
     headline: 'Geprüfte Lappland-Hütten & Iglus',
     cta: 'Jetzt buchen',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'E-Mail-Adresse',
     submit: 'Nächste E-Mail erhalten',
     submitting: 'Wird eingetragen…',
-    success: 'Sie stehen auf der Liste. Bis bald unter dem Polarlicht.',
+    success: 'Fast geschafft: Bestätigen Sie Ihr Abo über die E-Mail, die wir Ihnen gerade geschickt haben.',
     error: 'Anmeldung nicht möglich. Versuchen Sie es erneut oder schreiben Sie an info@laplandvibes.com.',
     footnote: 'Post nur, wenn es wirklich etwas zu erzählen gibt. Abbestellen mit einem Klick.',
     privacyLink: 'Datenschutzerklärung',

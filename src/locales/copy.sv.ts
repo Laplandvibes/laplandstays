@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Skidorter',
   },
   mobileStickyCta: {
-    fromPrice: 'Från 100 €/natt',
     headline: 'Verifierade stugor och iglor i Lappland',
     cta: 'Boka nu',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'E-postadress',
     submit: 'Få nästa mejl',
     submitting: 'Anmäler…',
-    success: 'Du är med på listan. Vi ses under norrskenet.',
+    success: 'Nästan klart: bekräfta din prenumeration i mejlet vi just skickade.',
     error: 'Prenumerationen gick inte igenom. Försök igen eller mejla info@laplandvibes.com.',
     footnote: 'Bara när vi verkligen har något att berätta. Avsluta med ett klick.',
     privacyLink: 'Integritetspolicy',

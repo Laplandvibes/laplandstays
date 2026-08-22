@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Stations de ski',
   },
   mobileStickyCta: {
-    fromPrice: 'Dès 100 €/nuit',
     headline: 'Chalets & iglous de Laponie vérifiés',
     cta: 'Réserver',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'Adresse e-mail',
     submit: 'Recevoir le prochain e-mail',
     submitting: 'Inscription…',
-    success: 'Vous êtes inscrit·e. À bientôt sous les aurores.',
+    success: 'Presque fini : confirmez votre inscription depuis l\'e-mail que nous venons de vous envoyer.',
     error: "L'inscription n'a pas abouti. Réessayez ou écrivez à info@laplandvibes.com.",
     footnote: "Seulement quand nous avons vraiment quelque chose à vous dire. Désinscription en un clic.",
     privacyLink: 'Politique de confidentialité',

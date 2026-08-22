@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: '스키 리조트',
   },
   mobileStickyCta: {
-    fromPrice: '1박 100€부터',
     headline: '검증된 라플란드 캐빈과 이글루',
     cta: '지금 예약',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: '이메일 주소',
     submit: '다음 메일 받기',
     submitting: '구독 중…',
-    success: '구독이 완료되었습니다. 오로라 아래에서 뵙겠습니다.',
+    success: '거의 다 됐습니다. 방금 보내드린 이메일에서 구독을 확인해 주세요.',
     error: '구독에 실패했습니다. 다시 시도하시거나 info@laplandvibes.com 으로 메일을 보내주세요.',
     footnote: '정말 전할 만한 소식이 있을 때만 보냅니다. 한 번 클릭으로 구독 해지.',
     privacyLink: '개인정보 처리방침',

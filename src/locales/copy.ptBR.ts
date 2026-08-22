@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Estações de esqui',
   },
   mobileStickyCta: {
-    fromPrice: 'A partir de €100/noite',
     headline: 'Cabanas e iglus verificados na Lapônia',
     cta: 'Reservar',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'Endereço de e-mail',
     submit: 'Receber o próximo e-mail',
     submitting: 'Entrando…',
-    success: 'Você está na lista. Te vejo sob a aurora.',
+    success: 'Quase lá: confirme sua inscrição no e-mail que acabamos de enviar.',
     error: 'Não foi possível concluir a inscrição. Tente novamente ou escreva para info@laplandvibes.com.',
     footnote: 'Só quando há algo que realmente vale a pena contar. Cancelamento com um clique.',
     privacyLink: 'Política de Privacidade',

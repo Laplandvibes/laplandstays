@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Ski Resorts',
   },
   mobileStickyCta: {
-    fromPrice: 'From €100/night',
     headline: 'Verified Lapland cabins & igloos',
     cta: 'Book now',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'Email address',
     submit: 'Get the next email',
     submitting: 'Joining…',
-    success: "You're on the list. See you under the aurora.",
+    success: 'Almost there: confirm your subscription from the email we just sent you.',
     error: 'Could not subscribe. Try again or email info@laplandvibes.com.',
     footnote: 'Only when we genuinely have something to tell you. One-click unsubscribe.',
     privacyLink: 'Privacy Policy',

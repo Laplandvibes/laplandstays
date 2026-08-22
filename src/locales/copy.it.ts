@@ -42,7 +42,6 @@ const copy: ChromeCopy = {
     skiResorts: 'Stazioni sciistiche',
   },
   mobileStickyCta: {
-    fromPrice: 'Da 100 €/notte',
     headline: 'Chalet & iglù in Lapponia verificati',
     cta: 'Prenota ora',
   },
@@ -54,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'Indirizzo email',
     submit: 'Ricevi la prossima e-mail',
     submitting: 'Iscrizione…',
-    success: 'È in lista. Ci vediamo sotto l\'aurora.',
+    success: 'Ci siamo quasi: conferma l\'iscrizione dall\'e-mail che ti abbiamo appena inviato.',
     error: 'Iscrizione non riuscita. Riprova o scrivi a info@laplandvibes.com.',
     footnote: 'Solo quando c\'è davvero qualcosa da raccontare. Disiscrizione con un clic.',
     privacyLink: 'Informativa sulla privacy',
