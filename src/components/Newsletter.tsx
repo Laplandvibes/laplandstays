@@ -4,7 +4,7 @@ import { ArrowRight, CheckCircle2, Bell, BedDouble, Compass, Sparkles, AlertCirc
 import { trackNewsletterSignup } from '../lib/analytics'
 import { useLocalePath, useLang, type Lang } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
-import FounderByline from '../../../shared/FounderByline';
+import FounderByline from '../shared/FounderByline';
 
 /**
  * [LV-FUNNEL 2026-08-21] Lomakesuppilon eventit Umamiin — paikallinen apuri,

@@ -5,7 +5,7 @@ import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, stripLocale, pick } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
-import EcosystemMenu from '../../../shared/EcosystemMenu'
+import EcosystemMenu from '../shared/EcosystemMenu'
 
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)

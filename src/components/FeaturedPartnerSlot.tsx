@@ -26,8 +26,8 @@
  * renderöi mitään, eikä pintaan jää aukkoa: toimituksellinen kortisto on
  * erillään tästä ja renderöityy kaikilla 12 kielellä ennallaan.
  */
-import PartnerSlot from '../../../shared/PartnerSlot'
-import { adLocaleEnabled } from '../../../shared/adSlotsCopy'
+import PartnerSlot from '../shared/PartnerSlot'
+import { adLocaleEnabled } from '../shared/adSlotsCopy'
 import {
   AD_SLOTS,
   FEATURED_CONTEXT,

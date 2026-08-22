@@ -1,5 +1,5 @@
 import SEO from '../components/SEO';
-import TermsContent from '../../../shared/Legal/TermsContent';
+import TermsContent from '../shared/Legal/TermsContent';
 import { useLang, type Lang } from '../i18n/useLang';
 
 const META: Record<Lang, { title: string; description: string }> = {

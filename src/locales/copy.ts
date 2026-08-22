@@ -8,7 +8,7 @@ import type { ChromeCopy } from './copy.types'
 import enSync from './copy.en'
 import { useLang } from '../i18n/useLang'
 import type { Lang } from '../i18n/useLang'
-import type { FooterDict } from '../../../shared/Footer'
+import type { FooterDict } from '../shared/Footer'
 
 const cache: Partial<Record<Lang, ChromeCopy>> = { en: enSync }
 

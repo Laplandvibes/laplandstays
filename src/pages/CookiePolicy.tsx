@@ -1,5 +1,5 @@
 import SEO from '../components/SEO';
-import CookieContent from '../../../shared/Legal/CookieContent';
+import CookieContent from '../shared/Legal/CookieContent';
 import { useLang, type Lang } from '../i18n/useLang';
 
 const META: Record<Lang, { title: string; description: string }> = {
