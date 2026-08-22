@@ -1,12 +1,30 @@
 // All affiliate CTAs route through go.laplandvibes.com — never raw partner URLs.
 // Worker resolves per-site CJ Website ID from Referer (laplandstays.com -> 101729772).
 // Spec: "LaplandVibes Affiliate System — Developer Handoff" (2026-04-25).
+//
+// 🔴 The line above was not true of activities until 2026-08-22: GYG was built as
+// a direct getyourguide.com deep link, citing bug_go_lv_worker_gyg_dropped.md
+// (2026-05-02: `/go/activities/<slug>` collapsed every slug to the GYG
+// homepage). That bug is FIXED — `handleGyg` forwards the whole multi-segment
+// path, verified live 2026-08-22. The network re-routed its GYG links through
+// the Worker on 2026-08-01 for the D1 click log; this file was never migrated,
+// so its clicks never reached our own count and the Command Center
+// undercounted GetYourGuide.
+//
+// 🔴 Do NOT reintroduce per-locale GYG hosts (getyourguide.de/.fr/.es…) or pass
+// `?language=` on to GetYourGuide. Measured in a real browser 2026-08-02:
+// `?language=xx` does NOTHING there — GYG localises by a `<lang>-<country>/`
+// PATH PREFIX. `language=` here is read by the WORKER, which turns it into that
+// prefix (language=fi -> /fi-fi/rovaniemi-l2653/). Same contract as
+// shared/gyg/picks.ts. That is also why `de` now carries a code: the old table
+// left it undefined because it switched host to getyourguide.de instead.
 
 import { PROPERTY_BOOKING } from '../data/propertyBooking'
 
 const REDIRECT_BASE = 'https://go.laplandvibes.com'
-const GYG_PARTNER_ID = 'VRMKD7N'
-const SITE_ID = 'laplandstays'
+// No GYG_PARTNER_ID / SITE_ID here on purpose. The Worker owns the partner id
+// (env.GYG_PARTNER_ID) and derives `cmp=lv_<domain>_<sid>` from the Referer, so
+// a re-issued id is one Worker deploy instead of 27 site deploys.
 
 export type Partner =
   | 'hotels'
@@ -48,25 +66,13 @@ const CARS_LANG: Record<Lang, string> = {
   sv: "sv",
 };
 
-const GYG_DOMAIN: Record<Lang, string> = {
-  en: "https://www.getyourguide.com",
-  fi: "https://www.getyourguide.com",
-  de: "https://www.getyourguide.de",
-  ja: "https://www.getyourguide.com",
-  es: "https://www.getyourguide.es",
-  "pt-BR": "https://www.getyourguide.com.br",
-  "zh-CN": "https://www.getyourguide.com",
-  ko: "https://www.getyourguide.com",
-  fr: "https://www.getyourguide.fr",
-  it: "https://www.getyourguide.it",
-  nl: "https://www.getyourguide.nl",
-  sv: "https://www.getyourguide.com",
-};
-
+// GetYourGuide's own language codes, handed to the WORKER as `language=`.
+// `en` is GYG's default and needs no parameter. Keep in sync with
+// shared/gyg/picks.ts — the Worker maps these to the `<lang>-<country>/` prefix.
 const GYG_LANGUAGE: Record<Lang, string | undefined> = {
   en: undefined,
   fi: "fi",
-  de: undefined,
+  de: "de",
   ja: "ja",
   es: "es",
   "pt-BR": "pt-br",
@@ -98,23 +104,25 @@ export function buildAffiliateUrl({
   query,
   lang,
 }: BuildAffiliateOptions): string {
-  // ─── GYG direct deep-link (Worker-bypass) ─────────────────────────────
+  // ─── Activities (GetYourGuide) via the Worker ───────────────────
+  // The slug goes in the PATH so the Worker can log which activity converted
+  // (D1 `slug` column, Command Center per-activity breakdown); a direct link
+  // would be invisible to our own click count. `partner_id` + `cmp` are added
+  // by the Worker from env + Referer, so the ID lives in exactly one place.
   if (partner === "activities") {
-    const base = GYG_DOMAIN[lang];
     const path = (destination ?? "").replace(/^\/+/, "").replace(/\/+$/, "");
-    const url = new URL(path ? `${base}/${path}/` : `${base}/`);
-    url.searchParams.set("partner_id", GYG_PARTNER_ID);
-    url.searchParams.set("cmp", `lv_${SITE_ID}_${sid}`);
+    const params = new URLSearchParams();
+    params.set("sid", sid);
     const gygLang = GYG_LANGUAGE[lang];
-    if (gygLang) url.searchParams.set("language", gygLang);
+    if (gygLang) params.set("language", gygLang);
     if (query) {
       for (const [k, v] of Object.entries(query)) {
         if (v !== undefined && v !== null && v !== "") {
-          url.searchParams.set(k, String(v));
+          params.set(k, String(v));
         }
       }
     }
-    return url.toString();
+    return `${REDIRECT_BASE}/go/activities${path ? `/${path}` : ""}?${params.toString()}`;
   }
 
   // ─── Hotels / Cars via Worker ─────────────────────────────────────────
