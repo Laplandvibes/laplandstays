@@ -27,8 +27,8 @@ export const en = {
     ],
     seasonAnchors: [
       { label: 'Glass igloos', value: 'Book 8–12 mo ahead', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Aurora cabins', value: 'From €150/night', sub: '4 destinations' },
-      { label: 'Lapland hotels', value: 'From €100/night', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Aurora cabins', value: '4 destinations', sub: '' },
+      { label: 'Lapland hotels', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Igloo di vetro', value: 'Prenotare 8–12 mesi prima', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Chalet aurora', value: 'Da 150 €/notte', sub: '4 mete' },
-      { label: 'Hotel di Lapponia', value: 'Da 100 €/notte', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Chalet aurora', value: '4 mete', sub: '' },
+      { label: 'Hotel di Lapponia', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

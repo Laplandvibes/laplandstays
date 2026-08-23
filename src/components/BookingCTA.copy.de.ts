@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Glasiglus', value: '8–12 Mon. im Voraus buchen', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Nordlicht-Hütten', value: 'Ab 150 €/Nacht', sub: '4 Reiseziele' },
-      { label: 'Lappland-Hotels', value: 'Ab 100 €/Nacht', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Nordlicht-Hütten', value: '4 Reiseziele', sub: '' },
+      { label: 'Lappland-Hotels', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

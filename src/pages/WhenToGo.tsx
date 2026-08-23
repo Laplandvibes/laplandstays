@@ -180,7 +180,6 @@ export default function WhenToGo() {
                   <th className="px-4 py-3 font-semibold text-white">{ui.th.snow}</th>
                   <th className="px-4 py-3 font-semibold text-white">{ui.th.vibe}</th>
                   <th className="px-4 py-3 font-semibold text-white">{ui.th.booking}</th>
-                  <th className="px-4 py-3 font-semibold text-white">{ui.th.from}</th>
                 </tr>
               </thead>
               <tbody>
@@ -192,7 +191,6 @@ export default function WhenToGo() {
                     <td data-label={ui.th.snow} className="px-4 py-3 text-white/75 text-[13px]">{m.snow}</td>
                     <td data-label={ui.th.vibe} className="px-4 py-3 text-white/75 text-[13px]">{m.vibe}</td>
                     <td data-label={ui.th.booking} className="px-4 py-3 text-white/75 text-[13px]">{m.bookingNote}</td>
-                    <td data-label={ui.th.from} className="px-4 py-3 font-heading text-amber whitespace-nowrap">{m.fromPrice}</td>
                   </tr>
                 ))}
               </tbody>

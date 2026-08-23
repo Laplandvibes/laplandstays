@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Glasiglo\'s', value: '8–12 mnd. vooruit boeken', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Aurora-cabins', value: 'Vanaf €150/nacht', sub: '4 bestemmingen' },
-      { label: 'Lapland-hotels', value: 'Vanaf €100/nacht', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Aurora-cabins', value: '4 bestemmingen', sub: '' },
+      { label: 'Lapland-hotels', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

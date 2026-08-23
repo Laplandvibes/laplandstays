@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Lasi-iglut', value: 'Varaa 8–12 kk etukäteen', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Revontulimökit', value: 'Alkaen 150 €/yö', sub: '4 kohdetta' },
-      { label: 'Lapin hotellit', value: 'Alkaen 100 €/yö', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Revontulimökit', value: '4 kohdetta', sub: '' },
+      { label: 'Lapin hotellit', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

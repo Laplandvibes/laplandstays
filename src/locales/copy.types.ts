@@ -1,4 +1,4 @@
-import type { FooterDict } from '../../../shared/Footer'
+import type { FooterDict } from '../shared/Footer'
 import type { Lang } from '../i18n/useLang'
 export type { Lang }
 export type { FooterDict }
@@ -84,7 +84,6 @@ export type ChromeCopy = {
     skiResorts: string
   }
   mobileStickyCta: {
-    fromPrice: string
     headline: string
     cta: string
   }

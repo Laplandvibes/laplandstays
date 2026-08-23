@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Igloos de verre', value: '8–12 mois à l\'avance', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Chalets aurores', value: 'À partir de 150 €/nuit', sub: '4 destinations' },
-      { label: 'Hôtels de Laponie', value: 'À partir de 100 €/nuit', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Chalets aurores', value: '4 destinations', sub: '' },
+      { label: 'Hôtels de Laponie', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

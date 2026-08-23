@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Iglus de vidro', value: 'Reserve com 8–12 meses', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Cabanas de aurora', value: 'A partir de 150 €/noite', sub: '4 destinos' },
-      { label: 'Hotéis da Lapônia', value: 'A partir de 100 €/noite', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Cabanas de aurora', value: '4 destinos', sub: '' },
+      { label: 'Hotéis da Lapônia', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

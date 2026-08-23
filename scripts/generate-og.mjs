@@ -130,7 +130,6 @@ const variants = [
     source: 'public/images/hero.webp',
     siteBrand: 'STAYS',
     subtitle: 'Glass Igloos · Cabins · Hotels in Finnish Lapland',
-    price: 'FROM €100 / NIGHT',
     badge: 'PART OF #LAPLANDVIBES NETWORK',
   },
   {
@@ -138,7 +137,6 @@ const variants = [
     source: 'public/images/levi-hero.webp',
     siteBrand: 'LEVI',
     subtitle: 'Aurora villas & fell-view chalets in Levi',
-    price: 'FROM €120 / NIGHT',
     badge: 'LAPLANDSTAYS.COM · LEVI GUIDE',
   },
   {
@@ -146,7 +144,6 @@ const variants = [
     source: 'public/images/yllas-hero.webp',
     siteBrand: 'YLLÄS',
     subtitle: 'Mountain chalets & designer lodges in Ylläs',
-    price: 'FROM €110 / NIGHT',
     badge: 'LAPLANDSTAYS.COM · YLLÄS GUIDE',
   },
   {
@@ -154,7 +151,6 @@ const variants = [
     source: 'public/images/saariselka-hero.webp',
     siteBrand: 'SAARISELKÄ',
     subtitle: 'Glass igloos & wilderness cabins in Saariselkä',
-    price: 'FROM €130 / NIGHT',
     badge: 'LAPLANDSTAYS.COM · SAARISELKÄ GUIDE',
   },
   {
@@ -162,7 +158,6 @@ const variants = [
     source: 'public/images/inari-hero.webp',
     siteBrand: 'INARI',
     subtitle: 'Lakeside cabins & aurora retreats in Inari',
-    price: 'FROM €100 / NIGHT',
     badge: 'LAPLANDSTAYS.COM · INARI GUIDE',
   },
   {
@@ -170,7 +165,6 @@ const variants = [
     source: 'public/images/hero-alt.webp',
     siteBrand: 'ROVANIEMI',
     subtitle: "Santa's hometown hotels & glass cabins",
-    price: 'FROM €115 / NIGHT',
     badge: 'LAPLANDSTAYS.COM · ROVANIEMI GUIDE',
   },
   {

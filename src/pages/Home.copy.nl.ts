@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Accommodatie in Lapland: glasiglo's en cabins | LaplandStays",
-    "description": "Waar te verblijven in Lapland: vergelijk glasiglo's vanaf €250/nacht, aurora-cabins vanaf €150 en Lapland-hotels vanaf €100 in Levi, Ylläs, Saariselkä en Inari. Geverifieerde tarieven, privésauna's, aurora-wekkers."
+    "description": "Waar te verblijven in Lapland: glasiglo's, aurora-cabins en Lapland-hotels in Levi, Ylläs, Saariselkä en Inari. privésauna's, aurora-wekkers."
   },
   "faq": {
     "@context": "https://schema.org",

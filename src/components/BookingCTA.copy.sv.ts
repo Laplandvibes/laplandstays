@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Glasiglos', value: 'Boka 8–12 mån i förväg', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Norrskensstugor', value: 'Från 150 €/natt', sub: '4 destinationer' },
-      { label: 'Lapplandshotell', value: 'Från 100 €/natt', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Norrskensstugor', value: '4 destinationer', sub: '' },
+      { label: 'Lapplandshotell', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 

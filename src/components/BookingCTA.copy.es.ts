@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Iglús de cristal', value: 'Reserve con 8–12 meses', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Cabañas de aurora', value: 'Desde 150 €/noche', sub: '4 destinos' },
-      { label: 'Hoteles de Laponia', value: 'Desde 100 €/noche', sub: 'Levi · Ylläs · Saariselkä' },
+      { label: 'Cabañas de aurora', value: '4 destinos', sub: '' },
+      { label: 'Hoteles de Laponia', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }
 
