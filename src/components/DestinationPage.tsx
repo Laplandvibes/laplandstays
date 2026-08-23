@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { ArrowRight, MapPin, Sparkles, Thermometer, Bell, Snowflake, Plane, Bus, Car as CarIcon, Train } from 'lucide-react'
+import { ArrowRight, MapPin, Thermometer, Bell, Snowflake, Plane, Bus, Car as CarIcon, Train } from 'lucide-react'
 import SEO from './SEO'
 import Newsletter from './Newsletter'
 import PageBreadcrumb from './PageBreadcrumb'
@@ -357,13 +357,38 @@ export default function DestinationPage(p: DestinationPageProps) {
           <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.overviewH2(p.name)}</h2>
           <p className="text-charcoal/75 text-lg leading-relaxed whitespace-pre-line">{b.description}</p>
 
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-10">
-            {b.facts.map((f) => (
-              <div key={f.label} className="bg-pink/5 border border-pink/20 rounded-2xl p-4 text-center">
-                <p className="text-xs uppercase tracking-widest text-charcoal/70 mb-1">{f.label}</p>
-                <p className="font-heading text-2xl text-night tracking-wide">{f.value}</p>
-              </div>
-            ))}
+          {/* Fact strip. Two things were wrong here until 2026-08-23 (Vesa: "niin
+              kamala kun olla ja voi"):
+              1. bg-pink/5 + border-pink/20 on a white section is barely visible —
+                 four ghost outlines, not cards. Cream fill + a solid pink top rule
+                 reads as designed and keeps the accent.
+              2. Bebas at text-2xl was applied to EVERY value, but only two of the
+                 four are numbers. "Kulkee kaupungin lapi" and "Auki ympari vuoden"
+                 are sentences: in a display face they shout, they wrap to two
+                 lines, and the tiles stop matching each other. A value longer than
+                 a dozen characters is prose, so it gets body type — the rule is on
+                 the data, not on the locale, so it holds in all twelve. */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-10 items-stretch">
+            {b.facts.map((f) => {
+              const isPhrase = f.value.length > 12
+              return (
+                <div
+                  key={f.label}
+                  className="rounded-xl bg-[#FAFAF8] border border-night/10 border-t-2 border-t-pink p-4 sm:p-5 flex flex-col gap-2"
+                >
+                  <p className="text-[11px] uppercase tracking-[0.16em] text-charcoal/60 font-semibold leading-tight">{f.label}</p>
+                  <p
+                    className={
+                      isPhrase
+                        ? 'text-charcoal text-[15px] leading-snug font-medium text-pretty mt-auto'
+                        : 'font-heading text-3xl text-night tracking-wide leading-none mt-auto'
+                    }
+                  >
+                    {f.value}
+                  </p>
+                </div>
+              )
+            })}
           </div>
 
           <div className="mt-8">
@@ -497,8 +522,14 @@ export default function DestinationPage(p: DestinationPageProps) {
             {b.highlights.map((h, i) => {
               const hl = p.highlightLinks?.[i]
               return (
-                <div key={h.title} className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm">
-                  <Sparkles className="w-6 h-6 text-pink mb-3" />
+                <div key={h.title} className="bg-white border border-night/10 rounded-2xl p-6 shadow-sm transition-shadow duration-300 hover:shadow-md">
+                  {/* Was <Sparkles/> on every card — the same icon six times in a
+                      row is decoration that says nothing (2026-08-23). A running
+                      number gives the grid rhythm and tells the reader how far
+                      down the list they are. */}
+                  <span aria-hidden="true" className="font-heading text-pink text-xl tracking-[0.14em] block mb-2 leading-none">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
                   <h3 className="font-heading text-2xl text-night tracking-wide mb-2">{h.title}</h3>
                   <p className="text-charcoal/70 leading-relaxed text-[15px]">{h.body}</p>
                   {hl && (
