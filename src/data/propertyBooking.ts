@@ -18,7 +18,7 @@ import type { Lang } from "../i18n/useLang";
  * Three separate causes, all fixed here + in `lib/affiliate.ts`:
  *
  * 1. `anchorHotelsSs()` glued ", Finland" onto the hotel NAME. That guard is
- *    right for a TOWN (Hotels.com used to geocode a bare "Lapland" to Indiana)
+ *    right for a TOWN (the lodging partner used to geocode a bare "Lapland" to Indiana)
  *    and actively wrong for a hotel name: Sembo's autosuggest answers [] for
  *    many multi-word hotel terms, the Worker then has no destination at all,
  *    and the visitor lands on the partner's front page. `?ss=` is now always

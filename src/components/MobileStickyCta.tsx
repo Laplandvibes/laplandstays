@@ -19,7 +19,7 @@ const stickyHrefFor = (lang: Lang) => buildAffiliateUrl({
 
 /**
  * Mobile-only sticky bottom CTA, surfaces the primary booking action so
- * users who never scroll past the hero still have one tap to Hotels.com.
+ * users who never scroll past the hero still have one tap to the lodging partner.
  *
  * - Shows after the user scrolls past the hero search widget (~600 px).
  * - Hidden on desktop (≥ lg breakpoint) since the nav "Book Now" pill is
@@ -62,7 +62,6 @@ export default function MobileStickyCta() {
       <div className="pointer-events-auto bg-night/95 backdrop-blur-md border-t border-pink/30 shadow-[0_-8px_24px_rgba(0,0,0,0.4)]">
         <div className="px-4 py-3 flex items-center justify-between gap-3">
           <div className="min-w-0">
-            <p className="text-[10px] uppercase tracking-[0.18em] text-pink font-semibold leading-none mb-1">{c.fromPrice}</p>
             <p className="text-[13px] text-white font-semibold leading-tight truncate">{c.headline}</p>
           </div>
           <a

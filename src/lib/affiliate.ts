@@ -154,7 +154,7 @@ export function buildAffiliateUrl({
 }
 // ─── Convenience: search-style hotel URL ─────────────────────────────────────
 // Use when a specific property name isn't known and we just want the destination
-// city's Hotels.com results. SID convention: snake_case, no domain prefix.
+// city's lodging partner results. SID convention: snake_case, no domain prefix.
 export function buildHotelSearch(destination: string, sid: string, lang: Lang): string {
   return buildAffiliateUrl({ partner: 'hotels', sid, destination, lang })
 }
@@ -223,13 +223,13 @@ export function buildHotelSearchWithDates(
 
 // ─── Per-destination + per-CTA shortcuts ─────────────────────────────────────
 // SID is snake_case with no domain prefix (Worker injects domain from Referer).
-// `destination` MUST be a real city/region or property name that Hotels.com
+// `destination` MUST be a real city/region or property name that the lodging partner
 // resolves to actual results — descriptive keyword phrases like "Aurora glass
 // igloo Lapland" produce a "no results" page. The category lives in the SID
 // for our CJ Reports / GA4 attribution; the search query points at the city
 // or anchor property where that category is concentrated.
 //
-// IMPORTANT: "Lapland, Finland" alone is NOT a Hotels.com destination ID — they
+// IMPORTANT: "Lapland, Finland" alone is NOT a lodging partner destination ID — they
 // fall back to the user's geo-snapped city (Helsinki for FI users) and show
 // non-Lapland results. Always pin generic "all of Lapland" CTAs to Rovaniemi
 // (regional capital, valid destination, deepest inventory in the region).
@@ -240,7 +240,7 @@ function buildHotelSearchLang(lang: Lang = "en") {
   lapland: buildAffiliateUrl({ partner: 'hotels', sid: 'hero_cta', destination: 'Rovaniemi, Finland', lang }),
   navBookNow: buildAffiliateUrl({ partner: 'hotels', sid: 'nav_book_now', destination: 'Rovaniemi, Finland', lang }),
 
-  // Destinations (real Hotels.com locations).
+  // Destinations (real lodging partner locations).
   levi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_levi', destination: 'Levi, Finland', lang }),
   // Sembo "Ylläs" polygon = 3 properties; main village Äkäslompolo = 13 (Trip.com: same city id).
   yllas: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_yllas', destination: 'Äkäslompolo, Finland', lang }),
@@ -352,7 +352,7 @@ export const CARS_FOR = buildCarsLang;
 
 /**
  * Anchor any hotels search to Finnish Lapland. A bare "Lapland"/"Levi"/etc.
- * makes Hotels.com geocode to *Lapland, Indiana, USA* — a real revenue/trust
+ * makes the lodging partner geocode to *Lapland, Indiana, USA* — a real revenue/trust
  * bug (Vesa 2026-07-08). Force ", Finland" onto every hotels query that does
  * not already name the country; leave cars/activities queries untouched.
  * Callers cannot re-introduce the bug.

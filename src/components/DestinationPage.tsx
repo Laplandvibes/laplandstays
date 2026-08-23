@@ -576,12 +576,12 @@ export default function DestinationPage(p: DestinationPageProps) {
       </section>
 
       {/* PARTNER ADS, brand-skinned affiliate placements, contextual to booking.
-          Hotels.com (compare everything) + Lomarengas (whole-cabin angle). Each
+          the lodging partner (compare everything) + Lomarengas (whole-cabin angle). Each
           ad carries its own AffiliateDisclosure + sponsored attrs internally. */}
       <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-pink/5 to-white">
         <div className="max-w-5xl mx-auto grid grid-cols-1 gap-6">
-          {/* Hotels.com ad removed here: the page's own search already routes to
-              Hotels.com, so this slot sells a COMPLEMENTARY product instead
+          {/* the lodging partner ad removed here: the page's own search already routes to
+              the lodging partner, so this slot sells a COMPLEMENTARY product instead
               (car rental — replaced Kiwitaxi 2026-07-09, which doesn't serve
               Lapland airports; no cannibalising our own affiliate route). */}
           <PartnerStayAd partner="cars" sid={`destination_${p.slug}_cars`} carsPickup={CARS_PICKUP_FOR[p.slug] ?? 'RVN'} />
