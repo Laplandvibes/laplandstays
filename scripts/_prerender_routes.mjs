@@ -660,6 +660,35 @@ function sliceParens(src, openIdx) {
  *  then keep what is left line by line. */
 const INLINE_TAG = /^<\/?(?:em|strong|b|i|u|a|span|code|small|sup|sub|abbr|mark|time|BlogLink|Link)\b/i;
 
+/** Text of every JSX region a `return ( … )` opens, for a page file that IS one
+ *  language (a route declared with a single entry in `locales`). Comments are
+ *  stripped first: these files open with a long sourcing comment in the page's
+ *  own language, which reads exactly like body copy to the keep filter. */
+function harvestJsxPage(src, out, meta, seen, budget) {
+  const clean = src.replace(/\/\*[\s\S]*?\*\//g, ' ').replace(/^[ \t]*\/\/.*$/gm, ' ');
+  const re = /\breturn\s*\(/g;
+  let m;
+  while ((m = re.exec(clean)) !== null && budget.words > 0) {
+    const jsx = sliceParens(clean, m.index + m[0].length - 1);
+    if (!jsx) continue;
+    re.lastIndex = m.index + m[0].length + jsx.length;
+    harvestJsxText(jsx, out, meta, seen, budget);
+  }
+}
+
+/** Shared tag/expression stripping for a JSX fragment. */
+function harvestJsxText(jsx, out, meta, seen, budget) {
+  const text = jsx
+    .replace(/<[^>]*>/g, (tag) => (INLINE_TAG.test(tag) ? ' ' : '\n'))
+    .replace(/\{[^{}]*\}/g, ' ')
+    .replace(/&nbsp;/g, ' ');
+  for (const line of text.split('\n')) {
+    if (budget.words <= 0) break;
+    const kept = harvestKeep(line.replace(/\s+/g, ' ').trim(), meta, seen);
+    if (kept) { out.push(kept); budget.words -= kept.split(/\s+/).length; }
+  }
+}
+
 function harvestJsxBodies(block, out, meta, seen, budget) {
   const re = /\bbody\s*:\s*\(/g;
   let m;
@@ -672,15 +701,7 @@ function harvestJsxBodies(block, out, meta, seen, budget) {
     // September to mid-October is <em>ruska</em> — the Finnish autumn…" came
     // apart into three fragments, two of them under the keep threshold, and the
     // survivor began mid-clause.
-    const text = jsx
-      .replace(/<[^>]*>/g, (tag) => (INLINE_TAG.test(tag) ? ' ' : '\n'))
-      .replace(/\{[^{}]*\}/g, ' ')    // {' '} and other simple expressions
-      .replace(/&nbsp;/g, ' ');
-    for (const line of text.split('\n')) {
-      if (budget.words <= 0) break;
-      const kept = harvestKeep(line.replace(/\s+/g, ' ').trim(), meta, seen);
-      if (kept) { out.push(kept); budget.words -= kept.split(/\s+/).length; }
-    }
+    harvestJsxText(jsx, out, meta, seen, budget);
   }
 }
 
@@ -920,6 +941,15 @@ function harvestRouteText(loc, route, meta) {
         let src = inlinePageCache.get(fp);
         if (!src) { src = readFileSync(fp, 'utf-8'); inlinePageCache.set(fp, src); }
         if (perLangFile) { harvestFromTsBlock(src, out, meta, seen, budget); continue; }
+        // A route declared for ONE locale is a single-market landing page: its
+        // component holds that language and no other, with no per-language block
+        // to find. Harvest the whole file, JSX included. Same-locale by
+        // construction — the route does not exist in any other locale.
+        if (Array.isArray(route.locales) && route.locales.length === 1) {
+          harvestFromTsBlock(src, out, meta, seen, budget);
+          harvestJsxPage(src, out, meta, seen, budget);
+          continue;
+        }
         const reConst = new RegExp(`\\bconst\\s+${loc.ident}\\b\\s*(?::[^=]+)?=\\s*\\{`, 'g');
         const m = reConst.exec(src);
         if (m) { harvestFromTsBlock(sliceBlock(src, m.index + m[0].length - 1), out, meta, seen, budget); continue; }
