@@ -55,7 +55,7 @@ const copy: PageCopy = {
       'È una coppia in un unico alloggio, bus + taxi conviene di più',
       'Non ha esperienza di guida invernale e le strade possono essere ghiaccio a −30 °C',
     ],
-    studdedTip: 'Le gomme chiodate sono obbligatorie dal 1° dicembre al 31 marzo e quasi sempre già montate sull\'auto a noleggio. Verifichi con il noleggiatore se non è specificato.',
+    studdedTip: 'Le gomme chiodate non sono obbligatorie: sono consentite dal 1° nov. al 31 mar. Ciò che la legge richiede in quel periodo sono gomme invernali, ogni volta che il meteo o il fondo lo impongono. Un noleggio in Lapponia è quasi sempre chiodato. Verifichi con il noleggiatore se non è specificato.',
     withinEyebrow: 'All\'interno della Lapponia',
     withinH2: 'Distanze da considerare',
     distances: [

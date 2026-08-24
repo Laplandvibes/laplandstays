@@ -55,7 +55,7 @@ const copy: PageCopy = {
       'Olet pariskunta yhdellä kohteella, bussi + taksi tulee halvemmaksi',
       'Sinulla ei ole talviajokokemusta ja tiet voivat olla −30 °C jäätä',
     ],
-    studdedTip: 'Nastarenkaat ovat pakollisia 1.12.–31.3. ja lähes aina jo vuokra-autossa. Tarkista operaattorilta jos ei mainittu.',
+    studdedTip: 'Nastarenkaat eivät ole pakollisia, vaan sallittuja 1.11.–31.3. Laki vaatii samalla jaksolla talvirenkaat silloin, kun sää tai keli sitä edellyttää. Lapin vuokra-autossa nastat ovat lähes aina jo valmiina. Tarkista operaattorilta jos ei mainittu.',
     withinEyebrow: 'Lapin sisällä',
     withinH2: 'Etäisyydet huomioon',
     distances: [

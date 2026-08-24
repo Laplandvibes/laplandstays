@@ -55,7 +55,7 @@ const copy: PageCopy = {
       'É um casal em uma única hospedagem, ônibus + táxi sai mais barato',
       'Não tem experiência de direção no inverno e as estradas podem estar a –30 °C de gelo',
     ],
-    studdedTip: 'Pneus com cravos são obrigatórios de 1 dez a 31 mar e quase sempre já vêm no aluguel. Confirme com o operador se não estiver especificado.',
+    studdedTip: 'Pneus com cravos não são obrigatórios: são permitidos de 1 nov a 31 mar. O que a lei exige nesse período são pneus de inverno, sempre que o tempo ou a estrada exigirem. Um aluguel na Lapônia quase sempre vem cravejado. Confirme com o operador se não estiver especificado.',
     withinEyebrow: 'Dentro da Lapônia',
     withinH2: 'Distâncias pra planejar',
     distances: [

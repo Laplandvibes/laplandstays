@@ -55,7 +55,7 @@ const copy: PageCopy = {
       'Ni är ett par på ett enda boende, buss + taxi blir billigare',
       'Du saknar vana vid vinterkörning och vägarna kan vara −30 °C-is',
     ],
-    studdedTip: 'Dubbdäck är obligatoriska 1 december–31 mars och sitter nästan alltid redan på hyrbilen. Fråga uthyraren om det inte framgår.',
+    studdedTip: 'Dubbdäck är inte obligatoriska, de är tillåtna 1 nov – 31 mars. Det lagen kräver under perioden är vinterdäck, när väder eller väglag kräver det. En hyrbil i Lappland har nästan alltid dubbar. Fråga uthyraren om det inte framgår.',
     withinEyebrow: 'Inom Lappland',
     withinH2: 'Avstånd att planera efter',
     distances: [

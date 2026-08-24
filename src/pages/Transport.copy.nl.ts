@@ -55,7 +55,7 @@ const copy: PageCopy = {
       'U als koppel op één locatie verblijft, bus + taxi pakt goedkoper uit',
       'U geen winterrij-ervaring heeft en de weg −30 °C ijs kan zijn',
     ],
-    studdedTip: 'Spikebanden zijn van 1 dec tot 31 maart verplicht en zitten vrijwel altijd al onder de huurauto. Vraag het na als het niet vermeld staat.',
+    studdedTip: 'Spikebanden zijn niet verplicht, ze zijn toegestaan van 1 nov tot 31 mrt. Wat de wet in die periode eist zijn winterbanden, zodra weer of wegdek dat vragen. Een huurauto in Lapland heeft vrijwel altijd spikes. Vraag het na als het niet vermeld staat.',
     withinEyebrow: 'Binnen Lapland',
     withinH2: 'Afstanden om rekening mee te houden',
     distances: [

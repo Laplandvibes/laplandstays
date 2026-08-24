@@ -55,7 +55,7 @@ const copy: PageCopy = {
       'Es una pareja en un único alojamiento, bus + taxi sale más barato',
       'No tiene experiencia conduciendo en invierno y las carreteras pueden estar a –30 °C de hielo',
     ],
-    studdedTip: 'Los neumáticos con clavos son obligatorios del 1 dic al 31 mar y casi siempre vienen ya en el alquiler. Pregúntele al operador si no se especifica.',
+    studdedTip: 'Los neumáticos con clavos no son obligatorios: están permitidos del 1 nov al 31 mar. Lo que exige la ley en ese periodo son neumáticos de invierno, siempre que el tiempo o el firme lo requieran. El alquiler en Laponia casi siempre lleva clavos. Pregúntele al operador si no se especifica.',
     withinEyebrow: 'Dentro de Laponia',
     withinH2: 'Distancias para planificar',
     distances: [

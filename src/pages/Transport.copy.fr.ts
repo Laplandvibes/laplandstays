@@ -55,7 +55,7 @@ const copy: PageCopy = {
       'Vous êtes un couple dans un seul hébergement, bus + taxi revient moins cher',
       'Vous n\'avez pas l\'expérience de la conduite hivernale et les routes peuvent être à −30 °C',
     ],
-    studdedTip: 'Les pneus cloutés sont obligatoires du 1er décembre au 31 mars et sont presque toujours déjà montés sur le véhicule de location. Demandez au loueur si ce n\'est pas précisé.',
+    studdedTip: 'Les pneus cloutés ne sont pas obligatoires : ils sont autorisés du 1er nov. au 31 mars. Ce que la loi impose sur cette période, ce sont des pneus hiver, dès que la météo ou la route l\'exigent. Une location en Laponie est presque toujours cloutée. Demandez au loueur si ce n\'est pas précisé.',
     withinEyebrow: 'À l\'intérieur de la Laponie',
     withinH2: 'Distances à anticiper',
     distances: [

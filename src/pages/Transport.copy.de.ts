@@ -56,7 +56,7 @@ const copy: PageCopy = {
       'Sie ein Paar an einer einzelnen Unterkunft sind, Bus + Taxi rechnet sich günstiger',
       'Sie keine Wintererfahrung haben und Straßen −30 °C Eis sein können',
     ],
-    studdedTip: 'Winter-Spike-Reifen sind vom 1. Dezember bis 31. März Pflicht und fast immer schon am Mietwagen montiert. Fragen Sie den Anbieter, wenn nicht angegeben.',
+    studdedTip: 'Spikereifen sind keine Pflicht, sondern vom 1. Nov. bis 31. März erlaubt. Vorgeschrieben sind in diesem Zeitraum Winterreifen, sobald Wetter oder Straßenzustand es erfordern. Mietwagen in Lappland haben fast immer Spikes montiert. Fragen Sie den Anbieter, wenn nicht angegeben.',
     withinEyebrow: 'Innerhalb Lapplands',
     withinH2: 'Entfernungen, die man einplanen muss',
     distances: [
