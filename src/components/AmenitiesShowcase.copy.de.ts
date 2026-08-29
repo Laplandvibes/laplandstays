@@ -23,7 +23,7 @@ const copy: Copy = {
       {
         title: 'Holzbeheizter Kamin',
         body: 'Ein echter Kamin, keine Gasflamme. Das Brennholz wartet fertig gestapelt, Sie zünden ein Streichholz an, und der Winterabend kann beginnen.',
-        lookForIn: 'Design-Hütten und Seehütten. Auf der Unterkunftsseite als „tulisija" oder „takka" angegeben.',
+        lookForIn: 'Design-Hütten und Seehütten. Auf der Unterkunftsseite als „tulisija“ oder „takka“ angegeben.',
         exampleNames: ['Design-Wildnislodges', 'Wilderness Hotel Muotka'],
       },
       {
@@ -35,7 +35,7 @@ const copy: Copy = {
       {
         title: 'Außenwhirlpool',
         body: '40 Grad warmes Wasser, zwanzig Grad Frost und Polarlicht über dem Kopf, das Foto, das alle machen. Der Zuber wird vorab warmgehalten und wartet schon, wenn Sie ankommen.',
-        lookForIn: 'In den meisten Pisten-Apartments, Premium-Seehütten und ausgewählten Wildnis-Unterkünften. Auf finnischen Buchungsseiten als „palju" gelistet.',
+        lookForIn: 'In den meisten Pisten-Apartments, Premium-Seehütten und ausgewählten Wildnis-Unterkünften. Auf finnischen Buchungsseiten als „palju“ gelistet.',
         exampleNames: ['Pisten-Apartments in Levi', 'Apukka Resort'],
       },
       {

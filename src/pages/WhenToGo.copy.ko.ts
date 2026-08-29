@@ -35,8 +35,8 @@ const copy: PageCopy = {
     months: [
       { m: '9월', daylight: '13 → 11시간', aurora: '첫 창 · 맑은 밤에 관측 가능', snow: '루스카 가을 단풍, 아직 눈 없음', vibe: '오로라 시즌 중 가장 조용한 달. 인파 회피', bookingNote: '전 숙소 공실 충분' },
       { m: '10월', daylight: '11 → 8시간', aurora: '맑은 밤이면 자주 나타남', snow: '월말 첫눈', vibe: '늦은 루스카, 이른 오로라', bookingNote: '시즌 최고의 가성비' },
-      { m: '11월', daylight: '7 → 3시간', aurora: '맑은 밤이면 자주 나타남 · 가장 어두운 하늘', snow: '월 중순부터 영구 적설', vibe: '카모스 시작, FIS Levi 월드컵 개막', bookingNote: '글래스 이글루가 다음 해 성수기로 채워지기 시작' },
-      { m: '12월', daylight: '2–4시간, "카모스" 극야', aurora: '맑은 밤이면 자주 나타남', snow: '크리스마스 카드 같은 풍경', vibe: '크리스마스 시즌. 산타, 가족 여행자', bookingNote: '크리스마스 주간은 12개월 전 예약' },
+      { m: '11월', daylight: '7 → 3시간', aurora: '맑은 밤이면 자주 나타남 · 가장 어두운 하늘', snow: '월 중순부터 영구 적설', vibe: '가장 어두운 시기 시작, FIS Levi 월드컵 개막', bookingNote: '글래스 이글루가 다음 해 성수기로 채워지기 시작' },
+      { m: '12월', daylight: '2–4시간, 긴 푸른 박명', aurora: '맑은 밤이면 자주 나타남', snow: '크리스마스 카드 같은 풍경', vibe: '크리스마스 시즌. 산타, 가족 여행자', bookingNote: '크리스마스 주간은 12개월 전 예약' },
       { m: '1월', daylight: '4 → 7시간', aurora: '자주 나타남 · 가장 춥고 청명', snow: '가장 깊은 적설', vibe: '진짜 북극. 내륙은 −30°C까지', bookingNote: '신정 주간은 10개월 전 예약' },
       { m: '2월', daylight: '7 → 11시간', aurora: '맑은 밤이면 자주 나타남', snow: '최고 적설', vibe: '학교 방학. 가족 여행자가 가장 많은 달', bookingNote: '2월 중순 방학은 6–8개월 전 매진' },
       { m: '3월', daylight: '11 → 13시간', aurora: '여전히 활발 · 긴 어둠의 저녁', snow: '여전히 깊고 햇살 가득', vibe: '비밀의 달. 빛, 눈, 오로라, 한산함', bookingNote: '최고의 비밀. 4–6개월 전 예약' },

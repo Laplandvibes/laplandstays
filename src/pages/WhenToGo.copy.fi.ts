@@ -35,8 +35,8 @@ const copy: PageCopy = {
     months: [
       { m: 'Syyskuu', daylight: '13 → 11 h', aurora: 'Ensimmäiset ikkunat · näkyvät selkeinä öinä', snow: 'Ruska, ei vielä lunta', vibe: 'Hiljaisin revontulikuukausi, ohita ruuhka', bookingNote: 'Avoin tarjonta kaikissa kohteissa' },
       { m: 'Lokakuu', daylight: '11 → 8 h', aurora: 'Usein näkyvissä selkeinä öinä', snow: 'Ensilumi kuun lopussa', vibe: 'Loppuruska, varhaiset revontulet', bookingNote: 'Sesongin paras hinta-revontuli-suhde' },
-      { m: 'Marraskuu', daylight: '7 → 3 h', aurora: 'Usein näkyvissä selkeinä öinä · pimein taivas', snow: 'Pysyvä lumipeite kuun puolivälistä', vibe: 'Kaamos alkaa, FIS Levi avaa maailmancupin', bookingNote: 'Lasi-iglut alkavat täyttyä seuraavan vuoden huipulle' },
-      { m: 'Joulukuu', daylight: '2–4 h, "kaamos"', aurora: 'Usein näkyvissä selkeinä öinä', snow: 'Joulukortti-lumi', vibe: 'Joulu, Joulupukki, perheet', bookingNote: 'Jouluviikko varataan 12 kk etukäteen' },
+      { m: 'Marraskuu', daylight: '7 → 3 h', aurora: 'Usein näkyvissä selkeinä öinä · pimein taivas', snow: 'Pysyvä lumipeite kuun puolivälistä', vibe: 'Pimein aika alkaa, FIS Levi avaa maailmancupin', bookingNote: 'Lasi-iglut alkavat täyttyä seuraavan vuoden huipulle' },
+      { m: 'Joulukuu', daylight: '2–4 h, pitkä sininen hämärä', aurora: 'Usein näkyvissä selkeinä öinä', snow: 'Joulukortti-lumi', vibe: 'Joulu, Joulupukki, perheet', bookingNote: 'Jouluviikko varataan 12 kk etukäteen' },
       { m: 'Tammikuu', daylight: '4 → 7 h', aurora: 'Usein näkyvissä · kylmin, selkein', snow: 'Syvin lumi', vibe: 'Aito arktinen, −30 °C sisämaassa', bookingNote: 'Uudenvuodenviikko 10 kk etukäteen' },
       { m: 'Helmikuu', daylight: '7 → 11 h', aurora: 'Usein näkyvissä selkeinä öinä', snow: 'Huippusyvyys', vibe: 'Koululomat, perhematkailijoiden ruuhkaisin kuukausi', bookingNote: 'Helmikuun talvilomaviikko 6–8 kk etukäteen' },
       { m: 'Maaliskuu', daylight: '11 → 13 h', aurora: 'Yhä aktiiviset · pitkät pimeät illat', snow: 'Vielä syvä, aurinkoiset päivät', vibe: 'Salainen kuukausi, valo, lumi, revontulet, vähemmän väkeä', bookingNote: 'Paras salaisuus. Varataan 4–6 kk etukäteen' },

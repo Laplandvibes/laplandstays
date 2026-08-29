@@ -9,7 +9,7 @@ const copy: Copy = {
     bestTimeLabel: 'Beste Buchungszeit: Spätsommer für den folgenden Winter',
     statsLabel: '5 Reiseziele · 12+ geprüfte Anker-Unterkünfte',
     trust: [
-      { title: 'Geprüfte Preise', body: 'Preise werden auf den Betreiberseiten gegengeprüft, keine aufgeblähten „ab"-Preise, keine versteckten Aufschläge.' },
+      { title: 'Geprüfte Preise', body: 'Preise werden auf den Betreiberseiten gegengeprüft, keine aufgeblähten „ab“-Preise, keine versteckten Aufschläge.' },
       { title: 'Kostenlose Stornierung', body: 'Die meisten Hütten zu den meisten Daten haben ein Stornierungsfenster. Jedes Angebot zeigt die Frist.' },
       { title: 'Sofortige Bestätigung', body: 'Buchen Sie direkt über Trip.com. Daten sind sofort nach Zahlungseingang gesichert.' },
       { title: 'Lokale Beratung', body: 'Schreiben Sie vor der Buchung. Antworten kommen aus Lappland, meist am selben Tag.' },

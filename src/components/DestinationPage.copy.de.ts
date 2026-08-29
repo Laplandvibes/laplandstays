@@ -28,7 +28,7 @@ const copy: Copy = {
     moreLapland: 'Mehr Lappland',
     otherDestinations: 'Andere Reiseziele',
     seeStays: 'Unterkünfte ansehen',
-    finnishLapland: 'Finnisch Lappland',
+    finnishLapland: 'Finnisch-Lappland',
     readMore: "In Lappland entdecken",
     planTripEyebrow: "Mehr als die Unterkunft",
     planTripH2: "Die ganze Reise planen",

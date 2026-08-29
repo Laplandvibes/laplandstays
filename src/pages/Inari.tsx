@@ -144,9 +144,9 @@ Das ist der tiefe Norden. Hütten hier sind wirklich abgelegen: Eine zehnminüti
     { title: 'Exklusivität am Inarisee', body: 'Unterkünfte am See-Ufer liegen bewusst weit auseinander. Private Stege, Eislöcher im Winter, im Sommer Bootsfahrten vorbei an der heiligen Insel Ukonkivi (Anlandungen sind nicht mehr erlaubt).' },
     { title: 'SIIDA Sámi-Museum und Naturzentrum', body: 'Die beste Einführung in die Sámi-Kultur in den nordischen Ländern, indigene Geschichte, Sprache und die Ökologie Sápmis, alles in einem Gebäude.' },
     { title: 'Polarlicht über offenem Wasser', body: 'Das Seeufer bietet einen seltenen 180°-Blick ohne Hindernisse. Im Winter machen Polarlicht-Reflexionen auf der gefrorenen Fläche die Beobachtung außergewöhnlich dramatisch.' },
-    { title: 'Sámi-Essenstraditionen', body: 'Lokale Küchen servieren poronkäristys (geschmortes Rentier), kaltgeräucherten Saibling, Moltebeer-Desserts, Zutaten aus dem Land um Sie herum.' },
+    { title: 'Sámi-Esstraditionen', body: 'Lokale Küchen servieren poronkäristys (geschmortes Rentier), kaltgeräucherten Saibling, Moltebeer-Desserts, Zutaten aus dem Land um Sie herum.' },
     { title: 'Tundra-Fjäll-Wandern', body: 'Nördlich von Inari lichtet sich die Baumgrenze zur offenen Lappland-Fjäll-Landschaft. Sommer-Wandern in Kevo und Utsjoki ist so abgelegen, wie Europa es zulässt.' },
-    { title: 'Winter-Husky- und Schneemobil-Zugang', body: 'Zwinger um Inari bieten Seeeis-Schlittenrouten auf dem gefrorenen Inarijärvi, weit offen, keine Bäume, ungewöhnlich schnell und still.' },
+    { title: 'Winter-Husky- und Schneemobil-Zugang', body: 'Huskyfarmen rund um Inari bieten Schlittenrouten über das Eis des Inarijärvi, weit offen, keine Bäume, ungewöhnlich schnell und still.' },
   ],
   whenToGo: `Ende September – Anfang April ist Polarlicht-Saison; auf dieser Breite liegt das Polarlichtoval regelmäßig direkt über dem Kopf.
 Mitte Juni – Ende Juli ist Mitternachtssonne: Die Sonne geht rund sechs Wochen lang nicht unter.

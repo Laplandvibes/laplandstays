@@ -3,7 +3,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Redaktionsrichtlinien, wie wir prüfen | LaplandStays",
-    "description": "Wie LaplandStays Preise verifiziert, Unterkünfte benennt, Partner-Unabhängigkeit wahrt und Korrekturen behandelt. Redaktionelle Standards des LaplandStays-Unterkunftsführers."
+    "description": "Wie LaplandStays Preise prüft, Unterkünfte benennt, Partner-Unabhängigkeit wahrt und Korrekturen handhabt. Die redaktionellen Standards der Seite."
   },
   "ui": {
     "eyebrow": "Redaktion",
@@ -14,11 +14,11 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Geprüfte Preise, jede Saison",
-        "body": "Jede „ab X €/Nacht\"-Aussage wird von der Buchungsseite des Betreibers oder von unseren Buchungspartnern übernommen. Preise werden mindestens einmal pro Quartal und ausdrücklich zu Beginn der Polarlicht-Saison (September) neu geprüft. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Leser auf eine 0-Treffer-Suche zu leiten."
+        "body": "Jede „ab X €/Nacht“-Aussage wird von der Buchungsseite des Betreibers oder von unseren Buchungspartnern übernommen. Preise werden mindestens einmal pro Quartal und ausdrücklich zu Beginn der Polarlicht-Saison (September) neu geprüft. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Leser auf eine 0-Treffer-Suche zu leiten."
       },
       {
-        "title": "Benannte Unterkünfte, keine „Premium-5-Sterne\"",
-        "body": "Verweise auf Kakslauttanen Arctic Resort, Levin Iglut, Star Arctic, Aurora Village Ivalo, Wilderness Hotel Nellim und Muotka, Apukka Resort, Arctic TreeHouse Hotel, Nova Skyland, Lapland Hotels (Levi/Ylläs), Harriniva, Northern Lights Ranch, mit Namen, mit Direktlinks. Keine anonyme „Luxus-Hütte\", ohne zu sagen, welche."
+        "title": "Benannte Unterkünfte, keine „Premium-5-Sterne“",
+        "body": "Verweise auf Kakslauttanen Arctic Resort, Levin Iglut, Star Arctic, Aurora Village Ivalo, Wilderness Hotel Nellim und Muotka, Apukka Resort, Arctic TreeHouse Hotel, Nova Skyland, Lapland Hotels (Levi/Ylläs), Harriniva, Northern Lights Ranch, mit Namen, mit Direktlinks. Keine anonyme „Luxus-Hütte“, ohne zu sagen, welche."
       },
       {
         "title": "Partner-Unabhängigkeit",
@@ -35,7 +35,7 @@ const copy: PageCopy = {
     "sources": [
       {
         "label": "Sembo & Trip.com (Hotelpartner)",
-        "use": "Echtzeit-Verfügbarkeit und saisonale „ab\"-Preise für die 12 Anker-Unterkünfte + Stadt-/Regionssuchen."
+        "use": "Echtzeit-Verfügbarkeit und saisonale „ab“-Preise für die 12 Anker-Unterkünfte + Stadt-/Regionssuchen."
       },
       {
         "label": "Buchungsseiten der Betreiber",
@@ -47,7 +47,7 @@ const copy: PageCopy = {
       },
       {
         "label": "GetYourGuide-Partnerprogramm",
-        "use": "Aktivitäten-Kontingent in Rovaniemi, Saariselkä, Levi, Ylläs, Inari (sobald eine „Aktivitäten\"-Ansicht ergänzt wird)."
+        "use": "Aktivitäten-Kontingent in Rovaniemi, Saariselkä, Levi, Ylläs, Inari (sobald eine „Aktivitäten“-Ansicht ergänzt wird)."
       },
       {
         "label": "VR (Finnische Eisenbahnen)",
@@ -73,7 +73,7 @@ const copy: PageCopy = {
     "corrH2": "Korrekturprozess",
     "corrP1": "Reisedaten verschieben sich. Preise ändern sich, Unterkünfte schließen, Flugrouten werden gestrichen. Wenn etwas Veröffentlichtes nicht mehr stimmt, ist es besser, davon zu erfahren, als dass ein Leser deswegen seine Daten verpasst.",
     "corrP2Pre": "So melden Sie es: schreiben Sie an ",
-    "corrP2Mid": " mit der Seiten-URL und der fehlerhaften Zeile. Es wird im seiten-spezifischen Statusbericht protokolliert und der öffentliche Text wird bei nicht dringenden Themen innerhalb von 1–3 Tagen aktualisiert, am selben Tag bei Preisfehlern, die eine Buchung beeinflussen könnten.",
+    "corrP2Mid": " mit der Seiten-URL und der fehlerhaften Zeile. Es wird im seitenspezifischen Statusbericht protokolliert und der öffentliche Text wird bei nicht dringenden Themen innerhalb von 1–3 Tagen aktualisiert, am selben Tag bei Preisfehlern, die eine Buchung beeinflussen könnten.",
     "corrP3": "Was nie passiert: stille Änderungen. Wesentliche Korrekturen erhalten immer einen Eintrag im Änderungsprotokoll der Website, datiert und beschrieben.",
     "readOnH2": "Weiterlesen",
     "readOnLead": "Die anderen Richtlinien- und Referenzseiten, die das Bild abrunden.",

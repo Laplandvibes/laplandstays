@@ -131,7 +131,7 @@ Kolarin juna-asema, 40 min päässä, vastaanottaa yöjunat Helsingistä autonku
 
 const de: DestinationBody = {
   tagline: 'Zwillings-Fjälls, Finnlands längste Skiabfahrten und stille Waldhütten, Lappland für alle, die Wildnis laut und Dorfbetrieb leise wollen.',
-  description: `Ylläs ist mit 464 Metern Höhenunterschied das größte Fjäll im finnischen Skigebietsnetz und hat die längsten Abfahrtspisten des Landes. Es liegt in den Gemeinden Kolari und Kittilä, rund 115 km nördlich des Polarkreises, am Rande des Pallas-Yllästunturi-Nationalparks.
+  description: `Ylläs ist mit 464 Metern Höhenunterschied das größte Fjäll unter den finnischen Skizentrums und hat die längsten Abfahrtspisten des Landes. Es liegt in den Gemeinden Kolari und Kittilä, rund 115 km nördlich des Polarkreises, am Rande des Pallas-Yllästunturi-Nationalparks.
 
 Zwei kleine Dörfer, Ylläsjärvi im Süden und Äkäslompolo im Norden, flankieren das Fjäll. Es gibt keinen zentralen Resort-Kern: Premium-Hütten verteilen sich durch den Wald und entlang der Seen, was Ylläs den Ruf als ruhigere, naturnähere Alternative zu Levi einbringt.`,
   facts: [
@@ -149,7 +149,7 @@ Zwei kleine Dörfer, Ylläsjärvi im Süden und Äkäslompolo im Norden, flankie
     { title: 'Sommer-Fjäll-Wandern', body: 'Die Fjäll-Gipfelrouten zwischen Ylläs und Pallas verlaufen oberhalb der Baumgrenze auf Bohlenwegen, geöffnet von Juli bis September im Mitternachtssonnen-Licht.' },
   ],
   whenToGo: `Dezember – März ist das tiefwinterliche Fenster mit zuverlässigem Schnee und voller Polarlicht-Saison.
-Anfang April bietet den „Frühjahrswinter", lange Tageslichtstunden, helle Schneedecke, noch volle Ski-Bedingungen.
+Anfang April bietet den „Frühjahrswinter“, lange Tageslichtstunden, helle Schneedecke, noch volle Ski-Bedingungen.
 September bringt Ruska-Herbstfarben; Juli ist Mitternachtssonne und Wandern.`,
   howToGet: `Fliegen Sie nach Kittilä (KTT), 50 min Transfer nach Ylläs.
 Flughafen Rovaniemi (RVN) ist eine Alternative, 2 h Fahrt.

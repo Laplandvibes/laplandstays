@@ -33,8 +33,8 @@ const copy = {
     months: [
       { m: 'September', daylight: '13 → 11 h', aurora: 'First windows · visible on clear nights', snow: 'Ruska autumn colour, no snow yet', vibe: 'Quietest aurora-season month, beat the rush', bookingNote: 'Open inventory across all properties' },
       { m: 'October', daylight: '11 → 8 h', aurora: 'Frequent displays on clear nights', snow: 'First snow late month', vibe: 'Late-ruska, early aurora', bookingNote: 'Best value-to-aurora ratio of the season' },
-      { m: 'November', daylight: '7 → 3 h', aurora: 'Frequent on clear nights · darkest skies', snow: 'Permanent snow cover from mid-month', vibe: 'Polar night begins, FIS Levi opens the World Cup', bookingNote: 'Glass igloos start filling for next-year peak' },
-      { m: 'December', daylight: '2–4 h, "kaamos" polar night', aurora: 'Frequent on clear nights', snow: 'Christmas-card snow', vibe: 'Christmas season, Santa, family travellers', bookingNote: 'Christmas week books 12 mo ahead' },
+      { m: 'November', daylight: '7 → 3 h', aurora: 'Frequent on clear nights · darkest skies', snow: 'Permanent snow cover from mid-month', vibe: 'Darkest weeks begin, FIS Levi opens the World Cup', bookingNote: 'Glass igloos start filling for next-year peak' },
+      { m: 'December', daylight: '2–4 h, long blue twilight', aurora: 'Frequent on clear nights', snow: 'Christmas-card snow', vibe: 'Christmas season, Santa, family travellers', bookingNote: 'Christmas week books 12 mo ahead' },
       { m: 'January', daylight: '4 → 7 h', aurora: 'Frequent displays · coldest, clearest', snow: 'Deepest snow', vibe: 'Genuine arctic, lows of −30 °C inland', bookingNote: 'New Year week books 10 mo ahead' },
       { m: 'February', daylight: '7 → 11 h', aurora: 'Frequent on clear nights', snow: 'Peak depth', vibe: 'School holidays, busiest month with families', bookingNote: 'Mid-Feb half-term sells out 6–8 mo ahead' },
       { m: 'March', daylight: '11 → 13 h', aurora: 'Still frequent · long evenings of darkness', snow: 'Still deep, sunny days', vibe: 'The secret month, light, snow, aurora, fewer crowds', bookingNote: 'Best-kept secret. Books 4–6 mo ahead' },

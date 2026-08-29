@@ -130,8 +130,8 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
 }
 
 const de: DestinationBody = {
-  tagline: 'Finnlands größtes Skigebiet mit Restaurants, Safaris und Polarlicht-Hütten wenige Autominuten von den Liften entfernt.',
-  description: `Levi liegt in der Gemeinde Kittilä, rund 170 km nördlich des Polarkreises. Aus einem einzigen Lift in den 1960er Jahren ist Finnlands größtes Skigebiet gewachsen: 44 Pisten und 26 Lifte, bedient von einem kompakten, fußläufigen Dorfkern.
+  tagline: 'Finnlands größtes Skizentrum mit Restaurants, Safaris und Polarlicht-Hütten wenige Autominuten von den Liften entfernt.',
+  description: `Levi liegt in der Gemeinde Kittilä, rund 170 km nördlich des Polarkreises. Aus einem einzigen Lift in den 1960er Jahren ist Finnlands größtes Skizentrum gewachsen: 44 Pisten und 26 Lifte, bedient von einem kompakten, fußläufigen Dorfkern.
 
 Es ist der einfachste Einstieg in den Luxus-Lappland-Tourismus: Der Flughafen Kittilä ist 15 Minuten entfernt, der FIS-Slalom-Weltcup eröffnet jedes Jahr im November auf der Levi Black, und Premium-Hütten verteilen sich über die umliegende Fjäll-Landschaft, nah genug für ein Abendessen im Dorf, weit genug für Stille und Polarlicht-Beobachtung bei dunklem Himmel.`,
   facts: [
@@ -152,7 +152,7 @@ Es ist der einfachste Einstieg in den Luxus-Lappland-Tourismus: Der Flughafen Ki
 Ende August – Oktober bringt Ruska (Herbstfarben) und die ersten Polarlicht-Fenster ohne Ansturm.
 Juni – Juli ist die Mitternachtssonnen-Periode: 24 Stunden Tageslicht und eine andere Art von Hüttenurlaub.`,
   howToGet: `Fliegen Sie nach Kittilä (KTT). Direkte Winterrouten aus London, Paris, Amsterdam, Frankfurt, Zürich und Helsinki.
-Transfer ins Levi-Dorf sind 15 km. Die meisten Premium-Hütten beinhalten einen privaten Transfer.
+Ins Levi-Dorf sind es 15 km. Die meisten Premium-Hütten beinhalten einen privaten Transfer.
 Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaftlich reizvolle Alternative.`,
   stayTypes: [
     'Polarlicht-Glasvillen, Schlafzimmer mit Glasdach für Horizont-zu-Horizont-Himmelsblick, üblich für 2–4 Gäste.',
@@ -167,7 +167,7 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
   ],
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasiglus am Fjäll, Hauptwochen werden 10–12 Monate im Voraus gebucht.' },
-    { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Am Hang des Levifjells: Die Gondel hält vor der Tür, Skifahren beginnt im Hof.' },
+    { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Am Hang des Levifjälls: Die Gondel hält vor der Tür, Skifahren beginnt im Hof.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Zimmer und Apartments in Levi, jedes mit eigener Sauna, rund 500 m von den Pisten.' },
     { name: 'Alle Levi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').levi, sid: 'destination_levi_all_search', note: 'Vergleichen Sie alle Levi-Hotels und Chalets auf Trip.com.' },
   ],

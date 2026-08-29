@@ -4,7 +4,7 @@ import type { PageCopy } from './Transport.copy.types'
 const copy: PageCopy = {
   seo: {
     title: 'Anreise nach Lappland, Flug, Zug, Auto | LaplandStays',
-    description: 'Anreise nach Finnisch-Lappland: welcher Flughafen für Levi, Ylläs, Saariselkä, Inari oder Rovaniemi, echte Bus- und Taxipreise, der Nachtzug und der Mietwagen.',
+    description: 'Anreise nach Finnisch-Lappland: welcher Flughafen für Levi, Ylläs, Saariselkä, Inari und Rovaniemi, echte Bus- und Taxipreise, Nachtzug und Mietwagen.',
   },
   ui: {
     eyebrow: 'Anreise',
@@ -14,7 +14,7 @@ const copy: PageCopy = {
     lead: 'Vier Flughäfen, ein Nachtzug aus Helsinki, vier echte Buspreise.',
     airportsEyebrow: 'Per Flughafen',
     airportsH2: 'Wählen Sie den Flughafen, nicht das Land',
-    airportsLead: 'Finnisch Lappland hat vier funktionierende Flughäfen. Die meisten Reisenden landen standardmäßig in Helsinki und hängen 12 Stunden Landreise an, meist unnötig. Direkte Winterrouten aus London, Paris, Amsterdam und Frankfurt bringen Sie auf die Landebahn, die Ihrer Hütte am nächsten liegt.',
+    airportsLead: 'Finnisch-Lappland hat vier funktionierende Flughäfen. Die meisten Reisenden landen standardmäßig in Helsinki und hängen 12 Stunden Landreise an, meist unnötig. Direkte Winterrouten aus London, Paris, Amsterdam und Frankfurt bringen Sie auf die Landebahn, die Ihrer Hütte am nächsten liegt.',
     servesLabel: 'Bedient',
     routesLabel: 'Direktrouten',
     busLabel: 'Bus',
@@ -26,11 +26,11 @@ const copy: PageCopy = {
     railP1: 'Der Nachtzug von VR fährt um etwa 19:00 Uhr in Helsinki ab und kommt um 08:00 Uhr in Rovaniemi an, zwölf Stunden Schlaf statt vier Stunden Flughafenkontrolle plus Flug. Familienfreundlich, Autotransport möglich.',
     railBullets: [
       'Liegeplatz ab rund 90 € pro Person, Schlafwagenabteil ab rund 140 €',
-      'Autotransport verfügbar, fahren Sie Ihren eigenen Wagen in Rovaniemi oder Kolari vom Zug',
-      'Endpunkt Kolari liegt 35 km von Ylläs (besseres Tor zu den westlichen Fjälls als Rovaniemi)',
+      'Autotransport verfügbar: In Rovaniemi oder Kolari fahren Sie Ihren eigenen Wagen vom Zug',
+      'Der Endbahnhof Kolari liegt 35 km von Ylläs entfernt (besseres Tor zu den westlichen Fjälls als Rovaniemi)',
       'Speisewagen serviert Abendessen; Frühstück am Zielort',
     ],
-    railBulletStrong: ['Liegeplatz ab rund 90 €', 'Autotransport', 'Endpunkt Kolari', 'Speisewagen'],
+    railBulletStrong: ['Liegeplatz ab rund 90 €', 'Autotransport', 'Der Endbahnhof Kolari', 'Speisewagen'],
     railP2Pre: 'Der Zug ist die beliebteste Anreise für Familien. Buchen Sie direkt auf ',
     railP2Mid: ', meist 2–3 Monate im Voraus für die Hauptwochen. Wir haben keine Partnerbeziehung mit VR; diese Empfehlung ist rein redaktionell. Wenn VR ausgebucht ist oder Sie Bahn und Fernbus an einem Ort vergleichen möchten, decken die globalen Reiseagenten unten beide Modi ab.',
     compareTrains: 'Züge HEL → RVN auf Trip.com vergleichen',
@@ -45,7 +45,7 @@ const copy: PageCopy = {
     yesList: [
       'Sie in einer abgelegenen Hütte wohnen (Inari-Seeufer, abseitiges Ylläs, Muotka)',
       'Sie zwischen zwei Reisezielen fahren möchten (Saariselkä → Inari → Rovaniemi)',
-      'Sie eine Gruppe von 3+ sind, bei der die Taxi-Mathematik nicht mehr aufgeht',
+      'Sie zu dritt oder mehr reisen und sich Taxifahrten nicht mehr rechnen',
       'Sie Ski fahren UND Polarlicht jagen und Flexibilität für Fahrten zu klarem Himmel brauchen',
     ],
     compareHelsinki: 'Preise ab Helsinki vergleichen',
@@ -53,8 +53,8 @@ const copy: PageCopy = {
     noList: [
       'Sie im Dorf Levi wohnen (fußläufig, volle Safari-Abholung an der Tür)',
       'Sie in Kakslauttanen / Star Arctic wohnen (privater Transfer in der Premium-Stufe enthalten)',
-      'Sie ein Paar an einer einzelnen Unterkunft sind, Bus + Taxi rechnet sich günstiger',
-      'Sie keine Wintererfahrung haben und Straßen −30 °C Eis sein können',
+      'Sie als Paar in einer einzigen Unterkunft bleiben: Bus und Taxi kommen günstiger',
+      'Sie keine Wintererfahrung haben und die Straßen bei −30 °C spiegelglatt sein können',
     ],
     studdedTip: 'Spikereifen sind keine Pflicht, sondern vom 1. Nov. bis 31. März erlaubt. Vorgeschrieben sind in diesem Zeitraum Winterreifen, sobald Wetter oder Straßenzustand es erfordern. Mietwagen in Lappland haben fast immer Spikes montiert. Fragen Sie den Anbieter, wenn nicht angegeben.',
     withinEyebrow: 'Innerhalb Lapplands',

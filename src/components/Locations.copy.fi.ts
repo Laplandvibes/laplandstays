@@ -28,7 +28,7 @@ const copy: Copy = {
       {
         name: 'Ylläs',
         tagline: 'Koskematonta pohjoismaista erämaata',
-        description: 'Kaksi tunturia, Suomen pisimmät rinteet eikä yhtä keskustaa, Ylläs on hiljaisempi sisar. Ylläksen majoitus tarkoittaa hirsimökkejä jotka ovat hajallaan Pallas-Yllästunturin kansallispuistossa, ihanteellinen kun hiljaisuus ja latupääsy ovat tärkeämpiä kuin kylähumu.',
+        description: 'Kaksi tunturia, Suomen pisimmät rinteet eikä yhtä keskustaa, Ylläs on hiljaisempi sisar. Ylläksen majoitus tarkoittaa hirsimökkejä jotka ovat hajallaan Pallas-Yllästunturin kansallispuiston reunalla, ihanteellinen kun hiljaisuus ja latupääsy ovat tärkeämpiä kuin kylähumu.',
         highlights: ['Hiihtoladun valtakunta', 'Tunturinäköalamökit', 'Ei ruuhkaa'],
         priceFrom: 'Hirsimökit alkaen 150 €/yö',
       },

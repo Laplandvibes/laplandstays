@@ -144,13 +144,13 @@ Die Mischung ist ungewöhnlich: eine funktionierende nordische Stadt mit Restaur
     { title: 'Weihnachtsmanndorf am Polarkreis', body: 'Das Original, eine weiße Linie markiert den Polarkreis über den Platz, und der Weihnachtsmann hält jeden Tag des Jahres Bürozeiten.' },
     { title: 'Arktikum-Museum', body: 'Finnlands schönstes Museum für arktische Wissenschaft, Sámi-Kultur und Lappland-Geschichte, eine 172 Meter lange Glasröhre am Ufer des Ounasjoki, die nach Norden zeigt.' },
     { title: 'Ranua Wildpark', body: '80 km Fahrt südlich: einer der nördlichsten Zoos der Welt, mit 50 arktischen und borealen Arten, darunter Finnlands einzige Eisbären, Vielfraße und Luchse.' },
-    { title: 'Ounasvaara-Fjäll mitten in der Stadt', body: 'Eine Skihöhe, ein Downhill-Bikepark und ein Polarlicht-Aussichtspunkt, 10 Minuten mit dem Auto vom Zentrum, ohne Nationalpark-Fahrt.' },
-    { title: 'Flugverbindungen', body: 'Der Flughafen Rovaniemi hat das breiteste Winter-Streckennetz Lapplands: Direktflüge nach London, Paris, Frankfurt, Wien und dutzende Charterrouten.' },
+    { title: 'Ounasvaara-Fjäll mitten in der Stadt', body: 'Ein kleines Skigebiet, ein Downhill-Bikepark und ein Polarlicht-Aussichtspunkt, 10 Autominuten vom Zentrum, ohne Fahrt in einen Nationalpark.' },
+    { title: 'Flugverbindungen', body: 'Der Flughafen Rovaniemi hat das breiteste Winter-Streckennetz Lapplands: Direktflüge nach London, Paris, Frankfurt, Wien und Dutzende Charterrouten.' },
     { title: 'Flussufer-Hüttenzonen', body: 'Unterkünfte am Kemijoki und auf Ounasvaara bieten polarlicht-taugliche dunkle Himmel innerhalb von 15 Minuten zu Restaurants und Einkauf.' },
   ],
   whenToGo: `Mitte September – Ende März ist Polarlicht-Saison; November – Februar ist tiefster Winter.
 Rovaniemi hat keine echte Polarnacht: Auch um den 21. Dezember geht die Sonne für gut zwei Stunden auf, der Mittag ist eine lange blaue Dämmerung.
-Juni – Juli bringt Mitternachtssonne und Wildwasser-Rapids in Oikaraisenkoski.`,
+Juni bis Juli bringt Mitternachtssonne und die Stromschnellen von Oikaraisenkoski.`,
   howToGet: `Fliegen Sie nach Rovaniemi (RVN), der bestvernetzte Flughafen Lapplands.
 Die finnischen Eisenbahnen fahren Nachtzüge aus Helsinki mit Autotransport direkt zum Bahnhof Rovaniemi.
 Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für Roadtrips im Inland-Lappland.`,
@@ -168,7 +168,7 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architektonisch gestaltete Nest-Suiten mit Glasfront am Weihnachtsmanndorf.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Polarlicht-Hütten am See 15 min von der Stadt, volles Safari-Menü vor Ort.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Neuere Apartments mit Glasdach mit Skyline-Blick vom Fjäll Ounasvaara.' },
+    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Neuere Apartments mit Glasdach und Skyline-Blick vom Fjäll Ounasvaara.' },
     { name: 'Alle Rovaniemi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Stöbern Sie in allen Rovaniemi-Hotels und Hütten auf Trip.com.' },
   ],
   transport: [

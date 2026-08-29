@@ -143,8 +143,8 @@ Das Dorf ist klein und fußläufig, gruppiert um einige Hotels, Restaurants und 
   highlights: [
     { title: 'UKK-Nationalpark vor der Tür', body: 'Finnlands zweitgrößter Nationalpark. Markierte Ski- und Wanderrouten starten in Saariselkä und führen 60 km östlich in die Wildnis.' },
     { title: 'Aussichtspunkt Fjäll Kaunispää', body: 'Das Fjäll oberhalb des Dorfes hat eine Straße und einen Lift zum Gipfel. Polarlicht-Beobachtung mit klarem Horizont und Sommer-Mitternachtssonnen-Panoramen.' },
-    { title: 'Husky- und Rentier-Zwinger', body: 'Mehrere arbeitende Zwinger im Umkreis von 20 Minuten bieten Halbtags- und Mehrtages-Schlittenfahrten in den Nationalpark.' },
-    { title: 'Polarlicht-Dichte', body: 'Auf diesem Breitengrad zieht das Polarlichtoval häufiger über den Kopf als an südlicheren Reisezielen, Sie sehen das Polarlicht deutlich häufiger als weiter südlich.' },
+    { title: 'Huskyfarmen und Rentierhöfe', body: 'Mehrere Betriebe im Umkreis von 20 Minuten bieten Halbtags- und Mehrtages-Schlittenfahrten in den Nationalpark.' },
+    { title: 'Polarlicht-Dichte', body: 'Auf diesem Breitengrad zieht das Polarlichtoval häufiger direkt über den Kopf als an südlicheren Reisezielen. Entsprechend öfter stehen die Chancen gut.' },
     { title: 'Goldgräberdorf Tankavaara', body: '30 Minuten Fahrt südlich: das echte Goldwasch-Erbe Lapplands, mit Goldwaschkursen und dem Goldmuseum.' },
     { title: 'Ruhige Winter-Loipen', body: 'Das Loipennetz ist umfangreich, die Auslastung dünn, kilometerlange gespurte Strecken fast ohne andere Skifahrer an einem Werktag-Morgen.' },
   ],
@@ -189,7 +189,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { day: '03', title: 'Husky- + Rentiertag', body: 'Morgens Husky-Safari ab Saariselkä. Nachmittags Rentierfahrt auf einem nahen Sámi-Hof. Abends: Eisfischen oder Sauna-Seesprung, und bei klarem Himmel Polarlicht-Wache.' },
     { day: '04', title: 'Ruhiger Morgen · Fahrt nach Inari', body: 'Letzter Iglu-Morgen, 50 min nördlich zum Inarisee für einen Sámi-Kulturtag im Siida-Museum. Abendflug ab IVL oder mit einer Inari-Nacht verlängern.' },
   ],
-  seoTitle: 'Saariselkä Glasiglus & Unterkünfte, ab 200 €/Nacht',
+  seoTitle: 'Saariselkä-Glasiglus & Unterkünfte ab 200 €/Nacht',
   seoDescription: 'Wo Sie in Saariselkä übernachten: Kakslauttanen-Glasiglus ab 400 €/Nacht, Wildnis-Lodges (Muotka, Star Arctic) ab 200 €, am Urho-Kekkonen-Nationalpark.',
 }
 

@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Lappland-Unterkünfte: Glasiglus & Hütten | LaplandStays",
-    "description": "Wo Sie in Lappland übernachten: Glasiglus ab 250 €/Nacht vergleichen, Nordlicht-Hütten ab 150 € und Lappland-Hotels ab 100 € in Levi, Ylläs, Saariselkä und Inari. Geprüfte Preise, eigene Saunen, Polarlicht-Weckdienst."
+    "description": "Wo Sie in Lappland übernachten: Glasiglus ab 250 €/Nacht, Nordlicht-Hütten ab 150 €, Hotels ab 100 € in Levi, Ylläs, Saariselkä und Inari. Geprüfte Preise."
   },
   "faq": {
     "@context": "https://schema.org",

@@ -16,7 +16,7 @@ const META: Record<Lang, { title: string; description: string }> = {
   de: {
     title: 'Cookie-Richtlinie | LaplandStays',
     description:
-      'Welche Cookies LaplandStays verwendet und warum, essenzielle Consent-Speicherung, Google Analytics 4 (nur nach Opt-in) und Affiliate-Attribution der Partnernetzwerke (Adtraction, Travelpayouts, Trip.com).',
+      'Welche Cookies LaplandStays verwendet und warum: Consent-Speicherung, Google Analytics 4 (nur nach Opt-in) und Affiliate-Attribution der Partnernetzwerke.',
   },
   ja: {
     title: 'クッキーポリシー。LaplandStays',

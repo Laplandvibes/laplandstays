@@ -29,7 +29,7 @@ export const en = {
       {
         name: 'Ylläs',
         tagline: 'Pristine Nordic wilderness',
-        description: 'Two fells, the longest ski runs in Finland, and no resort overlay: Ylläs is the quieter sister. Ylläs accommodation means log cabins spaced out through Pallas-Yllästunturi National Park, ideal when silence and trail access matter more than the village buzz.',
+        description: 'Two fells, the longest ski runs in Finland, and no resort overlay: Ylläs is the quieter sister. Ylläs accommodation means log cabins spaced out along the edge of Pallas-Yllästunturi National Park, ideal when silence and trail access matter more than the village buzz.',
         highlights: ['Cross-country kingdom', 'Fell-view chalets', 'No crowds'],
         priceFrom: 'Log cabins from €150/night',
       },

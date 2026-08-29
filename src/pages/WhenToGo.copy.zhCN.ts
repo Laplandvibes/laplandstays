@@ -35,8 +35,8 @@ const copy: PageCopy = {
     months: [
       { m: '9月', daylight: '13 → 11小时', aurora: '初次窗口 · 晴朗夜晚可见', snow: 'Ruska秋色,尚无雪', vibe: '极光季最静谧的月份。避开人潮', bookingNote: '所有住宿空房充足' },
       { m: '10月', daylight: '11 → 8小时', aurora: '晴夜常有极光', snow: '月末初雪', vibe: '晚秋Ruska,极光提前', bookingNote: '本季最佳性价比' },
-      { m: '11月', daylight: '7 → 3小时', aurora: '晴夜常有极光 · 天最黑', snow: '月中开始持久积雪', vibe: '极夜开始,FIS莱维开启世界杯', bookingNote: '玻璃穹顶屋开始为来年高峰订满' },
-      { m: '12月', daylight: '2–4小时,"kaamos"极夜', aurora: '晴夜常有极光', snow: '圣诞卡式雪景', vibe: '圣诞季。圣诞老人、家庭旅客', bookingNote: '圣诞周提前12个月预订' },
+      { m: '11月', daylight: '7 → 3小时', aurora: '晴夜常有极光 · 天最黑', snow: '月中开始持久积雪', vibe: '最暗的时节开始,FIS莱维开启世界杯', bookingNote: '玻璃穹顶屋开始为来年高峰订满' },
+      { m: '12月', daylight: '2–4小时,漫长的蓝色暮光', aurora: '晴夜常有极光', snow: '圣诞卡式雪景', vibe: '圣诞季。圣诞老人、家庭旅客', bookingNote: '圣诞周提前12个月预订' },
       { m: '1月', daylight: '4 → 7小时', aurora: '常有极光 · 最冷最清晰', snow: '积雪最深', vibe: '真正北极。内陆低至−30°C', bookingNote: '新年周提前10个月预订' },
       { m: '2月', daylight: '7 → 11小时', aurora: '晴夜常有极光', snow: '积雪峰值', vibe: '学校假期。家庭出游最忙的月份', bookingNote: '2月中假期提前6–8个月售罄' },
       { m: '3月', daylight: '11 → 13小时', aurora: '依然活跃 · 漫长黑夜', snow: '依然深厚,白天阳光明媚', vibe: '秘密之月。光、雪、极光、人少', bookingNote: '最大的秘密。提前4–6个月预订' },

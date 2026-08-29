@@ -105,7 +105,7 @@ const COPY = {
     reasons: [
       {
         title: 'Redaktionell kuratiert',
-        body: 'Geschrieben aus Finnisch-Lappland. Die vergesslichen Häuser sind herausgefiltert, übrig bleiben die Hütten, Villen und Lodges, die den Flug wert sind.',
+        body: 'Geschrieben aus Finnisch-Lappland. Die austauschbaren Häuser sind herausgefiltert, übrig bleiben die Hütten, Villen und Lodges, die den Flug wert sind.',
       },
       {
         title: 'Die richtige Art von Zimmer',

@@ -48,7 +48,7 @@ const copy: PageCopy = {
       {
         name: 'Levi',
         tagline: 'Das Resort mit vollem Service',
-        body: 'Finnlands meistbesuchtes Skigebiet, mit dem Weltcup-Slalom jeden November und einem Dorf, in dem Restaurants, Verleihshops und Safari-Abholungen zu Fuß erreichbar sind. Die Hütten umringen das Fjäll, Sie können also zwischen Ski-in-Lagen nahe der Gondelbahn und ruhigeren Grundstücken ein paar Kilometer weiter draußen wählen.',
+        body: 'Finnlands meistbesuchtes Skizentrum, mit dem Weltcup-Slalom jeden November und einem Dorf, in dem Restaurants, Verleihshops und Safari-Abholungen zu Fuß erreichbar sind. Die Hütten umringen das Fjäll, Sie können also zwischen Ski-in-Lagen nahe der Gondelbahn und ruhigeren Grundstücken ein paar Kilometer weiter draußen wählen.',
         bullets: [
           'Ideal für: Erstbesucher und Gruppen, die Restaurants und Nachtleben nahe der Hütte möchten',
           'Dorfservices in Gehweite der nächstgelegenen Hüttengebiete',
@@ -84,7 +84,7 @@ const copy: PageCopy = {
       {
         name: 'Saariselkä',
         tagline: 'Die Polarlicht-Basis im hohen Norden',
-        body: 'Das nördlichste der großen vier, auf etwa 68°N, und damit unter dem Polarlichtoval: In einer klaren Nacht stehen die Chancen hier schlicht besser. Das Dorf ist kompakt, dahinter beginnt der Nationalpark Urho Kekkonen, und die Fjälls ziehen sich hundert Kilometer nach Osten, ohne dass etwas Menschengemachtes in Sicht wäre.',
+        body: 'Das nördlichste der großen vier, auf etwa 68° N, und damit unter dem Polarlichtoval: In einer klaren Nacht stehen die Chancen hier schlicht besser. Das Dorf ist kompakt, dahinter beginnt der Nationalpark Urho Kekkonen, und die Fjälls ziehen sich hundert Kilometer nach Osten, ohne dass etwas Menschengemachtes in Sicht wäre.',
         bullets: [
           'Ideal für: Polarlichtjäger, Schneeschuh- und Wildnisfreunde, Wiederkehrer',
           'Der Flughafen Ivalo liegt etwa 30 Minuten entfernt',
