@@ -693,10 +693,32 @@ function harvestJsxPage(src, out, meta, seen, budget) {
   }
 }
 
+/** Strip JSX tags with a scanner instead of /<[^>]*>/: a `>` inside a quoted
+ *  attribute (`className="[&>svg]:…"`) or a brace expression (`onClick={() =>`)
+ *  ended the regex match early and dumped the rest of the tag — className text
+ *  included — into the harvested body (measured on /fi/iglumajoitus 29.8.). */
+function stripJsxTags(jsx) {
+  let out = '';
+  for (let i = 0; i < jsx.length; i++) {
+    if (jsx[i] !== '<') { out += jsx[i]; continue; }
+    let j = i + 1, inStr = false, q = '', depth = 0;
+    for (; j < jsx.length; j++) {
+      const d = jsx[j];
+      if (inStr) { if (d === q) inStr = false; continue; }
+      if (d === '"' || d === "'" || d === '`') { inStr = true; q = d; continue; }
+      if (d === '{') { depth++; continue; }
+      if (d === '}') { if (depth > 0) depth--; continue; }
+      if (d === '>' && depth === 0) break;
+    }
+    out += INLINE_TAG.test(jsx.slice(i, j + 1)) ? ' ' : '\n';
+    i = j;
+  }
+  return out;
+}
+
 /** Shared tag/expression stripping for a JSX fragment. */
 function harvestJsxText(jsx, out, meta, seen, budget) {
-  const text = jsx
-    .replace(/<[^>]*>/g, (tag) => (INLINE_TAG.test(tag) ? ' ' : '\n'))
+  const text = stripJsxTags(jsx)
     .replace(/\{[^{}]*\}/g, ' ')
     .replace(/&nbsp;/g, ' ');
   for (const line of text.split('\n')) {

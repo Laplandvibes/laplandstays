@@ -77,8 +77,8 @@ Kaksi pientä kylää, Ylläsjärvi etelässä ja Äkäslompolo pohjoisessa, keh
     { label: 'Pudotuskorkeus', value: '464 m' },
   ],
   highlights: [
-    { title: 'Suomen pisimmät alamäkirinteet', body: 'Yllästunturin 3 kilometrin eturinne laskee puuttomalta huipulta männikön läpi laaksoon. Harvinaista Suomessa, useimmissa keskuksissa rinteet ovat 1 km.' },
-    { title: '330 km latuverkkoa', body: 'Hoidetut perinteen ja luistelun ladut kulkevat kansallispuiston läpi ja yhdistävät Ylläsjärven, Äkäslompolon ja Pallaksen.' },
+    { title: 'Suomen pisimmät alamäkirinteet', body: 'Yllästunturin 3 kilometrin eturinne laskee puuttomalta huipulta männikön läpi laaksoon. Harvinaista Suomessa: useimmissa keskuksissa rinteet ovat 1 km.' },
+    { title: '330 km latuverkkoa', body: 'Hoidetut perinteisen ja luistelutyylin ladut kulkevat kansallispuiston läpi ja yhdistävät Ylläsjärven, Äkäslompolon ja Pallaksen.' },
     { title: 'Pallas-Yllästunturin kansallispuisto', body: 'Suomen kolmanneksi suurin kansallispuisto, ikimetsää, seitsemän nimettyä tunturia ja Euroopan puhtainta mitattua ilmaa.' },
     { title: 'Hiljaiset metsämökit', body: 'Kohteet on tarkoituksella sijoitettu kauas toisistaan. Naapurisi, jos sellaista on, on muutaman sadan metrin männikön takana aukealla.' },
     { title: 'Äkäslompolon revontulirantakaista', body: 'Äkäslompolon järvi avautuu pohjoiseen, selkeä horisontti, ei kylävaloja vastarannalla, vahva revontulinäkyvyys jäältä.' },
@@ -91,7 +91,7 @@ Syyskuu tuo ruskan; heinäkuu on keskiyön aurinkoa ja patikointia.`,
 Rovaniemen lentokenttä (RVN) on vaihtoehto, 2 tunnin ajomatka.
 Kolarin juna-asema, 40 min päässä, vastaanottaa yöjunat Helsingistä autonkuljetuspalvelulla.`,
   stayTypes: [
-    'Hirsimökit tunturin metsärinteillä, 4–8 vierasta, puusauna, takka, usein paljakka.',
+    'Hirsimökit tunturin metsärinteillä, 4–8 vierasta, puusauna, takka, usein palju.',
     'Rantavillat Äkäslompolossa ja Kesänkijärvellä, yksityinen ranta, avantopaikka talvella.',
     'Rinneasunnot Äkäslompolossa ja Ylläsjärvellä, suora rinnepääsy, varustetilat, vähemmän väkeä kuin Levillä.',
     'Design-erämaakohteet kansallispuiston vyöhykkeellä, arkkitehtien suunnittelemia, off-grid-tunnelma täydellä mukavuudella.',

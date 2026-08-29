@@ -12,14 +12,14 @@ const copy: PageCopy = {
     "intro": "LaplandStays on majoitushakemisto, jonka ylläpitäjä olisi toivonut olevan olemassa, kun ystävät kysyivät missä Lapissa kannattaa yöpyä.",
     "missionEyebrow": "Miksi tämä on olemassa",
     "missionH2": "Yksi rehellinen opas Lapin majoitukseen",
-    "missionP1": "Useimmat Lapin majoituslistaukset verkossa joko keksivät hintoja (\"alkaen 99 €/yö\" kohteelle joka ei ole avannut tuota tasoa kuuteen vuoteen), piilottavat kumppanuusilmoitukset tai suosittelevat samoja viittä lomakeskusta automaattisesti. LaplandStays on korjaus, pieni, nimettyihin kohteisiin keskittyvä opas joka tarkistaa hinnat joka kausi ja kertoo kun jokin on loppuunmyyty 12 kuukautta etukäteen sen sijaan että teeskentelisi muuta.",
-    "missionP2": "Tämä on toimituksellinen julkaisu, ei varausalusta. Kun klikkaat johonkin varauskumppaniin, sopimus on sinun ja heidän välillä, varaukset ja maksut hoidetaan siellä. Kumppanuusprovisio ansaitaan näiden linkkien kautta tehdyistä varauksista, mutta provisio on samaa luokkaa kaikilla kumppaneilla, joten se ei vaikuta siihen mitä suositellaan.",
+    "missionP1": "Useimmat Lapin majoituslistaukset verkossa joko keksivät hintoja (\"alkaen 99 €/yö\" kohteelle joka ei ole avannut tuota tasoa kuuteen vuoteen), piilottavat kumppanuusilmoitukset tai suosittelevat samoja viittä lomakeskusta automaattisesti. LaplandStays on korjaus, pieni, nimettyihin kohteisiin keskittyvä opas, joka tarkistaa hinnat joka kausi ja kertoo, kun jokin on loppuunmyyty 12 kuukautta etukäteen, sen sijaan että teeskentelisi muuta.",
+    "missionP2": "Tämä on toimituksellinen julkaisu, ei varausalusta. Kun klikkaat johonkin varauskumppaniin, sopimus on sinun ja heidän välillä, varaukset ja maksut hoidetaan siellä. Kumppanuusprovisio ansaitaan näiden linkkien kautta tehdyistä varauksista, mutta provisio on samaa luokkaa kaikilla kumppaneilla, joten se ei vaikuta siihen, mitä suositellaan.",
     "opEyebrow": "Ylläpitäjä",
     "opH2": "Lapeso Oy",
     "opCards": [
       {
         "title": "Suomessa rekisteröity",
-        "body": "Lapeso Oy on rekisteröity Suomeen ja toimii Suomen Lapista käsin. Samasta paikasta josta opas kirjoittaa."
+        "body": "Lapeso Oy on rekisteröity Suomeen ja toimii Suomen Lapista käsin. Samasta paikasta, josta opas kirjoitetaan."
       },
       {
         "title": "Miten ottaa yhteyttä",
@@ -48,11 +48,11 @@ const copy: PageCopy = {
       },
       {
         "title": "Rehelliset \"alkaen\"-hinnat",
-        "body": "Jokainen \"alkaen X €/yö\" otetaan operaattorin omasta varaussivulta tai varauskumppaneiltamme, tarkistettu vähintään kerran kaudessa. Jos kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan että ohjaisi sinut nollatulokseen."
+        "body": "Jokainen \"alkaen X €/yö\" otetaan operaattorin omasta varaussivulta tai varauskumppaneiltamme, tarkistettu vähintään kerran kaudessa. Jos kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan, että ohjaisi sinut nollatulokseen."
       },
       {
         "title": "\"Sopii / vältä jos\" -kehystys",
-        "body": "Lasi-iglut eivät sovi ryhmille. Rinneasunnot eivät sovi pelkille revontulimatkailijoille. Jokainen kategoria kehystetään sen mukaan kenelle se sopii ja kenelle ei, eikä myydä kaikkea kaikille."
+        "body": "Lasi-iglut eivät sovi ryhmille. Rinneasunnot eivät sovi pelkille revontulimatkailijoille. Jokainen kategoria kehystetään sen mukaan, kenelle se sopii ja kenelle ei, eikä myydä kaikkea kaikille."
       },
       {
         "title": "Paikallinen yksityiskohta",

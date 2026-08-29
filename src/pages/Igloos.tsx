@@ -83,7 +83,7 @@ const TYPE_CARDS = [
     title: 'Lasi-iglu',
     tagline: 'Lämmin huone, lasikatto',
     body:
-      'Lämmitetty huone, jonka katto tai koko yläosa on lasia: revontulia ja tähtitaivasta katsotaan sängystä peiton alta. Varustelu vaihtelee pienestä makuukopista sviittiin, jossa on oma kylpyhuone, keittonurkka ja terassi. Tämä on se iglutyyppi, jota useimmat hakevat — ja myös kallein.',
+      'Lämmitetty huone, jonka katto tai koko yläosa on lasia: revontulia ja tähtitaivasta katsotaan sängystä peiton alta. Varustelu vaihtelee pienestä makuukopista sviittiin, jossa on oma kylpyhuone, keittonurkka ja terassi. Tämä on se iglutyyppi, jota useimmat hakevat, ja myös kallein.',
     forWho: 'Sopii: pariskunnille ja revontulimatkalle, kun mukavuudesta ei haluta tinkiä.',
   },
   {
@@ -91,7 +91,7 @@ const TYPE_CARDS = [
     title: 'Lumi-iglu ja lumihotelli',
     tagline: 'Yö lumen sisällä',
     body:
-      'Huone on veistetty lumesta ja jäästä, ja se rakennetaan joka talvi uudelleen. Esimerkiksi Rovaniemen Arctic SnowHotelissa sisälämpötila pysyy 0 ja -5 asteen välissä ja talo antaa ääriolosuhteisiin suunnitellun makuupussin. Kokemus on ainutlaatuinen, mutta useimmille yksi yö riittää — eikä yöpymistä suositella alle 5-vuotiaille.',
+      'Huone on veistetty lumesta ja jäästä, ja se rakennetaan joka talvi uudelleen. Esimerkiksi Rovaniemen Arctic SnowHotelissa sisälämpötila pysyy 0 ja -5 asteen välissä ja talo antaa ääriolosuhteisiin suunnitellun makuupussin. Kokemus on ainutlaatuinen, mutta useimmille yksi yö riittää, eikä yöpymistä suositella alle 5-vuotiaille.',
     forWho: 'Sopii: elämyksen keräilijöille, jotka haluavat tarinan eivätkä sviittiä.',
   },
   {
@@ -99,7 +99,7 @@ const TYPE_CARDS = [
     title: 'Igluhotelli eli iglukylä',
     tagline: 'Iglut + palvelut ympärillä',
     body:
-      'Kokonainen lomakylä iglujen ympärillä: vastaanotto, ravintola, sauna ja safarit lähtevät samasta pihasta. Kakslauttanen ja Levin Iglut ovat tätä mallia, ja Arctic SnowHotel yhdistää molemmat maailmat — samalta tontilta saa sekä lasi-iglun että lumihuoneen. Maksat paketista, et vain katosta.',
+      'Kokonainen lomakylä iglujen ympärillä: vastaanotto, ravintola, sauna ja safarit lähtevät samasta pihasta. Kakslauttanen ja Levin Iglut ovat tätä mallia, ja Arctic SnowHotel yhdistää molemmat maailmat: samalta tontilta saa sekä lasi-iglun että lumihuoneen. Maksat paketista, et vain katosta.',
     forWho: 'Sopii: ensikertalaisille ja perheille, joille valmis ohjelma on helpotus.',
   },
 ]
@@ -133,7 +133,7 @@ const TABLE_ROWS: { label: string; glass: string; snow: string; village: string 
   },
   {
     label: 'Hintataso',
-    glass: 'Korkein — ks. Kakslauttasen esimerkit alla',
+    glass: 'Korkein; ks. Kakslauttasen esimerkit alla',
     snow: 'Yleensä lasi-iglua edullisempi',
     village: 'Laaja haitari huonetyypin mukaan',
   },
@@ -154,7 +154,7 @@ const LOCATIONS: {
     name: 'Levi',
     tagline: 'Iglut tunturin rinteessä, kylä kympin päässä',
     body:
-      'Levin Iglut sijaitsee noin 10 kilometrin päässä Levin kylästä, 340 metrin korkeudessa — valosaastetta on vähemmän kuin keskustassa, ja rinteet ja ravintolat ovat silti lyhyen ajomatkan päässä. Huoneluokkia on kolme (Superior, Prime Superior ja Suite), ja kausi alkaa syyskuun alussa.',
+      'Levin Iglut sijaitsee noin 10 kilometrin päässä Levin kylästä, 340 metrin korkeudessa: valosaastetta on vähemmän kuin keskustassa, ja rinteet ja ravintolat ovat silti lyhyen ajomatkan päässä. Huoneluokkia on kolme (Superior, Prime Superior ja Suite), ja kausi alkaa syyskuun alussa.',
     operators: [
       { name: 'Levin Iglut', note: 'lasi-iglut, 10 km Levin kylästä', sid: 'iglu_levin_iglut', bookingKey: 'levinIglut' },
     ],
@@ -163,7 +163,7 @@ const LOCATIONS: {
     name: 'Saariselkä',
     tagline: 'Iglukylien klassikko',
     body:
-      'Saariselän suunnalla on Lapin tunnetuin iglukeskittymä. Kakslauttanen Arctic Resort on rakentanut kokonaisen kylän lasi- ja kelo-iglujen ympärille, ja resortin omalla hintasivulla talvimajoitus aamiaisella ja illallisella alkaa 501 eurosta per yö — syksyn joustohinta alkaa 278 eurosta (tarkistettu elokuussa 2026). Kylän keskustassa Star Arctic Hotelilla on 15 Aurora Glass Cabin -huonetta, joissa on 20 neliötä ja pohjoiseen suunnattu lämmitetty lasikatto.',
+      'Saariselän suunnalla on Lapin tunnetuin iglukeskittymä. Kakslauttanen Arctic Resort on rakentanut kokonaisen kylän lasi- ja kelo-iglujen ympärille, ja resortin omalla hintasivulla talvimajoitus aamiaisella ja illallisella alkaa 501 eurosta per yö; syksyn joustohinta alkaa 278 eurosta (tarkistettu elokuussa 2026). Kylän keskustassa Star Arctic Hotelilla on 15 Aurora Glass Cabin -huonetta, joissa on 20 neliötä ja pohjoiseen suunnattu lämmitetty lasikatto.',
     operators: [
       { name: 'Kakslauttanen Arctic Resort', note: 'iglukylä, hintaesimerkit yllä', sid: 'iglu_kakslauttanen', bookingKey: 'kakslauttanen' },
       { name: 'Star Arctic Hotel', note: '15 lasikattoista Aurora Glass Cabinia', sid: 'iglu_star_arctic', bookingKey: 'starArctic' },
@@ -182,7 +182,7 @@ const LOCATIONS: {
     name: 'Kilpisjärvi',
     tagline: 'Iglut Saanan juurella',
     body:
-      'Käsivarren suurtuntureilla iglut ovat pieniä perhekohteita, eivät resortteja. Arctic Land Adventurella on neljä lasi-iglua ja kuusi hirsimökkiä Saanan juurella, ja Tundrealla kolme kaksikerroksista iglutaloa 2–4 hengelle omalla saunalla ja keittiöllä. Molemmat varataan suoraan kohteen omilta sivuilta — siksi tässä kortissa ei ole varauslinkkiä.',
+      'Käsivarren suurtuntureilla iglut ovat pieniä perhekohteita, eivät resortteja. Arctic Land Adventurella on neljä lasi-iglua ja kuusi hirsimökkiä Saanan juurella, ja Tundrealla kolme kaksikerroksista iglutaloa 2–4 hengelle omalla saunalla ja keittiöllä. Molemmat varataan suoraan kohteen omilta sivuilta; siksi tässä kortissa ei ole varauslinkkiä.',
     operators: [],
     extraNote:
       'Kilpisjärvelle ajaa Kittilän ja Rovaniemen kentiltä useita tunteja, joten iglu-yö kannattaa kytkeä pidempään Käsivarren-reissuun.',
@@ -198,7 +198,7 @@ const BOOKING_ROWS = [
   },
   {
     period: 'Joulu ja uusivuosi',
-    body: 'Sesongin huippu. Varaa iglu-yö niin aikaisin kuin pystyt — ja jos joulun viikot ovat jo täynnä tai hinnat karkaavat, tammikuu tarjoaa samat pimeät yöt pienemmällä tungoksella.',
+    body: 'Sesongin huippu. Varaa iglu-yö niin aikaisin kuin pystyt. Jos joulun viikot ovat jo täynnä tai hinnat karkaavat, tammikuu tarjoaa samat pimeät yöt pienemmällä tungoksella.',
   },
   {
     period: 'Tammi–maaliskuu',
@@ -206,7 +206,7 @@ const BOOKING_ROWS = [
   },
   {
     period: 'Huhtikuusta eteenpäin',
-    body: 'Lumirakenteet sulavat ja moni iglukohde sulkee kautensa kevääseen. Kesän valoisina öinä revontulia ei näy — jos matkasi osuu kesään, lasikaton sijaan kannattaa katsoa järvenrantamökkiä.',
+    body: 'Lumirakenteet sulavat ja moni iglukohde sulkee kautensa kevääseen. Kesän valoisina öinä revontulia ei näy. Jos matkasi osuu kesään, lasikaton sijaan kannattaa katsoa järvenrantamökkiä.',
   },
 ]
 
@@ -436,7 +436,7 @@ export default function Igloos() {
         <div className="max-w-2xl mx-auto">
           <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-4">Rakenna loma iglun ympärille</h2>
           <p className="text-white/70 mb-8 leading-relaxed">
-            Valitse ensin iglutyyppi ja alue, varaa iglu-yö kohteen kalenterista — ja hae loppuviikon tukikohta Lapin mökkihausta.
+            Valitse ensin iglutyyppi ja alue, varaa iglu-yö kohteen kalenterista, ja hae loppuviikon tukikohta Lapin mökkihausta.
           </p>
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
             <a

@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: 'Mistä me aloitamme haun',
     partnerH2: 'Mökkihaku: Lomarengas',
-    partnerBody: 'Lomarengas on suomalainen mökkivälittäjä, jolla on yli 8 000 lomakohdetta ympäri maan, Levin rinteiden hiihtomökeistä pohjoisen järvenrantamökkeihin. Kohteissa on oikeat kuvat, tarkka sijainti ja viikkokohtaiset hinnat, ja jokaisen mökin tiedoissa lukee mitä hintaan kuuluu.',
+    partnerBody: 'Lomarengas on suomalainen mökkivälittäjä, jolla on yli 8 000 lomakohdetta ympäri maan, Levin rinteiden hiihtomökeistä pohjoisen järvenrantamökkeihin. Kohteissa on oikeat kuvat, tarkka sijainti ja viikkokohtaiset hinnat, ja jokaisen mökin tiedoissa lukee, mitä hintaan kuuluu.',
     partnerNote: 'Alla olevat linkit vievät lomarengas.fi-sivustolle, jossa haku, hinnat ja varaus hoituvat Lomarenkaan kautta. Jos varaat näiden linkkien kautta, LaplandStays saa kiinteän provision ilman lisäkustannuksia sinulle.',
     partnerCta: 'Selaa Lapin mökkejä',
 

@@ -77,7 +77,7 @@ Se on helpoin sisäänkäynti Lapin luksusmatkailuun: Kittilän lentokenttä on 
     { label: 'Rinteitä', value: '43' },
   ],
   highlights: [
-    { title: 'Rinneasunnot Levitunturilla', body: 'Levitunturin rinteillä sijaitsevat asunnot tarjoavat suoran pääsyn gondoliin ja pitkille sinisille ja punaisille rinteille jotka kiertävät vuorta.' },
+    { title: 'Rinneasunnot Levitunturilla', body: 'Levitunturin rinteillä sijaitsevat asunnot tarjoavat suoran pääsyn gondoliin ja pitkille sinisille ja punaisille rinteille, jotka kiertävät tunturia.' },
     { title: 'Kävelykylä vakavasti otettavilla keittiöillä', body: 'Keskustassa on Michelin-suositeltuja ravintoloita, poronkäristys-tasting-menuja ja tiivis kahvilakeskittymä, harvinaista tunturikohteessa.' },
     { title: 'Täysi safariohjelma', body: 'Huskyt, moottorikelkat, porovaljakot, revontulivalokuvauskierrokset ja avantouinti lähtevät kaikki noutopisteistä kylän sisältä.' },
     { title: 'Revontulien pimeät vyöhykkeet', body: 'Aja 15 minuuttia ulos kylästä ja valosaaste tipahtaa lähelle nollaa. Mökit tunturin pohjoispuolella tarjoavat selkeimmän horisontin.' },
@@ -105,7 +105,7 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Lasi-iglut tunturilla, huippuviikot varataan 10–12 kk etukäteen.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Levitunturin rinteessä: gondoli pysähtyy ovelle ja hiihto alkaa pihasta.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Levin huoneita ja eri kokoisia huoneistoja, joissa jokaisessa oma sauna, noin 500 m rinteiltä.' },
-    { name: 'Kaikki Levin majoitukset', href: HOTEL_SEARCH_FOR('fi').levi, sid: 'destination_levi_all_search', note: 'Vertaa kaikki Levin hotellit ja chalet-asunnot Sembossa.' },
+    { name: 'Kaikki Levin majoitukset', href: HOTEL_SEARCH_FOR('fi').levi, sid: 'destination_levi_all_search', note: 'Vertaa kaikkia Levin hotelleja ja chalet-asuntoja Sembossa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Kittilän lentokentältä (KTT)', detail: 'Suorat talvilennot LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min Levin kylälle.' },

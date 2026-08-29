@@ -77,7 +77,7 @@ Yhdistelmä on epätavallinen: toimiva pohjoinen kaupunki ravintoloineen, Arktik
     { label: 'Pajakylä', value: 'Auki ympäri vuoden' },
   ],
   highlights: [
-    { title: 'Joulupukin pajakylä napapiirillä', body: 'Alkuperäinen, valkoinen viiva merkitsee napapiirin aukion poikki, ja Joulupukki pitää vastaanottoa joka päivä vuodessa.' },
+    { title: 'Joulupukin pajakylä napapiirillä', body: 'Alkuperäinen: valkoinen viiva merkitsee napapiirin kulun aukion poikki, ja Joulupukki pitää vastaanottoa joka päivä vuodessa.' },
     { title: 'Arktikum-museo', body: 'Suomen hienoin arktisen tieteen, saamelaiskulttuurin ja Lapin historian museo, 172 metrin lasiputki Ounasjoen rannalla, osoittamassa pohjoiseen.' },
     { title: 'Ranuan eläinpuisto', body: '80 km ajomatka etelään: yksi maailman pohjoisimmista eläinpuistoista, 50 arktista ja boreaalista lajia mukaan lukien Suomen ainoat jääkarhut, ahmat ja ilvekset.' },
     { title: 'Ounasvaaran tunturi kaupungin sisällä', body: 'Hiihtomäki, alamäkipyöräpuisto ja revontulien näkölava, 10 minuuttia keskustasta autolla, ei kansallispuistoajoa tarvita.' },
@@ -102,7 +102,7 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Erämaaportti, 3 tunnin päässä pohjoisempana.' },
   ],
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkkitehtien suunnittelemat lasipääsiviit Joulupukin pajakylällä.' },
+    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkkitehtien suunnittelemat lasisviitit Joulupukin Pajakylässä.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Rannan aurora-mökit 15 min päässä kaupungista, täysi safarivalikoima paikan päällä.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Uudet lasikattoiset huoneistot Ounasvaaran tunturilta kaupunkinäkymin.' },
     { name: 'Kaikki Rovaniemen majoitukset', href: HOTEL_SEARCH_FOR('fi').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Selaa kaikki Rovaniemen hotellit ja mökit Sembossa.' },
@@ -120,7 +120,7 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     blurb: '10 km kaupunkiin · Lapin helpoin nouto · saatavuus ympäri vuoden',
   },
   dayPlan: [
-    { day: '01', title: 'Saavu · Joulupukin pajakylä', body: 'RVN 10 km kaupungista. Jätä laukut, suuntaa suoraan pajakylälle (auki ympäri vuoden). Ylitä napapiirin viiva, lähetä kortti. Illallinen Niliissä keskustassa.' },
+    { day: '01', title: 'Saavu · Joulupukin pajakylä', body: 'RVN 10 km kaupungista. Jätä laukut, suuntaa suoraan Pajakylään (auki ympäri vuoden). Ylitä napapiirin viiva, lähetä kortti. Illallinen Niliissä keskustassa.' },
     { day: '02', title: 'Husky + jäätikkö-kelluminen', body: 'Apukka tai lähitilalla husky-safari (varaa etukäteen). Iltapäivällä kuivapuvun jäätikkö-kelluminen Ounasjoella, yllättävän lämmin, täysin hiljainen. Revontuli-ikkuna Ounasvaaralta.' },
     { day: '03', title: 'Arktikum + kaupunkikulttuuri', body: 'Puolipäivä Arktikumissa (saamelais- + Lapin-historian museo, kaunis lasikäytävä). Lounas kaupungissa. Iltapäivä vapaa, Lainion lumikylän päiväretki sesongissa.' },
     { day: '04', title: 'Rauhallinen aamu · eteenpäin', body: 'Viimeinen sauna, aamiainen kaupungissa. Lennä kotiin RVN:stä tai vuokraa auto ja aja 2 h pohjoiseen Leville toiselle etapille.' },

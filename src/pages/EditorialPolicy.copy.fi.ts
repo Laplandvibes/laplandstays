@@ -8,13 +8,13 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Toimitus",
     "h1": "Miten testaamme",
-    "intro": "Periaatteet joiden mukaan LaplandStays toimii. Mistä hinnat tulevat, miten kumppanuussuhteita käsitellään, mitä tapahtuu kun jokin on väärin.",
+    "intro": "Periaatteet, joiden mukaan LaplandStays toimii. Mistä hinnat tulevat, miten kumppanuussuhteita käsitellään, mitä tapahtuu, kun jokin on väärin.",
     "principlesEyebrow": "Neljä periaatetta",
     "principlesH2": "Mitä voit odottaa",
     "principles": [
       {
         "title": "Tarkistetut hinnat joka kausi",
-        "body": "Jokainen \"alkaen X €/yö\" -väite otetaan operaattorin omasta varaussivulta tai varauskumppaneiltamme. Hinnat tarkistetaan vähintään kerran neljännesvuosittain ja erityisesti revontulisesongin alussa (syyskuu). Kun kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan että ohjaisi lukijat nollahakuun."
+        "body": "Jokainen \"alkaen X €/yö\" -väite otetaan operaattorin omasta varaussivulta tai varauskumppaneiltamme. Hinnat tarkistetaan vähintään kerran neljännesvuosittain ja erityisesti revontulisesongin alussa (syyskuu). Kun kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan, että ohjaisi lukijat nollahakuun."
       },
       {
         "title": "Nimettyjä kohteita, ei \"premium-5-tähtiä\"",
@@ -22,7 +22,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Kumppanuusriippumattomuus",
-        "body": "LaplandStays ansaitsee kumppanuusprovision varauksista jotka tehdään kumppanilinkkien kautta (hotellit Sembon (Adtraction) ja Trip.comin kautta, autot EconomyBookings (Travelpayouts), aktiviteetit GetYourGuide). Provisioaste on samankaltainen kumppaniohjelmassa, joten se ei vaikuta siihen mitä suositellaan. Suositellaan myös ei-kumppania (esim. VR junissa) kun se on oikea vastaus, katso /transport-sivu esimerkkinä."
+        "body": "LaplandStays ansaitsee kumppanuusprovision varauksista, jotka tehdään kumppanilinkkien kautta (hotellit Sembon (Adtraction) ja Trip.comin kautta, autot EconomyBookings (Travelpayouts), aktiviteetit GetYourGuide). Provisioaste on samaa luokkaa kaikissa kumppaniohjelmissa, joten se ei vaikuta siihen, mitä suositellaan. Suositellaan myös ei-kumppania (esim. VR junamatkoilla), kun se on oikea vastaus, katso /transport-sivu esimerkkinä."
       },
       {
         "title": "Korjauksia, ei hiljaisia muokkauksia",
@@ -73,10 +73,10 @@ const copy: PageCopy = {
     "corrH2": "Korjausprosessi",
     "corrP1": "Matkadata muuttuu. Hinnat liikkuvat, kohteet sulkeutuvat, lentoreitit lakkautetaan. Kun julkaistu tieto ei enää pidä paikkaansa, on parempi kuulla siitä kuin että lukija menettäisi päivänsä sen takia.",
     "corrP2Pre": "Miten ilmoittaa: lähetä sähköpostia ",
-    "corrP2Mid": " sivun URL:n ja virheellisen rivin kanssa. Se kirjataan kohdekohtaiseen statussivulle ja julkinen teksti päivitetään 1–3 päivän sisällä ei-kiireellisille asioille, samana päivänä hintavirheille jotka voivat vaikuttaa varauksiin.",
+    "corrP2Mid": " sivun URL:n ja virheellisen rivin kanssa. Se kirjataan kohdekohtaiseen statussivulle ja julkinen teksti päivitetään 1–3 päivän sisällä ei-kiireellisille asioille, samana päivänä hintavirheille, jotka voivat vaikuttaa varauksiin.",
     "corrP3": "Mitä ei koskaan tapahdu: hiljaisia muokkauksia. Olennaiset korjaukset saavat aina merkinnän sivuston muutoslokiin, päivättynä ja kuvattuna.",
     "readOnH2": "Lue lisää",
-    "readOnLead": "Muut politiikka- ja viitesivut jotka täydentävät kuvan.",
+    "readOnLead": "Muut politiikka- ja viitesivut, jotka täydentävät kokonaiskuvan.",
     "aboutLink": "Tietoa LaplandStaysistä",
     "termsLink": "Käyttöehdot",
     "privacyLink": "Tietosuojaseloste",

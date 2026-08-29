@@ -13,7 +13,7 @@ const copy: PageCopy = {
     lead: 'Neljä lentokenttää, yksi yöjuna Helsingistä, neljä todellista bussihintaa.',
     airportsEyebrow: 'Lentokentittäin',
     airportsH2: 'Valitse lentokenttä, älä maa',
-    airportsLead: 'Suomen Lapissa on neljä toimivaa lentokenttää. Useimmat matkailijat menevät Helsinkiin ja lisäävät 12 tuntia maakulutusta, yleensä turhaa. Suorat talvireitit Lontoosta, Pariisista, Amsterdamista ja Frankfurtista laskeutuvat lähimpänä mökkiäsi olevalle kiitotielle.',
+    airportsLead: 'Suomen Lapissa on neljä toimivaa lentokenttää. Useimmat matkailijat menevät Helsinkiin ja lisäävät 12 tuntia maakuljetuksia, yleensä turhaa. Suorat talvireitit Lontoosta, Pariisista, Amsterdamista ja Frankfurtista laskeutuvat lähimpänä mökkiäsi olevalle kiitotielle.',
     servesLabel: 'Palvelee',
     routesLabel: 'Suorat reitit',
     busLabel: 'Bussi',
@@ -44,7 +44,7 @@ const copy: PageCopy = {
     yesList: [
       'Yövyt syrjäisessä mökissä (Inarin rannat, Ylläksen syrjäosat, Muotka)',
       'Haluat ajaa kahden kohteen välillä (Saariselkä → Inari → Rovaniemi)',
-      'Olet 3+ hengen ryhmä jossa taksimatematiikka pettää',
+      'Olet 3+ hengen ryhmä, jossa taksimatematiikka pettää',
       'Hiihdät JA metsästät revontulia ja tarvitset joustoa selkeätaivasajoihin',
     ],
     compareHelsinki: 'Vertaa Helsinki-hinnat',

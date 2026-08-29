@@ -80,7 +80,7 @@ Kylä on pieni ja kävelyetäisyydellä, ryhmittynyt muutaman hotellin, ravintol
     { title: 'UKK-kansallispuisto ovellasi', body: 'Suomen toiseksi suurin kansallispuisto. Merkityt latu- ja vaellusreitit alkavat Saariselältä ja jatkuvat 60 km itään erämaahan.' },
     { title: 'Kaunispään tunturin näköalapaikka', body: 'Kylän yläpuolella olevalla tunturilla on tie ja hissi huipulle. Selkeähorisonttinen revontulinäkymä ja kesäisin keskiyön auringon panoraamat.' },
     { title: 'Husky- ja porotarhat', body: 'Useat toimivat tarhat 20 minuutin päässä kylästä järjestävät puolen päivän ja monipäiväisiä valjakkomatkoja kansallispuistoon.' },
-    { title: 'Revontulitaajuus', body: 'Tällä leveysasteella revontuliovaali kulkee useammin pään yli kuin etelämpänä, näet revontulia selvästi useammin kuin etelämpänä.' },
+    { title: 'Revontulitaajuus', body: 'Tällä leveysasteella revontuliovaali kulkee useammin suoraan pään yli, joten näet revontulia selvästi useammin kuin etelämpänä.' },
     { title: 'Tankavaaran kultakylä', body: '30 min ajomatka etelään: Lapin kullankaivuun perintö, huuhdontakursseja ja Kultamuseo.' },
     { title: 'Hiljaiset talvilatuverkot', body: 'Latuverkko on laaja mutta käyttöaste matala, kilometrejä hoidettua latua lähes ilman muita hiihtäjiä arkiaamuna.' },
   ],
@@ -121,7 +121,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
   },
   dayPlan: [
     { day: '01', title: 'Saavu · lasi-iglu', body: 'IVL iltapäivällä, kuljetus 30 min etelään, kirjautuminen Kakslauttaseen / Star Arcticiin / Muotkaan. Sauna, illallinen, revontulihälytys päällä.' },
-    { day: '02', title: 'UKK-kansallispuiston lumikenkä', body: 'Puolipäiväinen opastettu lumikenkäilyretki Urho Kekkoseen, kullanhuuhdontajoet, kääpiökoivuharjut. Lounas takaisin kohteessa, toinen puoli vapaata.' },
+    { day: '02', title: 'UKK-kansallispuiston lumikenkä', body: 'Puolipäiväinen opastettu lumikenkäilyretki Urho Kekkosen kansallispuistoon, kullanhuuhdontajoet, kääpiökoivuharjut. Lounas takaisin kohteessa, toinen puoli vapaata.' },
     { day: '03', title: 'Husky- + porotila-päivä', body: 'Aamulla husky-safari Saariselän kylältä. Iltapäivällä poroajelu lähellä olevalla saamelaistilalla. Iltaisin: pilkki tai sauna-järviuinti, ja revontulivahti jos taivas on selkeä.' },
     { day: '04', title: 'Rauhallinen aamu · ajo Inariin', body: 'Viimeinen iglu-aamu, ajo 50 min pohjoiseen Inarijärvelle saamelaiskulttuuripäivään Siida-museossa. Iltalento IVL:stä tai pidennä Inarin yöllä.' },
   ],

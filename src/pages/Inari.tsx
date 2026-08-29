@@ -89,7 +89,7 @@ Kesäkuun puoliväli–heinäkuun loppu on keskiyön aurinkoa: aurinko ei laske 
 Elokuun puoliväli tuo lyhyen, intensiivisen ruskan, punaiset ja oranssit värit tunturilla.`,
   howToGet: `Lennä Ivaloon (IVL), 40 min kuljetus. Suora Helsinki–Ivalo päivittäin, kausittaisia charter-reittejä Iso-Britanniasta ja Keski-Euroopasta.
 Vuokraa auto, parhaat mökit ovat järven rannan sivuteillä ja vaativat yksityistä kulkua.
-Pidemmille erämaamatkoille tie jatkuu Utsjokeen ja Norjan rajalle.`,
+Pidemmille erämaamatkoille tie jatkuu Utsjoelle ja Norjan rajalle.`,
   stayTypes: [
     'Rantamökit Inarijärvellä, 4–6 vierasta, yksityinen ranta, puulla lämpiävä sauna, pilkkivälineet.',
     'Syrjäiset erämaavillat, off-grid-tunnelma täydellä mukavuudella, tunteja koskematonta metsää joka suuntaan.',
@@ -117,7 +117,7 @@ Pidemmille erämaamatkoille tie jatkuu Utsjokeen ja Norjan rajalle.`,
     href: CARS_FOR('fi').fromIvalo,
     sid: 'destination_inari_cars_ivl',
     airport: 'Nouto Ivalon lentokentältä (IVL)',
-    blurb: '40 min Inarin kylälle · välttämätön Nellimille ja Inarijärven rantamökeille',
+    blurb: '40 min Inarin kylälle · välttämätön Nellimiin ja Inarijärven rantamökeille',
   },
   dayPlan: [
     { day: '01', title: 'Lasku · rantamökki', body: 'IVL-keskipäivän lento, ajo pohjoiseen Inarin kylälle tai Nellimiin. Asettuminen, sauna, rannankäynti. Inarin hiljaisuus asettuu tunnin kahden kuluttua.' },
