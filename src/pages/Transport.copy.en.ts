@@ -69,7 +69,7 @@ const copy = {
     ctaPrimary: 'See Lapland accommodation',
     ctaSecondary: 'When to go',
     airports: [
-      { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Year-round HEL · winter LHR · CDG · BCN · MAD', busPrice: '€7 · 15 min', taxiPrice: '€15–25' },
+      { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Year-round HEL · winter LHR · CDG · BCN · MAD', busPrice: '€8 · 15 min', taxiPrice: '€15–25' },
       { code: 'KTT', name: 'Kittilä', serves: 'Levi (15 km) · Ylläs (50 km)', routes: 'Winter LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '€8 to Levi · €25–30 to Ylläs', taxiPrice: '€25–35 to Levi · €100–120 to Ylläs' },
       { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Winter HEL · LHR · CDG · AMS', busPrice: '€15–20 to Saariselkä · €15 to Inari', taxiPrice: '€40–60 to Saariselkä · €60–80 to Inari' },
       { code: 'ENF', name: 'Enontekiö', serves: 'Far north fells (Ylläs · Hetta)', routes: 'Limited winter HEL only', busPrice: 'Pre-booked transfer only', taxiPrice: '€80+' },

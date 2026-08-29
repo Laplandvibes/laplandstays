@@ -56,7 +56,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Local detail",
-        "body": "Bus prices from KTT (€8), IVL (€15), RVN (€7). Which fells have ski-in / ski-out, which lakes face north for aurora horizons, which months book out 12 months ahead. The kind of detail a friend from Rovaniemi would mention."
+        "body": "Bus prices from KTT (€8), IVL (€15), RVN (€8). Which fells have ski-in / ski-out, which lakes face north for aurora horizons, which months book out 12 months ahead. The kind of detail a friend from Rovaniemi would mention."
       }
     ],
     "ctaH2": "Ready when you are",

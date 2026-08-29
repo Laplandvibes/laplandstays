@@ -3,7 +3,7 @@ import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
 
 const en: DestinationBody = {
   tagline: "The gateway to Urho Kekkonen National Park, premium cabins at the edge of Europe's last real wilderness.",
-  description: `Saariselkä sits in Inari municipality, 250 km north of the Arctic Circle, at the treeline. To the east stretches Urho Kekkonen National Park, 2,550 square kilometres of near-untouched fell, river and old-growth forest, one of the largest wilderness areas in the EU.
+  description: `Saariselkä sits in Inari municipality, some 200 km north of the Arctic Circle, at the treeline. To the east stretches Urho Kekkonen National Park, 2,550 square kilometres of near-untouched fell, river and old-growth forest, one of the largest wilderness areas in the EU.
 
 The village is small and walkable, grouped around a few hotels, restaurants and ski slopes. Premium cabins sit along the road to Ivalo and on the edge of the national park. The position matters: you can step from your door into an afternoon of husky sledding, then return for a private sauna under aurora on the same evening.`,
   facts: [
@@ -67,7 +67,7 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
 
 const fi: DestinationBody = {
   tagline: 'Portti Urho Kekkosen kansallispuistoon, premium-mökkejä Euroopan viimeisen aidon erämaan reunalla.',
-  description: `Saariselkä sijaitsee Inarin kunnassa, 250 km napapiirin pohjoispuolella, puurajalla. Idässä levittäytyy Urho Kekkosen kansallispuisto, 2 550 neliökilometriä lähes koskematonta tunturia, jokea ja ikimetsää, yksi EU:n suurimmista erämaa-alueista.
+  description: `Saariselkä sijaitsee Inarin kunnassa, yli 200 km napapiirin pohjoispuolella, puurajalla. Idässä levittäytyy Urho Kekkosen kansallispuisto, 2 550 neliökilometriä lähes koskematonta tunturia, jokea ja ikimetsää, yksi EU:n suurimmista erämaa-alueista.
 
 Kylä on pieni ja kävelyetäisyydellä, ryhmittynyt muutaman hotellin, ravintolan ja rinteen ympärille. Premium-mökit sijaitsevat Ivaloon vievän tien varrella ja kansallispuiston reunalla. Sijainti merkitsee: voit astua ovelta iltapäivän husky-ajelulle ja palata yksityiseen saunaan revontulten alle samana iltana.`,
   facts: [
@@ -131,7 +131,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
 
 const de: DestinationBody = {
   tagline: 'Das Tor zum Urho-Kekkonen-Nationalpark, Premium-Hütten am Rand der letzten echten Wildnis Europas.',
-  description: `Saariselkä liegt in der Gemeinde Inari, 250 km nördlich des Polarkreises, an der Baumgrenze. Östlich erstreckt sich der Urho-Kekkonen-Nationalpark, 2.550 Quadratkilometer nahezu unberührter Fjälls, Flüsse und Urwald, eines der größten Wildnisgebiete der EU.
+  description: `Saariselkä liegt in der Gemeinde Inari, gut 200 km nördlich des Polarkreises, an der Baumgrenze. Östlich erstreckt sich der Urho-Kekkonen-Nationalpark, 2.550 Quadratkilometer nahezu unberührter Fjälls, Flüsse und Urwald, eines der größten Wildnisgebiete der EU.
 
 Das Dorf ist klein und fußläufig, gruppiert um einige Hotels, Restaurants und Skipisten. Premium-Hütten liegen entlang der Straße nach Ivalo und am Rand des Nationalparks. Die Lage zählt: Sie können von Ihrer Tür in einen Nachmittag mit Husky-Schlittenfahrt aufbrechen und am selben Abend für eine private Sauna unter dem Polarlicht zurückkehren.`,
   facts: [
@@ -195,7 +195,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
 
 const ko: DestinationBody = {
   tagline: 'Urho Kekkonen 국립공원으로 향하는 관문. 유럽 최후의 진짜 야생 가장자리에 자리한 프리미엄 캐빈.',
-  description: `사리셀카는 이나리 자치체에 속하며, 북극권에서 250km 북쪽 수목한계선에 자리합니다. 동쪽으로는 Urho Kekkonen 국립공원이 펼쳐집니다. 손길이 거의 닿지 않은 봉우리와 강, 원시림 2,550 km², EU 최대급의 야생 보호 구역 중 하나입니다.
+  description: `사리셀카는 이나리 자치체에 속하며, 북극권에서 200km 남짓 북쪽 수목한계선에 자리합니다. 동쪽으로는 Urho Kekkonen 국립공원이 펼쳐집니다. 손길이 거의 닿지 않은 봉우리와 강, 원시림 2,550 km², EU 최대급의 야생 보호 구역 중 하나입니다.
 
 마을은 작고 도보 가능한 규모로, 호텔과 레스토랑, 스키 슬로프 몇 곳을 중심으로 모여 있습니다. 프리미엄 캐빈은 Ivalo로 향하는 도로변과 국립공원 가장자리에 자리합니다. 위치가 핵심입니다. 문 앞에서 오후의 허스키 썰매 투어를 출발해 같은 저녁 오로라 아래에서 전용 사우나에 몸을 담그실 수 있습니다.`,
   facts: [
@@ -259,7 +259,7 @@ const ko: DestinationBody = {
 
 const fr: DestinationBody = {
   tagline: "La porte du parc national Urho Kekkonen, chalets premium aux portes de la dernière vraie nature sauvage d'Europe.",
-  description: `Saariselkä se situe dans la commune d'Inari, à 250 km au nord du cercle polaire, à la limite des arbres. À l'est s'étend le parc national Urho Kekkonen, 2 550 km² de fjells, rivières et forêts primaires quasi intacts, l'une des plus grandes zones sauvages de l'UE.
+  description: `Saariselkä se situe dans la commune d'Inari, à quelque 200 km au nord du cercle polaire, à la limite des arbres. À l'est s'étend le parc national Urho Kekkonen, 2 550 km² de fjells, rivières et forêts primaires quasi intacts, l'une des plus grandes zones sauvages de l'UE.
 
 Le village est petit et se parcourt à pied, autour de quelques hôtels, restaurants et pistes de ski. Les chalets premium se déploient le long de la route d'Ivalo et au bord du parc national. La situation compte : on peut sortir de chez soi pour une après-midi de traîneau à huskys et rentrer le même soir pour un sauna privatif sous les aurores.`,
   facts: [
@@ -323,7 +323,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
 
 const it: DestinationBody = {
   tagline: "La porta del parco nazionale Urho Kekkonen, chalet premium ai margini dell'ultima vera natura selvaggia d'Europa.",
-  description: `Saariselkä si trova nel comune di Inari, 250 km a nord del Circolo Polare, al limite degli alberi. A est si stende il parco nazionale Urho Kekkonen, 2.550 km² di fjell, fiumi e foreste antiche quasi intatti, una delle più vaste aree selvagge dell'UE.
+  description: `Saariselkä si trova nel comune di Inari, circa 200 km a nord del Circolo Polare, al limite degli alberi. A est si stende il parco nazionale Urho Kekkonen, 2.550 km² di fjell, fiumi e foreste antiche quasi intatti, una delle più vaste aree selvagge dell'UE.
 
 Il paese è piccolo e si percorre a piedi, raccolto attorno a pochi hotel, ristoranti e piste da sci. Gli chalet premium si distribuiscono lungo la strada per Ivalo e ai margini del parco. La posizione conta: si può uscire di casa per un pomeriggio in slitta trainata dagli husky e rientrare la sera stessa per una sauna privata sotto l'aurora.`,
   facts: [
@@ -387,7 +387,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
 
 const nl: DestinationBody = {
   tagline: 'De poort naar het Urho Kekkonen-nationaal park, premium cabins aan de rand van de laatste echte wildernis van Europa.',
-  description: `Saariselkä ligt in de gemeente Inari, 250 km ten noorden van de Poolcirkel, op de boomgrens. Naar het oosten strekt zich het Urho Kekkonen-nationaal park uit, 2.550 km² vrijwel onaangeroerd fjell, rivieren en oerbos, een van de grootste wildernissen van de EU.
+  description: `Saariselkä ligt in de gemeente Inari, ruim 200 km ten noorden van de Poolcirkel, op de boomgrens. Naar het oosten strekt zich het Urho Kekkonen-nationaal park uit, 2.550 km² vrijwel onaangeroerd fjell, rivieren en oerbos, een van de grootste wildernissen van de EU.
 
 Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. Premium cabins liggen langs de weg naar Ivalo en aan de rand van het park. De positie telt: u stapt vanaf de deur in een middag huskysleeën en keert dezelfde avond terug voor een privésauna onder het noorderlicht.`,
   facts: [
@@ -451,7 +451,7 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
 
 const ja: DestinationBody = {
   tagline: 'ウルホ・ケッコネン国立公園への玄関口。ヨーロッパ最後の真の原野の縁にあるプレミアムキャビン。',
-  description: `サーリセルカは北極圏のおよそ250km北、樹林限界に位置するイナリ自治体内の集落です。東側にはウルホ・ケッコネン国立公園が広がり、2,550平方kmのほぼ手つかずの山、川、原生林がEU最大級の原野の一つを形作っています。
+  description: `サーリセルカは北極圏のおよそ200km北、樹林限界に位置するイナリ自治体内の集落です。東側にはウルホ・ケッコネン国立公園が広がり、2,550平方kmのほぼ手つかずの山、川、原生林がEU最大級の原野の一つを形作っています。
 
 村は小さく徒歩で回れ、いくつかのホテル、レストラン、スキー場が中心に集まっています。プレミアムキャビンはイヴァロへ向かう道沿いと国立公園の縁に並びます。この立地が肝心で、玄関先から午後のハスキーぞりに出かけ、その夜にはオーロラの下でプライベートサウナへ戻ることができます。`,
   facts: [
@@ -517,7 +517,7 @@ const ja: DestinationBody = {
 
 const es: DestinationBody = {
   tagline: 'La puerta al Parque Nacional Urho Kekkonen, cabañas premium al borde del último gran wildernes de Europa.',
-  description: `Saariselkä se sitúa en el municipio de Inari, 250 km al norte del Círculo Polar, en el límite del bosque. Al este se extiende el Parque Nacional Urho Kekkonen, 2.550 km² de fells, ríos y bosque primario casi intactos, una de las mayores zonas salvajes de la UE.
+  description: `Saariselkä se sitúa en el municipio de Inari, unos 200 km al norte del Círculo Polar, en el límite del bosque. Al este se extiende el Parque Nacional Urho Kekkonen, 2.550 km² de fells, ríos y bosque primario casi intactos, una de las mayores zonas salvajes de la UE.
 
 El pueblo es pequeño y peatonal, agrupado en torno a unos pocos hoteles, restaurantes y pistas de esquí. Las cabañas premium se reparten a lo largo de la carretera hacia Ivalo y junto al límite del parque. La ubicación importa: puede salir de su puerta a una tarde de mushing y volver para una sauna privada bajo la aurora esa misma noche.`,
   facts: [
@@ -581,7 +581,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
 
 const ptBR: DestinationBody = {
   tagline: 'A porta de entrada para o Parque Nacional Urho Kekkonen, cabanas premium na borda da última verdadeira região selvagem da Europa.',
-  description: `Saariselkä fica no município de Inari, 250 km ao norte do Círculo Polar Ártico, na linha das árvores. A leste se estende o Parque Nacional Urho Kekkonen, 2.550 quilômetros quadrados de fells, rios e floresta primária quase intocados, uma das maiores áreas selvagens da UE.
+  description: `Saariselkä fica no município de Inari, cerca de 200 km ao norte do Círculo Polar Ártico, na linha das árvores. A leste se estende o Parque Nacional Urho Kekkonen, 2.550 quilômetros quadrados de fells, rios e floresta primária quase intocados, uma das maiores áreas selvagens da UE.
 
 A vila é pequena e percorrível a pé, agrupada em torno de alguns hotéis, restaurantes e pistas de esqui. As cabanas premium ficam ao longo da estrada para Ivalo e à beira do parque. A localização importa: você pode sair da porta para uma tarde de trenó com huskies e voltar para uma sauna privativa sob a aurora na mesma noite.`,
   facts: [
@@ -709,7 +709,7 @@ const zhCN: DestinationBody = {
 
 const sv: DestinationBody = {
   tagline: 'Porten till Urho Kekkonens nationalpark: premiumstugor i kanten av Europas sista riktiga vildmark.',
-  description: `Saariselkä ligger i Inari kommun, 250 km norr om polcirkeln, vid trädgränsen. Österut sträcker sig Urho Kekkonens nationalpark: 2 550 kvadratkilometer nästan orörd fjällterräng, älvar och gammelskog, ett av EU:s största vildmarksområden.
+  description: `Saariselkä ligger i Inari kommun, drygt 200 km norr om polcirkeln, vid trädgränsen. Österut sträcker sig Urho Kekkonens nationalpark: 2 550 kvadratkilometer nästan orörd fjällterräng, älvar och gammelskog, ett av EU:s största vildmarksområden.
 
 Byn är liten och går att gå runt i, samlad kring några hotell, restauranger och skidbackar. Premiumstugorna ligger längs vägen mot Ivalo och i kanten av nationalparken. Läget är hela poängen: du kan gå ut genom dörren till en eftermiddag med hundspann och komma tillbaka till egen bastu under norrsken samma kväll.`,
   facts: [

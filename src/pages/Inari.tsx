@@ -5,7 +5,7 @@ const en: DestinationBody = {
   tagline: "Sámi capital, Finland's third-largest lake, and the most remote cabins in Finnish Lapland.",
   description: `Inari is the capital of Finnish Sámi culture and the largest municipality in Finland by area. Lake Inari, Inarijärvi, is 1,040 km² dotted with 3,000 islands, the third-largest lake in the country and one of the clearest bodies of water in Europe.
 
-This is the deep north. Cabins here are genuinely remote: a ten-minute drive from the village can put you on a shore with no other lights visible for 180° of horizon. The SIIDA museum in Inari village anchors Sámi heritage, and the surrounding wilderness reaches into the tundra plateaus of the Utsjoki border.`,
+This is the deep north. Cabins here are genuinely remote: a ten-minute drive from the village can put you on a shore with no other lights visible for 180° of horizon. The Siida museum in Inari village anchors Sámi heritage, and the surrounding wilderness reaches into the tundra plateaus of the Utsjoki border.`,
   facts: [
     { label: 'Lakeside cabins from', value: '€200/night' },
     { label: 'Aurora Village from', value: '€300/night' },
@@ -14,15 +14,15 @@ This is the deep north. Cabins here are genuinely remote: a ten-minute drive fro
   ],
   highlights: [
     { title: 'Lake Inari exclusivity', body: 'Properties on the lake shore are far apart by design. Private docks, ice-fishing holes in winter, summer boat cruises past the sacred island Ukonkivi (landings are no longer permitted).' },
-    { title: 'SIIDA Sámi museum and nature centre', body: 'The best introduction to Sámi culture in the Nordic countries, indigenous history, language and the ecology of Sápmi, all in one building.' },
+    { title: 'Siida Sámi museum and nature centre', body: 'One of the best introductions to Sámi culture in the Nordic countries, indigenous history, language and the ecology of Sápmi, all in one building.' },
     { title: 'Aurora over open water', body: 'The lake shore gives a rare 180° unobstructed sky. In winter, aurora reflections on the frozen surface make viewing unusually dramatic.' },
     { title: 'Sámi food traditions', body: 'Local kitchens serve poronkäristys (sautéed reindeer), cold-smoked Arctic char, cloudberry desserts, ingredients from the land around you.' },
     { title: 'Tundra fjeld hiking', body: 'North of Inari the treeline thins into open Lapland fjeld. Summer hiking across Kevo and Utsjoki is as remote as Europe gets.' },
     { title: 'Winter husky and snowmobile access', body: 'Kennels around Inari run lake-ice sled routes on frozen Inarijärvi, wide open, no trees, unusually fast and silent.' },
   ],
   whenToGo: `Late September – early April is aurora season; at this latitude the aurora oval regularly sits directly overhead.
-Mid-June – late July is midnight sun: the sun never sets for roughly six weeks.
-Mid-August brings the short, intense ruska (autumn colour), reds and oranges across the fjeld.`,
+Late May – late July is midnight sun: the sun never sets for roughly two months.
+Early September brings the short, intense ruska (autumn colour), reds and oranges across the fjeld.`,
   howToGet: `Fly into Ivalo (IVL), 40 min transfer. Direct Helsinki – Ivalo daily, seasonal charter routes from UK and Central Europe.
 Rent a car, the best cabins are on lake-shore side-roads and require private transport.
 For extended wilderness trips, the road continues to Utsjoki and the Norwegian border.`,

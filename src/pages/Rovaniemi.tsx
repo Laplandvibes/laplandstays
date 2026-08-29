@@ -14,15 +14,15 @@ The mix is unusual: a working northern city with restaurants, the Arktikum scien
   ],
   highlights: [
     { title: 'Santa Claus Village on the Arctic Circle', body: 'The original, a white line marks the Arctic Circle across the square, and Santa keeps office hours every day of the year.' },
-    { title: 'Arktikum museum', body: "Finland's finest museum of Arctic science, Sámi culture and Lapland history, a 172-metre glass tube on the bank of the Ounasjoki, pointing north." },
+    { title: 'Arktikum museum', body: "One of Finland's finest museums of Arctic science, Sámi culture and Lapland history, a 172-metre glass tube on the bank of the Kemijoki, pointing north." },
     { title: 'Ranua Wildlife Park', body: "An 80 km drive south: one of the world's northernmost zoos, with 50 Arctic and boreal species including Finland's only polar bears, wolverines and lynx." },
     { title: 'Ounasvaara fell inside the city', body: 'A ski hill, downhill bike park and aurora viewpoint, 10 minutes from the centre by car, no national-park drive required.' },
     { title: 'Flight connectivity', body: 'Rovaniemi airport has the widest winter route network in Lapland: direct to London, Paris, Frankfurt, Vienna, and dozens of charter routes.' },
     { title: 'River-side cabin belts', body: 'Properties along the Kemijoki and on Ounasvaara give aurora-ready dark skies within 15 minutes of restaurants and shopping.' },
   ],
   whenToGo: `Mid-September – late March is aurora season; November – February is deepest winter.
-"Kaamos", the polar night, runs a few weeks either side of December 21. Blue twilight all day, no full sun.
-June – July gives midnight sun and whitewater rapids at Oikaraisenkoski.`,
+Around December 21 the sun rises for barely two hours: Rovaniemi sits just south of true polar night, in long blue twilight.
+June – July gives midnight sun and rafting trips on the rivers around the city.`,
   howToGet: `Fly into Rovaniemi (RVN), the best-connected airport in Lapland.
 Finnish Railways runs overnight trains from Helsinki with car-carrier service direct to Rovaniemi station.
 Onward car hire is easy; the city is the logistical base for inland Lapland road trips.`,
@@ -85,7 +85,7 @@ Yhdistelmä on epätavallinen: toimiva pohjoinen kaupunki ravintoloineen, Arktik
     { title: 'Joenvarsimökkivyöhykkeet', body: 'Kemijoen varrella ja Ounasvaaralla sijaitsevat kohteet tarjoavat revontulivalmiit pimeät taivaat 15 minuutin päässä ravintoloista ja kaupoista.' },
   ],
   whenToGo: `Syyskuun puoliväli–maaliskuun loppu on revontulisesonki; marraskuu–helmikuu on syvintä talvea.
-"Kaamos", napayö, kestää muutamia viikkoja joulukuun 21. päivän molemmin puolin. Sininen hämärä koko päivän, ei täyttä aurinkoa.
+Rovaniemellä ei ole varsinaista kaamosta: aurinko nousee jouluaikaankin pariksi tunniksi, ja keskipäivä on pitkää sinistä hämärää.
 Kesä–heinäkuu antaa keskiyön auringon ja koskenlaskua Oikaraisenkoskella.`,
   howToGet: `Lennä Rovaniemelle (RVN), Lapin parhaiten verkostoitunut lentokenttä.
 VR liikennöi yöjunia Helsingistä autonkuljetuspalvelulla suoraan Rovaniemen asemalle.
@@ -149,7 +149,7 @@ Die Mischung ist ungewöhnlich: eine funktionierende nordische Stadt mit Restaur
     { title: 'Flussufer-Hüttenzonen', body: 'Unterkünfte am Kemijoki und auf Ounasvaara bieten polarlicht-taugliche dunkle Himmel innerhalb von 15 Minuten zu Restaurants und Einkauf.' },
   ],
   whenToGo: `Mitte September – Ende März ist Polarlicht-Saison; November – Februar ist tiefster Winter.
-„Kaamos", die Polarnacht, dauert einige Wochen vor und nach dem 21. Dezember. Blaue Dämmerung den ganzen Tag, keine volle Sonne.
+Rovaniemi hat keine echte Polarnacht: Auch um den 21. Dezember geht die Sonne für gut zwei Stunden auf, der Mittag ist eine lange blaue Dämmerung.
 Juni – Juli bringt Mitternachtssonne und Wildwasser-Rapids in Oikaraisenkoski.`,
   howToGet: `Fliegen Sie nach Rovaniemi (RVN), der bestvernetzte Flughafen Lapplands.
 Die finnischen Eisenbahnen fahren Nachtzüge aus Helsinki mit Autotransport direkt zum Bahnhof Rovaniemi.
@@ -213,7 +213,7 @@ const ko: DestinationBody = {
     { title: '강가 캐빈 벨트', body: 'Kemijoki와 Ounasvaara에 자리한 숙소는 레스토랑과 쇼핑 인프라에서 15분 이내, 오로라 관측에 충분히 어두운 하늘을 제공합니다.' },
   ],
   whenToGo: `9월 중순–3월 말이 오로라 시즌이고, 11월–2월이 가장 깊은 겨울입니다.
-"Kaamos". 극야. 는 12월 21일을 전후로 몇 주간 이어지며, 하루 내내 푸른 황혼이 깔리고 해는 완전히 뜨지 않습니다.
+로바니에미에는 진정한 극야가 없습니다. 12월 21일 무렵에도 해가 두 시간 남짓 떠오르며, 한낮은 긴 푸른 황혼입니다.
 6–7월은 백야와 Oikaraisenkoski의 급류 래프팅의 계절입니다.`,
   howToGet: `로바니에미(RVN)로 비행하세요. 라플란드에서 가장 잘 연결된 공항입니다.
 VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 운행하며, 로바니에미 역에 바로 정차합니다.
@@ -277,7 +277,7 @@ Le mélange est singulier : une vraie ville du Nord avec restaurants, le musée 
     { title: 'Ceintures de chalets en bord de rivière', body: 'Les adresses le long du Kemijoki et sur Ounasvaara offrent un ciel suffisamment noir pour l\'aurore à quinze minutes des restaurants et des commerces.' },
   ],
   whenToGo: `Mi-septembre à fin mars constitue la saison des aurores ; novembre à février est le cœur de l\'hiver.
-La « kaamos », la nuit polaire, dure quelques semaines de part et d\'autre du 21 décembre. Crépuscule bleu toute la journée, pas de plein soleil.
+Rovaniemi ne connaît pas de vraie nuit polaire : même le 21 décembre, le soleil se lève environ deux heures, et la mi-journée est un long crépuscule bleu.
 Juin–juillet apporte le soleil de minuit et les rapides d\'Oikaraisenkoski.`,
   howToGet: `Vol vers Rovaniemi (RVN), l\'aéroport le mieux connecté de Laponie.
 Les chemins de fer finlandais assurent des trains de nuit depuis Helsinki avec service auto-train direct jusqu\'à la gare de Rovaniemi.
@@ -341,7 +341,7 @@ La miscela è inconsueta: una vera città nordica con ristoranti, il museo scien
     { title: 'Cinture di chalet lungo i fiumi', body: 'Le strutture sul Kemijoki e su Ounasvaara offrono cieli abbastanza scuri per l\'aurora a un quarto d\'ora da ristoranti e negozi.' },
   ],
   whenToGo: `Da metà settembre a fine marzo è stagione di aurore; novembre–febbraio è l\'inverno più profondo.
-La "kaamos", la notte polare, dura alcune settimane attorno al 21 dicembre. Crepuscolo blu tutto il giorno, mai pieno sole.
+Rovaniemi non ha una vera notte polare: anche il 21 dicembre il sole sorge per circa due ore, e il mezzogiorno è un lungo crepuscolo blu.
 Giugno–luglio porta il sole di mezzanotte e le rapide di Oikaraisenkoski.`,
   howToGet: `Voli per Rovaniemi (RVN), l\'aeroporto meglio connesso della Lapponia.
 Le ferrovie finlandesi corrono treni notturni da Helsinki con servizio auto al seguito direttamente alla stazione di Rovaniemi.
@@ -405,7 +405,7 @@ De mix is ongebruikelijk: een werkende noordelijke stad met restaurants, het wet
     { title: 'Cabin-zones langs de rivier', body: 'Accommodaties langs de Kemijoki en op Ounasvaara bieden donker genoeg hemel voor aurora binnen 15 minuten van restaurants en winkels.' },
   ],
   whenToGo: `Half september–eind maart is aurora-seizoen; november–februari is de diepste winter.
-"Kaamos", de poolnacht, duurt enkele weken rond 21 december. Blauwe schemering de hele dag, geen volle zon.
+Rovaniemi heeft geen echte poolnacht: zelfs op 21 december komt de zon ruim twee uur op, en de middag is een lange blauwe schemering.
 Juni–juli geeft middernachtszon en wildwaterstroomversnellingen bij Oikaraisenkoski.`,
   howToGet: `Vlieg naar Rovaniemi (RVN), de best verbonden luchthaven van Lapland.
 De Finse spoorwegen rijden nachttreinen vanuit Helsinki met autorailservice tot aan station Rovaniemi.
@@ -469,7 +469,7 @@ const ja: DestinationBody = {
     { title: '川辺のキャビンベルト', body: 'ケミ川沿いとオウナスヴァーラ山の物件は、レストランやショッピングから15分以内でオーロラに適した暗い空を提供します。' },
   ],
   whenToGo: `9月中旬〜3月下旬がオーロラ・シーズン。11月〜2月は厳冬期です。
-「カーモス」。極夜。は12月21日の前後数週間。終日青の薄明、太陽は昇り切りません。
+ロヴァニエミに本当の極夜はありません。12月21日前後でも太陽は2時間ほど昇り、日中は長い青の薄明に包まれます。
 6〜7月は白夜とOikaraisenkoskiの急流が楽しめます。`,
   howToGet: `ロヴァニエミ(RVN)へ。ラップランドで最も路線網が充実した空港。
 フィンランド国鉄はヘルシンキからの夜行列車を運行し、車両運搬車サービスでロヴァニエミ駅まで直行します。
@@ -715,7 +715,7 @@ A combinação é incomum: uma cidade nortenha em pleno funcionamento, com resta
     { title: 'Faixas de cabanas à beira-rio', body: 'As propriedades ao longo do Kemijoki e sobre Ounasvaara oferecem céus escuros prontos para aurora a 15 minutos de restaurantes e compras.' },
   ],
   whenToGo: `Meados de setembro a fim de março é temporada de aurora; novembro a fevereiro é o pleno inverno.
-"Kaamos", a noite polar, vai algumas semanas antes e depois de 21 de dezembro. Crepúsculo azul o dia todo, sem sol pleno.
+Rovaniemi não tem noite polar de verdade: mesmo em 21 de dezembro o sol nasce por cerca de duas horas, e o meio-dia é um longo crepúsculo azul.
 Junho a julho traz sol da meia-noite e corredeiras em Oikaraisenkoski.`,
   howToGet: `Voe até Rovaniemi (RVN), o aeroporto mais conectado da Lapônia.
 A ferrovia finlandesa opera trens noturnos a partir de Helsinque com serviço de transporte de automóveis direto à estação de Rovaniemi.
@@ -779,7 +779,7 @@ const zhCN: DestinationBody = {
     { title: '滨河小屋带', body: '沿克米河及Ounasvaara山的房源在15分钟车程内即可远离餐厅与购物区,享受适合极光的暗空。' },
   ],
   whenToGo: `9月中旬至3月下旬为极光季;11月至2月是深冬。
-"Kaamos"。极夜。大约在12月21日前后持续数周。整日是蓝色暮光,没有完整日照。
+罗瓦涅米没有真正的极夜：即使在12月21日前后，太阳也会升起约两小时，正午是漫长的蓝色暮光。
 6月至7月带来午夜阳光与Oikaraisenkoski的激流。`,
   howToGet: `飞往罗瓦涅米(RVN)。拉普兰连接最完善的机场。
 芬兰国铁开行赫尔辛基至罗瓦涅米的夜班列车,并提供轿车托运,直达罗瓦涅米站。
@@ -843,7 +843,7 @@ Blandningen är ovanlig: en fungerande nordlig stad med restauranger, vetenskaps
     { title: 'Stugbälten längs älven', body: 'Boenden längs Kemijoki och på Ounasvaara ger mörk himmel för norrsken inom 15 minuter från restauranger och butiker.' },
   ],
   whenToGo: `Mitten av september–slutet av mars är norrskenssäsong; november–februari är djupvinter.
-"Kaamos", polarnatten, pågår några veckor på var sida om den 21 december. Blå skymning hela dagen, ingen egentlig sol.
+Rovaniemi har ingen egentlig polarnatt: även kring den 21 december går solen upp i drygt två timmar, och mitt på dagen råder en lång blå skymning.
 Juni–juli ger midnattssol och forsränning i Oikaraisenkoski.`,
   howToGet: `Flyg till Rovaniemi (RVN), Lapplands bäst förbundna flygplats.
 Finska statsjärnvägarna kör nattåg från Helsingfors med bilvagn direkt till Rovaniemi station.

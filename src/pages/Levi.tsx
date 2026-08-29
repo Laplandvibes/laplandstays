@@ -3,14 +3,14 @@ import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
 
 const en: DestinationBody = {
   tagline: "Finland's biggest ski resort with restaurants, safaris and aurora cabins a short drive from the lifts.",
-  description: `Levi sits in Kittilä municipality, about 170 km north of the Arctic Circle. It grew from a single lift in the 1960s into Finland's largest ski resort, with 43 slopes and 28 lifts served by a compact, walkable village centre.
+  description: `Levi sits in Kittilä municipality, about 170 km north of the Arctic Circle. It grew from a single lift in the 1960s into Finland's largest ski resort, with 44 slopes and 26 lifts served by a compact, walkable village centre.
 
 It is the easiest entry point into luxury Lapland travel: Kittilä airport is 15 minutes away, the FIS World Cup slalom opens each November on Levi Black, and premium cabins are scattered through the surrounding fell landscape, close enough to the village for dinner, far enough for silence and dark-sky aurora viewing.`,
   facts: [
     { label: 'Hotels from', value: '€100/night' },
     { label: 'Glass igloos from', value: '€350/night' },
     { label: 'Nearest airport', value: 'KTT 15 min' },
-    { label: 'Slopes', value: '43' },
+    { label: 'Slopes', value: '44' },
   ],
   highlights: [
     { title: 'Ski-in cabins on Levitunturi', body: 'Chalets on the slopes of Levifell give direct access to the gondola and the long blue and red runs that ring the mountain.' },
@@ -67,14 +67,14 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
 
 const fi: DestinationBody = {
   tagline: 'Suomen suurin hiihtokeskus ravintoloineen, safareineen ja revontulimökkeineen lyhyen ajomatkan päässä rinteistä.',
-  description: `Levi sijaitsee Kittilän kunnassa, noin 170 km napapiirin pohjoispuolella. Yhdestä hissistä 1960-luvulla kasvoi Suomen suurin hiihtokeskus: 43 rinnettä ja 28 hissiä, joita palvelee tiivis, kävelyetäisyydellä oleva kyläkeskus.
+  description: `Levi sijaitsee Kittilän kunnassa, noin 170 km napapiirin pohjoispuolella. Yhdestä hissistä 1960-luvulla kasvoi Suomen suurin hiihtokeskus: 44 rinnettä ja 26 hissiä, joita palvelee tiivis, kävelyetäisyydellä oleva kyläkeskus.
 
 Se on helpoin sisäänkäynti Lapin luksusmatkailuun: Kittilän lentokenttä on 15 minuutin päässä, FIS-maailmancupin pujottelu avaa kauden joka marraskuu Levi Blackilla, ja premium-mökit ovat hajallaan ympäröivässä tunturimaisemassa, riittävän lähellä kylää illalliselle, riittävän kaukana hiljaisuuteen ja revontulien katseluun pimeällä taivaalla.`,
   facts: [
     { label: 'Hotellit alkaen', value: '100 €/yö' },
     { label: 'Lasi-iglut alkaen', value: '350 €/yö' },
     { label: 'Lähin lentokenttä', value: 'KTT 15 min' },
-    { label: 'Rinteitä', value: '43' },
+    { label: 'Rinteitä', value: '44' },
   ],
   highlights: [
     { title: 'Rinneasunnot Levitunturilla', body: 'Levitunturin rinteillä sijaitsevat asunnot tarjoavat suoran pääsyn gondoliin ja pitkille sinisille ja punaisille rinteille, jotka kiertävät tunturia.' },
@@ -131,14 +131,14 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
 
 const de: DestinationBody = {
   tagline: 'Finnlands größtes Skigebiet mit Restaurants, Safaris und Polarlicht-Hütten wenige Autominuten von den Liften entfernt.',
-  description: `Levi liegt in der Gemeinde Kittilä, rund 170 km nördlich des Polarkreises. Aus einem einzigen Lift in den 1960er Jahren ist Finnlands größtes Skigebiet gewachsen: 43 Pisten und 28 Lifte, bedient von einem kompakten, fußläufigen Dorfkern.
+  description: `Levi liegt in der Gemeinde Kittilä, rund 170 km nördlich des Polarkreises. Aus einem einzigen Lift in den 1960er Jahren ist Finnlands größtes Skigebiet gewachsen: 44 Pisten und 26 Lifte, bedient von einem kompakten, fußläufigen Dorfkern.
 
 Es ist der einfachste Einstieg in den Luxus-Lappland-Tourismus: Der Flughafen Kittilä ist 15 Minuten entfernt, der FIS-Slalom-Weltcup eröffnet jedes Jahr im November auf der Levi Black, und Premium-Hütten verteilen sich über die umliegende Fjäll-Landschaft, nah genug für ein Abendessen im Dorf, weit genug für Stille und Polarlicht-Beobachtung bei dunklem Himmel.`,
   facts: [
     { label: 'Hotels ab', value: '100 €/Nacht' },
     { label: 'Glasiglus ab', value: '350 €/Nacht' },
     { label: 'Nächster Flughafen', value: 'KTT 15 min' },
-    { label: 'Pisten', value: '43' },
+    { label: 'Pisten', value: '44' },
   ],
   highlights: [
     { title: 'Ski-in-Chalets am Levitunturi', body: 'Chalets an den Hängen des Levifjälls bieten direkten Zugang zur Gondel und zu den langen blauen und roten Abfahrten rund um den Berg.' },
@@ -195,14 +195,14 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
 
 const ko: DestinationBody = {
   tagline: '리프트에서 가까운 거리에 레스토랑, 사파리, 오로라 캐빈이 어우러진 핀란드 최대의 스키 리조트.',
-  description: `레비는 키틸레 시 자치체에 속하며 북극권에서 약 170km 북쪽에 자리합니다. 1960년대에 단 한 대의 리프트로 시작해 지금은 슬로프 43개, 리프트 28대를 갖춘 핀란드 최대의 스키 리조트로 성장했고, 도보로 걸을 수 있는 아담한 마을 중심이 그 모든 시설을 받쳐줍니다.
+  description: `레비는 키틸레 시 자치체에 속하며 북극권에서 약 170km 북쪽에 자리합니다. 1960년대에 단 한 대의 리프트로 시작해 지금은 슬로프 44개, 리프트 26대를 갖춘 핀란드 최대의 스키 리조트로 성장했고, 도보로 걸을 수 있는 아담한 마을 중심이 그 모든 시설을 받쳐줍니다.
 
 이곳은 라플란드 럭셔리 여행으로 들어가는 가장 쉬운 관문입니다. 키틸레 공항까지 15분, FIS 월드컵 슬라롬이 매년 11월 Levi Black에서 시즌을 열며, 프리미엄 캐빈은 주변 산자락에 흩어져 있습니다. 마을에서 저녁식사를 즐길 만큼 가깝지만, 다크 스카이에서 오로라를 볼 만큼 떨어진 거리입니다.`,
   facts: [
     { label: '호텔 1박', value: '100€부터' },
     { label: '글래스 이글루 1박', value: '350€부터' },
     { label: '가장 가까운 공항', value: 'KTT 15분' },
-    { label: '슬로프', value: '43개' },
+    { label: '슬로프', value: '44개' },
   ],
   highlights: [
     { title: 'Levitunturi 스키 인 캐빈', body: 'Levifell 슬로프에 자리한 샬레는 곤돌라와 산을 둘러싼 긴 블루·레드 코스로 바로 연결됩니다.' },
@@ -259,14 +259,14 @@ const ko: DestinationBody = {
 
 const fr: DestinationBody = {
   tagline: "La plus grande station de ski de Finlande, avec restaurants, safaris et chalets aurores à quelques minutes des remontées.",
-  description: `Levi se situe dans la commune de Kittilä, à environ 170 km au nord du cercle polaire. D'un unique téléski dans les années 1960, la station est devenue la plus grande du pays : 43 pistes, 28 remontées et un cœur de village compact, qui se parcourt à pied.
+  description: `Levi se situe dans la commune de Kittilä, à environ 170 km au nord du cercle polaire. D'un unique téléski dans les années 1960, la station est devenue la plus grande du pays : 44 pistes, 26 remontées et un cœur de village compact, qui se parcourt à pied.
 
 C'est la porte d'entrée la plus simple vers la Laponie haut de gamme : l'aéroport de Kittilä est à 15 minutes, la Coupe du monde FIS de slalom ouvre chaque novembre sur Levi Black, et les chalets premium se dispersent dans le paysage de fjells environnant, assez près du village pour y dîner, assez loin pour le silence et l'observation des aurores sous un ciel noir.`,
   facts: [
     { label: 'Hôtels à partir de', value: '100 €/nuit' },
     { label: 'Igloos de verre à partir de', value: '350 €/nuit' },
     { label: 'Aéroport le plus proche', value: 'KTT 15 min' },
-    { label: 'Pistes', value: '43' },
+    { label: 'Pistes', value: '44' },
   ],
   highlights: [
     { title: 'Chalets ski-in sur le Levitunturi', body: 'Les chalets posés sur les flancs du Levifjäll donnent un accès direct à la télécabine et aux longues pistes bleues et rouges qui ceinturent la montagne.' },
@@ -323,14 +323,14 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
 
 const it: DestinationBody = {
   tagline: 'La più grande stazione sciistica della Finlandia, con ristoranti, safari e chalet aurora a pochi minuti dagli impianti.',
-  description: `Levi sorge nel comune di Kittilä, circa 170 km a nord del Circolo Polare. Da un solo impianto degli anni Sessanta è cresciuta fino a diventare la più grande stazione sciistica del Paese: 43 piste, 28 impianti e un piccolo centro paese, percorribile a piedi, a fare da snodo.
+  description: `Levi sorge nel comune di Kittilä, circa 170 km a nord del Circolo Polare. Da un solo impianto degli anni Sessanta è cresciuta fino a diventare la più grande stazione sciistica del Paese: 44 piste, 26 impianti e un piccolo centro paese, percorribile a piedi, a fare da snodo.
 
 È il modo più semplice per entrare nel turismo di lusso lappone: l'aeroporto di Kittilä è a 15 minuti, la Coppa del Mondo FIS di slalom apre ogni novembre su Levi Black e gli chalet premium sono distribuiti nel paesaggio dei fjell, abbastanza vicini al paese per cenare, abbastanza lontani per il silenzio e l'osservazione dell'aurora sotto un cielo scuro.`,
   facts: [
     { label: 'Hotel da', value: '100 €/notte' },
     { label: 'Igloo di vetro da', value: '350 €/notte' },
     { label: 'Aeroporto più vicino', value: 'KTT 15 min' },
-    { label: 'Piste', value: '43' },
+    { label: 'Piste', value: '44' },
   ],
   highlights: [
     { title: 'Chalet ski-in sul Levitunturi', body: 'Gli chalet sui pendii del Levifjäll consentono l\'accesso diretto alla cabinovia e alle lunghe piste blu e rosse che circondano la montagna.' },
@@ -387,14 +387,14 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
 
 const nl: DestinationBody = {
   tagline: 'De grootste skiresort van Finland, met restaurants, safari\'s en aurora-cabins op korte afstand van de liften.',
-  description: `Levi ligt in de gemeente Kittilä, ongeveer 170 km ten noorden van de Poolcirkel. Van één lift in de jaren zestig groeide het uit tot de grootste skiresort van Finland: 43 pistes en 28 liften rond een compact, beloopbaar dorpscentrum.
+  description: `Levi ligt in de gemeente Kittilä, ongeveer 170 km ten noorden van de Poolcirkel. Van één lift in de jaren zestig groeide het uit tot de grootste skiresort van Finland: 44 pistes en 26 liften rond een compact, beloopbaar dorpscentrum.
 
 Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthaven Kittilä ligt op 15 minuten, de FIS-wereldbeker slalom opent elk jaar in november op Levi Black, en premium cabins liggen verspreid in het fjell-landschap eromheen, dichtbij genoeg om in het dorp te eten, ver genoeg voor stilte en noorderlicht onder een donkere hemel.`,
   facts: [
     { label: 'Hotels vanaf', value: '€100/nacht' },
     { label: 'Glasiglo\'s vanaf', value: '€350/nacht' },
     { label: 'Dichtstbijzijnde luchthaven', value: 'KTT 15 min' },
-    { label: 'Pistes', value: '43' },
+    { label: 'Pistes', value: '44' },
   ],
   highlights: [
     { title: 'Ski-in cabins op de Levitunturi', body: 'Chalets op de hellingen van de Levifjell geven directe toegang tot de gondel en de lange blauwe en rode pistes rond de berg.' },
@@ -451,14 +451,14 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
 
 const ja: DestinationBody = {
   tagline: 'リフトからわずかな距離にレストラン、サファリ、オーロラキャビンが集まる、フィンランド最大のスキーリゾートです。',
-  description: `レビは北極圏のおよそ170km北、キッティラ自治体に位置します。1960年代に1基のリフトから始まり、いまではスロープ43本、リフト28基を擁するフィンランド最大のスキーリゾートへと成長し、徒歩で回れるコンパクトな村の中心がそのすべてを支えています。
+  description: `レビは北極圏のおよそ170km北、キッティラ自治体に位置します。1960年代に1基のリフトから始まり、いまではスロープ44本、リフト26基を擁するフィンランド最大のスキーリゾートへと成長し、徒歩で回れるコンパクトな村の中心がそのすべてを支えています。
 
 ラップランドの上質な旅への入り口として最も気軽に訪れられる場所です。キッティラ空港まで15分、FISワールドカップのスラロームが毎年11月にLevi Blackで開幕し、プレミアムキャビンは周囲の丘陵地に点在しています。村まで夕食に出かけられる距離でありながら、静寂と暗い空でのオーロラ観賞を楽しめる距離です。`,
   facts: [
     { label: 'ホテル1泊', value: '100ユーロから' },
     { label: 'ガラス製イグルー1泊', value: '350ユーロから' },
     { label: '最寄り空港', value: 'KTT 15分' },
-    { label: 'スロープ', value: '43本' },
+    { label: 'スロープ', value: '44本' },
   ],
   highlights: [
     { title: 'レヴィトゥントゥリのスキーインキャビン', body: 'レヴィフェルの斜面に立つシャレーから、ゴンドラと山を取り囲む長いブルー・レッドコースへ直接アクセスできます。' },
@@ -515,14 +515,14 @@ const ja: DestinationBody = {
 
 const es: DestinationBody = {
   tagline: 'La estación de esquí más grande de Finlandia, con restaurantes, safaris y cabañas con aurora a pocos minutos en coche de los remontes.',
-  description: `Levi se encuentra en el municipio de Kittilä, a unos 170 km al norte del Círculo Polar. De un único remonte en los años sesenta creció hasta convertirse en la mayor estación de esquí de Finlandia: 43 pistas y 28 remontes alrededor de un centro de pueblo compacto y peatonal.
+  description: `Levi se encuentra en el municipio de Kittilä, a unos 170 km al norte del Círculo Polar. De un único remonte en los años sesenta creció hasta convertirse en la mayor estación de esquí de Finlandia: 44 pistas y 26 remontes alrededor de un centro de pueblo compacto y peatonal.
 
 Es la puerta de entrada más sencilla al turismo de lujo en Laponia: el aeropuerto de Kittilä queda a 15 minutos, la Copa del Mundo FIS de eslalon abre cada noviembre en Levi Black y las cabañas premium se reparten por el paisaje de fells circundante, lo bastante cerca del pueblo para cenar, lo bastante lejos para disfrutar del silencio y observar la aurora bajo un cielo oscuro.`,
   facts: [
     { label: 'Hoteles desde', value: '100 €/noche' },
     { label: 'Iglús de cristal desde', value: '350 €/noche' },
     { label: 'Aeropuerto más cercano', value: 'KTT 15 min' },
-    { label: 'Pistas', value: '43' },
+    { label: 'Pistas', value: '44' },
   ],
   highlights: [
     { title: 'Cabañas ski-in en Levitunturi', body: 'Los chalets en las laderas del Levifjäll dan acceso directo a la telecabina y a las largas pistas azules y rojas que rodean la montaña.' },
@@ -579,14 +579,14 @@ Desde Helsinki, el tren nocturno a Kolari y 1 hora de traslado es una alternativ
 
 const ptBR: DestinationBody = {
   tagline: 'A maior estação de esqui da Finlândia, com restaurantes, safáris e cabanas com aurora a poucos minutos de carro dos teleféricos.',
-  description: `Levi fica no município de Kittilä, cerca de 170 km ao norte do Círculo Polar Ártico. De um único teleférico nos anos 1960, cresceu até se tornar a maior estação de esqui da Finlândia: 43 pistas e 28 teleféricos em torno de um centro de vila compacto, que se percorre a pé.
+  description: `Levi fica no município de Kittilä, cerca de 170 km ao norte do Círculo Polar Ártico. De um único teleférico nos anos 1960, cresceu até se tornar a maior estação de esqui da Finlândia: 44 pistas e 26 teleféricos em torno de um centro de vila compacto, que se percorre a pé.
 
 É a porta de entrada mais simples para o turismo de luxo na Lapônia: o aeroporto de Kittilä fica a 15 minutos, a Copa do Mundo FIS de slalom abre a temporada todo novembro em Levi Black e as cabanas premium estão espalhadas pelo entorno dos fells, perto o bastante da vila para jantar, longe o bastante para o silêncio e a observação da aurora sob céu escuro.`,
   facts: [
     { label: 'Hotéis a partir de', value: '€100/noite' },
     { label: 'Iglus de vidro a partir de', value: '€350/noite' },
     { label: 'Aeroporto mais próximo', value: 'KTT 15 min' },
-    { label: 'Pistas', value: '43' },
+    { label: 'Pistas', value: '44' },
   ],
   highlights: [
     { title: 'Cabanas ski-in em Levitunturi', body: 'Os chalés nas encostas do Levifjäll dão acesso direto à gôndola e às longas pistas azuis e vermelhas que contornam a montanha.' },
@@ -643,14 +643,14 @@ De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa
 
 const zhCN: DestinationBody = {
   tagline: '芬兰最大的滑雪度假区,餐厅、雪地探险和极光小屋距缆车仅数分钟车程。',
-  description: `莱维位于基蒂莱市,大约在北极圈以北170公里。从1960年代的一部缆车起步,如今已发展为芬兰最大的滑雪度假区,拥有43条雪道、28部缆车,以及一个紧凑、可步行的村庄中心。
+  description: `莱维位于基蒂莱市,大约在北极圈以北170公里。从1960年代的一部缆车起步,如今已发展为芬兰最大的滑雪度假区,拥有44条雪道、26部缆车,以及一个紧凑、可步行的村庄中心。
 
 这里是进入拉普兰高端旅行最便捷的入口:基蒂莱机场15分钟可达,FIS世界杯回转赛每年11月在Levi Black揭幕,周围山地散布着高端小屋。离村中心近得可以前去用晚餐,远得足以享受寂静与暗空中的极光。`,
   facts: [
     { label: '酒店每晚', value: '100欧元起' },
     { label: '玻璃冰屋每晚', value: '350欧元起' },
     { label: '最近机场', value: 'KTT 15分钟' },
-    { label: '雪道', value: '43条' },
+    { label: '雪道', value: '44条' },
   ],
   highlights: [
     { title: 'Levitunturi山上的滑入式小屋', body: 'Levifell山坡上的木屋可直接通往缆车,以及环山的长距离蓝、红色雪道。' },
@@ -707,14 +707,14 @@ const zhCN: DestinationBody = {
 
 const sv: DestinationBody = {
   tagline: 'Finlands största skidort, med restauranger, safarier och norrskensstugor en kort bilresa från liftarna.',
-  description: `Levi ligger i Kittilä kommun, omkring 170 km norr om polcirkeln. Från en enda lift på 1960-talet har orten vuxit till Finlands största skidort: 43 nedfarter och 28 liftar, med ett kompakt bycentrum som går att gå runt i.
+  description: `Levi ligger i Kittilä kommun, omkring 170 km norr om polcirkeln. Från en enda lift på 1960-talet har orten vuxit till Finlands största skidort: 44 nedfarter och 26 liftar, med ett kompakt bycentrum som går att gå runt i.
 
 Det är den enklaste vägen in i Lapplands lyxresande: Kittilä flygplats ligger 15 minuter bort, FIS-världscupens slalom öppnar säsongen varje november på Levi Black, och premiumstugorna ligger utspridda i fjällandskapet runtom, nära nog byn för en middag, långt nog bort för tystnad och norrsken under mörk himmel.`,
   facts: [
     { label: 'Hotell från', value: '100 €/natt' },
     { label: 'Glasigloor från', value: '350 €/natt' },
     { label: 'Närmaste flygplats', value: 'KTT 15 min' },
-    { label: 'Nedfarter', value: '43' },
+    { label: 'Nedfarter', value: '44' },
   ],
   highlights: [
     { title: 'Ski in-stugor på Levitunturi', body: 'Stugorna på Levifjällets sidor ger direkt tillgång till gondolen och till de långa blå och röda nedfarterna som ringar in fjället.' },
