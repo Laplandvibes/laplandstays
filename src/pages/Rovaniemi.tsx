@@ -519,7 +519,7 @@ const es: DestinationBody = {
   // ES targets `cabañas en rovaniemi` (brief 187, 2026-08-15): hero H1 override +
   // guide-osio alla. Muut lokaalit renderöityvät ennallaan.
   heroH1: 'Cabañas en Rovaniemi',
-  tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar — con el Círculo Polar y todos los servicios de la capital lapona al lado.',
+  tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar, con el Círculo Polar y todos los servicios de la capital lapona al lado.',
   description: `Rovaniemi es la capital administrativa de la Laponia finlandesa y la principal puerta internacional. La ciudad está sobre el Círculo Polar, en la confluencia de los ríos Kemijoki y Ounasjoki, con unos 65.000 habitantes, pequeña para los estándares europeos, pero, con diferencia, el mayor asentamiento de la región.
 
 La mezcla es inusual: una ciudad norteña en activo con restaurantes, el museo de ciencia Arktikum y arquitectura cívica diseñada por Aalto, junto con el Pueblo de Papá Noel original sobre el Círculo Polar y una red de zonas de cabañas a corta distancia. Para quienes quieren aurora y naturaleza pero también volar a casa desde un aeropuerto importante, Rovaniemi es la base natural.`,
@@ -581,13 +581,13 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
   guide: {
     eyebrow: 'Guía de cabañas',
     h2: 'Cabañas en Rovaniemi: qué es un mökki y cuál le conviene',
-    intro: `Los buscadores le enseñan cientos de "cabañas" en Rovaniemi, pero no le dicen lo único que de verdad decide la estancia: qué tipo de cabaña es, en qué zona está y qué incluye. Esta guía no es un listado — es el criterio de elección: la diferencia entre un mökki y un iglú de cristal, las cuatro zonas de Rovaniemi con sus distancias reales, cuándo hace falta coche y qué preguntar antes de pagar. Distancias y transporte comprobados el 15.8.2026 con fuentes oficiales.`,
+    intro: `Los buscadores le enseñan cientos de "cabañas" en Rovaniemi, pero no le dicen lo único que de verdad decide la estancia: qué tipo de cabaña es, en qué zona está y qué incluye. Esta guía no es un listado, es el criterio de elección: la diferencia entre un mökki y un iglú de cristal, las cuatro zonas de Rovaniemi con sus distancias reales, cuándo hace falta coche y qué preguntar antes de pagar. Distancias y transporte comprobados el 15.8.2026 con fuentes oficiales.`,
     sections: [
       {
         h3: 'Qué es un mökki (y en qué se diferencia de un iglú de cristal)',
         paras: [
-          'En Finlandia, la palabra para cabaña es mökki: una construcción independiente, casi siempre de madera, pensada para alojarse por cuenta propia — con cocina, chimenea o estufa y, muy a menudo, sauna propia. Es alojamiento, no producto de experiencia: se paga por metros, equipamiento y ubicación.',
-          'Un iglú de cristal es lo contrario: una habitación con techo de cristal que se vende como experiencia — una o dos noches, precio por el cielo sobre la cama, servicios de hotel. Entre ambos quedan chalets y villas con servicio hotelero. Si busca una semana con cocina y sauna, busque mökki; si busca una noche mirando el cielo desde la cama, eso es otra categoría y otro presupuesto.',
+          'En Finlandia, la palabra para cabaña es mökki: una construcción independiente, casi siempre de madera, pensada para alojarse por cuenta propia, con cocina, chimenea o estufa y, muy a menudo, sauna propia. Es alojamiento, no producto de experiencia: se paga por metros, equipamiento y ubicación.',
+          'Un iglú de cristal es lo contrario: una habitación con techo de cristal que se vende como experiencia, una o dos noches, precio por el cielo sobre la cama, servicios de hotel. Entre ambos quedan chalets y villas con servicio hotelero. Si busca una semana con cocina y sauna, busque mökki; si busca una noche mirando el cielo desde la cama, eso es otra categoría y otro presupuesto.',
         ],
         links: [
           { label: 'Tipos de alojamiento en Laponia', href: '/property-types' },
@@ -615,7 +615,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
         h3: '¿Hace falta coche? Distancias y transporte zona por zona',
         paras: [
           'Depende de la zona, y la tabla de arriba es la respuesta corta. La larga: el aeropuerto (RVN) está a 10 km del centro, con autobús de enlace (7 € por trayecto, 15 min) y taxis por 15–25 €. Al Pueblo de Papá Noel llega el autobús urbano 8 durante todo el año. Con base en el centro o junto al Pueblo, el día a día se resuelve sin volante.',
-          'La cuenta cambia en los cinturones de río y bosque: allí la cabaña se elige precisamente por estar lejos de las luces, y eso significa conducir — al supermercado, a los safaris, a cualquier cena que no cocine usted. Si su cabaña está a más de un cuarto de hora del centro, alquile coche desde el aeropuerto y confirme con el propietario que el acceso se mantiene despejado de nieve.',
+          'La cuenta cambia en los cinturones de río y bosque: allí la cabaña se elige precisamente por estar lejos de las luces, y eso significa conducir, al supermercado, a los safaris, a cualquier cena que no cocine usted. Si su cabaña está a más de un cuarto de hora del centro, alquile coche desde el aeropuerto y confirme con el propietario que el acceso se mantiene despejado de nieve.',
         ],
         links: [{ label: 'Transporte en Laponia: cómo moverse', href: '/transport' }],
         cta: {
@@ -629,7 +629,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
       {
         h3: 'Sauna propia, sauna compartida o sin sauna: lo que cambia de verdad',
         paras: [
-          'En una cabaña finlandesa la sauna no es un extra de spa: es parte del tipo de alojamiento. La diferencia práctica es triple. Sauna propia dentro de la cabaña: se calienta cuando usted quiera, tantas veces como quiera — el estándar del mökki clásico. Sauna compartida del complejo: funciona con horarios o turnos reservados, lo habitual en apartamentos y villas. Sin sauna: raro en cabañas, normal en apartamentos de centro.',
+          'En una cabaña finlandesa la sauna no es un extra de spa: es parte del tipo de alojamiento. La diferencia práctica es triple. Sauna propia dentro de la cabaña: se calienta cuando usted quiera, tantas veces como quiera, el estándar del mökki clásico. Sauna compartida del complejo: funciona con horarios o turnos reservados, lo habitual en apartamentos y villas. Sin sauna: raro en cabañas, normal en apartamentos de centro.',
           'Dos preguntas concretas al anunciante: ¿la sauna es eléctrica o de leña? La leña es parte del ritual, pero exige encenderla y a veces se cobra por saco. ¿Y está dentro de la cabaña o en un edificio aparte en el patio? Con −15 °C, ese trayecto en toalla importa.',
         ],
       },
@@ -637,7 +637,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
         h3: 'Orientación al norte: cuándo una cabaña sirve para ver auroras',
         paras: [
           'Para auroras, lo primero no es la orientación sino la oscuridad: una cabaña en el cinturón de río con cielo abierto gana a cualquier ventanal dentro del resplandor urbano. Lo segundo sí es hacia dónde mira la cabaña: las auroras aparecen sobre el horizonte norte, así que ventanas o terraza hacia el norte permiten vigilar el cielo desde dentro, con la calefacción puesta.',
-          'Y una regla de honestidad: la orientación exacta y la vista libre de una cabaña concreta solo las conoce el propietario. Los buscadores no las filtran y las fotos engañan — si es su prioridad, pregúntelo directamente antes de reservar.',
+          'Y una regla de honestidad: la orientación exacta y la vista libre de una cabaña concreta solo las conoce el propietario. Los buscadores no las filtran y las fotos engañan, si es su prioridad, pregúntelo directamente antes de reservar.',
         ],
         links: [
           { label: 'Auroras boreales en Laponia: cuándo y dónde', href: 'https://laplandvibes.com/es/northern-lights/', external: true },
@@ -647,20 +647,20 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
       {
         h3: 'Lo que no siempre viene incluido: pregúntelo antes',
         paras: [
-          'Ninguna de estas líneas es universal — ese es exactamente el punto: varían por propiedad, y las sorpresas de última hora se evitan con cuatro preguntas al reservar.',
+          'Ninguna de estas líneas es universal, ese es exactamente el punto: varían por propiedad, y las sorpresas de última hora se evitan con cuatro preguntas al reservar.',
         ],
         bullets: [
           'Ropa de cama y toallas: en cabañas de alquiler pueden facturarse aparte o esperarse que las traiga.',
           'Leña para la estufa o la sauna: a veces incluida, a veces por saco.',
           'Ropa térmica: casi nunca la da el alojamiento. Los operadores de safaris prestan monos y botas para sus salidas, y en la ciudad se alquila equipamiento por días.',
-          'Traslados: una cabaña fuera del centro rara vez incluye recogida en el aeropuerto — cuente con taxi o coche de alquiler.',
+          'Traslados: una cabaña fuera del centro rara vez incluye recogida en el aeropuerto, cuente con taxi o coche de alquiler.',
           'Limpieza final: en alquileres tipo mökki suele ser un cargo aparte o una tarea que se deja hecha.',
         ],
       },
       {
         h3: 'Cabañas en verano: río, mosquitos y otro ritmo de precios',
         paras: [
-          'La misma cabaña vive dos vidas. En invierno mandan las auroras y la nieve; de junio a agosto mandan el río y la luz — en Rovaniemi el sol no se pone del 6 de junio al 5 de julio — con remo y pesca en el Kemijoki y la sauna con baño en el río como programa de la tarde.',
+          'La misma cabaña vive dos vidas. En invierno mandan las auroras y la nieve; de junio a agosto mandan el río y la luz ( en Rovaniemi el sol no se pone del 6 de junio al 5 de julio ) con remo y pesca en el Kemijoki y la sauna con baño en el río como programa de la tarde.',
           'Los mosquitos son reales desde finales de junio, más en el bosque que en el centro; repelente y mosquiteras resuelven la mayor parte. En precios, el invierno navideño es la temporada alta de la zona: el verano juega en una categoría más tranquila, con más disponibilidad para semanas enteras.',
         ],
         links: [
@@ -671,7 +671,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
       {
         h3: 'Qué preguntar antes de reservar',
         paras: [
-          'La lista corta para cerrar sin sorpresas — cinco minutos de mensajes al propietario valen más que una hora de fotos:',
+          'La lista corta para cerrar sin sorpresas, cinco minutos de mensajes al propietario valen más que una hora de fotos:',
         ],
         bullets: [
           '¿A cuántos minutos en coche está el supermercado más cercano, y el acceso se mantiene despejado de nieve en invierno?',
@@ -689,10 +689,10 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
         },
       },
     ],
-    footnote: 'Distancias y transporte comprobados el 15.8.2026 (santaclausvillage.info y datos publicados de este sitio). Los servicios concretos de cada cabaña — sauna, orientación, extras — son datos del anunciante: confírmelos en la página de la propiedad antes de reservar.',
+    footnote: 'Distancias y transporte comprobados el 15.8.2026 (santaclausvillage.info y datos publicados de este sitio). Los servicios concretos de cada cabaña ( sauna, orientación, extras ) son datos del anunciante: confírmelos en la página de la propiedad antes de reservar.',
   },
   seoTitle: 'Cabañas en Rovaniemi: cómo elegir y qué mirar antes',
-  seoDescription: 'Qué es un mökki, en qué zona de Rovaniemi dormir — centro, Ounasvaara, Pueblo de Papá Noel o cinturones de río —, cuándo hace falta coche y qué preguntar antes de reservar una cabaña.',
+  seoDescription: 'Qué es un mökki, en qué zona de Rovaniemi dormir ( centro, Ounasvaara, Pueblo de Papá Noel o cinturones de río ), cuándo hace falta coche y qué preguntar antes de reservar una cabaña.',
 }
 
 const ptBR: DestinationBody = {
