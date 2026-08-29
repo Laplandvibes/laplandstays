@@ -14,7 +14,7 @@ The mix is unusual: a working northern city with restaurants, the Arktikum scien
   ],
   highlights: [
     { title: 'Santa Claus Village on the Arctic Circle', body: 'The original, a white line marks the Arctic Circle across the square, and Santa keeps office hours every day of the year.' },
-    { title: 'Arktikum museum', body: "One of Finland's finest museums of Arctic science, Sámi culture and Lapland history, a 172-metre glass tube on the bank of the Kemijoki, pointing north." },
+    { title: 'Arktikum museum', body: "One of Finland's finest museums of Arctic science, Sámi culture and Lapland history, a 172-metre glass tube on the bank of the Ounasjoki, pointing north." },
     { title: 'Ranua Wildlife Park', body: "An 80 km drive south: one of the world's northernmost zoos, with 50 Arctic and boreal species including Finland's only polar bears, wolverines and lynx." },
     { title: 'Ounasvaara fell inside the city', body: 'A ski hill, downhill bike park and aurora viewpoint, 10 minutes from the centre by car, no national-park drive required.' },
     { title: 'Flight connectivity', body: 'Rovaniemi airport has the widest winter route network in Lapland: direct to London, Paris, Frankfurt, Vienna, and dozens of charter routes.' },
