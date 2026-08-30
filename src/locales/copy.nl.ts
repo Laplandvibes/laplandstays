@@ -53,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'E-mailadres',
     submit: 'Ontvang de volgende e-mail',
     submitting: 'Aanmelden…',
-    success: 'Bijna klaar: bevestig je aanmelding via de e-mail die we net hebben gestuurd.',
+    success: 'Bijna klaar: bevestig uw aanmelding via de e-mail die we net hebben gestuurd.',
     error: 'Aanmelden is niet gelukt. Probeer het opnieuw of mail naar info@laplandvibes.com.',
     footnote: 'Alleen wanneer er echt iets te vertellen valt. Uitschrijven met één klik.',
     privacyLink: 'Privacybeleid',
