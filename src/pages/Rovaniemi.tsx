@@ -290,7 +290,7 @@ La location de voiture est simple ; la ville est la base logistique des road tri
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: 'Le plus grand village de ski de Finlande, à 2 h au nord.' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destination de fjell plus calme, à 2 h au nord-ouest.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destination de fjäll plus calme, à 2 h au nord-ouest.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porte de la nature sauvage, 3 h plus au nord.' },
   ],
   anchorProperties: [
@@ -313,7 +313,7 @@ La location de voiture est simple ; la ville est la base logistique des road tri
   },
   dayPlan: [
     { day: '01', title: 'Arrivée · village du Père Noël', body: 'RVN à 10 km de la ville. Dépose des bagages, cap sur le village du Père Noël (ouvert toute l\'année). Franchissement de la ligne du cercle polaire, carte postale. Dîner au Nili en ville.' },
-    { day: '02', title: 'Husky + ice-floating', body: 'Apukka ou une ferme voisine pour un safari husky (à réserver). Après-midi en combinaison étanche pour le flottage sur la glace de l\'Ounasjoki, étonnamment chaud, complètement silencieux. Fenêtre aurores depuis le fjell Ounasvaara.' },
+    { day: '02', title: 'Husky + ice-floating', body: 'Apukka ou une ferme voisine pour un safari husky (à réserver). Après-midi en combinaison étanche pour le flottage sur la glace de l\'Ounasjoki, étonnamment chaud, complètement silencieux. Fenêtre aurores depuis le fjäll Ounasvaara.' },
     { day: '03', title: 'Arktikum + culture urbaine', body: 'Demi-journée à l\'Arktikum (musée sámi et histoire de Laponie, beau couloir de verre). Déjeuner en ville. Après-midi libre, excursion à Lainio Snow Village selon la saison.' },
     { day: '04', title: 'Matinée tranquille · suite du voyage', body: 'Dernier sauna, petit-déjeuner en ville. Vol retour depuis RVN ou location de voiture et 2 h de route au nord vers Levi pour une seconde étape.' },
   ],
@@ -354,13 +354,13 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: 'Il paese sciistico più grande della Finlandia, a 2 ore verso nord.' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destinazione di fjell più tranquilla, a 2 ore verso nord-ovest.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destinazione di fjäll più tranquilla, a 2 ore verso nord-ovest.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porta della natura selvaggia, 3 ore più a nord.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suite-nido firmate da un architetto con facciata in vetro, al villaggio di Babbo Natale.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Chalet aurora sul lago a 15 min dalla città, menù safari completo in struttura.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartamenti con tetto di vetro più recenti, vista skyline dal fjell Ounasvaara.' },
+    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartamenti con tetto di vetro più recenti, vista skyline dal fjäll Ounasvaara.' },
     { name: 'Tutti gli alloggi di Rovaniemi', href: HOTEL_SEARCH_FOR('it').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Esplori ogni hotel e chalet di Rovaniemi su Trip.com.' },
   ],
   transport: [
@@ -377,7 +377,7 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
   },
   dayPlan: [
     { day: '01', title: 'Arrivo · villaggio di Babbo Natale', body: 'RVN a 10 km dal centro. Lascia i bagagli e via subito al villaggio di Babbo Natale (aperto tutto l\'anno). Attraversa la linea del Circolo Polare, spedisci una cartolina. Cena al Nili in centro.' },
-    { day: '02', title: 'Husky + ice-floating', body: 'Apukka o una fattoria vicina per un safari con husky (prenoti in anticipo). Pomeriggio in muta stagna per il floating sul ghiaccio dell\'Ounasjoki, sorprendentemente caldo, totalmente silenzioso. Finestra aurora dal fjell Ounasvaara.' },
+    { day: '02', title: 'Husky + ice-floating', body: 'Apukka o una fattoria vicina per un safari con husky (prenoti in anticipo). Pomeriggio in muta stagna per il floating sul ghiaccio dell\'Ounasjoki, sorprendentemente caldo, totalmente silenzioso. Finestra aurora dal fjäll Ounasvaara.' },
     { day: '03', title: 'Arktikum + cultura cittadina', body: 'Mezza giornata all\'Arktikum (museo sámi e storia della Lapponia, splendido corridoio di vetro). Pranzo in città. Pomeriggio libero, escursione al Lainio Snow Village se la stagione lo consente.' },
     { day: '04', title: 'Mattina lenta · prosecuzione', body: 'Ultima sauna, colazione in centro. Volo da RVN per il ritorno, oppure auto a noleggio e 2 ore di guida a nord verso Levi per una seconda tappa.' },
   ],
@@ -400,7 +400,7 @@ De mix is ongebruikelijk: een werkende noordelijke stad met restaurants, het wet
     { title: 'Kerstmandorp op de Poolcirkel', body: 'Het origineel, een witte lijn markeert de Poolcirkel over het plein, en de Kerstman houdt elke dag van het jaar spreekuur.' },
     { title: 'Arktikum-museum', body: 'Finland\'s mooiste museum over arctische wetenschap, Sámi-cultuur en Laplandse geschiedenis, een 172 meter lange glazen koker aan de oever van de Ounasjoki, gericht naar het noorden.' },
     { title: 'Ranua-wildpark', body: '80 km naar het zuiden: een van de noordelijkste dierentuinen ter wereld, met 50 arctische en boreale soorten waaronder de enige ijsberen van Finland, veelvraten en lynxen.' },
-    { title: 'Ounasvaara-fjell in de stad', body: 'Skipiste, downhill bikepark en uitkijkpunt voor noorderlicht, 10 minuten van het centrum met de auto, geen rit door een nationaal park nodig.' },
+    { title: 'Ounasvaara-fjäll in de stad', body: 'Skipiste, downhill bikepark en uitkijkpunt voor noorderlicht, 10 minuten van het centrum met de auto, geen rit door een nationaal park nodig.' },
     { title: 'Vluchtverbindingen', body: 'Luchthaven Rovaniemi heeft het breedste winterse netwerk van Lapland: directe vluchten naar Londen, Parijs, Frankfurt, Wenen en tientallen charters.' },
     { title: 'Cabin-zones langs de rivier', body: 'Accommodaties langs de Kemijoki en op Ounasvaara bieden donker genoeg hemel voor aurora binnen 15 minuten van restaurants en winkels.' },
   ],
@@ -418,7 +418,7 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: 'Het grootste skidorp van Finland, 2 uur noordelijker.' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Rustigere fjell-bestemming, 2 uur naar het noordwesten.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Rustigere fjäll-bestemming, 2 uur naar het noordwesten.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Poort naar de wildernis, 3 uur verder noordwaarts.' },
   ],
   anchorProperties: [
@@ -441,7 +441,7 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
   },
   dayPlan: [
     { day: '01', title: 'Aankomst · Kerstmandorp', body: 'RVN 10 km van het centrum. Tassen wegzetten en direct door naar het Kerstmandorp (heel jaar open). Steek de Poolcirkellijn over, stuur een kaart. Diner in de stad bij Nili.' },
-    { day: '02', title: 'Husky + ice-floating', body: 'Apukka of een nabij bedrijf voor een husky-safari (vooraf boeken). \'s Middags droogpak-floating op de Ounasjoki, verrassend warm, volledig stil. Aurora-venster vanaf het Ounasvaara-fjell.' },
+    { day: '02', title: 'Husky + ice-floating', body: 'Apukka of een nabij bedrijf voor een husky-safari (vooraf boeken). \'s Middags droogpak-floating op de Ounasjoki, verrassend warm, volledig stil. Aurora-venster vanaf het Ounasvaara-fjäll.' },
     { day: '03', title: 'Arktikum + stadscultuur', body: 'Halve dag in Arktikum (Sámi en Lapland-geschiedenis, prachtige glazen gang). Lunch in de stad. Middag vrij, dagtrip naar Lainio Snow Village indien in seizoen.' },
     { day: '04', title: 'Rustige ochtend · verder', body: 'Laatste sauna, ontbijt in de stad. Naar huis vanaf RVN of een huurauto nemen en 2 uur noordwaarts rijden naar Levi voor een tweede etappe.' },
   ],

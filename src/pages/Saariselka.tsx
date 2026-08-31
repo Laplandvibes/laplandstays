@@ -259,7 +259,7 @@ const ko: DestinationBody = {
 
 const fr: DestinationBody = {
   tagline: "La porte du parc national Urho Kekkonen, chalets premium aux portes de la dernière vraie nature sauvage d'Europe.",
-  description: `Saariselkä se situe dans la commune d'Inari, à quelque 200 km au nord du cercle polaire, à la limite des arbres. À l'est s'étend le parc national Urho Kekkonen, 2 550 km² de fjells, rivières et forêts primaires quasi intacts, l'une des plus grandes zones sauvages de l'UE.
+  description: `Saariselkä se situe dans la commune d'Inari, à quelque 200 km au nord du cercle polaire, à la limite des arbres. À l'est s'étend le parc national Urho Kekkonen, 2 550 km² de fjälls, rivières et forêts primaires quasi intacts, l'une des plus grandes zones sauvages de l'UE.
 
 Le village est petit et se parcourt à pied, autour de quelques hôtels, restaurants et pistes de ski. Les chalets premium se déploient le long de la route d'Ivalo et au bord du parc national. La situation compte : on peut sortir de chez soi pour une après-midi de traîneau à huskys et rentrer le même soir pour un sauna privatif sous les aurores.`,
   facts: [
@@ -270,7 +270,7 @@ Le village est petit et se parcourt à pied, autour de quelques hôtels, restaur
   ],
   highlights: [
     { title: 'Le parc national UKK au pas de la porte', body: 'Le deuxième plus grand parc national de Finlande. Des pistes balisées de ski et de randonnée partent de Saariselkä et s\'enfoncent à 60 km vers l\'est.' },
-    { title: 'Belvédère du fjell Kaunispää', body: 'Le fjell au-dessus du village a une route et une remontée jusqu\'au sommet. Aurore à horizon dégagé et panoramas de soleil de minuit en été.' },
+    { title: 'Belvédère du fjäll Kaunispää', body: 'Le fjäll au-dessus du village a une route et une remontée jusqu\'au sommet. Aurore à horizon dégagé et panoramas de soleil de minuit en été.' },
     { title: 'Chenils de huskys et de rennes', body: 'Plusieurs élevages en activité à moins de 20 minutes du village proposent des sorties d\'une demi-journée ou de plusieurs jours dans le parc.' },
     { title: 'Densité d\'aurores', body: 'À cette latitude, l\'ovale auroral passe plus souvent au-dessus de la tête que dans les destinations plus méridionales, on voit des aurores bien plus souvent que plus au sud.' },
     { title: 'Village d\'orpaillage de Tankavaara', body: 'À 30 minutes au sud : l\'héritage minier de Laponie, avec stages d\'orpaillage et le Musée de l\'Or.' },
@@ -295,7 +295,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Les igloos de verre originels. Complets 8 à 12 mois à l\'avance en haute saison aurores.' },
-    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sur le fjell Kaunispää, chambres à toit de verre et la plus belle ligne de toits sur Saariselkä.' },
+    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sur le fjäll Kaunispää, chambres à toit de verre et la plus belle ligne de toits sur Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge signé tout-suites avec programme safari complet.' },
     { name: 'Tous les hébergements de Saariselkä', href: HOTEL_SEARCH_FOR('fr').saariselka, sid: 'destination_saariselka_all_search', note: 'Parcourez chaque adresse de Saariselkä sur Trip.com.' },
   ],
@@ -323,7 +323,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
 
 const it: DestinationBody = {
   tagline: "La porta del parco nazionale Urho Kekkonen, chalet premium ai margini dell'ultima vera natura selvaggia d'Europa.",
-  description: `Saariselkä si trova nel comune di Inari, circa 200 km a nord del Circolo Polare, al limite degli alberi. A est si stende il parco nazionale Urho Kekkonen, 2.550 km² di fjell, fiumi e foreste antiche quasi intatti, una delle più vaste aree selvagge dell'UE.
+  description: `Saariselkä si trova nel comune di Inari, circa 200 km a nord del Circolo Polare, al limite degli alberi. A est si stende il parco nazionale Urho Kekkonen, 2.550 km² di fjäll, fiumi e foreste antiche quasi intatti, una delle più vaste aree selvagge dell'UE.
 
 Il paese è piccolo e si percorre a piedi, raccolto attorno a pochi hotel, ristoranti e piste da sci. Gli chalet premium si distribuiscono lungo la strada per Ivalo e ai margini del parco. La posizione conta: si può uscire di casa per un pomeriggio in slitta trainata dagli husky e rientrare la sera stessa per una sauna privata sotto l'aurora.`,
   facts: [
@@ -334,7 +334,7 @@ Il paese è piccolo e si percorre a piedi, raccolto attorno a pochi hotel, risto
   ],
   highlights: [
     { title: 'Il parco nazionale UKK alla porta', body: 'Il secondo parco nazionale più grande di Finlandia. Tracciati segnati per sci e trekking partono da Saariselkä e si spingono per 60 km verso est.' },
-    { title: 'Panoramica del fjell Kaunispää', body: 'Il fjell sopra il paese ha una strada e un impianto fino in cima. Aurora con orizzonte aperto e panorami del sole di mezzanotte in estate.' },
+    { title: 'Panoramica del fjäll Kaunispää', body: 'Il fjäll sopra il paese ha una strada e un impianto fino in cima. Aurora con orizzonte aperto e panorami del sole di mezzanotte in estate.' },
     { title: 'Allevamenti di husky e renne', body: 'Più allevamenti in attività entro 20 minuti dal paese offrono uscite di mezza giornata o di più giorni nel parco.' },
     { title: 'Densità di aurore', body: 'A questa latitudine l\'ovale aurorale passa più spesso sopra la testa rispetto a destinazioni più meridionali, si vedono aurore molto più spesso che più a sud.' },
     { title: 'Villaggio dei cercatori d\'oro di Tankavaara', body: 'A 30 min in auto verso sud: la vera eredità della corsa all\'oro lappone, con corsi di setacciatura e Museo dell\'Oro.' },
@@ -359,7 +359,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Gli igloo di vetro originali. Si prenotano 8–12 mesi prima in alta stagione aurorale.' },
-    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sul fjell Kaunispää, camere con tetto di vetro e la migliore vista sullo skyline di Saariselkä.' },
+    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Sul fjäll Kaunispää, camere con tetto di vetro e la migliore vista sullo skyline di Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge solo suite di design con programma safari completo.' },
     { name: 'Tutti gli alloggi di Saariselkä', href: HOTEL_SEARCH_FOR('it').saariselka, sid: 'destination_saariselka_all_search', note: 'Esplori ogni struttura di Saariselkä su Trip.com.' },
   ],
@@ -387,7 +387,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
 
 const nl: DestinationBody = {
   tagline: 'De poort naar het Urho Kekkonen-nationaal park, premium cabins aan de rand van de laatste echte wildernis van Europa.',
-  description: `Saariselkä ligt in de gemeente Inari, ruim 200 km ten noorden van de Poolcirkel, op de boomgrens. Naar het oosten strekt zich het Urho Kekkonen-nationaal park uit, 2.550 km² vrijwel onaangeroerd fjell, rivieren en oerbos, een van de grootste wildernissen van de EU.
+  description: `Saariselkä ligt in de gemeente Inari, ruim 200 km ten noorden van de Poolcirkel, op de boomgrens. Naar het oosten strekt zich het Urho Kekkonen-nationaal park uit, 2.550 km² vrijwel onaangeroerd fjäll, rivieren en oerbos, een van de grootste wildernissen van de EU.
 
 Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. Premium cabins liggen langs de weg naar Ivalo en aan de rand van het park. De positie telt: u stapt vanaf de deur in een middag huskysleeën en keert dezelfde avond terug voor een privésauna onder het noorderlicht.`,
   facts: [
@@ -398,7 +398,7 @@ Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. P
   ],
   highlights: [
     { title: 'UKK-nationaal park bij de deur', body: 'Het op een na grootste nationaal park van Finland. Gemarkeerde ski- en wandelroutes vertrekken vanuit Saariselkä en lopen 60 km oostwaarts.' },
-    { title: 'Uitzichtpunt Kaunispää', body: 'Het fjell boven het dorp heeft een weg en een lift naar de top. Aurora met vrije horizon en zomerse middernachtszon-panorama\'s.' },
+    { title: 'Uitzichtpunt Kaunispää', body: 'Het fjäll boven het dorp heeft een weg en een lift naar de top. Aurora met vrije horizon en zomerse middernachtszon-panorama\'s.' },
     { title: 'Husky- en rendierkennels', body: 'Meerdere actieve kennels binnen 20 minuten van het dorp organiseren halvedag- en meerdaagse sledetochten in het park.' },
     { title: 'Aurora-dichtheid', body: 'Op deze breedte trekt de aurora-ovaal vaker over het hoofd dan op zuidelijker bestemmingen, u ziet het noorderlicht veel vaker dan zuidelijker.' },
     { title: 'Gouddorp Tankavaara', body: '30 minuten zuidwaarts: het echte goudwasverleden van Lapland, met goudwascursussen en het Goudmuseum.' },
@@ -423,7 +423,7 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De oorspronkelijke glasiglo\'s. 8–12 maanden vooruit volgeboekt in aurora-hoogseizoen.' },
-    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Op het Kaunispää-fjell, kamers met glazen dak en het mooiste zicht op Saariselkä.' },
+    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Op het Kaunispää-fjäll, kamers met glazen dak en het mooiste zicht op Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Designerlodge met enkel suites en volledig safariprogramma.' },
     { name: 'Alle Saariselkä-accommodaties', href: HOTEL_SEARCH_FOR('nl').saariselka, sid: 'destination_saariselka_all_search', note: 'Bekijk elke Saariselkä-accommodatie op Trip.com.' },
   ],

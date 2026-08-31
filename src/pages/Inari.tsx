@@ -17,12 +17,12 @@ This is the deep north. Cabins here are genuinely remote: a ten-minute drive fro
     { title: 'Siida Sámi museum and nature centre', body: 'One of the best introductions to Sámi culture in the Nordic countries, indigenous history, language and the ecology of Sápmi, all in one building.' },
     { title: 'Aurora over open water', body: 'The lake shore gives a rare 180° unobstructed sky. In winter, aurora reflections on the frozen surface make viewing unusually dramatic.' },
     { title: 'Sámi food traditions', body: 'Local kitchens serve poronkäristys (sautéed reindeer), cold-smoked Arctic char, cloudberry desserts, ingredients from the land around you.' },
-    { title: 'Tundra fjeld hiking', body: 'North of Inari the treeline thins into open Lapland fjeld. Summer hiking across Kevo and Utsjoki is as remote as Europe gets.' },
+    { title: 'Tundra fjäll hiking', body: 'North of Inari the treeline thins into open Lapland fell. Summer hiking across Kevo and Utsjoki is as remote as Europe gets.' },
     { title: 'Winter husky and snowmobile access', body: 'Kennels around Inari run lake-ice sled routes on frozen Inarijärvi, wide open, no trees, unusually fast and silent.' },
   ],
   whenToGo: `Late September – early April is aurora season; at this latitude the aurora oval regularly sits directly overhead.
 Late May – late July is midnight sun: the sun never sets for roughly two months.
-Early September brings the short, intense ruska (autumn colour), reds and oranges across the fjeld.`,
+Early September brings the short, intense ruska (autumn colour), reds and oranges across the fjäll.`,
   howToGet: `Fly into Ivalo (IVL), 40 min transfer. Direct Helsinki – Ivalo daily, seasonal charter routes from UK and Central Europe.
 Rent a car, the best cabins are on lake-shore side-roads and require private transport.
 For extended wilderness trips, the road continues to Utsjoki and the Norwegian border.`,
@@ -273,12 +273,12 @@ C'est le grand Nord. Les chalets y sont réellement reculés : dix minutes de vo
     { title: 'Musée et centre nature SIIDA', body: 'La meilleure introduction à la culture sámi des pays nordiques, histoire indigène, langue et écologie du Sápmi, le tout dans un même bâtiment.' },
     { title: 'Aurores au-dessus du grand large', body: 'La rive du lac offre 180° de ciel sans obstacle, rare. En hiver, les reflets aurores sur la glace rendent l\'observation singulièrement spectaculaire.' },
     { title: 'Traditions culinaires sámi', body: 'Les cuisines locales proposent du poronkäristys (renne sauté), de l\'omble chevalier fumé à froid, des desserts à la mûre arctique, les ingrédients sortent du paysage qui vous entoure.' },
-    { title: 'Randonnée sur les fjells de toundra', body: 'Au nord d\'Inari, la limite des arbres s\'efface vers le fjell ouvert. Les randonnées d\'été à Kevo et Utsjoki touchent à ce que l\'Europe offre de plus reculé.' },
+    { title: 'Randonnée sur les fjälls de toundra', body: 'Au nord d\'Inari, la limite des arbres s\'efface vers le fjäll ouvert. Les randonnées d\'été à Kevo et Utsjoki touchent à ce que l\'Europe offre de plus reculé.' },
     { title: 'Accès huskys et motoneige en hiver', body: 'Les chenils autour d\'Inari exploitent des itinéraires sur la glace de l\'Inarijärvi, grand ouvert, sans arbres, étonnamment rapide et silencieux.' },
   ],
   whenToGo: `Fin septembre à début avril, c\'est la saison des aurores ; à cette latitude, l\'ovale auroral passe régulièrement à la verticale.
 Mi-juin à fin juillet, c\'est le soleil de minuit : il ne se couche pas pendant environ six semaines.
-Mi-août apporte la ruska, brève et intense, rouges et orangés sur les fjells.`,
+Mi-août apporte la ruska, brève et intense, rouges et orangés sur les fjälls.`,
   howToGet: `Vol vers Ivalo (IVL), 40 min de transfert. Direct Helsinki – Ivalo quotidien, routes charter saisonnières depuis le Royaume-Uni et l\'Europe centrale.
 Voiture de location, les meilleurs chalets se trouvent sur des chemins latéraux au bord du lac et exigent un véhicule.
 Pour une virée plus longue dans la nature, la route continue jusqu\'à Utsjoki et la frontière norvégienne.`,
@@ -337,12 +337,12 @@ Questo è il profondo Nord. Gli chalet sono davvero isolati: dieci minuti d\'aut
     { title: 'Museo e centro natura SIIDA', body: 'La migliore introduzione alla cultura sámi nei Paesi nordici, storia indigena, lingua ed ecologia del Sápmi, in un solo edificio.' },
     { title: 'Aurora su acqua aperta', body: 'La sponda del lago offre una rara fascia di 180° senza ostacoli. In inverno i riflessi dell\'aurora sul ghiaccio rendono l\'osservazione inusualmente teatrale.' },
     { title: 'Tradizioni gastronomiche sámi', body: 'Le cucine locali servono poronkäristys (renna saltata), salmerino affumicato a freddo, dolci ai lamponi artici, ingredienti dal territorio intorno a Lei.' },
-    { title: 'Trekking sui fjell della tundra', body: 'A nord di Inari il limite del bosco si dirada nei fjell aperti della Lapponia. I trekking estivi attraverso Kevo e Utsjoki sono fra i più remoti d\'Europa.' },
+    { title: 'Trekking sui fjäll della tundra', body: 'A nord di Inari il limite del bosco si dirada nei fjäll aperti della Lapponia. I trekking estivi attraverso Kevo e Utsjoki sono fra i più remoti d\'Europa.' },
     { title: 'Husky e motoslitta in inverno', body: 'Gli allevamenti attorno a Inari propongono percorsi su slitta sul ghiaccio dell\'Inarijärvi, distesa aperta, niente alberi, sorprendentemente rapidi e silenziosi.' },
   ],
   whenToGo: `Fine settembre–inizio aprile è la stagione delle aurore; a questa latitudine l\'ovale aurorale si trova spesso direttamente sopra la testa.
 Metà giugno–fine luglio è sole di mezzanotte: per circa sei settimane il sole non tramonta.
-Metà agosto porta la ruska, breve e intensa, rossi e arancioni sui fjell.`,
+Metà agosto porta la ruska, breve e intensa, rossi e arancioni sui fjäll.`,
   howToGet: `Voli per Ivalo (IVL), 40 min di transfer. Diretto Helsinki–Ivalo ogni giorno, rotte charter stagionali da Regno Unito ed Europa centrale.
 Auto a noleggio, gli chalet migliori si trovano su strade laterali in riva al lago e richiedono mezzi propri.
 Per viaggi più lunghi nella natura, la strada prosegue fino a Utsjoki e al confine norvegese.`,
@@ -401,12 +401,12 @@ Dit is het diepe noorden. Cabins liggen hier oprecht afgelegen: tien minuten rij
     { title: 'SIIDA Sámi-museum en natuurcentrum', body: 'De beste inleiding op de Sámi-cultuur in de Noord-Europese landen, inheemse geschiedenis, taal en ecologie van Sápmi, alles in één gebouw.' },
     { title: 'Aurora boven open water', body: 'De meeroever biedt 180° onbelemmerde hemel, zeldzaam. \'s Winters maken aurora-spiegelingen op het ijs de waarneming buitengewoon dramatisch.' },
     { title: 'Sámi-eettradities', body: 'Lokale keukens serveren poronkäristys (gebakken rendier), koud gerookte arctische riddervis, kruisbessendesserts, ingrediënten uit het land om u heen.' },
-    { title: 'Wandelen op toendra-fjell', body: 'Ten noorden van Inari dunt de boomgrens uit tot open Laplands fjell. Zomerwandelingen door Kevo en Utsjoki zijn zo afgelegen als Europa toelaat.' },
+    { title: 'Wandelen op toendra-fjäll', body: 'Ten noorden van Inari dunt de boomgrens uit tot open Laplands fjäll. Zomerwandelingen door Kevo en Utsjoki zijn zo afgelegen als Europa toelaat.' },
     { title: 'Husky\'s en sneeuwscooter in de winter', body: 'Kennels rondom Inari verzorgen sledetochten over het ijs van de Inarijärvi, open vlakte, geen bomen, ongebruikelijk snel en stil.' },
   ],
   whenToGo: `Eind september–begin april is aurora-seizoen; op deze breedte staat de aurora-ovaal regelmatig recht boven u.
 Half juni–eind juli is middernachtszon: zes weken lang gaat de zon niet onder.
-Half augustus brengt de korte, intense ruska, rood en oranje over de fjells.`,
+Half augustus brengt de korte, intense ruska, rood en oranje over de fjälls.`,
   howToGet: `Vlieg naar Ivalo (IVL), 40 min transfer. Directe Helsinki–Ivalo dagelijks, seizoensgebonden charters vanuit het VK en Centraal-Europa.
 Huur een auto, de mooiste cabins liggen op zijwegen aan de oever en vragen om eigen vervoer.
 Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.`,

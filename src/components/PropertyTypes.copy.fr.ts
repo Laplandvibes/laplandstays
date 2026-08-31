@@ -9,13 +9,13 @@ const copy: Copy = {
       {
         title: 'Iglous en verre & chalets aurores',
         short: 'Endormez-vous sous les aurores boréales.',
-        body: "L'iglou en verre laponais dans sa forme la plus pure, chambres à toit vitré à Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village, conçues pour les voyageurs qui suivent les prévisions d'aurore.",
+        body: "L'igloo de verre lapon dans sa forme la plus pure, chambres à toit vitré à Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village, conçues pour les voyageurs qui suivent les prévisions d'aurore.",
         priceFrom: 'à partir de 250 €/nuit',
       },
       {
         title: 'Chalets aurores au bord du lac',
         short: 'Sauna, lac gelé, silence.',
-        body: 'Séjours classiques en chalet laponais, cabanes en rondins au bord du lac avec sauna privé, pas de pin devant la porte et horizon dégagé sur les aurores au-dessus des eaux arctiques.',
+        body: 'Séjours classiques en chalet lapon, cabanes en rondins au bord du lac avec sauna privé, pas de pin devant la porte et horizon dégagé sur les aurores au-dessus des eaux arctiques.',
         priceFrom: 'à partir de 150 €/nuit',
       },
       {

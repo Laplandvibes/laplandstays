@@ -47,7 +47,7 @@ const copy: PageCopy = {
         "name": "Les chalets et igloos de verre en Laponie disposent-ils de saunas privatifs ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui. Presque chaque chalet, villa et chalet de Laponie finlandaise dispose de son propre sauna, au bois, électrique ou les deux. De nombreuses propriétés au bord du lac (Muotka, Nellim, chalets en bord de lac à Ylläs) offrent un accès direct du sauna au lac pour le traditionnel plongeon dans la glace finlandais."
+          "text": "Oui. Presque chaque chalet, villa et cabane de Laponie finlandaise dispose de son propre sauna, au bois, électrique ou les deux. De nombreuses propriétés au bord du lac (Muotka, Nellim, chalets en bord de lac à Ylläs) offrent un accès direct du sauna au lac pour le traditionnel plongeon dans la glace finlandais."
         }
       },
       {

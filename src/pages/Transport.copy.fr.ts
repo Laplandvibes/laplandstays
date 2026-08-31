@@ -22,11 +22,11 @@ const copy: PageCopy = {
     rentCarAt: (code: string) => `Louer une voiture à ${code}`,
     railEyebrow: 'En train',
     railH2: 'Le train de nuit Helsinki–Rovaniemi',
-    railP1: 'Le train de nuit de VR part d\'Helsinki vers 19:00 et arrive à Rovaniemi à 08:00, douze heures de sommeil plutôt que quatre heures de sécurité aéroport et un vol. Adapté aux familles, option de transport de voiture incluse.',
+    railP1: 'Le train de nuit de VR part d\'Helsinki vers 19 h et arrive à Rovaniemi à 8 h, douze heures de sommeil plutôt que quatre heures de sécurité aéroport et un vol. Adapté aux familles, option de transport de voiture incluse.',
     railBullets: [
       'Couchette à partir d\'environ 90 € par personne, cabine-lit à partir d\'environ 140 €',
       'Transport de voiture disponible, vous récupérez votre propre voiture à Rovaniemi ou Kolari',
-      'Le terminus de Kolari est à 35 km d\'Ylläs (meilleure porte d\'entrée pour les fjells de l\'ouest que Rovaniemi)',
+      'Le terminus de Kolari est à 35 km d\'Ylläs (meilleure porte d\'entrée pour les fjälls de l\'ouest que Rovaniemi)',
       'Le wagon-restaurant sert le dîner ; petit-déjeuner à destination',
     ],
     railBulletStrong: ['Couchette dès ~90 €', 'Transport de voiture', 'Terminus Kolari', 'Wagon-restaurant'],

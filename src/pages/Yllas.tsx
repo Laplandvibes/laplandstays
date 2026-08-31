@@ -259,9 +259,9 @@ const ko: DestinationBody = {
 
 const fr: DestinationBody = {
   tagline: "Fjells jumeaux, pistes les plus longues de Finlande et chalets de forêt silencieux, la Laponie pour qui veut la nature bruyante et le village discret.",
-  description: `Ylläs est le fjell le plus haut du réseau finlandais de domaines skiables, 464 mètres de dénivelé, et offre les plus longues pistes de descente du pays. Il se trouve dans les communes de Kolari et Kittilä, à environ 115 km au nord du cercle polaire, en lisière du parc national Pallas-Yllästunturi.
+  description: `Ylläs est le fjäll le plus haut du réseau finlandais de domaines skiables, 464 mètres de dénivelé, et offre les plus longues pistes de descente du pays. Il se trouve dans les communes de Kolari et Kittilä, à environ 115 km au nord du cercle polaire, en lisière du parc national Pallas-Yllästunturi.
 
-Deux petits villages, Ylläsjärvi côté sud et Äkäslompolo côté nord, encadrent le fjell. Pas de noyau-station unique : les chalets premium s'éparpillent dans la forêt et le long des lacs, ce qui vaut à Ylläs sa réputation d'alternative plus calme et plus proche de la nature que Levi.`,
+Deux petits villages, Ylläsjärvi côté sud et Äkäslompolo côté nord, encadrent le fjäll. Pas de noyau-station unique : les chalets premium s'éparpillent dans la forêt et le long des lacs, ce qui vaut à Ylläs sa réputation d'alternative plus calme et plus proche de la nature que Levi.`,
   facts: [
     { label: 'Chalets en rondins dès', value: '150 €/nuit' },
     { label: 'Hôtels dès', value: '100 €/nuit' },
@@ -269,12 +269,12 @@ Deux petits villages, Ylläsjärvi côté sud et Äkäslompolo côté nord, enca
     { label: 'Dénivelé', value: '464 m' },
   ],
   highlights: [
-    { title: 'Les pistes les plus longues de Finlande', body: 'La piste de 3 km du versant avant de l\'Yllästunturi plonge du sommet nu du fjell à travers la pinède jusqu\'à la vallée. Rare en Finlande, la plupart des stations tournent autour de 1 km.' },
+    { title: 'Les pistes les plus longues de Finlande', body: 'La piste de 3 km du versant avant de l\'Yllästunturi plonge du sommet nu du fjäll à travers la pinède jusqu\'à la vallée. Rare en Finlande, la plupart des stations tournent autour de 1 km.' },
     { title: '330 km de pistes de ski de fond', body: 'Des pistes classiques et skating damées traversent le parc national et relient Ylläsjärvi, Äkäslompolo et Pallas.' },
-    { title: 'Parc national Pallas-Yllästunturi', body: 'Le troisième plus grand parc national de Finlande, forêt primaire, sept fjells nommés et l\'un des airs les plus purs d\'Europe.' },
+    { title: 'Parc national Pallas-Yllästunturi', body: 'Le troisième plus grand parc national de Finlande, forêt primaire, sept fjälls nommés et l\'un des airs les plus purs d\'Europe.' },
     { title: 'Chalets de forêt silencieux', body: 'Les hébergements sont volontairement espacés. Votre voisin, si vous en avez un, se trouve à quelques centaines de mètres de pinède au-delà d\'une clairière.' },
     { title: 'Rive aurores d\'Äkäslompolo', body: 'Le lac d\'Äkäslompolo regarde plein nord, horizon dégagé, aucune lumière de village sur la rive d\'en face, observation des aurores puissante depuis la glace.' },
-    { title: 'Randonnée d\'été sur les fjells', body: 'Les itinéraires de crête entre Ylläs et Pallas suivent des caillebotis au-dessus de la limite des arbres, ouverts de juillet à septembre sous le soleil de minuit.' },
+    { title: 'Randonnée d\'été sur les fjälls', body: 'Les itinéraires de crête entre Ylläs et Pallas suivent des caillebotis au-dessus de la limite des arbres, ouverts de juillet à septembre sous le soleil de minuit.' },
   ],
   whenToGo: `Décembre à mars constitue la fenêtre de plein hiver avec neige fiable et pleine saison aurores.
 Début avril offre le « kevättalvi », longues heures de jour, neige éclatante, conditions de ski encore au sommet.
@@ -283,7 +283,7 @@ Septembre amène la ruska, l\'or de l\'automne ; juillet est le soleil de minuit
 L\'aéroport de Rovaniemi (RVN) est une alternative, 2 h de route.
 La gare de Kolari, à 40 min, accueille les trains de nuit depuis Helsinki avec service auto-train.`,
   stayTypes: [
-    'Chalets en rondins sur les pentes boisées du fjell, 4 à 8 voyageurs, sauna au bois, cheminée, souvent bain nordique.',
+    'Chalets en rondins sur les pentes boisées du fjäll, 4 à 8 voyageurs, sauna au bois, cheminée, souvent bain nordique.',
     'Villas au bord des lacs Äkäslompolo et Kesänkijärvi, rive privée, trou pour la baignade glacée en hiver.',
     'Chalets ski-in à Äkäslompolo et Ylläsjärvi, accès direct aux pistes, locaux à matériel, moins de monde qu\'à Levi.',
     'Refuges design dans la zone tampon du parc national, signés par des architectes, sensation off-grid avec confort intégral.',
@@ -322,10 +322,10 @@ La gare de Kolari, à 40 min, accueille les trains de nuit depuis Helsinki avec 
 }
 
 const it: DestinationBody = {
-  tagline: 'Due fjell gemelli, le piste più lunghe della Finlandia e chalet silenziosi nel bosco, la Lapponia per chi vuole la natura forte e il paese discreto.',
-  description: `Ylläs è il fjell con maggiore dislivello del network sciistico finlandese, 464 metri, e ha le piste da discesa più lunghe del Paese. Si trova nei comuni di Kolari e Kittilä, circa 115 km a nord del Circolo Polare, ai margini del parco nazionale Pallas-Yllästunturi.
+  tagline: 'Due fjäll gemelli, le piste più lunghe della Finlandia e chalet silenziosi nel bosco, la Lapponia per chi vuole la natura forte e il paese discreto.',
+  description: `Ylläs è il fjäll con maggiore dislivello del network sciistico finlandese, 464 metri, e ha le piste da discesa più lunghe del Paese. Si trova nei comuni di Kolari e Kittilä, circa 115 km a nord del Circolo Polare, ai margini del parco nazionale Pallas-Yllästunturi.
 
-Due piccoli paesi, Ylläsjärvi a sud e Äkäslompolo a nord, fanno da quinte al fjell. Non c'è un unico cuore-resort: gli chalet premium si distribuiscono nel bosco e lungo i laghi, conferendo a Ylläs la fama di alternativa più tranquilla e più vicina alla natura rispetto a Levi.`,
+Due piccoli paesi, Ylläsjärvi a sud e Äkäslompolo a nord, fanno da quinte al fjäll. Non c'è un unico cuore-resort: gli chalet premium si distribuiscono nel bosco e lungo i laghi, conferendo a Ylläs la fama di alternativa più tranquilla e più vicina alla natura rispetto a Levi.`,
   facts: [
     { label: 'Chalet in tronchi da', value: '150 €/notte' },
     { label: 'Hotel da', value: '100 €/notte' },
@@ -333,12 +333,12 @@ Due piccoli paesi, Ylläsjärvi a sud e Äkäslompolo a nord, fanno da quinte al
     { label: 'Dislivello', value: '464 m' },
   ],
   highlights: [
-    { title: 'Le piste da discesa più lunghe della Finlandia', body: 'La pista di 3 km sul versante anteriore dello Yllästunturi scende dalla cima brulla del fjell attraverso la pineta fino al fondovalle. Rara in Finlandia, la maggior parte delle stazioni si ferma a 1 km.' },
+    { title: 'Le piste da discesa più lunghe della Finlandia', body: 'La pista di 3 km sul versante anteriore dello Yllästunturi scende dalla cima brulla del fjäll attraverso la pineta fino al fondovalle. Rara in Finlandia, la maggior parte delle stazioni si ferma a 1 km.' },
     { title: '330 km di tracciati di sci di fondo', body: 'Piste classiche e di skating battute attraversano il parco nazionale e collegano Ylläsjärvi, Äkäslompolo e Pallas.' },
-    { title: 'Parco nazionale Pallas-Yllästunturi', body: 'Il terzo parco nazionale più grande di Finlandia, foreste antiche, sette fjell con un nome e una delle arie più pure misurate in Europa.' },
+    { title: 'Parco nazionale Pallas-Yllästunturi', body: 'Il terzo parco nazionale più grande di Finlandia, foreste antiche, sette fjäll con un nome e una delle arie più pure misurate in Europa.' },
     { title: 'Chalet silenziosi nel bosco', body: 'Le strutture sono volutamente distanziate. Il Suo vicino, se ne ha uno, dista qualche centinaio di metri di pineta oltre una radura.' },
     { title: 'Sponda aurora di Äkäslompolo', body: 'Il lago di Äkäslompolo guarda a nord, orizzonte pulito, nessuna luce di paese sul lato opposto, osservazione dell\'aurora forte dal ghiaccio.' },
-    { title: 'Trekking estivo sui fjell', body: 'I percorsi di crinale tra Ylläs e Pallas seguono passerelle sopra il limite del bosco, aperti da luglio a settembre con la luce del sole di mezzanotte.' },
+    { title: 'Trekking estivo sui fjäll', body: 'I percorsi di crinale tra Ylläs e Pallas seguono passerelle sopra il limite del bosco, aperti da luglio a settembre con la luce del sole di mezzanotte.' },
   ],
   whenToGo: `Da dicembre a marzo è la finestra di pieno inverno con neve sicura e piena stagione aurorale.
 Inizio aprile offre il "kevättalvi", giornate lunghe, neve brillante e condizioni di sci ancora al top.
@@ -347,7 +347,7 @@ Settembre porta la ruska autunnale; luglio è sole di mezzanotte e trekking.`,
 L\'aeroporto di Rovaniemi (RVN) è un\'alternativa, 2 ore di auto.
 La stazione di Kolari, a 40 min, accoglie i treni notturni da Helsinki con servizio auto al seguito.`,
   stayTypes: [
-    'Chalet in tronchi sui versanti boschivi del fjell, 4–8 ospiti, sauna a legna, camino, spesso vasca esterna.',
+    'Chalet in tronchi sui versanti boschivi del fjäll, 4–8 ospiti, sauna a legna, camino, spesso vasca esterna.',
     'Ville sul lago di Äkäslompolo e Kesänkijärvi, riva privata, foro nel ghiaccio per il bagno invernale.',
     'Chalet ski-in ad Äkäslompolo e Ylläsjärvi, accesso diretto alle piste, deposito attrezzature, meno gente che a Levi.',
     'Rifugi di design nella fascia di rispetto del parco nazionale, firme d\'architetto, atmosfera off-grid con comfort pieno.',
@@ -386,10 +386,10 @@ La stazione di Kolari, a 40 min, accoglie i treni notturni da Helsinki con servi
 }
 
 const nl: DestinationBody = {
-  tagline: "Tweelingfjells, Finland\'s langste pistes en stille boscabins, Lapland voor wie de wildernis luid en het dorp stil wil.",
-  description: `Ylläs is met 464 meter hoogteverschil het hoogste fjell van het Finse skinetwerk en heeft de langste afdaalpistes van het land. Het ligt in de gemeenten Kolari en Kittilä, ongeveer 115 km ten noorden van de Poolcirkel, aan de rand van het Pallas-Yllästunturi-nationaal park.
+  tagline: "Tweelingfjälls, Finland\'s langste pistes en stille boscabins, Lapland voor wie de wildernis luid en het dorp stil wil.",
+  description: `Ylläs is met 464 meter hoogteverschil het hoogste fjäll van het Finse skinetwerk en heeft de langste afdaalpistes van het land. Het ligt in de gemeenten Kolari en Kittilä, ongeveer 115 km ten noorden van de Poolcirkel, aan de rand van het Pallas-Yllästunturi-nationaal park.
 
-Twee kleine dorpen, Ylläsjärvi aan de zuidkant en Äkäslompolo aan de noordkant, flankeren het fjell. Er is geen centrale resortkern: premium cabins liggen verspreid in het bos en langs de meren, wat Ylläs zijn reputatie geeft van rustiger, natuurgerichter alternatief voor Levi.`,
+Twee kleine dorpen, Ylläsjärvi aan de zuidkant en Äkäslompolo aan de noordkant, flankeren het fjäll. Er is geen centrale resortkern: premium cabins liggen verspreid in het bos en langs de meren, wat Ylläs zijn reputatie geeft van rustiger, natuurgerichter alternatief voor Levi.`,
   facts: [
     { label: 'Houten cabins vanaf', value: '€150/nacht' },
     { label: 'Hotels vanaf', value: '€100/nacht' },
@@ -397,12 +397,12 @@ Twee kleine dorpen, Ylläsjärvi aan de zuidkant en Äkäslompolo aan de noordka
     { label: 'Hoogteverschil', value: '464 m' },
   ],
   highlights: [
-    { title: "Finland\'s langste afdalingen", body: 'De 3 km lange piste op de voorzijde van de Yllästunturi daalt vanaf de kale top van het fjell door dennenbos naar het dal. Zeldzaam in Finland, de meeste resorts hebben pistes van rond de 1 km.' },
+    { title: "Finland\'s langste afdalingen", body: 'De 3 km lange piste op de voorzijde van de Yllästunturi daalt vanaf de kale top van het fjäll door dennenbos naar het dal. Zeldzaam in Finland, de meeste resorts hebben pistes van rond de 1 km.' },
     { title: '330 km langlauftracks', body: 'Gemaaide klassieke en skatingsporen lopen door het nationaal park en verbinden Ylläsjärvi, Äkäslompolo en Pallas.' },
-    { title: 'Pallas-Yllästunturi-nationaal park', body: 'Het op twee na grootste nationaal park van Finland, oerbos, zeven met naam genoemde fjells en een van de zuiverste gemeten lucht van Europa.' },
+    { title: 'Pallas-Yllästunturi-nationaal park', body: 'Het op twee na grootste nationaal park van Finland, oerbos, zeven met naam genoemde fjälls en een van de zuiverste gemeten lucht van Europa.' },
     { title: 'Stille boscabins', body: 'Accommodaties staan hier bewust uit elkaar. Heeft u een buur, dan ligt die enkele honderden meters dennenbos en open plek verderop.' },
     { title: 'Aurora-oever van Äkäslompolo', body: 'Het meer bij Äkäslompolo kijkt pal noord uit, vrije horizon, geen dorpslichten aan de overkant, sterk noorderlicht vanaf het ijs.' },
-    { title: 'Zomerwandelingen op het fjell', body: 'De toproutes tussen Ylläs en Pallas lopen via planken boven de boomgrens, open van juli tot september bij het licht van de middernachtszon.' },
+    { title: 'Zomerwandelingen op het fjäll', body: 'De toproutes tussen Ylläs en Pallas lopen via planken boven de boomgrens, open van juli tot september bij het licht van de middernachtszon.' },
   ],
   whenToGo: `December–maart is het diepe-winter venster met betrouwbare sneeuw en volledig aurora-seizoen.
 Begin april biedt de "kevättalvi", lange daglichturen, helle sneeuw en nog volle skicondities.
@@ -411,7 +411,7 @@ September brengt de ruska-herfstkleuren; juli is middernachtszon en wandelen.`,
 Luchthaven Rovaniemi (RVN) is een alternatief, 2 uur rijden.
 Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservice.`,
   stayTypes: [
-    'Houten cabins op de beboste fjell-hellingen, 4–8 gasten, houtgestookte sauna, open haard, vaak een hottub.',
+    'Houten cabins op de beboste fjäll-hellingen, 4–8 gasten, houtgestookte sauna, open haard, vaak een hottub.',
     'Villa\'s aan het meer Äkäslompolo en Kesänkijärvi, privé-oever, ijswak in de winter.',
     'Ski-in chalets bij Äkäslompolo en Ylläsjärvi, directe toegang tot de piste, materiaalberging, minder drukte dan in Levi.',
     'Designer wildernislodges in de bufferzone van het nationaal park, door architecten gebouwd, off-grid gevoel met volledig comfort.',

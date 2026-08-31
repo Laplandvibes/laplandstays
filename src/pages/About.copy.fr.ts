@@ -56,7 +56,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Détail local",
-        "body": "Tarifs de bus depuis KTT (8 €), IVL (15 €), RVN (7 €). Quels fjells offrent du ski-in/ski-out, quels lacs regardent au nord pour la ligne d'horizon aurores, quels mois sont complets 12 mois à l'avance. Le genre de détail qu'un ami de Rovaniemi mentionnerait."
+        "body": "Tarifs de bus depuis KTT (8 €), IVL (15 €), RVN (7 €). Quels fjälls offrent du ski-in/ski-out, quels lacs regardent au nord pour la ligne d'horizon aurores, quels mois sont complets 12 mois à l'avance. Le genre de détail qu'un ami de Rovaniemi mentionnerait."
       }
     ],
     "ctaH2": "Prêts quand vous l'êtes",

@@ -275,7 +275,7 @@ const CARS_COPY: Record<Lang, AdCopy> = {
   fr: {
     adLabel: 'Annonce',
     eyebrow: 'Votre rythme en Laponie',
-    headline: 'Une voiture de location à l’aéroport, vers les fjells et les aurores quand vous voulez',
+    headline: 'Une voiture de location à l’aéroport, vers les fjälls et les aurores quand vous voulez',
     sub: "En Laponie les distances sont longues et les transports en commun rares. Avec votre propre voiture, vous allez de l'hôtel à la station de ski, à la ferme de huskies et aux meilleurs spots d'aurores sans attendre le bus. Retrait directement à l'aéroport, pneus hiver de série en Finlande.",
     trust: ['Retrait à l’aéroport', 'Pneus hiver inclus', 'Comparez les loueurs'],
     cta: 'Voir les voitures',
@@ -284,7 +284,7 @@ const CARS_COPY: Record<Lang, AdCopy> = {
   it: {
     adLabel: 'Annuncio',
     eyebrow: 'Il Suo ritmo in Lapponia',
-    headline: 'Un’auto a noleggio dall’aeroporto, verso i fjell e l’aurora quando vuoi',
+    headline: 'Un’auto a noleggio dall’aeroporto, verso i fjäll e l’aurora quando vuoi',
     sub: "In Lapponia le distanze sono lunghe e i mezzi pubblici scarsi. Con un’auto propria raggiunge dall'hotel la stazione sciistica, la fattoria degli husky e i punti migliori per l'aurora senza aspettare il bus. Ritiro direttamente in aeroporto, pneumatici invernali di serie in Finlandia.",
     trust: ['Ritiro in aeroporto', 'Pneumatici invernali inclusi', 'Confronta gli autonoleggi'],
     cta: 'Vedi le auto a noleggio',
@@ -293,7 +293,7 @@ const CARS_COPY: Record<Lang, AdCopy> = {
   nl: {
     adLabel: 'Advertentie',
     eyebrow: 'Uw eigen tempo in Lapland',
-    headline: 'Een huurauto vanaf de luchthaven, naar de fjells en het noorderlicht wanneer u wilt',
+    headline: 'Een huurauto vanaf de luchthaven, naar de fjälls en het noorderlicht wanneer u wilt',
     sub: 'In Lapland zijn de afstanden groot en het openbaar vervoer schaars. Met uw eigen auto rijdt u van het hotel naar het skigebied, de huskyfarm en de beste noorderlichtplekken zonder op de bus te wachten. Ophalen direct op de luchthaven, en winterbanden zijn in Finland standaard.',
     trust: ['Ophalen op de luchthaven', 'Winterbanden inbegrepen', 'Vergelijk verhuurbedrijven'],
     cta: 'Bekijk huurauto’s',

@@ -20,7 +20,7 @@ const copy: ChromeCopy = {
     eyebrow: 'Hébergement en Laponie · Finlande',
     h1: 'Où séjourner en Laponie finlandaise',
     lead: "Iglous en verre sous l'aurore, chalets aurores boréales dans la pinède et hôtels de Laponie avec sauna privé.",
-    leadSummer: "Chalets au bord du lac sous le soleil de minuit, lodges en bord de rivière dans les fjells verdoyants et hôtels de Laponie avec sauna privé.",
+    leadSummer: "Chalets au bord du lac sous le soleil de minuit, lodges en bord de rivière dans les fjälls verdoyants et hôtels de Laponie avec sauna privé.",
     disclosure: "Cette page contient des liens d'affiliation. Si vous réservez via ces liens, LaplandStays peut percevoir une commission sans coût supplémentaire pour vous.",
     alt: 'Chalet de luxe chaleureusement éclairé dans la Laponie finlandaise enneigée sous les aurores boréales',
   },
@@ -42,13 +42,13 @@ const copy: ChromeCopy = {
     skiResorts: 'Stations de ski',
   },
   mobileStickyCta: {
-    headline: 'Chalets & iglous de Laponie vérifiés',
+    headline: 'Chalets & igloos de Laponie vérifiés',
     cta: 'Réserver',
   },
   newsletter: {
     eyebrow: 'LaplandStays Insider',
     h2: 'Planifiez votre voyage en Laponie avec nous',
-    lead: "Seulement quand nous avons vraiment quelque chose à vous dire : la tournure que prend la saison, quand les iglous et les chalets affichent généralement complet, et quoi réserver en premier. Vous n'avez qu'à choisir les dates et préparer les chaussettes en laine.",
+    lead: "Seulement quand nous avons vraiment quelque chose à vous dire : la tournure que prend la saison, quand les igloos et les chalets affichent généralement complet, et quoi réserver en premier. Vous n'avez qu'à choisir les dates et préparer les chaussettes en laine.",
     emailPlaceholder: 'votre@email.com',
     emailLabel: 'Adresse e-mail',
     submit: 'Recevoir le prochain e-mail',
@@ -59,7 +59,7 @@ const copy: ChromeCopy = {
     privacyLink: 'Politique de confidentialité',
     benefits: [
       { title: 'Saisons des aurores', body: 'Quand la saison bat son plein, comment lire les prévisions Kp et quels mois sont les plus sombres sous un toit de verre.' },
-      { title: 'Fenêtres de réservation des iglous', body: 'Quand Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village ouvrent généralement leur saison, et quelles nuits partent en premier.' },
+      { title: 'Fenêtres de réservation des igloos', body: 'Quand Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village ouvrent généralement leur saison, et quelles nuits partent en premier.' },
       { title: 'Aide à la planification', body: 'Quand venir, quoi réserver en premier, quoi laisser de côté sans regret, raconté comme à un ami, écrit depuis la Finlande.' },
       { title: 'Sélection partenaires', body: 'Nous mettons en avant les offres de saison de nos partenaires quand il y en a.' },
     ],
