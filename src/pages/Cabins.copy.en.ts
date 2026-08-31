@@ -119,7 +119,7 @@ const copy = {
     seasons: [
       { period: 'December to March', body: 'Full winter: slopes open, tracks groomed, aurora season in full swing. The most demand for cabins, so the earlier you book, the better the pick.' },
       { period: 'April', body: 'Spring skiing: long days, packed snow, sunglasses weather on the terrace. Locals call it the best-kept secret of the ski year.' },
-      { period: 'June to August', body: 'Midnight sun: hiking, fishing and swimming off the cabin dock, with daylight around the clock. Lakeside cabins are at their best.' },
+      { period: 'June to August', body: 'Long summer light: hiking, fishing and swimming off the cabin dock. The midnight sun runs to mid-July and the evenings stay light well into August. Lakeside cabins are at their best.' },
       { period: 'September to October', body: 'Ruska, the autumn colour season: fells turn red and gold, the air is sharp, and the first auroras return to dark skies.' },
     ],
 

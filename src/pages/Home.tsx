@@ -55,7 +55,7 @@ const LODGING_DESC: Record<string, string> = {
   es: 'Iglús de cristal, cabañas de aurora y hoteles naturaleza en la Laponia finlandesa, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',
   'pt-BR': 'Iglus de vidro, cabanas de aurora e hotéis naturais na Lapônia finlandesa, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',
   'zh-CN': '芬兰拉普兰的玻璃穹顶屋、极光小屋与自然酒店。莱维、于拉斯、萨利色尔卡、伊纳里、罗瓦涅米。',
-  ko: '핀란드 라플란드의 글래스 이글루, 오로라 캐빈, 자연 호텔. 레비, 일래스, 사리셀카, 이나리, 로바니에미.',
+  ko: '핀란드 라플란드의 글래스 이글루, 오로라 캐빈, 자연 호텔. 레비, 윌래스, 사리셀카, 이나리, 로바니에미.',
   fr: 'Igloos de verre, chalets aurores et hôtels nature en Laponie finlandaise, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',
   it: 'Igloo di vetro, chalet aurora e hotel natura nella Lapponia finlandese, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',
   nl: 'Glasiglo\'s, aurora-cabins en natuurhotels in Fins Lapland, Levi, Ylläs, Saariselkä, Inari, Rovaniemi.',

@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'Da dicembre a marzo', body: "Pieno inverno: piste aperte, anelli battuti e stagione dell'aurora al culmine. È il momento di maggiore richiesta, quindi prima prenota, migliore sarà la scelta." },
       { period: 'Aprile', body: 'Sci primaverile: giornate lunghe, neve compatta e clima da occhiali da sole in terrazza. I locali lo chiamano il segreto meglio custodito dell\'anno sciistico.' },
-      { period: 'Da giugno ad agosto', body: 'Sole di mezzanotte: escursioni, pesca e nuotate dal pontile dello chalet, con luce a qualsiasi ora. Gli chalet in riva al lago danno il meglio di sé.' },
+      { period: 'Da giugno ad agosto', body: 'Luce estiva: escursioni, pesca e nuotate dal pontile dello chalet. Il sole di mezzanotte dura fino a metà luglio e le serate restano chiare fino ad agosto inoltrato. Gli chalet in riva al lago danno il meglio di sé.' },
       { period: 'Da settembre a ottobre', body: "La ruska, la stagione dei colori autunnali: i fell si tingono di rosso e oro, l'aria è tersa e le prime aurore tornano nei cieli bui." },
     ],
 

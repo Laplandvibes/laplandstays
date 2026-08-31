@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'Dezembro a março', body: 'Inverno pleno: pistas abertas, trilhas preparadas e temporada de auroras no auge. É quando a procura por cabanas é maior, então quanto antes reservar, melhor a escolha.' },
       { period: 'Abril', body: 'Esqui de primavera: dias longos, neve firme e clima de óculos de sol no terraço. Os locais chamam de segredo mais bem guardado do ano de esqui.' },
-      { period: 'Junho a agosto', body: 'Sol da meia-noite: caminhadas, pesca e mergulhos do deque da cabana, com luz o dia inteiro. As cabanas à beira de lago estão no melhor momento.' },
+      { period: 'Junho a agosto', body: 'Luz de verão: caminhadas, pesca e mergulhos do deque da cabana. O sol da meia-noite vai até meados de julho e os fins de tarde seguem claros por boa parte de agosto. As cabanas à beira de lago estão no melhor momento.' },
       { period: 'Setembro a outubro', body: 'A ruska, a estação das cores de outono: os fells ficam vermelhos e dourados, o ar é cortante e as primeiras auroras voltam aos céus escuros.' },
     ],
 

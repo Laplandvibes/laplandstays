@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'Joulukuu–maaliskuu', body: 'Täysi talvi: rinteet auki, ladut ajettu ja revontulikausi kuumimmillaan. Mökeillä on eniten kysyntää, joten mitä aiemmin varaat, sitä parempi valikoima.' },
       { period: 'Huhtikuu', body: 'Kevätlaskettelu: pitkät päivät, kantava hanki ja aurinkolasikeli terassilla. Paikalliset kutsuvat tätä hiihtovuoden parhaiten varjelluksi salaisuudeksi.' },
-      { period: 'Kesäkuu–elokuu', body: 'Yötön yö: vaellusta, kalastusta ja uintia mökkilaiturilta, valoa vuorokauden ympäri. Rantamökit ovat parhaimmillaan.' },
+      { period: 'Kesäkuu–elokuu', body: 'Valoisa kesä: vaellusta, kalastusta ja uintia mökkilaiturilta. Yötön yö kestää heinäkuun puoliväliin, ja illat ovat valoisia pitkälle elokuuhun. Rantamökit ovat parhaimmillaan.' },
       { period: 'Syyskuu–lokakuu', body: 'Ruska: tunturit hehkuvat punaista ja kultaa, ilma on terävä ja ensimmäiset revontulet palaavat pimenneelle taivaalle.' },
     ],
 

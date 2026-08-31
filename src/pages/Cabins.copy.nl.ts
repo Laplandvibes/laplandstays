@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'December tot maart', body: 'Volle winter: pistes open, loipes gespoord en het noorderlichtseizoen op zijn hoogtepunt. De grootste vraag naar huisjes, dus hoe eerder u boekt, hoe beter de keuze.' },
       { period: 'April', body: 'Voorjaarsskiën: lange dagen, stevige sneeuw en zonnebrilweer op het terras. De lokale bevolking noemt het het best bewaarde geheim van het skijaar.' },
-      { period: 'Juni tot augustus', body: 'Middernachtzon: wandelen, vissen en zwemmen vanaf de steiger van het huisje, met daglicht rond de klok. Huisjes aan het meer zijn op hun best.' },
+      { period: 'Juni tot augustus', body: 'Zomerlicht: wandelen, vissen en zwemmen vanaf de steiger van het huisje. De middernachtzon duurt tot half juli en de avonden blijven tot ver in augustus licht. Huisjes aan het meer zijn op hun best.' },
       { period: 'September tot oktober', body: 'Ruska, het herfstkleurenseizoen: de fjellen kleuren rood en goud, de lucht is scherp en het eerste noorderlicht keert terug aan de donkere hemel.' },
     ],
 

@@ -40,7 +40,7 @@ const TEXT: Record<Lang, { compact: string; full: string }> = {
   },
   ko: {
     compact: '제휴 링크：예약 시 추가 비용 없이 소액의 수수료를 받습니다.',
-    full: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 LaplandStays가 추가 비용 없이 수수료를 받을 수 있습니다.',
+    full: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 귀하에게 추가 비용이 발생하지 않으며, LaplandStays가 수수료를 받습니다.',
   },
   fr: {
     compact: "Liens d'affiliation: nous percevons une petite commission sans coût supplémentaire lorsque vous réservez.",

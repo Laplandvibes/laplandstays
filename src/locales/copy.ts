@@ -420,7 +420,7 @@ export function footerDict(lang: Lang): FooterDict {
       spottedError: { title: '오류를 발견하셨나요?', body: '수정이 필요한 부분이 있으신가요? 알려주세요. 즉시 바로잡겠습니다.', cta: '오류 신고 →' },
       partner: { title: '파트너십', body: '21개 이상의 라플란드 사이트에서 광고하거나 협업하세요.', cta: '연락하기 →' },
       press: { title: '언론 및 미디어', body: '편집 파트너십과 보도자료.', cta: '언론 문의 →' },
-      affiliate: '이 사이트에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 LaplandVibes가 추가 비용 없이 수수료를 받을 수 있습니다.',
+      affiliate: '이 사이트에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 귀하에게 추가 비용이 발생하지 않으며, LaplandVibes가 수수료를 받습니다.',
       copyright: '© {{year}} #LaplandVibes. #LaplandVibes 네트워크의 일부',
       websiteBy: '웹사이트 제작: Yrityspaketit.fi',
       legal: { privacy: '개인정보 처리방침', cookie: '쿠키 정책', terms: '이용약관', contact: '문의' },

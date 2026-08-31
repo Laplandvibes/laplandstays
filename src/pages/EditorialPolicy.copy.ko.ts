@@ -18,15 +18,15 @@ const copy: PageCopy = {
       },
       {
         "title": "실명 숙소, \"프리미엄 5성급\" 같은 표현 지양",
-        "body": "Kakslauttanen Arctic Resort, Levin Iglut, Star Arctic, Aurora Village Ivalo, Wilderness Hotel Nellim과 Muotka, Apukka Resort, Arctic TreeHouse Hotel, Nova Skyland, Lapland Hotels(레비/일래스), Harriniva, Northern Lights Ranch. 모두 이름과 직접 링크로 언급합니다. 어떤 곳인지 밝히지 않은 익명의 \"럭셔리 캐빈\"은 다루지 않습니다."
+        "body": "Kakslauttanen Arctic Resort, Levin Iglut, Star Arctic, Aurora Village Ivalo, Wilderness Hotel Nellim과 Muotka, Apukka Resort, Arctic TreeHouse Hotel, Nova Skyland, Lapland Hotels(레비/윌래스), Harriniva, Northern Lights Ranch. 모두 이름과 직접 링크로 언급합니다. 어떤 곳인지 밝히지 않은 익명의 \"럭셔리 캐빈\"은 다루지 않습니다."
       },
       {
         "title": "제휴로부터의 독립",
-        "body": "LaplandStays는 파트너 링크(호텔은 Adtraction을 통한 Sembo와 Trip.com, 렌터카는 Travelpayouts를 통한 EconomyBookings, 액티비티는 GetYourGuide)를 통한 예약에서 제휴 수수료를 받습니다. 파트너 프로그램 전반의 수수료율이 비슷하기 때문에 추천 숙소 선정에는 영향을 주지 않습니다. 비제휴 운영사라도 정답이라면 추천합니다(예: 기차의 VR). /transport 페이지가 그 예시입니다."
+        "body": "LaplandStays는 파트너 링크(호텔은 Adtraction을 통한 Sembo와 Trip.com, 렌터카는 Travelpayouts를 통한 EconomyBookings, 액티비티는 GetYourGuide)를 통한 예약에서 제휴 수수료를 받습니다. 파트너 프로그램 전반의 수수료율이 비슷하기 때문에 추천 숙소 선정에는 영향을 주지 않습니다. 비제휴 운영사라도 정답이라면 추천합니다(예: 열차는 VR). /transport 페이지가 그 예시입니다."
       },
       {
         "title": "정정 기록, 조용한 수정 금지",
-        "body": "잘못된 부분은 수정하고 그 변경 사항을 사이트 변경 로그에 기록합니다. 중요한 변경(요금 정정, 숙소 폐업, 스키마 업데이트)에는 해당 섹션에 날짜를 표시합니다. 오류를 발견하셨다면 info@laplandvibes.com 으로 메일을 보내 주십시오. 보통 라플란드 현지에서 당일 회신해 드립니다."
+        "body": "잘못된 부분은 수정하고 그 변경 사항을 사이트 변경 로그에 기록합니다. 중요한 변경(요금 정정, 숙소 폐업, 스키마 업데이트)에는 해당 섹션에 날짜를 표시합니다. 오류를 발견하셨다면 info@laplandvibes.com으로 메일을 보내 주십시오. 보통 라플란드 현지에서 당일 회신해 드립니다."
       }
     ],
     "sourcesEyebrow": "데이터 출처",
@@ -47,7 +47,7 @@ const copy: PageCopy = {
       },
       {
         "label": "GetYourGuide 파트너 프로그램",
-        "use": "로바니에미, 사리셀카, 레비, 일래스, 이나리의 액티비티 재고(\"Activities\" 섹션 추가 시)."
+        "use": "로바니에미, 사리셀카, 레비, 윌래스, 이나리의 액티비티 재고(\"Activities\" 섹션 추가 시)."
       },
       {
         "label": "VR (핀란드 철도)",
@@ -73,7 +73,7 @@ const copy: PageCopy = {
     "corrH2": "정정 절차",
     "corrP1": "여행 데이터는 변합니다. 요금이 움직이고 숙소가 문을 닫고 항공 노선이 끊깁니다. 게시된 내용이 더 이상 정확하지 않다면, 독자가 일정을 놓치는 것보다 미리 알려 주시는 편이 낫습니다.",
     "corrP2Pre": "알려 주시는 방법: ",
-    "corrP2Mid": " 으로 페이지 URL과 잘못된 문장을 함께 보내 주십시오. 사이트별 상태 페이지에 기록되며, 비긴급 사항은 1–3일 내, 예약에 영향을 줄 수 있는 요금 오류는 당일 공개 본문이 업데이트됩니다.",
+    "corrP2Mid": "으로 페이지 URL과 잘못된 문장을 함께 보내 주십시오. 사이트별 상태 페이지에 기록되며, 비긴급 사항은 1–3일 내, 예약에 영향을 줄 수 있는 요금 오류는 당일 공개 본문이 업데이트됩니다.",
     "corrP3": "절대 일어나지 않는 일: 조용한 수정. 중요한 정정에는 항상 사이트 변경 로그에 날짜와 설명을 담은 기록이 남습니다.",
     "readOnH2": "더 읽어보기",
     "readOnLead": "전체 그림을 채워 주는 다른 정책 및 참고 페이지.",

@@ -17,7 +17,7 @@ const copy: Copy = {
     seasonAnchors: [
       { label: '글래스 이글루', value: '8–12개월 전 예약', sub: 'Kakslauttanen / Levin Iglut' },
       { label: '오로라 캐빈', value: '목적지 4곳', sub: '' },
-      { label: '라플란드 호텔', value: '레비 · 일래스 · 사리셀카', sub: '' },
+      { label: '라플란드 호텔', value: '레비 · 윌래스 · 사리셀카', sub: '' },
     ],
   }
 

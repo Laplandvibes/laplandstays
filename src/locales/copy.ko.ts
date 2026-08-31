@@ -8,7 +8,7 @@ const copy: ChromeCopy = {
     transport: '교통편',
     about: '소개',
     levi: '레비',
-    yllas: '일래스',
+    yllas: '윌래스',
     saariselka: '사리셀카',
     inari: '이나리',
     rovaniemi: '로바니에미',
@@ -21,7 +21,7 @@ const copy: ChromeCopy = {
     h1: '라플란드 숙박',
     lead: '오로라 아래의 글래스 이글루, 소나무 숲 속의 노던라이트 캐빈, 그리고 전용 사우나가 있는 라플란드 호텔.',
     leadSummer: '백야의 태양 아래 호숫가 캐빈, 푸른 구릉의 강가 로지, 그리고 전용 사우나가 있는 라플란드 호텔.',
-    disclosure: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 LaplandStays가 추가 비용 없이 수수료를 받을 수 있습니다.',
+    disclosure: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하시면 귀하에게 추가 비용이 발생하지 않으며, LaplandStays가 수수료를 받습니다.',
     alt: '오로라가 펼쳐진 하늘 아래 눈 덮인 핀란드 라플란드의 따뜻한 조명의 럭셔리 캐빈',
   },
   editorial: {
@@ -54,7 +54,7 @@ const copy: ChromeCopy = {
     submit: '다음 메일 받기',
     submitting: '구독 중…',
     success: '거의 다 됐습니다. 방금 보내드린 이메일에서 구독을 확인해 주세요.',
-    error: '구독에 실패했습니다. 다시 시도하시거나 info@laplandvibes.com 으로 메일을 보내주세요.',
+    error: '구독에 실패했습니다. 다시 시도하시거나 info@laplandvibes.com으로 메일을 보내주세요.',
     footnote: '정말 전할 만한 소식이 있을 때만 보냅니다. 한 번 클릭으로 구독 해지.',
     privacyLink: '개인정보 처리방침',
     benefits: [

@@ -18,7 +18,7 @@ Two small villages, Ylläsjärvi on the south side and Äkäslompolo on the nort
     { title: 'Pallas-Yllästunturi National Park', body: "Finland's third-largest national park, old-growth forest, seven named fells, and some of Europe's cleanest measured air." },
     { title: 'Silent forest cabins', body: 'Properties here are deliberately spaced apart. Your neighbour, if you have one, is a few hundred metres of pine through a clearing.' },
     { title: 'Äkäslompolo aurora shore', body: 'The lake at Äkäslompolo faces north, clear horizon, no village lights on the far side, strong aurora viewing from the ice.' },
-    { title: 'Summer fell hiking', body: 'The fell-top routes between Ylläs and Pallas are boardwalked above treeline, open July to September with midnight-sun daylight.' },
+    { title: 'Summer fell hiking', body: 'The fell-top routes between Ylläs and Pallas are boardwalked above treeline, open July to September — round-the-clock light in July, ruska colour and dark aurora nights by September.' },
   ],
   whenToGo: `December – March is the deep-winter window with reliable snow and full aurora season.
 Early April offers the "kevättalvi", long daylight hours, bright snow, still full ski conditions.
@@ -82,7 +82,7 @@ Kaksi pientä kylää, Ylläsjärvi etelässä ja Äkäslompolo pohjoisessa, keh
     { title: 'Pallas-Yllästunturin kansallispuisto', body: 'Suomen kolmanneksi suurin kansallispuisto, ikimetsää, seitsemän nimettyä tunturia ja Euroopan puhtainta mitattua ilmaa.' },
     { title: 'Hiljaiset metsämökit', body: 'Kohteet on tarkoituksella sijoitettu kauas toisistaan. Naapurisi, jos sellaista on, on muutaman sadan metrin männikön takana aukealla.' },
     { title: 'Äkäslompolon revontulirantakaista', body: 'Äkäslompolon järvi avautuu pohjoiseen, selkeä horisontti, ei kylävaloja vastarannalla, vahva revontulinäkyvyys jäältä.' },
-    { title: 'Kesätunturipatikointi', body: 'Tunturireitit Ylläksen ja Pallaksen välillä ovat pitkospuilla puurajan yläpuolella, avoinna heinäkuusta syyskuuhun keskiyön auringon valossa.' },
+    { title: 'Kesätunturipatikointi', body: 'Tunturireitit Ylläksen ja Pallaksen välillä kulkevat pitkospuilla puurajan yläpuolella, avoinna heinäkuusta syyskuuhun: heinäkuussa valoa vuorokauden ympäri, syyskuussa ruska ja pimeät revontuliyöt.' },
   ],
   whenToGo: `Joulukuu–maaliskuu on syvätalven ikkuna luotettavalla lumella ja täydellä revontulisesongilla.
 Huhtikuun alku tarjoaa "kevättalven", pitkät päivänvalon tunnit, kirkas lumi, vielä täydet lasketteluolosuhteet.
@@ -146,7 +146,7 @@ Zwei kleine Dörfer, Ylläsjärvi im Süden und Äkäslompolo im Norden, flankie
     { title: 'Pallas-Yllästunturi-Nationalpark', body: 'Finnlands drittgrößter Nationalpark, Urwald, sieben benannte Fjälls und eine der saubersten gemessenen Luftqualitäten Europas.' },
     { title: 'Stille Waldhütten', body: 'Unterkünfte sind hier bewusst weit auseinander gesetzt. Ihr Nachbar, wenn Sie einen haben, ist ein paar hundert Meter Kiefer und Lichtung entfernt.' },
     { title: 'Polarlicht-Ufer Äkäslompolo', body: 'Der See bei Äkäslompolo zeigt nach Norden, klarer Horizont, keine Dorflichter auf der anderen Seite, starke Polarlicht-Sicht vom Eis aus.' },
-    { title: 'Sommer-Fjäll-Wandern', body: 'Die Fjäll-Gipfelrouten zwischen Ylläs und Pallas verlaufen oberhalb der Baumgrenze auf Bohlenwegen, geöffnet von Juli bis September im Mitternachtssonnen-Licht.' },
+    { title: 'Sommer-Fjäll-Wandern', body: 'Die Fjäll-Gipfelrouten zwischen Ylläs und Pallas verlaufen oberhalb der Baumgrenze auf Bohlenwegen, geöffnet von Juli bis September: im Juli rund um die Uhr hell, im September Ruska-Farben und dunkle Polarlichtnächte.' },
   ],
   whenToGo: `Dezember – März ist das tiefwinterliche Fenster mit zuverlässigem Schnee und voller Polarlicht-Saison.
 Anfang April bietet den „Frühjahrswinter“, lange Tageslichtstunden, helle Schneedecke, noch volle Ski-Bedingungen.
@@ -195,9 +195,9 @@ Bahnhof Kolari, 40 min entfernt, empfängt die Nachtzüge aus Helsinki mit Autot
 
 const ko: DestinationBody = {
   tagline: '쌍둥이 봉우리, 핀란드에서 가장 긴 슬로프, 그리고 고요한 숲속 캐빈. 야생은 크게, 마을은 조용한 라플란드.',
-  description: `일래스는 핀란드 스키 리조트 네트워크 가운데 표고차(464m)가 가장 큰 봉우리이자, 핀란드에서 가장 긴 다운힐 슬로프를 보유한 산입니다. 콜라리·키틸레 자치체에 걸쳐 있으며, 북극권에서 약 115km 북쪽, Pallas-Yllästunturi 국립공원 자락에 자리합니다.
+  description: `윌래스는 핀란드 스키 리조트 네트워크 가운데 표고차(464m)가 가장 큰 봉우리이자, 핀란드에서 가장 긴 다운힐 슬로프를 보유한 산입니다. 콜라리·키틸래 자치체에 걸쳐 있으며, 북극권에서 약 115km 북쪽, Pallas-Yllästunturi 국립공원 자락에 자리합니다.
 
-남쪽의 Ylläsjärvi, 북쪽의 Äkäslompolo. 두 개의 작은 마을이 봉우리를 사이에 두고 마주봅니다. 단일 리조트 단지는 없으며, 프리미엄 캐빈은 숲과 호숫가에 흩어져 있어 일래스에 '레비보다 조용하고 자연 중심적인 대안'이라는 평판을 안깁니다.`,
+남쪽의 윌래스야르비(Ylläsjärvi), 북쪽의 애캐슬롬폴로(Äkäslompolo). 두 개의 작은 마을이 봉우리를 사이에 두고 마주봅니다. 단일 리조트 단지는 없으며, 프리미엄 캐빈은 숲과 호숫가에 흩어져 있어 윌래스에 '레비보다 조용하고 자연 중심적인 대안'이라는 평판을 안깁니다.`,
   facts: [
     { label: '통나무 캐빈 1박', value: '150€부터' },
     { label: '호텔 1박', value: '100€부터' },
@@ -206,22 +206,22 @@ const ko: DestinationBody = {
   ],
   highlights: [
     { title: '핀란드에서 가장 긴 다운힐 코스', body: 'Yllästunturi 정면의 3km 슬로프는 나무 한 그루 없는 봉우리 정상에서 소나무 숲을 가르며 계곡까지 이어집니다. 대부분의 핀란드 리조트가 1km 수준임을 감안하면 매우 드문 길이입니다.' },
-    { title: '330km 크로스컨트리 트랙', body: '클래식과 스케이팅 트랙이 국립공원을 가로지르며 Ylläsjärvi, Äkäslompolo, 그리고 Pallas를 잇습니다.' },
+    { title: '330km 크로스컨트리 트랙', body: '클래식과 스케이팅 트랙이 국립공원을 가로지르며 윌래스야르비, 애캐슬롬폴로, 그리고 팔라스를 잇습니다.' },
     { title: 'Pallas-Yllästunturi 국립공원', body: '핀란드에서 세 번째로 큰 국립공원. 원시림, 이름을 가진 봉우리 일곱, 그리고 유럽에서 가장 깨끗한 측정 공기.' },
     { title: '고요한 숲속 캐빈', body: '숙소는 의도적으로 서로 멀리 떨어져 있습니다. 이웃이 있다 해도 수백 미터의 소나무 숲 너머의 빈터에 있을 뿐입니다.' },
-    { title: 'Äkäslompolo의 오로라 호반', body: 'Äkäslompolo 호수는 정북향입니다. 깨끗한 지평선, 건너편에 마을 불빛이 없어 얼음 위에서 강력한 오로라 관측이 가능합니다.' },
-    { title: '여름의 봉우리 트레킹', body: '일래스와 팔라스를 잇는 봉우리 능선 길은 숲 한계선 위로 데크가 놓여 있어, 7–9월 백야의 빛 속에 열립니다.' },
+    { title: '애캐슬롬폴로의 오로라 호반', body: '애캐슬롬폴로 호수는 정북향입니다. 깨끗한 지평선, 건너편에 마을 불빛이 없어 얼음 위에서 강력한 오로라 관측이 가능합니다.' },
+    { title: '여름의 봉우리 트레킹', body: '윌래스와 팔라스를 잇는 봉우리 능선 길은 숲 한계선 위로 데크가 놓여 있어, 7–9월에 열립니다. 7월에는 24시간 밝은 빛, 9월에는 루스카 단풍과 오로라가 보이는 어두운 밤.' },
   ],
   whenToGo: `12월–3월은 안정적인 적설과 풀 오로라 시즌이 펼쳐지는 한겨울 윈도우입니다.
 4월 초는 "kevättalvi(봄겨울)". 긴 햇빛, 눈부신 설질, 여전히 만족스러운 스키 컨디션이 공존합니다.
 9월은 ruska 단풍, 7월은 백야와 하이킹의 계절입니다.`,
-  howToGet: `키틸레(KTT)로 비행한 뒤 일래스까지 50분 트랜스퍼.
+  howToGet: `키틸래(KTT)로 비행한 뒤 윌래스까지 50분 트랜스퍼.
 로바니에미 공항(RVN)도 대안입니다. 차로 2시간.
 40분 거리의 Kolari 기차역은 헬싱키발 야간 열차와 자동차 운송 서비스를 모두 받아들입니다.`,
   stayTypes: [
     '봉우리 숲 사면의 통나무 캐빈. 4–8인용, 장작 사우나, 벽난로, 종종 핫텁까지.',
-    'Äkäslompolo와 Kesänkijärvi 호숫가 빌라. 전용 호반, 겨울철 얼음 입수 구멍 포함.',
-    'Äkäslompolo와 Ylläsjärvi의 스키 인 샬레. 슬로프 직접 연결, 장비 보관 공간, 레비보다 적은 인파.',
+    '애캐슬롬폴로와 Kesänkijärvi 호숫가 빌라. 전용 호반, 겨울철 얼음 입수 구멍 포함.',
+    '애캐슬롬폴로와 윌래스야르비의 스키 인 샬레. 슬로프 직접 연결, 장비 보관 공간, 레비보다 적은 인파.',
     '국립공원 완충 지대 안의 디자이너 윌더니스 리트리트. 건축가가 설계한 오프그리드 감성에 완벽한 편의를 더한 형태.',
   ],
   siblings: [
@@ -232,29 +232,29 @@ const ko: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '남쪽 윌래스야르비의 스파 호텔. 수영장 구역이 있고 곤돌라까지 300m.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '애캐슬롬폴로 마을의 사우나 완비 객실, 파노라마 레스토랑, 스키장까지 4.5km.' },
-    { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '일래스에서 40분. 허스키 사파리 패키지와 호숫가 캐빈.' },
-    { name: '일래스 전체 숙소', href: HOTEL_SEARCH_FOR('ko').yllas, sid: 'destination_yllas_all_search', note: 'Trip.com에서 일래스 캐빈과 샬레 전체를 비교하세요.' },
+    { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '윌래스에서 40분. 허스키 사파리 패키지와 호숫가 캐빈.' },
+    { name: '윌래스 전체 숙소', href: HOTEL_SEARCH_FOR('ko').yllas, sid: 'destination_yllas_all_search', note: 'Trip.com에서 윌래스 캐빈과 샬레 전체를 비교하세요.' },
   ],
   transport: [
-    { mode: 'plane', label: '키틸레 공항(KTT)에서', detail: '레비와 같은 공항입니다. Äkäslompolo(북 일래스)까지 50km / 45분, Ylläsjärvi(남 일래스)까지 35km / 30분.' },
-    { mode: 'bus', label: 'KTT 공항버스(일래스행)', detail: '편도 25–30€ · 50분 · 겨울 항공편에 맞춰 운행.' },
-    { mode: 'train', label: 'Kolari행 야간 열차', detail: '헬싱키발 VR 침대차 약 90€ · 일래스까지 버스 또는 택시로 35km / 35분.' },
-    { mode: 'car', label: 'KTT 택시', detail: '일래스 마을까지 100–120€. 3인 이상 그룹일 때 합리적입니다.' },
+    { mode: 'plane', label: '키틸래 공항(KTT)에서', detail: '레비와 같은 공항입니다. 애캐슬롬폴로(북 윌래스)까지 50km / 45분, 윌래스야르비(남 윌래스)까지 35km / 30분.' },
+    { mode: 'bus', label: 'KTT 공항버스(윌래스행)', detail: '편도 25–30€ · 50분 · 겨울 항공편에 맞춰 운행.' },
+    { mode: 'train', label: 'Kolari행 야간 열차', detail: '헬싱키발 VR 침대차 약 90€ · 윌래스까지 버스 또는 택시로 35km / 35분.' },
+    { mode: 'car', label: 'KTT 택시', detail: '윌래스 마을까지 100–120€. 3인 이상 그룹일 때 합리적입니다.' },
   ],
   carRental: {
     href: CARS_FOR('ko').fromKittila,
     sid: 'destination_yllas_cars_ktt',
-    airport: '키틸레 공항(KTT) 픽업',
-    blurb: '일래스까지 50분 · 3인 이상이면 100€+ 택시보다 훨씬 저렴',
+    airport: '키틸래 공항(KTT) 픽업',
+    blurb: '윌래스까지 50분 · 3인 이상이면 100€+ 택시보다 훨씬 저렴',
   },
   dayPlan: [
-    { day: '01', title: '도착 · 캐빈 · 사우나', body: 'KTT 또는 Kolari 도착 후 Äkäslompolo나 Ylläsjärvi로 트랜스퍼. 캐빈에서 가벼운 저녁, 사우나, 비행 후 스트레칭. 일정은 비워두세요.' },
-    { day: '02', title: '크로스컨트리 스키 데이', body: '일래스는 핀란드에서 가장 긴 크로스컨트리 망(330km)을 보유합니다. 표시된 Aakenusjärvi 루프를 타거나 곤돌라로 Yllästunturi 정상에 올라 다운힐을 즐겨 보세요. 보온병은 필수입니다.' },
+    { day: '01', title: '도착 · 캐빈 · 사우나', body: 'KTT 또는 Kolari 도착 후 애캐슬롬폴로나 윌래스야르비로 트랜스퍼. 캐빈에서 가벼운 저녁, 사우나, 비행 후 스트레칭. 일정은 비워두세요.' },
+    { day: '02', title: '크로스컨트리 스키 데이', body: '윌래스는 핀란드에서 가장 긴 크로스컨트리 망(330km)을 보유합니다. 표시된 Aakenusjärvi 루프를 타거나 곤돌라로 Yllästunturi 정상에 올라 다운힐을 즐겨 보세요. 보온병은 필수입니다.' },
     { day: '03', title: '국립공원 하이킹 + 순록', body: 'Pallas-Yllästunturi 공원에서 스노슈잉. 순록 농장 방문. Lainio Snow Village의 순록 또는 Aakenus 농장. 캐빈 북쪽 호반에서 오로라 헌팅.' },
     { day: '04', title: '느긋한 아침 · 출발', body: '마지막 사우나, 아침식사, 트랜스퍼. 부활절 연휴 여행자라면 하루 더 머물러 봄 햇살 속 스키를 만끽하세요.' },
   ],
-  seoTitle: '일래스 숙박. 통나무 캐빈과 샬레 1박 150€부터',
-  seoDescription: '핀란드 라플란드 일래스 숙박 가이드: Pallas-Yllästunturi 국립공원 자락의 통나무 캐빈 1박 150€부터, 호숫가 빌라와 스키 인 샬레. 전용 사우나, 오로라가 보이는 호반, 직접 예약.',
+  seoTitle: '윌래스 숙박. 통나무 캐빈과 샬레 1박 150€부터',
+  seoDescription: '핀란드 라플란드 윌래스 숙박 가이드: Pallas-Yllästunturi 국립공원 자락의 통나무 캐빈 1박 150€부터, 호숫가 빌라와 스키 인 샬레. 전용 사우나, 오로라가 보이는 호반, 직접 예약.',
 }
 
 const fr: DestinationBody = {
@@ -274,7 +274,7 @@ Deux petits villages, Ylläsjärvi côté sud et Äkäslompolo côté nord, enca
     { title: 'Parc national Pallas-Yllästunturi', body: 'Le troisième plus grand parc national de Finlande, forêt primaire, sept fjälls nommés et l\'un des airs les plus purs d\'Europe.' },
     { title: 'Chalets de forêt silencieux', body: 'Les hébergements sont volontairement espacés. Votre voisin, si vous en avez un, se trouve à quelques centaines de mètres de pinède au-delà d\'une clairière.' },
     { title: 'Rive aurores d\'Äkäslompolo', body: 'Le lac d\'Äkäslompolo regarde plein nord, horizon dégagé, aucune lumière de village sur la rive d\'en face, observation des aurores puissante depuis la glace.' },
-    { title: 'Randonnée d\'été sur les fjälls', body: 'Les itinéraires de crête entre Ylläs et Pallas suivent des caillebotis au-dessus de la limite des arbres, ouverts de juillet à septembre sous le soleil de minuit.' },
+    { title: 'Randonnée d\'été sur les fjälls', body: 'Les itinéraires de crête entre Ylläs et Pallas suivent des caillebotis au-dessus de la limite des arbres, ouverts de juillet à septembre : lumière continue en juillet, couleurs de la ruska et nuits sombres propices aux aurores en septembre.' },
   ],
   whenToGo: `Décembre à mars constitue la fenêtre de plein hiver avec neige fiable et pleine saison aurores.
 Début avril offre le « kevättalvi », longues heures de jour, neige éclatante, conditions de ski encore au sommet.
@@ -338,7 +338,7 @@ Due piccoli paesi, Ylläsjärvi a sud e Äkäslompolo a nord, fanno da quinte al
     { title: 'Parco nazionale Pallas-Yllästunturi', body: 'Il terzo parco nazionale più grande di Finlandia, foreste antiche, sette fjäll con un nome e una delle arie più pure misurate in Europa.' },
     { title: 'Chalet silenziosi nel bosco', body: 'Le strutture sono volutamente distanziate. Il Suo vicino, se ne ha uno, dista qualche centinaio di metri di pineta oltre una radura.' },
     { title: 'Sponda aurora di Äkäslompolo', body: 'Il lago di Äkäslompolo guarda a nord, orizzonte pulito, nessuna luce di paese sul lato opposto, osservazione dell\'aurora forte dal ghiaccio.' },
-    { title: 'Trekking estivo sui fjäll', body: 'I percorsi di crinale tra Ylläs e Pallas seguono passerelle sopra il limite del bosco, aperti da luglio a settembre con la luce del sole di mezzanotte.' },
+    { title: 'Trekking estivo sui fjäll', body: 'I percorsi di crinale tra Ylläs e Pallas seguono passerelle sopra il limite del bosco, aperti da luglio a settembre: luce 24 ore su 24 a luglio, colori della ruska e notti buie con aurore a settembre.' },
   ],
   whenToGo: `Da dicembre a marzo è la finestra di pieno inverno con neve sicura e piena stagione aurorale.
 Inizio aprile offre il "kevättalvi", giornate lunghe, neve brillante e condizioni di sci ancora al top.
@@ -402,7 +402,7 @@ Twee kleine dorpen, Ylläsjärvi aan de zuidkant en Äkäslompolo aan de noordka
     { title: 'Pallas-Yllästunturi-nationaal park', body: 'Het op twee na grootste nationaal park van Finland, oerbos, zeven met naam genoemde fjälls en een van de zuiverste gemeten lucht van Europa.' },
     { title: 'Stille boscabins', body: 'Accommodaties staan hier bewust uit elkaar. Heeft u een buur, dan ligt die enkele honderden meters dennenbos en open plek verderop.' },
     { title: 'Aurora-oever van Äkäslompolo', body: 'Het meer bij Äkäslompolo kijkt pal noord uit, vrije horizon, geen dorpslichten aan de overkant, sterk noorderlicht vanaf het ijs.' },
-    { title: 'Zomerwandelingen op het fjäll', body: 'De toproutes tussen Ylläs en Pallas lopen via planken boven de boomgrens, open van juli tot september bij het licht van de middernachtszon.' },
+    { title: 'Zomerwandelingen op het fjäll', body: 'De toproutes tussen Ylläs en Pallas lopen via vlonderpaden boven de boomgrens, open van juli tot september: in juli is het de klok rond licht, in september kleurt de ruska en zijn de nachten donker genoeg voor noorderlicht.' },
   ],
   whenToGo: `December–maart is het diepe-winter venster met betrouwbare sneeuw en volledig aurora-seizoen.
 Begin april biedt de "kevättalvi", lange daglichturen, helle sneeuw en nog volle skicondities.
@@ -466,7 +466,7 @@ const ja: DestinationBody = {
     { title: 'パッラス・ユッラストゥントゥリ国立公園', body: 'フィンランドで3番目に大きな国立公園。原生林、名のある7つの山々、そしてヨーロッパで最も清浄と計測される空気があります。' },
     { title: '静寂の森のキャビン', body: 'ここの宿はあえて距離を取って配置されています。お隣がいるとしても、松林を数百m挟んだ向こう側です。' },
     { title: 'アカスロンポロのオーロラ湖岸', body: 'アカスロンポロの湖は北を向き、対岸に村の灯はなく、地平線はクリア。氷上から強いオーロラを観賞できます。' },
-    { title: '夏の山岳ハイキング', body: 'ユッラスとパッラスを結ぶ稜線ルートは樹林限界の上に板敷きの遊歩道があり、7〜9月に白夜の光のもと歩けます。' },
+    { title: '夏の山岳ハイキング', body: 'ユッラスとパッラスを結ぶ稜線ルートは樹林限界の上に板敷きの遊歩道があり、7〜9月に歩けます。7月は24時間明るく、9月はルスカの紅葉とオーロラの見える暗い夜です。' },
   ],
   whenToGo: `12月から3月は厳冬期で、安定した積雪とオーロラ全盛のシーズンです。
 4月初旬は「kevättalvi」。長い日照、まばゆい雪、フルスペックのスキーコンディションが揃います。
@@ -530,7 +530,7 @@ Dos pequeños pueblos, Ylläsjärvi al sur y Äkäslompolo al norte, flanquean e
     { title: 'Parque Nacional Pallas-Yllästunturi', body: 'El tercer parque nacional más grande de Finlandia, bosque primario, siete fells con nombre y uno de los aires más limpios medidos en Europa.' },
     { title: 'Cabañas en bosque silencioso', body: 'Los alojamientos aquí están deliberadamente separados. Su vecino, si lo hay, está a unos cuantos cientos de metros de pinos a través de un claro.' },
     { title: 'Costa aurora de Äkäslompolo', body: 'El lago de Äkäslompolo mira al norte, horizonte limpio, sin luces de pueblo al otro lado, observación intensa de auroras desde el hielo.' },
-    { title: 'Senderismo de verano en los fells', body: 'Las rutas de cima entre Ylläs y Pallas están con pasarelas por encima del límite del bosque, abiertas de julio a septiembre con sol de medianoche.' },
+    { title: 'Senderismo de verano en los fells', body: 'Las rutas de cima entre Ylläs y Pallas discurren sobre pasarelas por encima del límite del bosque, abiertas de julio a septiembre: en julio hay luz las 24 horas y en septiembre llegan los colores de la ruska y las noches oscuras con auroras.' },
   ],
   whenToGo: `Diciembre – marzo es la ventana de pleno invierno: nieve segura y auroras a pleno rendimiento.
 A principios de abril llega el "kevättalvi", muchas horas de luz, nieve brillante y todavía esquí en pleno.
@@ -594,7 +594,7 @@ Duas pequenas vilas, Ylläsjärvi ao sul e Äkäslompolo ao norte, emolduram o f
     { title: 'Parque Nacional Pallas-Yllästunturi', body: 'Terceiro maior parque nacional da Finlândia, floresta primária, sete fells com nome próprio e um dos ares mais limpos já medidos na Europa.' },
     { title: 'Cabanas em floresta silenciosa', body: 'Os imóveis aqui são propositalmente espaçados. Seu vizinho, se houver, está a algumas centenas de metros de pinheiros em uma clareira.' },
     { title: 'Costa aurora de Äkäslompolo', body: 'O lago em Äkäslompolo está voltado ao norte, horizonte limpo, sem luzes de vila do outro lado, observação intensa de aurora a partir do gelo.' },
-    { title: 'Caminhadas de verão nos fells', body: 'As rotas no topo entre Ylläs e Pallas têm passarelas acima do limite das árvores, abertas de julho a setembro com sol da meia-noite.' },
+    { title: 'Caminhadas de verão nos fells', body: 'As rotas no topo entre Ylläs e Pallas têm passarelas acima do limite das árvores, abertas de julho a setembro: em julho há luz 24 horas por dia; em setembro chegam as cores da ruska e as noites escuras com auroras.' },
   ],
   whenToGo: `Dezembro a março é a janela de inverno profundo, com neve garantida e temporada de aurora em pleno funcionamento.
 Início de abril traz o "kevättalvi", longas horas de luz, neve brilhante e ainda condições plenas para esqui.
@@ -658,7 +658,7 @@ const zhCN: DestinationBody = {
     { title: '帕拉斯-于拉斯通图里国家公园', body: '芬兰第三大国家公园。原始森林、七座命名山峰，以及欧洲空气最洁净的测量数据之一。' },
     { title: '静寂的森林小屋', body: '这里的住宿刻意拉开距离。即使有邻居，也隔着数百米的松林和一片空地。' },
     { title: '阿卡斯隆波洛的极光湖岸', body: '阿卡斯隆波洛的湖泊朝北。地平线清晰，对岸没有村庄灯光，从冰面观赏极光极佳。' },
-    { title: '夏季山岳徒步', body: '于拉斯与帕拉斯之间的山顶步道铺设在林木线以上，7月至9月开放，可享白夜阳光。' },
+    { title: '夏季山岳徒步', body: '于拉斯与帕拉斯之间的山顶步道铺设在林木线以上，7月至9月开放：7月全天有光，9月则是ruska秋色与可见极光的暗夜。' },
   ],
   whenToGo: `12月至3月是深冬窗口：雪况稳定、极光季全开。
 4月初是"kevättalvi"。日照长、雪面明亮，依然有完整的滑雪条件。
@@ -722,7 +722,7 @@ Två små byar ramar in fjället: Ylläsjärvi på södra sidan och Äkäslompol
     { title: 'Pallas-Yllästunturi nationalpark', body: 'Finlands tredje största nationalpark: gammelskog, sju namngivna fjäll och några av de renaste luftvärden som uppmätts i Europa.' },
     { title: 'Tysta skogsstugor', body: 'Boendena här ligger medvetet långt från varandra. Grannen, om du har någon, finns några hundra meter tallskog bort över en glänta.' },
     { title: 'Norrskensstranden i Äkäslompolo', body: 'Sjön vid Äkäslompolo öppnar sig mot norr: fri horisont, inga byljus på andra sidan och starkt norrsken sett från isen.' },
-    { title: 'Fjällvandring på sommaren', body: 'Lederna över fjälltopparna mellan Ylläs och Pallas går på spänger ovanför trädgränsen, öppna från juli till september i midnattssolens ljus.' },
+    { title: 'Fjällvandring på sommaren', body: 'Lederna över fjälltopparna mellan Ylläs och Pallas går på spänger ovanför trädgränsen, öppna från juli till september: i juli är det ljust dygnet runt, i september kommer ruskan och mörka norrskensnätter.' },
   ],
   whenToGo: `December–mars är djupvinterns fönster, med pålitlig snö och full norrskenssäsong.
 Början av april ger "kevättalvi", vårvintern: långa ljusa dagar, bländande snö och fortfarande fullgoda skidförhållanden.

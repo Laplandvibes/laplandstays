@@ -196,9 +196,9 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
 
 const ko: DestinationBody = {
   tagline: '리프트에서 가까운 거리에 레스토랑, 사파리, 오로라 캐빈이 어우러진 핀란드 최대의 스키 리조트.',
-  description: `레비는 키틸레 시 자치체에 속하며 북극권에서 약 170km 북쪽에 자리합니다. 1960년대에 단 한 대의 리프트로 시작해 지금은 슬로프 44개, 리프트 26대를 갖춘 핀란드 최대의 스키 리조트로 성장했고, 도보로 걸을 수 있는 아담한 마을 중심이 그 모든 시설을 받쳐줍니다.
+  description: `레비는 키틸래 시 자치체에 속하며 북극권에서 약 170km 북쪽에 자리합니다. 1960년대에 단 한 대의 리프트로 시작해 지금은 슬로프 44개, 리프트 26대를 갖춘 핀란드 최대의 스키 리조트로 성장했고, 도보로 걸을 수 있는 아담한 마을 중심이 그 모든 시설을 받쳐줍니다.
 
-이곳은 라플란드 럭셔리 여행으로 들어가는 가장 쉬운 관문입니다. 키틸레 공항까지 15분, FIS 월드컵 슬라롬이 매년 11월 Levi Black에서 시즌을 열며, 프리미엄 캐빈은 주변 산자락에 흩어져 있습니다. 마을에서 저녁식사를 즐길 만큼 가깝지만, 다크 스카이에서 오로라를 볼 만큼 떨어진 거리입니다.`,
+이곳은 라플란드 럭셔리 여행으로 들어가는 가장 쉬운 관문입니다. 키틸래 공항까지 15분, FIS 월드컵 슬랄롬이 매년 11월 Levi Black에서 시즌을 열며, 프리미엄 캐빈은 주변 산자락에 흩어져 있습니다. 마을에서 저녁식사를 즐길 만큼 가깝지만, 다크 스카이에서 오로라를 볼 만큼 떨어진 거리입니다.`,
   facts: [
     { label: '호텔 1박', value: '100€부터' },
     { label: '글래스 이글루 1박', value: '350€부터' },
@@ -206,17 +206,17 @@ const ko: DestinationBody = {
     { label: '슬로프', value: '44개' },
   ],
   highlights: [
-    { title: 'Levitunturi 스키 인 캐빈', body: 'Levifell 슬로프에 자리한 샬레는 곤돌라와 산을 둘러싼 긴 블루·레드 코스로 바로 연결됩니다.' },
+    { title: 'Levitunturi 스키 인 캐빈', body: '레비 봉우리 슬로프에 자리한 샬레는 곤돌라와 봉우리를 둘러싼 긴 블루·레드 코스로 바로 연결됩니다.' },
     { title: '실력 있는 주방이 모인 도보 마을', body: '중심부에는 미슐랭이 추천한 레스토랑, 순록 테이스팅 메뉴, 그리고 카페가 빽빽이 모여 있습니다. 산악 목적지에서는 드문 풍경입니다.' },
     { title: '풀 사파리 메뉴', body: '허스키, 스노모빌, 순록 썰매, 오로라 사진 투어, 얼음 구멍 입수까지 모두 마을 안 픽업 포인트에서 출발합니다.' },
     { title: '오로라 다크 스카이 존', body: '마을에서 차로 15분만 벗어나면 광공해가 거의 사라집니다. 산 북쪽 사면의 캐빈에서 가장 깨끗한 지평선을 마주합니다.' },
     { title: '여름의 산악 바이크와 백야', body: '6–7월에는 해가 지지 않습니다. 레비는 곤돌라와 트레일을 다시 열어 다운힐과 크로스컨트리 마운틴 바이크를 제공합니다.' },
-    { title: '월드컵 슬라롬 개막', body: '매년 11월 FIS 알파인 스키 월드컵이 Levi Black에서 시즌을 엽니다. 시즌 내 가장 이르고 가장 안정적인 설질입니다.' },
+    { title: '월드컵 슬랄롬 개막', body: '매년 11월 FIS 알파인 스키 월드컵이 Levi Black에서 시즌을 엽니다. 시즌 내 가장 이르고 가장 안정적인 설질입니다.' },
   ],
   whenToGo: `11월–3월이 절정입니다. 안정적인 적설, 오로라의 밤, 사파리 전 시즌이 열립니다.
-8월 말–10월에는 ruska(가을 단풍)와 첫 오로라 윈도우를 인파 없이 즐기실 수 있습니다.
+8월 말–10월에는 ruska(가을 단풍)와 첫 오로라 관측 시간대를 인파 없이 즐기실 수 있습니다.
 6–7월은 백야의 시기로, 24시간 햇빛 아래 또 다른 형태의 캐빈 휴가가 펼쳐집니다.`,
-  howToGet: `키틸레(KTT)로 비행하세요. 런던, 파리, 암스테르담, 프랑크푸르트, 취리히, 헬싱키에서 겨울 직항편이 있습니다.
+  howToGet: `키틸래(KTT)로 비행하세요. 런던, 파리, 암스테르담, 프랑크푸르트, 취리히, 헬싱키에서 겨울 직항편이 있습니다.
 레비 마을까지는 15km. 대부분의 프리미엄 캐빈은 프라이빗 트랜스퍼를 포함합니다.
 헬싱키에서는 Kolari행 야간 열차와 1시간 트랜스퍼가 풍경 좋은 대안입니다.`,
   stayTypes: [
@@ -232,12 +232,12 @@ const ko: DestinationBody = {
   ],
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '산자락의 글래스 이글루. 성수기 주차는 10–12개월 전 예약됩니다.' },
-    { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '레비 펠 사면에 위치. 곤돌라가 문 앞에 서고 스키는 마당에서 시작됩니다.' },
+    { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '레비 봉우리 사면에 위치. 곤돌라가 문 앞에 서고 스키는 마당에서 시작됩니다.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: '레비의 객실과 다양한 크기의 아파트. 전 객실 전용 사우나, 슬로프까지 약 500m.' },
     { name: '레비 전체 숙소', href: HOTEL_SEARCH_FOR('ko').levi, sid: 'destination_levi_all_search', note: 'Trip.com에서 레비의 모든 호텔과 샬레를 한 번에 비교하세요.' },
   ],
   transport: [
-    { mode: 'plane', label: '키틸레 공항(KTT)에서', detail: 'LHR · CDG · AMS · FRA · ZRH · HEL 겨울 직항편. 레비 마을까지 15km / 15분.' },
+    { mode: 'plane', label: '키틸래 공항(KTT)에서', detail: 'LHR · CDG · AMS · FRA · ZRH · HEL 겨울 직항편. 레비 마을까지 15km / 15분.' },
     { mode: 'bus', label: 'KTT 공항버스', detail: '편도 8€ · 25분 · 모든 항공편에 맞춰 운행합니다.' },
     { mode: 'car', label: '택시 또는 사전 예약 트랜스퍼', detail: '마을까지 25–35€. 대부분의 프리미엄 캐빈에는 프라이빗 트랜스퍼가 포함됩니다.' },
     { mode: 'train', label: 'Kolari행 야간 열차', detail: '헬싱키발 VR 침대차 약 90€, 이후 1시간 트랜스퍼로 레비. 겨울철 풍경 좋은 대안입니다.' },
@@ -245,7 +245,7 @@ const ko: DestinationBody = {
   carRental: {
     href: CARS_FOR('ko').fromKittila,
     sid: 'destination_levi_cars_ktt',
-    airport: '키틸레 공항(KTT) 픽업',
+    airport: '키틸래 공항(KTT) 픽업',
     blurb: '레비 마을까지 15분 · 겨울 스파이크 타이어 기본',
   },
   dayPlan: [
@@ -255,7 +255,7 @@ const ko: DestinationBody = {
     { day: '04', title: '오로라 캐빈의 밤 · 여유로운 하루', body: '북쪽으로 15분 운전해 마지막 밤은 글래스 이글루에서. 느긋한 아침, 사우나, 하늘 감상. 다음 날 아침 가능한 가장 이른 항공편으로 귀국.' },
   ],
   seoTitle: '레비 숙박: 호텔, 캐빈, 이글루 | LaplandStays',
-  seoDescription: '레비에서 어디에 묵을까: Lapland Hotels 1박 100€부터, Levin Iglut 글래스 이글루 350€부터, 스키 인 샬레 200€부터. 키틸레 공항에서 15분. 검증된 요금과 직접 예약.',
+  seoDescription: '레비에서 어디에 묵을까: Lapland Hotels 1박 100€부터, Levin Iglut 글래스 이글루 350€부터, 스키 인 샬레 200€부터. 키틸래 공항에서 15분. 검증된 요금과 직접 예약.',
 }
 
 const fr: DestinationBody = {

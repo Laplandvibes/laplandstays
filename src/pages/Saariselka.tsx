@@ -22,7 +22,7 @@ The village is small and walkable, grouped around a few hotels, restaurants and 
   ],
   whenToGo: `Late August – April is aurora season. October and February are the most settled, clear-sky windows.
 December – March gives full snow cover and short, blue-lit days.
-July – August is subarctic summer: midnight sun, hiking, river canoeing, no mosquitoes by September.`,
+The nightless night runs from late May to about 20 July, close to two months. July – August is subarctic summer: hiking, river canoeing, no mosquitoes by September.`,
   howToGet: `Fly into Ivalo (IVL), 25 min transfer. Daily flights from Helsinki, seasonal direct routes from UK and Central Europe.
 From Helsinki by overnight train to Rovaniemi + 3 hr drive, or direct charter flights in winter.
 Car rental recommended, the best dark-sky cabin roads are a short drive from the village core.`,
@@ -86,7 +86,7 @@ Kylä on pieni ja kävelyetäisyydellä, ryhmittynyt muutaman hotellin, ravintol
   ],
   whenToGo: `Elokuun loppu–huhtikuu on revontulisesonki. Lokakuu ja helmikuu ovat tasaisimmat, selkein taivas.
 Joulukuu–maaliskuu antaa täyden lumipeitteen ja lyhyet, sinivalaistut päivät.
-Heinä–elokuu on subarktista kesää: keskiyön aurinko, patikointi, joenkanootti, ei hyttysiä syyskuussa.`,
+Yötön yö kestää Saariselällä toukokuun lopusta noin heinäkuun 20. päivään, lähes kaksi kuukautta. Heinä–elokuu on subarktista kesää: patikointia, joenkanoottia, ei hyttysiä syyskuussa.`,
   howToGet: `Lennä Ivaloon (IVL), 25 min kuljetus. Päivittäiset lennot Helsingistä, kausittaisia suoria reittejä Iso-Britanniasta ja Keski-Euroopasta.
 Helsingistä yöjunalla Rovaniemelle + 3 tunnin ajo, tai suorat charter-lennot talvella.
 Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan päässä kyläytimestä.`,
@@ -150,7 +150,7 @@ Das Dorf ist klein und fußläufig, gruppiert um einige Hotels, Restaurants und 
   ],
   whenToGo: `Ende August – April ist Polarlicht-Saison. Oktober und Februar sind die ruhigsten, klarsten Fenster.
 Dezember – März bringt volle Schneedecke und kurze, blau erleuchtete Tage.
-Juli – August ist subarktischer Sommer: Mitternachtssonne, Wandern, Flusskanu, ab September keine Mücken mehr.`,
+Die Mitternachtssonne steht von Ende Mai bis etwa zum 20. Juli am Himmel, fast zwei Monate lang. Juli – August ist subarktischer Sommer: Wandern, Flusskanu, ab September keine Mücken mehr.`,
   howToGet: `Fliegen Sie nach Ivalo (IVL), 25 min Transfer. Tägliche Flüge aus Helsinki, saisonale Direktrouten aus dem UK und Mitteleuropa.
 Aus Helsinki Nachtzug nach Rovaniemi + 3 h Fahrt, oder direkte Charterflüge im Winter.
 Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom Dorfkern entfernt.`,
@@ -214,7 +214,7 @@ const ko: DestinationBody = {
   ],
   whenToGo: `8월 말–4월이 오로라 시즌입니다. 10월과 2월이 가장 안정적이고 맑은 윈도우입니다.
 12월–3월은 두꺼운 적설과 짧고 푸르게 빛나는 낮이 이어집니다.
-7–8월은 아북극의 여름으로, 백야와 트레킹, 강 카누가 가능하고 9월부터는 모기가 사라집니다.`,
+백야는 5월 말부터 7월 20일경까지, 거의 두 달 동안 이어집니다. 7–8월은 아북극의 여름으로, 트레킹과 강 카누가 가능하고 9월부터는 모기가 사라집니다.`,
   howToGet: `이발로(IVL)로 비행, 25분 트랜스퍼. 헬싱키발 매일편이 있고, 영국·중부 유럽발 시즌 직항편이 운영됩니다.
 헬싱키에서 로바니에미행 야간 열차 + 3시간 운전, 또는 겨울 직항 차터편도 가능합니다.
 다크 스카이 캐빈은 마을 중심에서 조금 떨어져 있으므로 렌터카를 권장합니다.`,
@@ -278,7 +278,7 @@ Le village est petit et se parcourt à pied, autour de quelques hôtels, restaur
   ],
   whenToGo: `Fin août à avril, c\'est la saison des aurores. Octobre et février sont les fenêtres les plus stables et dégagées.
 Décembre à mars apporte la couverture neigeuse complète et des journées brèves baignées de lumière bleue.
-Juillet–août est l\'été subarctique : soleil de minuit, randonnée, canoë sur les rivières, plus de moustiques dès septembre.`,
+Le soleil de minuit dure de fin mai à environ le 20 juillet, près de deux mois. Juillet–août est l\'été subarctique : randonnée, canoë sur les rivières, plus de moustiques dès septembre.`,
   howToGet: `Vol vers Ivalo (IVL), 25 min de transfert. Vols quotidiens depuis Helsinki, routes directes saisonnières depuis le Royaume-Uni et l\'Europe centrale.
 Depuis Helsinki, train de nuit jusqu\'à Rovaniemi + 3 h de route, ou vols charter directs en hiver.
 Voiture de location recommandée, les meilleurs chalets à ciel noir sont à quelques minutes du cœur du village.`,
@@ -342,7 +342,7 @@ Il paese è piccolo e si percorre a piedi, raccolto attorno a pochi hotel, risto
   ],
   whenToGo: `Fine agosto–aprile è la stagione delle aurore. Ottobre e febbraio sono le finestre più stabili e serene.
 Da dicembre a marzo il manto nevoso è completo e le giornate sono brevi, illuminate di blu.
-Luglio–agosto è l\'estate subartica: sole di mezzanotte, trekking, canoa sul fiume; le zanzare scompaiono da settembre.`,
+Il sole di mezzanotte dura da fine maggio fino al 20 luglio circa, quasi due mesi. Luglio–agosto è l\'estate subartica: trekking, canoa sul fiume; le zanzare scompaiono da settembre.`,
   howToGet: `Voli per Ivalo (IVL), 25 min di transfer. Voli quotidiani da Helsinki e rotte dirette stagionali da Regno Unito ed Europa centrale.
 Da Helsinki, treno notturno per Rovaniemi + 3 ore d\'auto, oppure charter diretti in inverno.
 Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve guida dal centro del paese.`,
@@ -406,7 +406,7 @@ Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. P
   ],
   whenToGo: `Eind augustus–april is aurora-seizoen. Oktober en februari zijn de meest stabiele, heldere vensters.
 December–maart geeft volledige sneeuwdek en korte, blauw belichte dagen.
-Juli–augustus is subarctische zomer: middernachtszon, wandelen, riviervaren met de kano; vanaf september geen muggen meer.`,
+De middernachtszon duurt van eind mei tot ongeveer 20 juli, bijna twee maanden. Juli–augustus is subarctische zomer: wandelen, riviervaren met de kano; vanaf september geen muggen meer.`,
   howToGet: `Vlieg naar Ivalo (IVL), 25 min transfer. Dagelijkse vluchten vanuit Helsinki en seizoensgebonden directe routes vanuit het VK en Centraal-Europa.
 Vanuit Helsinki met de nachttrein naar Rovaniemi + 3 uur rijden, of directe charters in de winter.
 Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van de dorpskern.`,
@@ -470,7 +470,7 @@ const ja: DestinationBody = {
   ],
   whenToGo: `8月下旬から4月がオーロラ・シーズンです。10月と2月が最も天候が安定し、空が澄んだ窓です。
 12月から3月は積雪が安定し、青い光に包まれた短い日が続きます。
-7〜8月は亜寒帯の夏：白夜、ハイキング、川のカヌー、9月までには蚊もいなくなります。`,
+白夜は5月下旬から7月20日ごろまで、ほぼ2か月続きます。7〜8月は亜寒帯の夏：ハイキング、川のカヌー、9月までには蚊もいなくなります。`,
   howToGet: `イヴァロ(IVL)へ。送迎は25分。ヘルシンキから毎日便、冬季にはイギリスや中央ヨーロッパからの季節直行便があります。
 ヘルシンキからはロヴァニエミへの夜行列車+車で3時間、または冬季の直行チャーター便。
 レンタカー推奨。最高の暗い空のキャビン道は、村中心から少し走った先にあります。`,
@@ -536,7 +536,7 @@ El pueblo es pequeño y peatonal, agrupado en torno a unos pocos hoteles, restau
   ],
   whenToGo: `Finales de agosto – abril es temporada de aurora. Octubre y febrero son las ventanas más estables y de cielo despejado.
 Diciembre – marzo trae la cubierta de nieve completa y días cortos teñidos de azul.
-Julio – agosto es verano subártico: sol de medianoche, senderismo, canoa por el río, sin mosquitos a partir de septiembre.`,
+El sol de medianoche dura desde finales de mayo hasta el 20 de julio aproximadamente, casi dos meses. Julio – agosto es verano subártico: senderismo, canoa por el río, sin mosquitos a partir de septiembre.`,
   howToGet: `Vuele a Ivalo (IVL), 25 min de traslado. Vuelos diarios desde Helsinki y rutas directas estacionales desde Reino Unido y Europa central.
 Desde Helsinki en tren nocturno a Rovaniemi + 3 h en coche, o vuelos chárter directos en invierno.
 Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro están a un breve trayecto del centro del pueblo.`,
@@ -600,7 +600,7 @@ A vila é pequena e percorrível a pé, agrupada em torno de alguns hotéis, res
   ],
   whenToGo: `Fim de agosto a abril é a temporada de aurora. Outubro e fevereiro são as janelas mais estáveis e de céu limpo.
 Dezembro a março traz cobertura total de neve e dias curtos banhados de luz azul.
-Julho e agosto é verão subártico: sol da meia-noite, caminhadas, canoagem no rio, sem mosquitos a partir de setembro.`,
+O sol da meia-noite dura do fim de maio até cerca de 20 de julho, quase dois meses. Julho e agosto é verão subártico: caminhadas, canoagem no rio, sem mosquitos a partir de setembro.`,
   howToGet: `Voe até Ivalo (IVL), 25 min de traslado. Voos diários de Helsinque e rotas diretas sazonais do Reino Unido e da Europa central.
 De Helsinque, trem noturno até Rovaniemi + 3 h de carro, ou voos charter diretos no inverno.
 Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro ficam a poucos minutos do centro da vila.`,
@@ -664,7 +664,7 @@ const zhCN: DestinationBody = {
   ],
   whenToGo: `8月底至4月是极光季。10月与2月是天空最稳定、最清澈的窗口。
 12月至3月，积雪满覆，白昼短促而浸染蓝光。
-7月至8月是亚北极夏：午夜阳光、徒步、河道独木舟，9月起再无蚊虫。`,
+极昼（午夜太阳）从5月底持续到7月20日前后，将近两个月。7月至8月是亚北极夏：徒步、河道独木舟，9月起再无蚊虫。`,
   howToGet: `飞往伊瓦洛(IVL)，接送25分钟。每日有赫尔辛基航班，冬季还有来自英国与中欧的季节直飞。
 赫尔辛基出发可乘夜车至罗瓦涅米再驱车3小时，或冬季直飞包机。
 推荐租车。最佳暗空小屋的道路距村中心仅短程车程。`,
@@ -728,7 +728,7 @@ Byn är liten och går att gå runt i, samlad kring några hotell, restauranger 
   ],
   whenToGo: `Slutet av augusti–april är norrskenssäsong. Oktober och februari är de stabilaste fönstren med klar himmel.
 December–mars ger heltäckande snö och korta dagar i blått ljus.
-Juli–augusti är subarktisk sommar: midnattssol, vandring, kanot på älven, och inga mygg när september kommer.`,
+Midnattssolen varar från slutet av maj till omkring den 20 juli, nästan två månader. Juli–augusti är subarktisk sommar: vandring, kanot på älven, och inga mygg när september kommer.`,
   howToGet: `Flyg till Ivalo (IVL), 25 min transfer. Daglig trafik från Helsingfors och säsongsvisa direktlinjer från Storbritannien och Centraleuropa.
 Från Helsingfors med nattåg till Rovaniemi plus 3 timmars bilresa, eller direkta charterflyg på vintern.
 Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort bilresa från bykärnan.`,

@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'Décembre à mars', body: "Plein hiver : pistes ouvertes, pistes de fond damées, saison des aurores à son apogée. C'est la plus forte demande de chalets ; plus vous réservez tôt, meilleur est le choix." },
       { period: 'Avril', body: 'Ski de printemps : journées longues, neige compacte, lunettes de soleil en terrasse. Les habitants parlent du secret le mieux gardé de l\'année de ski.' },
-      { period: 'Juin à août', body: 'Soleil de minuit : randonnée, pêche et baignade depuis le ponton du chalet, avec la lumière du jour en continu. Les chalets au bord des lacs sont à leur meilleur.' },
+      { period: 'Juin à août', body: "Lumière d'été : randonnée, pêche et baignade depuis le ponton du chalet. Le soleil de minuit dure jusqu'à la mi-juillet et les soirées restent claires jusqu'au cœur du mois d'août. Les chalets au bord des lacs sont à leur meilleur." },
       { period: 'Septembre à octobre', body: "La ruska, la saison des couleurs d'automne : les fjälls virent au rouge et à l'or, l'air est vif et les premières aurores reviennent dans des ciels sombres." },
     ],
 

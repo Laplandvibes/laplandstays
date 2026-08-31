@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'Diciembre a marzo', body: 'Invierno pleno: pistas abiertas, itinerarios pisados y temporada de auroras en su apogeo. Es cuando más demanda hay de cabañas, así que cuanto antes reserve, mejor elegirá.' },
       { period: 'Abril', body: 'Esquí de primavera: días largos, nieve compacta y tiempo de gafas de sol en la terraza. Los locales lo llaman el secreto mejor guardado del año de esquí.' },
-      { period: 'Junio a agosto', body: 'Sol de medianoche: senderismo, pesca y baños desde el muelle de la cabaña, con luz a todas horas. Las cabañas junto al lago están en su mejor momento.' },
+      { period: 'Junio a agosto', body: 'Luz de verano: senderismo, pesca y baños desde el muelle de la cabaña. El sol de medianoche dura hasta mediados de julio y los atardeceres se alargan hasta bien entrado agosto. Las cabañas junto al lago están en su mejor momento.' },
       { period: 'Septiembre a octubre', body: 'La ruska, la temporada del color otoñal: los fells se tiñen de rojo y oro, el aire es nítido y las primeras auroras vuelven a cielos oscuros.' },
     ],
 

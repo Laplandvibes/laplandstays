@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'December till mars', body: 'Full vinter: backarna öppna, spåren dragna och norrskenssäsongen i full gång. Störst efterfrågan på stugor, så ju tidigare du bokar, desto bättre urval.' },
       { period: 'April', body: 'Vårskidåkning: långa dagar, packad snö och solglasögonväder på terrassen. Lokalborna kallar det skidårets bäst bevarade hemlighet.' },
-      { period: 'Juni till augusti', body: 'Midnattssol: vandring, fiske och bad från stugbryggan, med dagsljus dygnet runt. Sjönära stugor är som bäst.' },
+      { period: 'Juni till augusti', body: 'Sommarljus: vandring, fiske och bad från stugbryggan. Midnattssolen räcker till mitten av juli och kvällarna är ljusa långt in i augusti. Sjönära stugor är som bäst.' },
       { period: 'September till oktober', body: 'Ruskan, höstfärgssäsongen: fjällen skiftar i rött och guld, luften är skarp och de första norrskenen återvänder till mörka himlar.' },
     ],
 

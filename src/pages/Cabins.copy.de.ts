@@ -121,7 +121,7 @@ const copy: PageCopy = {
     seasons: [
       { period: 'Dezember bis März', body: 'Voller Winter: Pisten offen, Loipen gespurt, die Polarlichtsaison auf ihrem Höhepunkt. Die stärkste Nachfrage nach Hütten, je früher Sie buchen, desto besser die Auswahl.' },
       { period: 'April', body: 'Frühjahrsski: lange Tage, fester Schnee, Sonnenbrillenwetter auf der Terrasse. Einheimische nennen es das bestgehütete Geheimnis des Skijahres.' },
-      { period: 'Juni bis August', body: 'Mitternachtssonne: Wandern, Angeln und Schwimmen vom Hüttensteg, mit Tageslicht rund um die Uhr. Hütten am See zeigen sich von ihrer besten Seite.' },
+      { period: 'Juni bis August', body: 'Langes Sommerlicht: Wandern, Angeln und Schwimmen vom Hüttensteg. Die Mitternachtssonne hält bis Mitte Juli, und die Abende bleiben bis weit in den August hell. Hütten am See zeigen sich von ihrer besten Seite.' },
       { period: 'September bis Oktober', body: 'Ruska, die herbstliche Farbsaison: Die Fjälls färben sich rot und golden, die Luft ist klar, und die ersten Polarlichter kehren an den dunklen Himmel zurück.' },
     ],
 

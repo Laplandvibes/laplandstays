@@ -27,7 +27,7 @@ const copy: Copy = {
       {
         title: '북극 트리하우스 & 디자이너 로지',
         short: '광야 속 조용한 럭셔리.',
-        body: '건축적 신념을 갖춘 라플란드 럭셔리 숙소. Arctic TreeHouse Hotel, Muotka Wilderness Lodge, Nellim. 깔끔한 선, 따뜻한 나무, 펠 산맥의 파노라마 전망.',
+        body: '건축적 신념을 갖춘 라플란드 럭셔리 숙소. Arctic TreeHouse Hotel, Muotka Wilderness Lodge, Nellim. 깔끔한 선, 따뜻한 나무, 봉우리 파노라마 전망.',
         priceFrom: '1박 200유로부터',
       },
     ],
