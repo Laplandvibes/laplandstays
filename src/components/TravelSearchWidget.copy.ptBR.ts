@@ -5,7 +5,7 @@ const copy: Copy = {
     guests: 'Hóspedes',
     checkIn: 'Check-in',
     checkOut: 'Check-out',
-    helsinkiTo: 'Helsinki para',
+    helsinkiTo: 'Helsinque para',
     depart: 'Ida',
     return: 'Volta',
     pickUpLocation: 'Local de retirada',

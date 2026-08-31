@@ -43,7 +43,7 @@ const copy: PageCopy = {
       },
       {
         "label": "EconomyBookings (Travelpayouts)",
-        "use": "Tarifas de aluguel dos aeroportos KTT / RVN / IVL e retiradas one-way de Helsinki."
+        "use": "Tarifas de aluguel dos aeroportos KTT / RVN / IVL e retiradas one-way de Helsinque."
       },
       {
         "label": "Programa de parceiros GetYourGuide",
@@ -51,7 +51,7 @@ const copy: PageCopy = {
       },
       {
         "label": "VR (Ferrovias finlandesas)",
-        "use": "Horários e preços do noturno Helsinki–Rovaniemi. Apenas referência editorial, sem afiliação."
+        "use": "Horários e preços do noturno Helsinque–Rovaniemi. Apenas referência editorial, sem afiliação."
       },
       {
         "label": "Instituto Meteorológico Finlandês e SpaceWeatherLive",
