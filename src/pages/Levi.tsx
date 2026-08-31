@@ -1,5 +1,6 @@
 import DestinationPage, { type DestinationBody } from '../components/DestinationPage'
 import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
+import { seasonal } from '../lib/seasonal'
 
 const en: DestinationBody = {
   tagline: "Finland's biggest ski resort with restaurants, safaris and aurora cabins a short drive from the lifts.",
@@ -774,7 +775,7 @@ export default function Levi() {
     <DestinationPage
       slug="levi"
       name="Levi"
-      heroImage="/images/levi-hero.webp"
+      heroImage={seasonal('/images/levi-hero.webp', '/images/levi-hero-summer.webp')}
       ogImage="https://laplandstays.com/og-levi.jpg"
       seoKeywords={['levi accommodation', 'levi hotel', 'levi cabin rental', 'levi glass igloo', 'levin iglut', 'levi ski chalet', 'kittilä cabin', 'luxury levi accommodation']}
       body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}
