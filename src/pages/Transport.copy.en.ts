@@ -53,7 +53,7 @@ const copy = {
       "You're a couple at a single property, bus + taxi works out cheaper",
       "You don't have winter-driving experience and roads might be –30 °C ice",
     ],
-    studdedTip: 'Studded tyres are not mandatory, they are permitted 1 Nov – 31 Mar. What the law requires in that window is winter tyres, whenever weather or road conditions demand. A Lapland rental almost always has studs fitted already. Ask the operator if not specified.',
+    studdedTip: 'Studded tyres are not mandatory, but they are permitted 1 Nov – 31 Mar. What the law requires in that window is winter tyres, whenever weather or road conditions demand. A Lapland rental almost always has studs fitted already. Ask the operator if not specified.',
     withinEyebrow: 'Within Lapland',
     withinH2: 'Distances to plan around',
     distances: [
