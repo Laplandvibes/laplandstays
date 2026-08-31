@@ -19,9 +19,9 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: '拉普兰住宿 · 芬兰',
     h1: '芬兰拉普兰住宿指南',
-    lead: '极光下的玻璃冰屋、松林中的极光木屋,以及带私人桑拿的拉普兰酒店。',
-    leadSummer: '午夜阳光下的湖畔小屋、葱郁山丘间的河畔木屋,以及带私人桑拿的拉普兰酒店。',
-    disclosure: '本页面包含联盟链接。如果您通过这些链接预订,LaplandStays可能获得佣金,您本人不会产生额外费用。',
+    lead: '极光下的玻璃冰屋、松林中的极光木屋，以及带私人桑拿的拉普兰酒店。',
+    leadSummer: '午夜阳光下的湖畔小屋、葱郁山丘间的河畔木屋，以及带私人桑拿的拉普兰酒店。',
+    disclosure: '本页面包含联盟链接。如果您通过这些链接预订，LaplandStays可能获得佣金，您本人不会产生额外费用。',
     alt: '极光下芬兰拉普兰雪原中暖光融融的豪华小屋',
   },
   editorial: {
@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: '伙伴精选', body: '当合作伙伴有季节优惠时，我们会为您精选呈现。' },
     ],
   },
-  footerEditorialNote: '由LaPeso Oy在芬兰拉普兰独立运营 · 上次审阅于2026年4月 · 我们从部分预订中获得联盟佣金,但绝不影响我们推荐的房源选择。',
+  footerEditorialNote: '由LaPeso Oy在芬兰拉普兰独立运营 · 上次审阅于2026年4月 · 我们从部分预订中获得联盟佣金，但绝不影响我们推荐的房源选择。',
   footerExtraLegal: { editorialPolicy: '编辑方针', about: '关于' },
 }
 

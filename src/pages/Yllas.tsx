@@ -643,9 +643,9 @@ A estação ferroviária de Kolari, a 40 min, recebe trens noturnos de Helsinque
 
 const zhCN: DestinationBody = {
   tagline: '双子峰、芬兰最长的雪道与森林中的寂静小屋。为那些想要荒野喧闹、村庄安静的人准备的拉普兰。',
-  description: `伊拉斯是芬兰滑雪度假区网络中落差最大的山,达464米,拥有该国最长的下山雪道。它跨越科拉里和基蒂莱两个市,大约位于北极圈以北115公里,毗邻帕拉斯-伊拉斯通图里国家公园。
+  description: `于拉斯是芬兰滑雪度假区网络中落差最大的山，达464米，拥有该国最长的下山雪道。它跨越科拉里和基蒂莱两个市，大约位于北极圈以北115公里，毗邻帕拉斯-于拉斯通图里国家公园。
 
-两座小村庄。南面的伊拉斯耶尔维和北面的阿卡斯隆波罗。分别坐落在山的两端。这里没有单一的度假村中心:高端小屋散布于森林与湖畔之间,使伊拉斯赢得了比莱维更安静、更亲近自然的口碑。`,
+两座小村庄。南面的于拉斯耶尔维和北面的阿卡斯隆波洛。分别坐落在山的两端。这里没有单一的度假村中心：高端小屋散布于森林与湖畔之间，使于拉斯赢得了比莱维更安静、更亲近自然的口碑。`,
   facts: [
     { label: '原木小屋每晚', value: '150欧元起' },
     { label: '酒店每晚', value: '100欧元起' },
@@ -653,24 +653,24 @@ const zhCN: DestinationBody = {
     { label: '落差', value: '464米' },
   ],
   highlights: [
-    { title: '芬兰最长的下山雪道', body: '长达3公里的伊拉斯通图里正面雪道从无树的山顶穿越松林直下山谷。在芬兰极为罕见。大多数度假区只有1公里。' },
-    { title: '330公里越野滑雪赛道', body: '修整过的传统式和滑步式雪道穿过国家公园,连接伊拉斯耶尔维、阿卡斯隆波罗和帕拉斯。' },
-    { title: '帕拉斯-伊拉斯通图里国家公园', body: '芬兰第三大国家公园。原始森林、七座命名山峰,以及欧洲空气最洁净的测量数据之一。' },
-    { title: '静寂的森林小屋', body: '这里的住宿刻意拉开距离。即使有邻居,也隔着数百米的松林和一片空地。' },
-    { title: '阿卡斯隆波罗的极光湖岸', body: '阿卡斯隆波罗的湖泊朝北。地平线清晰,对岸没有村庄灯光,从冰面观赏极光极佳。' },
-    { title: '夏季山岳徒步', body: '伊拉斯与帕拉斯之间的山顶步道铺设在林木线以上,7月至9月开放,可享白夜阳光。' },
+    { title: '芬兰最长的下山雪道', body: '长达3公里的于拉斯通图里正面雪道从无树的山顶穿越松林直下山谷。在芬兰极为罕见。大多数度假区只有1公里。' },
+    { title: '330公里越野滑雪赛道', body: '修整过的传统式和滑步式雪道穿过国家公园，连接于拉斯耶尔维、阿卡斯隆波洛和帕拉斯。' },
+    { title: '帕拉斯-于拉斯通图里国家公园', body: '芬兰第三大国家公园。原始森林、七座命名山峰，以及欧洲空气最洁净的测量数据之一。' },
+    { title: '静寂的森林小屋', body: '这里的住宿刻意拉开距离。即使有邻居，也隔着数百米的松林和一片空地。' },
+    { title: '阿卡斯隆波洛的极光湖岸', body: '阿卡斯隆波洛的湖泊朝北。地平线清晰，对岸没有村庄灯光，从冰面观赏极光极佳。' },
+    { title: '夏季山岳徒步', body: '于拉斯与帕拉斯之间的山顶步道铺设在林木线以上，7月至9月开放，可享白夜阳光。' },
   ],
-  whenToGo: `12月至3月是深冬窗口:雪况稳定、极光季全开。
-4月初是"kevättalvi"。日照长、雪面明亮,依然有完整的滑雪条件。
-9月迎来ruska秋色,7月是午夜阳光与徒步的季节。`,
-  howToGet: `飞往基蒂莱(KTT),50分钟车程抵达伊拉斯。
+  whenToGo: `12月至3月是深冬窗口：雪况稳定、极光季全开。
+4月初是"kevättalvi"。日照长、雪面明亮，依然有完整的滑雪条件。
+9月迎来ruska秋色，7月是午夜阳光与徒步的季节。`,
+  howToGet: `飞往基蒂莱(KTT),50分钟车程抵达于拉斯。
 罗瓦涅米机场(RVN)是备选。2小时车程。
-40分钟车程的科拉里火车站接收赫尔辛基的夜班列车,并提供轿车托运服务。`,
+40分钟车程的科拉里火车站接收赫尔辛基的夜班列车，并提供轿车托运服务。`,
   stayTypes: [
-    '山间林坡上的原木小屋。可住4–8人,柴烧桑拿、壁炉,常配热水浴缸。',
-    '阿卡斯隆波罗与Kesänkijärvi湖畔的别墅。私人湖岸,冬季备有冰洞游泳。',
-    '阿卡斯隆波罗与伊拉斯耶尔维的滑入式木屋。直通雪道、装备储藏室、人潮远少于莱维。',
-    '国家公园缓冲区内的设计师隐居地。建筑师设计,兼具脱网感与全功能舒适。',
+    '山间林坡上的原木小屋。可住4–8人，柴烧桑拿、壁炉，常配热水浴缸。',
+    '阿卡斯隆波洛与Kesänkijärvi湖畔的别墅。私人湖岸，冬季备有冰洞游泳。',
+    '阿卡斯隆波洛与于拉斯耶尔维的滑入式木屋。直通雪道、装备储藏室、人潮远少于莱维。',
+    '国家公园缓冲区内的设计师隐居地。建筑师设计，兼具脱网感与全功能舒适。',
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: '更大的村庄、更多餐厅、更快的缆车。' },
@@ -678,31 +678,31 @@ const zhCN: DestinationBody = {
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '地区首府与圣诞老人村。' },
   ],
   anchorProperties: [
-    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '位于南侧于莱斯耶尔维的水疗酒店,设泳池区,距缆车300米。' },
-    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '阿卡斯隆波洛村内的桑拿客房,设全景餐厅,距滑雪场4.5公里。' },
-    { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '距伊拉斯40分钟。哈士奇探险套餐与湖畔小屋。' },
-    { name: '伊拉斯全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').yllas, sid: 'destination_yllas_all_search', note: '在Trip.com浏览伊拉斯的所有小屋与木屋。' },
+    { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '位于南侧于拉斯耶尔维的水疗酒店，设泳池区，距缆车300米。' },
+    { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '阿卡斯隆波洛村内的桑拿客房，设全景餐厅，距滑雪场4.5公里。' },
+    { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '距于拉斯40分钟。哈士奇探险套餐与湖畔小屋。' },
+    { name: '于拉斯全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').yllas, sid: 'destination_yllas_all_search', note: '在Trip.com浏览于拉斯的所有小屋与木屋。' },
   ],
   transport: [
-    { mode: 'plane', label: '从基蒂莱机场(KTT)出发', detail: '与莱维同一机场。距阿卡斯隆波罗(北伊拉斯)50公里 / 45分钟,距伊拉斯耶尔维(南伊拉斯)35公里 / 30分钟。' },
-    { mode: 'bus', label: '至伊拉斯的KTT机场巴士', detail: '单程25–30欧元 · 50分钟 · 衔接冬季航班。' },
-    { mode: 'train', label: '至科拉里的夜班列车', detail: '赫尔辛基出发VR卧铺车约90欧元 · 巴士或出租车35公里 / 35分钟到伊拉斯。' },
-    { mode: 'car', label: 'KTT出租车', detail: '到伊拉斯村100–120欧元。通常仅适合3人及以上团组。' },
+    { mode: 'plane', label: '从基蒂莱机场(KTT)出发', detail: '与莱维同一机场。距阿卡斯隆波洛（北于拉斯）50公里 / 45分钟，距于拉斯耶尔维（南于拉斯）35公里 / 30分钟。' },
+    { mode: 'bus', label: '至于拉斯的KTT机场巴士', detail: '单程25–30欧元 · 50分钟 · 衔接冬季航班。' },
+    { mode: 'train', label: '至科拉里的夜班列车', detail: '赫尔辛基出发VR卧铺车约90欧元 · 巴士或出租车35公里 / 35分钟到于拉斯。' },
+    { mode: 'car', label: 'KTT出租车', detail: '到于拉斯村100–120欧元。通常仅适合3人及以上团组。' },
   ],
   carRental: {
     href: CARS_FOR('zh-CN').fromKittila,
     sid: 'destination_yllas_cars_ktt',
     airport: '基蒂莱机场(KTT)取车',
-    blurb: '至伊拉斯50分钟 · 比100欧元以上的出租车便宜得多,适合3人及以上',
+    blurb: '至于拉斯50分钟 · 比100欧元以上的出租车便宜得多，适合3人及以上',
   },
   dayPlan: [
-    { day: '01', title: '抵达 · 小屋 · 桑拿', body: 'KTT或科拉里抵达,接送至阿卡斯隆波罗或伊拉斯耶尔维。小屋内简餐、桑拿、舒展身体,无行程安排。' },
-    { day: '02', title: '越野滑雪日', body: '伊拉斯拥有芬兰最长的越野雪道网(330公里)。滑行标记好的Aakenusjärvi环线,或乘缆车登上伊拉斯通图里滑降。带上保温瓶。' },
-    { day: '03', title: '国家公园徒步 + 驯鹿', body: '在帕拉斯-伊拉斯通图里公园内雪鞋行走。参观驯鹿农场。Lainio雪村驯鹿或Aakenus农场。从小屋北岸寻找极光。' },
-    { day: '04', title: '悠闲晨光 · 启程', body: '最后一次桑拿、早餐、返程接送。复活节周出行者:多留一天,在旺季周的阳光下滑雪。' },
+    { day: '01', title: '抵达 · 小屋 · 桑拿', body: 'KTT或科拉里抵达，接送至阿卡斯隆波洛或于拉斯耶尔维。小屋内简餐、桑拿、舒展身体，无行程安排。' },
+    { day: '02', title: '越野滑雪日', body: '于拉斯拥有芬兰最长的越野雪道网（330公里）。滑行标记好的Aakenusjärvi环线，或乘缆车登上于拉斯通图里滑降。带上保温瓶。' },
+    { day: '03', title: '国家公园徒步 + 驯鹿', body: '在帕拉斯-于拉斯通图里公园内雪鞋行走。参观驯鹿农场。Lainio雪村驯鹿或Aakenus农场。从小屋北岸寻找极光。' },
+    { day: '04', title: '悠闲晨光 · 启程', body: '最后一次桑拿、早餐、返程接送。复活节周出行者：多留一天，在旺季周的阳光下滑雪。' },
   ],
-  seoTitle: '伊拉斯住宿。原木小屋与木屋,每晚150欧元起',
-  seoDescription: '芬兰拉普兰伊拉斯住宿指南:原木小屋每晚150欧元起、湖畔别墅与紧邻帕拉斯-伊拉斯通图里国家公园的滑入式木屋。私人桑拿、面向极光的湖岸、直接预订。',
+  seoTitle: '于拉斯住宿。原木小屋与木屋，每晚150欧元起',
+  seoDescription: '芬兰拉普兰于拉斯住宿指南：原木小屋每晚150欧元起、湖畔别墅与紧邻帕拉斯-于拉斯通图里国家公园的滑入式木屋。私人桑拿、面向极光的湖岸、直接预订。',
 }
 
 const sv: DestinationBody = {

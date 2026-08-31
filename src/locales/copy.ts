@@ -358,12 +358,12 @@ export function footerDict(lang: Lang): FooterDict {
       travelGuideKicker: '拉普兰旅行指南',
       about: {
         eyebrow: '关于LaplandVibes',
-        body: '芬兰拉普兰的权威指南。从北极光到午夜阳光。精选体验、本地建议,以及规划北极之旅所需的一切。',
+        body: '芬兰拉普兰的权威指南。从北极光到午夜阳光。精选体验、本地建议，以及规划北极之旅所需的一切。',
         badge: '独立运营 · 来源标注',
       },
       spottedError: {
-        title: '发现错误?',
-        body: '看到需要纠正的内容?请告诉我们。我们会立刻修正。',
+        title: '发现错误？',
+        body: '看到需要纠正的内容？请告诉我们。我们会立刻修正。',
         cta: '报告错误 →',
       },
       partner: {
@@ -376,7 +376,7 @@ export function footerDict(lang: Lang): FooterDict {
         body: '编辑合作与媒体资料包。',
         cta: '媒体咨询 →',
       },
-      affiliate: '本网站包含联盟链接。如果您通过这些链接预订,LaplandVibes可能获得佣金,您本人不会产生任何额外费用。',
+      affiliate: '本网站包含联盟链接。如果您通过这些链接预订，LaplandVibes可能获得佣金，您本人不会产生任何额外费用。',
       copyright: '© {{year}} #LaplandVibes。#LaplandVibes网络的一部分',
       websiteBy: '网站由Yrityspaketit.fi制作',
       legal: { privacy: '隐私政策', cookie: 'Cookie政策', terms: '使用条款', contact: '联系我们' },

@@ -643,10 +643,10 @@ De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa
 }
 
 const zhCN: DestinationBody = {
-  tagline: '芬兰最大的滑雪度假区,餐厅、雪地探险和极光小屋距缆车仅数分钟车程。',
-  description: `莱维位于基蒂莱市,大约在北极圈以北170公里。从1960年代的一部缆车起步,如今已发展为芬兰最大的滑雪度假区,拥有44条雪道、26部缆车,以及一个紧凑、可步行的村庄中心。
+  tagline: '芬兰最大的滑雪度假区，餐厅、雪地探险和极光小屋距缆车仅数分钟车程。',
+  description: `莱维位于基蒂莱市，大约在北极圈以北170公里。从1960年代的一部缆车起步，如今已发展为芬兰最大的滑雪度假区，拥有44条雪道、26部缆车，以及一个紧凑、可步行的村庄中心。
 
-这里是进入拉普兰高端旅行最便捷的入口:基蒂莱机场15分钟可达,FIS世界杯回转赛每年11月在Levi Black揭幕,周围山地散布着高端小屋。离村中心近得可以前去用晚餐,远得足以享受寂静与暗空中的极光。`,
+这里是进入拉普兰高端旅行最便捷的入口：基蒂莱机场15分钟可达，FIS世界杯回转赛每年11月在Levi Black揭幕，周围山地散布着高端小屋。离村中心近得可以前去用晚餐，远得足以享受寂静与暗空中的极光。`,
   facts: [
     { label: '酒店每晚', value: '100欧元起' },
     { label: '玻璃冰屋每晚', value: '350欧元起' },
@@ -654,41 +654,41 @@ const zhCN: DestinationBody = {
     { label: '雪道', value: '44条' },
   ],
   highlights: [
-    { title: 'Levitunturi山上的滑入式小屋', body: 'Levifell山坡上的木屋可直接通往缆车,以及环山的长距离蓝、红色雪道。' },
-    { title: '可步行村庄与认真做菜的厨房', body: '中心拥有米其林推荐餐厅、驯鹿试味菜单,以及紧凑的咖啡馆群落。这在山地度假区并不常见。' },
-    { title: '完整的探险菜单', body: '哈士奇、雪地摩托、驯鹿雪橇、极光摄影团和冰洞游泳,全部从村内接送点出发。' },
-    { title: '极光暗空区', body: '从村中心驱车15分钟,光污染几乎降至零。山北侧的小屋拥有最清晰的地平线视野。' },
-    { title: '夏季山地骑行与午夜阳光', body: '六七月份太阳不落。莱维重新开放缆车和步道,提供速降和越野山地骑行。' },
-    { title: '世界杯回转赛揭幕', body: '每年11月,FIS高山滑雪世界杯在Levi Black揭幕。巡回赛中最早、最稳定的雪况。' },
+    { title: 'Levitunturi山上的滑入式小屋', body: 'Levifell山坡上的木屋可直接通往缆车，以及环山的长距离蓝、红色雪道。' },
+    { title: '可步行村庄与认真做菜的厨房', body: '中心拥有米其林推荐餐厅、驯鹿试味菜单，以及紧凑的咖啡馆群落。这在山地度假区并不常见。' },
+    { title: '完整的探险菜单', body: '哈士奇、雪地摩托、驯鹿雪橇、极光摄影团和冰洞游泳，全部从村内接送点出发。' },
+    { title: '极光暗空区', body: '从村中心驱车15分钟，光污染几乎降至零。山北侧的小屋拥有最清晰的地平线视野。' },
+    { title: '夏季山地骑行与午夜阳光', body: '六七月份太阳不落。莱维重新开放缆车和步道，提供速降和越野山地骑行。' },
+    { title: '世界杯回转赛揭幕', body: '每年11月，FIS高山滑雪世界杯在Levi Black揭幕。巡回赛中最早、最稳定的雪况。' },
   ],
-  whenToGo: `11月至3月为旺季:雪况稳定、极光夜色,以及全套探险项目。
-8月底至10月迎来ruska(秋色)与首批不拥挤的极光观赏窗口。
-6月至7月是午夜阳光季:24小时光照,带来另一种小屋度假体验。`,
+  whenToGo: `11月至3月为旺季：雪况稳定、极光夜色，以及全套探险项目。
+8月底至10月迎来ruska（秋色）与首批不拥挤的极光观赏窗口。
+6月至7月是午夜阳光季：24小时光照，带来另一种小屋度假体验。`,
   howToGet: `飞往基蒂莱(KTT)。冬季有伦敦、巴黎、阿姆斯特丹、法兰克福、苏黎世和赫尔辛基直飞航班。
 到莱维村为15公里。大多数高端小屋包含私人接送。
-从赫尔辛基出发,夜班火车至Kolari再加1小时接送是风景优美的备选方案。`,
+从赫尔辛基出发，夜班火车至Kolari再加1小时接送是风景优美的备选方案。`,
   stayTypes: [
-    '极光玻璃别墅。玻璃屋顶卧室,提供地平线到地平线的天空视野,通常入住2–4人。',
-    '山间滑入式木屋。入住6–10人,配私人桑拿,常有户外热水浴缸和装备烘干室。',
-    'Immeljärvi湖畔原木小屋。更安静的森林环境,距村中心数分钟车程。',
-    '村中心设计师公寓。步行可达餐厅,适合首次造访拉普兰的旅客。',
+    '极光玻璃别墅。玻璃屋顶卧室，提供地平线到地平线的天空视野，通常入住2–4人。',
+    '山间滑入式木屋。入住6–10人，配私人桑拿，常有户外热水浴缸和装备烘干室。',
+    'Immeljärvi湖畔原木小屋。更安静的森林环境，距村中心数分钟车程。',
+    '村中心设计师公寓。步行可达餐厅，适合首次造访拉普兰的旅客。',
   ],
   siblings: [
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: '更宁静的姊妹双峰,拥有芬兰最长的雪道。' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: '更宁静的姊妹双峰，拥有芬兰最长的雪道。' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'UKK国家公园荒野的入口。' },
     { name: 'Inari', href: '/destinations/inari', blurb: '偏远湖泊、萨米传统与深远的北方天空。' },
   ],
   anchorProperties: [
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上的玻璃冰屋。旺季周次需提前10–12个月预订。' },
-    { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '坐落于莱维山坡,缆车停在门前,从院子即可滑雪出发。' },
-    { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: '莱维的客房与各种户型公寓,均配私人桑拿,距雪道约500米。' },
+    { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '坐落于莱维山坡，缆车停在门前，从院子即可滑雪出发。' },
+    { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: '莱维的客房与各种户型公寓，均配私人桑拿，距雪道约500米。' },
     { name: '莱维所有住宿', href: HOTEL_SEARCH_FOR('zh-CN').levi, sid: 'destination_levi_all_search', note: '在Trip.com比较莱维所有酒店与木屋。' },
   ],
   transport: [
     { mode: 'plane', label: '从基蒂莱机场(KTT)出发', detail: '冬季直飞LHR · CDG · AMS · FRA · ZRH · HEL。距莱维村15公里 / 15分钟。' },
     { mode: 'bus', label: 'KTT机场巴士', detail: '单程8欧元 · 25分钟 · 每趟航班均有衔接。' },
     { mode: 'car', label: '出租车或预订接送', detail: '到村中心25–35欧元。大多数高端小屋含私人接送。' },
-    { mode: 'train', label: '至Kolari的夜班列车', detail: '从赫尔辛基出发的VR卧铺车约90欧元,再换乘1小时抵达莱维。冬季风景优美的备选。' },
+    { mode: 'train', label: '至Kolari的夜班列车', detail: '从赫尔辛基出发的VR卧铺车约90欧元，再换乘1小时抵达莱维。冬季风景优美的备选。' },
   ],
   carRental: {
     href: CARS_FOR('zh-CN').fromKittila,
@@ -697,13 +697,13 @@ const zhCN: DestinationBody = {
     blurb: '距莱维村15分钟 · 冬季标配防滑钉胎',
   },
   dayPlan: [
-    { day: '01', title: '抵达 · 安顿 · 短滑一段', body: '下午抵达KTT,接送至村,Zero Point领取装备。日落前滑一条简单雪道,检查装备与状态。' },
-    { day: '02', title: '全天滑雪 · 夜晚桑拿', body: '缆车9:30开放。缆车顶的Tuikku享用午餐。15:00前下山,在小屋桑拿。睡前打开极光警报。' },
-    { day: '03', title: '哈士奇探险 + 村中晚餐', body: '上午前往哈士奇农场探险(提前两周预订)。下午漫步村中。Kammi-Bar吃驯鹿,Saamen Kammi品传统菜。晴朗的夜晚,可从莱维山顶观赏极光。' },
-    { day: '04', title: '极光小屋夜 · 悠闲一日', body: '向北驱车15分钟,最后一晚入住玻璃冰屋。悠闲早晨,桑拿,仰望天空。次日尽早搭机返程。' },
+    { day: '01', title: '抵达 · 安顿 · 短滑一段', body: '下午抵达KTT，接送至村，Zero Point领取装备。日落前滑一条简单雪道，检查装备与状态。' },
+    { day: '02', title: '全天滑雪 · 夜晚桑拿', body: '缆车9:30开放。缆车顶的Tuikku享用午餐。15:00前下山，在小屋桑拿。睡前打开极光警报。' },
+    { day: '03', title: '哈士奇探险 + 村中晚餐', body: '上午前往哈士奇农场探险（提前两周预订）。下午漫步村中。Kammi-Bar吃驯鹿，Saamen Kammi品传统菜。晴朗的夜晚，可从莱维山顶观赏极光。' },
+    { day: '04', title: '极光小屋夜 · 悠闲一日', body: '向北驱车15分钟，最后一晚入住玻璃冰屋。悠闲早晨，桑拿，仰望天空。次日尽早搭机返程。' },
   ],
-  seoTitle: '莱维住宿:酒店、木屋与冰屋 | LaplandStays',
-  seoDescription: '拉普兰莱维住宿指南:Lapland Hotels每晚100欧元起、Levin Iglut玻璃冰屋350欧元起、滑入式木屋200欧元起。距基蒂莱机场15分钟。已核实价格,直接预订。',
+  seoTitle: '莱维住宿：酒店、木屋与冰屋 | LaplandStays',
+  seoDescription: '拉普兰莱维住宿指南：Lapland Hotels每晚100欧元起、Levin Iglut玻璃冰屋350欧元起、滑入式木屋200欧元起。距基蒂莱机场15分钟。已核实价格，直接预订。',
 }
 
 const sv: DestinationBody = {

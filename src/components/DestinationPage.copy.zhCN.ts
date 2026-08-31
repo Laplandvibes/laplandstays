@@ -24,7 +24,7 @@ const copy: Copy = {
     rentCarLabel: '租车 · EconomyBookings',
     sampleItinerary: '样本行程',
     dayPlanH2: (n: number, name: string) => `${name}的${n}日方案`,
-    dayPlanLead: '典型极光季旅程的轮廓。可按水平自行调整。这些是起点,不是处方。',
+    dayPlanLead: '典型极光季旅程的轮廓。可按水平自行调整。这些是起点，不是处方。',
     moreLapland: '更多拉普兰',
     otherDestinations: '其他目的地',
     seeStays: '查看住宿',

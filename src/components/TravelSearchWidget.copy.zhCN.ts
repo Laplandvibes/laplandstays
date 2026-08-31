@@ -19,7 +19,7 @@ const copy: Copy = {
     guestSingular: '位客人',
     guestPlural: '位客人',
     destOptions: {
-      all: '整个芬兰拉普兰(罗瓦涅米)',
+      all: '整个芬兰拉普兰（罗瓦涅米）',
     },
     groups: {
       resorts: '滑雪度假村与村庄',

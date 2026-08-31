@@ -35,8 +35,8 @@ const TEXT: Record<Lang, { compact: string; full: string }> = {
     full: 'Esta página contém links de afiliados. Se você reservar por eles, o LaplandStays pode receber uma comissão sem custo adicional para você.',
   },
   'zh-CN': {
-    compact: '联盟链接：您预订时我们获得少量佣金,您本人不会有额外费用。',
-    full: '本页面包含联盟链接。如果您通过这些链接预订,LaplandStays可能获得佣金,您本人不会产生额外费用。',
+    compact: '联盟链接：您预订时我们获得少量佣金，您本人不会有额外费用。',
+    full: '本页面包含联盟链接。如果您通过这些链接预订，LaplandStays可能获得佣金，您本人不会产生额外费用。',
   },
   ko: {
     compact: '제휴 링크：예약 시 추가 비용 없이 소액의 수수료를 받습니다.',

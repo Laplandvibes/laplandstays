@@ -645,9 +645,9 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
 
 const zhCN: DestinationBody = {
   tagline: '通往乌尔霍·凯科宁国家公园的门户。位于欧洲最后真正荒野边缘的高端小屋。',
-  description: `萨利瑟尔卡位于伊纳里市,在北极圈以北250公里、树线一带。东侧是乌尔霍·凯科宁国家公园,2,550平方公里近乎未受干扰的山地、河流与原始森林,是欧盟最大的荒野地带之一。
+  description: `萨利色尔卡位于伊纳里市，在北极圈以北250公里、树线一带。东侧是乌尔霍·凯科宁国家公园，2,550平方公里近乎未受干扰的山地、河流与原始森林，是欧盟最大的荒野地带之一。
 
-村庄小巧、可步行,几家酒店、餐厅与雪道围绕其间。高端小屋沿着前往伊瓦洛的公路以及国家公园边缘排开。位置至关重要:走出家门即可享受一下午的哈士奇雪橇,当晚再回到极光下的私人桑拿。`,
+村庄小巧、可步行，几家酒店、餐厅与雪道围绕其间。高端小屋沿着前往伊瓦洛的公路以及国家公园边缘排开。位置至关重要：走出家门即可享受一下午的哈士奇雪橇，当晚再回到极光下的私人桑拿。`,
   facts: [
     { label: '玻璃冰屋每晚', value: '400欧元起' },
     { label: '荒野小屋每晚', value: '200欧元起' },
@@ -655,56 +655,56 @@ const zhCN: DestinationBody = {
     { label: '最近机场', value: 'IVL 25分钟' },
   ],
   highlights: [
-    { title: 'UKK国家公园近在门口', body: '芬兰第二大国家公园。标记好的滑雪与徒步路线从萨利瑟尔卡出发,向东深入荒野60公里。' },
-    { title: 'Kaunispää山观景台', body: '村庄上方的山有公路与缆车直达山顶。地平线开阔的极光视野,夏季还可眺望午夜阳光全景。' },
-    { title: '哈士奇与驯鹿农场', body: '村庄20分钟车程内有多家在运营的犬舍,提供半日及多日的国家公园雪橇之旅。' },
-    { title: '极光密度', body: '在此纬度,极光椭圆带掠过头顶的频率高于更南的目的地。比更南边的目的地更常见到极光。' },
-    { title: 'Tankavaara黄金村', body: '向南驱车30分钟:拉普兰真正的淘金传承,提供淘金课程与黄金博物馆。' },
-    { title: '宁静的冬季雪道', body: '滑雪网络规模不小,使用却很少。平日清晨,数公里整理好的雪道几乎只有你一人。' },
+    { title: 'UKK国家公园近在门口', body: '芬兰第二大国家公园。标记好的滑雪与徒步路线从萨利色尔卡出发，向东深入荒野60公里。' },
+    { title: 'Kaunispää山观景台', body: '村庄上方的山有公路与缆车直达山顶。地平线开阔的极光视野，夏季还可眺望午夜阳光全景。' },
+    { title: '哈士奇与驯鹿农场', body: '村庄20分钟车程内有多家在运营的犬舍，提供半日及多日的国家公园雪橇之旅。' },
+    { title: '极光密度', body: '在此纬度，极光椭圆带掠过头顶的频率高于更南的目的地。比更南边的目的地更常见到极光。' },
+    { title: 'Tankavaara黄金村', body: '向南驱车30分钟：拉普兰真正的淘金传承，提供淘金课程与黄金博物馆。' },
+    { title: '宁静的冬季雪道', body: '滑雪网络规模不小，使用却很少。平日清晨，数公里整理好的雪道几乎只有你一人。' },
   ],
   whenToGo: `8月底至4月是极光季。10月与2月是天空最稳定、最清澈的窗口。
-12月至3月,积雪满覆,白昼短促而浸染蓝光。
-7月至8月是亚北极夏:午夜阳光、徒步、河道独木舟,9月起再无蚊虫。`,
-  howToGet: `飞往伊瓦洛(IVL),接送25分钟。每日有赫尔辛基航班,冬季还有来自英国与中欧的季节直飞。
-赫尔辛基出发可乘夜车至罗瓦涅米再驱车3小时,或冬季直飞包机。
+12月至3月，积雪满覆，白昼短促而浸染蓝光。
+7月至8月是亚北极夏：午夜阳光、徒步、河道独木舟，9月起再无蚊虫。`,
+  howToGet: `飞往伊瓦洛(IVL)，接送25分钟。每日有赫尔辛基航班，冬季还有来自英国与中欧的季节直飞。
+赫尔辛基出发可乘夜车至罗瓦涅米再驱车3小时，或冬季直飞包机。
 推荐租车。最佳暗空小屋的道路距村中心仅短程车程。`,
   stayTypes: [
-    'UKK公园边缘的极光玻璃小屋。小巧、2人入住、玻璃天花板,无环境灯光。',
-    'Kakslauttanen一侧的原木别墅。6–10人,私人桑拿、薪火壁炉,完全荒野般的寂静。',
-    '村中的滑入式公寓。步行可达餐厅与Kaunispää缆车,适合家庭。',
-    '通往伊瓦洛方向的高端设计师木屋。更大地块、私人湖泊,拉普兰最安静的房源。',
+    'UKK公园边缘的极光玻璃小屋。小巧、2人入住、玻璃天花板，无环境灯光。',
+    'Kakslauttanen一侧的原木别墅。6–10人，私人桑拿、薪火壁炉，完全荒野般的寂静。',
+    '村中的滑入式公寓。步行可达餐厅与Kaunispää缆车，适合家庭。',
+    '通往伊瓦洛方向的高端设计师木屋。更大地块、私人湖泊，拉普兰最安静的房源。',
   ],
   siblings: [
-    { name: 'Inari', href: '/destinations/inari', blurb: '更靠北的大湖,萨米文化的核心。' },
+    { name: 'Inari', href: '/destinations/inari', blurb: '更靠北的大湖，萨米文化的核心。' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '拉普兰首府、圣诞老人村、设施更齐全。' },
     { name: 'Levi', href: '/destinations/levi', blurb: '拉普兰最大、最易抵达的村庄。' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '初代玻璃冰屋。极光旺季需提前8–12个月预订。' },
-    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: '位于Kaunispää山。玻璃屋顶客房俯瞰最佳的萨利瑟尔卡村轮廓。' },
-    { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: '全套房设计师小屋,配有完整探险项目。' },
-    { name: '萨利瑟尔卡全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').saariselka, sid: 'destination_saariselka_all_search', note: '在Trip.com浏览萨利瑟尔卡的所有房源。' },
+    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: '位于Kaunispää山。玻璃屋顶客房俯瞰最佳的萨利色尔卡村轮廓。' },
+    { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: '全套房设计师小屋，配有完整探险项目。' },
+    { name: '萨利色尔卡全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').saariselka, sid: 'destination_saariselka_all_search', note: '在Trip.com浏览萨利色尔卡的所有房源。' },
   ],
   transport: [
-    { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '赫尔辛基直飞全年运营;冬季有伦敦盖特威克、巴黎等季节性航线。南行30公里 / 30分钟抵达萨利瑟尔卡村。' },
+    { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '赫尔辛基直飞全年运营；冬季有伦敦盖特威克、巴黎等季节性航线。南行30公里 / 30分钟抵达萨利色尔卡村。' },
     { mode: 'bus', label: 'IVL机场巴士', detail: '单程15–20欧元 · 30分钟 · 每趟航班均衔接。' },
-    { mode: 'car', label: '出租车或预订接送', detail: '至萨利瑟尔卡40–60欧元。Kakslauttanen与Muotka的高级套餐含私人接送。' },
-    { mode: 'train', label: '赫尔辛基。罗瓦涅米卧铺', detail: 'VR夜车至罗瓦涅米(约90欧元),再乘巴士或租车4小时。是IVL直飞的慢速替代。' },
+    { mode: 'car', label: '出租车或预订接送', detail: '至萨利色尔卡40–60欧元。Kakslauttanen与Muotka的高级套餐含私人接送。' },
+    { mode: 'train', label: '赫尔辛基。罗瓦涅米卧铺', detail: 'VR夜车至罗瓦涅米（约90欧元），再乘巴士或租车4小时。是IVL直飞的慢速替代。' },
   ],
   carRental: {
     href: CARS_FOR('zh-CN').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
     airport: '伊瓦洛机场(IVL)取车',
-    blurb: '至萨利瑟尔卡30分钟 · 便于前往伊纳里/伊纳里湖一日游',
+    blurb: '至萨利色尔卡30分钟 · 便于前往伊纳里/伊纳里湖一日游',
   },
   dayPlan: [
-    { day: '01', title: '抵达 · 玻璃冰屋', body: '下午抵达IVL,南行30分钟,入住Kakslauttanen / Star Arctic / Muotka。桑拿、晚餐,启动极光警报。' },
-    { day: '02', title: 'UKK国家公园雪鞋徒步', body: '在乌尔霍·凯科宁公园的半日向导雪鞋徒步。淘金的河流、矮桦山脊。返回住处午餐,下午自由。' },
-    { day: '03', title: '哈士奇 + 驯鹿日', body: '上午自萨利瑟尔卡村出发的哈士奇探险。下午前往附近的萨米农场骑驯鹿。夜晚:冰钓或桑拿后跳湖。天空晴朗时还可观赏极光。' },
-    { day: '04', title: '悠闲早晨 · 驱车前往伊纳里', body: '冰屋最后一晨,北行50分钟前往伊纳里湖,Siida博物馆度过萨米文化日。从IVL搭乘傍晚航班,或在伊纳里加宿一晚。' },
+    { day: '01', title: '抵达 · 玻璃冰屋', body: '下午抵达IVL，南行30分钟，入住Kakslauttanen / Star Arctic / Muotka。桑拿、晚餐，启动极光警报。' },
+    { day: '02', title: 'UKK国家公园雪鞋徒步', body: '在乌尔霍·凯科宁公园的半日向导雪鞋徒步。淘金的河流、矮桦山脊。返回住处午餐，下午自由。' },
+    { day: '03', title: '哈士奇 + 驯鹿日', body: '上午自萨利色尔卡村出发的哈士奇探险。下午前往附近的萨米农场骑驯鹿。夜晚：冰钓或桑拿后跳湖。天空晴朗时还可观赏极光。' },
+    { day: '04', title: '悠闲早晨 · 驱车前往伊纳里', body: '冰屋最后一晨，北行50分钟前往伊纳里湖，Siida博物馆度过萨米文化日。从IVL搭乘傍晚航班，或在伊纳里加宿一晚。' },
   ],
-  seoTitle: '萨利瑟尔卡玻璃冰屋与住宿。每晚200欧元起',
-  seoDescription: '芬兰拉普兰萨利瑟尔卡住宿指南:Kakslauttanen玻璃冰屋每晚400欧元起、Muotka与Star Arctic等荒野小屋200欧元起。位于乌尔霍·凯科宁国家公园边缘。私人桑拿、暗空、直接预订。',
+  seoTitle: '萨利色尔卡玻璃冰屋与住宿。每晚200欧元起',
+  seoDescription: '芬兰拉普兰萨利色尔卡住宿指南：Kakslauttanen玻璃冰屋每晚400欧元起、Muotka与Star Arctic等荒野小屋200欧元起。位于乌尔霍·凯科宁国家公园边缘。私人桑拿、暗空、直接预订。',
 }
 
 const sv: DestinationBody = {

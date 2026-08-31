@@ -15,7 +15,7 @@ The mix is unusual: a working northern city with restaurants, the Arktikum scien
   highlights: [
     { title: 'Santa Claus Village on the Arctic Circle', body: 'The original, a white line marks the Arctic Circle across the square, and Santa keeps office hours every day of the year.' },
     { title: 'Arktikum museum', body: "One of Finland's finest museums of Arctic science, Sámi culture and Lapland history, a 172-metre glass tube on the bank of the Ounasjoki, pointing north." },
-    { title: 'Ranua Wildlife Park', body: "An 80 km drive south: one of the world's northernmost zoos, with 50 Arctic and boreal species including Finland's only polar bears, wolverines and lynx." },
+    { title: 'Ranua Wildlife Park', body: "An 80 km drive south: one of the world's northernmost zoos, with 50 Arctic and boreal species including Finland's only polar bears, plus wolverines and lynx." },
     { title: 'Ounasvaara fell inside the city', body: 'A ski hill, downhill bike park and aurora viewpoint, 10 minutes from the centre by car, no national-park drive required.' },
     { title: 'Flight connectivity', body: 'Rovaniemi airport has the widest winter route network in Lapland: direct to London, Paris, Frankfurt, Vienna, and dozens of charter routes.' },
     { title: 'River-side cabin belts', body: 'Properties along the Kemijoki and on Ounasvaara give aurora-ready dark skies within 15 minutes of restaurants and shopping.' },
@@ -79,7 +79,7 @@ Yhdistelmä on epätavallinen: toimiva pohjoinen kaupunki ravintoloineen, Arktik
   highlights: [
     { title: 'Joulupukin pajakylä napapiirillä', body: 'Alkuperäinen: valkoinen viiva merkitsee napapiirin kulun aukion poikki, ja Joulupukki pitää vastaanottoa joka päivä vuodessa.' },
     { title: 'Arktikum-museo', body: 'Suomen hienoin arktisen tieteen, saamelaiskulttuurin ja Lapin historian museo, 172 metrin lasiputki Ounasjoen rannalla, osoittamassa pohjoiseen.' },
-    { title: 'Ranuan eläinpuisto', body: '80 km ajomatka etelään: yksi maailman pohjoisimmista eläinpuistoista, 50 arktista ja boreaalista lajia mukaan lukien Suomen ainoat jääkarhut, ahmat ja ilvekset.' },
+    { title: 'Ranuan eläinpuisto', body: '80 km ajomatka etelään: yksi maailman pohjoisimmista eläinpuistoista, 50 arktista ja boreaalista lajia mukaan lukien Suomen ainoat jääkarhut sekä ahmoja ja ilveksiä.' },
     { title: 'Ounasvaaran tunturi kaupungin sisällä', body: 'Hiihtomäki, alamäkipyöräpuisto ja revontulien näkölava, 10 minuuttia keskustasta autolla, ei kansallispuistoajoa tarvita.' },
     { title: 'Lentoyhteydet', body: 'Rovaniemen lentokentällä on Lapin laajin talviverkosto: suoria Lontooseen, Pariisiin, Frankfurtiin, Wieniin ja kymmeniä charter-reittejä.' },
     { title: 'Joenvarsimökkivyöhykkeet', body: 'Kemijoen varrella ja Ounasvaaralla sijaitsevat kohteet tarjoavat revontulivalmiit pimeät taivaat 15 minuutin päässä ravintoloista ja kaupoista.' },
@@ -143,7 +143,7 @@ Die Mischung ist ungewöhnlich: eine funktionierende nordische Stadt mit Restaur
   highlights: [
     { title: 'Weihnachtsmanndorf am Polarkreis', body: 'Das Original, eine weiße Linie markiert den Polarkreis über den Platz, und der Weihnachtsmann hält jeden Tag des Jahres Bürozeiten.' },
     { title: 'Arktikum-Museum', body: 'Finnlands schönstes Museum für arktische Wissenschaft, Sámi-Kultur und Lappland-Geschichte, eine 172 Meter lange Glasröhre am Ufer des Ounasjoki, die nach Norden zeigt.' },
-    { title: 'Ranua Wildpark', body: '80 km Fahrt südlich: einer der nördlichsten Zoos der Welt, mit 50 arktischen und borealen Arten, darunter Finnlands einzige Eisbären, Vielfraße und Luchse.' },
+    { title: 'Ranua Wildpark', body: '80 km Fahrt südlich: einer der nördlichsten Zoos der Welt, mit 50 arktischen und borealen Arten, darunter Finnlands einzige Eisbären sowie Vielfraße und Luchse.' },
     { title: 'Ounasvaara-Fjäll mitten in der Stadt', body: 'Ein kleines Skigebiet, ein Downhill-Bikepark und ein Polarlicht-Aussichtspunkt, 10 Autominuten vom Zentrum, ohne Fahrt in einen Nationalpark.' },
     { title: 'Flugverbindungen', body: 'Der Flughafen Rovaniemi hat das breiteste Winter-Streckennetz Lapplands: Direktflüge nach London, Paris, Frankfurt, Wien und Dutzende Charterrouten.' },
     { title: 'Flussufer-Hüttenzonen', body: 'Unterkünfte am Kemijoki und auf Ounasvaara bieten polarlicht-taugliche dunkle Himmel innerhalb von 15 Minuten zu Restaurants und Einkauf.' },
@@ -207,7 +207,7 @@ const ko: DestinationBody = {
   highlights: [
     { title: '북극권의 산타클로스 마을', body: '원조입니다. 광장을 가로지르는 흰 선이 북극권을 표시하며, 산타는 일 년 365일 사무 시간을 지킵니다.' },
     { title: 'Arktikum 박물관', body: '북극 과학, 사미 문화, 라플란드 역사. 핀란드 최고의 박물관으로, 172m 길이의 유리 회랑이 Ounasjoki 강가에서 북쪽을 가리킵니다.' },
-    { title: 'Ranua 야생동물원', body: '남쪽으로 80km: 세계 최북단급 동물원에서 핀란드 유일의 북극곰과 울버린, 스라소니를 비롯한 50종의 북극·아북극 동물을 만날 수 있습니다.' },
+    { title: 'Ranua 야생동물원', body: '남쪽으로 80km: 세계 최북단급 동물원에서 핀란드 유일의 북극곰, 그리고 울버린과 스라소니를 비롯한 50종의 북극·아북극 동물을 만날 수 있습니다.' },
     { title: '도심 안의 Ounasvaara 봉우리', body: '스키 슬로프, 다운힐 바이크 파크, 오로라 전망대까지 모두 있는 봉우리. 도심에서 차로 10분, 국립공원까지 운전할 필요가 없습니다.' },
     { title: '항공 연결성', body: '로바니에미 공항은 라플란드에서 가장 넓은 겨울 노선망을 갖춥니다. 런던, 파리, 프랑크푸르트, 빈 직항편과 수십 개의 차터 노선.' },
     { title: '강가 캐빈 벨트', body: 'Kemijoki와 Ounasvaara에 자리한 숙소는 레스토랑과 쇼핑 인프라에서 15분 이내, 오로라 관측에 충분히 어두운 하늘을 제공합니다.' },
@@ -271,7 +271,7 @@ Le mélange est singulier : une vraie ville du Nord avec restaurants, le musée 
   highlights: [
     { title: 'Village du Père Noël sur le cercle polaire', body: 'L\'original, une ligne blanche marque le cercle à travers la place, et le Père Noël tient bureau chaque jour de l\'année.' },
     { title: 'Musée Arktikum', body: 'Le plus beau musée de Finlande sur la science arctique, la culture sámi et l\'histoire de Laponie, un tube de verre de 172 mètres sur la rive de l\'Ounasjoki, pointant vers le nord.' },
-    { title: 'Parc animalier de Ranua', body: 'À 80 km au sud : l\'un des zoos les plus septentrionaux au monde, avec 50 espèces arctiques et boréales, dont les seuls ours polaires de Finlande, gloutons et lynx.' },
+    { title: 'Parc animalier de Ranua', body: 'À 80 km au sud : l\'un des zoos les plus septentrionaux au monde, avec 50 espèces arctiques et boréales, dont les seuls ours polaires de Finlande, ainsi que gloutons et lynx.' },
     { title: 'Fjell Ounasvaara dans la ville', body: 'Pistes de ski, parc VTT de descente et belvédère aurores, à 10 minutes du centre en voiture, sans détour par un parc national.' },
     { title: 'Connexions aériennes', body: 'L\'aéroport de Rovaniemi a le plus large réseau hivernal de Laponie : vols directs vers Londres, Paris, Francfort, Vienne et des dizaines de charters.' },
     { title: 'Ceintures de chalets en bord de rivière', body: 'Les adresses le long du Kemijoki et sur Ounasvaara offrent un ciel suffisamment noir pour l\'aurore à quinze minutes des restaurants et des commerces.' },
@@ -335,7 +335,7 @@ La miscela è inconsueta: una vera città nordica con ristoranti, il museo scien
   highlights: [
     { title: 'Villaggio di Babbo Natale sul Circolo Polare', body: 'L\'originale, una linea bianca segna il Circolo attraverso la piazza, e Babbo Natale riceve ogni giorno dell\'anno.' },
     { title: 'Museo Arktikum', body: 'Il più bello dei musei finlandesi su scienza artica, cultura sámi e storia della Lapponia, un tubo di vetro di 172 metri sulla riva dell\'Ounasjoki, puntato a nord.' },
-    { title: 'Parco faunistico di Ranua', body: 'A 80 km verso sud: uno degli zoo più settentrionali del mondo, con 50 specie artiche e boreali, tra cui gli unici orsi polari di Finlandia, ghiottoni e linci.' },
+    { title: 'Parco faunistico di Ranua', body: 'A 80 km verso sud: uno degli zoo più settentrionali del mondo, con 50 specie artiche e boreali, tra cui gli unici orsi polari di Finlandia, oltre a ghiottoni e linci.' },
     { title: 'Fjell Ounasvaara dentro la città', body: 'Pista da sci, bike park di discesa e punto panoramico aurore, a 10 minuti d\'auto dal centro, senza dover entrare in un parco nazionale.' },
     { title: 'Connessioni aeree', body: 'L\'aeroporto di Rovaniemi vanta la rete invernale più ampia di Lapponia: voli diretti per Londra, Parigi, Francoforte, Vienna e decine di charter.' },
     { title: 'Cinture di chalet lungo i fiumi', body: 'Le strutture sul Kemijoki e su Ounasvaara offrono cieli abbastanza scuri per l\'aurora a un quarto d\'ora da ristoranti e negozi.' },
@@ -399,7 +399,7 @@ De mix is ongebruikelijk: een werkende noordelijke stad met restaurants, het wet
   highlights: [
     { title: 'Kerstmandorp op de Poolcirkel', body: 'Het origineel, een witte lijn markeert de Poolcirkel over het plein, en de Kerstman houdt elke dag van het jaar spreekuur.' },
     { title: 'Arktikum-museum', body: 'Finland\'s mooiste museum over arctische wetenschap, Sámi-cultuur en Laplandse geschiedenis, een 172 meter lange glazen koker aan de oever van de Ounasjoki, gericht naar het noorden.' },
-    { title: 'Ranua-wildpark', body: '80 km naar het zuiden: een van de noordelijkste dierentuinen ter wereld, met 50 arctische en boreale soorten waaronder de enige ijsberen van Finland, veelvraten en lynxen.' },
+    { title: 'Ranua-wildpark', body: '80 km naar het zuiden: een van de noordelijkste dierentuinen ter wereld, met 50 arctische en boreale soorten waaronder de enige ijsberen van Finland, plus veelvraten en lynxen.' },
     { title: 'Ounasvaara-fjäll in de stad', body: 'Skipiste, downhill bikepark en uitkijkpunt voor noorderlicht, 10 minuten van het centrum met de auto, geen rit door een nationaal park nodig.' },
     { title: 'Vluchtverbindingen', body: 'Luchthaven Rovaniemi heeft het breedste winterse netwerk van Lapland: directe vluchten naar Londen, Parijs, Frankfurt, Wenen en tientallen charters.' },
     { title: 'Cabin-zones langs de rivier', body: 'Accommodaties langs de Kemijoki en op Ounasvaara bieden donker genoeg hemel voor aurora binnen 15 minuten van restaurants en winkels.' },
@@ -532,7 +532,7 @@ La mezcla es inusual: una ciudad norteña en activo con restaurantes, el museo d
   highlights: [
     { title: 'Pueblo de Papá Noel sobre el Círculo Polar', body: 'El original, una línea blanca marca el Círculo Polar en la plaza, y Papá Noel tiene horario de oficina todos los días del año.' },
     { title: 'Museo Arktikum', body: 'El mejor museo finlandés de ciencia ártica, cultura sami e historia de Laponia, un tubo de cristal de 172 metros a orillas del Ounasjoki, apuntando al norte.' },
-    { title: 'Parque de fauna Ranua', body: 'A 80 km en coche al sur: uno de los zoos más septentrionales del mundo, con 50 especies árticas y boreales, entre ellas los únicos osos polares de Finlandia, glotones y linces.' },
+    { title: 'Parque de fauna Ranua', body: 'A 80 km en coche al sur: uno de los zoos más septentrionales del mundo, con 50 especies árticas y boreales, entre ellas los únicos osos polares de Finlandia, además de glotones y linces.' },
     { title: 'Fell Ounasvaara dentro de la ciudad', body: 'Una pista de esquí, un bike park de descenso y un mirador de aurora, a 10 min del centro en coche, sin necesidad de viajar al parque nacional.' },
     { title: 'Conectividad aérea', body: 'El aeropuerto de Rovaniemi tiene la red de rutas invernales más amplia de Laponia: directos a Londres, París, Frankfurt, Viena y decenas de chárter.' },
     { title: 'Cinturones de cabañas junto al río', body: 'Las propiedades a lo largo del Kemijoki y sobre Ounasvaara ofrecen cielos oscuros aptos para auroras a 15 minutos de restaurantes y compras.' },
@@ -709,7 +709,7 @@ A combinação é incomum: uma cidade nortenha em pleno funcionamento, com resta
   highlights: [
     { title: 'Vila do Papai Noel sobre o Círculo Polar', body: 'A original, uma linha branca marca o Círculo Polar atravessando a praça, e o Papai Noel cumpre horário comercial todos os dias do ano.' },
     { title: 'Museu Arktikum', body: 'O melhor museu finlandês de ciência ártica, cultura sámi e história da Lapônia, um tubo de vidro de 172 metros à margem do Ounasjoki, apontando para o norte.' },
-    { title: 'Parque de Vida Selvagem Ranua', body: 'A 80 km de carro ao sul: um dos zoológicos mais ao norte do mundo, com 50 espécies árticas e boreais, incluindo os únicos ursos-polares da Finlândia, glutões e linces.' },
+    { title: 'Parque de Vida Selvagem Ranua', body: 'A 80 km de carro ao sul: um dos zoológicos mais ao norte do mundo, com 50 espécies árticas e boreais, incluindo os únicos ursos-polares da Finlândia, além de glutões e linces.' },
     { title: 'Fell Ounasvaara dentro da cidade', body: 'Pista de esqui, parque de mountain bike e mirante de aurora, a 10 min do centro de carro, sem precisar dirigir até um parque nacional.' },
     { title: 'Conectividade aérea', body: 'O aeroporto de Rovaniemi tem a maior rede de rotas de inverno da Lapônia: direto para Londres, Paris, Frankfurt, Viena e dezenas de rotas charter.' },
     { title: 'Faixas de cabanas à beira-rio', body: 'As propriedades ao longo do Kemijoki e sobre Ounasvaara oferecem céus escuros prontos para aurora a 15 minutos de restaurantes e compras.' },
@@ -760,10 +760,10 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
 }
 
 const zhCN: DestinationBody = {
-  tagline: '芬兰拉普兰首府。圣诞老人村、两条河流,以及在功能齐全的城市里直通极光的便利。',
-  description: `罗瓦涅米是芬兰拉普兰的行政首府,也是主要的国际门户。城市位于北极圈上、克米河与奥纳斯河交汇处,人口约65,000。以欧洲标准而言不大,却是该地区遥遥领先的最大聚居点。
+  tagline: '芬兰拉普兰首府。圣诞老人村、两条河流，以及在功能齐全的城市里直通极光的便利。',
+  description: `罗瓦涅米是芬兰拉普兰的行政首府，也是主要的国际门户。城市位于北极圈上、克米河与奥纳斯河交汇处，人口约65,000。以欧洲标准而言不大，却是该地区遥遥领先的最大聚居点。
 
-这里的组合很独特:一座运转中的北方城市,有餐厅、Arktikum科学博物馆与阿尔托设计的市政建筑,紧邻北极圈线上的原版圣诞老人村,以及短程车程内的多片小屋区。对于想要极光与荒野,同时希望从大型机场返程的旅客而言,罗瓦涅米是天然的基地。`,
+这里的组合很独特：一座运转中的北方城市，有餐厅、Arktikum科学博物馆与阿尔托设计的市政建筑，紧邻北极圈线上的原版圣诞老人村，以及短程车程内的多片小屋区。对于想要极光与荒野，同时希望从大型机场返程的旅客而言，罗瓦涅米是天然的基地。`,
   facts: [
     { label: '最近机场', value: 'RVN 10分钟' },
     { label: '人口', value: '约65,000' },
@@ -771,41 +771,41 @@ const zhCN: DestinationBody = {
     { label: '圣诞老人村', value: '全年开放' },
   ],
   highlights: [
-    { title: '北极圈上的圣诞老人村', body: '原版。广场上一条白线标示北极圈,圣诞老人每天都按时"上班"。' },
+    { title: '北极圈上的圣诞老人村', body: '原版。广场上一条白线标示北极圈，圣诞老人每天都按时"上班"。' },
     { title: 'Arktikum博物馆', body: '芬兰最优秀的北极科学、萨米文化与拉普兰历史博物馆。一根172米长的玻璃管在奥纳斯河畔向北延伸。' },
-    { title: 'Ranua野生动物园', body: '向南80公里:全球最北的动物园之一,拥有50种北极与北方林动物,包括芬兰仅有的北极熊、貂熊与猞猁。' },
-    { title: '市区内的Ounasvaara山', body: '滑雪场、速降自行车公园与极光观景点。驱车10分钟即达,无需前往国家公园。' },
-    { title: '空中连接', body: '罗瓦涅米机场拥有拉普兰最广泛的冬季航线网络:直飞伦敦、巴黎、法兰克福、维也纳以及数十条包机线路。' },
-    { title: '滨河小屋带', body: '沿克米河及Ounasvaara山的房源在15分钟车程内即可远离餐厅与购物区,享受适合极光的暗空。' },
+    { title: 'Ranua野生动物园', body: '向南80公里：全球最北的动物园之一，拥有50种北极与北方林动物，包括芬兰仅有的北极熊，以及貂熊与猞猁。' },
+    { title: '市区内的Ounasvaara山', body: '滑雪场、速降自行车公园与极光观景点。驱车10分钟即达，无需前往国家公园。' },
+    { title: '空中连接', body: '罗瓦涅米机场拥有拉普兰最广泛的冬季航线网络：直飞伦敦、巴黎、法兰克福、维也纳以及数十条包机线路。' },
+    { title: '滨河小屋带', body: '沿克米河及Ounasvaara山的房源在15分钟车程内即可远离餐厅与购物区，享受适合极光的暗空。' },
   ],
   whenToGo: `9月中旬至3月下旬为极光季;11月至2月是深冬。
 罗瓦涅米没有真正的极夜：即使在12月21日前后，太阳也会升起约两小时，正午是漫长的蓝色暮光。
 6月至7月带来午夜阳光与Oikaraisenkoski的激流。`,
   howToGet: `飞往罗瓦涅米(RVN)。拉普兰连接最完善的机场。
-芬兰国铁开行赫尔辛基至罗瓦涅米的夜班列车,并提供轿车托运,直达罗瓦涅米站。
-此后租车便捷;该市是拉普兰内陆自驾游的物流基地。`,
+芬兰国铁开行赫尔辛基至罗瓦涅米的夜班列车，并提供轿车托运，直达罗瓦涅米站。
+此后租车便捷；该市是拉普兰内陆自驾游的物流基地。`,
   stayTypes: [
-    '克米河与奥纳斯河畔的原木小屋。可住6–10人,桑拿、壁炉、开阔河景。',
-    '圣诞老人村周边的玻璃极光别墅。为北极圈体验量身打造,卧室设有观天视角。',
-    '市中心的设计师公寓。步行可达餐厅,作为单日探险出发的基地。',
-    'Ounasvaara山麓木屋。冬季滑入式、夏季有自行车道,距市中心五分钟即享适合极光的地平线。',
+    '克米河与奥纳斯河畔的原木小屋。可住6–10人，桑拿、壁炉、开阔河景。',
+    '圣诞老人村周边的玻璃极光别墅。为北极圈体验量身打造，卧室设有观天视角。',
+    '市中心的设计师公寓。步行可达餐厅，作为单日探险出发的基地。',
+    'Ounasvaara山麓木屋。冬季滑入式、夏季有自行车道，距市中心五分钟即享适合极光的地平线。',
   ],
   siblings: [
-    { name: 'Levi', href: '/destinations/levi', blurb: '芬兰最大的滑雪村,北行2小时。' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: '更安静的山地目的地,西北行2小时。' },
-    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '通往荒野的入口,再向北3小时。' },
+    { name: 'Levi', href: '/destinations/levi', blurb: '芬兰最大的滑雪村，北行2小时。' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: '更安静的山地目的地，西北行2小时。' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '通往荒野的入口，再向北3小时。' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '圣诞老人村内由建筑师设计的玻璃幕墙巢式套房。' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '距市区15分钟的湖畔极光小屋。园区内提供全套探险菜单。' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: '位于Ounasvaara山的较新玻璃屋顶公寓,可眺望天际线。' },
+    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: '位于Ounasvaara山的较新玻璃屋顶公寓，可眺望天际线。' },
     { name: '罗瓦涅米全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').rovaniemi, sid: 'destination_rovaniemi_all_search', note: '在Trip.com浏览罗瓦涅米所有酒店与小屋。' },
   ],
   transport: [
-    { mode: 'plane', label: '从罗瓦涅米机场(RVN)出发', detail: '全年HEL航班,以及冬季来自LHR · CDG · BCN · MAD。距市中心10公里 / 15分钟。' },
+    { mode: 'plane', label: '从罗瓦涅米机场(RVN)出发', detail: '全年HEL航班，以及冬季来自LHR · CDG · BCN · MAD。距市中心10公里 / 15分钟。' },
     { mode: 'bus', label: 'RVN机场巴士', detail: '单程7欧元 · 15分钟到中心 · 衔接每趟航班。' },
     { mode: 'car', label: '出租车至市中心', detail: '15–25欧元。大多数中心酒店在冬季套餐中包含接驳。' },
-    { mode: 'train', label: '赫尔辛基。罗瓦涅米卧铺', detail: 'VR夜车含轿车托运选项,卧铺约90欧元。家庭出行最受欢迎的抵达方式。' },
+    { mode: 'train', label: '赫尔辛基。罗瓦涅米卧铺', detail: 'VR夜车含轿车托运选项，卧铺约90欧元。家庭出行最受欢迎的抵达方式。' },
   ],
   carRental: {
     href: CARS_FOR('zh-CN').fromRovaniemi,
@@ -814,10 +814,10 @@ const zhCN: DestinationBody = {
     blurb: '距市区10公里 · 拉普兰最便捷的取车点 · 全年可用',
   },
   dayPlan: [
-    { day: '01', title: '抵达 · 圣诞老人村', body: 'RVN距市中心10公里。放下行李,直奔圣诞老人村(全年开放)。跨越北极圈线,寄出明信片。在市内Nili用晚餐。' },
-    { day: '02', title: '哈士奇 + 冰漂', body: '前往Apukka或附近农场参加哈士奇探险(提前预订)。下午在奥纳斯河进行干衣冰漂。出奇暖和、完全寂静。在Ounasvaara山等候极光窗口。' },
-    { day: '03', title: 'Arktikum + 城市文化', body: '半日在Arktikum(萨米与拉普兰历史博物馆,玻璃廊道极美)。在市内午餐。下午自由。若季节合适可前往Lainio雪村一日游。' },
-    { day: '04', title: '悠闲晨光 · 继续行程', body: '最后一次桑拿、市内早餐。从RVN返航,或租车北行2小时前往Levi开启下一段。' },
+    { day: '01', title: '抵达 · 圣诞老人村', body: 'RVN距市中心10公里。放下行李，直奔圣诞老人村（全年开放）。跨越北极圈线，寄出明信片。在市内Nili用晚餐。' },
+    { day: '02', title: '哈士奇 + 冰漂', body: '前往Apukka或附近农场参加哈士奇探险（提前预订）。下午在奥纳斯河进行干衣冰漂。出奇暖和、完全寂静。在Ounasvaara山等候极光窗口。' },
+    { day: '03', title: 'Arktikum + 城市文化', body: '半日在Arktikum（萨米与拉普兰历史博物馆，玻璃廊道极美）。在市内午餐。下午自由。若季节合适可前往Lainio雪村一日游。' },
+    { day: '04', title: '悠闲晨光 · 继续行程', body: '最后一次桑拿、市内早餐。从RVN返航，或租车北行2小时前往Levi开启下一段。' },
   ],
   seoTitle: '罗瓦涅米小屋与极光别墅。北极圈首府',
   seoDescription: '芬兰拉普兰罗瓦涅米的滨河原木小屋、玻璃极光别墅与圣诞老人村住宿。北极圈入口、主要机场、直接预订。',
@@ -837,7 +837,7 @@ Blandningen är ovanlig: en fungerande nordlig stad med restauranger, vetenskaps
   highlights: [
     { title: 'Santa Claus Village på polcirkeln', body: 'Originalet: en vit linje markerar polcirkeln tvärs över torget, och tomten har kontorstid varje dag året runt.' },
     { title: 'Museet Arktikum', body: 'Finlands främsta museum om arktisk vetenskap, samisk kultur och Lapplands historia, ett 172 meter långt glasrör på Ounasjokis strand, riktat mot norr.' },
-    { title: 'Ranua djurpark', body: '80 km söderut: en av världens nordligaste djurparker, med 50 arktiska och boreala arter, bland dem Finlands enda isbjörnar, järvar och lodjur.' },
+    { title: 'Ranua djurpark', body: '80 km söderut: en av världens nordligaste djurparker, med 50 arktiska och boreala arter, bland dem Finlands enda isbjörnar samt järvar och lodjur.' },
     { title: 'Fjället Ounasvaara inne i staden', body: 'Skidbacke, downhillcykelpark och norrskensutsikt, 10 minuter med bil från centrum, utan att du behöver köra till en nationalpark.' },
     { title: 'Flygförbindelser', body: 'Rovaniemi flygplats har Lapplands bredaste vinterlinjenät: direkt till London, Paris, Frankfurt och Wien, plus dussintals charterlinjer.' },
     { title: 'Stugbälten längs älven', body: 'Boenden längs Kemijoki och på Ounasvaara ger mörk himmel för norrsken inom 15 minuter från restauranger och butiker.' },
