@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Sélection partenaires', body: 'Nous mettons en avant les offres de saison de nos partenaires quand il y en a.' },
     ],
   },
-  footerEditorialNote: "Maintenu de façon indépendante par Lapeso Oy en Laponie finlandaise · dernière révision avril 2026 · nous percevons une commission d'affiliation sur certaines réservations, mais cela ne conditionne jamais nos recommandations.",
+  footerEditorialNote: "Maintenu de façon indépendante par LaPeso Oy en Laponie finlandaise · dernière révision avril 2026 · nous percevons une commission d'affiliation sur certaines réservations, mais cela ne conditionne jamais nos recommandations.",
   footerExtraLegal: { editorialPolicy: 'Politique éditoriale', about: 'À propos' },
 }
 

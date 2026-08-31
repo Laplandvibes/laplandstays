@@ -16,11 +16,11 @@ const copy: PageCopy = {
     "missionP1": "Die meisten Lappland-Unterkunftslisten im Netz erfinden entweder Preise („ab 99 €/Nacht“ für eine Unterkunft, die diesen Tarif seit sechs Jahren nicht mehr anbietet), verstecken Affiliate-Hinweise oder empfehlen automatisch dieselben fünf Resorts. LaplandStays ist eine Korrektur, ein kleiner, an benannten Unterkünften orientierter Leitfaden, der die Preise jede Saison neu prüft und Ihnen sagt, wenn etwas 12 Monate im Voraus ausverkauft ist, statt etwas anderes zu behaupten.",
     "missionP2": "Dies ist ein redaktioneller Verlag, keine Buchungsplattform. Wenn Sie zu einem der Buchungspartner durchklicken, besteht der Vertrag zwischen Ihnen und ihnen, Reservierungen und Zahlungen werden dort abgewickelt. Eine Partnerprovision wird auf Buchungen über diese Links erzielt, aber der Provisionssatz ist im Partnerprogramm ähnlich, sodass er keinen Einfluss darauf hat, was empfohlen wird.",
     "opEyebrow": "Betreiber",
-    "opH2": "Lapeso Oy",
+    "opH2": "LaPeso Oy",
     "opCards": [
       {
         "title": "In Finnland ansässig",
-        "body": "Lapeso Oy ist in Finnland eingetragen und arbeitet aus Finnisch-Lappland. Dem gleichen Ort, über den der Leitfaden schreibt."
+        "body": "LaPeso Oy ist in Finnland eingetragen und arbeitet aus Finnisch-Lappland. Dem gleichen Ort, über den der Leitfaden schreibt."
       },
       {
         "title": "So erreichen Sie uns",

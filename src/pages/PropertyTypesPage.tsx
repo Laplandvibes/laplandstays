@@ -30,7 +30,7 @@ const articleJsonLd = {
     '@type': 'Person',
     name: 'Vesa Pesola',
     jobTitle: 'Editor / operator',
-    worksFor: { '@type': 'Organization', name: 'Lapeso Oy' },
+    worksFor: { '@type': 'Organization', name: 'LaPeso Oy' },
     url: 'https://laplandstays.com/editorial-policy',
   },
   publisher: { '@type': 'Organization', name: 'LaplandStays' },
@@ -351,7 +351,7 @@ const SLUG_NAME: Record<string, Record<Lang, string>> = {
   levi:       { en: 'Levi',       fi: 'Levi',       de: 'Levi',       ja: 'レヴィ',     es: 'Levi',       'pt-BR': 'Levi',       'zh-CN': '莱维',     ko: '레비',      fr: 'Levi',       it: 'Levi',       nl: 'Levi', sv: 'Levi' },
   inari:      { en: 'Inari',      fi: 'Inari',      de: 'Inari',      ja: 'イナリ',     es: 'Inari',      'pt-BR': 'Inari',      'zh-CN': '伊纳里',   ko: '이나리',    fr: 'Inari',      it: 'Inari',      nl: 'Inari', sv: 'Inari' },
   rovaniemi:  { en: 'Rovaniemi',  fi: 'Rovaniemi',  de: 'Rovaniemi',  ja: 'ロヴァニエミ', es: 'Rovaniemi',  'pt-BR': 'Rovaniemi',  'zh-CN': '罗瓦涅米', ko: '로바니에미',fr: 'Rovaniemi',  it: 'Rovaniemi',  nl: 'Rovaniemi', sv: 'Rovaniemi' },
-  yllas:      { en: 'Ylläs',      fi: 'Ylläs',      de: 'Ylläs',      ja: 'ウッラス',   es: 'Ylläs',      'pt-BR': 'Ylläs',      'zh-CN': '于拉斯',   ko: '일래스',    fr: 'Ylläs',      it: 'Ylläs',      nl: 'Ylläs', sv: 'Ylläs' },
+  yllas:      { en: 'Ylläs',      fi: 'Ylläs',      de: 'Ylläs',      ja: 'ユッラス',   es: 'Ylläs',      'pt-BR': 'Ylläs',      'zh-CN': '于拉斯',   ko: '일래스',    fr: 'Ylläs',      it: 'Ylläs',      nl: 'Ylläs', sv: 'Ylläs' },
 }
 
 /** Short per-night suffix for the hero stat subtitle (price-range context). */

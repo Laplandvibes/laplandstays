@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Partner-Empfehlungen', body: 'Wir heben die Saisonangebote unserer Partner hervor, wenn es sie gibt.' },
     ],
   },
-  footerEditorialNote: 'Unabhängig gepflegt von Lapeso Oy in Finnisch-Lappland · zuletzt geprüft April 2026 · wir erhalten eine Partnerprovision auf manche Buchungen, aber sie beeinflusst nicht, welche Unterkünfte wir empfehlen.',
+  footerEditorialNote: 'Unabhängig gepflegt von LaPeso Oy in Finnisch-Lappland · zuletzt geprüft April 2026 · wir erhalten eine Partnerprovision auf manche Buchungen, aber sie beeinflusst nicht, welche Unterkünfte wir empfehlen.',
   footerExtraLegal: { editorialPolicy: 'Redaktionsrichtlinien', about: 'Über uns' },
 }
 

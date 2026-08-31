@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Partner picks', body: "We highlight our partners' seasonal offers when they are around." },
     ],
   },
-  footerEditorialNote: 'Independently maintained by Lapeso Oy in Finnish Lapland · last reviewed April 2026 · we earn an affiliate commission on some bookings, but it never shapes which properties we recommend.',
+  footerEditorialNote: 'Independently maintained by LaPeso Oy in Finnish Lapland · last reviewed April 2026 · we earn an affiliate commission on some bookings, but it never shapes which properties we recommend.',
   footerExtraLegal: { editorialPolicy: 'Editorial Policy', about: 'About' },
 }
 

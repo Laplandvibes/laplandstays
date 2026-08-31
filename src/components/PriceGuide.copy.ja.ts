@@ -33,13 +33,13 @@ const copy: PriceGuideCopy = {
     {
       name: 'ラップランドのホテル・キャビンチェーン',
       note: '1泊・1室あたり',
-      examples: ['Lapland Hotels (複数リゾート)', 'Harriniva (Muonio)'],
+      examples: ['Lapland Hotels （複数リゾート）', 'Harriniva (Muonio)'],
       ctaLabel: 'ホテル・キャビンを探す',
     },
   ],
   tip: {
     label: '予約のヒント:',
-    pre: 'カクシラウッタネンとレヴィン・イグルトのガラスイグルーは、オーロラのピークシーズン(11月〜3月)には',
+    pre: 'カクシラウッタネンとレヴィン・イグルトのガラスイグルーは、オーロラのピークシーズン（11月〜3月）には',
     strong: '8〜12か月前',
     post: 'に満室になります。これらが旅の主目的なら、まずイグルーを予約し、残りの旅程はその日程に合わせて組みましょう。',
   },

@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: '파트너 추천', body: '파트너의 시즌 특가가 있을 때 골라서 소개해 드립니다.' },
     ],
   },
-  footerEditorialNote: '라플란드의 Lapeso Oy가 독립적으로 관리 · 마지막 검토: 2026년 4월 · 일부 예약에서 제휴 수수료를 받지만, 이는 추천 숙소에 영향을 주지 않습니다.',
+  footerEditorialNote: '라플란드의 LaPeso Oy가 독립적으로 관리 · 마지막 검토: 2026년 4월 · 일부 예약에서 제휴 수수료를 받지만, 이는 추천 숙소에 영향을 주지 않습니다.',
   footerExtraLegal: { editorialPolicy: '편집 정책', about: '소개' },
 }
 

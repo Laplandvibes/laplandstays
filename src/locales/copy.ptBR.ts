@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Dicas de parceiros', body: 'Destacamos as ofertas de temporada dos nossos parceiros quando elas existem.' },
     ],
   },
-  footerEditorialNote: 'Mantido de forma independente pela Lapeso Oy na Lapônia finlandesa · última revisão em abril de 2026 · recebemos comissão de afiliados em algumas reservas, mas isso nunca define quais imóveis recomendamos.',
+  footerEditorialNote: 'Mantido de forma independente pela LaPeso Oy na Lapônia finlandesa · última revisão em abril de 2026 · recebemos comissão de afiliados em algumas reservas, mas isso nunca define quais imóveis recomendamos.',
   footerExtraLegal: { editorialPolicy: 'Política editorial', about: 'Sobre' },
 }
 

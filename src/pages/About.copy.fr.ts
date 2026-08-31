@@ -15,11 +15,11 @@ const copy: PageCopy = {
     "missionP1": "La plupart des annuaires d'hébergements en Laponie en ligne inventent des prix (« à partir de 99 €/nuit » pour une adresse qui n'a pas affiché ce tarif depuis six ans), masquent les mentions d'affiliation ou recommandent toujours les cinq mêmes resorts en pilote automatique. LaplandStays est une correction, un petit guide centré sur des adresses nommées, qui revérifie les tarifs à chaque saison et vous dit quand une chambre est complète 12 mois à l'avance au lieu de prétendre le contraire.",
     "missionP2": "C'est un média éditorial, pas une plateforme de réservation. Quand vous cliquez vers l'un des partenaires de réservation, le contrat se noue entre vous et eux, réservations et paiements sont traités chez eux. Une commission d'affiliation est perçue sur les réservations passées via ces liens, mais le taux est similaire dans tout le programme partenaires, ce qui n'a donc aucune influence sur ce qui est recommandé.",
     "opEyebrow": "Opérateur",
-    "opH2": "Lapeso Oy",
+    "opH2": "LaPeso Oy",
     "opCards": [
       {
         "title": "Basée en Finlande",
-        "body": "Lapeso Oy est enregistrée en Finlande et opère depuis la Laponie finlandaise. Le même lieu que celui dont parle le guide."
+        "body": "LaPeso Oy est enregistrée en Finlande et opère depuis la Laponie finlandaise. Le même lieu que celui dont parle le guide."
       },
       {
         "title": "Comment nous joindre",

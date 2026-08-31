@@ -15,11 +15,11 @@ const copy: PageCopy = {
     "missionP1": "Most Lapland accommodation listings online either invent prices (\"from €99/night\" for a property that has not opened that tier in six years), bury affiliate disclosures, or recommend the same five resorts on autopilot. LaplandStays is a corrective, a small, named-property guide that re-checks rates every season and tells you when something is sold out 12 months ahead instead of pretending otherwise.",
     "missionP2": "This is an editorial publisher, not a booking platform. When you click through to one of the booking partners, the contract is between you and them, reservations and payments are handled there. An affiliate commission is earned on bookings made through these links, but the commission rate is similar across the partner programme, so it has no influence on what is recommended.",
     "opEyebrow": "Operator",
-    "opH2": "Lapeso Oy",
+    "opH2": "LaPeso Oy",
     "opCards": [
       {
         "title": "Based in Finland",
-        "body": "Lapeso Oy is registered in Finland and operates from inside Finnish Lapland. The same place the guide writes about."
+        "body": "LaPeso Oy is registered in Finland and operates from inside Finnish Lapland. The same place the guide writes about."
       },
       {
         "title": "How to reach us",

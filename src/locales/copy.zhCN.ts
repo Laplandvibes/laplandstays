@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: '伙伴精选', body: '当合作伙伴有季节优惠时，我们会为您精选呈现。' },
     ],
   },
-  footerEditorialNote: '由Lapeso Oy在芬兰拉普兰独立运营 · 上次审阅于2026年4月 · 我们从部分预订中获得联盟佣金,但绝不影响我们推荐的房源选择。',
+  footerEditorialNote: '由LaPeso Oy在芬兰拉普兰独立运营 · 上次审阅于2026年4月 · 我们从部分预订中获得联盟佣金,但绝不影响我们推荐的房源选择。',
   footerExtraLegal: { editorialPolicy: '编辑方针', about: '关于' },
 }
 

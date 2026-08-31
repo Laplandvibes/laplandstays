@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Scelte dei partner', body: 'Mettiamo in evidenza le offerte stagionali dei nostri partner quando ci sono.' },
     ],
   },
-  footerEditorialNote: 'Gestita in modo indipendente da Lapeso Oy nella Lapponia finlandese · ultima revisione aprile 2026 · riceviamo una commissione di affiliazione su alcune prenotazioni, ma non influisce mai sulle proprietà che raccomandiamo.',
+  footerEditorialNote: 'Gestita in modo indipendente da LaPeso Oy nella Lapponia finlandese · ultima revisione aprile 2026 · riceviamo una commissione di affiliazione su alcune prenotazioni, ma non influisce mai sulle proprietà che raccomandiamo.',
   footerExtraLegal: { editorialPolicy: 'Politica editoriale', about: 'Chi siamo' },
 }
 

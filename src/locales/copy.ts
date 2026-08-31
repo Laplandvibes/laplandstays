@@ -195,7 +195,7 @@ export function footerDict(lang: Lang): FooterDict {
       },
       spottedError: {
         title: '誤りを見つけた場合',
-        body: '修正が必要なものに気づきましたか?ご連絡ください。すぐに修正いたします。',
+        body: '修正が必要なものに気づきましたか？ご連絡ください。すぐに修正いたします。',
         cta: '誤りを報告 →',
       },
       partner: {
@@ -210,7 +210,7 @@ export function footerDict(lang: Lang): FooterDict {
       },
       affiliate: 'このサイトにはアフィリエイトリンクが含まれます。リンク経由でご予約いただいた場合、追加費用なしでLaplandVibesに手数料が支払われることがあります。',
       copyright: '© {{year}} #LaplandVibes。#LaplandVibesネットワークの一部',
-      websiteBy: 'ウェブサイト制作: Yrityspaketit.fi',
+      websiteBy: 'ウェブサイト制作：Yrityspaketit.fi',
       legal: { privacy: 'プライバシーポリシー', cookie: 'クッキーポリシー', terms: '利用規約', contact: 'お問い合わせ' },
       siteLabels: {
         hotelDeals: 'ホテルのお得な情報',

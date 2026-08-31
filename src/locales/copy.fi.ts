@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Kumppanipoiminnat', body: 'Nostamme kumppaniemme sesonkitarjouksia esiin silloin, kun niitä on.' },
     ],
   },
-  footerEditorialNote: 'Riippumaton opas, ylläpitäjä Lapeso Oy, Suomen Lappi · viimeksi tarkistettu huhtikuussa 2026 · saamme provision joistakin varauksista, mutta se ei vaikuta siihen mitä suosittelemme.',
+  footerEditorialNote: 'Riippumaton opas, ylläpitäjä LaPeso Oy, Suomen Lappi · viimeksi tarkistettu huhtikuussa 2026 · saamme provision joistakin varauksista, mutta se ei vaikuta siihen mitä suosittelemme.',
   footerExtraLegal: { editorialPolicy: 'Toimituspolitiikka', about: 'Tietoa' },
 }
 

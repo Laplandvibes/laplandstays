@@ -15,11 +15,11 @@ const copy: PageCopy = {
     "missionP1": "Useimmat Lapin majoituslistaukset verkossa joko keksivät hintoja (\"alkaen 99 €/yö\" kohteelle joka ei ole avannut tuota tasoa kuuteen vuoteen), piilottavat kumppanuusilmoitukset tai suosittelevat samoja viittä lomakeskusta automaattisesti. LaplandStays on korjaus, pieni, nimettyihin kohteisiin keskittyvä opas, joka tarkistaa hinnat joka kausi ja kertoo, kun jokin on loppuunmyyty 12 kuukautta etukäteen, sen sijaan että teeskentelisi muuta.",
     "missionP2": "Tämä on toimituksellinen julkaisu, ei varausalusta. Kun klikkaat johonkin varauskumppaniin, sopimus on sinun ja heidän välillä, varaukset ja maksut hoidetaan siellä. Kumppanuusprovisio ansaitaan näiden linkkien kautta tehdyistä varauksista, mutta provisio on samaa luokkaa kaikilla kumppaneilla, joten se ei vaikuta siihen, mitä suositellaan.",
     "opEyebrow": "Ylläpitäjä",
-    "opH2": "Lapeso Oy",
+    "opH2": "LaPeso Oy",
     "opCards": [
       {
         "title": "Suomessa rekisteröity",
-        "body": "Lapeso Oy on rekisteröity Suomeen ja toimii Suomen Lapista käsin. Samasta paikasta, josta opas kirjoitetaan."
+        "body": "LaPeso Oy on rekisteröity Suomeen ja toimii Suomen Lapista käsin. Samasta paikasta, josta opas kirjoitetaan."
       },
       {
         "title": "Miten ottaa yhteyttä",

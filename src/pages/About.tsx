@@ -16,10 +16,10 @@ const aboutPageJsonLd = {
   name: 'About LaplandStays',
   url: 'https://laplandstays.com/about',
   description:
-    'LaplandStays is operated by Lapeso Oy in Finnish Lapland. Editorial accommodation guide, verified rates, named anchor properties, sources cited.',
+    'LaplandStays is operated by LaPeso Oy in Finnish Lapland. Editorial accommodation guide, verified rates, named anchor properties, sources cited.',
   publisher: {
     '@type': 'Organization',
-    name: 'Lapeso Oy',
+    name: 'LaPeso Oy',
     url: 'https://laplandstays.com',
     address: { '@type': 'PostalAddress', addressCountry: 'FI', addressRegion: 'Lapland' },
     email: 'info@laplandvibes.com',

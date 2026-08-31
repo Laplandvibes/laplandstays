@@ -19,7 +19,7 @@ const copy: Copy = {
     guestSingular: '名',
     guestPlural: '名',
     destOptions: {
-      all: 'フィンランド・ラップランド全域(ロヴァニエミ)',
+      all: 'フィンランド・ラップランド全域（ロヴァニエミ）',
     },
     groups: {
       resorts: 'スキーリゾートと村',

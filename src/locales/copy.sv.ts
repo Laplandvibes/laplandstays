@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Partnerplock', body: 'Vi lyfter fram våra partners säsongserbjudanden när de finns.' },
     ],
   },
-  footerEditorialNote: 'Drivs oberoende av Lapeso Oy i finska Lappland · senast granskad april 2026 · vi tjänar affiliateprovision på vissa bokningar, men det påverkar aldrig vilka boenden vi rekommenderar.',
+  footerEditorialNote: 'Drivs oberoende av LaPeso Oy i finska Lappland · senast granskad april 2026 · vi tjänar affiliateprovision på vissa bokningar, men det påverkar aldrig vilka boenden vi rekommenderar.',
   footerExtraLegal: { editorialPolicy: 'Redaktionell policy', about: 'Om oss' },
 }
 

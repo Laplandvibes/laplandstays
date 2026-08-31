@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'Partnertips', body: 'We lichten de seizoensaanbiedingen van onze partners uit wanneer ze er zijn.' },
     ],
   },
-  footerEditorialNote: 'Onafhankelijk beheerd door Lapeso Oy in Fins Lapland · laatst beoordeeld april 2026 · we verdienen affiliate commissie op sommige boekingen, maar dit beïnvloedt nooit welke accommodaties we aanbevelen.',
+  footerEditorialNote: 'Onafhankelijk beheerd door LaPeso Oy in Fins Lapland · laatst beoordeeld april 2026 · we verdienen affiliate commissie op sommige boekingen, maar dit beïnvloedt nooit welke accommodaties we aanbevelen.',
   footerExtraLegal: { editorialPolicy: 'Redactioneel beleid', about: 'Over ons' },
 }
 

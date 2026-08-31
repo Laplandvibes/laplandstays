@@ -8,7 +8,7 @@ const copy: ChromeCopy = {
     transport: 'アクセス',
     about: '当サイトについて',
     levi: 'レヴィ',
-    yllas: 'ウッラス',
+    yllas: 'ユッラス',
     saariselka: 'サーリセルカ',
     inari: 'イナリ',
     rovaniemi: 'ロヴァニエミ',
@@ -64,7 +64,7 @@ const copy: ChromeCopy = {
       { title: 'パートナーのおすすめ', body: 'パートナーのシーズンオファーがあるときに、選んでご紹介します。' },
     ],
   },
-  footerEditorialNote: 'フィンランド・ラップランドでLapeso Oyが独立して運営 · 最終確認2026年4月 · 一部のご予約からアフィリエイト手数料を受け取りますが、推薦する宿泊施設の選定には影響しません。',
+  footerEditorialNote: 'フィンランド・ラップランドでLaPeso Oyが独立して運営 · 最終確認2026年4月 · 一部のご予約からアフィリエイト手数料を受け取りますが、推薦する宿泊施設の選定には影響しません。',
   footerExtraLegal: { editorialPolicy: '編集方針', about: '当サイトについて' },
 }
 

@@ -50,7 +50,7 @@ const articleJsonLd = {
     '@type': 'Person',
     name: 'Vesa Pesola',
     jobTitle: 'Editor / operator',
-    worksFor: { '@type': 'Organization', name: 'Lapeso Oy' },
+    worksFor: { '@type': 'Organization', name: 'LaPeso Oy' },
     url: 'https://laplandstays.com/editorial-policy',
   },
   publisher: { '@type': 'Organization', name: 'LaplandStays' },
