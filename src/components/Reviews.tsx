@@ -68,7 +68,7 @@ const COPY = {
     ],
   },
   es: {
-    eyebrow: 'A lo que vienes',
+    eyebrow: 'A lo que viene',
     h2: 'Las tres cosas que los viajeros recuerdan',
     lead: 'Planee lo que planee, huskies, esquí, renos, alta cocina, esto es lo primero que los huéspedes cuentan al volver a casa.',
     items: [

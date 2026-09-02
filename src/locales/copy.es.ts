@@ -53,7 +53,7 @@ const copy: ChromeCopy = {
     emailLabel: 'Correo electrónico',
     submit: 'Recibir el próximo email',
     submitting: 'Uniéndose…',
-    success: 'Ya casi: confirma tu suscripción desde el correo que acabamos de enviarte.',
+    success: 'Ya casi: confirme su suscripción desde el correo que acabamos de enviarle.',
     error: 'No se pudo completar la suscripción. Inténtalo de nuevo o escribe a info@laplandvibes.com.',
     footnote: 'Solo cuando de verdad hay algo que contar. Baja con un clic.',
     privacyLink: 'Política de privacidad',

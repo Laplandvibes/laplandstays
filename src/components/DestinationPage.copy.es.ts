@@ -31,7 +31,7 @@ const copy: Copy = {
     finnishLapland: 'Laponia finlandesa',
     readMore: "Descubrir en Laponia",
     planTripEyebrow: "Más allá del alojamiento",
-    planTripH2: "Planifica todo el viaje",
+    planTripH2: "Planifique todo el viaje",
     planActivities: "Actividades",
     planSkiResorts: "Estaciones de esquí",
     planTransfers: "Traslados",
