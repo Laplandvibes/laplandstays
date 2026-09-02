@@ -24,7 +24,7 @@ const copy: Copy = {
     rentCarLabel: 'Auto huren · EconomyBookings',
     sampleItinerary: 'Voorbeeldroute',
     dayPlanH2: (n: number, name: string) => `Een plan van ${n} dagen in ${name}`,
-    dayPlanLead: 'De opbouw van een typische reis in het aurora-seizoen. Pas aan op uw niveau, dit zijn startpunten, geen voorschriften.',
+    dayPlanLead: 'De opbouw van een typische reis in het noorderlichtseizoen. Pas aan op uw niveau, dit zijn startpunten, geen voorschriften.',
     moreLapland: 'Meer Lapland',
     otherDestinations: 'Andere bestemmingen',
     seeStays: 'Verblijven bekijken',

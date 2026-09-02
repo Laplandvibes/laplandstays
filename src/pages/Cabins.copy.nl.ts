@@ -48,7 +48,7 @@ const copy: PageCopy = {
       {
         name: 'Levi',
         tagline: 'Het full-service resort',
-        body: 'Het drukste skigebied van Finland, met elke november de wereldbekerslalom en een dorp waar restaurants, verhuurwinkels en safari-ophaalpunten op loopafstand liggen. De huisjes omringen de fjell, dus u kunt kiezen tussen ski-in-locaties bij de gondel en rustigere kavels een paar kilometer verderop.',
+        body: 'Het drukste skigebied van Finland, met elke november de wereldbekerslalom en een dorp waar restaurants, verhuurwinkels en safari-ophaalpunten op loopafstand liggen. De huisjes omringen de fjäll, dus u kunt kiezen tussen ski-in-locaties bij de gondel en rustigere kavels een paar kilometer verderop.',
         bullets: [
           'Ideaal voor: eerste bezoekers en groepen die restaurants en nachtleven dicht bij het huisje willen',
           'Dorpsvoorzieningen op loopafstand van de dichtstbijzijnde huisjesgebieden',
@@ -59,8 +59,8 @@ const copy: PageCopy = {
       },
       {
         name: 'Ylläs',
-        tagline: 'Het stille fjellenland',
-        body: 'De langste pistes van Finland op één fjell, twee rustige dorpen (Äkäslompolo en Ylläsjärvi) aan de voet en het nationaal park Pallas-Yllästunturi dat aan de rand van het loipenetwerk begint. Het huisjesleven draait hier meer om skiën vanaf de deur en minder om après-ski.',
+        tagline: 'Het stille fjällgebied',
+        body: 'De langste pistes van Finland op één fjäll, twee rustige dorpen (Äkäslompolo en Ylläsjärvi) aan de voet en het nationaal park Pallas-Yllästunturi dat aan de rand van het loipenetwerk begint. Het huisjesleven draait hier meer om skiën vanaf de deur en minder om après-ski.',
         bullets: [
           'Ideaal voor: langlaufers, gezinnen en iedereen die allergisch is voor drukte',
           'Twee dorpen betekenen winkels en restaurants zonder resortdrukte',
@@ -72,7 +72,7 @@ const copy: PageCopy = {
       {
         name: 'Ruka',
         tagline: 'Het werkpaard van het vroege seizoen',
-        body: 'Ruka opent in oktober en er wordt geskied tot in mei, een van de langste seizoenen van Finland, en het compacte pistedorp houdt alles dichtbij. Onder de fjell is het merengebied van Kuusamo klassiek huisjesterrein, met het nationaal park Oulanka en het wandelpad Karhunkierros in de buurt voor de dagen zonder ski’s.',
+        body: 'Ruka opent in oktober en er wordt geskied tot in mei, een van de langste seizoenen van Finland, en het compacte pistedorp houdt alles dichtbij. Onder de fjäll is het merengebied van Kuusamo klassiek huisjesterrein, met het nationaal park Oulanka en het wandelpad Karhunkierros in de buurt voor de dagen zonder ski’s.',
         bullets: [
           'Ideaal voor: skiën vroeg en laat in het seizoen, ruska-herfstwandelingen en vissers',
           'De luchthaven van Kuusamo ligt op zo’n 25 minuten van de pistes',
@@ -84,7 +84,7 @@ const copy: PageCopy = {
       {
         name: 'Saariselkä',
         tagline: 'De noorderlichtbasis van het hoge noorden',
-        body: 'De noordelijkste van de grote vier, op ongeveer 68°N, waarmee u onder het noorderlichtovaal zit: in een heldere nacht zijn de kansen hier simpelweg beter. Het dorp is compact, het nationaal park Urho Kekkonen begint erachter en de fjellen rollen honderd kilometer naar het oosten zonder iets door mensen gebouwd in zicht.',
+        body: 'De noordelijkste van de grote vier, op ongeveer 68°N, waarmee u onder het noorderlichtovaal zit: in een heldere nacht zijn de kansen hier simpelweg beter. Het dorp is compact, het nationaal park Urho Kekkonen begint erachter en de fjälls rollen honderd kilometer naar het oosten zonder iets door mensen gebouwd in zicht.',
         bullets: [
           'Ideaal voor: noorderlichtjagers, sneeuwschoen- en wildernisliefhebbers, tweede bezoeken',
           'De luchthaven van Ivalo ligt op zo’n 30 minuten',
@@ -122,10 +122,10 @@ const copy: PageCopy = {
       { period: 'December tot maart', body: 'Volle winter: pistes open, loipes gespoord en het noorderlichtseizoen op zijn hoogtepunt. De grootste vraag naar huisjes, dus hoe eerder u boekt, hoe beter de keuze.' },
       { period: 'April', body: 'Voorjaarsskiën: lange dagen, stevige sneeuw en zonnebrilweer op het terras. De lokale bevolking noemt het het best bewaarde geheim van het skijaar.' },
       { period: 'Juni tot augustus', body: 'Zomerlicht: wandelen, vissen en zwemmen vanaf de steiger van het huisje. De middernachtzon duurt tot half juli en de avonden blijven tot ver in augustus licht. Huisjes aan het meer zijn op hun best.' },
-      { period: 'September tot oktober', body: 'Ruska, het herfstkleurenseizoen: de fjellen kleuren rood en goud, de lucht is scherp en het eerste noorderlicht keert terug aan de donkere hemel.' },
+      { period: 'September tot oktober', body: 'Ruska, het herfstkleurenseizoen: de fjälls kleuren rood en goud, de lucht is scherp en het eerste noorderlicht keert terug aan de donkere hemel.' },
     ],
 
-    ctaH2: 'Kies eerst uw fjell, dan uw huisje',
+    ctaH2: 'Kies eerst uw fjäll, dan uw huisje',
     ctaLead: 'Begin bij de regio die bij uw groep past en vergelijk daarna huisjes op de lijstpagina’s van Lomarengas. Boeken gebeurt op lomarengas.fi.',
     ctaPrimary: 'Alle huisjes op Lomarengas',
     ctaSecondary: 'Wanneer te gaan',

@@ -26,7 +26,7 @@ const copy: PageCopy = {
     railBullets: [
       'Couchette vanaf ongeveer €90 per persoon, slaapcabine vanaf ongeveer €140',
       'Autotransport beschikbaar, rijd uw eigen auto van de trein in Rovaniemi of Kolari',
-      'Het eindpunt Kolari ligt op 35 km van Ylläs (betere toegang tot de westelijke fjells dan Rovaniemi)',
+      'Het eindpunt Kolari ligt op 35 km van Ylläs (betere toegang tot de westelijke fjälls dan Rovaniemi)',
       'De restauratiewagen serveert het diner; ontbijt op de bestemming',
     ],
     railBulletStrong: ['Couchette vanaf ~€90', 'Autotransport', 'Eindpunt Kolari', 'Restauratiewagen'],
@@ -42,10 +42,10 @@ const copy: PageCopy = {
     carH2: 'Wanneer een huurauto de moeite waard is',
     yesTitle: 'Ja, huren als',
     yesList: [
-      'U in een afgelegen cabin verblijft (oevers van Inari, Ylläs off-fjell, Muotka)',
+      'U in een afgelegen cabin verblijft (oevers van Inari, Ylläs buiten de fjäll, Muotka)',
       'U tussen twee bestemmingen wilt rijden (Saariselkä → Inari → Rovaniemi)',
       'U met 3+ personen reist en de taxisom niet meer uitkomt',
-      'U skiet én aurora jaagt en flexibiliteit nodig heeft voor heldere-luchtritten',
+      'U skiet én op noorderlicht jaagt en flexibiliteit nodig heeft voor heldere-luchtritten',
     ],
     compareHelsinki: 'Vergelijk Helsinki-tarieven',
     noTitle: 'Nee, sla de auto over als',
@@ -74,7 +74,7 @@ const copy: PageCopy = {
       { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Hele jaar HEL · winter LHR · CDG · BCN · MAD', busPrice: '€7 · 15 min', taxiPrice: '€15–25' },
       { code: 'KTT', name: 'Kittilä', serves: 'Levi (15 km) · Ylläs (50 km)', routes: 'Winter LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '€8 naar Levi · €25–30 naar Ylläs', taxiPrice: '€25–35 Levi · €100–120 Ylläs' },
       { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Winter HEL · LHR · CDG · AMS', busPrice: '€15–20 Saariselkä · €15 Inari', taxiPrice: '€40–60 Saariselkä · €60–80 Inari' },
-      { code: 'ENF', name: 'Enontekiö', serves: 'Verre noordelijke fjells (Ylläs · Hetta)', routes: 'Alleen beperkte winter HEL', busPrice: 'Alleen vooraf geboekte transfer', taxiPrice: '€80+' },
+      { code: 'ENF', name: 'Enontekiö', serves: 'Verre noordelijke fjälls (Ylläs · Hetta)', routes: 'Alleen beperkte winter HEL', busPrice: 'Alleen vooraf geboekte transfer', taxiPrice: '€80+' },
     ],
   },
 }

@@ -387,8 +387,8 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
 }
 
 const nl: DestinationBody = {
-  tagline: 'De grootste skiresort van Finland, met restaurants, safari\'s en aurora-cabins op korte afstand van de liften.',
-  description: `Levi ligt in de gemeente Kittilä, ongeveer 170 km ten noorden van de Poolcirkel. Van één lift in de jaren zestig groeide het uit tot de grootste skiresort van Finland: 44 pistes en 26 liften rond een compact, beloopbaar dorpscentrum.
+  tagline: 'Het grootste skiresort van Finland, met restaurants, safari\'s en noorderlichtcabins op korte afstand van de liften.',
+  description: `Levi ligt in de gemeente Kittilä, ongeveer 170 km ten noorden van de Poolcirkel. Van één lift in de jaren zestig groeide het uit tot het grootste skiresort van Finland: 44 pistes en 26 liften rond een compact, beloopbaar dorpscentrum.
 
 Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthaven Kittilä ligt op 15 minuten, de FIS-wereldbeker slalom opent elk jaar in november op Levi Black, en premium cabins liggen verspreid in het fjäll-landschap eromheen, dichtbij genoeg om in het dorp te eten, ver genoeg voor stilte en noorderlicht onder een donkere hemel.`,
   facts: [
@@ -400,19 +400,19 @@ Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthave
   highlights: [
     { title: 'Ski-in cabins op de Levitunturi', body: 'Chalets op de hellingen van de Levifjäll geven directe toegang tot de gondel en de lange blauwe en rode pistes rond de berg.' },
     { title: 'Een beloopbaar dorp met serieuze keukens', body: 'Het centrum heeft door Michelin aanbevolen restaurants, rendier-tastingmenu\'s en een dichte cluster cafés, zeldzaam voor een fjäll-bestemming.' },
-    { title: 'Volledig safari-aanbod', body: 'Husky\'s, sneeuwscooters, rendierensledes, aurora-fotografietours en ijszwemmen vertrekken allemaal vanaf ophaalpunten in het dorp.' },
-    { title: 'Donkere hemelzones voor aurora', body: '15 minuten rijden uit het dorp en de lichtvervuiling valt naar bijna nul. Cabins aan de noordkant van de fjäll hebben de helderste horizon.' },
-    { title: 'Zomer-mountainbike en middernachtszon', body: 'In juni en juli gaat de zon niet onder. Levi opent dan gondels en paden voor downhill en cross-country mountainbiken.' },
-    { title: 'Wereldbeker slalom-opening', body: 'Elk november opent de FIS Alpine wereldbeker op Levi Black, de vroegste, betrouwbaarste sneeuw van het circuit.' },
+    { title: 'Volledig safari-aanbod', body: 'Husky\'s, sneeuwscooters, rendierensledes, noorderlichtfotografietours en ijszwemmen vertrekken allemaal vanaf ophaalpunten in het dorp.' },
+    { title: 'Donkere hemelzones voor noorderlicht', body: '15 minuten rijden uit het dorp en de lichtvervuiling valt naar bijna nul. Cabins aan de noordkant van de fjäll hebben de helderste horizon.' },
+    { title: 'Zomer-mountainbike en middernachtzon', body: 'In juni en juli gaat de zon niet onder. Levi opent dan gondels en paden voor downhill en cross-country mountainbiken.' },
+    { title: 'Wereldbeker slalom-opening', body: 'Elke november opent de FIS Alpine wereldbeker op Levi Black, de vroegste, betrouwbaarste sneeuw van het circuit.' },
   ],
-  whenToGo: `November–maart is hoogseizoen: betrouwbare sneeuw, aurora-nachten en volledig safarischema.
-Eind augustus–oktober brengt de ruska (herfstkleuren) en de eerste aurora-vensters zonder drukte.
-Juni–juli is de tijd van de middernachtszon: 24 uur daglicht en een ander soort cabinvakantie.`,
+  whenToGo: `November–maart is hoogseizoen: betrouwbare sneeuw, noorderlichtnachten en volledig safarischema.
+Eind augustus–oktober brengt de ruska (herfstkleuren) en de eerste noorderlichtvensters zonder drukte.
+Juni–juli is de tijd van de middernachtzon: 24 uur daglicht en een ander soort cabinvakantie.`,
   howToGet: `Vlieg naar Kittilä (KTT). Directe winterroutes vanuit Londen, Parijs, Amsterdam, Frankfurt, Zürich en Helsinki.
 Naar het dorp Levi is het 15 km. De meeste premium cabins inclusief privétransfer.
 Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig alternatief.`,
   stayTypes: [
-    'Aurora-glasvilla\'s, slaapkamers met glazen dak voor horizon-tot-horizon zicht, doorgaans voor 2–4 gasten.',
+    'Noorderlichtglasvilla\'s, slaapkamers met glazen dak voor horizon-tot-horizon zicht, doorgaans voor 2–4 gasten.',
     'Ski-in chalets op de fjäll, 6–10 gasten, eigen sauna, vaak met buiten-hottub en droogruimte voor materiaal.',
     'Houten cabins aan het Immeljärvi-meer, rustiger, in het bos, op enkele minuten rijden van het dorp.',
     'Designer-appartementen in de dorpskern, restaurants op loopafstand, ideaal voor eerste keer Lapland.',
@@ -438,13 +438,13 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
     href: CARS_FOR('nl').fromKittila,
     sid: 'destination_levi_cars_ktt',
     airport: 'Ophalen op luchthaven Kittilä (KTT)',
-    blurb: '15 min van het dorp Levi · winterspijkerbanden standaard',
+    blurb: '15 min van het dorp Levi · spijkerbanden in de winter standaard',
   },
   dayPlan: [
     { day: '01', title: 'Aankomst · installeren · korte afdaling', body: 'Land in de namiddag op KTT, transfer naar het dorp, materiaal halen bij Zero Point. Eén makkelijke piste voor zonsondergang om materiaal en benen te testen.' },
-    { day: '02', title: 'Volle skidag · saunaavond', body: 'De liften gaan om 09:30 open. Lunch bij Tuikku boven aan de gondel. Voor 15:00 weer beneden, sauna in de cabin. Aurora-alarm aan vóór slapen.' },
+    { day: '02', title: 'Volle skidag · saunaavond', body: 'De liften gaan om 09:30 open. Lunch bij Tuikku boven aan de gondel. Voor 15:00 weer beneden, sauna in de cabin. Noorderlichtalarm aan vóór slapen.' },
     { day: '03', title: 'Husky-safari + dorpsdiner', body: 'Husky-farm safari in de ochtend (twee weken vooruit boeken). Middag in het dorp, Kammi-Bar voor rendier, Saamen Kammi voor traditioneel. Bij heldere hemel: noorderlicht spotten vanaf de top van Levi.' },
-    { day: '04', title: 'Aurora-cabinnacht · rustige dag', body: '15 min noordwaarts rijden naar een glasiglo voor de laatste nacht. Rustige ochtend, sauna, hemel kijken. De volgende ochtend de eerstmogelijke vlucht naar huis.' },
+    { day: '04', title: 'Noorderlichtcabinnacht · rustige dag', body: '15 min noordwaarts rijden naar een glasiglo voor de laatste nacht. Rustige ochtend, sauna, hemel kijken. De volgende ochtend de eerstmogelijke vlucht naar huis.' },
   ],
   seoTitle: 'Levi-accommodatie: hotels, cabins en iglo\'s | LaplandStays',
   seoDescription: 'Waar te verblijven in Levi: Lapland Hotels vanaf €100/nacht, glasiglo\'s bij Levin Iglut vanaf €350, ski-in chalets vanaf €200. 15 min van luchthaven Kittilä.',

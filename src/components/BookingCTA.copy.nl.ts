@@ -2,8 +2,8 @@ import type { Copy } from './BookingCTA.copy.types'
 
 const copy: Copy = {
     eyebrow: 'Klaar wanneer u dat bent',
-    h2: 'De aurora wacht niet',
-    lead: 'Glasiglo\'s in Kakslauttanen en Levin Iglut zijn 8–12 maanden van tevoren volgeboekt. Aurora-cabins lopen vier tot zes maanden vóór de seizoenspiek vol. Begin nu met zoeken en zet uw data vast op een platform dat u al vertrouwt.',
+    h2: 'Het noorderlicht wacht niet',
+    lead: 'Glasiglo\'s in Kakslauttanen en Levin Iglut zijn 8–12 maanden van tevoren volgeboekt. Noorderlichtcabins lopen vier tot zes maanden vóór de seizoenspiek vol. Begin nu met zoeken en zet uw data vast op een platform dat u al vertrouwt.',
     primaryCta: 'Prijzen en beschikbaarheid bekijken',
     secondaryCta: 'Begin met Levi',
     bestTimeLabel: 'Beste boekmoment: late zomer voor de volgende winter',
@@ -16,7 +16,7 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: 'Glasiglo\'s', value: '8–12 mnd. vooruit boeken', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: 'Aurora-cabins', value: '4 bestemmingen', sub: '' },
+      { label: 'Noorderlichtcabins', value: '4 bestemmingen', sub: '' },
       { label: 'Lapland-hotels', value: 'Levi · Ylläs · Saariselkä', sub: '' },
     ],
   }

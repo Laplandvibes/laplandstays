@@ -386,7 +386,7 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
 }
 
 const nl: DestinationBody = {
-  tagline: 'De hoofdstad van Fins Lapland, Kerstmandorp, twee rivieren en directe aurora-toegang vanuit een volwaardige stad.',
+  tagline: 'De hoofdstad van Fins Lapland, Kerstmandorp, twee rivieren en directe noorderlichttoegang vanuit een volwaardige stad.',
   description: `Rovaniemi is de bestuurlijke hoofdstad van Fins Lapland en de belangrijkste internationale poort van de regio. De stad ligt op de Poolcirkel, op de samenvloeiing van Kemijoki en Ounasjoki, en telt circa 65.000 inwoners, klein naar Europese maatstaven, maar veruit de grootste plaats in de regio.
 
 De mix is ongebruikelijk: een werkende noordelijke stad met restaurants, het wetenschapsmuseum Arktikum en door Aalto ontworpen overheidsarchitectuur, naast het originele Kerstmandorp op de Poolcirkellijn en een net van cabin-gebieden binnen korte rijafstand. Voor reizigers die noorderlicht en wildernis willen maar ook via een grote luchthaven thuiskomen, is Rovaniemi de logische basis.`,
@@ -402,19 +402,19 @@ De mix is ongebruikelijk: een werkende noordelijke stad met restaurants, het wet
     { title: 'Ranua-wildpark', body: '80 km naar het zuiden: een van de noordelijkste dierentuinen ter wereld, met 50 arctische en boreale soorten waaronder de enige ijsberen van Finland, plus veelvraten en lynxen.' },
     { title: 'Ounasvaara-fjäll in de stad', body: 'Skipiste, downhill bikepark en uitkijkpunt voor noorderlicht, 10 minuten van het centrum met de auto, geen rit door een nationaal park nodig.' },
     { title: 'Vluchtverbindingen', body: 'Luchthaven Rovaniemi heeft het breedste winterse netwerk van Lapland: directe vluchten naar Londen, Parijs, Frankfurt, Wenen en tientallen charters.' },
-    { title: 'Cabin-zones langs de rivier', body: 'Accommodaties langs de Kemijoki en op Ounasvaara bieden donker genoeg hemel voor aurora binnen 15 minuten van restaurants en winkels.' },
+    { title: 'Cabin-zones langs de rivier', body: 'Accommodaties langs de Kemijoki en op Ounasvaara bieden donker genoeg hemel voor noorderlicht binnen 15 minuten van restaurants en winkels.' },
   ],
-  whenToGo: `Half september–eind maart is aurora-seizoen; november–februari is de diepste winter.
+  whenToGo: `Half september–eind maart is noorderlichtseizoen; november–februari is de diepste winter.
 Rovaniemi heeft geen echte poolnacht: zelfs op 21 december komt de zon ruim twee uur op, en de middag is een lange blauwe schemering.
-Juni–juli geeft middernachtszon en wildwaterstroomversnellingen bij Oikaraisenkoski.`,
+Juni–juli geeft middernachtzon en wildwaterstroomversnellingen bij Oikaraisenkoski.`,
   howToGet: `Vlieg naar Rovaniemi (RVN), de best verbonden luchthaven van Lapland.
 De Finse spoorwegen rijden nachttreinen vanuit Helsinki met autorailservice tot aan station Rovaniemi.
 Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis voor roadtrips door binnenland-Lapland.`,
   stayTypes: [
     'Houten cabins aan de Kemijoki en Ounasjoki, 6–10 gasten, sauna, open haard, vrij riviergezicht.',
-    'Glazen aurora-villa\'s rond het Kerstmandorp, gebouwd voor de Poolcirkelervaring, met slaapkamers gericht op de hemel.',
+    'Glazen noorderlichtvilla\'s rond het Kerstmandorp, gebouwd voor de Poolcirkelervaring, met slaapkamers gericht op de hemel.',
     'Designer-appartementen in het centrum, restaurants op loopafstand, basis voor dagsafari\'s.',
-    'Chalets op de hellingen van Ounasvaara, ski-in in de winter, paden in de zomer, aurora-horizon vijf minuten van het centrum.',
+    'Chalets op de hellingen van Ounasvaara, ski-in in de winter, paden in de zomer, noorderlichthorizon vijf minuten van het centrum.',
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: 'Het grootste skidorp van Finland, 2 uur noordelijker.' },
@@ -423,9 +423,9 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Door architecten ontworpen nest-suites met glazen front bij het Kerstmandorp.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Aurora-cabins aan het meer op 15 min van de stad, volledig safarimenu ter plaatse.' },
+    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Noorderlichtcabins aan het meer op 15 min van de stad, volledig safarimenu ter plaatse.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nieuwere appartementen met glazen dak en zicht op de skyline vanaf Ounasvaara.' },
-    { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH_FOR('nl').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elke Rovaniemi-hotel en cabin op Trip.com.' },
+    { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH_FOR('nl').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elk hotel en elke cabin in Rovaniemi op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Rovaniemi (RVN)', detail: 'Jaarrond vluchten vanaf HEL plus winterroutes vanaf LHR · CDG · BCN · MAD. 10 km / 15 min naar het centrum.' },
@@ -441,12 +441,12 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
   },
   dayPlan: [
     { day: '01', title: 'Aankomst · Kerstmandorp', body: 'RVN 10 km van het centrum. Tassen wegzetten en direct door naar het Kerstmandorp (heel jaar open). Steek de Poolcirkellijn over, stuur een kaart. Diner in de stad bij Nili.' },
-    { day: '02', title: 'Husky + ice-floating', body: 'Apukka of een nabij bedrijf voor een husky-safari (vooraf boeken). \'s Middags droogpak-floating op de Ounasjoki, verrassend warm, volledig stil. Aurora-venster vanaf het Ounasvaara-fjäll.' },
+    { day: '02', title: 'Husky + ice-floating', body: 'Apukka of een nabij bedrijf voor een husky-safari (vooraf boeken). \'s Middags droogpak-floating op de Ounasjoki, verrassend warm, volledig stil. Noorderlichtvenster vanaf het Ounasvaara-fjäll.' },
     { day: '03', title: 'Arktikum + stadscultuur', body: 'Halve dag in Arktikum (Sámi en Lapland-geschiedenis, prachtige glazen gang). Lunch in de stad. Middag vrij, dagtrip naar Lainio Snow Village indien in seizoen.' },
     { day: '04', title: 'Rustige ochtend · verder', body: 'Laatste sauna, ontbijt in de stad. Naar huis vanaf RVN of een huurauto nemen en 2 uur noordwaarts rijden naar Levi voor een tweede etappe.' },
   ],
-  seoTitle: 'Rovaniemi-cabins en aurora-villa\'s, aan de Poolcirkel',
-  seoDescription: 'Houten cabins aan de rivier, glazen aurora-villa\'s en verblijven in het Kerstmandorp in Rovaniemi. Toegang tot de Poolcirkel, grote luchthaven.',
+  seoTitle: 'Rovaniemi-cabins en noorderlichtvilla\'s, aan de Poolcirkel',
+  seoDescription: 'Houten cabins aan de rivier, glazen noorderlichtvilla\'s en verblijven in het Kerstmandorp in Rovaniemi. Toegang tot de Poolcirkel, grote luchthaven.',
 }
 
 const ja: DestinationBody = {

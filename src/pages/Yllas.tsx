@@ -398,15 +398,15 @@ Twee kleine dorpen, Ylläsjärvi aan de zuidkant en Äkäslompolo aan de noordka
   ],
   highlights: [
     { title: "Finland\'s langste afdalingen", body: 'De 3 km lange piste op de voorzijde van de Yllästunturi daalt vanaf de kale top van het fjäll door dennenbos naar het dal. Zeldzaam in Finland, de meeste resorts hebben pistes van rond de 1 km.' },
-    { title: '330 km langlauftracks', body: 'Gemaaide klassieke en skatingsporen lopen door het nationaal park en verbinden Ylläsjärvi, Äkäslompolo en Pallas.' },
-    { title: 'Pallas-Yllästunturi-nationaal park', body: 'Het op twee na grootste nationaal park van Finland, oerbos, zeven met naam genoemde fjälls en een van de zuiverste gemeten lucht van Europa.' },
+    { title: '330 km langlauftracks', body: 'Geprepareerde klassieke en skatingsporen lopen door het nationaal park en verbinden Ylläsjärvi, Äkäslompolo en Pallas.' },
+    { title: 'Pallas-Yllästunturi-nationaal park', body: 'Het op twee na grootste nationale park van Finland, oerbos, zeven met naam genoemde fjälls en een van de zuiverste gemeten lucht van Europa.' },
     { title: 'Stille boscabins', body: 'Accommodaties staan hier bewust uit elkaar. Heeft u een buur, dan ligt die enkele honderden meters dennenbos en open plek verderop.' },
-    { title: 'Aurora-oever van Äkäslompolo', body: 'Het meer bij Äkäslompolo kijkt pal noord uit, vrije horizon, geen dorpslichten aan de overkant, sterk noorderlicht vanaf het ijs.' },
+    { title: 'Noorderlichtoever van Äkäslompolo', body: 'Het meer bij Äkäslompolo kijkt pal noord uit, vrije horizon, geen dorpslichten aan de overkant, sterk noorderlicht vanaf het ijs.' },
     { title: 'Zomerwandelingen op het fjäll', body: 'De toproutes tussen Ylläs en Pallas lopen via vlonderpaden boven de boomgrens, open van juli tot september: in juli is het de klok rond licht, in september kleurt de ruska en zijn de nachten donker genoeg voor noorderlicht.' },
   ],
-  whenToGo: `December–maart is het diepe-winter venster met betrouwbare sneeuw en volledig aurora-seizoen.
+  whenToGo: `December–maart is het diepe-winter venster met betrouwbare sneeuw en volledig noorderlichtseizoen.
 Begin april biedt de "kevättalvi", lange daglichturen, helle sneeuw en nog volle skicondities.
-September brengt de ruska-herfstkleuren; juli is middernachtszon en wandelen.`,
+September brengt de ruska-herfstkleuren; juli is middernachtzon en wandelen.`,
   howToGet: `Vlieg naar Kittilä (KTT), 50 min transfer naar Ylläs.
 Luchthaven Rovaniemi (RVN) is een alternatief, 2 uur rijden.
 Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservice.`,
@@ -442,7 +442,7 @@ Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservic
   dayPlan: [
     { day: '01', title: 'Landing · cabin · sauna', body: 'Aankomst KTT of Kolari, transfer naar Äkäslompolo of Ylläsjärvi. Licht diner in de cabin, sauna, rekken na de vlucht. Geen schema.' },
     { day: '02', title: 'Langlaufdag', body: 'Ylläs heeft het langste langlaufnetwerk van Finland (330 km). Ski de aangegeven Aakenusjärvi-lus of neem de gondel de Yllästunturi op voor de afdaling. Neem een thermoskan mee.' },
-    { day: '03', title: 'Wandeling in het park + rendieren', body: 'Sneeuwschoenwandeling in het Pallas-Yllästunturi-park. Bezoek aan een rendierenboerderij, Lainio Snow Village of boerderij Aakenus. Aurora-jacht vanaf de noordoever van de cabin.' },
+    { day: '03', title: 'Wandeling in het park + rendieren', body: 'Sneeuwschoenwandeling in het Pallas-Yllästunturi-park. Bezoek aan een rendierenboerderij, Lainio Snow Village of boerderij Aakenus. Noorderlichtjacht vanaf de noordoever van de cabin.' },
     { day: '04', title: 'Rustige ochtend · vertrek', body: 'Laatste sauna, ontbijt, transfer terug. Voor paasweekreizigers: een dag verlengen om in de voorjaarszon te skiën.' },
   ],
   seoTitle: "Ylläs-accommodatie, cabins en chalets vanaf €150/nacht",

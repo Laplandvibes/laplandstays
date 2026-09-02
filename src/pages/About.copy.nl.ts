@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Over ons",
     "h1": "Het echte Lapland, geverifieerde tarieven",
-    "heroAlt": "Besneeuwde fjellen in Lapland bij winterse zonsondergang, sparren onder dikke tykky-sneeuw in pastelroze licht",
+    "heroAlt": "Besneeuwde fjälls in Lapland bij winterse zonsondergang, sparren onder dikke tykky-sneeuw in pastelroze licht",
     "intro": "LaplandStays is de accommodatiegids waarvan de beheerder hoopte dat hij bestond toen vrienden vroegen waar ze konden slapen.",
     "missionEyebrow": "Waarom dit bestaat",
     "missionH2": "Eén eerlijke gids voor waar u in Lapland slaapt",
@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Wat wordt behandeld",
-        "body": "Glasiglo's, cabins aan het meer, ski-in chalets, designerlodges en Lapland-hotels in vijf bestemmingen (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Aurora-seizoen sep–apr, middernachtszon jun–jul."
+        "body": "Glasiglo's, cabins aan het meer, ski-in chalets, designerlodges en Lapland-hotels in vijf bestemmingen (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Noorderlichtseizoen sep–apr, middernachtzon jun–jul."
       }
     ],
     "principlesEyebrow": "Hoe de toetsing werkt",
@@ -56,7 +56,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Lokaal detail",
-        "body": "Buskosten vanaf KTT (€8), IVL (€15), RVN (€7). Welke fjells hebben ski-in/ski-out, welke meren kijken noord uit voor aurora-horizon, welke maanden zijn 12 maanden vooruit vol. Het soort detail dat een vriend uit Rovaniemi noemt."
+        "body": "Buskosten vanaf KTT (€8), IVL (€15), RVN (€7). Welke fjälls hebben ski-in/ski-out, welke meren kijken noord uit voor noorderlichthorizon, welke maanden zijn 12 maanden vooruit vol. Het soort detail dat een vriend uit Rovaniemi noemt."
       }
     ],
     "ctaH2": "Klaar wanneer u dat bent",

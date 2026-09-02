@@ -393,25 +393,25 @@ Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. P
   facts: [
     { label: 'Glasiglo\'s vanaf', value: '€400/nacht' },
     { label: 'Wildernislodges vanaf', value: '€200/nacht' },
-    { label: 'Aurora-nachten', value: '~200/jaar' },
+    { label: 'Noorderlichtnachten', value: '~200/jaar' },
     { label: 'Dichtstbijzijnde luchthaven', value: 'IVL 25 min' },
   ],
   highlights: [
-    { title: 'UKK-nationaal park bij de deur', body: 'Het op een na grootste nationaal park van Finland. Gemarkeerde ski- en wandelroutes vertrekken vanuit Saariselkä en lopen 60 km oostwaarts.' },
-    { title: 'Uitzichtpunt Kaunispää', body: 'Het fjäll boven het dorp heeft een weg en een lift naar de top. Aurora met vrije horizon en zomerse middernachtszon-panorama\'s.' },
+    { title: 'UKK-nationaal park bij de deur', body: 'Het op een na grootste nationale park van Finland. Gemarkeerde ski- en wandelroutes vertrekken vanuit Saariselkä en lopen 60 km oostwaarts.' },
+    { title: 'Uitzichtpunt Kaunispää', body: 'Het fjäll boven het dorp heeft een weg en een lift naar de top. Noorderlicht met vrije horizon en zomerse middernachtzon-panorama\'s.' },
     { title: 'Husky- en rendierkennels', body: 'Meerdere actieve kennels binnen 20 minuten van het dorp organiseren halvedag- en meerdaagse sledetochten in het park.' },
-    { title: 'Aurora-dichtheid', body: 'Op deze breedte trekt de aurora-ovaal vaker over het hoofd dan op zuidelijker bestemmingen, u ziet het noorderlicht veel vaker dan zuidelijker.' },
+    { title: 'Noorderlichtdichtheid', body: 'Op deze breedte trekt het noorderlicht-ovaal vaker over het hoofd dan op zuidelijker bestemmingen, u ziet het noorderlicht veel vaker dan zuidelijker.' },
     { title: 'Gouddorp Tankavaara', body: '30 minuten zuidwaarts: het echte goudwasverleden van Lapland, met goudwascursussen en het Goudmuseum.' },
-    { title: 'Rustige winterloipes', body: 'Het loipennetwerk is ruim maar weinig benut, kilometers prepareerd spoor vrijwel zonder andere skiërs op een doordeweekse ochtend.' },
+    { title: 'Rustige winterloipes', body: 'Het loipennetwerk is ruim maar weinig benut, kilometers geprepareerd spoor vrijwel zonder andere skiërs op een doordeweekse ochtend.' },
   ],
-  whenToGo: `Eind augustus–april is aurora-seizoen. Oktober en februari zijn de meest stabiele, heldere vensters.
+  whenToGo: `Eind augustus–april is noorderlichtseizoen. Oktober en februari zijn de meest stabiele, heldere vensters.
 December–maart geeft volledige sneeuwdek en korte, blauw belichte dagen.
-De middernachtszon duurt van eind mei tot ongeveer 20 juli, bijna twee maanden. Juli–augustus is subarctische zomer: wandelen, riviervaren met de kano; vanaf september geen muggen meer.`,
+De middernachtzon duurt van eind mei tot ongeveer 20 juli, bijna twee maanden. Juli–augustus is subarctische zomer: wandelen, riviervaren met de kano; vanaf september geen muggen meer.`,
   howToGet: `Vlieg naar Ivalo (IVL), 25 min transfer. Dagelijkse vluchten vanuit Helsinki en seizoensgebonden directe routes vanuit het VK en Centraal-Europa.
 Vanuit Helsinki met de nachttrein naar Rovaniemi + 3 uur rijden, of directe charters in de winter.
 Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van de dorpskern.`,
   stayTypes: [
-    'Aurora-glascabins aan de rand van UKK, klein, voor twee personen, glazen plafond, geen omgevingslicht.',
+    'Noorderlichtglascabins aan de rand van UKK, klein, voor twee personen, glazen plafond, geen omgevingslicht.',
     'Houten villa\'s aan de Kakslauttanen-zijde, 6–10 gasten, eigen sauna, houtgestookte open haard, volledige wildernisstilte.',
     'Ski-in appartementen in het dorp, loopafstand tot restaurants en de Kaunispää-lift, ideaal voor gezinnen.',
     'Premium designerchalets richting Ivalo, grotere kavels, privé-meren, de stilste aanbiedingen van Lapland.',
@@ -422,7 +422,7 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
     { name: 'Levi', href: '/destinations/levi', blurb: 'Het grootste dorp en de makkelijkste aankomst in Lapland.' },
   ],
   anchorProperties: [
-    { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De oorspronkelijke glasiglo\'s. 8–12 maanden vooruit volgeboekt in aurora-hoogseizoen.' },
+    { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De oorspronkelijke glasiglo\'s. 8–12 maanden vooruit volgeboekt in noorderlichthoogseizoen.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Op het Kaunispää-fjäll, kamers met glazen dak en het mooiste zicht op Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Designerlodge met enkel suites en volledig safariprogramma.' },
     { name: 'Alle Saariselkä-accommodaties', href: HOTEL_SEARCH_FOR('nl').saariselka, sid: 'destination_saariselka_all_search', note: 'Bekijk elke Saariselkä-accommodatie op Trip.com.' },
@@ -440,9 +440,9 @@ Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van d
     blurb: '30 min naar Saariselkä · handig voor de zijtrip naar Inari/Inarimeer',
   },
   dayPlan: [
-    { day: '01', title: 'Aankomst · glasiglo', body: 'IVL in de middag, transfer 30 min zuidwaarts, check-in bij Kakslauttanen / Star Arctic / Muotka. Sauna, diner, aurora-alarm geactiveerd.' },
+    { day: '01', title: 'Aankomst · glasiglo', body: 'IVL in de middag, transfer 30 min zuidwaarts, check-in bij Kakslauttanen / Star Arctic / Muotka. Sauna, diner, noorderlichtalarm geactiveerd.' },
     { day: '02', title: 'UKK-park sneeuwschoenwandeling', body: 'Halve dag begeleide sneeuwschoenwandeling in Urho Kekkonen, rivieren met goudwasverleden, ruggen met dwergberk. Lunch terug in de accommodatie, tweede helft vrij.' },
-    { day: '03', title: 'Husky + rendierdag', body: 'Husky-safari in de ochtend vanuit Saariselkä. Middags rendierenrit op een nabijgelegen Sámi-boerderij. Avond: ijsvissen of sauna-meersprong, en bij heldere hemel noorderlicht kijken.' },
+    { day: '03', title: 'Husky + rendierdag', body: 'Husky-safari in de ochtend vanuit Saariselkä. In de middag een rendierenrit op een nabijgelegen Sámi-boerderij. Avond: ijsvissen of sauna-meersprong, en bij heldere hemel noorderlicht kijken.' },
     { day: '04', title: 'Rustige ochtend · rijden naar Inari', body: 'Laatste iglo-ochtend, 50 min noordwaarts naar het Inari-meer voor een Sámi-cultuurdag in het Siida-museum. Avondvlucht vanaf IVL of verlengen met een nacht in Inari.' },
   ],
   seoTitle: "Glasiglo\'s en accommodaties in Saariselkä, vanaf €200/nacht",

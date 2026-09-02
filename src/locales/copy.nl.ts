@@ -19,8 +19,8 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: 'Lapland accommodatie · Finland',
     h1: 'Waar te verblijven in Fins Lapland',
-    lead: 'Glazen iglo\'s onder het noorderlicht, noorderlicht-hutten in het dennenbos en Lapland-hotels met privé-sauna.',
-    leadSummer: 'Hutten aan het meer onder de middernachtszon, lodges aan de rivier in de groene fjells en Lapland-hotels met privé-sauna.',
+    lead: 'Glazen iglo\'s onder het noorderlicht, noorderlichthutten in het dennenbos en Lapland-hotels met privé-sauna.',
+    leadSummer: 'Hutten aan het meer onder de middernachtzon, lodges aan de rivier in de groene fjälls en Lapland-hotels met privé-sauna.',
     disclosure: 'Deze pagina bevat affiliate links. Als u via deze links boekt, kan LaplandStays een commissie ontvangen zonder extra kosten voor u.',
     alt: 'Warm verlichte luxe hut in besneeuwd Fins Lapland onder het noorderlicht',
   },

@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Accommodatie in Lapland: glasiglo's en cabins | LaplandStays",
-    "description": "Waar te verblijven in Lapland: glasiglo's, aurora-cabins en Lapland-hotels in Levi, Ylläs, Saariselkä en Inari. privésauna's, aurora-wekkers."
+    "description": "Waar te verblijven in Lapland: glasiglo's, noorderlichtcabins en Lapland-hotels in Levi, Ylläs, Saariselkä en Inari. Privésauna's, noorderlichtwekkers."
   },
   "faq": {
     "@context": "https://schema.org",
@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "Waar verblijft u het beste in Lapland voor het noorderlicht?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Voor een hoge noorderlichtfrequentie reist u zo ver mogelijk naar het noorden. Saariselkä en Inari liggen binnen de aurorale ovaal en kennen ongeveer 200 noorderlicht-zichtbare nachten per jaar. Noorderlichthutten in Saariselkä (Kakslauttanen, Muotka, Star Arctic) of aan het Inarimeer (Nellim, Aurora Village in Ivalo) bieden de helderste donkere horizonten."
+          "text": "Voor een hoge noorderlichtfrequentie reist u zo ver mogelijk naar het noorden. Saariselkä en Inari liggen binnen de noorderlichtovaal en kennen ongeveer 200 noorderlicht-zichtbare nachten per jaar. Noorderlichthutten in Saariselkä (Kakslauttanen, Muotka, Star Arctic) of aan het Inarimeer (Nellim, Aurora Village in Ivalo) bieden de helderste donkere horizonten."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "Wat kost een verblijf in Lapland met een beperkt budget?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lapland-hotels en huttenketens beginnen rond €100 per nacht, Lapland Hotels exploiteert vestigingen in Levi, Ylläs, Saariselkä en Rovaniemi tegen deze instapprijs. Harriniva in Muonio start rond €150. Aurora-cabins bij Apukka Resort, Arctic SnowHotel en vergelijkbare accommodaties beginnen vanaf ongeveer €150 per nacht buiten het hoogseizoen."
+          "text": "Lapland-hotels en huttenketens beginnen rond €100 per nacht, Lapland Hotels exploiteert vestigingen in Levi, Ylläs, Saariselkä en Rovaniemi tegen deze instapprijs. Harriniva in Muonio start rond €150. Noorderlichtcabins bij Apukka Resort, Arctic SnowHotel en vergelijkbare accommodaties beginnen vanaf ongeveer €150 per nacht buiten het hoogseizoen."
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "Wanneer kunt u het noorderlicht het beste vanuit een Lapland-hut bekijken?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Het noorderlichtseizoen in Fins Lapland loopt van eind augustus tot begin april. De donkerste en koudste maanden, november tot februari, bieden de meest consistente waarnemingsvensters. Accommodaties met een aurora-alarm wekken u alleen tijdens heldere nachten waarin het noorderlicht echt verschijnt, zodat u op bewolkte nachten uw slaap niet verliest."
+          "text": "Het noorderlichtseizoen in Fins Lapland loopt van eind augustus tot begin april. De donkerste en koudste maanden, november tot februari, bieden de meest consistente waarnemingsvensters. Accommodaties met een noorderlichtalarm wekken u alleen tijdens heldere nachten waarin het noorderlicht echt verschijnt, zodat u op bewolkte nachten uw slaap niet verliest."
         }
       },
       {

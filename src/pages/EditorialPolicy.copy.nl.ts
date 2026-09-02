@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tarieven elk seizoen geverifieerd",
-        "body": "Elke vermelding \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van onze boekingspartners. Prijzen worden minstens eens per kwartaal opnieuw gecontroleerd en uitdrukkelijk aan het begin van het auroraseizoen (september). Is een accommodatie volgeboekt voor de piekweken, dan vermeldt de pagina dat vooraf in plaats van u door te sturen naar een lege zoekopdracht."
+        "body": "Elke vermelding \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van onze boekingspartners. Prijzen worden minstens eens per kwartaal opnieuw gecontroleerd en uitdrukkelijk aan het begin van het noorderlichtseizoen (september). Is een accommodatie volgeboekt voor de piekweken, dan vermeldt de pagina dat vooraf in plaats van u door te sturen naar een lege zoekopdracht."
       },
       {
         "title": "Genoemde accommodaties, geen \"premium 5-sterren\"",
@@ -51,11 +51,11 @@ const copy: PageCopy = {
       },
       {
         "label": "VR (Finse Spoorwegen)",
-        "use": "Helsinki–Rovaniemi-nachttrein dienstregeling en tarieven. Uitsluitend redactionele verwijzing, geen affiliate."
+        "use": "Dienstregeling en tarieven van de nachttrein Helsinki–Rovaniemi. Uitsluitend redactionele verwijzing, geen affiliate."
       },
       {
         "label": "Fins Meteorologisch Instituut & SpaceWeatherLive",
-        "use": "Aurora-frequentie en Kp-index op /when-to-go en in aurora-gerelateerde teksten."
+        "use": "Noorderlichtfrequentie en Kp-index op /when-to-go en in noorderlichtgerelateerde teksten."
       },
       {
         "label": "Visit Finland en regionaal toerisme Lapland",

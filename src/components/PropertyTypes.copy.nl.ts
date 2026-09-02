@@ -7,15 +7,15 @@ const copy: Copy = {
     checkAvailability: 'Beschikbaarheid bekijken',
     types: [
       {
-        title: "Glazen iglo's & aurorahutten",
+        title: "Glazen iglo's & noorderlichthutten",
         short: 'Val in slaap onder het noorderlicht.',
-        body: "Glazen iglo Lapland in zijn puurste vorm, kamers met glazen dak bij Kakslauttanen, Levin Iglut, Star Arctic en Aurora Village, gebouwd voor reizigers die de auroraverwachting volgen.",
+        body: "Glazen iglo Lapland in zijn puurste vorm, kamers met glazen dak bij Kakslauttanen, Levin Iglut, Star Arctic en Aurora Village, gebouwd voor reizigers die de noorderlichtverwachting volgen.",
         priceFrom: 'vanaf €250/nacht',
       },
       {
         title: 'Noorderlichthutten aan het meer',
         short: 'Sauna, bevroren meer, stilte.',
-        body: 'Klassieke Lapland-hutverblijven, blokhutten aan het water met privésauna, dennenbos voor de deur en een onbelemmerde aurorahorizon boven het stille Arctische water.',
+        body: 'Klassieke Lapland-hutverblijven, blokhutten aan het water met privésauna, dennenbos voor de deur en een onbelemmerde noorderlichthorizon boven het stille Arctische water.',
         priceFrom: 'vanaf €150/nacht',
       },
       {
@@ -27,7 +27,7 @@ const copy: Copy = {
       {
         title: 'Arctische boomhutten & designer lodges',
         short: 'Stille luxe in de wildernis.',
-        body: 'Luxe Lapland-accommodatie met architectonische overtuiging, Arctic TreeHouse Hotel, Muotka Wilderness Lodge en Nellim. Strakke lijnen, warm hout, panoramisch zicht op de fjells.',
+        body: 'Luxe Lapland-accommodatie met architectonische overtuiging, Arctic TreeHouse Hotel, Muotka Wilderness Lodge en Nellim. Strakke lijnen, warm hout, panoramisch zicht op de fjälls.',
         priceFrom: 'vanaf €200/nacht',
       },
     ],

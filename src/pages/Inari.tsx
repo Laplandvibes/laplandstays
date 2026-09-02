@@ -399,13 +399,13 @@ Dit is het diepe noorden. Cabins liggen hier oprecht afgelegen: tien minuten rij
   highlights: [
     { title: 'Exclusiviteit van het Inari-meer', body: 'Accommodaties aan de oever liggen bewust ver uit elkaar. Eigen steigers, ijsvisgaten in de winter, in de zomer boottochten langs het heilige eiland Ukonkivi (aan land gaan is niet meer toegestaan).' },
     { title: 'SIIDA Sámi-museum en natuurcentrum', body: 'De beste inleiding op de Sámi-cultuur in de Noord-Europese landen, inheemse geschiedenis, taal en ecologie van Sápmi, alles in één gebouw.' },
-    { title: 'Aurora boven open water', body: 'De meeroever biedt 180° onbelemmerde hemel, zeldzaam. \'s Winters maken aurora-spiegelingen op het ijs de waarneming buitengewoon dramatisch.' },
-    { title: 'Sámi-eettradities', body: 'Lokale keukens serveren poronkäristys (gebakken rendier), koud gerookte arctische riddervis, kruisbessendesserts, ingrediënten uit het land om u heen.' },
+    { title: 'Noorderlicht boven open water', body: 'De meeroever biedt 180° onbelemmerde hemel, zeldzaam. \'s Winters maken noorderlichtspiegelingen op het ijs de waarneming buitengewoon dramatisch.' },
+    { title: 'Sámi-eettradities', body: 'Lokale keukens serveren poronkäristys (gebakken rendier), koudgerookte beekridder, kruipbraamdesserts, ingrediënten uit het land om u heen.' },
     { title: 'Wandelen op toendra-fjäll', body: 'Ten noorden van Inari dunt de boomgrens uit tot open Laplands fjäll. Zomerwandelingen door Kevo en Utsjoki zijn zo afgelegen als Europa toelaat.' },
     { title: 'Husky\'s en sneeuwscooter in de winter', body: 'Kennels rondom Inari verzorgen sledetochten over het ijs van de Inarijärvi, open vlakte, geen bomen, ongebruikelijk snel en stil.' },
   ],
-  whenToGo: `Eind september–begin april is aurora-seizoen; op deze breedte staat de aurora-ovaal regelmatig recht boven u.
-Half juni–eind juli is middernachtszon: zes weken lang gaat de zon niet onder.
+  whenToGo: `Eind september–begin april is noorderlichtseizoen; op deze breedte staat het noorderlicht-ovaal regelmatig recht boven u.
+Half juni–eind juli is middernachtzon: zes weken lang gaat de zon niet onder.
 Half augustus brengt de korte, intense ruska, rood en oranje over de fjälls.`,
   howToGet: `Vlieg naar Ivalo (IVL), 40 min transfer. Directe Helsinki–Ivalo dagelijks, seizoensgebonden charters vanuit het VK en Centraal-Europa.
 Huur een auto, de mooiste cabins liggen op zijwegen aan de oever en vragen om eigen vervoer.
@@ -414,7 +414,7 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
     'Houten cabins aan de Inarijärvi, 4–6 gasten, privé-oever, houtgestookte sauna, ijsvistuig.',
     'Afgelegen wildernis-villa\'s, off-grid gevoel met volledig comfort, uren ongerept bos in elke richting.',
     'Cabins van Sámi-families, klein, persoonlijk, vaak met rendierherderserfgoed en verhalen ter plekke.',
-    'Aurora-glasretreats ten noorden van Inari, speciaal ontworpen om de hemel op hoge breedte te bekijken.',
+    'Noorderlichtglasretreats ten noorden van Inari, speciaal ontworpen om de hemel op hoge breedte te bekijken.',
   ],
   siblings: [
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Poort naar de UKK-wildernis, 50 min zuidwaarts.' },
@@ -423,7 +423,7 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
   ],
   anchorProperties: [
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Aan de stille oostoever van het Inari-meer, ver van dorpslichten. Vissen, sauna\'s en noorderlichttochten op het meerijs.' },
-    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min van luchthaven Ivalo, cabins met glazen dak, aurora-wekservice.' },
+    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min van luchthaven Ivalo, cabins met glazen dak, noorderlichtwekservice.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Door architecten ontworpen all-suite lodge tussen Inari en Saariselkä.' },
     { name: 'Alle Inari-accommodaties', href: HOTEL_SEARCH_FOR('nl').inari, sid: 'destination_inari_all_search', note: 'Bekijk elke Inari-accommodatie op Trip.com.' },
   ],
@@ -442,10 +442,10 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
   dayPlan: [
     { day: '01', title: 'Landing · cabin aan het meer', body: 'IVL-vlucht rond het middaguur, noordwaarts naar het dorp Inari of door naar Nellim. Installeren, sauna, wandeling langs het water. Na twee uur is de Inari-stilte tot u doorgedrongen.' },
     { day: '02', title: 'Sámi-cultuur · Siida-museum', body: 'Ochtend in Siida (het inheemse Sámi-museum, de meest complete Sámi-collectie van Noord-Europa). Lunch in het dorp Inari. Middag ijsvissen of een begeleide boswandeling.' },
-    { day: '03', title: 'Sneeuwscootertocht op het Inari-meer', body: 'Met gids per sneeuwscooter het bevroren meer op, met zicht op het heilige Ukko-eiland (het eiland zelf betreedt u niet). \'s Winters al donker om 14:30, terug in de cabin voor het lange aurora-venster.' },
+    { day: '03', title: 'Sneeuwscootertocht op het Inari-meer', body: 'Met gids per sneeuwscooter het bevroren meer op, met zicht op het heilige Ukko-eiland (het eiland zelf betreedt u niet). \'s Winters al donker om 14:30, terug in de cabin voor het lange noorderlichtvenster.' },
     { day: '04', title: 'Rustige vertrekdag', body: 'Bezoek rendierboerderij, laatste sauna, terug naar IVL. Verleng zo mogelijk met twee dagen, Inari beloont traagheid.' },
   ],
-  seoTitle: 'Inari-accommodatie: cabins aan het meer en aurora-villa\'s',
+  seoTitle: 'Inari-accommodatie: cabins aan het meer en noorderlichtvilla\'s',
   seoDescription: 'Waar te verblijven in Inari: houten cabins aan het meer vanaf €200/nacht, Aurora Village en Nellim Wilderness Hotel vanaf €300. Privé-oevers, Sámi-erfgoed.',
 }
 
