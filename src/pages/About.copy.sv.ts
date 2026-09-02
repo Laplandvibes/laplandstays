@@ -9,7 +9,7 @@ const copy: PageCopy = {
     "eyebrow": "Om oss",
     "h1": "Det riktiga Lappland, verifierade priser",
     "heroAlt": "Snötäckta fjäll i Lappland vid vintersolnedgång, granar under tjock tykky-snö i pastellrosa ljus",
-    "intro": "LaplandStays är den boendeguide som operatören önskade fanns när vänner frågade var de skulle bo.",
+    "intro": "LaplandStays är den boendeguide som grundaren önskade fanns när vänner frågade var de skulle bo.",
     "missionEyebrow": "Varför den finns",
     "missionH2": "En ärlig guide till var du sover i Lappland",
     "missionP1": "De flesta boendelistor för Lappland på nätet hittar antingen på priser (\"från 99 €/natt\" för ett boende som inte har öppnat den prisnivån på sex år), gömmer affiliateinformation eller rekommenderar samma fem resorter på autopilot. LaplandStays är en motvikt, en liten guide med namngivna boenden som kontrollerar priserna varje säsong och talar om när något är slutbokat 12 månader i förväg i stället för att låtsas något annat.",
@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Vad som behandlas",
-        "body": "Glasiglor, stugor vid sjön, ski-in-chalet, designlodger och Lapland Hotels på fem resmål (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Norrskenssäsong sep–apr, midnattssol jun–jul."
+        "body": "Glasigloor, stugor vid sjön, ski-in-chalet, designlodger och Lapland Hotels på fem resmål (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Norrskenssäsong sep–apr, midnattssol jun–jul."
       }
     ],
     "principlesEyebrow": "Så fungerar granskningen",
@@ -52,7 +52,7 @@ const copy: PageCopy = {
       },
       {
         "title": "\"Passar för / undvik om\"-upplägg",
-        "body": "Glasiglor passar inte för grupper. Ski-chalet passar inte för resenärer som bara kommer för norrskenet. Varje kategori beskrivs utifrån vem den passar för och vem den inte passar, i stället för att sälja allt till alla."
+        "body": "Glasigloor passar inte för grupper. Ski-chalet passar inte för resenärer som bara kommer för norrskenet. Varje kategori beskrivs utifrån vem den passar för och vem den inte passar, i stället för att sälja allt till alla."
       },
       {
         "title": "Lokala detaljer",

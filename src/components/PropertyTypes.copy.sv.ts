@@ -3,13 +3,13 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'Kollektionen',
     h2: 'Fyra typer av boende i Lappland',
-    lead: 'Glasiglor, norrskensstugor, ski-in-chalet eller designade vildmarkslodger. Välj den natt du kom för. Verifierade priser per natt, direktbokning och tillgänglighet för de datum du behöver.',
+    lead: 'Glasigloor, norrskensstugor, ski-in-chalet eller designade vildmarkslodger. Välj den natt du kom för. Verifierade priser per natt, direktbokning och tillgänglighet för de datum du behöver.',
     checkAvailability: 'Se tillgänglighet',
     types: [
       {
-        title: 'Glasiglor och norrskensstugor',
+        title: 'Glasigloor och norrskensstugor',
         short: 'Somna under norrskenet.',
-        body: 'Glasiglo i Lappland när det är som renast: rum med glastak på Kakslauttanen, Levin Iglut, Star Arctic och Aurora Village, byggda för resenärer som följer norrskensprognosen.',
+        body: 'Glasigloo i Lappland när det är som renast: rum med glastak på Kakslauttanen, Levin Iglut, Star Arctic och Aurora Village, byggda för resenärer som följer norrskensprognosen.',
         priceFrom: 'från 250 €/natt',
       },
       {

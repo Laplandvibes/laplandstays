@@ -43,7 +43,7 @@ const copy: PageCopy = {
       },
       {
         "label": "EconomyBookings (Travelpayouts)",
-        "use": "Hyrbilspriser från flygplatserna KTT / RVN / IVL och enkelupphämtning i Helsingfors."
+        "use": "Hyrbilspriser från flygplatserna KTT / RVN / IVL och hyrbil för enkel resa från Helsingfors."
       },
       {
         "label": "GetYourGuides partnerprogram",

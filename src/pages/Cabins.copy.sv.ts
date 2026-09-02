@@ -133,7 +133,7 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Direkt ur utbudet',
       h2: 'Riktiga stugor, riktiga bilder',
-      lead: 'Ett dagligen uppdaterat urval ur Lomarengas utbud kring varje skidort, hämtat direkt ur produktdatan. Priserna är veckopriser från; slutpriset beror på veckan.',
+      lead: 'Ett dagligen uppdaterat urval ur Lomarengas utbud kring varje skidort, hämtat direkt ur produktdatan. Priserna är lägsta veckopris; slutpriset beror på veckan.',
       weekFrom: 'vecka från {price} €',
       guestsLabel: 'personer',
       bedroomsLabel: 'sovrum',

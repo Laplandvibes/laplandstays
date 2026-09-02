@@ -7,10 +7,10 @@ const copy: PriceGuideCopy = {
   lead: 'Norrsken som glider förbi glastaket, en bastu som redan är varm, en snötyst skog utanför fönstret vid frukosten: en sådan natt i Lappland kan kosta 100 € eller 1 500 €. Vi samlade de verkliga prisintervallen för 15 boenden direkt från bokningssidorna, så att du med en blick ser vilken dröm din budget räcker till.',
   tiers: [
     {
-      name: 'Glasiglor',
+      name: 'Glasigloor',
       note: 'per natt, per iglo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
-      ctaLabel: 'Hitta glasiglor',
+      ctaLabel: 'Hitta glasigloor',
     },
     {
       name: 'Norrskensstugor',
@@ -39,7 +39,7 @@ const copy: PriceGuideCopy = {
   ],
   tip: {
     label: 'Bokningstips.',
-    pre: 'Glasiglorna på Kakslauttanen och Levin Iglut är slutbokade ',
+    pre: 'Glasigloorna på Kakslauttanen och Levin Iglut är slutbokade ',
     strong: '8–12 månader i förväg',
     post: ' inför högsäsongen för norrsken (november – mars). Om någon av dem är ankaret för din resa, boka den först och planera resten av resan kring det datumet.',
   },

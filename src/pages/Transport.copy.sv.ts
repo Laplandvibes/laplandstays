@@ -67,7 +67,7 @@ const copy: PageCopy = {
       { from: 'Stockholm', to: 'Tromsø → Levi', dist: 'Lång omväg, flyg hellre direkt till KTT' },
     ],
     ctaH2: 'Lås datumen först, transporten sedan',
-    ctaLead: 'Glasiglor bokas 8–12 månader i förväg, flyg och tåg kan läggas till senare. Hitta din stuga först och optimera sedan resvägen efter datumen.',
+    ctaLead: 'Glasigloor bokas 8–12 månader i förväg, flyg och tåg kan läggas till senare. Hitta din stuga först och optimera sedan resvägen efter datumen.',
     ctaPrimary: 'Se boende i Lappland',
     ctaSecondary: 'När du ska åka',
     airports: [

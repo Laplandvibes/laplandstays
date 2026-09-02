@@ -19,7 +19,7 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: 'Boende i Lappland · Finland',
     h1: 'Var du ska bo i finska Lappland',
-    lead: 'En glasiglo där du ser norrskenet från kudden, en timmerstuga med egen bastu och sjön precis utanför, eller ett riktigt hotell i byn.',
+    lead: 'En glasigloo där du ser norrskenet från kudden, en timmerstuga med egen bastu och sjön precis utanför, eller ett riktigt hotell i byn.',
     leadSummer: 'En sjöstuga under midnattssolen med egen bastu, en älvnära lodge i de gröna fjällen, eller ett riktigt hotell i byn.',
     disclosure: 'Den här sidan innehåller affiliatelänkar. Om du bokar via dem kan LaplandStays få provision utan extra kostnad för dig.',
     alt: 'Varmt upplyst lyxstuga i snöiga finska Lappland under norrskenshimlen',

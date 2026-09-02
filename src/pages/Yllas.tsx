@@ -718,7 +718,7 @@ Två små byar ramar in fjället: Ylläsjärvi på södra sidan och Äkäslompol
   ],
   highlights: [
     { title: 'Finlands längsta nedfarter', body: 'Den 3 km långa nedfarten på Yllästunturis framsida går från kalfjället högst upp genom tallskogen ner till dalen. Ovanligt i Finland, där de flesta orter har nedfarter på 1 km.' },
-    { title: '330 km längdspår', body: 'Pistade spår för klassisk stil och skate löper genom nationalparken och binder samman Ylläsjärvi, Äkäslompolo och Pallas.' },
+    { title: '330 km längdspår', body: 'Pistade spår för klassisk stil och skating löper genom nationalparken och binder samman Ylläsjärvi, Äkäslompolo och Pallas.' },
     { title: 'Pallas-Yllästunturi nationalpark', body: 'Finlands tredje största nationalpark: gammelskog, sju namngivna fjäll och några av de renaste luftvärden som uppmätts i Europa.' },
     { title: 'Tysta skogsstugor', body: 'Boendena här ligger medvetet långt från varandra. Grannen, om du har någon, finns några hundra meter tallskog bort över en glänta.' },
     { title: 'Norrskensstranden i Äkäslompolo', body: 'Sjön vid Äkäslompolo öppnar sig mot norr: fri horisont, inga byljus på andra sidan och starkt norrsken sett från isen.' },

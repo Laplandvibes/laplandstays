@@ -722,7 +722,7 @@ Det här är djupa norr. Stugorna är på riktigt avlägsna: tio minuters bilres
     { title: 'Norrsken över öppet vatten', body: 'Sjöstranden ger en ovanligt fri himmel över 180°. På vintern speglas norrskenet i den frusna ytan, vilket gör upplevelsen ovanligt stark.' },
     { title: 'Samiska mattraditioner', body: 'Köken här serverar poronkäristys (stekt renskav), kallrökt röding och desserter på hjortron, med råvaror från marken runt omkring dig.' },
     { title: 'Vandring på kalfjället', body: 'Norr om Inari tynar trädgränsen ut i öppet lappländskt fjäll. Sommarvandring över Kevo och Utsjoki är så avlägset som Europa blir.' },
-    { title: 'Hundspann och snöskoter på vintern', body: 'Hundgårdarna runt Inari kör slädleder ut på Inarijärvis is: vidöppet, inga träd, ovanligt snabbt och tyst.' },
+    { title: 'Hundspann och snöskoter på vintern', body: 'Hundgårdarna runt Inari kör slädleder ut på Inarisjöns is: vidöppet, inga träd, ovanligt snabbt och tyst.' },
   ],
   whenToGo: `Slutet av september–början av april är norrskenssäsong; på den här breddgraden ligger norrskensovalen regelbundet rakt över huvudet.
 Mitten av juni–slutet av juli är midnattssol: solen går inte ner på ungefär sex veckor.
@@ -731,7 +731,7 @@ Mitten av augusti ger den korta, intensiva ruskan (höstfärgerna), rött och or
 Hyr bil: de bästa stugorna ligger vid sidovägar längs sjöstranden och kräver egen transport.
 För längre vildmarksresor fortsätter vägen till Utsjoki och norska gränsen.`,
   stayTypes: [
-    'Timmerstugor vid Inarijärvi, 4–6 gäster, egen strand, vedeldad bastu och pimpelutrustning.',
+    'Timmerstugor vid Inarisjön, 4–6 gäster, egen strand, vedeldad bastu och pimpelutrustning.',
     'Avlägsna vildmarksvillor, känslan av att vara utanför nätet men med full komfort, timmar av orörd skog i alla riktningar.',
     'Stugor som drivs av samiska familjer, små och personliga, ofta med renskötsel i släkten och berättande på plats.',
     'Norrskensboenden i glas norr om Inari by, byggda just för att titta på himlen så här långt norrut.',
@@ -760,9 +760,9 @@ För längre vildmarksresor fortsätter vägen till Utsjoki och norska gränsen.
     blurb: '40 min till Inari by · nödvändigt för Nellim och stugorna vid Inarisjöns strand',
   },
   dayPlan: [
-    { day: '01', title: 'Landa · stuga vid sjön', body: 'Middagsflyg till IVL, kör norrut till Inari by eller vidare till Nellim. Packa upp, basta, gå en runda vid vattnet. Inaris tystnad sätter sig efter ungefär två timmar.' },
+    { day: '01', title: 'Landa · stuga vid sjön', body: 'Flyg till IVL mitt på dagen, kör norrut till Inari by eller vidare till Nellim. Packa upp, basta, gå en runda vid vattnet. Inaris tystnad sätter sig efter ungefär två timmar.' },
     { day: '02', title: 'Samisk kultur · museet Siida', body: 'Förmiddag på Siida (samernas eget museum, med Nordens mest kompletta samiska samling). Lunch i Inari by. Pimpelfiske eller en guidad skogsvandring på eftermiddagen.' },
-    { day: '03', title: 'Inarisjön med snöskoter', body: 'Ut på Inarijärvis is med snöskoter och guide, öppen is med den heliga ön Ukonkivi vid horisonten (själva ön är stängd för besök). Mörkt vid 14:30 på vintern, tillbaka i stugan i tid för det långa norrskensfönstret.' },
+    { day: '03', title: 'Inarisjön med snöskoter', body: 'Ut på Inarisjöns is med snöskoter och guide, öppen is med den heliga ön Ukonkivi vid horisonten (själva ön är stängd för besök). Mörkt vid 14:30 på vintern, tillbaka i stugan i tid för det långa norrskensfönstret.' },
     { day: '04', title: 'Långsam hemresa', body: 'Besök på en rengård, sista bastun, kör tillbaka till IVL. Lägg till 2 dagar om du kan, Inari belönar den som tar det långsamt.' },
   ],
   seoTitle: 'Boende i Inari: stugor vid sjön och norrskensvillor',

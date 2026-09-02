@@ -765,7 +765,7 @@ Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort b
     { day: '01', title: 'Ankomst · glasigloo', body: 'IVL på eftermiddagen, 30 min transfer söderut, checka in på Kakslauttanen, Star Arctic eller Muotka. Bastu, middag och norrskenslarmet påslaget.' },
     { day: '02', title: 'Snöskovandring i UKK nationalpark', body: 'Guidad snöskovandring på halvdag in i Urho Kekkonens nationalpark, förbi guldvaskningsälvar och ryggar av dvärgbjörk. Lunch tillbaka på boendet, andra halvan av dagen fri.' },
     { day: '03', title: 'Dag med hundspann och renar', body: 'Hundspannssafari från Saariselkä by på morgonen. Renåkning på en samisk gård i närheten på eftermiddagen. På kvällen pimpelfiske eller ett dopp i sjön från bastun, och norrskensspaning om himlen är klar.' },
-    { day: '04', title: 'Långsam morgon · vidare till Inari', body: 'Sista morgonen i iglon, kör 50 min norrut till Inarisjön för en dag med samisk kultur på museet Siida. Ta kvällsflyget från IVL eller lägg till en natt i Inari.' },
+    { day: '04', title: 'Långsam morgon · vidare till Inari', body: 'Sista morgonen i igloon, kör 50 min norrut till Inarisjön för en dag med samisk kultur på museet Siida. Ta kvällsflyget från IVL eller lägg till en natt i Inari.' },
   ],
   seoTitle: 'Glasigloor och boende i Saariselkä från 200 €/natt',
   seoDescription: 'Var du bor i Saariselkä, Lappland: Kakslauttanens glasigloor från 400 €/natt, vildmarkslodger (Muotka, Star Arctic) från 200 €. Mörk himmel och direktbokning.',
