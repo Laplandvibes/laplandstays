@@ -15,7 +15,7 @@ const L: Record<Lang, { heading: string; blurb: string; cta: string }> = {
   'fi':    { heading: 'Tekemistä majoituksesi lähellä', blurb: 'Husky-safarit, revontuliretket ja moottorikelkkasafarit, varaa Lapin suosituimmat elämykset luotettavilta paikallisilta toimijoilta.', cta: 'Selaa aktiviteetteja' },
   'de':    { heading: 'Aktivitäten in der Nähe Ihrer Unterkunft', blurb: 'Husky-Safaris, Polarlichtjagden und Schneemobiltouren, buchen Sie top bewertete Lappland-Erlebnisse lokaler Anbieter.', cta: 'Aktivitäten entdecken' },
   'ja':    { heading: '宿泊先周辺のアクティビティ', blurb: 'ハスキーサファリ、オーロラ鑑賞、スノーモービルツアーなど、ラップランドの人気体験を信頼できる現地事業者から予約できます。', cta: 'アクティビティを見る' },
-  'es':    { heading: 'Qué hacer cerca de tu alojamiento', blurb: 'Safaris en trineo de huskies, cazas de auroras y excursiones en motonieve: reserva las mejores experiencias de Laponia con operadores locales de confianza.', cta: 'Ver actividades' },
+  'es':    { heading: 'Qué hacer cerca de su alojamiento', blurb: 'Safaris en trineo de huskies, cazas de auroras y excursiones en motonieve: reserve las mejores experiencias de Laponia con operadores locales de confianza.', cta: 'Ver actividades' },
   'pt-BR': { heading: 'O que fazer perto da sua hospedagem', blurb: 'Safáris de huskies, caça à aurora e passeios de snowmobile, reserve as melhores experiências da Lapônia com operadores locais confiáveis.', cta: 'Ver atividades' },
   'zh-CN': { heading: '住宿附近的活动', blurb: '哈士奇雪橇、极光追逐和雪地摩托之旅。向值得信赖的当地运营商预订拉普兰备受好评的热门体验。', cta: '浏览活动' },
   'ko':    { heading: '숙소 근처 즐길 거리', blurb: '허스키 사파리, 오로라 헌팅, 스노모빌 투어 등 신뢰할 수 있는 현지 업체의 라플란드 인기 체험을 예약하세요.', cta: '액티비티 둘러보기' },
