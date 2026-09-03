@@ -3,7 +3,7 @@ import type { Copy } from './BookingCTA.copy.types'
 const copy: Copy = {
     eyebrow: '随时为您准备好',
     h2: '极光不会等待',
-    lead: '卡克斯劳塔宁和莱维Iglut的玻璃穹顶屋需提前8–12个月预订。极光小屋在旺季前4至6个月即被订满。立即开始搜索，在您信赖的平台上锁定日期。',
+    lead: '卡克斯劳塔宁和莱维Iglut的玻璃冰屋需提前8–12个月预订。极光小屋在旺季前4至6个月即被订满。立即开始搜索，在您信赖的平台上锁定日期。',
     primaryCta: '查看价格与空房',
     secondaryCta: '从莱维开始',
     bestTimeLabel: '最佳预订时机：为来年冬季预订请在夏末',
@@ -15,7 +15,7 @@ const copy: Copy = {
       { title: '本地指导', body: '预订前发邮件咨询。回复来自拉普兰当地。通常当天就回。' },
     ],
     seasonAnchors: [
-      { label: '玻璃穹顶屋', value: '提前8–12个月预订', sub: 'Kakslauttanen / Levin Iglut' },
+      { label: '玻璃冰屋', value: '提前8–12个月预订', sub: 'Kakslauttanen / Levin Iglut' },
       { label: '极光小屋', value: '每晚150欧元起', sub: '4个目的地' },
       { label: '拉普兰酒店', value: '每晚100欧元起', sub: '莱维 · 于拉斯 · 萨利色尔卡' },
     ],

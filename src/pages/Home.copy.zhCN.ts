@@ -2,8 +2,8 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "拉普兰住宿：玻璃穹顶屋与小屋 | LaplandStays",
-    "description": "芬兰拉普兰住宿指南：对比莱维、于拉斯、萨利色尔卡和伊纳里的玻璃穹顶屋（每晚250欧元起）、极光小屋（每晚150欧元起）和拉普兰酒店（每晚100欧元起）。经核实的房价、私人桑拿、极光叫醒。"
+    "title": "拉普兰住宿：玻璃冰屋与小屋 | LaplandStays",
+    "description": "芬兰拉普兰住宿指南：对比莱维、于拉斯、萨利色尔卡和伊纳里的玻璃冰屋（每晚250欧元起）、极光小屋（每晚150欧元起）和拉普兰酒店（每晚100欧元起）。经核实的房价、私人桑拿、极光叫醒。"
   },
   "faq": {
     "@context": "https://schema.org",
@@ -12,10 +12,10 @@ const copy: PageCopy = {
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "拉普兰的玻璃穹顶屋每晚多少钱？",
+        "name": "拉普兰的玻璃冰屋每晚多少钱？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "芬兰拉普兰的玻璃穹顶屋价格区间较大：罗瓦涅米Nova Skyland每晚约250欧元起，极光旺季萨利色尔卡的Kakslauttanen Arctic Resort可达每晚1,500欧元。Levin Iglut、Star Arctic以及伊瓦洛的Aurora Village等中端玻璃穹顶屋通常在每晚300至700欧元之间。"
+          "text": "芬兰拉普兰的玻璃冰屋价格区间较大：罗瓦涅米Nova Skyland每晚约250欧元起，极光旺季萨利色尔卡的Kakslauttanen Arctic Resort可达每晚1,500欧元。Levin Iglut、Star Arctic以及伊瓦洛的Aurora Village等中端玻璃冰屋通常在每晚300至700欧元之间。"
         }
       },
       {
@@ -44,7 +44,7 @@ const copy: PageCopy = {
       },
       {
         "@type": "Question",
-        "name": "拉普兰的小屋和玻璃穹顶屋配有私人桑拿吗？",
+        "name": "拉普兰的小屋和玻璃冰屋配有私人桑拿吗？",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "是的。芬兰拉普兰几乎每一栋小屋、别墅和木屋都配有自己的桑拿。柴火式、电热式或两者兼备。许多湖畔住宿（Muotka、Nellim、于拉斯的湖畔小屋）都可从桑拿直接通向湖面，体验传统的芬兰式破冰跳水。"
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "对首次来访者来说，拉普兰哪个目的地最合适？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "莱维是最容易上手的选择。冬季有直飞基蒂莱的航班，餐厅和商店步行可达，Lapland Hotels每晚100欧元起，村中还有种类齐全的野外探险项目。于拉斯更安静、更贴近自然，而萨利色尔卡和伊纳里则最适合希望深入荒野、想要更多玻璃穹顶屋选择的旅行者。"
+          "text": "莱维是最容易上手的选择。冬季有直飞基蒂莱的航班，餐厅和商店步行可达，Lapland Hotels每晚100欧元起，村中还有种类齐全的野外探险项目。于拉斯更安静、更贴近自然，而萨利色尔卡和伊纳里则最适合希望深入荒野、想要更多玻璃冰屋选择的旅行者。"
         }
       }
     ]
