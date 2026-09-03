@@ -485,7 +485,7 @@ const ja: DestinationBody = {
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'より静かな山岳目的地、北西へ2時間。' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '原野への入り口、さらに北へ3時間。' },
     // ja-only: /ja/glass-igloos on olemassa vain ja-lokaalissa (GlassIgloos.tsx)
-    { name: 'ガラスイグルー比較', href: '/glass-igloos', blurb: 'ロヴァニエミ周辺と北のイグルー11施設を料金と場所で比較。' },
+    { name: 'グラスイグルー比較', href: '/glass-igloos', blurb: 'ロヴァニエミ周辺と北のイグルー11施設を料金と場所で比較。' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'サンタクロース村にある、建築家設計のガラスフロント・ネストスイート。' },

@@ -19,7 +19,7 @@ import { useLang, useLocalePath } from '../i18n/useLang'
  * yhtätoista aavevarianttia joita ei ole olemassa. Sama kuvio kuin /fi/iglumajoitus
  * (Igloos.tsx) — jos muutat mekanismia, muuta molemmat.
  *
- * Brief: SISALTOBRIEFIT-20260813.md rivi 713 (`ガラスイグルー`, 480 hakua/kk).
+ * Brief: SISALTOBRIEFIT-20260813.md rivi 713 (`グラスイグルー`, 480 hakua/kk).
  * SERPin voittajilta puuttuu vertailutaulukko ja hinnat — tämä sivu tuo molemmat.
  *
  * Faktat verifioitu kohteiden OMILTA sivuilta 15.8.2026:
@@ -51,9 +51,9 @@ const PAGE_URL = 'https://laplandstays.com/ja/glass-igloos/'
 const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'ガラスイグルー：ラップランドの施設を料金と場所で比べる',
+  headline: 'グラスイグルー：ラップランドの施設を料金と場所で比べる',
   description:
-    'ラップランドのガラスイグルーを施設単位で比較。ロヴァニエミ、サーリセルカ、イヴァロ・イナリ、レヴィの施設の場所・最寄空港・1泊の目安を一覧にし、料金に含まれるもの、予約時期、曇った夜の過ごし方まで解説します。',
+    'ラップランドのグラスイグルーを施設単位で比較。ロヴァニエミ、サーリセルカ、イヴァロ・イナリ、レヴィの施設の場所・最寄空港・1泊の目安を一覧にし、料金に含まれるもの、予約時期、曇った夜の過ごし方まで解説します。',
   author: {
     '@type': 'Person',
     name: 'Vesa Pesola',
@@ -73,14 +73,14 @@ const breadcrumbJsonLd = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'ホーム', item: 'https://laplandstays.com/ja/' },
-    { '@type': 'ListItem', position: 2, name: 'ガラスイグルー比較', item: PAGE_URL },
+    { '@type': 'ListItem', position: 2, name: 'グラスイグルー比較', item: PAGE_URL },
   ],
 }
 
 const seo = {
-  title: 'ガラスイグルー比較｜料金・場所・予約時期でわかる選び方',
+  title: 'グラスイグルー比較｜料金・場所・予約時期でわかる選び方',
   description:
-    'ラップランドのガラスイグルーを施設単位で比較。ロヴァニエミ、サーリセルカ、イヴァロ・イナリ、レヴィの11施設の場所・最寄空港・1泊の目安を一覧にし、料金に含まれるもの、予約時期、曇った夜の過ごし方まで解説します。',
+    'ラップランドのグラスイグルーを施設単位で比較。ロヴァニエミ、サーリセルカ、イヴァロ・イナリ、レヴィの11施設の場所・最寄空港・1泊の目安を一覧にし、料金に含まれるもの、予約時期、曇った夜の過ごし方まで解説します。',
 }
 
 // ---------- 3つの型 ----------
@@ -88,7 +88,7 @@ const seo = {
 const TYPE_CARDS = [
   {
     icon: Sparkles,
-    title: '独立型のガラスイグルー',
+    title: '独立型のグラスイグルー',
     tagline: '一棟ずつ、屋根全体がガラス',
     body:
       '雪原に一棟ずつ建つ小さなキャビンで、ベッドの上の屋根全体、あるいは壁までがガラスです。サーリセルカのカクスラウッタネンが元祖として知られ、レヴィ山上のLevin Iglutもこの型。横になったまま頭上の空をそのまま見上げられるのが利点で、価格帯はこの型が最上位に来ます。',
@@ -107,7 +107,7 @@ const TYPE_CARDS = [
     title: '雪のイグルー（スノーホテル）',
     tagline: '名前は似ていても、別の商品',
     body:
-      '雪と氷で毎冬造り直される客室で、室温は0〜−5 °C。ロヴァニエミ近郊のArctic SnowHotelの雪のホテルは毎年12月15日に開き、極寒対応の寝袋が用意され、5歳未満の宿泊は推奨されていません。ガラスイグルーが「暖かい部屋から空を見る」体験なのに対し、こちらは「寒さの中で眠る」体験そのものが商品です。',
+      '雪と氷で毎冬造り直される客室で、室温は0〜−5 °C。ロヴァニエミ近郊のArctic SnowHotelの雪のホテルは毎年12月15日に開き、極寒対応の寝袋が用意され、5歳未満の宿泊は推奨されていません。グラスイグルーが「暖かい部屋から空を見る」体験なのに対し、こちらは「寒さの中で眠る」体験そのものが商品です。',
     forWho: '向いている方：一晩の冒険がほしい方。多くの人は1泊で十分です。',
   },
 ]
@@ -129,7 +129,7 @@ const TABLE_ROWS: IglooRow[] = [
     name: 'Kakslauttanen Arctic Resort',
     area: 'サーリセルカ',
     airport: 'イヴァロ（IVL）約30分',
-    feature: '独立型ガラスイグルーの元祖。イグルーとログシャレーの村',
+    feature: '独立型グラスイグルーの元祖。イグルーとログシャレーの村',
     price: '冬501ユーロから（朝・夕食込み）、秋278ユーロから',
     bookingKey: 'kakslauttanen',
     sid: 'stays_ja_igloos_kakslauttanen',
@@ -183,7 +183,7 @@ const TABLE_ROWS: IglooRow[] = [
     name: 'Arctic SnowHotel & Glass Igloos',
     area: 'ロヴァニエミ（レヒトアホ）',
     airport: 'ロヴァニエミ（RVN）',
-    feature: 'ガラスイグルー＋毎冬造り直す雪のホテル（12/15開始・室温0〜−5 °C）',
+    feature: 'グラスイグルー＋毎冬造り直す雪のホテル（12/15開始・室温0〜−5 °C）',
     price: '要確認',
     bookingKey: 'arcticSnowHotel',
     sid: 'stays_ja_igloos_arctic_snowhotel',
@@ -210,7 +210,7 @@ const TABLE_ROWS: IglooRow[] = [
     name: 'Levin Iglut (Golden Crown)',
     area: 'レヴィ村から10 km・標高340 m',
     airport: 'キッティラ（KTT）',
-    feature: '山上の独立型ガラスイグルー。Superior / Prime Superior / Suiteの3クラス',
+    feature: '山上の独立型グラスイグルー。Superior / Prime Superior / Suiteの3クラス',
     price: '350ユーロから（地区の目安）',
     bookingKey: 'levinIglut',
     sid: 'stays_ja_igloos_levin_iglut',
@@ -251,7 +251,7 @@ const AREAS: {
     properties: [
       {
         name: 'Arctic SnowHotel & Glass Igloos（レヒトアホ）',
-        body: 'ガラスイグルーは秋から、雪のホテルは12月15日から。泊まらずに見たい場合は日中見学もあります（大人35ユーロ・2〜12歳17ユーロ、2026年8月確認）。',
+        body: 'グラスイグルーは秋から、雪のホテルは12月15日から。泊まらずに見たい場合は日中見学もあります（大人35ユーロ・2〜12歳17ユーロ、2026年8月確認）。',
       },
       {
         name: 'Apukka Resort',
@@ -278,7 +278,7 @@ const AREAS: {
     properties: [
       {
         name: 'Kakslauttanen Arctic Resort',
-        body: '独立型ガラスイグルーの元祖。公式サイトの掲載では、冬の宿泊は朝食・夕食込みで1泊501ユーロから、秋の柔軟レートは278ユーロから（2026年8月確認）。オーロラのピーク期は8〜12カ月前に予約が埋まります。',
+        body: '独立型グラスイグルーの元祖。公式サイトの掲載では、冬の宿泊は朝食・夕食込みで1泊501ユーロから、秋の柔軟レートは278ユーロから（2026年8月確認）。オーロラのピーク期は8〜12カ月前に予約が埋まります。',
       },
       {
         name: 'Star Arctic Hotel',
@@ -298,7 +298,7 @@ const AREAS: {
       },
     ],
     outro:
-      'サーリセルカのガラスイグルーの目安は1泊400ユーロから、イナリ地区のオーロラキャビンは300ユーロからです。',
+      'サーリセルカのグラスイグルーの目安は1泊400ユーロから、イナリ地区のオーロラキャビンは300ユーロからです。',
     ctaLabel: 'サーリセルカの空室を検索',
     ctaSid: 'stays_ja_igloos_saariselka',
     ctaDestination: 'Saariselkä, Finland',
@@ -316,7 +316,7 @@ const AREAS: {
     properties: [
       {
         name: 'Levin Iglut (Golden Crown)',
-        body: 'レヴィ村から10 km、標高340 mの山上に立つ独立型ガラスイグルー。客室はSuperior / Prime Superior / Suiteの3クラスで、リゾートは2026年9月1日にシーズンを再開します（公式サイト、2026年8月確認）。ピーク週は10〜12カ月前に満室になります。',
+        body: 'レヴィ村から10 km、標高340 mの山上に立つ独立型グラスイグルー。客室はSuperior / Prime Superior / Suiteの3クラスで、リゾートは2026年9月1日にシーズンを再開します（公式サイト、2026年8月確認）。ピーク週は10〜12カ月前に満室になります。',
       },
       {
         name: 'Northern Lights Ranch',
@@ -324,7 +324,7 @@ const AREAS: {
       },
     ],
     outro:
-      'レヴィのガラスイグルーの目安は1泊350ユーロからです。イグルーは「体験」として値付けされているので、全泊をイグルーにするより、村のホテルやシャレーを拠点にイグルーを1〜2泊だけ組み込む構成が現実的です — 昼はゲレンデ、最後の夜だけガラス屋根の下、という順番です。',
+      'レヴィのグラスイグルーの目安は1泊350ユーロからです。イグルーは「体験」として値付けされているので、全泊をイグルーにするより、村のホテルやシャレーを拠点にイグルーを1〜2泊だけ組み込む構成が現実的です — 昼はゲレンデ、最後の夜だけガラス屋根の下、という順番です。',
     ctaLabel: 'レヴィの空室を検索',
     ctaSid: 'stays_ja_igloos_levi',
     ctaDestination: 'Levi, Finland',
@@ -354,7 +354,7 @@ const AREA_QUESTIONS = [
 const MODEL_ITINERARIES = [
   {
     title: '3泊・ロヴァニエミ',
-    body: '1〜2泊目は市内またはサンタクロース村周辺で、Arktikum博物館とサファリ。3泊目に郊外のガラスイグルーへ移動して、最後の夜をオーロラ待ちに充てます。',
+    body: '1〜2泊目は市内またはサンタクロース村周辺で、Arktikum博物館とサファリ。3泊目に郊外のグラスイグルーへ移動して、最後の夜をオーロラ待ちに充てます。',
   },
   {
     title: '4泊・サーリセルカ',
@@ -386,7 +386,7 @@ const INCLUSION_POINTS = [
 // ---------- 予約時期 ----------
 
 const BOOKING_ROWS = [
-  { period: 'クリスマス週', body: '12カ月前が目安。ガラスイグルーの著名施設はピーク期に8〜12カ月前に満室になります。' },
+  { period: 'クリスマス週', body: '12カ月前が目安。グラスイグルーの著名施設はピーク期に8〜12カ月前に満室になります。' },
   { period: '年末年始', body: '10カ月前が目安。' },
   { period: '2月中旬', body: '欧州の学校休暇。6〜8カ月前が目安。' },
   { period: '3月', body: '4〜6カ月前。リピーターが選ぶ月で、暗い夜と長くなった昼が両立します。' },
@@ -426,7 +426,7 @@ export default function GlassIgloos() {
         description={seo.description}
         canonicalPath="/glass-igloos"
         ogImage="https://laplandstays.com/og-default.jpg"
-        keywords={['ガラスイグルー', 'ガラスイグルー フィンランド', 'ガラスイグルー ラップランド', 'オーロラ ホテル', 'カクスラウッタネン', 'レヴィ イグルー', 'サーリセルカ イグルー', 'ロヴァニエミ イグルー']}
+        keywords={['グラスイグルー', 'グラスイグルー フィンランド', 'グラスイグルー ラップランド', 'オーロラ ホテル', 'カクスラウッタネン', 'レヴィ イグルー', 'サーリセルカ イグルー', 'ロヴァニエミ イグルー']}
         jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
         hreflangLangs={JA_ONLY}
       />

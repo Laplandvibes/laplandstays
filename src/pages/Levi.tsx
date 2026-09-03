@@ -487,7 +487,7 @@ const ja: DestinationBody = {
     { name: 'Inari', href: '/destinations/inari', blurb: '人里離れた湖、サーミの伝統、深い北方の空。' },
   ],
   anchorProperties: [
-    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上のガラスイグルー。ピーク週は10〜12か月前に予約が埋まります。' },
+    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上のグラスイグルー。ピーク週は10〜12か月前に予約が埋まります。' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'レヴィ・フェルの斜面に立地。ゴンドラが玄関前に停まり、スキーは中庭から始まります。' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'レヴィの客室とさまざまな広さのアパートメント。全室に専用サウナ、ゲレンデまで約500m。' },
     { name: 'レヴィのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').levi, sid: 'destination_levi_all_search', note: 'Trip.comでレヴィのホテルとシャレーをまとめて比較できます。' },
@@ -508,10 +508,10 @@ const ja: DestinationBody = {
     { day: '01', title: '到着・くつろぎ・軽く一本', body: '午後にKTT着、村へ送迎、Zero Pointでレンタル受け取り。日没前にやさしいコースを一本滑り、装備と脚を確かめます。' },
     { day: '02', title: '一日スキー・夜のサウナ', body: 'リフトは9:30運行開始。ゴンドラ頂上のTuikkuで昼食。15:00までに下山し、キャビンでサウナ。就寝前にオーロラアラームを設定します。' },
     { day: '03', title: 'ハスキーサファリと村のディナー', body: '午前はハスキーファームのサファリ（2週間前に予約）。午後は村を散策。トナカイならKammi-Bar、伝統料理ならSaamen Kammi。晴れた夜はレヴィ山頂からオーロラを観賞。' },
-    { day: '04', title: 'オーロラキャビンの夜・ゆったりした一日', body: '北へ15分走り、最終夜はガラスイグルーで。ゆっくりとした朝、サウナ、そして空を眺めます。翌朝の最も早い便で帰路に。' },
+    { day: '04', title: 'オーロラキャビンの夜・ゆったりした一日', body: '北へ15分走り、最終夜はグラスイグルーで。ゆっくりとした朝、サウナ、そして空を眺めます。翌朝の最も早い便で帰路に。' },
   ],
   seoTitle: 'レヴィの宿泊：ホテル、キャビン、イグルー | LaplandStays',
-  seoDescription: 'ラップランドのレヴィでの宿選び:Lapland Hotels1泊100ユーロから、Levin Iglutのガラスイグルー350ユーロから、スキーインシャレー200ユーロから。キッティラ空港から15分。検証済みの料金で直接予約。',
+  seoDescription: 'ラップランドのレヴィでの宿選び:Lapland Hotels1泊100ユーロから、Levin Iglutのグラスイグルー350ユーロから、スキーインシャレー200ユーロから。キッティラ空港から15分。検証済みの料金で直接予約。',
 }
 
 const es: DestinationBody = {

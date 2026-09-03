@@ -18,7 +18,7 @@ const copy: PageCopy = {
       },
       {
         "title": "点名住宿，不说\"5星高端\"",
-        "body": "引用Kakslauttanen Arctic Resort、Levin Iglut、Star Arctic、Aurora Village Ivalo、Wilderness Hotel Nellim和Muotka、Apukka Resort、Arctic TreeHouse Hotel、Nova Skyland、Lapland Hotels(莱维/于拉斯)、Harriniva、Northern Lights Ranch。直接点名、附深度链接。绝不有匿名的\"豪华小屋\"而不说是哪家。"
+        "body": "引用Kakslauttanen Arctic Resort、Levin Iglut、Star Arctic、Aurora Village Ivalo、Wilderness Hotel Nellim和Muotka、Apukka Resort、Arctic TreeHouse Hotel、Nova Skyland、Lapland Hotels（莱维/于拉斯）、Harriniva、Northern Lights Ranch。直接点名、附深度链接。绝不有匿名的\"豪华小屋\"而不说是哪家。"
       },
       {
         "title": "联盟独立",
@@ -47,7 +47,7 @@ const copy: PageCopy = {
       },
       {
         "label": "GetYourGuide合作计划",
-        "use": "罗瓦涅米、萨利色尔卡、莱维、于拉斯、伊纳里的活动库存(当新增\"活动\"模块时)。"
+        "use": "罗瓦涅米、萨利色尔卡、莱维、于拉斯、伊纳里的活动库存（当新增\"活动\"模块时）。"
       },
       {
         "label": "VR（芬兰铁路）",
