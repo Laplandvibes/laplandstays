@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "오로라를 보기 위해 라플란드에서 가장 좋은 숙박지는 어디인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "오로라 빈도가 높은 곳을 원하신다면 가능한 한 북쪽으로 가십시오. 사리셀카와 이나리는 오로라 오벌 내부에 위치하여 연간 약 200일 밤 오로라를 볼 수 있습니다. 사리셀카의 노던라이트 캐빈(Kakslauttanen, Muotka, Star Arctic) 또는 이나리 호수변(Nellim, 이발로의 Aurora Village)이 가장 깨끗한 어두운 하늘 지평선을 제공합니다."
+          "text": "오로라 빈도가 높은 곳을 원하신다면 가능한 한 북쪽으로 가세요. 사리셀카와 이나리는 오로라 오벌 내부에 위치하여 연간 약 200일 밤 오로라를 볼 수 있습니다. 사리셀카의 노던라이트 캐빈(Kakslauttanen, Muotka, Star Arctic) 또는 이나리 호수변(Nellim, 이발로의 Aurora Village)이 가장 깨끗한 어두운 하늘 지평선을 제공합니다."
         }
       },
       {
