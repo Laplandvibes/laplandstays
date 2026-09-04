@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "라플란드 숙박: 글래스 이글루와 캐빈 | LaplandStays",
-    "description": "라플란드 숙박 가이드: 레비, 윌래스, 사리셀카, 이나리의 글래스 이글루(1박 250€부터), 노던라이트 캐빈(150€부터), 라플란드 호텔(100€부터) 비교. 검증된 요금, 전용 사우나, 오로라 알람."
+    "description": "라플란드 숙박 가이드: 레비, 윌래스, 사리셀카, 이나리의 글래스 이글루(1박 250€부터), 오로라 캐빈(150€부터), 라플란드 호텔(100€부터) 비교. 검증된 요금, 전용 사우나, 오로라 알람."
   },
   "faq": {
     "@context": "https://schema.org",
@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "라플란드의 글래스 이글루는 1박에 얼마인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "핀란드 라플란드의 글래스 이글루는 로바니에미의 Nova Skyland에서 1박 약 250유로부터 시작하며, 오로라 성수기 사리셀카의 Kakslauttanen Arctic Resort에서는 1박 1,500유로까지 올라갑니다. Levin Iglut, Star Arctic, 이발로의 Aurora Village 같은 중급 글래스 이글루는 일반적으로 1박 300~700유로 사이입니다."
+          "text": "핀란드 라플란드의 글래스 이글루는 로바니에미의 Nova Skyland에서 1박 약 250유로부터 시작하며, 오로라 성수기의 사리셀카 Kakslauttanen Arctic Resort에서는 1박 1,500유로까지 올라갑니다. Levin Iglut, Star Arctic, 이발로의 Aurora Village 같은 중급 글래스 이글루는 일반적으로 1박 300~700유로 사이입니다."
         }
       },
       {
@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "오로라를 보기 위해 라플란드에서 가장 좋은 숙박지는 어디인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "오로라 빈도가 높은 곳을 원하신다면 가능한 한 북쪽으로 가세요. 사리셀카와 이나리는 오로라 오벌 내부에 위치하여 연간 약 200일 밤 오로라를 볼 수 있습니다. 사리셀카의 노던라이트 캐빈(Kakslauttanen, Muotka, Star Arctic) 또는 이나리 호수변(Nellim, 이발로의 Aurora Village)이 가장 깨끗한 어두운 하늘 지평선을 제공합니다."
+          "text": "오로라 빈도가 높은 곳을 원하신다면 가능한 한 북쪽으로 가세요. 사리셀카와 이나리는 오로라 오벌 내부에 위치하여 연간 약 200일 밤 오로라를 볼 수 있습니다. 사리셀카의 오로라 캐빈(Kakslauttanen, Muotka, Star Arctic) 또는 이나리 호수변(Nellim, 이발로의 Aurora Village)이 가장 맑고 어두운 밤하늘 지평선을 제공합니다."
         }
       },
       {

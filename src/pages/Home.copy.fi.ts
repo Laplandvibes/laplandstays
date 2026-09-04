@@ -20,10 +20,10 @@ const copy: PageCopy = {
       },
       {
         "@type": "Question",
-        "name": "Mikä on paras paikka revontulille Lapissa?",
+        "name": "Mikä on paras paikka nähdä revontulet Lapissa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Mitä pohjoisemmas menet, sitä useammin revontulet näkyvät. Saariselkä ja Inari sijaitsevat revontuliovaalin alla, ja revontulia voi nähdä siellä noin 200 yönä vuodessa. Pimeimmän ja avarimman taivaan saat revontulimökeistä Saariselällä (Kakslauttanen, Muotka, Star Arctic) tai Inarijärven suunnalla (Nellim, Aurora Village Ivalo)."
+          "text": "Mitä pohjoisemmas menet, sitä useammin revontulet näkyvät. Saariselkä ja Inari sijaitsevat revontuliovaalin alueella, ja revontulia voi nähdä siellä noin 200 yönä vuodessa. Pimeimmän ja avarimman taivaan saat revontulimökeistä Saariselällä (Kakslauttanen, Muotka, Star Arctic) tai Inarijärven suunnalla (Nellim, Aurora Village Ivalo)."
         }
       },
       {
@@ -47,7 +47,7 @@ const copy: PageCopy = {
         "name": "Onko Lapin mökeissä ja lasi-igluissa omat saunat?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Kyllä. Lähes jokaisessa Lapin mökissä, huvilassa ja chalet-kohteessa on oma sauna, joko puulämmitteinen, sähkökiukaallinen tai molemmat. Monissa rantakohteissa (Muotka, Nellim, Ylläksen rantamökit) saunasta pääsee suoraan järvelle avantouintiin."
+          "text": "Kyllä. Lähes jokaisessa Lapin mökissä, huvilassa ja chalet-kohteessa on oma sauna, joko puu- tai sähkölämmitteinen, tai molemmat. Monissa rantakohteissa (Muotka, Nellim, Ylläksen rantamökit) saunasta pääsee suoraan järvelle avantouintiin."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Mikä Lapin kohde on paras ensikertalaiselle?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi on helpoin aloituskohde: suorat talvilennot Kittilään, ravintolat ja kaupat kävelymatkan päässä, Lapland Hotels alkaen 100 €/yö ja koko safarivalikoima suoraan kylästä. Ylläs on hiljaisempi ja luontopainotteisempi. Saariselkä ja Inari sopivat parhaiten niille, jotka haluavat syvemmälle erämaahan ja laajimman lasi-igluvalikoiman."
+          "text": "Levi on helpoin aloituskohde: suorat talvilennot Kittilään, ravintolat ja kaupat kävelymatkan päässä, Lapland Hotels alkaen 100 €/yö ja koko safarivalikoima suoraan kylästä. Ylläs on hiljaisempi ja luontopainotteisempi. Saariselkä ja Inari sopivat parhaiten niille, jotka haluavat syvemmälle erämaahan ja laajimpaan lasi-igluvalikoimaan."
         }
       }
     ]

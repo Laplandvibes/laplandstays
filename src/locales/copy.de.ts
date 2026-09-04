@@ -19,7 +19,7 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: 'Lappland-Unterkünfte · Finnland',
     h1: 'Wo Sie in Finnisch-Lappland übernachten',
-    lead: 'Glasiglus unter dem Polarlicht, Nordlicht-Blockhütten im Kiefernwald und Lappland-Hotels mit eigener Sauna.',
+    lead: 'Glasiglus unter dem Polarlicht, Polarlicht-Blockhütten im Kiefernwald und Lappland-Hotels mit eigener Sauna.',
     leadSummer: 'Seehütten unter der Mitternachtssonne, Blockhütten am Fluss in den grünen Fjälls und Lappland-Hotels mit eigener Sauna.',
     disclosure: 'Diese Seite enthält Partnerlinks. Wenn Sie darüber buchen, erhält LaplandStays möglicherweise eine Provision ohne Mehrkosten für Sie.',
     alt: 'Warm beleuchtete Luxushütte im verschneiten Finnisch-Lappland unter dem Polarlicht',

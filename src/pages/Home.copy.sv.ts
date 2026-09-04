@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Boende i Lappland: glasigloor och stugor | LaplandStays",
-    "description": "Var du bor i Lappland: jämför glasigloor från 250 €/natt, norrskensstugor från 150 € och hotell från 100 € i Levi, Ylläs, Saariselkä och Inari."
+    "description": "Var du ska bo i Lappland: jämför glasigloor från 250 €/natt, norrskensstugor från 150 € och hotell från 100 € i Levi, Ylläs, Saariselkä och Inari."
   },
   "faq": {
     "@context": "https://schema.org",
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "När ser man bäst norrskenet från en stuga i Lappland?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Norrskenssäsongen i finska Lappland pågår från slutet av augusti till början av april. De mörkaste och kallaste månaderna, november till februari, ger de mest pålitliga observationsfönstren. Boenden med norrskenslarm väcker dig bara under klara nätter när norrskenet faktiskt syns, så du förlorar ingen sömn under molniga nätter."
+          "text": "Norrskenssäsongen i finska Lappland pågår från slutet av augusti till början av april. De mörkaste och kallaste månaderna, november till februari, ger de bästa chanserna att se norrsken. Boenden med norrskenslarm väcker dig bara under klara nätter när norrskenet faktiskt syns, så du förlorar ingen sömn under molniga nätter."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Vilket resmål i Lappland passar bäst för förstagångsbesökare?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi är den enklaste starten, direkta vinterflyg till Kittilä, restauranger och butiker inom gångavstånd, Lapland Hotels från 100 € per natt och ett fullt utbud av safarier från byn. Ylläs erbjuder en lugnare och mer naturnära vistelse, medan Saariselkä och Inari passar bäst för resenärer som vill ha djupare vildmark och ett större utbud av glasigloor."
+          "text": "Levi är den enklaste starten: direkta vinterflyg till Kittilä, restauranger och butiker inom gångavstånd, Lapland Hotels från 100 € per natt och ett fullt utbud av safarier från byn. Ylläs erbjuder en lugnare och mer naturnära vistelse, medan Saariselkä och Inari passar bäst för resenärer som vill ha djupare vildmark och ett större utbud av glasigloor."
         }
       }
     ]

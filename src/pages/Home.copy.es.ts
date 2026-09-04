@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "¿Cuál es el mejor lugar para alojarse en Laponia y ver auroras boreales?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Para una alta frecuencia de auroras, suba lo más al norte que pueda. Saariselkä e Inari quedan dentro del óvalo auroral y registran unas 200 noches con auroras visibles al año. Las cabañas para auroras de Saariselkä (Kakslauttanen, Muotka, Star Arctic) o las del lago Inari (Nellim, Aurora Village en Ivalo) le ofrecen los horizontes de cielo oscuro más despejados."
+          "text": "Para tener más probabilidades de ver auroras, suba lo más al norte que pueda. Saariselkä e Inari quedan dentro del óvalo auroral y registran unas 200 noches con auroras visibles al año. Las cabañas de auroras de Saariselkä (Kakslauttanen, Muotka, Star Arctic) o las del lago Inari (Nellim, Aurora Village en Ivalo) le ofrecen los horizontes de cielo oscuro más despejados."
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "¿Cuál es la mejor época para ver las auroras boreales desde una cabaña en Laponia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La temporada de auroras en la Laponia finlandesa va de finales de agosto a principios de abril. Los meses más oscuros y fríos, de noviembre a febrero, ofrecen las ventanas de observación más constantes. Las propiedades con aviso de auroras solo le despiertan en noches despejadas cuando la aurora aparece de verdad, así que no pierde el sueño en las nubladas."
+          "text": "La temporada de auroras en la Laponia finlandesa va de finales de agosto a principios de abril. Los meses más oscuros y fríos, de noviembre a febrero, ofrecen las mejores probabilidades de ver la aurora. Las propiedades con aviso de auroras solo le despiertan en noches despejadas cuando la aurora aparece de verdad, así que no pierde el sueño en las nubladas."
         }
       },
       {

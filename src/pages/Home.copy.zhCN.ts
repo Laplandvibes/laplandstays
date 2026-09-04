@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "拉普兰的玻璃冰屋每晚多少钱？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "芬兰拉普兰的玻璃冰屋价格区间较大：罗瓦涅米Nova Skyland每晚约250欧元起，极光旺季萨利色尔卡的Kakslauttanen Arctic Resort可达每晚1,500欧元。Levin Iglut、Star Arctic以及伊瓦洛的Aurora Village等中端玻璃冰屋通常在每晚300至700欧元之间。"
+          "text": "芬兰拉普兰的玻璃冰屋价格区间较大：罗瓦涅米Nova Skyland每晚约250欧元起，极光旺季，萨利色尔卡的Kakslauttanen Arctic Resort可达每晚1,500欧元。Levin Iglut、Star Arctic以及伊瓦洛的Aurora Village等中端玻璃冰屋通常在每晚300至700欧元之间。"
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "从拉普兰小屋观赏极光的最佳时间是什么时候？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "芬兰拉普兰的极光季从8月下旬持续到4月初。最黑暗、最寒冷的11月至2月观测窗口最为稳定。配有极光叫醒服务的住宿只会在天空晴朗、极光真正出现的夜晚叫醒你，因此阴天的夜里不会被打扰睡眠。"
+          "text": "芬兰拉普兰的极光季从8月下旬持续到4月初。11月至2月是观测极光最稳定的时段。配有极光叫醒服务的住宿只会在天空晴朗、极光真正出现的夜晚叫醒你，因此阴天的夜里不会被打扰睡眠。"
         }
       },
       {

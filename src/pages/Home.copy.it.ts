@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "Dove soggiornare in Lapponia per vedere l'aurora boreale?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Per una frequenza aurorale elevata, si diriga il più a nord possibile. Saariselkä e Inari si trovano all'interno dell'ovale aurorale e registrano circa 200 notti aurorali visibili all'anno. Gli chalet nordici a Saariselkä (Kakslauttanen, Muotka, Star Arctic) o sul lago Inari (Nellim, Aurora Village a Ivalo) offrono gli orizzonti più scuri e privi di ostacoli."
+          "text": "Per avere più probabilità di vedere l'aurora, si diriga il più a nord possibile. Saariselkä e Inari si trovano all'interno dell'ovale aurorale e registrano circa 200 notti aurorali visibili all'anno. Gli chalet aurora a Saariselkä (Kakslauttanen, Muotka, Star Arctic) o sul lago Inari (Nellim, Aurora Village a Ivalo) offrono gli orizzonti più scuri e privi di ostacoli."
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "Qual è il momento migliore per vedere l'aurora boreale da uno chalet in Lapponia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La stagione aurorale nella Lapponia finlandese va da fine agosto a inizio aprile. I mesi più scuri e freddi, da novembre a febbraio, offrono le finestre di osservazione più costanti. Le strutture dotate di sveglia aurora la sveglieranno solo nelle notti serene in cui l'aurora compare davvero, evitando di disturbarla nelle notti nuvolose."
+          "text": "La stagione aurorale nella Lapponia finlandese va da fine agosto a inizio aprile. I mesi più scuri e freddi, da novembre a febbraio, offrono le migliori possibilità di vedere l'aurora. Le strutture dotate di sveglia aurora La sveglieranno solo nelle notti serene in cui l'aurora compare davvero, senza disturbarLa nelle notti nuvolose nelle notti nuvolose."
         }
       },
       {
@@ -47,7 +47,7 @@ const copy: PageCopy = {
         "name": "Gli chalet e gli igloo di vetro in Lapponia hanno sauna privata?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Sì. Quasi ogni chalet, villa e chalet della Lapponia finlandese ha la propria sauna, a legna, elettrica o entrambe. Molte proprietà sul lago (Muotka, Nellim, chalet sul lago Ylläs) offrono accesso diretto dalla sauna al lago per il tradizionale tuffo nel ghiaccio finlandese."
+          "text": "Sì. Quasi ogni chalet, villa e baita della Lapponia finlandese ha la propria sauna, a legna, elettrica o entrambe. Molte proprietà sul lago (Muotka, Nellim, chalet sul lago Ylläs) offrono accesso diretto dalla sauna al lago per il tradizionale tuffo nel ghiaccio finlandese."
         }
       },
       {

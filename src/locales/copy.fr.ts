@@ -19,7 +19,7 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: 'Hébergement en Laponie · Finlande',
     h1: 'Où séjourner en Laponie finlandaise',
-    lead: "Iglous en verre sous l'aurore, chalets aurores boréales dans la pinède et hôtels de Laponie avec sauna privé.",
+    lead: "Iglous en verre sous l'aurore, chalets aux aurores boréales dans la pinède et hôtels de Laponie avec sauna privé.",
     leadSummer: "Chalets au bord du lac sous le soleil de minuit, lodges en bord de rivière dans les fjälls verdoyants et hôtels de Laponie avec sauna privé.",
     disclosure: "Cette page contient des liens d'affiliation. Si vous réservez via ces liens, LaplandStays peut percevoir une commission sans coût supplémentaire pour vous.",
     alt: 'Chalet de luxe chaleureusement éclairé dans la Laponie finlandaise enneigée sous les aurores boréales',

@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "Quanto custa por noite um iglu de vidro na Lapônia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Os iglus de vidro da Lapônia finlandesa vão de cerca de € 250 por noite no Nova Skyland, em Rovaniemi, até € 1.500 por noite no Kakslauttanen Arctic Resort, em Saariselkä, no auge da temporada de auroras. Os iglus de vidro de categoria intermediária no Levin Iglut, no Star Arctic e no Aurora Village, em Ivalo, costumam ficar entre € 300 e € 700 por noite."
+          "text": "Os iglus de vidro da Lapônia finlandesa vão de cerca de 250 €/noite no Nova Skyland, em Rovaniemi, até € 1.500 por noite no Kakslauttanen Arctic Resort, em Saariselkä, no auge da temporada de auroras. Os iglus de vidro de categoria intermediária no Levin Iglut, no Star Arctic e no Aurora Village, em Ivalo, costumam ficar entre € 300 e € 700 por noite."
         }
       },
       {
@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "Qual é o melhor lugar para se hospedar na Lapônia e ver a aurora boreal?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Para alta frequência de auroras, vá o mais ao norte possível. Saariselkä e Inari ficam dentro do oval auroral e têm cerca de 200 noites por ano com aurora visível. As cabanas de aurora em Saariselkä (Kakslauttanen, Muotka, Star Arctic) ou às margens do Lago Inari (Nellim, Aurora Village em Ivalo) oferecem os horizontes de céu escuro mais limpos."
+          "text": "Para ver mais auroras, vá o mais ao norte possível. Saariselkä e Inari ficam dentro do oval auroral e têm cerca de 200 noites por ano com aurora visível. As cabanas de aurora em Saariselkä (Kakslauttanen, Muotka, Star Arctic) ou às margens do Lago Inari (Nellim, Aurora Village em Ivalo) oferecem os horizontes de céu escuro mais limpos."
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "Qual é a melhor época para ver a aurora boreal de uma cabana na Lapônia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "A temporada de auroras na Lapônia finlandesa vai do fim de agosto ao início de abril. Os meses mais escuros e frios, de novembro a fevereiro, oferecem as janelas de observação mais constantes. As propriedades com alarme de aurora só acordam você em noites limpas quando a aurora realmente aparece, então você não perde o sono nas noites nubladas."
+          "text": "A temporada de auroras na Lapônia finlandesa vai do fim de agosto ao início de abril. Os meses mais escuros e frios, de novembro a fevereiro, oferecem as melhores chances de ver a aurora. As propriedades com alarme de aurora só acordam você em noites limpas quando a aurora realmente aparece, então você não perde o sono nas noites nubladas."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Qual destino da Lapônia é melhor para quem viaja pela primeira vez?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi é a porta de entrada mais fácil, voos diretos de inverno para Kittilä, restaurantes e lojas a poucos passos, Lapland Hotels a partir de € 100 por noite e um cardápio completo de safáris saindo da vila. Ylläs oferece uma estadia mais tranquila e voltada à natureza, enquanto Saariselkä e Inari são ideais para quem busca natureza selvagem mais profunda e mais opções de iglus de vidro."
+          "text": "Levi é a porta de entrada mais fácil: voos diretos de inverno para Kittilä, restaurantes e lojas a poucos passos, Lapland Hotels a partir de € 100 por noite e um cardápio completo de safáris saindo da vila. Ylläs oferece uma estadia mais tranquila e voltada à natureza, enquanto Saariselkä e Inari são ideais para quem busca natureza selvagem mais profunda e mais opções de iglus de vidro."
         }
       }
     ]

@@ -19,7 +19,7 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: 'Alloggi in Lapponia · Finlandia',
     h1: 'Dove alloggiare nella Lapponia finlandese',
-    lead: "Iglù di vetro sotto l'aurora, chalet aurora boreale tra i pini e hotel della Lapponia con sauna privata.",
+    lead: "Igloo di vetro sotto l'aurora, chalet aurora boreale tra i pini e hotel della Lapponia con sauna privata.",
     leadSummer: "Chalet in riva al lago sotto il sole di mezzanotte, lodge lungo il fiume tra i fjell verdi e hotel della Lapponia con sauna privata.",
     disclosure: 'Questa pagina contiene link di affiliazione. Se prenota tramite questi link, LaplandStays può ricevere una commissione senza costi aggiuntivi per Lei.',
     alt: "Chalet di lusso dalle calde luci nella Lapponia finlandese innevata sotto l'aurora boreale",

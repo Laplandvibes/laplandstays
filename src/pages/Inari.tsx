@@ -125,7 +125,7 @@ Pidemmille erämaamatkoille tie jatkuu Utsjoelle ja Norjan rajalle.`,
     { day: '03', title: 'Inarijärvi moottorikelkalla', body: 'Lähde oppaan kanssa moottorikelkkaretkelle Inarijärven jäälle, pyhä Ukonsaari siintää horisontissa (saarelle ei nousta maihin). Pimeää klo 14:30 talvella, takaisin mökille pitkään revontuli-ikkunaan.' },
     { day: '04', title: 'Rauhallinen lähtö', body: 'Porotilakäynti, viimeinen sauna, ajo takaisin IVL:lle. Pidennä kahdella päivällä jos voit, Inari palkitsee hitaasti.' },
   ],
-  seoTitle: 'Inarin majoitus: rantamökit ja aurora-villat',
+  seoTitle: 'Inarin majoitus: rantamökit ja revontuli-villat',
   seoDescription: 'Missä yöpyä Inarissa: rantamökit alkaen 200 €/yö, Aurora Village ja Nellim Wilderness Hotel alkaen 300 €. Yksityiset rannat Inarijärvellä, saamelaisperintö.',
 }
 

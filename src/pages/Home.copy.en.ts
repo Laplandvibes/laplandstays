@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "Where is the best place to stay in Lapland for the Northern Lights?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "For high aurora frequency, head as far north as you can. Saariselkä and Inari sit inside the auroral oval and get roughly 200 aurora-visible nights per year. Northern lights cabins in Saariselkä (Kakslauttanen, Muotka, Star Arctic) or on Lake Inari (Nellim, Aurora Village in Ivalo) give you the clearest dark-sky horizons."
+          "text": "For the best chance of seeing the aurora, head as far north as you can. Saariselkä and Inari sit inside the auroral oval and get roughly 200 aurora-visible nights per year. Northern lights cabins in Saariselkä (Kakslauttanen, Muotka, Star Arctic) or on Lake Inari (Nellim, Aurora Village in Ivalo) give you the clearest dark-sky horizons."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "What does Lapland accommodation cost on a budget?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lapland hotels and cabin chains start around €100 per night, Lapland Hotels operates across Levi, Ylläs, Saariselkä and Rovaniemi at that entry price. Harriniva in Muonio starts around €150. Aurora cabins at Apukka Resort, Arctic SnowHotel and similar properties start near €150 per night outside peak season."
+          "text": "Lapland hotels and cabin chains start around €100 per night — Lapland Hotels operates across Levi, Ylläs, Saariselkä and Rovaniemi at that entry price. Harriniva in Muonio starts around €150. Aurora cabins at Apukka Resort, Arctic SnowHotel and similar properties start near €150 per night outside peak season."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Which Lapland destination is best for first-time visitors?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi is the easiest introduction, direct winter flights to Kittilä, restaurants and shops within walking distance, Lapland Hotels from €100 per night, and a full menu of safaris from the village. Ylläs offers a quieter, more nature-forward stay, while Saariselkä and Inari are best for travellers who want deeper wilderness and more glass-igloo inventory."
+          "text": "Levi is the easiest introduction — direct winter flights to Kittilä, restaurants and shops within walking distance, Lapland Hotels from €100 per night, and a full menu of safaris from the village. Ylläs offers a quieter, more nature-forward stay, while Saariselkä and Inari are best for travellers who want deeper wilderness and more glass-igloo inventory."
         }
       }
     ]

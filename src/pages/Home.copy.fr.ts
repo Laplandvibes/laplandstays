@@ -23,7 +23,7 @@ const copy: PageCopy = {
         "name": "Où séjourner en Laponie pour observer les aurores boréales ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Pour une fréquence aurorale élevée, dirigez-vous le plus au nord possible. Saariselkä et Inari se trouvent à l'intérieur de l'ovale auroral et enregistrent environ 200 nuits aurorales visibles par an. Les chalets nordiques à Saariselkä (Kakslauttanen, Muotka, Star Arctic) ou sur le lac Inari (Nellim, Aurora Village à Ivalo) offrent les horizons sombres les plus dégagés."
+          "text": "Pour multiplier vos chances de voir des aurores, dirigez-vous le plus au nord possible. Saariselkä et Inari se trouvent à l'intérieur de l'ovale auroral et enregistrent environ 200 nuits aurorales visibles par an. Les chalets aux aurores à Saariselkä (Kakslauttanen, Muotka, Star Arctic) ou sur le lac Inari (Nellim, Aurora Village à Ivalo) offrent les horizons sombres les plus dégagés."
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "Quand est-il préférable d'observer les aurores boréales depuis un chalet en Laponie ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La saison aurorale en Laponie finlandaise s'étend de fin août à début avril. Les mois les plus sombres et les plus froids, de novembre à février, offrent les fenêtres d'observation les plus constantes. Les hébergements équipés d'une alerte aurorale ne vous réveillent que les nuits claires où les aurores apparaissent vraiment, vous épargnant ainsi des nuits nuageuses inutiles."
+          "text": "La saison aurorale en Laponie finlandaise s'étend de fin août à début avril. Les mois les plus sombres et les plus froids, de novembre à février, offrent les meilleures chances d’observer les aurores. Les hébergements équipés d'une alerte aurorale ne vous réveillent que les nuits claires où les aurores apparaissent vraiment, vous épargnant ainsi des nuits nuageuses inutiles."
         }
       },
       {
@@ -47,7 +47,7 @@ const copy: PageCopy = {
         "name": "Les chalets et igloos de verre en Laponie disposent-ils de saunas privatifs ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Oui. Presque chaque chalet, villa et cabane de Laponie finlandaise dispose de son propre sauna, au bois, électrique ou les deux. De nombreuses propriétés au bord du lac (Muotka, Nellim, chalets en bord de lac à Ylläs) offrent un accès direct du sauna au lac pour le traditionnel plongeon dans la glace finlandais."
+          "text": "Oui. Presque chaque chalet, villa et cabane de Laponie finlandaise dispose de son propre sauna, au bois, électrique ou les deux. De nombreuses propriétés au bord du lac (Muotka, Nellim, chalets en bord de lac à Ylläs) offrent un accès direct du sauna au lac pour le traditionnel plongeon finlandais dans la glace."
         }
       },
       {

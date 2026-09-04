@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Lappland-Unterkünfte: Glasiglus & Hütten | LaplandStays",
-    "description": "Wo Sie in Lappland übernachten: Glasiglus ab 250 €/Nacht, Nordlicht-Hütten ab 150 €, Hotels ab 100 € in Levi, Ylläs, Saariselkä und Inari. Geprüfte Preise."
+    "description": "Wo Sie in Lappland übernachten: Glasiglus ab 250 €/Nacht, Polarlicht-Hütten ab 150 €, Hotels ab 100 € in Levi, Ylläs, Saariselkä und Inari. Geprüfte Preise."
   },
   "faq": {
     "@context": "https://schema.org",
@@ -28,10 +28,10 @@ const copy: PageCopy = {
       },
       {
         "@type": "Question",
-        "name": "Wie viel kostet Lappland-Unterkunft mit kleinem Budget?",
+        "name": "Wie viel kostet eine Lappland-Unterkunft mit kleinem Budget?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lappland-Hotels und Hüttenketten beginnen bei rund 100 €/Nacht, Lapland Hotels betreibt Häuser in Levi, Ylläs, Saariselkä und Rovaniemi zu diesem Einstiegspreis. Harriniva in Muonio beginnt bei rund 150 €. Polarlicht-Hütten in Apukka Resort, Arctic SnowHotel und ähnlichen Unterkünften beginnen außerhalb der Hauptsaison bei rund 150 €/Nacht."
+          "text": "Lappland-Hotels und Hüttenketten beginnen bei rund 100 €/Nacht. Lapland Hotels betreibt Häuser in Levi, Ylläs, Saariselkä und Rovaniemi zu diesem Einstiegspreis. Harriniva in Muonio beginnt bei rund 150 €. Polarlicht-Hütten in Apukka Resort, Arctic SnowHotel und ähnlichen Unterkünften beginnen außerhalb der Hauptsaison bei rund 150 €/Nacht."
         }
       },
       {
@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "Wann sieht man Nordlichter aus einer Lappland-Hütte am besten?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Die Polarlicht-Saison in Finnisch-Lappland läuft von Ende August bis Anfang April. Die dunkelsten und kältesten Monate, November bis Februar, bieten die zuverlässigsten Beobachtungsfenster. Unterkünfte mit Polarlicht-Weckdienst wecken Sie nur in klaren Nächten, in denen das Polarlicht tatsächlich erscheint, in bewölkten Nächten schlafen Sie durch."
+          "text": "Die Polarlicht-Saison in Finnisch-Lappland läuft von Ende August bis Anfang April. Die dunkelsten und kältesten Monate, November bis Februar, bieten die besten Chancen auf Polarlichter. Unterkünfte mit Polarlicht-Weckdienst wecken Sie nur in klaren Nächten, in denen das Polarlicht tatsächlich erscheint, in bewölkten Nächten schlafen Sie durch."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Welches Reiseziel in Lappland eignet sich am besten für Erstbesucher?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi ist der einfachste Einstieg, direkte Winterflüge nach Kittilä, Restaurants und Geschäfte in Gehweite, Lapland Hotels ab 100 €/Nacht und ein volles Safari-Programm aus dem Dorf. Ylläs bietet einen ruhigeren, naturnäheren Aufenthalt, während Saariselkä und Inari am besten für Reisende geeignet sind, die tiefere Wildnis und mehr Glasiglu-Kontingent suchen."
+          "text": "Levi ist der einfachste Einstieg, direkte Winterflüge nach Kittilä, Restaurants und Geschäfte in Gehweite, Lapland Hotels ab 100 €/Nacht und ein volles Safari-Programm aus dem Dorf. Ylläs bietet einen ruhigeren, naturnäheren Aufenthalt, während Saariselkä und Inari am besten für Reisende geeignet sind, die tiefere Wildnis und eine größere Auswahl an Glasiglus suchen."
         }
       }
     ]
