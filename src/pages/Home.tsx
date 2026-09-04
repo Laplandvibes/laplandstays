@@ -1,3 +1,6 @@
+import ProductRail, { type RailLang } from '../shared/ads/ProductRail'
+import finlaysonRail from '../shared/ads/rails/finlayson'
+import finlaysonPicks from '../shared/ads/data/finlaysonPicks'
 import { useEffect, useState } from 'react'
 import Hero from '../components/Hero'
 import PropertyTypes from '../components/PropertyTypes'
@@ -179,6 +182,10 @@ export default function Home() {
       {/* LV Media -kumppaniosio heti ensimmäisen sisältöosion jälkeen:
           kakkospääkumppani + 6 kohdepaikkaa (house-adit kun tyhjänä). */}
       <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
+      {/* Oikea tuoterivi tyhjän house-ad-kortin tilalle (Vesa 4.9.). */}
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+        <ProductRail partner={finlaysonRail} snapshot={finlaysonPicks} lang={lang as RailLang} sid="home_bed_linen" variant="light" />
+      </div>
       <PriceGuide />
       <FeaturedProperties />
       {/* Lomarengas, whole-cabin angle, in the booking-intent zone after the

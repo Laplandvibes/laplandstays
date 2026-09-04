@@ -1,3 +1,7 @@
+import ProductRail, { type RailLang } from '../shared/ads/ProductRail'
+import finlaysonRail from '../shared/ads/rails/finlayson'
+import finlaysonPicks from '../shared/ads/data/finlaysonPicks'
+import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import { Link } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { ArrowRight, Flame, Users, UtensilsCrossed, MoonStar, ExternalLink, Megaphone } from 'lucide-react'
@@ -331,6 +335,12 @@ export default function Cabins() {
               <LomarengasLogo className="h-6 w-auto" />
             </span>
           </p>
+        </div>
+      </section>
+      {/* Tuoterivi sivulle jolla ei ollut yhtään mainosta (Vesa 4.9.: lisää potentiaalisille sivuille). */}
+      <section className="px-4 sm:px-6 py-10">
+        <div className="max-w-6xl mx-auto">
+          <ProductRail partner={finlaysonRail} snapshot={finlaysonPicks} lang={lang as RailLang} sid="cabins_bed_linen" variant="light" disclosure={<AffiliateDisclosure />} />
         </div>
       </section>
 
