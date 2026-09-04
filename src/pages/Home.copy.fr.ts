@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Hébergements en Laponie : igloos de verre et chalets | LaplandStays",
-    "description": "Où loger en Laponie : comparez les igloos de verre dès 250 €/nuit, les chalets aurores dès 150 € et les hôtels de Laponie dès 100 € à Levi, Ylläs, Saariselkä et Inari. Tarifs vérifiés, saunas privatifs, réveils aurores."
+    "description": "Où loger en Laponie : igloos de verre dès 250 €/nuit, chalets aux aurores dès 150 € et hôtels dès 100 € à Levi, Ylläs, Saariselkä et Inari."
   },
   "faq": {
     "@context": "https://schema.org",

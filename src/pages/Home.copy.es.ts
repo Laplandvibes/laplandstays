@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Alojamiento en Laponia: iglús de cristal y cabañas | LaplandStays",
-    "description": "Dónde alojarse en Laponia: compare iglús de cristal desde 250 €/noche, cabañas de aurora desde 150 € y hoteles de Laponia desde 100 € en Levi, Ylläs, Saariselkä e Inari. Tarifas verificadas, saunas privadas, avisos de aurora."
+    "description": "Dónde alojarse en Laponia: iglús de cristal desde 250 €/noche, cabañas de aurora desde 150 € y hoteles desde 100 € en Levi, Ylläs, Saariselkä e Inari."
   },
   "faq": {
     "@context": "https://schema.org",

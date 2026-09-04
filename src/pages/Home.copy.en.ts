@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Where to Stay in Lapland: Levi, Ylläs, Saariselkä, Inari",
-    "description": "Which Lapland village to sleep in, and where inside it: Levi, Ylläs, Saariselkä, Inari and Rovaniemi compared. What each is like in winter and what to book first."
+    "description": "Which Lapland village to sleep in, and where inside it: Levi, Ylläs, Saariselkä, Inari and Rovaniemi compared, with what to book first."
   },
   "faq": {
     "@context": "https://schema.org",

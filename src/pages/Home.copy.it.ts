@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Alloggi in Lapponia: igloo di vetro e chalet | LaplandStays",
-    "description": "Dove soggiornare in Lapponia: confronti gli igloo di vetro da 250 €/notte, gli chalet aurora da 150 € e gli hotel di Lapponia da 100 € a Levi, Ylläs, Saariselkä e Inari. Tariffe verificate, sauna privata, sveglie aurora."
+    "description": "Dove soggiornare in Lapponia: igloo di vetro da 250 €/notte, chalet aurora da 150 € e hotel da 100 € a Levi, Ylläs, Saariselkä e Inari. Tariffe verificate."
   },
   "faq": {
     "@context": "https://schema.org",
