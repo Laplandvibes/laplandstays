@@ -2,7 +2,7 @@ import type { PageCopy } from './About.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "À propos de LaplandStays, Guide indépendant d'hébergement en Laponie",
+    "title": "À propos de LaplandStays : guide d'hébergement en Laponie",
     "description": "Guide indépendant des hébergements en Laponie finlandaise : établissements nommés, tarifs vérifiés chaque saison et transparence sur les affiliations."
   },
   "ui": {
