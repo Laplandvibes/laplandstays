@@ -1,0 +1,86 @@
+{
+  "version": "20260905",
+  "domain": "laplandstays.com",
+  "brand": "STAYS",
+  "tagline": "Glass igloos, cabins and hotels",
+  "generated": "2026-09-05T21:51:04.148Z",
+  "staticFallbackSeason": "summer",
+  "seasons": {
+    "summer": {
+      "heroUrl": "https://laplandstays.com/images/hero-summer.webp",
+      "heroAlt": "Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies",
+      "heroSha": "f9d3ab4be0c73c59",
+      "bytes": 225630,
+      "sha256": "95f372fcdc509e27765ec3034b97054b8639d8a582b355b4e8480ad4fa2db5a2",
+      "bandH": 168,
+      "photoPct": 73.3,
+      "ink": 14995,
+      "inkBox": [
+        388,
+        493,
+        812,
+        603
+      ],
+      "safe": true,
+      "accentP10": 5.06,
+      "accentMed": 5.06,
+      "whiteP10": 17.08,
+      "whiteMed": 17.08,
+      "mean": 87.9,
+      "centerSq": 75.7,
+      "photoRegion": 106.5,
+      "photoRegionRef": 106.5,
+      "overlayPixels": 0,
+      "maxDiff": 0,
+      "fit": {
+        "size": 74,
+        "lines": 1,
+        "ts": 30,
+        "tagW": 426,
+        "fits": true,
+        "bandH": 168
+      },
+      "contrastOk": true,
+      "zeroOverlay": true,
+      "errors": []
+    },
+    "winter": {
+      "heroUrl": "https://laplandstays.com/images/hero.avif",
+      "heroAlt": "Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies",
+      "heroSha": "87422d2b29691a6a",
+      "bytes": 142747,
+      "sha256": "143566527093bf6e0e42437242ec98668a4a20e9d87c8577ffad20d2523949b6",
+      "bandH": 168,
+      "photoPct": 73.3,
+      "ink": 14995,
+      "inkBox": [
+        388,
+        493,
+        812,
+        603
+      ],
+      "safe": true,
+      "accentP10": 5.06,
+      "accentMed": 5.06,
+      "whiteP10": 17.08,
+      "whiteMed": 17.08,
+      "mean": 66.7,
+      "centerSq": 77.5,
+      "photoRegion": 77.7,
+      "photoRegionRef": 77.7,
+      "overlayPixels": 0,
+      "maxDiff": 0,
+      "fit": {
+        "size": 74,
+        "lines": 1,
+        "ts": 30,
+        "tagW": 426,
+        "fits": true,
+        "bandH": 168
+      },
+      "contrastOk": true,
+      "zeroOverlay": true,
+      "errors": []
+    }
+  }
+}
