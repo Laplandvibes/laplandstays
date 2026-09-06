@@ -445,7 +445,7 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
     { day: '03', title: 'Sneeuwscootertocht op het Inari-meer', body: 'Met gids per sneeuwscooter het bevroren meer op, met zicht op het heilige Ukko-eiland (het eiland zelf betreedt u niet). \'s Winters al donker om 14:30, terug in de cabin voor het lange noorderlichtvenster.' },
     { day: '04', title: 'Rustige vertrekdag', body: 'Bezoek rendierboerderij, laatste sauna, terug naar IVL. Verleng zo mogelijk met twee dagen, Inari beloont traagheid.' },
   ],
-  seoTitle: 'Inari-accommodatie: cabins aan het meer en noorderlichtvilla\'s',
+  seoTitle: 'Inari-accommodatie: cabins aan het meer en aurora-villa\'s',
   seoDescription: 'Waar te verblijven in Inari: houten cabins aan het meer vanaf €200/nacht, Aurora Village en Nellim Wilderness Hotel vanaf €300. Privé-oevers, Sámi-erfgoed.',
 }
 

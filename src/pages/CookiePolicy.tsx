@@ -24,7 +24,7 @@ const META: Record<Lang, { title: string; description: string }> = {
       'LaplandStaysが使用するCookieとその目的。同意保存用の必須Cookie、Google Analytics 4（オプトイン後のみ）、パートナーネットワーク（Adtraction、Travelpayouts、Trip.com）のアフィリエイト計測。',
   },
   es: {
-    title: 'Política de cookies | LaplandStays',
+    title: 'Política de cookies y consentimiento | LaplandStays',
     description:
       'Qué cookies usa LaplandStays y por qué: almacenamiento esencial del consentimiento, Google Analytics 4 (solo tras aceptar) y atribución de afiliados de las redes asociadas (Adtraction, Travelpayouts, Trip.com).',
   },
