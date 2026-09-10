@@ -57,10 +57,10 @@ export default function Hero() {
             <MapPin className="w-3.5 h-3.5" />
             {c.eyebrow}
           </p>
-          <h1 className="font-heading text-snow leading-[1.05] tracking-wide text-[42px] sm:text-6xl lg:text-7xl mb-6">
+          <h1 className="font-heading text-snow leading-[1.05] tracking-wide text-[42px] sm:text-6xl lg:text-7xl xl:text-8xl mb-6">
             {c.h1}
           </h1>
-          <p className="text-snow/85 font-body text-base sm:text-lg lg:text-xl max-w-2xl mx-auto leading-relaxed">
+          <p className="text-snow/85 font-body text-base sm:text-lg lg:text-xl max-w-2xl xl:max-w-4xl mx-auto leading-relaxed xl:text-2xl">
             {lead}
           </p>
         </div>
