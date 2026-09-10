@@ -23,4 +23,4 @@ English (default), Finnish (/fi/), Swedish (/sv/), German (/de/), French (/fr/),
 
 - [LaplandVibes hub](https://laplandvibes.com/)
 - [Sitemap](https://laplandstays.com/sitemap.xml)
-- Contact: info@laplandstays.com
+- Contact: info@laplandvibes.com
