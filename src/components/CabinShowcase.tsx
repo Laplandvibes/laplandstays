@@ -140,7 +140,7 @@ export default function CabinShowcase({ copy, areaNames, lang }: { copy: Showcas
               role="tab"
               aria-selected={tab === key}
               onClick={() => setTab(key)}
-              className={`px-4 py-2 rounded-full text-sm font-semibold transition-colors ${
+              className={`px-4 py-2 min-h-10 rounded-full text-sm font-semibold transition-colors ${
                 tab === key ? 'bg-pink text-white' : 'bg-white/10 text-white/80 hover:bg-white/20'
               }`}
             >
