@@ -111,7 +111,19 @@ const auroraHolidays: Partner = {
 
 export const AD_SLOTS: HomeAdSlotsConfig = {
   siteSlug: 'laplandstays',
-  sponsors: [null, auroraHolidays],
+  // 🔴 sponsors PIDETAAN tyhjana ja kumppani menee `cards`-kenttaan.
+  //    HomeAdSlots lukee `config.cards ?? config.sponsors`, mutta
+  //    MainPartnerBanner lukee `config.mainPartner ?? config.sponsors[0]`.
+  //    => `cards` nayttaa kortin EIKA tayta paakumppanibanneria, joka jaa
+  //    myytavaksi. Sama kuvio kuin laplandactivities/laplandnature.
+  //
+  // 🔴🔴 JA KORTTI ON A, EI B. Kun vain yksi kortti on myyty, HomeAdSlots
+  //    menee `single`-haaraan ja renderoi VAIN kortin A (`partner={a}`);
+  //    kortti B on `{!bothEmpty && !single && ...}` eli se jaa pois.
+  //    Paikkaan B yksin laitettu kumppani EI RENDEROIDY LAINKAAN.
+  //    Mitattu livena 12.9.2026: osio oli tyhja.
+  sponsors: [null, null],
+  cards: [auroraHolidays, null],
   spots: DEFAULT_PREMIUM_SPOTS,
 }
 
