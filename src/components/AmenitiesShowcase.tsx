@@ -139,7 +139,7 @@ export default function AmenitiesShowcase({ placement }: { placement?: FeaturedP
                       target="_blank"
                       rel="sponsored nofollow noopener"
                       onClick={() => trackAffiliateClick('lodging', ex.sid, ex.href)}
-                      className="text-[12px] px-2.5 py-1 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
+                      className="text-[12px] px-3 py-2 min-h-10 inline-flex items-center rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                     >
                       {ex.name}
                     </a>
