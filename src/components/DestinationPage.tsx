@@ -537,7 +537,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                       href={`${hl.base}${pfx}${hl.path ?? '/'}`}
                       target="_blank"
                       rel="noopener"
-                      className="inline-flex items-center gap-1 text-pink text-sm font-semibold mt-3 hover:underline"
+                      className="lv-tap inline-flex items-center gap-1 text-pink text-sm font-semibold mt-3 hover:underline"
                     >
                       {ui.readMore} <ArrowRight className="w-3.5 h-3.5" />
                     </a>

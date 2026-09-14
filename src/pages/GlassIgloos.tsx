@@ -593,7 +593,7 @@ export default function GlassIgloos() {
                   <ExternalLink className="w-4 h-4 shrink-0" aria-hidden="true" />
                 </a>
                 {area.guideLinks.map((g) => (
-                  <Link key={g.to} to={to(g.to)} className="text-pink font-semibold text-sm hover:underline inline-flex items-center gap-1">
+                  <Link key={g.to} to={to(g.to)} className="lv-tap text-pink font-semibold text-sm hover:underline inline-flex items-center gap-1">
                     {g.label}
                     <ArrowRight className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
                   </Link>

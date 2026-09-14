@@ -73,7 +73,7 @@ export default function BookingCTA() {
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onSecondary}
-            className="inline-flex items-center gap-2 text-white/85 hover:text-pink font-semibold text-sm uppercase tracking-widest underline decoration-white/30 underline-offset-8 hover:decoration-pink/60 transition-colors [text-shadow:0_1px_10px_rgba(0,0,0,0.85)]"
+            className="lv-tap inline-flex items-center gap-2 text-white/85 hover:text-pink font-semibold text-sm uppercase tracking-widest underline decoration-white/30 underline-offset-8 hover:decoration-pink/60 transition-colors [text-shadow:0_1px_10px_rgba(0,0,0,0.85)]"
           >
             {c.secondaryCta}
             <ArrowRight className="w-3.5 h-3.5" />

@@ -368,7 +368,7 @@ export default function Igloos() {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lodging', 'iglu_hotels_saariselka', hotelsHref)}
-              className="inline-flex items-center gap-2 text-sm text-charcoal/70 hover:text-pink transition-colors underline underline-offset-4"
+              className="lv-tap inline-flex items-center gap-2 text-sm text-charcoal/70 hover:text-pink transition-colors underline underline-offset-4"
             >
               Vertaile Saariselän majoitushintoja kumppanihaussa
               <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />

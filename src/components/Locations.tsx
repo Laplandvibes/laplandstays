@@ -121,7 +121,7 @@ export default function Locations({ placement }: { placement?: FeaturedPlacement
                   </a>
                   <Link
                     to={to(`/destinations/${location.slug}`)}
-                    className="inline-flex items-center gap-2 text-charcoal/70 hover:text-pink font-semibold text-sm uppercase tracking-wider transition-colors"
+                    className="lv-tap inline-flex items-center gap-2 text-charcoal/70 hover:text-pink font-semibold text-sm uppercase tracking-wider transition-colors"
                   >
                     {c.guideTo(location.name)}
                   </Link>
