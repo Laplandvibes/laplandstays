@@ -392,7 +392,7 @@ export default function PartnerSlot({ partner, variant, locale, className, place
           aria-label={`${badge}: ${partner.name}`}
           className={[
             'block focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-vibe-pink',
-            layout === 'wide' ? 'md:w-5/12 md:shrink-0' : '',
+            layout === 'wide' ? 'md:w-1/2 md:shrink-0' : '',
           ].filter(Boolean).join(' ')}
         >
         {/* KUVA + TEKSTI KUVAN PÄÄLLÄ.
@@ -403,7 +403,7 @@ export default function PartnerSlot({ partner, variant, locale, className, place
             vammalta kuin maksava asiakas. Maksetun paikan pitää viestiä että
             tuon voi varata: teksti kuvan päälle scrimin kanssa + oma CTA-nappi,
             samalla logiikalla kuin alasivujen AdUnit. */}
-        <div className={['relative aspect-[16/10] overflow-hidden', layout === 'wide' ? 'md:aspect-auto md:h-full md:min-h-[22rem]' : ''].filter(Boolean).join(' ')}>
+        <div className={['relative aspect-[16/10] overflow-hidden', layout === 'wide' ? 'md:aspect-auto md:h-full md:min-h-[20rem]' : ''].filter(Boolean).join(' ')}>
           {partner.imageSrc ? (
             <img
               src={partner.imageSrc}

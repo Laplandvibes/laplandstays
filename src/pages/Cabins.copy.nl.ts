@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: 'Waar wij eerst zoeken',
     partnerH2: 'Huisjes zoeken: Lomarengas',
-    partnerBody: 'Lomarengas is een Finse verhuurorganisatie met meer dan 8.000 vakantiehuizen door het hele land, van skichalets bij de pistes van Levi tot huisjes aan een meer in het hoge noorden. De advertenties tonen echte foto’s, exacte locaties en prijzen per week, en bij elk huisje staat wat is inbegrepen.',
+    partnerBody: 'Lomarengas is een Finse verhuurorganisatie met meer dan 8.000 vakantiehuizen door het hele land, van skichalets bij de pistes van Levi tot huisjes aan een meer in het hoge noorden. De advertenties tonen foto’s, exacte locaties en prijzen per week, en bij elk huisje staat wat is inbegrepen.',
     partnerNote: 'De links hieronder leiden naar lomarengas.fi, waar het zoeken, de prijzen en de boeking via Lomarengas lopen. Boekt u via deze links, dan ontvangt LaplandStays een vaste commissie zonder extra kosten voor u.',
     partnerCta: 'Bekijk Lapland-huisjes',
 
@@ -131,9 +131,9 @@ const copy: PageCopy = {
     ctaSecondary: 'Wanneer te gaan',
 
     showcase: {
-      eyebrow: 'Rechtstreeks uit het aanbod',
-      h2: 'Echte huisjes, echte foto’s',
-      lead: 'Een dagelijks bijgewerkte selectie uit het Lomarengas-aanbod rond elk skigebied, rechtstreeks uit de productfeed. Prijzen zijn weekprijzen vanaf; de uiteindelijke prijs hangt af van de week.',
+      eyebrow: 'Vrije huisjes in de skigebieden',
+      h2: 'Uw eigen huisje, uw eigen sauna, de hele week',
+      lead: 'Blokhutten en appartementen aan de piste met ruimte voor de hele groep, met de weekprijs vanaf er meteen bij. De selectie wordt dagelijks bijgewerkt uit het Lomarengas-aanbod; de uiteindelijke prijs hangt af van de week.',
       weekFrom: 'week vanaf {price} €',
       guestsLabel: 'personen',
       bedroomsLabel: 'slaapkamers',

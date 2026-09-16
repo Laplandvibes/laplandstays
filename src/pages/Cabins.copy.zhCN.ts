@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: '我们首选的搜索平台',
     partnerH2: '木屋搜索：Lomarengas',
-    partnerBody: 'Lomarengas是芬兰的木屋租赁中介，在全国收录超过8,000套度假住宅，从莱维雪道旁的滑雪木屋到极北的湖畔小屋。房源展示真实照片、精确位置和按周报价，每套木屋都注明包含的设施。',
+    partnerBody: 'Lomarengas是芬兰的木屋租赁中介，在全国收录超过8,000套度假住宅，从莱维雪道旁的滑雪木屋到极北的湖畔小屋。房源展示照片、精确位置和按周报价，每套木屋都注明包含的设施。',
     partnerNote: '以下链接将带您前往lomarengas.fi，搜索、价格和预订均由Lomarengas处理。若您通过这些链接预订，LaplandStays将获得固定佣金，您无需支付任何额外费用。',
     partnerCta: '浏览木屋',
 
@@ -131,9 +131,9 @@ const copy: PageCopy = {
     ctaSecondary: '何时出行',
 
     showcase: {
-      eyebrow: '来自实时房源',
-      h2: '真实木屋，真实照片',
-      lead: '以下是Lomarengas目前在各度假区周边登记的部分房源，数据每日直接从产品目录更新。价格为每周起价，实际价格视具体周次而定。',
+      eyebrow: '滑雪度假区的可订木屋',
+      h2: '自己的木屋，自己的桑拿，整整一周',
+      lead: '可供全员同住的原木木屋和雪道旁公寓，每周起价一目了然。房源每日从Lomarengas的房源信息更新，实际价格视具体周次而定。',
       weekFrom: '每周 {price} € 起',
       guestsLabel: '人数',
       bedroomsLabel: '卧室',

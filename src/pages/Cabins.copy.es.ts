@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: 'Dónde buscamos primero',
     partnerH2: 'Búsqueda de cabañas: Lomarengas',
-    partnerBody: 'Lomarengas es una agencia finlandesa de alquiler de cabañas con más de 8.000 casas de vacaciones en todo el país, desde chalets junto a las pistas de Levi hasta cabañas a orillas de un lago en el extremo norte. Los anuncios muestran fotos reales, ubicación exacta y precios semana a semana, y cada cabaña detalla qué está incluido.',
+    partnerBody: 'Lomarengas es una agencia finlandesa de alquiler de cabañas con más de 8.000 casas de vacaciones en todo el país, desde chalets junto a las pistas de Levi hasta cabañas a orillas de un lago en el extremo norte. Los anuncios muestran fotos, ubicación exacta y precios semana a semana, y cada cabaña detalla qué está incluido.',
     partnerNote: 'Los enlaces de abajo llevan a lomarengas.fi, donde la búsqueda, los precios y la reserva corren a cargo de Lomarengas. Si reserva a través de estos enlaces, LaplandStays recibe una comisión fija sin coste adicional para usted.',
     partnerCta: 'Ver cabañas de Laponia',
 
@@ -131,9 +131,9 @@ const copy: PageCopy = {
     ctaSecondary: 'Cuándo ir',
 
     showcase: {
-      eyebrow: 'Directo del catálogo',
-      h2: 'Cabañas reales, fotos reales',
-      lead: 'Una selección actualizada a diario de la oferta de Lomarengas en torno a cada estación, tomada directamente del feed de productos. Los precios son semanales «desde»; el precio final depende de la semana.',
+      eyebrow: 'Cabañas disponibles en las estaciones',
+      h2: 'Su propia cabaña, su propia sauna, toda la semana',
+      lead: 'Cabañas de troncos y apartamentos a pie de pista con sitio para todo el grupo, con el precio semanal «desde» a la vista. La selección se actualiza a diario desde las ofertas de Lomarengas; el precio final depende de la semana.',
       weekFrom: 'semana desde {price} €',
       guestsLabel: 'personas',
       bedroomsLabel: 'dormitorios',

@@ -121,7 +121,7 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
   },
   dayPlan: [
     { day: '01', title: 'Saavu · Joulupukin pajakylä', body: 'RVN 10 km kaupungista. Jätä laukut, suuntaa suoraan Pajakylään (auki ympäri vuoden). Ylitä napapiirin viiva, lähetä kortti. Illallinen Niliissä keskustassa.' },
-    { day: '02', title: 'Husky + jäätikkö-kelluminen', body: 'Apukka tai lähitilalla husky-safari (varaa etukäteen). Iltapäivällä kuivapuvun jäätikkö-kelluminen Ounasjoella, yllättävän lämmin, täysin hiljainen. Revontuli-ikkuna Ounasvaaralta.' },
+    { day: '02', title: 'Husky + avantokellunta', body: 'Apukka tai lähitilalla husky-safari (varaa etukäteen). Iltapäivällä avantokellunta kuivapuvussa Ounasjoella, yllättävän lämmin, täysin hiljainen. Revontuli-ikkuna Ounasvaaralta.' },
     { day: '03', title: 'Arktikum + kaupunkikulttuuri', body: 'Puolipäivä Arktikumissa (saamelais- + Lapin-historian museo, kaunis lasikäytävä). Lounas kaupungissa. Iltapäivä vapaa, Lainion lumikylän päiväretki sesongissa.' },
     { day: '04', title: 'Rauhallinen aamu · eteenpäin', body: 'Viimeinen sauna, aamiainen kaupungissa. Lennä kotiin RVN:stä tai vuokraa auto ja aja 2 h pohjoiseen Leville toiselle etapille.' },
   ],

@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: 'Där vi letar först',
     partnerH2: 'Stugsök: Lomarengas',
-    partnerBody: 'Lomarengas är en finsk stugförmedling med över 8 000 semesterbostäder listade runt om i landet, från skidstugor vid Levis backar till sjönära stugor längst i norr. Annonserna visar riktiga foton, exakta lägen och priser vecka för vecka, och varje stuga anger vad som ingår.',
+    partnerBody: 'Lomarengas är en finsk stugförmedling med över 8 000 semesterbostäder listade runt om i landet, från skidstugor vid Levis backar till sjönära stugor längst i norr. Annonserna visar foton, exakta lägen och priser vecka för vecka, och varje stuga anger vad som ingår.',
     partnerNote: 'Länkarna nedan tar dig till lomarengas.fi, där sökningen, priserna och bokningen sköts av Lomarengas. Om du bokar via länkarna får LaplandStays en fast provision utan extra kostnad för dig.',
     partnerCta: 'Bläddra bland stugorna',
 
@@ -131,9 +131,9 @@ const copy: PageCopy = {
     ctaSecondary: 'När du ska åka',
 
     showcase: {
-      eyebrow: 'Direkt ur utbudet',
-      h2: 'Riktiga stugor, riktiga bilder',
-      lead: 'Ett dagligen uppdaterat urval ur Lomarengas utbud kring varje skidort, hämtat direkt ur produktdatan. Priserna är lägsta veckopris; slutpriset beror på veckan.',
+      eyebrow: 'Lediga stugor vid skidorterna',
+      h2: 'Egen stuga, egen bastu, hela veckan',
+      lead: 'Timmerstugor och lägenheter vid backen med plats för hela sällskapet, med lägsta veckopris direkt. Urvalet uppdateras dagligen ur Lomarengas utbud; slutpriset beror på veckan.',
       weekFrom: 'vecka från {price} €',
       guestsLabel: 'personer',
       bedroomsLabel: 'sovrum',

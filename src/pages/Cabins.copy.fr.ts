@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: 'Où nous cherchons en premier',
     partnerH2: 'Recherche de chalets : Lomarengas',
-    partnerBody: "Lomarengas est une agence finlandaise de location de chalets avec plus de 8 000 maisons de vacances référencées dans tout le pays, des chalets de ski au pied des pistes de Levi aux cabanes au bord d'un lac dans le Grand Nord. Les annonces montrent de vraies photos, des emplacements précis et des prix semaine par semaine, et chaque chalet indique ce qui est inclus.",
+    partnerBody: "Lomarengas est une agence finlandaise de location de chalets avec plus de 8 000 maisons de vacances référencées dans tout le pays, des chalets de ski au pied des pistes de Levi aux cabanes au bord d'un lac dans le Grand Nord. Les annonces montrent des photos, des emplacements précis et des prix semaine par semaine, et chaque chalet indique ce qui est inclus.",
     partnerNote: "Les liens ci-dessous mènent à lomarengas.fi, où la recherche, les prix et la réservation sont gérés par Lomarengas. Si vous réservez via ces liens, LaplandStays perçoit une commission fixe, sans coût supplémentaire pour vous.",
     partnerCta: 'Voir les chalets',
 
@@ -131,9 +131,9 @@ const copy: PageCopy = {
     ctaSecondary: 'Quand partir',
 
     showcase: {
-      eyebrow: 'Direct du catalogue',
-      h2: 'De vrais chalets, de vraies photos',
-      lead: 'Une sélection actualisée chaque jour parmi les offres Lomarengas autour de chaque station, issue directement du flux produits. Les prix sont des prix hebdomadaires « à partir de » ; le tarif final dépend de la semaine.',
+      eyebrow: 'Chalets disponibles dans les stations',
+      h2: 'Votre chalet, votre sauna, toute la semaine',
+      lead: 'Chalets en rondins et appartements au pied des pistes pour tout le groupe, avec le prix hebdomadaire « à partir de » affiché d’emblée. La sélection est actualisée chaque jour à partir des offres Lomarengas ; le tarif final dépend de la semaine.',
       weekFrom: 'semaine dès {price} €',
       guestsLabel: 'personnes',
       bedroomsLabel: 'chambres',

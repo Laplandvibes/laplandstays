@@ -18,7 +18,7 @@ Two small villages, Ylläsjärvi on the south side and Äkäslompolo on the nort
     { title: 'Pallas-Yllästunturi National Park', body: "Finland's third-largest national park, old-growth forest, seven named fells, and some of Europe's cleanest measured air." },
     { title: 'Silent forest cabins', body: 'Properties here are deliberately spaced apart. Your neighbour, if you have one, is a few hundred metres of pine through a clearing.' },
     { title: 'Äkäslompolo aurora shore', body: 'The lake at Äkäslompolo faces north, clear horizon, no village lights on the far side, strong aurora viewing from the ice.' },
-    { title: 'Summer fell hiking', body: 'The fell-top routes between Ylläs and Pallas are boardwalked above treeline, open July to September — round-the-clock light in July, ruska colour and dark aurora nights by September.' },
+    { title: 'Summer fell hiking', body: 'The fell-top routes between Ylläs and Pallas are boardwalked above treeline, open July to September: round-the-clock light in July, ruska colour and dark aurora nights by September.' },
   ],
   whenToGo: `December – March is the deep-winter window with reliable snow and full aurora season.
 Early April offers the "kevättalvi", long daylight hours, bright snow, still full ski conditions.

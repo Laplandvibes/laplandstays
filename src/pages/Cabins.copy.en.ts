@@ -35,7 +35,7 @@ const copy = {
 
     partnerEyebrow: 'Where we look first',
     partnerH2: 'Cabin search: Lomarengas',
-    partnerBody: 'Lomarengas is a Finnish cottage rental agency with more than 8,000 holiday homes listed across the country, from ski chalets by the Levi slopes to lakeside cabins in the far north. Listings show real photos, exact locations and week-by-week pricing, and every cabin lists what is included.',
+    partnerBody: 'Lomarengas is a Finnish cottage rental agency with more than 8,000 holiday homes listed across the country, from ski chalets by the Levi slopes to lakeside cabins in the far north. Listings show photos, exact locations and week-by-week pricing, and every cabin lists what is included.',
     partnerNote: 'The links below take you to lomarengas.fi, where the search, prices and booking are handled by Lomarengas. If you book through these links, LaplandStays earns a fixed commission at no extra cost to you.',
     partnerCta: 'Browse Lapland cabins',
 
@@ -129,9 +129,9 @@ const copy = {
     ctaSecondary: 'When to go',
 
     showcase: {
-      eyebrow: 'From the live listings',
-      h2: 'Real cabins, real photos',
-      lead: 'A sample of what Lomarengas lists right now around each resort, refreshed daily straight from their product data. Prices are weekly from-prices; the exact rate depends on the week.',
+      eyebrow: 'Cabins available now',
+      h2: 'Your own cabin, your own sauna, the whole week',
+      lead: 'Log cabins and slope-side apartments with room for the whole group, the weekly from-price shown up front. The picks refresh daily from the Lomarengas listings; the exact rate depends on the week.',
       weekFrom: 'week from {price} €',
       guestsLabel: 'guests',
       bedroomsLabel: 'bedrooms',

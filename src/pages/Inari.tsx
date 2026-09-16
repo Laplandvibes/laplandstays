@@ -84,7 +84,7 @@ Tämä on syvä pohjoinen. Mökit täällä ovat aidosti syrjäisiä: kymmenen m
     { title: 'Tundratuntureiden patikointi', body: 'Inarista pohjoiseen puuraja ohenee avoimeen Lapin tunturiin. Kevon ja Utsjoen kesäpatikointi on niin syrjäistä kuin Euroopassa pääsee.' },
     { title: 'Talvinen husky- ja moottorikelkkapääsy', body: 'Inarin ympärillä toimivat tarhat järjestävät järvijää-valjakkoreittejä Inarijärvelle, avara, ei puita, epätavallisen nopea ja hiljainen.' },
   ],
-  whenToGo: `Syyskuun loppu–huhtikuun alku on revontulisesonki; tällä leveysasteella aurora-ovaali sijaitsee säännöllisesti suoraan pään yllä.
+  whenToGo: `Syyskuun loppu–huhtikuun alku on revontulisesonki; tällä leveysasteella revontuliovaali sijaitsee säännöllisesti suoraan pään yllä.
 Kesäkuun puoliväli–heinäkuun loppu on keskiyön aurinkoa: aurinko ei laske noin kuuteen viikkoon.
 Elokuun puoliväli tuo lyhyen, intensiivisen ruskan, punaiset ja oranssit värit tunturilla.`,
   howToGet: `Lennä Ivaloon (IVL), 40 min kuljetus. Suora Helsinki–Ivalo päivittäin, kausittaisia charter-reittejä Iso-Britanniasta ja Keski-Euroopasta.
@@ -99,7 +99,7 @@ Pidemmille erämaamatkoille tie jatkuu Utsjoelle ja Norjan rajalle.`,
   siblings: [
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Portti UKK-erämaahan, 50 min etelään.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapin pääkaupunki ja pääsaapumispiste.' },
-    { name: 'Levi', href: '/destinations/levi', blurb: 'Iso hiihtokylä kävelyetäisyydellä olevalla keskustalla.' },
+    { name: 'Levi', href: '/destinations/levi', blurb: 'Iso hiihtokylä, jonka palvelut ovat kävelymatkan päässä.' },
   ],
   anchorProperties: [
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Inarijärven itärannalla, kaukana taajamien valoista. Kalastusta, saunoja ja revontuliretkiä järven jäällä.' },

@@ -236,18 +236,19 @@ export default function Newsletter() {
               }}
               className="flex flex-col sm:flex-row sm:flex-wrap gap-3"
             >
-              <label className="sr-only" htmlFor="newsletter-email">
+              <label className="sm:basis-full text-left text-white text-sm font-semibold" htmlFor="newsletter-email">
                 {c.emailLabel}
               </label>
               <input
                 id="newsletter-email"
                 type="email"
+                autoComplete="email"
                 value={email}
                 onFocus={trackStart}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder={c.emailPlaceholder}
                 required
-                className="flex-1 px-5 py-4 rounded-xl text-night bg-white placeholder:text-charcoal/50 focus:outline-none focus:ring-2 focus:ring-white/70 border border-white/40"
+                className="flex-1 px-5 py-4 rounded-xl text-night bg-white placeholder:text-charcoal/70 focus:outline-none focus:ring-2 focus:ring-white/70 border border-white/40"
               />
               <button
                 type="submit"
@@ -258,7 +259,7 @@ export default function Newsletter() {
                 {status === 'loading' ? c.submitting : c.submit}
                 <ArrowRight className="w-4 h-4" />
               </button>
-              <label className="sm:basis-full flex items-start gap-2.5 text-left text-white/90 text-xs leading-relaxed cursor-pointer">
+              <label className="sm:basis-full flex items-start gap-2.5 text-left text-white text-xs leading-relaxed cursor-pointer">
                 <input
                   type="checkbox"
                   checked={consented}

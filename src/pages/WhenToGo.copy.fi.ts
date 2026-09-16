@@ -19,11 +19,11 @@ const copy: PageCopy = {
     th: { month: 'Kuukausi', daylight: 'Päivänvalo', aurora: 'Revontulet', snow: 'Lumi', vibe: 'Tunnelma', booking: 'Varaus', from: 'Alkaen' },
     secretEyebrow: 'Jos voit valita yhden kuukauden',
     secretH2: 'Maaliskuu on salaisuus',
-    secretIntro: 'Useimmat revontulimatkailijat tulevat joulu–tammikuussa, koska silloin päivät ovat pimeimmät. Mutta maaliskuu on kuukausi, jolloin aiemmin käyneet varaavat uudelleen. Tässä matematiikka:',
+    secretIntro: 'Useimmat revontulimatkailijat tulevat joulu–tammikuussa, koska silloin päivät ovat pimeimmät. Mutta maaliskuu on kuukausi, jolloin aiemmin käyneet varaavat uudelleen. Näin se menee:',
     bullets: [
       '11 tuntia pimeyttä, 13 tuntia päivänvaloa, riittävän pitkä yö revontuli-ikkunoille, riittävän pitkä päivä hiihtoon ja safariin ilman otsalamppua.',
       'Kylmin lumi vielä maassa, huippusyvyys Levillä, Ylläksellä, Saariselällä. Aurinko lämmittää −5 °C:seen, ei −30 °C:seen.',
-      'Revontuli-ikkunat vielä aktiiviset, aurora-ovaali on aktiivisimmillaan kevätpäiväntasauksen aikoihin. Maaliskuu on tilastollisesti yksi parhaista revontulikuukausista.',
+      'Revontuli-ikkunat vielä aktiiviset, revontuliovaali on aktiivisimmillaan kevätpäiväntasauksen aikoihin. Maaliskuu on tilastollisesti yksi parhaista revontulikuukausista.',
       'Huomattavasti edullisempi, useimmat kohteet laskevat hintojaan selvästi joulun/uudenvuoden tasosta, helmikuun koululomat jo takana.',
     ],
     bulletStrong: ['11 tuntia pimeyttä, 13 tuntia päivänvaloa', 'Kylmin lumi vielä maassa', 'Revontuli-ikkunat vielä aktiiviset', 'Huomattavasti edullisempi'],

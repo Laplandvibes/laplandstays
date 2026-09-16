@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: 'Dove cerchiamo per primi',
     partnerH2: 'Ricerca chalet: Lomarengas',
-    partnerBody: "Lomarengas è un'agenzia finlandese di affitto di chalet con oltre 8.000 case vacanza in tutto il Paese, dagli chalet accanto alle piste di Levi alle baite in riva al lago nell'estremo nord. Gli annunci mostrano foto reali, posizioni esatte e prezzi settimana per settimana, e ogni chalet indica cosa è incluso.",
+    partnerBody: "Lomarengas è un'agenzia finlandese di affitto di chalet con oltre 8.000 case vacanza in tutto il Paese, dagli chalet accanto alle piste di Levi alle baite in riva al lago nell'estremo nord. Gli annunci mostrano foto, posizioni esatte e prezzi settimana per settimana, e ogni chalet indica cosa è incluso.",
     partnerNote: 'I link qui sotto portano a lomarengas.fi, dove ricerca, prezzi e prenotazione sono gestiti da Lomarengas. Se prenota tramite questi link, LaplandStays riceve una commissione fissa senza costi aggiuntivi per Lei.',
     partnerCta: 'Sfoglia gli chalet',
 
@@ -131,9 +131,9 @@ const copy: PageCopy = {
     ctaSecondary: 'Quando andare',
 
     showcase: {
-      eyebrow: 'Direttamente dal catalogo',
-      h2: 'Chalet veri, foto vere',
-      lead: 'Una selezione aggiornata ogni giorno dall’offerta Lomarengas intorno a ogni località, presa direttamente dal feed prodotti. I prezzi sono settimanali «a partire da»; il prezzo finale dipende dalla settimana.',
+      eyebrow: 'Chalet disponibili nelle località sciistiche',
+      h2: 'Il Suo chalet, la Sua sauna, per tutta la settimana',
+      lead: 'Chalet in legno e appartamenti sulle piste con posto per tutto il gruppo, con il prezzo settimanale «a partire da» già in vista. La selezione si aggiorna ogni giorno dall’offerta Lomarengas; il prezzo finale dipende dalla settimana.',
       weekFrom: 'settimana da {price} €',
       guestsLabel: 'persone',
       bedroomsLabel: 'camere da letto',

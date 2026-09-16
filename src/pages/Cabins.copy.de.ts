@@ -37,7 +37,7 @@ const copy: PageCopy = {
 
     partnerEyebrow: 'Wo wir zuerst suchen',
     partnerH2: 'Hüttensuche: Lomarengas',
-    partnerBody: 'Lomarengas ist eine finnische Ferienhaus-Agentur mit über 8 000 gelisteten Ferienunterkünften im ganzen Land, von Ski-Chalets an den Pisten von Levi bis zu Seehütten im hohen Norden. Die Inserate zeigen echte Fotos, genaue Lagen und wochenweise Preise, und bei jeder Hütte steht, was im Preis enthalten ist.',
+    partnerBody: 'Lomarengas ist eine finnische Ferienhaus-Agentur mit über 8 000 gelisteten Ferienunterkünften im ganzen Land, von Ski-Chalets an den Pisten von Levi bis zu Seehütten im hohen Norden. Die Inserate zeigen Fotos, genaue Lagen und wochenweise Preise, und bei jeder Hütte steht, was im Preis enthalten ist.',
     partnerNote: 'Die Links unten führen zu lomarengas.fi, wo Suche, Preise und Buchung über Lomarengas laufen. Wenn Sie über diese Links buchen, erhält LaplandStays eine feste Provision, ohne Mehrkosten für Sie.',
     partnerCta: 'Lappland-Hütten ansehen',
 
@@ -131,9 +131,9 @@ const copy: PageCopy = {
     ctaSecondary: 'Beste Reisezeit',
 
     showcase: {
-      eyebrow: 'Direkt aus dem Angebot',
-      h2: 'Echte Hütten, echte Fotos',
-      lead: 'Eine täglich aktualisierte Auswahl aus dem Lomarengas-Angebot rund um jedes Skigebiet, direkt aus den Produktdaten. Die Preise sind Wochenpreise ab; der Endpreis hängt von der jeweiligen Woche ab.',
+      eyebrow: 'Freie Hütten in den Skigebieten',
+      h2: 'Eigene Hütte, eigene Sauna, die ganze Woche',
+      lead: 'Blockhütten und Apartments an der Piste mit Platz für die ganze Gruppe, der Wochenpreis ab steht gleich dabei. Die Auswahl wird täglich aus dem Lomarengas-Angebot aktualisiert; der Endpreis hängt von der jeweiligen Woche ab.',
       weekFrom: 'Woche ab {price} €',
       guestsLabel: 'Personen',
       bedroomsLabel: 'Schlafzimmer',

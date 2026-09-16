@@ -393,7 +393,7 @@ export default function Igloos() {
               className="h-9 sm:h-11 w-auto mb-4"
             />
             <p className="text-charcoal/80 text-[15px] leading-relaxed mb-4">
-              Iglu hinnoitellaan elämyksenä, ei viikkomajoituksena. Siksi toimivin Lapin-loma on usein yksi tai kaksi yötä iglussa ja loput mökissä saman alueen tuntumassa: mökkiin mahtuu koko porukka, ja samalla rahalla saa oman saunan ja keittiön koko viikoksi. Lomarenkaan Lapin mökkihausta näet kohteiden oikeat kuvat, sijainnit ja viikkohinnat.
+              Iglu hinnoitellaan elämyksenä, ei viikkomajoituksena. Siksi toimivin Lapin-loma on usein yksi tai kaksi yötä iglussa ja loput mökissä saman alueen tuntumassa: mökkiin mahtuu koko porukka, ja samalla rahalla saa oman saunan ja keittiön koko viikoksi. Lomarenkaan Lapin mökkihausta näet kohteiden kuvat, sijainnit ja viikkohinnat.
             </p>
             <p className="text-charcoal/60 text-[13px] leading-relaxed mb-6">
               Linkki vie lomarengas.fi-sivustolle, jossa haku, hinnat ja varaus hoituvat Lomarenkaan kautta. Jos varaat linkin kautta, LaplandStays saa kiinteän provision ilman lisäkustannuksia sinulle.

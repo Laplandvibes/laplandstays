@@ -79,11 +79,11 @@ Se on helpoin sisäänkäynti Lapin luksusmatkailuun: Kittilän lentokenttä on 
   ],
   highlights: [
     { title: 'Rinneasunnot Levitunturilla', body: 'Levitunturin rinteillä sijaitsevat asunnot tarjoavat suoran pääsyn gondoliin ja pitkille sinisille ja punaisille rinteille, jotka kiertävät tunturia.' },
-    { title: 'Kävelykylä vakavasti otettavilla keittiöillä', body: 'Keskustassa on Michelin-suositeltuja ravintoloita, poronkäristys-tasting-menuja ja tiivis kahvilakeskittymä, harvinaista tunturikohteessa.' },
+    { title: 'Kävelykylä, jossa on vakavasti otettavia ravintoloita', body: 'Keskustassa on Michelin-suositeltuja ravintoloita, poronkäristyksen maistelumenuja ja tiivis kahvilakeskittymä, harvinaista tunturikohteessa.' },
     { title: 'Täysi safariohjelma', body: 'Huskyt, moottorikelkat, porovaljakot, revontulivalokuvauskierrokset ja avantouinti lähtevät kaikki noutopisteistä kylän sisältä.' },
     { title: 'Revontulien pimeät vyöhykkeet', body: 'Aja 15 minuuttia ulos kylästä ja valosaaste tipahtaa lähelle nollaa. Mökit tunturin pohjoispuolella tarjoavat selkeimmän horisontin.' },
     { title: 'Kesätunturipyöräily ja keskiyön aurinko', body: 'Kesä- ja heinäkuussa aurinko ei laske. Levi avaa gondolit ja polut alamäki- ja maastopyöräilyyn.' },
-    { title: 'Maailmancupin pujottelun avaus', body: 'Joka marraskuu FIS Alpine Ski World Cup avaa Levi Blackillä, aikaisin ja luotettavin lumi kiertueella.' },
+    { title: 'Maailmancupin pujottelun avaus', body: 'Joka marraskuu maailmancupin pujottelukausi avautuu Levi Black -rinteellä, kiertueen aikaisimmalla ja luotettavimmalla lumella.' },
   ],
   whenToGo: `Marraskuu–maaliskuu on huippukautta: luotettava lumi, revontuliyöt ja täysi safarikausi.
 Elokuun loppu–lokakuu tuo ruskan ja ensimmäiset revontuliyöt ilman ruuhkaa.
