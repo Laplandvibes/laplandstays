@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { ArrowRight, BedDouble, Ruler, Users } from 'lucide-react'
 import { buildLomarengasCabinUrl, buildLomarengasUrl, CABINS_API } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
@@ -78,7 +79,9 @@ function PriceLine({ tpl, price }: { tpl: string; price: string }) {
   )
 }
 
-export default function CabinShowcase({ copy, areaNames, lang }: { copy: ShowcaseCopy; areaNames: string[]; lang: Lang }) {
+/** Internal /cabins/<area> pages exist for fi/en/de (OpenSEO 16.9.2026); callers pass
+ *  localized hrefs + a label so the band links to the crawlable inventory page too. */
+export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLinkLabel }: { copy: ShowcaseCopy; areaNames: string[]; lang: Lang; areaHrefs?: Partial<Record<GroupKey, string>>; areaLinkLabel?: string }) {
   const [data, setData] = useState<ApiData | null>(cabinsCache)
   const [failed, setFailed] = useState(false)
   const [tab, setTab] = useState<GroupKey>('levi')
@@ -246,6 +249,15 @@ export default function CabinShowcase({ copy, areaNames, lang }: { copy: Showcas
               <span className="truncate">{copy.browseAll.replace('{count}', nf.format(total))}</span>
               <ArrowRight className="w-3.5 h-3.5 shrink-0" />
             </a>
+            {areaHrefs?.[tab] && areaLinkLabel && (
+              <Link
+                to={areaHrefs[tab]!}
+                className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 min-h-11 rounded-full bg-pink text-white font-semibold hover:bg-pink/90 transition-colors"
+              >
+                <span className="truncate">{areaLinkLabel}</span>
+                <ArrowRight className="w-3.5 h-3.5 shrink-0" />
+              </Link>
+            )}
             <p className="text-white/50 text-[12px] leading-relaxed">{copy.dataNote}</p>
           </div>
         )}

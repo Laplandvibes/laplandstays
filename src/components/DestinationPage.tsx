@@ -209,9 +209,14 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 
 const cache: Partial<Record<Lang, Copy>> = {}
 
+const CABIN_PAGE_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen vuokramökit tällä sivustolla', en: 'All rental cabins in the area on this site', de: 'Alle Ferienhäuser der Region auf dieser Website' }
+const CABIN_PAGE_AREA: Partial<Record<string, string>> = { levi: 'levi', yllas: 'yllas', saariselka: 'saariselka', rovaniemi: 'rovaniemi' }
+
 export default function DestinationPage(p: DestinationPageProps) {
   const lang = useLang()
   const to = useLocalePath()
+  // /cabins/<area> inventory pages exist for fi/en/de (OpenSEO 16.9.2026); Inari has none.
+  const cabinPageHref = CABIN_PAGE_LABEL[lang] && CABIN_PAGE_AREA[p.slug] ? to(`/cabins/${CABIN_PAGE_AREA[p.slug]}`) : null
   const ui = useCopy<Copy>(enCopy, loaders, cache)
   const b = pick(
     lang,
@@ -602,6 +607,13 @@ export default function DestinationPage(p: DestinationPageProps) {
             >
               {ui.checkAvailability} <ArrowRight className="w-4 h-4" />
             </a>
+            {cabinPageHref && (
+              <p className="mt-4">
+                <Link to={cabinPageHref} className="inline-flex items-center gap-1.5 text-sm text-white/80 hover:text-pink font-semibold min-h-11">
+                  {CABIN_PAGE_LABEL[lang]} <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </p>
+            )}
           </div>
         </div>
       </section>

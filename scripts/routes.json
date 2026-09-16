@@ -24,6 +24,138 @@
     "copyFile": "src/pages/Cabins.copy.{lang}.ts"
   },
   {
+    "path": "/cabins/levi",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "fallbackTitleByLang": {
+      "fi": "Levin mökit: vuokramökit Lomarenkaalta | LaplandStays",
+      "en": "Levi cabins: log cabins and chalets to rent | LaplandStays",
+      "de": "Levi Ferienhäuser: Hütten und Chalets mieten | LaplandStays"
+    },
+    "fallbackDescriptionByLang": {
+      "fi": "Levin mökit ja vuokramökit yhdellä sivulla: Sirkan ja Kittilän hirsimökit, rinneasunnot ja huvilat henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
+      "en": "Levi cabins and holiday homes on one page: log cabins, ski-in apartments and villas in Sirkka and Kittilä with guests, bedrooms and size for every cabin. Booking on Lomarengas.",
+      "de": "Ferienhäuser und Hütten in Levi auf einer Seite: Blockhütten, Ski-in-Apartments und Villen in Sirkka und Kittilä mit Personenzahl, Schlafzimmern und Größe. Buchung bei Lomarengas."
+    },
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "levi"
+    }
+  },
+  {
+    "path": "/cabins/yllas",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "fallbackTitleByLang": {
+      "fi": "Ylläksen mökit: Äkäslompolo ja Ylläsjärvi | LaplandStays",
+      "en": "Ylläs cabins: Äkäslompolo and Ylläsjärvi | LaplandStays",
+      "de": "Ylläs Ferienhäuser: Äkäslompolo und Ylläsjärvi | LaplandStays"
+    },
+    "fallbackDescriptionByLang": {
+      "fi": "Ylläksen mökit ja vuokramökit: Äkäslompolon ja Ylläsjärven hirsimökit, rantamökit ja rinneasunnot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
+      "en": "Ylläs cabins and holiday homes: log cabins, lakeside cabins and ski-in apartments in Äkäslompolo and Ylläsjärvi with guests, bedrooms and size for every cabin. Booking on Lomarengas.",
+      "de": "Ferienhäuser und Hütten in Ylläs: Blockhütten, Seehütten und Ski-in-Apartments in Äkäslompolo und Ylläsjärvi mit Personenzahl, Schlafzimmern und Größe. Buchung bei Lomarengas."
+    },
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "yllas"
+    }
+  },
+  {
+    "path": "/cabins/ruka",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "fallbackTitleByLang": {
+      "fi": "Rukan mökit: vuokramökit Rukatunturin ympäriltä | LaplandStays",
+      "en": "Ruka cabins: holiday homes around Rukatunturi | LaplandStays",
+      "de": "Ruka Ferienhäuser: Hütten rund um den Rukatunturi | LaplandStays"
+    },
+    "fallbackDescriptionByLang": {
+      "fi": "Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla. Varaus Lomarenkaalla.",
+      "en": "Ruka cabins and holiday homes: the slope village and the Kuusamo lake country with guests, bedrooms and size for every cabin on one page. Booking on Lomarengas.",
+      "de": "Ferienhäuser und Hütten in Ruka: das Pistendorf und die Seenlandschaft von Kuusamo mit Personenzahl, Schlafzimmern und Größe auf einer Seite. Buchung bei Lomarengas."
+    },
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "ruka"
+    }
+  },
+  {
+    "path": "/cabins/saariselka",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "fallbackTitleByLang": {
+      "fi": "Saariselän mökit: vuokramökit Kaunispään juurella | LaplandStays",
+      "en": "Saariselkä cabins: holiday homes below Kaunispää | LaplandStays",
+      "de": "Saariselkä Ferienhäuser: Hütten am Kaunispää | LaplandStays"
+    },
+    "fallbackDescriptionByLang": {
+      "fi": "Saariselän mökit ja vuokramökit: kylän ja Kakslauttasen suunnan hirsimökit ja huoneistot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
+      "en": "Saariselkä cabins and holiday homes: log cabins and apartments around the village and towards Kakslauttanen with guests, bedrooms and size for every cabin. Booking on Lomarengas.",
+      "de": "Ferienhäuser und Hütten in Saariselkä: Blockhütten und Apartments im Dorf und Richtung Kakslauttanen mit Personenzahl, Schlafzimmern und Größe. Buchung bei Lomarengas."
+    },
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "saariselka"
+    }
+  },
+  {
+    "path": "/cabins/pyha-luosto",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "fallbackTitleByLang": {
+      "fi": "Pyhän ja Luoston mökit: vuokramökit | LaplandStays",
+      "en": "Pyhä and Luosto cabins: holiday homes to rent | LaplandStays",
+      "de": "Pyhä und Luosto Ferienhäuser: Hütten mieten | LaplandStays"
+    },
+    "fallbackDescriptionByLang": {
+      "fi": "Pyhätunturin ja Luoston mökit ja vuokramökit: Pelkosenniemen, Sodankylän ja Kemijärven mökit henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
+      "en": "Pyhätunturi and Luosto cabins and holiday homes in Pelkosenniemi, Sodankylä and Kemijärvi with guests, bedrooms and size for every cabin. Booking on Lomarengas.",
+      "de": "Ferienhäuser und Hütten am Pyhätunturi und in Luosto: Pelkosenniemi, Sodankylä und Kemijärvi mit Personenzahl, Schlafzimmern und Größe für jede Hütte. Buchung bei Lomarengas."
+    },
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "pyha-luosto"
+    }
+  },
+  {
+    "path": "/cabins/rovaniemi",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "fallbackTitleByLang": {
+      "fi": "Rovaniemen mökit: vuokramökit napapiirillä | LaplandStays",
+      "en": "Rovaniemi cabins: holiday homes on the Arctic Circle | LaplandStays",
+      "de": "Rovaniemi Ferienhäuser: Hütten am Polarkreis | LaplandStays"
+    },
+    "fallbackDescriptionByLang": {
+      "fi": "Rovaniemen mökit ja vuokramökit: Ounasjoen ja Kemijoen varren mökit ja erämaakämpät henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
+      "en": "Rovaniemi cabins and holiday homes: riverside cabins and wilderness huts along the Ounasjoki and Kemijoki with guests, bedrooms and size for every cabin. Booking on Lomarengas.",
+      "de": "Ferienhäuser und Hütten in Rovaniemi: Flusshütten und Wildnishütten am Ounasjoki und Kemijoki mit Personenzahl, Schlafzimmern und Größe für jede Hütte. Buchung bei Lomarengas."
+    },
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "rovaniemi"
+    }
+  },
+  {
     "path": "/when-to-go",
     "copyFile": "src/pages/WhenToGo.copy.{lang}.ts"
   },

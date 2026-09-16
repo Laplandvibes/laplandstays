@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import CabinShowcase from './CabinShowcase'
 import type { PageCopy } from '../pages/Cabins.copy.types'
 import enCopy from '../pages/Cabins.copy.en'
-import { useLang, type Lang } from '../i18n/useLang'
+import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 
 /**
  * The real-cabin band on the home page (Vesa 2026-07-26: the actual, bookable
@@ -31,8 +31,13 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
   sv: () => import('../pages/Cabins.copy.sv'),
 }
 
+const AREA_LINK_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen mökit', en: 'All cabins in the area', de: 'Alle Hütten der Region' }
+
 export default function HomeCabinShowcase() {
   const lang = useLang()
+  const to = useLocalePath()
+  const areaLinkLabel = AREA_LINK_LABEL[lang]
+  const areaHrefs = areaLinkLabel ? { levi: to('/cabins/levi'), yllas: to('/cabins/yllas'), ruka: to('/cabins/ruka'), saariselka: to('/cabins/saariselka') } : undefined
   const [copy, setCopy] = useState<PageCopy>(() => cache[lang] ?? cache.en!)
 
   useEffect(() => {
@@ -51,5 +56,5 @@ export default function HomeCabinShowcase() {
     }
   }, [lang])
 
-  return <CabinShowcase copy={copy.ui.showcase} areaNames={copy.ui.areas.map((a) => a.name)} lang={lang} />
+  return <CabinShowcase copy={copy.ui.showcase} areaNames={copy.ui.areas.map((a) => a.name)} lang={lang} areaHrefs={areaHrefs} areaLinkLabel={areaLinkLabel} />
 }

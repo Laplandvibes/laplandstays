@@ -117,6 +117,9 @@ export default function Cabins() {
   const onLomarengas = (sid: string, href: string) => () => trackAffiliateClick('lomarengas', sid, href)
 
   const heroHref = buildLomarengasUrl('lapland', 'article_cabin_partner', lang)
+  // Internal link to /cabins/<area>, the crawlable inventory page (fi/en/de only; OpenSEO 16.9.2026).
+  const AREA_PAGE_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen mökit tällä sivustolla', en: 'All cabins in the area on this site', de: 'Alle Hütten der Region auf dieser Website' }
+  const areaPageLabel = AREA_PAGE_LABEL[lang]
   const ctaHref = buildLomarengasUrl('lapland', 'article_cabin_lapland', lang)
 
   return (
@@ -257,6 +260,15 @@ export default function Cabins() {
                     <span className="truncate">{a.cta}</span>
                     <ArrowRight className="w-3.5 h-3.5 shrink-0" />
                   </a>
+                  {areaPageLabel && (
+                    <Link
+                      to={to(`/cabins/${meta.area}`)}
+                      className="inline-flex max-w-full items-center gap-1.5 text-sm px-4 py-2 mt-2 ml-2 min-h-11 rounded-full border border-pink/30 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
+                    >
+                      <span className="truncate">{areaPageLabel}</span>
+                      <ArrowRight className="w-3.5 h-3.5 shrink-0" />
+                    </Link>
+                  )}
                 </div>
               )
             })}
@@ -265,7 +277,13 @@ export default function Cabins() {
       </section>
 
       {/* Live cabin showcase: real Lomarengas photos from the /_cabins feed API */}
-      <CabinShowcase copy={ui.showcase} areaNames={ui.areas.map((a) => a.name)} lang={lang} />
+      <CabinShowcase
+        copy={ui.showcase}
+        areaNames={ui.areas.map((a) => a.name)}
+        lang={lang}
+        areaHrefs={areaPageLabel ? { levi: to('/cabins/levi'), yllas: to('/cabins/yllas'), ruka: to('/cabins/ruka'), saariselka: to('/cabins/saariselka') } : undefined}
+        areaLinkLabel={areaPageLabel}
+      />
 
       {/* Practical: how to read a listing */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
