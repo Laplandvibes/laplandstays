@@ -39,7 +39,7 @@ const copy: PageCopy = {
         "name": "Qual è il momento migliore per vedere l'aurora boreale da uno chalet in Lapponia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "La stagione aurorale nella Lapponia finlandese va da fine agosto a inizio aprile. I mesi più scuri e freddi, da novembre a febbraio, offrono le migliori possibilità di vedere l'aurora. Le strutture dotate di sveglia aurora La sveglieranno solo nelle notti serene in cui l'aurora compare davvero, senza disturbarLa nelle notti nuvolose nelle notti nuvolose."
+          "text": "La stagione aurorale nella Lapponia finlandese va da fine agosto a inizio aprile. I mesi più scuri e freddi, da novembre a febbraio, offrono le migliori possibilità di vedere l'aurora. Le strutture dotate di sveglia aurora La sveglieranno solo nelle notti serene in cui l'aurora compare davvero, senza disturbarLa nelle notti nuvolose."
         }
       },
       {

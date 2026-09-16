@@ -207,7 +207,7 @@ const ko: DestinationBody = {
   highlights: [
     { title: 'UKK 국립공원이 문 앞에', body: '핀란드에서 두 번째로 큰 국립공원. 사리셀카에서 표시된 스키·하이킹 코스가 시작되어 동쪽 야생 60km까지 이어집니다.' },
     { title: 'Kaunispää 봉우리 전망', body: '마을 위의 봉우리에는 정상까지 도로와 리프트가 연결되어, 깨끗한 지평선의 오로라 뷰와 여름 백야 파노라마를 선사합니다.' },
-    { title: '허스키와 순록 켄넬', body: '마을에서 20분 이내에 자리한 여러 켄넬이 국립공원으로 향하는 반나절·다일정 썰매 투어를 운영합니다.' },
+    { title: '허스키와 순록 켄넬', body: '마을에서 20분 이내에 자리한 여러 켄넬이 국립공원으로 향하는 반나절 및 여러 날의 썰매 투어를 운영합니다.' },
     { title: '오로라 밀도', body: '이 위도에서는 오로라 오벌이 머리 위로 자주 지나갑니다. 더 남쪽보다 훨씬 자주 오로라를 볼 수 있습니다.' },
     { title: '탕카바라 골드 빌리지', body: '차로 30분 남쪽: 라플란드 금광 채굴의 실제 유산이 살아 있으며, 사금 채취 체험과 황금 박물관이 함께 자리합니다.' },
     { title: '한적한 겨울 트레일', body: '트랙 길이는 길지만 이용 밀도는 낮아, 평일 아침에는 수 km의 정비된 트랙을 거의 단독으로 누리실 수 있습니다.' },
@@ -233,7 +233,7 @@ const ko: DestinationBody = {
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '글래스 이글루의 원조. 오로라 성수기는 8–12개월 전 마감.' },
     { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'Kaunispää 봉우리 위. 유리 천장 객실과 사리셀카 최고의 스카이라인 뷰.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: '전 객실 스위트의 디자이너 로지, 풀 사파리 프로그램 포함.' },
-    { name: '사리셀카 전체 숙소', href: HOTEL_SEARCH_FOR('ko').saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.com에서 사리셀카의 모든 숙소를 비교하세요.' },
+    { name: '사리셀카 전체 숙소', href: HOTEL_SEARCH_FOR('ko').saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.com에서 사리셀카의 모든 숙소를 둘러보세요.' },
   ],
   transport: [
     { mode: 'plane', label: '이발로 공항(IVL)에서', detail: '헬싱키발 직항은 연중 운항, 겨울에는 런던 개트윅·파리 등 시즌 노선. 사리셀카 마을까지 남쪽으로 30km / 30분.' },
@@ -259,7 +259,7 @@ const ko: DestinationBody = {
 
 const fr: DestinationBody = {
   tagline: "La porte du parc national Urho Kekkonen, chalets premium aux portes de la dernière vraie nature sauvage d'Europe.",
-  description: `Saariselkä se situe dans la commune d'Inari, à quelque 200 km au nord du cercle polaire, à la limite des arbres. À l'est s'étend le parc national Urho Kekkonen, 2 550 km² de fjälls, rivières et forêts primaires quasi intacts, l'une des plus grandes zones sauvages de l'UE.
+  description: `Saariselkä se situe dans la commune d'Inari, à quelque 200 km au nord du cercle polaire arctique, à la limite des arbres. À l'est s'étend le parc national Urho Kekkonen, 2 550 km² de fjälls, rivières et forêts primaires quasi intacts, l'une des plus grandes zones sauvages de l'UE.
 
 Le village est petit et se parcourt à pied, autour de quelques hôtels, restaurants et pistes de ski. Les chalets premium se déploient le long de la route d'Ivalo et au bord du parc national. La situation compte : on peut sortir de chez soi pour une après-midi de traîneau à huskys et rentrer le même soir pour un sauna privatif sous les aurores.`,
   facts: [
@@ -314,7 +314,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
   dayPlan: [
     { day: '01', title: 'Arrivée · igloo de verre', body: 'IVL en après-midi, transfert 30 min vers le sud, check-in à Kakslauttanen / Star Arctic / Muotka. Sauna, dîner, réveil aurores armé.' },
     { day: '02', title: 'Raquettes dans le parc UKK', body: 'Sortie raquettes guidée d\'une demi-journée dans Urho Kekkonen, rivières d\'orpailleurs, crêtes de bouleaux nains. Déjeuner de retour à l\'hébergement, après-midi libre.' },
-    { day: '03', title: 'Journée husky + rennes', body: 'Safari husky le matin depuis le village. Après-midi en traîneau à rennes dans une ferme sámi voisine. Soirée : pêche blanche ou plongeon depuis le sauna, et veille aux aurores par ciel clair.' },
+    { day: '03', title: 'Journée husky + rennes', body: 'Safari en traîneau de huskies le matin depuis le village. Après-midi en traîneau à rennes dans une ferme sámi voisine. Soirée : pêche sur glace ou plongeon depuis le sauna, et veille aux aurores par ciel clair.' },
     { day: '04', title: 'Matinée tranquille · route vers Inari', body: 'Dernière matinée en igloo, route 50 min au nord vers le lac Inari pour une journée culture sámi au musée Siida. Vol du soir depuis IVL ou prolongation avec une nuit à Inari.' },
   ],
   seoTitle: "Igloos de verre et hébergements à Saariselkä, dès 200 €",
@@ -386,10 +386,10 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
 }
 
 const nl: DestinationBody = {
-  tagline: 'De poort naar het Urho Kekkonen-nationaal park, premium cabins aan de rand van de laatste echte wildernis van Europa.',
+  tagline: 'De poort naar het Urho Kekkonen-nationaal park, premium hutten aan de rand van de laatste echte wildernis van Europa.',
   description: `Saariselkä ligt in de gemeente Inari, ruim 200 km ten noorden van de Poolcirkel, op de boomgrens. Naar het oosten strekt zich het Urho Kekkonen-nationaal park uit, 2.550 km² vrijwel onaangeroerd fjäll, rivieren en oerbos, een van de grootste wildernissen van de EU.
 
-Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. Premium cabins liggen langs de weg naar Ivalo en aan de rand van het park. De positie telt: u stapt vanaf de deur in een middag huskysleeën en keert dezelfde avond terug voor een privésauna onder het noorderlicht.`,
+Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. Premium hutten liggen langs de weg naar Ivalo en aan de rand van het park. De positie telt: u stapt vanaf de deur in een middag huskysleeën en keert dezelfde avond terug voor een privésauna onder het noorderlicht.`,
   facts: [
     { label: 'Glasiglo\'s vanaf', value: '€400/nacht' },
     { label: 'Wildernislodges vanaf', value: '€200/nacht' },
@@ -409,7 +409,7 @@ December–maart geeft volledige sneeuwdek en korte, blauw belichte dagen.
 De middernachtzon duurt van eind mei tot ongeveer 20 juli, bijna twee maanden. Juli–augustus is subarctische zomer: wandelen, riviervaren met de kano; vanaf september geen muggen meer.`,
   howToGet: `Vlieg naar Ivalo (IVL), 25 min transfer. Dagelijkse vluchten vanuit Helsinki en seizoensgebonden directe routes vanuit het VK en Centraal-Europa.
 Vanuit Helsinki met de nachttrein naar Rovaniemi + 3 uur rijden, of directe charters in de winter.
-Huurauto aanbevolen, de beste donkere-hemel cabins liggen op een korte rit van de dorpskern.`,
+Huurauto aanbevolen, de beste donkere-hemel hutten liggen op een korte rit van de dorpskern.`,
   stayTypes: [
     'Noorderlichtglascabins aan de rand van UKK, klein, voor twee personen, glazen plafond, geen omgevingslicht.',
     'Houten villa\'s aan de Kakslauttanen-zijde, 6–10 gasten, eigen sauna, houtgestookte open haard, volledige wildernisstilte.',
@@ -471,7 +471,7 @@ const ja: DestinationBody = {
   whenToGo: `8月下旬から4月がオーロラ・シーズンです。10月と2月が最も天候が安定し、空が澄んだ窓です。
 12月から3月は積雪が安定し、青い光に包まれた短い日が続きます。
 白夜は5月下旬から7月20日ごろまで、ほぼ2か月続きます。7〜8月は亜寒帯の夏：ハイキング、川のカヌー、9月までには蚊もいなくなります。`,
-  howToGet: `イヴァロ(IVL)へ。送迎は25分。ヘルシンキから毎日便、冬季にはイギリスや中央ヨーロッパからの季節直行便があります。
+  howToGet: `イヴァロ（IVL）へ。送迎は25分。ヘルシンキから毎日便、冬季にはイギリスや中央ヨーロッパからの季節直行便があります。
 ヘルシンキからはロヴァニエミへの夜行列車+車で3時間、または冬季の直行チャーター便。
 レンタカー推奨。最高の暗い空のキャビン道は、村中心から少し走った先にあります。`,
   stayTypes: [
@@ -494,7 +494,7 @@ const ja: DestinationBody = {
     { name: 'サーリセルカのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').saariselka, sid: 'destination_saariselka_all_search', note: 'Trip.comでサーリセルカの全宿を閲覧できます。' },
   ],
   transport: [
-    { mode: 'plane', label: 'イヴァロ空港(IVL)から', detail: 'ヘルシンキからは通年直行便。冬季はロンドン（ガトウィック）やパリなどから季節便。南へ30km / 30分でサーリセルカ村。' },
+    { mode: 'plane', label: 'イヴァロ空港（IVL）から', detail: 'ヘルシンキからは通年直行便。冬季はロンドン（ガトウィック）やパリなどから季節便。南へ30km / 30分でサーリセルカ村。' },
     { mode: 'bus', label: 'IVL空港バス', detail: '片道15〜20ユーロ・30分・全便に接続。' },
     { mode: 'car', label: 'タクシーまたは事前予約送迎', detail: 'サーリセルカまで40〜60ユーロ。カクスラウッタネンとムオトカの上級プランには専用送迎が含まれます。' },
     { mode: 'train', label: 'ヘルシンキ〜ロヴァニエミ寝台', detail: 'VR夜行でロヴァニエミ（約90ユーロ）、その後バスかレンタカーで4時間。IVL便のゆったりした代替。' },
@@ -502,7 +502,7 @@ const ja: DestinationBody = {
   carRental: {
     href: CARS_FOR('ja').fromIvalo,
     sid: 'destination_saariselka_cars_ivl',
-    airport: 'イヴァロ空港(IVL)で受け取り',
+    airport: 'イヴァロ空港（IVL）で受け取り',
     blurb: 'サーリセルカまで30分・イナリ/イナリ湖サイドトリップに便利',
   },
   dayPlan: [
@@ -517,7 +517,7 @@ const ja: DestinationBody = {
 
 const es: DestinationBody = {
   tagline: 'La puerta al Parque Nacional Urho Kekkonen, cabañas premium al borde del último gran wildernes de Europa.',
-  description: `Saariselkä se sitúa en el municipio de Inari, unos 200 km al norte del Círculo Polar, en el límite del bosque. Al este se extiende el Parque Nacional Urho Kekkonen, 2.550 km² de fells, ríos y bosque primario casi intactos, una de las mayores zonas salvajes de la UE.
+  description: `Saariselkä se sitúa en el municipio de Inari, unos 200 km al norte del Círculo Polar Ártico, en el límite del bosque. Al este se extiende el Parque Nacional Urho Kekkonen, 2.550 km² de fjäll, ríos y bosque primario casi intactos, una de las mayores zonas salvajes de la UE.
 
 El pueblo es pequeño y peatonal, agrupado en torno a unos pocos hoteles, restaurantes y pistas de esquí. Las cabañas premium se reparten a lo largo de la carretera hacia Ivalo y junto al límite del parque. La ubicación importa: puede salir de su puerta a una tarde de mushing y volver para una sauna privada bajo la aurora esa misma noche.`,
   facts: [
@@ -528,7 +528,7 @@ El pueblo es pequeño y peatonal, agrupado en torno a unos pocos hoteles, restau
   ],
   highlights: [
     { title: 'Parque Nacional UKK a la puerta', body: 'Segundo mayor parque nacional de Finlandia. Rutas marcadas de esquí y senderismo salen de Saariselkä y se internan 60 km al este en la naturaleza.' },
-    { title: 'Mirador del fell Kaunispää', body: 'El fell sobre el pueblo tiene carretera y remonte hasta la cima. Auroras con horizonte limpio y panorámicas de sol de medianoche en verano.' },
+    { title: 'Mirador del fjäll Kaunispää', body: 'El fjäll sobre el pueblo tiene carretera y remonte hasta la cima. Auroras con horizonte limpio y panorámicas de sol de medianoche en verano.' },
     { title: 'Granjas de huskys y renos', body: 'Varias granjas activas a 20 min del pueblo organizan salidas en trineo de medio día y de varios días dentro del parque nacional.' },
     { title: 'Densidad de auroras', body: 'A esta latitud, el óvalo auroral pasa por encima con más frecuencia que en destinos más al sur, verá auroras mucho más a menudo que más al sur.' },
     { title: 'Aldea del oro de Tankavaara', body: 'A 30 min en coche al sur: la herencia real de búsqueda de oro de Laponia, con cursos de bateo y el Museo del Oro.' },
@@ -553,7 +553,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Los iglús de cristal originales. Se reservan con 8–12 meses para la mejor aurora.' },
-    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'En el fell Kaunispää, habitaciones con techo de cristal y la mejor línea del pueblo de Saariselkä.' },
+    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'En el fjäll Kaunispää, habitaciones con techo de cristal y la mejor línea del pueblo de Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge de diseño con todas las suites y programa completo de safaris.' },
     { name: 'Todos los alojamientos de Saariselkä', href: HOTEL_SEARCH_FOR('es').saariselka, sid: 'destination_saariselka_all_search', note: 'Consulte todas las propiedades de Saariselkä en Trip.com.' },
   ],
@@ -581,7 +581,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
 
 const ptBR: DestinationBody = {
   tagline: 'A porta de entrada para o Parque Nacional Urho Kekkonen, cabanas premium na borda da última verdadeira região selvagem da Europa.',
-  description: `Saariselkä fica no município de Inari, cerca de 200 km ao norte do Círculo Polar Ártico, na linha das árvores. A leste se estende o Parque Nacional Urho Kekkonen, 2.550 quilômetros quadrados de fells, rios e floresta primária quase intocados, uma das maiores áreas selvagens da UE.
+  description: `Saariselkä fica no município de Inari, cerca de 200 km ao norte do Círculo Polar Ártico, na linha das árvores. A leste se estende o Parque Nacional Urho Kekkonen, 2.550 quilômetros quadrados de fjäll, rios e floresta primária quase intocados, uma das maiores áreas selvagens da UE.
 
 A vila é pequena e percorrível a pé, agrupada em torno de alguns hotéis, restaurantes e pistas de esqui. As cabanas premium ficam ao longo da estrada para Ivalo e à beira do parque. A localização importa: você pode sair da porta para uma tarde de trenó com huskies e voltar para uma sauna privativa sob a aurora na mesma noite.`,
   facts: [
@@ -592,7 +592,7 @@ A vila é pequena e percorrível a pé, agrupada em torno de alguns hotéis, res
   ],
   highlights: [
     { title: 'Parque Nacional UKK na porta', body: 'Segundo maior parque nacional da Finlândia. Rotas marcadas de esqui e caminhada partem de Saariselkä e seguem 60 km a leste mata adentro.' },
-    { title: 'Mirante do fell Kaunispää', body: 'O fell acima da vila tem estrada e teleférico até o topo. Observação de aurora com horizonte limpo e panoramas de sol da meia-noite no verão.' },
+    { title: 'Mirante do fjäll Kaunispää', body: 'O fjäll acima da vila tem estrada e teleférico até o topo. Observação de aurora com horizonte limpo e panoramas de sol da meia-noite no verão.' },
     { title: 'Canis de huskies e renas', body: 'Vários canis em atividade a 20 min da vila operam passeios de trenó de meio dia e de vários dias dentro do parque nacional.' },
     { title: 'Densidade de auroras', body: 'Nesta latitude, o oval auroral passa por cima com mais frequência do que em destinos mais ao sul, você vê auroras com muito mais frequência do que mais ao sul.' },
     { title: 'Vila do ouro de Tankavaara', body: 'A 30 min de carro ao sul: a herança real da garimpagem de ouro na Lapônia, com cursos de bateia e o Museu do Ouro.' },
@@ -617,7 +617,7 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Os iglus de vidro originais. Reserve com 8–12 meses para o pico da aurora.' },
-    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'No fell Kaunispää, quartos com teto de vidro e o melhor skyline da vila de Saariselkä.' },
+    { name: 'Star Arctic Hotel', propertyQuery: 'Star Arctic Hotel', sid: 'destination_saariselka_star_arctic', note: 'No fjäll Kaunispää, quartos com teto de vidro e o melhor skyline da vila de Saariselkä.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_saariselka_muotka', note: 'Lodge de design com todas as suítes e programa completo de safáris.' },
     { name: 'Todas as hospedagens de Saariselkä', href: HOTEL_SEARCH_FOR('pt-BR').saariselka, sid: 'destination_saariselka_all_search', note: 'Veja todas as propriedades de Saariselkä no Trip.com.' },
   ],

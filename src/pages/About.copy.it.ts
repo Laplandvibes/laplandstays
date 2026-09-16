@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Chi siamo",
     "h1": "La vera Lapponia, tariffe verificate",
-    "heroAlt": "Fell innevati della Lapponia al tramonto invernale, abeti sotto la spessa neve tykky in una luce rosa pastello",
+    "heroAlt": "Fjäll innevati della Lapponia al tramonto invernale, abeti sotto la spessa neve tykky in una luce rosa pastello",
     "intro": "LaplandStays è la directory di alloggi che il gestore desiderava esistesse quando gli amici chiedevano dove dormire.",
     "missionEyebrow": "Perché esiste",
     "missionH2": "Una guida onesta su dove dormire in Lapponia",
@@ -56,7 +56,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Dettaglio locale",
-        "body": "Tariffe bus da KTT (8 €), IVL (15 €), RVN (7 €). Quali fjell hanno ski-in/ski-out, quali laghi guardano a nord per l'orizzonte aurora, quali mesi esauriscono 12 mesi prima. Il tipo di dettaglio che Le racconterebbe un amico di Rovaniemi."
+        "body": "Tariffe bus da KTT (8 €), IVL (15 €), RVN (7 €). Quali fjäll hanno ski-in/ski-out, quali laghi guardano a nord per l'orizzonte aurora, quali mesi esauriscono 12 mesi prima. Il tipo di dettaglio che Le racconterebbe un amico di Rovaniemi."
       }
     ],
     "ctaH2": "Pronti quando vuole",

@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Sobre",
     "h1": "A Lapônia real, tarifas verificadas",
-    "heroAlt": "Fells nevados da Lapônia ao pôr do sol de inverno, abetos sob a espessa neve tykky em luz rosa pastel",
+    "heroAlt": "Fjäll nevados da Lapônia ao pôr do sol de inverno, abetos sob a espessa neve tykky em luz rosa pastel",
     "intro": "LaplandStays é o diretório de hospedagem que o editor queria que existisse quando os amigos perguntavam onde dormir.",
     "missionEyebrow": "Por que isso existe",
     "missionH2": "Um guia honesto sobre onde dormir na Lapônia",
@@ -56,7 +56,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Detalhe local",
-        "body": "Preços de ônibus a partir de KTT (8 €), IVL (15 €), RVN (7 €). Quais fells têm ski-in/ski-out, quais lagos voltam pro norte pra horizontes de aurora, quais meses esgotam com 12 meses de antecedência. Tipo de detalhe que um amigo de Rovaniemi mencionaria."
+        "body": "Preços de ônibus a partir de KTT (8 €), IVL (15 €), RVN (7 €). Quais fjäll têm ski-in/ski-out, quais lagos voltam pro norte pra horizontes de aurora, quais meses esgotam com 12 meses de antecedência. Tipo de detalhe que um amigo de Rovaniemi mencionaria."
       }
     ],
     "ctaH2": "Pronto quando você estiver",

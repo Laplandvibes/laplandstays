@@ -8,12 +8,12 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "À propos",
     "h1": "La vraie Laponie, tarifs vérifiés",
-    "heroAlt": "Fjells enneigés de Laponie au coucher de soleil hivernal, épicéas sous une épaisse neige tykky dans une lumière rose pastel",
+    "heroAlt": "Fjälls enneigés de Laponie au coucher de soleil hivernal, épicéas sous une épaisse neige tykky dans une lumière rose pastel",
     "intro": "LaplandStays est l'annuaire d'hébergements dont l'opérateur rêvait quand des amis lui demandaient où loger.",
     "missionEyebrow": "Pourquoi ce site existe",
     "missionH2": "Un guide honnête sur où dormir en Laponie",
     "missionP1": "La plupart des annuaires d'hébergements en Laponie en ligne inventent des prix (« à partir de 99 €/nuit » pour une adresse qui n'a pas affiché ce tarif depuis six ans), masquent les mentions d'affiliation ou recommandent toujours les cinq mêmes resorts en pilote automatique. LaplandStays est une correction, un petit guide centré sur des adresses nommées, qui revérifie les tarifs à chaque saison et vous dit quand une chambre est complète 12 mois à l'avance au lieu de prétendre le contraire.",
-    "missionP2": "C'est un média éditorial, pas une plateforme de réservation. Quand vous cliquez vers l'un des partenaires de réservation, le contrat se noue entre vous et eux, réservations et paiements sont traités chez eux. Une commission d'affiliation est perçue sur les réservations passées via ces liens, mais le taux est similaire dans tout le programme partenaires, ce qui n'a donc aucune influence sur ce qui est recommandé.",
+    "missionP2": "C'est un média éditorial, pas une plateforme de réservation. Quand vous cliquez vers l'un des partenaires de réservation, le contrat se noue entre vous et eux, réservations et paiements sont traités chez eux. Une commission d'affiliation est perçue sur les réservations passées via ces liens, mais le taux est similaire dans tout le programme partenaire, ce qui n'a donc aucune influence sur ce qui est recommandé.",
     "opEyebrow": "Opérateur",
     "opH2": "LaPeso Oy",
     "opCards": [
@@ -52,7 +52,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Cadre « idéal pour / à éviter si »",
-        "body": "Les igloos de verre ne sont pas pour les groupes. Les chalets de ski ne sont pas pour les voyageurs venus uniquement pour l'aurore. Chaque catégorie est cadrée par à qui elle s'adresse et à qui non, plutôt que de tout vendre à tout le monde."
+        "body": "Les igloos de verre ne sont pas pour les groupes. Les chalets de ski ne sont pas pour les voyageurs venus uniquement pour l'aurore. Chaque catégorie est définie par les voyageurs auxquels elle convient, et ceux auxquels elle ne convient pas, plutôt que de tout vendre à tout le monde."
       },
       {
         "title": "Détail local",

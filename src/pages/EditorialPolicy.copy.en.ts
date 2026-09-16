@@ -31,7 +31,7 @@ const copy: PageCopy = {
     ],
     "sourcesEyebrow": "Where the data comes from",
     "sourcesH2": "Sources cited",
-    "sourcesLead": "Affiliate vs editorial: an affiliate commission is earned on the first four sources, none on the last three. That distinction never changes which source readers are sent to, it changes which one is flagged as paid.",
+    "sourcesLead": "Affiliate vs editorial: an affiliate commission is earned on the first four sources, none on the last three. That distinction never changes which source readers are sent to; it changes which one is flagged as paid.",
     "sources": [
       {
         "label": "Sembo & Trip.com (hotel partners)",

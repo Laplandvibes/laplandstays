@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "Wat kost een verblijf in Lapland met een beperkt budget?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lapland-hotels en huttenketens beginnen rond €100 per nacht. Lapland Hotels exploiteert vestigingen in Levi, Ylläs, Saariselkä en Rovaniemi tegen deze instapprijs. Harriniva in Muonio start rond €150. Noorderlichtcabins bij Apukka Resort, Arctic SnowHotel en vergelijkbare accommodaties beginnen vanaf ongeveer €150 per nacht buiten het hoogseizoen."
+          "text": "Lapland-hotels en huttenketens beginnen rond €100 per nacht. Lapland Hotels exploiteert vestigingen in Levi, Ylläs, Saariselkä en Rovaniemi tegen deze instapprijs. Harriniva in Muonio start rond €150. Noorderlichthutten bij Apukka Resort, Arctic SnowHotel en vergelijkbare accommodaties beginnen vanaf ongeveer €150 per nacht buiten het hoogseizoen."
         }
       },
       {

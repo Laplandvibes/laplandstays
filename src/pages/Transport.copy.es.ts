@@ -26,7 +26,7 @@ const copy: PageCopy = {
     railBullets: [
       'Litera desde ~90 € por persona, cabina con litera desde ~140 €',
       'Transporte de coche disponible, saque su propio coche del tren en Rovaniemi o Kolari',
-      'La terminal de Kolari está a 35 km de Ylläs (mejor puerta para los fells occidentales que Rovaniemi)',
+      'La terminal de Kolari está a 35 km de Ylläs (mejor puerta para los fjäll occidentales que Rovaniemi)',
       'El coche restaurante sirve la cena; el desayuno en destino',
     ],
     railBulletStrong: ['Litera desde ~90 €', 'Transporte de coche', 'Terminal de Kolari', 'Coche restaurante'],
@@ -73,8 +73,8 @@ const copy: PageCopy = {
     airports: [
       { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Todo el año HEL · invierno LHR · CDG · BCN · MAD', busPrice: '7 € · 15 min', taxiPrice: '15–25 €' },
       { code: 'KTT', name: 'Kittilä', serves: 'Levi (15 km) · Ylläs (50 km)', routes: 'Invierno LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '8 € a Levi · 25–30 € a Ylläs', taxiPrice: '25–35 € a Levi · 100–120 € a Ylläs' },
-      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Invierno HEL · LHR · CDG · AMS', busPrice: '15–20 € a Saariselkä · 15 € a Inari', taxiPrice: '40–60 € a Saariselkä · 60–80 € a Inari' },
-      { code: 'ENF', name: 'Enontekiö', serves: 'Fells del extremo norte (Ylläs · Hetta)', routes: 'Invierno limitado solo HEL', busPrice: 'Solo traslado prereservado', taxiPrice: 'Más de 80 €' },
+      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Invierno HEL · LHR · CDG · AMS', busPrice: '15–20 € a Saariselkä · sin autobús regular a Inari, solo traslado reservado', taxiPrice: '40–60 € a Saariselkä · 60–80 € a Inari' },
+      { code: 'ENF', name: 'Enontekiö', serves: 'Fjäll del extremo norte (Ylläs · Hetta)', routes: 'Invierno limitado solo HEL', busPrice: 'Solo traslado prereservado', taxiPrice: 'Más de 80 €' },
     ],
   },
 }

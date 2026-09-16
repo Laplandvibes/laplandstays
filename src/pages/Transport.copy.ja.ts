@@ -71,9 +71,9 @@ const copy: PageCopy = {
     ctaPrimary: 'ラップランドの宿泊を見る',
     ctaSecondary: 'ベストシーズン',
     airports: [
-      { code: 'RVN', name: 'ロヴァニエミ', serves: 'ロヴァニエミ(8km)', routes: '通年HEL · 冬季LHR · CDG · BCN · MAD', busPrice: '7ユーロ · 15分', taxiPrice: '15〜25ユーロ' },
-      { code: 'KTT', name: 'キッティラ', serves: 'レヴィ(15km) · ユッラス(50km)', routes: '冬季LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: 'レヴィへ8ユーロ · ユッラスへ25〜30ユーロ', taxiPrice: 'レヴィへ25〜35ユーロ · ユッラスへ100〜120ユーロ' },
-      { code: 'IVL', name: 'イヴァロ', serves: 'サーリセルカ(30km) · イナリ(40km)', routes: '冬季HEL · LHR · CDG · AMS', busPrice: 'サーリセルカへ15〜20ユーロ · イナリへ15ユーロ', taxiPrice: 'サーリセルカへ40〜60ユーロ · イナリへ60〜80ユーロ' },
+      { code: 'RVN', name: 'ロヴァニエミ', serves: 'ロヴァニエミ（8km）', routes: '通年HEL · 冬季LHR · CDG · BCN · MAD', busPrice: '7ユーロ · 15分', taxiPrice: '15〜25ユーロ' },
+      { code: 'KTT', name: 'キッティラ', serves: 'レヴィ（15km） · ユッラス（50km）', routes: '冬季LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: 'レヴィへ8ユーロ · ユッラスへ25〜30ユーロ', taxiPrice: 'レヴィへ25〜35ユーロ · ユッラスへ100〜120ユーロ' },
+      { code: 'IVL', name: 'イヴァロ', serves: 'サーリセルカ（30km） · イナリ（40km）', routes: '冬季HEL · LHR · CDG · AMS', busPrice: 'サーリセルカへ15〜20ユーロ · イナリへは路線バスなし（要予約の送迎のみ）', taxiPrice: 'サーリセルカへ40〜60ユーロ · イナリへ60〜80ユーロ' },
       { code: 'ENF', name: 'エノンテキエ', serves: '北部の山々（ユッラス · ヘッタ）', routes: '冬季HELのみで限定運航', busPrice: '事前手配の送迎のみ', taxiPrice: '80ユーロ以上' },
     ],
   },

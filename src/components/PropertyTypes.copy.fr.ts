@@ -3,11 +3,11 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'La collection',
     h2: "Quatre types d'hébergement en Laponie",
-    lead: "Iglous en verre, chalets aurores, chalets ski-in ou lodges design en pleine nature, choisissez la nuit pour laquelle vous êtes venu. Tarifs vérifiés, réservation directe, disponibilité pour vos dates.",
+    lead: "Igloos de verre, chalets aurores, chalets ski-in ou lodges design en pleine nature, choisissez la nuit pour laquelle vous êtes venu. Tarifs vérifiés, réservation directe, disponibilité pour vos dates.",
     checkAvailability: 'Vérifier la disponibilité',
     types: [
       {
-        title: 'Iglous en verre & chalets aurores',
+        title: 'Igloos de verre & chalets aurores',
         short: 'Endormez-vous sous les aurores boréales.',
         body: "L'igloo de verre lapon dans sa forme la plus pure, chambres à toit vitré à Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village, conçues pour les voyageurs qui suivent les prévisions d'aurore.",
         priceFrom: 'à partir de 250 €/nuit',

@@ -20,10 +20,10 @@ const copy: PageCopy = {
       },
       {
         "@type": "Question",
-        "name": "Wo übernachtet man in Lappland am besten für die Nordlichter?",
+        "name": "Wo übernachtet man in Lappland am besten für die Polarlichter?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Für eine hohe Polarlicht-Frequenz reisen Sie so weit nördlich wie möglich. Saariselkä und Inari liegen innerhalb des Polarlichtovals und haben rund 200 polarlicht-aktive Nächte pro Jahr. Nordlicht-Hütten in Saariselkä (Kakslauttanen, Muotka, Star Arctic) oder am Inarisee (Nellim, Aurora Village in Ivalo) bieten die klarsten dunklen Horizonte."
+          "text": "Für eine hohe Polarlicht-Frequenz reisen Sie so weit nördlich wie möglich. Saariselkä und Inari liegen innerhalb des Polarlichtovals und haben rund 200 polarlicht-aktive Nächte pro Jahr. Polarlicht-Hütten in Saariselkä (Kakslauttanen, Muotka, Star Arctic) oder am Inarisee (Nellim, Aurora Village in Ivalo) bieten die klarsten dunklen Horizonte."
         }
       },
       {
@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "@type": "Question",
-        "name": "Wann sieht man Nordlichter aus einer Lappland-Hütte am besten?",
+        "name": "Wann sieht man Polarlichter aus einer Lappland-Hütte am besten?",
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Die Polarlicht-Saison in Finnisch-Lappland läuft von Ende August bis Anfang April. Die dunkelsten und kältesten Monate, November bis Februar, bieten die besten Chancen auf Polarlichter. Unterkünfte mit Polarlicht-Weckdienst wecken Sie nur in klaren Nächten, in denen das Polarlicht tatsächlich erscheint, in bewölkten Nächten schlafen Sie durch."

@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "라플란드의 글래스 이글루는 1박에 얼마인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "핀란드 라플란드의 글래스 이글루는 로바니에미의 Nova Skyland에서 1박 약 250유로부터 시작하며, 오로라 성수기의 사리셀카 Kakslauttanen Arctic Resort에서는 1박 1,500유로까지 올라갑니다. Levin Iglut, Star Arctic, 이발로의 Aurora Village 같은 중급 글래스 이글루는 일반적으로 1박 300~700유로 사이입니다."
+          "text": "핀란드 라플란드의 글래스 이글루는 로바니에미의 Nova Skyland에서 1박 약 250유로부터 시작하며, 오로라 성수기에는 사리셀카 Kakslauttanen Arctic Resort에서 1박 1,500유로까지 올라갑니다. Levin Iglut, Star Arctic, 이발로의 Aurora Village 같은 중급 글래스 이글루는 일반적으로 1박 300~700유로 사이입니다."
         }
       },
       {

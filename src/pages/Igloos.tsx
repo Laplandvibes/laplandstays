@@ -72,7 +72,7 @@ const breadcrumbJsonLd = {
 const seo = {
   title: 'Iglumajoitus Lapissa: lasi-iglu, lumi-iglu vai igluhotelli | LaplandStays',
   description:
-    'Iglumajoitus Lapissa vertailussa: lasi-iglun, lumi-iglun ja igluhotellin erot, kohteet Levillä, Saariselällä, Rovaniemellä ja Kilpisjärvellä sekä vinkit siihen, milloin iglu-yö kannattaa varata.',
+    'Lasi-iglu, lumi-iglu vai igluhotelli? Erot, kohteet Levillä, Saariselällä, Rovaniemellä ja Kilpisjärvellä sekä milloin iglu-yö kannattaa varata.',
 }
 
 // ---------- vertailukortit ----------

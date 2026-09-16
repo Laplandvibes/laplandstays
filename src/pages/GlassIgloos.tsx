@@ -25,8 +25,8 @@ import { useLang, useLocalePath } from '../i18n/useLang'
  * Faktat verifioitu kohteiden OMILTA sivuilta 15.8.2026:
  *  - kakslauttanen.fi/prices: "from € 501 /night Winter accommodation including
  *    breakfast & dinner Half Board", "from € 278 /night Flexible Autumn Rate"
- *  - leviniglut.fi: "Nestled 340 metres above sea level … only 10 km from Levi",
- *    "Our resort will open again on 1st of September 2026"
+ *  - leviniglut.fi: Nestled 340 metres above sea level, only 10 km from Levi;
+ *    Our resort will open again on 1st of September 2026
  *  - arcticsnowhotel.fi/en/stay/snowhotel: opens "annually on December 15th",
  *    "temperature … remains between 0°C and -5°C", "high-quality sleeping bags",
  *    "not recommended for children under 5 years old"
@@ -247,7 +247,7 @@ const AREAS: {
     eyebrow: '日程が短い人向け',
     title: 'ロヴァニエミ周辺：空港から近い',
     intro:
-      'ロヴァニエミ空港（RVN）はラップランドで最も路線網の広い空港で、市中心まで10 km・15分、空港バスは片道7ユーロです。日程が短い、サンタクロース村もまわりたい、移動を最小にしたい — この条件ならロヴァニエミ周辺で決めるのが合理的です。',
+      'ロヴァニエミ空港（RVN）はラップランドで最も路線網の広い空港で、市中心まで10 km・15分、空港バスは片道7ユーロです。日程が短い、サンタクロース村もまわりたい、移動を最小にしたい。この条件ならロヴァニエミ周辺で決めるのが合理的です。',
     properties: [
       {
         name: 'Arctic SnowHotel & Glass Igloos（レヒトアホ）',
@@ -324,7 +324,7 @@ const AREAS: {
       },
     ],
     outro:
-      'レヴィのグラスイグルーの目安は1泊350ユーロからです。イグルーは「体験」として値付けされているので、全泊をイグルーにするより、村のホテルやシャレーを拠点にイグルーを1〜2泊だけ組み込む構成が現実的です — 昼はゲレンデ、最後の夜だけガラス屋根の下、という順番です。',
+      'レヴィのグラスイグルーの目安は1泊350ユーロからです。イグルーは「体験」として値付けされているので、全泊をイグルーにするより、村のホテルやシャレーを拠点にイグルーを1〜2泊だけ組み込む構成が現実的です。昼はゲレンデ、最後の夜だけガラス屋根の下、という順番です。',
     ctaLabel: 'レヴィの空室を検索',
     ctaSid: 'stays_ja_igloos_levi',
     ctaDestination: 'Levi, Finland',

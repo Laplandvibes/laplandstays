@@ -4,7 +4,7 @@ import type { PageCopy } from './Cabins.copy.types'
 const copy: PageCopy = {
   seo: {
     title: 'Cabanas na Lapônia: Levi, Ylläs, Ruka e Saariselkä',
-    description: 'Como funcionam as férias em cabana na Finlândia: o que um mökki inclui, como Levi, Ylläs, Ruka e Saariselkä se diferenciam e como buscar cabanas pela Lomarengas.',
+    description: 'Férias em cabana na Finlândia: o que um mökki inclui, como Levi, Ylläs, Ruka e Saariselkä se diferenciam e como buscar cabanas na Lomarengas.',
   },
   ui: {
     adNotice: 'Contém links publicitários · Parceria com a Lomarengas',
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       {
         name: 'Levi',
         tagline: 'A estação completa',
-        body: 'A estação de esqui mais movimentada da Finlândia, com o slalom da Copa do Mundo todo novembro e um vilarejo onde restaurantes, lojas de aluguel e pontos de saída de safáris ficam a pé. As cabanas cercam o fell, então dá para escolher entre locais ski-in perto da gôndola e terrenos mais tranquilos a alguns quilômetros.',
+        body: 'A estação de esqui mais movimentada da Finlândia, com o slalom da Copa do Mundo todo novembro e um vilarejo onde restaurantes, lojas de aluguel e pontos de saída de safáris ficam a pé. As cabanas cercam o fjäll, então dá para escolher entre locais ski-in perto da gôndola e terrenos mais tranquilos a alguns quilômetros.',
         bullets: [
           'Ideal para: quem vem pela primeira vez e grupos que querem restaurantes e vida noturna perto da cabana',
           'Serviços do vilarejo a pé a partir das áreas de cabanas mais próximas',
@@ -59,8 +59,8 @@ const copy: PageCopy = {
       },
       {
         name: 'Ylläs',
-        tagline: 'A terra tranquila dos fells',
-        body: 'As pistas mais longas da Finlândia em um único fell, dois vilarejos discretos (Äkäslompolo e Ylläsjärvi) ao pé dele e o parque nacional Pallas-Yllästunturi começando na borda da rede de trilhas. A vida de cabana aqui é mais esquiar desde a porta e menos après-ski.',
+        tagline: 'A terra tranquila dos fjäll',
+        body: 'As pistas mais longas da Finlândia em um único fjäll, dois vilarejos discretos (Äkäslompolo e Ylläsjärvi) ao pé dele e o parque nacional Pallas-Yllästunturi começando na borda da rede de trilhas. A vida de cabana aqui é mais esquiar desde a porta e menos après-ski.',
         bullets: [
           'Ideal para: esquiadores cross-country, famílias e alérgicos a multidão',
           'Dois vilarejos significam lojas e restaurantes sem o agito de estação',
@@ -72,7 +72,7 @@ const copy: PageCopy = {
       {
         name: 'Ruka',
         tagline: 'O trator do início de temporada',
-        body: 'Ruka abre em outubro e o esqui vai até maio, uma das temporadas mais longas da Finlândia, e o vilarejo compacto junto às pistas mantém tudo perto. Abaixo do fell, a região de lagos de Kuusamo é terreno clássico de cabanas, com o parque nacional de Oulanka e a trilha Karhunkierros por perto para os dias sem esqui.',
+        body: 'Ruka abre em outubro e o esqui vai até maio, uma das temporadas mais longas da Finlândia, e o vilarejo compacto junto às pistas mantém tudo perto. Abaixo do fjäll, a região de lagos de Kuusamo é terreno clássico de cabanas, com o parque nacional de Oulanka e a trilha Karhunkierros por perto para os dias sem esqui.',
         bullets: [
           'Ideal para: esquiar no início e no fim da temporada, trilhas na ruska de outono e pescadores',
           'O aeroporto de Kuusamo fica a uns 25 minutos das pistas',
@@ -84,7 +84,7 @@ const copy: PageCopy = {
       {
         name: 'Saariselkä',
         tagline: 'A base de auroras do extremo norte',
-        body: 'A mais setentrional das quatro grandes, a cerca de 68°N, o que coloca você sob o oval auroral: numa noite limpa, as chances aqui são simplesmente melhores. O vilarejo é compacto, o parque nacional Urho Kekkonen começa logo atrás e os fells se estendem cem quilômetros para o leste sem nada construído à vista.',
+        body: 'A mais setentrional das quatro grandes, a cerca de 68°N, o que coloca você sob o oval auroral: numa noite limpa, as chances aqui são simplesmente melhores. O vilarejo é compacto, o parque nacional Urho Kekkonen começa logo atrás e os fjäll se estendem cem quilômetros para o leste sem nada construído à vista.',
         bullets: [
           'Ideal para: caçadores de aurora, fãs de caminhada com raquetes e natureza selvagem, segundas visitas',
           'O aeroporto de Ivalo fica a uns 30 minutos',
@@ -122,10 +122,10 @@ const copy: PageCopy = {
       { period: 'Dezembro a março', body: 'Inverno pleno: pistas abertas, trilhas preparadas e temporada de auroras no auge. É quando a procura por cabanas é maior, então quanto antes reservar, melhor a escolha.' },
       { period: 'Abril', body: 'Esqui de primavera: dias longos, neve firme e clima de óculos de sol no terraço. Os locais chamam de segredo mais bem guardado do ano de esqui.' },
       { period: 'Junho a agosto', body: 'Luz de verão: caminhadas, pesca e mergulhos do deque da cabana. O sol da meia-noite vai até meados de julho e os fins de tarde seguem claros por boa parte de agosto. As cabanas à beira de lago estão no melhor momento.' },
-      { period: 'Setembro a outubro', body: 'A ruska, a estação das cores de outono: os fells ficam vermelhos e dourados, o ar é cortante e as primeiras auroras voltam aos céus escuros.' },
+      { period: 'Setembro a outubro', body: 'A ruska, a estação das cores de outono: os fjäll ficam vermelhos e dourados, o ar é cortante e as primeiras auroras voltam aos céus escuros.' },
     ],
 
-    ctaH2: 'Escolha primeiro o fell, depois a cabana',
+    ctaH2: 'Escolha primeiro o fjäll, depois a cabana',
     ctaLead: 'Comece pela região que combina com o seu grupo e depois compare as cabanas nas páginas da Lomarengas. A reserva é feita no lomarengas.fi.',
     ctaPrimary: 'Todas as cabanas na Lomarengas',
     ctaSecondary: 'Quando ir',

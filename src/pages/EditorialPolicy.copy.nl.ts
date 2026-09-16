@@ -18,7 +18,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Genoemde accommodaties, geen \"premium 5-sterren\"",
-        "body": "Verwijzingen naar Kakslauttanen Arctic Resort, Levin Iglut, Star Arctic, Aurora Village Ivalo, Wilderness Hotel Nellim en Muotka, Apukka Resort, Arctic TreeHouse Hotel, Nova Skyland, Lapland Hotels (Levi/Ylläs), Harriniva, Northern Lights Ranch, bij naam, met directe links. Geen anonieme \"luxe cabin\" zonder erbij te zeggen welke."
+        "body": "Verwijzingen naar Kakslauttanen Arctic Resort, Levin Iglut, Star Arctic, Aurora Village Ivalo, Wilderness Hotel Nellim en Muotka, Apukka Resort, Arctic TreeHouse Hotel, Nova Skyland, Lapland Hotels (Levi/Ylläs), Harriniva, Northern Lights Ranch, bij naam, met directe links. Geen anonieme \"luxe hut\" zonder erbij te zeggen welke."
       },
       {
         "title": "Onafhankelijk van partners",

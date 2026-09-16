@@ -73,7 +73,7 @@ const copy: PageCopy = {
     airports: [
       { code: 'RVN', name: '罗瓦涅米', serves: '罗瓦涅米（8公里）', routes: '全年HEL · 冬季LHR · CDG · BCN · MAD', busPrice: '7欧元 · 15分钟', taxiPrice: '15–25欧元' },
       { code: 'KTT', name: '基蒂莱', serves: '莱维（15公里） · 于拉斯（50公里）', routes: '冬季LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '到莱维8欧元 · 到于拉斯25–30欧元', taxiPrice: '到莱维25–35欧元 · 到于拉斯100–120欧元' },
-      { code: 'IVL', name: '伊瓦洛', serves: '萨利色尔卡（30公里） · 伊纳里（40公里）', routes: '冬季HEL · LHR · CDG · AMS', busPrice: '到萨利色尔卡15–20欧元 · 到伊纳里15欧元', taxiPrice: '到萨利色尔卡40–60欧元 · 到伊纳里60–80欧元' },
+      { code: 'IVL', name: '伊瓦洛', serves: '萨利色尔卡（30公里） · 伊纳里（40公里）', routes: '冬季HEL · LHR · CDG · AMS', busPrice: '到萨利色尔卡15–20欧元 · 伊纳里无定期巴士，仅限预约接送', taxiPrice: '到萨利色尔卡40–60欧元 · 到伊纳里60–80欧元' },
       { code: 'ENF', name: '埃农泰基厄', serves: '极北山区（于拉斯 · 黑塔）', routes: '冬季仅HEL，班次有限', busPrice: '仅限预订接送', taxiPrice: '80欧元以上' },
     ],
   },

@@ -26,7 +26,7 @@ const copy: PageCopy = {
     railBullets: [
       'Cuccetta da circa €90 a persona, cabina-letto da circa €140',
       'Trasporto auto disponibile, può ritirare la propria vettura a Rovaniemi o Kolari',
-      'Il capolinea di Kolari è a 35 km da Ylläs (porta d\'accesso migliore di Rovaniemi per le fjell occidentali)',
+      'Il capolinea di Kolari è a 35 km da Ylläs (porta d\'accesso migliore di Rovaniemi per le fjäll occidentali)',
       'La carrozza ristorante serve la cena; colazione a destinazione',
     ],
     railBulletStrong: ['Cuccetta da ~€90', 'Trasporto auto', 'Capolinea Kolari', 'Carrozza ristorante'],
@@ -73,8 +73,8 @@ const copy: PageCopy = {
     airports: [
       { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Tutto l\'anno HEL · inverno LHR · CDG · BCN · MAD', busPrice: '€7 · 15 min', taxiPrice: '€15–25' },
       { code: 'KTT', name: 'Kittilä', serves: 'Levi (15 km) · Ylläs (50 km)', routes: 'Inverno LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '€8 per Levi · €25–30 per Ylläs', taxiPrice: '€25–35 Levi · €100–120 Ylläs' },
-      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Inverno HEL · LHR · CDG · AMS', busPrice: '€15–20 Saariselkä · €15 Inari', taxiPrice: '€40–60 Saariselkä · €60–80 Inari' },
-      { code: 'ENF', name: 'Enontekiö', serves: 'Fjell del grande nord (Ylläs · Hetta)', routes: 'Solo HEL invernale, limitato', busPrice: 'Solo transfer prenotato', taxiPrice: 'Oltre €80' },
+      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Inverno HEL · LHR · CDG · AMS', busPrice: '€15–20 per Saariselkä · nessun bus di linea per Inari, solo transfer prenotato', taxiPrice: '€40–60 Saariselkä · €60–80 Inari' },
+      { code: 'ENF', name: 'Enontekiö', serves: 'Fjäll del grande nord (Ylläs · Hetta)', routes: 'Solo HEL invernale, limitato', busPrice: 'Solo transfer prenotato', taxiPrice: 'Oltre €80' },
     ],
   },
 }

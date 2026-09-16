@@ -3,7 +3,7 @@ import type { PageCopy } from './About.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "LaplandStays 소개. 라플란드 숙소 독립 가이드",
-    "description": "핀란드 라플란드의 독립 숙박 가이드. 실명으로 소개하는 숙소, 매 시즌 재확인하는 요금, 투명한 제휴 정책."
+    "description": "핀란드 라플란드의 독립 숙박 가이드입니다. 실명으로 소개하는 숙소, 매 시즌 재확인하는 요금, 투명한 제휴 정책으로 어디에 묵을지 결정하도록 돕습니다."
   },
   "ui": {
     "eyebrow": "소개",

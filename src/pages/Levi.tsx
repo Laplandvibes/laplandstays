@@ -48,7 +48,7 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
     { mode: 'plane', label: 'From Kittilä Airport (KTT)', detail: 'Direct winter flights LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min to Levi village.' },
     { mode: 'bus', label: 'KTT airport bus', detail: '€8 one-way · 25 min · meets every flight.' },
     { mode: 'car', label: 'Taxi or pre-booked transfer', detail: '€25–35 to village. Most premium cabins include private transfer.' },
-    { mode: 'train', label: 'Overnight train to Kolari', detail: 'VR sleeper from Helsinki ~€90, then 1 h transfer to Levi. Scenic alternative in winter.' },
+    { mode: 'train', label: 'Overnight train to Kolari', detail: 'VR sleeper berth from Helsinki ~€90, then 1 h transfer to Levi. Scenic alternative in winter.' },
   ],
   carRental: {
     href: CARS_FOR('en').fromKittila,
@@ -231,7 +231,7 @@ const ko: DestinationBody = {
     { name: 'Inari', href: '/destinations/inari', blurb: '외딴 호수, 사미 유산, 그리고 깊은 북쪽의 하늘.' },
   ],
   anchorProperties: [
-    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '산자락의 글래스 이글루. 성수기 주차는 10–12개월 전 예약됩니다.' },
+    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '산자락의 글래스 이글루. 성수기 주간은 10–12개월 전 예약됩니다.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '레비 봉우리 사면에 위치. 곤돌라가 문 앞에 서고 스키는 마당에서 시작됩니다.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: '레비의 객실과 다양한 크기의 아파트. 전 객실 전용 사우나, 슬로프까지 약 500m.' },
     { name: '레비 전체 숙소', href: HOTEL_SEARCH_FOR('ko').levi, sid: 'destination_levi_all_search', note: 'Trip.com에서 레비의 모든 호텔과 샬레를 한 번에 비교하세요.' },
@@ -260,7 +260,7 @@ const ko: DestinationBody = {
 
 const fr: DestinationBody = {
   tagline: "La plus grande station de ski de Finlande, avec restaurants, safaris et chalets aurores à quelques minutes des remontées.",
-  description: `Levi se situe dans la commune de Kittilä, à environ 170 km au nord du cercle polaire. D'un unique téléski dans les années 1960, la station est devenue la plus grande du pays : 44 pistes, 26 remontées et un cœur de village compact, qui se parcourt à pied.
+  description: `Levi se situe dans la commune de Kittilä, à environ 170 km au nord du cercle polaire arctique. D'un unique téléski dans les années 1960, la station est devenue la plus grande du pays : 44 pistes, 26 remontées et un cœur de village compact, qui se parcourt à pied.
 
 C'est la porte d'entrée la plus simple vers la Laponie haut de gamme : l'aéroport de Kittilä est à 15 minutes, la Coupe du monde FIS de slalom ouvre chaque novembre sur Levi Black, et les chalets premium se dispersent dans le paysage de fjälls environnant, assez près du village pour y dîner, assez loin pour le silence et l'observation des aurores sous un ciel noir.`,
   facts: [
@@ -290,7 +290,7 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
     'Appartements design au cœur du village, restaurants à pied, parfaits pour une première fois en Laponie.',
   ],
   siblings: [
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Fjells jumeaux plus calmes, avec les plus longues pistes de Finlande.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Fjälls jumeaux plus calmes, avec les plus longues pistes de Finlande.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porte de la nature sauvage du parc national UKK.' },
     { name: 'Inari', href: '/destinations/inari', blurb: 'Lac reculé, héritage sámi et ciels du Grand Nord.' },
   ],
@@ -315,7 +315,7 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
   dayPlan: [
     { day: '01', title: 'Arrivée · installation · descente courte', body: 'Atterrissage à KTT en milieu d\'après-midi, transfert au village, location chez Zero Point. Une piste facile avant le coucher du soleil pour tester matériel et jambes.' },
     { day: '02', title: 'Journée ski complète · sauna en soirée', body: 'Les remontées ouvrent à 09:30. Déjeuner au Tuikku, au sommet de la télécabine. Retour avant 15:00, sauna au chalet. Réveil aurores activé avant la nuit.' },
-    { day: '03', title: 'Safari husky + dîner au village', body: 'Safari en ferme de huskys le matin (à réserver deux semaines à l\'avance). Village l\'après-midi, Kammi-Bar pour le renne, Saamen Kammi pour le traditionnel. Par nuit claire, guettez les aurores depuis le sommet de Levi.' },
+    { day: '03', title: 'Safari en traîneau de huskies + dîner au village', body: 'Safari en ferme de huskys le matin (à réserver deux semaines à l\'avance). Village l\'après-midi, Kammi-Bar pour le renne, Saamen Kammi pour le traditionnel. Par nuit claire, guettez les aurores depuis le sommet de Levi.' },
     { day: '04', title: 'Nuit en chalet aurores · journée douce', body: '15 min de route vers le nord jusqu\'à un igloo de verre pour la dernière nuit. Matinée lente, sauna, regard vers le ciel. Vol retour au plus tôt le lendemain matin.' },
   ],
   seoTitle: 'Hébergements à Levi : hôtels et igloos | LaplandStays',
@@ -354,7 +354,7 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
     'Appartamenti di design nel cuore del paese, ristoranti a piedi, ideali per chi visita la Lapponia per la prima volta.',
   ],
   siblings: [
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Fjell gemelli più silenziosi, con le piste più lunghe della Finlandia.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Fjäll gemelli più silenziosi, con le piste più lunghe della Finlandia.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porta verso il parco nazionale UKK e la sua natura selvaggia.' },
     { name: 'Inari', href: '/destinations/inari', blurb: 'Lago remoto, eredità sámi e cieli del profondo Nord.' },
   ],
@@ -387,10 +387,10 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
 }
 
 const nl: DestinationBody = {
-  tagline: 'Het grootste skiresort van Finland, met restaurants, safari\'s en noorderlichtcabins op korte afstand van de liften.',
+  tagline: 'Het grootste skiresort van Finland, met restaurants, safari\'s en noorderlichthutten op korte afstand van de liften.',
   description: `Levi ligt in de gemeente Kittilä, ongeveer 170 km ten noorden van de Poolcirkel. Van één lift in de jaren zestig groeide het uit tot het grootste skiresort van Finland: 44 pistes en 26 liften rond een compact, beloopbaar dorpscentrum.
 
-Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthaven Kittilä ligt op 15 minuten, de FIS-wereldbeker slalom opent elk jaar in november op Levi Black, en premium cabins liggen verspreid in het fjäll-landschap eromheen, dichtbij genoeg om in het dorp te eten, ver genoeg voor stilte en noorderlicht onder een donkere hemel.`,
+Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthaven Kittilä ligt op 15 minuten, de FIS-wereldbeker slalom opent elk jaar in november op Levi Black, en premium hutten liggen verspreid in het fjäll-landschap eromheen, dichtbij genoeg om in het dorp te eten, ver genoeg voor stilte en noorderlicht onder een donkere hemel.`,
   facts: [
     { label: 'Hotels vanaf', value: '€100/nacht' },
     { label: 'Glasiglo\'s vanaf', value: '€350/nacht' },
@@ -398,10 +398,10 @@ Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthave
     { label: 'Pistes', value: '44' },
   ],
   highlights: [
-    { title: 'Ski-in cabins op de Levitunturi', body: 'Chalets op de hellingen van de Levifjäll geven directe toegang tot de gondel en de lange blauwe en rode pistes rond de berg.' },
+    { title: 'Ski-in hutten op de Levitunturi', body: 'Chalets op de hellingen van de Levifjäll geven directe toegang tot de gondel en de lange blauwe en rode pistes rond de berg.' },
     { title: 'Een beloopbaar dorp met serieuze keukens', body: 'Het centrum heeft door Michelin aanbevolen restaurants, rendier-tastingmenu\'s en een dichte cluster cafés, zeldzaam voor een fjäll-bestemming.' },
     { title: 'Volledig safari-aanbod', body: 'Husky\'s, sneeuwscooters, rendierensledes, noorderlichtfotografietours en ijszwemmen vertrekken allemaal vanaf ophaalpunten in het dorp.' },
-    { title: 'Donkere hemelzones voor noorderlicht', body: '15 minuten rijden uit het dorp en de lichtvervuiling valt naar bijna nul. Cabins aan de noordkant van de fjäll hebben de helderste horizon.' },
+    { title: 'Donkere hemelzones voor noorderlicht', body: '15 minuten rijden uit het dorp en de lichtvervuiling valt naar bijna nul. Hutten aan de noordkant van de fjäll hebben de helderste horizon.' },
     { title: 'Zomer-mountainbike en middernachtzon', body: 'In juni en juli gaat de zon niet onder. Levi opent dan gondels en paden voor downhill en cross-country mountainbiken.' },
     { title: 'Wereldbeker slalom-opening', body: 'Elke november opent de FIS Alpine wereldbeker op Levi Black, de vroegste, betrouwbaarste sneeuw van het circuit.' },
   ],
@@ -409,13 +409,13 @@ Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthave
 Eind augustus–oktober brengt de ruska (herfstkleuren) en de eerste noorderlichtvensters zonder drukte.
 Juni–juli is de tijd van de middernachtzon: 24 uur daglicht en een ander soort cabinvakantie.`,
   howToGet: `Vlieg naar Kittilä (KTT). Directe winterroutes vanuit Londen, Parijs, Amsterdam, Frankfurt, Zürich en Helsinki.
-Naar het dorp Levi is het 15 km. De meeste premium cabins inclusief privétransfer.
+Naar het dorp Levi is het 15 km. De meeste premium hutten inclusief privétransfer.
 Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig alternatief.`,
   stayTypes: [
     'Noorderlichtglasvilla\'s, slaapkamers met glazen dak voor horizon-tot-horizon zicht, doorgaans voor 2–4 gasten.',
     'Ski-in chalets op de fjäll, 6–10 gasten, eigen sauna, vaak met buiten-hottub en droogruimte voor materiaal.',
-    'Houten cabins aan het Immeljärvi-meer, rustiger, in het bos, op enkele minuten rijden van het dorp.',
-    'Designer-appartementen in de dorpskern, restaurants op loopafstand, ideaal voor eerste keer Lapland.',
+    'Houten hutten aan het Immeljärvi-meer, rustiger, in het bos, op enkele minuten rijden van het dorp.',
+    'Designer-appartementen in de dorpskern, restaurants op loopafstand, ideaal voor wie voor het eerst naar Lapland komt.',
   ],
   siblings: [
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Rustigere zusterfjälls met de langste pistes van Finland.' },
@@ -431,7 +431,7 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Kittilä (KTT)', detail: 'Directe wintervluchten LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min naar het dorp Levi.' },
     { mode: 'bus', label: 'KTT-luchthavenbus', detail: '€8 enkele reis · 25 min · sluit aan op elke vlucht.' },
-    { mode: 'car', label: 'Taxi of vooraf geboekte transfer', detail: '€25–35 naar het dorp. De meeste premium cabins inclusief privétransfer.' },
+    { mode: 'car', label: 'Taxi of vooraf geboekte transfer', detail: '€25–35 naar het dorp. De meeste premium hutten inclusief privétransfer.' },
     { mode: 'train', label: 'Nachttrein naar Kolari', detail: 'VR-slaaptrein vanuit Helsinki ~€90, daarna 1 uur transfer naar Levi. Schilderachtig winteralternatief.' },
   ],
   carRental: {
@@ -442,11 +442,11 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
   },
   dayPlan: [
     { day: '01', title: 'Aankomst · installeren · korte afdaling', body: 'Land in de namiddag op KTT, transfer naar het dorp, materiaal halen bij Zero Point. Eén makkelijke piste voor zonsondergang om materiaal en benen te testen.' },
-    { day: '02', title: 'Volle skidag · saunaavond', body: 'De liften gaan om 09:30 open. Lunch bij Tuikku boven aan de gondel. Voor 15:00 weer beneden, sauna in de cabin. Noorderlichtalarm aan vóór slapen.' },
+    { day: '02', title: 'Volle skidag · saunaavond', body: 'De liften gaan om 09:30 open. Lunch bij Tuikku boven aan de gondel. Voor 15:00 weer beneden, sauna in de hut. Noorderlichtalarm aan vóór slapen.' },
     { day: '03', title: 'Husky-safari + dorpsdiner', body: 'Husky-farm safari in de ochtend (twee weken vooruit boeken). Middag in het dorp, Kammi-Bar voor rendier, Saamen Kammi voor traditioneel. Bij heldere hemel: noorderlicht spotten vanaf de top van Levi.' },
     { day: '04', title: 'Noorderlichtcabinnacht · rustige dag', body: '15 min noordwaarts rijden naar een glasiglo voor de laatste nacht. Rustige ochtend, sauna, hemel kijken. De volgende ochtend de eerstmogelijke vlucht naar huis.' },
   ],
-  seoTitle: 'Levi-accommodatie: hotels, cabins en iglo\'s | LaplandStays',
+  seoTitle: 'Levi-accommodatie: hotels, hutten en iglo\'s | LaplandStays',
   seoDescription: 'Waar te verblijven in Levi: Lapland Hotels vanaf €100/nacht, glasiglo\'s bij Levin Iglut vanaf €350, ski-in chalets vanaf €200. 15 min van luchthaven Kittilä.',
 }
 
@@ -472,7 +472,7 @@ const ja: DestinationBody = {
   whenToGo: `11月から3月がハイシーズンです。安定した積雪、オーロラの夜、そしてサファリの全プログラムが揃います。
 8月下旬から10月にはルスカ（紅葉）と最初のオーロラの機会が、混雑なく訪れます。
 6月から7月は白夜の季節で、24時間の光のもと、また違ったキャビン滞在が楽しめます。`,
-  howToGet: `キッティラ(KTT)へお越しください。ロンドン、パリ、アムステルダム、フランクフルト、チューリッヒ、ヘルシンキから冬季直行便があります。
+  howToGet: `キッティラ（KTT）へお越しください。ロンドン、パリ、アムステルダム、フランクフルト、チューリッヒ、ヘルシンキから冬季直行便があります。
 レヴィ村までは15km。多くのプレミアムキャビンにはプライベート送迎が含まれます。
 ヘルシンキからはコラリ行き夜行列車と1時間の送迎が、景観を楽しめる代替ルートです。`,
   stayTypes: [
@@ -493,7 +493,7 @@ const ja: DestinationBody = {
     { name: 'レヴィのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').levi, sid: 'destination_levi_all_search', note: 'Trip.comでレヴィのホテルとシャレーをまとめて比較できます。' },
   ],
   transport: [
-    { mode: 'plane', label: 'キッティラ空港(KTT)から', detail: 'LHR · CDG · AMS · FRA · ZRH · HEL からの冬季直行便。レヴィ村まで15km / 15分。' },
+    { mode: 'plane', label: 'キッティラ空港（KTT）から', detail: 'LHR · CDG · AMS · FRA · ZRH · HEL からの冬季直行便。レヴィ村まで15km / 15分。' },
     { mode: 'bus', label: 'KTT空港バス', detail: '片道8ユーロ・25分・全便に接続します。' },
     { mode: 'car', label: 'タクシーまたは事前予約送迎', detail: '村まで25〜35ユーロ。多くのプレミアムキャビンにはプライベート送迎が含まれます。' },
     { mode: 'train', label: 'コラリ行き夜行列車', detail: 'ヘルシンキ発VR寝台車約90ユーロ、その後1時間の送迎でレヴィへ。冬季の景観を楽しむ代替ルートです。' },
@@ -501,7 +501,7 @@ const ja: DestinationBody = {
   carRental: {
     href: CARS_FOR('ja').fromKittila,
     sid: 'destination_levi_cars_ktt',
-    airport: 'キッティラ空港(KTT)で受け取り',
+    airport: 'キッティラ空港（KTT）で受け取り',
     blurb: 'レヴィ村まで15分・冬季はスパイクタイヤ標準装備',
   },
   dayPlan: [
@@ -516,9 +516,9 @@ const ja: DestinationBody = {
 
 const es: DestinationBody = {
   tagline: 'La estación de esquí más grande de Finlandia, con restaurantes, safaris y cabañas con aurora a pocos minutos en coche de los remontes.',
-  description: `Levi se encuentra en el municipio de Kittilä, a unos 170 km al norte del Círculo Polar. De un único remonte en los años sesenta creció hasta convertirse en la mayor estación de esquí de Finlandia: 44 pistas y 26 remontes alrededor de un centro de pueblo compacto y peatonal.
+  description: `Levi se encuentra en el municipio de Kittilä, a unos 170 km al norte del Círculo Polar Ártico. De un único remonte en los años sesenta creció hasta convertirse en la mayor estación de esquí de Finlandia: 44 pistas y 26 remontes alrededor de un centro de pueblo compacto y peatonal.
 
-Es la puerta de entrada más sencilla al turismo de lujo en Laponia: el aeropuerto de Kittilä queda a 15 minutos, la Copa del Mundo FIS de eslalon abre cada noviembre en Levi Black y las cabañas premium se reparten por el paisaje de fells circundante, lo bastante cerca del pueblo para cenar, lo bastante lejos para disfrutar del silencio y observar la aurora bajo un cielo oscuro.`,
+Es la puerta de entrada más sencilla al turismo de lujo en Laponia: el aeropuerto de Kittilä queda a 15 minutos, la Copa del Mundo FIS de eslalon abre cada noviembre en Levi Black y las cabañas premium se reparten por el paisaje de fjäll circundante, lo bastante cerca del pueblo para cenar, lo bastante lejos para disfrutar del silencio y observar la aurora bajo un cielo oscuro.`,
   facts: [
     { label: 'Hoteles desde', value: '100 €/noche' },
     { label: 'Iglús de cristal desde', value: '350 €/noche' },
@@ -527,9 +527,9 @@ Es la puerta de entrada más sencilla al turismo de lujo en Laponia: el aeropuer
   ],
   highlights: [
     { title: 'Cabañas ski-in en Levitunturi', body: 'Los chalets en las laderas del Levifjäll dan acceso directo a la telecabina y a las largas pistas azules y rojas que rodean la montaña.' },
-    { title: 'Un pueblo a pie con cocinas serias', body: 'El centro reúne restaurantes recomendados por Michelin, menús de degustación de reno y un núcleo denso de cafés, poco habitual en un destino de fell.' },
+    { title: 'Un pueblo a pie con cocinas serias', body: 'El centro reúne restaurantes recomendados por Michelin, menús de degustación de reno y un núcleo denso de cafés, poco habitual en un destino de fjäll.' },
     { title: 'Carta completa de safaris', body: 'Huskys, motonieves, trineos de reno, salidas de fotografía de auroras y baño en hielo parten todos desde puntos de recogida dentro del pueblo.' },
-    { title: 'Zonas de cielo oscuro para auroras', body: 'A 15 minutos en coche del pueblo, la contaminación lumínica cae a casi cero. Las cabañas en la cara norte del fell ofrecen el horizonte más limpio.' },
+    { title: 'Zonas de cielo oscuro para auroras', body: 'A 15 minutos en coche del pueblo, la contaminación lumínica cae a casi cero. Las cabañas en la cara norte del fjäll ofrecen el horizonte más limpio.' },
     { title: 'Bicicleta de montaña y sol de medianoche', body: 'En junio y julio el sol no se pone. Levi reabre telecabinas y senderos para descenso y bicicleta de montaña a campo través.' },
     { title: 'Apertura del eslalon de Copa del Mundo', body: 'Cada noviembre, la Copa del Mundo FIS de esquí alpino abre temporada en Levi Black, la nieve más temprana y fiable del circuito.' },
   ],
@@ -541,17 +541,17 @@ El traslado al pueblo de Levi es de 15 km. La mayoría de las cabañas premium i
 Desde Helsinki, el tren nocturno a Kolari y 1 hora de traslado es una alternativa panorámica.`,
   stayTypes: [
     'Villas aurora de cristal, habitaciones con techo de cristal para una vista de horizonte a horizonte, normalmente para 2–4 huéspedes.',
-    'Chalets ski-in en el fell, para 6–10 huéspedes, sauna privada y, a menudo, jacuzzi exterior y secadero de equipo.',
+    'Chalets ski-in en el fjäll, para 6–10 huéspedes, sauna privada y, a menudo, jacuzzi exterior y secadero de equipo.',
     'Cabañas de troncos junto al lago Immeljärvi, entorno forestal más tranquilo, a pocos minutos en coche del pueblo.',
     'Apartamentos de diseño en el centro del pueblo, restaurantes a pie, ideales para una primera vez en Laponia.',
   ],
   siblings: [
-    { name: 'Ylláş', href: '/destinations/yllas', blurb: 'Fells gemelos más tranquilos, con las pistas más largas de Finlandia.' },
+    { name: 'Ylláş', href: '/destinations/yllas', blurb: 'Fjäll gemelos más tranquilos, con las pistas más largas de Finlandia.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Puerta de entrada a la naturaleza salvaje del parque nacional UKK.' },
     { name: 'Inari', href: '/destinations/inari', blurb: 'Lago remoto, herencia sami y cielos del norte profundo.' },
   ],
   anchorProperties: [
-    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglús de cristal en el fell, las semanas punta se reservan con 10–12 meses de antelación.' },
+    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglús de cristal en el fjäll, las semanas punta se reservan con 10–12 meses de antelación.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'En la ladera del fjäll de Levi: el telecabina para en la puerta y se esquía desde el patio.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Habitaciones y apartamentos en Levi, todos con sauna privada, a unos 500 m de las pistas.' },
     { name: 'Todos los alojamientos de Levi', href: HOTEL_SEARCH_FOR('es').levi, sid: 'destination_levi_all_search', note: 'Compare todos los hoteles y chalets de Levi en Trip.com.' },
@@ -582,7 +582,7 @@ const ptBR: DestinationBody = {
   tagline: 'A maior estação de esqui da Finlândia, com restaurantes, safáris e cabanas com aurora a poucos minutos de carro dos teleféricos.',
   description: `Levi fica no município de Kittilä, cerca de 170 km ao norte do Círculo Polar Ártico. De um único teleférico nos anos 1960, cresceu até se tornar a maior estação de esqui da Finlândia: 44 pistas e 26 teleféricos em torno de um centro de vila compacto, que se percorre a pé.
 
-É a porta de entrada mais simples para o turismo de luxo na Lapônia: o aeroporto de Kittilä fica a 15 minutos, a Copa do Mundo FIS de slalom abre a temporada todo novembro em Levi Black e as cabanas premium estão espalhadas pelo entorno dos fells, perto o bastante da vila para jantar, longe o bastante para o silêncio e a observação da aurora sob céu escuro.`,
+É a porta de entrada mais simples para o turismo de luxo na Lapônia: o aeroporto de Kittilä fica a 15 minutos, a Copa do Mundo FIS de slalom abre a temporada todo novembro em Levi Black e as cabanas premium estão espalhadas pelo entorno dos fjäll, perto o bastante da vila para jantar, longe o bastante para o silêncio e a observação da aurora sob céu escuro.`,
   facts: [
     { label: 'Hotéis a partir de', value: '€100/noite' },
     { label: 'Iglus de vidro a partir de', value: '€350/noite' },
@@ -591,10 +591,10 @@ const ptBR: DestinationBody = {
   ],
   highlights: [
     { title: 'Cabanas ski-in em Levitunturi', body: 'Os chalés nas encostas do Levifjäll dão acesso direto à gôndola e às longas pistas azuis e vermelhas que contornam a montanha.' },
-    { title: 'Uma vila a pé com cozinhas de verdade', body: 'O centro reúne restaurantes recomendados pelo Michelin, menus degustação de rena e um adensado de cafés, raro em um destino de fell.' },
+    { title: 'Uma vila a pé com cozinhas de verdade', body: 'O centro reúne restaurantes recomendados pelo Michelin, menus degustação de rena e um adensado de cafés, raro em um destino de fjäll.' },
     { title: 'Cardápio completo de safáris', body: 'Huskies, snowmobiles, trenós puxados por renas, passeios fotográficos de aurora e mergulho em buraco no gelo partem todos de pontos de embarque dentro da vila.' },
-    { title: 'Zonas de céu escuro para aurora', body: '15 minutos de carro fora da vila e a poluição luminosa cai a quase zero. As cabanas na face norte do fell oferecem o horizonte mais limpo.' },
-    { title: 'Mountain bike de fell e sol da meia-noite', body: 'Em junho e julho o sol não se põe. Levi reabre gôndolas e trilhas para downhill e mountain bike cross-country.' },
+    { title: 'Zonas de céu escuro para aurora', body: '15 minutos de carro fora da vila e a poluição luminosa cai a quase zero. As cabanas na face norte do fjäll oferecem o horizonte mais limpo.' },
+    { title: 'Mountain bike de fjäll e sol da meia-noite', body: 'Em junho e julho o sol não se põe. Levi reabre gôndolas e trilhas para downhill e mountain bike cross-country.' },
     { title: 'Abertura do slalom da Copa do Mundo', body: 'Todo novembro, a Copa do Mundo FIS de esqui alpino abre em Levi Black, a neve mais cedo e confiável do circuito.' },
   ],
   whenToGo: `Novembro a março é a alta temporada: neve garantida, noites de aurora e safáris a pleno vapor.
@@ -605,17 +605,17 @@ O traslado até a vila de Levi é de 15 km. A maioria das cabanas premium inclui
 De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa panorâmica.`,
   stayTypes: [
     'Vilas aurora de vidro, quartos com teto de vidro para vista de horizonte a horizonte, em geral para 2–4 hóspedes.',
-    'Chalés ski-in no fell, para 6–10 hóspedes, sauna privativa e, com frequência, hot tub ao ar livre e sala de secagem de equipamentos.',
+    'Chalés ski-in no fjäll, para 6–10 hóspedes, sauna privativa e, com frequência, hot tub ao ar livre e sala de secagem de equipamentos.',
     'Cabanas de tronco à beira do lago Immeljärvi, ambiente florestal mais tranquilo, a poucos minutos de carro da vila.',
     'Apartamentos de design no núcleo da vila, restaurantes a pé, ideais para quem visita a Lapônia pela primeira vez.',
   ],
   siblings: [
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Fells gêmeos mais silenciosos, com as pistas mais longas da Finlândia.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Fjäll gêmeos mais silenciosos, com as pistas mais longas da Finlândia.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Portal para a natureza selvagem do Parque Nacional UKK.' },
     { name: 'Inari', href: '/destinations/inari', blurb: 'Lago remoto, herança sámi e céus do norte profundo.' },
   ],
   anchorProperties: [
-    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglus de vidro no fell, semanas de pico são reservadas com 10–12 meses de antecedência.' },
+    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglus de vidro no fjäll, semanas de pico são reservadas com 10–12 meses de antecedência.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Na encosta do fjäll de Levi: o teleférico para na porta e a esquiada começa no pátio.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Quartos e apartamentos em Levi, todos com sauna privativa, a cerca de 500 m das pistas.' },
     { name: 'Todas as hospedagens de Levi', href: HOTEL_SEARCH_FOR('pt-BR').levi, sid: 'destination_levi_all_search', note: 'Compare todos os hotéis e chalés de Levi no Trip.com.' },

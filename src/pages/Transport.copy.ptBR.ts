@@ -26,7 +26,7 @@ const copy: PageCopy = {
     railBullets: [
       'Cama em vagão compartilhado a partir de ~90 € por pessoa, cabine privativa a partir de ~140 €',
       'Transporte de carro disponível, desembarque seu próprio carro em Rovaniemi ou Kolari',
-      'Terminal Kolari fica a 35 km de Ylläs (porta melhor para os fells ocidentais do que Rovaniemi)',
+      'Terminal Kolari fica a 35 km de Ylläs (porta melhor para os fjäll ocidentais do que Rovaniemi)',
       'Vagão restaurante serve o jantar; café da manhã no destino',
     ],
     railBulletStrong: ['Cama compartilhada ~90 €', 'Transporte de carro', 'Terminal Kolari', 'Vagão restaurante'],
@@ -73,8 +73,8 @@ const copy: PageCopy = {
     airports: [
       { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Ano todo HEL · inverno LHR · CDG · BCN · MAD', busPrice: '7 € · 15 min', taxiPrice: '15–25 €' },
       { code: 'KTT', name: 'Kittilä', serves: 'Levi (15 km) · Ylläs (50 km)', routes: 'Inverno LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '8 € para Levi · 25–30 € para Ylläs', taxiPrice: '25–35 € para Levi · 100–120 € para Ylläs' },
-      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Inverno HEL · LHR · CDG · AMS', busPrice: '15–20 € para Saariselkä · 15 € para Inari', taxiPrice: '40–60 € para Saariselkä · 60–80 € para Inari' },
-      { code: 'ENF', name: 'Enontekiö', serves: 'Fells do extremo norte (Ylläs · Hetta)', routes: 'Inverno limitado, somente HEL', busPrice: 'Apenas transfer reservado com antecedência', taxiPrice: 'Acima de 80 €' },
+      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Inverno HEL · LHR · CDG · AMS', busPrice: '15–20 € para Saariselkä · sem ônibus regular para Inari, só transfer reservado', taxiPrice: '40–60 € para Saariselkä · 60–80 € para Inari' },
+      { code: 'ENF', name: 'Enontekiö', serves: 'Fjäll do extremo norte (Ylläs · Hetta)', routes: 'Inverno limitado, somente HEL', busPrice: 'Apenas transfer reservado com antecedência', taxiPrice: 'Acima de 80 €' },
     ],
   },
 }

@@ -8,12 +8,12 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Acerca de",
     "h1": "La Laponia real, tarifas verificadas",
-    "heroAlt": "Fells nevados de Laponia al atardecer invernal, abetos cubiertos de espesa nieve tykky bajo una luz rosa pastel",
+    "heroAlt": "Fjäll nevados de Laponia al atardecer invernal, abetos cubiertos de espesa nieve tykky bajo una luz rosa pastel",
     "intro": "LaplandStays es el directorio de alojamiento que el editor deseaba que existiera cuando los amigos preguntaban dónde dormir.",
     "missionEyebrow": "Por qué existe",
     "missionH2": "Una guía honesta sobre dónde dormir en Laponia",
-    "missionP1": "La mayoría de los listados de alojamiento en Laponia inventan precios (\"desde 99 €/noche\" en un alojamiento que no ofrece ese precio desde hace seis años), esconden las disclosures de afiliación o recomiendan los mismos cinco resorts en automático. LaplandStays es un correctivo, una guía pequeña, centrada en propiedades nombradas, que reverifica las tarifas cada temporada y avisa cuando algo está agotado con 12 meses de antelación, en lugar de fingir lo contrario.",
-    "missionP2": "Es una publicación editorial, no una plataforma de reservas. Cuando hace clic a uno de los socios de reserva, el contrato es entre usted y ellos, reservas y pagos se gestionan allí. Se gana una comisión de afiliación por las reservas hechas a través de estos enlaces, pero la tasa es similar en todo el programa de socios, así que no influye en lo que se recomienda.",
+    "missionP1": "La mayoría de los listados de alojamiento en Laponia inventan precios (\"desde 99 €/noche\" en un alojamiento que no ofrece ese precio desde hace seis años), esconden las divulgaciones de afiliación o recomiendan los mismos cinco resorts en automático. LaplandStays es un correctivo, una guía pequeña, centrada en propiedades nombradas, que reverifica las tarifas cada temporada y avisa cuando algo está agotado con 12 meses de antelación, en lugar de fingir lo contrario.",
+    "missionP2": "Es una publicación editorial, no una plataforma de reservas. Cuando hace clic en uno de los socios de reserva, el contrato es entre usted y ellos, reservas y pagos se gestionan allí. Se gana una comisión de afiliación por las reservas hechas a través de estos enlaces, pero la tasa es similar en todo el programa de socios, así que no influye en lo que se recomienda.",
     "opEyebrow": "Operador",
     "opH2": "LaPeso Oy",
     "opCards": [
@@ -56,7 +56,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Detalle local",
-        "body": "Precios de bus desde KTT (8 €), IVL (15 €), RVN (7 €). Qué fells tienen ski-in/ski-out, qué lagos miran al norte para el horizonte de la aurora, qué meses se agotan con 12 meses de antelación. Detalles que mencionaría un amigo de Rovaniemi."
+        "body": "Precios de bus desde KTT (8 €), IVL (15 €), RVN (7 €). Qué fjäll tienen ski-in/ski-out, qué lagos miran al norte para el horizonte de la aurora, qué meses se agotan con 12 meses de antelación. Detalles que mencionaría un amigo de Rovaniemi."
       }
     ],
     "ctaH2": "Listo cuando lo esté",

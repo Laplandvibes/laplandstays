@@ -209,7 +209,7 @@ const ko: DestinationBody = {
     { title: 'SIIDA 사미 박물관과 자연센터', body: '북유럽에서 사미 문화를 만나는 최고의 입문지. 원주민의 역사, 언어, Sápmi의 생태가 한 건물 안에 모여 있습니다.' },
     { title: '열린 수면 위의 오로라', body: '호반은 180° 시야가 막힘 없이 트인 드문 장소입니다. 겨울에는 얼어붙은 수면에 반사되는 오로라가 관측을 더욱 극적으로 만듭니다.' },
     { title: '사미 식문화 전통', body: 'poronkäristys(볶은 순록), 차갑게 훈제한 북극 곤들매기, 클라우드베리 디저트 등. 주변 자연에서 얻은 재료가 그대로 식탁에 오릅니다.' },
-    { title: '툰드라 산악 트레킹', body: '이나리 북쪽으로는 수목한계선이 옅어지며 라플란드 툰드라가 펼쳐집니다. Kevo와 Utsjoki를 가로지르는 여름 트레킹은 유럽에서 가장 외딴 영역에 가깝습니다.' },
+    { title: '툰드라 산악 트레킹', body: '이나리 북쪽으로는 수목한계선이 옅어지며 라플란드 봉우리 지대가 펼쳐집니다. Kevo와 Utsjoki를 가로지르는 여름 트레킹은 유럽에서 가장 외딴 영역에 가깝습니다.' },
     { title: '겨울 허스키와 스노모빌 접근성', body: '이나리 인근 켄넬들은 얼어붙은 Inarijärvi 위로 호수 빙판 썰매 코스를 운영합니다. 광활하고 나무 없는 평원에서 유난히 빠르고 고요합니다.' },
   ],
   whenToGo: `9월 말–4월 초가 오로라 시즌입니다. 이 위도에서는 오로라 오벌이 정수리 위에 자주 머무릅니다.
@@ -336,7 +336,7 @@ Questo è il profondo Nord. Gli chalet sono davvero isolati: dieci minuti d\'aut
     { title: 'Esclusività del lago Inari', body: 'Le strutture sulla riva sono volutamente distanti. Pontili privati, fori per la pesca sul ghiaccio in inverno, in estate crociere in barca lungo l\'isola sacra di Ukonkivi (lo sbarco non è più consentito).' },
     { title: 'Museo e centro natura SIIDA', body: 'La migliore introduzione alla cultura sámi nei Paesi nordici, storia indigena, lingua ed ecologia del Sápmi, in un solo edificio.' },
     { title: 'Aurora su acqua aperta', body: 'La sponda del lago offre una rara fascia di 180° senza ostacoli. In inverno i riflessi dell\'aurora sul ghiaccio rendono l\'osservazione inusualmente teatrale.' },
-    { title: 'Tradizioni gastronomiche sámi', body: 'Le cucine locali servono poronkäristys (renna saltata), salmerino affumicato a freddo, dolci ai lamponi artici, ingredienti dal territorio intorno a Lei.' },
+    { title: 'Tradizioni gastronomiche sámi', body: 'Le cucine locali servono poronkäristys (renna saltata), salmerino affumicato a freddo, dolci alla mora artica, ingredienti dal territorio intorno a Lei.' },
     { title: 'Trekking sui fjäll della tundra', body: 'A nord di Inari il limite del bosco si dirada nei fjäll aperti della Lapponia. I trekking estivi attraverso Kevo e Utsjoki sono fra i più remoti d\'Europa.' },
     { title: 'Husky e motoslitta in inverno', body: 'Gli allevamenti attorno a Inari propongono percorsi su slitta sul ghiaccio dell\'Inarijärvi, distesa aperta, niente alberi, sorprendentemente rapidi e silenziosi.' },
   ],
@@ -386,19 +386,19 @@ Per viaggi più lunghi nella natura, la strada prosegue fino a Utsjoki e al conf
 }
 
 const nl: DestinationBody = {
-  tagline: 'Sámi-hoofdstad, het op twee na grootste meer van Finland en de meest afgelegen cabins van Fins Lapland.',
+  tagline: 'Sámi-hoofdstad, het op twee na grootste meer van Finland en de meest afgelegen hutten van Fins Lapland.',
   description: `Inari is de hoofdstad van de Finse Sámi-cultuur en in oppervlakte de grootste gemeente van Finland. Het Inari-meer (Inarijärvi) beslaat 1.040 km² met 3.000 eilanden, het op twee na grootste meer van het land en een van de helderste wateren van Europa.
 
-Dit is het diepe noorden. Cabins liggen hier oprecht afgelegen: tien minuten rijden vanaf het dorp brengt u op een oever waar 180° horizon geen ander licht laat zien. Het SIIDA-museum in het dorp Inari verankert het Sámi-erfgoed, en de wildernis eromheen reikt tot de toendrahoogvlaktes bij de grens van Utsjoki.`,
+Dit is het diepe noorden. Hutten liggen hier oprecht afgelegen: tien minuten rijden vanaf het dorp brengt u op een oever waar 180° horizon geen ander licht laat zien. Het SIIDA-museum in het dorp Inari verankert het Sámi-erfgoed, en de wildernis eromheen reikt tot de toendrahoogvlaktes bij de grens van Utsjoki.`,
   facts: [
-    { label: 'Cabins aan het meer vanaf', value: '€200/nacht' },
+    { label: 'Hutten aan het meer vanaf', value: '€200/nacht' },
     { label: 'Aurora Village vanaf', value: '€300/nacht' },
     { label: 'Oppervlakte meer', value: '1.040 km²' },
     { label: 'Dichtstbijzijnde luchthaven', value: 'IVL 40 min' },
   ],
   highlights: [
     { title: 'Exclusiviteit van het Inari-meer', body: 'Accommodaties aan de oever liggen bewust ver uit elkaar. Eigen steigers, ijsvisgaten in de winter, in de zomer boottochten langs het heilige eiland Ukonkivi (aan land gaan is niet meer toegestaan).' },
-    { title: 'SIIDA Sámi-museum en natuurcentrum', body: 'De beste inleiding op de Sámi-cultuur in de Noord-Europese landen, inheemse geschiedenis, taal en ecologie van Sápmi, alles in één gebouw.' },
+    { title: 'SIIDA Sámi-museum en natuurcentrum', body: 'Een van de beste inleidingen tot de Sámi-cultuur in de Noord-Europese landen, inheemse geschiedenis, taal en ecologie van Sápmi, alles in één gebouw.' },
     { title: 'Noorderlicht boven open water', body: 'De meeroever biedt 180° onbelemmerde hemel, zeldzaam. \'s Winters maken noorderlichtspiegelingen op het ijs de waarneming buitengewoon dramatisch.' },
     { title: 'Sámi-eettradities', body: 'Lokale keukens serveren poronkäristys (gebakken rendier), koudgerookte beekridder, kruipbraamdesserts, ingrediënten uit het land om u heen.' },
     { title: 'Wandelen op toendra-fjäll', body: 'Ten noorden van Inari dunt de boomgrens uit tot open Laplands fjäll. Zomerwandelingen door Kevo en Utsjoki zijn zo afgelegen als Europa toelaat.' },
@@ -408,12 +408,12 @@ Dit is het diepe noorden. Cabins liggen hier oprecht afgelegen: tien minuten rij
 Half juni–eind juli is middernachtzon: zes weken lang gaat de zon niet onder.
 Half augustus brengt de korte, intense ruska, rood en oranje over de fjälls.`,
   howToGet: `Vlieg naar Ivalo (IVL), 40 min transfer. Directe Helsinki–Ivalo dagelijks, seizoensgebonden charters vanuit het VK en Centraal-Europa.
-Huur een auto, de mooiste cabins liggen op zijwegen aan de oever en vragen om eigen vervoer.
+Huur een auto, de mooiste hutten liggen op zijwegen aan de oever en vragen om eigen vervoer.
 Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.`,
   stayTypes: [
-    'Houten cabins aan de Inarijärvi, 4–6 gasten, privé-oever, houtgestookte sauna, ijsvistuig.',
+    'Houten hutten aan de Inarijärvi, 4–6 gasten, privé-oever, houtgestookte sauna, ijsvistuig.',
     'Afgelegen wildernis-villa\'s, off-grid gevoel met volledig comfort, uren ongerept bos in elke richting.',
-    'Cabins van Sámi-families, klein, persoonlijk, vaak met rendierherderserfgoed en verhalen ter plekke.',
+    'Hutten van Sámi-families, klein, persoonlijk, vaak met rendierherderserfgoed en verhalen ter plekke.',
     'Noorderlichtglasretreats ten noorden van Inari, speciaal ontworpen om de hemel op hoge breedte te bekijken.',
   ],
   siblings: [
@@ -423,7 +423,7 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
   ],
   anchorProperties: [
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Aan de stille oostoever van het Inari-meer, ver van dorpslichten. Vissen, sauna\'s en noorderlichttochten op het meerijs.' },
-    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min van luchthaven Ivalo, cabins met glazen dak, noorderlichtwekservice.' },
+    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min van luchthaven Ivalo, hutten met glazen dak, noorderlichtwekservice.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Door architecten ontworpen all-suite lodge tussen Inari en Saariselkä.' },
     { name: 'Alle Inari-accommodaties', href: HOTEL_SEARCH_FOR('nl').inari, sid: 'destination_inari_all_search', note: 'Bekijk elke Inari-accommodatie op Trip.com.' },
   ],
@@ -437,16 +437,16 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
     href: CARS_FOR('nl').fromIvalo,
     sid: 'destination_inari_cars_ivl',
     airport: 'Ophalen op luchthaven Ivalo (IVL)',
-    blurb: '40 min naar het dorp Inari · onmisbaar voor Nellim en cabins aan het meer',
+    blurb: '40 min naar het dorp Inari · onmisbaar voor Nellim en hutten aan het meer',
   },
   dayPlan: [
-    { day: '01', title: 'Landing · cabin aan het meer', body: 'IVL-vlucht rond het middaguur, noordwaarts naar het dorp Inari of door naar Nellim. Installeren, sauna, wandeling langs het water. Na twee uur is de Inari-stilte tot u doorgedrongen.' },
+    { day: '01', title: 'Landing · hut aan het meer', body: 'IVL-vlucht rond het middaguur, noordwaarts naar het dorp Inari of door naar Nellim. Installeren, sauna, wandeling langs het water. Na twee uur is de Inari-stilte tot u doorgedrongen.' },
     { day: '02', title: 'Sámi-cultuur · Siida-museum', body: 'Ochtend in Siida (het inheemse Sámi-museum, de meest complete Sámi-collectie van Noord-Europa). Lunch in het dorp Inari. Middag ijsvissen of een begeleide boswandeling.' },
-    { day: '03', title: 'Sneeuwscootertocht op het Inari-meer', body: 'Met gids per sneeuwscooter het bevroren meer op, met zicht op het heilige Ukko-eiland (het eiland zelf betreedt u niet). \'s Winters al donker om 14:30, terug in de cabin voor het lange noorderlichtvenster.' },
+    { day: '03', title: 'Sneeuwscootertocht op het Inari-meer', body: 'Met gids per sneeuwscooter het bevroren meer op, met zicht op het heilige eiland Ukonkivi (het eiland zelf betreedt u niet). \'s Winters al donker om 14:30, terug in de hut voor het lange noorderlichtvenster.' },
     { day: '04', title: 'Rustige vertrekdag', body: 'Bezoek rendierboerderij, laatste sauna, terug naar IVL. Verleng zo mogelijk met twee dagen, Inari beloont traagheid.' },
   ],
-  seoTitle: 'Inari-accommodatie: cabins aan het meer en aurora-villa\'s',
-  seoDescription: 'Waar te verblijven in Inari: houten cabins aan het meer vanaf €200/nacht, Aurora Village en Nellim Wilderness Hotel vanaf €300. Privé-oevers, Sámi-erfgoed.',
+  seoTitle: 'Inari-accommodatie: hutten aan het meer en aurora-villa\'s',
+  seoDescription: 'Waar te verblijven in Inari: houten hutten aan het meer vanaf €200/nacht, Aurora Village en Nellim Wilderness Hotel vanaf €300. Privé-oevers, Sámi-erfgoed.',
 }
 
 const ja: DestinationBody = {
@@ -471,7 +471,7 @@ const ja: DestinationBody = {
   whenToGo: `9月下旬〜4月初旬がオーロラ・シーズン。この緯度ではオーロラ帯がしばしば真上に位置します。
 6月中旬〜7月下旬は白夜：およそ6週間、太陽は沈みません。
 8月中旬には短く濃密なルスカ（紅葉）が訪れ、山岳一面が赤と橙に染まります。`,
-  howToGet: `イヴァロ(IVL)へ。送迎は40分。ヘルシンキ〜イヴァロは毎日運航、冬季には英国・中央ヨーロッパからの季節チャーター便があります。
+  howToGet: `イヴァロ（IVL）へ。送迎は40分。ヘルシンキ〜イヴァロは毎日運航、冬季には英国・中央ヨーロッパからの季節チャーター便があります。
 レンタカーを。最高のキャビンは湖畔の側道沿いにあり、自前の移動手段が必要です。
 原野へのロングトリップでは、道路はウツヨキとノルウェー国境まで続きます。`,
   stayTypes: [
@@ -492,7 +492,7 @@ const ja: DestinationBody = {
     { name: 'イナリのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').inari, sid: 'destination_inari_all_search', note: 'Trip.comでイナリの全宿を閲覧できます。' },
   ],
   transport: [
-    { mode: 'plane', label: 'イヴァロ空港(IVL)から', detail: 'ヘルシンキからは通年直行便。冬季はロンドン（ガトウィック）やパリなどから季節便。北へ50km / 40分でイナリ村。' },
+    { mode: 'plane', label: 'イヴァロ空港（IVL）から', detail: 'ヘルシンキからは通年直行便。冬季はロンドン（ガトウィック）やパリなどから季節便。北へ50km / 40分でイナリ村。' },
     { mode: 'bus', label: 'イナリへの空港送迎', detail: 'IVLから要予約シャトルまたはタクシー（約40分）。予約不要の空港バスはサーリセルカ方面のみ。' },
     { mode: 'car', label: 'タクシーまたは事前予約送迎', detail: 'IVLからイナリ村まで60〜80ユーロ。多くの上級宿は専用送迎を用意しています。' },
     { mode: 'car', label: 'サーリセルカからの運転', detail: 'E75を50分。サーリセルカ拠点なら気軽な日帰り。多くの旅行者は両所で宿泊を分けます。' },
@@ -500,13 +500,13 @@ const ja: DestinationBody = {
   carRental: {
     href: CARS_FOR('ja').fromIvalo,
     sid: 'destination_inari_cars_ivl',
-    airport: 'イヴァロ空港(IVL)で受け取り',
+    airport: 'イヴァロ空港（IVL）で受け取り',
     blurb: 'イナリ村まで40分・ネリムとイナリ湖畔キャビンには必須',
   },
   dayPlan: [
     { day: '01', title: '到着・湖畔キャビン', body: 'IVL昼便、北へ走りイナリ村またはネリムへ。落ち着き、サウナ、湖岸を散策。2時間目にはイナリの静けさが身体に染みます。' },
     { day: '02', title: 'サーミ文化・Siida博物館', body: '午前はSiida（サーミの先住民博物館。北欧でもっとも充実したサーミ・コレクション）。昼はイナリ村で。午後は氷釣りまたはガイド付きの森歩き。' },
-    { day: '03', title: 'イナリ湖のスノーモービル', body: 'ガイド付きスノーモービルで凍ったイナリ湖の氷上へ。聖なるウッコ島を遠くに望みます（島への上陸はできません）。冬は14:30には暗くなります。キャビンに戻り、長いオーロラ・ウィンドウへ。' },
+    { day: '03', title: 'イナリ湖のスノーモービル', body: 'ガイド付きスノーモービルで凍ったイナリ湖の氷上へ。聖なるウコンキヴィ島を遠くに望みます（島への上陸はできません）。冬は14:30には暗くなります。キャビンに戻り、長いオーロラ・ウィンドウへ。' },
     { day: '04', title: 'ゆっくり出発', body: 'トナカイ農場訪問、最後のサウナ、IVLへ運転。可能なら2日延ばしてください。イナリはゆっくり過ごすほど報われます。' },
   ],
   seoTitle: 'イナリの宿泊：湖畔キャビン&オーロラ・ヴィラ',
@@ -570,7 +570,7 @@ Para viajes prolongados al territorio salvaje, la carretera continúa a Utsjoki 
   dayPlan: [
     { day: '01', title: 'Aterrizaje · cabaña junto al lago', body: 'Vuelo al mediodía a IVL, conducir al norte hasta el pueblo de Inari o más lejos hasta Nellim. Acomodarse, sauna, paseo por la orilla. El silencio de Inari se asienta a la segunda hora.' },
     { day: '02', title: 'Cultura sami · museo Siida', body: 'Mañana en Siida (el museo sami indígena, la colección sami más completa de los países nórdicos). Almuerzo en el pueblo. Por la tarde, pesca en hielo o paseo guiado por el bosque.' },
-    { day: '03', title: 'Motonieve en el lago Inari', body: 'Salida guiada en motonieve por el lago helado, con vistas a la isla sagrada de Ukko (no se desembarca en ella). En invierno oscurece a las 14:30, vuelta a la cabaña para la larga ventana de aurora.' },
+    { day: '03', title: 'Motonieve en el lago Inari', body: 'Salida guiada en motonieve por el lago helado, con vistas a la isla sagrada de Ukonkivi (no se desembarca en ella). En invierno oscurece a las 14:30, vuelta a la cabaña para la larga ventana de aurora.' },
     { day: '04', title: 'Salida pausada', body: 'Visita a una granja de renos, última sauna, vuelta a IVL. Amplíe 2 días si puede, Inari recompensa la calma.' },
   ],
   seoTitle: 'Alojamiento en Inari: cabañas junto al lago y villas aurora',
@@ -634,7 +634,7 @@ Para viagens prolongadas na natureza, a estrada continua até Utsjoki e a fronte
   dayPlan: [
     { day: '01', title: 'Pouso · cabana à beira do lago', body: 'Voo do meio-dia para IVL, dirigir ao norte até a vila de Inari ou mais adiante até Nellim. Acomodar-se, sauna, caminhada à beira do lago. O silêncio de Inari se instala já na segunda hora.' },
     { day: '02', title: 'Cultura sámi · museu Siida', body: 'Manhã no Siida (o museu indígena sámi, a coleção sámi mais completa dos países nórdicos). Almoço na vila. À tarde, pesca no gelo ou caminhada guiada pela floresta.' },
-    { day: '03', title: 'Snowmobile no Lago Inari', body: 'Passeio guiado de snowmobile pelo lago congelado, com vista para a ilha sagrada Ukko (sem desembarcar nela). No inverno escurece às 14:30, de volta à cabana para a longa janela de aurora.' },
+    { day: '03', title: 'Snowmobile no Lago Inari', body: 'Passeio guiado de snowmobile pelo lago congelado, com vista para a ilha sagrada Ukonkivi (sem desembarcar nela). No inverno escurece às 14:30, de volta à cabana para a longa janela de aurora.' },
     { day: '04', title: 'Partida lenta', body: 'Visita a uma fazenda de renas, última sauna, retorno a IVL. Estenda 2 dias se possível, Inari recompensa quem fica devagar.' },
   ],
   seoTitle: 'Hospedagem em Inari: cabanas à beira do lago e vilas aurora',
@@ -698,7 +698,7 @@ const zhCN: DestinationBody = {
   dayPlan: [
     { day: '01', title: '抵达 · 湖畔小屋', body: '中午抵达IVL，向北驱车至伊纳里村或更远的Nellim。安顿、桑拿、湖边散步。第二个小时，伊纳里的寂静就会沉下来。' },
     { day: '02', title: '萨米文化 · Siida博物馆', body: '上午在Siida（萨米原住民博物馆，北欧最完整的萨米馆藏）。在伊纳里村午餐。下午冰钓或随导游森林漫步。' },
-    { day: '03', title: '伊纳里湖雪地摩托', body: '由导游带领，乘雪地摩托驰骋于冻结的湖面，远眺神圣的Ukko岛（不可登岛）。冬季14:30天即暗。回到小屋，迎接漫长的极光窗口。' },
+    { day: '03', title: '伊纳里湖雪地摩托', body: '由导游带领，乘雪地摩托驰骋于冻结的湖面，远眺神圣的Ukonkivi岛（不可登岛）。冬季14:30天即暗。回到小屋，迎接漫长的极光窗口。' },
     { day: '04', title: '缓慢启程', body: '驯鹿农场参观、最后一次桑拿、驱车返回IVL。条件允许就多加两天。伊纳里慢游回报最丰。' },
   ],
   seoTitle: '伊纳里住宿：湖畔小屋与极光别墅',

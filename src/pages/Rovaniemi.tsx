@@ -30,7 +30,7 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     'River-side log cabins on the Kemijoki and Ounasjoki, 6–10 guests, sauna, fireplace, open river views.',
     'Glass aurora villas around Santa Claus Village, purpose-built for Arctic Circle experience with sky-view bedrooms.',
     'Designer apartments in the city centre, walkable to restaurants, a base for day-trip safari schedules.',
-    'Ounasvaara fell-side chalets, ski-in in winter, bike trails in summer, aurora-ready horizon five minutes from downtown.',
+    'Ounasvaara fell-side chalets, ski-in access in winter, bike trails in summer, aurora-ready horizon five minutes from downtown.',
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: 'The biggest ski village in Finland, 2 hr north.' },
@@ -59,7 +59,7 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     { day: '01', title: 'Arrive · Santa Claus Village', body: 'RVN 10 km from city. Drop bags, head straight to Santa Claus Village (open year-round). Cross the Arctic Circle line, post a card. Dinner in town at Nili.' },
     { day: '02', title: 'Husky + ice-floating', body: 'Apukka or a nearby farm for a husky safari (book ahead). Afternoon dry-suit ice-floating on Ounasjoki, surprisingly warm, completely silent. Aurora window from Ounasvaara fell.' },
     { day: '03', title: 'Arktikum + city culture', body: 'Half-day at Arktikum (Sámi + Lapland history museum, beautiful glass corridor). Lunch in city. Afternoon free, Lainio Snow Village day-trip if seasonal.' },
-    { day: '04', title: 'Slow morning · onward', body: 'Last sauna, breakfast in town. Either fly home from RVN or rent a car and drive 2 h north to Levi for a second leg.' },
+    { day: '04', title: 'Slow morning · onward', body: 'Last sauna, breakfast in town. Either fly home from RVN or rent a car and drive 2 hr north to Levi for a second leg.' },
   ],
   seoTitle: 'Rovaniemi Cabins & Aurora Villas, The Arctic Circle Capital',
   seoDescription: 'River-side log cabins, glass aurora villas and Santa Claus Village stays in Rovaniemi, Finnish Lapland. Arctic Circle access, major airport, direct booking.',
@@ -142,7 +142,7 @@ Die Mischung ist ungewöhnlich: eine funktionierende nordische Stadt mit Restaur
   ],
   highlights: [
     { title: 'Weihnachtsmanndorf am Polarkreis', body: 'Das Original, eine weiße Linie markiert den Polarkreis über den Platz, und der Weihnachtsmann hält jeden Tag des Jahres Bürozeiten.' },
-    { title: 'Arktikum-Museum', body: 'Finnlands schönstes Museum für arktische Wissenschaft, Sámi-Kultur und Lappland-Geschichte, eine 172 Meter lange Glasröhre am Ufer des Ounasjoki, die nach Norden zeigt.' },
+    { title: 'Arktikum-Museum', body: 'Eines der schönsten Museen Finnlands für arktische Wissenschaft, Sámi-Kultur und Lappland-Geschichte, eine 172 Meter lange Glasröhre am Ufer des Ounasjoki, die nach Norden zeigt.' },
     { title: 'Ranua Wildpark', body: '80 km Fahrt südlich: einer der nördlichsten Zoos der Welt, mit 50 arktischen und borealen Arten, darunter Finnlands einzige Eisbären sowie Vielfraße und Luchse.' },
     { title: 'Ounasvaara-Fjäll mitten in der Stadt', body: 'Ein kleines Skigebiet, ein Downhill-Bikepark und ein Polarlicht-Aussichtspunkt, 10 Autominuten vom Zentrum, ohne Fahrt in einen Nationalpark.' },
     { title: 'Flugverbindungen', body: 'Der Flughafen Rovaniemi hat das breiteste Winter-Streckennetz Lapplands: Direktflüge nach London, Paris, Frankfurt, Wien und Dutzende Charterrouten.' },
@@ -206,7 +206,7 @@ const ko: DestinationBody = {
   ],
   highlights: [
     { title: '북극권의 산타클로스 마을', body: '원조입니다. 광장을 가로지르는 흰 선이 북극권을 표시하며, 산타는 일 년 365일 사무 시간을 지킵니다.' },
-    { title: 'Arktikum 박물관', body: '북극 과학, 사미 문화, 라플란드 역사. 핀란드 최고의 박물관으로, 172m 길이의 유리 회랑이 Ounasjoki 강가에서 북쪽을 가리킵니다.' },
+    { title: 'Arktikum 박물관', body: '북극 과학, 사미 문화, 라플란드 역사. 핀란드 최고 수준의 박물관 중 하나로, 172m 길이의 유리 회랑이 Ounasjoki 강가에서 북쪽을 가리킵니다.' },
     { title: 'Ranua 야생동물원', body: '남쪽으로 80km: 세계 최북단급 동물원에서 핀란드 유일의 북극곰, 그리고 울버린과 스라소니를 비롯한 50종의 북극·아북극 동물을 만날 수 있습니다.' },
     { title: '도심 안의 Ounasvaara 봉우리', body: '스키 슬로프, 다운힐 바이크 파크, 오로라 전망대까지 모두 있는 봉우리. 도심에서 차로 10분, 국립공원까지 운전할 필요가 없습니다.' },
     { title: '항공 연결성', body: '로바니에미 공항은 라플란드에서 가장 넓은 겨울 노선망을 갖춥니다. 런던, 파리, 프랑크푸르트, 빈 직항편과 수십 개의 차터 노선.' },
@@ -233,7 +233,7 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '산타클로스 마을의 건축가가 설계한 유리 정면 네스트 스위트.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '도심에서 15분 거리의 호숫가 오로라 캐빈. 풀 사파리 프로그램이 현장에서 운영됩니다.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Ounasvaara 봉우리에서 도심 스카이라인이 펼쳐지는 신축 유리 천장 아파트.' },
-    { name: '로바니에미 전체 숙소', href: HOTEL_SEARCH_FOR('ko').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.com에서 로바니에미의 모든 호텔과 캐빈을 비교하세요.' },
+    { name: '로바니에미 전체 숙소', href: HOTEL_SEARCH_FOR('ko').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.com에서 로바니에미의 모든 호텔과 캐빈을 둘러보세요.' },
   ],
   transport: [
     { mode: 'plane', label: '로바니에미 공항(RVN)에서', detail: '연중 헬싱키발 노선과 LHR · CDG · BCN · MAD 겨울 직항편. 도심까지 10km / 15분.' },
@@ -259,9 +259,9 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
 
 const fr: DestinationBody = {
   tagline: 'La capitale de la Laponie finlandaise, village du Père Noël, deux rivières et accès direct aux aurores depuis une ville full-service.',
-  description: `Rovaniemi est la capitale administrative de la Laponie finlandaise et la principale porte internationale de la région. La ville s'étend sur le cercle polaire, à la confluence du Kemijoki et de l'Ounasjoki, et compte environ 65 000 habitants, petite à l'échelle européenne, mais de loin la plus grande agglomération de la région.
+  description: `Rovaniemi est la capitale administrative de la Laponie finlandaise et la principale porte internationale de la région. La ville s'étend sur le cercle polaire arctique, à la confluence du Kemijoki et de l'Ounasjoki, et compte environ 65 000 habitants, petite à l'échelle européenne, mais de loin la plus grande agglomération de la région.
 
-Le mélange est singulier : une vraie ville du Nord avec restaurants, le musée scientifique Arktikum et une architecture civique signée Aalto, à côté du village originel du Père Noël posé sur la ligne du cercle polaire et d'un chapelet de zones de chalets accessibles en quelques minutes. Pour qui veut aurores et nature mais aussi rentrer par un grand aéroport, Rovaniemi est la base évidente.`,
+Le mélange est singulier : une vraie ville du Nord avec restaurants, le musée scientifique Arktikum et une architecture civique signée Aalto, à côté du village originel du Père Noël posé sur la ligne du cercle polaire arctique et d'un chapelet de zones de chalets accessibles en quelques minutes. Pour qui veut aurores et nature mais aussi rentrer par un grand aéroport, Rovaniemi est la base évidente.`,
   facts: [
     { label: 'Aéroport le plus proche', value: 'RVN 10 min' },
     { label: 'Population', value: '~65 000' },
@@ -269,10 +269,10 @@ Le mélange est singulier : une vraie ville du Nord avec restaurants, le musée 
     { label: 'Village du Père Noël', value: 'Ouvert toute l\'année' },
   ],
   highlights: [
-    { title: 'Village du Père Noël sur le cercle polaire', body: 'L\'original, une ligne blanche marque le cercle à travers la place, et le Père Noël tient bureau chaque jour de l\'année.' },
+    { title: 'Village du Père Noël sur le cercle polaire arctique', body: 'L\'original, une ligne blanche marque le cercle à travers la place, et le Père Noël tient bureau chaque jour de l\'année.' },
     { title: 'Musée Arktikum', body: 'Le plus beau musée de Finlande sur la science arctique, la culture sámi et l\'histoire de Laponie, un tube de verre de 172 mètres sur la rive de l\'Ounasjoki, pointant vers le nord.' },
     { title: 'Parc animalier de Ranua', body: 'À 80 km au sud : l\'un des zoos les plus septentrionaux au monde, avec 50 espèces arctiques et boréales, dont les seuls ours polaires de Finlande, ainsi que gloutons et lynx.' },
-    { title: 'Fjell Ounasvaara dans la ville', body: 'Pistes de ski, parc VTT de descente et belvédère aurores, à 10 minutes du centre en voiture, sans détour par un parc national.' },
+    { title: 'Fjäll Ounasvaara dans la ville', body: 'Pistes de ski, parc VTT de descente et belvédère aurores, à 10 minutes du centre en voiture, sans détour par un parc national.' },
     { title: 'Connexions aériennes', body: 'L\'aéroport de Rovaniemi a le plus large réseau hivernal de Laponie : vols directs vers Londres, Paris, Francfort, Vienne et des dizaines de charters.' },
     { title: 'Ceintures de chalets en bord de rivière', body: 'Les adresses le long du Kemijoki et sur Ounasvaara offrent un ciel suffisamment noir pour l\'aurore à quinze minutes des restaurants et des commerces.' },
   ],
@@ -284,7 +284,7 @@ Les chemins de fer finlandais assurent des trains de nuit depuis Helsinki avec s
 La location de voiture est simple ; la ville est la base logistique des road trips à l\'intérieur de la Laponie.`,
   stayTypes: [
     'Chalets en rondins en bord de rivière sur le Kemijoki et l\'Ounasjoki, 6 à 10 voyageurs, sauna, cheminée, vues ouvertes sur l\'eau.',
-    'Villas aurores en verre autour du village du Père Noël, conçues pour l\'expérience du cercle polaire avec chambres tournées vers le ciel.',
+    'Villas aurores en verre autour du village du Père Noël, conçues pour l\'expérience du cercle polaire arctique avec chambres tournées vers le ciel.',
     'Appartements design en centre-ville, à pied des restaurants, base idéale pour planifier des safaris en journée.',
     'Chalets sur les flancs d\'Ounasvaara, ski aux pieds l\'hiver, sentiers VTT l\'été, horizon aurores à cinq minutes du centre.',
   ],
@@ -312,13 +312,13 @@ La location de voiture est simple ; la ville est la base logistique des road tri
     blurb: '10 km jusqu\'à la ville · la prise en charge la plus simple de Laponie · disponible toute l\'année',
   },
   dayPlan: [
-    { day: '01', title: 'Arrivée · village du Père Noël', body: 'RVN à 10 km de la ville. Dépose des bagages, cap sur le village du Père Noël (ouvert toute l\'année). Franchissement de la ligne du cercle polaire, carte postale. Dîner au Nili en ville.' },
-    { day: '02', title: 'Husky + ice-floating', body: 'Apukka ou une ferme voisine pour un safari husky (à réserver). Après-midi en combinaison étanche pour le flottage sur la glace de l\'Ounasjoki, étonnamment chaud, complètement silencieux. Fenêtre aurores depuis le fjäll Ounasvaara.' },
+    { day: '01', title: 'Arrivée · village du Père Noël', body: 'RVN à 10 km de la ville. Dépose des bagages, cap sur le village du Père Noël (ouvert toute l\'année). Franchissement de la ligne du cercle polaire arctique, carte postale. Dîner au Nili en ville.' },
+    { day: '02', title: 'Husky + ice-floating', body: 'Apukka ou une ferme voisine pour un safari en traîneau de huskies (à réserver). Après-midi en combinaison étanche pour le flottage sur la glace de l\'Ounasjoki, étonnamment chaud, complètement silencieux. Fenêtre aurores depuis le fjäll Ounasvaara.' },
     { day: '03', title: 'Arktikum + culture urbaine', body: 'Demi-journée à l\'Arktikum (musée sámi et histoire de Laponie, beau couloir de verre). Déjeuner en ville. Après-midi libre, excursion à Lainio Snow Village selon la saison.' },
     { day: '04', title: 'Matinée tranquille · suite du voyage', body: 'Dernier sauna, petit-déjeuner en ville. Vol retour depuis RVN ou location de voiture et 2 h de route au nord vers Levi pour une seconde étape.' },
   ],
-  seoTitle: 'Chalets et villas aurores à Rovaniemi, cercle polaire',
-  seoDescription: 'Chalets en rondins en bord de rivière, villas aurores en verre et séjours au village du Père Noël à Rovaniemi. Accès au cercle polaire, grand aéroport.',
+  seoTitle: 'Chalets et villas aurores à Rovaniemi, cercle polaire arctique',
+  seoDescription: 'Chalets en rondins en bord de rivière, villas aurores en verre et séjours au village du Père Noël à Rovaniemi. Accès au cercle polaire arctique, grand aéroport.',
 }
 
 const it: DestinationBody = {
@@ -336,7 +336,7 @@ La miscela è inconsueta: una vera città nordica con ristoranti, il museo scien
     { title: 'Villaggio di Babbo Natale sul Circolo Polare', body: 'L\'originale, una linea bianca segna il Circolo attraverso la piazza, e Babbo Natale riceve ogni giorno dell\'anno.' },
     { title: 'Museo Arktikum', body: 'Il più bello dei musei finlandesi su scienza artica, cultura sámi e storia della Lapponia, un tubo di vetro di 172 metri sulla riva dell\'Ounasjoki, puntato a nord.' },
     { title: 'Parco faunistico di Ranua', body: 'A 80 km verso sud: uno degli zoo più settentrionali del mondo, con 50 specie artiche e boreali, tra cui gli unici orsi polari di Finlandia, oltre a ghiottoni e linci.' },
-    { title: 'Fjell Ounasvaara dentro la città', body: 'Pista da sci, bike park di discesa e punto panoramico aurore, a 10 minuti d\'auto dal centro, senza dover entrare in un parco nazionale.' },
+    { title: 'Fjäll Ounasvaara dentro la città', body: 'Pista da sci, bike park di discesa e punto panoramico aurore, a 10 minuti d\'auto dal centro, senza dover entrare in un parco nazionale.' },
     { title: 'Connessioni aeree', body: 'L\'aeroporto di Rovaniemi vanta la rete invernale più ampia di Lapponia: voli diretti per Londra, Parigi, Francoforte, Vienna e decine di charter.' },
     { title: 'Cinture di chalet lungo i fiumi', body: 'Le strutture sul Kemijoki e su Ounasvaara offrono cieli abbastanza scuri per l\'aurora a un quarto d\'ora da ristoranti e negozi.' },
   ],
@@ -347,7 +347,7 @@ Giugno–luglio porta il sole di mezzanotte e le rapide di Oikaraisenkoski.`,
 Le ferrovie finlandesi corrono treni notturni da Helsinki con servizio auto al seguito direttamente alla stazione di Rovaniemi.
 Il noleggio auto è semplice; la città è la base logistica per road trip nell\'interno della Lapponia.`,
   stayTypes: [
-    'Chalet in tronchi sulle rive di Kemijoki e Ounasjoke, 6–10 ospiti, sauna, camino, viste aperte sul fiume.',
+    'Chalet in tronchi sulle rive di Kemijoki e Ounasjoki, 6–10 ospiti, sauna, camino, viste aperte sul fiume.',
     'Ville aurora in vetro intorno al villaggio di Babbo Natale, pensate per l\'esperienza del Circolo Polare con camere rivolte al cielo.',
     'Appartamenti di design in centro città, ristoranti a piedi, base ideale per itinerari safari in giornata.',
     'Chalet sui versanti di Ounasvaara, ski-in in inverno, sentieri in estate, orizzonte aurorale a cinque minuti dal centro.',
@@ -411,7 +411,7 @@ Juni–juli geeft middernachtzon en wildwaterstroomversnellingen bij Oikaraisenk
 De Finse spoorwegen rijden nachttreinen vanuit Helsinki met autorailservice tot aan station Rovaniemi.
 Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis voor roadtrips door binnenland-Lapland.`,
   stayTypes: [
-    'Houten cabins aan de Kemijoki en Ounasjoki, 6–10 gasten, sauna, open haard, vrij riviergezicht.',
+    'Houten hutten aan de Kemijoki en Ounasjoki, 6–10 gasten, sauna, open haard, vrij riviergezicht.',
     'Glazen noorderlichtvilla\'s rond het Kerstmandorp, gebouwd voor de Poolcirkelervaring, met slaapkamers gericht op de hemel.',
     'Designer-appartementen in het centrum, restaurants op loopafstand, basis voor dagsafari\'s.',
     'Chalets op de hellingen van Ounasvaara, ski-in in de winter, paden in de zomer, noorderlichthorizon vijf minuten van het centrum.',
@@ -423,9 +423,9 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Door architecten ontworpen nest-suites met glazen front bij het Kerstmandorp.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Noorderlichtcabins aan het meer op 15 min van de stad, volledig safarimenu ter plaatse.' },
+    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Noorderlichthutten aan het meer op 15 min van de stad, volledig safarimenu ter plaatse.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nieuwere appartementen met glazen dak en zicht op de skyline vanaf Ounasvaara.' },
-    { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH_FOR('nl').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elk hotel en elke cabin in Rovaniemi op Trip.com.' },
+    { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH_FOR('nl').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elk hotel en elke hut in Rovaniemi op Trip.com.' },
   ],
   transport: [
     { mode: 'plane', label: 'Vanaf luchthaven Rovaniemi (RVN)', detail: 'Jaarrond vluchten vanaf HEL plus winterroutes vanaf LHR · CDG · BCN · MAD. 10 km / 15 min naar het centrum.' },
@@ -446,7 +446,7 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
     { day: '04', title: 'Rustige ochtend · verder', body: 'Laatste sauna, ontbijt in de stad. Naar huis vanaf RVN of een huurauto nemen en 2 uur noordwaarts rijden naar Levi voor een tweede etappe.' },
   ],
   seoTitle: 'Rovaniemi-cabins en noorderlichtvilla\'s, aan de Poolcirkel',
-  seoDescription: 'Houten cabins aan de rivier, glazen noorderlichtvilla\'s en verblijven in het Kerstmandorp in Rovaniemi. Toegang tot de Poolcirkel, grote luchthaven.',
+  seoDescription: 'Houten hutten aan de rivier, glazen noorderlichtvilla\'s en verblijven in het Kerstmandorp in Rovaniemi. Toegang tot de Poolcirkel, grote luchthaven.',
 }
 
 const ja: DestinationBody = {
@@ -471,7 +471,7 @@ const ja: DestinationBody = {
   whenToGo: `9月中旬〜3月下旬がオーロラ・シーズン。11月〜2月は厳冬期です。
 ロヴァニエミに本当の極夜はありません。12月21日前後でも太陽は2時間ほど昇り、日中は長い青の薄明に包まれます。
 6〜7月は白夜とOikaraisenkoskiの急流が楽しめます。`,
-  howToGet: `ロヴァニエミ(RVN)へ。ラップランドで最も路線網が充実した空港。
+  howToGet: `ロヴァニエミ（RVN）へ。ラップランドで最も路線網が充実した空港。
 フィンランド国鉄はヘルシンキからの夜行列車を運行し、車両運搬車サービスでロヴァニエミ駅まで直行します。
 レンタカーも容易。市は内陸ラップランドのロードトリップの拠点です。`,
   stayTypes: [
@@ -494,7 +494,7 @@ const ja: DestinationBody = {
     { name: 'ロヴァニエミのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.comでロヴァニエミの全宿を閲覧できます。' },
   ],
   transport: [
-    { mode: 'plane', label: 'ロヴァニエミ空港(RVN)から', detail: '通年HEL便、加えて冬季はLHR · CDG · BCN · MADから。市中心まで10km / 15分。' },
+    { mode: 'plane', label: 'ロヴァニエミ空港（RVN）から', detail: '通年HEL便、加えて冬季はLHR · CDG · BCN · MADから。市中心まで10km / 15分。' },
     { mode: 'bus', label: 'RVN空港バス', detail: '片道7ユーロ・15分で中心部・全便に接続。' },
     { mode: 'car', label: 'タクシーで中心部へ', detail: '15〜25ユーロ。中心部の主要ホテルは冬季パッケージにシャトルを含みます。' },
     { mode: 'train', label: 'ヘルシンキ〜ロヴァニエミ寝台', detail: 'VR夜行（車両運搬車オプションあり）、寝台で約90ユーロ。家族旅行で最も人気の到着ルート。' },
@@ -502,7 +502,7 @@ const ja: DestinationBody = {
   carRental: {
     href: CARS_FOR('ja').fromRovaniemi,
     sid: 'destination_rovaniemi_cars_rvn',
-    airport: 'ロヴァニエミ空港(RVN)で受け取り',
+    airport: 'ロヴァニエミ空港（RVN）で受け取り',
     blurb: '市まで10km・ラップランド最楽の受け取り・通年利用可',
   },
   dayPlan: [
@@ -519,21 +519,21 @@ const es: DestinationBody = {
   // ES targets `cabañas en rovaniemi` (brief 187, 2026-08-15): hero H1 override +
   // guide-osio alla. Muut lokaalit renderöityvät ennallaan.
   heroH1: 'Cabañas en Rovaniemi',
-  tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar, con el Círculo Polar y todos los servicios de la capital lapona al lado.',
-  description: `Rovaniemi es la capital administrativa de la Laponia finlandesa y la principal puerta internacional. La ciudad está sobre el Círculo Polar, en la confluencia de los ríos Kemijoki y Ounasjoki, con unos 65.000 habitantes, pequeña para los estándares europeos, pero, con diferencia, el mayor asentamiento de la región.
+  tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar, con el Círculo Polar Ártico y todos los servicios de la capital lapona al lado.',
+  description: `Rovaniemi es la capital administrativa de la Laponia finlandesa y la principal puerta internacional. La ciudad está sobre el Círculo Polar Ártico, en la confluencia de los ríos Kemijoki y Ounasjoki, con unos 65.000 habitantes, pequeña para los estándares europeos, pero, con diferencia, el mayor asentamiento de la región.
 
-La mezcla es inusual: una ciudad norteña en activo con restaurantes, el museo de ciencia Arktikum y arquitectura cívica diseñada por Aalto, junto con el Pueblo de Papá Noel original sobre el Círculo Polar y una red de zonas de cabañas a corta distancia. Para quienes quieren aurora y naturaleza pero también volar a casa desde un aeropuerto importante, Rovaniemi es la base natural.`,
+La mezcla es inusual: una ciudad norteña en activo con restaurantes, el museo de ciencia Arktikum y arquitectura cívica diseñada por Aalto, junto con el Pueblo de Papá Noel original sobre el Círculo Polar Ártico y una red de zonas de cabañas a corta distancia. Para quienes quieren aurora y naturaleza pero también volar a casa desde un aeropuerto importante, Rovaniemi es la base natural.`,
   facts: [
     { label: 'Aeropuerto más cercano', value: 'RVN 10 min' },
     { label: 'Población', value: '~65.000' },
-    { label: 'Círculo Polar', value: 'Atraviesa la ciudad' },
+    { label: 'Círculo Polar Ártico', value: 'Atraviesa la ciudad' },
     { label: 'Pueblo de Santa', value: 'Abierto todo el año' },
   ],
   highlights: [
-    { title: 'Pueblo de Papá Noel sobre el Círculo Polar', body: 'El original, una línea blanca marca el Círculo Polar en la plaza, y Papá Noel tiene horario de oficina todos los días del año.' },
+    { title: 'Pueblo de Papá Noel sobre el Círculo Polar Ártico', body: 'El original, una línea blanca marca el Círculo Polar Ártico en la plaza, y Papá Noel tiene horario de oficina todos los días del año.' },
     { title: 'Museo Arktikum', body: 'El mejor museo finlandés de ciencia ártica, cultura sami e historia de Laponia, un tubo de cristal de 172 metros a orillas del Ounasjoki, apuntando al norte.' },
     { title: 'Parque de fauna Ranua', body: 'A 80 km en coche al sur: uno de los zoos más septentrionales del mundo, con 50 especies árticas y boreales, entre ellas los únicos osos polares de Finlandia, además de glotones y linces.' },
-    { title: 'Fell Ounasvaara dentro de la ciudad', body: 'Una pista de esquí, un bike park de descenso y un mirador de aurora, a 10 min del centro en coche, sin necesidad de viajar al parque nacional.' },
+    { title: 'Fjäll Ounasvaara dentro de la ciudad', body: 'Una pista de esquí, un bike park de descenso y un mirador de aurora, a 10 min del centro en coche, sin necesidad de viajar al parque nacional.' },
     { title: 'Conectividad aérea', body: 'El aeropuerto de Rovaniemi tiene la red de rutas invernales más amplia de Laponia: directos a Londres, París, Frankfurt, Viena y decenas de chárter.' },
     { title: 'Cinturones de cabañas junto al río', body: 'Las propiedades a lo largo del Kemijoki y sobre Ounasvaara ofrecen cielos oscuros aptos para auroras a 15 minutos de restaurantes y compras.' },
   ],
@@ -545,19 +545,19 @@ Los ferrocarriles finlandeses operan trenes nocturnos desde Helsinki con servici
 El alquiler de coche es sencillo; la ciudad es la base logística para road trips por la Laponia interior.`,
   stayTypes: [
     'Cabañas de troncos junto al río en Kemijoki y Ounasjoki, 6–10 huéspedes, sauna, chimenea, vistas abiertas del río.',
-    'Villas aurora de cristal en torno al Pueblo de Papá Noel, construidas a propósito para la experiencia del Círculo Polar, con dormitorios con vista al cielo.',
+    'Villas aurora de cristal en torno al Pueblo de Papá Noel, construidas a propósito para la experiencia del Círculo Polar Ártico, con dormitorios con vista al cielo.',
     'Apartamentos de diseño en el centro, restaurantes a pie, base para programas de safari por el día.',
-    'Chalets a los pies del fell Ounasvaara, ski-in en invierno, sendas de bici en verano, horizonte apto para aurora a cinco minutos del centro.',
+    'Chalets a los pies del fjäll Ounasvaara, ski-in en invierno, sendas de bici en verano, horizonte apto para aurora a cinco minutos del centro.',
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: 'El mayor pueblo de esquí de Finlandia, 2 h al norte.' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destino de fells más tranquilo, 2 h al noroeste.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destino de fjäll más tranquilo, 2 h al noroeste.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Puerta a la naturaleza, 3 h más al norte.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites tipo nido con frente de cristal diseñadas por arquitectos en el Pueblo de Papá Noel.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabañas aurora junto al lago a 15 min de la ciudad, carta completa de safaris en el mismo recinto.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos más nuevos con techo de cristal y vistas desde el fell Ounasvaara.' },
+    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos más nuevos con techo de cristal y vistas desde el fjäll Ounasvaara.' },
     { name: 'Todos los alojamientos de Rovaniemi', href: HOTEL_SEARCH_FOR('es').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Consulte todos los hoteles y cabañas de Rovaniemi en Trip.com.' },
   ],
   transport: [
@@ -573,8 +573,8 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     blurb: '10 km a la ciudad · la recogida más sencilla de Laponia · disponible todo el año',
   },
   dayPlan: [
-    { day: '01', title: 'Llegada · Pueblo de Papá Noel', body: 'RVN a 10 km del centro. Dejar maletas y al Pueblo de Papá Noel (abierto todo el año). Cruzar el Círculo Polar y mandar una postal. Cena en Nili.' },
-    { day: '02', title: 'Husky + flotación en hielo', body: 'Apukka o granja cercana para safari de huskys (reservar con antelación). Por la tarde, flotación en traje seco por el Ounasjoki, sorprendentemente cálido, completamente silencioso. Ventana de aurora desde el fell Ounasvaara.' },
+    { day: '01', title: 'Llegada · Pueblo de Papá Noel', body: 'RVN a 10 km del centro. Dejar maletas y al Pueblo de Papá Noel (abierto todo el año). Cruzar el Círculo Polar Ártico y mandar una postal. Cena en Nili.' },
+    { day: '02', title: 'Husky + flotación en hielo', body: 'Apukka o granja cercana para safari de huskys (reservar con antelación). Por la tarde, flotación en traje seco por el Ounasjoki, sorprendentemente cálido, completamente silencioso. Ventana de aurora desde el fjäll Ounasvaara.' },
     { day: '03', title: 'Arktikum + cultura urbana', body: 'Media jornada en Arktikum (museo sami + historia de Laponia, hermoso corredor de cristal). Almuerzo en la ciudad. Tarde libre, excursión a Lainio Snow Village si la temporada lo permite.' },
     { day: '04', title: 'Mañana tranquila · siguiente parada', body: 'Última sauna, desayuno en la ciudad. Volar de vuelta desde RVN o alquilar coche y conducir 2 h al norte hasta Levi para una segunda etapa.' },
   ],
@@ -605,7 +605,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
           rows: [
             ['Centro', 'Todo a pie', 'No', 'Restaurantes y servicios al lado; más apartamentos que cabañas propiamente dichas'],
             ['Ounasvaara', '~10 min en coche del centro', 'Útil, no imprescindible', 'Pistas, sendas y horizonte de auroras casi dentro de la ciudad'],
-            ['Pueblo de Papá Noel', '8 km al norte del centro', 'No imprescindible: bus urbano 8 todo el año', 'Familias y villas de cristal junto al Círculo Polar'],
+            ['Pueblo de Papá Noel', '8 km al norte del centro', 'No imprescindible: bus urbano 8 todo el año', 'Familias y villas de cristal junto al Círculo Polar Ártico'],
             ['Cinturones de río y bosque', '~15 min en coche (Kemijoki / Ounasjoki)', 'Sí, en la práctica', 'Cabañas clásicas con sauna y cielo oscuro para auroras'],
           ],
           note: 'Distancia y bus del Pueblo de Papá Noel: santaclausvillage.info ("8 km al norte del centro"; bus 8 todo el año), comprobado el 15.8.2026. Resto: datos publicados de este sitio. En invierno cuente los trayectos en tiempo, no en kilómetros.',
@@ -692,7 +692,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     footnote: 'Distancias y transporte comprobados el 15.8.2026 (santaclausvillage.info y datos publicados de este sitio). Los servicios concretos de cada cabaña ( sauna, orientación, extras ) son datos del anunciante: confírmelos en la página de la propiedad antes de reservar.',
   },
   seoTitle: 'Cabañas en Rovaniemi: cómo elegir y qué mirar antes',
-  seoDescription: 'Qué es un mökki, en qué zona de Rovaniemi dormir ( centro, Ounasvaara, Pueblo de Papá Noel o cinturones de río ), cuándo hace falta coche y qué preguntar antes de reservar una cabaña.',
+  seoDescription: 'Qué es un mökki, en qué zona de Rovaniemi dormir (centro, Ounasvaara, Pueblo de Papá Noel o río), cuándo hace falta coche y qué preguntar antes de reservar.',
 }
 
 const ptBR: DestinationBody = {
@@ -708,9 +708,9 @@ A combinação é incomum: uma cidade nortenha em pleno funcionamento, com resta
   ],
   highlights: [
     { title: 'Vila do Papai Noel sobre o Círculo Polar', body: 'A original, uma linha branca marca o Círculo Polar atravessando a praça, e o Papai Noel cumpre horário comercial todos os dias do ano.' },
-    { title: 'Museu Arktikum', body: 'O melhor museu finlandês de ciência ártica, cultura sámi e história da Lapônia, um tubo de vidro de 172 metros à margem do Ounasjoki, apontando para o norte.' },
+    { title: 'Museu Arktikum', body: 'Um dos melhores museus finlandeses de ciência ártica, cultura sámi e história da Lapônia, um tubo de vidro de 172 metros à margem do Ounasjoki, apontando para o norte.' },
     { title: 'Parque de Vida Selvagem Ranua', body: 'A 80 km de carro ao sul: um dos zoológicos mais ao norte do mundo, com 50 espécies árticas e boreais, incluindo os únicos ursos-polares da Finlândia, além de glutões e linces.' },
-    { title: 'Fell Ounasvaara dentro da cidade', body: 'Pista de esqui, parque de mountain bike e mirante de aurora, a 10 min do centro de carro, sem precisar dirigir até um parque nacional.' },
+    { title: 'Fjäll Ounasvaara dentro da cidade', body: 'Pista de esqui, parque de mountain bike e mirante de aurora, a 10 min do centro de carro, sem precisar dirigir até um parque nacional.' },
     { title: 'Conectividade aérea', body: 'O aeroporto de Rovaniemi tem a maior rede de rotas de inverno da Lapônia: direto para Londres, Paris, Frankfurt, Viena e dezenas de rotas charter.' },
     { title: 'Faixas de cabanas à beira-rio', body: 'As propriedades ao longo do Kemijoki e sobre Ounasvaara oferecem céus escuros prontos para aurora a 15 minutos de restaurantes e compras.' },
   ],
@@ -724,17 +724,17 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
     'Cabanas de tronco à beira do Kemijoki e do Ounasjoki, 6–10 hóspedes, sauna, lareira, vista aberta do rio.',
     'Vilas aurora de vidro em torno da Vila do Papai Noel, construídas para a experiência do Círculo Polar, com quartos voltados ao céu.',
     'Apartamentos de design no centro, restaurantes a pé, base para safáris bate-volta.',
-    'Chalés ao pé do fell Ounasvaara, ski-in no inverno, trilhas de bike no verão, horizonte de aurora a cinco minutos do centro.',
+    'Chalés ao pé do fjäll Ounasvaara, ski-in no inverno, trilhas de bike no verão, horizonte de aurora a cinco minutos do centro.',
   ],
   siblings: [
     { name: 'Levi', href: '/destinations/levi', blurb: 'A maior vila de esqui da Finlândia, 2 h ao norte.' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destino de fells mais tranquilo, 2 h a noroeste.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destino de fjäll mais tranquilo, 2 h a noroeste.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Portal para a natureza, mais 3 h ao norte.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suítes tipo ninho com frente de vidro projetadas por arquitetos na Vila do Papai Noel.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabanas aurora à beira do lago a 15 min da cidade, cardápio completo de safáris no local.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos mais novos com teto de vidro e vistas do fell Ounasvaara.' },
+    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos mais novos com teto de vidro e vistas do fjäll Ounasvaara.' },
     { name: 'Todas as hospedagens de Rovaniemi', href: HOTEL_SEARCH_FOR('pt-BR').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Veja todos os hotéis e cabanas de Rovaniemi no Trip.com.' },
   ],
   transport: [
@@ -751,7 +751,7 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
   },
   dayPlan: [
     { day: '01', title: 'Chegada · Vila do Papai Noel', body: 'RVN a 10 km do centro. Deixe as malas e siga direto para a Vila do Papai Noel (aberta o ano todo). Atravesse a linha do Círculo Polar, envie um cartão. Jantar na cidade no Nili.' },
-    { day: '02', title: 'Huskies + flutuação no gelo', body: 'Apukka ou fazenda próxima para safári de huskies (reserve com antecedência). À tarde, flutuação em traje seco no Ounasjoki, surpreendentemente quente, completamente silencioso. Janela de aurora a partir do fell Ounasvaara.' },
+    { day: '02', title: 'Huskies + flutuação no gelo', body: 'Apukka ou fazenda próxima para safári de huskies (reserve com antecedência). À tarde, flutuação em traje seco no Ounasjoki, surpreendentemente quente, completamente silencioso. Janela de aurora a partir do fjäll Ounasvaara.' },
     { day: '03', title: 'Arktikum + cultura urbana', body: 'Meio dia no Arktikum (museu sámi + história da Lapônia, belo corredor de vidro). Almoço na cidade. Tarde livre, bate-volta a Lainio Snow Village se a temporada permitir.' },
     { day: '04', title: 'Manhã lenta · próxima etapa', body: 'Última sauna, café da manhã na cidade. Voe para casa de RVN ou alugue um carro e dirija 2 h ao norte até Levi para a segunda etapa.' },
   ],

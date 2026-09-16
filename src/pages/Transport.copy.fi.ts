@@ -73,7 +73,7 @@ const copy: PageCopy = {
     airports: [
       { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Ympäri vuoden HEL · talvi LHR · CDG · BCN · MAD', busPrice: '7 € · 15 min', taxiPrice: '15–25 €' },
       { code: 'KTT', name: 'Kittilä', serves: 'Levi (15 km) · Ylläs (50 km)', routes: 'Talvi LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '8 € Leville · 25–30 € Ylläkselle', taxiPrice: '25–35 € Leville · 100–120 € Ylläkselle' },
-      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Talvi HEL · LHR · CDG · AMS', busPrice: '15–20 € Saariselälle · 15 € Inariin', taxiPrice: '40–60 € Saariselälle · 60–80 € Inariin' },
+      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Talvi HEL · LHR · CDG · AMS', busPrice: '15–20 € Saariselälle · Inariin ei kenttäbussia, vain esivarattu kuljetus', taxiPrice: '40–60 € Saariselälle · 60–80 € Inariin' },
       { code: 'ENF', name: 'Enontekiö', serves: 'Pohjoisen tunturit (Ylläs · Hetta)', routes: 'Rajoitettu talvi HEL', busPrice: 'Vain esivarattu kuljetus', taxiPrice: 'Yli 80 €' },
     ],
   },

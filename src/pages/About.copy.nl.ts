@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Wat wordt behandeld",
-        "body": "Glasiglo's, cabins aan het meer, ski-in chalets, designerlodges en Lapland-hotels in vijf bestemmingen (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Noorderlichtseizoen sep–apr, middernachtzon jun–jul."
+        "body": "Glasiglo's, hutten aan het meer, ski-in chalets, designerlodges en Lapland-hotels in vijf bestemmingen (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Noorderlichtseizoen sep–apr, middernachtzon jun–jul."
       }
     ],
     "principlesEyebrow": "Hoe de toetsing werkt",

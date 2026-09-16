@@ -74,7 +74,7 @@ const copy: PageCopy = {
     airports: [
       { code: 'RVN', name: 'Rovaniemi', serves: 'Rovaniemi (8 km)', routes: 'Ganzjährig HEL · Winter LHR · CDG · BCN · MAD', busPrice: '7 € · 15 min', taxiPrice: '15–25 €' },
       { code: 'KTT', name: 'Kittilä', serves: 'Levi (15 km) · Ylläs (50 km)', routes: 'Winter LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '8 € nach Levi · 25–30 € nach Ylläs', taxiPrice: '25–35 € nach Levi · 100–120 € nach Ylläs' },
-      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Winter HEL · LHR · CDG · AMS', busPrice: '15–20 € nach Saariselkä · 15 € nach Inari', taxiPrice: '40–60 € nach Saariselkä · 60–80 € nach Inari' },
+      { code: 'IVL', name: 'Ivalo', serves: 'Saariselkä (30 km) · Inari (40 km)', routes: 'Winter HEL · LHR · CDG · AMS', busPrice: '15–20 € nach Saariselkä · nach Inari kein Linienbus, nur vorgebuchter Transfer', taxiPrice: '40–60 € nach Saariselkä · 60–80 € nach Inari' },
       { code: 'ENF', name: 'Enontekiö', serves: 'Nördliche Fjälls (Ylläs · Hetta)', routes: 'Eingeschränkt Winter nur HEL', busPrice: 'Nur vorgebuchter Transfer', taxiPrice: 'Über 80 €' },
     ],
   },

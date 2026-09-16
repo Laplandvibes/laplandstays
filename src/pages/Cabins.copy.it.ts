@@ -48,7 +48,7 @@ const copy: PageCopy = {
       {
         name: 'Levi',
         tagline: 'La stazione con tutti i servizi',
-        body: "La stazione sciistica più frequentata della Finlandia, con lo slalom di Coppa del Mondo ogni novembre e un paese dove ristoranti, noleggi e punti di ritrovo dei safari sono raggiungibili a piedi. Gli chalet circondano il fell: può scegliere tra posizioni ski-in vicino alla cabinovia e lotti più tranquilli a qualche chilometro.",
+        body: "La stazione sciistica più frequentata della Finlandia, con lo slalom di Coppa del Mondo ogni novembre e un paese dove ristoranti, noleggi e punti di ritrovo dei safari sono raggiungibili a piedi. Gli chalet circondano il fjäll: può scegliere tra posizioni ski-in vicino alla cabinovia e lotti più tranquilli a qualche chilometro.",
         bullets: [
           'Ideale per: chi viene per la prima volta e gruppi che vogliono ristoranti e vita serale vicino allo chalet',
           'Servizi del paese a piedi dalle zone chalet più vicine',
@@ -59,8 +59,8 @@ const copy: PageCopy = {
       },
       {
         name: 'Ylläs',
-        tagline: 'La terra quieta dei fell',
-        body: "Le piste più lunghe della Finlandia su un solo fell, due paesi tranquilli (Äkäslompolo e Ylläsjärvi) ai suoi piedi e il parco nazionale Pallas-Yllästunturi che inizia al bordo della rete di anelli da fondo. Qui la vita in chalet è più sciare dalla porta di casa che après-ski.",
+        tagline: 'La terra quieta dei fjäll',
+        body: "Le piste più lunghe della Finlandia su un solo fjäll, due paesi tranquilli (Äkäslompolo e Ylläsjärvi) ai suoi piedi e il parco nazionale Pallas-Yllästunturi che inizia al bordo della rete di anelli da fondo. Qui la vita in chalet è più sciare dalla porta di casa che après-ski.",
         bullets: [
           'Ideale per: fondisti, famiglie e chiunque sia allergico alla folla',
           'Due paesi significano negozi e ristoranti senza la confusione di una stazione',
@@ -72,7 +72,7 @@ const copy: PageCopy = {
       {
         name: 'Ruka',
         tagline: 'Il cavallo da lavoro di inizio stagione',
-        body: "Ruka apre a ottobre e si scia fino a maggio, una delle stagioni più lunghe della Finlandia, e il compatto villaggio ai piedi delle piste tiene tutto vicino. Sotto il fell, la zona dei laghi di Kuusamo è classico territorio da chalet, con il parco nazionale di Oulanka e il sentiero Karhunkierros nei dintorni per i giorni senza sci.",
+        body: "Ruka apre a ottobre e si scia fino a maggio, una delle stagioni più lunghe della Finlandia, e il compatto villaggio ai piedi delle piste tiene tutto vicino. Sotto il fjäll, la zona dei laghi di Kuusamo è classico territorio da chalet, con il parco nazionale di Oulanka e il sentiero Karhunkierros nei dintorni per i giorni senza sci.",
         bullets: [
           'Ideale per: sciare a inizio e fine stagione, escursioni nella ruska autunnale, pescatori',
           "L'aeroporto di Kuusamo è a circa 25 minuti dalle piste",
@@ -84,7 +84,7 @@ const copy: PageCopy = {
       {
         name: 'Saariselkä',
         tagline: "La base per l'aurora dell'estremo nord",
-        body: "La più settentrionale delle quattro grandi, a circa 68°N, il che La colloca sotto l'ovale aurorale: in una notte serena le probabilità qui sono semplicemente migliori. Il paese è compatto, il parco nazionale Urho Kekkonen inizia subito dietro e i fell si susseguono per cento chilometri verso est senza nulla di costruito in vista.",
+        body: "La più settentrionale delle quattro grandi, a circa 68°N, il che La colloca sotto l'ovale aurorale: in una notte serena le probabilità qui sono semplicemente migliori. Il paese è compatto, il parco nazionale Urho Kekkonen inizia subito dietro e i fjäll si susseguono per cento chilometri verso est senza nulla di costruito in vista.",
         bullets: [
           "Ideale per: cacciatori di aurore, amanti di ciaspole e natura selvaggia, chi torna per la seconda volta",
           "L'aeroporto di Ivalo è a circa 30 minuti",
@@ -122,10 +122,10 @@ const copy: PageCopy = {
       { period: 'Da dicembre a marzo', body: "Pieno inverno: piste aperte, anelli battuti e stagione dell'aurora al culmine. È il momento di maggiore richiesta, quindi prima prenota, migliore sarà la scelta." },
       { period: 'Aprile', body: 'Sci primaverile: giornate lunghe, neve compatta e clima da occhiali da sole in terrazza. I locali lo chiamano il segreto meglio custodito dell\'anno sciistico.' },
       { period: 'Da giugno ad agosto', body: 'Luce estiva: escursioni, pesca e nuotate dal pontile dello chalet. Il sole di mezzanotte dura fino a metà luglio e le serate restano chiare fino ad agosto inoltrato. Gli chalet in riva al lago danno il meglio di sé.' },
-      { period: 'Da settembre a ottobre', body: "La ruska, la stagione dei colori autunnali: i fell si tingono di rosso e oro, l'aria è tersa e le prime aurore tornano nei cieli bui." },
+      { period: 'Da settembre a ottobre', body: "La ruska, la stagione dei colori autunnali: i fjäll si tingono di rosso e oro, l'aria è tersa e le prime aurore tornano nei cieli bui." },
     ],
 
-    ctaH2: 'Scelga prima il fell, poi lo chalet',
+    ctaH2: 'Scelga prima il fjäll, poi lo chalet',
     ctaLead: 'Parta dalla regione adatta al Suo gruppo e confronti poi gli chalet sulle pagine di Lomarengas. La prenotazione avviene su lomarengas.fi.',
     ctaPrimary: 'Tutti gli chalet su Lomarengas',
     ctaSecondary: 'Quando andare',

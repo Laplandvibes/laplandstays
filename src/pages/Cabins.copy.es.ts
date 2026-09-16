@@ -48,7 +48,7 @@ const copy: PageCopy = {
       {
         name: 'Levi',
         tagline: 'La estación con todos los servicios',
-        body: 'La estación de esquí más concurrida de Finlandia, con el eslalon de la Copa del Mundo cada noviembre y un pueblo donde restaurantes, tiendas de alquiler y recogidas de safari quedan a pie. Las cabañas rodean el fell, así que puede elegir entre ubicaciones ski-in cerca de la góndola o parcelas más tranquilas a unos kilómetros.',
+        body: 'La estación de esquí más concurrida de Finlandia, con el eslalon de la Copa del Mundo cada noviembre y un pueblo donde restaurantes, tiendas de alquiler y recogidas de safari quedan a pie. Las cabañas rodean el fjäll, así que puede elegir entre ubicaciones ski-in cerca de la góndola o parcelas más tranquilas a unos kilómetros.',
         bullets: [
           'Ideal para: primeras visitas y grupos que quieren restaurantes y vida nocturna cerca de la cabaña',
           'Servicios del pueblo a pie desde las zonas de cabañas más cercanas',
@@ -59,8 +59,8 @@ const copy: PageCopy = {
       },
       {
         name: 'Ylläs',
-        tagline: 'El país tranquilo de los fells',
-        body: 'Las pistas más largas de Finlandia en un solo fell, dos pueblos sin pretensiones (Äkäslompolo y Ylläsjärvi) a sus pies y el parque nacional Pallas-Yllästunturi empezando al borde de la red de itinerarios. La vida de cabaña aquí va más de esquiar desde la puerta y menos de après-ski.',
+        tagline: 'El país tranquilo de los fjäll',
+        body: 'Las pistas más largas de Finlandia en un solo fjäll, dos pueblos sin pretensiones (Äkäslompolo y Ylläsjärvi) a sus pies y el parque nacional Pallas-Yllästunturi empezando al borde de la red de itinerarios. La vida de cabaña aquí va más de esquiar desde la puerta y menos de après-ski.',
         bullets: [
           'Ideal para: esquiadores de fondo, familias y alérgicos a las multitudes',
           'Dos pueblos significan tiendas y restaurantes sin el bullicio de una estación',
@@ -72,7 +72,7 @@ const copy: PageCopy = {
       {
         name: 'Ruka',
         tagline: 'El caballo de batalla del inicio de temporada',
-        body: 'Ruka abre en octubre y se esquía hasta mayo, una de las temporadas más largas de Finlandia, y su compacto pueblo de pistas lo mantiene todo cerca. Bajo el fell, la zona de lagos de Kuusamo es terreno clásico de cabañas, con el parque nacional de Oulanka y el sendero Karhunkierros cerca para los días sin esquí.',
+        body: 'Ruka abre en octubre y se esquía hasta mayo, una de las temporadas más largas de Finlandia, y su compacto pueblo de pistas lo mantiene todo cerca. Bajo el fjäll, la zona de lagos de Kuusamo es terreno clásico de cabañas, con el parque nacional de Oulanka y el sendero Karhunkierros cerca para los días sin esquí.',
         bullets: [
           'Ideal para: esquiar a principio y final de temporada, rutas de ruska en otoño y pescadores',
           'El aeropuerto de Kuusamo queda a unos 25 minutos de las pistas',
@@ -84,7 +84,7 @@ const copy: PageCopy = {
       {
         name: 'Saariselkä',
         tagline: 'La base de auroras del extremo norte',
-        body: 'La más septentrional de las cuatro grandes, a unos 68°N, lo que la sitúa bajo el óvalo auroral: en una noche despejada las probabilidades aquí son sencillamente mejores. El pueblo es compacto, el parque nacional Urho Kekkonen empieza justo detrás y los fells se extienden cien kilómetros hacia el este sin nada construido a la vista.',
+        body: 'La más septentrional de las cuatro grandes, a unos 68°N, lo que la sitúa bajo el óvalo auroral: en una noche despejada las probabilidades aquí son sencillamente mejores. El pueblo es compacto, el parque nacional Urho Kekkonen empieza justo detrás y los fjäll se extienden cien kilómetros hacia el este sin nada construido a la vista.',
         bullets: [
           'Ideal para: cazadores de auroras, aficionados a las raquetas y la naturaleza salvaje, y segundas visitas',
           'El aeropuerto de Ivalo queda a unos 30 minutos',
@@ -122,10 +122,10 @@ const copy: PageCopy = {
       { period: 'Diciembre a marzo', body: 'Invierno pleno: pistas abiertas, itinerarios pisados y temporada de auroras en su apogeo. Es cuando más demanda hay de cabañas, así que cuanto antes reserve, mejor elegirá.' },
       { period: 'Abril', body: 'Esquí de primavera: días largos, nieve compacta y tiempo de gafas de sol en la terraza. Los locales lo llaman el secreto mejor guardado del año de esquí.' },
       { period: 'Junio a agosto', body: 'Luz de verano: senderismo, pesca y baños desde el muelle de la cabaña. El sol de medianoche dura hasta mediados de julio y los atardeceres se alargan hasta bien entrado agosto. Las cabañas junto al lago están en su mejor momento.' },
-      { period: 'Septiembre a octubre', body: 'La ruska, la temporada del color otoñal: los fells se tiñen de rojo y oro, el aire es nítido y las primeras auroras vuelven a cielos oscuros.' },
+      { period: 'Septiembre a octubre', body: 'La ruska, la temporada del color otoñal: los fjäll se tiñen de rojo y oro, el aire es nítido y las primeras auroras vuelven a cielos oscuros.' },
     ],
 
-    ctaH2: 'Elija primero su fell, luego su cabaña',
+    ctaH2: 'Elija primero su fjäll, luego su cabaña',
     ctaLead: 'Empiece por la región que encaje con su grupo y compare después las cabañas en las páginas de Lomarengas. La reserva se hace en lomarengas.fi.',
     ctaPrimary: 'Todas las cabañas en Lomarengas',
     ctaSecondary: 'Cuándo ir',

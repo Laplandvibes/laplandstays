@@ -73,7 +73,7 @@ const copy: PageCopy = {
     airports: [
       { code: 'RVN', name: '로바니에미', serves: '로바니에미 (8km)', routes: '연중 HEL · 동계 LHR · CDG · BCN · MAD', busPrice: '€7 · 15분', taxiPrice: '€15–25' },
       { code: 'KTT', name: '키틸래', serves: '레비 (15km) · 윌래스 (50km)', routes: '동계 LHR · CDG · AMS · FRA · ZRH · HEL', busPrice: '레비행 €8 · 윌래스행 €25–30', taxiPrice: '레비 €25–35 · 윌래스 €100–120' },
-      { code: 'IVL', name: '이발로', serves: '사리셀카 (30km) · 이나리 (40km)', routes: '동계 HEL · LHR · CDG · AMS', busPrice: '사리셀카 €15–20 · 이나리 €15', taxiPrice: '사리셀카 €40–60 · 이나리 €60–80' },
+      { code: 'IVL', name: '이발로', serves: '사리셀카 (30km) · 이나리 (40km)', routes: '동계 HEL · LHR · CDG · AMS', busPrice: '사리셀카 €15–20 · 이나리행 정기 버스 없음, 사전 예약 셔틀만', taxiPrice: '사리셀카 €40–60 · 이나리 €60–80' },
       { code: 'ENF', name: '에논테키외', serves: '극북 산악권 (윌래스 · 헤타)', routes: '제한적 동계 HEL', busPrice: '사전 예약 트랜스퍼만', taxiPrice: '€80+' },
     ],
   },
