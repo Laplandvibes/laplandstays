@@ -721,7 +721,7 @@ Det här är djupa norr. Stugorna är på riktigt avlägsna: tio minuters bilres
     { title: 'SIIDA, samiskt museum och naturum', body: 'Den bästa introduktionen till samisk kultur i Norden: urfolkets historia, språket och Sápmis ekologi, allt i samma byggnad.' },
     { title: 'Norrsken över öppet vatten', body: 'Sjöstranden ger en ovanligt fri himmel över 180°. På vintern speglas norrskenet i den frusna ytan, vilket gör upplevelsen ovanligt stark.' },
     { title: 'Samiska mattraditioner', body: 'Köken här serverar poronkäristys (stekt renskav), kallrökt röding och desserter på hjortron, med råvaror från marken runt omkring dig.' },
-    { title: 'Vandring på kalfjället', body: 'Norr om Inari tynar trädgränsen ut i öppet lappländskt fjäll. Sommarvandring över Kevo och Utsjoki är så avlägset som Europa blir.' },
+    { title: 'Vandring på kalfjället', body: 'Norr om Inari tynar trädgränsen ut i öppet lappländskt fjäll. Sommarvandring över Kevo och Utsjoki är så avlägsen som Europa blir.' },
     { title: 'Hundspann och snöskoter på vintern', body: 'Hundgårdarna runt Inari kör slädleder ut på Inarisjöns is: vidöppet, inga träd, ovanligt snabbt och tyst.' },
   ],
   whenToGo: `Slutet av september–början av april är norrskenssäsong; på den här breddgraden ligger norrskensovalen regelbundet rakt över huvudet.

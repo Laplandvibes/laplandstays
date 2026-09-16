@@ -767,7 +767,7 @@ Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert al
     { day: '04', title: 'Natt i norrskensstuga · en lugn dag', body: 'Kör 15 min norrut till en glasigloo för sista natten. Långsam morgon, bastu, titta på himlen. Tidigast möjliga flyg hem nästa morgon.' },
   ],
   seoTitle: 'Boende i Levi: hotell, stugor och igloor | LaplandStays',
-  seoDescription: 'Var du bor i Levi, Lappland: Lapland Hotels från 100 €/natt, glasigloor på Levin Iglut från 350 €, ski in-stugor från 200 €. 15 min från Kittilä flygplats.',
+  seoDescription: 'Var du bor i Levi, Lappland: Lapland Hotels från 100 €/natt, glasigloor på Levin Iglut från 350 €, ski-in-stugor från 200 €. 15 min från Kittilä flygplats.',
 }
 
 export default function Levi() {

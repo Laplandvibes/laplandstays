@@ -766,7 +766,7 @@ Kolari järnvägsstation, 40 min bort, tar emot nattåg från Helsingfors med bi
     { day: '04', title: 'Långsam morgon · hemresa', body: 'Sista bastun, frukost, transfer tillbaka. Reser du påskveckan: lägg till en dag och åk skidor i högsäsongens sol.' },
   ],
   seoTitle: 'Boende i Ylläs: timmerstugor och chalets från 150 €/natt',
-  seoDescription: 'Var du bor i Ylläs, Lappland: timmerstugor från 150 €/natt, sjövillor och ski in-stugor i kanten av Pallas-Yllästunturi nationalpark.',
+  seoDescription: 'Var du bor i Ylläs, Lappland: timmerstugor från 150 €/natt, sjövillor och ski-in-stugor i kanten av Pallas-Yllästunturi nationalpark.',
 }
 
 export default function Yllas() {
