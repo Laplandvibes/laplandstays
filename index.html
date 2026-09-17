@@ -56,6 +56,10 @@
             }
           }
           if (!target) return;
+          // /cabins/<region> (Lomarengas cabin pages) exists only in en + fi + de; the /cabins
+          // index itself is in every locale. Other prefixes were a 404 there: /sv/cabins/levi/
+          // (measured live 17.9.2026). Only Finnish and German may redirect.
+          if (path.indexOf('/cabins/') === 0 && path !== '/cabins/' && target !== '/fi' && target !== '/de') return;
           var dest = path === '/' ? target : target + path;
           if (location.search) dest += location.search;
           if (location.hash) dest += location.hash;
