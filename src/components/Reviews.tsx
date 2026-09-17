@@ -205,7 +205,7 @@ export default function Reviews() {
 
         {/* Image-led cards (Vesa 2026-08-09: text-only dark cards had zero pull).
             The tag pill sits on the image over a bottom scrim; body stays below. */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-5 sm:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
           {c.items.map((v, i) => (
             <div
               key={v.tag}
