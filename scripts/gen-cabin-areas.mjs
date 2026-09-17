@@ -58,6 +58,25 @@ const AREAS = {
   rovaniemi: { place: 'Rovaniemi', munis: ['rovaniemi'] },
 };
 
+/** Name without a trailing unit marker: "Porukka 2" → "porukka", "Nilikuru a 2" → "nilikuru". */
+function stemOf(name) {
+  let n = name.toLowerCase().trim();
+  for (let i = 0; i < 2; i++) n = n.replace(/[\s-]+([a-d]|\d{1,3}|[a-d]\s?\d{1,3})$/i, '').trim();
+  return n;
+}
+/** Greedy re-order: the next card must not share a photo or a name stem with the previous WIN cards. */
+function diversify(rows, WIN = 6) {
+  const out = [];
+  const pool = rows.slice();
+  while (pool.length) {
+    const recent = out.slice(-WIN);
+    let i = pool.findIndex((c) => !recent.some((r) => r.img === c.img || stemOf(r.name) === stemOf(c.name)));
+    if (i < 0) i = 0;
+    out.push(pool.splice(i, 1)[0]);
+  }
+  return out;
+}
+
 const slugOf = (c) => (c.productUrl.split('/mokit/')[1] || '').trim();
 const idOf = (slug) => slug.split('-').pop();
 
@@ -84,14 +103,22 @@ const NAME = {
 // Image validation: the dump is a snapshot and Channable purges creatives of delisted cabins.
 // A card with a broken photo fails the image-frame gate and sells nothing, so every image is
 // HEAD-checked here and cabins whose photo is gone are dropped (measured 16.9.2026: 1 of 24 on Levi).
+// 🔴 Measured 17.9.2026: one HEAD with 24-way concurrency and an 8 s timeout reported 316/1 645
+// images dead in a single day; every sampled one answered 200 image/png on a retry. A network
+// flake is not a dead image. Three attempts (HEAD, then GET), and only 404/410 is definitive.
 async function imageAlive(url) {
-  try {
-    const r = await fetch(url, { method: 'HEAD', redirect: 'follow', signal: AbortSignal.timeout(8000) });
-    return r.ok && /image/.test(r.headers.get('content-type') || '');
-  } catch { return false; }
+  for (let attempt = 0; attempt < 3; attempt++) {
+    try {
+      const r = await fetch(url, { method: attempt === 0 ? 'HEAD' : 'GET', redirect: 'follow', signal: AbortSignal.timeout(15000) });
+      if (r.ok && /image/.test(r.headers.get('content-type') || '')) return true;
+      if (r.status === 404 || r.status === 410) return false;
+    } catch { /* retry */ }
+    await new Promise((res) => setTimeout(res, 500 * (attempt + 1)));
+  }
+  return false;
 }
 async function filterAlive(rows) {
-  const out = []; let i = 0; const N = 24;
+  const out = []; let i = 0; const N = 8;
   await Promise.all(Array.from({ length: N }, async () => {
     while (i < rows.length) { const c = rows[i++]; if (await imageAlive(c.img)) out.push(c); }
   }));
@@ -126,8 +153,19 @@ for (const [area, def] of Object.entries(AREAS)) {
   const before = rows.length;
   rows = await filterAlive(rows);
   const deadImages = before - rows.length;
+  // Guard: more than 15 % "dead" in one run is a network problem, not a feed change. Abort
+  // before writing anything (yesterday's real purge rate was 106/1 645 = 6.4 %).
+  if (before >= 20 && deadImages / before > 0.15) {
+    console.error(`✗ ${area}: ${deadImages}/${before} kuvaa "kuollut" yhdellä ajolla — verkko-ongelma, ei syötemuutos. Ei kirjoitettu mitään.`);
+    process.exit(2);
+  }
   // Bigger and better-rated first — the first 60 lines are what the crawlable body prints.
   rows.sort((a, b) => (b.stars - a.stars) || (b.guests - a.guests) || a.name.localeCompare(b.name, 'fi'));
+  // Then spread siblings apart (Vesa 17.9.2026: "onko liikaa samantyyppisiä?"). Sister units of
+  // one complex ("Porukka 1" / "Porukka 2", "Levi Star West A" / "B", four Nilikuru flats) share
+  // a photo and a name and sorted next to each other: measured 3–5 lookalike pairs in the first
+  // 24 cards of Levi, Ruka, Saariselkä and Rovaniemi. Same rank order otherwise.
+  rows = diversify(rows);
   writeFileSync(resolve(outDir, `${area}.json`), JSON.stringify({ area, place: def.place, count: rows.length, generated: dump.generated || null, cabins: rows }));
   for (const lang of ['fi', 'en', 'de']) {
     gen[lang][area] = {
