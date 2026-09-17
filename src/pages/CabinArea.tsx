@@ -71,17 +71,29 @@ const LOADERS: Record<CabinAreaSlug, () => Promise<{ default: AreaData }>> = {
 
 const PAGE = 24
 
+// Daily "week from" price for EVERY cabin (Worker /_cabins?prices=1, 2026-09-17), not only
+// the 12/group of the showcase feed. The dated note under the grid says when the prices were
+// read, so a reader never mistakes a Tuesday price for a promise. Falls back to the showcase
+// feed if the price endpoint is unavailable.
 type LiveFeed = { groups: Record<string, { id: string; weeklyFrom: number | null }[]> }
+type PriceFeed = { updatedAt: string | null; prices: Record<string, number> }
 let liveCache: Map<string, number> | null = null
+let liveUpdatedAt: string | null = null
 let livePromise: Promise<Map<string, number>> | null = null
 function loadLivePrices(): Promise<Map<string, number>> {
   if (liveCache) return Promise.resolve(liveCache)
   if (!livePromise) {
-    livePromise = fetch(CABINS_API)
-      .then((r) => (r.ok ? (r.json() as Promise<LiveFeed>) : null))
-      .then((d) => {
+    livePromise = fetch(CABINS_API + '?prices=1')
+      .then((r) => (r.ok ? (r.json() as Promise<PriceFeed>) : null))
+      .then(async (p) => {
         const m = new Map<string, number>()
-        if (d && d.groups) for (const arr of Object.values(d.groups)) for (const c of arr) if (c.weeklyFrom) m.set(String(c.id), c.weeklyFrom)
+        if (p && p.prices && Object.keys(p.prices).length > 0) {
+          for (const [id, price] of Object.entries(p.prices)) if (price >= 100 && price <= 20000) m.set(String(id), price)
+          liveUpdatedAt = p.updatedAt
+        } else {
+          const d = await fetch(CABINS_API).then((r) => (r.ok ? (r.json() as Promise<LiveFeed>) : null)).catch(() => null)
+          if (d && d.groups) for (const arr of Object.values(d.groups)) for (const c of arr) if (c.weeklyFrom) m.set(String(c.id), c.weeklyFrom)
+        }
         liveCache = m
         return m
       })
@@ -116,6 +128,10 @@ export default function CabinArea() {
   const nf = useMemo(() => {
     try { return new Intl.NumberFormat(lang, { maximumFractionDigits: 0 }) } catch { return new Intl.NumberFormat('en', { maximumFractionDigits: 0 }) }
   }, [lang])
+  const priceDate = useMemo(() => {
+    if (!live || !liveUpdatedAt) return null
+    try { return new Intl.DateTimeFormat(lang, { day: 'numeric', month: 'numeric', year: 'numeric' }).format(new Date(liveUpdatedAt)) } catch { return liveUpdatedAt.slice(0, 10) }
+  }, [lang, live])
 
   if (!slug) return <NotFound />
   // No copy in this language ⇒ the locale has no cabin-area pages; send the visitor to
@@ -269,7 +285,10 @@ export default function CabinArea() {
             </div>
           )}
 
-          <p className="mt-8 text-white/50 text-[12px] leading-relaxed max-w-3xl">{copy.dataNote}</p>
+          <p className="mt-8 text-white/50 text-[12px] leading-relaxed max-w-3xl">
+            {copy.dataNote}
+            {priceDate ? ' ' + copy.pricesDated.replace('{date}', priceDate) : ''}
+          </p>
         </div>
       </section>
 

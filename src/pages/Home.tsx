@@ -12,7 +12,7 @@ import Reviews from '../components/Reviews'
 import BookingCTA from '../components/BookingCTA'
 import ActivitiesCrossSell from '../components/ActivitiesCrossSell'
 import FAQSection, { type FAQItem } from '../components/FAQSection'
-import PartnerStayAd from '../components/PartnerStayAd'
+import CabinCarAd from '../components/CabinCarAd'
 import HomeCabinShowcase from '../components/HomeCabinShowcase'
 import HomeAdSlots, { MainPartnerBanner } from '../shared/HomeAdSlots'
 import { AD_SLOTS } from '../data/adSlots'
@@ -193,11 +193,12 @@ export default function Home() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         <ProductRail partner={finlaysonRail} snapshot={finlaysonPicks} lang={lang as RailLang} sid="home_bed_linen" variant="light" />
       </div>
-      {/* Lomarengas, whole-cabin angle, in the booking-intent zone after the
-          property browse. Brand-skinned ad with its own disclosure + tracking. */}
+      {/* Car rental built from the cabin reader's situation (rule 14.9.). Replaced the
+          generic Lomarengas card 17.9.2026: 0 clicks in 60 days, and the real cabin band
+          now sits directly under the hero, so the card only repeated it. */}
       <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-5xl mx-auto">
-          <PartnerStayAd partner="lomarengas" sid="home_lomarengas" />
+          <CabinCarAd />
         </div>
       </section>
       {/* Kaksi ILMAISTA nimettyjen kohteiden pintaa (mukavuuskorttien

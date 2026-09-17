@@ -18,6 +18,8 @@ export interface CabinAreaPageCopy {
   /** Live weekly from-price, `{price}` placeholder; shown only for cabins the daily feed covers. */
   weekFrom: string
   priceOnPartner: string
+  /** "Weekly prices as of {date}" — the day the Worker read the feed; shown under the grid. */
+  pricesDated: string
   browseAll: string
   showMore: string
   dataNote: string

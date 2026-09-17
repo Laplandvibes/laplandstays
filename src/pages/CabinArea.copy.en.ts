@@ -58,6 +58,7 @@ const copy: CabinAreaPageCopy = {
   starsLabel: 'stars',
   viewCabin: 'View cabin',
   weekFrom: 'week from {price} €',
+  pricesDated: 'Weekly prices read on {date}; the final price depends on the week.',
   priceOnPartner: 'Price and free weeks on Lomarengas',
   browseAll: 'Browse every cabin in the area on Lomarengas',
   showMore: 'Show more cabins',
