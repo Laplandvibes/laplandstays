@@ -24,7 +24,7 @@ const STRINGS: Record<string, { role: string; note: string; alt: string }> = {
   ja: { role: 'ヴェサ・LaplandVibes創業者', note: 'このレターは私が書いています。', alt: 'LaplandVibes創業者のヴェサ' },
   es: { role: 'Vesa, fundador de LaplandVibes', note: 'Estas cartas las escribo yo.', alt: 'Vesa, fundador de LaplandVibes' },
   'pt-BR': { role: 'Vesa, fundador do LaplandVibes', note: 'Estas cartas vêm de mim.', alt: 'Vesa, fundador do LaplandVibes' },
-  'zh-CN': { role: 'Vesa，LaplandVibes创始人', note: '这些信由我亲自撰写。', alt: 'LaplandVibes创始人Vesa' },
+  'zh-CN': { role: 'Vesa，LaplandVibes創始人', note: '這些信由我親自撰寫。', alt: 'LaplandVibes創始人Vesa' },
   ko: { role: '베사, LaplandVibes 창립자', note: '이 레터는 제가 직접 씁니다.', alt: 'LaplandVibes 창립자 베사' },
   fr: { role: 'Vesa, fondateur de LaplandVibes', note: 'Ces lettres viennent de moi.', alt: 'Vesa, fondateur de LaplandVibes' },
   it: { role: 'Vesa, fondatore di LaplandVibes', note: 'Queste lettere le scrivo io.', alt: 'Vesa, fondatore di LaplandVibes' },

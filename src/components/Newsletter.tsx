@@ -68,8 +68,8 @@ const CONSENT: Record<Lang, { consent: string; privacy: string }> = {
   },
   'zh-CN': {
     consent:
-      '我同意 LaplandVibes 向我填写的邮箱发送订阅邮件，内容包括拉普兰旅行建议、季节资讯和优惠信息，并确认本人已年满18周岁。',
-    privacy: '隐私政策',
+      '我同意 LaplandVibes 向我填寫的電子郵件地址傳送訂閱郵件，內容包括拉普蘭旅行建議、季節資訊和優惠資訊，並確認本人已年滿18週歲。',
+    privacy: '隱私政策',
   },
   ko: {
     consent:

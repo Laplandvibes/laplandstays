@@ -642,67 +642,67 @@ Para viagens prolongadas na natureza, a estrada continua até Utsjoki e a fronte
 }
 
 const zhCN: DestinationBody = {
-  tagline: '萨米文化首府、芬兰第三大湖，以及芬兰拉普兰最偏远的小屋。',
-  description: `伊纳里是芬兰萨米文化的首府，也是芬兰面积最大的市镇。伊纳里湖(Inarijärvi)面积1,040平方公里，点缀着3,000座小岛，是芬兰第三大湖，也是欧洲最清澈的水体之一。
+  tagline: '薩米文化首府、芬蘭第三大湖，以及芬蘭拉普蘭最偏遠的小屋。',
+  description: `伊納里是芬蘭薩米文化的首府，也是芬蘭面積最大的市鎮。伊納里湖(Inarijärvi)面積1,040平方公里，點綴著3,000座小島，是芬蘭第三大湖，也是歐洲最清澈的水體之一。
 
-这里是深北。这里的小屋是真正意义上的偏远：从村庄驱车十分钟，就可置身于180°地平线上看不到其他灯光的湖岸。伊纳里村中的SIIDA博物馆是萨米文化的核心，周围的荒野延伸至乌茨约基边境的苔原高原。`,
+這裡是深北。這裡的小屋是真正意義上的偏遠：從村莊驅車十分鐘，就可置身於180°地平線上看不到其他燈光的湖岸。伊納里村中的SIIDA博物館是薩米文化的核心，周圍的荒野延伸至烏茨約基邊境的苔原高原。`,
   facts: [
-    { label: '湖畔小屋每晚', value: '200欧元起' },
-    { label: '极光之村每晚', value: '300欧元起' },
-    { label: '湖面面积', value: '1,040平方公里' },
-    { label: '最近机场', value: 'IVL 40分钟' },
+    { label: '湖畔小屋每晚', value: '200歐元起' },
+    { label: '極光之村每晚', value: '300歐元起' },
+    { label: '湖面面積', value: '1,040平方公里' },
+    { label: '最近機場', value: 'IVL 40分鐘' },
   ],
   highlights: [
-    { title: '伊纳里湖的独享感', body: '湖岸住宿刻意彼此疏远。私人码头、冬季冰钓孔、夏季可乘船巡游，途经神圣的Ukonkivi岛（现已禁止登岛）。' },
-    { title: 'SIIDA萨米博物馆与自然中心', body: '在北欧最好的萨米文化入门。原住民历史、语言、Sápmi的生态，集合于一栋建筑。' },
-    { title: '开阔水面上的极光', body: '湖岸提供罕见的180°无遮挡天空。冬季，极光在冰面上的倒影使观赏格外震撼。' },
-    { title: '萨米饮食传统', body: '当地厨房供应poronkäristys（炒驯鹿）、冷熏北极红点鲑、云莓甜点。食材都来自周边土地。' },
-    { title: '苔原山地徒步', body: '伊纳里以北树线渐稀，过渡到开阔的拉普兰苔原。穿越Kevo与Utsjoki的夏季徒步，是欧洲最偏远的体验之一。' },
-    { title: '冬季哈士奇与雪地摩托', body: '伊纳里周边犬舍在冻结的Inarijärvi湖面上开辟雪橇路线。开阔、无树，出奇地快且寂静。' },
+    { title: '伊納里湖的獨享感', body: '湖岸住宿刻意彼此疏遠。私人碼頭、冬季冰釣孔、夏季可乘船巡遊，途經神聖的Ukonkivi島（現已禁止登島）。' },
+    { title: 'SIIDA薩米博物館與自然中心', body: '在北歐最好的薩米文化入門。原住民歷史、語言、Sápmi的生態，集合於一棟建築。' },
+    { title: '開闊水面上的極光', body: '湖岸提供罕見的180°無遮擋天空。冬季，極光在冰面上的倒影使觀賞格外震撼。' },
+    { title: '薩米飲食傳統', body: '當地廚房供應poronkäristys（炒馴鹿）、冷燻北極紅點鮭、雲莓甜點。食材都來自周邊土地。' },
+    { title: '苔原山地徒步', body: '伊納里以北樹線漸稀，過渡到開闊的拉普蘭苔原。穿越Kevo與烏茨約基的夏季徒步，是歐洲最偏遠的體驗之一。' },
+    { title: '冬季哈士奇與雪地摩托', body: '伊納里周邊犬舍在凍結的Inarijärvi湖面上開闢雪橇路線。開闊、無樹，出奇地快且寂靜。' },
   ],
-  whenToGo: `9月下旬至4月初是极光季；此纬度上，极光椭圆带常常正悬头顶。
-6月中旬至7月下旬是午夜阳光季：大约六周时间太阳不落。
-8月中旬迎来短暂而浓烈的ruska（秋色）。苔原一片红橙。`,
-  howToGet: `飞往伊瓦洛(IVL)，接送40分钟。每日有赫尔辛基。伊瓦洛直飞，冬季还有来自英国与中欧的季节包机。
-租车。最棒的小屋位于湖畔小路，需要私人车辆。
-若进行长途荒野旅行，公路继续通往Utsjoki及挪威边境。`,
+  whenToGo: `9月下旬至4月初是極光季；此緯度上，極光橢圓帶常常正懸頭頂。
+6月中旬至7月下旬是午夜陽光季：大約六週時間太陽不落。
+8月中旬迎來短暫而濃烈的ruska（秋色）。苔原一片紅橙。`,
+  howToGet: `飛往伊瓦洛(IVL)，接送40分鐘。每日有赫爾辛基。伊瓦洛直飛，冬季還有來自英國與中歐的季節包機。
+租車。最棒的小屋位於湖畔小路，需要私人車輛。
+若進行長途荒野旅行，公路繼續通往Utsjoki及挪威邊境。`,
   stayTypes: [
-    '伊纳里湖畔原木小屋。可住4–6人，私人湖岸、柴烧桑拿、冰钓装备。',
-    '偏远荒野别墅。脱网般的体验与完整舒适，任何方向都是几小时的未受干扰森林。',
-    '萨米家庭经营的小屋。小巧而具个性，常伴有驯鹿放牧传统与现场讲述。',
-    '伊纳里村以北的极光玻璃静修屋。专为高纬度观星而设计。',
+    '伊納里湖畔原木小屋。可住4–6人，私人湖岸、柴燒桑拿、冰釣裝備。',
+    '偏遠荒野別墅。脫網般的體驗與完整舒適，任何方向都是幾小時的未受干擾森林。',
+    '薩米家庭經營的小屋。小巧而具個性，常伴有馴鹿放牧傳統與現場講述。',
+    '伊納里村以北的極光玻璃靜修屋。專為高緯度觀星而設計。',
   ],
   siblings: [
-    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '通往UKK荒野的入口，南行50分钟。' },
-    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '拉普兰首府，主要的抵达地点。' },
-    { name: 'Levi', href: '/destinations/levi', blurb: '大型滑雪村庄，可步行的中心区。' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '通往UKK荒野的入口，南行50分鐘。' },
+    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '拉普蘭首府，主要的抵達地點。' },
+    { name: 'Levi', href: '/destinations/levi', blurb: '大型滑雪村莊，可步行的中心區。' },
   ],
   anchorProperties: [
-    { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: '位于伊纳里湖静谧的东岸，远离村镇灯光。冰湖上的垂钓、桑拿与极光之旅。' },
-    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '距伊瓦洛机场20分钟。玻璃屋顶小屋，提供极光呼叫服务。' },
-    { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: '位于伊纳里与萨利色尔卡之间，由建筑师设计的全套房小屋。' },
-    { name: '伊纳里全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').inari, sid: 'destination_inari_all_search', note: '在Trip.com浏览伊纳里所有房源。' },
+    { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: '位於伊納里湖靜謐的東岸，遠離村鎮燈光。冰湖上的垂釣、桑拿與極光之旅。' },
+    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '距伊瓦洛機場20分鐘。玻璃屋頂小屋，提供極光呼叫服務。' },
+    { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: '位於伊納里與薩利色爾卡之間，由建築師設計的全套房小屋。' },
+    { name: '伊納里全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').inari, sid: 'destination_inari_all_search', note: '在Trip.com瀏覽伊納里所有房源。' },
   ],
   transport: [
-    { mode: 'plane', label: '从伊瓦洛机场(IVL)出发', detail: '赫尔辛基直飞全年运营；冬季有伦敦盖特威克、巴黎等季节性航线。北行50公里 / 40分钟抵达伊纳里村。' },
-    { mode: 'bus', label: '机场至伊纳里接驳', detail: '需预订接驳车或从IVL乘出租车（约40分钟）。免预订机场巴士仅开往萨利色尔卡方向。' },
-    { mode: 'car', label: '出租车或预订接送', detail: '从IVL至伊纳里村60–80欧元。大多数高端房源提供私人接送。' },
-    { mode: 'car', label: '从萨利色尔卡自驾', detail: '沿E75行驶50分钟。如以萨利色尔卡为基地，日游轻松。许多旅客分宿两地。' },
+    { mode: 'plane', label: '從伊瓦洛機場(IVL)出發', detail: '赫爾辛基直飛全年運營；冬季有倫敦蓋特威克、巴黎等季節性航線。北行50公里 / 40分鐘抵達伊納里村。' },
+    { mode: 'bus', label: '機場至伊納里接駁', detail: '需預訂接駁車或從IVL乘計程車（約40分鐘）。免預訂機場巴士僅開往薩利色爾卡方向。' },
+    { mode: 'car', label: '計程車或預訂接送', detail: '從IVL至伊納里村60–80歐元。大多數高階房源提供私人接送。' },
+    { mode: 'car', label: '從薩利色爾卡自駕', detail: '沿E75行駛50分鐘。如以薩利色爾卡為基地，日遊輕鬆。許多旅客分宿兩地。' },
   ],
   carRental: {
     href: CARS_FOR('zh-CN').fromIvalo,
     sid: 'destination_inari_cars_ivl',
-    airport: '伊瓦洛机场(IVL)取车',
-    blurb: '至伊纳里村40分钟 · Nellim与伊纳里湖畔小屋必备',
+    airport: '伊瓦洛機場(IVL)取車',
+    blurb: '至伊納里村40分鐘 · Nellim與伊納里湖畔小屋必備',
   },
   dayPlan: [
-    { day: '01', title: '抵达 · 湖畔小屋', body: '中午抵达IVL，向北驱车至伊纳里村或更远的Nellim。安顿、桑拿、湖边散步。第二个小时，伊纳里的寂静就会沉下来。' },
-    { day: '02', title: '萨米文化 · Siida博物馆', body: '上午在Siida（萨米原住民博物馆，北欧最完整的萨米馆藏）。在伊纳里村午餐。下午冰钓或随导游森林漫步。' },
-    { day: '03', title: '伊纳里湖雪地摩托', body: '由导游带领，乘雪地摩托驰骋于冻结的湖面，远眺神圣的Ukonkivi岛（不可登岛）。冬季14:30天即暗。回到小屋，迎接漫长的极光窗口。' },
-    { day: '04', title: '缓慢启程', body: '驯鹿农场参观、最后一次桑拿、驱车返回IVL。条件允许就多加两天。伊纳里慢游回报最丰。' },
+    { day: '01', title: '抵達 · 湖畔小屋', body: '中午抵達IVL，向北驅車至伊納里村或更遠的Nellim。安頓、桑拿、湖邊散步。第二個小時，伊納里的寂靜就會沉下來。' },
+    { day: '02', title: '薩米文化 · Siida博物館', body: '上午在Siida（薩米原住民博物館，北歐最完整的薩米館藏）。在伊納里村午餐。下午冰釣或隨導遊森林漫步。' },
+    { day: '03', title: '伊納里湖雪地摩托', body: '由導遊帶領，乘雪地摩托馳騁於凍結的湖面，遠眺神聖的Ukonkivi島（不可登島）。冬季14:30天即暗。回到小屋，迎接漫長的極光視窗。' },
+    { day: '04', title: '緩慢啟程', body: '馴鹿農場參觀、最後一次桑拿、驅車返回IVL。條件允許就多加兩天。伊納里慢遊回報最豐。' },
   ],
-  seoTitle: '伊纳里住宿：湖畔小屋与极光别墅',
-  seoDescription: '芬兰拉普兰伊纳里住宿指南：湖畔原木小屋每晚200欧元起、Aurora Village与Nellim Wilderness Hotel 300欧元起。伊纳里湖私人湖岸、萨米传统、暗空、直接预订。',
+  seoTitle: '伊納里住宿：湖畔小木屋與極光別墅 | LaplandStays',
+  seoDescription: '芬蘭拉普蘭伊納里住宿指南：湖畔原木小屋每晚200歐元起、Aurora Village與Nellim Wilderness Hotel 300歐元起。伊納里湖私人湖岸、薩米傳統、暗空、直接預訂。',
 }
 
 const sv: DestinationBody = {

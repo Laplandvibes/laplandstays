@@ -104,7 +104,7 @@ export interface RailPartner {
 
 const AD_LABEL: Record<RailLang, string> = {
   en: 'Ad', fi: 'Mainos', de: 'Anzeige', ja: '広告', es: 'Anuncio',
-  'pt-BR': 'Publicidade', 'zh-CN': '广告', ko: '광고', fr: 'Publicité',
+  'pt-BR': 'Publicidade', 'zh-CN': '廣告', ko: '광고', fr: 'Publicité',
   it: 'Pubblicità', nl: 'Advertentie', sv: 'Annons',
 }
 

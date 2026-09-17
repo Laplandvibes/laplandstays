@@ -49,7 +49,7 @@ const TRIP_LOCALE: Record<TripLang, string> = {
   ja: 'ja-JP',
   es: 'es-ES',
   'pt-BR': 'pt-BR',
-  'zh-CN': 'zh-CN',
+  'zh-CN': 'zh-TW', // /cn/ on Taiwanin perinteistä (17.9.2026)
   ko: 'ko-KR',
   fr: 'fr-FR',
   it: 'it-IT',

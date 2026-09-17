@@ -51,7 +51,7 @@ export default function Nav() {
   // Accessibility aria translations (KO/FR/IT/NL screen-reader leaks fix).
   const ariaToggleMenu = pick(lang,
     'Toggle menu', 'Avaa/sulje valikko', 'Menü umschalten', 'メニューを開閉する', 'Alternar menú',
-    'Alternar menu', '切换菜单', '메뉴 열기/닫기', 'Basculer le menu', 'Apri/chiudi menu', 'Menu wisselen', 'Växla meny')
+    'Alternar menu', '切換選單', '메뉴 열기/닫기', 'Basculer le menu', 'Apri/chiudi menu', 'Menu wisselen', 'Växla meny')
 
   return (
     <>

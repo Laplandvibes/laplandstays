@@ -155,7 +155,9 @@ const FULL_LOCALE_LIST = [
   { lang: 'ja',    prefix: '/ja', bcp47: 'ja-JP', og: 'ja_JP', file: 'copy.ja.ts',   ident: 'ja',   jsonDir: 'ja'    },
   { lang: 'es',    prefix: '/es', bcp47: 'es-ES', og: 'es_ES', file: 'copy.es.ts',   ident: 'es',   jsonDir: 'es'    },
   { lang: 'pt-BR', prefix: '/br', bcp47: 'pt-BR', og: 'pt_BR', file: 'copy.ptBR.ts', ident: 'ptBR', jsonDir: 'pt-BR' },
-  { lang: 'zh-CN', prefix: '/cn', bcp47: 'zh-CN', og: 'zh_CN', file: 'copy.zhCN.ts', ident: 'zhCN', jsonDir: 'zh-CN' },
+  // zh-CN on koodin avain, mutta sisältö on Taiwanin perinteistä (17.9.2026, scripts/zh-hant.mjs):
+  // lang-attribuutti zh-Hant, og:locale zh_TW, hreflang zh-Hant + zh (sama pari SEO.tsx:ssä ja sitemapissa).
+  { lang: 'zh-CN', prefix: '/cn', bcp47: 'zh-Hant', og: 'zh_TW', hreflang: ['zh-Hant', 'zh'], file: 'copy.zhCN.ts', ident: 'zhCN', jsonDir: 'zh-CN' },
   { lang: 'ko',    prefix: '/kr', bcp47: 'ko-KR', og: 'ko_KR', file: 'copy.ko.ts',   ident: 'ko',   jsonDir: 'ko'    },
   { lang: 'fr',    prefix: '/fr', bcp47: 'fr-FR', og: 'fr_FR', file: 'copy.fr.ts',   ident: 'fr',   jsonDir: 'fr'    },
   { lang: 'it',    prefix: '/it', bcp47: 'it-IT', og: 'it_IT', file: 'copy.it.ts',   ident: 'it',   jsonDir: 'it'    },
@@ -1563,12 +1565,17 @@ for (const route of routes) {
     const hreflangLocales = nativeSet
       ? routeLocales.filter((l) => nativeSet.has(l.lang))
       : routeLocales
+    // hreflang-koodit per lokaali: oletus = lang, mutta lokaali voi julkaista useamman koodin
+    // (zh-CN → zh-Hant + zh, ks. FULL_LOCALE_LIST).
+    const hreflangCodes = (l) => (Array.isArray(l.hreflang) ? l.hreflang : [l.lang])
     const hreflangs = consolidateTo
-      ? [{ hreflang: canonicalLoc.lang === 'en' ? 'en' : canonicalLoc.lang, url: canonical }]
-      : hreflangLocales.map((l) => ({
-          hreflang: l.lang === 'en' ? 'en' : l.lang,
-          url: `${SITE}${l.prefix}${cleanPath}`.replace(SLASH_END, '/'),
-        }))
+      ? hreflangCodes(canonicalLoc).map((code) => ({ hreflang: code, url: canonical }))
+      : hreflangLocales.flatMap((l) =>
+          hreflangCodes(l).map((code) => ({
+            hreflang: code,
+            url: `${SITE}${l.prefix}${cleanPath}`.replace(SLASH_END, '/'),
+          })),
+        )
 
     const outPath =
       loc.prefix === '' && cleanPath === ''

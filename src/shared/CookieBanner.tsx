@@ -46,7 +46,7 @@ export const COOKIE_BANNER_LOCALES: Record<string, Required<CookieBannerDict>> =
   ja:      { label: 'クッキー', body: '体験を向上させるためにクッキーを使用しています。',           policyLink: 'クッキーポリシー', decline: '拒否',     accept: '同意する',  ariaLabel: 'クッキーの同意' },
   es:      { label: 'Cookies',  body: 'Utilizamos cookies para mejorar su experiencia.',     policyLink: 'Política de Cookies', decline: 'Rechazar', accept: 'Aceptar',   ariaLabel: 'Consentimiento de cookies' },
   'pt-BR': { label: 'Cookies',  body: 'Usamos cookies para melhorar sua experiência.',        policyLink: 'Política de Cookies', decline: 'Recusar',  accept: 'Aceitar',   ariaLabel: 'Consentimento de cookies' },
-  'zh-CN': { label: 'Cookie',   body: '我们使用 Cookie 来改善您的体验。',                       policyLink: 'Cookie 政策',  decline: '拒绝',     accept: '接受',      ariaLabel: 'Cookie 同意' },
+  'zh-CN': { label: 'Cookie',   body: '我們使用 Cookie 來改善您的體驗。',                       policyLink: 'Cookie 政策',  decline: '拒絕',     accept: '接受',      ariaLabel: 'Cookie 同意' },
   ko:      { label: '쿠키',     body: '더 나은 경험을 위해 쿠키를 사용합니다.',                  policyLink: '쿠키 정책',    decline: '거부',     accept: '동의',      ariaLabel: '쿠키 동의' },
   fr:      { label: 'Cookies',  body: 'Nous utilisons des cookies pour améliorer votre expérience.', policyLink: 'Politique des cookies', decline: 'Refuser',  accept: 'Accepter',  ariaLabel: 'Consentement aux cookies' },
   it:      { label: 'Cookie',   body: 'Utilizziamo i cookie per migliorare la Sua esperienza.', policyLink: 'Informativa sui Cookie', decline: 'Rifiuta',  accept: 'Accetta',   ariaLabel: 'Consenso ai cookie' },

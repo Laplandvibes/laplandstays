@@ -60,9 +60,9 @@ const COPY = {
     lead: 'Preços reais, chances de aurora e por onde começar. As mesmas respostas que damos quando amigos perguntam sobre se hospedar aqui em cima.',
   },
   'zh-CN': {
-    eyebrow: '住宿常见问题',
-    h2: '旅行者最常问我们的问题',
-    lead: '真实价格、极光概率、从哪里开始。朋友问起在拉普兰住宿时，我们给出的就是这些答案。',
+    eyebrow: '住宿常見問題',
+    h2: '旅行者最常問我們的問題',
+    lead: '真實價格、極光機率、從哪裡開始。朋友問起在拉普蘭住宿時，我們給出的就是這些答案。',
   },
   ko: {
     eyebrow: '숙박 FAQ',

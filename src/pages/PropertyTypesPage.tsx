@@ -347,11 +347,11 @@ const categoryMetaFor = (lang: Lang) => [
 ] as const
 
 const SLUG_NAME: Record<string, Record<Lang, string>> = {
-  saariselka: { en: 'Saariselkä', fi: 'Saariselkä', de: 'Saariselkä', ja: 'サーリセルカ', es: 'Saariselkä', 'pt-BR': 'Saariselkä', 'zh-CN': '萨利色尔卡', ko: '사리셀카',  fr: 'Saariselkä', it: 'Saariselkä', nl: 'Saariselkä', sv: 'Saariselkä' },
-  levi:       { en: 'Levi',       fi: 'Levi',       de: 'Levi',       ja: 'レヴィ',     es: 'Levi',       'pt-BR': 'Levi',       'zh-CN': '莱维',     ko: '레비',      fr: 'Levi',       it: 'Levi',       nl: 'Levi', sv: 'Levi' },
-  inari:      { en: 'Inari',      fi: 'Inari',      de: 'Inari',      ja: 'イナリ',     es: 'Inari',      'pt-BR': 'Inari',      'zh-CN': '伊纳里',   ko: '이나리',    fr: 'Inari',      it: 'Inari',      nl: 'Inari', sv: 'Inari' },
-  rovaniemi:  { en: 'Rovaniemi',  fi: 'Rovaniemi',  de: 'Rovaniemi',  ja: 'ロヴァニエミ', es: 'Rovaniemi',  'pt-BR': 'Rovaniemi',  'zh-CN': '罗瓦涅米', ko: '로바니에미',fr: 'Rovaniemi',  it: 'Rovaniemi',  nl: 'Rovaniemi', sv: 'Rovaniemi' },
-  yllas:      { en: 'Ylläs',      fi: 'Ylläs',      de: 'Ylläs',      ja: 'ユッラス',   es: 'Ylläs',      'pt-BR': 'Ylläs',      'zh-CN': '于拉斯',   ko: '윌래스',    fr: 'Ylläs',      it: 'Ylläs',      nl: 'Ylläs', sv: 'Ylläs' },
+  saariselka: { en: 'Saariselkä', fi: 'Saariselkä', de: 'Saariselkä', ja: 'サーリセルカ', es: 'Saariselkä', 'pt-BR': 'Saariselkä', 'zh-CN': '薩利色爾卡', ko: '사리셀카',  fr: 'Saariselkä', it: 'Saariselkä', nl: 'Saariselkä', sv: 'Saariselkä' },
+  levi:       { en: 'Levi',       fi: 'Levi',       de: 'Levi',       ja: 'レヴィ',     es: 'Levi',       'pt-BR': 'Levi',       'zh-CN': '萊維',     ko: '레비',      fr: 'Levi',       it: 'Levi',       nl: 'Levi', sv: 'Levi' },
+  inari:      { en: 'Inari',      fi: 'Inari',      de: 'Inari',      ja: 'イナリ',     es: 'Inari',      'pt-BR': 'Inari',      'zh-CN': '伊納里',   ko: '이나리',    fr: 'Inari',      it: 'Inari',      nl: 'Inari', sv: 'Inari' },
+  rovaniemi:  { en: 'Rovaniemi',  fi: 'Rovaniemi',  de: 'Rovaniemi',  ja: 'ロヴァニエミ', es: 'Rovaniemi',  'pt-BR': 'Rovaniemi',  'zh-CN': '羅瓦涅米', ko: '로바니에미',fr: 'Rovaniemi',  it: 'Rovaniemi',  nl: 'Rovaniemi', sv: 'Rovaniemi' },
+  yllas:      { en: 'Ylläs',      fi: 'Ylläs',      de: 'Ylläs',      ja: 'ユッラス',   es: 'Ylläs',      'pt-BR': 'Ylläs',      'zh-CN': '於拉斯',   ko: '윌래스',    fr: 'Ylläs',      it: 'Ylläs',      nl: 'Ylläs', sv: 'Ylläs' },
 }
 
 /** Short per-night suffix for the hero stat subtitle (price-range context). */

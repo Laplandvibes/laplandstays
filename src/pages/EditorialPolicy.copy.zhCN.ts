@@ -2,85 +2,85 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "编辑政策。我们如何核实 | LaplandStays",
-    "description": "LaplandStays如何核实价格、点名住宿、维持联盟独立性并处理勘误。LaplandStays住宿指南的编辑标准。"
+    "title": "編輯政策。我們如何核實 | LaplandStays",
+    "description": "LaplandStays如何核實價格、點名住宿、維持聯盟獨立性並處理勘誤。LaplandStays住宿指南的編輯標準。"
   },
   "ui": {
-    "eyebrow": "编辑",
-    "h1": "我们如何核实",
-    "intro": "LaplandStays运营所依据的标准。价格来自哪里、联盟关系如何处理、出错时会发生什么。",
-    "principlesEyebrow": "四项原则",
+    "eyebrow": "編輯",
+    "h1": "我們如何核實",
+    "intro": "LaplandStays運營所依據的標準。價格來自哪裡、聯盟關係如何處理、出錯時會發生什麼。",
+    "principlesEyebrow": "四項原則",
     "principlesH2": "您可以期待的",
     "principles": [
       {
-        "title": "每季核实房价",
-        "body": "每一句\"X欧元/晚起\"都来自运营商自己的预订页面或我们的预订合作伙伴。价格每季度至少核实一次，并在极光季伊始（9月）显式核实。如果某住宿在旺季已售罄，页面会在开头明确告知，而非把读者引向零结果搜索。"
+        "title": "每季核實房價",
+        "body": "每一句\"X歐元/晚起\"都來自運營商自己的預訂頁面或我們的預訂合作伙伴。價格每季度至少核實一次，並在極光季伊始（9月）顯式核實。如果某住宿在旺季已售罄，頁面會在開頭明確告知，而非把讀者引向零結果搜尋。"
       },
       {
-        "title": "点名住宿，不说\"5星高端\"",
-        "body": "引用Kakslauttanen Arctic Resort、Levin Iglut、Star Arctic、Aurora Village Ivalo、Wilderness Hotel Nellim和Muotka、Apukka Resort、Arctic TreeHouse Hotel、Nova Skyland、Lapland Hotels（莱维/于拉斯）、Harriniva、Northern Lights Ranch。直接点名、附深度链接。绝不有匿名的\"豪华小屋\"而不说是哪家。"
+        "title": "點名住宿，不說\"5星高階\"",
+        "body": "引用Kakslauttanen Arctic Resort、Levin Iglut、Star Arctic、Aurora Village Ivalo、Wilderness Hotel Nellim和Muotka、Apukka Resort、Arctic TreeHouse Hotel、Nova Skyland、Lapland Hotels（萊維/於拉斯）、Harriniva、Northern Lights Ranch。直接點名、附深度連結。絕不有匿名的\"豪華小屋\"而不說是哪家。"
       },
       {
-        "title": "联盟独立",
-        "body": "LaplandStays通过合作链接的预订赚取联盟佣金（酒店为经Adtraction的Sembo和Trip.com，租车为经Travelpayouts的EconomyBookings，活动为GetYourGuide）。合作伙伴计划中各方佣金率相似，因此不会影响推荐。当非联盟的运营商是正确答案时，我们也会推荐（如火车的VR）。详见/transport页面。"
+        "title": "聯盟獨立",
+        "body": "LaplandStays通過合作連結的預訂賺取聯盟佣金（飯店為經Adtraction的Sembo和Trip.com，租車為經Travelpayouts的EconomyBookings，活動為GetYourGuide）。合作伙伴計劃中各方佣金率相似，因此不會影響推薦。當非聯盟的運營商是正確答案時，我們也會推薦（如火車的VR）。詳見/transport頁面。"
       },
       {
         "title": "更正，而非默默修改",
-        "body": "出错时会修正，改动会记录在各站状态页面。重要变更（价格更正、住宿关停、schema更新）在相关段落处标注日期。若发现错误，请发送邮件至info@laplandvibes.com。通常来自拉普兰当地的同日回复。"
+        "body": "出錯時會修正，改動會記錄在各站狀態頁面。重要變更（價格更正、住宿關停、schema更新）在相關段落處標註日期。若發現錯誤，請傳送郵件至info@laplandvibes.com。通常來自拉普蘭當地的同日回覆。"
       }
     ],
-    "sourcesEyebrow": "数据来源",
-    "sourcesH2": "引用来源",
-    "sourcesLead": "联盟与编辑：前四项来源会产生佣金，后三项不产生。这一区别从不改变读者被引向哪个来源。它改变的是哪个被标为付费。",
+    "sourcesEyebrow": "資料來源",
+    "sourcesH2": "引用來源",
+    "sourcesLead": "聯盟與編輯：前四項來源會產生佣金，後三項不產生。這一區別從不改變讀者被引向哪個來源。它改變的是哪個被標為付費。",
     "sources": [
       {
-        "label": "Sembo & Trip.com（酒店合作方）",
-        "use": "12家主要住宿+城市/区域搜索的实时空房与季节性\"起价\"。"
+        "label": "Sembo & Trip.com（飯店合作方）",
+        "use": "12家主要住宿+城市/區域搜尋的即時空房與季節性\"起價\"。"
       },
       {
-        "label": "运营商预订页面",
-        "use": "当合作方库存不完整时直接核实房价（如Kakslauttanen自营预订、Levin Iglut、Aurora Village）。"
+        "label": "運營商預訂頁面",
+        "use": "當合作方庫存不完整時直接核實房價（如Kakslauttanen自營預訂、Levin Iglut、Aurora Village）。"
       },
       {
         "label": "EconomyBookings(Travelpayouts)",
-        "use": "KTT / RVN / IVL机场租车价格，以及赫尔辛基单向取车。"
+        "use": "KTT / RVN / IVL機場租車價格，以及赫爾辛基單向取車。"
       },
       {
-        "label": "GetYourGuide合作计划",
-        "use": "罗瓦涅米、萨利色尔卡、莱维、于拉斯、伊纳里的活动库存（当新增\"活动\"模块时）。"
+        "label": "GetYourGuide合作計劃",
+        "use": "羅瓦涅米、薩利色爾卡、萊維、於拉斯、伊納里的活動庫存（當新增\"活動\"模組時）。"
       },
       {
-        "label": "VR（芬兰铁路）",
-        "use": "赫尔辛基–罗瓦涅米卧铺时刻表与价格。仅编辑性引用。无联盟关系。"
+        "label": "VR（芬蘭鐵路）",
+        "use": "赫爾辛基–羅瓦涅米臥鋪時刻表與價格。僅編輯性引用。無聯盟關係。"
       },
       {
-        "label": "芬兰气象研究所与SpaceWeatherLive",
-        "use": "/when-to-go页与极光相关文案的极光出现率与Kp指数数据。"
+        "label": "芬蘭氣象研究所與SpaceWeatherLive",
+        "use": "/when-to-go頁與極光相關文案的極光出現率與Kp指數資料。"
       },
       {
-        "label": "Visit Finland与拉普兰区域旅游",
-        "use": "直飞航线与季节性开放日期的双重核对。"
+        "label": "Visit Finland與拉普蘭區域旅遊",
+        "use": "直飛航線與季節性開放日期的雙重核對。"
       }
     ],
-    "sourceLabel": "来源",
+    "sourceLabel": "來源",
     "useLabel": "用途",
-    "reviewerEyebrow": "维护者",
-    "reviewerH2": "LaplandStays背后",
-    "reviewerRole": "编辑 · 运营者 · LaPeso Oy",
-    "reviewerBody1": "Vesa在芬兰拉普兰运营LaPeso Oy，并编辑LaplandStays与更广阔的#LaplandVibes生态。本站每一页在发布前都由Vesa审阅，且每季度核查价格变动。编辑咨询、合作洽询、勘误请联系：",
-    "reviewerBody2": "通常当天回复，来自拉普兰当地。",
-    "corrEyebrow": "若发现错误",
+    "reviewerEyebrow": "維護者",
+    "reviewerH2": "LaplandStays背後",
+    "reviewerRole": "編輯 · 運營者 · LaPeso Oy",
+    "reviewerBody1": "Vesa在芬蘭拉普蘭運營LaPeso Oy，並編輯LaplandStays與更廣闊的#LaplandVibes生態。本站每一頁在釋出前都由Vesa審閱，且每季度核查價格變動。編輯諮詢、合作洽詢、勘誤請聯絡：",
+    "reviewerBody2": "通常當天回覆，來自拉普蘭當地。",
+    "corrEyebrow": "若發現錯誤",
     "corrH2": "更正流程",
-    "corrP1": "旅行数据会变。价格变动、住宿关停、航线取消。当已发布信息不再准确时，被告知胜过让读者因此错过自己的行程。",
-    "corrP2Pre": "如何反馈：请发送邮件至 ",
-    "corrP2Mid": "，附上页面URL及有问题的那一行。我们会在各站状态页面记录，非紧急问题1–3天内更新公共文本，影响预订的价格错误则当天更新。",
-    "corrP3": "永远不会发生的事：默默修改。重要更正始终在状态页的更新日志中标记日期与说明。",
-    "readOnH2": "继续阅读",
-    "readOnLead": "其他补完全貌的政策与参考页面。",
-    "aboutLink": "关于LaplandStays",
-    "termsLink": "使用条款",
-    "privacyLink": "隐私政策",
-    "propertyLink": "浏览住宿类型"
+    "corrP1": "旅行資料會變。價格變動、住宿關停、航線取消。當已釋出資訊不再準確時，被告知勝過讓讀者因此錯過自己的行程。",
+    "corrP2Pre": "如何反饋：請傳送郵件至 ",
+    "corrP2Mid": "，附上頁面URL及有問題的那一行。我們會在各站狀態頁面記錄，非緊急問題1–3天內更新公共文本，影響預訂的價格錯誤則當天更新。",
+    "corrP3": "永遠不會發生的事：默默修改。重要更正始終在狀態頁的更新日誌中標記日期與說明。",
+    "readOnH2": "繼續閱讀",
+    "readOnLead": "其他補完全貌的政策與參考頁面。",
+    "aboutLink": "關於LaplandStays",
+    "termsLink": "使用條款",
+    "privacyLink": "隱私政策",
+    "propertyLink": "瀏覽住宿類型"
   }
 }
 

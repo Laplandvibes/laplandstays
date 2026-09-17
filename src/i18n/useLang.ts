@@ -50,7 +50,9 @@ export function useHtmlLang(): string {
   if (lang === 'ja') return 'ja-JP'
   if (lang === 'es') return 'es-ES'
   if (lang === 'pt-BR') return 'pt-BR'
-  if (lang === 'zh-CN') return 'zh-CN'
+  // /cn/ on Taiwanin perinteistä kiinaa (17.9.2026, scripts/zh-hant.mjs): koodin avain pysyy zh-CN,
+  // sivun kieli on zh-Hant. Sama koodi prerenderissä (bcp47) ja SEO.tsx:ssä.
+  if (lang === 'zh-CN') return 'zh-Hant'
   if (lang === 'ko') return 'ko-KR'
   if (lang === 'fr') return 'fr-FR'
   if (lang === 'it') return 'it-IT'

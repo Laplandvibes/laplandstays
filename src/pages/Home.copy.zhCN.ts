@@ -2,60 +2,60 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "拉普兰住宿：玻璃冰屋与小屋 | LaplandStays",
-    "description": "芬兰拉普兰住宿指南：对比莱维、于拉斯、萨利色尔卡和伊纳里的玻璃冰屋（每晚250欧元起）、极光小屋（每晚150欧元起）和拉普兰酒店（每晚100欧元起）。经核实的房价、私人桑拿、极光叫醒。"
+    "title": "芬蘭拉普蘭住宿：極光玻璃屋、小木屋與飯店 | LaplandStays",
+    "description": "芬蘭拉普蘭住宿指南：比較萊維、於拉斯、薩利色爾卡、伊納里與羅瓦涅米的極光玻璃屋、極光小木屋和飯店，以及該先預訂哪一種。私人桑拿、極光叫醒、Google 評價。"
   },
   "faq": {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "inLanguage": "zh-CN",
+    "inLanguage": "zh-Hant",
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "拉普兰的玻璃冰屋每晚多少钱？",
+        "name": "拉普蘭的玻璃屋每晚多少錢？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "芬兰拉普兰的玻璃冰屋价格区间较大：罗瓦涅米Nova Skyland每晚约250欧元起，极光旺季，萨利色尔卡的Kakslauttanen Arctic Resort可达每晚1,500欧元。Levin Iglut、Star Arctic以及伊瓦洛的Aurora Village等中端玻璃冰屋通常在每晚300至700欧元之间。"
+          "text": "芬蘭拉普蘭的玻璃屋價格區間較大：羅瓦涅米Nova Skyland每晚約250歐元起，極光旺季，薩利色爾卡的Kakslauttanen Arctic Resort可達每晚1,500歐元。Levin Iglut、Star Arctic以及伊瓦洛的Aurora Village等中端玻璃屋通常在每晚300至700歐元之間。"
         }
       },
       {
         "@type": "Question",
-        "name": "在拉普兰看极光，住哪里最好？",
+        "name": "在拉普蘭看極光，住哪裡最好？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "想要更高的极光出现率，就尽量往北走。萨利色尔卡和伊纳里位于极光带之内，每年约有200个可见极光的夜晚。萨利色尔卡的极光小屋（Kakslauttanen、Muotka、Star Arctic）或伊纳里湖畔的住宿（Nellim、伊瓦洛的Aurora Village）能为你提供最清澈的暗夜地平线。"
+          "text": "想要更高的極光出現率，就儘量往北走。薩利色爾卡和伊納里位於極光帶之內，每年約有200個可見極光的夜晚。薩利色爾卡的極光小屋（Kakslauttanen、Muotka、Star Arctic）或伊納里湖畔的住宿（Nellim、伊瓦洛的Aurora Village）能為你提供最清澈的暗夜地平線。"
         }
       },
       {
         "@type": "Question",
-        "name": "预算有限时，拉普兰的住宿要花多少钱？",
+        "name": "預算有限時，拉普蘭的住宿要花多少錢？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "拉普兰的酒店和小屋连锁每晚约100欧元起。Lapland Hotels在莱维、于拉斯、萨利色尔卡和罗瓦涅米均以这一入门价提供住宿。穆奥尼奥的Harriniva每晚约150欧元起。Apukka Resort、Arctic SnowHotel等极光小屋在旺季之外每晚约150欧元起。"
+          "text": "拉普蘭的飯店和小屋連鎖每晚約100歐元起。Lapland Hotels在萊維、於拉斯、薩利色爾卡和羅瓦涅米均以這一入門價提供住宿。穆奧尼奧的Harriniva每晚約150歐元起。Apukka Resort、Arctic SnowHotel等極光小屋在旺季之外每晚約150歐元起。"
         }
       },
       {
         "@type": "Question",
-        "name": "从拉普兰小屋观赏极光的最佳时间是什么时候？",
+        "name": "從拉普蘭小屋觀賞極光的最佳時間是什麼時候？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "芬兰拉普兰的极光季从8月下旬持续到4月初。11月至2月是观测极光最稳定的时段。配有极光叫醒服务的住宿只会在天空晴朗、极光真正出现的夜晚叫醒你，因此阴天的夜里不会被打扰睡眠。"
+          "text": "芬蘭拉普蘭的極光季從8月下旬持續到4月初。11月至2月是觀測極光最穩定的時段。配有極光叫醒服務的住宿只會在天空晴朗、極光真正出現的夜晚叫醒你，因此陰天的夜裡不會被打擾睡眠。"
         }
       },
       {
         "@type": "Question",
-        "name": "拉普兰的小屋和玻璃冰屋配有私人桑拿吗？",
+        "name": "拉普蘭的小屋和玻璃屋配有私人桑拿嗎？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "是的。芬兰拉普兰几乎每一栋小屋、别墅和木屋都配有自己的桑拿。柴火式、电热式或两者兼备。许多湖畔住宿（Muotka、Nellim、于拉斯的湖畔小屋）都可从桑拿直接通向湖面，体验传统的芬兰式破冰跳水。"
+          "text": "是的。芬蘭拉普蘭幾乎每一棟小屋、別墅和木屋都配有自己的桑拿。柴火式、電熱式或兩者兼備。許多湖畔住宿（Muotka、Nellim、於拉斯的湖畔小屋）都可從桑拿直接通向湖面，體驗傳統的芬蘭式破冰跳水。"
         }
       },
       {
         "@type": "Question",
-        "name": "对首次来访者来说，拉普兰哪个目的地最合适？",
+        "name": "對首次來訪者來說，拉普蘭哪個目的地最合適？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "莱维是最容易上手的选择。冬季有直飞基蒂莱的航班，餐厅和商店步行可达，Lapland Hotels每晚100欧元起，村中还有种类齐全的野外探险项目。于拉斯更安静、更贴近自然，而萨利色尔卡和伊纳里则最适合希望深入荒野、想要更多玻璃冰屋选择的旅行者。"
+          "text": "萊維是最容易上手的選擇。冬季有直飛基蒂萊的航班，餐廳和商店步行可達，Lapland Hotels每晚100歐元起，村中還有種類齊全的野外探險項目。於拉斯更安靜、更貼近自然，而薩利色爾卡和伊納里則最適合希望深入荒野、想要更多玻璃屋選擇的旅行者。"
         }
       }
     ]

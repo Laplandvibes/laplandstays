@@ -36,7 +36,7 @@ const META: Record<Lang, { title: string; description: string }> = {
   'zh-CN': {
     title: 'Cookie 政策。LaplandStays',
     description:
-      'LaplandStays 使用哪些 Cookie 及原因。必要的同意状态存储、Google Analytics 4（仅在同意后启用）以及合作网络（Adtraction、Travelpayouts、Trip.com）的联盟归因。',
+      'LaplandStays 使用哪些 Cookie 及原因。必要的同意狀態儲存、Google Analytics 4（僅在同意後啟用）以及合作網路（Adtraction、Travelpayouts、Trip.com）的聯盟歸因。',
   },
   ko: {
     title: '쿠키 정책. LaplandStays',

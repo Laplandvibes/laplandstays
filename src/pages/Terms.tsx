@@ -34,9 +34,9 @@ const META: Record<Lang, { title: string; description: string }> = {
       'Termos de uso do laplandstays.com: um guia de viagem editorial de afiliados operado pela LaPeso Oy. As reservas são feitas por plataformas parceiras, não por nós.',
   },
   'zh-CN': {
-    title: '使用条款。LaplandStays',
+    title: '使用條款。LaplandStays',
     description:
-      'laplandstays.com 使用条款：由 LaPeso Oy 运营的编辑型联盟旅行指南。预订由合作平台处理，而非本站。',
+      'laplandstays.com 使用條款：由 LaPeso Oy 運營的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。',
   },
   ko: {
     title: '이용약관. LaplandStays',

@@ -34,9 +34,9 @@ const META: Record<Lang, { title: string; description: string }> = {
       'Como a LaPeso Oy (LaplandStays) trata dados pessoais: inscrições na newsletter, analytics e cookies de afiliados. Em conformidade com GDPR/ePrivacy.',
   },
   'zh-CN': {
-    title: '隐私政策。LaplandStays',
+    title: '隱私政策。LaplandStays',
     description:
-      'LaPeso Oy（LaplandStays）如何处理个人数据：新闻通讯订阅、分析及联盟 Cookie。符合 GDPR/ePrivacy。',
+      'LaPeso Oy（LaplandStays）如何處理個人資料：電子報訂閱、分析及聯盟 Cookie。符合 GDPR/ePrivacy。',
   },
   ko: {
     title: '개인정보 처리방침. LaplandStays',

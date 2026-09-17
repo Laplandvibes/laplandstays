@@ -499,72 +499,72 @@ const COPY: Record<Lang, TermsCopy> = {
     s13Body: (email) => <>Para questões jurídicas, entre em contato em {email}</>,
   },
   'zh-CN': {
-    kicker: '法律信息',
-    h1: '服务条款',
-    lastUpdated: '最后更新：2026年5月 · 运营方：LaPeso Oy',
-    s1Title: '1. 关于本网站',
+    kicker: '法律資訊',
+    h1: '服務條款',
+    lastUpdated: '最後更新：2026年5月 · 運營方：LaPeso Oy',
+    s1Title: '1. 關於本網站',
     s1P1: (siteName, siteUrl) => (
       <>
-        {siteName}(<strong className="text-snow/90">{siteUrl}</strong>)是一个芬兰拉普兰旅游信息中心，由在芬兰注册的{' '}
-        <strong className="text-snow/90">LaPeso Oy</strong> 运营。我们提供编辑型旅游指南、目的地信息以及指向第三方预订服务的链接。
+        {siteName}(<strong className="text-snow/90">{siteUrl}</strong>)是一個芬蘭拉普蘭旅遊資訊中心，由在芬蘭註冊的{' '}
+        <strong className="text-snow/90">LaPeso Oy</strong> 運營。我們提供編輯型旅遊指南、目的地資訊以及指向第三方預訂服務的連結。
       </>
     ),
-    s1P2: '访问或使用本网站，即表示您同意本条款。如果您不同意，请停止使用本网站。',
-    s2Title: '2. 信息准确性',
-    s2Body: '旅行信息（包括价格、营业时间、天气状况和可订情况）经常发生变化。我们努力保持内容准确并保持更新，但无法保证您访问时所有信息都是最新的。在预订前，请始终直接向相关服务提供方核实关键信息。',
-    s3Title: '3. 联盟链接与合作',
-    s3P1: (siteName) => `${siteName} 上的某些链接是联盟链接。当您点击这些链接并完成预订或购买时，我们可能会获得一笔少量佣金，而您无需承担额外费用。联盟合作不会影响我们的编辑推荐。我们只链接我们认为真正具有价值的服务。`,
-    s3P2: '联盟合作伙伴包括但不限于：Sembo、Trip.com、EconomyBookings、GetYourGuide，以及通过 Adtraction、Travelpayouts 等联盟网络接入的其他旅游服务提供方。每一笔预订均受相应服务提供方的条款与条件约束。',
-    s4Title: '4. 赞助内容',
+    s1P2: '訪問或使用本網站，即表示您同意本條款。如果您不同意，請停止使用本網站。',
+    s2Title: '2. 資訊準確性',
+    s2Body: '旅行資訊（包括價格、營業時間、天氣狀況和可訂情況）經常發生變化。我們努力保持內容準確並保持更新，但無法保證您訪問時所有資訊都是最新的。在預訂前，請始終直接向相關服務提供方核實關鍵資訊。',
+    s3Title: '3. 聯盟連結與合作',
+    s3P1: (siteName) => `${siteName} 上的某些連結是聯盟連結。當您點選這些連結並完成預訂或購買時，我們可能會獲得一筆少量佣金，而您無需承擔額外費用。聯盟合作不會影響我們的編輯推薦。我們只連結我們認為真正具有價值的服務。`,
+    s3P2: '聯盟合作伙伴包括但不限於：Sembo、Trip.com、EconomyBookings、GetYourGuide，以及通過 Adtraction、Travelpayouts 等聯盟網路接入的其他旅遊服務提供方。每一筆預訂均受相應服務提供方的條款與條件約束。',
+    s4Title: '4. 贊助內容',
     s4Body: (siteName) => (
       <>
-        本网站会展示来自第三方企业的赞助广告。赞助内容会清晰地标注 <strong className="text-snow/90">"赞助"</strong> 字样。
-        {siteName} 不对广告主的产品、服务或主张负责。点击赞助链接将带您前往拥有自身条款与隐私政策的外部网站。
+        本網站會展示來自第三方企業的贊助廣告。贊助內容會清晰地標註 <strong className="text-snow/90">"贊助"</strong> 字樣。
+        {siteName} 不對廣告主的產品、服務或主張負責。點選贊助連結將帶您前往擁有自身條款與隱私政策的外部網站。
       </>
     ),
-    s5Title: '5. 第三方服务：我们不是销售方',
+    s5Title: '5. 第三方服務：我們不是銷售方',
     s5P1: (siteName) => (
       <>
-        本网站上的酒店搜索、机票搜索、租车与活动预订工具会将您重定向至第三方平台（Sembo、Trip.com、EconomyBookings、GetYourGuide 等）。{' '}
-        <strong className="text-snow/90">{siteName} 既不是旅行社，也不是零售商或销售商。</strong>{' '}
-        我们不销售、不转售也不处理预订；我们发布编辑指南，并将读者引导至真正提供服务的运营商。
+        本網站上的飯店搜尋、機票搜尋、租車與活動預訂工具會將您重定向至第三方平臺（Sembo、Trip.com、EconomyBookings、GetYourGuide 等）。{' '}
+        <strong className="text-snow/90">{siteName} 既不是旅行社，也不是零售商或銷售商。</strong>{' '}
+        我們不銷售、不轉售也不處理預訂；我們釋出編輯指南，並將讀者引導至真正提供服務的運營商。
       </>
     ),
     s5P2: (siteName) => (
       <>
-        任何旅游服务合同（住宿、机票、租车、行程等）均由您与相应的第三方提供方直接签订，适用其条款与隐私政策。
-        适用的是其取消、退款及消费者保护规则，而非我们的规则。芬兰《消费者保护法》第6章
-        (<em>kuluttajansuojalaki 6 luku</em>)规定的撤回权由您向商家主张;{siteName} 不参与该过程。
+        任何旅遊服務合同（住宿、機票、租車、行程等）均由您與相應的第三方提供方直接簽訂，適用其條款與隱私政策。
+        適用的是其取消、退款及消費者保護規則，而非我們的規則。芬蘭《消費者保護法》第6章
+        (<em>kuluttajansuojalaki 6 luku</em>)規定的撤回權由您向商家主張;{siteName} 不參與該過程。
       </>
     ),
-    s6Title: '6. 电子简报',
+    s6Title: '6. 電子報',
     s6Body: (unsub, privacy) => (
       <>
-        如果您订阅了我们的电子简报，即表示您同意接收关于芬兰拉普兰旅游的定期电子邮件。
-        您可以随时通过任何邮件中的链接，或通过 {unsub} 取消订阅。我们不会与第三方分享您的邮箱地址。
-        详情请参阅我们的{privacy}。
+        如果您訂閱了我們的電子報，即表示您同意接收關於芬蘭拉普蘭旅遊的定期電子郵件。
+        您可以隨時通過任何郵件中的連結，或通過 {unsub} 取消訂閱。我們不會與第三方分享您的電子郵件地址。
+        詳情請參閱我們的{privacy}。
       </>
     ),
-    s7Title: '7. 知识产权',
-    s7Body: (siteName) => `${siteName} 上的所有原创内容（包括文字、图形和设计）归 LaPeso Oy 所有或获许可使用。未经书面许可，不得复制、传播或创作衍生作品。在注明出处的前提下，允许出于非商业个人参考目的的合理使用。`,
-    s8Title: '8. 责任限制',
-    s8Body: (siteName) => `${siteName} 与 LaPeso Oy 不对因依赖本网站信息、使用所链接的第三方服务或基于我们内容作出的旅行决策而产生的任何损失、伤害或损害承担责任。前往北极地区旅行存在固有风险；请务必购买适当的旅游保险并遵守当地安全指引。`,
-    s9Title: '9. 适用法律',
-    s9Body: '本条款受芬兰法律管辖。任何争议应由芬兰法院解决。',
-    s10Title: '10. 本条款的变更',
-    s10Body: '我们可能会不时更新本条款。变更自发布之日起生效。更新后继续使用本网站即视为接受修订后的条款。',
+    s7Title: '7. 智慧財產權',
+    s7Body: (siteName) => `${siteName} 上的所有原創內容（包括文字、圖形和設計）歸 LaPeso Oy 所有或獲許可使用。未經書面許可，不得複製、傳播或創作衍生作品。在註明出處的前提下，允許出於非商業個人參考目的的合理使用。`,
+    s8Title: '8. 責任限制',
+    s8Body: (siteName) => `${siteName} 與 LaPeso Oy 不對因依賴本網站資訊、使用所連結的第三方服務或基於我們內容作出的旅行決策而產生的任何損失、傷害或損害承擔責任。前往北極地區旅行存在固有風險；請務必購買適當的旅遊保險並遵守當地安全指引。`,
+    s9Title: '9. 適用法律',
+    s9Body: '本條款受芬蘭法律管轄。任何爭議應由芬蘭法院解決。',
+    s10Title: '10. 本條款的變更',
+    s10Body: '我們可能會不時更新本條款。變更自發布之日起生效。更新後繼續使用本網站即視為接受修訂後的條款。',
     s11Title: '11. 可分性',
-    s11Body: '如果有管辖权的法院判定本条款中的任何条款无效、违法或不可执行，其余条款仍然完全有效。无效条款将在法律允许的范围内被替换为最接近原商业意图的有效条款。',
-    s12Title: '12. 《数字服务法》(DSA)联络点',
-    s12Intro: '根据欧盟《数字服务法》(法规 (EU) 2022/2065)，我们指定的面向监管机构与服务用户的联络点为：',
+    s11Body: '如果有管轄權的法院判定本條款中的任何條款無效、違法或不可執行，其餘條款仍然完全有效。無效條款將在法律允許的範圍內被替換為最接近原商業意圖的有效條款。',
+    s12Title: '12. 《數位服務法》(DSA)聯絡點',
+    s12Intro: '根據歐盟《數位服務法》（法規 (EU) 2022/2065），我們指定的面向監管機構與服務使用者的聯絡點為：',
     s12Items: [
-      '电子邮件：info@laplandvibes.com',
-      '运营者：LaPeso Oy，芬兰',
-      '沟通语言：英语、芬兰语',
+      '電子郵件：info@laplandvibes.com',
+      '運營者：LaPeso Oy，芬蘭',
+      '溝通語言：英語、芬蘭語',
     ],
-    s12Tail: (siteName) => `${siteName} 为编辑型出版机构；我们并不将用户生成内容作为主要服务进行托管。关于违法内容、版权侵权或其他与 DSA 相关事项的通知，可发送至上述地址，我们将在法定时限内处理。`,
-    s13Title: '13. 联系方式',
-    s13Body: (email) => <>如有法律事务咨询，请通过 {email} 与我们联系</>,
+    s12Tail: (siteName) => `${siteName} 為編輯型出版機構；我們並不將使用者生成內容作為主要服務進行託管。關於違法內容、版權侵權或其他與 DSA 相關事項的通知，可傳送至上述地址，我們將在法定時限內處理。`,
+    s13Title: '13. 聯絡方式',
+    s13Body: (email) => <>如有法律事務諮詢，請通過 {email} 與我們聯絡</>,
   },
   ko: {
     kicker: '법적 고지',
@@ -1150,28 +1150,28 @@ const SHOP_OVERRIDES: Record<Lang, Partial<TermsCopy>> = {
   'zh-CN': {
     s1P1: (siteName, siteUrl) => (
       <>
-        {siteName}（<strong className="text-snow/90">{siteUrl}</strong>）是由在芬兰注册的{' '}
-        <strong className="text-snow/90">LaPeso Oy</strong> 运营的芬兰拉普兰礼品指南。我们发布编辑撰写的
-        商品指南，并链接到真正销售和发货的商店。
+        {siteName}（<strong className="text-snow/90">{siteUrl}</strong>）是由在芬蘭註冊的{' '}
+        <strong className="text-snow/90">LaPeso Oy</strong> 運營的芬蘭拉普蘭禮品指南。我們釋出編輯撰寫的
+        商品指南，並連結到真正銷售和發貨的商店。
       </>
     ),
-    s2Body: '价格、尺寸、材质、成分和库存等商品信息经常变动，这些信息是在标注日期从卖家自己的页面读取的。我们力求准确，但无法保证您访问时信息仍然是最新的。下单前请务必在卖家自己的页面上核对价格、配送条款以及成分和过敏原信息。',
-    s3P2: '合作伙伴包括但不限于 Suomikauppa、Nordicbuddies、Finlayson、Scandinavian Outdoor 等芬兰商店和品牌，我们通过 Adtraction、Daisycon 等联盟网络链接到它们。我们也会链接到不向我们付费的商店。每笔订单均适用销售该商品的商店的条款。',
+    s2Body: '價格、尺寸、材質、成分和庫存等商品資訊經常變動，這些資訊是在標註日期從賣家自己的頁面讀取的。我們力求準確，但無法保證您訪問時資訊仍然是最新的。下單前請務必在賣家自己的頁面上核對價格、配送條款以及成分和過敏原資訊。',
+    s3P2: '合作伙伴包括但不限於 Suomikauppa、Nordicbuddies、Finlayson、Scandinavian Outdoor 等芬蘭商店和品牌，我們通過 Adtraction、Daisycon 等聯盟網路連結到它們。我們也會連結到不向我們付費的商店。每筆訂單均適用銷售該商品的商店的條款。',
     s5P1: (siteName) => (
       <>
-        本站所有商品均由第三方商店销售和发货，点击按钮将前往该商店自己的网站。
-        <strong className="text-snow/90">{siteName} 不是零售商、卖家或经销商。</strong>
-        我们没有库存，也没有结账系统，从不接收您的付款或收货地址。
+        本站所有商品均由第三方商店銷售和發貨，點選按鈕將前往該商店自己的網站。
+        <strong className="text-snow/90">{siteName} 不是零售商、賣家或經銷商。</strong>
+        我們沒有庫存，也沒有結賬系統，從不接收您的付款或收貨地址。
       </>
     ),
     s5P2: () => (
       <>
-        买卖合同直接在您与该商店之间成立，适用该商店的条款和隐私政策。配送时间、运费、寄往欧盟以外订单的
-        增值税和关税、退货、退款以及保修均由该商店负责，而非本站。远程销售中的法定撤销权（在芬兰依据{' '}
-        <em>kuluttajansuojalaki 6 luku</em>）应向销售该商品的商店行使。
+        買賣合同直接在您與該商店之間成立，適用該商店的條款和隱私政策。配送時間、運費、寄往歐盟以外訂單的
+        增值稅和關稅、退貨、退款以及保修均由該商店負責，而非本站。遠端銷售中的法定撤銷權（在芬蘭依據{' '}
+        <em>kuluttajansuojalaki 6 luku</em>）應向銷售該商品的商店行使。
       </>
     ),
-    s8Body: (siteName) => `${siteName} 与 LaPeso Oy 对因信赖本站商品信息、使用所链接的商店或通过其完成购买而产生的任何损失或损害不承担责任。有关商品、其配送或状况的任何主张，应向销售该商品的商店提出。对于食品和膳食补充剂，请务必阅读包装及卖家页面上的成分、过敏原和用量信息。`,
+    s8Body: (siteName) => `${siteName} 與 LaPeso Oy 對因信賴本站商品資訊、使用所連結的商店或通過其完成購買而產生的任何損失或損害不承擔責任。有關商品、其配送或狀況的任何主張，應向銷售該商品的商店提出。對於食品和膳食補充劑，請務必閱讀包裝及賣家頁面上的成分、過敏原和用量資訊。`,
   },
   ko: {
     s1P1: (siteName, siteUrl) => (
@@ -1348,7 +1348,7 @@ export default function TermsContent({
       : lang === 'ja' ? '配信停止ページ'
       : lang === 'es' ? 'nuestra página para darse de baja'
       : lang === 'pt-BR' ? 'nossa página de cancelamento'
-      : lang === 'zh-CN' ? '取消订阅页面'
+      : lang === 'zh-CN' ? '取消訂閱頁面'
       : lang === 'ko' ? '구독 해지 페이지'
       : lang === 'fr' ? 'notre page de désinscription'
       : lang === 'it' ? 'la nostra pagina di disiscrizione'
@@ -1364,7 +1364,7 @@ export default function TermsContent({
       : lang === 'ja' ? 'プライバシーポリシー'
       : lang === 'es' ? 'Política de Privacidad'
       : lang === 'pt-BR' ? 'Política de Privacidade'
-      : lang === 'zh-CN' ? '隐私政策'
+      : lang === 'zh-CN' ? '隱私政策'
       : lang === 'ko' ? '개인정보 처리방침'
       : lang === 'fr' ? 'Politique de Confidentialité'
       : lang === 'it' ? 'Informativa sulla Privacy'

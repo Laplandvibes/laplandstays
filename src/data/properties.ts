@@ -370,7 +370,7 @@ const BCP47: Record<Lang, string> = {
   ja: "ja-JP",
   es: "es-ES",
   "pt-BR": "pt-BR",
-  "zh-CN": "zh-CN",
+  "zh-CN": "zh-TW",
   ko: "ko-KR",
   fr: "fr-FR",
   it: "it-IT",

@@ -32,7 +32,8 @@ const LANGS: { code: string; label: string; native: string }[] = [
   { code: 'ja', label: 'JA', native: '日本語' },
   { code: 'es', label: 'ES', native: 'Español' },
   { code: 'pt-BR', label: 'BR', native: 'Português' },
-  { code: 'zh-CN', label: 'CN', native: '简体中文' },
+  // laplandstays: /cn/ on Taiwanin perinteistä (17.9.2026, scripts/zh-hant.mjs) — muilla sivustoilla 简体中文.
+  { code: 'zh-CN', label: 'CN', native: '繁體中文' },
   { code: 'ko', label: 'KR', native: '한국어' },
   { code: 'fr', label: 'FR', native: 'Français' },
   { code: 'it', label: 'IT', native: 'Italiano' },
@@ -47,7 +48,7 @@ const LANGS: { code: string; label: string; native: string }[] = [
  */
 const ARIA: Record<string, string> = {
   en: 'Change language', fi: 'Vaihda kieli', de: 'Sprache wechseln', ja: '言語を切り替える',
-  es: 'Cambiar idioma', 'pt-BR': 'Mudar idioma', 'zh-CN': '切换语言', ko: '언어 변경',
+  es: 'Cambiar idioma', 'pt-BR': 'Mudar idioma', 'zh-CN': '切換語言', ko: '언어 변경',
   fr: 'Changer de langue', it: 'Cambia lingua', nl: 'Taal wijzigen', sv: 'Byt språk',
 };
 
@@ -89,7 +90,7 @@ export default function LanguageSwitcher({
       label: l.label,
       native: l.native,
       href: prefix ? (bare === '/' ? `/${prefix}` : `/${prefix}${bare}`) : bare,
-      hrefLang: l.code,
+      hrefLang: l.code === 'zh-CN' ? 'zh-Hant' : l.code,
     };
   });
 

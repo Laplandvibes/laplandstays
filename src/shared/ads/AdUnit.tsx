@@ -134,7 +134,7 @@ const WHITE: [number, number, number] = [255, 255, 255]
 /** "Mainos / Ad" label — identical for every advertiser, so it lives here. */
 const AD_LABEL: Record<AdLang, string> = {
   en: 'Ad', fi: 'Mainos', de: 'Anzeige', ja: '広告', es: 'Anuncio',
-  'pt-BR': 'Anúncio', 'zh-CN': '广告', ko: '광고', fr: 'Annonce', it: 'Annuncio', nl: 'Advertentie',
+  'pt-BR': 'Anúncio', 'zh-CN': '廣告', ko: '광고', fr: 'Annonce', it: 'Annuncio', nl: 'Advertentie',
   sv: 'Annons',
 }
 

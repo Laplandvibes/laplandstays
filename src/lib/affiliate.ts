@@ -43,7 +43,7 @@ const HOTELS_LOCALE: Record<Lang, string> = {
   ja: "ja_JP",
   es: "es_ES",
   "pt-BR": "pt_BR",
-  "zh-CN": "zh_CN",
+  "zh-CN": "zh_TW", // Taiwanin perinteinen (17.9.2026); Worker: kaikki paitsi fi_FI → Trip.com
   ko: "ko_KR",
   fr: "fr_FR",
   it: "it_IT",
