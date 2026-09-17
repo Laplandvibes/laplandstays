@@ -164,30 +164,35 @@ export default function Home() {
         jsonLd={jsonLd}
       />
       <Hero />
-      {/* App launch block, directly under the site's own opening. At the foot
-          of the page it measured 81 % down a 33 000 px front page, and an
-          announcement nobody scrolls to is not an announcement. */}
+      {/* Real, bookable cabins with live weekly prices FIRST, straight under
+          the hero (Vesa 17.9.2026, audit item 3). Until then the first screen
+          after the hero was the app promo and the second a "your ad here"
+          house-ad; the first real accommodation content sat on the third
+          screen of a 33 000 px page. The same band runs on /cabins. */}
+      <HomeCabinShowcase />
+      <PropertyTypes />
+      {/* PÄÄKUMPPANI-banneri (LV Media; tyhjä → house-ad) vasta ensimmäisen
+          majoitussisällön jälkeen, ei heron alla (Vesa 17.9.2026). Vaalea
+          pinta — istuu sivun cream-taustaan. Jos paikka myydään, sijainti
+          sovitaan kumppanin kanssa erikseen. */}
+      <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
+      <PriceGuide />
+      {/* App launch block. It sat directly under the hero from 9.9.2026 (at
+          the foot of the page it had measured 81 % down the page, and an
+          announcement nobody scrolls to is not an announcement). Vesa moved
+          it below the first accommodation sections on 17.9.2026: the site's
+          own inventory comes before the network's announcement. */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AppPromoHero />
       </div>
-      {/* PÄÄKUMPPANI-banneri HETI heron alle (LV Media; tyhjä → house-ad).
-          Vaalea pinta — istuu sivun cream-taustaan. */}
-      <MainPartnerBanner config={AD_SLOTS} locale={lang} surface="light" />
-      <PropertyTypes />
-      {/* Real, bookable cabins with real photos, high on the page (Vesa
-          2026-07-26). The same band already runs on /cabins; showing it here
-          too means the first thing a visitor sees after the categories is
-          actual inventory rather than another promise. */}
-      <HomeCabinShowcase />
-      {/* LV Media -kumppaniosio heti ensimmäisen sisältöosion jälkeen:
-          kakkospääkumppani + 6 kohdepaikkaa (house-adit kun tyhjänä). */}
+      <FeaturedProperties />
+      {/* LV Media -kumppaniosio: kakkospääkumppani + 6 kohdepaikkaa
+          (house-adit kun tyhjänä). */}
       <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
       {/* Oikea tuoterivi tyhjän house-ad-kortin tilalle (Vesa 4.9.). */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         <ProductRail partner={finlaysonRail} snapshot={finlaysonPicks} lang={lang as RailLang} sid="home_bed_linen" variant="light" />
       </div>
-      <PriceGuide />
-      <FeaturedProperties />
       {/* Lomarengas, whole-cabin angle, in the booking-intent zone after the
           property browse. Brand-skinned ad with its own disclosure + tracking. */}
       <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">

@@ -1,11 +1,7 @@
 import { MapPin } from 'lucide-react'
 import TravelSearchWidget from './TravelSearchWidget'
 import { useCopy } from '../locales/copy'
-
-const isSummerSeason = () => {
-  const m = new Date().getMonth() + 1
-  return m >= 5 && m <= 9
-}
+import { isSummerSeason } from '../lib/seasonal'
 
 // Responsive hero: mobile pulls the 800px AVIF (~33KB) instead of the full
 // 1536–1920px image. The <link rel=preload imagesrcset> in index.html feeds the
@@ -25,7 +21,7 @@ const HERO = isSummerSeason()
 export default function Hero() {
   const c = useCopy().hero
   // Same season check that drives HERO_IMG, so the hero TEXT matches the hero
-  // IMAGE: summer (May–Sep) = midnight-sun copy, winter = aurora/igloo copy.
+  // IMAGE: summer (May–Aug) = midnight-sun copy, winter (Sep–Apr) = aurora/igloo copy.
   const lead = isSummerSeason() ? c.leadSummer ?? c.lead : c.lead
   return (
     <section className="relative overflow-hidden bg-night">
