@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'Valikoima',
     h2: 'Neljä Lapin majoitustyyppiä',
-    lead: 'Lasi-iglut, revontulimökit, hiihtokeskusten huoneistot tai design-erämaakohteet, valitse millaisen yön tulit hakemaan. Tarkistetut yöhinnat, suora varaus ja saatavuus toivomillesi päiville.',
+    lead: 'Lasi-iglut, revontulimökit, hiihtokeskusten huoneistot tai design-erämaakohteet, valitse millaisen yön tulit hakemaan. Näet ajantasaiset hinnat ja saatavuuden omille päivillesi suoraan varauskumppaneiltamme.',
     checkAvailability: 'Tarkista saatavuus',
     types: [
       {

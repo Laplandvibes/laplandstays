@@ -71,9 +71,9 @@ const fi: DestinationBody = {
 
 Kylä on pieni ja kävelyetäisyydellä, ryhmittynyt muutaman hotellin, ravintolan ja rinteen ympärille. Premium-mökit sijaitsevat Ivaloon vievän tien varrella ja kansallispuiston reunalla. Sijainti merkitsee: voit astua ovelta iltapäivän husky-ajelulle ja palata yksityiseen saunaan revontulten alle samana iltana.`,
   facts: [
-    { label: 'UKK-kansallispuisto', value: '2 550 km²' },
-    { label: 'Näköalatunturi', value: 'Kaunispää' },
-    { label: 'Revontuliyöt', value: '~200/v' },
+    { label: 'UKK-puisto', value: '2 550 km²' },
+    { label: 'Näköala\u00ADtunturi', value: 'Kaunispää' },
+    { label: 'Revontuli\u00ADyöt', value: '~200/v' },
     { label: 'Lähin lentokenttä', value: 'IVL 25 min' },
   ],
   highlights: [
@@ -135,8 +135,8 @@ const de: DestinationBody = {
 
 Das Dorf ist klein und fußläufig, gruppiert um einige Hotels, Restaurants und Skipisten. Premium-Hütten liegen entlang der Straße nach Ivalo und am Rand des Nationalparks. Die Lage zählt: Sie können von Ihrer Tür in einen Nachmittag mit Husky-Schlittenfahrt aufbrechen und am selben Abend für eine private Sauna unter dem Polarlicht zurückkehren.`,
   facts: [
-    { label: 'UKK-Nationalpark', value: '2.550 km²' },
-    { label: 'Aussichtspunkt', value: 'Kaunispää' },
+    { label: 'UKK-National\u00ADpark', value: '2.550 km²' },
+    { label: 'Aussichts\u00ADpunkt', value: 'Kaunispää' },
     { label: 'Polarlicht-Nächte', value: '~200/Jahr' },
     { label: 'Nächster Flughafen', value: 'IVL 25 min' },
   ],
@@ -392,9 +392,9 @@ const nl: DestinationBody = {
 Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. Premium hutten liggen langs de weg naar Ivalo en aan de rand van het park. De positie telt: u stapt vanaf de deur in een middag huskysleeën en keert dezelfde avond terug voor een privésauna onder het noorderlicht.`,
   facts: [
     { label: 'Nationaal park UKK', value: '2.550 km²' },
-    { label: 'Uitzichtpunt', value: 'Kaunispää' },
-    { label: 'Noorderlichtnachten', value: '~200/jaar' },
-    { label: 'Dichtstbijzijnde luchthaven', value: 'IVL 25 min' },
+    { label: 'Uitzicht\u00ADpunt', value: 'Kaunispää' },
+    { label: 'Noorderlicht\u00ADnachten', value: '~200/jaar' },
+    { label: 'Dichtst\u00ADbij\u00ADzijnde luchthaven', value: 'IVL 25 min' },
   ],
   highlights: [
     { title: 'UKK-nationaal park bij de deur', body: 'Het op een na grootste nationale park van Finland. Gemarkeerde ski- en wandelroutes vertrekken vanuit Saariselkä en lopen 60 km oostwaarts.' },
@@ -713,9 +713,9 @@ const sv: DestinationBody = {
 
 Byn är liten och går att gå runt i, samlad kring några hotell, restauranger och skidbackar. Premiumstugorna ligger längs vägen mot Ivalo och i kanten av nationalparken. Läget är hela poängen: du kan gå ut genom dörren till en eftermiddag med hundspann och komma tillbaka till egen bastu under norrsken samma kväll.`,
   facts: [
-    { label: 'UKK-nationalpark', value: '2 550 km²' },
-    { label: 'Utsiktsplats', value: 'Kaunispää' },
-    { label: 'Norrskensnätter', value: 'ca 200/år' },
+    { label: 'UKK-national\u00ADpark', value: '2 550 km²' },
+    { label: 'Utsikts\u00ADplats', value: 'Kaunispää' },
+    { label: 'Norrskens\u00ADnätter', value: 'ca 200/år' },
     { label: 'Närmaste flygplats', value: 'IVL 25 min' },
   ],
   highlights: [

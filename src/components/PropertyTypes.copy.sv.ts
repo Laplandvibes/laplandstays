@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'Kollektionen',
     h2: 'Fyra typer av boende i Lappland',
-    lead: 'Glasigloor, norrskensstugor, ski-in-chalet eller designade vildmarkslodger. Välj den natt du kom för. Verifierade priser per natt, direktbokning och tillgänglighet för de datum du behöver.',
+    lead: 'Glasigloor, norrskensstugor, ski-in-chalet eller designade vildmarkslodger. Välj den natt du kom för. Aktuella priser och tillgänglighet för dina datum kommer direkt från våra bokningspartner.',
     checkAvailability: 'Se tillgänglighet',
     types: [
       {

@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'De collectie',
     h2: 'Vier soorten Lapland-accommodatie',
-    lead: "Glazen iglo's, noorderlichthutten, ski-in chalets of designer wilderness lodges, kies het soort nacht waarvoor u kwam. Geverifieerde overnachtingstarieven, directe boeking, beschikbaarheid voor uw data.",
+    lead: "Glazen iglo's, noorderlichthutten, ski-in chalets of designer wilderness lodges, kies het soort nacht waarvoor u kwam. Actuele prijzen en beschikbaarheid voor uw datums komen rechtstreeks van onze boekingspartners.",
     checkAvailability: 'Beschikbaarheid bekijken',
     types: [
       {

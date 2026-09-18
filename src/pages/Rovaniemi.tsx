@@ -138,7 +138,7 @@ Die Mischung ist ungewöhnlich: eine funktionierende nordische Stadt mit Restaur
     { label: 'Nächster Flughafen', value: 'RVN 10 min' },
     { label: 'Einwohner', value: '~65.000' },
     { label: 'Polarkreis', value: 'Läuft durch die Stadt' },
-    { label: 'Weihnachtsmanndorf', value: 'Ganzjährig geöffnet' },
+    { label: 'Weihnachts\u00ADmanndorf', value: 'Ganzjährig geöffnet' },
   ],
   highlights: [
     { title: 'Weihnachtsmanndorf am Polarkreis', body: 'Das Original, eine weiße Linie markiert den Polarkreis über den Platz, und der Weihnachtsmann hält jeden Tag des Jahres Bürozeiten.' },
@@ -391,10 +391,10 @@ const nl: DestinationBody = {
 
 De mix is ongebruikelijk: een werkende noordelijke stad met restaurants, het wetenschapsmuseum Arktikum en door Aalto ontworpen overheidsarchitectuur, naast het originele Kerstmandorp op de Poolcirkellijn en een net van cabin-gebieden binnen korte rijafstand. Voor reizigers die noorderlicht en wildernis willen maar ook via een grote luchthaven thuiskomen, is Rovaniemi de logische basis.`,
   facts: [
-    { label: 'Dichtstbijzijnde luchthaven', value: 'RVN 10 min' },
+    { label: 'Dichtst\u00ADbij\u00ADzijnde luchthaven', value: 'RVN 10 min' },
     { label: 'Inwoners', value: '~65.000' },
     { label: 'Poolcirkel', value: 'Door de stad' },
-    { label: 'Kerstmandorp', value: 'Heel jaar open' },
+    { label: 'Kerstman\u00ADdorp', value: 'Heel jaar open' },
   ],
   highlights: [
     { title: 'Kerstmandorp op de Poolcirkel', body: 'Het origineel, een witte lijn markeert de Poolcirkel over het plein, en de Kerstman houdt elke dag van het jaar spreekuur.' },

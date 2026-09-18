@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'La collection',
     h2: "Quatre types d'hébergement en Laponie",
-    lead: "Igloos de verre, chalets aurores, chalets ski-in ou lodges design en pleine nature, choisissez la nuit pour laquelle vous êtes venu. Tarifs vérifiés, réservation directe, disponibilité pour vos dates.",
+    lead: "Igloos de verre, chalets aurores, chalets ski-in ou lodges design en pleine nature, choisissez la nuit pour laquelle vous êtes venu. Les prix actuels et les disponibilités pour vos dates viennent directement de nos partenaires de réservation.",
     checkAvailability: 'Vérifier la disponibilité',
     types: [
       {

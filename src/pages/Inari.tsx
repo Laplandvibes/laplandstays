@@ -72,8 +72,8 @@ const fi: DestinationBody = {
 Tämä on syvä pohjoinen. Mökit täällä ovat aidosti syrjäisiä: kymmenen minuutin ajomatka kylästä voi viedä sinut rannalle, jossa muita valoja ei näy 180 asteen horisontissa. SIIDA-museo Inarin kylässä ankkuroi saamelaisperinnön, ja ympäröivä erämaa ulottuu Utsjoen rajan tundraylängöille.`,
   facts: [
     { label: 'Järven koko', value: '1 040 km²' },
-    { label: 'Saaria Inarijärvessä', value: '3 000' },
-    { label: 'Saamelaismuseo', value: 'Siida' },
+    { label: 'Saaria Inari\u00ADjärvessä', value: '3 000' },
+    { label: 'Saamelais\u00ADmuseo', value: 'Siida' },
     { label: 'Lähin lentokenttä', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -394,7 +394,7 @@ Dit is het diepe noorden. Hutten liggen hier oprecht afgelegen: tien minuten rij
     { label: 'Oppervlakte van het meer', value: '1.040 km²' },
     { label: 'Eilanden in het Inarimeer', value: '3.000' },
     { label: 'Sámi-museum', value: 'Siida' },
-    { label: 'Dichtstbijzijnde luchthaven', value: 'IVL 40 min' },
+    { label: 'Dichtst\u00ADbij\u00ADzijnde luchthaven', value: 'IVL 40 min' },
   ],
   highlights: [
     { title: 'Exclusiviteit van het Inari-meer', body: 'Accommodaties aan de oever liggen bewust ver uit elkaar. Eigen steigers, ijsvisgaten in de winter, in de zomer boottochten langs het heilige eiland Ukonkivi (aan land gaan is niet meer toegestaan).' },

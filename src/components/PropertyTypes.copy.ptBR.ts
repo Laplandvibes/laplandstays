@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'A coleção',
     h2: 'Quatro tipos de hospedagem na Lapônia',
-    lead: 'Iglus de vidro, cabanas de aurora boreal, chalés ski-in ou lodges de design na natureza, escolha o tipo de noite que veio buscar. Tarifas verificadas, reserva direta e disponibilidade para as datas que você precisa.',
+    lead: 'Iglus de vidro, cabanas de aurora boreal, chalés ski-in ou lodges de design na natureza, escolha o tipo de noite que veio buscar. Os preços atualizados e a disponibilidade para suas datas vêm direto dos nossos parceiros de reservas.',
     checkAvailability: 'Ver disponibilidade',
     types: [
       {

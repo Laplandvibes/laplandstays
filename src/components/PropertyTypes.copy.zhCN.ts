@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: '住宿系列',
     h2: '拉普蘭的4種住宿類型',
-    lead: '玻璃屋、極光小屋、滑入式木屋或荒野設計旅館。選擇您想要的那種夜晚。經核實的房價、直接預訂，您所需日期的即時可用情況。',
+    lead: '玻璃屋、極光小屋、滑入式木屋或荒野設計旅館。選擇您想要的那種夜晚。您所需日期的最新房價與空房情況，直接來自我們的訂房合作夥伴。',
     checkAvailability: '檢視空房',
     types: [
       {

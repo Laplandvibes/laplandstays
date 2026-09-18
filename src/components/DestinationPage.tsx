@@ -372,7 +372,14 @@ export default function DestinationPage(p: DestinationPageProps) {
                  are sentences: in a display face they shout, they wrap to two
                  lines, and the tiles stop matching each other. A value longer than
                  a dozen characters is prose, so it gets body type — the rule is on
-                 the data, not on the locale, so it holds in all twelve. */}
+                 the data, not on the locale, so it holds in all twelve.
+              Added 2026-09-18: a single long word overflowed its tile. de
+                 WEIHNACHTSMANNDORF scrolled the whole page sideways at 360 px, nl
+                 NOORDERLICHTNACHTEN spilled 19–45 px from 360 to 768 px. Long compound
+                 labels carry a soft hyphen (\u00AD in the page files) at the word
+                 seam, wrap-anywhere is the last resort, and the display value steps
+                 down to 26 px under 360 px. Not hyphens-auto: it split words that
+                 fit on the next line (NÄCHS-TER FLUGHAFEN, TEN NOOR-DEN). */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-10 items-stretch">
             {b.facts.map((f) => {
               const isPhrase = f.value.length > 12
@@ -381,12 +388,12 @@ export default function DestinationPage(p: DestinationPageProps) {
                   key={f.label}
                   className="rounded-xl bg-[#FAFAF8] border border-night/10 border-t-2 border-t-pink p-4 sm:p-5 flex flex-col gap-2"
                 >
-                  <p className="text-[11px] uppercase tracking-[0.16em] text-charcoal/60 font-semibold leading-tight">{f.label}</p>
+                  <p className="text-[11px] uppercase tracking-[0.16em] text-charcoal/60 font-semibold leading-tight wrap-anywhere">{f.label}</p>
                   <p
                     className={
                       isPhrase
                         ? 'text-charcoal text-[15px] leading-snug font-medium text-pretty mt-auto'
-                        : 'font-heading text-3xl text-night tracking-wide leading-none mt-auto'
+                        : 'font-heading text-[26px] min-[360px]:text-3xl text-night tracking-wide leading-none mt-auto'
                     }
                   >
                     {f.value}

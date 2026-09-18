@@ -74,7 +74,7 @@ Kaksi pientä kylää, Ylläsjärvi etelässä ja Äkäslompolo pohjoisessa, keh
     { label: 'Pisin rinne', value: '3 km' },
     { label: 'Latuverkko', value: '330 km' },
     { label: 'Lähin lentokenttä', value: 'KTT 50 min' },
-    { label: 'Pudotuskorkeus', value: '464 m' },
+    { label: 'Pudotus\u00ADkorkeus', value: '464 m' },
   ],
   highlights: [
     { title: 'Suomen pisimmät alamäkirinteet', body: 'Yllästunturin 3 kilometrin eturinne laskee puuttomalta huipulta männikön läpi laaksoon. Harvinaista Suomessa: useimmissa keskuksissa rinteet ovat 1 km.' },
@@ -138,7 +138,7 @@ Zwei kleine Dörfer, Ylläsjärvi im Süden und Äkäslompolo im Norden, flankie
     { label: 'Längste Abfahrt', value: '3 km' },
     { label: 'Loipennetz', value: '330 km' },
     { label: 'Nächster Flughafen', value: 'KTT 50 min' },
-    { label: 'Höhenunterschied', value: '464 m' },
+    { label: 'Höhen\u00ADunterschied', value: '464 m' },
   ],
   highlights: [
     { title: 'Finnlands längste Abfahrten', body: 'Die 3 km lange Frontpiste am Yllästunturi fällt vom baumlosen Fjäll-Gipfel durch Kiefernwald ins Tal. Selten in Finnland, die meisten Resorts haben 1-km-Pisten.' },
@@ -392,9 +392,9 @@ const nl: DestinationBody = {
 Twee kleine dorpen, Ylläsjärvi aan de zuidkant en Äkäslompolo aan de noordkant, flankeren het fjäll. Er is geen centrale resortkern: premium hutten liggen verspreid in het bos en langs de meren, wat Ylläs zijn reputatie geeft van rustiger, natuurgerichter alternatief voor Levi.`,
   facts: [
     { label: 'Langste afdaling', value: '3 km' },
-    { label: 'Langlaufnetwerk', value: '330 km' },
-    { label: 'Dichtstbijzijnde luchthaven', value: 'KTT 50 min' },
-    { label: 'Hoogteverschil', value: '464 m' },
+    { label: 'Loipes', value: '330 km' },
+    { label: 'Dichtst\u00ADbij\u00ADzijnde luchthaven', value: 'KTT 50 min' },
+    { label: 'Hoogte\u00ADverschil', value: '464 m' },
   ],
   highlights: [
     { title: "Finland\'s langste afdalingen", body: 'De 3 km lange piste op de voorzijde van de Yllästunturi daalt vanaf de kale top van het fjäll door dennenbos naar het dal. Zeldzaam in Finland, de meeste resorts hebben pistes van rond de 1 km.' },

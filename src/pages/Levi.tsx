@@ -72,10 +72,10 @@ const fi: DestinationBody = {
 
 Se on helpoin sisäänkäynti Lapin luksusmatkailuun: Kittilän lentokenttä on 15 minuutin päässä, FIS-maailmancupin pujottelu avaa kauden joka marraskuu Levi Blackilla, ja premium-mökit ovat hajallaan ympäröivässä tunturimaisemassa, riittävän lähellä kylää illalliselle, riittävän kaukana hiljaisuuteen ja revontulien katseluun pimeällä taivaalla.`,
   facts: [
-    { label: 'Napapiirin pohjoispuolella', value: '~170 km' },
+    { label: 'Napa\u00ADpiiriltä', value: '~170 km' },
     { label: 'Lähin lentokenttä', value: 'KTT 15 min' },
     { label: 'Rinteitä', value: '44' },
-    { label: 'Maailmancupin pujottelu', value: 'Joka marraskuu' },
+    { label: 'Pujottelun maailmancup', value: 'Joka marraskuu' },
   ],
   highlights: [
     { title: 'Rinneasunnot Levitunturilla', body: 'Levitunturin rinteillä sijaitsevat asunnot tarjoavat suoran pääsyn gondoliin ja pitkille sinisille ja punaisille rinteille, jotka kiertävät tunturia.' },
@@ -136,7 +136,7 @@ const de: DestinationBody = {
 
 Es ist der einfachste Einstieg in den Luxus-Lappland-Tourismus: Der Flughafen Kittilä ist 15 Minuten entfernt, der FIS-Slalom-Weltcup eröffnet jedes Jahr im November auf der Levi Black, und Premium-Hütten verteilen sich über die umliegende Fjäll-Landschaft, nah genug für ein Abendessen im Dorf, weit genug für Stille und Polarlicht-Beobachtung bei dunklem Himmel.`,
   facts: [
-    { label: 'Nördlich des Polarkreises', value: '~170 km' },
+    { label: 'Nördlich des Polar\u00ADkreises', value: '~170 km' },
     { label: 'Nächster Flughafen', value: 'KTT 15 min' },
     { label: 'Pisten', value: '44' },
     { label: 'Weltcup-Slalom', value: 'Jeden November' },
@@ -393,9 +393,9 @@ const nl: DestinationBody = {
 Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthaven Kittilä ligt op 15 minuten, de FIS-wereldbeker slalom opent elk jaar in november op Levi Black, en premium hutten liggen verspreid in het fjäll-landschap eromheen, dichtbij genoeg om in het dorp te eten, ver genoeg voor stilte en noorderlicht onder een donkere hemel.`,
   facts: [
     { label: 'Ten noorden van de Poolcirkel', value: '~170 km' },
-    { label: 'Dichtstbijzijnde luchthaven', value: 'KTT 15 min' },
+    { label: 'Dichtst\u00ADbij\u00ADzijnde luchthaven', value: 'KTT 15 min' },
     { label: 'Pistes', value: '44' },
-    { label: 'Wereldbekerslalom', value: 'Elke november' },
+    { label: 'Wereldbeker\u00ADslalom', value: 'Elke november' },
   ],
   highlights: [
     { title: 'Ski-in hutten op de Levitunturi', body: 'Chalets op de hellingen van de Levifjäll geven directe toegang tot de gondel en de lange blauwe en rode pistes rond de berg.' },
@@ -715,7 +715,7 @@ Det är den enklaste vägen in i Lapplands lyxresande: Kittilä flygplats ligger
     { label: 'Norr om polcirkeln', value: 'ca 170 km' },
     { label: 'Närmaste flygplats', value: 'KTT 15 min' },
     { label: 'Nedfarter', value: '44' },
-    { label: 'Världscupslalom', value: 'Varje november' },
+    { label: 'Slalom i världscupen', value: 'Varje november' },
   ],
   highlights: [
     { title: 'Ski in-stugor på Levitunturi', body: 'Stugorna på Levifjällets sidor ger direkt tillgång till gondolen och till de långa blå och röda nedfarterna som ringar in fjället.' },

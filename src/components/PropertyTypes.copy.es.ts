@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'La colección',
     h2: 'Cuatro tipos de alojamiento en Laponia',
-    lead: 'Iglús de cristal, cabañas de auroras boreales, chalets ski-in o lodges de diseño en la naturaleza, elija la noche por la que vino. Tarifas nocturnas verificadas, reserva directa y disponibilidad para las fechas que necesita.',
+    lead: 'Iglús de cristal, cabañas de auroras boreales, chalets ski-in o lodges de diseño en la naturaleza, elija la noche por la que vino. Los precios actuales y la disponibilidad para sus fechas vienen directamente de nuestros socios de reservas.',
     checkAvailability: 'Ver disponibilidad',
     types: [
       {

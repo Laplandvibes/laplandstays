@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'La collezione',
     h2: 'Quattro tipi di alloggio in Lapponia',
-    lead: "Iglù di vetro, chalet aurora, chalet ski-in o lodge di design in mezzo alla natura, scelga la notte che è venuto a cercare. Tariffe verificate, prenotazione diretta, disponibilità per le date che Le servono.",
+    lead: "Iglù di vetro, chalet aurora, chalet ski-in o lodge di design in mezzo alla natura, scelga la notte che è venuto a cercare. Prezzi aggiornati e disponibilità per le Sue date arrivano direttamente dai nostri partner di prenotazione.",
     checkAvailability: 'Verifica disponibilità',
     types: [
       {

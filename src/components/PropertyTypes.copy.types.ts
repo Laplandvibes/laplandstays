@@ -14,7 +14,7 @@ type Widen<T> = T extends string ? string
 export const en = {
     eyebrow: 'The collection',
     h2: 'Four Types of Lapland Accommodation',
-    lead: 'Glass igloos, northern lights cabins, ski-in chalets or designer wilderness lodges. Pick the kind of night you came for. Verified nightly rates, direct booking, and availability for the dates you need.',
+    lead: 'Glass igloos, northern lights cabins, ski-in chalets or designer wilderness lodges. Pick the kind of night you came for. Current prices and availability for your dates come straight from our booking partners.',
     checkAvailability: 'Check availability',
     types: [
       {

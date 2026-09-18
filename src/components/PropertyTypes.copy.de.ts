@@ -3,7 +3,7 @@ import type { Copy } from './PropertyTypes.copy.types'
 const copy: Copy = {
     eyebrow: 'Die Auswahl',
     h2: 'Vier Arten von Lappland-Unterkünften',
-    lead: 'Glasiglus, Nordlicht-Hütten, Pisten-Chalets oder Designer-Wildnis-Lodges, wählen Sie die Art von Nacht, für die Sie gekommen sind. Geprüfte Übernachtungspreise, direkte Buchung und Verfügbarkeit für die gewünschten Daten.',
+    lead: 'Glasiglus, Nordlicht-Hütten, Pisten-Chalets oder Designer-Wildnis-Lodges, wählen Sie die Art von Nacht, für die Sie gekommen sind. Aktuelle Preise und Verfügbarkeit für Ihre Reisedaten kommen direkt von unseren Buchungspartnern.',
     checkAvailability: 'Verfügbarkeit prüfen',
     types: [
       {
