@@ -7,9 +7,9 @@ const en: DestinationBody = {
 
 This is the deep north. Cabins here are genuinely remote: a ten-minute drive from the village can put you on a shore with no other lights visible for 180° of horizon. The Siida museum in Inari village anchors Sámi heritage, and the surrounding wilderness reaches into the tundra plateaus of the Utsjoki border.`,
   facts: [
-    { label: 'Lakeside cabins from', value: '€200/night' },
-    { label: 'Aurora Village from', value: '€300/night' },
     { label: 'Lake size', value: '1,040 km²' },
+    { label: 'Islands in Lake Inari', value: '3,000' },
+    { label: 'Sámi museum', value: 'Siida' },
     { label: 'Nearest airport', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -62,7 +62,7 @@ For extended wilderness trips, the road continues to Utsjoki and the Norwegian b
     { day: '04', title: 'Slow departure', body: 'Reindeer farm visit, last sauna, drive back to IVL. Extend by 2 days if you can, Inari rewards slow.' },
   ],
   seoTitle: 'Inari Accommodation: Lakeside Cabins & Aurora Villas',
-  seoDescription: 'Where to stay in Inari, Lapland: lakeside log cabins from €200/night, Aurora Village and Nellim Wilderness Hotel from €300. Private Lake Inari shores.',
+  seoDescription: 'Where to stay in Inari, Lapland: lakeside log cabins with private shores on Lake Inari, Aurora Village and Wilderness Hotel Nellim. The Sámi capital.',
 }
 
 const fi: DestinationBody = {
@@ -71,9 +71,9 @@ const fi: DestinationBody = {
 
 Tämä on syvä pohjoinen. Mökit täällä ovat aidosti syrjäisiä: kymmenen minuutin ajomatka kylästä voi viedä sinut rannalle, jossa muita valoja ei näy 180 asteen horisontissa. SIIDA-museo Inarin kylässä ankkuroi saamelaisperinnön, ja ympäröivä erämaa ulottuu Utsjoen rajan tundraylängöille.`,
   facts: [
-    { label: 'Rantamökit alkaen', value: '200 €/yö' },
-    { label: 'Aurora Village alkaen', value: '300 €/yö' },
     { label: 'Järven koko', value: '1 040 km²' },
+    { label: 'Saaria Inarijärvessä', value: '3 000' },
+    { label: 'Saamelaismuseo', value: 'Siida' },
     { label: 'Lähin lentokenttä', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -126,7 +126,7 @@ Pidemmille erämaamatkoille tie jatkuu Utsjoelle ja Norjan rajalle.`,
     { day: '04', title: 'Rauhallinen lähtö', body: 'Porotilakäynti, viimeinen sauna, ajo takaisin IVL:lle. Pidennä kahdella päivällä jos voit, Inari palkitsee hitaasti.' },
   ],
   seoTitle: 'Inarin majoitus: rantamökit ja revontuli-villat',
-  seoDescription: 'Missä yöpyä Inarissa: rantamökit alkaen 200 €/yö, Aurora Village ja Nellim Wilderness Hotel alkaen 300 €. Yksityiset rannat Inarijärvellä, saamelaisperintö.',
+  seoDescription: 'Missä yöpyä Inarissa: Inarijärven hirsimökit omine rantoineen, Aurora Village ja Wilderness Hotel Nellim. Saamelaisten pääkaupunki.',
 }
 
 const de: DestinationBody = {
@@ -135,9 +135,9 @@ const de: DestinationBody = {
 
 Das ist der tiefe Norden. Hütten hier sind wirklich abgelegen: Eine zehnminütige Fahrt aus dem Dorf kann Sie an ein Ufer bringen, an dem 180° des Horizonts keine anderen Lichter zeigen. Das SIIDA-Museum im Dorf Inari verankert das Sámi-Erbe, und die umliegende Wildnis erstreckt sich bis in die Tundra-Hochebenen an der Grenze zu Utsjoki.`,
   facts: [
-    { label: 'Seehütten ab', value: '200 €/Nacht' },
-    { label: 'Aurora Village ab', value: '300 €/Nacht' },
     { label: 'Seegröße', value: '1.040 km²' },
+    { label: 'Inseln im Inarisee', value: '3.000' },
+    { label: 'Sámi-Museum', value: 'Siida' },
     { label: 'Nächster Flughafen', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -190,7 +190,7 @@ Für ausgedehnte Wildnisreisen führt die Straße weiter nach Utsjoki und zur no
     { day: '04', title: 'Ruhige Abreise', body: 'Besuch einer Rentierfarm, letzte Sauna, Rückfahrt nach IVL. Verlängern Sie um 2 Tage, wenn möglich, Inari belohnt Entschleunigung.' },
   ],
   seoTitle: 'Inari-Unterkünfte: Seehütten & Polarlicht-Villen',
-  seoDescription: 'Wo Sie in Inari übernachten: Blockhütten am See ab 200 €/Nacht, Aurora Village und Nellim Wilderness Hotel ab 300 €. Private Ufer am Inarisee, Sámi-Erbe.',
+  seoDescription: 'Wo Sie in Inari übernachten: Blockhütten mit eigenem Ufer am Inarisee, Aurora Village und Wilderness Hotel Nellim. Die Hauptstadt der Sámi.',
 }
 
 const ko: DestinationBody = {
@@ -199,9 +199,9 @@ const ko: DestinationBody = {
 
 이곳은 깊은 북쪽입니다. 캐빈들은 진정한 의미로 외져 있습니다. 마을에서 차로 10분만 달려도 180° 지평선 전체에 다른 불빛이라곤 보이지 않는 호반에 닿을 수 있습니다. 이나리 마을의 SIIDA 박물관이 사미의 유산을 단단히 지키며, 주변 야생은 Utsjoki 국경의 툰드라 고원까지 이어집니다.`,
   facts: [
-    { label: '호숫가 캐빈 1박', value: '200€부터' },
-    { label: 'Aurora Village 1박', value: '300€부터' },
     { label: '호수 면적', value: '1,040 km²' },
+    { label: '이나리 호수의 섬', value: '3,000개' },
+    { label: '사미 박물관', value: 'Siida' },
     { label: '가장 가까운 공항', value: 'IVL 40분' },
   ],
   highlights: [
@@ -254,7 +254,7 @@ const ko: DestinationBody = {
     { day: '04', title: '느긋한 출발', body: '순록 농장 방문, 마지막 사우나, IVL로 귀로. 가능하면 이틀 더 머무세요. 이나리는 천천히 보는 분께 보답합니다.' },
   ],
   seoTitle: '이나리 숙박: 호숫가 캐빈과 오로라 빌라',
-  seoDescription: '핀란드 라플란드 이나리 숙박 가이드: 호숫가 통나무 캐빈 1박 200€부터, Aurora Village와 Nellim Wilderness Hotel 300€부터. 이나리 호수의 전용 호반, 사미 유산, 다크 스카이, 직접 예약.',
+  seoDescription: '핀란드 라플란드 이나리 숙박 가이드: 전용 호반을 갖춘 이나리 호숫가 통나무 캐빈, Aurora Village, Wilderness Hotel Nellim. 사미 문화의 중심, 다크 스카이.',
 }
 
 const fr: DestinationBody = {
@@ -263,9 +263,9 @@ const fr: DestinationBody = {
 
 C'est le grand Nord. Les chalets y sont réellement reculés : dix minutes de voiture depuis le village suffisent pour atteindre une rive où, sur 180° d'horizon, aucune autre lumière ne brille. Le musée SIIDA au village d'Inari ancre l'héritage sámi, et la nature autour s'étire jusqu'aux plateaux de toundra de la frontière d'Utsjoki.`,
   facts: [
-    { label: 'Chalets au bord du lac dès', value: '200 €/nuit' },
-    { label: 'Aurora Village dès', value: '300 €/nuit' },
     { label: 'Surface du lac', value: '1 040 km²' },
+    { label: 'Îles du lac Inari', value: '3 000' },
+    { label: 'Musée sámi', value: 'Siida' },
     { label: 'Aéroport le plus proche', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -318,7 +318,7 @@ Pour une virée plus longue dans la nature, la route continue jusqu\'à Utsjoki 
     { day: '04', title: 'Départ tranquille', body: 'Visite d\'une ferme à rennes, dernier sauna, route retour vers IVL. Prolongez de deux jours si possible, Inari récompense la lenteur.' },
   ],
   seoTitle: "Hébergements à Inari : chalets au lac et villas aurores",
-  seoDescription: 'Où loger à Inari : chalets en rondins au bord du lac dès 200 €/nuit, Aurora Village et Nellim Wilderness Hotel dès 300 €. Rives privées, héritage sámi.',
+  seoDescription: 'Où loger à Inari : chalets en rondins avec rive privée sur le lac Inari, Aurora Village et Wilderness Hotel Nellim. La capitale sámi.',
 }
 
 const it: DestinationBody = {
@@ -327,9 +327,9 @@ const it: DestinationBody = {
 
 Questo è il profondo Nord. Gli chalet sono davvero isolati: dieci minuti d\'auto dal paese La portano su una sponda dove, su 180° di orizzonte, non si vede nessun\'altra luce. Il museo SIIDA, in paese, custodisce l\'eredità sámi e la natura circostante si spinge fino agli altipiani di tundra al confine con Utsjoki.`,
   facts: [
-    { label: 'Chalet sul lago da', value: '200 €/notte' },
-    { label: 'Aurora Village da', value: '300 €/notte' },
     { label: 'Superficie del lago', value: '1.040 km²' },
+    { label: 'Isole del lago Inari', value: '3.000' },
+    { label: 'Museo sámi', value: 'Siida' },
     { label: 'Aeroporto più vicino', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -382,7 +382,7 @@ Per viaggi più lunghi nella natura, la strada prosegue fino a Utsjoki e al conf
     { day: '04', title: 'Partenza lenta', body: 'Visita a una fattoria di renne, ultima sauna, ritorno verso IVL. Se può, prolunghi di due giorni, Inari premia la lentezza.' },
   ],
   seoTitle: 'Alloggi a Inari: chalet sul lago e ville aurora',
-  seoDescription: 'Dove soggiornare a Inari: chalet in tronchi sul lago da 200 €/notte, Aurora Village e Nellim Wilderness Hotel da 300 €. Sponde private, eredità sámi.',
+  seoDescription: 'Dove soggiornare a Inari: chalet in tronchi con riva privata sul lago Inari, Aurora Village e Wilderness Hotel Nellim. La capitale sámi.',
 }
 
 const nl: DestinationBody = {
@@ -391,9 +391,9 @@ const nl: DestinationBody = {
 
 Dit is het diepe noorden. Hutten liggen hier oprecht afgelegen: tien minuten rijden vanaf het dorp brengt u op een oever waar 180° horizon geen ander licht laat zien. Het SIIDA-museum in het dorp Inari verankert het Sámi-erfgoed, en de wildernis eromheen reikt tot de toendrahoogvlaktes bij de grens van Utsjoki.`,
   facts: [
-    { label: 'Hutten aan het meer vanaf', value: '€200/nacht' },
-    { label: 'Aurora Village vanaf', value: '€300/nacht' },
-    { label: 'Oppervlakte meer', value: '1.040 km²' },
+    { label: 'Oppervlakte van het meer', value: '1.040 km²' },
+    { label: 'Eilanden in het Inarimeer', value: '3.000' },
+    { label: 'Sámi-museum', value: 'Siida' },
     { label: 'Dichtstbijzijnde luchthaven', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -446,7 +446,7 @@ Voor langere wildernisritten gaat de weg verder naar Utsjoki en de Noorse grens.
     { day: '04', title: 'Rustige vertrekdag', body: 'Bezoek rendierboerderij, laatste sauna, terug naar IVL. Verleng zo mogelijk met twee dagen, Inari beloont traagheid.' },
   ],
   seoTitle: 'Inari-accommodatie: hutten aan het meer en aurora-villa\'s',
-  seoDescription: 'Waar te verblijven in Inari: houten hutten aan het meer vanaf €200/nacht, Aurora Village en Nellim Wilderness Hotel vanaf €300. Privé-oevers, Sámi-erfgoed.',
+  seoDescription: 'Waar te verblijven in Inari: houten hutten met privé-oever aan het Inarimeer, Aurora Village en Wilderness Hotel Nellim. De Sámi-hoofdstad.',
 }
 
 const ja: DestinationBody = {
@@ -455,9 +455,9 @@ const ja: DestinationBody = {
 
 ここは深北です。キャビンは文字どおりの僻地に建ち、村から車で10分も走れば、180度の地平線に他の灯りひとつ見えない湖岸に立てます。イナリ村のSIIDA博物館がサーミの伝統を支え、周囲の原野はウツヨキ国境のツンドラ台地へとつながっています。`,
   facts: [
-    { label: '湖畔キャビン1泊', value: '200ユーロから' },
-    { label: 'オーロラ・ヴィレッジ1泊', value: '300ユーロから' },
     { label: '湖の面積', value: '1,040平方km' },
+    { label: 'イナリ湖の島', value: '3,000島' },
+    { label: 'サーミ博物館', value: 'Siida' },
     { label: '最寄り空港', value: 'IVL 40分' },
   ],
   highlights: [
@@ -510,7 +510,7 @@ const ja: DestinationBody = {
     { day: '04', title: 'ゆっくり出発', body: 'トナカイ農場訪問、最後のサウナ、IVLへ運転。可能なら2日延ばしてください。イナリはゆっくり過ごすほど報われます。' },
   ],
   seoTitle: 'イナリの宿泊：湖畔キャビン&オーロラ・ヴィラ',
-  seoDescription: 'フィンランド領ラップランド・イナリでの宿選び：湖畔ログキャビン1泊200ユーロから、Aurora Villageとネリム・ウィルダネス・ホテル300ユーロから。イナリ湖のプライベート湖岸、サーミの伝統、暗い空、直接予約。',
+  seoDescription: 'フィンランド領ラップランド・イナリでの宿選び：専用の湖岸をもつイナリ湖畔のログキャビン、Aurora Village、ウィルダネスホテル・ネリム。サーミ文化の中心。',
 }
 
 const es: DestinationBody = {
@@ -519,9 +519,9 @@ const es: DestinationBody = {
 
 Esto es el norte profundo. Las cabañas aquí son genuinamente remotas: diez minutos en coche desde el pueblo le pueden dejar en una orilla sin ninguna otra luz visible en 180° de horizonte. El museo SIIDA en el pueblo de Inari ancla el patrimonio sami, y la naturaleza circundante se adentra en las mesetas de tundra de la frontera de Utsjoki.`,
   facts: [
-    { label: 'Cabañas a orillas del lago desde', value: '200 €/noche' },
-    { label: 'Aurora Village desde', value: '300 €/noche' },
     { label: 'Tamaño del lago', value: '1.040 km²' },
+    { label: 'Islas del lago Inari', value: '3.000' },
+    { label: 'Museo sami', value: 'Siida' },
     { label: 'Aeropuerto más cercano', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -574,7 +574,7 @@ Para viajes prolongados al territorio salvaje, la carretera continúa a Utsjoki 
     { day: '04', title: 'Salida pausada', body: 'Visita a una granja de renos, última sauna, vuelta a IVL. Amplíe 2 días si puede, Inari recompensa la calma.' },
   ],
   seoTitle: 'Alojamiento en Inari: cabañas junto al lago y villas aurora',
-  seoDescription: 'Dónde alojarse en Inari: cabañas junto al lago desde 200 €/noche, Aurora Village y Nellim Wilderness Hotel desde 300 €. Orillas privadas, patrimonio sami.',
+  seoDescription: 'Dónde alojarse en Inari: cabañas de troncos con orilla privada en el lago Inari, Aurora Village y Wilderness Hotel Nellim. La capital sami.',
 }
 
 const ptBR: DestinationBody = {
@@ -583,9 +583,9 @@ const ptBR: DestinationBody = {
 
 Este é o norte profundo. As cabanas aqui são genuinamente remotas: dez minutos de carro a partir da vila podem deixar você em uma margem sem nenhuma outra luz visível em 180° de horizonte. O museu SIIDA na vila de Inari ancora o patrimônio sámi, e a natureza ao redor se estende para os platôs de tundra da fronteira de Utsjoki.`,
   facts: [
-    { label: 'Cabanas à beira do lago a partir de', value: '€200/noite' },
-    { label: 'Aurora Village a partir de', value: '€300/noite' },
     { label: 'Tamanho do lago', value: '1.040 km²' },
+    { label: 'Ilhas do Lago Inari', value: '3.000' },
+    { label: 'Museu sámi', value: 'Siida' },
     { label: 'Aeroporto mais próximo', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -638,7 +638,7 @@ Para viagens prolongadas na natureza, a estrada continua até Utsjoki e a fronte
     { day: '04', title: 'Partida lenta', body: 'Visita a uma fazenda de renas, última sauna, retorno a IVL. Estenda 2 dias se possível, Inari recompensa quem fica devagar.' },
   ],
   seoTitle: 'Hospedagem em Inari: cabanas à beira do lago e vilas aurora',
-  seoDescription: 'Onde ficar em Inari: cabanas à beira do lago a partir de €200/noite, Aurora Village e Nellim Wilderness Hotel a partir de €300. Herança sámi.',
+  seoDescription: 'Onde ficar em Inari: cabanas de tronco com margem privativa no Lago Inari, Aurora Village e Wilderness Hotel Nellim. A capital sámi.',
 }
 
 const zhCN: DestinationBody = {
@@ -647,9 +647,9 @@ const zhCN: DestinationBody = {
 
 這裡是深北。這裡的小屋是真正意義上的偏遠：從村莊驅車十分鐘，就可置身於180°地平線上看不到其他燈光的湖岸。伊納里村中的SIIDA博物館是薩米文化的核心，周圍的荒野延伸至烏茨約基邊境的苔原高原。`,
   facts: [
-    { label: '湖畔小屋每晚', value: '200歐元起' },
-    { label: '極光之村每晚', value: '300歐元起' },
     { label: '湖面面積', value: '1,040平方公里' },
+    { label: '伊納里湖島嶼', value: '3,000座' },
+    { label: '薩米博物館', value: 'Siida' },
     { label: '最近機場', value: 'IVL 40分鐘' },
   ],
   highlights: [
@@ -702,7 +702,7 @@ const zhCN: DestinationBody = {
     { day: '04', title: '緩慢啟程', body: '馴鹿農場參觀、最後一次桑拿、驅車返回IVL。條件允許就多加兩天。伊納里慢遊回報最豐。' },
   ],
   seoTitle: '伊納里住宿：湖畔小木屋與極光別墅 | LaplandStays',
-  seoDescription: '芬蘭拉普蘭伊納里住宿指南：湖畔原木小屋每晚200歐元起、Aurora Village與Nellim Wilderness Hotel 300歐元起。伊納里湖私人湖岸、薩米傳統、暗空、直接預訂。',
+  seoDescription: '芬蘭拉普蘭伊納里住宿指南：擁有私人湖岸的伊納里湖畔原木小屋、Aurora Village與Wilderness Hotel Nellim。薩米文化首府、暗空。',
 }
 
 const sv: DestinationBody = {
@@ -711,9 +711,9 @@ const sv: DestinationBody = {
 
 Det här är djupa norr. Stugorna är på riktigt avlägsna: tio minuters bilresa från byn kan sätta dig på en strand där inga andra ljus syns över 180° av horisonten. Museet SIIDA i Inari by är navet för det samiska kulturarvet, och vildmarken runtom sträcker sig upp mot tundraplatåerna vid gränsen mot Utsjoki.`,
   facts: [
-    { label: 'Stugor vid sjön från', value: '200 €/natt' },
-    { label: 'Aurora Village från', value: '300 €/natt' },
     { label: 'Sjöns yta', value: '1 040 km²' },
+    { label: 'Öar i Inarisjön', value: '3 000' },
+    { label: 'Samiskt museum', value: 'Siida' },
     { label: 'Närmaste flygplats', value: 'IVL 40 min' },
   ],
   highlights: [
@@ -766,7 +766,7 @@ För längre vildmarksresor fortsätter vägen till Utsjoki och norska gränsen.
     { day: '04', title: 'Långsam hemresa', body: 'Besök på en rengård, sista bastun, kör tillbaka till IVL. Lägg till 2 dagar om du kan, Inari belönar den som tar det långsamt.' },
   ],
   seoTitle: 'Boende i Inari: stugor vid sjön och norrskensvillor',
-  seoDescription: 'Var du bor i Inari, Lappland: timmerstugor vid sjön från 200 €/natt, Aurora Village och Nellim Wilderness Hotel från 300 €. Egna stränder vid Inarisjön.',
+  seoDescription: 'Var du ska bo i Inari, den samiska huvudorten: timmerstugor med egen strand vid Inarisjön, Aurora Village och Wilderness Hotel Nellim.',
 }
 
 export default function Inari() {

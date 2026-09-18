@@ -8,10 +8,10 @@ const en: DestinationBody = {
 
 It is the easiest entry point into luxury Lapland travel: Kittilä airport is 15 minutes away, the FIS World Cup slalom opens each November on Levi Black, and premium cabins are scattered through the surrounding fell landscape, close enough to the village for dinner, far enough for silence and dark-sky aurora viewing.`,
   facts: [
-    { label: 'Hotels from', value: '€100/night' },
-    { label: 'Glass igloos from', value: '€350/night' },
+    { label: 'North of the Arctic Circle', value: '~170 km' },
     { label: 'Nearest airport', value: 'KTT 15 min' },
     { label: 'Slopes', value: '44' },
+    { label: 'World Cup slalom', value: 'Every November' },
   ],
   highlights: [
     { title: 'Ski-in cabins on Levitunturi', body: 'Chalets on the slopes of Levifell give direct access to the gondola and the long blue and red runs that ring the mountain.' },
@@ -63,7 +63,7 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
     { day: '04', title: 'Aurora cabin night · gentle day', body: 'Drive 15 min north to a glass igloo for the last night. Slow morning, sauna, watch the sky. Earliest possible flight home next morning.' },
   ],
   seoTitle: 'Levi Accommodation: Hotels, Cabins & Igloos | LaplandStays',
-  seoDescription: 'Where to stay in Levi, Lapland: Lapland Hotels from €100/night, Levin Iglut glass igloos from €350, ski-in chalets from €200. 15 min from Kittilä airport.',
+  seoDescription: 'Where to stay in Levi, Lapland: Levin Iglut glass igloos on the fell, Lapland Hotels in the village and ski-in chalets. 15 min from Kittilä airport.',
 }
 
 const fi: DestinationBody = {
@@ -72,10 +72,10 @@ const fi: DestinationBody = {
 
 Se on helpoin sisäänkäynti Lapin luksusmatkailuun: Kittilän lentokenttä on 15 minuutin päässä, FIS-maailmancupin pujottelu avaa kauden joka marraskuu Levi Blackilla, ja premium-mökit ovat hajallaan ympäröivässä tunturimaisemassa, riittävän lähellä kylää illalliselle, riittävän kaukana hiljaisuuteen ja revontulien katseluun pimeällä taivaalla.`,
   facts: [
-    { label: 'Hotellit alkaen', value: '100 €/yö' },
-    { label: 'Lasi-iglut alkaen', value: '350 €/yö' },
+    { label: 'Napapiirin pohjoispuolella', value: '~170 km' },
     { label: 'Lähin lentokenttä', value: 'KTT 15 min' },
     { label: 'Rinteitä', value: '44' },
+    { label: 'Maailmancupin pujottelu', value: 'Joka marraskuu' },
   ],
   highlights: [
     { title: 'Rinneasunnot Levitunturilla', body: 'Levitunturin rinteillä sijaitsevat asunnot tarjoavat suoran pääsyn gondoliin ja pitkille sinisille ja punaisille rinteille, jotka kiertävät tunturia.' },
@@ -127,7 +127,7 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
     { day: '04', title: 'Revontuli-mökki-ilta · rauhallinen päivä', body: 'Aja 15 min pohjoiseen lasi-igluun viimeiseksi yöksi. Rauhallinen aamu, sauna, katsele taivasta. Aikaisin lento kotiin seuraavana aamuna.' },
   ],
   seoTitle: 'Levin majoitus: hotellit, mökit ja iglut | LaplandStays',
-  seoDescription: 'Missä yöpyä Levillä: Lapland Hotels alkaen 100 €/yö, Levin Iglutin lasi-iglut alkaen 350 €, rinneasunnot alkaen 200 €. 15 min Kittilän lentokentältä.',
+  seoDescription: 'Missä yöpyä Levillä: Levin Iglutin lasi-iglut tunturilla, Lapland Hotels -hotellit kylässä ja rinneasunnot. 15 min Kittilän lentokentältä.',
 }
 
 const de: DestinationBody = {
@@ -136,10 +136,10 @@ const de: DestinationBody = {
 
 Es ist der einfachste Einstieg in den Luxus-Lappland-Tourismus: Der Flughafen Kittilä ist 15 Minuten entfernt, der FIS-Slalom-Weltcup eröffnet jedes Jahr im November auf der Levi Black, und Premium-Hütten verteilen sich über die umliegende Fjäll-Landschaft, nah genug für ein Abendessen im Dorf, weit genug für Stille und Polarlicht-Beobachtung bei dunklem Himmel.`,
   facts: [
-    { label: 'Hotels ab', value: '100 €/Nacht' },
-    { label: 'Glasiglus ab', value: '350 €/Nacht' },
+    { label: 'Nördlich des Polarkreises', value: '~170 km' },
     { label: 'Nächster Flughafen', value: 'KTT 15 min' },
     { label: 'Pisten', value: '44' },
+    { label: 'Weltcup-Slalom', value: 'Jeden November' },
   ],
   highlights: [
     { title: 'Ski-in-Chalets am Levitunturi', body: 'Chalets an den Hängen des Levifjälls bieten direkten Zugang zur Gondel und zu den langen blauen und roten Abfahrten rund um den Berg.' },
@@ -191,7 +191,7 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
     { day: '04', title: 'Polarlicht-Hütten-Nacht · ruhiger Tag', body: 'Fahren Sie 15 min nördlich zu einem Glasiglu für die letzte Nacht. Langsamer Morgen, Sauna, Himmel beobachten. Frühestmöglicher Flug am nächsten Morgen.' },
   ],
   seoTitle: 'Levi-Unterkünfte: Hotels, Hütten & Iglus | LaplandStays',
-  seoDescription: 'Wo Sie in Levi übernachten: Lapland Hotels ab 100 €/Nacht, Glasiglus bei Levin Iglut ab 350 €, Pisten-Chalets ab 200 €. 15 min vom Flughafen Kittilä.',
+  seoDescription: 'Wo Sie in Levi übernachten: Glasiglus von Levin Iglut am Fjäll, Lapland Hotels im Ortskern und Pisten-Chalets. 15 min vom Flughafen Kittilä.',
 }
 
 const ko: DestinationBody = {
@@ -200,10 +200,10 @@ const ko: DestinationBody = {
 
 이곳은 라플란드 럭셔리 여행으로 들어가는 가장 쉬운 관문입니다. 키틸래 공항까지 15분, FIS 월드컵 슬랄롬이 매년 11월 Levi Black에서 시즌을 열며, 프리미엄 캐빈은 주변 산자락에 흩어져 있습니다. 마을에서 저녁식사를 즐길 만큼 가깝지만, 다크 스카이에서 오로라를 볼 만큼 떨어진 거리입니다.`,
   facts: [
-    { label: '호텔 1박', value: '100€부터' },
-    { label: '글래스 이글루 1박', value: '350€부터' },
+    { label: '북극권 북쪽', value: '약 170km' },
     { label: '가장 가까운 공항', value: 'KTT 15분' },
     { label: '슬로프', value: '44개' },
+    { label: '월드컵 슬랄롬', value: '매년 11월' },
   ],
   highlights: [
     { title: 'Levitunturi 스키 인 캐빈', body: '레비 봉우리 슬로프에 자리한 샬레는 곤돌라와 봉우리를 둘러싼 긴 블루·레드 코스로 바로 연결됩니다.' },
@@ -255,7 +255,7 @@ const ko: DestinationBody = {
     { day: '04', title: '오로라 캐빈의 밤 · 여유로운 하루', body: '북쪽으로 15분 운전해 마지막 밤은 글래스 이글루에서. 느긋한 아침, 사우나, 하늘 감상. 다음 날 아침 가능한 가장 이른 항공편으로 귀국.' },
   ],
   seoTitle: '레비 숙박: 호텔, 캐빈, 이글루 | LaplandStays',
-  seoDescription: '레비에서 어디에 묵을까: Lapland Hotels 1박 100€부터, Levin Iglut 글래스 이글루 350€부터, 스키 인 샬레 200€부터. 키틸래 공항에서 15분. 검증된 요금과 직접 예약.',
+  seoDescription: '레비에서 어디에 묵을까: 산자락의 Levin Iglut 글래스 이글루, 마을 안의 Lapland Hotels, 슬로프 옆 스키 인 샬레. 키틸래 공항에서 15분.',
 }
 
 const fr: DestinationBody = {
@@ -264,10 +264,10 @@ const fr: DestinationBody = {
 
 C'est la porte d'entrée la plus simple vers la Laponie haut de gamme : l'aéroport de Kittilä est à 15 minutes, la Coupe du monde FIS de slalom ouvre chaque novembre sur Levi Black, et les chalets premium se dispersent dans le paysage de fjälls environnant, assez près du village pour y dîner, assez loin pour le silence et l'observation des aurores sous un ciel noir.`,
   facts: [
-    { label: 'Hôtels à partir de', value: '100 €/nuit' },
-    { label: 'Igloos de verre à partir de', value: '350 €/nuit' },
+    { label: 'Au nord du cercle polaire', value: '~170 km' },
     { label: 'Aéroport le plus proche', value: 'KTT 15 min' },
     { label: 'Pistes', value: '44' },
+    { label: 'Slalom de Coupe du monde', value: 'Chaque novembre' },
   ],
   highlights: [
     { title: 'Chalets ski-in sur le Levitunturi', body: 'Les chalets posés sur les flancs du Levifjäll donnent un accès direct à la télécabine et aux longues pistes bleues et rouges qui ceinturent la montagne.' },
@@ -319,7 +319,7 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
     { day: '04', title: 'Nuit en chalet aurores · journée douce', body: '15 min de route vers le nord jusqu\'à un igloo de verre pour la dernière nuit. Matinée lente, sauna, regard vers le ciel. Vol retour au plus tôt le lendemain matin.' },
   ],
   seoTitle: 'Hébergements à Levi : hôtels et igloos | LaplandStays',
-  seoDescription: 'Où loger à Levi : Lapland Hotels dès 100 €/nuit, igloos de verre à Levin Iglut dès 350 €, chalets ski-in dès 200 €. À 15 min de l\'aéroport de Kittilä.',
+  seoDescription: "Où loger à Levi : igloos de verre de Levin Iglut sur le fjäll, Lapland Hotels au village et chalets ski-in. À 15 min de l'aéroport de Kittilä.",
 }
 
 const it: DestinationBody = {
@@ -328,10 +328,10 @@ const it: DestinationBody = {
 
 È il modo più semplice per entrare nel turismo di lusso lappone: l'aeroporto di Kittilä è a 15 minuti, la Coppa del Mondo FIS di slalom apre ogni novembre su Levi Black e gli chalet premium sono distribuiti nel paesaggio dei fjäll, abbastanza vicini al paese per cenare, abbastanza lontani per il silenzio e l'osservazione dell'aurora sotto un cielo scuro.`,
   facts: [
-    { label: 'Hotel da', value: '100 €/notte' },
-    { label: 'Igloo di vetro da', value: '350 €/notte' },
+    { label: 'A nord del Circolo Polare', value: '~170 km' },
     { label: 'Aeroporto più vicino', value: 'KTT 15 min' },
     { label: 'Piste', value: '44' },
+    { label: 'Slalom di Coppa del Mondo', value: 'Ogni novembre' },
   ],
   highlights: [
     { title: 'Chalet ski-in sul Levitunturi', body: 'Gli chalet sui pendii del Levifjäll consentono l\'accesso diretto alla cabinovia e alle lunghe piste blu e rosse che circondano la montagna.' },
@@ -383,7 +383,7 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
     { day: '04', title: 'Notte in chalet aurora · giornata leggera', body: '15 min verso nord fino a un igloo di vetro per l\'ultima notte. Mattina lenta, sauna, sguardo al cielo. Volo di ritorno il prima possibile la mattina seguente.' },
   ],
   seoTitle: 'Alloggi a Levi: hotel, chalet e igloo | LaplandStays',
-  seoDescription: 'Dove soggiornare a Levi: Lapland Hotels da 100 €/notte, igloo di vetro a Levin Iglut da 350 €, chalet ski-in da 200 €. 15 min dall\'aeroporto di Kittilä.',
+  seoDescription: "Dove soggiornare a Levi: igloo di vetro di Levin Iglut sul fjäll, Lapland Hotels in paese e chalet ski-in. A 15 min dall'aeroporto di Kittilä.",
 }
 
 const nl: DestinationBody = {
@@ -392,10 +392,10 @@ const nl: DestinationBody = {
 
 Het is het makkelijkste startpunt voor luxueus reizen door Lapland: de luchthaven Kittilä ligt op 15 minuten, de FIS-wereldbeker slalom opent elk jaar in november op Levi Black, en premium hutten liggen verspreid in het fjäll-landschap eromheen, dichtbij genoeg om in het dorp te eten, ver genoeg voor stilte en noorderlicht onder een donkere hemel.`,
   facts: [
-    { label: 'Hotels vanaf', value: '€100/nacht' },
-    { label: 'Glasiglo\'s vanaf', value: '€350/nacht' },
+    { label: 'Ten noorden van de Poolcirkel', value: '~170 km' },
     { label: 'Dichtstbijzijnde luchthaven', value: 'KTT 15 min' },
     { label: 'Pistes', value: '44' },
+    { label: 'Wereldbekerslalom', value: 'Elke november' },
   ],
   highlights: [
     { title: 'Ski-in hutten op de Levitunturi', body: 'Chalets op de hellingen van de Levifjäll geven directe toegang tot de gondel en de lange blauwe en rode pistes rond de berg.' },
@@ -447,7 +447,7 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
     { day: '04', title: 'Noorderlichtcabinnacht · rustige dag', body: '15 min noordwaarts rijden naar een glasiglo voor de laatste nacht. Rustige ochtend, sauna, hemel kijken. De volgende ochtend de eerstmogelijke vlucht naar huis.' },
   ],
   seoTitle: 'Levi-accommodatie: hotels, hutten en iglo\'s | LaplandStays',
-  seoDescription: 'Waar te verblijven in Levi: Lapland Hotels vanaf €100/nacht, glasiglo\'s bij Levin Iglut vanaf €350, ski-in chalets vanaf €200. 15 min van luchthaven Kittilä.',
+  seoDescription: "Waar te verblijven in Levi: glasiglo's van Levin Iglut op het fjäll, Lapland Hotels in het dorp en ski-in chalets. 15 min van luchthaven Kittilä.",
 }
 
 const ja: DestinationBody = {
@@ -456,10 +456,10 @@ const ja: DestinationBody = {
 
 ラップランドの上質な旅への入り口として最も気軽に訪れられる場所です。キッティラ空港まで15分、FISワールドカップのスラロームが毎年11月にLevi Blackで開幕し、プレミアムキャビンは周囲の丘陵地に点在しています。村まで夕食に出かけられる距離でありながら、静寂と暗い空でのオーロラ観賞を楽しめる距離です。`,
   facts: [
-    { label: 'ホテル1泊', value: '100ユーロから' },
-    { label: 'ガラス製イグルー1泊', value: '350ユーロから' },
+    { label: '北極圏から北へ', value: '約170km' },
     { label: '最寄り空港', value: 'KTT 15分' },
     { label: 'スロープ', value: '44本' },
+    { label: 'ワールドカップ・スラローム', value: '毎年11月' },
   ],
   highlights: [
     { title: 'レヴィトゥントゥリのスキーインキャビン', body: 'レヴィフェルの斜面に立つシャレーから、ゴンドラと山を取り囲む長いブルー・レッドコースへ直接アクセスできます。' },
@@ -511,7 +511,7 @@ const ja: DestinationBody = {
     { day: '04', title: 'オーロラキャビンの夜・ゆったりした一日', body: '北へ15分走り、最終夜はグラスイグルーで。ゆっくりとした朝、サウナ、そして空を眺めます。翌朝の最も早い便で帰路に。' },
   ],
   seoTitle: 'レヴィの宿泊：ホテル、キャビン、イグルー | LaplandStays',
-  seoDescription: 'ラップランドのレヴィでの宿選び:Lapland Hotels1泊100ユーロから、Levin Iglutのグラスイグルー350ユーロから、スキーインシャレー200ユーロから。キッティラ空港から15分。検証済みの料金で直接予約。',
+  seoDescription: 'ラップランドのレヴィでの宿選び：山上のLevin Iglutのグラスイグルー、村のLapland Hotels、スキーインシャレー。キッティラ空港から15分。',
 }
 
 const es: DestinationBody = {
@@ -520,10 +520,10 @@ const es: DestinationBody = {
 
 Es la puerta de entrada más sencilla al turismo de lujo en Laponia: el aeropuerto de Kittilä queda a 15 minutos, la Copa del Mundo FIS de eslalon abre cada noviembre en Levi Black y las cabañas premium se reparten por el paisaje de fjäll circundante, lo bastante cerca del pueblo para cenar, lo bastante lejos para disfrutar del silencio y observar la aurora bajo un cielo oscuro.`,
   facts: [
-    { label: 'Hoteles desde', value: '100 €/noche' },
-    { label: 'Iglús de cristal desde', value: '350 €/noche' },
+    { label: 'Al norte del Círculo Polar', value: '~170 km' },
     { label: 'Aeropuerto más cercano', value: 'KTT 15 min' },
     { label: 'Pistas', value: '44' },
+    { label: 'Eslalon de Copa del Mundo', value: 'Cada noviembre' },
   ],
   highlights: [
     { title: 'Cabañas ski-in en Levitunturi', body: 'Los chalets en las laderas del Levifjäll dan acceso directo a la telecabina y a las largas pistas azules y rojas que rodean la montaña.' },
@@ -575,7 +575,7 @@ Desde Helsinki, el tren nocturno a Kolari y 1 hora de traslado es una alternativ
     { day: '04', title: 'Noche en cabaña aurora · día tranquilo', body: '15 min hacia el norte hasta un iglú de cristal para la última noche. Mañana lenta, sauna, ojos al cielo. Vuelo de regreso lo más temprano posible al día siguiente.' },
   ],
   seoTitle: 'Alojamiento en Levi: hoteles, cabañas e iglús | LaplandStays',
-  seoDescription: 'Dónde alojarse en Levi: Lapland Hotels desde 100 €/noche, iglús en Levin Iglut desde 350 €, chalets ski-in desde 200 €. A 15 min del aeropuerto Kittilä.',
+  seoDescription: 'Dónde alojarse en Levi: iglús de cristal de Levin Iglut en el fjäll, Lapland Hotels en el pueblo y chalets ski-in. A 15 min del aeropuerto de Kittilä.',
 }
 
 const ptBR: DestinationBody = {
@@ -584,10 +584,10 @@ const ptBR: DestinationBody = {
 
 É a porta de entrada mais simples para o turismo de luxo na Lapônia: o aeroporto de Kittilä fica a 15 minutos, a Copa do Mundo FIS de slalom abre a temporada todo novembro em Levi Black e as cabanas premium estão espalhadas pelo entorno dos fjäll, perto o bastante da vila para jantar, longe o bastante para o silêncio e a observação da aurora sob céu escuro.`,
   facts: [
-    { label: 'Hotéis a partir de', value: '€100/noite' },
-    { label: 'Iglus de vidro a partir de', value: '€350/noite' },
+    { label: 'Ao norte do Círculo Polar', value: '~170 km' },
     { label: 'Aeroporto mais próximo', value: 'KTT 15 min' },
     { label: 'Pistas', value: '44' },
+    { label: 'Slalom da Copa do Mundo', value: 'Todo novembro' },
   ],
   highlights: [
     { title: 'Cabanas ski-in em Levitunturi', body: 'Os chalés nas encostas do Levifjäll dão acesso direto à gôndola e às longas pistas azuis e vermelhas que contornam a montanha.' },
@@ -639,7 +639,7 @@ De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa
     { day: '04', title: 'Noite em cabana com aurora · dia leve', body: '15 min ao norte até um iglu de vidro para a última noite. Manhã lenta, sauna, olhos no céu. Voo de volta no horário mais cedo possível no dia seguinte.' },
   ],
   seoTitle: 'Hospedagem em Levi: hotéis, cabanas e iglus | LaplandStays',
-  seoDescription: 'Onde ficar em Levi: Lapland Hotels a partir de €100/noite, iglus de vidro a partir de €350, chalés ski-in a partir de €200. 15 min do aeroporto de Kittilä.',
+  seoDescription: 'Onde ficar em Levi: iglus de vidro da Levin Iglut no fjäll, Lapland Hotels na vila e chalés ski-in. A 15 min do aeroporto de Kittilä.',
 }
 
 const zhCN: DestinationBody = {
@@ -648,10 +648,10 @@ const zhCN: DestinationBody = {
 
 這裡是進入拉普蘭高階旅行最便捷的入口：基蒂萊機場15分鐘可達，FIS世界盃迴轉賽每年11月在Levi Black揭幕，周圍山地散佈著高階小屋。離村中心近得可以前去用晚餐，遠得足以享受寂靜與暗空中的極光。`,
   facts: [
-    { label: '飯店每晚', value: '100歐元起' },
-    { label: '玻璃屋每晚', value: '350歐元起' },
+    { label: '北極圈以北', value: '約170公里' },
     { label: '最近機場', value: 'KTT 15分鐘' },
     { label: '雪道', value: '44條' },
+    { label: '世界盃迴轉賽', value: '每年11月' },
   ],
   highlights: [
     { title: 'Levitunturi山上的滑入式小屋', body: 'Levifell山坡上的木屋可直接通往纜車，以及環山的長距離藍、紅色雪道。' },
@@ -703,7 +703,7 @@ const zhCN: DestinationBody = {
     { day: '04', title: '極光小屋夜 · 悠閒一日', body: '向北驅車15分鐘，最後一晚入住玻璃屋。悠閒早晨，桑拿，仰望天空。次日儘早搭機返程。' },
   ],
   seoTitle: '萊維住宿：飯店、小木屋與極光玻璃屋 | LaplandStays',
-  seoDescription: '拉普蘭萊維住宿指南：Lapland Hotels每晚100歐元起、Levin Iglut玻璃屋350歐元起、滑入式木屋200歐元起。距基蒂萊機場15分鐘。已核實價格，直接預訂。',
+  seoDescription: '拉普蘭萊維住宿指南：山上的Levin Iglut玻璃屋（旺季需提前10–12個月預訂）、村裡的Lapland Hotels與滑入式木屋。距基蒂萊機場15分鐘。',
 }
 
 const sv: DestinationBody = {
@@ -712,10 +712,10 @@ const sv: DestinationBody = {
 
 Det är den enklaste vägen in i Lapplands lyxresande: Kittilä flygplats ligger 15 minuter bort, FIS-världscupens slalom öppnar säsongen varje november på Levi Black, och premiumstugorna ligger utspridda i fjällandskapet runtom, nära nog byn för en middag, långt nog bort för tystnad och norrsken under mörk himmel.`,
   facts: [
-    { label: 'Hotell från', value: '100 €/natt' },
-    { label: 'Glasigloor från', value: '350 €/natt' },
+    { label: 'Norr om polcirkeln', value: 'ca 170 km' },
     { label: 'Närmaste flygplats', value: 'KTT 15 min' },
     { label: 'Nedfarter', value: '44' },
+    { label: 'Världscupslalom', value: 'Varje november' },
   ],
   highlights: [
     { title: 'Ski in-stugor på Levitunturi', body: 'Stugorna på Levifjällets sidor ger direkt tillgång till gondolen och till de långa blå och röda nedfarterna som ringar in fjället.' },
@@ -767,7 +767,7 @@ Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert al
     { day: '04', title: 'Natt i norrskensstuga · en lugn dag', body: 'Kör 15 min norrut till en glasigloo för sista natten. Långsam morgon, bastu, titta på himlen. Tidigast möjliga flyg hem nästa morgon.' },
   ],
   seoTitle: 'Boende i Levi: hotell, stugor och igloor | LaplandStays',
-  seoDescription: 'Var du bor i Levi, Lappland: Lapland Hotels från 100 €/natt, glasigloor på Levin Iglut från 350 €, ski-in-stugor från 200 €. 15 min från Kittilä flygplats.',
+  seoDescription: 'Var du ska bo i Levi, Lappland: glasigloor på Levin Iglut uppe på fjället, Lapland Hotels i byn och ski-in-stugor. 15 min från Kittilä flygplats.',
 }
 
 export default function Levi() {

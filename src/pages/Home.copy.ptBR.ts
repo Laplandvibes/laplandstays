@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Hospedagem na Lapônia: iglus de vidro e cabanas | LaplandStays",
-    "description": "Onde se hospedar na Lapônia: iglus de vidro a partir de 250 €/noite, cabanas de aurora a partir de 150 € e hotéis a partir de 100 € em Levi, Ylläs e Saariselkä."
+    "description": "Onde se hospedar na Lapônia: compare iglus de vidro, cabanas de aurora e hotéis em Levi, Ylläs, Saariselkä e Inari e veja o que reservar primeiro."
   },
   "faq": {
     "@context": "https://schema.org",

@@ -93,7 +93,9 @@ export default function Locations({ placement }: { placement?: FeaturedPlacement
                 </h3>
                 <p className="text-charcoal/70 leading-relaxed mb-6">{location.description}</p>
 
-                <div className="flex flex-wrap gap-2 mb-4">
+                {/* The prices row with from-prices per night was removed 2026-09-18: hard-coded prices go
+                    stale and the 22.8.2026 price rule bans them. mb-6 keeps the old gap to the CTAs. */}
+                <div className="flex flex-wrap gap-2 mb-6">
                   {location.highlights.map((h) => (
                     <span
                       key={h}
@@ -103,10 +105,6 @@ export default function Locations({ placement }: { placement?: FeaturedPlacement
                     </span>
                   ))}
                 </div>
-
-                <p className="text-sm font-semibold text-night mb-6">
-                  <span className="text-pink">{c.pricesLabel}</span> {location.priceFrom}
-                </p>
 
                 <div className="flex flex-col sm:flex-row sm:items-center gap-3">
                   <a

@@ -16,8 +16,8 @@ const copy: Copy = {
     ],
     seasonAnchors: [
       { label: '玻璃屋', value: '提前8–12個月預訂', sub: 'Kakslauttanen / Levin Iglut' },
-      { label: '極光小屋', value: '每晚150歐元起', sub: '4個目的地' },
-      { label: '拉普蘭飯店', value: '每晚100歐元起', sub: '萊維 · 於拉斯 · 薩利色爾卡' },
+      { label: '極光小屋', value: '4個目的地', sub: '' },
+      { label: '拉普蘭飯店', value: '萊維 · 於拉斯 · 薩利色爾卡', sub: '' },
     ],
   }
 

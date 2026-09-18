@@ -88,9 +88,9 @@ export default function PropertyTypes() {
                   </h3>
                   <p className="text-pink/90 text-sm font-semibold mb-3">{type.short}</p>
                   <p className="text-white/70 text-sm leading-relaxed mb-4 flex-1">{type.body}</p>
-                  <p className="text-amber text-xs font-bold uppercase tracking-widest mb-4">
-                    {type.priceFrom}
-                  </p>
+                  {/* No from-price line (removed 2026-09-18): a hard-coded price goes stale
+                      and the 22.8.2026 price rule bans it. A price may return only as a live,
+                      dated figure from a partner feed, like the cabin cards' weekly price. */}
                   <span className="inline-flex items-center gap-2 text-white text-sm font-semibold uppercase tracking-wider group-hover:text-pink transition-colors">
                     {c.checkAvailability}
                     <ArrowRight className="w-4 h-4" />

@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "ラップランドの宿泊：グラスイグルーとロッジ | LaplandStays",
-    "description": "ラップランドで泊まる場所：レヴィ、ユッラス、サーリセルカ、イナリのグラスイグルー（1泊250ユーロから）、オーロラロッジ（150ユーロから）、ラップランドホテル（100ユーロから）を比較。確認済み料金、専用サウナ、オーロラ通知あり。"
+    "description": "ラップランドで泊まる場所：レヴィ、ユッラス、サーリセルカ、イナリのグラスイグルー、オーロラロッジ、ホテルを比較し、先に予約すべき宿もご案内します。"
   },
   "faq": {
     "@context": "https://schema.org",

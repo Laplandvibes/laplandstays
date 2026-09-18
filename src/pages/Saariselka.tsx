@@ -7,8 +7,8 @@ const en: DestinationBody = {
 
 The village is small and walkable, grouped around a few hotels, restaurants and ski slopes. Premium cabins sit along the road to Ivalo and on the edge of the national park. The position matters: you can step from your door into an afternoon of husky sledding, then return for a private sauna under aurora on the same evening.`,
   facts: [
-    { label: 'Glass igloos from', value: '€400/night' },
-    { label: 'Wilderness lodges from', value: '€200/night' },
+    { label: 'UKK National Park', value: '2,550 km²' },
+    { label: 'Fell viewpoint', value: 'Kaunispää' },
     { label: 'Aurora nights', value: '~200/yr' },
     { label: 'Nearest airport', value: 'IVL 25 min' },
   ],
@@ -61,8 +61,8 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
     { day: '03', title: 'Husky + reindeer day', body: 'Morning husky safari from Saariselkä village. Afternoon reindeer ride at a nearby Sámi farm. Evening: ice-fishing or a sauna lake plunge, and aurora watch if the sky is clear.' },
     { day: '04', title: 'Slow morning · drive to Inari', body: 'Last igloo morning, drive 50 min north to Lake Inari for a Sámi-culture day at Siida museum. Catch evening flight from IVL or extend by adding an Inari night.' },
   ],
-  seoTitle: 'Saariselkä Glass Igloos & Accommodation, from €200/Night',
-  seoDescription: 'Where to stay in Saariselkä, Lapland: Kakslauttanen glass igloos from €400/night, wilderness lodges (Muotka, Star Arctic) from €200. Dark skies, direct booking.',
+  seoTitle: 'Saariselkä Glass Igloos & Accommodation | LaplandStays',
+  seoDescription: 'Where to stay in Saariselkä, Lapland: Kakslauttanen glass igloos, Star Arctic on Kaunispää fell and Wilderness Hotel Muotka, by Urho Kekkonen National Park.',
 }
 
 const fi: DestinationBody = {
@@ -71,8 +71,8 @@ const fi: DestinationBody = {
 
 Kylä on pieni ja kävelyetäisyydellä, ryhmittynyt muutaman hotellin, ravintolan ja rinteen ympärille. Premium-mökit sijaitsevat Ivaloon vievän tien varrella ja kansallispuiston reunalla. Sijainti merkitsee: voit astua ovelta iltapäivän husky-ajelulle ja palata yksityiseen saunaan revontulten alle samana iltana.`,
   facts: [
-    { label: 'Lasi-iglut alkaen', value: '400 €/yö' },
-    { label: 'Erämaakohteet alkaen', value: '200 €/yö' },
+    { label: 'UKK-kansallispuisto', value: '2 550 km²' },
+    { label: 'Näköalatunturi', value: 'Kaunispää' },
     { label: 'Revontuliyöt', value: '~200/v' },
     { label: 'Lähin lentokenttä', value: 'IVL 25 min' },
   ],
@@ -125,8 +125,8 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
     { day: '03', title: 'Husky- + porotila-päivä', body: 'Aamulla husky-safari Saariselän kylältä. Iltapäivällä poroajelu lähellä olevalla saamelaistilalla. Iltaisin: pilkki tai sauna-järviuinti, ja revontulivahti jos taivas on selkeä.' },
     { day: '04', title: 'Rauhallinen aamu · ajo Inariin', body: 'Viimeinen iglu-aamu, ajo 50 min pohjoiseen Inarijärvelle saamelaiskulttuuripäivään Siida-museossa. Iltalento IVL:stä tai pidennä Inarin yöllä.' },
   ],
-  seoTitle: 'Saariselän lasi-iglut ja majoitus, alkaen 200 €/yö',
-  seoDescription: 'Missä yöpyä Saariselällä: Kakslauttasen lasi-iglut alkaen 400 €/yö, erämaakohteet (Muotka, Star Arctic) alkaen 200 €. Urho Kekkosen kansallispuiston reunalla.',
+  seoTitle: 'Saariselän lasi-iglut ja majoitus | LaplandStays',
+  seoDescription: 'Missä yöpyä Saariselällä: Kakslauttasen lasi-iglut, Star Arctic Kaunispään tunturilla ja Wilderness Hotel Muotka. Urho Kekkosen kansallispuiston reunalla.',
 }
 
 const de: DestinationBody = {
@@ -135,8 +135,8 @@ const de: DestinationBody = {
 
 Das Dorf ist klein und fußläufig, gruppiert um einige Hotels, Restaurants und Skipisten. Premium-Hütten liegen entlang der Straße nach Ivalo und am Rand des Nationalparks. Die Lage zählt: Sie können von Ihrer Tür in einen Nachmittag mit Husky-Schlittenfahrt aufbrechen und am selben Abend für eine private Sauna unter dem Polarlicht zurückkehren.`,
   facts: [
-    { label: 'Glasiglus ab', value: '400 €/Nacht' },
-    { label: 'Wildnis-Lodges ab', value: '200 €/Nacht' },
+    { label: 'UKK-Nationalpark', value: '2.550 km²' },
+    { label: 'Aussichtspunkt', value: 'Kaunispää' },
     { label: 'Polarlicht-Nächte', value: '~200/Jahr' },
     { label: 'Nächster Flughafen', value: 'IVL 25 min' },
   ],
@@ -189,8 +189,8 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { day: '03', title: 'Husky- + Rentiertag', body: 'Morgens Husky-Safari ab Saariselkä. Nachmittags Rentierfahrt auf einem nahen Sámi-Hof. Abends: Eisfischen oder Sauna-Seesprung, und bei klarem Himmel Polarlicht-Wache.' },
     { day: '04', title: 'Ruhiger Morgen · Fahrt nach Inari', body: 'Letzter Iglu-Morgen, 50 min nördlich zum Inarisee für einen Sámi-Kulturtag im Siida-Museum. Abendflug ab IVL oder mit einer Inari-Nacht verlängern.' },
   ],
-  seoTitle: 'Saariselkä-Glasiglus & Unterkünfte ab 200 €/Nacht',
-  seoDescription: 'Wo Sie in Saariselkä übernachten: Kakslauttanen-Glasiglus ab 400 €/Nacht, Wildnis-Lodges (Muotka, Star Arctic) ab 200 €, am Urho-Kekkonen-Nationalpark.',
+  seoTitle: 'Saariselkä-Glasiglus & Unterkünfte | LaplandStays',
+  seoDescription: 'Wo Sie in Saariselkä übernachten: Kakslauttanen-Glasiglus, Star Arctic auf dem Fjäll Kaunispää und Wilderness Hotel Muotka, am Urho-Kekkonen-Nationalpark.',
 }
 
 const ko: DestinationBody = {
@@ -199,8 +199,8 @@ const ko: DestinationBody = {
 
 마을은 작고 도보 가능한 규모로, 호텔과 레스토랑, 스키 슬로프 몇 곳을 중심으로 모여 있습니다. 프리미엄 캐빈은 Ivalo로 향하는 도로변과 국립공원 가장자리에 자리합니다. 위치가 핵심입니다. 문 앞에서 오후의 허스키 썰매 투어를 출발해 같은 저녁 오로라 아래에서 전용 사우나에 몸을 담그실 수 있습니다.`,
   facts: [
-    { label: '글래스 이글루 1박', value: '400€부터' },
-    { label: '윌더니스 로지 1박', value: '200€부터' },
+    { label: 'UKK 국립공원', value: '2,550 km²' },
+    { label: '전망 봉우리', value: 'Kaunispää' },
     { label: '오로라 관측 가능 밤', value: '연 약 200일' },
     { label: '가장 가까운 공항', value: 'IVL 25분' },
   ],
@@ -253,8 +253,8 @@ const ko: DestinationBody = {
     { day: '03', title: '허스키 + 순록 데이', body: '아침 사리셀카 출발 허스키 사파리. 오후는 인근 사미 농장에서 순록 라이드. 저녁은 얼음낚시 또는 사우나·호수 입수. 하늘이 맑으면 오로라 관측.' },
     { day: '04', title: '느긋한 아침 · 이나리로 이동', body: '이글루에서의 마지막 아침, 북쪽으로 50분 운전해 이나리 호수와 Siida 박물관에서 사미 문화 체험. IVL에서 저녁 항공편 또는 이나리에서 하룻밤 더 연장.' },
   ],
-  seoTitle: '사리셀카 글래스 이글루와 숙박. 1박 200€부터',
-  seoDescription: '핀란드 라플란드 사리셀카 숙박 가이드: Kakslauttanen 글래스 이글루 1박 400€부터, 윌더니스 로지(Muotka, Star Arctic) 200€부터. Urho Kekkonen 국립공원 가장자리. 전용 사우나, 다크 스카이, 직접 예약.',
+  seoTitle: '사리셀카 글래스 이글루와 숙박 | LaplandStays',
+  seoDescription: '핀란드 라플란드 사리셀카 숙박 가이드: Kakslauttanen 글래스 이글루, Kaunispää 봉우리 위의 Star Arctic, Wilderness Hotel Muotka. Urho Kekkonen 국립공원 가장자리. 전용 사우나, 다크 스카이.',
 }
 
 const fr: DestinationBody = {
@@ -263,8 +263,8 @@ const fr: DestinationBody = {
 
 Le village est petit et se parcourt à pied, autour de quelques hôtels, restaurants et pistes de ski. Les chalets premium se déploient le long de la route d'Ivalo et au bord du parc national. La situation compte : on peut sortir de chez soi pour une après-midi de traîneau à huskys et rentrer le même soir pour un sauna privatif sous les aurores.`,
   facts: [
-    { label: 'Igloos de verre dès', value: '400 €/nuit' },
-    { label: 'Lodges en pleine nature dès', value: '200 €/nuit' },
+    { label: 'Parc national UKK', value: '2 550 km²' },
+    { label: 'Belvédère', value: 'Kaunispää' },
     { label: 'Nuits aurores', value: '~200/an' },
     { label: 'Aéroport le plus proche', value: 'IVL 25 min' },
   ],
@@ -317,8 +317,8 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
     { day: '03', title: 'Journée husky + rennes', body: 'Safari en traîneau de huskies le matin depuis le village. Après-midi en traîneau à rennes dans une ferme sámi voisine. Soirée : pêche sur glace ou plongeon depuis le sauna, et veille aux aurores par ciel clair.' },
     { day: '04', title: 'Matinée tranquille · route vers Inari', body: 'Dernière matinée en igloo, route 50 min au nord vers le lac Inari pour une journée culture sámi au musée Siida. Vol du soir depuis IVL ou prolongation avec une nuit à Inari.' },
   ],
-  seoTitle: "Igloos de verre et hébergements à Saariselkä, dès 200 €",
-  seoDescription: 'Où loger à Saariselkä : igloos de verre Kakslauttanen dès 400 €/nuit et lodges (Muotka, Star Arctic) dès 200 €, en bordure du parc national Urho Kekkonen.',
+  seoTitle: 'Igloos de verre et hébergements à Saariselkä | LaplandStays',
+  seoDescription: 'Où loger à Saariselkä : igloos de verre de Kakslauttanen, Star Arctic sur le fjäll Kaunispää et Wilderness Hotel Muotka, au bord du parc national Urho Kekkonen.',
 }
 
 const it: DestinationBody = {
@@ -327,8 +327,8 @@ const it: DestinationBody = {
 
 Il paese è piccolo e si percorre a piedi, raccolto attorno a pochi hotel, ristoranti e piste da sci. Gli chalet premium si distribuiscono lungo la strada per Ivalo e ai margini del parco. La posizione conta: si può uscire di casa per un pomeriggio in slitta trainata dagli husky e rientrare la sera stessa per una sauna privata sotto l'aurora.`,
   facts: [
-    { label: 'Igloo di vetro da', value: '400 €/notte' },
-    { label: 'Lodge nella natura da', value: '200 €/notte' },
+    { label: 'Parco nazionale UKK', value: '2.550 km²' },
+    { label: 'Belvedere', value: 'Kaunispää' },
     { label: 'Notti aurorali', value: '~200/anno' },
     { label: 'Aeroporto più vicino', value: 'IVL 25 min' },
   ],
@@ -381,8 +381,8 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
     { day: '03', title: 'Giornata husky + renne', body: 'Safari con husky al mattino dal paese. Pomeriggio in slitta con renne in una fattoria sámi vicina. Sera: pesca sul ghiaccio o tuffo dalla sauna, e caccia aurorale con cielo sereno.' },
     { day: '04', title: 'Mattina lenta · trasferimento a Inari', body: 'Ultima mattina in igloo, 50 min a nord fino al lago Inari per una giornata sámi al museo Siida. Volo serale da IVL o prolungare con una notte a Inari.' },
   ],
-  seoTitle: 'Igloo di vetro e alloggi a Saariselkä, da 200 €/notte',
-  seoDescription: 'Dove soggiornare a Saariselkä: igloo di vetro Kakslauttanen da 400 €/notte e lodge (Muotka, Star Arctic) da 200 €, al parco nazionale Urho Kekkonen.',
+  seoTitle: 'Igloo di vetro e alloggi a Saariselkä | LaplandStays',
+  seoDescription: 'Dove soggiornare a Saariselkä: igloo di vetro di Kakslauttanen, Star Arctic sul fjäll Kaunispää e Wilderness Hotel Muotka, al parco nazionale Urho Kekkonen.',
 }
 
 const nl: DestinationBody = {
@@ -391,8 +391,8 @@ const nl: DestinationBody = {
 
 Het dorp is klein en beloopbaar, rond enkele hotels, restaurants en skipistes. Premium hutten liggen langs de weg naar Ivalo en aan de rand van het park. De positie telt: u stapt vanaf de deur in een middag huskysleeën en keert dezelfde avond terug voor een privésauna onder het noorderlicht.`,
   facts: [
-    { label: 'Glasiglo\'s vanaf', value: '€400/nacht' },
-    { label: 'Wildernislodges vanaf', value: '€200/nacht' },
+    { label: 'Nationaal park UKK', value: '2.550 km²' },
+    { label: 'Uitzichtpunt', value: 'Kaunispää' },
     { label: 'Noorderlichtnachten', value: '~200/jaar' },
     { label: 'Dichtstbijzijnde luchthaven', value: 'IVL 25 min' },
   ],
@@ -445,8 +445,8 @@ Huurauto aanbevolen, de beste donkere-hemel hutten liggen op een korte rit van d
     { day: '03', title: 'Husky + rendierdag', body: 'Husky-safari in de ochtend vanuit Saariselkä. In de middag een rendierenrit op een nabijgelegen Sámi-boerderij. Avond: ijsvissen of sauna-meersprong, en bij heldere hemel noorderlicht kijken.' },
     { day: '04', title: 'Rustige ochtend · rijden naar Inari', body: 'Laatste iglo-ochtend, 50 min noordwaarts naar het Inari-meer voor een Sámi-cultuurdag in het Siida-museum. Avondvlucht vanaf IVL of verlengen met een nacht in Inari.' },
   ],
-  seoTitle: "Glasiglo\'s en accommodaties in Saariselkä, vanaf €200/nacht",
-  seoDescription: 'Waar te verblijven in Saariselkä: Kakslauttanen-glasiglo\'s vanaf €400/nacht en wildernislodges (Muotka, Star Arctic) vanaf €200, bij het Urho Kekkonen-park.',
+  seoTitle: "Glasiglo's en accommodaties in Saariselkä | LaplandStays",
+  seoDescription: "Waar te verblijven in Saariselkä: glasiglo's van Kakslauttanen, Star Arctic op het Kaunispää-fjäll en Wilderness Hotel Muotka, bij het Urho Kekkonen-park.",
 }
 
 const ja: DestinationBody = {
@@ -455,8 +455,8 @@ const ja: DestinationBody = {
 
 村は小さく徒歩で回れ、いくつかのホテル、レストラン、スキー場が中心に集まっています。プレミアムキャビンはイヴァロへ向かう道沿いと国立公園の縁に並びます。この立地が肝心で、玄関先から午後のハスキーぞりに出かけ、その夜にはオーロラの下でプライベートサウナへ戻ることができます。`,
   facts: [
-    { label: 'ガラス製イグルー1泊', value: '400ユーロから' },
-    { label: 'ウィルダネスロッジ1泊', value: '200ユーロから' },
+    { label: 'UKK国立公園', value: '2,550平方km' },
+    { label: '展望スポット', value: 'カウニスパー山' },
     { label: 'オーロラ観測夜', value: '年間約200日' },
     { label: '最寄り空港', value: 'IVL 25分' },
   ],
@@ -511,8 +511,8 @@ const ja: DestinationBody = {
     { day: '03', title: 'ハスキー&トナカイの日', body: '午前はサーリセルカ村発のハスキーサファリ。午後は近くのサーミ農場でトナカイ乗り。夜はアイスフィッシングまたはサウナ後の湖入り。晴れていればオーロラ観賞も。' },
     { day: '04', title: 'ゆっくり朝・イナリへドライブ', body: 'イグルーで最後の朝、北へ50分走りイナリ湖へ。Siida博物館でサーミ文化の日。夕方のIVL便で出発、またはイナリで1泊延長。' },
   ],
-  seoTitle: 'サーリセルカのグラスイグルー&宿泊。1泊200ユーロから',
-  seoDescription: 'フィンランド領ラップランド・サーリセルカでの宿選び：カクスラウッタネンのガラス・イグルー1泊400ユーロから、ウィルダネスロッジ（ムオトカ、Star Arctic）200ユーロから。ウルホ・ケッコネン国立公園の縁。プライベートサウナ、暗い空、直接予約。',
+  seoTitle: 'サーリセルカのグラスイグルー&宿泊 | LaplandStays',
+  seoDescription: 'ラップランド・サーリセルカの宿選び：カクスラウッタネンのガラスイグルー、カウニスパー山のStar Arctic、ウィルダネスホテル・ムオトカ。UKK国立公園のそば。',
 }
 
 const es: DestinationBody = {
@@ -521,8 +521,8 @@ const es: DestinationBody = {
 
 El pueblo es pequeño y peatonal, agrupado en torno a unos pocos hoteles, restaurantes y pistas de esquí. Las cabañas premium se reparten a lo largo de la carretera hacia Ivalo y junto al límite del parque. La ubicación importa: puede salir de su puerta a una tarde de mushing y volver para una sauna privada bajo la aurora esa misma noche.`,
   facts: [
-    { label: 'Iglús de cristal desde', value: '400 €/noche' },
-    { label: 'Lodges silvestres desde', value: '200 €/noche' },
+    { label: 'Parque Nacional UKK', value: '2.550 km²' },
+    { label: 'Mirador', value: 'Kaunispää' },
     { label: 'Noches de aurora', value: '~200/año' },
     { label: 'Aeropuerto más cercano', value: 'IVL 25 min' },
   ],
@@ -575,8 +575,8 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
     { day: '03', title: 'Día de husky + reno', body: 'Safari de huskys por la mañana desde el pueblo de Saariselkä. Por la tarde, paseo en reno en una granja sami cercana. Por la noche: pesca en hielo o baño en el lago tras la sauna, y vigilancia de auroras si el cielo está despejado.' },
     { day: '04', title: 'Mañana lenta · viaje a Inari', body: 'Última mañana en el iglú, 50 min al norte hasta el lago Inari para un día de cultura sami en el museo Siida. Tomar el vuelo de tarde desde IVL o ampliar con una noche en Inari.' },
   ],
-  seoTitle: 'Iglús de cristal y alojamiento en Saariselkä, desde 200 €',
-  seoDescription: 'Dónde alojarse en Saariselkä: iglús de cristal Kakslauttanen desde 400 €/noche y lodges (Muotka, Star Arctic) desde 200 €, junto al Parque Urho Kekkonen.',
+  seoTitle: 'Iglús de cristal y alojamiento en Saariselkä | LaplandStays',
+  seoDescription: 'Dónde alojarse en Saariselkä: iglús de cristal de Kakslauttanen, Star Arctic en el fjäll Kaunispää y Wilderness Hotel Muotka, junto al Parque Urho Kekkonen.',
 }
 
 const ptBR: DestinationBody = {
@@ -585,8 +585,8 @@ const ptBR: DestinationBody = {
 
 A vila é pequena e percorrível a pé, agrupada em torno de alguns hotéis, restaurantes e pistas de esqui. As cabanas premium ficam ao longo da estrada para Ivalo e à beira do parque. A localização importa: você pode sair da porta para uma tarde de trenó com huskies e voltar para uma sauna privativa sob a aurora na mesma noite.`,
   facts: [
-    { label: 'Iglus de vidro a partir de', value: '€400/noite' },
-    { label: 'Lodges selvagens a partir de', value: '€200/noite' },
+    { label: 'Parque Nacional UKK', value: '2.550 km²' },
+    { label: 'Mirante', value: 'Kaunispää' },
     { label: 'Noites de aurora', value: '~200/ano' },
     { label: 'Aeroporto mais próximo', value: 'IVL 25 min' },
   ],
@@ -639,8 +639,8 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
     { day: '03', title: 'Dia de huskies + renas', body: 'Safári de huskies pela manhã saindo da vila de Saariselkä. À tarde, passeio com rena em uma fazenda sámi próxima. À noite: pesca no gelo ou mergulho no lago após a sauna, e vigília da aurora se o céu estiver limpo.' },
     { day: '04', title: 'Manhã lenta · estrada para Inari', body: 'Última manhã no iglu, 50 min ao norte até o Lago Inari para um dia de cultura sámi no museu Siida. Pegue o voo da noite em IVL ou acrescente uma noite em Inari.' },
   ],
-  seoTitle: 'Iglus de vidro e hospedagem em Saariselkä, desde €200',
-  seoDescription: 'Onde ficar em Saariselkä: iglus de vidro Kakslauttanen a partir de €400/noite e lodges (Muotka, Star Arctic) a partir de €200, no Parque Urho Kekkonen.',
+  seoTitle: 'Iglus de vidro e hospedagem em Saariselkä | LaplandStays',
+  seoDescription: 'Onde ficar em Saariselkä: iglus de vidro do Kakslauttanen, Star Arctic no fjäll Kaunispää e Wilderness Hotel Muotka, junto ao Parque Urho Kekkonen.',
 }
 
 const zhCN: DestinationBody = {
@@ -649,8 +649,8 @@ const zhCN: DestinationBody = {
 
 村莊小巧、可步行，幾家飯店、餐廳與雪道圍繞其間。高階小屋沿著前往伊瓦洛的公路以及國家公園邊緣排開。位置至關重要：走出家門即可享受一下午的哈士奇雪橇，當晚再回到極光下的私人桑拿。`,
   facts: [
-    { label: '玻璃屋每晚', value: '400歐元起' },
-    { label: '荒野小屋每晚', value: '200歐元起' },
+    { label: 'UKK國家公園', value: '2,550平方公里' },
+    { label: '觀景臺', value: 'Kaunispää山' },
     { label: '極光夜', value: '約200晚/年' },
     { label: '最近機場', value: 'IVL 25分鐘' },
   ],
@@ -703,8 +703,8 @@ const zhCN: DestinationBody = {
     { day: '03', title: '哈士奇 + 馴鹿日', body: '上午自薩利色爾卡村出發的哈士奇探險。下午前往附近的薩米農場騎馴鹿。夜晚：冰釣或桑拿後跳湖。天空晴朗時還可觀賞極光。' },
     { day: '04', title: '悠閒早晨 · 驅車前往伊納里', body: '冰屋最後一晨，北行50分鐘前往伊納里湖，Siida博物館度過薩米文化日。從IVL搭乘傍晚航班，或在伊納里加宿一晚。' },
   ],
-  seoTitle: '薩利色爾卡住宿：極光玻璃屋與荒野飯店，每晚200歐元起 | LaplandStays',
-  seoDescription: '芬蘭拉普蘭薩利色爾卡住宿指南：Kakslauttanen玻璃屋每晚400歐元起、Muotka與Star Arctic等荒野小屋200歐元起。位於烏爾霍·凱科寧國家公園邊緣。私人桑拿、暗空、直接預訂。',
+  seoTitle: '薩利色爾卡住宿：極光玻璃屋與荒野飯店 | LaplandStays',
+  seoDescription: '芬蘭拉普蘭薩利色爾卡住宿指南：Kakslauttanen玻璃屋、Kaunispää山上的Star Arctic與Muotka荒野飯店。緊鄰烏爾霍·凱科寧國家公園。',
 }
 
 const sv: DestinationBody = {
@@ -713,8 +713,8 @@ const sv: DestinationBody = {
 
 Byn är liten och går att gå runt i, samlad kring några hotell, restauranger och skidbackar. Premiumstugorna ligger längs vägen mot Ivalo och i kanten av nationalparken. Läget är hela poängen: du kan gå ut genom dörren till en eftermiddag med hundspann och komma tillbaka till egen bastu under norrsken samma kväll.`,
   facts: [
-    { label: 'Glasigloor från', value: '400 €/natt' },
-    { label: 'Vildmarkslodger från', value: '200 €/natt' },
+    { label: 'UKK-nationalpark', value: '2 550 km²' },
+    { label: 'Utsiktsplats', value: 'Kaunispää' },
     { label: 'Norrskensnätter', value: 'ca 200/år' },
     { label: 'Närmaste flygplats', value: 'IVL 25 min' },
   ],
@@ -767,8 +767,8 @@ Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort b
     { day: '03', title: 'Dag med hundspann och renar', body: 'Hundspannssafari från Saariselkä by på morgonen. Renåkning på en samisk gård i närheten på eftermiddagen. På kvällen pimpelfiske eller ett dopp i sjön från bastun, och norrskensspaning om himlen är klar.' },
     { day: '04', title: 'Långsam morgon · vidare till Inari', body: 'Sista morgonen i igloon, kör 50 min norrut till Inarisjön för en dag med samisk kultur på museet Siida. Ta kvällsflyget från IVL eller lägg till en natt i Inari.' },
   ],
-  seoTitle: 'Glasigloor och boende i Saariselkä från 200 €/natt',
-  seoDescription: 'Var du bor i Saariselkä, Lappland: Kakslauttanens glasigloor från 400 €/natt, vildmarkslodger (Muotka, Star Arctic) från 200 €. Mörk himmel och direktbokning.',
+  seoTitle: 'Glasigloor och boende i Saariselkä | LaplandStays',
+  seoDescription: 'Var du ska bo i Saariselkä, Lappland: Kakslauttanens glasigloor, Star Arctic på Kaunispääfjället och Wilderness Hotel Muotka, vid Urho Kekkonens nationalpark.',
 }
 
 export default function Saariselka() {

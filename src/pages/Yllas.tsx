@@ -7,8 +7,8 @@ const en: DestinationBody = {
 
 Two small villages, Ylläsjärvi on the south side and Äkäslompolo on the north, book-end the fell. There is no single resort core: premium cabins are spread through the forest and along the lakes, giving Ylläs its reputation as the calmer, more nature-forward alternative to Levi.`,
   facts: [
-    { label: 'Log cabins from', value: '€150/night' },
-    { label: 'Hotels from', value: '€100/night' },
+    { label: 'Longest run', value: '3 km' },
+    { label: 'Cross-country tracks', value: '330 km' },
     { label: 'Nearest airport', value: 'KTT 50 min' },
     { label: 'Vertical drop', value: '464 m' },
   ],
@@ -61,8 +61,8 @@ Kolari train station, 40 min away, receives overnight trains from Helsinki with 
     { day: '03', title: 'National park hike + reindeer', body: "Snowshoe inside Pallas-Yllästunturi park. Visit a reindeer farm, Lainio Snow Village reindeer or Aakenus farm. Aurora-hunt from the cabin's north shore." },
     { day: '04', title: 'Slow morning · departure', body: 'Last sauna, breakfast, transfer back. Easter-week travellers: extend by a day to ski peak-week sun.' },
   ],
-  seoTitle: 'Ylläs Accommodation, Log Cabins & Chalets from €150/Night',
-  seoDescription: 'Where to stay in Ylläs, Lapland: log cabins from €150/night, lakeside villas and ski-in chalets on the edge of Pallas-Yllästunturi National Park.',
+  seoTitle: 'Ylläs Accommodation: Log Cabins & Chalets | LaplandStays',
+  seoDescription: 'Where to stay in Ylläs, Lapland: log cabins, lakeside villas and ski-in chalets in Äkäslompolo and Ylläsjärvi, by Pallas-Yllästunturi National Park.',
 }
 
 const fi: DestinationBody = {
@@ -71,8 +71,8 @@ const fi: DestinationBody = {
 
 Kaksi pientä kylää, Ylläsjärvi etelässä ja Äkäslompolo pohjoisessa, kehystävät tunturin. Yhtenäistä keskustaa ei ole: premium-mökit ovat hajallaan metsässä ja järvien varsilla, mikä antaa Ylläkselle maineen rauhallisempana, luontopainotteisempana vaihtoehtona Levin rinnalla.`,
   facts: [
-    { label: 'Hirsimökit alkaen', value: '150 €/yö' },
-    { label: 'Hotellit alkaen', value: '100 €/yö' },
+    { label: 'Pisin rinne', value: '3 km' },
+    { label: 'Latuverkko', value: '330 km' },
     { label: 'Lähin lentokenttä', value: 'KTT 50 min' },
     { label: 'Pudotuskorkeus', value: '464 m' },
   ],
@@ -125,8 +125,8 @@ Kolarin juna-asema, 40 min päässä, vastaanottaa yöjunat Helsingistä autonku
     { day: '03', title: 'Kansallispuistopatikointi + porot', body: 'Lumikenkäile Pallas-Yllästunturin puistossa. Käy porotilalla, Lainion Lumikylän porot tai Aakenuksen tila. Revontulia mökin pohjoisrannalta.' },
     { day: '04', title: 'Rauhallinen aamu · lähtö', body: 'Viimeinen sauna, aamiainen, kuljetus takaisin. Pääsiäisviikon matkailijat: pidennä päivällä laskettelemaan kevätaurinkoa.' },
   ],
-  seoTitle: 'Ylläksen majoitus, hirsimökit ja chaletit alkaen 150 €/yö',
-  seoDescription: 'Missä yöpyä Ylläksellä: hirsimökit alkaen 150 €/yö, rantavillat ja rinneasunnot Pallas-Yllästunturin kansallispuiston kupeessa. Suora varaus.',
+  seoTitle: 'Ylläksen majoitus: hirsimökit ja chaletit | LaplandStays',
+  seoDescription: 'Missä yöpyä Ylläksellä: hirsimökit, rantavillat ja rinneasunnot Äkäslompolossa ja Ylläsjärvellä, Pallas-Yllästunturin kansallispuiston kupeessa.',
 }
 
 const de: DestinationBody = {
@@ -135,8 +135,8 @@ const de: DestinationBody = {
 
 Zwei kleine Dörfer, Ylläsjärvi im Süden und Äkäslompolo im Norden, flankieren das Fjäll. Es gibt keinen zentralen Resort-Kern: Premium-Hütten verteilen sich durch den Wald und entlang der Seen, was Ylläs den Ruf als ruhigere, naturnähere Alternative zu Levi einbringt.`,
   facts: [
-    { label: 'Blockhütten ab', value: '150 €/Nacht' },
-    { label: 'Hotels ab', value: '100 €/Nacht' },
+    { label: 'Längste Abfahrt', value: '3 km' },
+    { label: 'Loipennetz', value: '330 km' },
     { label: 'Nächster Flughafen', value: 'KTT 50 min' },
     { label: 'Höhenunterschied', value: '464 m' },
   ],
@@ -189,8 +189,8 @@ Bahnhof Kolari, 40 min entfernt, empfängt die Nachtzüge aus Helsinki mit Autot
     { day: '03', title: 'Nationalpark-Wanderung + Rentiere', body: 'Schneeschuhwanderung im Pallas-Yllästunturi-Park. Besuch einer Rentierfarm, Lainio Snow Village oder Aakenus-Hof. Polarlicht-Jagd vom Nordufer der Hütte.' },
     { day: '04', title: 'Ruhiger Morgen · Abreise', body: 'Letzte Sauna, Frühstück, Rücktransfer. Osterwochen-Reisende: einen Tag verlängern, um die Frühjahrssonne zu fahren.' },
   ],
-  seoTitle: 'Ylläs-Unterkünfte, Blockhütten & Chalets ab 150 €/Nacht',
-  seoDescription: 'Wo Sie in Ylläs übernachten: Blockhütten ab 150 €/Nacht, See-Villen und Ski-in-Chalets am Rande des Pallas-Yllästunturi-Nationalparks. Direkte Buchung.',
+  seoTitle: 'Ylläs-Unterkünfte: Blockhütten & Chalets | LaplandStays',
+  seoDescription: 'Wo Sie in Ylläs übernachten: Blockhütten, See-Villen und Ski-in-Chalets in Äkäslompolo und Ylläsjärvi, am Rande des Pallas-Yllästunturi-Nationalparks.',
 }
 
 const ko: DestinationBody = {
@@ -199,8 +199,8 @@ const ko: DestinationBody = {
 
 남쪽의 윌래스야르비(Ylläsjärvi), 북쪽의 애캐슬롬폴로(Äkäslompolo). 두 개의 작은 마을이 봉우리를 사이에 두고 마주봅니다. 단일 리조트 단지는 없으며, 프리미엄 캐빈은 숲과 호숫가에 흩어져 있어 윌래스에 '레비보다 조용하고 자연 중심적인 대안'이라는 평판을 안깁니다.`,
   facts: [
-    { label: '통나무 캐빈 1박', value: '150€부터' },
-    { label: '호텔 1박', value: '100€부터' },
+    { label: '가장 긴 슬로프', value: '3km' },
+    { label: '크로스컨트리 코스', value: '330km' },
     { label: '가장 가까운 공항', value: 'KTT 50분' },
     { label: '표고차', value: '464m' },
   ],
@@ -253,8 +253,8 @@ const ko: DestinationBody = {
     { day: '03', title: '국립공원 하이킹 + 순록', body: 'Pallas-Yllästunturi 공원에서 스노슈잉. 순록 농장 방문. Lainio Snow Village의 순록 또는 Aakenus 농장. 캐빈 북쪽 호반에서 오로라 헌팅.' },
     { day: '04', title: '느긋한 아침 · 출발', body: '마지막 사우나, 아침식사, 트랜스퍼. 부활절 연휴 여행자라면 하루 더 머물러 봄 햇살 속 스키를 만끽하세요.' },
   ],
-  seoTitle: '윌래스 숙박. 통나무 캐빈과 샬레 1박 150€부터',
-  seoDescription: '핀란드 라플란드 윌래스 숙박 가이드: Pallas-Yllästunturi 국립공원 자락의 통나무 캐빈 1박 150€부터, 호숫가 빌라와 스키 인 샬레. 전용 사우나, 오로라가 보이는 호반, 직접 예약.',
+  seoTitle: '윌래스 숙박: 통나무 캐빈과 샬레 | LaplandStays',
+  seoDescription: '핀란드 라플란드 윌래스 숙박 가이드: 애캐슬롬폴로와 윌래스야르비의 통나무 캐빈, 호숫가 빌라, 스키 인 샬레. Pallas-Yllästunturi 국립공원 자락. 전용 사우나, 오로라가 보이는 호반.',
 }
 
 const fr: DestinationBody = {
@@ -263,8 +263,8 @@ const fr: DestinationBody = {
 
 Deux petits villages, Ylläsjärvi côté sud et Äkäslompolo côté nord, encadrent le fjäll. Pas de noyau-station unique : les chalets premium s'éparpillent dans la forêt et le long des lacs, ce qui vaut à Ylläs sa réputation d'alternative plus calme et plus proche de la nature que Levi.`,
   facts: [
-    { label: 'Chalets en rondins dès', value: '150 €/nuit' },
-    { label: 'Hôtels dès', value: '100 €/nuit' },
+    { label: 'Plus longue piste', value: '3 km' },
+    { label: 'Réseau de ski de fond', value: '330 km' },
     { label: 'Aéroport le plus proche', value: 'KTT 50 min' },
     { label: 'Dénivelé', value: '464 m' },
   ],
@@ -317,8 +317,8 @@ La gare de Kolari, à 40 min, accueille les trains de nuit depuis Helsinki avec 
     { day: '03', title: 'Randonnée parc + rennes', body: 'Raquettes dans le parc Pallas-Yllästunturi. Visite d\'une ferme à rennes, Lainio Snow Village ou ferme Aakenus. Chasse aux aurores depuis la rive nord du chalet.' },
     { day: '04', title: 'Matinée tranquille · départ', body: 'Dernier sauna, petit-déjeuner, transfert retour. Voyageurs de la semaine de Pâques : prolongez d\'une journée pour profiter du soleil de printemps sur les pistes.' },
   ],
-  seoTitle: "Hébergements à Ylläs, chalets et villas dès 150 €/nuit",
-  seoDescription: 'Où loger à Ylläs : chalets en rondins dès 150 €/nuit, villas au bord du lac et chalets ski-in en lisière du parc national Pallas-Yllästunturi.',
+  seoTitle: 'Hébergements à Ylläs : chalets et villas | LaplandStays',
+  seoDescription: 'Où loger à Ylläs : chalets en rondins, villas au bord du lac et chalets ski-in à Äkäslompolo et Ylläsjärvi, en lisière du parc national Pallas-Yllästunturi.',
 }
 
 const it: DestinationBody = {
@@ -327,8 +327,8 @@ const it: DestinationBody = {
 
 Due piccoli paesi, Ylläsjärvi a sud e Äkäslompolo a nord, fanno da quinte al fjäll. Non c'è un unico cuore-resort: gli chalet premium si distribuiscono nel bosco e lungo i laghi, conferendo a Ylläs la fama di alternativa più tranquilla e più vicina alla natura rispetto a Levi.`,
   facts: [
-    { label: 'Chalet in tronchi da', value: '150 €/notte' },
-    { label: 'Hotel da', value: '100 €/notte' },
+    { label: 'Pista più lunga', value: '3 km' },
+    { label: 'Piste da fondo', value: '330 km' },
     { label: 'Aeroporto più vicino', value: 'KTT 50 min' },
     { label: 'Dislivello', value: '464 m' },
   ],
@@ -381,8 +381,8 @@ La stazione di Kolari, a 40 min, accoglie i treni notturni da Helsinki con servi
     { day: '03', title: 'Escursione nel parco + renne', body: 'Ciaspolata nel parco Pallas-Yllästunturi. Visita a una fattoria di renne, Lainio Snow Village o fattoria Aakenus. Caccia all\'aurora dalla sponda nord dello chalet.' },
     { day: '04', title: 'Mattina lenta · partenza', body: 'Ultima sauna, colazione, transfer di ritorno. Per chi viaggia a Pasqua: prolunghi di un giorno per sciare nel sole di primavera.' },
   ],
-  seoTitle: 'Alloggi a Ylläs, chalet in tronchi e ville da 150 €/notte',
-  seoDescription: 'Dove soggiornare a Ylläs: chalet in tronchi da 150 €/notte, ville sul lago e chalet ski-in ai margini del parco nazionale Pallas-Yllästunturi.',
+  seoTitle: 'Alloggi a Ylläs: chalet in tronchi e ville | LaplandStays',
+  seoDescription: 'Dove soggiornare a Ylläs: chalet in tronchi, ville sul lago e chalet ski-in ad Äkäslompolo e Ylläsjärvi, ai margini del parco nazionale Pallas-Yllästunturi.',
 }
 
 const nl: DestinationBody = {
@@ -391,8 +391,8 @@ const nl: DestinationBody = {
 
 Twee kleine dorpen, Ylläsjärvi aan de zuidkant en Äkäslompolo aan de noordkant, flankeren het fjäll. Er is geen centrale resortkern: premium hutten liggen verspreid in het bos en langs de meren, wat Ylläs zijn reputatie geeft van rustiger, natuurgerichter alternatief voor Levi.`,
   facts: [
-    { label: 'Houten hutten vanaf', value: '€150/nacht' },
-    { label: 'Hotels vanaf', value: '€100/nacht' },
+    { label: 'Langste afdaling', value: '3 km' },
+    { label: 'Langlaufnetwerk', value: '330 km' },
     { label: 'Dichtstbijzijnde luchthaven', value: 'KTT 50 min' },
     { label: 'Hoogteverschil', value: '464 m' },
   ],
@@ -445,8 +445,8 @@ Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservic
     { day: '03', title: 'Wandeling in het park + rendieren', body: 'Sneeuwschoenwandeling in het Pallas-Yllästunturi-park. Bezoek aan een rendierenboerderij, Lainio Snow Village of boerderij Aakenus. Noorderlichtjacht vanaf de noordoever van de hut.' },
     { day: '04', title: 'Rustige ochtend · vertrek', body: 'Laatste sauna, ontbijt, transfer terug. Voor paasweekreizigers: een dag verlengen om in de voorjaarszon te skiën.' },
   ],
-  seoTitle: "Ylläs-accommodatie, hutten en chalets vanaf €150/nacht",
-  seoDescription: 'Waar te verblijven in Ylläs: houten hutten vanaf €150/nacht, villa\'s aan het meer en ski-in chalets aan de rand van het Pallas-Yllästunturi-park.',
+  seoTitle: 'Ylläs-accommodatie: hutten en chalets | LaplandStays',
+  seoDescription: "Waar te verblijven in Ylläs: houten hutten, villa's aan het meer en ski-in chalets in Äkäslompolo en Ylläsjärvi, aan de rand van het Pallas-Yllästunturi-park.",
 }
 
 const ja: DestinationBody = {
@@ -455,8 +455,8 @@ const ja: DestinationBody = {
 
 南側のユッラスヤルヴィと北側のアカスロンポロという2つの小さな村が山を挟むように立ち、明確なリゾート中心部はありません。プレミアムキャビンは森の中や湖畔に点在し、レヴィよりも静かで自然志向だという評価をユッラスにもたらしています。`,
   facts: [
-    { label: 'ログキャビン1泊', value: '150ユーロから' },
-    { label: 'ホテル1泊', value: '100ユーロから' },
+    { label: '最長ゲレンデ', value: '3km' },
+    { label: 'クロスカントリーコース', value: '330km' },
     { label: '最寄り空港', value: 'KTT 50分' },
     { label: '標高差', value: '464m' },
   ],
@@ -509,8 +509,8 @@ const ja: DestinationBody = {
     { day: '03', title: '国立公園ハイク + トナカイ', body: 'パッラス・ユッラストゥントゥリ国立公園内でスノーシュー。ライニオ・スノービレッジのトナカイか、アーケヌス農場へ。キャビンの北岸からオーロラ観賞。' },
     { day: '04', title: 'ゆっくりした朝・出発', body: '最後のサウナ、朝食、復路の送迎。イースター週の旅行者は1日延ばしてピーク週のサンスキーを。' },
   ],
-  seoTitle: 'ユッラスの宿泊。1泊150ユーロからのログキャビン&シャレー',
-  seoDescription: 'フィンランド領ラップランド・ユッラスでの宿選び：1泊150ユーロからのログキャビン、パッラス・ユッラストゥントゥリ国立公園そばのレイクヴィラとスキーインシャレー。プライベートサウナ、オーロラを望む湖岸、直接予約。',
+  seoTitle: 'ユッラスの宿泊：ログキャビン&シャレー | LaplandStays',
+  seoDescription: 'ラップランドのユッラスでの宿選び：アカスロンポロとユッラスヤルヴィのログキャビン、湖畔ヴィラ、スキーインシャレー。パッラス・ユッラストゥントゥリ国立公園のそば。',
 }
 
 const es: DestinationBody = {
@@ -519,8 +519,8 @@ const es: DestinationBody = {
 
 Dos pequeños pueblos, Ylläsjärvi al sur y Äkäslompolo al norte, flanquean el fjäll. No hay un núcleo único de estación: las cabañas premium se reparten por el bosque y junto a los lagos, lo que ha dado a Ylläs su fama de alternativa más tranquila y naturalista frente a Levi.`,
   facts: [
-    { label: 'Cabañas de troncos desde', value: '150 €/noche' },
-    { label: 'Hoteles desde', value: '100 €/noche' },
+    { label: 'Pista más larga', value: '3 km' },
+    { label: 'Pistas de fondo', value: '330 km' },
     { label: 'Aeropuerto más cercano', value: 'KTT 50 min' },
     { label: 'Desnivel', value: '464 m' },
   ],
@@ -573,8 +573,8 @@ La estación de Kolari, a 40 min, recibe trenes nocturnos desde Helsinki con ser
     { day: '03', title: 'Caminata en el parque nacional + renos', body: 'Raquetas dentro del parque Pallas-Yllästunturi. Visite una granja de renos, los de Lainio Snow Village o la granja Aakenus. Caza de auroras desde la orilla norte de la cabaña.' },
     { day: '04', title: 'Mañana lenta · partida', body: 'Última sauna, desayuno, traslado de vuelta. Viajeros de Semana Santa: amplíe un día para esquiar al sol de la semana pico.' },
   ],
-  seoTitle: 'Alojamiento en Ylläs, cabañas y chalets desde 150 €/noche',
-  seoDescription: 'Dónde alojarse en Ylläs: cabañas de troncos desde 150 €/noche, villas junto al lago y chalets ski-in al borde del Parque Nacional Pallas-Yllästunturi.',
+  seoTitle: 'Alojamiento en Ylläs: cabañas y chalets | LaplandStays',
+  seoDescription: 'Dónde alojarse en Ylläs: cabañas de troncos, villas junto al lago y chalets ski-in en Äkäslompolo y Ylläsjärvi, junto al Parque Nacional Pallas-Yllästunturi.',
 }
 
 const ptBR: DestinationBody = {
@@ -583,8 +583,8 @@ const ptBR: DestinationBody = {
 
 Duas pequenas vilas, Ylläsjärvi ao sul e Äkäslompolo ao norte, emolduram o fjäll. Não há um núcleo único de estação: as cabanas premium se espalham pela floresta e à beira dos lagos, dando a Ylläs sua fama de alternativa mais tranquila e voltada à natureza em relação a Levi.`,
   facts: [
-    { label: 'Cabanas de tronco a partir de', value: '€150/noite' },
-    { label: 'Hotéis a partir de', value: '€100/noite' },
+    { label: 'Pista mais longa', value: '3 km' },
+    { label: 'Pistas de esqui cross-country', value: '330 km' },
     { label: 'Aeroporto mais próximo', value: 'KTT 50 min' },
     { label: 'Desnível', value: '464 m' },
   ],
@@ -637,8 +637,8 @@ A estação ferroviária de Kolari, a 40 min, recebe trens noturnos de Helsinque
     { day: '03', title: 'Caminhada no parque nacional + renas', body: 'Raquete de neve dentro do parque Pallas-Yllästunturi. Visite uma fazenda de renas, as do Lainio Snow Village ou a fazenda Aakenus. Caça à aurora a partir da margem norte da cabana.' },
     { day: '04', title: 'Manhã lenta · partida', body: 'Última sauna, café da manhã, traslado de volta. Quem viaja na Páscoa: estenda um dia para esquiar no sol da semana de pico.' },
   ],
-  seoTitle: 'Hospedagem em Ylläs, cabanas e chalés desde €150/noite',
-  seoDescription: 'Onde ficar em Ylläs: cabanas de tronco a partir de €150/noite, vilas à beira do lago e chalés ski-in junto ao Parque Nacional Pallas-Yllästunturi.',
+  seoTitle: 'Hospedagem em Ylläs: cabanas e chalés | LaplandStays',
+  seoDescription: 'Onde ficar em Ylläs: cabanas de tronco, vilas à beira do lago e chalés ski-in em Äkäslompolo e Ylläsjärvi, junto ao Parque Nacional Pallas-Yllästunturi.',
 }
 
 const zhCN: DestinationBody = {
@@ -647,8 +647,8 @@ const zhCN: DestinationBody = {
 
 兩座小村莊。南面的於拉斯耶爾維和北面的阿卡斯隆波洛。分別坐落在山的兩端。這裡沒有單一的度假村中心：高階小屋散佈於森林與湖畔之間，使於拉斯贏得了比萊維更安靜、更親近自然的口碑。`,
   facts: [
-    { label: '原木小屋每晚', value: '150歐元起' },
-    { label: '飯店每晚', value: '100歐元起' },
+    { label: '最長雪道', value: '3公里' },
+    { label: '越野雪道', value: '330公里' },
     { label: '最近機場', value: 'KTT 50分鐘' },
     { label: '落差', value: '464米' },
   ],
@@ -701,8 +701,8 @@ const zhCN: DestinationBody = {
     { day: '03', title: '國家公園徒步 + 馴鹿', body: '在帕拉斯-於拉斯通圖里公園內雪鞋行走。參觀馴鹿農場。Lainio雪村馴鹿或Aakenus農場。從小屋北岸尋找極光。' },
     { day: '04', title: '悠閒晨光 · 啟程', body: '最後一次桑拿、早餐、返程接送。復活節周出行者：多留一天，在旺季周的陽光下滑雪。' },
   ],
-  seoTitle: '於拉斯住宿：原木小屋與滑雪木屋，每晚150歐元起 | LaplandStays',
-  seoDescription: '芬蘭拉普蘭於拉斯住宿指南：原木小屋每晚150歐元起、湖畔別墅與緊鄰帕拉斯-於拉斯通圖里國家公園的滑入式木屋。私人桑拿、面向極光的湖岸、直接預訂。',
+  seoTitle: '於拉斯住宿：原木小屋與滑雪木屋 | LaplandStays',
+  seoDescription: '芬蘭拉普蘭於拉斯住宿指南：阿卡斯隆波洛與於拉斯耶爾維的原木小屋、湖畔別墅與滑入式木屋，緊鄰帕拉斯-於拉斯通圖里國家公園。私人桑拿、面向極光的湖岸。',
 }
 
 const sv: DestinationBody = {
@@ -711,8 +711,8 @@ const sv: DestinationBody = {
 
 Två små byar ramar in fjället: Ylläsjärvi på södra sidan och Äkäslompolo på den norra. Någon samlad ortskärna finns inte: premiumstugorna ligger utspridda i skogen och längs sjöarna, vilket har gett Ylläs ryktet som det lugnare, mer naturnära alternativet till Levi.`,
   facts: [
-    { label: 'Timmerstugor från', value: '150 €/natt' },
-    { label: 'Hotell från', value: '100 €/natt' },
+    { label: 'Längsta nedfarten', value: '3 km' },
+    { label: 'Längdspår', value: '330 km' },
     { label: 'Närmaste flygplats', value: 'KTT 50 min' },
     { label: 'Fallhöjd', value: '464 m' },
   ],
@@ -765,8 +765,8 @@ Kolari järnvägsstation, 40 min bort, tar emot nattåg från Helsingfors med bi
     { day: '03', title: 'Vandring i nationalparken + renar', body: 'Snöskovandring inne i Pallas-Yllästunturi nationalpark. Besök en rengård, renarna vid Lainio Snow Village eller Aakenus gård. Spana efter norrsken från stugans norra strand.' },
     { day: '04', title: 'Långsam morgon · hemresa', body: 'Sista bastun, frukost, transfer tillbaka. Reser du påskveckan: lägg till en dag och åk skidor i högsäsongens sol.' },
   ],
-  seoTitle: 'Boende i Ylläs: timmerstugor och chalets från 150 €/natt',
-  seoDescription: 'Var du bor i Ylläs, Lappland: timmerstugor från 150 €/natt, sjövillor och ski-in-stugor i kanten av Pallas-Yllästunturi nationalpark.',
+  seoTitle: 'Boende i Ylläs: timmerstugor och chalets | LaplandStays',
+  seoDescription: 'Var du ska bo i Ylläs, Lappland: timmerstugor, sjövillor och ski-in-stugor i Äkäslompolo och Ylläsjärvi, i kanten av Pallas-Yllästunturi nationalpark.',
 }
 
 export default function Yllas() {

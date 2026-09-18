@@ -3,7 +3,7 @@ import type { PageCopy } from './Home.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Boende i Lappland: glasigloor och stugor | LaplandStays",
-    "description": "Var du ska bo i Lappland: jämför glasigloor från 250 €/natt, norrskensstugor från 150 € och hotell från 100 € i Levi, Ylläs, Saariselkä och Inari."
+    "description": "Var du ska bo i Lappland: jämför glasigloor, norrskensstugor och hotell i Levi, Ylläs, Saariselkä och Inari. Se vad du bör boka först."
   },
   "faq": {
     "@context": "https://schema.org",
