@@ -1,34 +1,6 @@
 import { useLocation } from 'react-router-dom';
 import LanguageMenu, { type LanguageOption } from './LanguageMenu';
 import { useLang } from './useLang';
-import { LOCALE_FLAG } from './flags';
-
-/**
- * 🔴 laplandstays: kiinan kohdalla on neutraali 中-merkki eikä kansallislippu (18.9.2026).
- *
- * Tämän sivuston kiinankielinen versio (/cn/, avain zh-CN) on Taiwanin perinteistä
- * kiinaa (scripts/zh-hant.mjs). Kiinan kansantasavallan lippu ei sovi sen lukijoille,
- * jotka tulevat Googlesta Taiwanista, Hongkongista ja ulkomailta. Taiwanin lippu taas
- * ei sovi mannerkiinalaiselle, joka tulee sivulle suosituksen kautta. 中 tarkoittaa
- * kiinaa (中文) kaikille heistä, eikä se ota kantaa kumpaankaan suuntaan.
- *
- * Korvaus on TÄSSÄ sovittimessa eikä jaetussa flags.ts:ssä, koska flags.ts ja
- * LanguageMenu.tsx ovat tavu tavulta samat 28 sivustolla (gate:kielivalitsin) ja
- * muiden sivustojen kiina on yhä yksinkertaistettua. localeFlag() lukee taulun
- * renderöinnin aikana, joten moduulin latauksessa tehty korvaus näkyy sekä napissa
- * että valikon rivillä. Värit: snow-pohja ja deep-night-merkki, jotta merkki erottuu
- * sekä vaalealla navilla että tummalla valikkopaneelilla.
- */
-const NEUTRAL_ZH_FLAG =
-  'data:image/svg+xml,' +
-  encodeURIComponent(
-    "<svg xmlns='http://www.w3.org/2000/svg' width='24' height='17' viewBox='0 0 24 17'>" +
-      "<rect width='24' height='17' fill='#F9FAFB'/>" +
-      "<rect x='7' y='5' width='10' height='6.4' fill='none' stroke='#0F172A' stroke-width='1.6'/>" +
-      "<path d='M12 1.6v13.8' stroke='#0F172A' stroke-width='1.6'/>" +
-      '</svg>',
-  );
-LOCALE_FLAG['zh-CN'] = NEUTRAL_ZH_FLAG;
 
 /**
  * Sivustokohtainen kytkentä kanoniseen `LanguageMenu`-komponenttiin niillä
