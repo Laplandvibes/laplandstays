@@ -49,7 +49,12 @@ export default function Hero() {
 
         {/* Hero copy */}
         <div className="relative z-10 text-center px-5 sm:px-6 max-w-3xl mx-auto pt-28 pb-32 sm:pb-40">
-          <p className="text-pink uppercase tracking-[0.3em] text-[11px] sm:text-xs font-semibold mb-5 inline-flex items-center justify-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
+          {/* 🔴 Muste #F9A8D4, ei #EC4899 (heroteksti-portti 20.9.2026). Pinkki
+              muste 11 px:n tekstissa valokuvan paalla mitattiin mediaanilla
+              3,89:1 kun alle 18 px:n tekstin raja on 4,5:1 — 84 % taustapikse-
+              leista alle rajan kolmella leveydella. Sama vaaleampi pinkki kuin
+              hubin sanamerkissa: samaa taustaa vasten 7,57:1. Varjo jaa. */}
+          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-[11px] sm:text-xs font-semibold mb-5 inline-flex items-center justify-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
             <MapPin className="w-3.5 h-3.5" />
             {c.eyebrow}
           </p>
