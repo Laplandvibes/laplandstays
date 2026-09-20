@@ -369,7 +369,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
 
           <button
             onClick={handleSearch}
-            className="mt-6 w-full bg-vibe-pink hover:bg-vibe-pink/90 text-white font-bold py-4 sm:py-5 rounded-xl transition-all duration-300 text-[15px] sm:text-base uppercase tracking-wider inline-flex items-center justify-center gap-2.5 hover:shadow-xl hover:shadow-vibe-pink/30 hover:-translate-y-0.5 active:translate-y-0"
+            className="mt-6 w-full bg-[#DB2777] hover:bg-[#BE185D] text-white font-bold py-4 sm:py-5 rounded-xl transition-all duration-300 text-[15px] sm:text-base uppercase tracking-wider inline-flex items-center justify-center gap-2.5 hover:shadow-xl hover:shadow-vibe-pink/30 hover:-translate-y-0.5 active:translate-y-0"
           >
             <Search className="w-5 h-5" />
             {activeTab === 'hotels' ? wc.searchHotels : activeTab === 'flights' ? wc.searchFlights : wc.compareCars}

@@ -177,7 +177,7 @@ export default function CabinArea() {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lomarengas', `cabinpage_${slug}_all`, browseHref)}
-              className="inline-flex max-w-full items-center gap-2 bg-pink hover:bg-pink/90 text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-sm uppercase tracking-wider"
+              className="inline-flex max-w-full items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-sm uppercase tracking-wider"
             >
               <span className="truncate">{copy.browseAll}</span>
               <ExternalLink className="w-4 h-4 shrink-0" aria-hidden="true" />

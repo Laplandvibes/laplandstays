@@ -224,7 +224,7 @@ export default function EditorialPolicy() {
             <Link to={to('/about')} className="border border-white/30 hover:border-pink/60 text-white hover:text-pink font-semibold py-3 px-6 rounded-xl transition-colors text-sm uppercase tracking-widest">{ui.aboutLink}</Link>
             <Link to={to('/terms')} className="border border-white/30 hover:border-pink/60 text-white hover:text-pink font-semibold py-3 px-6 rounded-xl transition-colors text-sm uppercase tracking-widest">{ui.termsLink}</Link>
             <Link to={to('/privacy')} className="border border-white/30 hover:border-pink/60 text-white hover:text-pink font-semibold py-3 px-6 rounded-xl transition-colors text-sm uppercase tracking-widest">{ui.privacyLink}</Link>
-            <Link to={to('/property-types')} className="bg-pink hover:bg-pink/90 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-sm uppercase tracking-widest inline-flex items-center gap-2">
+            <Link to={to('/property-types')} className="bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3 px-6 rounded-xl transition-colors text-sm uppercase tracking-widest inline-flex items-center gap-2">
               {ui.propertyLink}
               <ArrowRight className="w-4 h-4" />
             </Link>

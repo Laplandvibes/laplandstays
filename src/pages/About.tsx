@@ -206,7 +206,7 @@ export default function About() {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               to={to('/property-types')}
-              className="bg-pink hover:bg-pink/90 text-white font-semibold py-4 px-8 rounded-xl transition-colors text-sm uppercase tracking-widest inline-flex items-center justify-center gap-2"
+              className="bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-4 px-8 rounded-xl transition-colors text-sm uppercase tracking-widest inline-flex items-center justify-center gap-2"
             >
               {ui.ctaPrimary}
               <ArrowRight className="w-4 h-4" />

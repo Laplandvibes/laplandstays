@@ -198,7 +198,7 @@ function CategorySection(p: CategoryProps) {
         target="_blank"
         rel="sponsored nofollow noopener"
         onClick={() => trackAffiliateClick('lodging', p.ctaSid, p.ctaHref)}
-        className="inline-flex items-center gap-2.5 bg-pink hover:bg-pink/90 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
+        className="inline-flex items-center gap-2.5 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
       >
         {p.ctaLabel}
         <ArrowRight className="w-4 h-4" />

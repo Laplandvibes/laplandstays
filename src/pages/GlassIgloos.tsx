@@ -587,7 +587,7 @@ export default function GlassIgloos() {
                   target="_blank"
                   rel="sponsored nofollow noopener"
                   onClick={() => trackAffiliateClick('lodging', area.ctaSid, ctaHref)}
-                  className="inline-flex items-center gap-2 bg-pink hover:bg-pink/90 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-sm"
+                  className="inline-flex items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3 px-6 rounded-xl transition-colors text-sm"
                 >
                   {area.ctaLabel}
                   <ExternalLink className="w-4 h-4 shrink-0" aria-hidden="true" />
@@ -753,7 +753,7 @@ export default function GlassIgloos() {
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
             <Link
               to={to('/when-to-go')}
-              className="bg-pink hover:bg-pink/90 text-white font-semibold py-4 px-6 sm:px-8 rounded-xl transition-colors text-sm tracking-wider text-center"
+              className="bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-4 px-6 sm:px-8 rounded-xl transition-colors text-sm tracking-wider text-center"
             >
               ベストシーズンを見る
             </Link>

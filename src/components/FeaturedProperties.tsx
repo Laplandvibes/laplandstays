@@ -226,7 +226,7 @@ export default function WhyBookWithUs() {
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onClick}
-            className="inline-flex items-center gap-3 bg-pink hover:bg-pink/90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+            className="inline-flex items-center gap-3 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-lg hover:shadow-xl hover:-translate-y-0.5"
           >
             {c.cta}
             <ArrowRight className="w-4 h-4" />

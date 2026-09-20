@@ -201,7 +201,7 @@ export default function Transport() {
                       from="hel"
                       to={meta.iata}
                       sid={meta.flightSid}
-                      className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-pink text-white font-semibold hover:bg-pink/90 transition-colors"
+                      className="inline-flex items-center gap-1.5 text-sm px-3 py-1.5 rounded-full bg-[#DB2777] text-white font-semibold hover:bg-[#BE185D] transition-colors"
                     >
                       {ui.compareFlights(a.code)}
                       <ArrowRight className="w-3.5 h-3.5" />
@@ -280,7 +280,7 @@ export default function Transport() {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={onClick('transport_cars_rvn_oneway', carsRovaniemiOneWay)}
-              className="inline-flex items-center gap-2.5 bg-pink hover:bg-pink/90 text-white font-semibold py-3 px-6 rounded-xl transition-colors text-sm uppercase tracking-widest w-full justify-center"
+              className="inline-flex items-center gap-2.5 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3 px-6 rounded-xl transition-colors text-sm uppercase tracking-widest w-full justify-center"
             >
               <CarIcon className="w-4 h-4" />
               {ui.carAtRvn}
@@ -376,7 +376,7 @@ export default function Transport() {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={onHotels('transport_cta_lapland', HOTEL_SEARCH_FOR(lang).lapland)}
-              className="bg-pink hover:bg-pink/90 text-white font-semibold py-4 px-8 rounded-xl transition-colors text-sm uppercase tracking-widest inline-flex items-center justify-center gap-2"
+              className="bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-4 px-8 rounded-xl transition-colors text-sm uppercase tracking-widest inline-flex items-center justify-center gap-2"
             >
               {ui.ctaPrimary}
               <ArrowRight className="w-4 h-4" />

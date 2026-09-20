@@ -409,7 +409,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lodging', `destination_overview_${p.slug}`, searchUrl)}
-              className="inline-flex items-center gap-3 bg-pink hover:bg-pink/90 text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+              className="inline-flex items-center gap-3 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               {ui.seePricesIn(p.name)}
               <ArrowRight className="w-4 h-4" />
@@ -503,7 +503,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                           target="_blank"
                           rel="sponsored nofollow noopener"
                           onClick={() => trackAffiliateClick(s.cta!.kind === 'cars' ? 'economybookings' : 'lodging', s.cta!.sid, ctaHref)}
-                          className="inline-flex items-center gap-2 bg-pink hover:bg-pink/90 text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
+                          className="inline-flex items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
                         >
                           {s.cta.label}
                           <ArrowRight className="w-4 h-4" aria-hidden="true" />
@@ -610,7 +610,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lodging', `destination_book_${p.slug}`, searchUrl)}
-              className="inline-flex items-center gap-2 bg-pink hover:bg-pink/90 text-white font-semibold px-8 py-4 rounded-xl transition-colors uppercase tracking-widest text-sm"
+              className="inline-flex items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-8 py-4 rounded-xl transition-colors uppercase tracking-widest text-sm"
             >
               {ui.checkAvailability} <ArrowRight className="w-4 h-4" />
             </a>

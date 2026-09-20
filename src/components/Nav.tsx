@@ -112,9 +112,9 @@ export default function Nav() {
               href={bookHref}
               {...bookProps}
               className="ml-3 px-5 py-2 text-white text-sm font-semibold rounded-lg transition-colors uppercase tracking-wider"
-              style={{ background: '#EC4899' }}
-              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = '#DB2777')}
-              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = '#EC4899')}
+              style={{ background: '#DB2777' }}
+              onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = '#BE185D')}
+              onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = '#DB2777')}
             >
               {c.bookNow}
             </a>
@@ -161,7 +161,7 @@ export default function Nav() {
                 setOpen(false)
               }}
               className="mt-4 px-4 py-3.5 text-white text-base font-semibold rounded-xl text-center uppercase tracking-wider"
-              style={{ background: '#EC4899' }}
+              style={{ background: '#DB2777' }}
             >
               {c.bookNow}
             </a>

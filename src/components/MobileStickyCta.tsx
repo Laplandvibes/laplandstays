@@ -69,7 +69,7 @@ export default function MobileStickyCta() {
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={() => trackAffiliateClick('lodging', 'mobile_sticky_cta', stickyHref)}
-            className="shrink-0 inline-flex items-center gap-1.5 bg-pink hover:bg-pink/90 text-white font-bold text-[13px] uppercase tracking-wider px-4 py-2.5 rounded-lg whitespace-nowrap"
+            className="shrink-0 inline-flex items-center gap-1.5 bg-[#DB2777] hover:bg-[#BE185D] text-white font-bold text-[13px] uppercase tracking-wider px-4 py-2.5 rounded-lg whitespace-nowrap"
           >
             {c.cta}
             <ArrowRight className="w-4 h-4" />

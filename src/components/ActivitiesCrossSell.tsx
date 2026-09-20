@@ -112,7 +112,7 @@ export default function ActivitiesCrossSell({ gygSlug = 'lappi-suomi-l2652', cmp
             sid="crosssell_things_to_do"
             destination={gygSlug}
             className="inline-flex items-center gap-2 font-semibold py-4 px-9 rounded-xl text-sm uppercase tracking-widest transition-all duration-300 shadow-lg hover:-translate-y-0.5"
-            style={{ background: '#EC4899', color: '#FFFFFF' }}
+            style={{ background: '#DB2777', color: '#FFFFFF' }}
           >
             {t.cta}
             <ArrowRight className="w-4 h-4" />

@@ -144,7 +144,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
               aria-selected={tab === key}
               onClick={() => setTab(key)}
               className={`px-4 py-2 min-h-11 rounded-full text-sm font-semibold transition-colors ${
-                tab === key ? 'bg-pink text-white' : 'bg-white/10 text-white/80 hover:bg-white/20'
+                tab === key ? 'bg-[#DB2777] text-white' : 'bg-white/10 text-white/80 hover:bg-white/20'
               }`}
             >
               {areaNames[i] ?? key}
@@ -252,7 +252,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
             {areaHrefs?.[tab] && areaLinkLabel && (
               <Link
                 to={areaHrefs[tab]!}
-                className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 min-h-11 rounded-full bg-pink text-white font-semibold hover:bg-pink/90 transition-colors"
+                className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 min-h-11 rounded-full bg-[#DB2777] text-white font-semibold hover:bg-[#BE185D] transition-colors"
               >
                 <span className="truncate">{areaLinkLabel}</span>
                 <ArrowRight className="w-3.5 h-3.5 shrink-0" />

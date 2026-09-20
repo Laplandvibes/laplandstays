@@ -63,7 +63,7 @@ export default function BookingCTA() {
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onPrimary}
-            className="w-full sm:w-auto bg-pink hover:bg-pink/90 text-white font-semibold py-4 px-12 rounded-xl transition-all duration-300 text-[15px] uppercase tracking-widest inline-flex items-center justify-center gap-3 shadow-xl hover:shadow-pink/30 hover:-translate-y-0.5"
+            className="w-full sm:w-auto bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-4 px-12 rounded-xl transition-all duration-300 text-[15px] uppercase tracking-widest inline-flex items-center justify-center gap-3 shadow-xl hover:shadow-pink/30 hover:-translate-y-0.5"
           >
             {c.primaryCta}
             <ArrowRight className="w-4 h-4" />

@@ -403,7 +403,7 @@ export default function Igloos() {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lomarengas', 'iglu_mokki_lappi', mokkiHref)}
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-pink hover:bg-pink/90 text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-sm uppercase tracking-wider"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-sm uppercase tracking-wider"
             >
               Selaa Lapin mökkejä
               <ExternalLink className="w-4 h-4 shrink-0" aria-hidden="true" />
@@ -444,7 +444,7 @@ export default function Igloos() {
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lomarengas', 'iglu_cta_mokki', ctaMokkiHref)}
-              className="bg-pink hover:bg-pink/90 text-white font-semibold py-4 px-6 sm:px-8 rounded-xl transition-colors text-sm uppercase tracking-wider inline-flex items-center justify-center gap-2"
+              className="bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-4 px-6 sm:px-8 rounded-xl transition-colors text-sm uppercase tracking-wider inline-flex items-center justify-center gap-2"
             >
               Selaa Lapin mökkejä
               <ArrowRight className="w-4 h-4 shrink-0" aria-hidden="true" />
