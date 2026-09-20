@@ -68,7 +68,16 @@ export default function Nav() {
         <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-3 h-16">
           <div className="flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandstays.com" variant={scrolled ? 'light' : 'dark'} />
-            <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label={c.homeAria}>
+            <Link to={to('/')} className="flex items-center shrink-0 min-h-11" aria-label={c.homeAria}
+            onClick={() => {
+              // 🔴 Verkostovika, mitattu 20.9.2026 seitsemällä sivustolla seitsemästä:
+              // ScrollToTop kuuntelee pathnamea, joka ei muutu kun ollaan jo
+              // etusivulla, joten logon klikkaus ei tehnyt siellä mitään.
+              if (window.location.pathname.replace(/\/$/, '') === to('/').replace(/\/$/, '')) {
+                window.scrollTo({ top: 0, behavior: 'smooth' })
+              }
+            }}
+          >
               <span className="tracking-wide leading-none font-heading text-2xl sm:text-3xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]">
                 <span className="text-pink">#</span>
                 <span className={scrolled ? 'text-night' : 'text-white'}>LAPLAND</span>
