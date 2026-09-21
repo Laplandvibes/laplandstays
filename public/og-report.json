@@ -3,11 +3,11 @@
   "domain": "laplandstays.com",
   "brand": "STAYS",
   "tagline": "Glass igloos, cabins and hotels",
-  "generated": "2026-09-05T21:51:04.148Z",
+  "generated": "2026-09-21T08:31:06.459Z",
   "staticFallbackSeason": "summer",
   "seasons": {
     "summer": {
-      "heroUrl": "https://laplandstays.com/images/hero-summer.webp",
+      "heroUrl": "https://laplandstays.com/images/hero-summer.webp?v=f9d3ab4b",
       "heroAlt": "Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies",
       "heroSha": "f9d3ab4be0c73c59",
       "bytes": 225630,
@@ -45,7 +45,7 @@
       "errors": []
     },
     "winter": {
-      "heroUrl": "https://laplandstays.com/images/hero.avif",
+      "heroUrl": "https://laplandstays.com/images/hero.avif?v=87422d2b",
       "heroAlt": "Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies",
       "heroSha": "87422d2b29691a6a",
       "bytes": 142747,
