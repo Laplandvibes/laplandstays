@@ -1,24 +1,25 @@
 {
-  "version": "20260905",
+  "version": "20260921",
   "domain": "laplandstays.com",
   "brand": "STAYS",
   "tagline": "Glass igloos, cabins and hotels",
-  "generated": "2026-09-21T08:31:06.459Z",
+  "generated": "2026-09-21T11:35:29.520Z",
   "staticFallbackSeason": "summer",
   "seasons": {
     "summer": {
+      "tagline": "Lakeside cabins, hotels and igloos",
       "heroUrl": "https://laplandstays.com/images/hero-summer.webp?v=f9d3ab4b",
       "heroAlt": "Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies",
       "heroSha": "f9d3ab4be0c73c59",
-      "bytes": 225630,
-      "sha256": "95f372fcdc509e27765ec3034b97054b8639d8a582b355b4e8480ad4fa2db5a2",
+      "bytes": 226643,
+      "sha256": "dd5c38db671564590ac56219ac9bd820623ac0964f121c121cc10926981d3834",
       "bandH": 168,
       "photoPct": 73.3,
-      "ink": 14995,
+      "ink": 15417,
       "inkBox": [
-        388,
+        365,
         493,
-        812,
+        835,
         603
       ],
       "safe": true,
@@ -26,8 +27,8 @@
       "accentMed": 5.06,
       "whiteP10": 17.08,
       "whiteMed": 17.08,
-      "mean": 87.9,
-      "centerSq": 75.7,
+      "mean": 88,
+      "centerSq": 75.8,
       "photoRegion": 106.5,
       "photoRegionRef": 106.5,
       "overlayPixels": 0,
@@ -36,7 +37,7 @@
         "size": 74,
         "lines": 1,
         "ts": 30,
-        "tagW": 426,
+        "tagW": 473,
         "fits": true,
         "bandH": 168
       },
@@ -45,6 +46,7 @@
       "errors": []
     },
     "winter": {
+      "tagline": "Glass igloos, cabins and hotels",
       "heroUrl": "https://laplandstays.com/images/hero.avif?v=87422d2b",
       "heroAlt": "Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies",
       "heroSha": "87422d2b29691a6a",
