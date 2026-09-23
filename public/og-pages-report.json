@@ -1,0 +1,245 @@
+{
+  "about": {
+    "route": "/about",
+    "line": "Who runs this guide and how it works",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-about-1920.webp",
+        "bytes": 122198,
+        "sha256": "f1b56f109dce59610ac7f37006791e6e409d393745d39c8564dbeb2e9b1c23ef",
+        "heroSha": "e9e416ebec68d3af",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15689,
+        "inkBox": [
+          340,
+          493,
+          859,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 134.3,
+        "centerSq": 142.8,
+        "photoRegion": 169.6,
+        "photoRegionRef": 169.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 521,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-about-1920.webp",
+        "bytes": 122198,
+        "sha256": "f1b56f109dce59610ac7f37006791e6e409d393745d39c8564dbeb2e9b1c23ef",
+        "heroSha": "e9e416ebec68d3af",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15689,
+        "inkBox": [
+          340,
+          493,
+          859,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 134.3,
+        "centerSq": 142.8,
+        "photoRegion": 169.6,
+        "photoRegionRef": 169.6,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 521,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "property-types": {
+    "route": "/property-types",
+    "line": "Igloos, cabins, chalets and lodges",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-alt-1200.webp",
+        "bytes": 131619,
+        "sha256": "fee8bc7435c2f5b0f715a5dd60fbf254fc0d02cc3ea94906df04ec096f71ad4d",
+        "heroSha": "b4968853a492ec3b",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15455,
+        "inkBox": [
+          369,
+          493,
+          831,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 65.9,
+        "centerSq": 66.8,
+        "photoRegion": 76.5,
+        "photoRegionRef": 76.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 464,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-alt-1200.webp",
+        "bytes": 131619,
+        "sha256": "fee8bc7435c2f5b0f715a5dd60fbf254fc0d02cc3ea94906df04ec096f71ad4d",
+        "heroSha": "b4968853a492ec3b",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15455,
+        "inkBox": [
+          369,
+          493,
+          831,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 65.9,
+        "centerSq": 66.8,
+        "photoRegion": 76.5,
+        "photoRegionRef": 76.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 464,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "transport": {
+    "route": "/transport",
+    "line": "Airports, night train, buses, taxis",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-transport-1920.webp",
+        "bytes": 134601,
+        "sha256": "9a98db8151a5557c91bf29fc58312d07810cbb337caa974abbb0bcb289c21d27",
+        "heroSha": "c489c1257785d80d",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15044,
+        "inkBox": [
+          376,
+          493,
+          823,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 97.4,
+        "centerSq": 100.8,
+        "photoRegion": 119.5,
+        "photoRegionRef": 119.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 449,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-transport-1920.webp",
+        "bytes": 134601,
+        "sha256": "9a98db8151a5557c91bf29fc58312d07810cbb337caa974abbb0bcb289c21d27",
+        "heroSha": "c489c1257785d80d",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15044,
+        "inkBox": [
+          376,
+          493,
+          823,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 97.4,
+        "centerSq": 100.8,
+        "photoRegion": 119.5,
+        "photoRegionRef": 119.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 449,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  }
+}

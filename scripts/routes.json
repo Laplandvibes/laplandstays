@@ -5,7 +5,12 @@
   },
   {
     "path": "/about",
-    "copyFile": "src/pages/About.copy.{lang}.ts"
+    "copyFile": "src/pages/About.copy.{lang}.ts",
+    "ogImage": "/og/about.jpg",
+    "ogCard": {
+      "hero": "/images/hero-about-1920.webp",
+      "line": "Who runs this guide and how it works"
+    }
   },
   {
     "path": "/editorial-policy",
@@ -13,11 +18,21 @@
   },
   {
     "path": "/property-types",
-    "copyFile": "src/pages/PropertyTypesPage.copy.{lang}.ts"
+    "copyFile": "src/pages/PropertyTypesPage.copy.{lang}.ts",
+    "ogImage": "/og/property-types.jpg",
+    "ogCard": {
+      "hero": "/images/hero-alt-1200.webp",
+      "line": "Igloos, cabins, chalets and lodges"
+    }
   },
   {
     "path": "/transport",
-    "copyFile": "src/pages/Transport.copy.{lang}.ts"
+    "copyFile": "src/pages/Transport.copy.{lang}.ts",
+    "ogImage": "/og/transport.jpg",
+    "ogCard": {
+      "hero": "/images/hero-transport-1920.webp",
+      "line": "Airports, night train, buses, taxis"
+    }
   },
   {
     "path": "/cabins",
