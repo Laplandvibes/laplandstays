@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Quando partire in Lapponia, mese per mese | LaplandStays',
+    title: 'Quando partire in Lapponia, mese per mese',
     description: 'Aurore set–apr, sci gen–mar, sole di mezzanotte giu–lug. Guida mese per mese della Lapponia: quando gli alloggi sono pieni, ore di luce e budget.',
   },
   ui: {

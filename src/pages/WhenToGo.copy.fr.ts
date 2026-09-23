@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Quand partir en Laponie, mois par mois | LaplandStays',
+    title: 'Quand partir en Laponie, mois par mois',
     description: 'Aurores sep–avr, ski jan–mar, soleil de minuit juin–juil. Guide mois par mois de la Laponie : quand les hébergements sont complets, heures de jour et budget.',
   },
   ui: {

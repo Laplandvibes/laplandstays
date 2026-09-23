@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'När du ska åka till Lappland, månad för månad | LaplandStays',
+    title: 'När du ska åka till Lappland, månad för månad',
     description: 'Norrskenssäsong sep–apr, skidtopp jan–mar, midnattssol jun–jul. Guide månad för månad till Lappland: när boenden blir slutbokade, dagsljus och budget.',
   },
   ui: {

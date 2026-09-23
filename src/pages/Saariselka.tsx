@@ -61,7 +61,7 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
     { day: '03', title: 'Husky + reindeer day', body: 'Morning husky safari from Saariselkä village. Afternoon reindeer ride at a nearby Sámi farm. Evening: ice-fishing or a sauna lake plunge, and aurora watch if the sky is clear.' },
     { day: '04', title: 'Slow morning · drive to Inari', body: 'Last igloo morning, drive 50 min north to Lake Inari for a Sámi-culture day at Siida museum. Catch evening flight from IVL or extend by adding an Inari night.' },
   ],
-  seoTitle: 'Saariselkä Glass Igloos & Accommodation | LaplandStays',
+  seoTitle: 'Saariselkä Glass Igloos & Accommodation',
   seoDescription: 'Where to stay in Saariselkä, Lapland: Kakslauttanen glass igloos, Star Arctic on Kaunispää fell and Wilderness Hotel Muotka, by Urho Kekkonen National Park.',
 }
 
@@ -125,7 +125,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
     { day: '03', title: 'Husky- + porotila-päivä', body: 'Aamulla husky-safari Saariselän kylältä. Iltapäivällä poroajelu lähellä olevalla saamelaistilalla. Iltaisin: pilkki tai sauna-järviuinti, ja revontulivahti jos taivas on selkeä.' },
     { day: '04', title: 'Rauhallinen aamu · ajo Inariin', body: 'Viimeinen iglu-aamu, ajo 50 min pohjoiseen Inarijärvelle saamelaiskulttuuripäivään Siida-museossa. Iltalento IVL:stä tai pidennä Inarin yöllä.' },
   ],
-  seoTitle: 'Saariselän lasi-iglut ja majoitus | LaplandStays',
+  seoTitle: 'Saariselän lasi-iglut ja majoitus',
   seoDescription: 'Missä yöpyä Saariselällä: Kakslauttasen lasi-iglut, Star Arctic Kaunispään tunturilla ja Wilderness Hotel Muotka. Urho Kekkosen kansallispuiston reunalla.',
 }
 
@@ -189,7 +189,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { day: '03', title: 'Husky- + Rentiertag', body: 'Morgens Husky-Safari ab Saariselkä. Nachmittags Rentierfahrt auf einem nahen Sámi-Hof. Abends: Eisfischen oder Sauna-Seesprung, und bei klarem Himmel Polarlicht-Wache.' },
     { day: '04', title: 'Ruhiger Morgen · Fahrt nach Inari', body: 'Letzter Iglu-Morgen, 50 min nördlich zum Inarisee für einen Sámi-Kulturtag im Siida-Museum. Abendflug ab IVL oder mit einer Inari-Nacht verlängern.' },
   ],
-  seoTitle: 'Saariselkä-Glasiglus & Unterkünfte | LaplandStays',
+  seoTitle: 'Saariselkä-Glasiglus & Unterkünfte',
   seoDescription: 'Wo Sie in Saariselkä übernachten: Kakslauttanen-Glasiglus, Star Arctic auf dem Fjäll Kaunispää und Wilderness Hotel Muotka, am Urho-Kekkonen-Nationalpark.',
 }
 
@@ -253,7 +253,7 @@ const ko: DestinationBody = {
     { day: '03', title: '허스키 + 순록 데이', body: '아침 사리셀카 출발 허스키 사파리. 오후는 인근 사미 농장에서 순록 라이드. 저녁은 얼음낚시 또는 사우나·호수 입수. 하늘이 맑으면 오로라 관측.' },
     { day: '04', title: '느긋한 아침 · 이나리로 이동', body: '이글루에서의 마지막 아침, 북쪽으로 50분 운전해 이나리 호수와 Siida 박물관에서 사미 문화 체험. IVL에서 저녁 항공편 또는 이나리에서 하룻밤 더 연장.' },
   ],
-  seoTitle: '사리셀카 글래스 이글루와 숙박 | LaplandStays',
+  seoTitle: '사리셀카 글래스 이글루와 숙박',
   seoDescription: '핀란드 라플란드 사리셀카 숙박 가이드: Kakslauttanen 글래스 이글루, Kaunispää 봉우리 위의 Star Arctic, Wilderness Hotel Muotka. Urho Kekkonen 국립공원 가장자리. 전용 사우나, 다크 스카이.',
 }
 
@@ -317,7 +317,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
     { day: '03', title: 'Journée husky + rennes', body: 'Safari en traîneau de huskies le matin depuis le village. Après-midi en traîneau à rennes dans une ferme sámi voisine. Soirée : pêche sur glace ou plongeon depuis le sauna, et veille aux aurores par ciel clair.' },
     { day: '04', title: 'Matinée tranquille · route vers Inari', body: 'Dernière matinée en igloo, route 50 min au nord vers le lac Inari pour une journée culture sámi au musée Siida. Vol du soir depuis IVL ou prolongation avec une nuit à Inari.' },
   ],
-  seoTitle: 'Igloos de verre et hébergements à Saariselkä | LaplandStays',
+  seoTitle: 'Igloos de verre et hébergements à Saariselkä',
   seoDescription: 'Où loger à Saariselkä : igloos de verre de Kakslauttanen, Star Arctic sur le fjäll Kaunispää et Wilderness Hotel Muotka, au bord du parc national Urho Kekkonen.',
 }
 
@@ -381,7 +381,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
     { day: '03', title: 'Giornata husky + renne', body: 'Safari con husky al mattino dal paese. Pomeriggio in slitta con renne in una fattoria sámi vicina. Sera: pesca sul ghiaccio o tuffo dalla sauna, e caccia aurorale con cielo sereno.' },
     { day: '04', title: 'Mattina lenta · trasferimento a Inari', body: 'Ultima mattina in igloo, 50 min a nord fino al lago Inari per una giornata sámi al museo Siida. Volo serale da IVL o prolungare con una notte a Inari.' },
   ],
-  seoTitle: 'Igloo di vetro e alloggi a Saariselkä | LaplandStays',
+  seoTitle: 'Igloo di vetro e alloggi a Saariselkä',
   seoDescription: 'Dove soggiornare a Saariselkä: igloo di vetro di Kakslauttanen, Star Arctic sul fjäll Kaunispää e Wilderness Hotel Muotka, al parco nazionale Urho Kekkonen.',
 }
 
@@ -445,7 +445,7 @@ Huurauto aanbevolen, de beste donkere-hemel hutten liggen op een korte rit van d
     { day: '03', title: 'Husky + rendierdag', body: 'Husky-safari in de ochtend vanuit Saariselkä. In de middag een rendierenrit op een nabijgelegen Sámi-boerderij. Avond: ijsvissen of sauna-meersprong, en bij heldere hemel noorderlicht kijken.' },
     { day: '04', title: 'Rustige ochtend · rijden naar Inari', body: 'Laatste iglo-ochtend, 50 min noordwaarts naar het Inari-meer voor een Sámi-cultuurdag in het Siida-museum. Avondvlucht vanaf IVL of verlengen met een nacht in Inari.' },
   ],
-  seoTitle: "Glasiglo's en accommodaties in Saariselkä | LaplandStays",
+  seoTitle: "Glasiglo's en accommodaties in Saariselkä",
   seoDescription: "Waar te verblijven in Saariselkä: glasiglo's van Kakslauttanen, Star Arctic op het Kaunispää-fjäll en Wilderness Hotel Muotka, bij het Urho Kekkonen-park.",
 }
 
@@ -511,7 +511,7 @@ const ja: DestinationBody = {
     { day: '03', title: 'ハスキー&トナカイの日', body: '午前はサーリセルカ村発のハスキーサファリ。午後は近くのサーミ農場でトナカイ乗り。夜はアイスフィッシングまたはサウナ後の湖入り。晴れていればオーロラ観賞も。' },
     { day: '04', title: 'ゆっくり朝・イナリへドライブ', body: 'イグルーで最後の朝、北へ50分走りイナリ湖へ。Siida博物館でサーミ文化の日。夕方のIVL便で出発、またはイナリで1泊延長。' },
   ],
-  seoTitle: 'サーリセルカのグラスイグルー&宿泊 | LaplandStays',
+  seoTitle: 'サーリセルカのグラスイグルー&宿泊',
   seoDescription: 'ラップランド・サーリセルカの宿選び：カクスラウッタネンのガラスイグルー、カウニスパー山のStar Arctic、ウィルダネスホテル・ムオトカ。UKK国立公園のそば。',
 }
 
@@ -575,7 +575,7 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
     { day: '03', title: 'Día de husky + reno', body: 'Safari de huskys por la mañana desde el pueblo de Saariselkä. Por la tarde, paseo en reno en una granja sami cercana. Por la noche: pesca en hielo o baño en el lago tras la sauna, y vigilancia de auroras si el cielo está despejado.' },
     { day: '04', title: 'Mañana lenta · viaje a Inari', body: 'Última mañana en el iglú, 50 min al norte hasta el lago Inari para un día de cultura sami en el museo Siida. Tomar el vuelo de tarde desde IVL o ampliar con una noche en Inari.' },
   ],
-  seoTitle: 'Iglús de cristal y alojamiento en Saariselkä | LaplandStays',
+  seoTitle: 'Iglús de cristal y alojamiento en Saariselkä',
   seoDescription: 'Dónde alojarse en Saariselkä: iglús de cristal de Kakslauttanen, Star Arctic en el fjäll Kaunispää y Wilderness Hotel Muotka, junto al Parque Urho Kekkonen.',
 }
 
@@ -639,7 +639,7 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
     { day: '03', title: 'Dia de huskies + renas', body: 'Safári de huskies pela manhã saindo da vila de Saariselkä. À tarde, passeio com rena em uma fazenda sámi próxima. À noite: pesca no gelo ou mergulho no lago após a sauna, e vigília da aurora se o céu estiver limpo.' },
     { day: '04', title: 'Manhã lenta · estrada para Inari', body: 'Última manhã no iglu, 50 min ao norte até o Lago Inari para um dia de cultura sámi no museu Siida. Pegue o voo da noite em IVL ou acrescente uma noite em Inari.' },
   ],
-  seoTitle: 'Iglus de vidro e hospedagem em Saariselkä | LaplandStays',
+  seoTitle: 'Iglus de vidro e hospedagem em Saariselkä',
   seoDescription: 'Onde ficar em Saariselkä: iglus de vidro do Kakslauttanen, Star Arctic no fjäll Kaunispää e Wilderness Hotel Muotka, junto ao Parque Urho Kekkonen.',
 }
 
@@ -703,7 +703,7 @@ const zhCN: DestinationBody = {
     { day: '03', title: '哈士奇 + 馴鹿日', body: '上午自薩利色爾卡村出發的哈士奇探險。下午前往附近的薩米農場騎馴鹿。夜晚：冰釣或桑拿後跳湖。天空晴朗時還可觀賞極光。' },
     { day: '04', title: '悠閒早晨 · 驅車前往伊納里', body: '冰屋最後一晨，北行50分鐘前往伊納里湖，Siida博物館度過薩米文化日。從IVL搭乘傍晚航班，或在伊納里加宿一晚。' },
   ],
-  seoTitle: '薩利色爾卡住宿：極光玻璃屋與荒野飯店 | LaplandStays',
+  seoTitle: '薩利色爾卡住宿：極光玻璃屋與荒野飯店',
   seoDescription: '芬蘭拉普蘭薩利色爾卡住宿指南：Kakslauttanen玻璃屋、Kaunispää山上的Star Arctic與Muotka荒野飯店。緊鄰烏爾霍·凱科寧國家公園。',
 }
 
@@ -767,7 +767,7 @@ Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort b
     { day: '03', title: 'Dag med hundspann och renar', body: 'Hundspannssafari från Saariselkä by på morgonen. Renåkning på en samisk gård i närheten på eftermiddagen. På kvällen pimpelfiske eller ett dopp i sjön från bastun, och norrskensspaning om himlen är klar.' },
     { day: '04', title: 'Långsam morgon · vidare till Inari', body: 'Sista morgonen i igloon, kör 50 min norrut till Inarisjön för en dag med samisk kultur på museet Siida. Ta kvällsflyget från IVL eller lägg till en natt i Inari.' },
   ],
-  seoTitle: 'Glasigloor och boende i Saariselkä | LaplandStays',
+  seoTitle: 'Glasigloor och boende i Saariselkä',
   seoDescription: 'Var du ska bo i Saariselkä, Lappland: Kakslauttanens glasigloor, Star Arctic på Kaunispääfjället och Wilderness Hotel Muotka, vid Urho Kekkonens nationalpark.',
 }
 

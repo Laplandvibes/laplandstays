@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Så tar du dig till Lappland, flyg, tåg, bilar | LaplandStays',
+    title: 'Så tar du dig till Lappland, flyg, tåg, bilar',
     description: 'Transport till finska Lappland: vilken flygplats för Levi, Ylläs, Saariselkä, Inari, Rovaniemi, riktiga buss- och taxipriser, nattåget och biluthyrning.',
   },
   ui: {

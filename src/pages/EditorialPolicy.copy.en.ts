@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Editorial Policy, How We Test | LaplandStays",
+    "title": "Editorial Policy, How We Test",
     "description": "How LaplandStays verifies prices, names properties, stays affiliate-independent and handles corrections, editorial standards for our Lapland stays guide."
   },
   "ui": {

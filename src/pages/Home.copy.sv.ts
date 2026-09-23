@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Boende i Lappland: glasigloor och stugor | LaplandStays",
+    "title": "Boende i Lappland: glasigloor och stugor",
     "description": "Var du ska bo i Lappland: jämför glasigloor, norrskensstugor och hotell i Levi, Ylläs, Saariselkä och Inari. Se vad du bör boka först."
   },
   "faq": {

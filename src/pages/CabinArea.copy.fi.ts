@@ -5,7 +5,7 @@ const copy: CabinAreaPageCopy = {
   areas: {
     levi: {
       seo: {
-        title: 'Levin mökit: vuokramökit Lomarenkaalta | LaplandStays',
+        title: 'Levin mökit: vuokramökit Lomarenkaalta',
         description: 'Levin mökit ja vuokramökit yhdellä sivulla: Sirkan ja Kittilän hirsimökit, rinneasunnot ja huvilat henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
       },
       h1: 'Levin mökit',
@@ -13,7 +13,7 @@ const copy: CabinAreaPageCopy = {
     },
     yllas: {
       seo: {
-        title: 'Ylläksen mökit: Äkäslompolo ja Ylläsjärvi | LaplandStays',
+        title: 'Ylläksen mökit: Äkäslompolo ja Ylläsjärvi',
         description: 'Ylläksen mökit ja vuokramökit: Äkäslompolon ja Ylläsjärven hirsimökit, rantamökit ja rinneasunnot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
       },
       h1: 'Ylläksen mökit',
@@ -21,7 +21,7 @@ const copy: CabinAreaPageCopy = {
     },
     ruka: {
       seo: {
-        title: 'Rukan mökit: vuokramökit Rukatunturin ympäriltä | LaplandStays',
+        title: 'Rukan mökit: vuokramökit Rukatunturin ympäriltä',
         description: 'Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla. Varaus Lomarenkaalla.',
       },
       h1: 'Rukan mökit',
@@ -29,7 +29,7 @@ const copy: CabinAreaPageCopy = {
     },
     saariselka: {
       seo: {
-        title: 'Saariselän mökit: vuokramökit Kaunispään juurella | LaplandStays',
+        title: 'Saariselän mökit: vuokramökit Kaunispään juurella',
         description: 'Saariselän mökit ja vuokramökit: kylän ja Kakslauttasen suunnan hirsimökit ja huoneistot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
       },
       h1: 'Saariselän mökit',
@@ -37,7 +37,7 @@ const copy: CabinAreaPageCopy = {
     },
     'pyha-luosto': {
       seo: {
-        title: 'Pyhän ja Luoston mökit: vuokramökit | LaplandStays',
+        title: 'Pyhän ja Luoston mökit: vuokramökit',
         description: 'Pyhätunturin ja Luoston mökit ja vuokramökit: Pelkosenniemen, Sodankylän ja Kemijärven mökit henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
       },
       h1: 'Pyhän ja Luoston mökit',
@@ -45,7 +45,7 @@ const copy: CabinAreaPageCopy = {
     },
     rovaniemi: {
       seo: {
-        title: 'Rovaniemen mökit: vuokramökit napapiirillä | LaplandStays',
+        title: 'Rovaniemen mökit: vuokramökit napapiirillä',
         description: 'Rovaniemen mökit ja vuokramökit: Ounasjoen ja Kemijoen varren mökit ja erämaakämpät henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
       },
       h1: 'Rovaniemen mökit',

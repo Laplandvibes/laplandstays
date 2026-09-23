@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: '如何前往拉普蘭。航班、火車、租車 | LaplandStays',
+    title: '如何前往拉普蘭。航班、火車、租車',
     description: '芬蘭拉普蘭交通比較：萊維/於拉斯/薩利色爾卡/伊納里/羅瓦涅米對應的機場、實際巴士與計程車價格、赫爾辛基出發的夜車、何時該租車。',
   },
   ui: {

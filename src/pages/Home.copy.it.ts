@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Alloggi in Lapponia: igloo di vetro e chalet | LaplandStays",
+    "title": "Alloggi in Lapponia: igloo di vetro e chalet",
     "description": "Dove soggiornare in Lapponia: igloo di vetro, chalet vista aurora e hotel a Levi, Ylläs, Saariselkä e Inari a confronto, e cosa prenotare per primo."
   },
   "faq": {

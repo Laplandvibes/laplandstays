@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "편집 방침. 검증 방법 | LaplandStays",
+    "title": "편집 방침. 검증 방법",
     "description": "LaplandStays가 요금을 검증하고 숙소를 실명으로 다루며 제휴 독립성을 유지하고 정정을 처리하는 방법. 라플란드 숙박 가이드의 편집 기준."
   },
   "ui": {

@@ -701,7 +701,7 @@ const zhCN: DestinationBody = {
     { day: '03', title: '伊納里湖雪地摩托', body: '由導遊帶領，乘雪地摩托馳騁於凍結的湖面，遠眺神聖的Ukonkivi島（不可登島）。冬季14:30天即暗。回到小屋，迎接漫長的極光視窗。' },
     { day: '04', title: '緩慢啟程', body: '馴鹿農場參觀、最後一次桑拿、驅車返回IVL。條件允許就多加兩天。伊納里慢遊回報最豐。' },
   ],
-  seoTitle: '伊納里住宿：湖畔小木屋與極光別墅 | LaplandStays',
+  seoTitle: '伊納里住宿：湖畔小木屋與極光別墅',
   seoDescription: '芬蘭拉普蘭伊納里住宿指南：擁有私人湖岸的伊納里湖畔原木小屋、Aurora Village與Wilderness Hotel Nellim。薩米文化首府、暗空。',
 }
 

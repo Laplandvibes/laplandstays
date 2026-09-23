@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: '라플란드 가는 법. 항공·열차·렌터카 | LaplandStays',
+    title: '라플란드 가는 법. 항공·열차·렌터카',
     description: '핀란드 라플란드 교통 비교: 레비 / 윌래스 / 사리셀카 / 이나리 / 로바니에미에 맞는 공항, 실제 버스·택시 요금, 헬싱키 야간열차, 그리고 렌터카가 필요한 경우.',
   },
   ui: {

@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Anreise nach Lappland, Flug, Zug, Auto | LaplandStays',
+    title: 'Anreise nach Lappland, Flug, Zug, Auto',
     description: 'Anreise nach Finnisch-Lappland: welcher Flughafen für Levi, Ylläs, Saariselkä, Inari und Rovaniemi, echte Bus- und Taxipreise, Nachtzug und Mietwagen.',
   },
   ui: {

@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Redaktionell policy, så granskar vi | LaplandStays",
+    "title": "Redaktionell policy, så granskar vi",
     "description": "Så verifierar LaplandStays priser, namnger boenden, förblir oberoende av affiliatepartner och hanterar rättelser: våra redaktionella riktlinjer."
   },
   "ui": {

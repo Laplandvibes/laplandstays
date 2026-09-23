@@ -4,17 +4,17 @@ import { useLang, type Lang } from '../i18n/useLang';
 
 const META: Record<Lang, { title: string; description: string }> = {
   en: {
-    title: 'Privacy Policy | LaplandStays',
+    title: 'Privacy Policy',
     description:
       'How LaPeso Oy (LaplandStays) processes personal data: newsletter signups, analytics and affiliate cookies. GDPR / ePrivacy compliant.',
   },
   fi: {
-    title: 'Tietosuojaseloste | LaplandStays',
+    title: 'Tietosuojaseloste',
     description:
       'Miten LaPeso Oy (LaplandStays) käsittelee henkilötietoja: uutiskirjetilaukset, analytiikka ja affiliate-evästeet. GDPR- ja ePrivacy-yhteensopiva.',
   },
   de: {
-    title: 'Datenschutzerklärung | LaplandStays',
+    title: 'Datenschutzerklärung',
     description:
       'Wie LaPeso Oy (LaplandStays) personenbezogene Daten verarbeitet: Newsletter-Anmeldungen, Analytics und Affiliate-Cookies. DSGVO-/ePrivacy-konform.',
   },
@@ -24,12 +24,12 @@ const META: Record<Lang, { title: string; description: string }> = {
       'LaPeso Oy（LaplandStays）の個人データの取り扱い：ニュースレター登録、アナリティクス、アフィリエイトCookie。GDPR／ePrivacy準拠。',
   },
   es: {
-    title: 'Política de privacidad | LaplandStays',
+    title: 'Política de privacidad',
     description:
       'Cómo trata LaPeso Oy (LaplandStays) los datos personales: suscripciones al boletín, analítica y cookies de afiliados. Conforme al RGPD y ePrivacy.',
   },
   'pt-BR': {
-    title: 'Política de privacidade | LaplandStays',
+    title: 'Política de privacidade',
     description:
       'Como a LaPeso Oy (LaplandStays) trata dados pessoais: inscrições na newsletter, analytics e cookies de afiliados. Em conformidade com GDPR/ePrivacy.',
   },
@@ -44,22 +44,22 @@ const META: Record<Lang, { title: string; description: string }> = {
       'LaPeso Oy(LaplandStays)의 개인정보 처리: 뉴스레터 신청, 분석 및 제휴 쿠키. GDPR/ePrivacy 준수.',
   },
   fr: {
-    title: 'Politique de confidentialité | LaplandStays',
+    title: 'Politique de confidentialité',
     description:
       "Comment LaPeso Oy (LaplandStays) traite les données personnelles : inscriptions à la newsletter, analytics et cookies d'affiliation. Conforme RGPD/ePrivacy.",
   },
   it: {
-    title: 'Informativa sulla privacy | LaplandStays',
+    title: 'Informativa sulla privacy',
     description:
       'Come LaPeso Oy (LaplandStays) tratta i dati personali: iscrizioni alla newsletter, analytics e cookie di affiliazione. Conforme a GDPR/ePrivacy.',
   },
   nl: {
-    title: 'Privacybeleid | LaplandStays',
+    title: 'Privacybeleid',
     description:
       'Hoe LaPeso Oy (LaplandStays) persoonsgegevens verwerkt: nieuwsbriefinschrijvingen, analytics en affiliate-cookies. AVG-/ePrivacy-conform.',
   },
   sv: {
-    title: 'Integritetspolicy | LaplandStays',
+    title: 'Integritetspolicy',
     description:
       'Hur LaPeso Oy (LaplandStays) behandlar personuppgifter: nyhetsbrevsanmälningar, analys och affiliatecookies. Följer GDPR/ePrivacy.',
   },

@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "芬蘭拉普蘭住宿：極光玻璃屋、小木屋與飯店 | LaplandStays",
+    "title": "芬蘭拉普蘭住宿：極光玻璃屋、小木屋與飯店",
     "description": "芬蘭拉普蘭住宿指南：比較萊維、於拉斯、薩利色爾卡、伊納里與羅瓦涅米的極光玻璃屋、極光小木屋和飯店，以及該先預訂哪一種。私人桑拿、極光叫醒、Google 評價。"
   },
   "faq": {

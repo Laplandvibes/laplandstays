@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Alojamiento en Laponia: iglús de cristal y cabañas | LaplandStays",
+    "title": "Alojamiento en Laponia: iglús de cristal y cabañas",
     "description": "Dónde alojarse en Laponia: comparamos iglús de cristal, cabañas de aurora y hoteles en Levi, Ylläs, Saariselkä e Inari, y qué conviene reservar primero."
   },
   "faq": {

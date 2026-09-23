@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Hospedagem na Lapônia: iglus de vidro e cabanas | LaplandStays",
+    "title": "Hospedagem na Lapônia: iglus de vidro e cabanas",
     "description": "Onde se hospedar na Lapônia: compare iglus de vidro, cabanas de aurora e hotéis em Levi, Ylläs, Saariselkä e Inari e veja o que reservar primeiro."
   },
   "faq": {

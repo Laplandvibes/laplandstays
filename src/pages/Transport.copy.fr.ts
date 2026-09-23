@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Aller en Laponie, vols, trains, voitures | LaplandStays',
+    title: 'Aller en Laponie, vols, trains, voitures',
     description: 'Transports vers la Laponie : quel aéroport pour Levi, Ylläs, Saariselkä, Inari, Rovaniemi, prix réels des bus et taxis, le train de nuit et quand louer.',
   },
   ui: {

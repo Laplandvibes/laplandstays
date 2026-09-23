@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Wann nach Lappland, Monat für Monat | LaplandStays',
+    title: 'Wann nach Lappland, Monat für Monat',
     description: 'Polarlicht-Saison Sep–Apr, Ski-Hochsaison Jan–Mär, Mitternachtssonne Jun–Jul. Monatsweiser Lappland-Leitfaden: wann Unterkünfte ausgebucht sind und Budget.',
   },
   ui: {

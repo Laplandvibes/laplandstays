@@ -3,7 +3,7 @@ import type { PageCopy } from './Cabins.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: '拉普蘭木屋度假：萊維、於拉斯、魯卡、薩利色爾卡 | LaplandStays',
+    title: '拉普蘭木屋度假：萊維、於拉斯、魯卡、薩利色爾卡',
     description: '芬蘭式木屋度假指南：mökki（度假木屋）包含什麼、萊維/於拉斯/魯卡/薩利色爾卡有何區別，以及如何通過Lomarengas瀏覽木屋。',
   },
   ui: {

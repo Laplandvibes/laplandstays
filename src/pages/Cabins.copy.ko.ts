@@ -3,7 +3,7 @@ import type { PageCopy } from './Cabins.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: '라플란드 코티지 휴가: 레비·윌래스·루카·사리셀카 | LaplandStays',
+    title: '라플란드 코티지 휴가: 레비·윌래스·루카·사리셀카',
     description: '핀란드식 코티지 휴가 안내: 뫼키(휴가용 통나무집)에 포함된 것, 레비·윌래스·루카·사리셀카의 차이, Lomarengas로 코티지를 찾는 방법.',
   },
   ui: {

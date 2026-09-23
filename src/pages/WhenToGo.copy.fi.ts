@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Milloin Lappiin, kuukausi kuukaudelta | LaplandStays',
+    title: 'Milloin Lappiin, kuukausi kuukaudelta',
     description: 'Revontulet syys–huhtikuussa, hiihto tammi–maaliskuussa, keskiyön aurinko kesä–heinäkuussa. Kuukausiopas Lappiin: milloin kohteet täyttyvät, valo, budjetti.',
   },
   ui: {

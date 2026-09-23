@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Charte éditoriale, comment nous vérifions | LaplandStays",
+    "title": "Charte éditoriale, comment nous vérifions",
     "description": "Comment LaplandStays vérifie les tarifs, nomme les hébergements, garde son indépendance vis-à-vis des partenaires et corrige les erreurs. Les standards éditoriaux du guide."
   },
   "ui": {

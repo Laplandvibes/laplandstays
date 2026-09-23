@@ -819,7 +819,7 @@ const zhCN: DestinationBody = {
     { day: '03', title: 'Arktikum + 城市文化', body: '半日在Arktikum（薩米與拉普蘭歷史博物館，玻璃廊道極美）。在市內午餐。下午自由。若季節合適可前往Lainio雪村一日遊。' },
     { day: '04', title: '悠閒晨光 · 繼續行程', body: '最後一次桑拿、市內早餐。從RVN返航，或租車北行2小時前往Levi開啟下一段。' },
   ],
-  seoTitle: '羅瓦涅米住宿推薦：極光玻璃屋、聖誕老人村飯店與小木屋 | LaplandStays',
+  seoTitle: '羅瓦涅米住宿推薦：極光玻璃屋、聖誕老人村飯店與小木屋',
   seoDescription: '芬蘭拉普蘭羅瓦涅米住宿指南：極光玻璃屋、濱河原木小木屋與聖誕老人村飯店。北極圈入口、主要機場、直接預訂。',
 }
 

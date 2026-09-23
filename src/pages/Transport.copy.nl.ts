@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Hoe naar Lapland, vluchten, treinen, auto\'s | LaplandStays',
+    title: 'Hoe naar Lapland, vluchten, treinen, auto\'s',
     description: 'Vervoer naar Fins Lapland: welke luchthaven voor Levi, Ylläs, Saariselkä, Inari, Rovaniemi, echte bus- en taxitarieven, de nachttrein en autohuur.',
   },
   ui: {

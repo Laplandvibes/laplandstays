@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'ラップランドへの行き方。フライト・列車・レンタカー | LaplandStays',
+    title: 'ラップランドへの行き方。フライト・列車・レンタカー',
     description: 'フィンランド・ラップランドへの交通手段を比較：レヴィ・ユッラス・サーリセルカ・イナリ・ロヴァニエミへはどの空港か、実際のバス・タクシー料金、ヘルシンキ発の夜行列車、レンタカーが必要な場合。',
   },
   ui: {

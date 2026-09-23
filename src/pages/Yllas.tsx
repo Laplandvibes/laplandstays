@@ -61,7 +61,7 @@ Kolari train station, 40 min away, receives overnight trains from Helsinki with 
     { day: '03', title: 'National park hike + reindeer', body: "Snowshoe inside Pallas-Yllästunturi park. Visit a reindeer farm, Lainio Snow Village reindeer or Aakenus farm. Aurora-hunt from the cabin's north shore." },
     { day: '04', title: 'Slow morning · departure', body: 'Last sauna, breakfast, transfer back. Easter-week travellers: extend by a day to ski peak-week sun.' },
   ],
-  seoTitle: 'Ylläs Accommodation: Log Cabins & Chalets | LaplandStays',
+  seoTitle: 'Ylläs Accommodation: Log Cabins & Chalets',
   seoDescription: 'Where to stay in Ylläs, Lapland: log cabins, lakeside villas and ski-in chalets in Äkäslompolo and Ylläsjärvi, by Pallas-Yllästunturi National Park.',
 }
 
@@ -125,7 +125,7 @@ Kolarin juna-asema, 40 min päässä, vastaanottaa yöjunat Helsingistä autonku
     { day: '03', title: 'Kansallispuistopatikointi + porot', body: 'Lumikenkäile Pallas-Yllästunturin puistossa. Käy porotilalla, Lainion Lumikylän porot tai Aakenuksen tila. Revontulia mökin pohjoisrannalta.' },
     { day: '04', title: 'Rauhallinen aamu · lähtö', body: 'Viimeinen sauna, aamiainen, kuljetus takaisin. Pääsiäisviikon matkailijat: pidennä päivällä laskettelemaan kevätaurinkoa.' },
   ],
-  seoTitle: 'Ylläksen majoitus: hirsimökit ja chaletit | LaplandStays',
+  seoTitle: 'Ylläksen majoitus: hirsimökit ja chaletit',
   seoDescription: 'Missä yöpyä Ylläksellä: hirsimökit, rantavillat ja rinneasunnot Äkäslompolossa ja Ylläsjärvellä, Pallas-Yllästunturin kansallispuiston kupeessa.',
 }
 
@@ -189,7 +189,7 @@ Bahnhof Kolari, 40 min entfernt, empfängt die Nachtzüge aus Helsinki mit Autot
     { day: '03', title: 'Nationalpark-Wanderung + Rentiere', body: 'Schneeschuhwanderung im Pallas-Yllästunturi-Park. Besuch einer Rentierfarm, Lainio Snow Village oder Aakenus-Hof. Polarlicht-Jagd vom Nordufer der Hütte.' },
     { day: '04', title: 'Ruhiger Morgen · Abreise', body: 'Letzte Sauna, Frühstück, Rücktransfer. Osterwochen-Reisende: einen Tag verlängern, um die Frühjahrssonne zu fahren.' },
   ],
-  seoTitle: 'Ylläs-Unterkünfte: Blockhütten & Chalets | LaplandStays',
+  seoTitle: 'Ylläs-Unterkünfte: Blockhütten & Chalets',
   seoDescription: 'Wo Sie in Ylläs übernachten: Blockhütten, See-Villen und Ski-in-Chalets in Äkäslompolo und Ylläsjärvi, am Rande des Pallas-Yllästunturi-Nationalparks.',
 }
 
@@ -253,7 +253,7 @@ const ko: DestinationBody = {
     { day: '03', title: '국립공원 하이킹 + 순록', body: 'Pallas-Yllästunturi 공원에서 스노슈잉. 순록 농장 방문. Lainio Snow Village의 순록 또는 Aakenus 농장. 캐빈 북쪽 호반에서 오로라 헌팅.' },
     { day: '04', title: '느긋한 아침 · 출발', body: '마지막 사우나, 아침식사, 트랜스퍼. 부활절 연휴 여행자라면 하루 더 머물러 봄 햇살 속 스키를 만끽하세요.' },
   ],
-  seoTitle: '윌래스 숙박: 통나무 캐빈과 샬레 | LaplandStays',
+  seoTitle: '윌래스 숙박: 통나무 캐빈과 샬레',
   seoDescription: '핀란드 라플란드 윌래스 숙박 가이드: 애캐슬롬폴로와 윌래스야르비의 통나무 캐빈, 호숫가 빌라, 스키 인 샬레. Pallas-Yllästunturi 국립공원 자락. 전용 사우나, 오로라가 보이는 호반.',
 }
 
@@ -317,7 +317,7 @@ La gare de Kolari, à 40 min, accueille les trains de nuit depuis Helsinki avec 
     { day: '03', title: 'Randonnée parc + rennes', body: 'Raquettes dans le parc Pallas-Yllästunturi. Visite d\'une ferme à rennes, Lainio Snow Village ou ferme Aakenus. Chasse aux aurores depuis la rive nord du chalet.' },
     { day: '04', title: 'Matinée tranquille · départ', body: 'Dernier sauna, petit-déjeuner, transfert retour. Voyageurs de la semaine de Pâques : prolongez d\'une journée pour profiter du soleil de printemps sur les pistes.' },
   ],
-  seoTitle: 'Hébergements à Ylläs : chalets et villas | LaplandStays',
+  seoTitle: 'Hébergements à Ylläs : chalets et villas',
   seoDescription: 'Où loger à Ylläs : chalets en rondins, villas au bord du lac et chalets ski-in à Äkäslompolo et Ylläsjärvi, en lisière du parc national Pallas-Yllästunturi.',
 }
 
@@ -381,7 +381,7 @@ La stazione di Kolari, a 40 min, accoglie i treni notturni da Helsinki con servi
     { day: '03', title: 'Escursione nel parco + renne', body: 'Ciaspolata nel parco Pallas-Yllästunturi. Visita a una fattoria di renne, Lainio Snow Village o fattoria Aakenus. Caccia all\'aurora dalla sponda nord dello chalet.' },
     { day: '04', title: 'Mattina lenta · partenza', body: 'Ultima sauna, colazione, transfer di ritorno. Per chi viaggia a Pasqua: prolunghi di un giorno per sciare nel sole di primavera.' },
   ],
-  seoTitle: 'Alloggi a Ylläs: chalet in tronchi e ville | LaplandStays',
+  seoTitle: 'Alloggi a Ylläs: chalet in tronchi e ville',
   seoDescription: 'Dove soggiornare a Ylläs: chalet in tronchi, ville sul lago e chalet ski-in ad Äkäslompolo e Ylläsjärvi, ai margini del parco nazionale Pallas-Yllästunturi.',
 }
 
@@ -445,7 +445,7 @@ Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservic
     { day: '03', title: 'Wandeling in het park + rendieren', body: 'Sneeuwschoenwandeling in het Pallas-Yllästunturi-park. Bezoek aan een rendierenboerderij, Lainio Snow Village of boerderij Aakenus. Noorderlichtjacht vanaf de noordoever van de hut.' },
     { day: '04', title: 'Rustige ochtend · vertrek', body: 'Laatste sauna, ontbijt, transfer terug. Voor paasweekreizigers: een dag verlengen om in de voorjaarszon te skiën.' },
   ],
-  seoTitle: 'Ylläs-accommodatie: hutten en chalets | LaplandStays',
+  seoTitle: 'Ylläs-accommodatie: hutten en chalets',
   seoDescription: "Waar te verblijven in Ylläs: houten hutten, villa's aan het meer en ski-in chalets in Äkäslompolo en Ylläsjärvi, aan de rand van het Pallas-Yllästunturi-park.",
 }
 
@@ -509,7 +509,7 @@ const ja: DestinationBody = {
     { day: '03', title: '国立公園ハイク + トナカイ', body: 'パッラス・ユッラストゥントゥリ国立公園内でスノーシュー。ライニオ・スノービレッジのトナカイか、アーケヌス農場へ。キャビンの北岸からオーロラ観賞。' },
     { day: '04', title: 'ゆっくりした朝・出発', body: '最後のサウナ、朝食、復路の送迎。イースター週の旅行者は1日延ばしてピーク週のサンスキーを。' },
   ],
-  seoTitle: 'ユッラスの宿泊：ログキャビン&シャレー | LaplandStays',
+  seoTitle: 'ユッラスの宿泊：ログキャビン&シャレー',
   seoDescription: 'ラップランドのユッラスでの宿選び：アカスロンポロとユッラスヤルヴィのログキャビン、湖畔ヴィラ、スキーインシャレー。パッラス・ユッラストゥントゥリ国立公園のそば。',
 }
 
@@ -573,7 +573,7 @@ La estación de Kolari, a 40 min, recibe trenes nocturnos desde Helsinki con ser
     { day: '03', title: 'Caminata en el parque nacional + renos', body: 'Raquetas dentro del parque Pallas-Yllästunturi. Visite una granja de renos, los de Lainio Snow Village o la granja Aakenus. Caza de auroras desde la orilla norte de la cabaña.' },
     { day: '04', title: 'Mañana lenta · partida', body: 'Última sauna, desayuno, traslado de vuelta. Viajeros de Semana Santa: amplíe un día para esquiar al sol de la semana pico.' },
   ],
-  seoTitle: 'Alojamiento en Ylläs: cabañas y chalets | LaplandStays',
+  seoTitle: 'Alojamiento en Ylläs: cabañas y chalets',
   seoDescription: 'Dónde alojarse en Ylläs: cabañas de troncos, villas junto al lago y chalets ski-in en Äkäslompolo y Ylläsjärvi, junto al Parque Nacional Pallas-Yllästunturi.',
 }
 
@@ -637,7 +637,7 @@ A estação ferroviária de Kolari, a 40 min, recebe trens noturnos de Helsinque
     { day: '03', title: 'Caminhada no parque nacional + renas', body: 'Raquete de neve dentro do parque Pallas-Yllästunturi. Visite uma fazenda de renas, as do Lainio Snow Village ou a fazenda Aakenus. Caça à aurora a partir da margem norte da cabana.' },
     { day: '04', title: 'Manhã lenta · partida', body: 'Última sauna, café da manhã, traslado de volta. Quem viaja na Páscoa: estenda um dia para esquiar no sol da semana de pico.' },
   ],
-  seoTitle: 'Hospedagem em Ylläs: cabanas e chalés | LaplandStays',
+  seoTitle: 'Hospedagem em Ylläs: cabanas e chalés',
   seoDescription: 'Onde ficar em Ylläs: cabanas de tronco, vilas à beira do lago e chalés ski-in em Äkäslompolo e Ylläsjärvi, junto ao Parque Nacional Pallas-Yllästunturi.',
 }
 
@@ -701,7 +701,7 @@ const zhCN: DestinationBody = {
     { day: '03', title: '國家公園徒步 + 馴鹿', body: '在帕拉斯-於拉斯通圖里公園內雪鞋行走。參觀馴鹿農場。Lainio雪村馴鹿或Aakenus農場。從小屋北岸尋找極光。' },
     { day: '04', title: '悠閒晨光 · 啟程', body: '最後一次桑拿、早餐、返程接送。復活節周出行者：多留一天，在旺季周的陽光下滑雪。' },
   ],
-  seoTitle: '於拉斯住宿：原木小屋與滑雪木屋 | LaplandStays',
+  seoTitle: '於拉斯住宿：原木小屋與滑雪木屋',
   seoDescription: '芬蘭拉普蘭於拉斯住宿指南：阿卡斯隆波洛與於拉斯耶爾維的原木小屋、湖畔別墅與滑入式木屋，緊鄰帕拉斯-於拉斯通圖里國家公園。私人桑拿、面向極光的湖岸。',
 }
 
@@ -765,7 +765,7 @@ Kolari järnvägsstation, 40 min bort, tar emot nattåg från Helsingfors med bi
     { day: '03', title: 'Vandring i nationalparken + renar', body: 'Snöskovandring inne i Pallas-Yllästunturi nationalpark. Besök en rengård, renarna vid Lainio Snow Village eller Aakenus gård. Spana efter norrsken från stugans norra strand.' },
     { day: '04', title: 'Långsam morgon · hemresa', body: 'Sista bastun, frukost, transfer tillbaka. Reser du påskveckan: lägg till en dag och åk skidor i högsäsongens sol.' },
   ],
-  seoTitle: 'Boende i Ylläs: timmerstugor och chalets | LaplandStays',
+  seoTitle: 'Boende i Ylläs: timmerstugor och chalets',
   seoDescription: 'Var du ska bo i Ylläs, Lappland: timmerstugor, sjövillor och ski-in-stugor i Äkäslompolo och Ylläsjärvi, i kanten av Pallas-Yllästunturi nationalpark.',
 }
 

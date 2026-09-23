@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: '언제 라플란드에 갈까. 월별 가이드 | LaplandStays',
+    title: '언제 라플란드에 갈까. 월별 가이드',
     description: '오로라 시즌 9–4월, 스키 성수기 1–3월, 백야 6–7월. 핀란드 라플란드 월별 가이드. 숙소가 매진되는 시기, 일조 시간, 분위기와 예산.',
   },
   ui: {

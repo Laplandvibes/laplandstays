@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: '何時去拉普蘭。逐月指南 | LaplandStays',
+    title: '何時去拉普蘭。逐月指南',
     description: '極光季9–4月，滑雪旺季1–3月，午夜陽光6–7月。芬蘭拉普蘭逐月指南。住宿何時訂滿、日照時間、可期景象與預算。',
   },
   ui: {

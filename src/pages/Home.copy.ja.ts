@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "ラップランドの宿泊：グラスイグルーとロッジ | LaplandStays",
+    "title": "ラップランドの宿泊：グラスイグルーとロッジ",
     "description": "ラップランドで泊まる場所：レヴィ、ユッラス、サーリセルカ、イナリのグラスイグルー、オーロラロッジ、ホテルを比較し、先に予約すべき宿もご案内します。"
   },
   "faq": {

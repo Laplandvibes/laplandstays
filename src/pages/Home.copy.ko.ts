@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "라플란드 숙박: 글래스 이글루와 캐빈 | LaplandStays",
+    "title": "라플란드 숙박: 글래스 이글루와 캐빈",
     "description": "라플란드 숙박 가이드: 레비, 윌래스, 사리셀카, 이나리의 글래스 이글루, 오로라 캐빈, 라플란드 호텔을 비교하고 먼저 예약할 곳을 알려 드립니다. 전용 사우나, 오로라 알람."
   },
   "faq": {

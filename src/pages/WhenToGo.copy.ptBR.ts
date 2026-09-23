@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Quando ir à Lapônia, mês a mês | LaplandStays',
+    title: 'Quando ir à Lapônia, mês a mês',
     description: 'Aurora set–abr, esqui jan–mar, sol da meia-noite jun–jul. Guia mês a mês da Lapônia: quando as hospedagens esgotam, horas de luz e orçamento.',
   },
   ui: {

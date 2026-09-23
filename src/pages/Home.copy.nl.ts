@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Accommodatie in Lapland: glasiglo's en hutten | LaplandStays",
+    "title": "Accommodatie in Lapland: glasiglo's en hutten",
     "description": "Waar te verblijven in Lapland: glasiglo's, noorderlichthutten en Lapland-hotels in Levi, Ylläs, Saariselkä en Inari. Privésauna's, noorderlichtwekkers."
   },
   "faq": {

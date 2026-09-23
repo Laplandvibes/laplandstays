@@ -5,7 +5,7 @@ const copy: CabinAreaPageCopy = {
   areas: {
     levi: {
       seo: {
-        title: 'Levi cabins: log cabins and chalets to rent | LaplandStays',
+        title: 'Levi cabins: log cabins and chalets to rent',
         description: 'Levi cabins and holiday homes on one page: log cabins, ski-in apartments and villas in Sirkka and Kittilä with guests, bedrooms and size for every cabin. Booking on Lomarengas.',
       },
       h1: 'Cabins in Levi',
@@ -13,7 +13,7 @@ const copy: CabinAreaPageCopy = {
     },
     yllas: {
       seo: {
-        title: 'Ylläs cabins: Äkäslompolo and Ylläsjärvi | LaplandStays',
+        title: 'Ylläs cabins: Äkäslompolo and Ylläsjärvi',
         description: 'Ylläs cabins and holiday homes: log cabins, lakeside cabins and ski-in apartments in Äkäslompolo and Ylläsjärvi with guests, bedrooms and size for every cabin. Booking on Lomarengas.',
       },
       h1: 'Cabins in Ylläs',
@@ -21,7 +21,7 @@ const copy: CabinAreaPageCopy = {
     },
     ruka: {
       seo: {
-        title: 'Ruka cabins: holiday homes around Rukatunturi | LaplandStays',
+        title: 'Ruka cabins: holiday homes around Rukatunturi',
         description: 'Ruka cabins and holiday homes: the slope village and the Kuusamo lake country with guests, bedrooms and size for every cabin on one page. Booking on Lomarengas.',
       },
       h1: 'Cabins in Ruka',
@@ -29,7 +29,7 @@ const copy: CabinAreaPageCopy = {
     },
     saariselka: {
       seo: {
-        title: 'Saariselkä cabins: holiday homes below Kaunispää | LaplandStays',
+        title: 'Saariselkä cabins: holiday homes below Kaunispää',
         description: 'Saariselkä cabins and holiday homes: log cabins and apartments around the village and towards Kakslauttanen with guests, bedrooms and size for every cabin. Booking on Lomarengas.',
       },
       h1: 'Cabins in Saariselkä',
@@ -37,7 +37,7 @@ const copy: CabinAreaPageCopy = {
     },
     'pyha-luosto': {
       seo: {
-        title: 'Pyhä and Luosto cabins: holiday homes to rent | LaplandStays',
+        title: 'Pyhä and Luosto cabins: holiday homes to rent',
         description: 'Pyhätunturi and Luosto cabins and holiday homes in Pelkosenniemi, Sodankylä and Kemijärvi with guests, bedrooms and size for every cabin. Booking on Lomarengas.',
       },
       h1: 'Cabins in Pyhä and Luosto',
@@ -45,7 +45,7 @@ const copy: CabinAreaPageCopy = {
     },
     rovaniemi: {
       seo: {
-        title: 'Rovaniemi cabins: holiday homes on the Arctic Circle | LaplandStays',
+        title: 'Rovaniemi cabins: holiday homes on the Arctic Circle',
         description: 'Rovaniemi cabins and holiday homes: riverside cabins and wilderness huts along the Ounasjoki and Kemijoki with guests, bedrooms and size for every cabin. Booking on Lomarengas.',
       },
       h1: 'Cabins in Rovaniemi',

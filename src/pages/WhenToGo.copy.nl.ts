@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Wanneer naar Lapland, maand voor maand | LaplandStays',
+    title: 'Wanneer naar Lapland, maand voor maand',
     description: 'Noorderlichtseizoen sep–apr, skipiek jan–mar, middernachtzon jun–jul. Maand-voor-maand-gids voor Lapland: wanneer accommodaties volzitten, daglicht en budget.',
   },
   ui: {

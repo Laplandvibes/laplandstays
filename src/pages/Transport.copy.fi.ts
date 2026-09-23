@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Miten Lappiin, lennot, junat, autot | LaplandStays',
+    title: 'Miten Lappiin, lennot, junat, autot',
     description: 'Suomen Lapin kuljetukset: mikä lentokenttä Leville, Ylläkselle, Saariselälle, Inariin ja Rovaniemelle, bussien ja taksien hinnat, yöjuna ja autonvuokraus.',
   },
   ui: {

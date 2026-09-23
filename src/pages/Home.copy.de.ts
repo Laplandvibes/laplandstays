@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Lappland-Unterkünfte: Glasiglus & Hütten | LaplandStays",
+    "title": "Lappland-Unterkünfte: Glasiglus & Hütten",
     "description": "Wo Sie in Lappland übernachten: Glasiglus, Polarlicht-Hütten und Hotels in Levi, Ylläs, Saariselkä und Inari im Vergleich. Und was Sie zuerst buchen sollten."
   },
   "faq": {

@@ -5,7 +5,7 @@ const copy: CabinAreaPageCopy = {
   areas: {
     levi: {
       seo: {
-        title: 'Levi Ferienhäuser: Hütten und Chalets mieten | LaplandStays',
+        title: 'Levi Ferienhäuser: Hütten und Chalets mieten',
         description: 'Ferienhäuser und Hütten in Levi auf einer Seite: Blockhütten, Ski-in-Apartments und Villen in Sirkka und Kittilä mit Personenzahl, Schlafzimmern und Größe. Buchung bei Lomarengas.',
       },
       h1: 'Ferienhäuser in Levi',
@@ -13,7 +13,7 @@ const copy: CabinAreaPageCopy = {
     },
     yllas: {
       seo: {
-        title: 'Ylläs Ferienhäuser: Äkäslompolo und Ylläsjärvi | LaplandStays',
+        title: 'Ylläs Ferienhäuser: Äkäslompolo und Ylläsjärvi',
         description: 'Ferienhäuser und Hütten in Ylläs: Blockhütten, Seehütten und Ski-in-Apartments in Äkäslompolo und Ylläsjärvi mit Personenzahl, Schlafzimmern und Größe. Buchung bei Lomarengas.',
       },
       h1: 'Ferienhäuser in Ylläs',
@@ -21,7 +21,7 @@ const copy: CabinAreaPageCopy = {
     },
     ruka: {
       seo: {
-        title: 'Ruka Ferienhäuser: Hütten rund um den Rukatunturi | LaplandStays',
+        title: 'Ruka Ferienhäuser: Hütten rund um den Rukatunturi',
         description: 'Ferienhäuser und Hütten in Ruka: das Pistendorf und die Seenlandschaft von Kuusamo mit Personenzahl, Schlafzimmern und Größe auf einer Seite. Buchung bei Lomarengas.',
       },
       h1: 'Ferienhäuser in Ruka',
@@ -29,7 +29,7 @@ const copy: CabinAreaPageCopy = {
     },
     saariselka: {
       seo: {
-        title: 'Saariselkä Ferienhäuser: Hütten am Kaunispää | LaplandStays',
+        title: 'Saariselkä Ferienhäuser: Hütten am Kaunispää',
         description: 'Ferienhäuser und Hütten in Saariselkä: Blockhütten und Apartments im Dorf und Richtung Kakslauttanen mit Personenzahl, Schlafzimmern und Größe. Buchung bei Lomarengas.',
       },
       h1: 'Ferienhäuser in Saariselkä',
@@ -37,7 +37,7 @@ const copy: CabinAreaPageCopy = {
     },
     'pyha-luosto': {
       seo: {
-        title: 'Pyhä und Luosto Ferienhäuser: Hütten mieten | LaplandStays',
+        title: 'Pyhä und Luosto Ferienhäuser: Hütten mieten',
         description: 'Ferienhäuser und Hütten am Pyhätunturi und in Luosto: Pelkosenniemi, Sodankylä und Kemijärvi mit Personenzahl, Schlafzimmern und Größe für jede Hütte. Buchung bei Lomarengas.',
       },
       h1: 'Ferienhäuser in Pyhä und Luosto',
@@ -45,7 +45,7 @@ const copy: CabinAreaPageCopy = {
     },
     rovaniemi: {
       seo: {
-        title: 'Rovaniemi Ferienhäuser: Hütten am Polarkreis | LaplandStays',
+        title: 'Rovaniemi Ferienhäuser: Hütten am Polarkreis',
         description: 'Ferienhäuser und Hütten in Rovaniemi: Flusshütten und Wildnishütten am Ounasjoki und Kemijoki mit Personenzahl, Schlafzimmern und Größe für jede Hütte. Buchung bei Lomarengas.',
       },
       h1: 'Ferienhäuser in Rovaniemi',

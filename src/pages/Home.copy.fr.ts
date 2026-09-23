@@ -2,7 +2,7 @@ import type { PageCopy } from './Home.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Hébergements en Laponie : igloos de verre et chalets | LaplandStays",
+    "title": "Hébergements en Laponie : igloos de verre et chalets",
     "description": "Où loger en Laponie : igloos de verre, chalets aux aurores et hôtels à Levi, Ylläs, Saariselkä et Inari comparés, et ce qu'il faut réserver en premier."
   },
   "faq": {

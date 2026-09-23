@@ -3,7 +3,7 @@ import type { PageCopy } from './WhenToGo.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'ラップランドのベストシーズン。月ごとガイド | LaplandStays',
+    title: 'ラップランドのベストシーズン。月ごとガイド',
     description: 'オーロラシーズンは9月〜4月、スキーピークは1月〜3月、白夜は6月〜7月。フィンランド・ラップランドの月ごとガイド。施設が満室になる時期、日照時間、各月の見どころ、予算の目安。',
   },
   ui: {

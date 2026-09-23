@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Como chegar à Lapônia, voos, trens, carros | LaplandStays',
+    title: 'Como chegar à Lapônia, voos, trens, carros',
     description: 'Transporte para a Lapônia: qual aeroporto para Levi, Ylläs, Saariselkä, Inari e Rovaniemi, preços reais de ônibus e táxi, o trem noturno e quando alugar carro.',
   },
   ui: {

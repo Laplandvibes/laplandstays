@@ -4,17 +4,17 @@ import { useLang, type Lang } from '../i18n/useLang';
 
 const META: Record<Lang, { title: string; description: string }> = {
   en: {
-    title: 'Cookie Policy | LaplandStays',
+    title: 'Cookie Policy',
     description:
       'Which cookies LaplandStays uses and why: essential consent storage, Google Analytics 4 only after opt-in, and partner-network affiliate attribution.',
   },
   fi: {
-    title: 'Evästekäytäntö | LaplandStays',
+    title: 'Evästekäytäntö',
     description:
       'Mitä evästeitä LaplandStays käyttää ja miksi: suostumuksen tallennus, Google Analytics 4 vain luvalla ja kumppaniverkostojen affiliate-attribuutio.',
   },
   de: {
-    title: 'Cookie-Richtlinie | LaplandStays',
+    title: 'Cookie-Richtlinie',
     description:
       'Welche Cookies LaplandStays verwendet und warum: Consent-Speicherung, Google Analytics 4 (nur nach Opt-in) und Affiliate-Attribution der Partnernetzwerke.',
   },
@@ -24,12 +24,12 @@ const META: Record<Lang, { title: string; description: string }> = {
       'LaplandStaysが使用するCookieとその目的。同意保存用の必須Cookie、Google Analytics 4（オプトイン後のみ）、パートナーネットワーク（Adtraction、Travelpayouts、Trip.com）のアフィリエイト計測。',
   },
   es: {
-    title: 'Política de cookies y consentimiento | LaplandStays',
+    title: 'Política de cookies y consentimiento',
     description:
       'Qué cookies usa LaplandStays y por qué: consentimiento, Google Analytics 4 solo tras aceptar y atribución de afiliados de las redes asociadas.',
   },
   'pt-BR': {
-    title: 'Política de cookies | LaplandStays',
+    title: 'Política de cookies',
     description:
       'Quais cookies o LaplandStays usa e por quê: consentimento essencial, Google Analytics 4 somente após opt-in e atribuição de afiliados das redes parceiras.',
   },
@@ -44,22 +44,22 @@ const META: Record<Lang, { title: string; description: string }> = {
       'LaplandStays가 사용하는 쿠키와 그 이유. 필수 동의 저장, Google Analytics 4(동의 후에만), 파트너 네트워크(Adtraction, Travelpayouts, Trip.com) 제휴 어트리뷰션.',
   },
   fr: {
-    title: 'Politique relative aux cookies | LaplandStays',
+    title: 'Politique relative aux cookies',
     description:
       "Quels cookies LaplandStays utilise et pourquoi : consentement, Google Analytics 4 après opt-in uniquement et attribution d'affiliation des réseaux partenaires.",
   },
   it: {
-    title: 'Cookie policy | LaplandStays',
+    title: 'Cookie policy',
     description:
       "Quali cookie usa LaplandStays e perché: salvataggio del consenso, Google Analytics 4 solo dopo l'opt-in e attribuzione affiliata delle reti partner.",
   },
   nl: {
-    title: 'Cookiebeleid | LaplandStays',
+    title: 'Cookiebeleid',
     description:
       'Welke cookies LaplandStays gebruikt en waarom: opslag van toestemming, Google Analytics 4 alleen na opt-in en affiliate-attributie via partnernetwerken.',
   },
   sv: {
-    title: 'Cookiepolicy | LaplandStays',
+    title: 'Cookiepolicy',
     description:
       'Vilka cookies LaplandStays använder och varför: lagring av samtycke, Google Analytics 4 endast efter opt-in och affiliateattribuering via partnernätverken.',
   },

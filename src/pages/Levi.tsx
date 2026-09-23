@@ -62,7 +62,7 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
     { day: '03', title: 'Husky safari + village dinner', body: 'Morning husky-farm safari (book 2 weeks ahead). Walk the village afternoon, Kammi-Bar for reindeer, Saamen Kammi for traditional. On a clear night, watch for auroras from the Levi summit.' },
     { day: '04', title: 'Aurora cabin night · gentle day', body: 'Drive 15 min north to a glass igloo for the last night. Slow morning, sauna, watch the sky. Earliest possible flight home next morning.' },
   ],
-  seoTitle: 'Levi Accommodation: Hotels, Cabins & Igloos | LaplandStays',
+  seoTitle: 'Levi Accommodation: Hotels, Cabins & Igloos',
   seoDescription: 'Where to stay in Levi, Lapland: Levin Iglut glass igloos on the fell, Lapland Hotels in the village and ski-in chalets. 15 min from Kittilä airport.',
 }
 
@@ -126,7 +126,7 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
     { day: '03', title: 'Husky-safari + kyläillallinen', body: 'Aamulla husky-tilan safari (varaa 2 viikkoa etukäteen). Kävele kylällä iltapäivällä, Kammi-Bar poroon, Saamen Kammi perinteiseen. Selkeänä iltana revontulia voi kytätä Levin huipulta.' },
     { day: '04', title: 'Revontuli-mökki-ilta · rauhallinen päivä', body: 'Aja 15 min pohjoiseen lasi-igluun viimeiseksi yöksi. Rauhallinen aamu, sauna, katsele taivasta. Aikaisin lento kotiin seuraavana aamuna.' },
   ],
-  seoTitle: 'Levin majoitus: hotellit, mökit ja iglut | LaplandStays',
+  seoTitle: 'Levin majoitus: hotellit, mökit ja iglut',
   seoDescription: 'Missä yöpyä Levillä: Levin Iglutin lasi-iglut tunturilla, Lapland Hotels -hotellit kylässä ja rinneasunnot. 15 min Kittilän lentokentältä.',
 }
 
@@ -190,7 +190,7 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
     { day: '03', title: 'Husky-Safari + Dorfdinner', body: 'Morgens Husky-Farm-Safari (2 Wochen im Voraus buchen). Nachmittags durchs Dorf, Kammi-Bar für Rentier, Saamen Kammi für traditionell. In klaren Nächten lohnt die Polarlicht-Beobachtung vom Levi-Gipfel.' },
     { day: '04', title: 'Polarlicht-Hütten-Nacht · ruhiger Tag', body: 'Fahren Sie 15 min nördlich zu einem Glasiglu für die letzte Nacht. Langsamer Morgen, Sauna, Himmel beobachten. Frühestmöglicher Flug am nächsten Morgen.' },
   ],
-  seoTitle: 'Levi-Unterkünfte: Hotels, Hütten & Iglus | LaplandStays',
+  seoTitle: 'Levi-Unterkünfte: Hotels, Hütten & Iglus',
   seoDescription: 'Wo Sie in Levi übernachten: Glasiglus von Levin Iglut am Fjäll, Lapland Hotels im Ortskern und Pisten-Chalets. 15 min vom Flughafen Kittilä.',
 }
 
@@ -254,7 +254,7 @@ const ko: DestinationBody = {
     { day: '03', title: '허스키 사파리 + 마을 디너', body: '아침 허스키 농장 사파리(2주 전 예약). 오후는 마을 산책. 순록은 Kammi-Bar, 전통식은 Saamen Kammi. 맑은 밤에는 레비 정상에서 오로라를 기다려 보세요.' },
     { day: '04', title: '오로라 캐빈의 밤 · 여유로운 하루', body: '북쪽으로 15분 운전해 마지막 밤은 글래스 이글루에서. 느긋한 아침, 사우나, 하늘 감상. 다음 날 아침 가능한 가장 이른 항공편으로 귀국.' },
   ],
-  seoTitle: '레비 숙박: 호텔, 캐빈, 이글루 | LaplandStays',
+  seoTitle: '레비 숙박: 호텔, 캐빈, 이글루',
   seoDescription: '레비에서 어디에 묵을까: 산자락의 Levin Iglut 글래스 이글루, 마을 안의 Lapland Hotels, 슬로프 옆 스키 인 샬레. 키틸래 공항에서 15분.',
 }
 
@@ -318,7 +318,7 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
     { day: '03', title: 'Safari en traîneau de huskies + dîner au village', body: 'Safari en ferme de huskys le matin (à réserver deux semaines à l\'avance). Village l\'après-midi, Kammi-Bar pour le renne, Saamen Kammi pour le traditionnel. Par nuit claire, guettez les aurores depuis le sommet de Levi.' },
     { day: '04', title: 'Nuit en chalet aurores · journée douce', body: '15 min de route vers le nord jusqu\'à un igloo de verre pour la dernière nuit. Matinée lente, sauna, regard vers le ciel. Vol retour au plus tôt le lendemain matin.' },
   ],
-  seoTitle: 'Hébergements à Levi : hôtels et igloos | LaplandStays',
+  seoTitle: 'Hébergements à Levi : hôtels et igloos',
   seoDescription: "Où loger à Levi : igloos de verre de Levin Iglut sur le fjäll, Lapland Hotels au village et chalets ski-in. À 15 min de l'aéroport de Kittilä.",
 }
 
@@ -382,7 +382,7 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
     { day: '03', title: 'Safari con husky + cena in paese', body: 'Safari in fattoria di husky al mattino (prenoti con due settimane di anticipo). Pomeriggio in paese, Kammi-Bar per la renna, Saamen Kammi per la cucina tradizionale. Nelle notti serene, aurora dalla cima di Levi.' },
     { day: '04', title: 'Notte in chalet aurora · giornata leggera', body: '15 min verso nord fino a un igloo di vetro per l\'ultima notte. Mattina lenta, sauna, sguardo al cielo. Volo di ritorno il prima possibile la mattina seguente.' },
   ],
-  seoTitle: 'Alloggi a Levi: hotel, chalet e igloo | LaplandStays',
+  seoTitle: 'Alloggi a Levi: hotel, chalet e igloo',
   seoDescription: "Dove soggiornare a Levi: igloo di vetro di Levin Iglut sul fjäll, Lapland Hotels in paese e chalet ski-in. A 15 min dall'aeroporto di Kittilä.",
 }
 
@@ -446,7 +446,7 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
     { day: '03', title: 'Husky-safari + dorpsdiner', body: 'Husky-farm safari in de ochtend (twee weken vooruit boeken). Middag in het dorp, Kammi-Bar voor rendier, Saamen Kammi voor traditioneel. Bij heldere hemel: noorderlicht spotten vanaf de top van Levi.' },
     { day: '04', title: 'Noorderlichtcabinnacht · rustige dag', body: '15 min noordwaarts rijden naar een glasiglo voor de laatste nacht. Rustige ochtend, sauna, hemel kijken. De volgende ochtend de eerstmogelijke vlucht naar huis.' },
   ],
-  seoTitle: 'Levi-accommodatie: hotels, hutten en iglo\'s | LaplandStays',
+  seoTitle: 'Levi-accommodatie: hotels, hutten en iglo\'s',
   seoDescription: "Waar te verblijven in Levi: glasiglo's van Levin Iglut op het fjäll, Lapland Hotels in het dorp en ski-in chalets. 15 min van luchthaven Kittilä.",
 }
 
@@ -510,7 +510,7 @@ const ja: DestinationBody = {
     { day: '03', title: 'ハスキーサファリと村のディナー', body: '午前はハスキーファームのサファリ（2週間前に予約）。午後は村を散策。トナカイならKammi-Bar、伝統料理ならSaamen Kammi。晴れた夜はレヴィ山頂からオーロラを観賞。' },
     { day: '04', title: 'オーロラキャビンの夜・ゆったりした一日', body: '北へ15分走り、最終夜はグラスイグルーで。ゆっくりとした朝、サウナ、そして空を眺めます。翌朝の最も早い便で帰路に。' },
   ],
-  seoTitle: 'レヴィの宿泊：ホテル、キャビン、イグルー | LaplandStays',
+  seoTitle: 'レヴィの宿泊：ホテル、キャビン、イグルー',
   seoDescription: 'ラップランドのレヴィでの宿選び：山上のLevin Iglutのグラスイグルー、村のLapland Hotels、スキーインシャレー。キッティラ空港から15分。',
 }
 
@@ -574,7 +574,7 @@ Desde Helsinki, el tren nocturno a Kolari y 1 hora de traslado es una alternativ
     { day: '03', title: 'Safari de huskys + cena en el pueblo', body: 'Safari en la granja de huskys por la mañana (reservar con dos semanas de antelación). Por la tarde, pueblo, Kammi-Bar para reno, Saamen Kammi para cocina tradicional. En noches despejadas, auroras desde la cima de Levi.' },
     { day: '04', title: 'Noche en cabaña aurora · día tranquilo', body: '15 min hacia el norte hasta un iglú de cristal para la última noche. Mañana lenta, sauna, ojos al cielo. Vuelo de regreso lo más temprano posible al día siguiente.' },
   ],
-  seoTitle: 'Alojamiento en Levi: hoteles, cabañas e iglús | LaplandStays',
+  seoTitle: 'Alojamiento en Levi: hoteles, cabañas e iglús',
   seoDescription: 'Dónde alojarse en Levi: iglús de cristal de Levin Iglut en el fjäll, Lapland Hotels en el pueblo y chalets ski-in. A 15 min del aeropuerto de Kittilä.',
 }
 
@@ -638,7 +638,7 @@ De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa
     { day: '03', title: 'Safári de huskies + jantar na vila', body: 'Safári em fazenda de huskies pela manhã (reserve com duas semanas de antecedência). À tarde, caminhe pela vila, Kammi-Bar para rena, Saamen Kammi para cozinha tradicional. Em noites claras, observe a aurora do topo de Levi.' },
     { day: '04', title: 'Noite em cabana com aurora · dia leve', body: '15 min ao norte até um iglu de vidro para a última noite. Manhã lenta, sauna, olhos no céu. Voo de volta no horário mais cedo possível no dia seguinte.' },
   ],
-  seoTitle: 'Hospedagem em Levi: hotéis, cabanas e iglus | LaplandStays',
+  seoTitle: 'Hospedagem em Levi: hotéis, cabanas e iglus',
   seoDescription: 'Onde ficar em Levi: iglus de vidro da Levin Iglut no fjäll, Lapland Hotels na vila e chalés ski-in. A 15 min do aeroporto de Kittilä.',
 }
 
@@ -702,7 +702,7 @@ const zhCN: DestinationBody = {
     { day: '03', title: '哈士奇探險 + 村中晚餐', body: '上午前往哈士奇農場探險（提前兩週預訂）。下午漫步村中。Kammi-Bar吃馴鹿，Saamen Kammi品傳統菜。晴朗的夜晚，可從萊維山頂觀賞極光。' },
     { day: '04', title: '極光小屋夜 · 悠閒一日', body: '向北驅車15分鐘，最後一晚入住玻璃屋。悠閒早晨，桑拿，仰望天空。次日儘早搭機返程。' },
   ],
-  seoTitle: '萊維住宿：飯店、小木屋與極光玻璃屋 | LaplandStays',
+  seoTitle: '萊維住宿：飯店、小木屋與極光玻璃屋',
   seoDescription: '拉普蘭萊維住宿指南：山上的Levin Iglut玻璃屋（旺季需提前10–12個月預訂）、村裡的Lapland Hotels與滑入式木屋。距基蒂萊機場15分鐘。',
 }
 
@@ -766,7 +766,7 @@ Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert al
     { day: '03', title: 'Hundspannssafari + middag i byn', body: 'Safari på huskygård på morgonen (boka 2 veckor i förväg). Promenad i byn på eftermiddagen, Kammi-Bar för ren, Saamen Kammi för det traditionella. En klar kväll spanar du efter norrsken från Levitoppen.' },
     { day: '04', title: 'Natt i norrskensstuga · en lugn dag', body: 'Kör 15 min norrut till en glasigloo för sista natten. Långsam morgon, bastu, titta på himlen. Tidigast möjliga flyg hem nästa morgon.' },
   ],
-  seoTitle: 'Boende i Levi: hotell, stugor och igloor | LaplandStays',
+  seoTitle: 'Boende i Levi: hotell, stugor och igloor',
   seoDescription: 'Var du ska bo i Levi, Lappland: glasigloor på Levin Iglut uppe på fjället, Lapland Hotels i byn och ski-in-stugor. 15 min från Kittilä flygplats.',
 }
 

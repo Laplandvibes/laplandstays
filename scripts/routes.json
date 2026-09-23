@@ -46,9 +46,9 @@
       "de"
     ],
     "fallbackTitleByLang": {
-      "fi": "Levin mökit: vuokramökit Lomarenkaalta | LaplandStays",
-      "en": "Levi cabins: log cabins and chalets to rent | LaplandStays",
-      "de": "Levi Ferienhäuser: Hütten und Chalets mieten | LaplandStays"
+      "fi": "Levin mökit: vuokramökit Lomarenkaalta",
+      "en": "Levi cabins: log cabins and chalets to rent",
+      "de": "Levi Ferienhäuser: Hütten und Chalets mieten"
     },
     "fallbackDescriptionByLang": {
       "fi": "Levin mökit ja vuokramökit yhdellä sivulla: Sirkan ja Kittilän hirsimökit, rinneasunnot ja huvilat henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
@@ -68,9 +68,9 @@
       "de"
     ],
     "fallbackTitleByLang": {
-      "fi": "Ylläksen mökit: Äkäslompolo ja Ylläsjärvi | LaplandStays",
-      "en": "Ylläs cabins: Äkäslompolo and Ylläsjärvi | LaplandStays",
-      "de": "Ylläs Ferienhäuser: Äkäslompolo und Ylläsjärvi | LaplandStays"
+      "fi": "Ylläksen mökit: Äkäslompolo ja Ylläsjärvi",
+      "en": "Ylläs cabins: Äkäslompolo and Ylläsjärvi",
+      "de": "Ylläs Ferienhäuser: Äkäslompolo und Ylläsjärvi"
     },
     "fallbackDescriptionByLang": {
       "fi": "Ylläksen mökit ja vuokramökit: Äkäslompolon ja Ylläsjärven hirsimökit, rantamökit ja rinneasunnot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
@@ -90,9 +90,9 @@
       "de"
     ],
     "fallbackTitleByLang": {
-      "fi": "Rukan mökit: vuokramökit Rukatunturin ympäriltä | LaplandStays",
-      "en": "Ruka cabins: holiday homes around Rukatunturi | LaplandStays",
-      "de": "Ruka Ferienhäuser: Hütten rund um den Rukatunturi | LaplandStays"
+      "fi": "Rukan mökit: vuokramökit Rukatunturin ympäriltä",
+      "en": "Ruka cabins: holiday homes around Rukatunturi",
+      "de": "Ruka Ferienhäuser: Hütten rund um den Rukatunturi"
     },
     "fallbackDescriptionByLang": {
       "fi": "Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla. Varaus Lomarenkaalla.",
@@ -112,9 +112,9 @@
       "de"
     ],
     "fallbackTitleByLang": {
-      "fi": "Saariselän mökit: vuokramökit Kaunispään juurella | LaplandStays",
-      "en": "Saariselkä cabins: holiday homes below Kaunispää | LaplandStays",
-      "de": "Saariselkä Ferienhäuser: Hütten am Kaunispää | LaplandStays"
+      "fi": "Saariselän mökit: vuokramökit Kaunispään juurella",
+      "en": "Saariselkä cabins: holiday homes below Kaunispää",
+      "de": "Saariselkä Ferienhäuser: Hütten am Kaunispää"
     },
     "fallbackDescriptionByLang": {
       "fi": "Saariselän mökit ja vuokramökit: kylän ja Kakslauttasen suunnan hirsimökit ja huoneistot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
@@ -134,9 +134,9 @@
       "de"
     ],
     "fallbackTitleByLang": {
-      "fi": "Pyhän ja Luoston mökit: vuokramökit | LaplandStays",
-      "en": "Pyhä and Luosto cabins: holiday homes to rent | LaplandStays",
-      "de": "Pyhä und Luosto Ferienhäuser: Hütten mieten | LaplandStays"
+      "fi": "Pyhän ja Luoston mökit: vuokramökit",
+      "en": "Pyhä and Luosto cabins: holiday homes to rent",
+      "de": "Pyhä und Luosto Ferienhäuser: Hütten mieten"
     },
     "fallbackDescriptionByLang": {
       "fi": "Pyhätunturin ja Luoston mökit ja vuokramökit: Pelkosenniemen, Sodankylän ja Kemijärven mökit henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
@@ -156,9 +156,9 @@
       "de"
     ],
     "fallbackTitleByLang": {
-      "fi": "Rovaniemen mökit: vuokramökit napapiirillä | LaplandStays",
-      "en": "Rovaniemi cabins: holiday homes on the Arctic Circle | LaplandStays",
-      "de": "Rovaniemi Ferienhäuser: Hütten am Polarkreis | LaplandStays"
+      "fi": "Rovaniemen mökit: vuokramökit napapiirillä",
+      "en": "Rovaniemi cabins: holiday homes on the Arctic Circle",
+      "de": "Rovaniemi Ferienhäuser: Hütten am Polarkreis"
     },
     "fallbackDescriptionByLang": {
       "fi": "Rovaniemen mökit ja vuokramökit: Ounasjoen ja Kemijoen varren mökit ja erämaakämpät henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.",
@@ -180,7 +180,7 @@
       "fi"
     ],
     "fallbackTitleByLang": {
-      "fi": "Iglumajoitus Lapissa: lasi-iglu, lumi-iglu vai igluhotelli | LaplandStays"
+      "fi": "Iglumajoitus Lapissa: lasi-iglu, lumi-iglu vai igluhotelli"
     },
     "fallbackDescriptionByLang": {
       "fi": "Lasi-iglu, lumi-iglu vai igluhotelli? Erot, kohteet Levillä, Saariselällä, Rovaniemellä ja Kilpisjärvellä sekä milloin iglu-yö kannattaa varata."
@@ -241,14 +241,14 @@
   },
   {
     "path": "/privacy",
-    "fallbackTitle": "Privacy Policy | LaplandStays",
+    "fallbackTitle": "Privacy Policy",
     "harvestFiles": [
       "src/shared/Legal/PrivacyContent.tsx"
     ]
   },
   {
     "path": "/terms",
-    "fallbackTitle": "Terms of Use | LaplandStays",
+    "fallbackTitle": "Terms of Use",
     "harvestFiles": [
       "src/shared/Legal/TermsContent.tsx",
       "src/pages/Terms.tsx"
@@ -256,7 +256,7 @@
   },
   {
     "path": "/cookie-policy",
-    "fallbackTitle": "Cookie Policy | LaplandStays",
+    "fallbackTitle": "Cookie Policy",
     "harvestFiles": [
       "src/shared/Legal/CookieContent.tsx",
       "src/pages/CookiePolicy.tsx"

@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Política editorial, como verificamos | LaplandStays",
+    "title": "Política editorial, como verificamos",
     "description": "Como o LaplandStays verifica preços, nomeia hospedagens, mantém independência de afiliados e trata correções. Padrões editoriais do guia de hospedagem."
   },
   "ui": {

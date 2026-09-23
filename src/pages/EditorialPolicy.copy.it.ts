@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Codice editoriale, come verifichiamo | LaplandStays",
+    "title": "Codice editoriale, come verifichiamo",
     "description": "Come LaplandStays verifica le tariffe, cita gli alloggi per nome, mantiene l'indipendenza dai partner e gestisce le correzioni. Gli standard editoriali della guida."
   },
   "ui": {

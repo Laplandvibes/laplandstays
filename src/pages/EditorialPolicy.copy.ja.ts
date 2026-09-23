@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "編集方針。検証の進め方 | LaplandStays",
+    "title": "編集方針。検証の進め方",
     "description": "LaplandStaysが料金をどう検証し、施設をどう名指しで扱い、アフィリエイトの独立性をどう保ち、訂正にどう対応するか。LaplandStays宿泊ガイドの編集基準。"
   },
   "ui": {

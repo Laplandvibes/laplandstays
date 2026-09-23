@@ -2,7 +2,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 
 const copy: PageCopy = {
   "seo": {
-    "title": "Toimituspolitiikka, miten testaamme | LaplandStays",
+    "title": "Toimituspolitiikka, miten testaamme",
     "description": "Miten LaplandStays tarkistaa hinnat, nimeää kohteet, säilyttää kumppanuusriippumattomuuden ja käsittelee korjaukset. LaplandStaysin toimitusperiaatteet."
   },
   "ui": {

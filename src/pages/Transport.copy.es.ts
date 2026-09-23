@@ -3,7 +3,7 @@ import type { PageCopy } from './Transport.copy.types'
 
 const copy: PageCopy = {
   seo: {
-    title: 'Cómo llegar a Laponia, vuelos y trenes | LaplandStays',
+    title: 'Cómo llegar a Laponia, vuelos y trenes',
     description: 'Transporte en Laponia: qué aeropuerto para Levi, Ylläs, Saariselkä, Inari y Rovaniemi, precios reales de bus y taxi, el tren nocturno y cuándo alquilar coche.',
   },
   ui: {
