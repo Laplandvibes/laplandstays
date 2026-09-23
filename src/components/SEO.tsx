@@ -46,6 +46,23 @@ function upsertLink(rel: string, href: string) {
   el.setAttribute('href', href)
 }
 
+// 🔴 The share card the PRERENDERER wrote for the URL the visitor landed on.
+// Since 2026-09-21 the prerenderer gives key pages their own card
+// (routes.json ogImage -> /og/<slug>.jpg, summer/winter). This component used
+// to overwrite og:image with its `ogImage` prop right after load, so Google,
+// which runs this code, saw og-default.jpg / og-property-types.jpg instead of
+// the page card (found 23.9.2026 on /about, /transport, /property-types).
+// Captured at module load, before any effect runs: on the landed URL the
+// prerendered value wins; after a client-side navigation there is none, and
+// the prop is used as before.
+const LANDED =
+  typeof document === 'undefined'
+    ? null
+    : {
+        path: window.location.pathname,
+        og: document.head.querySelector('meta[property="og:image"]')?.getAttribute('content') || null,
+      }
+
 // Clone + inject inLanguage on every typed node so each locale URL signals the
 // right language.
 function injectInLanguage(node: unknown, bcp47: string): unknown {
@@ -141,7 +158,10 @@ export default function SEO({
     upsertMeta('meta[property="og:title"]', 'property', 'og:title', title)
     upsertMeta('meta[property="og:description"]', 'property', 'og:description', description)
     upsertMeta('meta[property="og:url"]', 'property', 'og:url', canonical)
-    const ogImageV = ogImage.includes('?') ? ogImage : `${ogImage}?v=${OG_VERSION}`
+    const ogImageV =
+      LANDED?.og && LANDED.path === window.location.pathname
+        ? LANDED.og
+        : ogImage.includes('?') ? ogImage : `${ogImage}?v=${OG_VERSION}`
     upsertMeta('meta[property="og:image"]', 'property', 'og:image', ogImageV)
     upsertMeta('meta[property="og:image:width"]', 'property', 'og:image:width', '1200')
     upsertMeta('meta[property="og:image:height"]', 'property', 'og:image:height', '630')
