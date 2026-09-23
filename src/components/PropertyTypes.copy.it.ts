@@ -24,7 +24,7 @@ const copy: Copy = {
       {
         title: 'Case sull\'albero artiche & lodge di design',
         short: 'Lusso silenzioso nella natura.',
-        body: 'Alloggi di lusso in Lapponia con una vera identità architettonica, Arctic TreeHouse Hotel, Muotka Wilderness Lodge e Nellim. Linee pulite, legno caldo, vedute panoramiche sulle fells.',
+        body: 'Alloggi di lusso in Lapponia con una vera identità architettonica, Arctic TreeHouse Hotel, Muotka Wilderness Lodge e Nellim. Linee pulite, legno caldo, vedute panoramiche sui fjäll.',
       },
     ],
   }

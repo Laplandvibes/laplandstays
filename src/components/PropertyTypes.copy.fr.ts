@@ -24,7 +24,7 @@ const copy: Copy = {
       {
         title: 'Cabanes arctiques & lodges design',
         short: 'Luxe discret en pleine nature.',
-        body: "Hébergement de luxe en Laponie avec une vraie conviction architecturale, Arctic TreeHouse Hotel, Muotka Wilderness Lodge et Nellim. Lignes épurées, bois chaleureux, vues panoramiques sur les fells.",
+        body: "Hébergement de luxe en Laponie avec une vraie conviction architecturale, Arctic TreeHouse Hotel, Muotka Wilderness Lodge et Nellim. Lignes épurées, bois chaleureux, vues panoramiques sur les fjälls.",
       },
     ],
   }
