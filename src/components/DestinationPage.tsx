@@ -470,8 +470,10 @@ export default function DestinationPage(p: DestinationPageProps) {
                           </tbody>
                         </table>
                       </div>
+                      {/* Lähdehuomautus on täysi virke ⇒ leipätekstiä: 16 px ja muste /75 kuten
+                          sivun muu teksti, ei 12 px /55 (§33, Vesa 20.9.2026). */}
                       {s.table.note && (
-                        <figcaption className="mt-2 text-xs text-charcoal/55 leading-relaxed">{s.table.note}</figcaption>
+                        <figcaption className="mt-2 text-base text-charcoal/75 leading-relaxed">{s.table.note}</figcaption>
                       )}
                     </figure>
                   )}
