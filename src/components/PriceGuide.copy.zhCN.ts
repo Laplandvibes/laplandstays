@@ -2,37 +2,33 @@
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 
 const copy: PriceGuideCopy = {
-  eyebrow: '拉普蘭住宿價格',
-  heading: '在拉普蘭住一晚到底要花多少錢',
-  lead: '極光緩緩掠過頭頂的玻璃穹頂，桑拿早已燒熱，清晨用早餐時窗外是一片雪落無聲的森林。在拉普蘭，這樣的一晚可能花€100，也可能花€1,500。我們從預訂頁面直接整理出15家住宿的真實價格區間，讓您一眼就能看出，您的預算能實現哪一種夢想。',
+  eyebrow: '價位級距',
+  heading: '拉普蘭住宿，從最頂級到最平價',
+  lead: '極光從玻璃屋頂流過，桑拿已經燒熱，早餐時窗外是一片靜默的雪林。拉普蘭的夜晚分成五種，從一生一次到日常，依序排列，並附上各自的代表住宿。一晚要多少錢會隨季節與週次變動，因此房價請在預訂頁面查看您所選的日期。',
+  scale: { low: '較平價', high: '較高價' },
   tiers: [
     {
       name: '玻璃屋',
-      note: '每晚 · 每間穹頂屋',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       ctaLabel: '查詢玻璃屋',
     },
     {
       name: '極光小木屋',
-      note: '每晚 · 每棟木屋',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       ctaLabel: '查詢極光木屋',
     },
     {
       name: '冰雪飯店',
-      note: '每晚 · 僅冬季開放',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       ctaLabel: '查詢冰雪飯店',
     },
     {
       name: '荒野度假屋',
-      note: '每晚 · 全套房',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       ctaLabel: '查詢荒野度假屋',
     },
     {
       name: '拉普蘭連鎖飯店與木屋',
-      note: '每晚 · 每間客房',
       examples: ['Lapland Hotels （多家度假村）', 'Harriniva (Muonio)'],
       ctaLabel: '查詢飯店與木屋',
     },

@@ -2,37 +2,33 @@
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 
 const copy: PriceGuideCopy = {
-  eyebrow: 'ラップランドの宿泊料金',
-  heading: 'ラップランドの一泊、実際にかかる料金',
-  lead: 'ガラス天井の向こうをオーロラがゆっくりと流れ、サウナはすでに温まり、朝食どきの窓の外には雪が音を吸い込んだ静かな森。そんなラップランドの一夜は、€100のこともあれば€1,500のこともあります。15軒の宿泊施設の実際の価格帯を予約ページから直接集めました。あなたの予算でどんな夢に手が届くのか、ひと目でわかります。',
+  eyebrow: '宿泊タイプの価格帯',
+  heading: 'ラップランドの宿、高い順に',
+  lead: 'ガラス天井を流れるオーロラ、温まったサウナ、朝食時に窓の外に広がる雪の森。ラップランドの夜は五つのタイプに分かれます。一生に一度のものから日常的なものまで順に並べ、それぞれの代表的な宿を添えました。一泊の料金は季節と週によって動くため、ご希望の日程の料金は予約ページからご確認いただけます。',
+  scale: { low: '手ごろ', high: '高め' },
   tiers: [
     {
       name: 'グラスイグルー',
-      note: '1泊・1イグルーあたり',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       ctaLabel: 'グラスイグルーを探す',
     },
     {
       name: 'オーロラキャビン',
-      note: '1泊・1キャビンあたり',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       ctaLabel: 'オーロラキャビンを探す',
     },
     {
       name: 'スノーホテル・アイスホテル',
-      note: '1泊・冬季限定',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       ctaLabel: 'スノーホテルを探す',
     },
     {
       name: 'ウィルダネスロッジ',
-      note: '1泊・全室スイート',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       ctaLabel: 'ウィルダネスロッジを探す',
     },
     {
       name: 'ラップランドのホテル・キャビンチェーン',
-      note: '1泊・1室あたり',
       examples: ['Lapland Hotels （複数リゾート）', 'Harriniva (Muonio)'],
       ctaLabel: 'ホテル・キャビンを探す',
     },

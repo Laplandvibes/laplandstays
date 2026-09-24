@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tarifas verificadas a cada temporada",
-        "body": "Toda \"a partir de X €/noite\" vem da página de reserva do operador ou dos nossos parceiros de reserva. Os preços são reconferidos pelo menos uma vez por trimestre e explicitamente no início da temporada de aurora (setembro). Se está esgotado, a página avisa logo no início em vez de jogar o leitor em uma busca com zero resultado."
+        "body": "Este site não publica tarifas por noite próprias. Todo preço que o leitor vê vem da página de reserva do operador ou dos nossos parceiros de reserva, para as datas escolhidas, porque uma tarifa copiada para um artigo fica desatualizada na semana seguinte. Se está esgotado, a página avisa logo no início em vez de jogar o leitor em uma busca com zero resultado."
       },
       {
         "title": "Hospedagens nomeadas, nada de \"premium 5 estrelas\"",

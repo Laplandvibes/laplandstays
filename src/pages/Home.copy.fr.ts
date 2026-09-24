@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "Combien coûte un igloo de verre en Laponie par nuit ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Les igloos de verre en Laponie finlandaise vont d'environ 250 €/nuit au Nova Skyland à Rovaniemi jusqu'à 1 500 €/nuit au Kakslauttanen Arctic Resort à Saariselkä en pleine saison aurorale. Les igloos de verre de gamme intermédiaire à Levin Iglut, Star Arctic et Aurora Village à Ivalo se situent généralement entre 300 et 700 €/nuit."
+          "text": "Cela dépend de l'adresse et de la semaine. Nova Skyland, à Rovaniemi, se situe à l'extrémité la plus abordable des igloos de verre ; Levin Iglut, Star Arctic et Aurora Village à Ivalo au milieu, et Kakslauttanen Arctic Resort tout en haut. La haute saison des aurores est partout la période la plus chère. Nous n'affichons pas de tarif à la nuit ici, car il change avec la date : le prix de vos nuits se trouve sur la page de réservation."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "Combien coûte un hébergement en Laponie avec un budget serré ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Les hôtels et chaînes de chalets de Laponie démarrent autour de 100 €/nuit, Lapland Hotels exploite des établissements à Levi, Ylläs, Saariselkä et Rovaniemi à ce prix d'entrée. Harriniva à Muonio démarre autour de 150 €. Les chalets aurores à Apukka Resort, Arctic SnowHotel et autres propriétés similaires démarrent autour de 150 €/nuit hors haute saison."
+          "text": "L'extrémité abordable, ce sont Lapland Hotels et les chaînes de chalets, avec chambres et appartements à Levi, Ylläs, Saariselkä et Rovaniemi. Harriniva, à Muonio, se place juste au-dessus. Les chalets aurores d'Apukka Resort, d'Arctic SnowHotel et similaires baissent nettement hors des semaines de pointe : l'automne à partir de fin août et le mois d'avril coûtent moins que Noël ou février pour le même chalet."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Quelle destination de Laponie convient le mieux aux primo-visiteurs ?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi est l'introduction la plus simple, vols hivernaux directs vers Kittilä, restaurants et boutiques à distance de marche, Lapland Hotels à partir de 100 €/nuit et un programme complet de safaris depuis le village. Ylläs offre un séjour plus calme et plus axé sur la nature, tandis que Saariselkä et Inari conviennent mieux aux voyageurs souhaitant une nature plus sauvage et davantage d'igloos de verre disponibles."
+          "text": "Levi est l'introduction la plus simple : vols directs en hiver vers Kittilä, restaurants et boutiques à pied, chambres et appartements Lapland Hotels au centre et un programme complet de safaris au départ du village. Ylläs offre un séjour plus calme et plus tourné vers la nature, tandis que Saariselkä et Inari conviennent mieux aux voyageurs qui veulent une nature plus profonde et davantage d'igloos de verre."
         }
       }
     ]

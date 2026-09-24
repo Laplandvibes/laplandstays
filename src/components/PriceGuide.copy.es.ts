@@ -2,37 +2,33 @@
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 
 const copy: PriceGuideCopy = {
-  eyebrow: 'Precios de alojamiento en Laponia',
-  heading: 'Lo que cuesta de verdad una noche en Laponia',
-  lead: 'Auroras deslizándose sobre el techo de cristal, la sauna ya caliente, un bosque silenciado por la nieve al otro lado de la ventana durante el desayuno, una noche así en Laponia puede costar 100 € o 1500 €. Reunimos las horquillas de precio reales de 15 alojamientos directamente de las páginas de reserva, para que vea de un vistazo qué sueño está al alcance de su presupuesto.',
+  eyebrow: 'Nivel de precio',
+  heading: 'Alojamientos de Laponia, del más caro al más asequible',
+  lead: 'Auroras cruzando el techo de cristal, una sauna ya caliente y, en el desayuno, un bosque nevado en silencio al otro lado de la ventana. Cinco tipos de noche lapona, ordenados de lo irrepetible a lo cotidiano, con los alojamientos que hay detrás de cada uno. Lo que cuesta una noche varía según la temporada y la semana, así que la tarifa sale de la página de reservas, para sus fechas.',
+  scale: { low: 'Más asequible', high: 'Más caro' },
   tiers: [
     {
       name: 'Iglús de cristal',
-      note: 'por noche, por iglú',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       ctaLabel: 'Buscar iglús de cristal',
     },
     {
       name: 'Cabañas para auroras boreales',
-      note: 'por noche, por cabaña',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       ctaLabel: 'Buscar cabañas para auroras',
     },
     {
       name: 'Hoteles de nieve y hielo',
-      note: 'por noche, solo en temporada',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       ctaLabel: 'Buscar hoteles de nieve',
     },
     {
       name: 'Lodges en plena naturaleza',
-      note: 'por noche, solo suites',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       ctaLabel: 'Buscar lodges',
     },
     {
       name: 'Hoteles y cadenas de cabañas de Laponia',
-      note: 'por noche, por habitación',
       examples: ['Lapland Hotels (varios resorts)', 'Harriniva (Muonio)'],
       ctaLabel: 'Buscar hoteles y cabañas',
     },

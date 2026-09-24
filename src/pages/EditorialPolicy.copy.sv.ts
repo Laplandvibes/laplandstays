@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Verifierade priser, varje säsong",
-        "body": "Varje uppgift om \"från X €/natt\" hämtas från leverantörens egen bokningssida eller våra bokningspartner. Priserna kontrolleras minst en gång per kvartal och särskilt i början av norrskenssäsongen (september). Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka läsaren till en sökning med noll träffar."
+        "body": "Den här sidan anger inga egna nattpriser. Varje pris läsaren ser kommer från leverantörens egen bokningssida eller våra bokningspartner, för de datum läsaren väljer, eftersom ett pris som kopieras in i en artikel är gammalt veckan därpå. Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka läsaren till en sökning med noll träffar."
       },
       {
         "title": "Namngivna boenden, inte \"premium med fem stjärnor\"",

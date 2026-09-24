@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "Mitä lasi-iglu Lapissa maksaa yöltä?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lasi-iglujen hinnat alkavat noin 250 €:sta yöltä (Nova Skyland, Rovaniemi) ja nousevat revontulisesongin huipussa noin 1 500 €:oon yöltä (Kakslauttanen Arctic Resort, Saariselkä). Keskihintaiset lasi-iglut, kuten Levin Iglut, Star Arctic ja Aurora Village Ivalossa, maksavat tyypillisesti 300–700 € yöltä."
+          "text": "Se riippuu kohteesta ja viikosta. Rovaniemen Nova Skyland on lasi-iglujen edullisinta päätä, Levin Iglut, Star Arctic ja Aurora Village Ivalossa asettuvat keskelle ja Kakslauttanen Arctic Resort kalleimmaksi. Revontulisesonki on kaikkialla kallein jakso. Emme kirjoita tähän yöhintaa, koska se muuttuu päivämäärän mukaan: omien öidesi hinnan näet varaussivulta."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "Paljonko edullisin Lapin majoitus maksaa?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lapin hotellien ja mökkiketjujen hinnat alkavat noin 100 €:sta yöltä: Lapland Hotels toimii tällä hintatasolla Levillä, Ylläksellä, Saariselällä ja Rovaniemellä. Harrinivan hinnat Muoniossa alkavat noin 150 €:sta. Revontulimökit (Apukka Resort, Arctic SnowHotel ja vastaavat) alkavat sesongin ulkopuolella noin 150 €:sta yöltä."
+          "text": "Edullisinta päätä ovat Lapland Hotels ja mökkiketjut, joilla on huoneita ja huoneistoja Levillä, Ylläksellä, Saariselällä ja Rovaniemellä. Harriniva Muoniossa asettuu juuri niiden yläpuolelle. Revontulimökit, kuten Apukka Resort ja Arctic SnowHotel, halpenevat selvästi huippuviikkojen ulkopuolella: syksy elokuun lopulta alkaen ja huhtikuu maksavat samasta mökistä vähemmän kuin joulu tai helmikuu."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Mikä Lapin kohde on paras ensikertalaiselle?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi on helpoin aloituskohde: suorat talvilennot Kittilään, ravintolat ja kaupat kävelymatkan päässä, Lapland Hotels alkaen 100 €/yö ja koko safarivalikoima suoraan kylästä. Ylläs on hiljaisempi ja luontopainotteisempi. Saariselkä ja Inari sopivat parhaiten niille, jotka haluavat syvemmälle erämaahan ja laajimpaan lasi-igluvalikoimaan."
+          "text": "Levi on helpoin aloituskohde: suorat talvilennot Kittilään, ravintolat ja kaupat kävelymatkan päässä, Lapland Hotelsin huoneita ja huoneistoja keskustassa ja koko safarivalikoima suoraan kylästä. Ylläs on hiljaisempi ja luontopainotteisempi. Saariselkä ja Inari sopivat parhaiten niille, jotka haluavat syvemmälle erämaahan ja laajimpaan lasi-igluvalikoimaan."
         }
       }
     ]

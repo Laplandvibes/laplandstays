@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "¿Cuánto cuesta por noche un iglú de cristal en Laponia?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Los iglús de cristal de la Laponia finlandesa van desde unos 250 € por noche en Nova Skyland (Rovaniemi) hasta 1.500 € por noche en Kakslauttanen Arctic Resort (Saariselkä) en plena temporada de auroras. Los iglús de gama media de Levin Iglut, Star Arctic y Aurora Village en Ivalo suelen situarse entre 300 € y 700 € por noche."
+          "text": "Depende del alojamiento y de la semana. Nova Skyland, en Rovaniemi, está en el extremo más asequible de los iglús de cristal; Levin Iglut, Star Arctic y Aurora Village en Ivalo quedan en el medio, y Kakslauttanen Arctic Resort en lo más alto. La temporada alta de auroras es el tramo más caro en todas partes. Aquí no publicamos una tarifa por noche, porque cambia con la fecha: el precio de sus noches está en la página de reservas."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "¿Cuánto cuesta el alojamiento en Laponia con un presupuesto ajustado?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Los hoteles y las cadenas de cabañas de Laponia parten de unos 100 € por noche: Lapland Hotels opera en Levi, Ylläs, Saariselkä y Rovaniemi a ese precio de entrada. Harriniva, en Muonio, arranca en torno a 150 €. Las cabañas para auroras de Apukka Resort, Arctic SnowHotel y propiedades similares empiezan cerca de 150 € por noche fuera de temporada alta."
+          "text": "El extremo asequible son Lapland Hotels y las cadenas de cabañas, con habitaciones y apartamentos en Levi, Ylläs, Saariselkä y Rovaniemi. Harriniva, en Muonio, queda justo por encima. Las cabañas de auroras de Apukka Resort, Arctic SnowHotel y similares bajan de forma notable fuera de las semanas pico: el otoño desde finales de agosto y el mes de abril cuestan menos que la Navidad o febrero para la misma cabaña."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "¿Qué destino de Laponia es mejor para quienes viajan por primera vez?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi es la introducción más sencilla: vuelos directos de invierno a Kittilä, restaurantes y tiendas a poca distancia a pie, Lapland Hotels desde 100 € por noche y una oferta completa de safaris desde el pueblo. Ylläs ofrece una estancia más tranquila y orientada a la naturaleza, mientras que Saariselkä e Inari son ideales para quienes buscan naturaleza más salvaje y más iglús de cristal disponibles."
+          "text": "Levi es la introducción más fácil: vuelos directos de invierno a Kittilä, restaurantes y tiendas a pie, habitaciones y apartamentos de Lapland Hotels en el centro y un menú completo de safaris desde el pueblo. Ylläs ofrece una estancia más tranquila y más cercana a la naturaleza, mientras que Saariselkä e Inari son mejores para quien busca naturaleza más profunda y más iglús de cristal."
         }
       }
     ]

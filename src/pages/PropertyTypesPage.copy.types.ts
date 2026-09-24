@@ -11,22 +11,16 @@ export interface PageUi {
   lead: string
   statCategories: string
   statAnchors: string
-  statPriceLabel: string
   bestForLabel: string
   avoidIfLabel: string
   anchorLabel: string
   concentratedLabel: string
-  perIgloo: string
-  perCabin: string
-  perRoom: string
-  perSuite: string
 }
 
 export interface PageCategory {
   eyebrow: string
   title: string
   body: string
-  priceRange: string
   bestFor: string[]
   avoidIf: string[]
   ctaLabel: string

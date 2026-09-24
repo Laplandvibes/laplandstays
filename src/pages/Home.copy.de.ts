@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "Was kostet ein Glasiglu in Lappland pro Nacht?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Glasiglus in Finnisch-Lappland kosten zwischen rund 250 €/Nacht im Nova Skyland in Rovaniemi und bis zu 1.500 €/Nacht im Kakslauttanen Arctic Resort in Saariselkä während der Polarlicht-Hauptsaison. Mittelklasse-Glasiglus in Levin Iglut, Star Arctic und Aurora Village in Ivalo liegen typischerweise zwischen 300 und 700 €/Nacht."
+          "text": "Das hängt von der Unterkunft und von der Woche ab. Nova Skyland in Rovaniemi liegt am günstigen Ende der Glasiglus, Levin Iglut, Star Arctic und Aurora Village in Ivalo in der Mitte, Kakslauttanen Arctic Resort an der Spitze. Die Polarlicht-Hauptsaison ist überall der teuerste Abschnitt. Einen Übernachtungspreis nennen wir hier nicht, weil er sich mit dem Datum ändert: Der Preis für Ihre Nächte steht auf der Buchungsseite."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "Wie viel kostet eine Lappland-Unterkunft mit kleinem Budget?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lappland-Hotels und Hüttenketten beginnen bei rund 100 €/Nacht. Lapland Hotels betreibt Häuser in Levi, Ylläs, Saariselkä und Rovaniemi zu diesem Einstiegspreis. Harriniva in Muonio beginnt bei rund 150 €. Polarlicht-Hütten in Apukka Resort, Arctic SnowHotel und ähnlichen Unterkünften beginnen außerhalb der Hauptsaison bei rund 150 €/Nacht."
+          "text": "Am günstigen Ende stehen Lapland Hotels und die Hüttenketten mit Zimmern und Apartments in Levi, Ylläs, Saariselkä und Rovaniemi. Harriniva in Muonio liegt knapp darüber. Polarlicht-Hütten wie Apukka Resort oder Arctic SnowHotel werden außerhalb der Hauptwochen deutlich günstiger: Der Herbst ab Ende August und der April kosten für dieselbe Hütte weniger als Weihnachten oder der Februar."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Welches Reiseziel in Lappland eignet sich am besten für Erstbesucher?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi ist der einfachste Einstieg, direkte Winterflüge nach Kittilä, Restaurants und Geschäfte in Gehweite, Lapland Hotels ab 100 €/Nacht und ein volles Safari-Programm aus dem Dorf. Ylläs bietet einen ruhigeren, naturnäheren Aufenthalt, während Saariselkä und Inari am besten für Reisende geeignet sind, die tiefere Wildnis und eine größere Auswahl an Glasiglus suchen."
+          "text": "Levi ist der einfachste Einstieg, direkte Winterflüge nach Kittilä, Restaurants und Geschäfte in Gehweite, Zimmer und Apartments von Lapland Hotels im Ort und ein volles Safari-Programm aus dem Dorf. Ylläs bietet einen ruhigeren, naturnäheren Aufenthalt, während Saariselkä und Inari am besten für Reisende geeignet sind, die tiefere Wildnis und eine größere Auswahl an Glasiglus suchen."
         }
       }
     ]

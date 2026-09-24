@@ -3,7 +3,7 @@ import type { PageCopy } from './About.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Over LaplandStays, Onafhankelijke accommodatiegids Lapland",
-    "description": "Onafhankelijke accommodatiegids voor Fins Lapland, accommodaties met naam, elk seizoen gecontroleerde tarieven en heldere partnertransparantie."
+    "description": "Onafhankelijke accommodatiegids voor Fins Lapland, accommodaties met naam, geen eigen nachttarieven en heldere partnertransparantie."
   },
   "ui": {
     "eyebrow": "Over ons",
@@ -12,7 +12,7 @@ const copy: PageCopy = {
     "intro": "LaplandStays is de accommodatiegids waarvan de beheerder hoopte dat hij bestond toen vrienden vroegen waar ze konden slapen.",
     "missionEyebrow": "Waarom dit bestaat",
     "missionH2": "Eén eerlijke gids voor waar u in Lapland slaapt",
-    "missionP1": "De meeste online accommodatieoverzichten van Lapland verzinnen prijzen (\"vanaf €99/nacht\" voor een adres dat dat tarief al zes jaar niet meer hanteert), verbergen affiliate-vermeldingen of bevelen op de automatische piloot dezelfde vijf resorts aan. LaplandStays is een correctie, een kleine, op specifiek benoemde accommodaties gerichte gids die elk seizoen de tarieven opnieuw nakijkt en u meldt dat iets 12 maanden vooruit is uitverkocht, in plaats van te doen alsof dat niet zo is.",
+    "missionP1": "De meeste online accommodatieoverzichten van Lapland verzinnen prijzen (\"vanaf €99/nacht\" voor een adres dat dat tarief al zes jaar niet meer hanteert), verbergen affiliate-vermeldingen of bevelen op de automatische piloot dezelfde vijf resorts aan. LaplandStays is een correctie, een kleine, op specifiek benoemde accommodaties gerichte gids die zelf geen nachttarieven afdrukt, omdat een in de pagina getypt tarief een week later verouderd is, en u meldt dat iets 12 maanden vooruit is uitverkocht, in plaats van te doen alsof dat niet zo is.",
     "missionP2": "Dit is een redactioneel medium, geen boekingsplatform. Wanneer u doorklikt naar een van de boekingspartners, ontstaat het contract tussen u en hen, reserveringen en betalingen verlopen daar. Op boekingen via deze links wordt een affiliatevergoeding ontvangen, maar het tarief is in het hele partnerprogramma vergelijkbaar, dus dat heeft geen invloed op wat wordt aanbevolen.",
     "opEyebrow": "Beheerder",
     "opH2": "LaPeso Oy",
@@ -28,7 +28,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Redactionele standaarden",
-        "bodyPre": "Elke prijs wordt per seizoen opnieuw nagekeken op aanbiederpagina's. Geen verzonnen statistieken. Geen \"vanaf €X\" zonder geverifieerde datum. Affiliate-links dragen het door de EU vereiste ",
+        "bodyPre": "Hier staat geen nachttarief: de prijs komt van de boekingspagina van de aanbieder, voor uw data. Geen verzonnen statistieken. Affiliate-links dragen het door de EU vereiste ",
         "codeWord": "sponsored",
         "bodyMid": " rel-attribuut. Zie de ",
         "termsLink": "Voorwaarden",
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Eerlijke \"vanaf\"-prijzen",
-        "body": "Elke \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van onze boekingspartners, minstens één keer per seizoen nagekeken. Is een adres in piekweken volgeboekt, dan zegt de pagina dat vooraan, in plaats van u naar een zoekopdracht met 0 resultaten te sturen."
+        "body": "Wij drukken geen eigen nachttarieven af: de prijs die u na het klikken ziet, is die van de aanbieder, voor de data die u kiest. Is een adres in piekweken volgeboekt, dan zegt de pagina dat vooraan, in plaats van u naar een zoekopdracht met 0 resultaten te sturen."
       },
       {
         "title": "\"Geschikt voor / vermijd als\"-aanpak",

@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "라플란드의 글래스 이글루는 1박에 얼마인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "핀란드 라플란드의 글래스 이글루는 로바니에미의 Nova Skyland에서 1박 약 250유로부터 시작하며, 오로라 성수기에는 사리셀카 Kakslauttanen Arctic Resort에서 1박 1,500유로까지 올라갑니다. Levin Iglut, Star Arctic, 이발로의 Aurora Village 같은 중급 글래스 이글루는 일반적으로 1박 300~700유로 사이입니다."
+          "text": "숙소와 주에 따라 다릅니다. 로바니에미의 Nova Skyland는 글래스 이글루 중 저렴한 편이고, Levin Iglut과 Star Arctic, 이발로의 Aurora Village는 중간, Kakslauttanen Arctic Resort가 가장 높습니다. 오로라 성수기에는 어디서나 가장 비쌉니다. 저희는 여기에 1박 요금을 적지 않습니다. 날짜에 따라 달라지기 때문이며, 원하시는 날짜의 요금은 예약 페이지에 표시됩니다."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "예산이 제한적일 때 라플란드 숙박 비용은 얼마인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "라플란드 호텔과 캐빈 체인은 1박 약 100유로부터 시작합니다. Lapland Hotels는 레비, 윌래스, 사리셀카, 로바니에미에서 이 시작 가격으로 운영됩니다. 무오니오의 Harriniva는 약 150유로부터 시작합니다. Apukka Resort, Arctic SnowHotel과 같은 오로라 캐빈은 성수기 외에는 1박 약 150유로부터 이용 가능합니다."
+          "text": "저렴한 편은 Lapland Hotels와 캐빈 체인으로, 레비, 윌래스, 사리셀카, 로바니에미에 객실과 아파트가 있습니다. 무오니오의 Harriniva가 그 바로 위입니다. Apukka Resort, Arctic SnowHotel 같은 오로라 캐빈은 성수기 주간을 피하면 눈에 띄게 저렴해집니다. 같은 캐빈이라도 8월 말부터의 가을과 4월은 크리스마스나 2월보다 쌉니다."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "라플란드 처음 방문하는 분께 가장 좋은 여행지는 어디인가요?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "레비가 가장 입문하기 쉬운 곳입니다. 키틸래 공항까지 직항 겨울 항공편이 운항되며 레스토랑과 상점이 도보 거리 내에 있고, Lapland Hotels는 1박 100유로부터 이용 가능하며 마을에서 풀 사파리 메뉴를 제공합니다. 윌래스는 더 조용하고 자연 중심적인 체류를 제공하며, 사리셀카와 이나리는 더 깊은 야생과 더 많은 글래스 이글루 객실을 원하는 여행자에게 가장 적합합니다."
+          "text": "레비가 가장 무난한 출발점입니다. 키틸래로 가는 겨울 직항, 걸어서 닿는 식당과 상점, 중심가의 Lapland Hotels 객실과 아파트, 마을에서 출발하는 다양한 사파리가 있습니다. 윌래스는 더 조용하고 자연에 가깝고, 사리셀카와 이나리는 더 깊은 야생과 더 많은 글래스 이글루를 원하는 여행자에게 맞습니다."
         }
       }
     ]

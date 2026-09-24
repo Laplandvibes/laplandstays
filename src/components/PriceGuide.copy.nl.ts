@@ -2,37 +2,33 @@
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 
 const copy: PriceGuideCopy = {
-  eyebrow: 'Accommodatieprijzen in Lapland',
-  heading: 'Wat een nacht in Lapland echt kost',
-  lead: "Het noorderlicht dat langs uw glazen dak schuift, een sauna die al warm is, bij het ontbijt een sneeuwstil bos achter het raam, zo'n nacht in Lapland kan € 100 kosten of € 1.500. We verzamelden de werkelijke prijsmarges van 15 accommodaties rechtstreeks van de boekingspagina's, zodat u in één oogopslag ziet welke droom binnen uw budget valt.",
+  eyebrow: 'Prijsniveau',
+  heading: 'Lapland-accommodaties, van duur tot goedkoop',
+  lead: 'Noorderlicht dat over het glazen dak trekt, een sauna die al warm is en bij het ontbijt een sneeuwstil bos achter het raam. Vijf soorten Laplandnacht, gerangschikt van eenmalig tot alledaags, met de accommodaties achter elke soort. Wat een nacht kost hangt af van het seizoen en de week, dus het tarief komt van de boekingspagina, voor uw eigen data.',
+  scale: { low: 'Goedkoper', high: 'Duurder' },
   tiers: [
     {
       name: "Glasiglo's",
-      note: 'per nacht, per iglo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       ctaLabel: "Vind glasiglo's",
     },
     {
       name: 'Noorderlichthutten',
-      note: 'per nacht, per hut',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       ctaLabel: 'Vind noorderlichthutten',
     },
     {
       name: 'Sneeuw- en ijshotels',
-      note: 'per nacht, alleen in het seizoen',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       ctaLabel: 'Vind sneeuwhotels',
     },
     {
       name: 'Wildernislodges',
-      note: 'per nacht, alleen suites',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       ctaLabel: 'Vind wildernislodges',
     },
     {
       name: 'Laplandse hotels en hutketens',
-      note: 'per nacht, per kamer',
       examples: ['Lapland Hotels (meerdere resorts)', 'Harriniva (Muonio)'],
       ctaLabel: 'Vind hotels en hutten',
     },

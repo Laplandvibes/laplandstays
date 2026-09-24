@@ -3,7 +3,7 @@ import type { PageCopy } from './About.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "À propos de LaplandStays : guide d'hébergement en Laponie",
-    "description": "Guide indépendant des hébergements en Laponie finlandaise : établissements nommés, tarifs vérifiés chaque saison et transparence sur les affiliations."
+    "description": "Guide indépendant des hébergements en Laponie finlandaise : établissements nommés, aucun tarif à la nuit de notre cru et transparence sur les affiliations."
   },
   "ui": {
     "eyebrow": "À propos",
@@ -12,7 +12,7 @@ const copy: PageCopy = {
     "intro": "LaplandStays est l'annuaire d'hébergements dont l'opérateur rêvait quand des amis lui demandaient où loger.",
     "missionEyebrow": "Pourquoi ce site existe",
     "missionH2": "Un guide honnête sur où dormir en Laponie",
-    "missionP1": "La plupart des annuaires d'hébergements en Laponie en ligne inventent des prix (« à partir de 99 €/nuit » pour une adresse qui n'a pas affiché ce tarif depuis six ans), masquent les mentions d'affiliation ou recommandent toujours les cinq mêmes resorts en pilote automatique. LaplandStays est une correction, un petit guide centré sur des adresses nommées, qui revérifie les tarifs à chaque saison et vous dit quand une chambre est complète 12 mois à l'avance au lieu de prétendre le contraire.",
+    "missionP1": "La plupart des annuaires d'hébergements en Laponie en ligne inventent des prix (« à partir de 99 €/nuit » pour une adresse qui n'a pas affiché ce tarif depuis six ans), masquent les mentions d'affiliation ou recommandent toujours les cinq mêmes resorts en pilote automatique. LaplandStays est une correction, un petit guide centré sur des adresses nommées, qui n'affiche aucun tarif à la nuit de son cru, parce qu'un tarif tapé dans une page est périmé la semaine suivante, et vous dit quand une chambre est complète 12 mois à l'avance au lieu de prétendre le contraire.",
     "missionP2": "C'est un média éditorial, pas une plateforme de réservation. Quand vous cliquez vers l'un des partenaires de réservation, le contrat se noue entre vous et eux, réservations et paiements sont traités chez eux. Une commission d'affiliation est perçue sur les réservations passées via ces liens, mais le taux est similaire dans tout le programme partenaire, ce qui n'a donc aucune influence sur ce qui est recommandé.",
     "opEyebrow": "Opérateur",
     "opH2": "LaPeso Oy",
@@ -28,7 +28,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Standards éditoriaux",
-        "bodyPre": "Chaque prix est revérifié chaque saison sur les pages de l'opérateur. Pas de statistiques inventées. Aucun « à partir de X € » sans date vérifiée. Les liens d'affiliation portent l'attribut rel ",
+        "bodyPre": "Aucun tarif à la nuit n'est affiché ici : le prix vient de la page de réservation de l'opérateur, pour vos dates. Pas de statistiques inventées. Les liens d'affiliation portent l'attribut rel ",
         "codeWord": "sponsored",
         "bodyMid": " requis par l'UE. Voir les ",
         "termsLink": "Conditions",
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Prix « à partir de » honnêtes",
-        "body": "Chaque « à partir de X €/nuit » est tiré de la page de réservation de l'opérateur ou de nos partenaires de réservation, vérifié au moins une fois par saison. Si une adresse est complète en semaine de pointe, la page le dit d'emblée au lieu de vous renvoyer vers une recherche à 0 résultat."
+        "body": "Nous n'affichons aucun tarif à la nuit de notre cru : le prix que vous voyez après le clic est celui de l'opérateur, pour les dates que vous choisissez. Si une adresse est complète en semaine de pointe, la page le dit d'emblée au lieu de vous renvoyer vers une recherche à 0 résultat."
       },
       {
         "title": "Cadre « idéal pour / à éviter si »",

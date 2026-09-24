@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ArrowRight, Sparkles, TreePine, Snowflake, Mountain, Building2 } from 'lucide-react'
 import { HOTEL_SEARCH_FOR, buildHotelSearch } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
@@ -8,23 +8,28 @@ import type { PriceGuideCopy } from './PriceGuide.copy.en'
 import enCopy from './PriceGuide.copy.en'
 
 // Non-translatable per-tier data. Order matches `tiers` in PriceGuide.copy.*.
-// The € figures live here rather than in the copy files: the numbers are the
-// same in every language, only their formatting differs (fi "1 500 €", en
-// "€1,500"), and Intl derives that from the locale further down.
+//
+// 2026-09-24 (Vesa: "luvut pois, ohjeet jäävät"): the tiers no longer carry euro
+// figures. A rate typed into the page is out of date the week after, and this
+// site had one in five surfaces at once. What survives is what does not go
+// stale: the ORDER of the categories and how far apart they sit. Each tier is a
+// band on a 0–1 price-level axis, drawn against the same track, so the section
+// still answers "which of these is the expensive one" by shape. The rate itself
+// is on the booking page the row links to.
 // Per language, not per module load: locale decides Sembo (fi) vs Trip.com.
 const tierMetaFor = (lang: Lang) => [
-  { icon: Sparkles, from: 250, to: 1500, cta: HOTEL_SEARCH_FOR(lang).auroraGlass, campaign: 'price-glass-igloo' },
-  { icon: TreePine, from: 150, to: 700, cta: HOTEL_SEARCH_FOR(lang).lakesideCabin, campaign: 'price-aurora-cabin' },
-  { icon: Snowflake, from: 150, to: 400, cta: buildHotelSearch('Kittilä, Finland', 'property_snow_hotel', lang), campaign: 'price-snow-hotel' },
-  { icon: Mountain, from: 200, to: 600, cta: HOTEL_SEARCH_FOR(lang).designerLodge, campaign: 'price-wilderness-lodge' },
-  { icon: Building2, from: 100, to: 350, cta: HOTEL_SEARCH_FOR(lang).hotel, campaign: 'price-hotel-chain' },
+  { icon: Sparkles, from: 0.11, to: 1, cta: HOTEL_SEARCH_FOR(lang).auroraGlass, campaign: 'price-glass-igloo' },
+  { icon: TreePine, from: 0.04, to: 0.43, cta: HOTEL_SEARCH_FOR(lang).lakesideCabin, campaign: 'price-aurora-cabin' },
+  { icon: Snowflake, from: 0.04, to: 0.21, cta: buildHotelSearch('Kittilä, Finland', 'property_snow_hotel', lang), campaign: 'price-snow-hotel' },
+  { icon: Mountain, from: 0.07, to: 0.36, cta: HOTEL_SEARCH_FOR(lang).designerLodge, campaign: 'price-wilderness-lodge' },
+  { icon: Building2, from: 0, to: 0.18, cta: HOTEL_SEARCH_FOR(lang).hotel, campaign: 'price-hotel-chain' },
 ]
 
-// Shared scale for every range bar. Starts at the cheapest room on the page
-// rather than at zero, so the whole width carries information.
-const SCALE_MIN = 100
-const SCALE_MAX = 1500
-const SCALE_TICKS = [500, 1000]
+// Shared 0–1 level axis for every band. Gridlines at a third and two thirds keep
+// the track readable; they are marks, not amounts.
+const SCALE_MIN = 0
+const SCALE_MAX = 1
+const SCALE_TICKS = [0.33, 0.66]
 const SCALE_SPAN = SCALE_MAX - SCALE_MIN
 
 // Warm-to-hot price ramp built from this site's own tokens: gold (#D4A574) →
@@ -67,31 +72,6 @@ function rampRgb(t: number): [number, number, number] {
 
 const pct = (v: number) => ((v - SCALE_MIN) / SCALE_SPAN) * 100
 
-// ---------- price formatting ----------
-
-const LOCALE_TAG: Record<Lang, string> = {
-  en: 'en-GB', fi: 'fi-FI', de: 'de-DE', ja: 'ja-JP', es: 'es-ES', 'pt-BR': 'pt-BR',
-  'zh-CN': 'zh-CN', ko: 'ko-KR', fr: 'fr-FR', it: 'it-IT', nl: 'nl-NL', sv: 'sv-SE',
-}
-
-function usePrices(lang: Lang) {
-  return useMemo(() => {
-    const tag = LOCALE_TAG[lang] ?? 'en-GB'
-    const plain = new Intl.NumberFormat(tag, { maximumFractionDigits: 0 })
-    const money = new Intl.NumberFormat(tag, { style: 'currency', currency: 'EUR', maximumFractionDigits: 0 })
-    // Symbol-first locales read "€250 – 1,500", symbol-last ones "250 – 1 500 €".
-    // Repeating the symbol on both ends is correct in neither.
-    const symbolFirst = money.formatToParts(1)[0]?.type === 'currency'
-    return {
-      money: (v: number) => money.format(v),
-      range: (from: number, to: number) =>
-        symbolFirst
-          ? `${money.format(from)} – ${plain.format(to)}`
-          : `${plain.format(from)} – ${money.format(to)}`,
-    }
-  }, [lang])
-}
-
 // ---------- copy (lazy-loaded per locale, same pattern as Transport.tsx) ----------
 
 const cache: Partial<Record<Lang, PriceGuideCopy>> = { en: enCopy }
@@ -131,13 +111,12 @@ function usePriceGuideCopy(): PriceGuideCopy {
   return copy
 }
 
-// Identity | bar | price | arrow. Every track is a FIXED width: each row is its
-// own grid container, so an `auto` price column sized itself per row (the unit
-// note is wider than the price and varies by tier) and the bars ended up at a
-// different x in every row, which defeats the whole point of a shared scale.
-// Below md the bar drops to its own full-width line.
+// Identity | band | arrow. The band track is a FIXED width: each row is its own
+// grid container, so an `auto` column sized itself per row and the bands ended
+// up at a different x in every row, which defeats the whole point of a shared
+// axis. Below md the band drops to its own full-width line.
 const GRID =
-  'grid grid-cols-[minmax(0,1fr)_124px] md:grid-cols-[minmax(0,1fr)_clamp(110px,19vw,230px)_136px_1rem] gap-x-4 md:gap-x-6'
+  'grid grid-cols-[minmax(0,1fr)] md:grid-cols-[minmax(0,1fr)_clamp(140px,26vw,300px)_1rem] gap-x-4 md:gap-x-6'
 
 function RangeBar({ from, to, accent }: { from: number; to: number; accent: string }) {
   const left = pct(from)
@@ -176,16 +155,15 @@ function RangeBar({ from, to, accent }: { from: number; to: number; accent: stri
 export default function PriceGuide() {
   const lang = useLang()
   const copy = usePriceGuideCopy()
-  const fmt = usePrices(lang)
   const onClick = (campaign: string, href: string) => () => {
     trackAffiliateClick('lodging', campaign, href)
   }
 
   // A price ladder rather than a list of five identical rows: every category
-  // sits on one shared €100–€1,500 scale, so the section answers "what does a
-  // night cost" by shape as well as by number (Vesa 2026-07-24, replacing the
-  // flat rate table). The SEO keyword slug that used to sit under each name is
-  // gone — the anchor properties are the line worth reading there.
+  // sits on one shared level axis, so the section answers "which of these is the
+  // expensive one" by shape (Vesa 2026-07-24, replacing the flat rate table;
+  // amounts removed 2026-09-24). The SEO keyword slug that used to sit under
+  // each name is gone: the anchor properties are the line worth reading there.
   return (
     <section id="price-guide" className="lvs-warm-veil py-16 sm:py-24 px-4 sm:px-6 bg-gradient-to-b from-[#FBF6F0] via-white to-white">
       <div className="relative max-w-5xl mx-auto">
@@ -205,13 +183,15 @@ export default function PriceGuide() {
         </div>
 
         <div className="lvs-card overflow-hidden rounded-3xl">
-          {/* Scale header: labels the axis the bars below are drawn against. */}
-          <div className={`${GRID} hidden md:grid px-8 pt-6 pb-4 items-end`}>
+          {/* Scale header: labels the axis the bars below are drawn against.
+              Visible on mobile too: below md the row drops its band onto its own
+              line, and an unlabelled bar with no figure beside it says nothing. */}
+          <div className={`${GRID} px-5 sm:px-8 pt-5 md:pt-6 pb-3 md:pb-4 items-end`}>
             <span />
             <div className="relative">
-              <div className="flex justify-between text-[10px] font-semibold uppercase tracking-[0.14em] text-charcoal/40 tabular-nums">
-                <span>{fmt.money(SCALE_MIN)}</span>
-                <span>{fmt.money(SCALE_MAX)}</span>
+              <div className="flex justify-between text-[10px] font-semibold uppercase tracking-[0.14em] text-charcoal/40">
+                <span>{copy.scale.low}</span>
+                <span>{copy.scale.high}</span>
               </div>
               <div className="relative mt-1.5 h-1.5">
                 {SCALE_TICKS.map((t) => (
@@ -260,21 +240,9 @@ export default function PriceGuide() {
                   </div>
                 </div>
 
-                <div className="col-start-2 row-start-1 md:col-start-3 text-right">
-                  <p className="font-heading text-2xl sm:text-[28px] leading-tight tracking-wide text-night whitespace-nowrap">
-                    {fmt.range(meta.from, meta.to)}
-                  </p>
-                  {/* Wraps inside the fixed column instead of widening it, and
-                      always reserves both lines so a long unit ("vain
-                      talvikausi") does not make its row taller than the rest. */}
-                  <p className="mt-1.5 min-h-[2.7em] text-[10px] leading-[1.35] uppercase tracking-[0.14em] text-charcoal/45 line-clamp-2">
-                    {tier.note}
-                  </p>
-                </div>
+                <ArrowRight className="hidden md:block col-start-3 row-start-1 h-4 w-4 shrink-0 self-center text-charcoal/25 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-[var(--tier-accent)]" />
 
-                <ArrowRight className="hidden md:block col-start-4 row-start-1 h-4 w-4 shrink-0 self-center text-charcoal/25 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-[var(--tier-accent)]" />
-
-                <div className="col-start-1 col-span-2 row-start-2 mt-4 md:col-start-2 md:col-span-1 md:row-start-1 md:mt-0 md:self-center">
+                <div className="col-start-1 row-start-2 mt-4 md:col-start-2 md:row-start-1 md:mt-0 md:self-center">
                   <RangeBar from={meta.from} to={meta.to} accent={accent} />
                 </div>
               </a>

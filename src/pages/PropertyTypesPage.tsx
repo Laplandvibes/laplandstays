@@ -63,8 +63,6 @@ interface CategoryProps {
   title: string
   Icon: ComponentType<SVGProps<SVGSVGElement>>
   body: string
-  priceRange: string
-  priceNote: string
   bestForLabel: string
   avoidIfLabel: string
   anchorLabel: string
@@ -141,10 +139,9 @@ function CategorySection(p: CategoryProps) {
       <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-4">{p.title}</h2>
       <p className="text-charcoal/75 leading-relaxed text-lg mb-6">{p.body}</p>
 
-      <div className="flex items-baseline gap-3 mb-7 pb-7 border-b border-night/10">
-        <p className="font-heading text-3xl text-[#B45309] tracking-wide whitespace-nowrap">{p.priceRange}</p>
-        <p className="text-xs text-charcoal/70 uppercase tracking-widest">{p.priceNote}</p>
-      </div>
+      {/* No price row since 2026-09-24: a typed-in nightly range goes stale and the
+          reader gets the real one on the booking page. Rule of 22.8.2026. */}
+      <div className="mb-7 pb-7 border-b border-night/10" />
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5 mb-7">
         <div>
@@ -354,11 +351,6 @@ const SLUG_NAME: Record<string, Record<Lang, string>> = {
   yllas:      { en: 'Ylläs',      fi: 'Ylläs',      de: 'Ylläs',      ja: 'ユッラス',   es: 'Ylläs',      'pt-BR': 'Ylläs',      'zh-CN': '於拉斯',   ko: '윌래스',    fr: 'Ylläs',      it: 'Ylläs',      nl: 'Ylläs', sv: 'Ylläs' },
 }
 
-/** Short per-night suffix for the hero stat subtitle (price-range context). */
-const PER_NIGHT: Record<Lang, string> = {
-  en: '/ night', fi: '/ yö', de: '/ Nacht', ja: '/泊', es: '/ noche', 'pt-BR': '/ noite', 'zh-CN': '/晚', ko: '/박', fr: '/ nuit', it: '/ notte', nl: '/ nacht', sv: '/ natt',
-}
-
 export default function PropertyTypesPage() {
   const lang = useLang()
   const to = useLocalePath()
@@ -427,8 +419,6 @@ export default function PropertyTypesPage() {
               4 {ui.statCategories}
               <span className="mx-2.5 text-snow/45">·</span>
               12+ {ui.statAnchors}
-              <span className="mx-2.5 text-snow/45">·</span>
-              €100–€1,500 {PER_NIGHT[lang]}
             </p>
           </div>
         </div>
@@ -467,8 +457,6 @@ export default function PropertyTypesPage() {
             title={cat.title}
             Icon={meta.Icon}
             body={cat.body}
-            priceRange={cat.priceRange}
-            priceNote={ui[meta.priceNoteKey as 'perIgloo' | 'perCabin' | 'perRoom' | 'perSuite']}
             bestForLabel={ui.bestForLabel}
             avoidIfLabel={ui.avoidIfLabel}
             anchorLabel={ui.anchorLabel}

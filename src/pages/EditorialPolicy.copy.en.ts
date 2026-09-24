@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Verified rates, every season",
-        "body": "Every \"from €X/night\" claim is pulled from the operator's own booking page or our booking partners. Prices are re-checked at least once per quarter and explicitly at the start of aurora season (September). Where a property is sold out for peak weeks the page says so up front instead of routing readers to a 0-result search."
+        "body": "This site prints no nightly rates of its own. Every price a reader sees comes from the operator's own booking page or from our booking partners, for the dates the reader picks, because a rate copied into an article is out of date the week after. Where a property is sold out for peak weeks the page says so up front instead of routing readers to a 0-result search."
       },
       {
         "title": "Named properties, not \"premium 5-stars\"",

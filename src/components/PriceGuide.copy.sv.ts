@@ -2,37 +2,33 @@
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 
 const copy: PriceGuideCopy = {
-  eyebrow: 'Boendepriser i Lappland',
-  heading: 'Vad en natt i Lappland faktiskt kostar',
-  lead: 'Norrsken som glider förbi glastaket, en bastu som redan är varm, en snötyst skog utanför fönstret vid frukosten: en sådan natt i Lappland kan kosta 100 € eller 1 500 €. Vi samlade de verkliga prisintervallen för 15 boenden direkt från bokningssidorna, så att du med en blick ser vilken dröm din budget räcker till.',
+  eyebrow: 'Prisnivå',
+  heading: 'Boenden i Lappland, från dyrast till billigast',
+  lead: 'Norrsken som glider förbi glastaket, en bastu som redan är varm och vid frukosten en snötyst skog utanför fönstret. Fem sorters Lapplandsnatt, ordnade från det som händer en gång i livet till det vardagliga, med boendena bakom varje sort. Vad en natt kostar svänger med säsongen och veckan, så priset kommer från bokningssidan, för dina egna datum.',
+  scale: { low: 'Billigare', high: 'Dyrare' },
   tiers: [
     {
       name: 'Glasigloor',
-      note: 'per natt, per iglo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       ctaLabel: 'Hitta glasigloor',
     },
     {
       name: 'Norrskensstugor',
-      note: 'per natt, per stuga',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       ctaLabel: 'Hitta norrskensstugor',
     },
     {
       name: 'Snö- och ishotell',
-      note: 'per natt, endast under säsong',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       ctaLabel: 'Hitta snöhotell',
     },
     {
       name: 'Vildmarkslodger',
-      note: 'per natt, endast sviter',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       ctaLabel: 'Hitta vildmarkslodger',
     },
     {
       name: 'Lapplandshotell och stugkedjor',
-      note: 'per natt, per rum',
       examples: ['Lapland Hotels (flera orter)', 'Harriniva (Muonio)'],
       ctaLabel: 'Hitta hotell och stugor',
     },

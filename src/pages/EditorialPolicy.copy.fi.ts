@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tarkistetut hinnat joka kausi",
-        "body": "Jokainen \"alkaen X €/yö\" -väite otetaan operaattorin omasta varaussivulta tai varauskumppaneiltamme. Hinnat tarkistetaan vähintään kerran neljännesvuosittain ja erityisesti revontulisesongin alussa (syyskuu). Kun kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan, että ohjaisi lukijat nollahakuun."
+        "body": "Tämä sivusto ei ilmoita omia yöhintoja. Jokainen lukijan näkemä hinta tulee operaattorin omalta varaussivulta tai varauskumppaneiltamme lukijan valitsemille päiville, koska artikkeliin kopioitu hinta on viikon päästä vanha. Kun kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan, että ohjaisi lukijat nollahakuun."
       },
       {
         "title": "Nimettyjä kohteita, ei \"premium-5-tähtiä\"",

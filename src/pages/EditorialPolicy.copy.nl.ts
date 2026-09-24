@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tarieven elk seizoen geverifieerd",
-        "body": "Elke vermelding \"vanaf €X/nacht\" komt rechtstreeks van de boekingspagina van de aanbieder of van onze boekingspartners. Prijzen worden minstens eens per kwartaal opnieuw gecontroleerd en uitdrukkelijk aan het begin van het noorderlichtseizoen (september). Is een accommodatie volgeboekt voor de piekweken, dan vermeldt de pagina dat vooraf in plaats van u door te sturen naar een lege zoekopdracht."
+        "body": "Deze site drukt geen eigen nachttarieven af. Elke prijs die de lezer ziet, komt van de boekingspagina van de aanbieder of van onze boekingspartners, voor de gekozen data, want een in een artikel gekopieerd tarief is een week later verouderd. Is een accommodatie volgeboekt voor de piekweken, dan vermeldt de pagina dat vooraf in plaats van u door te sturen naar een lege zoekopdracht."
       },
       {
         "title": "Genoemde accommodaties, geen \"premium 5-sterren\"",

@@ -3,7 +3,7 @@ import type { PageCopy } from './About.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "About LaplandStays, Independent Finnish Lapland Stays Guide",
-    "description": "Independent Finnish Lapland accommodation guide, named properties, rates re-checked every season, and clear affiliate transparency."
+    "description": "Independent Finnish Lapland accommodation guide, named properties, no nightly rates of our own, and clear affiliate transparency."
   },
   "ui": {
     "eyebrow": "About",
@@ -12,7 +12,7 @@ const copy: PageCopy = {
     "intro": "LaplandStays is the accommodation directory the operator wished existed when friends asked where to stay.",
     "missionEyebrow": "Why this exists",
     "missionH2": "One honest guide to where to sleep in Lapland",
-    "missionP1": "Most Lapland accommodation listings online either invent prices (\"from €99/night\" for a property that has not opened that tier in six years), bury affiliate disclosures, or recommend the same five resorts on autopilot. LaplandStays is a corrective, a small, named-property guide that re-checks rates every season and tells you when something is sold out 12 months ahead instead of pretending otherwise.",
+    "missionP1": "Most Lapland accommodation listings online either invent prices (\"from €99/night\" for a property that has not opened that tier in six years), bury affiliate disclosures, or recommend the same five resorts on autopilot. LaplandStays is a corrective, a small, named-property guide that prints no nightly rate of its own, because a rate typed into a page is out of date the week after, and tells you when something is sold out 12 months ahead instead of pretending otherwise.",
     "missionP2": "This is an editorial publisher, not a booking platform. When you click through to one of the booking partners, the contract is between you and them; reservations and payments are handled there. An affiliate commission is earned on bookings made through these links, but the commission rate is similar across the partner programme, so it has no influence on what is recommended.",
     "opEyebrow": "Operator",
     "opH2": "LaPeso Oy",
@@ -28,7 +28,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Editorial standards",
-        "bodyPre": "Every price re-checked seasonally on operator pages. No invented stats. No \"from €X\" without a verified date. Affiliate links carry the EU-required ",
+        "bodyPre": "No nightly rate is printed here: the price comes from the operator's own booking page, for your dates. No invented stats. Affiliate links carry the EU-required ",
         "codeWord": "sponsored",
         "bodyMid": " rel attribute. See ",
         "termsLink": "Terms",
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Honest \"from\" prices",
-        "body": "Every \"from €X/night\" pulls from the operator's own booking page or our booking partners, checked at least once per season. If a property is sold out for peak weeks, the page says so up front instead of routing you to a 0-result search."
+        "body": "We print no nightly rate of our own: the price you see when you click through is the operator's, for the dates you pick. If a property is sold out for peak weeks, the page says so up front instead of routing you to a 0-result search."
       },
       {
         "title": "\"Best for / Avoid if\" framing",

@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Des tarifs vérifiés à chaque saison",
-        "body": "Chaque mention « à partir de X €/nuit » est tirée de la page de réservation de l'opérateur ou de nos partenaires de réservation. Les prix sont revérifiés au moins une fois par trimestre, et systématiquement au début de la saison des aurores (septembre). Lorsqu'un hébergement est complet sur les semaines de pointe, la page le précise d'emblée plutôt que de renvoyer vers une recherche à zéro résultat."
+        "body": "Ce site n'affiche aucun tarif à la nuit de son cru. Chaque prix vu par le lecteur vient de la page de réservation de l'opérateur ou de nos partenaires de réservation, pour les dates choisies, car un tarif recopié dans un article est périmé la semaine suivante. Lorsqu'un hébergement est complet sur les semaines de pointe, la page le précise d'emblée plutôt que de renvoyer vers une recherche à zéro résultat."
       },
       {
         "title": "Des hébergements nommés, pas des « 5 étoiles premium »",

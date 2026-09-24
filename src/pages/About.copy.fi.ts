@@ -3,7 +3,7 @@ import type { PageCopy } from './About.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Tietoa LaplandStaysistä, Riippumaton Lapin majoitusopas",
-    "description": "Riippumaton Suomen Lapin majoitusopas, nimetyt kohteet, joka kausi tarkistetut hinnat ja avoin kumppanuusläpinäkyvyys."
+    "description": "Riippumaton Suomen Lapin majoitusopas, nimetyt kohteet, ei omia yöhintoja ja avoin kumppanuusläpinäkyvyys."
   },
   "ui": {
     "eyebrow": "Tietoa",
@@ -12,7 +12,7 @@ const copy: PageCopy = {
     "intro": "LaplandStays on majoitushakemisto, jonka ylläpitäjä olisi toivonut olevan olemassa, kun ystävät kysyivät missä Lapissa kannattaa yöpyä.",
     "missionEyebrow": "Miksi tämä on olemassa",
     "missionH2": "Yksi rehellinen opas Lapin majoitukseen",
-    "missionP1": "Useimmat Lapin majoituslistaukset verkossa joko keksivät hintoja (\"alkaen 99 €/yö\" kohteelle, jonka hinnat eivät ole olleet sillä tasolla kuuteen vuoteen), piilottavat kumppanuusilmoitukset tai suosittelevat samoja viittä lomakeskusta automaattisesti. LaplandStays on korjaus, pieni, nimettyihin kohteisiin keskittyvä opas, joka tarkistaa hinnat joka kausi ja kertoo, kun jokin on loppuunmyyty 12 kuukautta etukäteen, sen sijaan että teeskentelisi muuta.",
+    "missionP1": "Useimmat Lapin majoituslistaukset verkossa joko keksivät hintoja (\"alkaen 99 €/yö\" kohteelle, jonka hinnat eivät ole olleet sillä tasolla kuuteen vuoteen), piilottavat kumppanuusilmoitukset tai suosittelevat samoja viittä lomakeskusta automaattisesti. LaplandStays on korjaus, pieni, nimettyihin kohteisiin keskittyvä opas, joka ei kirjoita sivuilleen omia yöhintoja, koska sivulle kirjoitettu hinta on viikon päästä vanha, ja kertoo, kun jokin on loppuunmyyty 12 kuukautta etukäteen, sen sijaan että teeskentelisi muuta.",
     "missionP2": "Tämä on toimituksellinen julkaisu, ei varausalusta. Kun klikkaat johonkin varauskumppaniin, sopimus on sinun ja heidän välillä, varaukset ja maksut hoidetaan siellä. Kumppanuusprovisio ansaitaan näiden linkkien kautta tehdyistä varauksista, mutta provisio on samaa luokkaa kaikilla kumppaneilla, joten se ei vaikuta siihen, mitä suositellaan.",
     "opEyebrow": "Ylläpitäjä",
     "opH2": "LaPeso Oy",
@@ -28,7 +28,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Toimitusperiaatteet",
-        "bodyPre": "Jokainen hinta tarkistetaan kausittain operaattorien sivuilta. Ei keksittyjä tilastoja. Ei \"alkaen X €\" ilman tarkistettua päivämäärää. Kumppanuuslinkit kantavat EU:n vaatimaa ",
+        "bodyPre": "Emme kirjoita sivuille yöhintoja: hinnan näet varaussivulta omille päivillesi. Ei keksittyjä tilastoja. Kumppanuuslinkit kantavat EU:n vaatimaa ",
         "codeWord": "sponsored",
         "bodyMid": " rel-attribuuttia. Katso ",
         "termsLink": "Käyttöehdot",
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Rehelliset \"alkaen\"-hinnat",
-        "body": "Jokainen \"alkaen X €/yö\" otetaan operaattorin omasta varaussivulta tai varauskumppaneiltamme, tarkistettu vähintään kerran kaudessa. Jos kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan, että ohjaisi sinut nollatulokseen."
+        "body": "Emme ilmoita omia yöhintoja: klikkauksen takana näkyvä hinta on operaattorin oma, valitsemillesi päiville. Jos kohde on loppuunmyyty huippuviikoille, sivu sanoo niin etukäteen sen sijaan, että ohjaisi sinut nollatulokseen."
       },
       {
         "title": "\"Sopii / vältä jos\" -kehystys",

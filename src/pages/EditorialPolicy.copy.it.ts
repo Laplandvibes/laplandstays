@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Tariffe verificate ogni stagione",
-        "body": "Ogni indicazione \"da X €/notte\" è ricavata dalla pagina di prenotazione dell'operatore o dai nostri partner di prenotazione. I prezzi vengono ricontrollati almeno una volta a trimestre e in modo specifico all'inizio della stagione delle aurore (settembre). Quando una struttura è esaurita per le settimane di punta, la pagina lo segnala in apertura invece di rimandare a una ricerca con zero risultati."
+        "body": "Questo sito non pubblica tariffe a notte proprie. Ogni prezzo che il lettore vede arriva dalla pagina di prenotazione dell'operatore o dai nostri partner di prenotazione, per le date scelte, perché una tariffa copiata in un articolo è vecchia la settimana dopo. Quando una struttura è esaurita per le settimane di punta, la pagina lo segnala in apertura invece di rimandare a una ricerca con zero risultati."
       },
       {
         "title": "Strutture citate per nome, niente \"5 stelle premium\"",

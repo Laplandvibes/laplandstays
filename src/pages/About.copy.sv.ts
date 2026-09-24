@@ -3,7 +3,7 @@ import type { PageCopy } from './About.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Om LaplandStays, oberoende boendeguide för finska Lappland",
-    "description": "Oberoende boendeguide för finska Lappland, namngivna boenden, priser som kontrolleras varje säsong och tydlig transparens om affiliatelänkar."
+    "description": "Oberoende boendeguide för finska Lappland, namngivna boenden, inga egna nattpriser och tydlig transparens om affiliatelänkar."
   },
   "ui": {
     "eyebrow": "Om oss",
@@ -12,7 +12,7 @@ const copy: PageCopy = {
     "intro": "LaplandStays är den boendeguide som grundaren önskade fanns när vänner frågade var de skulle bo.",
     "missionEyebrow": "Varför den finns",
     "missionH2": "En ärlig guide till var du sover i Lappland",
-    "missionP1": "De flesta boendelistor för Lappland på nätet hittar antingen på priser (\"från 99 €/natt\" för ett boende som inte har öppnat den prisnivån på sex år), gömmer affiliateinformation eller rekommenderar samma fem resorter på autopilot. LaplandStays är en motvikt, en liten guide med namngivna boenden som kontrollerar priserna varje säsong och talar om när något är slutbokat 12 månader i förväg i stället för att låtsas något annat.",
+    "missionP1": "De flesta boendelistor för Lappland på nätet hittar antingen på priser (\"från 99 €/natt\" för ett boende som inte har öppnat den prisnivån på sex år), gömmer affiliateinformation eller rekommenderar samma fem resorter på autopilot. LaplandStays är en motvikt, en liten guide med namngivna boenden som inte trycker några egna nattpriser, eftersom ett pris som skrivs in på en sida är gammalt veckan därpå, och talar om när något är slutbokat 12 månader i förväg i stället för att låtsas något annat.",
     "missionP2": "Det här är en redaktionell utgivare, inte en bokningsplattform. När du klickar dig vidare till en av bokningspartnerna uppstår avtalet mellan dig och dem, bokningar och betalningar sköts där. En affiliateprovision tjänas in på bokningar via de här länkarna, men provisionsnivån är likartad i hela partnerprogrammet, så den påverkar inte vad som rekommenderas.",
     "opEyebrow": "Operatör",
     "opH2": "LaPeso Oy",
@@ -28,7 +28,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Redaktionella riktlinjer",
-        "bodyPre": "Varje pris kontrolleras varje säsong på leverantörernas sidor. Inga påhittade siffror. Inget \"från X €\" utan ett verifierat datum. Affiliatelänkar bär det EU-obligatoriska ",
+        "bodyPre": "Här står inget nattpris: priset kommer från leverantörens egen bokningssida, för dina datum. Inga påhittade siffror. Affiliatelänkar bär det EU-obligatoriska ",
         "codeWord": "sponsored",
         "bodyMid": " rel-attributet. Se ",
         "termsLink": "Villkor",
@@ -48,7 +48,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Ärliga \"från\"-priser",
-        "body": "Varje \"från X €/natt\" hämtas direkt från leverantörens egen bokningssida eller våra bokningspartner, kontrollerad minst en gång per säsong. Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka dig till en sökning med noll träffar."
+        "body": "Vi anger inga egna nattpriser: priset du ser efter klicket är leverantörens, för de datum du väljer. Om ett boende är slutbokat under toppveckorna säger sidan det direkt i stället för att skicka dig till en sökning med noll träffar."
       },
       {
         "title": "\"Passar för / undvik om\"-upplägg",

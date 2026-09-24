@@ -14,7 +14,7 @@ const copy: PageCopy = {
     "principles": [
       {
         "title": "Geprüfte Preise, jede Saison",
-        "body": "Jede „ab X €/Nacht“-Aussage wird von der Buchungsseite des Betreibers oder von unseren Buchungspartnern übernommen. Preise werden mindestens einmal pro Quartal und ausdrücklich zu Beginn der Polarlicht-Saison (September) neu geprüft. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Leser auf eine 0-Treffer-Suche zu leiten."
+        "body": "Diese Seite nennt keine eigenen Übernachtungspreise. Jeder Preis, den Leser sehen, stammt von der Buchungsseite des Betreibers oder von unseren Buchungspartnern, für die gewählten Daten, denn ein in einen Artikel kopierter Preis ist eine Woche später veraltet. Wenn eine Unterkunft für die Hauptwochen ausgebucht ist, sagt die Seite das vorab, statt Leser auf eine 0-Treffer-Suche zu leiten."
       },
       {
         "title": "Benannte Unterkünfte, keine „Premium-5-Sterne“",

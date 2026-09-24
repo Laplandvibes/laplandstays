@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "拉普蘭的玻璃屋每晚多少錢？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "芬蘭拉普蘭的玻璃屋價格區間較大：羅瓦涅米Nova Skyland每晚約250歐元起，極光旺季，薩利色爾卡的Kakslauttanen Arctic Resort可達每晚1,500歐元。Levin Iglut、Star Arctic以及伊瓦洛的Aurora Village等中端玻璃屋通常在每晚300至700歐元之間。"
+          "text": "要看住宿與週次。羅瓦涅米的Nova Skyland屬於玻璃屋中較平價的一端，Levin Iglut、Star Arctic與伊瓦洛的Aurora Village位於中段，Kakslauttanen Arctic Resort最高。極光旺季在各家都是最貴的時段。我們不在這裡寫出每晚房價，因為它會隨日期變動：您所選日期的價格在預訂頁面上。"
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "預算有限時，拉普蘭的住宿要花多少錢？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "拉普蘭的飯店和小屋連鎖每晚約100歐元起。Lapland Hotels在萊維、於拉斯、薩利色爾卡和羅瓦涅米均以這一入門價提供住宿。穆奧尼奧的Harriniva每晚約150歐元起。Apukka Resort、Arctic SnowHotel等極光小屋在旺季之外每晚約150歐元起。"
+          "text": "最平價的一端是Lapland Hotels與小木屋連鎖，在萊維、於拉斯、薩利色爾卡與羅瓦涅米都有客房與公寓。Muonio的Harriniva略高一些。Apukka Resort、Arctic SnowHotel等極光小屋在旺季週次之外明顯便宜：同一間小屋，8月下旬起的秋季與4月會比聖誕節或2月便宜。"
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "對首次來訪者來說，拉普蘭哪個目的地最合適？",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "萊維是最容易上手的選擇。冬季有直飛基蒂萊的航班，餐廳和商店步行可達，Lapland Hotels每晚100歐元起，村中還有種類齊全的野外探險項目。於拉斯更安靜、更貼近自然，而薩利色爾卡和伊納里則最適合希望深入荒野、想要更多玻璃屋選擇的旅行者。"
+          "text": "萊維是最容易上手的起點：冬季直飛基蒂萊、步行可達的餐廳與商店、村中心的Lapland Hotels客房與公寓，以及從村裡出發的完整探險行程。於拉斯更安靜、更貼近自然；薩利色爾卡與伊納里則適合想深入荒野、想要更多玻璃屋選擇的旅客。"
         }
       }
     ]

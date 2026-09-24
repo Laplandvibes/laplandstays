@@ -2,37 +2,33 @@
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 
 const copy: PriceGuideCopy = {
-  eyebrow: 'Prezzi degli alloggi in Lapponia',
-  heading: 'Quanto costa davvero una notte in Lapponia',
-  lead: "L'aurora che scivola oltre il soffitto di vetro, la sauna già calda, a colazione una foresta ovattata di neve fuori dalla finestra, una notte così in Lapponia può costare 100 € come 1500 €. Abbiamo raccolto le fasce di prezzo reali di 15 strutture direttamente dalle pagine di prenotazione, così vede a colpo d'occhio quale sogno è alla portata del suo budget.",
+  eyebrow: 'Livello di prezzo',
+  heading: 'Alloggi in Lapponia, dal più caro al più economico',
+  lead: "Aurore che scorrono sopra il tetto di vetro, una sauna già calda e, a colazione, una foresta innevata e silenziosa oltre la finestra. Cinque tipi di notte lappone, in ordine dall'irripetibile al quotidiano, con le strutture che stanno dietro a ciascuno. Quanto costa una notte cambia con la stagione e con la settimana, quindi la tariffa arriva dalla pagina di prenotazione, per le Sue date.",
+  scale: { low: 'Più economico', high: 'Più caro' },
   tiers: [
     {
       name: 'Igloo di vetro',
-      note: 'a notte, per igloo',
       examples: ['Kakslauttanen Arctic Resort', 'Levin Iglut', 'Star Arctic Hotel', 'Aurora Village Ivalo', 'Nova Skyland Rovaniemi'],
       ctaLabel: 'Trova igloo di vetro',
     },
     {
       name: "Baite per l'aurora boreale",
-      note: 'a notte, per baita',
       examples: ['Apukka Resort', 'Arctic TreeHouse Hotel', 'Arctic SnowHotel & Glass Igloos'],
       ctaLabel: "Trova baite per l'aurora",
     },
     {
       name: 'Hotel di neve e ghiaccio',
-      note: 'a notte, solo stagionale',
       examples: ['Lainio Snow Village (Kittilä)', 'Torassieppi Winter Village (Muonio)'],
       ctaLabel: 'Trova hotel di neve',
     },
     {
       name: 'Lodge nella natura selvaggia',
-      note: 'a notte, solo suite',
       examples: ['Muotka Wilderness Lodge (Inari)', 'Nellim Wilderness Hotel', 'Lumi Resort (Kittilä)'],
       ctaLabel: 'Trova lodge',
     },
     {
       name: 'Hotel e catene di baite della Lapponia',
-      note: 'a notte, per camera',
       examples: ['Lapland Hotels (più resort)', 'Harriniva (Muonio)'],
       ctaLabel: 'Trova hotel e baite',
     },

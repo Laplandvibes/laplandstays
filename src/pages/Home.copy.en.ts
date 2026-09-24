@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "How much does a glass igloo in Lapland cost per night?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Glass igloos in Finnish Lapland range from about €250 per night at Nova Skyland in Rovaniemi up to €1,500 per night at Kakslauttanen Arctic Resort in Saariselkä during peak aurora season. Mid-market glass igloos at Levin Iglut, Star Arctic and Aurora Village in Ivalo typically sit between €300 and €700 per night."
+          "text": "It depends on the property and the week. Nova Skyland in Rovaniemi sits at the affordable end of the glass-igloo range, Levin Iglut, Star Arctic and Aurora Village in Ivalo in the middle, and Kakslauttanen Arctic Resort at the top. Peak aurora season is the most expensive stretch everywhere. We do not print a nightly rate here, because it changes with the date: the price for your nights is the one on the booking page."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "What does Lapland accommodation cost on a budget?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Lapland hotels and cabin chains start around €100 per night — Lapland Hotels operates across Levi, Ylläs, Saariselkä and Rovaniemi at that entry price. Harriniva in Muonio starts around €150. Aurora cabins at Apukka Resort, Arctic SnowHotel and similar properties start near €150 per night outside peak season."
+          "text": "Lapland Hotels and the cabin chains are the affordable end, with rooms and apartments in Levi, Ylläs, Saariselkä and Rovaniemi. Harriniva in Muonio sits just above them. Aurora cabins at Apukka Resort, Arctic SnowHotel and similar properties come down noticeably outside the peak weeks: the autumn from late August and April cost less than Christmas or February for the same cabin."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Which Lapland destination is best for first-time visitors?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi is the easiest introduction — direct winter flights to Kittilä, restaurants and shops within walking distance, Lapland Hotels from €100 per night, and a full menu of safaris from the village. Ylläs offers a quieter, more nature-forward stay, while Saariselkä and Inari are best for travellers who want deeper wilderness and more glass-igloo inventory."
+          "text": "Levi is the easiest introduction: direct winter flights to Kittilä, restaurants and shops within walking distance, Lapland Hotels rooms and apartments in the centre, and a full menu of safaris from the village. Ylläs offers a quieter, more nature-forward stay, while Saariselkä and Inari are best for travellers who want deeper wilderness and more glass-igloo inventory."
         }
       }
     ]

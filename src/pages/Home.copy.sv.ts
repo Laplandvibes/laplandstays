@@ -15,7 +15,7 @@ const copy: PageCopy = {
         "name": "Vad kostar en glasigloo i Lappland per natt?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Glasigloor i finska Lappland kostar från cirka 250 € per natt på Nova Skyland i Rovaniemi upp till 1 500 € per natt på Kakslauttanen Arctic Resort i Saariselkä under norrskenssäsongens topp. Glasigloor i mellanklass på Levin Iglut, Star Arctic och Aurora Village i Ivalo ligger vanligtvis mellan 300 € och 700 € per natt."
+          "text": "Det beror på boendet och på veckan. Nova Skyland i Rovaniemi ligger i den billigare änden av glasigloorna, Levin Iglut, Star Arctic och Aurora Village i Ivalo i mitten, och Kakslauttanen Arctic Resort högst upp. Norrskenshögsäsongen är överallt den dyraste perioden. Vi skriver inget nattpris här, eftersom det ändras med datumet: priset för dina nätter står på bokningssidan."
         }
       },
       {
@@ -31,7 +31,7 @@ const copy: PageCopy = {
         "name": "Vad kostar boende i Lappland med en snäv budget?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Hotell och stugkedjor i Lappland börjar runt 100 € per natt, Lapland Hotels driver anläggningar i Levi, Ylläs, Saariselkä och Rovaniemi till det ingångspriset. Harriniva i Muonio börjar runt 150 €. Norrskensstugor på Apukka Resort, Arctic SnowHotel och liknande boenden börjar kring 150 € per natt utanför högsäsong."
+          "text": "Den billigare änden är Lapland Hotels och stugkedjorna, med rum och lägenheter i Levi, Ylläs, Saariselkä och Rovaniemi. Harriniva i Muonio ligger strax ovanför. Norrskensstugor hos Apukka Resort, Arctic SnowHotel och liknande blir tydligt billigare utanför toppveckorna: hösten från slutet av augusti och april kostar mindre än jul eller februari för samma stuga."
         }
       },
       {
@@ -55,7 +55,7 @@ const copy: PageCopy = {
         "name": "Vilket resmål i Lappland passar bäst för förstagångsbesökare?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Levi är den enklaste starten: direkta vinterflyg till Kittilä, restauranger och butiker inom gångavstånd, Lapland Hotels från 100 € per natt och ett fullt utbud av safarier från byn. Ylläs erbjuder en lugnare och mer naturnära vistelse, medan Saariselkä och Inari passar bäst för resenärer som vill ha djupare vildmark och ett större utbud av glasigloor."
+          "text": "Levi är den enklaste starten: direkta vinterflyg till Kittilä, restauranger och butiker inom gångavstånd, rum och lägenheter från Lapland Hotels i centrum och ett fullt safariutbud från byn. Ylläs ger en lugnare och mer naturnära vistelse, medan Saariselkä och Inari passar bäst för resenärer som vill ha djupare vildmark och fler glasigloor."
         }
       }
     ]
