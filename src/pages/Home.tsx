@@ -75,7 +75,9 @@ function buildLodgingSchema(lang: string) {
     url: 'https://laplandstays.com',
     description: desc,
     image: 'https://laplandstays.com/og-default.jpg',
-    priceRange: '€100-€1500',
+    // Ei priceRangea 24.9.2026: se oli kovakoodattu €100-€1500 ja vanhenee kuten mikä tahansa
+    // sivulle kirjoitettu hinta. Skeema injektoidaan vasta selaimessa, joten dist-HTML:n
+    // hintaskannaus ei nähnyt sitä: se löytyi live-DOMista. priceRange on valinnainen kenttä.
     areaServed: { '@type': 'AdministrativeArea', name: 'Lapland, Finland' },
     address: {
       '@type': 'PostalAddress',
