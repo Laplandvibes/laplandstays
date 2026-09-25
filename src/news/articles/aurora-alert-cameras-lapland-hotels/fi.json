@@ -4,7 +4,7 @@
   "description": "Kymmenet Lapin hotellit käyttävät kameraa, joka tunnistaa revontulet ja hälyttää niistä vieraan puhelimeen. Mitä se tarkoittaa majoitusta varatessa.",
   "dek": "Kamera kuvaa taivaalle, tunnistaa revontulet itse ja lähettää vieraalle kuvan. Tässä on mitä järjestelmä tekee, kenellä sellainen on ja mitä kannattaa kysyä ennen varausta.",
   "heroAlt": "Leveä vihreä revontulikaari kuutamoisen, lumisen järven yllä Inarissa, ja rannalla pieni punainen mökki",
-  "heroCaption": "Revontulet Inarissa.",
+  "heroCaption": "Revontulet Inarin yllä Suomen Lapissa.",
   "body": [
     {
       "t": "p",
@@ -37,7 +37,7 @@
     },
     {
       "t": "h2",
-      "text": "Kysy nämä kun varaat huoneen"
+      "text": "Kysy nämä, kun varaat huoneen"
     },
     {
       "t": "ul",
@@ -66,7 +66,7 @@
     },
     {
       "t": "link",
-      "text": "Oma kuukausi kuukaudelta -lukemamme revontulikaudesta, lumesta ja valosta.",
+      "text": "Oma lukemamme revontulikaudesta, lumesta ja valosta kuukausi kuukaudelta.",
       "label": "Milloin Lappiin kannattaa tulla",
       "href": "/when-to-go"
     },
