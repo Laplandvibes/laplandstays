@@ -27,8 +27,12 @@ export default function Nav() {
     { href: to('/destinations/saariselka'), label: c.saariselka },
     { href: to('/destinations/inari'), label: c.inari },
     { href: to('/destinations/rovaniemi'), label: c.rovaniemi },
-    { href: to('/news'), label: c.news },
   ]
+  // 🔴 Uutisosio EI mahdu tähän riviin (mitattu 25.9.2026). Lisäsin sen tänne, ja
+  // `npm run portti --taso selain` kaatui: 1280 px:n leveydellä japaninkielinen
+  // "今すぐ予約" rivittyi kahdelle riville, koska yksi linkki lisää vei tilan pilleriltä.
+  // Osio linkitetään alatunnisteen pilarilinkeistä (App.tsx FooterWrapper), joka
+  // rivittyy ruudukkona eikä voi valua naapurin päälle.
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 40)

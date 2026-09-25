@@ -39,6 +39,7 @@ function FooterWrapper() {
   const c = useCopy()
   const fd = footerDict(lang)
   const FOOTER_PILLARS = [
+    { name: c.nav.news, href: to('/news') },
     { name: c.nav.propertyTypes, href: to('/property-types') },
     { name: c.nav.whenToGo, href: to('/when-to-go') },
     { name: c.nav.transport, href: to('/transport') },
