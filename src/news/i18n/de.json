@@ -1,0 +1,27 @@
+{
+  "section": "Unterkunfts-News",
+  "nav": "News",
+  "index": {
+    "seoTitle": "Lappland: Unterkunfts-News mit Quellen",
+    "description": "Nachrichten, die Ihre Wahl der Unterkunft in Finnisch-Lappland verändern. Jeder Beitrag stammt aus der Originalquelle, die genannt und verlinkt wird.",
+    "h1": "Unterkunfts-News aus Lappland",
+    "lead": "Was sich bei Unterkünften in Lappland ändert, geschrieben aus den Originalquellen. Jeder Beitrag nennt und verlinkt, worauf er beruht.",
+    "aboutTitle": "So berichten wir",
+    "aboutText": "Wir öffnen jede Quelle vor dem Schreiben und geben nur wieder, was dort steht. Fehlt eine Zahl in der Quelle, sagen wir das, statt die Lücke zu füllen.",
+    "allRoutes": "Unterkunftstypen vergleichen"
+  },
+  "ui": {
+    "home": "Startseite",
+    "readMore": "Beitrag lesen",
+    "published": "Veröffentlicht",
+    "updated": "Aktualisiert",
+    "byline": "LaplandStays-Redaktion",
+    "sources": "Quellen",
+    "source": "Quelle",
+    "read": "gelesen",
+    "photo": "Foto",
+    "latest": "Neueste Unterkunfts-News",
+    "allNews": "Alle Unterkunfts-News",
+    "moreNews": "Mehr Unterkunfts-News"
+  }
+}

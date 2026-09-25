@@ -1,0 +1,80 @@
+{
+  "title": "Gli hotel della Lapponia comprano telecamere che riconoscono da sole l'aurora",
+  "seoTitle": "Allerta aurora boreale: le telecamere degli hotel lapponi",
+  "description": "Decine di hotel della Lapponia usano telecamere che riconoscono l'aurora e inviano un avviso con foto al telefono dell'ospite. Cosa cambia quando si prenota.",
+  "dek": "La telecamera sorveglia il cielo, riconosce da sola l'aurora e manda una foto all'ospite. Ecco cosa fa il sistema, chi lo ha e cosa conviene chiedere prima di prenotare.",
+  "heroAlt": "Un'ampia fascia verde di aurora boreale sopra un lago innevato illuminato dalla luna a Inari, nella Lapponia finlandese, con una piccola casetta rossa sulla riva",
+  "heroCaption": "Aurora boreale sopra Inari, nella Lapponia finlandese.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Decine di hotel e resort della Lapponia finlandese hanno installato per i propri ospiti sistemi di allerta per l'aurora boreale basati su telecamera, riferisce l'emittente pubblica finlandese Yle. La telecamera punta al cielo, riconosce da sola l'aurora e invia un avviso al telefono dell'ospite insieme a una foto di ciò che sta accadendo sopra di lui."
+    },
+    {
+      "t": "h2",
+      "text": "Che cosa fa davvero l'avviso"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "La telecamera fotografa il cielo e riconosce l'aurora in automatico, senza che nessuno debba stare a guardare.",
+        "L'avviso arriva sul telefono con un'immagine, così dalla foto si capisce se il fenomeno è abbastanza intenso da valere la vestizione.",
+        "Gli avvisi e le immagini della telecamera di una struttura sono riservati a chi soggiorna in quella struttura.",
+        "Il sistema usa l'apprendimento automatico e diventa quindi più preciso man mano che scatta immagini."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Chi ce l'ha già"
+    },
+    {
+      "t": "p",
+      "text": "Le telecamere del servizio di Yle sono costruite e programmate da zero da Jari Ketola, sviluppatore software di Rovaniemi. Delle telecamere per l'aurora presenti in Lapponia, 30 sono sue, e per l'inverno che arriva ne sta installando altre 14. Non è l'unico fornitore di sistemi di allerta con telecamera in Lapponia. Le sue telecamere sono installate, tra gli altri, presso la catena Wilderness Hotels, presso gli igloo di Levi e presso Harriniva."
+    },
+    {
+      "t": "p",
+      "text": "Nella stagione scorsa sono stati registrati nel suo sistema più di 67 000 dispositivi. Secondo Ketola oggi gli ospiti chiedono all'hotel già prima di prenotare se dispone di un sistema di allerta per l'aurora."
+    },
+    {
+      "t": "h2",
+      "text": "Che cosa chiedere quando si prenota"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "La struttura ha una telecamera propria per l'aurora oppure inoltra solo una previsione generale?",
+        "Come la raggiunge l'avviso di notte e occorre installare qualcosa per riceverlo?",
+        "L'avviso vale solo per chi soggiorna nella struttura?",
+        "La telecamera guarda lo stesso cielo sotto il quale uscirebbe dalla sua camera?"
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Il servizio di Yle non indica prezzi e non elenca quali strutture usino i sistemi degli altri fornitori. Entrambe le cose conviene chiederle direttamente alla struttura."
+    },
+    {
+      "t": "h2",
+      "text": "Quando il cielo ha più probabilità di rispondere"
+    },
+    {
+      "t": "p",
+      "text": "L'aurora allunga la stagione turistica di Rovaniemi soprattutto a settembre e ottobre e a marzo e aprile, afferma Sanna Kärkkäinen, amministratrice delegata di Visit Rovaniemi. Aggiunge che la variabilità delle condizioni naturali rende a volte il fenomeno difficile da prevedere, nonostante le applicazioni, i servizi web e meteo e le mappe della nuvolosità disponibili."
+    },
+    {
+      "t": "p",
+      "text": "I dati delle telecamere di Ketola dicono il contrario per l'inizio della primavera: mostrano che proprio allora le probabilità di vedere l'aurora in Lapponia sono le più basse. A chi glielo chiede consiglia di venire a settembre o a ottobre, quando non fa ancora troppo freddo per restare fuori."
+    },
+    {
+      "t": "link",
+      "text": "La nostra lettura mese per mese della stagione dell'aurora, della neve e della luce.",
+      "label": "Quando andare in Lapponia",
+      "href": "/when-to-go"
+    },
+    {
+      "t": "link",
+      "text": "Un tetto di vetro non è l'unico modo per dormire sotto le luci. I tipi di alloggio a confronto.",
+      "label": "Tipi di alloggio in Lapponia",
+      "href": "/property-types"
+    }
+  ]
+}

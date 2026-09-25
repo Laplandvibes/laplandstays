@@ -1,0 +1,80 @@
+{
+  "title": "Les hôtels de Laponie achètent des caméras qui repèrent seules les aurores",
+  "seoTitle": "Alerte aurores boréales : les caméras des hôtels lapons",
+  "description": "Des dizaines d'hôtels lapons utilisent des caméras qui reconnaissent l'aurore et envoient une alerte avec photo au client. Ce que cela change à la réservation.",
+  "dek": "La caméra surveille le ciel, reconnaît seule l'aurore et envoie une photo au client. Voici ce que fait le système, qui en possède un, et ce qu'il faut demander avant de réserver.",
+  "heroAlt": "Un large ruban vert d'aurore boréale au-dessus d'un lac enneigé éclairé par la lune à Inari, en Laponie finlandaise, avec un petit chalet rouge au bord de l'eau",
+  "heroCaption": "Aurore boréale au-dessus d'Inari, en Laponie finlandaise.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Des dizaines d'hôtels et de complexes de Laponie finlandaise ont installé pour leurs clients des systèmes d'alerte aux aurores boréales fondés sur une caméra, rapporte le radiodiffuseur public finlandais Yle. La caméra vise le ciel, reconnaît seule l'aurore et envoie une alerte sur le téléphone du client, accompagnée d'une photo de ce qui se passe au-dessus de lui."
+    },
+    {
+      "t": "h2",
+      "text": "Ce que fait réellement l'alerte"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "La caméra photographie le ciel et reconnaît l'aurore automatiquement, sans que personne ait à surveiller.",
+        "L'alerte arrive sur le téléphone avec une image : la photo montre si le phénomène est assez fort pour valoir la peine de s'habiller.",
+        "Les alertes et les images de la caméra d'un établissement sont réservées aux clients qui y séjournent.",
+        "Le système utilise l'apprentissage automatique : il gagne en précision à mesure qu'il prend des images."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Qui en possède déjà une"
+    },
+    {
+      "t": "p",
+      "text": "Les caméras du reportage d'Yle sont construites et programmées de bout en bout par Jari Ketola, développeur logiciel installé à Rovaniemi. Sur les caméras à aurores présentes en Laponie, 30 sont les siennes, et il en installe 14 de plus pour l'hiver qui vient. Il n'est pas le seul à proposer des systèmes d'alerte par caméra en Laponie. Ses caméras équipent entre autres la chaîne Wilderness Hotels, les igloos de Levi et Harriniva."
+    },
+    {
+      "t": "p",
+      "text": "La saison dernière, plus de 67 000 appareils ont été enregistrés dans son système. Selon Ketola, les clients demandent aujourd'hui à l'hôtel, avant même de réserver, s'il dispose d'un système d'alerte aux aurores."
+    },
+    {
+      "t": "h2",
+      "text": "À demander au moment de réserver"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "L'établissement a-t-il sa propre caméra à aurores, ou relaie-t-il seulement une prévision générale ?",
+        "Comment l'alerte vous parvient-elle la nuit, et faut-il installer quelque chose pour la recevoir ?",
+        "L'alerte est-elle réservée aux clients qui séjournent sur place ?",
+        "La caméra regarde-t-elle le même ciel que celui sous lequel vous sortiriez depuis votre chambre ?"
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Le reportage d'Yle ne cite aucun prix et n'indique pas quels établissements utilisent les systèmes des autres fournisseurs. Les deux questions se posent directement à l'établissement."
+    },
+    {
+      "t": "h2",
+      "text": "Quand le ciel donne le plus"
+    },
+    {
+      "t": "p",
+      "text": "L'aurore allonge la saison touristique de Rovaniemi surtout en septembre et octobre ainsi qu'en mars et avril, explique Sanna Kärkkäinen, directrice de Visit Rovaniemi. Elle ajoute que la variabilité des conditions naturelles rend parfois le phénomène difficile à prévoir, malgré les applications, les services web et météo et les cartes de nébulosité disponibles."
+    },
+    {
+      "t": "p",
+      "text": "Les propres données de caméra de Ketola disent l'inverse pour le début du printemps : elles montrent que les chances de voir une aurore en Laponie sont alors au plus bas. À ceux qui l'interrogent, il conseille de venir en septembre ou en octobre, quand il ne fait pas encore trop froid pour rester dehors."
+    },
+    {
+      "t": "link",
+      "text": "Notre lecture mois par mois de la saison des aurores, de la neige et de la lumière.",
+      "label": "Quand partir en Laponie",
+      "href": "/when-to-go"
+    },
+    {
+      "t": "link",
+      "text": "Un toit vitré n'est pas la seule façon de dormir sous les aurores. Les types d'hébergement comparés.",
+      "label": "Les types d'hébergement en Laponie",
+      "href": "/property-types"
+    }
+  ]
+}

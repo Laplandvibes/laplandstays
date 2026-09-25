@@ -1,0 +1,27 @@
+{
+  "section": "Actus hébergement",
+  "nav": "Actualités",
+  "index": {
+    "seoTitle": "Laponie : actus hébergement et sources",
+    "description": "Les nouvelles qui changent la façon de choisir un hébergement en Laponie finlandaise. Chaque article est écrit d'après la source d'origine, nommée et liée.",
+    "h1": "Actualités hébergement en Laponie",
+    "lead": "Ce qui change dans l'hébergement en Laponie, écrit d'après les sources d'origine. Chaque article nomme et met en lien ce sur quoi il repose.",
+    "aboutTitle": "Notre méthode",
+    "aboutText": "Nous ouvrons chaque source avant d'écrire et ne rapportons que ce qu'elle dit. Si un chiffre manque dans la source, nous le disons au lieu de combler le vide.",
+    "allRoutes": "Comparer les types d'hébergement"
+  },
+  "ui": {
+    "home": "Accueil",
+    "readMore": "Lire l'article",
+    "published": "Publié",
+    "updated": "Mis à jour",
+    "byline": "La rédaction de LaplandStays",
+    "sources": "Sources",
+    "source": "Source",
+    "read": "consulté",
+    "photo": "Photo",
+    "latest": "Dernières actus hébergement",
+    "allNews": "Toutes les actus hébergement",
+    "moreNews": "Plus d'actus hébergement"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "title": "Lapland hotels are buying cameras that spot the aurora by themselves",
+  "seoTitle": "Northern lights alert: the cameras Lapland hotels buy",
+  "description": "Dozens of Lapland hotels now run cameras that recognise the aurora and push an alert with a photo to guests. What that means when you book a room.",
+  "dek": "The camera watches the sky, recognises the northern lights on its own and sends the guest a photo. Here is what the system does, who has one, and what to ask before you book.",
+  "heroAlt": "A wide green band of northern lights over a moonlit, snow-covered lake in Inari, Finnish Lapland, with a small red cabin at the shore",
+  "heroCaption": "Aurora over Inari, Finnish Lapland.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Dozens of hotels and resorts across Finnish Lapland have installed camera-based northern lights alert systems for their guests, Finnish public broadcaster Yle reported. The camera points at the sky, recognises the aurora by itself and sends an alert to the guest's phone with a photograph of what is happening overhead."
+    },
+    {
+      "t": "h2",
+      "text": "What the alert actually does"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "The camera photographs the sky and recognises the aurora automatically, without anyone watching.",
+        "The alert arrives on the phone with a picture, so you can see from the photo whether the display is strong enough to get dressed for.",
+        "The alerts and images from a property's camera are exclusive to the guests staying at that property.",
+        "The system uses machine learning, so it gets more accurate the more images it takes."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Who already has one"
+    },
+    {
+      "t": "p",
+      "text": "The cameras in the Yle story are built and programmed from scratch by Jari Ketola, a software developer based in Rovaniemi. Of the aurora cameras now in Lapland, 30 are his, and he is installing 14 more for the coming winter. He is not the only supplier of camera-based alert systems in Lapland. His cameras are installed for the Wilderness Hotels chain, the Levi igloos and Harriniva, among others."
+    },
+    {
+      "t": "p",
+      "text": "More than 67 000 devices were registered to his system last season. Ketola says guests now ask the hotel in advance whether it has an aurora alert system."
+    },
+    {
+      "t": "h2",
+      "text": "Ask this when you book a room"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Does this property have its own aurora camera, or does it forward a general forecast?",
+        "How does the alert reach you at night, and do you have to install something to get it?",
+        "Is the alert only for guests staying at the property?",
+        "Does the camera look at the same sky you would step out into from your room?"
+      ]
+    },
+    {
+      "t": "note",
+      "text": "The Yle story names no prices, and it does not list which properties the other suppliers serve. Both are worth asking the property directly."
+    },
+    {
+      "t": "h2",
+      "text": "When the sky is most likely to deliver"
+    },
+    {
+      "t": "p",
+      "text": "The aurora lengthens Rovaniemi's tourist season especially in September and October and in March and April, says Sanna Karkkainen, CEO of Visit Rovaniemi. She adds that variation in natural conditions sometimes makes the phenomenon hard to predict, even with the apps, web and weather services and cloud maps that are available."
+    },
+    {
+      "t": "p",
+      "text": "Ketola's own camera data points the other way for early spring: it shows the weakest chances of seeing the aurora in Lapland at exactly that time. He tells people who ask to come in September or October, when it is not yet too cold to stand around outside."
+    },
+    {
+      "t": "link",
+      "text": "Our own month-by-month read of the aurora season, the snow and the light.",
+      "label": "When to go to Lapland",
+      "href": "/when-to-go"
+    },
+    {
+      "t": "link",
+      "text": "A glass roof is not the only way to sleep under the lights. The property types compared.",
+      "label": "Property types in Lapland",
+      "href": "/property-types"
+    }
+  ]
+}

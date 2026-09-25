@@ -1,0 +1,27 @@
+{
+  "section": "Noticias de alojamiento",
+  "nav": "Noticias",
+  "index": {
+    "seoTitle": "Laponia: noticias de alojamiento con fuentes",
+    "description": "Noticias que cambian la forma de elegir alojamiento en la Laponia finlandesa. Cada artículo se escribe a partir de la fuente original, citada y enlazada.",
+    "h1": "Noticias de alojamiento en Laponia",
+    "lead": "Lo que cambia en el alojamiento de Laponia, escrito a partir de las fuentes originales. Cada artículo cita y enlaza aquello en lo que se basa.",
+    "aboutTitle": "Cómo trabajamos",
+    "aboutText": "Abrimos cada fuente antes de escribir y contamos solo lo que dice. Si en la fuente falta un dato, lo decimos en lugar de rellenar el hueco.",
+    "allRoutes": "Comparar los tipos de alojamiento"
+  },
+  "ui": {
+    "home": "Inicio",
+    "readMore": "Leer el artículo",
+    "published": "Publicado",
+    "updated": "Actualizado",
+    "byline": "Redacción de LaplandStays",
+    "sources": "Fuentes",
+    "source": "Fuente",
+    "read": "consultado",
+    "photo": "Foto",
+    "latest": "Últimas noticias de alojamiento",
+    "allNews": "Todas las noticias de alojamiento",
+    "moreNews": "Más noticias de alojamiento"
+  }
+}

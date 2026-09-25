@@ -1,0 +1,27 @@
+{
+  "section": "Accommodatienieuws",
+  "nav": "Nieuws",
+  "index": {
+    "seoTitle": "Lapland: accommodatienieuws met bronnen",
+    "description": "Nieuws dat verandert hoe u een accommodatie in Fins Lapland kiest. Elk artikel is geschreven uit de originele bron, die wordt genoemd en gelinkt.",
+    "h1": "Accommodatienieuws uit Lapland",
+    "lead": "Wat er verandert aan accommodaties in Lapland, geschreven uit de originele bronnen. Elk artikel noemt en linkt waarop het is gebaseerd.",
+    "aboutTitle": "Zo werken wij",
+    "aboutText": "Wij openen elke bron voordat wij schrijven en geven alleen weer wat er staat. Ontbreekt een getal in de bron, dan zeggen wij dat in plaats van het gat te vullen.",
+    "allRoutes": "Vergelijk de accommodatietypen"
+  },
+  "ui": {
+    "home": "Home",
+    "readMore": "Lees het artikel",
+    "published": "Gepubliceerd",
+    "updated": "Bijgewerkt",
+    "byline": "Redactie van LaplandStays",
+    "sources": "Bronnen",
+    "source": "Bron",
+    "read": "geraadpleegd",
+    "photo": "Foto",
+    "latest": "Nieuwste accommodatienieuws",
+    "allNews": "Al het accommodatienieuws",
+    "moreNews": "Meer accommodatienieuws"
+  }
+}

@@ -49,6 +49,106 @@
       "description": "Vilka cookies LaplandStays använder och varför: lagring av samtycke, Google Analytics 4 endast efter opt-in och affiliateattribuering via partnernätverken."
     }
   },
+  "/news": {
+    "en": {
+      "title": "Lapland accommodation news, with sources",
+      "description": "News that changes how you choose a place to stay in Finnish Lapland. Every story is written from the original source, which is named and linked."
+    },
+    "fi": {
+      "title": "Lapin majoitusuutiset lähteineen",
+      "description": "Uutiset, jotka vaikuttavat majoituksen valintaan Suomen Lapissa. Jokainen juttu on kirjoitettu alkuperäisestä lähteestä, joka on nimetty ja linkitetty."
+    },
+    "de": {
+      "title": "Lappland: Unterkunfts-News mit Quellen",
+      "description": "Nachrichten, die Ihre Wahl der Unterkunft in Finnisch-Lappland verändern. Jeder Beitrag stammt aus der Originalquelle, die genannt und verlinkt wird."
+    },
+    "ja": {
+      "title": "ラップランドの宿泊ニュース（出典つき）",
+      "description": "フィンランド・ラップランドで宿を選ぶときの判断が変わるニュースをまとめています。どの記事も一次情報をもとに書き、出典を明記してリンクし、確認した日付も示します。"
+    },
+    "es": {
+      "title": "Laponia: noticias de alojamiento con fuentes",
+      "description": "Noticias que cambian la forma de elegir alojamiento en la Laponia finlandesa. Cada artículo se escribe a partir de la fuente original, citada y enlazada."
+    },
+    "pt-BR": {
+      "title": "Lapônia: notícias de hospedagem com fontes",
+      "description": "Notícias que mudam a forma de escolher hospedagem na Lapônia finlandesa. Cada texto é escrito a partir da fonte original, citada e com link."
+    },
+    "zh-CN": {
+      "title": "拉普蘭住宿新聞（附出處）",
+      "description": "這裡整理的是會改變你在芬蘭拉普蘭挑選住宿方式的新聞。每一篇報導都依據原始出處寫成，並且清楚標明出處、附上可以點開的連結，也會寫出我們實際查證的日期。"
+    },
+    "ko": {
+      "title": "라플란드 숙소 뉴스, 출처와 함께",
+      "description": "핀란드 라플란드에서 숙소를 고르는 방식을 바꾸는 소식을 모았습니다. 모든 기사는 원래 출처를 열어 보고 쓰며, 출처를 밝히고 링크합니다."
+    },
+    "fr": {
+      "title": "Laponie : actus hébergement et sources",
+      "description": "Les nouvelles qui changent la façon de choisir un hébergement en Laponie finlandaise. Chaque article est écrit d'après la source d'origine, nommée et liée."
+    },
+    "it": {
+      "title": "Lapponia: notizie sugli alloggi con fonti",
+      "description": "Le notizie che cambiano il modo di scegliere un alloggio nella Lapponia finlandese. Ogni articolo nasce dalla fonte originale, citata e collegata."
+    },
+    "nl": {
+      "title": "Lapland: accommodatienieuws met bronnen",
+      "description": "Nieuws dat verandert hoe u een accommodatie in Fins Lapland kiest. Elk artikel is geschreven uit de originele bron, die wordt genoemd en gelinkt."
+    },
+    "sv": {
+      "title": "Boendenyheter från Lappland, med källor",
+      "description": "Nyheter som påverkar hur du väljer boende i finska Lappland. Varje artikel är skriven ur originalkällan, som namnges och länkas."
+    }
+  },
+  "/news/aurora-alert-cameras-lapland-hotels": {
+    "en": {
+      "title": "Northern lights alert: the cameras Lapland hotels buy",
+      "description": "Dozens of Lapland hotels now run cameras that recognise the aurora and push an alert with a photo to guests. What that means when you book a room."
+    },
+    "fi": {
+      "title": "Revontulikamera hälyttää: mitä hotellilta kannattaa kysyä",
+      "description": "Kymmenet Lapin hotellit käyttävät kameraa, joka tunnistaa revontulet ja hälyttää niistä vieraan puhelimeen. Mitä se tarkoittaa majoitusta varatessa."
+    },
+    "de": {
+      "title": "Nordlicht-Alarm: die Kameras in Lapplands Hotels",
+      "description": "Dutzende Hotels in Lappland nutzen Kameras, die das Nordlicht erkennen und Gästen einen Alarm mit Foto aufs Handy schicken. Was das bei der Buchung bedeutet."
+    },
+    "ja": {
+      "title": "オーロラアラート：ホテルのカメラが知らせる",
+      "description": "ラップランドの多くのホテルが、オーロラを自動で認識して写真つきの通知を宿泊客のスマートフォンに送るカメラを導入しています。宿を選ぶときに何を意味するのか。"
+    },
+    "es": {
+      "title": "Alerta de auroras: las cámaras de los hoteles lapones",
+      "description": "Decenas de hoteles de Laponia usan cámaras que reconocen la aurora y envían un aviso con foto al móvil del huésped. Qué significa eso al reservar alojamiento."
+    },
+    "pt-BR": {
+      "title": "Alerta de aurora: as câmeras dos hotéis da Lapônia",
+      "description": "Dezenas de hotéis da Lapônia usam câmeras que reconhecem a aurora e enviam um alerta com foto ao celular do hóspede. O que isso muda na hora de reservar."
+    },
+    "zh-CN": {
+      "title": "極光通知：飯店攝影機自動辨識",
+      "description": "芬蘭拉普蘭已經有數十家飯店使用能自動辨識極光的攝影機，並把附上照片的通知推送到住客的手機上。訂房之前，這代表什麼、又該先向住宿問清楚哪些事情。"
+    },
+    "ko": {
+      "title": "오로라 알림: 호텔 카메라가 대신 본다",
+      "description": "라플란드의 수십 개 호텔이 오로라를 스스로 인식해 사진과 함께 알림을 투숙객 휴대폰으로 보내는 카메라를 씁니다. 숙소를 고를 때 이것이 왜 중요한지 정리했습니다."
+    },
+    "fr": {
+      "title": "Alerte aurores boréales : les caméras des hôtels lapons",
+      "description": "Des dizaines d'hôtels lapons utilisent des caméras qui reconnaissent l'aurore et envoient une alerte avec photo au client. Ce que cela change à la réservation."
+    },
+    "it": {
+      "title": "Allerta aurora boreale: le telecamere degli hotel lapponi",
+      "description": "Decine di hotel della Lapponia usano telecamere che riconoscono l'aurora e inviano un avviso con foto al telefono dell'ospite. Cosa cambia quando si prenota."
+    },
+    "nl": {
+      "title": "Noorderlicht-alarm: de camera's van hotels in Lapland",
+      "description": "Tientallen hotels in Lapland gebruiken camera's die het noorderlicht herkennen en de gast een melding met foto sturen. Wat dat betekent als u een kamer boekt."
+    },
+    "sv": {
+      "title": "Norrskensvarning: kamerorna på Lapplands hotell",
+      "description": "Dussintals hotell i Lappland använder kameror som känner igen norrsken och skickar en varning med bild till gästens telefon. Vad det betyder när du bokar rum."
+    }
+  },
   "/privacy": {
     "en": {
       "title": "Privacy Policy",

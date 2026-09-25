@@ -1,0 +1,27 @@
+{
+  "section": "Boendenyheter",
+  "nav": "Nyheter",
+  "index": {
+    "seoTitle": "Boendenyheter från Lappland, med källor",
+    "description": "Nyheter som påverkar hur du väljer boende i finska Lappland. Varje artikel är skriven ur originalkällan, som namnges och länkas.",
+    "h1": "Boendenyheter från Lappland",
+    "lead": "Vad som förändras i Lapplands boenden, skrivet ur originalkällorna. Varje artikel namnger och länkar det den bygger på.",
+    "aboutTitle": "Så rapporterar vi",
+    "aboutText": "Vi öppnar varje källa innan vi skriver och återger bara det som står där. Saknas en siffra i källan säger vi det i stället för att fylla luckan.",
+    "allRoutes": "Jämför boendetyperna"
+  },
+  "ui": {
+    "home": "Hem",
+    "readMore": "Läs artikeln",
+    "published": "Publicerad",
+    "updated": "Uppdaterad",
+    "byline": "LaplandStays redaktion",
+    "sources": "Källor",
+    "source": "Källa",
+    "read": "läst",
+    "photo": "Foto",
+    "latest": "Senaste boendenyheterna",
+    "allNews": "Alla boendenyheter",
+    "moreNews": "Fler boendenyheter"
+  }
+}

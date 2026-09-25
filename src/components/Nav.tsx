@@ -27,6 +27,7 @@ export default function Nav() {
     { href: to('/destinations/saariselka'), label: c.saariselka },
     { href: to('/destinations/inari'), label: c.inari },
     { href: to('/destinations/rovaniemi'), label: c.rovaniemi },
+    { href: to('/news'), label: c.news },
   ]
 
   useEffect(() => {

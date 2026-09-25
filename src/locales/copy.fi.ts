@@ -12,6 +12,7 @@ const copy: ChromeCopy = {
     saariselka: 'Saariselkä',
     inari: 'Inari',
     rovaniemi: 'Rovaniemi',
+    news: 'Uutiset',
     bookNow: 'Varaa nyt',
     homeAria: 'LaplandStays, etusivu',
     cabins: 'Mökkiloma',

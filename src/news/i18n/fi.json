@@ -1,0 +1,27 @@
+{
+  "section": "Majoitusuutiset",
+  "nav": "Uutiset",
+  "index": {
+    "seoTitle": "Lapin majoitusuutiset lähteineen",
+    "description": "Uutiset, jotka vaikuttavat majoituksen valintaan Suomen Lapissa. Jokainen juttu on kirjoitettu alkuperäisestä lähteestä, joka on nimetty ja linkitetty.",
+    "h1": "Lapin majoitusuutiset",
+    "lead": "Mikä muuttuu Lapin majoituksessa. Jutut kirjoitetaan alkuperäisistä lähteistä, ja jokainen juttu nimeää ja linkittää sen mihin se perustuu.",
+    "aboutTitle": "Näin teemme uutiset",
+    "aboutText": "Avaamme jokaisen lähteen ennen kirjoittamista ja kerromme vain sen, mitä lähde sanoo. Jos luku puuttuu lähteestä, sanomme sen emmekä täytä aukkoa.",
+    "allRoutes": "Vertaa majoitustyyppejä"
+  },
+  "ui": {
+    "home": "Etusivu",
+    "readMore": "Lue juttu",
+    "published": "Julkaistu",
+    "updated": "Päivitetty",
+    "byline": "LaplandStays-toimitus",
+    "sources": "Lähteet",
+    "source": "Lähde",
+    "read": "luettu",
+    "photo": "Kuva",
+    "latest": "Uusimmat majoitusuutiset",
+    "allNews": "Kaikki majoitusuutiset",
+    "moreNews": "Lisää majoitusuutisia"
+  }
+}

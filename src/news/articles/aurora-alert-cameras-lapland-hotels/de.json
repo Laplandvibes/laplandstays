@@ -1,0 +1,80 @@
+{
+  "title": "Lapplands Hotels kaufen Kameras, die das Nordlicht selbst erkennen",
+  "seoTitle": "Nordlicht-Alarm: die Kameras in Lapplands Hotels",
+  "description": "Dutzende Hotels in Lappland nutzen Kameras, die das Nordlicht erkennen und Gästen einen Alarm mit Foto aufs Handy schicken. Was das bei der Buchung bedeutet.",
+  "dek": "Die Kamera beobachtet den Himmel, erkennt das Nordlicht selbst und schickt dem Gast ein Foto. Was das System leistet, wer eines hat und was Sie vor der Buchung fragen sollten.",
+  "heroAlt": "Ein breites grünes Nordlichtband über einem mondhellen, verschneiten See in Inari in Finnisch-Lappland, am Ufer eine kleine rote Hütte",
+  "heroCaption": "Nordlicht über Inari in Finnisch-Lappland.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Dutzende Hotels und Resorts in Finnisch-Lappland haben für ihre Gäste kamerabasierte Nordlicht-Alarmsysteme installiert, berichtet der finnische Rundfunk Yle. Die Kamera richtet sich auf den Himmel, erkennt das Nordlicht selbst und schickt dem Gast einen Alarm aufs Handy, zusammen mit einem Foto von dem, was gerade über ihm passiert."
+    },
+    {
+      "t": "h2",
+      "text": "Was der Alarm wirklich leistet"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Die Kamera fotografiert den Himmel und erkennt das Nordlicht automatisch, ohne dass jemand danach Ausschau hält.",
+        "Der Alarm kommt mit einem Bild aufs Handy, sodass Sie am Foto sehen, ob die Erscheinung stark genug ist, um sich anzuziehen.",
+        "Die Alarme und Bilder der Kamera eines Hauses sind ausschließlich den dort übernachtenden Gästen vorbehalten.",
+        "Das System nutzt maschinelles Lernen und wird damit genauer, je mehr Bilder es aufnimmt."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Wer schon eine hat"
+    },
+    {
+      "t": "p",
+      "text": "Die Kameras aus dem Yle-Bericht baut und programmiert der Softwareentwickler Jari Ketola aus Rovaniemi von Grund auf selbst. Von den Nordlichtkameras in Lappland sind 30 seine, und für den kommenden Winter installiert er 14 weitere. Er ist nicht der einzige Anbieter kamerabasierter Alarmsysteme in Lappland. Seine Kameras hängen unter anderem bei der Kette Wilderness Hotels, bei den Iglus von Levi und bei Harriniva."
+    },
+    {
+      "t": "p",
+      "text": "In der vergangenen Saison wurden mehr als 67 000 Geräte in seinem System registriert. Laut Ketola fragen Gäste heute schon vor der Buchung, ob das Hotel ein Nordlicht-Alarmsystem hat."
+    },
+    {
+      "t": "h2",
+      "text": "Fragen Sie das bei der Zimmerbuchung"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Hat das Haus eine eigene Nordlichtkamera oder leitet es nur eine allgemeine Vorhersage weiter?",
+        "Wie erreicht Sie der Alarm nachts, und müssen Sie dafür etwas installieren?",
+        "Gilt der Alarm nur für Gäste, die im Haus übernachten?",
+        "Blickt die Kamera auf denselben Himmel, unter den Sie aus Ihrem Zimmer treten würden?"
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Der Yle-Bericht nennt keine Preise und listet nicht auf, welche Häuser die Systeme anderer Anbieter nutzen. Beides fragt man am besten direkt beim Haus nach."
+    },
+    {
+      "t": "h2",
+      "text": "Wann der Himmel am ehesten liefert"
+    },
+    {
+      "t": "p",
+      "text": "Das Nordlicht verlängert die Tourismussaison von Rovaniemi vor allem im September und Oktober sowie im März und April, sagt Sanna Kärkkäinen, Geschäftsführerin von Visit Rovaniemi. Die Schwankungen der Naturbedingungen machten das Phänomen zeitweise schwer vorhersehbar, trotz aller verfügbaren Apps, Web- und Wetterdienste und Bewölkungskarten."
+    },
+    {
+      "t": "p",
+      "text": "Ketolas eigene Kameradaten zeichnen für das Frühjahr ein anderes Bild: Danach sind die Chancen auf Nordlichter in Lappland genau dann am geringsten. Wer ihn fragt, dem rät er, im September oder Oktober zu kommen, wenn es noch nicht zu kalt ist, um draußen zu stehen."
+    },
+    {
+      "t": "link",
+      "text": "Unsere eigene Lesart der Nordlichtsaison, Monat für Monat, mit Schnee und Licht.",
+      "label": "Die beste Reisezeit für Lappland",
+      "href": "/when-to-go"
+    },
+    {
+      "t": "link",
+      "text": "Ein Glasdach ist nicht die einzige Art, unter dem Nordlicht zu schlafen. Die Unterkunftstypen im Vergleich.",
+      "label": "Unterkunftstypen in Lappland",
+      "href": "/property-types"
+    }
+  ]
+}

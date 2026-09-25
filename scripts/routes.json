@@ -261,5 +261,35 @@
       "src/shared/Legal/CookieContent.tsx",
       "src/pages/CookiePolicy.tsx"
     ]
+  },
+  {
+    "path": "/news",
+    "fallbackTitle": "Lapland accommodation news, with sources",
+    "fallbackDescription": "News that changes how you choose a place to stay in Finnish Lapland. Every story is written from the original source, which is named and linked.",
+    "ogImage": "/og/news.jpg",
+    "ogCard": {
+      "hero": "/images/news/aurora-inari-1600.webp",
+      "line": "The camera that spots the aurora"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/_index/{lang}.json",
+      "key": "news",
+      "mode": "jsonFile"
+    }
+  },
+  {
+    "path": "/news/aurora-alert-cameras-lapland-hotels",
+    "fallbackTitle": "Northern lights alert: the cameras Lapland hotels buy",
+    "fallbackDescription": "Dozens of Lapland hotels now run cameras that recognise the aurora and push an alert with a photo to guests. What that means when you book a room.",
+    "ogImage": "/og/news-aurora-alert-cameras-lapland-hotels.jpg",
+    "ogCard": {
+      "hero": "/images/news/aurora-inari-1600.webp",
+      "line": "The camera that spots the aurora"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/aurora-alert-cameras-lapland-hotels/{lang}.json",
+      "key": "aurora-alert-cameras-lapland-hotels",
+      "mode": "jsonFile"
+    }
   }
 ]

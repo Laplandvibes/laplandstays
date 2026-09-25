@@ -241,5 +241,167 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news": {
+    "route": "/news",
+    "line": "The camera that spots the aurora",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/aurora-inari-1600.webp",
+        "bytes": 55628,
+        "sha256": "95b24e0b74f59cfd8d7ca3ff648839398f7064b755782b8972cbea03427f7573",
+        "heroSha": "3a09a691f20d56a3",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15105,
+        "inkBox": [
+          366,
+          493,
+          833,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 54.7,
+        "centerSq": 57.1,
+        "photoRegion": 61.3,
+        "photoRegionRef": 61.3,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 469,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/aurora-inari-1600.webp",
+        "bytes": 55628,
+        "sha256": "95b24e0b74f59cfd8d7ca3ff648839398f7064b755782b8972cbea03427f7573",
+        "heroSha": "3a09a691f20d56a3",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15105,
+        "inkBox": [
+          366,
+          493,
+          833,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 54.7,
+        "centerSq": 57.1,
+        "photoRegion": 61.3,
+        "photoRegionRef": 61.3,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 469,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "news-aurora-alert-cameras-lapland-hotels": {
+    "route": "/news/aurora-alert-cameras-lapland-hotels",
+    "line": "The camera that spots the aurora",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/aurora-inari-1600.webp",
+        "bytes": 55628,
+        "sha256": "95b24e0b74f59cfd8d7ca3ff648839398f7064b755782b8972cbea03427f7573",
+        "heroSha": "3a09a691f20d56a3",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15105,
+        "inkBox": [
+          366,
+          493,
+          833,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 54.7,
+        "centerSq": 57.1,
+        "photoRegion": 61.3,
+        "photoRegionRef": 61.3,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 469,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/aurora-inari-1600.webp",
+        "bytes": 55628,
+        "sha256": "95b24e0b74f59cfd8d7ca3ff648839398f7064b755782b8972cbea03427f7573",
+        "heroSha": "3a09a691f20d56a3",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15105,
+        "inkBox": [
+          366,
+          493,
+          833,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 54.7,
+        "centerSq": 57.1,
+        "photoRegion": 61.3,
+        "photoRegionRef": 61.3,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 469,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

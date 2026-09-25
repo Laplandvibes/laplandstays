@@ -1,0 +1,32 @@
+{
+  "slug": "aurora-alert-cameras-lapland-hotels",
+  "date": "2026-09-25",
+  "hero": {
+    "src": "/images/news/aurora-inari-1600.webp",
+    "srcSmall": "/images/news/aurora-inari-800.webp",
+    "width": 1600,
+    "height": 1065,
+    "position": "50% 42%",
+    "credit": {
+      "author": "Daniele57C",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aurora_ad_Inari_-_2.jpg",
+      "assetId": "File:Aurora ad Inari - 2.jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2025-03",
+      "retrieved": "2026-09-25"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Yle",
+      "title": "Jari Ketola kehitti kameran, joka tunnistaa revontulet automaattisesti – on myynyt tuotteen jo kymmenille hotelleille",
+      "url": "https://yle.fi/a/74-20246411",
+      "date": "2026-09-20"
+    }
+  ],
+  "ogCard": {
+    "line": "The camera that spots the aurora"
+  }
+}

@@ -12,6 +12,7 @@ const copy: ChromeCopy = {
     saariselka: 'サーリセルカ',
     inari: 'イナリ',
     rovaniemi: 'ロヴァニエミ',
+    news: 'ニュース',
     bookNow: '今すぐ予約',
     homeAria: 'LaplandStays ホーム',
     cabins: 'コテージ滞在',

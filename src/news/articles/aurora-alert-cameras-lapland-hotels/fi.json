@@ -1,0 +1,80 @@
+{
+  "title": "Lapin hotellit ostavat revontulikameroita, jotka hälyttävät itse",
+  "seoTitle": "Revontulikamera hälyttää: mitä hotellilta kannattaa kysyä",
+  "description": "Kymmenet Lapin hotellit käyttävät kameraa, joka tunnistaa revontulet ja hälyttää niistä vieraan puhelimeen. Mitä se tarkoittaa majoitusta varatessa.",
+  "dek": "Kamera kuvaa taivaalle, tunnistaa revontulet itse ja lähettää vieraalle kuvan. Tässä on mitä järjestelmä tekee, kenellä sellainen on ja mitä kannattaa kysyä ennen varausta.",
+  "heroAlt": "Leveä vihreä revontulikaari kuutamoisen, lumisen järven yllä Inarissa, ja rannalla pieni punainen mökki",
+  "heroCaption": "Revontulet Inarissa.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Kymmenet hotellit ja resortit eri puolilla Suomen Lappia ovat asennuttaneet asiakkailleen kameraan perustuvan revontulihälytysjärjestelmän, kertoo Yle. Kamera kuvaa taivaalle, tunnistaa revontulet itse ja lähettää hälytyksen vieraan puhelimeen sekä kuvan siitä, mitä taivaalla juuri nyt tapahtuu."
+    },
+    {
+      "t": "h2",
+      "text": "Mitä hälytys oikeasti tekee"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Kamera kuvaa taivaalle ja tunnistaa revontulet automaattisesti, ilman että kukaan vahtii taivasta.",
+        "Hälytys tulee puhelimeen kuvan kanssa, joten kuvasta näkee, ovatko revontulet tarpeeksi vahvat pukeutumisen arvoisiksi.",
+        "Majoituksen oman kameran hälytykset ja kuvat ovat vain siinä majoituksessa yöpyvien käytössä.",
+        "Järjestelmä käyttää koneoppimista, eli se tarkentuu sitä mukaa kuin kuvia kertyy."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Kenellä sellainen jo on"
+    },
+    {
+      "t": "p",
+      "text": "Ylen jutun kamerat rakentaa ja ohjelmoi alusta asti rovaniemeläinen ohjelmistokehittäjä Jari Ketola. Lapin revontulikameroista 30 on hänen, ja tulevalle talvelle hän asentaa 14 lisää. Hän ei ole ainoa kameraan perustuvan hälytysjärjestelmän tarjoaja Lapissa. Hänen kameroitaan on asennettuna muun muassa Wilderness Hotels -ketjulle, Levin igluille ja Harrinivalle."
+    },
+    {
+      "t": "p",
+      "text": "Viime kaudella järjestelmään rekisteröitiin yli 67 000 laitetta. Ketolan mukaan vieraat kysyvät nykyään hotellilta jo etukäteen, onko sillä revontulihälytysjärjestelmää."
+    },
+    {
+      "t": "h2",
+      "text": "Kysy nämä kun varaat huoneen"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Onko majoituksella oma revontulikamera vai välittääkö se yleistä ennustetta?",
+        "Miten hälytys tavoittaa sinut yöllä, ja pitääkö sitä varten asentaa jotain?",
+        "Onko hälytys vain siinä majoituksessa yöpyvien käytössä?",
+        "Osoittaako kamera samalle taivaalle, jonka alle astuisit omasta huoneestasi?"
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Ylen juttu ei kerro hintoja eikä sitä, mitkä majoitukset käyttävät muiden toimittajien järjestelmiä. Molemmat kannattaa kysyä majoitukselta itseltään."
+    },
+    {
+      "t": "h2",
+      "text": "Milloin taivas todennäköisimmin antaa"
+    },
+    {
+      "t": "p",
+      "text": "Revontulet pidentävät Rovaniemen matkailusesonkia etenkin syys- ja lokakuussa sekä maalis- ja huhtikuussa, sanoo Visit Rovaniemen toimitusjohtaja Sanna Kärkkäinen. Hänen mukaansa luonnonolosuhteiden vaihtelu tekee ilmiön ennustettavuudesta välillä haastavaa, vaikka käytettävissä on sovelluksia, verkko- ja sääpalveluita sekä pilvisyyskarttoja."
+    },
+    {
+      "t": "p",
+      "text": "Ketolan omasta kameradatasta alkukevät näyttää toiselta: sen mukaan heikoimmat mahdollisuudet nähdä revontulia Lapissa ovat juuri silloin. Kyselijöille hän sanoo, että kannattaa tulla syyskuussa tai lokakuussa, kun ei ole vielä liian kylmä seisoskella ulkona."
+    },
+    {
+      "t": "link",
+      "text": "Oma kuukausi kuukaudelta -lukemamme revontulikaudesta, lumesta ja valosta.",
+      "label": "Milloin Lappiin kannattaa tulla",
+      "href": "/when-to-go"
+    },
+    {
+      "t": "link",
+      "text": "Lasikatto ei ole ainoa tapa nukkua revontulien alla. Majoitustyypit vertailussa.",
+      "label": "Lapin majoitustyypit",
+      "href": "/property-types"
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { dedupeHeadLinks } from '../shared/seo/dedupeHeadLinks'
 import { useLang } from '../i18n/useLang'
 
 const SITE_URL = 'https://laplandstays.com'
@@ -151,6 +152,13 @@ export default function SEO({
     xDefault.setAttribute('href', `${SITE_URL}${xDefaultPrefix}${canonicalPath}`.replace(/\/?$/, '/'))
     xDefault.setAttribute('data-seo-hreflang', 'true')
     document.head.appendChild(xDefault)
+
+    // 🔴 Esirenderöijä kirjoitti samat kanoniset ja hreflangit staattiseen HTML:ään, ja yllä oleva
+    // poisto koskee vain tämän komponentin omia (data-seo-hreflang) ⇒ renderöidyssä sivussa oli
+    // 28 hreflangia ja 14 kaksoiskappaletta (mitattu livenä 25.9.2026). Arvot ovat identtiset,
+    // joten tämä ei ollut hakukonevirhe, mutta tupla peittää alleen sen vian joka olisi:
+    // sama kieli osoittamassa kahteen ERI osoitteeseen. Poistaa vain TARKAT kaksoiskappaleet.
+    dedupeHeadLinks()
 
     // Open Graph
     upsertMeta('meta[property="og:type"]', 'property', 'og:type', 'website')

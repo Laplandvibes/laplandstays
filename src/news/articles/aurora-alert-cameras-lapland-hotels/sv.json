@@ -1,0 +1,80 @@
+{
+  "title": "Hotellen i Lappland köper kameror som känner igen norrskenet själva",
+  "seoTitle": "Norrskensvarning: kamerorna på Lapplands hotell",
+  "description": "Dussintals hotell i Lappland använder kameror som känner igen norrsken och skickar en varning med bild till gästens telefon. Vad det betyder när du bokar rum.",
+  "dek": "Kameran bevakar himlen, känner igen norrskenet själv och skickar gästen en bild. Så fungerar systemet, så här vet du vilka som har ett, och det här ska du fråga före bokningen.",
+  "heroAlt": "Ett brett grönt norrskensband över en månbelyst, snötäckt sjö i Enare i finska Lappland, med en liten röd stuga vid stranden",
+  "heroCaption": "Norrsken över Enare i finska Lappland.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Dussintals hotell och resorter i finska Lappland har installerat kamerabaserade norrskensvarningar åt sina gäster, rapporterar finska rundradion Yle. Kameran riktas mot himlen, känner igen norrskenet själv och skickar en varning till gästens telefon tillsammans med ett foto av det som pågår ovanför."
+    },
+    {
+      "t": "h2",
+      "text": "Vad varningen faktiskt gör"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Kameran fotograferar himlen och känner igen norrskenet automatiskt, utan att någon behöver hålla utkik.",
+        "Varningen kommer till telefonen med en bild, så att du ser på fotot om skenet är starkt nog att klä på sig för.",
+        "Varningarna och bilderna från ett boendes egen kamera är enbart till för gästerna som bor där.",
+        "Systemet använder maskininlärning och blir alltså noggrannare ju fler bilder det tar."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Vilka som redan har en"
+    },
+    {
+      "t": "p",
+      "text": "Kamerorna i Yles reportage byggs och programmeras från grunden av mjukvaruutvecklaren Jari Ketola från Rovaniemi. Av norrskenskamerorna i Lappland är 30 hans, och till den kommande vintern installerar han 14 till. Han är inte ensam om att sälja kamerabaserade varningssystem i Lappland. Hans kameror finns bland annat hos kedjan Wilderness Hotels, hos igloerna i Levi och hos Harriniva."
+    },
+    {
+      "t": "p",
+      "text": "Under den senaste säsongen registrerades mer än 67 000 enheter i hans system. Enligt Ketola frågar gästerna i dag hotellet på förhand om det har ett norrskensvarningssystem."
+    },
+    {
+      "t": "h2",
+      "text": "Fråga det här när du bokar rum"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Har boendet en egen norrskenskamera eller vidarebefordrar det bara en allmän prognos?",
+        "Hur når varningen dig på natten, och måste du installera något för att få den?",
+        "Gäller varningen bara för gäster som bor på stället?",
+        "Tittar kameran på samma himmel som du skulle kliva ut under från ditt rum?"
+      ]
+    },
+    {
+      "t": "note",
+      "text": "Yles reportage nämner inga priser och räknar inte upp vilka boenden som använder andra leverantörers system. Båda är värda att fråga boendet direkt om."
+    },
+    {
+      "t": "h2",
+      "text": "När himlen troligast levererar"
+    },
+    {
+      "t": "p",
+      "text": "Norrskenet förlänger Rovaniemis turistsäsong särskilt i september och oktober samt i mars och april, säger Sanna Kärkkäinen, vd för Visit Rovaniemi. Hon tillägger att variationerna i naturförhållandena tidvis gör fenomenet svårt att förutsäga, trots alla appar, webb- och vädertjänster och molnkartor som finns."
+    },
+    {
+      "t": "p",
+      "text": "Ketolas egna kameradata pekar åt andra hållet för tidig vår: enligt dem är chanserna att se norrsken i Lappland som sämst just då. Den som frågar honom får rådet att komma i september eller oktober, när det ännu inte är för kallt att stå ute."
+    },
+    {
+      "t": "link",
+      "text": "Vår egen läsning av norrskenssäsongen, snön och ljuset, månad för månad.",
+      "label": "När du ska åka till Lappland",
+      "href": "/when-to-go"
+    },
+    {
+      "t": "link",
+      "text": "Ett glastak är inte enda sättet att sova under skenet. Boendetyperna jämförda.",
+      "label": "Boendetyper i Lappland",
+      "href": "/property-types"
+    }
+  ]
+}

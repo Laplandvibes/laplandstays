@@ -77,6 +77,8 @@ const Cabins = lazy(() => import('./pages/Cabins'))
 const Igloos = lazy(() => import('./pages/Igloos'))
 // JA-only vertailusivu — reitti on olemassa VAIN /ja/-puolella (ks. GlassIgloos.tsx).
 const GlassIgloos = lazy(() => import('./pages/GlassIgloos'))
+const NewsIndex = lazy(() => import('./news/NewsIndex'))
+const NewsArticle = lazy(() => import('./news/NewsArticle'))
 const EditorialPolicy = lazy(() => import('./pages/EditorialPolicy'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 const Terms = lazy(() => import('./pages/Terms'))
@@ -372,6 +374,15 @@ export default function App() {
             <Route path="/sv/privacy" element={<PrivacyPolicy />} />
             <Route path="/sv/terms" element={<Terms />} />
             <Route path="/sv/cookie-policy" element={<CookiePolicy />} />
+
+            {/* Uutisosio (src/news/) — sama reittipari jokaiselle kieliprefiksille.
+                Kirjoitettu silmukkana eikä 12 kertaa käsin: prefiksilista on sama kuin
+                scripts/news-prerender.mjs:n LOCALES, ja käsin kirjoitettuna yhden kielen
+                unohtaminen olisi hiljainen 404 vain siinä kielessä. */}
+            {['', '/fi', '/de', '/ja', '/es', '/br', '/cn', '/kr', '/fr', '/it', '/nl', '/sv'].flatMap((prefix) => [
+              <Route key={`${prefix}/news`} path={`${prefix}/news`} element={<NewsIndex />} />,
+              <Route key={`${prefix}/news/:slug`} path={`${prefix}/news/:slug`} element={<NewsArticle />} />,
+            ])}
 
             <Route path="*" element={<NotFound />} />
           </Routes>

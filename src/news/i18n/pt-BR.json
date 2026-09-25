@@ -1,0 +1,27 @@
+{
+  "section": "Notícias de hospedagem",
+  "nav": "Notícias",
+  "index": {
+    "seoTitle": "Lapônia: notícias de hospedagem com fontes",
+    "description": "Notícias que mudam a forma de escolher hospedagem na Lapônia finlandesa. Cada texto é escrito a partir da fonte original, citada e com link.",
+    "h1": "Notícias de hospedagem na Lapônia",
+    "lead": "O que muda na hospedagem da Lapônia, escrito a partir das fontes originais. Cada texto cita e traz o link daquilo em que se baseia.",
+    "aboutTitle": "Como apuramos",
+    "aboutText": "Abrimos cada fonte antes de escrever e contamos apenas o que ela diz. Se um número não está na fonte, dizemos isso em vez de preencher a lacuna.",
+    "allRoutes": "Compare os tipos de hospedagem"
+  },
+  "ui": {
+    "home": "Início",
+    "readMore": "Ler a matéria",
+    "published": "Publicado",
+    "updated": "Atualizado",
+    "byline": "Redação da LaplandStays",
+    "sources": "Fontes",
+    "source": "Fonte",
+    "read": "consultado",
+    "photo": "Foto",
+    "latest": "Últimas notícias de hospedagem",
+    "allNews": "Todas as notícias de hospedagem",
+    "moreNews": "Mais notícias de hospedagem"
+  }
+}

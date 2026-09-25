@@ -16,6 +16,8 @@ export type ChromeCopy = {
     saariselka: string
     inari: string
     rovaniemi: string
+    /** Uutisosio /news (25.9.2026). Sama sana kuin src/news/i18n/<kieli>.json `nav`. */
+    news: string
     bookNow: string
     /** Accessible name for the logo link (was hardcoded EN). */
     homeAria: string

@@ -1,0 +1,27 @@
+{
+  "section": "Notizie sugli alloggi",
+  "nav": "Notizie",
+  "index": {
+    "seoTitle": "Lapponia: notizie sugli alloggi con fonti",
+    "description": "Le notizie che cambiano il modo di scegliere un alloggio nella Lapponia finlandese. Ogni articolo nasce dalla fonte originale, citata e collegata.",
+    "h1": "Notizie sugli alloggi in Lapponia",
+    "lead": "Che cosa cambia negli alloggi della Lapponia, scritto a partire dalle fonti originali. Ogni articolo cita e collega ciò su cui si basa.",
+    "aboutTitle": "Come lavoriamo",
+    "aboutText": "Apriamo ogni fonte prima di scrivere e riportiamo solo ciò che dice. Se un dato manca nella fonte, lo diciamo invece di colmare il vuoto.",
+    "allRoutes": "Confronta i tipi di alloggio"
+  },
+  "ui": {
+    "home": "Home",
+    "readMore": "Leggi l'articolo",
+    "published": "Pubblicato",
+    "updated": "Aggiornato",
+    "byline": "Redazione di LaplandStays",
+    "sources": "Fonti",
+    "source": "Fonte",
+    "read": "consultato",
+    "photo": "Foto",
+    "latest": "Ultime notizie sugli alloggi",
+    "allNews": "Tutte le notizie sugli alloggi",
+    "moreNews": "Altre notizie sugli alloggi"
+  }
+}

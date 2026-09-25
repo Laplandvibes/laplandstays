@@ -1,0 +1,80 @@
+{
+  "title": "Hotéis da Lapônia compram câmeras que reconhecem a aurora sozinhas",
+  "seoTitle": "Alerta de aurora: as câmeras dos hotéis da Lapônia",
+  "description": "Dezenas de hotéis da Lapônia usam câmeras que reconhecem a aurora e enviam um alerta com foto ao celular do hóspede. O que isso muda na hora de reservar.",
+  "dek": "A câmera vigia o céu, reconhece a aurora sozinha e envia uma foto ao hóspede. Veja o que o sistema faz, quem já tem um e o que perguntar antes de reservar.",
+  "heroAlt": "Uma ampla faixa verde de aurora boreal sobre um lago nevado iluminado pela lua em Inari, na Lapônia finlandesa, com uma pequena cabana vermelha na margem",
+  "heroCaption": "Aurora boreal sobre Inari, na Lapônia finlandesa.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Dezenas de hotéis e resorts da Lapônia finlandesa instalaram para seus hóspedes sistemas de alerta de aurora boreal baseados em câmera, informa a emissora pública finlandesa Yle. A câmera aponta para o céu, reconhece a aurora sozinha e envia um alerta ao celular do hóspede, junto com uma foto do que está acontecendo acima dele."
+    },
+    {
+      "t": "h2",
+      "text": "O que o alerta faz de fato"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "A câmera fotografa o céu e reconhece a aurora automaticamente, sem que ninguém precise ficar olhando.",
+        "O alerta chega ao celular com uma imagem, então a foto mostra se o fenômeno está forte o bastante para valer a pena se vestir.",
+        "Os alertas e as imagens da câmera de uma hospedagem são exclusivos de quem está hospedado ali.",
+        "O sistema usa aprendizado de máquina e fica mais preciso quanto mais imagens registra."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Quem já tem uma"
+    },
+    {
+      "t": "p",
+      "text": "As câmeras da reportagem da Yle são construídas e programadas do zero por Jari Ketola, desenvolvedor de software de Rovaniemi. Das câmeras de aurora que existem na Lapônia, 30 são dele, e para o inverno que vem ele instala mais 14. Ele não é o único fornecedor de sistemas de alerta por câmera na Lapônia. Suas câmeras estão instaladas, entre outros, na rede Wilderness Hotels, nos iglus de Levi e em Harriniva."
+    },
+    {
+      "t": "p",
+      "text": "Na temporada passada, mais de 67 000 aparelhos foram registrados no sistema dele. Segundo Ketola, os hóspedes hoje perguntam ao hotel antes mesmo de reservar se ele tem um sistema de alerta de aurora."
+    },
+    {
+      "t": "h2",
+      "text": "Pergunte isto ao reservar um quarto"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "A hospedagem tem câmera própria de aurora ou apenas repassa uma previsão geral?",
+        "Como o alerta chega até você à noite e é preciso instalar algo para recebê-lo?",
+        "O alerta vale só para quem está hospedado ali?",
+        "A câmera olha para o mesmo céu sob o qual você sairia do seu quarto?"
+      ]
+    },
+    {
+      "t": "note",
+      "text": "A reportagem da Yle não cita preços nem lista quais hospedagens usam os sistemas de outros fornecedores. As duas coisas vale perguntar diretamente à hospedagem."
+    },
+    {
+      "t": "h2",
+      "text": "Quando o céu tem mais chance de responder"
+    },
+    {
+      "t": "p",
+      "text": "A aurora alonga a temporada turística de Rovaniemi sobretudo em setembro e outubro e em março e abril, diz Sanna Kärkkäinen, diretora-executiva da Visit Rovaniemi. Ela acrescenta que a variação das condições naturais torna o fenômeno às vezes difícil de prever, apesar dos aplicativos, serviços de web e meteorologia e mapas de nebulosidade disponíveis."
+    },
+    {
+      "t": "p",
+      "text": "Os próprios dados de câmera de Ketola apontam o contrário para o início da primavera: mostram que justamente nessa época as chances de ver aurora na Lapônia são as menores. A quem pergunta, ele recomenda vir em setembro ou outubro, quando ainda não está frio demais para ficar do lado de fora."
+    },
+    {
+      "t": "link",
+      "text": "Nossa leitura mês a mês da temporada de auroras, da neve e da luz.",
+      "label": "Quando ir à Lapônia",
+      "href": "/when-to-go"
+    },
+    {
+      "t": "link",
+      "text": "Um teto de vidro não é o único jeito de dormir sob as luzes. Os tipos de hospedagem comparados.",
+      "label": "Tipos de hospedagem na Lapônia",
+      "href": "/property-types"
+    }
+  ]
+}
