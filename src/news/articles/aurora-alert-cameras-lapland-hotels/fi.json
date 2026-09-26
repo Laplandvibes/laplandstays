@@ -29,7 +29,7 @@
     },
     {
       "t": "p",
-      "text": "Ylen jutun kamerat rakentaa ja ohjelmoi alusta asti rovaniemeläinen ohjelmistokehittäjä Jari Ketola. Lapin revontulikameroista 30 on hänen, ja tulevalle talvelle hän asentaa 14 lisää. Hän ei ole ainoa kameraan perustuvan hälytysjärjestelmän tarjoaja Lapissa. Hänen kameroitaan on asennettuna muun muassa Wilderness Hotels -ketjulle, Levin igluille ja Harrinivalle."
+      "text": "Ylen haastattelema rovaniemeläinen ohjelmistokehittäjä Jari Ketola rakentaa ja ohjelmoi kameransa alusta asti itse. Hänellä on Lapissa 30 revontulikameraa, ja tulevaksi talveksi hän asentaa 14 lisää. Hän ei ole ainoa kameraan perustuvan hälytysjärjestelmän tarjoaja Lapissa. Hänen kameroitaan on asennettuna muun muassa Wilderness Hotels -ketjulle, Levin igluille ja Harrinivalle."
     },
     {
       "t": "p",
@@ -50,7 +50,7 @@
     },
     {
       "t": "note",
-      "text": "Ylen juttu ei kerro hintoja eikä sitä, mitkä majoitukset käyttävät muiden toimittajien järjestelmiä. Molemmat kannattaa kysyä majoitukselta itseltään."
+      "text": "Kysy majoitukselta myös, maksaako hälytys erikseen ja kenen kamerajärjestelmää se käyttää."
     },
     {
       "t": "h2",
@@ -62,11 +62,11 @@
     },
     {
       "t": "p",
-      "text": "Ketolan omasta kameradatasta alkukevät näyttää toiselta: sen mukaan heikoimmat mahdollisuudet nähdä revontulia Lapissa ovat juuri silloin. Kyselijöille hän sanoo, että kannattaa tulla syyskuussa tai lokakuussa, kun ei ole vielä liian kylmä seisoskella ulkona."
+      "text": "Ketolan oma kameradata antaa alkukeväästä toisenlaisen kuvan: sen mukaan mahdollisuudet nähdä revontulia ovat Lapissa silloin heikoimmat. Kysyjille hän suosittelee syyskuuta tai lokakuuta, jolloin ulkona ei ole vielä liian kylmä seisoskella."
     },
     {
       "t": "link",
-      "text": "Oma lukemamme revontulikaudesta, lumesta ja valosta kuukausi kuukaudelta.",
+      "text": "Revontulikausi, lumi ja valo kuukausi kuukaudelta.",
       "label": "Milloin Lappiin kannattaa tulla",
       "href": "/when-to-go"
     },
