@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'スキーリゾートの空きコテージ',
       h2: '自分たちだけのコテージとサウナで、まる一週間',
-      lead: 'グループ全員で泊まれるログコテージやゲレンデ近くのアパートメントを、週料金の目安つきでご紹介します。Lomarengasの掲載情報から毎日更新され、実際の料金は週によって異なります。',
+      lead: 'グループ全員で泊まれるログコテージやゲレンデ近くのアパートメントをご紹介します。Lomarengasの掲載情報から毎日更新されます。コテージを開くと、空いている週とご希望の週の料金を確認できます。',
       weekFrom: '1週間 {price} €〜',
       guestsLabel: '定員',
       bedroomsLabel: '寝室',
       sizeLabel: '広さ',
       viewCabin: 'コテージを見る',
       browseAll: 'この地域の全{count}件のコテージを見る',
-      dataNote: '写真と価格:Lomarengasの商品データ（毎日更新）。',
+      dataNote: '写真:Lomarengasの商品データ（毎日更新）。',
     },
   },
 }

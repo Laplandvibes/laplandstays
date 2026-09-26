@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Chalet disponibili nelle località sciistiche',
       h2: 'Il Suo chalet, la Sua sauna, per tutta la settimana',
-      lead: 'Chalet in legno e appartamenti sulle piste con posto per tutto il gruppo, con il prezzo settimanale «a partire da» già in vista. La selezione si aggiorna ogni giorno dall’offerta Lomarengas; il prezzo finale dipende dalla settimana.',
+      lead: 'Chalet in legno e appartamenti sulle piste con posto per tutto il gruppo. La selezione si aggiorna ogni giorno dall’offerta Lomarengas; apra un chalet per vedere le settimane libere e il prezzo della Sua settimana.',
       weekFrom: 'settimana da {price} €',
       guestsLabel: 'persone',
       bedroomsLabel: 'camere da letto',
       sizeLabel: 'superficie',
       viewCabin: 'Vedi lo chalet',
       browseAll: 'Sfoglia tutti i {count} chalet della zona',
-      dataNote: 'Foto e prezzi: dati prodotto Lomarengas, aggiornati ogni giorno.',
+      dataNote: 'Foto: dati prodotto Lomarengas, aggiornati ogni giorno.',
     },
   },
 }

@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: '스키 리조트의 예약 가능 코티지',
       h2: '우리만의 코티지와 사우나에서 일주일 내내',
-      lead: '일행 모두가 함께 묵을 수 있는 통나무 코티지와 슬로프 인근 아파트먼트를 주 단위 최저 요금과 함께 소개합니다. Lomarengas 등록 매물에서 매일 갱신되며, 실제 요금은 주에 따라 다릅니다.',
+      lead: '일행 모두가 함께 묵을 수 있는 통나무 코티지와 슬로프 인근 아파트먼트를 소개합니다. Lomarengas 등록 매물에서 매일 갱신되며, 코티지를 열면 예약 가능한 주와 원하는 주의 요금을 확인할 수 있습니다.',
       weekFrom: '주당 {price} €부터',
       guestsLabel: '인원',
       bedroomsLabel: '침실',
       sizeLabel: '면적',
       viewCabin: '코티지 보기',
       browseAll: '지역의 코티지 {count}곳 모두 보기',
-      dataNote: '사진과 가격: Lomarengas 상품 데이터, 매일 업데이트됩니다.',
+      dataNote: '사진: Lomarengas 상품 데이터, 매일 업데이트됩니다.',
     },
   },
 }

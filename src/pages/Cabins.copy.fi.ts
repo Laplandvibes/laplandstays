@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Vapaat mökit hiihtokeskuksissa',
       h2: 'Oma mökki, oma sauna, koko viikko',
-      lead: 'Hirsimökkejä ja rinneasuntoja koko porukalle, viikkohinta alkaen näkyvissä heti. Poiminnat päivittyvät joka päivä Lomarenkaan valikoimasta; lopullinen hinta riippuu viikosta.',
+      lead: 'Hirsimökkejä ja rinneasuntoja koko porukalle. Poiminnat päivittyvät joka päivä Lomarenkaan valikoimasta; avaa mökki, niin näet vapaat viikot ja oman viikkosi hinnan.',
       weekFrom: 'vko alkaen {price} €',
       guestsLabel: 'henkilöä',
       bedroomsLabel: 'makuuhuonetta',
       sizeLabel: 'koko',
       viewCabin: 'Katso mökki',
       browseAll: 'Selaa alueen kaikkia {count} mökkiä',
-      dataNote: 'Kuvat ja hinnat Lomarenkaan tuotetiedoista, päivitetään joka päivä.',
+      dataNote: 'Kuvat Lomarenkaan tuotetiedoista, päivitetään joka päivä.',
     },
   },
 }

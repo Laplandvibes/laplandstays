@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Cabanas disponíveis nas estações',
       h2: 'Sua cabana, sua sauna, a semana inteira',
-      lead: 'Cabanas de troncos e apartamentos ao pé das pistas com espaço para o grupo todo, com o preço semanal «a partir de» já à vista. A seleção é atualizada todos os dias a partir das ofertas da Lomarengas; o valor final depende da semana.',
+      lead: 'Cabanas de troncos e apartamentos ao pé das pistas com espaço para o grupo todo. A seleção é atualizada todos os dias a partir das ofertas da Lomarengas; abra uma cabana para ver as semanas livres e o preço da sua semana.',
       weekFrom: 'semana a partir de {price} €',
       guestsLabel: 'pessoas',
       bedroomsLabel: 'quartos',
       sizeLabel: 'área',
       viewCabin: 'Ver cabana',
       browseAll: 'Ver todas as {count} cabanas da região',
-      dataNote: 'Fotos e preços: dados de produto da Lomarengas, atualizados diariamente.',
+      dataNote: 'Fotos: dados de produto da Lomarengas, atualizados diariamente.',
     },
   },
 }

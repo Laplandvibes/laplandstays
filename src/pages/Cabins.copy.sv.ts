@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Lediga stugor vid skidorterna',
       h2: 'Egen stuga, egen bastu, hela veckan',
-      lead: 'Timmerstugor och lägenheter vid backen med plats för hela sällskapet, med lägsta veckopris direkt. Urvalet uppdateras dagligen ur Lomarengas utbud; slutpriset beror på veckan.',
+      lead: 'Timmerstugor och lägenheter vid backen med plats för hela sällskapet. Urvalet uppdateras dagligen ur Lomarengas utbud; öppna en stuga för att se lediga veckor och priset för din vecka.',
       weekFrom: 'vecka från {price} €',
       guestsLabel: 'personer',
       bedroomsLabel: 'sovrum',
       sizeLabel: 'storlek',
       viewCabin: 'Se stugan',
       browseAll: 'Bläddra bland områdets alla {count} stugor',
-      dataNote: 'Bilder och priser: Lomarengas produktdata, uppdateras dagligen.',
+      dataNote: 'Bilder: Lomarengas produktdata, uppdateras dagligen.',
     },
   },
 }

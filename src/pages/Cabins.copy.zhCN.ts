@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: '滑雪度假區的可訂木屋',
       h2: '自己的木屋，自己的桑拿，整整一周',
-      lead: '可供全員同住的原木木屋和雪道旁公寓，每週起價一目瞭然。房源每日從Lomarengas的房源資訊更新，實際價格視具體周次而定。',
+      lead: '可供全員同住的原木木屋和雪道旁公寓。房源每日從Lomarengas的房源資訊更新，打開木屋即可查看可訂週次，以及您所選週次的價格。',
       weekFrom: '每周 {price} € 起',
       guestsLabel: '人數',
       bedroomsLabel: '臥室',
       sizeLabel: '面積',
       viewCabin: '查看木屋',
       browseAll: '瀏覽該地區全部 {count} 棟木屋',
-      dataNote: '照片與價格：Lomarengas 產品資料，每日更新。',
+      dataNote: '照片：Lomarengas 產品資料，每日更新。',
     },
   },
 }

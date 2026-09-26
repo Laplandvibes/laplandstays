@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Vrije huisjes in de skigebieden',
       h2: 'Uw eigen huisje, uw eigen sauna, de hele week',
-      lead: 'Blokhutten en appartementen aan de piste met ruimte voor de hele groep, met de weekprijs vanaf er meteen bij. De selectie wordt dagelijks bijgewerkt uit het Lomarengas-aanbod; de uiteindelijke prijs hangt af van de week.',
+      lead: 'Blokhutten en appartementen aan de piste met ruimte voor de hele groep. De selectie wordt dagelijks bijgewerkt uit het Lomarengas-aanbod; open een hut om de vrije weken en de prijs voor uw week te zien.',
       weekFrom: 'week vanaf {price} €',
       guestsLabel: 'personen',
       bedroomsLabel: 'slaapkamers',
       sizeLabel: 'oppervlakte',
       viewCabin: 'Bekijk het huisje',
       browseAll: 'Bekijk alle {count} huisjes in het gebied',
-      dataNote: 'Foto’s en prijzen: Lomarengas-productdata, dagelijks bijgewerkt.',
+      dataNote: 'Foto’s: Lomarengas-productdata, dagelijks bijgewerkt.',
     },
   },
 }

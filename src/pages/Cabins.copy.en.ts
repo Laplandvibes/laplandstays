@@ -131,14 +131,14 @@ const copy = {
     showcase: {
       eyebrow: 'Cabins available now',
       h2: 'Your own cabin, your own sauna, the whole week',
-      lead: 'Log cabins and slope-side apartments with room for the whole group, the weekly from-price shown up front. The picks refresh daily from the Lomarengas listings; the exact rate depends on the week.',
+      lead: 'Log cabins and slope-side apartments with room for the whole group. The picks refresh daily from the Lomarengas listings; open a cabin to see its free weeks and the price for your week.',
       weekFrom: 'week from {price} €',
       guestsLabel: 'guests',
       bedroomsLabel: 'bedrooms',
       sizeLabel: 'size',
       viewCabin: 'View cabin',
       browseAll: 'Browse all {count} cabins in the area',
-      dataNote: 'Photos and prices: Lomarengas product data, updated daily.',
+      dataNote: 'Photos: Lomarengas product data, updated daily.',
     },
   },
 }

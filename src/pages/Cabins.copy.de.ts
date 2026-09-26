@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Freie Hütten in den Skigebieten',
       h2: 'Eigene Hütte, eigene Sauna, die ganze Woche',
-      lead: 'Blockhütten und Apartments an der Piste mit Platz für die ganze Gruppe, der Wochenpreis ab steht gleich dabei. Die Auswahl wird täglich aus dem Lomarengas-Angebot aktualisiert; der Endpreis hängt von der jeweiligen Woche ab.',
+      lead: 'Blockhütten und Apartments an der Piste mit Platz für die ganze Gruppe. Die Auswahl wird täglich aus dem Lomarengas-Angebot aktualisiert; öffnen Sie eine Hütte, um freie Wochen und den Preis für Ihre Woche zu sehen.',
       weekFrom: 'Woche ab {price} €',
       guestsLabel: 'Personen',
       bedroomsLabel: 'Schlafzimmer',
       sizeLabel: 'Größe',
       viewCabin: 'Hütte ansehen',
       browseAll: 'Alle {count} Hütten der Region ansehen',
-      dataNote: 'Fotos und Preise: Lomarengas-Produktdaten, täglich aktualisiert.',
+      dataNote: 'Fotos: Lomarengas-Produktdaten, täglich aktualisiert.',
     },
   },
 }

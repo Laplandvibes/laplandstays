@@ -133,14 +133,14 @@ const copy: PageCopy = {
     showcase: {
       eyebrow: 'Chalets disponibles dans les stations',
       h2: 'Votre chalet, votre sauna, toute la semaine',
-      lead: 'Chalets en rondins et appartements au pied des pistes pour tout le groupe, avec le prix hebdomadaire « à partir de » affiché d’emblée. La sélection est actualisée chaque jour à partir des offres Lomarengas ; le tarif final dépend de la semaine.',
+      lead: 'Chalets en rondins et appartements au pied des pistes pour tout le groupe. La sélection est actualisée chaque jour à partir des offres Lomarengas ; ouvrez un chalet pour voir les semaines libres et le prix de votre semaine.',
       weekFrom: 'semaine dès {price} €',
       guestsLabel: 'personnes',
       bedroomsLabel: 'chambres',
       sizeLabel: 'surface',
       viewCabin: 'Voir le chalet',
       browseAll: 'Voir les {count} chalets de la région',
-      dataNote: 'Photos et prix : données produits Lomarengas, mises à jour chaque jour.',
+      dataNote: 'Photos : données produits Lomarengas, mises à jour chaque jour.',
     },
   },
 }
