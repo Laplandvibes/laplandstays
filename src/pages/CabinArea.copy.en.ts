@@ -62,7 +62,7 @@ const copy: CabinAreaPageCopy = {
   priceOnPartner: 'Price and free weeks on Lomarengas',
   browseAll: 'Browse every cabin in the area on Lomarengas',
   showMore: 'Show more cabins',
-  dataNote: 'Photos and details from the Lomarengas product feed; weekly prices refresh daily for the cabins that show one. Booking happens on the Lomarengas site.',
+  dataNote: 'Photos and details from the Lomarengas product feed. The price and free weeks are on the Lomarengas site, where the booking is made.',
   otherAreasH2: 'Cabins in the other resorts',
   destinationLink: 'Hotels, igloos and the guide for this destination',
   breadcrumbHome: 'Home',

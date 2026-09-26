@@ -62,7 +62,7 @@ const copy: CabinAreaPageCopy = {
   pricesDated: 'Wochenpreise gelesen am {date}; der Endpreis hängt von der Woche ab.',
   browseAll: 'Alle Hütten der Region bei Lomarengas',
   showMore: 'Mehr Hütten anzeigen',
-  dataNote: 'Fotos und Daten aus dem Lomarengas-Produktfeed; Wochenpreise werden täglich aktualisiert. Gebucht wird auf der Lomarengas-Website.',
+  dataNote: 'Fotos und Daten aus dem Lomarengas-Produktfeed. Preis und freie Wochen sehen Sie auf der Lomarengas-Website, wo auch gebucht wird.',
   otherAreasH2: 'Hütten in den anderen Skigebieten',
   destinationLink: 'Hotels, Iglus und der Reiseführer für dieses Ziel',
   breadcrumbHome: 'Startseite',

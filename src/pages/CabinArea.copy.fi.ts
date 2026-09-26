@@ -62,7 +62,7 @@ const copy: CabinAreaPageCopy = {
   pricesDated: 'Viikkohinnat luettu {date}; lopullinen hinta riippuu viikosta.',
   browseAll: 'Selaa kaikkia alueen mökkejä Lomarenkaalla',
   showMore: 'Näytä lisää mökkejä',
-  dataNote: 'Kuvat ja tiedot Lomarenkaan tuotesyötteestä; viikkohinnat päivittyvät joka päivä. Varaus tehdään Lomarenkaan sivuilla.',
+  dataNote: 'Kuvat ja tiedot Lomarenkaan tuotesyötteestä. Hinnan ja vapaat viikot näet Lomarenkaan sivuilla, joilla varaus myös tehdään.',
   otherAreasH2: 'Mökit muissa keskuksissa',
   destinationLink: 'Alueen hotellit, iglut ja opas',
   breadcrumbHome: 'Etusivu',
