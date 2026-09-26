@@ -12,7 +12,7 @@ const copy: PageCopy = {
     "intro": "LaplandStays é o diretório de hospedagem que o editor queria que existisse quando os amigos perguntavam onde dormir.",
     "missionEyebrow": "Por que isso existe",
     "missionH2": "Um guia honesto sobre onde dormir na Lapônia",
-    "missionP1": "A maioria das listagens de hospedagem na Lapônia online inventa preços (\"a partir de 99 €/noite\" em uma hospedagem que não oferece essa faixa há seis anos), esconde divulgações de afiliação ou recomenda os mesmos cinco resorts no piloto automático. LaplandStays é uma correção, um guia pequeno, focado em hospedagens nomeadas, que não publica tarifas por noite próprias, porque uma tarifa digitada na página fica desatualizada na semana seguinte, e te avisa quando algo está esgotado com 12 meses de antecedência em vez de fingir o contrário.",
+    "missionP1": "LaplandStays é um guia pequeno, focado em hospedagens nomeadas. Não publica tarifas por noite próprias, porque uma tarifa digitada na página fica desatualizada na semana seguinte, e te avisa quando algo está esgotado com 12 meses de antecedência.",
     "missionP2": "Isto é um veículo editorial, não uma plataforma de reservas. Quando você clica e vai para um dos parceiros de reserva, o contrato é entre você e eles, reservas e pagamentos são feitos lá. Ganhamos uma comissão de afiliação nas reservas feitas via esses links, mas a taxa de comissão é similar em todo o programa de parceiros, então não influencia o que é recomendado.",
     "opEyebrow": "Operador",
     "opH2": "LaPeso Oy",

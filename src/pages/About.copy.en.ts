@@ -12,7 +12,7 @@ const copy: PageCopy = {
     "intro": "LaplandStays is the accommodation directory the operator wished existed when friends asked where to stay.",
     "missionEyebrow": "Why this exists",
     "missionH2": "One honest guide to where to sleep in Lapland",
-    "missionP1": "Most Lapland accommodation listings online either invent prices (\"from €99/night\" for a property that has not opened that tier in six years), bury affiliate disclosures, or recommend the same five resorts on autopilot. LaplandStays is a corrective, a small, named-property guide that prints no nightly rate of its own, because a rate typed into a page is out of date the week after, and tells you when something is sold out 12 months ahead instead of pretending otherwise.",
+    "missionP1": "LaplandStays is a small guide to named properties. It prints no nightly rate of its own, because a rate typed into a page is out of date the week after, and it tells you when something is sold out 12 months ahead.",
     "missionP2": "This is an editorial publisher, not a booking platform. When you click through to one of the booking partners, the contract is between you and them; reservations and payments are handled there. An affiliate commission is earned on bookings made through these links, but the commission rate is similar across the partner programme, so it has no influence on what is recommended.",
     "opEyebrow": "Operator",
     "opH2": "LaPeso Oy",
