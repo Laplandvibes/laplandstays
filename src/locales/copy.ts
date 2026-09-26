@@ -71,7 +71,7 @@ export function footerDict(lang: Lang): FooterDict {
       },
       spottedError: {
         title: 'Spotted an Error?',
-        body: "See something that needs fixing? Tell us, we'll correct it immediately.",
+        body: "See something that needs fixing? Tell us and we'll correct it immediately.",
         cta: 'Report an Error →',
       },
       partner: {
@@ -85,7 +85,7 @@ export function footerDict(lang: Lang): FooterDict {
         cta: 'Press Enquiries →',
       },
       affiliate: 'This site contains affiliate links. If you book through these links, LaplandVibes may receive a commission at no extra cost to you.',
-      copyright: '© {{year}} #LaplandVibes, Part of the #LaplandVibes Network',
+      copyright: '© {{year}} #LaplandVibes, part of the #LaplandVibes Network',
       websiteBy: 'Website by Yrityspaketit.fi',
       legal: { privacy: 'Privacy Policy', cookie: 'Cookie Policy', terms: 'Terms of Use', contact: 'Contact' },
       siteLabels: {
@@ -671,7 +671,7 @@ export function footerDict(lang: Lang): FooterDict {
       cta: 'Lehdistöyhteydet →',
     },
     affiliate: 'Tämä sivusto sisältää kumppanuuslinkkejä. Kun varaat näiden kautta, LaplandVibes voi saada provision ilman lisäkustannuksia sinulle.',
-    copyright: '© {{year}} #LaplandVibes, Osa #LaplandVibes-verkostoa',
+    copyright: '© {{year}} #LaplandVibes, osa #LaplandVibes-verkostoa',
     websiteBy: 'Sivuston toteutus: Yrityspaketit.fi',
     legal: { privacy: 'Tietosuojaseloste', cookie: 'Evästekäytäntö', terms: 'Käyttöehdot', contact: 'Yhteystiedot' },
     siteLabels: {
