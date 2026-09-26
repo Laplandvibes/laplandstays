@@ -2,20 +2,20 @@
   "slug": "aurora-alert-cameras-lapland-hotels",
   "date": "2026-09-25",
   "hero": {
-    "src": "/images/news/aurora-inari-1600.webp",
-    "srcSmall": "/images/news/aurora-inari-800.webp",
+    "src": "/images/news/aurora-kemijarvi-1600.webp",
+    "srcSmall": "/images/news/aurora-kemijarvi-800.webp",
     "width": 1600,
-    "height": 1065,
+    "height": 1068,
     "position": "50% 42%",
     "credit": {
-      "author": "Daniele57C",
+      "author": "Moskenes",
       "license": "CC BY 4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
-      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aurora_ad_Inari_-_2.jpg",
-      "assetId": "File:Aurora ad Inari - 2.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aurora_Raudastenpudas.jpg",
+      "assetId": "File:Aurora Raudastenpudas.jpg",
       "sourceName": "Wikimedia Commons",
-      "taken": "2025-03",
-      "retrieved": "2026-09-25"
+      "taken": "2025-02",
+      "retrieved": "2026-09-26"
     }
   },
   "sources": [

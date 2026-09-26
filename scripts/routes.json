@@ -268,7 +268,7 @@
     "fallbackDescription": "News that changes how you choose a place to stay in Finnish Lapland. Every story is written from the original source, which is named and linked.",
     "ogImage": "/og/news.jpg",
     "ogCard": {
-      "hero": "/images/news/aurora-inari-1600.webp",
+      "hero": "/images/news/aurora-kemijarvi-1600.webp",
       "line": "The camera that spots the aurora"
     },
     "harvestRecord": {
@@ -283,7 +283,7 @@
     "fallbackDescription": "Dozens of Lapland hotels now run cameras that recognise the aurora and push an alert with a photo to guests. What that means when you book a room.",
     "ogImage": "/og/news-aurora-alert-cameras-lapland-hotels.jpg",
     "ogCard": {
-      "hero": "/images/news/aurora-inari-1600.webp",
+      "hero": "/images/news/aurora-kemijarvi-1600.webp",
       "line": "The camera that spots the aurora"
     },
     "harvestRecord": {
