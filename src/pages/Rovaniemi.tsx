@@ -519,7 +519,7 @@ const es: DestinationBody = {
   // ES targets `cabañas en rovaniemi` (brief 187, 2026-08-15): hero H1 override +
   // guide-osio alla. Muut lokaalit renderöityvät ennallaan.
   heroH1: 'Cabañas en Rovaniemi',
-  tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar, con el Círculo Polar Ártico y todos los servicios de la capital lapona al lado.',
+  tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar, con el Círculo Polar Ártico y todos los servicios de la capital de Laponia al lado.',
   description: `Rovaniemi es la capital administrativa de la Laponia finlandesa y la principal puerta internacional. La ciudad está sobre el Círculo Polar Ártico, en la confluencia de los ríos Kemijoki y Ounasjoki, con unos 65.000 habitantes, pequeña para los estándares europeos, pero, con diferencia, el mayor asentamiento de la región.
 
 La mezcla es inusual: una ciudad norteña en activo con restaurantes, el museo de ciencia Arktikum y arquitectura cívica diseñada por Aalto, junto con el Pueblo de Papá Noel original sobre el Círculo Polar Ártico y una red de zonas de cabañas a corta distancia. Para quienes quieren aurora y naturaleza pero también volar a casa desde un aeropuerto importante, Rovaniemi es la base natural.`,

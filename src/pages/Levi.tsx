@@ -326,7 +326,7 @@ const it: DestinationBody = {
   tagline: 'La più grande stazione sciistica della Finlandia, con ristoranti, safari e chalet aurora a pochi minuti dagli impianti.',
   description: `Levi sorge nel comune di Kittilä, circa 170 km a nord del Circolo Polare. Da un solo impianto degli anni Sessanta è cresciuta fino a diventare la più grande stazione sciistica del Paese: 44 piste, 26 impianti e un piccolo centro paese, percorribile a piedi, a fare da snodo.
 
-È il modo più semplice per entrare nel turismo di lusso lappone: l'aeroporto di Kittilä è a 15 minuti, la Coppa del Mondo FIS di slalom apre ogni novembre su Levi Black e gli chalet premium sono distribuiti nel paesaggio dei fjäll, abbastanza vicini al paese per cenare, abbastanza lontani per il silenzio e l'osservazione dell'aurora sotto un cielo scuro.`,
+È il modo più semplice per entrare nel turismo di lusso in Lapponia: l'aeroporto di Kittilä è a 15 minuti, la Coppa del Mondo FIS di slalom apre ogni novembre su Levi Black e gli chalet premium sono distribuiti nel paesaggio dei fjäll, abbastanza vicini al paese per cenare, abbastanza lontani per il silenzio e l'osservazione dell'aurora sotto un cielo scuro.`,
   facts: [
     { label: 'A nord del Circolo Polare', value: '~170 km' },
     { label: 'Aeroporto più vicino', value: 'KTT 15 min' },

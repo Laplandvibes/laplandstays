@@ -4,7 +4,7 @@ import type { PriceGuideCopy } from './PriceGuide.copy.en'
 const copy: PriceGuideCopy = {
   eyebrow: 'Nivel de precio',
   heading: 'Alojamientos de Laponia, del más caro al más asequible',
-  lead: 'Auroras cruzando el techo de cristal, una sauna ya caliente y, en el desayuno, un bosque nevado en silencio al otro lado de la ventana. Cinco tipos de noche lapona, ordenados de lo irrepetible a lo cotidiano, con los alojamientos que hay detrás de cada uno. Lo que cuesta una noche varía según la temporada y la semana, así que la tarifa sale de la página de reservas, para sus fechas.',
+  lead: 'Auroras cruzando el techo de cristal, una sauna ya caliente y, en el desayuno, un bosque nevado en silencio al otro lado de la ventana. Cinco tipos de noche en Laponia, ordenados de lo irrepetible a lo cotidiano, con los alojamientos que hay detrás de cada uno. Lo que cuesta una noche varía según la temporada y la semana, así que la tarifa sale de la página de reservas, para sus fechas.',
   scale: { low: 'Más asequible', high: 'Más caro' },
   tiers: [
     {

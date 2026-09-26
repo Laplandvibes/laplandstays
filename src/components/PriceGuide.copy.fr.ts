@@ -4,7 +4,7 @@ import type { PriceGuideCopy } from './PriceGuide.copy.en'
 const copy: PriceGuideCopy = {
   eyebrow: 'Niveau de prix',
   heading: 'Hébergements de Laponie, du plus cher au plus abordable',
-  lead: "Des aurores qui glissent au-dessus du toit de verre, un sauna déjà chaud et, au petit-déjeuner, une forêt enneigée et silencieuse derrière la vitre. Cinq sortes de nuit lapone, classées de l'inoubliable au quotidien, avec les adresses qui les incarnent. Ce que coûte une nuit varie selon la saison et la semaine : le tarif vient donc de la page de réservation, pour vos dates.",
+  lead: "Des aurores qui glissent au-dessus du toit de verre, un sauna déjà chaud et, au petit-déjeuner, une forêt enneigée et silencieuse derrière la vitre. Cinq sortes de nuits en Laponie, classées de l'inoubliable au quotidien, avec les adresses qui les incarnent. Ce que coûte une nuit varie selon la saison et la semaine : le tarif vient donc de la page de réservation, pour vos dates.",
   scale: { low: 'Plus abordable', high: 'Plus cher' },
   tiers: [
     {

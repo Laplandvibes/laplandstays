@@ -4,7 +4,7 @@ import type { PriceGuideCopy } from './PriceGuide.copy.en'
 const copy: PriceGuideCopy = {
   eyebrow: 'Livello di prezzo',
   heading: 'Alloggi in Lapponia, dal più caro al più economico',
-  lead: "Aurore che scorrono sopra il tetto di vetro, una sauna già calda e, a colazione, una foresta innevata e silenziosa oltre la finestra. Cinque tipi di notte lappone, in ordine dall'irripetibile al quotidiano, con le strutture che stanno dietro a ciascuno. Quanto costa una notte cambia con la stagione e con la settimana, quindi la tariffa arriva dalla pagina di prenotazione, per le Sue date.",
+  lead: "Aurore che scorrono sopra il tetto di vetro, una sauna già calda e, a colazione, una foresta innevata e silenziosa oltre la finestra. Cinque tipi di notte in Lapponia, in ordine dall'irripetibile al quotidiano, con le strutture che stanno dietro a ciascuno. Quanto costa una notte cambia con la stagione e con la settimana, quindi la tariffa arriva dalla pagina di prenotazione, per le Sue date.",
   scale: { low: 'Più economico', high: 'Più caro' },
   tiers: [
     {

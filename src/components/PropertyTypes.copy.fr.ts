@@ -9,12 +9,12 @@ const copy: Copy = {
       {
         title: 'Igloos de verre & chalets aurores',
         short: 'Endormez-vous sous les aurores boréales.',
-        body: "L'igloo de verre lapon dans sa forme la plus pure, chambres à toit vitré à Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village, conçues pour les voyageurs qui suivent les prévisions d'aurore.",
+        body: "L'igloo de verre de Laponie dans sa forme la plus pure, chambres à toit vitré à Kakslauttanen, Levin Iglut, Star Arctic et Aurora Village, conçues pour les voyageurs qui suivent les prévisions d'aurore.",
       },
       {
         title: 'Chalets aurores au bord du lac',
         short: 'Sauna, lac gelé, silence.',
-        body: 'Séjours classiques en chalet lapon, cabanes en rondins au bord du lac avec sauna privé, pas de pin devant la porte et horizon dégagé sur les aurores au-dessus des eaux arctiques.',
+        body: 'Séjours classiques en chalet typique de Laponie, cabanes en rondins au bord du lac avec sauna privé, pas de pin devant la porte et horizon dégagé sur les aurores au-dessus des eaux arctiques.',
       },
       {
         title: 'Chalets ski-in & hôtels de Laponie',

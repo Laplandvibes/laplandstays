@@ -9,12 +9,12 @@ const copy: Copy = {
       {
         title: 'Iglù di vetro & chalet aurora',
         short: "Si addormenti sotto l'aurora boreale.",
-        body: "L'iglù di vetro lapponese nella sua forma più pura, stanze con tetto in vetro a Kakslauttanen, Levin Iglut, Star Arctic e Aurora Village, costruite per chi insegue le previsioni dell'aurora.",
+        body: "L'iglù di vetro della Lapponia nella sua forma più pura, stanze con tetto in vetro a Kakslauttanen, Levin Iglut, Star Arctic e Aurora Village, costruite per chi insegue le previsioni dell'aurora.",
       },
       {
         title: "Chalet aurora sul lago",
         short: 'Sauna, lago ghiacciato, silenzio.',
-        body: "Classici soggiorni in chalet lapponese, case in legno in riva al lago con sauna privata, pineta davanti alla porta e orizzonte aurorale libero sulle acque artiche immobili.",
+        body: "Classici soggiorni in chalet della Lapponia, case in legno in riva al lago con sauna privata, pineta davanti alla porta e orizzonte aurorale libero sulle acque artiche immobili.",
       },
       {
         title: 'Chalet ski-in & hotel di Lapponia',

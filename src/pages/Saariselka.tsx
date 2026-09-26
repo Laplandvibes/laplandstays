@@ -337,7 +337,7 @@ Il paese è piccolo e si percorre a piedi, raccolto attorno a pochi hotel, risto
     { title: 'Panoramica del fjäll Kaunispää', body: 'Il fjäll sopra il paese ha una strada e un impianto fino in cima. Aurora con orizzonte aperto e panorami del sole di mezzanotte in estate.' },
     { title: 'Allevamenti di husky e renne', body: 'Più allevamenti in attività entro 20 minuti dal paese offrono uscite di mezza giornata o di più giorni nel parco.' },
     { title: 'Densità di aurore', body: 'A questa latitudine l\'ovale aurorale passa più spesso sopra la testa rispetto a destinazioni più meridionali, si vedono aurore molto più spesso che più a sud.' },
-    { title: 'Villaggio dei cercatori d\'oro di Tankavaara', body: 'A 30 min in auto verso sud: la vera eredità della corsa all\'oro lappone, con corsi di setacciatura e Museo dell\'Oro.' },
+    { title: 'Villaggio dei cercatori d\'oro di Tankavaara', body: 'A 30 min in auto verso sud: la vera eredità della corsa all\'oro in Lapponia, con corsi di setacciatura e Museo dell\'Oro.' },
     { title: 'Piste invernali tranquille', body: 'La rete piste è ampia ma poco frequentata, chilometri battuti quasi vuoti in una mattina infrasettimanale.' },
   ],
   whenToGo: `Fine agosto–aprile è la stagione delle aurore. Ottobre e febbraio sono le finestre più stabili e serene.
