@@ -12,16 +12,10 @@
           for (var p in map) {
             if (path === '/' + p || path.indexOf('/' + p + '/') === 0) { loc = map[p]; break; }
           }
-          // 🔴🔴 EI YLIKIRJOITETA ESIRENDEROITYA OTSIKKOA (21.9.2026, ajoitus korjattu 24.9.2026).
-          // T on kasin yllapidetty kopio etusivun otsikoista ja ehti vanhentua; sivut esirenderoidaan
-          // kielittain, joten palvelin lahettaa jo oikean otsikon. 21.9. vartija ei toiminut: tama
-          // lohko on headin alussa ja title-elementti jasennetaan vasta sen jalkeen, joten ajohetkella
-          // document.title oli '' ja kirjoitus loi oman elementin palvelimen otsikon eteen (mitattu
-          // 24.9.2026: laplandchristmas.com/fi/accommodation/ valilehdella "Joulu Lapissa: ..." 12 ms,
-          // kunnes React vaihtoi sivun oman 763 ms). Siksi vertailu vasta readyState 'interactive'
-          // -hetkella: koko HTML on jasennetty, Reactin moduuliskripti ei viela ajanut. T:ta kaytetaan
-          // vain kun otsikko puuttuu tai muunkielinen reitti kantaa yha kuoren EN-oletusta
-          // (= esirenderoimaton reitti). Lahde: scripts/lib/otsikkovartija.mjs, ala muokkaa kasin.
+          // Otsikkovartija: T:ta kaytetaan vain, kun sivulla ei ole otsikkoa tai muunkielinen
+          // reitti kantaa yha kuoren EN-oletusta (= esirenderoimaton reitti). Vertailu tehdaan
+          // readyState 'interactive' -hetkella, kun title-elementti on jasennetty.
+          // Lahde: scripts/lib/otsikkovartija.mjs, ala muokkaa kasin.
           var oletus = "Lapland Accommodation: Glass Igloos & Cabins";
           var aseta = function () {
             try {
@@ -79,8 +73,8 @@
           }
           if (!target) return;
           // /cabins/<region> (Lomarengas cabin pages) exists only in en + fi + de; the /cabins
-          // index itself is in every locale. Other prefixes were a 404 there: /sv/cabins/levi/
-          // (measured live 17.9.2026). Only Finnish and German may redirect.
+          // index itself is in every locale. Other locale prefixes would 404 there, so only
+          // Finnish and German may redirect.
           if (path.indexOf('/cabins/') === 0 && path !== '/cabins/' && target !== '/fi' && target !== '/de') return;
           var dest = path === '/' ? target : target + path;
           if (location.search) dest += location.search;
@@ -131,15 +125,9 @@
     <meta name="twitter:description" content="Where to stay in Lapland: glass igloos, northern lights cabins and hotels with verified nightly rates across Finnish Lapland." />
     <meta name="twitter:image" content="https://laplandstays.com/og.jpg?v=3fd32b3e" />
 
-    <!-- Fonts are self-hosted from public/fonts (2026-08-16) — Google Fonts links
-         removed with them. Both families were the network standard Bebas Neue +
-         DM Sans, so nothing here needed keeping.
-         🔴 The preloads below replace the old gstatic one that was removed with
-         the rest. selfhost_fonts.mjs saw that existing preload, decided the file
-         already had one, and skipped adding its own — so deleting the Google
-         block left this site with self-hosted fonts and NO preload at all.
-         crossorigin is required even same-origin: fonts are fetched in CORS mode
-         and a preload without it downloads the file twice. -->
+    <!-- Fonts are self-hosted from public/fonts (network standard Bebas Neue + DM Sans).
+         crossorigin is required even same-origin: fonts are fetched in CORS mode and a
+         preload without it downloads the file twice. -->
     <link rel="preload" as="font" type="font/woff2" crossorigin
           href="/fonts/v16-JTUSjIg69CK48gW7PXoo9Wlhyw.woff2" />
     <link rel="preload" as="font" type="font/woff2" crossorigin
@@ -154,7 +142,7 @@
     <script>
       (function () {
         /* Kesa = touko-elo. Syyskuusta huhtikuuhun hero myy talvea, koska
-           talven varausikkuna on auki jo syyskuussa (auditti 16.9.2026, kohta 5).
+           talven varausikkuna on auki jo syyskuussa.
            Sama raja kuin src/lib/seasonal.ts — pida synkassa. */
         var summer = (function () { var m = new Date().getMonth() + 1; return m >= 5 && m <= 8; })();
         var l = document.createElement('link');
@@ -203,17 +191,11 @@
           ad_personalization: 'granted'
         });
       }
-      /* 🔴 Ala mittaa kehityskonetta eika Cloudflaren esikatselubuildeja tuotanto-
-         propertyyn. Mitattu 27.8.2026 hubin GA:sta: hostnamena esiintyi localhost
-         (/fi 96 katselua, /fi/media 81) ja SEITSEMAN eri *.pages.dev-esikatselua.
-         Sama portti jonka Umami saa data-domains-attribuutista; GA:n oma
-         IP-suodatin ei kata naita lainkaan. */
-      /* QA-liikenne pois mittareista (Vesa 17.9.2026, auditin kohta 6). Ei IP-
-         listoja: kotiyhteyden osoite vaihtuu ja puhelin on eri verkossa.
-         ?w=qa kerran => lippu jaa selaimen localStorageen ja GA + Umami ovat
-         pois paalta talla selaimella pysyvasti; ?w=live palauttaa.
-         navigator.webdriver = Playwright/Puppeteer-portit, eivat kavijoita.
-         Poikkeus lv_measure=1: verify_funnel_live DEEP tarvitsee lahetykset. */
+      /* Kehityskone (localhost) ja Cloudflaren esikatselubuildit (*.pages.dev) eivat
+         mittaa tuotanto-propertyyn. Umamilla sama rajaus on data-domains-attribuutti. */
+      /* QA-liikenne pois mittareista: ?w=qa asettaa selaimeen lipun, jolla GA ja Umami
+         ovat pois paalta; ?w=live palauttaa. Automaatioselain (navigator.webdriver)
+         ohitetaan samoin, paitsi kun localStorage lv_measure=1. */
       var lvQa = false;
       try {
         var lvW = new URLSearchParams(location.search).get('w');
@@ -225,9 +207,8 @@
       } catch (e) {}
       var lvHost = location.hostname;
       if (lvQa || lvHost === 'localhost' || lvHost === '127.0.0.1' || lvHost === '[::1]' || lvHost.indexOf('.pages.dev') !== -1) {
-        /* GA:n virallinen opt-out. Pelkka gtagin neutralointi ei riita:
-           gtag/js?id=... lataa kontin joka tapauksessa (mitattu esikatselu-
-           hostilla: google_tag_manager sai avaimen vaikka gtag oli no-op). */
+        /* GA:n virallinen opt-out. Pelkka gtagin neutralointi ei riita, koska
+           gtag/js?id=... lataa kontin joka tapauksessa. */
         window['ga-disable-G-J7N7QTW8LJ'] = true;
         gtag = function () {};
       }
