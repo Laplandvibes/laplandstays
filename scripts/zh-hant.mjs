@@ -470,6 +470,7 @@ function checkDist() {
  *   T  TW_TERMS-taulun kielletty muoto JSON-tiedostossa (--check ei lue JSONia; --check-dist näkee vain renderöidyn)
  *   Q  suora lainausmerkki "…" tai \"…\" kiinalaisen tekstin vieressä: Taiwanissa 「」 (Vesa 27.9.2026), myös vieraskieliselle
  *      sanalle (標為「tulisija」); “” hoitaa TW_TERMS-rivi, suoraa merkkiä ei voi korvata rivillä (koodin lainausmerkit)
+ *   W  周 muussa kuin ympäri-merkityksessä (周圍, 周邊 …) — viikko on Taiwanissa 週 (復活節週, 木屋週)
  * paitsi AUDIT_OK-listan kattamat kohdat. Jokainen raportin rivi = natiivin päätös: TW_TERMS-rivi (vain jos vasen puoli ei
  * voi osua sanarajan yli), fraasirivi, korjaus lähteeseen tai AUDIT_OK. `--audit --strict` = exit 1 jos kattamattomia on.
  */
@@ -551,6 +552,14 @@ function audit(strict) {
     if (s.json) for (const f of banned) if (s.text.includes(f)) {
       if (!hits.has(f)) hits.set(f, { to: TW_TERMS.find(([x]) => x === f)[1], kind: 'T', at: [] });
       hits.get(f).at.push(`${s.where} (JSON: muunnin ei lue — korjaa käsin)`);
+    }
+    // 周 = viikko ⇒ Taiwanissa 週 (MOE: 週末, 一週, 復活節週); 周 vain merkityksessä ympäri (周圍, 周邊, 周遭, 周到, 周全).
+    // 周 on SHARED-listalla, eikä OpenCC tunne yhdyssanoja kuten 复活节周 ⇒ 17 kohtaa jäi 27.9.2026 asti.
+    for (const m of s.text.matchAll(/周(?![圍邊遭到全密旋折])/g)) {
+      if (within(s.text, m.index, 1)) continue;
+      const key = '周 (viikko?)';
+      if (!hits.has(key)) hits.set(key, { to: '週', kind: 'W', at: [] });
+      hits.get(key).at.push(`${s.where} «${s.text.slice(Math.max(0, m.index - 8), m.index + 8).replace(/\s+/g, ' ').trim()}»`);
     }
     // suorat lainausmerkit kiinalaisen tekstin vieressä (sekä escapattu \" että paljas ")
     for (const m of s.text.matchAll(/(\\?")([^"\\\n]{1,60})\\?"/g)) {

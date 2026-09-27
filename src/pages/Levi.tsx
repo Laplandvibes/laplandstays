@@ -679,7 +679,7 @@ const zhCN: DestinationBody = {
     { name: 'Inari', href: '/destinations/inari', blurb: '偏遠湖泊、薩米傳統與深遠的北方天空。' },
   ],
   anchorProperties: [
-    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上的玻璃屋。旺季周次需提前10–12個月預訂。' },
+    { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上的玻璃屋。旺季週次需提前10–12個月預訂。' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '坐落於萊維山坡，纜車停在門前，從院子即可滑雪出發。' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: '萊維的客房與各種戶型公寓，均配私人桑拿，距雪道約500米。' },
     { name: '萊維所有住宿', href: HOTEL_SEARCH_FOR('zh-CN').levi, sid: 'destination_levi_all_search', note: '在Trip.com比較萊維所有飯店與木屋。' },
