@@ -325,8 +325,8 @@ const COPY: Record<string, Copy> = {
       '緊急電話與最近的藥房',
     ],
     cta: '免費下載應用',
-    scan: '掃碼在手機上開啟',
-    free: '瀏覽無需賬號',
+    scan: '掃描在手機上開啟',
+    free: '瀏覽無需帳號',
     dismiss: '關閉',
   },
 };

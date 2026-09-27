@@ -657,8 +657,8 @@ const zhCN: DestinationBody = {
     { title: 'SIIDA薩米博物館與自然中心', body: '在北歐最好的薩米文化入門。原住民歷史、語言、Sápmi的生態，集合於一棟建築。' },
     { title: '開闊水面上的極光', body: '湖岸提供罕見的180°無遮擋天空。冬季，極光在冰面上的倒影使觀賞格外震撼。' },
     { title: '薩米飲食傳統', body: '當地廚房供應poronkäristys（炒馴鹿）、冷燻北極紅點鮭、雲莓甜點。食材都來自周邊土地。' },
-    { title: '苔原山地徒步', body: '伊納里以北樹線漸稀，過渡到開闊的拉普蘭苔原。穿越Kevo與烏茨約基的夏季徒步，是歐洲最偏遠的體驗之一。' },
-    { title: '冬季哈士奇與雪地摩托', body: '伊納里周邊犬舍在凍結的Inarijärvi湖面上開闢雪橇路線。開闊、無樹，出奇地快且寂靜。' },
+    { title: '苔原山地健行', body: '伊納里以北樹線漸稀，過渡到開闊的拉普蘭苔原。穿越Kevo與烏茨約基的夏季健行，是歐洲最偏遠的體驗之一。' },
+    { title: '冬季哈士奇與雪上摩托車', body: '伊納里周邊犬舍在凍結的Inarijärvi湖面上開闢雪橇路線。開闊、無樹，出奇地快且寂靜。' },
   ],
   whenToGo: `9月下旬至4月初是極光季；此緯度上，極光橢圓帶常常正懸頭頂。
 6月中旬至7月下旬是午夜陽光季：大約六週時間太陽不落。
@@ -679,14 +679,14 @@ const zhCN: DestinationBody = {
   ],
   anchorProperties: [
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: '位於伊納里湖靜謐的東岸，遠離村鎮燈光。冰湖上的垂釣、桑拿與極光之旅。' },
-    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '距伊瓦洛機場20分鐘。玻璃屋頂小屋，提供極光呼叫服務。' },
+    { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '距伊瓦洛機場20分鐘。玻璃屋頂小屋，提供極光喚醒服務。' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: '位於伊納里與薩利色爾卡之間，由建築師設計的全套房小屋。' },
     { name: '伊納里全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').inari, sid: 'destination_inari_all_search', note: '在Trip.com瀏覽伊納里所有房源。' },
   ],
   transport: [
-    { mode: 'plane', label: '從伊瓦洛機場(IVL)出發', detail: '赫爾辛基直飛全年運營；冬季有倫敦蓋特威克、巴黎等季節性航線。北行50公里 / 40分鐘抵達伊納里村。' },
+    { mode: 'plane', label: '從伊瓦洛機場(IVL)出發', detail: '赫爾辛基直飛全年營運；冬季有倫敦蓋特威克、巴黎等季節性航線。北行50公里 / 40分鐘抵達伊納里村。' },
     { mode: 'bus', label: '機場至伊納里接駁', detail: '需預訂接駁車或從IVL乘計程車（約40分鐘）。免預訂機場巴士僅開往薩利色爾卡方向。' },
-    { mode: 'car', label: '計程車或預訂接送', detail: '從IVL至伊納里村60–80歐元。大多數高階房源提供私人接送。' },
+    { mode: 'car', label: '計程車或預訂接送', detail: '從IVL至伊納里村60–80歐元。大多數高檔房源提供私人接送。' },
     { mode: 'car', label: '從薩利色爾卡自駕', detail: '沿E75行駛50分鐘。如以薩利色爾卡為基地，日遊輕鬆。許多旅客分宿兩地。' },
   ],
   carRental: {
@@ -698,7 +698,7 @@ const zhCN: DestinationBody = {
   dayPlan: [
     { day: '01', title: '抵達 · 湖畔小屋', body: '中午抵達IVL，向北驅車至伊納里村或更遠的Nellim。安頓、桑拿、湖邊散步。第二個小時，伊納里的寂靜就會沉下來。' },
     { day: '02', title: '薩米文化 · Siida博物館', body: '上午在Siida（薩米原住民博物館，北歐最完整的薩米館藏）。在伊納里村午餐。下午冰釣或隨導遊森林漫步。' },
-    { day: '03', title: '伊納里湖雪地摩托', body: '由導遊帶領，乘雪地摩托馳騁於凍結的湖面，遠眺神聖的Ukonkivi島（不可登島）。冬季14:30天即暗。回到小屋，迎接漫長的極光視窗。' },
+    { day: '03', title: '伊納里湖雪上摩托車', body: '由導遊帶領，乘雪上摩托車馳騁於凍結的湖面，遠眺神聖的Ukonkivi島（不可登島）。冬季14:30天即暗。回到小屋，迎接漫長的極光時段。' },
     { day: '04', title: '緩慢啟程', body: '馴鹿農場參觀、最後一次桑拿、驅車返回IVL。條件允許就多加兩天。伊納里慢遊回報最豐。' },
   ],
   seoTitle: '伊納里住宿：湖畔小木屋與極光別墅',

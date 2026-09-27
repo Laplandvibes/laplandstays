@@ -505,12 +505,12 @@ const COPY: Record<Lang, TermsCopy> = {
   'zh-CN': {
     kicker: '法律資訊',
     h1: '服務條款',
-    lastUpdated: '最後更新：2026年9月 · 運營方：LaPeso Oy',
+    lastUpdated: '最後更新：2026年9月 · 營運方：LaPeso Oy',
     s1Title: '1. 關於本網站',
     s1P1: (siteName, siteUrl) => (
       <>
         {siteName}（<strong className="text-snow/90">{siteUrl}</strong>）是一個芬蘭拉普蘭旅遊資訊中心，由在芬蘭註冊的{' '}
-        <strong className="text-snow/90">LaPeso Oy</strong> 運營。我們提供編輯型旅遊指南、目的地資訊以及指向第三方預訂服務的連結。
+        <strong className="text-snow/90">LaPeso Oy</strong> 營運。我們提供編輯型旅遊指南、目的地資訊以及指向第三方預訂服務的連結。
       </>
     ),
     s1P2: '訪問或使用本網站，即表示您同意本條款。如果您不同意，請停止使用本網站。',
@@ -518,12 +518,12 @@ const COPY: Record<Lang, TermsCopy> = {
     s2Body: '旅行資訊（包括價格、營業時間、天氣狀況和可訂情況）經常發生變化。我們努力保持內容準確並保持更新，但無法保證您訪問時所有資訊都是最新的。在預訂前，請始終直接向相關服務提供方核實關鍵資訊。',
     s3Title: '3. 聯盟連結與合作',
     s3P1: (siteName) => `${siteName} 上的某些連結是聯盟連結。當您點選這些連結並完成預訂或購買時，我們可能會獲得一筆少量佣金，而您無需承擔額外費用。聯盟合作不會影響我們的編輯推薦。我們只連結我們認為真正具有價值的服務。`,
-    s3P2: '聯盟合作伙伴包括但不限於：Sembo、Trip.com、EconomyBookings、GetYourGuide，以及通過 Adtraction、Travelpayouts 等聯盟網路接入的其他旅遊服務提供方。每一筆預訂均受相應服務提供方的條款與條件約束。',
+    s3P2: '聯盟合作夥伴包括但不限於：Sembo、Trip.com、EconomyBookings、GetYourGuide，以及通過 Adtraction、Travelpayouts 等聯盟網路接入的其他旅遊服務提供方。每一筆預訂均受相應服務提供方的條款與條件約束。',
     s4Title: '4. 贊助內容',
     s4Body: (siteName) => (
       <>
-        本網站會展示來自第三方企業的贊助廣告。贊助內容會清晰地標註<strong className="text-snow/90">“贊助”</strong>字樣。
-        {siteName} 不對廣告主的產品、服務或主張負責。點選贊助連結將帶您前往擁有自身條款與隱私政策的外部網站。
+        本網站會展示來自第三方企業的贊助廣告。贊助內容會清晰地標註<strong className="text-snow/90">「贊助」</strong>字樣。
+        {siteName} 不對廣告主的產品、服務或主張負責。點選贊助連結將帶您前往擁有自身條款與隱私權政策的外部網站。
       </>
     ),
     s5Title: '5. 第三方服務：我們不是銷售方',
@@ -531,12 +531,12 @@ const COPY: Record<Lang, TermsCopy> = {
       <>
         本網站上的飯店搜尋、機票搜尋、租車與活動預訂工具會將您重定向至第三方平臺（Sembo、Trip.com、EconomyBookings、GetYourGuide 等）。
         <strong className="text-snow/90">{siteName} 既不是旅行社，也不是零售商或銷售商。</strong>
-        我們不銷售、不轉售也不處理預訂；我們釋出編輯指南，並將讀者引導至真正提供服務的運營商。
+        我們不銷售、不轉售也不處理預訂；我們發布編輯指南，並將讀者引導至真正提供服務的業者。
       </>
     ),
     s5P2: (siteName) => (
       <>
-        任何旅遊服務合同（住宿、機票、租車、行程等）均由您與相應的第三方提供方直接簽訂，適用其條款與隱私政策。適用的是其取消、退款及消費者保護規則，而非我們的規則。芬蘭《消費者保護法》第6章（<em>kuluttajansuojalaki 6 luku</em>）規定的撤回權由您向商家主張；{siteName} 不參與該過程。
+        任何旅遊服務契約（住宿、機票、租車、行程等）均由您與相應的第三方提供方直接簽訂，適用其條款與隱私權政策。適用的是其取消、退款及消費者保護規則，而非我們的規則。芬蘭《消費者保護法》第6章（<em>kuluttajansuojalaki 6 luku</em>）規定的撤回權由您向商家主張；{siteName} 不參與該過程。
       </>
     ),
     s6Title: '6. 電子報',
@@ -556,13 +556,13 @@ const COPY: Record<Lang, TermsCopy> = {
     s11Title: '11. 可分性',
     s11Body: '如果有管轄權的法院判定本條款中的任何條款無效、違法或不可執行，其餘條款仍然完全有效。無效條款將在法律允許的範圍內被替換為最接近原商業意圖的有效條款。',
     s12Title: '12. 《數位服務法》（DSA）聯絡點',
-    s12Intro: '根據歐盟《數位服務法》（法規 (EU) 2022/2065），我們指定的面向監管機構與服務使用者的聯絡點為：',
+    s12Intro: '根據歐盟《數位服務法》（法規 (EU) 2022/2065），我們指定的面向監管機關與服務使用者的聯絡點為：',
     s12Items: [
       '電子郵件：info@laplandvibes.com',
-      '運營者：LaPeso Oy，芬蘭',
+      '營運方：LaPeso Oy，芬蘭',
       '溝通語言：英語、芬蘭語',
     ],
-    s12Tail: (siteName) => `${siteName} 為編輯型出版機構；我們並不將使用者生成內容作為主要服務進行託管。關於違法內容、版權侵權或其他與 DSA 相關事項的通知，可傳送至上述地址，我們將在法定時限內處理。`,
+    s12Tail: (siteName) => `${siteName} 為編輯型出版機構；我們並不將使用者生成內容作為主要服務進行託管。關於違法內容、著作權侵權或其他與 DSA 相關事項的通知，可傳送至上述地址，我們將在法定時限內處理。`,
     s13Title: '13. 聯絡方式',
     s13Body: (email) => <>如有法律事務諮詢，請通過 {email} 與我們聯絡</>,
   },
@@ -1148,21 +1148,21 @@ const SHOP_OVERRIDES: Record<Lang, Partial<TermsCopy>> = {
     s1P1: (siteName, siteUrl) => (
       <>
         {siteName}（<strong className="text-snow/90">{siteUrl}</strong>）是由在芬蘭註冊的{' '}
-        <strong className="text-snow/90">LaPeso Oy</strong> 運營的芬蘭拉普蘭禮品指南。我們釋出編輯撰寫的商品指南，並連結到真正銷售和發貨的商店。
+        <strong className="text-snow/90">LaPeso Oy</strong> 營運的芬蘭拉普蘭禮品指南。我們發布編輯撰寫的商品指南，並連結到真正銷售和出貨的商店。
       </>
     ),
     s2Body: '價格、尺寸、材質、成分和庫存等商品資訊經常變動，這些資訊是在標註日期從賣家自己的頁面讀取的。我們力求準確，但無法保證您訪問時資訊仍然是最新的。下單前請務必在賣家自己的頁面上核對價格、配送條款以及成分和過敏原資訊。',
-    s3P2: '合作伙伴包括但不限於 Suomikauppa、Nordicbuddies、Finlayson、Scandinavian Outdoor 等芬蘭商店和品牌，我們通過 Adtraction、Daisycon 等聯盟網路連結到它們。我們也會連結到不向我們付費的商店。每筆訂單均適用銷售該商品的商店的條款。',
+    s3P2: '合作夥伴包括但不限於 Suomikauppa、Nordicbuddies、Finlayson、Scandinavian Outdoor 等芬蘭商店和品牌，我們通過 Adtraction、Daisycon 等聯盟網路連結到它們。我們也會連結到不向我們付費的商店。每筆訂單均適用銷售該商品的商店的條款。',
     s5P1: (siteName) => (
       <>
-        本站所有商品均由第三方商店銷售和發貨，點選按鈕將前往該商店自己的網站。
+        本站所有商品均由第三方商店銷售和出貨，點選按鈕將前往該商店自己的網站。
         <strong className="text-snow/90">{siteName} 不是零售商、賣家或經銷商。</strong>
-        我們沒有庫存，也沒有結賬系統，從不接收您的付款或收貨地址。
+        我們沒有庫存，也沒有結帳系統，從不接收您的付款或收件地址。
       </>
     ),
     s5P2: () => (
       <>
-        買賣合同直接在您與該商店之間成立，適用該商店的條款和隱私政策。配送時間、運費、寄往歐盟以外訂單的增值稅和關稅、退貨、退款以及保修均由該商店負責，而非本站。遠端銷售中的法定撤銷權（在芬蘭依據{' '}
+        買賣契約直接在您與該商店之間成立，適用該商店的條款和隱私權政策。配送時間、運費、寄往歐盟以外訂單的增值稅和關稅、退貨、退款以及保修均由該商店負責，而非本站。遠端銷售中的法定撤銷權（在芬蘭依據{' '}
         <em>kuluttajansuojalaki 6 luku</em>）應向銷售該商品的商店行使。
       </>
     ),
@@ -1405,17 +1405,17 @@ const JOBS_OVERRIDES: Record<Lang, Partial<TermsCopy>> = {
     s8Body: (siteName) => `O ${siteName} e a LaPeso Oy não respondem por perdas ou danos decorrentes de uma vaga, um perfil, uma candidatura ou uma decisão de contratação, da confiança em informações deste site ou das ações de empregadores, candidatos ou sites de terceiros. Para serviços pagos, nossa responsabilidade é limitada conforme o item A8 do adendo.`,
   },
   'zh-CN': {
-    s2Title: "2. 招聘資訊與檔案",
-    s2Body: "招聘資訊由僱主撰寫或從公開來源彙集，候選人檔案由求職者本人撰寫。我們在釋出前稽核招聘資訊並刪除違法或違反本條款的內容，但不核實每一項陳述。採取行動前，請向僱主或候選人確認詳情。",
-    s3Title: "3. 外部連結與合作伙伴",
+    s2Title: "2. 招募資訊與檔案",
+    s2Body: "招募資訊由僱主撰寫或從公開來源彙集，候選人檔案由求職者本人撰寫。我們在發布前審核招募資訊並刪除違法或違反本條款的內容，但不核實每一項陳述。採取行動前，請向僱主或候選人確認詳情。",
+    s3Title: "3. 外部連結與合作夥伴",
     s3P1: (siteName) => `${siteName} 連結至僱主自有網站、Työmarkkinatori、EURES 及其他我們無法控制的服務，申請通常在那裡完成。我們對這些網站的內容、可用性或條款不承擔責任。`,
-    s3P2: "指南頁面（移居、勞動條件、交通）上的部分連結為聯盟連結並已標明；招聘資訊或候選人檔案絕不會是聯盟連結。佣金不會改變我們的推薦。",
+    s3P2: "指南頁面（移居、勞動條件、交通）上的部分連結為聯盟連結並已標明；招募資訊或候選人檔案絕不會是聯盟連結。佣金不會改變我們的推薦。",
     s4Title: "4. 付費服務",
-    s4Body: (siteName) => `僱主可購買釋出檔次和聯絡方式解鎖套餐。價格、每項購買包含的內容、退款和稽核時限見下方附則（A1–A5 和 A10）。求職者無需向 ${siteName} 支付任何費用。`,
+    s4Body: (siteName) => `僱主可購買刊登方案和聯絡方式解鎖方案。價格、每項購買包含的內容、退款和審核時限見下方附則（A1–A5 和 A10）。求職者無需向 ${siteName} 支付任何費用。`,
     s5Title: "5. 非職業介紹機構，非任何一方",
-    s5P1: (siteName) => `${siteName} 是自助式平臺。我們不篩選、排名或推薦候選人，不承接招聘委託，也不是任何申請、合同或僱傭關係的一方。`,
-    s5P2: () => `僱主對其招聘流程和招聘資訊的合法性負責，求職者對其檔案的準確性負責。薪資、合同、許可和住宿由雙方依據芬蘭勞動法直接商定。`,
-    s8Body: (siteName) => `${siteName} 和 LaPeso Oy 不對因招聘資訊、檔案、申請或錄用決定、依賴本網站資訊、或僱主、候選人及第三方網站的行為而產生的損失或損害承擔責任。對於付費服務，我們的責任按附則 A8 限制。`,
+    s5P1: (siteName) => `${siteName} 是自助式平臺。我們不篩選、排名或推薦候選人，不承接招募委託，也不是任何申請、契約或僱傭關係的一方。`,
+    s5P2: () => `僱主對其招募流程和招募資訊的合法性負責，求職者對其檔案的準確性負責。薪資、契約、許可和住宿由雙方依據芬蘭勞動法直接商定。`,
+    s8Body: (siteName) => `${siteName} 和 LaPeso Oy 不對因招募資訊、檔案、申請或錄用決定、依賴本網站資訊、或僱主、候選人及第三方網站的行為而產生的損失或損害承擔責任。對於付費服務，我們的責任按附則 A8 限制。`,
   },
   ko: {
     s2Title: "2. 공고와 프로필",
@@ -1527,7 +1527,7 @@ export default function TermsContent({
       : lang === 'ja' ? 'プライバシーポリシー'
       : lang === 'es' ? 'Política de Privacidad'
       : lang === 'pt-BR' ? 'Política de Privacidade'
-      : lang === 'zh-CN' ? '隱私政策'
+      : lang === 'zh-CN' ? '隱私權政策'
       : lang === 'ko' ? '개인정보 처리방침'
       : lang === 'fr' ? 'Politique de Confidentialité'
       : lang === 'it' ? 'Informativa sulla Privacy'

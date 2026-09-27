@@ -36,7 +36,7 @@ const META: Record<Lang, { title: string; description: string }> = {
   'zh-CN': {
     title: '使用條款。LaplandStays',
     description:
-      'laplandstays.com 使用條款：由 LaPeso Oy 運營的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。',
+      'laplandstays.com 使用條款：由 LaPeso Oy 營運的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。',
   },
   ko: {
     title: '이용약관. LaplandStays',

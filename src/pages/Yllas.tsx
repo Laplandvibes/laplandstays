@@ -645,7 +645,7 @@ const zhCN: DestinationBody = {
   tagline: '雙子峰、芬蘭最長的雪道與森林中的寂靜小屋。為那些想要荒野喧鬧、村莊安靜的人準備的拉普蘭。',
   description: `於拉斯是芬蘭滑雪度假區網路中落差最大的山，達464米，擁有該國最長的下山雪道。它跨越科拉里和基蒂萊兩個市，大約位於北極圈以北115公里，毗鄰帕拉斯-於拉斯通圖里國家公園。
 
-兩座小村莊。南面的於拉斯耶爾維和北面的阿卡斯隆波洛。分別坐落在山的兩端。這裡沒有單一的度假村中心：高階小屋散佈於森林與湖畔之間，使於拉斯贏得了比萊維更安靜、更親近自然的口碑。`,
+兩座小村莊。南面的於拉斯耶爾維和北面的阿卡斯隆波洛。分別坐落在山的兩端。這裡沒有單一的度假村中心：高檔小屋散佈於森林與湖畔之間，使於拉斯贏得了比萊維更安靜、更親近自然的口碑。`,
   facts: [
     { label: '最長雪道', value: '3公里' },
     { label: '越野雪道', value: '330公里' },
@@ -654,15 +654,15 @@ const zhCN: DestinationBody = {
   ],
   highlights: [
     { title: '芬蘭最長的下山雪道', body: '長達3公里的於拉斯通圖里正面雪道從無樹的山頂穿越松林直下山谷。在芬蘭極為罕見。大多數度假區只有1公里。' },
-    { title: '330公里越野滑雪賽道', body: '修整過的傳統式和滑步式雪道穿過國家公園，連線於拉斯耶爾維、阿卡斯隆波洛和帕拉斯。' },
+    { title: '330公里越野滑雪賽道', body: '修整過的傳統式和滑步式雪道穿過國家公園，連接於拉斯耶爾維、阿卡斯隆波洛和帕拉斯。' },
     { title: '帕拉斯-於拉斯通圖里國家公園', body: '芬蘭第三大國家公園。原始森林、七座命名山峰，以及歐洲空氣最潔淨的測量資料之一。' },
     { title: '靜寂的森林小屋', body: '這裡的住宿刻意拉開距離。即使有鄰居，也隔著數百米的松林和一片空地。' },
     { title: '阿卡斯隆波洛的極光湖岸', body: '阿卡斯隆波洛的湖泊朝北。地平線清晰，對岸沒有村莊燈光，從冰面觀賞極光極佳。' },
-    { title: '夏季山嶽徒步', body: '於拉斯與帕拉斯之間的山頂步道鋪設在林木線以上，7月至9月開放：7月全天有光，9月則是ruska秋色與可見極光的暗夜。' },
+    { title: '夏季山嶽健行', body: '於拉斯與帕拉斯之間的山頂步道鋪設在林木線以上，7月至9月開放：7月全天有光，9月則是ruska秋色與可見極光的暗夜。' },
   ],
-  whenToGo: `12月至3月是深冬視窗：雪況穩定、極光季全開。
-4月初是"kevättalvi"。日照長、雪面明亮，依然有完整的滑雪條件。
-9月迎來ruska秋色，7月是午夜陽光與徒步的季節。`,
+  whenToGo: `12月至3月是深冬時期：雪況穩定、極光季全開。
+4月初是「kevättalvi」。日照長、雪面明亮，依然有完整的滑雪條件。
+9月迎來ruska秋色，7月是午夜陽光與健行的季節。`,
   howToGet: `飛往基蒂萊(KTT),50分鐘車程抵達於拉斯。
 羅瓦涅米機場(RVN)是備選。2小時車程。
 40分鐘車程的科拉里火車站接收赫爾辛基的夜班列車，並提供轎車託運服務。`,
@@ -680,7 +680,7 @@ const zhCN: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '位於南側於拉斯耶爾維的水療飯店，設泳池區，距纜車300米。' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '阿卡斯隆波洛村內的桑拿客房，設全景餐廳，距滑雪場4.5公里。' },
-    { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '距於拉斯40分鐘。哈士奇探險套餐與湖畔小屋。' },
+    { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '距於拉斯40分鐘。哈士奇探險方案與湖畔小屋。' },
     { name: '於拉斯全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').yllas, sid: 'destination_yllas_all_search', note: '在Trip.com瀏覽於拉斯的所有小屋與木屋。' },
   ],
   transport: [
@@ -698,7 +698,7 @@ const zhCN: DestinationBody = {
   dayPlan: [
     { day: '01', title: '抵達 · 小屋 · 桑拿', body: 'KTT或科拉里抵達，接送至阿卡斯隆波洛或於拉斯耶爾維。小屋內簡餐、桑拿、舒展身體，無行程安排。' },
     { day: '02', title: '越野滑雪日', body: '於拉斯擁有芬蘭最長的越野雪道網（330公里）。滑行標記好的Aakenusjärvi環線，或乘纜車登上於拉斯通圖里滑降。帶上保溫瓶。' },
-    { day: '03', title: '國家公園徒步 + 馴鹿', body: '在帕拉斯-於拉斯通圖里公園內雪鞋行走。參觀馴鹿農場。Lainio雪村馴鹿或Aakenus農場。從小屋北岸尋找極光。' },
+    { day: '03', title: '國家公園健行 + 馴鹿', body: '在帕拉斯-於拉斯通圖里公園內雪鞋行走。參觀馴鹿農場。Lainio雪村馴鹿或Aakenus農場。從小屋北岸尋找極光。' },
     { day: '04', title: '悠閒晨光 · 啟程', body: '最後一次桑拿、早餐、返程接送。復活節周出行者：多留一天，在旺季周的陽光下滑雪。' },
   ],
   seoTitle: '於拉斯住宿：原木小屋與滑雪木屋',

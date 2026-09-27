@@ -359,7 +359,7 @@ export function footerDict(lang: Lang): FooterDict {
       about: {
         eyebrow: '關於LaplandVibes',
         body: '芬蘭拉普蘭的權威指南。從北極光到午夜陽光。精選體驗、本地建議，以及規劃北極之旅所需的一切。',
-        badge: '獨立運營 · 來源標註',
+        badge: '獨立營運 · 來源標註',
       },
       spottedError: {
         title: '發現錯誤？',
@@ -379,7 +379,7 @@ export function footerDict(lang: Lang): FooterDict {
       affiliate: '本網站包含聯盟連結。如果您通過這些連結預訂，LaplandVibes可能獲得佣金，您本人不會產生任何額外費用。',
       copyright: '© {{year}} #LaplandVibes。#LaplandVibes網路的一部分',
       websiteBy: '網站由Yrityspaketit.fi製作',
-      legal: { privacy: '隱私政策', cookie: 'Cookie政策', terms: '使用條款', contact: '聯絡我們' },
+      legal: { privacy: '隱私權政策', cookie: 'Cookie政策', terms: '使用條款', contact: '聯絡我們' },
       siteLabels: {
         hotelDeals: '飯店優惠',
         staysCabins: '住宿與小屋',
@@ -391,7 +391,7 @@ export function footerDict(lang: Lang): FooterDict {
         activities: '活動',
         huskySafaris: '哈士奇雪橇之旅',
         skiResorts: '滑雪勝地',
-        snowmobileTours: '雪地摩托之旅',
+        snowmobileTours: '雪上摩托車之旅',
         spaWellness: '水療與養生',
         nightlife: '夜生活',
         natureParks: '自然與國家公園',

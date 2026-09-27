@@ -512,7 +512,7 @@ const LOCALE_DICTS: Record<SupportedLang, Required<NewsletterPopupDict>> = {
     socialLead: '在此期間，看看我在拉普蘭的動態：',
     founderAlt: 'LaplandVibes創始人Vesa',
     consent: `我同意 LaplandVibes 向我填寫的電子郵件地址傳送訂閱郵件，內容包括拉普蘭旅行建議、季節資訊和優惠資訊，並確認本人已年滿18週歲。`,
-    privacy: `隱私政策`,
+    privacy: `隱私權政策`,
   },
   ko: {
     successHeadline: '거의 다 됐습니다.',

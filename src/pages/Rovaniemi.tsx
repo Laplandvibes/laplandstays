@@ -771,17 +771,17 @@ const zhCN: DestinationBody = {
     { label: '聖誕老人村', value: '全年開放' },
   ],
   highlights: [
-    { title: '北極圈上的聖誕老人村', body: '原版。廣場上一條白線標示北極圈，聖誕老人每天都按時"上班"。' },
+    { title: '北極圈上的聖誕老人村', body: '原版。廣場上一條白線標示北極圈，聖誕老人每天都按時「上班」。' },
     { title: 'Arktikum博物館', body: '芬蘭最優秀的北極科學、薩米文化與拉普蘭歷史博物館。一根172米長的玻璃管在奧納斯河畔向北延伸。' },
     { title: 'Ranua野生動物園', body: '向南80公里：全球最北的動物園之一，擁有50種北極與北方林動物，包括芬蘭僅有的北極熊，以及貂熊與猞猁。' },
     { title: '市區內的Ounasvaara山', body: '滑雪場、速降腳踏車公園與極光觀景點。驅車10分鐘即達，無需前往國家公園。' },
-    { title: '空中連線', body: '羅瓦涅米機場擁有拉普蘭最廣泛的冬季航線網路：直飛倫敦、巴黎、法蘭克福、維也納以及數十條包機線路。' },
+    { title: '空中航線', body: '羅瓦涅米機場擁有拉普蘭最廣泛的冬季航線網路：直飛倫敦、巴黎、法蘭克福、維也納以及數十條包機線路。' },
     { title: '濱河小屋帶', body: '沿克米河及Ounasvaara山的房源在15分鐘車程內即可遠離餐廳與購物區，享受適合極光的暗空。' },
   ],
   whenToGo: `9月中旬至3月下旬為極光季;11月至2月是深冬。
 羅瓦涅米沒有真正的極夜：即使在12月21日前後，太陽也會升起約兩小時，正午是漫長的藍色暮光。
 6月至7月帶來午夜陽光與Oikaraisenkoski的激流。`,
-  howToGet: `飛往羅瓦涅米(RVN)。拉普蘭連線最完善的機場。
+  howToGet: `飛往羅瓦涅米(RVN)。拉普蘭航線最完善的機場。
 芬蘭國鐵開行赫爾辛基至羅瓦涅米的夜班列車，並提供轎車託運，直達羅瓦涅米站。
 此後租車便捷；該市是拉普蘭內陸自駕遊的物流基地。`,
   stayTypes: [
@@ -797,14 +797,14 @@ const zhCN: DestinationBody = {
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '聖誕老人村內由建築師設計的玻璃幕牆巢式套房。' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '距市區15分鐘的湖畔極光小屋。園區內提供全套探險選單。' },
+    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '距市區15分鐘的湖畔極光小屋。園區內提供全套探險項目。' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: '位於Ounasvaara山的較新玻璃屋頂公寓，可眺望天際線。' },
     { name: '羅瓦涅米全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').rovaniemi, sid: 'destination_rovaniemi_all_search', note: '在Trip.com瀏覽羅瓦涅米所有飯店與小屋。' },
   ],
   transport: [
     { mode: 'plane', label: '從羅瓦涅米機場(RVN)出發', detail: '全年HEL航班，以及冬季來自LHR · CDG · BCN · MAD。距市中心10公里 / 15分鐘。' },
     { mode: 'bus', label: 'RVN機場巴士', detail: '單程7歐元 · 15分鐘到中心 · 銜接每趟航班。' },
-    { mode: 'car', label: '計程車至市中心', detail: '15–25歐元。大多數中心飯店在冬季套餐中包含接駁。' },
+    { mode: 'car', label: '計程車至市中心', detail: '15–25歐元。大多數中心飯店在冬季方案中包含接駁。' },
     { mode: 'train', label: '赫爾辛基。羅瓦涅米臥鋪', detail: 'VR夜車含轎車託運選項，臥鋪約90歐元。家庭出行最受歡迎的抵達方式。' },
   ],
   carRental: {
@@ -815,7 +815,7 @@ const zhCN: DestinationBody = {
   },
   dayPlan: [
     { day: '01', title: '抵達 · 聖誕老人村', body: 'RVN距市中心10公里。放下行李，直奔聖誕老人村（全年開放）。跨越北極圈線，寄出明信片。在市內Nili用晚餐。' },
-    { day: '02', title: '哈士奇 + 冰漂', body: '前往Apukka或附近農場參加哈士奇探險（提前預訂）。下午在奧納斯河進行乾衣冰漂。出奇暖和、完全寂靜。在Ounasvaara山等候極光視窗。' },
+    { day: '02', title: '哈士奇 + 冰漂', body: '前往Apukka或附近農場參加哈士奇探險（提前預訂）。下午在奧納斯河進行乾衣冰漂。出奇暖和、完全寂靜。在Ounasvaara山等候極光時段。' },
     { day: '03', title: 'Arktikum + 城市文化', body: '半日在Arktikum（薩米與拉普蘭歷史博物館，玻璃廊道極美）。在市內午餐。下午自由。若季節合適可前往Lainio雪村一日遊。' },
     { day: '04', title: '悠閒晨光 · 繼續行程', body: '最後一次桑拿、市內早餐。從RVN返航，或租車北行2小時前往Levi開啟下一段。' },
   ],
