@@ -23,6 +23,15 @@
  *   ZH_HANT_DIST=<dir> node scripts/zh-hant.mjs --check-dist   sama tarkistus toisesta puusta (livestä ladatut sivut)
  *   node scripts/zh-hant.mjs --audit       RAPORTTI (ei portti): fraasit, jotka muunnin ohittaa tai OpenCC muuntaa väärään
  *                                          merkitykseen. Aja kun zh-tekstiä on tullut lisää; `--strict` = exit 1 jos löytyy.
+ *   node scripts/zh-hant.mjs --convert-stdin --as <polku>
+ *                                          LUKUTILA, ei kirjoita mitään: lukee tiedoston tekstin stdinistä ja tulostaa sen
+ *                                          stdoutiin muunnettuna täsmälleen kuten paikallaan-muunnos tekisi tiedostolle
+ *                                          <polku> (sama zh-alipuiden tunnistus + TW_TERMS; <polku> ratkaisee TSX/TS:n ja
+ *                                          *zhCN*-tiedostot). Käyttäjä: lv-opsin scripts/audit_cookie_claims.mjs. Vendoroitu
+ *                                          src/shared-kopio = kanoninen + tämä muunnin (mitattu 27.9.2026: lv-ops f14c93f:n
+ *                                          shared/Legal/* + muunnin = tämän repon kopiot tavulleen), joten portti ajaa
+ *                                          kanonisen tämän läpi ja vertaa. Muunnin ilman tätä tilaa ajaisi oletuksena
+ *                                          paikallaan-muunnoksen, siksi portti tarkistaa lipun lähteestä ennen ajoa.
  *
  * 🔴🔴 Sokea piste (mitattu 27.9.2026, natiivikatselmus 390 esiintymää): tunnistin katsoo MERKKEJÄ, joten fraasi jonka
  *    kaikki merkit ovat kummassakin kirjoitusjärjestelmässä (伙伴, 信息, 每周) ei koskaan muunnu; OpenCC:n oma sanakirja
@@ -72,6 +81,7 @@ const CHECK_DIST = args.includes('--check-dist');
 const VERBOSE = args.includes('--verbose');
 const AUDIT = args.includes('--audit');
 const STRICT = args.includes('--strict');
+const CONVERT_STDIN = args.includes('--convert-stdin');
 
 const s2twp = OpenCC.Converter({ from: 'cn', to: 'twp' }); // muunnos: merkit + Taiwanin sanasto
 const s2tw = OpenCC.Converter({ from: 'cn', to: 'tw' });   // tunnistin: merkkitaso Taiwanin variantteineen
@@ -581,8 +591,28 @@ function audit(strict) {
   return strict && n ? 1 : 0;
 }
 
+// ---------------------------------------------------------------- --convert-stdin (lukutila portteja varten)
+/**
+ * Tiedoston teksti stdinistä → muunnettu teksti stdoutiin; levylle ei kirjoiteta mitään. Sama planFile + apply kuin
+ * paikallaan-muunnoksessa, joten tulos on se, mikä tiedostoon tulisi, jos kanoninen kopioitaisiin <polku>un ja muunnin
+ * ajettaisiin. Paluuarvo on exit-koodi; kutsuja asettaa sen process.exitCodeen eikä kutsu process.exitiä, jotta pitkä
+ * tuloste ehtii putkeen (Linuxissa putkeen kirjoitus on asynkroninen).
+ */
+function convertStdin() {
+  const i = args.indexOf('--as');
+  const as = i >= 0 ? args[i + 1] : null;
+  if (!as || as.startsWith('--')) {
+    console.error('zh-hant --convert-stdin: --as <polku> puuttuu (tiedostonimi ratkaisee TSX/TS:n ja *zhCN*-tiedostot)');
+    return 2;
+  }
+  const text = readFileSync(0, 'utf8');
+  process.stdout.write(apply(text, planFile(resolve(ROOT, as), text)));
+  return 0;
+}
+
 // ---------------------------------------------------------------- main
 function main() {
+  if (CONVERT_STDIN) { process.exitCode = convertStdin(); return; }
   if (CHECK_DIST) process.exit(checkDist());
   if (AUDIT) process.exit(audit(STRICT));
 
