@@ -88,6 +88,7 @@ const TW_TERMS = [
   ['郵箱', '電子郵件'], // 郵箱 on Manner-Kiinan sana; Taiwan 電子郵件 / 電子信箱
   ['數字服務', '數位服務'], // digitaalinen = 數位 Taiwanissa (數位服務法 = EU:n DSA; STLI, NCCU); 數字 = luku
   ['法律信息', '法律資訊'], // lakisivujen otsake (kicker): Taiwanissa 資訊; OpenCC:n fraasimuunnos ohittaa segmentin jossa ei ole yksinkertaistettua merkkiä (26.9.2026, kanonisen shared/Legalin jako)
+  ['企業程式碼', '企業代碼'], // tietosuojan s1Body: yritystunnus, ei ohjelmakoodi; OpenCC s2twp muuntaa 代码 → 程式碼 (27.9.2026, lakitekstierä f14c93f)
   // Tuotetermi — mitattu OpenSEO:lla 18.9.2026 (Taiwan 2158, zh-TW): 芬蘭玻璃屋 480/kk, 極光玻璃屋 210,
   // 芬蘭極光玻璃屋 170, 羅瓦涅米玻璃屋 50; 玻璃冰屋-muodolla 0. Taiwan sanoo lasi-iglua 玻璃屋.
   ['玻璃冰屋', '玻璃屋'],
