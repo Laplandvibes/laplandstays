@@ -24,6 +24,7 @@ const copy: ChromeCopy = {
     leadSummer: 'Rantamökki keskiyön auringon alla omalla saunalla, jokivarsimaja vihreällä tunturilla tai kunnon hotelli kylän keskellä.',
     disclosure: 'Sivu sisältää kumppanuuslinkkejä. Kun varaat näiden kautta, LaplandStays saa pienen provision ilman lisäkustannuksia sinulle.',
     alt: 'Lämmin lasimökki lumisessa Suomen Lapissa revontulten alla',
+    altSummer: 'Isoikkunainen mökki korkeiden mäntyjen keskellä kallioisella järvenrannalla, edessä terassi ja riippumatto, matalan kultaisen auringon valossa',
   },
   editorial: {
     pickLabel: 'Toimituksen valinta',

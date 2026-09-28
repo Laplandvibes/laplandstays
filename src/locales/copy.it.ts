@@ -24,6 +24,7 @@ const copy: ChromeCopy = {
     leadSummer: "Chalet in riva al lago sotto il sole di mezzanotte, lodge lungo il fiume tra i fjäll verdi e hotel della Lapponia con sauna privata.",
     disclosure: 'Questa pagina contiene link di affiliazione. Se prenota tramite questi link, LaplandStays può ricevere una commissione senza costi aggiuntivi per Lei.',
     alt: "Chalet di lusso dalle calde luci nella Lapponia finlandese innevata sotto l'aurora boreale",
+    altSummer: "Una baita con grandi finestre tra alti pini su una riva rocciosa, con una terrazza e un'amaca davanti, nella luce dorata del sole basso",
   },
   editorial: {
     pickLabel: 'Scelta della redazione',

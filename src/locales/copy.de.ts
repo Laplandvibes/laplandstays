@@ -24,6 +24,7 @@ const copy: ChromeCopy = {
     leadSummer: 'Seehütten unter der Mitternachtssonne mit eigener Sauna, Blockhütten am Fluss in den grünen Fjälls oder ein richtiges Hotel mitten im Dorf.',
     disclosure: 'Diese Seite enthält Partnerlinks. Wenn Sie darüber buchen, erhält LaplandStays möglicherweise eine Provision ohne Mehrkosten für Sie.',
     alt: 'Warm beleuchtete Luxushütte im verschneiten Finnisch-Lappland unter dem Polarlicht',
+    altSummer: 'Eine Hütte mit großen Fenstern zwischen hohen Kiefern an einem felsigen Seeufer, davor eine Terrasse und eine Hängematte, im tiefen goldenen Sonnenlicht',
   },
   editorial: {
     pickLabel: 'Redaktionsempfehlung',

@@ -24,6 +24,7 @@ const copy: ChromeCopy = {
     leadSummer: 'Hutten aan het meer onder de middernachtzon, lodges aan de rivier in de groene fjälls en Lapland-hotels met privé-sauna.',
     disclosure: 'Deze pagina bevat affiliate links. Als u via deze links boekt, kan LaplandStays een commissie ontvangen zonder extra kosten voor u.',
     alt: 'Warm verlichte luxe hut in besneeuwd Fins Lapland onder het noorderlicht',
+    altSummer: 'Een huisje met grote ramen tussen hoge dennen aan een rotsachtige oever, met een terras en een hangmat ervoor, in de lage gouden zon',
   },
   editorial: {
     pickLabel: 'Keuze van de redactie',

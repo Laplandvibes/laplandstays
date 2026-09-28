@@ -24,6 +24,7 @@ const copy: ChromeCopy = {
     leadSummer: "Chalets au bord du lac sous le soleil de minuit, lodges en bord de rivière dans les fjälls verdoyants et hôtels de Laponie avec sauna privé.",
     disclosure: "Cette page contient des liens d'affiliation. Si vous réservez via ces liens, LaplandStays peut percevoir une commission sans coût supplémentaire pour vous.",
     alt: 'Chalet de luxe chaleureusement éclairé dans la Laponie finlandaise enneigée sous les aurores boréales',
+    altSummer: 'Un chalet aux grandes baies vitrées parmi de grands pins sur une rive rocheuse, une terrasse et un hamac devant, sous un soleil bas et doré',
   },
   editorial: {
     pickLabel: 'Choix de la rédaction',

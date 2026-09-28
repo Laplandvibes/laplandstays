@@ -24,6 +24,7 @@ const copy: ChromeCopy = {
     leadSummer: '午夜陽光下的湖畔小屋、蔥鬱山丘間的河畔木屋，以及帶私人桑拿的拉普蘭飯店。',
     disclosure: '本頁面包含聯盟連結。如果您通過這些連結預訂，LaplandStays可能獲得佣金，您本人不會產生額外費用。',
     alt: '極光下芬蘭拉普蘭雪原中暖光融融的豪華小屋',
+    altSummer: '低斜的金色陽光下，多石湖岸高大松林間一座大窗小屋，屋前有露臺和吊床',
   },
   editorial: {
     pickLabel: '編輯推薦',

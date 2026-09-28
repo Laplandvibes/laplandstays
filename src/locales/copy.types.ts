@@ -31,6 +31,8 @@ export type ChromeCopy = {
     leadSummer?: string
     disclosure: string
     alt: string
+    /** Kesäheron (hero-summer) alt; alt kuvaa talvikuvaa. Ilman tätä kesäkuva sai lumisen revontulimökin kuvauksen. */
+    altSummer?: string
   }
   /**
    * The earned editorial pick chip and the Google rating rows around it

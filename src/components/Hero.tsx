@@ -34,7 +34,7 @@ export default function Hero() {
           <source type="image/webp" srcSet={HERO.webp} sizes="100vw" />
           <img
             src={HERO.base}
-            alt={c.alt}
+            alt={isSummerSeason() ? c.altSummer ?? c.alt : c.alt}
             className="absolute inset-0 w-full h-full object-cover object-[center_38%]"
             loading="eager"
             fetchPriority="high"

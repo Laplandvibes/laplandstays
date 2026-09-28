@@ -24,6 +24,7 @@ const copy: ChromeCopy = {
     leadSummer: 'Cabanas à beira do lago sob o sol da meia-noite, chalés à margem do rio nas colinas verdes e hotéis da Lapônia com sauna privativa.',
     disclosure: 'Esta página contém links de afiliados. Se você reservar por eles, o LaplandStays pode receber uma comissão sem custo adicional para você.',
     alt: 'Cabana de luxo com iluminação acolhedora na Lapônia finlandesa nevada sob a aurora boreal',
+    altSummer: 'Uma cabana com janelas amplas entre pinheiros altos em uma margem rochosa, com um deque e uma rede na frente, sob o sol baixo e dourado',
   },
   editorial: {
     pickLabel: 'Escolha da redação',
