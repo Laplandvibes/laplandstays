@@ -118,7 +118,6 @@ export default function About() {
             <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
               {ui.intro}
             </p>
-            <ReviewedBy variant="light" date={REVIEWED_DATE.june2026[lang]} />
           </div>
         </div>
       </section>
@@ -222,6 +221,12 @@ export default function About() {
       </section>
 
       <Newsletter />
+
+      {/* E-E-A-T byline, bottom-of-page placement (never in the hero); pairs with the Article
+          JSON-LD author entity above */}
+      <section className="bg-[#FAFAF8] py-10 px-4 sm:px-6 flex justify-center">
+        <ReviewedBy date={REVIEWED_DATE.june2026[lang]} />
+      </section>
     </>
   )
 }

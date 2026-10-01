@@ -142,7 +142,6 @@ export default function Transport() {
             <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
               {ui.lead}
             </p>
-            <ReviewedBy variant="light" date={REVIEWED_DATE.july2026[lang]} className="mb-4" />
             <AffiliateDisclosure variant="compact" className="text-white/70 [&>svg]:text-white/70 [text-shadow:0_1px_8px_rgba(0,0,0,0.8)]" />
           </div>
         </div>
@@ -392,6 +391,12 @@ export default function Transport() {
       </section>
 
       <Newsletter />
+
+      {/* E-E-A-T byline, bottom-of-page placement (never in the hero); pairs with the Article
+          JSON-LD author entity above */}
+      <section className="bg-[#FAFAF8] py-10 px-4 sm:px-6 flex justify-center">
+        <ReviewedBy date={REVIEWED_DATE.july2026[lang]} />
+      </section>
     </>
   )
 }
