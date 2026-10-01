@@ -3,6 +3,7 @@ import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
+import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './BookingCTA.copy.en'
 import type { Copy } from './BookingCTA.copy.types'
 
@@ -26,6 +27,7 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}
+preloadLazyCopy(cache, loaders)
 
 export default function BookingCTA() {
   const lang = useLang()

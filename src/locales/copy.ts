@@ -1,13 +1,14 @@
 /**
- * Lazy-loaded per-locale chrome strings. EN is bundled synchronously as the
- * baseline; other locales load via dynamic import the first time they are
- * requested for a given Lang.
+ * Lazy-loaded per-locale chrome strings. EN is bundled; the other locales are
+ * their own chunks. Until the reader's locale has loaded, useCopy suspends
+ * (src/i18n/lazyCopy.ts) instead of rendering English first; main.tsx starts
+ * the load before the first render.
  */
-import { useEffect, useState } from 'react'
 import type { ChromeCopy } from './copy.types'
 import enSync from './copy.en'
 import { useLang } from '../i18n/useLang'
 import type { Lang } from '../i18n/useLang'
+import { loadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { FooterDict } from '../shared/Footer'
 
 const cache: Partial<Record<Lang, ChromeCopy>> = { en: enSync }
@@ -27,28 +28,14 @@ const loaders: Record<Lang, () => Promise<{ default: ChromeCopy }>> = {
   sv: () => import('./copy.sv'),
 }
 
-/** Hook returning the ChromeCopy for the current lang.
- * Returns the EN fallback synchronously on first render of a non-EN locale,
- * then re-renders with the loaded locale once the dynamic import resolves. */
+/** Start loading a locale's chrome strings (main.tsx calls this before the first render). */
+export function loadCopy(lang: Lang): Promise<ChromeCopy> {
+  return loadLazyCopy(lang, cache, loaders)
+}
+
+/** The ChromeCopy for the current lang; suspends until it has loaded. */
 export function useCopy(): ChromeCopy {
-  const lang = useLang()
-  const [copy, setCopy] = useState<ChromeCopy>(() => cache[lang] ?? cache.en!)
-  useEffect(() => {
-    const cached = cache[lang]
-    if (cached) {
-      setCopy(cached)
-      return
-    }
-    let cancelled = false
-    loaders[lang]().then((mod) => {
-      cache[lang] = mod.default
-      if (!cancelled) setCopy(mod.default)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [lang])
-  return copy
+  return useLazyCopy(useLang(), cache, loaders)
 }
 
 export function footerDict(lang: Lang): FooterDict {

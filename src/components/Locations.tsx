@@ -4,6 +4,7 @@ import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
+import { preloadLazyCopy } from '../i18n/lazyCopy'
 import FeaturedPartnerSlot from './FeaturedPartnerSlot'
 import type { FeaturedPlacement } from '../data/adSlots'
 import enCopy from './Locations.copy.en'
@@ -35,6 +36,7 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}
+preloadLazyCopy(cache, loaders)
 
 export default function Locations({ placement }: { placement?: FeaturedPlacement } = {}) {
   const to = useLocalePath()

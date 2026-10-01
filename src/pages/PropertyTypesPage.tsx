@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Fragment, useEffect, useState, type ComponentType, type SVGProps } from 'react'
+import { Fragment, type ComponentType, type SVGProps } from 'react'
 import { ArrowRight, Sparkles, TreePine, Mountain, Gem, Check, X, MapPin } from 'lucide-react'
 import PropertyTypes from '../components/PropertyTypes'
 import AmenitiesShowcase from '../components/AmenitiesShowcase'
@@ -17,6 +17,7 @@ import { bookingForQuery } from '../data/propertyBooking'
 import { HOTEL_SEARCH_FOR, buildAffiliateUrl, propertyLodgingLink } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
+import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './PropertyTypesPage.copy.types'
 import enCopy from './PropertyTypesPage.copy.en'
 
@@ -239,25 +240,11 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
   nl: () => import('./PropertyTypesPage.copy.nl'),
   sv: () => import('./PropertyTypesPage.copy.sv'),
 }
+preloadLazyCopy(cache, loaders)
 
 function usePageCopy(): PageCopy {
   const lang = useLang()
-  const [copy, setCopy] = useState<PageCopy>(() => cache[lang] ?? cache.en!)
-  useEffect(() => {
-    const cached = cache[lang]
-    if (cached) {
-      setCopy(cached)
-      return
-    }
-    let cancelled = false
-    loaders[lang]().then((mod) => {
-      cache[lang] = mod.default
-      if (!cancelled) setCopy(mod.default)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [lang])
+  const copy: PageCopy = useLazyCopy(lang, cache, loaders)
   return copy
 }
 

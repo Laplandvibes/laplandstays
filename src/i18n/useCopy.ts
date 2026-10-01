@@ -1,9 +1,10 @@
-import { useEffect, useState } from 'react'
 import { useLang, type Lang } from './useLang'
+import { useLazyCopy } from './lazyCopy'
 
 /**
- * Generic lazy copy loader. Component supplies an `en` block (used immediately as fallback)
- * and a map of loader functions keyed by Lang. The non-EN locale is fetched async and swapped in.
+ * Generic lazy copy loader. Component supplies an `en` block and a map of loader
+ * functions keyed by Lang. Until the reader's locale has loaded the component
+ * suspends (see lazyCopy.ts) instead of rendering English first.
  */
 export function useCopy<T>(
   enCopy: T,
@@ -12,21 +13,5 @@ export function useCopy<T>(
 ): T {
   const lang = useLang()
   if (!cache.en) cache.en = enCopy
-  const [copy, setCopy] = useState<T>(() => cache[lang] ?? enCopy)
-  useEffect(() => {
-    const cached = cache[lang]
-    if (cached) {
-      setCopy(cached)
-      return
-    }
-    let cancelled = false
-    loaders[lang]().then((mod) => {
-      cache[lang] = mod.default
-      if (!cancelled) setCopy(mod.default)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [lang])
-  return copy
+  return useLazyCopy(lang, cache, loaders)
 }

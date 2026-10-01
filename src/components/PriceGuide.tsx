@@ -1,9 +1,9 @@
-import { useEffect, useState } from 'react'
 import { ArrowRight, Sparkles, TreePine, Snowflake, Mountain, Building2 } from 'lucide-react'
 import { HOTEL_SEARCH_FOR, buildHotelSearch } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import AffiliateDisclosure from './AffiliateDisclosure'
 import { useLang, type Lang } from '../i18n/useLang'
+import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 import enCopy from './PriceGuide.copy.en'
 
@@ -89,25 +89,11 @@ const loaders: Record<Lang, () => Promise<{ default: PriceGuideCopy }>> = {
   nl: () => import('./PriceGuide.copy.nl'),
   sv: () => import('./PriceGuide.copy.sv'),
 }
+preloadLazyCopy(cache, loaders)
 
 function usePriceGuideCopy(): PriceGuideCopy {
   const lang = useLang()
-  const [copy, setCopy] = useState<PriceGuideCopy>(() => cache[lang] ?? cache.en!)
-  useEffect(() => {
-    const cached = cache[lang]
-    if (cached) {
-      setCopy(cached)
-      return
-    }
-    let cancelled = false
-    loaders[lang]().then((mod) => {
-      cache[lang] = mod.default
-      if (!cancelled) setCopy(mod.default)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [lang])
+  const copy: PriceGuideCopy = useLazyCopy(lang, cache, loaders)
   return copy
 }
 

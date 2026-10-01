@@ -2,8 +2,8 @@ import { useLocation } from 'react-router-dom'
 
 export type Lang = 'en' | 'fi' | 'de' | 'ja' | 'es' | 'pt-BR' | 'zh-CN' | 'ko' | 'fr' | 'it' | 'nl' | 'sv'
 
-export function useLang(): Lang {
-  const { pathname } = useLocation()
+/** The language a path belongs to. Usable outside the router (main.tsx warms the copy chunk with it). */
+export function langFromPath(pathname: string): Lang {
   if (pathname === '/fi' || pathname.startsWith('/fi/')) return 'fi'
   if (pathname === '/de' || pathname.startsWith('/de/')) return 'de'
   if (pathname === '/ja' || pathname.startsWith('/ja/')) return 'ja'
@@ -16,6 +16,11 @@ export function useLang(): Lang {
   if (pathname === '/nl' || pathname.startsWith('/nl/')) return 'nl'
   if (pathname === '/sv' || pathname.startsWith('/sv/')) return 'sv'
   return 'en'
+}
+
+export function useLang(): Lang {
+  const { pathname } = useLocation()
+  return langFromPath(pathname)
 }
 
 const URL_PREFIX: Record<Lang, string> = {

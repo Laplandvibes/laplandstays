@@ -3,7 +3,6 @@ import finlaysonRail from '../shared/ads/rails/finlayson'
 import finlaysonPicks from '../shared/ads/data/finlaysonPicks'
 import AffiliateDisclosure from '../components/AffiliateDisclosure'
 import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
 import { ArrowRight, Flame, Users, UtensilsCrossed, MoonStar, ExternalLink, Megaphone } from 'lucide-react'
 import SEO from '../components/SEO'
 import { localizeArticle } from '../lib/jsonLd'
@@ -13,6 +12,7 @@ import CabinShowcase from '../components/CabinShowcase'
 import { buildLomarengasUrl, type LomarengasArea } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, type Lang } from '../i18n/useLang'
+import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import { useLocalePath } from '../i18n/useLang'
 import type { PageCopy } from './Cabins.copy.types'
 import enCopy from './Cabins.copy.en'
@@ -63,25 +63,11 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
   nl: () => import('./Cabins.copy.nl'),
   sv: () => import('./Cabins.copy.sv'),
 }
+preloadLazyCopy(cache, loaders)
 
 function usePageCopy(): PageCopy {
   const lang = useLang()
-  const [copy, setCopy] = useState<PageCopy>(() => cache[lang] ?? cache.en!)
-  useEffect(() => {
-    const cached = cache[lang]
-    if (cached) {
-      setCopy(cached)
-      return
-    }
-    let cancelled = false
-    loaders[lang]().then((mod) => {
-      cache[lang] = mod.default
-      if (!cancelled) setCopy(mod.default)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [lang])
+  const copy: PageCopy = useLazyCopy(lang, cache, loaders)
   return copy
 }
 

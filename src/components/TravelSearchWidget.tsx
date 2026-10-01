@@ -5,6 +5,7 @@ import { buildAffiliateUrl } from '../lib/affiliate'
 import { buildTripFlightUrl } from '../lib/tripcom'
 import { useLang, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
+import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './TravelSearchWidget.copy.en'
 import type { Copy } from './TravelSearchWidget.copy.types'
 
@@ -153,6 +154,7 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}
+preloadLazyCopy(cache, loaders)
 
 export default function TravelSearchWidget({ defaultTab = 'hotels', className = '' }: Props) {
   const [activeTab, setActiveTab] = useState<Tab>(defaultTab)

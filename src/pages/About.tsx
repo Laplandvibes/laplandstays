@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
 import { ArrowRight, MapPin, Mail, ShieldCheck, Edit3 } from 'lucide-react'
 import SEO from '../components/SEO'
 import ReviewedBy from '../components/ReviewedBy'
@@ -7,6 +6,7 @@ import { REVIEWED_DATE } from '../lib/reviewDates'
 import Newsletter from '../components/Newsletter'
 import PageBreadcrumb from '../components/PageBreadcrumb'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
+import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './About.copy.types'
 import enCopy from './About.copy.en'
 
@@ -52,25 +52,11 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
   nl: () => import('./About.copy.nl'),
   sv: () => import('./About.copy.sv'),
 }
+preloadLazyCopy(cache, loaders)
 
 function usePageCopy(): PageCopy {
   const lang = useLang()
-  const [copy, setCopy] = useState<PageCopy>(() => cache[lang] ?? cache.en!)
-  useEffect(() => {
-    const cached = cache[lang]
-    if (cached) {
-      setCopy(cached)
-      return
-    }
-    let cancelled = false
-    loaders[lang]().then((mod) => {
-      cache[lang] = mod.default
-      if (!cancelled) setCopy(mod.default)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [lang])
+  const copy: PageCopy = useLazyCopy(lang, cache, loaders)
   return copy
 }
 

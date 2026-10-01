@@ -1,7 +1,6 @@
 import ProductRail, { type RailLang } from '../shared/ads/ProductRail'
 import finlaysonRail from '../shared/ads/rails/finlayson'
 import finlaysonPicks from '../shared/ads/data/finlaysonPicks'
-import { useEffect, useState } from 'react'
 import Hero from '../components/Hero'
 import PropertyTypes from '../components/PropertyTypes'
 import PriceGuide from '../components/PriceGuide'
@@ -19,6 +18,7 @@ import { AD_SLOTS } from '../data/adSlots'
 import Newsletter from '../components/Newsletter'
 import SEO from '../components/SEO'
 import { useLang, type Lang } from '../i18n/useLang'
+import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './Home.copy.types'
 import enCopy from './Home.copy.en'
 import { AppPromoHero } from '../components/AppPromo';
@@ -109,25 +109,11 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
   nl: () => import('./Home.copy.nl'),
   sv: () => import('./Home.copy.sv'),
 }
+preloadLazyCopy(cache, loaders)
 
 function usePageCopy(): PageCopy {
   const lang = useLang()
-  const [copy, setCopy] = useState<PageCopy>(() => cache[lang] ?? cache.en!)
-  useEffect(() => {
-    const cached = cache[lang]
-    if (cached) {
-      setCopy(cached)
-      return
-    }
-    let cancelled = false
-    loaders[lang]().then((mod) => {
-      cache[lang] = mod.default
-      if (!cancelled) setCopy(mod.default)
-    })
-    return () => {
-      cancelled = true
-    }
-  }, [lang])
+  const copy: PageCopy = useLazyCopy(lang, cache, loaders)
   return copy
 }
 

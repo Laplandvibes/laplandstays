@@ -4,6 +4,7 @@ import { HOTEL_SEARCH_FOR, PROPERTY_SEARCH_FOR, buildAffiliateUrl } from '../lib
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
+import { preloadLazyCopy } from '../i18n/lazyCopy'
 import { useCopy as useChrome } from '../locales/copy'
 import FeaturedPartnerSlot from './FeaturedPartnerSlot'
 import type { FeaturedPlacement } from '../data/adSlots'
@@ -54,6 +55,7 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}
+preloadLazyCopy(cache, loaders)
 
 /**
  * `placement` is opt-in rather than baked in because this section renders on

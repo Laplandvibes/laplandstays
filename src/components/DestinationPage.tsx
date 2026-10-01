@@ -16,6 +16,7 @@ import { buildHotelSearch, buildAffiliateUrl, propertyLodgingLink, type Lomareng
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, pick, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
+import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './DestinationPage.copy.en'
 import type { Copy } from './DestinationPage.copy.types'
 
@@ -208,6 +209,7 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}
+preloadLazyCopy(cache, loaders)
 
 const CABIN_PAGE_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen vuokramökit tällä sivustolla', en: 'All rental cabins in the area on this site', de: 'Alle Ferienhäuser der Region auf dieser Website' }
 const CABIN_PAGE_AREA: Partial<Record<string, string>> = { levi: 'levi', yllas: 'yllas', saariselka: 'saariselka', rovaniemi: 'rovaniemi' }
