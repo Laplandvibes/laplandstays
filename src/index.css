@@ -111,6 +111,27 @@
     text-wrap: balance;
   }
 
+  /* Kiinan ja japanin otsikot katkeavat vain fraasirajoilla. src/lib/cjk lisää otsikon tekstiin <wbr>-
+     katkokohdat, ja keep-all estää muut katkot: muuten rivi saa katketa minkä tahansa kahden merkin
+     välistä ja balance jakaa sen tasan ("真實的拉普 / 蘭"). keep-all vain elementille, jolla on omia
+     <wbr>-lapsia: ilman niitä välimerkitön kiina olisi yksi katkeamaton sana ja ylivuotaisi. Otsikon
+     sisäinen elementti ilman omia katkokohtia palaa tavalliseen rivitykseen. Selain ilman :has() =
+     ennallaan. */
+  :is(h1, h2, h3, h4, h5, h6, :is(h1, h2, h3, h4, h5, h6) *):has(> wbr) {
+    word-break: keep-all;
+  }
+  /* Alle 360 px:n 48 px:n otsikkoon ei mahdu edes paikannimi ja partikkeli (ラップランドへ): anywhere
+     katkaisee sen hätäkatkona, muuten otsikko levenisi ruudun yli. 360 px:stä ylöspäin anywhere toisi
+     pilkun rivin alkuun (ラップランド / 、確認), joten siellä riittää break-word. */
+  @media (max-width: 359.98px) {
+    :is(h1, h2, h3, h4, h5, h6, :is(h1, h2, h3, h4, h5, h6) *):has(> wbr) {
+      overflow-wrap: anywhere;
+    }
+  }
+  :is(h1, h2, h3, h4, h5, h6):has(> wbr) *:not(:has(> wbr)) {
+    word-break: normal;
+  }
+
   /* Long paragraphs read as even blocks, not ragged columns. */
   p {
     text-wrap: pretty;

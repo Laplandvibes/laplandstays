@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLang, useLocalePath } from '../i18n/useLang';
+import { fraasiLapset } from '../lib/cjk/otsikko';
 import { formatDate } from './format';
 import { SITE } from './site';
 import type { NewsMeta, NewsText, NewsUi } from './types';
@@ -41,7 +42,7 @@ export default function NewsCard({ meta, text, ui, surface, wide = false, level 
           <span aria-hidden="true"> · </span>
           <span>{ui.ui.source}: {meta.sources[0]?.publisher}</span>
         </p>
-        <H className="serif nw-card-title"><Link to={href} {...track}>{text.title}</Link></H>
+        <H className="serif nw-card-title"><Link to={href} {...track}>{fraasiLapset(text.title)}</Link></H>
         <p className="nw-card-dek">{text.dek}</p>
         <Link to={href} className="nw-card-more" tabIndex={-1} aria-hidden="true" {...track}>{ui.ui.readMore} →</Link>
       </div>
