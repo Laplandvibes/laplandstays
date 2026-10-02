@@ -75,7 +75,7 @@ export default function Nav() {
             : 'bg-deep-night/95 backdrop-blur-md'
         }`}
       >
-        <div className="lv-navrivi max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-3 h-16">
+        <div className="lv-navrivi max-w-screen-2xl mx-auto px-4 sm:px-6 xl:px-8 flex items-center justify-between gap-3 h-16">
           <div className="lv-navvasen flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={lang} currentDomain="laplandstays.com" variant={scrolled ? 'light' : 'dark'} />
             <div className="lv-wm-paikka">
