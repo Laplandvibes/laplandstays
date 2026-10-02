@@ -72,7 +72,7 @@ export default function Nav() {
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           scrolled
             ? 'bg-white/95 backdrop-blur-md shadow-[0_2px_20px_rgba(15,23,42,0.08)] border-b border-gray-200/60'
-            : 'bg-gradient-to-b from-black/40 to-transparent'
+            : 'bg-deep-night/95 backdrop-blur-md'
         }`}
       >
         <div className="lv-navrivi max-w-screen-2xl mx-auto px-4 sm:px-6 flex items-center justify-between gap-3 h-16">
