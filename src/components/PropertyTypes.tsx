@@ -48,12 +48,15 @@ export default function PropertyTypes() {
   return (
     <section id="property-types" className="py-20 sm:py-28 px-4 sm:px-6 bg-white">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-14 max-w-3xl mx-auto">
+        {/* lg:max-w-5xl (3.10.2026): at 60 px the 768 px column broke "FOUR TYPES OF LAPLAND /
+            ACCOMMODATION" (en/de/nl) before the last word, with 1232 px of section beside it. The heading
+            gets the width; the lead keeps its 768 px measure. */}
+        <div className="text-center mb-14 max-w-3xl lg:max-w-5xl mx-auto">
           <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{c.eyebrow}</p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">
             {c.h2}
           </h2>
-          <p className="mt-5 text-charcoal/70 text-lg leading-relaxed">
+          <p className="mt-5 text-charcoal/70 text-lg leading-relaxed max-w-3xl mx-auto">
             {c.lead}
           </p>
         </div>

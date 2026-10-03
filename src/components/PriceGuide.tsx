@@ -156,16 +156,22 @@ export default function PriceGuide() {
         {/* Centred like every other section header on the page; the measure is
             capped at ~54ch so the lead stops wrapping into ragged full-width
             lines the way it did at max-w-3xl. */}
-        <div className="mb-8 sm:mb-12 mx-auto max-w-[54ch] text-center">
+        {/* lg:max-w-none (3.10.2026): the 54ch cap (593 px) also held the 60 px heading, which ran to three
+            lines in fi/es/fr ("MAJOITUSTYYPIT / KALLEIMMASTA / EDULLISIMPAAN") inside a 1024 px section. The
+            heading now uses the section width and balances to two lines; the lead keeps its 54ch measure. */}
+        <div className="mb-8 sm:mb-12 mx-auto max-w-[54ch] lg:max-w-none text-center">
           <p className="text-pink uppercase tracking-[0.28em] text-xs sm:text-sm font-semibold mb-3">
             {copy.eyebrow}
           </p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">
             {copy.heading}
           </h2>
-          <p className="mt-4 text-charcoal/70 text-base sm:text-[17px] leading-relaxed hidden sm:block">
-            {copy.lead}
-          </p>
+          {/* Own wrapper so 54ch is measured in the 16 px body face, as before (593 px). */}
+          <div className="lg:max-w-[54ch] lg:mx-auto">
+            <p className="mt-4 text-charcoal/70 text-base sm:text-[17px] leading-relaxed hidden sm:block">
+              {copy.lead}
+            </p>
+          </div>
         </div>
 
         <div className="lvs-card overflow-hidden rounded-3xl">
