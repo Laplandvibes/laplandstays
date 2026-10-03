@@ -123,7 +123,7 @@ export default function Nav() {
             <a
               href={bookHref}
               {...bookProps}
-              className="ml-3 px-5 py-2 text-white text-sm font-semibold rounded-lg transition-colors uppercase tracking-wider"
+              className="ml-3 px-5 py-2 text-white text-sm font-semibold rounded-lg transition-colors"
               style={{ background: '#DB2777' }}
               onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.background = '#BE185D')}
               onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.background = '#DB2777')}
@@ -172,7 +172,7 @@ export default function Nav() {
                 if (!isHome) trackAffiliateClick('lodging', 'nav_book_now_mobile', HOTEL_SEARCH_FOR(lang).navBookNow)
                 setOpen(false)
               }}
-              className="mt-4 px-4 py-3.5 text-white text-base font-semibold rounded-xl text-center uppercase tracking-wider"
+              className="mt-4 px-4 py-3.5 text-white text-base font-semibold rounded-xl text-center"
               style={{ background: '#DB2777' }}
             >
               {c.bookNow}
