@@ -20,8 +20,8 @@ const copy: ChromeCopy = {
   hero: {
     eyebrow: 'Alojamiento en Laponia · Finlandia',
     h1: 'Dónde alojarse en la Laponia finlandesa',
-    lead: 'Iglús de cristal bajo la aurora, cabañas de aurora boreal en el pinar y hoteles laponos con sauna privada, seleccionados en Levi, Ylläs, Saariselkä e Inari.',
-    leadSummer: 'Cabañas junto al lago bajo el sol de medianoche, refugios a la orilla del río en las verdes colinas y hoteles laponos con sauna privada, seleccionados en Levi, Ylläs, Saariselkä e Inari para las largas noches de luz.',
+    lead: 'Iglús de cristal bajo la aurora, cabañas de aurora boreal en el pinar y hoteles de Laponia con sauna privada, seleccionados en Levi, Ylläs, Saariselkä e Inari.',
+    leadSummer: 'Cabañas junto al lago bajo el sol de medianoche, refugios a la orilla del río en las verdes colinas y hoteles de Laponia con sauna privada, seleccionados en Levi, Ylläs, Saariselkä e Inari para las largas noches de luz.',
     disclosure: 'Esta página contiene enlaces de afiliación. Si reserva a través de ellos, LaplandStays puede recibir una comisión sin coste adicional para usted.',
     alt: 'Cabaña de lujo cálidamente iluminada en la nevada Laponia finlandesa bajo la aurora boreal',
     altSummer: 'Una cabaña con grandes ventanales entre altos pinos en una orilla rocosa, con una terraza y una hamaca delante, bajo un sol bajo y dorado',
