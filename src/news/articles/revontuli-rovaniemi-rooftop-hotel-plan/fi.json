@@ -1,0 +1,47 @@
+{
+  "title": "Rovaniemen Revontulen katolle voi nousta hotelli",
+  "seoTitle": "Rovaniemen Revontulen päälle suunnitellaan hotellia",
+  "description": "Kaupunginhallitus päätti 28. syyskuuta asettaa kaavan nähtäville. Uusi osa nousisi Koskikadun puolella yhdeksään kerrokseen, ja siihen tulisi hotelli.",
+  "dek": "Kauppakeskuksen päälle tuleva uusi osa on kaavassa osoitettu hotellille, ja Koskikadun puolella se nousisi yhdeksän kerroksen korkeuteen. Kaupunki tavoittelee kaavan viemistä valtuustoon kevättalvella 2027.",
+  "heroAlt": "Kauppakeskus Revontuli Rovaniemellä pimeänä joulukuun aamuna, lasijulkisivu valaistu värikkäällä valoseinällä ja edessä lumipenkkoja.",
+  "heroCaption": "Kauppakeskus Revontuli Rovaniemellä joulukuussa 2019.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Rovaniemen kaupunginhallitus päätti 28. syyskuuta asettaa kauppakeskus Revontulen uuden asemakaavan julkisesti nähtäville. Kaava sallii laajennuksen keskustassa sijaitsevan kauppakeskuksen matalan osan päälle, ja kaupunki on osoittanut uuden osan hotellille."
+    },
+    {
+      "t": "h2",
+      "text": "Mitä kaava sallii"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Laajennuksen Koskikadun puoleisessa osassa olisi yhdeksän kerrosta. Ylin kerros olisi puolet suurimman kerroksen koosta ja vedetty sisään kadun puolelta.",
+        "Matalampi viisikerroksinen osa kulkisi Lapinkävijäntien suuntaisesti.",
+        "Laajennukseen saa sijoittaa liike-, toimisto- ja majoitustiloja, ja ylimpään kerrokseen kaikille avoimia tiloja, kuten saunan, oleskelutilan tai ravintolan.",
+        "Tavoitteena on noin 10 000 neliömetriä uutta kerrosalaa laajennukselle.",
+        "Koskikadulle varataan alue linja-autoille ja saattoliikenteelle.",
+        "Samalla tontilla oleva vanha Kukkolan talo pysyy suojeltuna, ja sen pohjakerrokseen on tarkoitus tulla ravintola tai myymälä."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Mitä ei vielä tiedetä"
+    },
+    {
+      "t": "p",
+      "text": "Hotellin ylläpitäjää, huonemäärää tai avauspäivää ei ole kerrottu. Tämän tai ensi talven majoitukseen kaava ei vielä vaikuta: huoneita ei ole myynnissä eikä rakentamisen aloituspäivää ole."
+    },
+    {
+      "t": "p",
+      "text": "Kaavaehdotus on julkisesti nähtävillä 30 päivää, ja siitä on pyydetty lausunnot Lapin maakuntamuseolta ja Lapin elinvoimakeskukselta. Kaupunki tavoittelee kaavan viemistä kaupunginvaltuustoon kevättalvella 2027. Sitä ennen kaupungin ja maanomistajan on sovittava maankäyttösopimuksesta."
+    },
+    {
+      "t": "link",
+      "text": "Missä Rovaniemellä voi yöpyä nyt: keskustan huoneistoista jokirannan mökkeihin ja napapiirin lasihuviloihin.",
+      "label": "Majoitus Rovaniemellä",
+      "href": "/destinations/rovaniemi"
+    }
+  ]
+}

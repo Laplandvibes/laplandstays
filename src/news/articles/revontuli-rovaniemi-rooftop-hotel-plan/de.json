@@ -1,0 +1,47 @@
+{
+  "title": "Rovaniemi: Hotel auf dem Einkaufszentrum Revontuli möglich",
+  "seoTitle": "Rovaniemi: Hotel auf dem Einkaufszentrum Revontuli geplant",
+  "description": "Rovaniemis Stadtvorstand beschloss am 28. September, den Plan öffentlich auszulegen. Der neue Teil mit 9 Geschossen an der Koskikatu würde ein Hotel aufnehmen.",
+  "dek": "Der neue Teil auf dem Einkaufszentrum ist für ein Hotel vorgesehen und hätte zur Koskikatu hin 9 Geschosse. Die Stadt strebt an, den Plan im Spätwinter 2027 dem Stadtrat vorzulegen.",
+  "heroAlt": "Das Einkaufszentrum Revontuli in Rovaniemi an einem dunklen Dezembermorgen, die Glasfassade von einer Wand aus farbigen Lichtern erleuchtet, davor Schneehaufen.",
+  "heroCaption": "Einkaufszentrum Revontuli in Rovaniemi im Dezember 2019.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Der Stadtvorstand von Rovaniemi hat am 28. September beschlossen, einen neuen Bebauungsplan für das Einkaufszentrum Revontuli öffentlich auszulegen. Der Plan lässt eine Erweiterung auf dem niedrigen Gebäudeteil des Einkaufszentrums in der Innenstadt zu, und die Stadt sieht den neuen Teil für ein Hotel vor."
+    },
+    {
+      "t": "h2",
+      "text": "Was der Plan zulässt"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Der Teil der Erweiterung zur Koskikatu hin hätte 9 Geschosse. Das oberste Geschoss wäre halb so groß wie das größte und von der Straße zurückversetzt.",
+        "Ein niedrigerer Teil mit 5 Geschossen würde entlang der Lapinkävijäntie verlaufen.",
+        "In der Erweiterung sind Läden, Büros und Unterkünfte zulässig, im obersten Geschoss zudem Räume, die allen offenstehen, etwa eine Sauna, eine Lounge oder ein Restaurant.",
+        "Angestrebt werden rund 10.000 Quadratmeter neue Geschossfläche für die Erweiterung.",
+        "An der Koskikatu wird eine Fläche für Busse und für den Bringverkehr mit dem Auto freigehalten.",
+        "Das alte Kukkola-Haus im selben Häuserblock bleibt geschützt, in sein Erdgeschoss soll ein Restaurant oder ein Geschäft einziehen."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Was noch nicht bekannt ist"
+    },
+    {
+      "t": "p",
+      "text": "Weder ein Hotelbetreiber noch die Zahl der Zimmer noch ein Eröffnungstermin wurden bisher genannt. Für einen Aufenthalt in diesem oder im nächsten Winter ändert der Plan noch nichts: Es gibt keine buchbaren Zimmer und keinen Termin für den Baubeginn."
+    },
+    {
+      "t": "p",
+      "text": "Der Planvorschlag liegt 30 Tage lang öffentlich aus. Um Stellungnahmen gebeten wurden das Regionalmuseum Lappland und das Zentrum für Wirtschaftsentwicklung Lappland. Die Stadt strebt an, den Plan im Spätwinter 2027 dem Stadtrat vorzulegen. Vorher müssen sich Stadt und Grundstückseigentümer auf einen städtebaulichen Vertrag einigen."
+    },
+    {
+      "t": "link",
+      "text": "Wo Sie jetzt in Rovaniemi übernachten können: von Apartments in der Innenstadt bis zu Hütten am Fluss und Glasvillen am Polarkreis.",
+      "label": "Unterkünfte in Rovaniemi",
+      "href": "/destinations/rovaniemi"
+    }
+  ]
+}

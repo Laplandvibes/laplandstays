@@ -1,0 +1,54 @@
+{
+  "slug": "revontuli-rovaniemi-rooftop-hotel-plan",
+  "date": "2026-10-05",
+  "hero": {
+    "src": "/images/news/revontuli-rovaniemi-dec-1600.webp",
+    "srcSmall": "/images/news/revontuli-rovaniemi-dec-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "position": "50% 46%",
+    "credit": {
+      "author": "John Dickinson",
+      "license": "Public Domain Mark 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "sourceUrl": "https://www.flickr.com/photos/chorley-photos/49344213776/",
+      "assetId": "flickr 49344213776",
+      "sourceName": "Flickr",
+      "taken": "2019-12-09",
+      "retrieved": "2026-10-05"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Rovaniemen kaupunki",
+      "title": "Kaupunginhallitus 28.9.2026 § 310: Asemakaavan muutos kortteli 254 sekä pysäköinti-, liikenne ja virkistysalue, Lapinkävijäntie 16",
+      "lang": "fi",
+      "url": "https://rovaniemi.cloudnc.fi/fi-FI/content/290653/28937",
+      "date": "2026-09-28"
+    },
+    {
+      "publisher": "Rovaniemen kaupunki",
+      "title": "Osallistumis- ja arviointisuunnitelma: asemakaavan muutos 1. ja 3. kaupunginosa kortteli 254 tontit sekä pysäköinti- ja virkistysalue, Lapinkävijäntie 16",
+      "lang": "fi",
+      "url": "https://rovaniemi.cloudnc.fi/download/noname/%7Bf902557e-d1bb-4a64-83e1-b036d3981b2c%7D/1054640",
+      "date": "2026-09-10"
+    },
+    {
+      "publisher": "Rovaniemen kaupunki",
+      "title": "Rakentamistapaohje, Lapinkävijäntie 16: kaupunginosa 1, kortteli 254, tontit 9 ja 10",
+      "lang": "fi",
+      "url": "https://rovaniemi.cloudnc.fi/download/noname/%7B63d25b84-5d1b-4317-808f-1990ab1d88c6%7D/1054649",
+      "date": "2026-09-18"
+    },
+    {
+      "publisher": "Yle",
+      "title": "Rovaniemellä kauppakeskus Revontulen katolle voi tulla seitsemän kerrosta lisää",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20248743",
+      "date": "2026-09-28"
+    }
+  ],
+  "ogCard": {
+    "line": "Hotel plan on top of Revontuli"
+  }
+}

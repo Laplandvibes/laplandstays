@@ -1,0 +1,47 @@
+{
+  "title": "Rovaniemi: un hotel podría coronar el centro comercial Revontuli",
+  "seoTitle": "Rovaniemi: planean hotel sobre el centro comercial Revontuli",
+  "description": "El gobierno municipal de Rovaniemi acordó el 28 de septiembre exponer el plan al público. La nueva parte, con 9 pisos hacia Koskikatu, albergaría un hotel.",
+  "dek": "La nueva parte sobre el centro comercial está destinada a un hotel y llegaría a 9 pisos del lado de la calle Koskikatu. La ciudad aspira a llevar el plan al concejo municipal a finales del invierno de 2027.",
+  "heroAlt": "El centro comercial Revontuli de Rovaniemi en una oscura mañana de diciembre, con la fachada acristalada iluminada por una cortina de luces de colores y montículos de nieve delante.",
+  "heroCaption": "El centro comercial Revontuli de Rovaniemi en diciembre de 2019.",
+  "body": [
+    {
+      "t": "p",
+      "text": "El gobierno municipal de Rovaniemi acordó el 28 de septiembre someter a exposición pública un nuevo plan urbanístico detallado para el centro comercial Revontuli. El plan permite ampliar en altura la parte baja del edificio, en pleno centro de la ciudad, y el municipio destina la nueva parte a un hotel."
+    },
+    {
+      "t": "h2",
+      "text": "Qué permite el plan"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "La parte de la ampliación que da a la calle Koskikatu tendría 9 pisos. El último piso ocuparía la mitad de la superficie del piso más grande y quedaría retirado de la calle.",
+        "Una parte más baja, de 5 pisos, se extendería a lo largo de la calle Lapinkävijäntie.",
+        "La ampliación puede albergar comercios, oficinas y alojamiento, y el último piso puede tener espacios abiertos a todo el público, como una sauna, una sala de estar o un restaurante.",
+        "El objetivo es sumar con la ampliación unos 10.000 metros cuadrados de nueva superficie construida.",
+        "En la calle Koskikatu se reserva una zona para autobuses y para vehículos que dejan pasajeros.",
+        "La antigua casa Kukkola, en la misma manzana, sigue protegida, y su planta baja está pensada para un restaurante o una tienda."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Lo que aún no se sabe"
+    },
+    {
+      "t": "p",
+      "text": "No se ha anunciado qué empresa operará el hotel, cuántas habitaciones tendrá ni cuándo abrirá. Para alojarse en Rovaniemi este invierno o el próximo, el plan todavía no cambia nada: no hay habitaciones a la venta ni fecha de inicio de las obras."
+    },
+    {
+      "t": "p",
+      "text": "La propuesta de plan estará en exposición pública durante 30 días, y se han solicitado informes al Museo Regional de Laponia y al Centro de Desarrollo Económico de Laponia. La ciudad aspira a llevar el plan al concejo municipal a finales del invierno de 2027. Antes, el municipio y el propietario del terreno deben cerrar un convenio urbanístico."
+    },
+    {
+      "t": "link",
+      "text": "Dónde alojarse ahora en Rovaniemi: desde apartamentos en el centro hasta cabañas junto al río y villas de cristal cerca del Círculo Polar Ártico.",
+      "label": "Alojamiento en Rovaniemi",
+      "href": "/destinations/rovaniemi"
+    }
+  ]
+}

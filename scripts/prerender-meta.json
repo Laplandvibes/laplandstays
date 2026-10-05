@@ -149,6 +149,56 @@
       "description": "Dussintals hotell i Lappland använder kameror som känner igen norrsken och skickar en varning med bild till gästens telefon. Vad det betyder när du bokar rum."
     }
   },
+  "/news/revontuli-rovaniemi-rooftop-hotel-plan": {
+    "en": {
+      "title": "Rovaniemi: hotel planned on top of Revontuli shopping centre",
+      "description": "Rovaniemi’s city board decided on 28 September to put the plan on display. The new section would rise to 9 floors on the Koskikatu side and house a hotel."
+    },
+    "fi": {
+      "title": "Rovaniemen Revontulen päälle suunnitellaan hotellia",
+      "description": "Kaupunginhallitus päätti 28. syyskuuta asettaa kaavan nähtäville. Uusi osa nousisi Koskikadun puolella yhdeksään kerrokseen, ja siihen tulisi hotelli."
+    },
+    "de": {
+      "title": "Rovaniemi: Hotel auf dem Einkaufszentrum Revontuli geplant",
+      "description": "Rovaniemis Stadtvorstand beschloss am 28. September, den Plan öffentlich auszulegen. Der neue Teil mit 9 Geschossen an der Koskikatu würde ein Hotel aufnehmen."
+    },
+    "ja": {
+      "title": "ロヴァニエミ：ショッピングセンター「Revontuli」の上にホテル計画",
+      "description": "ロヴァニエミ市の執行委員会は9月28日、ショッピングセンター「Revontuli」の計画案を縦覧に付すと決めました。新しい部分はKoskikatu通り側で9階建てとなり、ホテルが入る予定です。"
+    },
+    "es": {
+      "title": "Rovaniemi: planean hotel sobre el centro comercial Revontuli",
+      "description": "El gobierno municipal de Rovaniemi acordó el 28 de septiembre exponer el plan al público. La nueva parte, con 9 pisos hacia Koskikatu, albergaría un hotel."
+    },
+    "pt-BR": {
+      "title": "Rovaniemi: hotel planejado no topo do shopping Revontuli",
+      "description": "A prefeitura de Rovaniemi decidiu em 28 de setembro pôr o plano em consulta pública. A nova parte teria 9 andares do lado da Koskikatu e abrigaria um hotel."
+    },
+    "zh-CN": {
+      "title": "羅瓦涅米：Revontuli購物中心上方擬建飯店",
+      "description": "羅瓦涅米市政府於9月28日決定，將Revontuli購物中心的新詳細規劃公開展覽。根據規劃，購物中心上方的新建部分在Koskikatu街一側將達9層，並將作為飯店使用。"
+    },
+    "ko": {
+      "title": "로바니에미: Revontuli 쇼핑센터 위 호텔 계획",
+      "description": "로바니에미시 집행위원회는 9월 28일 Revontuli 쇼핑센터 계획안을 공람에 부치기로 했습니다. 새로 지을 부분은 Koskikatu 거리 쪽이 9층이며 호텔이 들어설 예정입니다."
+    },
+    "fr": {
+      "title": "Rovaniemi : hôtel prévu sur le centre commercial Revontuli",
+      "description": "Le 28 septembre, l’exécutif de Rovaniemi a décidé de mettre le plan en consultation. La nouvelle partie, de 9 niveaux côté Koskikatu, accueillerait un hôtel."
+    },
+    "it": {
+      "title": "Rovaniemi: hotel previsto sul centro commerciale Revontuli",
+      "description": "Il 28 settembre la giunta comunale di Rovaniemi ha deciso di esporre il piano al pubblico. La nuova parte, alta 9 piani verso Koskikatu, ospiterebbe un hotel."
+    },
+    "nl": {
+      "title": "Rovaniemi: hotel gepland bovenop winkelcentrum Revontuli",
+      "description": "Het college van Rovaniemi besloot op 28 september het plan ter inzage te leggen. In het nieuwe deel, aan de Koskikatu 9 bouwlagen hoog, zou een hotel komen."
+    },
+    "sv": {
+      "title": "Rovaniemi: hotell planeras ovanpå köpcentret Revontuli",
+      "description": "Stadsstyrelsen i Rovaniemi beslöt den 28 september att ställa ut planen. Den nya delen skulle få 9 våningar mot Koskikatu och rymma ett hotell."
+    }
+  },
   "/privacy": {
     "en": {
       "title": "Privacy Policy",
