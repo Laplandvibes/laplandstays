@@ -3,7 +3,7 @@ import type { PageCopy } from './About.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "關於LaplandStays。芬蘭拉普蘭住宿獨立指南",
-    "description": "芬蘭拉普蘭的獨立住宿指南：實名介紹的住宿、不刊出自家的每晚房價，以及透明的合作夥伴披露。"
+    "description": "芬蘭拉普蘭的獨立住宿指南：實名介紹的住宿、不刊出自家的每晚房價，以及透明的合作夥伴披露。LaplandStays是當朋友問「該住哪裡」時，經營者希望存在的住宿名錄。"
   },
   "ui": {
     "eyebrow": "關於",

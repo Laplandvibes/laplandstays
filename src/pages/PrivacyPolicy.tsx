@@ -36,7 +36,7 @@ const META: Record<Lang, { title: string; description: string }> = {
   'zh-CN': {
     title: '隱私權政策。LaplandStays',
     description:
-      'LaPeso Oy（LaplandStays）如何處理個人資料：電子報訂閱、分析及聯盟 Cookie。符合 GDPR/ePrivacy。',
+      'LaPeso Oy（LaplandStays）如何處理個人資料：電子報訂閱、分析及聯盟 Cookie。符合 GDPR/ePrivacy。我們通過 Google Analytics 4 收集假名化的訪問分析資料。',
   },
   ko: {
     title: '개인정보 처리방침. LaplandStays',

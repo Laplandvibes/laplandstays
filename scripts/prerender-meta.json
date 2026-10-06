@@ -1,4 +1,88 @@
 {
+  "/cabins/levi": {
+    "en": {
+      "title": "Levi cabins: log cabins and chalets to rent",
+      "description": "Levi cabins and holiday homes on one page: log cabins, ski-in apartments and villas in Sirkka and Kittilä with guests, bedrooms and size for every cabin."
+    },
+    "fi": {
+      "title": "Levin mökit: vuokramökit Lomarenkaalta",
+      "description": "Levin mökit ja vuokramökit yhdellä sivulla: Sirkan ja Kittilän hirsimökit, rinneasunnot ja huvilat henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Levi Ferienhäuser: Hütten und Chalets mieten",
+      "description": "Ferienhäuser und Hütten in Levi auf einer Seite: Blockhütten, Ski-in-Apartments und Villen in Sirkka und Kittilä mit Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/pyha-luosto": {
+    "en": {
+      "title": "Pyhä and Luosto cabins: holiday homes to rent",
+      "description": "Pyhätunturi and Luosto cabins and holiday homes in Pelkosenniemi, Sodankylä and Kemijärvi with guests, bedrooms and size for every cabin. Booking on Lomarengas."
+    },
+    "fi": {
+      "title": "Pyhän ja Luoston mökit: vuokramökit",
+      "description": "Pyhätunturin ja Luoston mökit ja vuokramökit: Pelkosenniemen, Sodankylän ja Kemijärven mökit henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Pyhä und Luosto Ferienhäuser: Hütten mieten",
+      "description": "Ferienhäuser und Hütten am Pyhätunturi und in Luosto: Pelkosenniemi, Sodankylä und Kemijärvi mit Personenzahl, Schlafzimmern und Größe für jede Hütte."
+    }
+  },
+  "/cabins/rovaniemi": {
+    "en": {
+      "title": "Rovaniemi cabins: holiday homes on the Arctic Circle",
+      "description": "Rovaniemi cabins and holiday homes: riverside cabins and wilderness huts along the Ounasjoki and Kemijoki with guests, bedrooms and size for every cabin."
+    },
+    "fi": {
+      "title": "Rovaniemen mökit: vuokramökit napapiirillä",
+      "description": "Rovaniemen mökit ja vuokramökit: Ounasjoen ja Kemijoen varren mökit ja erämaakämpät henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla."
+    },
+    "de": {
+      "title": "Rovaniemi Ferienhäuser: Hütten am Polarkreis",
+      "description": "Ferienhäuser und Hütten in Rovaniemi: Flusshütten und Wildnishütten am Ounasjoki und Kemijoki mit Personenzahl, Schlafzimmern und Größe für jede Hütte."
+    }
+  },
+  "/cabins/ruka": {
+    "en": {
+      "title": "Ruka cabins: holiday homes around Rukatunturi",
+      "description": "Ruka cabins and holiday homes: the slope village and the Kuusamo lake country with guests, bedrooms and size for every cabin on one page. Booking on Lomarengas."
+    },
+    "fi": {
+      "title": "Rukan mökit: vuokramökit Rukatunturin ympäriltä",
+      "description": "Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla."
+    },
+    "de": {
+      "title": "Ruka Ferienhäuser: Hütten rund um den Rukatunturi",
+      "description": "Ferienhäuser und Hütten in Ruka: das Pistendorf und die Seenlandschaft von Kuusamo mit Personenzahl, Schlafzimmern und Größe auf einer Seite."
+    }
+  },
+  "/cabins/saariselka": {
+    "en": {
+      "title": "Saariselkä cabins: holiday homes below Kaunispää",
+      "description": "Saariselkä cabins and holiday homes: log cabins and apartments around the village and towards Kakslauttanen with guests, bedrooms and size for every cabin."
+    },
+    "fi": {
+      "title": "Saariselän mökit: vuokramökit Kaunispään juurella",
+      "description": "Saariselän mökit ja vuokramökit: kylän ja Kakslauttasen suunnan hirsimökit ja huoneistot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla."
+    },
+    "de": {
+      "title": "Saariselkä Ferienhäuser: Hütten am Kaunispää",
+      "description": "Ferienhäuser und Hütten in Saariselkä: Blockhütten und Apartments im Dorf und Richtung Kakslauttanen mit Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/yllas": {
+    "en": {
+      "title": "Ylläs cabins: Äkäslompolo and Ylläsjärvi",
+      "description": "Ylläs cabins and holiday homes: log cabins, lakeside cabins and ski-in apartments in Äkäslompolo and Ylläsjärvi with guests, bedrooms and size for every cabin."
+    },
+    "fi": {
+      "title": "Ylläksen mökit: Äkäslompolo ja Ylläsjärvi",
+      "description": "Ylläksen mökit ja vuokramökit: Äkäslompolon ja Ylläsjärven hirsimökit, rantamökit ja rinneasunnot henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Ylläs Ferienhäuser: Äkäslompolo und Ylläsjärvi",
+      "description": "Ferienhäuser und Hütten in Ylläs: Blockhütten, Seehütten und Ski-in-Apartments in Äkäslompolo und Ylläsjärvi mit Personenzahl, Schlafzimmern und Größe."
+    }
+  },
   "/cookie-policy": {
     "en": {
       "title": "Cookie Policy",
@@ -47,6 +131,18 @@
     "sv": {
       "title": "Cookiepolicy",
       "description": "Vilka cookies LaplandStays använder och varför: lagring av samtycke, Google Analytics 4 endast efter opt-in och affiliateattribuering via partnernätverken."
+    }
+  },
+  "/glass-igloos": {
+    "ja": {
+      "title": "グラスイグルー比較｜料金・場所・予約時期でわかる選び方",
+      "description": "ラップランドのグラスイグルーを比較。ロヴァニエミ、サーリセルカ、イヴァロ・イナリ、レヴィの11施設の場所・最寄空港・1泊の目安を一覧にし、料金に含まれるもの、予約時期、曇った夜の過ごし方まで解説します。"
+    }
+  },
+  "/iglumajoitus": {
+    "fi": {
+      "title": "Iglumajoitus Lapissa: lasi-iglu, lumi-iglu vai igluhotelli",
+      "description": "Lasi-iglu, lumi-iglu vai igluhotelli? Erot, kohteet Levillä, Saariselällä, Rovaniemellä ja Kilpisjärvellä sekä milloin iglu-yö kannattaa varata."
     }
   },
   "/news": {
@@ -226,7 +322,7 @@
     },
     "zh-CN": {
       "title": "隱私權政策。LaplandStays",
-      "description": "LaPeso Oy（LaplandStays）如何處理個人資料：電子報訂閱、分析及聯盟 Cookie。符合 GDPR/ePrivacy。"
+      "description": "LaPeso Oy（LaplandStays）如何處理個人資料：電子報訂閱、分析及聯盟 Cookie。符合 GDPR/ePrivacy。我們通過 Google Analytics 4 收集假名化的訪問分析資料。"
     },
     "ko": {
       "title": "개인정보 처리방침. LaplandStays",
@@ -268,15 +364,15 @@
     },
     "es": {
       "title": "Términos de uso",
-      "description": "Términos de uso de laplandstays.com: una guía de viaje editorial de afiliados operada por LaPeso Oy. Las reservas las gestionan plataformas asociadas, no nosotros."
+      "description": "Términos de uso de laplandstays.com: una guía de viaje editorial de afiliados operada por LaPeso Oy."
     },
     "pt-BR": {
       "title": "Termos de uso",
-      "description": "Termos de uso do laplandstays.com: um guia de viagem editorial de afiliados operado pela LaPeso Oy. As reservas são feitas por plataformas parceiras, não por nós."
+      "description": "Termos de uso do laplandstays.com: um guia de viagem editorial de afiliados operado pela LaPeso Oy."
     },
     "zh-CN": {
       "title": "使用條款。LaplandStays",
-      "description": "laplandstays.com 使用條款：由 LaPeso Oy 營運的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。"
+      "description": "laplandstays.com 使用條款：由 LaPeso Oy 營運的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。訪問或使用本網站，即表示您同意本條款。"
     },
     "ko": {
       "title": "이용약관. LaplandStays",
@@ -284,11 +380,11 @@
     },
     "fr": {
       "title": "Conditions d'utilisation",
-      "description": "Conditions d'utilisation de laplandstays.com : un guide de voyage éditorial affilié exploité par LaPeso Oy. Les réservations sont gérées par des plateformes partenaires, pas par nous."
+      "description": "Conditions d'utilisation de laplandstays.com : un guide de voyage éditorial affilié exploité par LaPeso Oy."
     },
     "it": {
       "title": "Termini di utilizzo",
-      "description": "Termini di utilizzo di laplandstays.com: una guida di viaggio editoriale in affiliazione gestita da LaPeso Oy. Le prenotazioni sono gestite da piattaforme partner, non da noi."
+      "description": "Termini di utilizzo di laplandstays.com: una guida di viaggio editoriale in affiliazione gestita da LaPeso Oy."
     },
     "nl": {
       "title": "Gebruiksvoorwaarden",

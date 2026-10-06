@@ -3,7 +3,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "Redactionele code, hoe wij verifiëren",
-    "description": "Hoe LaplandStays tarieven verifieert, accommodaties bij naam noemt, partneronafhankelijkheid bewaart en correcties afhandelt. De redactionele standaarden van de gids."
+    "description": "Hoe LaplandStays tarieven verifieert, accommodaties bij naam noemt, partneronafhankelijkheid bewaart en correcties afhandelt."
   },
   "ui": {
     "eyebrow": "Redactie",

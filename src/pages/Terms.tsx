@@ -26,17 +26,17 @@ const META: Record<Lang, { title: string; description: string }> = {
   es: {
     title: 'Términos de uso',
     description:
-      'Términos de uso de laplandstays.com: una guía de viaje editorial de afiliados operada por LaPeso Oy. Las reservas las gestionan plataformas asociadas, no nosotros.',
+      'Términos de uso de laplandstays.com: una guía de viaje editorial de afiliados operada por LaPeso Oy.',
   },
   'pt-BR': {
     title: 'Termos de uso',
     description:
-      'Termos de uso do laplandstays.com: um guia de viagem editorial de afiliados operado pela LaPeso Oy. As reservas são feitas por plataformas parceiras, não por nós.',
+      'Termos de uso do laplandstays.com: um guia de viagem editorial de afiliados operado pela LaPeso Oy.',
   },
   'zh-CN': {
     title: '使用條款。LaplandStays',
     description:
-      'laplandstays.com 使用條款：由 LaPeso Oy 營運的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。',
+      'laplandstays.com 使用條款：由 LaPeso Oy 營運的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。訪問或使用本網站，即表示您同意本條款。',
   },
   ko: {
     title: '이용약관. LaplandStays',
@@ -46,12 +46,12 @@ const META: Record<Lang, { title: string; description: string }> = {
   fr: {
     title: "Conditions d'utilisation",
     description:
-      "Conditions d'utilisation de laplandstays.com : un guide de voyage éditorial affilié exploité par LaPeso Oy. Les réservations sont gérées par des plateformes partenaires, pas par nous.",
+      "Conditions d'utilisation de laplandstays.com : un guide de voyage éditorial affilié exploité par LaPeso Oy.",
   },
   it: {
     title: 'Termini di utilizzo',
     description:
-      'Termini di utilizzo di laplandstays.com: una guida di viaggio editoriale in affiliazione gestita da LaPeso Oy. Le prenotazioni sono gestite da piattaforme partner, non da noi.',
+      'Termini di utilizzo di laplandstays.com: una guida di viaggio editoriale in affiliazione gestita da LaPeso Oy.',
   },
   nl: {
     title: 'Gebruiksvoorwaarden',

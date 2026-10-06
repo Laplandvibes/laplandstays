@@ -3,7 +3,7 @@ import type { PageCopy } from './EditorialPolicy.copy.types'
 const copy: PageCopy = {
   "seo": {
     "title": "編輯政策。我們如何核實",
-    "description": "LaplandStays如何核實價格、點名住宿、維持聯盟獨立性並處理勘誤。LaplandStays住宿指南的編輯標準。"
+    "description": "芬蘭拉普蘭住宿指南LaplandStays的編輯標準：我們如何核實價格、點名住宿、維持聯盟獨立性，以及如何處理勘誤。"
   },
   "ui": {
     "eyebrow": "編輯",

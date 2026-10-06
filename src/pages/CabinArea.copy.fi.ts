@@ -6,7 +6,7 @@ const copy: CabinAreaPageCopy = {
     levi: {
       seo: {
         title: 'Levin mökit: vuokramökit Lomarenkaalta',
-        description: 'Levin mökit ja vuokramökit yhdellä sivulla: Sirkan ja Kittilän hirsimökit, rinneasunnot ja huvilat henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
+        description: 'Levin mökit ja vuokramökit yhdellä sivulla: Sirkan ja Kittilän hirsimökit, rinneasunnot ja huvilat henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
       h1: 'Levin mökit',
       intro: 'Levillä on Lomarenkaan valikoimassa {count} vuokramökkiä Sirkan kylästä Kittilän kirkonkylään: hirsimökkejä tunturin rinteillä, rinneasuntoja hissien vieressä ja isoja huviloita koko porukalle. Alla jokaisesta mökistä henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -14,7 +14,7 @@ const copy: CabinAreaPageCopy = {
     yllas: {
       seo: {
         title: 'Ylläksen mökit: Äkäslompolo ja Ylläsjärvi',
-        description: 'Ylläksen mökit ja vuokramökit: Äkäslompolon ja Ylläsjärven hirsimökit, rantamökit ja rinneasunnot henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
+        description: 'Ylläksen mökit ja vuokramökit: Äkäslompolon ja Ylläsjärven hirsimökit, rantamökit ja rinneasunnot henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
       h1: 'Ylläksen mökit',
       intro: 'Ylläksellä on Lomarenkaan valikoimassa {count} vuokramökkiä kahden kylän ympärillä: Äkäslompolo tunturin pohjoispuolella ja Ylläsjärvi etelärinteiden puolella. Hirsimökkejä metsärinteillä, rantamökkejä ja rinneasuntoja. Alla jokaisesta mökistä henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -22,7 +22,7 @@ const copy: CabinAreaPageCopy = {
     ruka: {
       seo: {
         title: 'Rukan mökit: vuokramökit Rukatunturin ympäriltä',
-        description: 'Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla. Varaus Lomarenkaalla.',
+        description: 'Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla.',
       },
       h1: 'Rukan mökit',
       intro: 'Rukalla on Lomarenkaan valikoimassa {count} vuokramökkiä rinnekylästä Kuusamon järvenrannoille. Ruka avaa rinteensä syksyllä ensimmäisten joukossa ja kausi jatkuu kevääseen, joten mökkiviikkoja on tarjolla pitkälle. Alla jokaisesta mökistä henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -38,7 +38,7 @@ const copy: CabinAreaPageCopy = {
     'pyha-luosto': {
       seo: {
         title: 'Pyhän ja Luoston mökit: vuokramökit',
-        description: 'Pyhätunturin ja Luoston mökit ja vuokramökit: Pelkosenniemen, Sodankylän ja Kemijärven mökit henkilömäärineen, makuuhuoneineen ja kokoineen. Varaus Lomarenkaalla.',
+        description: 'Pyhätunturin ja Luoston mökit ja vuokramökit: Pelkosenniemen, Sodankylän ja Kemijärven mökit henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
       h1: 'Pyhän ja Luoston mökit',
       intro: 'Pyhällä ja Luostolla on Lomarenkaan valikoimassa {count} vuokramökkiä kahden tunturin välissä, Pyhä-Luoston kansallispuiston kupeessa. Rauhallisempi vaihtoehto Leville ja Rukalle, ja Rovaniemen kentältä pääsee perille alle kahdessa tunnissa. Alla jokaisesta mökistä henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
