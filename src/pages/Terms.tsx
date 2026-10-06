@@ -19,7 +19,7 @@ const META: Record<Lang, { title: string; description: string }> = {
       'Nutzungsbedingungen für laplandstays.com: ein redaktioneller Affiliate-Reiseführer von LaPeso Oy. Buchungen laufen über Partnerplattformen, nicht über uns.',
   },
   ja: {
-    title: '利用規約。LaplandStays',
+    title: '利用規約',
     description:
       'laplandstays.comの利用規約：LaPeso Oyが運営する編集型アフィリエイト旅行ガイド。予約は当サイトではなく提携プラットフォームが取り扱います。',
   },
@@ -34,12 +34,12 @@ const META: Record<Lang, { title: string; description: string }> = {
       'Termos de uso do laplandstays.com: um guia de viagem editorial de afiliados operado pela LaPeso Oy.',
   },
   'zh-CN': {
-    title: '使用條款。LaplandStays',
+    title: '使用條款',
     description:
       'laplandstays.com 使用條款：由 LaPeso Oy 營運的編輯型聯盟旅行指南。預訂由合作平臺處理，而非本站。訪問或使用本網站，即表示您同意本條款。',
   },
   ko: {
-    title: '이용약관. LaplandStays',
+    title: '이용약관',
     description:
       'laplandstays.com 이용약관: LaPeso Oy가 운영하는 에디토리얼 제휴 여행 가이드입니다. 예약은 저희가 아닌 파트너 플랫폼에서 처리합니다.',
   },

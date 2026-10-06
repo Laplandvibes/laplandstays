@@ -19,7 +19,7 @@ const META: Record<Lang, { title: string; description: string }> = {
       'Wie LaPeso Oy (LaplandStays) personenbezogene Daten verarbeitet: Newsletter-Anmeldungen, Analytics und Affiliate-Cookies. DSGVO-/ePrivacy-konform.',
   },
   ja: {
-    title: 'プライバシーポリシー。LaplandStays',
+    title: 'プライバシーポリシー',
     description:
       'LaPeso Oy（LaplandStays）の個人データの取り扱い：ニュースレター登録、アナリティクス、アフィリエイトCookie。GDPR／ePrivacy準拠。',
   },
@@ -34,12 +34,12 @@ const META: Record<Lang, { title: string; description: string }> = {
       'Como a LaPeso Oy (LaplandStays) trata dados pessoais: inscrições na newsletter, analytics e cookies de afiliados. Em conformidade com GDPR/ePrivacy.',
   },
   'zh-CN': {
-    title: '隱私權政策。LaplandStays',
+    title: '隱私權政策',
     description:
       'LaPeso Oy（LaplandStays）如何處理個人資料：電子報訂閱、分析及聯盟 Cookie。符合 GDPR/ePrivacy。我們通過 Google Analytics 4 收集假名化的訪問分析資料。',
   },
   ko: {
-    title: '개인정보 처리방침. LaplandStays',
+    title: '개인정보 처리방침',
     description:
       'LaPeso Oy(LaplandStays)의 개인정보 처리: 뉴스레터 신청, 분석 및 제휴 쿠키. GDPR/ePrivacy 준수.',
   },
