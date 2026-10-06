@@ -408,7 +408,13 @@ async function main() {
         rejected.push(`"${candName}" matched but Google returned no rating`);
         continue;
       }
-      if (p.businessStatus && p.businessStatus !== 'OPERATIONAL') {
+      // CLOSED_TEMPORARILY is accepted on purpose (Vesa 2026-10-06: "kesällä monet
+      // paikat on kiinni ja avaa vasta marraskuussa"). Lapland hotels shut between
+      // seasons and Google flags the pause; on 2026-10-06 that dropped the ratings of
+      // Wilderness Hotel Nellim and Lapland Hotels Ylläskaltio, both reopening for
+      // winter. The rating is still the same business's. Only a permanent closure
+      // (or any other non-operational status) is a reason to show nothing.
+      if (p.businessStatus && p.businessStatus !== 'OPERATIONAL' && p.businessStatus !== 'CLOSED_TEMPORARILY') {
         rejected.push(`"${candName}" businessStatus=${p.businessStatus}`);
         continue;
       }

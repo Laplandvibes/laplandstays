@@ -110,6 +110,18 @@
       },
       "lastVerified": "2026-10-06"
     },
+    "nellim": {
+      "matchedName": "Wilderness Hotel Nellim",
+      "rating": 4.6,
+      "reviewCount": 536,
+      "googlePlaceId": "ChIJr-82hHjYzEURelm97mhEWcA",
+      "address": "Nellimintie 4230, 99860 Nellim",
+      "location": {
+        "latitude": 68.84590039999999,
+        "longitude": 28.3197115
+      },
+      "lastVerified": "2026-10-06"
+    },
     "muotka": {
       "matchedName": "Wilderness Hotel Muotka",
       "rating": 4.6,
@@ -230,6 +242,18 @@
       },
       "lastVerified": "2026-10-06"
     },
+    "laplandHotelsYllaskaltio": {
+      "matchedName": "Lapland Hotels Ylläskaltio",
+      "rating": 3.9,
+      "reviewCount": 339,
+      "googlePlaceId": "ChIJC-LL4su400URkuRRNGILYOw",
+      "address": "Sivulantie 7, 95970 Äkäslompolo",
+      "location": {
+        "latitude": 67.5998895,
+        "longitude": 24.1509149
+      },
+      "lastVerified": "2026-10-06"
+    },
     "leviSpirit": {
       "matchedName": "Levi Spirit",
       "rating": 4.8,
@@ -265,42 +289,7 @@
         "longitude": 25.7999938
       },
       "lastVerified": "2026-10-06"
-    },
-    "nellim": {
-      "matchedName": "Wilderness Hotel Nellim",
-      "rating": 4.6,
-      "reviewCount": 532,
-      "googlePlaceId": "ChIJr-82hHjYzEURelm97mhEWcA",
-      "address": "Nellimintie 4230, 99860 Nellim",
-      "location": {
-        "latitude": 68.84590039999999,
-        "longitude": 28.3197115
-      },
-      "lastVerified": "2026-07-26"
-    },
-    "laplandHotelsYllaskaltio": {
-      "matchedName": "Lapland Hotels Ylläskaltio",
-      "rating": 3.9,
-      "reviewCount": 333,
-      "googlePlaceId": "ChIJC-LL4su400URkuRRNGILYOw",
-      "address": "Sivulantie 7, 95970 Äkäslompolo",
-      "location": {
-        "latitude": 67.5998895,
-        "longitude": 24.1509149
-      },
-      "lastVerified": "2026-07-26"
     }
   },
-  "unmatched": [
-    {
-      "key": "nellim",
-      "name": "Wilderness Hotel Nellim",
-      "reason": "\"Wilderness Hotel Nellim\" businessStatus=CLOSED_TEMPORARILY"
-    },
-    {
-      "key": "laplandHotelsYllaskaltio",
-      "name": "Lapland Hotels Ylläskaltio",
-      "reason": "\"Lapland Hotels Ylläskaltio\" businessStatus=CLOSED_TEMPORARILY"
-    }
-  ]
+  "unmatched": []
 }
