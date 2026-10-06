@@ -97,6 +97,8 @@ const TARGETS = {
   novaSkyland:              { queryCity: 'Rovaniemi, Lapland, Finland',         locality: ['rovaniemi', 'ounasvaara'] },
   northernLightsRanch:      { queryCity: 'Köngäs, Kittilä, Lapland, Finland',   locality: ['kongas', 'kittila', 'levi'] },
   arcticSnowHotel:          { queryCity: 'Rovaniemi, Lapland, Finland',         locality: ['rovaniemi', 'lehtojarvi', 'sinetta'] },
+  santasIgloosArcticCircle: { queryCity: 'Santa Claus Village, Rovaniemi, Lapland, Finland', locality: ['rovaniemi', 'napapiiri'] },
+  silverBirch:              { queryCity: 'Rovaniemi, Lapland, Finland',         locality: ['rovaniemi'] },
 
   // ── Lakeside / wilderness lodges ───────────────────────────────────────
   nellim:                   { queryCity: 'Nellim, Inari, Lapland, Finland',     locality: ['nellim', 'inari', 'ivalo'] },
@@ -113,6 +115,8 @@ const TARGETS = {
   k5Levi:                   { queryCity: 'Levi, Kittilä, Lapland, Finland',     locality: ['levi', 'sirkka', 'kittila'] },
   laplandHotelsSaaga:       { queryCity: 'Äkäslompolo, Ylläs, Lapland, Finland', locality: ['akaslompolo', 'yllas', 'yllasjarvi', 'kolari'] },
   laplandHotelsYllaskaltio: { queryCity: 'Äkäslompolo, Ylläs, Lapland, Finland', locality: ['akaslompolo', 'yllas', 'yllasjarvi', 'kolari'] },
+  leviSpirit:               { queryCity: 'Levi, Kittilä, Lapland, Finland',     locality: ['levi', 'sirkka', 'kittila'] },
+  yllashumina:              { queryCity: 'Äkäslompolo, Ylläs, Lapland, Finland', locality: ['akaslompolo', 'yllas', 'kolari'] },
 
   // ── Designer lodges ────────────────────────────────────────────────────
   arcticTreeHouse:          { queryCity: 'Rovaniemi, Lapland, Finland',         locality: ['rovaniemi'] },
