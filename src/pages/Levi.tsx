@@ -42,6 +42,7 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glass igloos on the fell, peak weeks book 10–12 mo ahead.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'On the slope of Levi fell: the gondola stops at the door and skiing starts in the yard.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Rooms and apartments in Levi, every one with its own sauna, about 500 m from the slopes.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Design villas in Taalovaara, Levi, with a 24/7 concierge and a private chef on request.' },
     { name: 'All Levi accommodation', href: HOTEL_SEARCH_FOR('en').levi, sid: 'destination_levi_all_search', note: 'Compare every Levi hotel and chalet on Trip.com.' },
   ],
   transport: [
@@ -106,6 +107,7 @@ Helsingistä yöjuna Kolariin + tunnin kuljetus on maisemallinen vaihtoehto.`,
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Lasi-iglut tunturilla, huippuviikot varataan 10–12 kk etukäteen.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Levitunturin rinteessä: gondoli pysähtyy ovelle ja hiihto alkaa pihasta.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Levin huoneita ja eri kokoisia huoneistoja, joissa jokaisessa oma sauna, noin 500 m rinteiltä.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Designhuviloita Levin Taalovaarassa, concierge palvelee ympäri vuorokauden ja yksityiskokin saa pyynnöstä.' },
     { name: 'Kaikki Levin majoitukset', href: HOTEL_SEARCH_FOR('fi').levi, sid: 'destination_levi_all_search', note: 'Vertaa kaikkia Levin hotelleja ja chalet-asuntoja Sembossa.' },
   ],
   transport: [
@@ -170,6 +172,7 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasiglus am Fjäll, Hauptwochen werden 10–12 Monate im Voraus gebucht.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Am Hang des Levifjälls: Die Gondel hält vor der Tür, Skifahren beginnt im Hof.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Zimmer und Apartments in Levi, jedes mit eigener Sauna, rund 500 m von den Pisten.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Designvillen in Taalovaara bei Levi, mit Concierge rund um die Uhr und Privatkoch auf Wunsch.' },
     { name: 'Alle Levi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').levi, sid: 'destination_levi_all_search', note: 'Vergleichen Sie alle Levi-Hotels und Chalets auf Trip.com.' },
   ],
   transport: [
@@ -234,6 +237,7 @@ const ko: DestinationBody = {
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '산자락의 글래스 이글루. 성수기 주간은 10–12개월 전 예약됩니다.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '레비 봉우리 사면에 위치. 곤돌라가 문 앞에 서고 스키는 마당에서 시작됩니다.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: '레비의 객실과 다양한 크기의 아파트. 전 객실 전용 사우나, 슬로프까지 약 500m.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: '레비 탈로바라의 디자인 빌라. 24시간 컨시어지가 있고, 요청하면 전속 셰프도 부를 수 있습니다.' },
     { name: '레비 전체 숙소', href: HOTEL_SEARCH_FOR('ko').levi, sid: 'destination_levi_all_search', note: 'Trip.com에서 레비의 모든 호텔과 샬레를 한 번에 비교하세요.' },
   ],
   transport: [
@@ -298,6 +302,7 @@ Depuis Helsinki, le train de nuit jusqu'à Kolari + 1 h de transfert constitue u
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Igloos de verre sur le fjäll, les semaines fortes se réservent 10 à 12 mois à l\'avance.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Sur les pentes du fjäll de Levi : télécabine devant la porte et ski dès la cour.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Chambres et appartements à Levi, chacun avec son sauna privé, à environ 500 m des pistes.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Villas design à Taalovaara, Levi, avec conciergerie 24 h/24 et chef privé sur demande.' },
     { name: 'Tous les hébergements de Levi', href: HOTEL_SEARCH_FOR('fr').levi, sid: 'destination_levi_all_search', note: 'Comparez tous les hôtels et chalets de Levi sur Trip.com.' },
   ],
   transport: [
@@ -362,6 +367,7 @@ Da Helsinki, il treno notturno per Kolari + 1 ora di trasferimento è un'alterna
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Igloo di vetro sul fjäll, le settimane di punta si prenotano con 10–12 mesi di anticipo.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Sulle pendici del fjäll di Levi: cabinovia davanti alla porta e sci dal cortile.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Camere e appartamenti a Levi, ciascuno con sauna privata, a circa 500 m dalle piste.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Ville di design a Taalovaara, Levi, con concierge 24 ore su 24 e chef privato su richiesta.' },
     { name: 'Tutti gli alloggi di Levi', href: HOTEL_SEARCH_FOR('it').levi, sid: 'destination_levi_all_search', note: 'Confronti tutti gli hotel e gli chalet di Levi su Trip.com.' },
   ],
   transport: [
@@ -426,6 +432,7 @@ Vanuit Helsinki is de nachttrein naar Kolari + 1 uur transfer een schilderachtig
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasiglo\'s op de fjäll, piekweken zijn 10–12 maanden vooruit volgeboekt.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Op de helling van de Levi-fjäll: de gondel stopt voor de deur en skiën begint op het erf.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Kamers en appartementen in Levi, elk met eigen sauna, op ongeveer 500 m van de pistes.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Designvilla\'s in Taalovaara bij Levi, met 24/7 conciërge en op verzoek een privékok.' },
     { name: 'Alle Levi-accommodaties', href: HOTEL_SEARCH_FOR('nl').levi, sid: 'destination_levi_all_search', note: 'Vergelijk alle Levi-hotels en chalets op Trip.com.' },
   ],
   transport: [
@@ -490,6 +497,7 @@ const ja: DestinationBody = {
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上のグラスイグルー。ピーク週は10〜12か月前に予約が埋まります。' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'レヴィ・フェルの斜面に立地。ゴンドラが玄関前に停まり、スキーは中庭から始まります。' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'レヴィの客室とさまざまな広さのアパートメント。全室に専用サウナ、ゲレンデまで約500m。' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'レヴィのタアロヴァーラに建つデザインヴィラ。24時間対応のコンシェルジュがいて、希望すればプライベートシェフも頼めます。' },
     { name: 'レヴィのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').levi, sid: 'destination_levi_all_search', note: 'Trip.comでレヴィのホテルとシャレーをまとめて比較できます。' },
   ],
   transport: [
@@ -554,6 +562,7 @@ Desde Helsinki, el tren nocturno a Kolari y 1 hora de traslado es una alternativ
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglús de cristal en el fjäll, las semanas punta se reservan con 10–12 meses de antelación.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'En la ladera del fjäll de Levi: el telecabina para en la puerta y se esquía desde el patio.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Habitaciones y apartamentos en Levi, todos con sauna privada, a unos 500 m de las pistas.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Villas de diseño en Taalovaara, Levi, con conserjería 24/7 y chef privado bajo petición.' },
     { name: 'Todos los alojamientos de Levi', href: HOTEL_SEARCH_FOR('es').levi, sid: 'destination_levi_all_search', note: 'Compare todos los hoteles y chalets de Levi en Trip.com.' },
   ],
   transport: [
@@ -618,6 +627,7 @@ De Helsinque, o trem noturno até Kolari + 1 hora de traslado é uma alternativa
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Iglus de vidro no fjäll, semanas de pico são reservadas com 10–12 meses de antecedência.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Na encosta do fjäll de Levi: o teleférico para na porta e a esquiada começa no pátio.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Quartos e apartamentos em Levi, todos com sauna privativa, a cerca de 500 m das pistas.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Vilas de design em Taalovaara, Levi, com concierge 24 horas e chef particular sob pedido.' },
     { name: 'Todas as hospedagens de Levi', href: HOTEL_SEARCH_FOR('pt-BR').levi, sid: 'destination_levi_all_search', note: 'Compare todos os hotéis e chalés de Levi no Trip.com.' },
   ],
   transport: [
@@ -682,6 +692,7 @@ const zhCN: DestinationBody = {
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: '山上的玻璃屋。旺季週次需提前10–12個月預訂。' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: '坐落於萊維山坡，纜車停在門前，從院子即可滑雪出發。' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: '萊維的客房與各種戶型公寓，均配私人桑拿，距雪道約500米。' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: '萊維塔洛瓦拉的設計別墅，提供24小時禮賓服務，也可應要求安排私人主廚。' },
     { name: '萊維所有住宿', href: HOTEL_SEARCH_FOR('zh-CN').levi, sid: 'destination_levi_all_search', note: '在Trip.com比較萊維所有飯店與木屋。' },
   ],
   transport: [
@@ -746,6 +757,7 @@ Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert al
     { name: 'Levin Iglut', propertyQuery: 'Levin Iglut', sid: 'destination_levi_levin_iglut', note: 'Glasigloor på fjället, högsäsongsveckorna bokas 10–12 månader i förväg.' },
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'I Levifjällets sluttning: gondolen stannar vid dörren och skidåkningen börjar på gården.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Rum och lägenheter i Levi, alla med egen bastu, cirka 500 m från backarna.' },
+    { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Designvillor i Taalovaara i Levi, med concierge dygnet runt och privatkock på begäran.' },
     { name: 'Alla boenden i Levi', href: HOTEL_SEARCH_FOR('sv').levi, sid: 'destination_levi_all_search', note: 'Jämför alla hotell och stugor i Levi på Trip.com.' },
   ],
   transport: [

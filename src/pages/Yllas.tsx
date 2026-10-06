@@ -40,6 +40,7 @@ Kolari train station, 40 min away, receives overnight trains from Helsinki with 
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spa hotel in Ylläsjärvi on the south side, pool area and the gondola 300 m away.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Sauna-equipped rooms in Äkäslompolo village, panoramic restaurant, ski resort 4.5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Family-run since 1945 on the north shore of Lake Äkäslompolo, looking across to the village and fells.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min from Ylläs, husky safari packages and lakeside cabins.' },
     { name: 'All Ylläs accommodation', href: HOTEL_SEARCH_FOR('en').yllas, sid: 'destination_yllas_all_search', note: 'Browse every Ylläs cabin and chalet on Trip.com.' },
   ],
@@ -104,6 +105,7 @@ Kolarin juna-asema, 40 min päässä, vastaanottaa yöjunat Helsingistä autonku
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Kylpylähotelli Ylläsjärvellä etelärinteiden puolella, allasosasto ja gondoli 300 m päässä.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Saunallisia hotellihuoneita Äkäslompolon kylässä, panoraamaravintola, hiihtokeskus 4,5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Perheen pitämä hotelli vuodesta 1945 Äkäslompolon pohjoisrannalla, pihalta näkyy järven yli kylään ja tuntureille.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min Ylläkseltä, husky-safari-paketit ja rantamökit.' },
     { name: 'Kaikki Ylläksen majoitukset', href: HOTEL_SEARCH_FOR('fi').yllas, sid: 'destination_yllas_all_search', note: 'Selaa kaikki Ylläksen mökit ja chalet-asunnot Sembossa.' },
   ],
@@ -168,6 +170,7 @@ Bahnhof Kolari, 40 min entfernt, empfängt die Nachtzüge aus Helsinki mit Autot
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spa-Hotel in Ylläsjärvi auf der Südseite, Badelandschaft und Gondel 300 m entfernt.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Zimmer mit eigener Sauna im Dorf Äkäslompolo, Panoramarestaurant, Skigebiet 4,5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Familiengeführt seit 1945 am Nordufer des Äkäslompolo-Sees, mit Blick über den See auf Dorf und Fjälls.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min von Ylläs, Husky-Safari-Pakete und Seehütten.' },
     { name: 'Alle Ylläs-Unterkünfte', href: HOTEL_SEARCH_FOR('de').yllas, sid: 'destination_yllas_all_search', note: 'Stöbern Sie in allen Ylläs-Hütten und Chalets auf Trip.com.' },
   ],
@@ -232,6 +235,7 @@ const ko: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '남쪽 윌래스야르비의 스파 호텔. 수영장 구역이 있고 곤돌라까지 300m.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '애캐슬롬폴로 마을의 사우나 완비 객실, 파노라마 레스토랑, 스키장까지 4.5km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: '1945년부터 한 가족이 운영해 온 애캐슬롬폴로 호수 북쪽 기슭의 호텔. 호수 건너로 마을과 산이 보입니다.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '윌래스에서 40분. 허스키 사파리 패키지와 호숫가 캐빈.' },
     { name: '윌래스 전체 숙소', href: HOTEL_SEARCH_FOR('ko').yllas, sid: 'destination_yllas_all_search', note: 'Trip.com에서 윌래스 캐빈과 샬레 전체를 둘러보세요.' },
   ],
@@ -296,6 +300,7 @@ La gare de Kolari, à 40 min, accueille les trains de nuit depuis Helsinki avec 
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hôtel spa à Ylläsjärvi, côté sud, espace piscine et télécabine à 300 m.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: "Chambres avec sauna au village d'Äkäslompolo, restaurant panoramique, domaine skiable à 4,5 km." },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Tenu par la même famille depuis 1945, sur la rive nord du lac Äkäslompolo, face au village et aux fjälls.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'À 40 min d\'Ylläs, formules safari en traîneau de huskies et chalets au bord du lac.' },
     { name: 'Tous les hébergements d\'Ylläs', href: HOTEL_SEARCH_FOR('fr').yllas, sid: 'destination_yllas_all_search', note: 'Parcourez tous les chalets et villas d\'Ylläs sur Trip.com.' },
   ],
@@ -360,6 +365,7 @@ La stazione di Kolari, a 40 min, accoglie i treni notturni da Helsinki con servi
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hotel spa a Ylläsjärvi, sul versante sud, area piscine e cabinovia a 300 m.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Camere con sauna nel villaggio di Äkäslompolo, ristorante panoramico, comprensorio a 4,5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Gestito dalla stessa famiglia dal 1945, sulla riva nord del lago Äkäslompolo, con vista sul villaggio e sui fjäll.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min da Ylläs, pacchetti safari husky e chalet sul lago.' },
     { name: 'Tutti gli alloggi di Ylläs', href: HOTEL_SEARCH_FOR('it').yllas, sid: 'destination_yllas_all_search', note: 'Esplori tutti gli chalet e le ville di Ylläs su Trip.com.' },
   ],
@@ -424,6 +430,7 @@ Station Kolari, op 40 min, ontvangt nachttreinen uit Helsinki met autorailservic
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spahotel in Ylläsjärvi aan de zuidkant, zwembadgedeelte en gondel op 300 m.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Kamers met eigen sauna in het dorp Äkäslompolo, panoramarestaurant, skigebied op 4,5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Familiebedrijf sinds 1945 aan de noordoever van het Äkäslompolo-meer, met uitzicht op het dorp en de fjälls.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min van Ylläs, husky-safari-pakketten en hutten aan het meer.' },
     { name: 'Alle Ylläs-accommodaties', href: HOTEL_SEARCH_FOR('nl').yllas, sid: 'destination_yllas_all_search', note: 'Bekijk alle Ylläs-cabins en chalets op Trip.com.' },
   ],
@@ -488,6 +495,7 @@ const ja: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '南側ユッラスヤルヴィのスパホテル。プールエリアを備え、ゴンドラまで300m。' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'アカスロンポロ村のサウナ付き客室、パノラマレストラン、スキー場まで4.5km。' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: '1945年から家族経営、アカスロンポロ湖の北岸に建つホテル。湖越しに村とフェルを望みます。' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'ユッラスから40分。ハスキーサファリのパッケージと湖畔キャビン。' },
     { name: 'ユッラスのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').yllas, sid: 'destination_yllas_all_search', note: 'Trip.comでユッラスのキャビンとシャレーをすべて比較できます。' },
   ],
@@ -552,6 +560,7 @@ La estación de Kolari, a 40 min, recibe trenes nocturnos desde Helsinki con ser
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hotel spa en Ylläsjärvi, en la vertiente sur, zona de piscinas y telecabina a 300 m.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Habitaciones con sauna en el pueblo de Äkäslompolo, restaurante panorámico, estación a 4,5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Negocio familiar desde 1945 en la orilla norte del lago Äkäslompolo, con vistas al pueblo y a los fjälls.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min de Ylläs, paquetes de safari de huskys y cabañas junto al lago.' },
     { name: 'Todos los alojamientos de Ylläs', href: HOTEL_SEARCH_FOR('es').yllas, sid: 'destination_yllas_all_search', note: 'Consulte todas las cabañas y chalets de Ylläs en Trip.com.' },
   ],
@@ -616,6 +625,7 @@ A estação ferroviária de Kolari, a 40 min, recebe trens noturnos de Helsinque
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Hotel spa em Ylläsjärvi, no lado sul, área de piscinas e teleférico a 300 m.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Quartos com sauna na vila de Äkäslompolo, restaurante panorâmico, estação a 4,5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Administrado pela mesma família desde 1945, na margem norte do lago Äkäslompolo, com vista para a vila e os fjälls.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: 'A 40 min de Ylläs, pacotes de safári de huskies e cabanas à beira do lago.' },
     { name: 'Todas as hospedagens de Ylläs', href: HOTEL_SEARCH_FOR('pt-BR').yllas, sid: 'destination_yllas_all_search', note: 'Veja todas as cabanas e chalés de Ylläs no Trip.com.' },
   ],
@@ -680,6 +690,7 @@ const zhCN: DestinationBody = {
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: '位於南側於拉斯耶爾維的水療飯店，設泳池區，距纜車300米。' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: '阿卡斯隆波洛村內的桑拿客房，設全景餐廳，距滑雪場4.5公里。' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: '自1945年起由家族經營，位於阿卡斯隆波洛湖北岸，可隔湖眺望村莊與群山。' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '距於拉斯40分鐘。哈士奇探險方案與湖畔小屋。' },
     { name: '於拉斯全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').yllas, sid: 'destination_yllas_all_search', note: '在Trip.com瀏覽於拉斯的所有小屋與木屋。' },
   ],
@@ -744,6 +755,7 @@ Kolari järnvägsstation, 40 min bort, tar emot nattåg från Helsingfors med bi
   anchorProperties: [
     { name: 'Lapland Hotels Saaga', propertyQuery: 'Lapland Hotels Saaga', sid: 'destination_yllas_saaga', note: 'Spahotell i Ylläsjärvi på södra sidan, poolavdelning och gondol 300 m bort.' },
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Rum med egen bastu i byn Äkäslompolo, panoramarestaurang, skidanläggning 4,5 km.' },
+    { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Familjeägt sedan 1945 vid Äkäslompolosjöns norra strand, med utsikt över sjön mot byn och fjällen.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min från Ylläs, paket med hundspannssafari och stugor vid vattnet.' },
     { name: 'Alla boenden i Ylläs', href: HOTEL_SEARCH_FOR('sv').yllas, sid: 'destination_yllas_all_search', note: 'Bläddra bland alla stugor och chalets i Ylläs på Trip.com.' },
   ],

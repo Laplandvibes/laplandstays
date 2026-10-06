@@ -39,7 +39,9 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architect-designed glass-front nest suites at Santa Claus Village.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'North-facing glass igloos in Santa Claus Village, each with its own northern lights alarm.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Lakeside aurora cabins 15 min from the city, full safari menu on site.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Five glass cabins set 3 m above the ground on a private lakeside peninsula near Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Newer glass-roofed apartments with skyline views from Ounasvaara fell.' },
     { name: 'All Rovaniemi accommodation', href: HOTEL_SEARCH_FOR('en').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Browse every Rovaniemi hotel and cabin on Trip.com.' },
   ],
@@ -103,7 +105,9 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkkitehtien suunnittelemat lasisviitit Joulupukin Pajakylässä.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Pohjoiseen katsovat lasi-iglut Joulupukin Pajakylässä, revontulihälytys joka iglussa.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Rannan aurora-mökit 15 min päässä kaupungista, täysi safarivalikoima paikan päällä.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Viisi lasimökkiä 3 metrin korkeudella omalla niemellään järven rannalla, Rovaniemen lähellä.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Uudet lasikattoiset huoneistot Ounasvaaran tunturilta kaupunkinäkymin.' },
     { name: 'Kaikki Rovaniemen majoitukset', href: HOTEL_SEARCH_FOR('fi').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Selaa kaikki Rovaniemen hotellit ja mökit Sembossa.' },
   ],
@@ -167,7 +171,9 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architektonisch gestaltete Nest-Suiten mit Glasfront am Weihnachtsmanndorf.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Nach Norden ausgerichtete Glasiglus am Weihnachtsmanndorf, jedes mit eigenem Polarlicht-Alarm.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Polarlicht-Hütten am See 15 min von der Stadt, volles Safari-Menü vor Ort.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Fünf Glashütten, 3 m über dem Boden, auf einer privaten Halbinsel am See nahe Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Neuere Apartments mit Glasdach und Skyline-Blick vom Fjäll Ounasvaara.' },
     { name: 'Alle Rovaniemi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Stöbern Sie in allen Rovaniemi-Hotels und Hütten auf Trip.com.' },
   ],
@@ -231,7 +237,9 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '산타클로스 마을의 건축가가 설계한 유리 정면 네스트 스위트.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: '산타클로스 마을의 북향 글래스 이글루. 모든 이글루에 오로라 알림이 있습니다.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '도심에서 15분 거리의 호숫가 오로라 캐빈. 풀 사파리 프로그램이 현장에서 운영됩니다.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: '로바니에미 근교 호숫가의 전용 반도에 지상 3m 높이로 세운 글래스 캐빈 다섯 채.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Ounasvaara 봉우리에서 도심 스카이라인이 펼쳐지는 신축 유리 천장 아파트.' },
     { name: '로바니에미 전체 숙소', href: HOTEL_SEARCH_FOR('ko').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.com에서 로바니에미의 모든 호텔과 캐빈을 둘러보세요.' },
   ],
@@ -295,7 +303,9 @@ La location de voiture est simple ; la ville est la base logistique des road tri
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites-nichoirs à façade vitrée signées par un architecte, au village du Père Noël.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Igloos de verre orientés au nord au village du Père Noël, chacun avec son alerte aurores.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Chalets aurores au bord du lac à 15 min de la ville, carte complète de safaris sur place.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinq cabanes de verre perchées à 3 m du sol sur une presqu\'île privée au bord d\'un lac, près de Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartements à toit de verre récents avec vue sur la ligne d\'horizon depuis Ounasvaara.' },
     { name: 'Tous les hébergements de Rovaniemi', href: HOTEL_SEARCH_FOR('fr').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Parcourez tous les hôtels et chalets de Rovaniemi sur Trip.com.' },
   ],
@@ -359,7 +369,9 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suite-nido firmate da un architetto con facciata in vetro, al villaggio di Babbo Natale.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Igloo di vetro rivolti a nord nel villaggio di Babbo Natale, ognuno con il suo allarme aurora.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Chalet aurora sul lago a 15 min dalla città, menù safari completo in struttura.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinque cabine di vetro sollevate a 3 m da terra su una penisola privata sul lago, vicino a Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartamenti con tetto di vetro più recenti, vista skyline dal fjäll Ounasvaara.' },
     { name: 'Tutti gli alloggi di Rovaniemi', href: HOTEL_SEARCH_FOR('it').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Esplori ogni hotel e chalet di Rovaniemi su Trip.com.' },
   ],
@@ -423,7 +435,9 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Door architecten ontworpen nest-suites met glazen front bij het Kerstmandorp.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Glazen iglo\'s op het noorden bij het Kerstmandorp, elk met een eigen noorderlichtalarm.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Noorderlichthutten aan het meer op 15 min van de stad, volledig safarimenu ter plaatse.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Vijf glazen hutten op 3 m hoogte op een eigen schiereiland aan het meer, vlak bij Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nieuwere appartementen met glazen dak en zicht op de skyline vanaf Ounasvaara.' },
     { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH_FOR('nl').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elk hotel en elke hut in Rovaniemi op Trip.com.' },
   ],
@@ -489,7 +503,9 @@ const ja: DestinationBody = {
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'サンタクロース村にある、建築家設計のガラスフロント・ネストスイート。' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'サンタクロース村にある北向きのガラスイグルー。各イグルーにオーロラアラーム付き。' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '市から15分の湖畔オーロラキャビン。サファリのフルメニューを敷地内に。' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'ロヴァニエミ近郊、湖畔のプライベート半島に建つ、地上3mのガラスキャビン五棟。' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'オウナスヴァーラ山からスカイラインを望むガラス屋根の新しいアパートメント。' },
     { name: 'ロヴァニエミのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.comでロヴァニエミの全宿を閲覧できます。' },
   ],
@@ -556,7 +572,9 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites tipo nido con frente de cristal diseñadas por arquitectos en el Pueblo de Papá Noel.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Iglús de cristal orientados al norte en el Pueblo de Papá Noel, cada uno con su alarma de auroras.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabañas aurora junto al lago a 15 min de la ciudad, carta completa de safaris en el mismo recinto.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinco cabañas de cristal elevadas 3 m sobre el suelo en una península privada junto al lago, cerca de Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos más nuevos con techo de cristal y vistas desde el fjäll Ounasvaara.' },
     { name: 'Todos los alojamientos de Rovaniemi', href: HOTEL_SEARCH_FOR('es').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Consulte todos los hoteles y cabañas de Rovaniemi en Trip.com.' },
   ],
@@ -733,7 +751,9 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suítes tipo ninho com frente de vidro projetadas por arquitetos na Vila do Papai Noel.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Iglus de vidro voltados para o norte na Vila do Papai Noel, cada um com alarme de aurora.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabanas aurora à beira do lago a 15 min da cidade, cardápio completo de safáris no local.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinco cabanas de vidro a 3 m do chão em uma península particular à beira do lago, perto de Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos mais novos com teto de vidro e vistas do fjäll Ounasvaara.' },
     { name: 'Todas as hospedagens de Rovaniemi', href: HOTEL_SEARCH_FOR('pt-BR').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Veja todos os hotéis e cabanas de Rovaniemi no Trip.com.' },
   ],
@@ -797,7 +817,9 @@ const zhCN: DestinationBody = {
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '聖誕老人村內由建築師設計的玻璃幕牆巢式套房。' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: '聖誕老人村內朝北的玻璃屋，每間都設有極光提醒。' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '距市區15分鐘的湖畔極光小屋。園區內提供全套探險項目。' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: '羅瓦涅米近郊湖畔私人半島上的五間玻璃小屋，離地3米。' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: '位於Ounasvaara山的較新玻璃屋頂公寓，可眺望天際線。' },
     { name: '羅瓦涅米全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').rovaniemi, sid: 'destination_rovaniemi_all_search', note: '在Trip.com瀏覽羅瓦涅米所有飯店與小屋。' },
   ],
@@ -861,7 +883,9 @@ Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilres
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkitektritade sviter med glasfront, som fågelbon, vid Santa Claus Village.' },
+    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Glasigloor mot norr vid Santa Claus Village, var och en med eget norrskenslarm.' },
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Norrskensstugor vid sjön 15 min från staden, med hela safariutbudet på plats.' },
+    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Fem glasstugor 3 m över marken på en egen udde vid sjön, nära Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nyare lägenheter med glastak och vy över staden från Ounasvaara.' },
     { name: 'Alla boenden i Rovaniemi', href: HOTEL_SEARCH_FOR('sv').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bläddra bland alla hotell och stugor i Rovaniemi på Trip.com.' },
   ],

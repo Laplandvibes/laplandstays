@@ -132,6 +132,8 @@ export const PROPERTIES = withGoogleReviews({
   novaSkyland: { name: "Nova Skyland", destination: "Nova Skyland" },
   northernLightsRanch: { name: "Northern Lights Ranch", destination: "Northern Lights Ranch Köngäs" },
   arcticSnowHotel: { name: "Arctic SnowHotel", destination: "Arctic Snow Hotel" },
+  santasIgloosArcticCircle: { name: "Santa's Igloos Arctic Circle", destination: "Santa's Igloos Arctic Circle" },
+  silverBirch: { name: "Silver Birch Resort", destination: "Silver Birch Resort" },
 
   // ── Lakeside / wilderness lodges ──────────────────────────────────────
   nellim: { name: "Wilderness Hotel Nellim", destination: "Wilderness Hotel Nellim" },
@@ -148,6 +150,8 @@ export const PROPERTIES = withGoogleReviews({
   k5Levi: { name: "K5 Levi", destination: "K5 Levi" },
   laplandHotelsSaaga: { name: "Lapland Hotels Saaga", destination: "Lapland Hotels Saaga" },
   laplandHotelsYllaskaltio: { name: "Lapland Hotels Ylläskaltio", destination: "Lapland Hotels Ylläskaltio" },
+  leviSpirit: { name: "Levi Spirit", destination: "Levi Spirit" },
+  yllashumina: { name: "Hotel Ylläshumina", destination: "Hotel Ylläshumina" },
 
   // ── Designer lodges ───────────────────────────────────────────────────
   arcticTreeHouse: { name: "Arctic TreeHouse Hotel", destination: "Arctic TreeHouse Hotel" },

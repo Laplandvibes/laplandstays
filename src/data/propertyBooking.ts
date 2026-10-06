@@ -124,6 +124,15 @@ export const PROPERTY_BOOKING: Partial<Record<PropertyKey, PropertyBooking>> = {
   laplandHotelsYllaskaltio: { town: "Ylläs", slug: "yllaskaltio", semboHotel: "34815", semboPoly: "360523", tripHotel: "2150123", tripCity: "9274" },
   // Sembo + Trip: "Arctic TreeHouse Hotel"
   arcticTreeHouse: { town: "Rovaniemi", slug: "arctic_treehouse", semboHotel: "922953", semboPoly: "360732", tripHotel: "10035619", tripCity: "1794" },
+  // Added 2026-10-06 (Discovering Finland listings cross-checked against our sites).
+  // Same method as above: Sembo pair opened through the live Worker, Trip.com <h1> read back.
+  // Sembo rendered "Santa's Igloos Arctic Circle" / "Silver Birch Resort" / "Levi Spirit Luxury Villas & Resort";
+  // Trip.com rendered the same three plus "Hotel Ylläshumina". Ylläshumina is not on Sembo, so Finnish
+  // visitors get the Ylläs list (same as Harriniva). Trip city 259389 = Kolari, as Trip.com files it.
+  santasIgloosArcticCircle: { town: "Rovaniemi", slug: "santas_igloos_ac", semboHotel: "FI-H233226", semboPoly: "360049", tripHotel: "9107838", tripCity: "1794" },
+  silverBirch: { town: "Rovaniemi", slug: "silver_birch", semboHotel: "13758626", semboPoly: "360732", tripHotel: "125975259", tripCity: "1794" },
+  leviSpirit: { town: "Levi", slug: "levi_spirit", semboHotel: "504783", semboPoly: "360006", tripHotel: "4231378", tripCity: "38182" },
+  yllashumina: { town: "Ylläs", slug: "yllashumina", tripHotel: "9838618", tripCity: "259389" },
 };
 
 /**
