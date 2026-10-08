@@ -97,12 +97,12 @@ const COPY: Record<Lang, Copy> = {
   },
   nl: {
     adLabel: 'Advertentie',
-    eyebrow: 'Voor een huttenvakantie heb je een auto nodig',
+    eyebrow: 'Voor een huttenvakantie hebt u een auto nodig',
     h2: 'De hut ligt zelden in het dorpscentrum',
     body: 'Veel Lomarengas-hutten staan op een fjällhelling of aan een meer, en de winkel, de piste en het restaurant zijn een stukje rijden. Haal de auto op het vliegveld op en lever hem op dezelfde plek weer in.',
     pick: 'Ophalen op het vliegveld:',
     airports: ['Kittilä · Levi en Ylläs', 'Rovaniemi · Pyhä en Luosto', 'Ivalo · Saariselkä', 'Kuusamo · Ruka'],
-    note: 'Verhuurders vergeleken; de eindprijs zie je vóór het boeken.',
+    note: 'Verhuurders vergeleken; de eindprijs ziet u vóór het boeken.',
   },
   'pt-BR': {
     adLabel: 'Anúncio',
