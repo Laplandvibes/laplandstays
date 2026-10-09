@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Contiene link pubblicitari · Partnership con Lomarengas',
     eyebrow: 'Vacanze in chalet',
     h1: 'La vacanza in chalet in Lapponia',
-    heroAlt: "Chalet di tronchi nella Lapponia innevata all'ora blu, luce calda alle finestre e debole aurora nel cielo",
+    heroAlt: "Un rifugio di tronchi nella neve alta sotto un cielo azzurro nella zona selvaggia di Käsivarsi, in Lapponia finlandese",
     lead: "Pareti di tronchi tutte per Lei, la Sua sauna privata e nessuno sopra, sotto o dietro la parete.",
 
     whyEyebrow: 'Perché uno chalet',

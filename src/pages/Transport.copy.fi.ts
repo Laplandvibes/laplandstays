@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Saapuminen',
     h1: 'Miten päästä Lappiin',
-    heroAlt: 'Potkuriturbiinikone pienen Lapin lentokentän lumisella asematasolla sinisen hetken aikaan, kiitotievalot palavat',
+    heroAlt: "Kittilän lentoasema talvella: lennonjohtotorni ja terminaali lumivallien takana vaalean taivaan alla",
     lead: 'Neljä lentokenttää, yksi yöjuna Helsingistä, neljä todellista bussihintaa.',
     airportsEyebrow: 'Lentokentittäin',
     airportsH2: 'Valitse lentokenttä, älä maa',

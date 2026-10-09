@@ -9,7 +9,7 @@ const copy: PageCopy = {
     "eyebrow": "Über uns",
     "h1": "Echtes Lappland, geprüfte Preise",
 
-    "heroAlt": "Verschneite Fjälls in Lappland bei winterlichem Sonnenuntergang, Fichten unter dickem Tykky-Schnee in pastellrosa Licht",
+    "heroAlt": "Schneebedeckte Birken vor goldenem Winterhimmel in Saariselkä, Finnisch-Lappland, darunter Fichten",
     "intro": "LaplandStays ist das Unterkunftsverzeichnis, das der Betreiber sich gewünscht hätte, als Freunde fragten, wo man übernachten soll.",
     "missionEyebrow": "Warum es das gibt",
     "missionH2": "Ein ehrlicher Leitfaden, wo Sie in Lappland schlafen",

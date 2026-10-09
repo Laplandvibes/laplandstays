@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Enthält Werbelinks · Lomarengas-Partnerschaft',
     eyebrow: 'Hüttenurlaub',
     h1: 'Der Hüttenurlaub in Lappland',
-    heroAlt: 'Blockhütte im verschneiten Lappland zur blauen Stunde, warmes Licht in den Fenstern und schwaches Polarlicht am Himmel',
+    heroAlt: "Eine Blockhaus-Wildnishütte im tiefen Schnee unter blauem Himmel in der Käsivarsi-Wildnis, Finnisch-Lappland",
     lead: 'Eigene Blockholzwände, eine eigene Sauna, und niemand über, unter oder hinter der Wand.',
 
     whyEyebrow: 'Warum eine Hütte',

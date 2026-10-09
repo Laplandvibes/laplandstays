@@ -23,7 +23,7 @@ const copy: ChromeCopy = {
     lead: 'A glass igloo where you watch the aurora from your pillow, a log cabin with your own sauna and the lake right outside, or a proper hotel in the village.',
     leadSummer: 'A lakeside cabin under the midnight sun with your own sauna, a riverside lodge in the green fells, or a proper hotel in the village.',
     disclosure: 'This page contains affiliate links. If you book through them, LaplandStays may earn a commission at no extra cost to you.',
-    alt: 'Warm-lit luxury cabin in snowy Finnish Lapland under aurora skies',
+    alt: "A small log hut on a snow-covered fell in Finnish Lapland in low golden winter light, tracks leading across the snow",
     altSummer: 'A cabin with large windows among tall pines on a rocky lakeshore, a deck and a hammock in front, in low golden sun',
   },
   editorial: {

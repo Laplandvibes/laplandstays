@@ -20,6 +20,7 @@ import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './PropertyTypesPage.copy.types'
 import enCopy from './PropertyTypesPage.copy.en'
+import PhotoMark from '../components/PhotoMark'
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -338,6 +339,22 @@ const SLUG_NAME: Record<string, Record<Lang, string>> = {
   yllas:      { en: 'Ylläs',      fi: 'Ylläs',      de: 'Ylläs',      ja: 'ユッラス',   es: 'Ylläs',      'pt-BR': 'Ylläs',      'zh-CN': '於拉斯',   ko: '윌래스',    fr: 'Ylläs',      it: 'Ylläs',      nl: 'Ylläs', sv: 'Ylläs' },
 }
 
+/** Hero-kuvan alt 12 kielellä (kuva: revontulet Ylläsjärven yllä, Pexels). */
+const HERO_ALT: Record<Lang, string> = {
+  en: 'Green aurora curtains over a dark spruce forest and a fence lit red, Ylläsjärvi in Finnish Lapland',
+  fi: 'Vihreät revontulet tumman kuusimetsän ja punaisena hohtavan aidan yllä Ylläsjärvellä Suomen Lapissa',
+  de: 'Grüne Polarlicht-Vorhänge über einem dunklen Fichtenwald und einem rot beleuchteten Zaun, Ylläsjärvi in Finnisch-Lappland',
+  ja: 'フィンランド・ラップランドのユッラスヤルヴィ、暗いトウヒの森と赤く照らされた柵の上に広がる緑のオーロラ',
+  es: 'Cortinas verdes de aurora boreal sobre un oscuro bosque de abetos y una valla iluminada de rojo, Ylläsjärvi, Laponia finlandesa',
+  'pt-BR': 'Cortinas verdes de aurora boreal sobre uma floresta escura de abetos e uma cerca iluminada de vermelho, Ylläsjärvi, Lapônia finlandesa',
+  'zh-CN': '芬蘭拉普蘭於拉斯湖畔，綠色極光垂落在漆黑的雲杉林和一道被映成紅色的圍欄上空',
+  fr: "Rideaux verts d'aurore boréale au-dessus d'une sombre forêt d'épicéas et d'une clôture éclairée en rouge, Ylläsjärvi, Laponie finlandaise",
+  ko: '핀란드 라플란드 윌래스예르비, 어두운 가문비나무 숲과 붉게 비친 울타리 위로 펼쳐진 초록빛 오로라',
+  it: "Cortine verdi di aurora boreale sopra una scura foresta di abeti e una staccionata illuminata di rosso, Ylläsjärvi, Lapponia finlandese",
+  nl: 'Groene noorderlichtgordijnen boven een donker sparrenbos en een rood verlicht hek, Ylläsjärvi in Fins Lapland',
+  sv: 'Gröna norrskensdraperier över en mörk granskog och ett rödbelyst staket, Ylläsjärvi i finska Lappland',
+}
+
 export default function PropertyTypesPage() {
   const lang = useLang()
   const to = useLocalePath()
@@ -361,28 +378,28 @@ export default function PropertyTypesPage() {
         <picture>
           <source
             type="image/avif"
-            srcSet="/images/hero-alt-800.avif 800w, /images/hero-alt-1200.avif 1200w"
+            srcSet="/images/hero-alt-800.avif 800w, /images/hero-alt-1200.avif 1200w, /images/hero-alt.avif 1920w, /images/hero-alt-2560.avif 2560w"
             sizes="100vw"
           />
           <img
             src="/images/hero-alt-1200.webp"
-            srcSet="/images/hero-alt-800.webp 800w, /images/hero-alt-1200.webp 1200w"
+            srcSet="/images/hero-alt-800.webp 800w, /images/hero-alt-1200.webp 1200w, /images/hero-alt.webp 1920w, /images/hero-alt-2560.webp 2560w"
             sizes="100vw"
-            alt={lang === 'fi'
-              ? 'Lasikattoinen aurora-villa ja luminen tunturimaisema Suomen Lapissa'
-              : 'Glass-roofed aurora villa above a snow-lit fell in Finnish Lapland'}
+            alt={HERO_ALT[lang]}
             className="absolute inset-0 w-full h-full object-cover"
             loading="eager"
             fetchPriority="high"
             decoding="async"
-            width="1200"
-            height="800"
+            width="1920"
+            height="1442"
           />
         </picture>
+        <PhotoMark id="hero-alt" className="absolute bottom-3 right-3 z-20" />
 
         {/* Soft directional scrim: light at top so the image reads, deeper at the
             base where the copy and stat row sit. Replaces the old flat dark band. */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/20 to-night/85" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/22 to-night/85" />
+        <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.86)_0%,rgba(15,23,42,0.62)_58%,rgba(15,23,42,0.10)_100%)]" />
         {/* Warm aurora glow, low opacity, adds depth without hiding the photo */}
         <div
           aria-hidden="true"

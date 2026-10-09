@@ -10,7 +10,7 @@ const copy: PageCopy = {
     eyebrow: 'Anreise',
     h1: 'Wie Sie nach Lappland kommen',
 
-    heroAlt: 'Turboprop-Flugzeug auf dem verschneiten Vorfeld eines kleinen Flughafens in Lappland zur blauen Stunde, leuchtende Pistenbefeuerung',
+    heroAlt: "Der Flughafen Kittilä im Winter: Tower und Terminal hinter einem Vorfeld mit Schneewällen unter blassem Himmel",
     lead: 'Vier Flughäfen, ein Nachtzug aus Helsinki, vier echte Buspreise.',
     airportsEyebrow: 'Per Flughafen',
     airportsH2: 'Wählen Sie den Flughafen, nicht das Land',

@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "關於",
     "h1": "真實的拉普蘭，經核實的房價",
-    "heroAlt": "冬日落日下白雪覆蓋的拉普蘭山丘，粉彩光線中掛滿厚雪的雲杉",
+    "heroAlt": "芬蘭拉普蘭薩利色爾卡，掛滿積雪的樺樹映著金色的冬日天空，樹下是雲杉",
     "intro": "LaplandStays是當朋友問「該住哪裡」時，經營者希望存在的住宿名錄。",
     "missionEyebrow": "為何存在",
     "missionH2": "一本誠實的拉普蘭住宿指南",

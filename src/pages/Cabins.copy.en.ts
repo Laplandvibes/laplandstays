@@ -8,7 +8,7 @@ const copy = {
     adNotice: 'Contains advertising links · Lomarengas partnership',
     eyebrow: 'Cabin holidays',
     h1: 'The Lapland Cabin Holiday',
-    heroAlt: 'Log cabin in snowy Finnish Lapland at blue hour, warm light in the windows and a faint aurora overhead',
+    heroAlt: "A log wilderness hut in deep snow under a blue sky in the Käsivarsi wilderness, Finnish Lapland",
     lead: 'Your own log walls, your own sauna, and nobody above, below or behind the wall.',
 
     whyEyebrow: 'Why a cabin',

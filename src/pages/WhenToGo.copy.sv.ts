@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Planering',
     h1: 'När du ska åka',
-    heroAlt: 'Höstens ruskafärger på Lapplands fjäll, röda och gyllene sluttningar kring en mörkblå sjö',
+    heroAlt: "Höstens ruskafärger på fjällen kring sjön Kilpisjärvi, med en röd stuga på stranden",
     lead: 'Den riktiga Lapplandskalendern: när norrskenet kommer, när backarna håller snö och när allt är slutbokat.',
     seasonsEyebrow: 'Fyra överlappande årstider',
     seasonsH2: 'Välj resan du kom för',

@@ -16,6 +16,7 @@ import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import { useLocalePath } from '../i18n/useLang'
 import type { PageCopy } from './Cabins.copy.types'
 import enCopy from './Cabins.copy.en'
+import PhotoMark from '../components/PhotoMark'
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -121,22 +122,24 @@ export default function Cabins() {
 
       <section className="relative overflow-hidden bg-night text-white">
         <div className="relative min-h-[78svh] flex items-center justify-center px-4 sm:px-6 pt-24 sm:pt-28 pb-14 sm:pb-16">
-          {/* AI-generated hero (unique to this site per brand rules). Mobile pulls the 800px variant. */}
+          {/* Real photograph (Commons, credit in PhotoMark). Mobile pulls the 800px variant. */}
           <picture>
-            <source type="image/avif" srcSet="/images/hero-cabins-800.avif 800w, /images/hero-cabins-1200.avif 1200w" sizes="100vw" />
-            <source type="image/webp" srcSet="/images/hero-cabins-800.webp 800w, /images/hero-cabins-1200.webp 1200w, /images/hero-cabins-1920.webp 1920w" sizes="100vw" />
+            <source type="image/avif" srcSet="/images/hero-cabins-800.avif 800w, /images/hero-cabins-1200.avif 1200w, /images/hero-cabins-1920.avif 1920w, /images/hero-cabins-2560.avif 2560w" sizes="100vw" />
+            <source type="image/webp" srcSet="/images/hero-cabins-800.webp 800w, /images/hero-cabins-1200.webp 1200w, /images/hero-cabins-1920.webp 1920w, /images/hero-cabins-2560.webp 2560w" sizes="100vw" />
             <img
               src="/images/hero-cabins-1920.webp"
               alt={ui.heroAlt}
-              className="absolute inset-0 w-full h-full object-cover object-[center_62%]"
+              className="absolute inset-0 w-full h-full object-cover object-[center_28%]"
               loading="eager"
               fetchPriority="high"
               decoding="async"
-              width="2752"
-              height="1536"
+              width="1920"
+              height="1440"
             />
           </picture>
-          <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/35 to-night" />
+          <PhotoMark id="hero-cabins" className="absolute bottom-3 right-3 z-20" />
+          <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-night/45 via-night/18 to-night" />
+          <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.80)_0%,rgba(15,23,42,0.52)_58%,rgba(15,23,42,0.10)_100%)]" />
 
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             {/* KKV ad marking: visible before any commercial content (Lomarengas terms). */}

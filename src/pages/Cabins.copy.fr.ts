@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Contient des liens publicitaires · Partenariat Lomarengas',
     eyebrow: 'Séjours en chalet',
     h1: 'Le séjour en chalet en Laponie',
-    heroAlt: "Chalet en rondins sous la neige en Laponie à l'heure bleue, lumière chaude aux fenêtres et faible aurore boréale",
+    heroAlt: "Un refuge en rondins dans la neige profonde sous un ciel bleu, dans la région sauvage de Käsivarsi, en Laponie finlandaise",
     lead: "Vos propres murs en rondins, votre propre sauna, et personne au-dessus, en dessous ou derrière la cloison.",
 
     whyEyebrow: 'Pourquoi un chalet',

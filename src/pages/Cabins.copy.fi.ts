@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Sisältää mainoslinkkejä · Lomarengas-kumppanuus',
     eyebrow: 'Mökkiloma',
     h1: 'Lapin mökkiloma',
-    heroAlt: 'Hirsimökki lumisessa Lapissa sinisen hetken hämärässä, ikkunoissa lämmin valo ja heikot revontulet taivaalla',
+    heroAlt: "Hirsinen erämaatupa syvässä lumessa sinisen taivaan alla Käsivarren erämaassa Suomen Lapissa",
     lead: 'Omat hirsiseinät, oma sauna, eikä ketään yläpuolella, alapuolella tai seinän takana.',
 
     whyEyebrow: 'Miksi mökki',

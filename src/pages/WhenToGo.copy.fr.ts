@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Planifier',
     h1: 'Quand partir',
-    heroAlt: "Couleurs d'automne de la ruska sur les fjälls de Laponie, pentes rouges et dorées autour d'un lac bleu foncé",
+    heroAlt: "Couleurs d'automne de la ruska sur les fjälls autour du lac Kilpisjärvi, une cabane rouge au bord de l'eau",
     lead: "Le vrai calendrier de la Laponie : quand l'aurore apparaît, quand les pistes tiennent la neige et quand tout est complet.",
     seasonsEyebrow: 'Quatre saisons qui se chevauchent',
     seasonsH2: 'Choisissez le voyage que vous êtes venu chercher',

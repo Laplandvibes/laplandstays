@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Acerca de",
     "h1": "La Laponia real, tarifas verificadas",
-    "heroAlt": "Fjäll nevados de Laponia al atardecer invernal, abetos cubiertos de espesa nieve tykky bajo una luz rosa pastel",
+    "heroAlt": "Abedules cubiertos de nieve ante un cielo dorado de invierno en Saariselkä, Laponia finlandesa, con abetos debajo",
     "intro": "LaplandStays es el directorio de alojamiento que el editor deseaba que existiera cuando los amigos preguntaban dónde dormir.",
     "missionEyebrow": "Por qué existe",
     "missionH2": "Una guía honesta sobre dónde dormir en Laponia",

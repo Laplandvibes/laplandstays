@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Suunnittelu',
     h1: 'Milloin matkustaa',
-    heroAlt: 'Ruskan värit Lapin tuntureilla, punaiset ja kullanväriset rinteet tummansinisen järven ympärillä',
+    heroAlt: "Ruskan värit Kilpisjärven ympäristön tuntureilla, punainen mökki rannalla",
     lead: 'Aito Lapin kalenteri: milloin revontulet syttyvät, milloin rinteet pitävät lunta ja milloin kaikki on jo varattu.',
     seasonsEyebrow: 'Neljä päällekkäistä sesonkia',
     seasonsH2: 'Valitse matkasi tarkoitus',

@@ -30,7 +30,7 @@
     "copyFile": "src/pages/Transport.copy.{lang}.ts",
     "ogImage": "/og/transport.jpg",
     "ogCard": {
-      "hero": "/images/hero-transport-1920.webp",
+      "hero": "/images/og-transport-rovaniemi-station.webp",
       "line": "Airports, night train, buses, taxis"
     }
   },

@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Planejamento',
     h1: 'Quando ir',
-    heroAlt: 'Cores da ruska de outono nos fjäll da Lapônia, encostas vermelhas e douradas ao redor de um lago azul-escuro',
+    heroAlt: "Cores da ruska de outono nos fjäll ao redor do lago Kilpisjärvi, com uma cabana vermelha na margem",
     lead: 'O calendário real da Lapônia: quando a aurora aparece, quando as pistas seguram a neve e quando tudo esgota.',
     seasonsEyebrow: 'Quatro temporadas sobrepostas',
     seasonsH2: 'Escolha a viagem pela qual veio',

@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "À propos",
     "h1": "La vraie Laponie, tarifs vérifiés",
-    "heroAlt": "Fjälls enneigés de Laponie au coucher de soleil hivernal, épicéas sous une épaisse neige tykky dans une lumière rose pastel",
+    "heroAlt": "Bouleaux chargés de neige devant un ciel doré d'hiver à Saariselkä, en Laponie finlandaise, des épicéas en contrebas",
     "intro": "LaplandStays est l'annuaire d'hébergements dont l'opérateur rêvait quand des amis lui demandaient où loger.",
     "missionEyebrow": "Pourquoi ce site existe",
     "missionH2": "Un guide honnête sur où dormir en Laponie",

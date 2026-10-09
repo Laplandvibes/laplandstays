@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Contiene enlaces publicitarios · Colaboración con Lomarengas',
     eyebrow: 'Vacaciones en cabaña',
     h1: 'Vacaciones en cabaña en Laponia',
-    heroAlt: 'Cabaña de troncos en la Laponia nevada a la hora azul, luz cálida en las ventanas y una aurora tenue en el cielo',
+    heroAlt: "Una cabaña de troncos de montaña en nieve profunda bajo un cielo azul en la zona salvaje de Käsivarsi, Laponia finlandesa",
     lead: 'Sus propias paredes de troncos, su propia sauna y nadie arriba, abajo ni al otro lado de la pared.',
 
     whyEyebrow: 'Por qué una cabaña',

@@ -787,6 +787,8 @@ export default function Yllas() {
       slug="yllas"
       name="Ylläs"
       heroImage="/images/yllas-hero.webp"
+      heroSrcSet="/images/yllas-hero-800.webp 800w, /images/yllas-hero-1200.webp 1200w, /images/yllas-hero.webp 1920w, /images/yllas-hero-2560.webp 2560w"
+      heroPhotoId="yllas-hero"
       ogImage="https://laplandstays.com/og-yllas.jpg"
       seoKeywords={['yllas accommodation', 'ylläs cabin', 'ylläs log cabin', 'ylläs hotel', 'äkäslompolo villa', 'pallas-yllästunturi accommodation', 'ylläs chalet', 'where to stay in ylläs']}
       body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}

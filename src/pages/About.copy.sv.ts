@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Om oss",
     "h1": "Det riktiga Lappland, verifierade priser",
-    "heroAlt": "Snötäckta fjäll i Lappland vid vintersolnedgång, granar under tjock tykky-snö i pastellrosa ljus",
+    "heroAlt": "Snötyngda björkar mot en gyllene vinterhimmel i Saariselkä i finska Lappland, med granar nedanför",
     "intro": "LaplandStays är den boendeguide som grundaren önskade fanns när vänner frågade var de skulle bo.",
     "missionEyebrow": "Varför den finns",
     "missionH2": "En ärlig guide till var du sover i Lappland",

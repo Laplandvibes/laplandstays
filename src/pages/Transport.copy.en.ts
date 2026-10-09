@@ -7,7 +7,7 @@ const copy = {
   ui: {
     eyebrow: 'Getting there',
     h1: 'How to Get to Lapland',
-    heroAlt: 'Turboprop aircraft on the snowy apron of a small Lapland airport at blue hour, runway lights glowing',
+    heroAlt: "Kittilä airport in winter: the control tower and terminal behind a snow-banked apron under a pale sky",
     lead: 'Four airports, one overnight train from Helsinki, four real bus prices.',
     airportsEyebrow: 'By airport',
     airportsH2: 'Pick the airport, not the country',

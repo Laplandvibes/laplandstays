@@ -23,7 +23,7 @@ const copy: ChromeCopy = {
     lead: 'En glasigloo där du ser norrskenet från kudden, en timmerstuga med egen bastu och sjön precis utanför, eller ett riktigt hotell i byn.',
     leadSummer: 'En sjöstuga under midnattssolen med egen bastu, en älvnära lodge i de gröna fjällen, eller ett riktigt hotell i byn.',
     disclosure: 'Den här sidan innehåller affiliatelänkar. Om du bokar via dem kan LaplandStays få provision utan extra kostnad för dig.',
-    alt: 'Varmt upplyst lyxstuga i snöiga finska Lappland under norrskenshimlen',
+    alt: "En liten timmerstuga på ett snötäckt fjäll i finska Lappland i lågt gyllene vinterljus, spår i snön",
     altSummer: 'En stuga med stora fönster bland höga tallar på en klippig sjöstrand, med däck och hängmatta framför, i låg gyllene sol',
   },
   editorial: {

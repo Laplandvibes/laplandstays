@@ -3,6 +3,7 @@ import TravelSearchWidget from './TravelSearchWidget'
 import { useCopy } from '../locales/copy'
 import { isSummerSeason } from '../lib/seasonal'
 import { twoLineEm } from '../lib/headingFit'
+import PhotoMark from './PhotoMark'
 
 // Responsive hero: mobile pulls the 800px AVIF (~33KB) instead of the full
 // 1536–1920px image. The <link rel=preload imagesrcset> in index.html feeds the
@@ -15,8 +16,8 @@ const HERO = isSummerSeason()
     }
   : {
       base: '/images/hero.webp',
-      avif: '/images/hero-800.avif 800w, /images/hero-1200.avif 1200w, /images/hero.avif 1920w',
-      webp: '/images/hero-800.webp 800w, /images/hero-1200.webp 1200w, /images/hero.webp 1920w',
+      avif: '/images/hero-800.avif 800w, /images/hero-1200.avif 1200w, /images/hero.avif 1920w, /images/hero-2560.avif 2560w',
+      webp: '/images/hero-800.webp 800w, /images/hero-1200.webp 1200w, /images/hero.webp 1920w, /images/hero-2560.webp 2560w',
     }
 
 export default function Hero() {
@@ -50,12 +51,17 @@ export default function Hero() {
             fetchPriority="high"
             decoding="async"
             width="1920"
-            height="1080"
+            height="1440"
           />
         </picture>
 
+        {/* Kuvan tekijä ja paikka (CC BY-SA). Widget peittää hero-kuvan alimmat ~96–128 px, joten merkintä istuu sen yläpuolella. */}
+        {!isSummerSeason() && <PhotoMark id="hero" className="absolute bottom-28 sm:bottom-36 right-3 z-20" />}
+
         {/* Scrim for legibility */}
-        <div className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/45 to-night" />
+        <div className="absolute inset-0 bg-gradient-to-b from-night/50 via-night/22 to-night" />
+        {/* Tekstin takana oma tummennus (heroteksti-portti 9.10.2026): kirkas valokuva ei kanna pinkkiä yläotsikkoa ilman sitä */}
+        <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.80)_0%,rgba(15,23,42,0.52)_58%,rgba(15,23,42,0.10)_100%)]" />
 
         {/* Hero copy */}
         {/* w-full: as a container this flex item may not size itself from its content (it would collapse to 0

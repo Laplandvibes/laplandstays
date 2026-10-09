@@ -9,6 +9,7 @@ import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './About.copy.types'
 import enCopy from './About.copy.en'
+import PhotoMark from '../components/PhotoMark'
 
 const aboutPageJsonLd = {
   '@context': 'https://schema.org',
@@ -82,8 +83,8 @@ export default function About() {
       <section className="relative overflow-hidden bg-night text-white">
         <div className="relative min-h-[64svh] flex items-center justify-center px-4 sm:px-6 pt-24 sm:pt-28 pb-14 sm:pb-16">
           <picture>
-            <source type="image/avif" srcSet="/images/hero-about-800.avif 800w, /images/hero-about-1200.avif 1200w" sizes="100vw" />
-            <source type="image/webp" srcSet="/images/hero-about-800.webp 800w, /images/hero-about-1200.webp 1200w, /images/hero-about-1920.webp 1920w" sizes="100vw" />
+            <source type="image/avif" srcSet="/images/hero-about-800.avif 800w, /images/hero-about-1200.avif 1200w, /images/hero-about-1920.avif 1920w, /images/hero-about-2560.avif 2560w" sizes="100vw" />
+            <source type="image/webp" srcSet="/images/hero-about-800.webp 800w, /images/hero-about-1200.webp 1200w, /images/hero-about-1920.webp 1920w, /images/hero-about-2560.webp 2560w" sizes="100vw" />
             <img
               src="/images/hero-about-1920.webp"
               alt={ui.heroAlt}
@@ -91,13 +92,15 @@ export default function About() {
               loading="eager"
               fetchPriority="high"
               decoding="async"
-              width="2752"
-              height="1536"
+              width="1920"
+              height="1440"
             />
           </picture>
-          <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/40 to-night" />
+          <PhotoMark id="hero-about" className="absolute bottom-3 right-3 z-20" />
+          <div aria-hidden="true" className="absolute inset-0 bg-gradient-to-b from-night/45 via-night/18 to-night" />
+          <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.80)_0%,rgba(15,23,42,0.52)_58%,rgba(15,23,42,0.10)_100%)]" />
           <div className="relative z-10 max-w-4xl mx-auto text-center">
-            <p className="text-pink uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 [text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{ui.eyebrow}</p>
+            <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 [text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{ui.eyebrow}</p>
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {ui.h1}
             </h1>

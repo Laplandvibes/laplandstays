@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Arriver',
     h1: 'Comment aller en Laponie',
-    heroAlt: "Avion à turbopropulseurs sur le tarmac enneigé d'un petit aéroport de Laponie à l'heure bleue, balisage lumineux allumé",
+    heroAlt: "L'aéroport de Kittilä en hiver : la tour de contrôle et le terminal derrière un tarmac bordé de congères sous un ciel pâle",
     lead: 'Quatre aéroports, un train de nuit depuis Helsinki, quatre vrais prix de bus.',
     airportsEyebrow: 'Par aéroport',
     airportsH2: 'Choisissez l\'aéroport, pas le pays',

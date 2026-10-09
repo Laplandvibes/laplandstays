@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Over ons",
     "h1": "Het echte Lapland, geverifieerde tarieven",
-    "heroAlt": "Besneeuwde fjälls in Lapland bij winterse zonsondergang, sparren onder dikke tykky-sneeuw in pastelroze licht",
+    "heroAlt": "Besneeuwde berken tegen een gouden winterlucht in Saariselkä, Fins Lapland, met sparren eronder",
     "intro": "LaplandStays is de accommodatiegids waarvan de beheerder hoopte dat hij bestond toen vrienden vroegen waar ze konden slapen.",
     "missionEyebrow": "Waarom dit bestaat",
     "missionH2": "Eén eerlijke gids voor waar u in Lapland slaapt",

@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Tietoa",
     "h1": "Aitoa Lappia, tarkistetut hinnat",
-    "heroAlt": "Lumiset Lapin tunturit talviauringonlaskussa, tykkylumen peittämät kuuset pastellinpunaisessa valossa",
+    "heroAlt": "Lumen peittämiä koivuja kultaisella talvitaivaalla Saariselällä Suomen Lapissa, alhaalla kuusia",
     "intro": "LaplandStays on majoitushakemisto, jonka ylläpitäjä olisi toivonut olevan olemassa, kun ystävät kysyivät missä Lapissa kannattaa yöpyä.",
     "missionEyebrow": "Miksi tämä on olemassa",
     "missionH2": "Yksi rehellinen opas Lapin majoitukseen",

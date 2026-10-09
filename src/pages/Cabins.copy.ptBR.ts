@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Contém links publicitários · Parceria com a Lomarengas',
     eyebrow: 'Férias em cabana',
     h1: 'Férias em cabana na Lapônia',
-    heroAlt: 'Cabana de troncos na Lapônia nevada na hora azul, luz quente nas janelas e uma aurora fraca no céu',
+    heroAlt: "Uma cabana de troncos de refúgio na neve profunda sob um céu azul na região selvagem de Käsivarsi, Lapônia finlandesa",
     lead: 'Suas próprias paredes de troncos, sua própria sauna e ninguém em cima, embaixo ou do outro lado da parede.',
 
     whyEyebrow: 'Por que uma cabana',

@@ -7,7 +7,7 @@ const copy = {
   ui: {
     eyebrow: 'Planning',
     h1: 'When to Go',
-    heroAlt: 'Autumn ruska colours on Lapland fells, red and gold slopes around a dark blue lake',
+    heroAlt: "Autumn ruska colours on the fells around Lake Kilpisjärvi, a red cabin on the shore",
     lead: 'The real Lapland calendar: when the aurora opens, when the slopes hold snow, and when everything books out.',
     seasonsEyebrow: 'Four overlapping seasons',
     seasonsH2: 'Pick the trip you came for',

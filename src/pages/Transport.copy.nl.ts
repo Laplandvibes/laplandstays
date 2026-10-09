@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Aankomst',
     h1: 'Hoe komt u in Lapland',
-    heroAlt: 'Turboprop-vliegtuig op het besneeuwde platform van een kleine luchthaven in Lapland tijdens het blauwe uur, met brandende baanverlichting',
+    heroAlt: "Luchthaven Kittilä in de winter: de verkeerstoren en terminal achter een platform met sneeuwwallen onder een bleke hemel",
     lead: 'Vier luchthavens, één nachttrein vanuit Helsinki, vier echte busprijzen.',
     airportsEyebrow: 'Per luchthaven',
     airportsH2: 'Kies de luchthaven, niet het land',

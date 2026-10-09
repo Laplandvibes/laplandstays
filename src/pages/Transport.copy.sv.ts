@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Att ta sig dit',
     h1: 'Så tar du dig till Lappland',
-    heroAlt: 'Turbopropplan på den snöiga plattan vid en liten flygplats i Lappland i blå timmen, banljusen lyser',
+    heroAlt: "Kittilä flygplats på vintern: flygledartornet och terminalen bakom en plan kantad av snövallar under en blek himmel",
     lead: 'Fyra flygplatser, ett nattåg från Helsingfors, fyra riktiga busspriser.',
     airportsEyebrow: 'Efter flygplats',
     airportsH2: 'Välj flygplats, inte land',

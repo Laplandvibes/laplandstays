@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Bevat advertentielinks · Lomarengas-partnerschap',
     eyebrow: 'Huisjesvakantie',
     h1: 'De huisjesvakantie in Lapland',
-    heroAlt: 'Blokhut in besneeuwd Lapland tijdens het blauwe uur, warm licht in de ramen en zwak noorderlicht aan de hemel',
+    heroAlt: "Een blokhut in de wildernis in diepe sneeuw onder een blauwe hemel in de Käsivarsi-wildernis, Fins Lapland",
     lead: 'Uw eigen blokhutwanden, uw eigen sauna en niemand boven, onder of achter de muur.',
 
     whyEyebrow: 'Waarom een huisje',

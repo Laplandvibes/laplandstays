@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: '前往方式',
     h1: '如何前往拉普蘭',
-    heroAlt: '藍調時刻拉普蘭小機場雪地停機坪上的渦槳飛機，跑道燈光亮起',
+    heroAlt: "冬日的基蒂萊機場，雪堤環繞的停機坪後方是塔臺和航站樓，天空淡白",
     lead: '四個機場、一趟從赫爾辛基出發的夜車、四個真實的巴士價格。',
     airportsEyebrow: '按機場',
     airportsH2: '挑機場，不挑國家',

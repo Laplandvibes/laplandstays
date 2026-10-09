@@ -10,6 +10,8 @@ import FeaturedPartnerSlot from './FeaturedPartnerSlot'
 import type { FeaturedPlacement } from '../data/adSlots'
 import enCopy from './AmenitiesShowcase.copy.en'
 import type { Copy } from './AmenitiesShowcase.copy.types'
+import PhotoMark from './PhotoMark'
+import { photoIdFromSrc } from '../data/photoCredits'
 
 
 // Built per language: the plain HOTEL_SEARCH / PROPERTY_SEARCH exports are the
@@ -122,6 +124,7 @@ export default function AmenitiesShowcase({ placement }: { placement?: FeaturedP
                     />
                   </picture>
                   <div className="absolute inset-0 bg-gradient-to-t from-night/55 to-transparent" aria-hidden="true" />
+                  <PhotoMark id={photoIdFromSrc(amenity.img)} className="absolute bottom-2 right-2 z-10" />
                   <div className="absolute top-4 left-4 w-11 h-11 rounded-xl bg-night/70 backdrop-blur-sm border border-white/15 flex items-center justify-center">
                     <Icon className="w-5 h-5 text-pink" />
                   </div>

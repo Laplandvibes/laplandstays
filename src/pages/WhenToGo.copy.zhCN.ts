@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: '規劃',
     h1: '何時出行',
-    heroAlt: '拉普蘭山地的ruska秋色，深藍湖泊周圍紅金色的山坡',
+    heroAlt: "基爾皮斯耶爾維湖周圍山地的ruska秋色，湖畔有一間紅色小屋",
     lead: '真實的拉普蘭日曆：極光何時出現、雪道何時有雪，以及一切何時被訂滿。',
     seasonsEyebrow: '四個相互交疊的季節',
     seasonsH2: '挑選您來此的旅程',

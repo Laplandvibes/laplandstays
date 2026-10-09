@@ -9,6 +9,8 @@ import FeaturedPartnerSlot from './FeaturedPartnerSlot'
 import type { FeaturedPlacement } from '../data/adSlots'
 import enCopy from './Locations.copy.en'
 import type { Copy } from './Locations.copy.types'
+import PhotoMark from './PhotoMark'
+import { photoIdFromSrc } from '../data/photoCredits'
 
 
 const SLUGS = ['levi', 'yllas', 'saariselka', 'inari'] as const
@@ -76,13 +78,14 @@ export default function Locations({ placement }: { placement?: FeaturedPlacement
                 index % 2 === 1 ? 'lg:flex-row-reverse' : 'lg:flex-row'
               } rounded-2xl overflow-hidden bg-gray-50 hover:bg-pink/5 transition-colors duration-500 border border-gray-100`}
             >
-              <div className="lg:w-1/2 h-64 lg:h-auto overflow-hidden">
+              <div className="relative lg:w-1/2 h-64 lg:h-auto overflow-hidden">
                 <img
                   src={location.image}
                   alt={`${location.name}, Finnish Lapland`}
                   loading="lazy"
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                  decoding="async" width="800" height="600"/>
+                <PhotoMark id={photoIdFromSrc(location.image)} className="absolute bottom-2 right-2 z-10" />
               </div>
 
               <div className="lg:w-1/2 p-8 sm:p-10 lg:p-14 flex flex-col justify-center">

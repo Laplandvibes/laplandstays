@@ -777,6 +777,8 @@ export default function Saariselka() {
       slug="saariselka"
       name="Saariselkä"
       heroImage="/images/saariselka-hero.webp"
+      heroSrcSet="/images/saariselka-hero-800.webp 800w, /images/saariselka-hero-1200.webp 1200w, /images/saariselka-hero.webp 1920w"
+      heroPhotoId="saariselka-hero"
       ogImage="https://laplandstays.com/og-saariselka.jpg"
       seoKeywords={['saariselka accommodation', 'saariselkä glass igloo', 'kakslauttanen', 'star arctic hotel', 'muotka wilderness lodge', 'where to stay in saariselkä', 'ukk park accommodation', 'ivalo cabin']}
       body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}

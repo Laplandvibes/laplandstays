@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "Chi siamo",
     "h1": "La vera Lapponia, tariffe verificate",
-    "heroAlt": "Fjäll innevati della Lapponia al tramonto invernale, abeti sotto la spessa neve tykky in una luce rosa pastello",
+    "heroAlt": "Betulle cariche di neve contro un cielo dorato d'inverno a Saariselkä, in Lapponia finlandese, con abeti sotto",
     "intro": "LaplandStays è la directory di alloggi che il gestore desiderava esistesse quando gli amici chiedevano dove dormire.",
     "missionEyebrow": "Perché esiste",
     "missionH2": "Una guida onesta su dove dormire in Lapponia",

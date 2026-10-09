@@ -8,7 +8,7 @@ const copy: PageCopy = {
   "ui": {
     "eyebrow": "About",
     "h1": "Real Lapland, Verified Rates",
-    "heroAlt": "Snow-covered Lapland fells at winter sunset, spruce trees under thick tykky snow in pastel pink light",
+    "heroAlt": "Snow-laden birch trees against a golden winter sky in Saariselkä, Finnish Lapland, spruces below",
     "intro": "LaplandStays is the accommodation directory the operator wished existed when friends asked where to stay.",
     "missionEyebrow": "Why this exists",
     "missionH2": "One honest guide to where to sleep in Lapland",

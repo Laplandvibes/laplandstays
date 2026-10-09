@@ -23,7 +23,7 @@ const copy: ChromeCopy = {
     lead: 'Glazen iglo\'s onder het noorderlicht, noorderlichthutten in het dennenbos en Lapland-hotels met privé-sauna.',
     leadSummer: 'Hutten aan het meer onder de middernachtzon, lodges aan de rivier in de groene fjälls en Lapland-hotels met privé-sauna.',
     disclosure: 'Deze pagina bevat affiliate links. Als u via deze links boekt, kan LaplandStays een commissie ontvangen zonder extra kosten voor u.',
-    alt: 'Warm verlichte luxe hut in besneeuwd Fins Lapland onder het noorderlicht',
+    alt: "Een kleine blokhut op een besneeuwde fjäll in Fins Lapland in laag, goudkleurig winterlicht, sporen in de sneeuw",
     altSummer: 'Een huisje met grote ramen tussen hoge dennen aan een rotsachtige oever, met een terras en een hangmat ervoor, in de lage gouden zon',
   },
   editorial: {

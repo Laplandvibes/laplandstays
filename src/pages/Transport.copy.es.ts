@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Cómo llegar',
     h1: 'Cómo llegar a Laponia',
-    heroAlt: 'Avión turbohélice en la plataforma nevada de un pequeño aeropuerto de Laponia a la hora azul, con las luces de pista encendidas',
+    heroAlt: "El aeropuerto de Kittilä en invierno: la torre de control y la terminal tras una plataforma bordeada de nieve bajo un cielo pálido",
     lead: 'Cuatro aeropuertos, un tren nocturno desde Helsinki, cuatro precios reales de bus.',
     airportsEyebrow: 'Por aeropuerto',
     airportsH2: 'Elija el aeropuerto, no el país',

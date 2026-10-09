@@ -775,6 +775,8 @@ export default function Inari() {
       slug="inari"
       name="Inari"
       heroImage="/images/inari-hero.webp"
+      heroSrcSet="/images/inari-hero-800.webp 800w, /images/inari-hero-1200.webp 1200w, /images/inari-hero.webp 1920w, /images/inari-hero-2560.webp 2560w"
+      heroPhotoId="inari-hero"
       ogImage="https://laplandstays.com/og-inari.jpg"
       seoKeywords={['inari accommodation', 'inari cabin', 'lake inari villa', 'aurora village ivalo', 'nellim wilderness hotel', 'where to stay in inari', 'sami cabin lapland', 'inarijärvi accommodation']}
       body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}

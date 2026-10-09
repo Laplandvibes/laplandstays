@@ -917,6 +917,8 @@ export default function Rovaniemi() {
       slug="rovaniemi"
       name="Rovaniemi"
       heroImage="/images/extra-2.webp"
+      heroSrcSet="/images/extra-2-800.webp 800w, /images/extra-2-1200.webp 1200w, /images/extra-2.webp 1920w, /images/extra-2-2560.webp 2560w"
+      heroPhotoId="extra-2"
       ogImage="https://laplandstays.com/og-rovaniemi.jpg"
       seoKeywords={['Rovaniemi cabin', 'Santa Claus Village accommodation', 'Rovaniemi aurora villa', 'Arctic Circle cabin', 'Ounasvaara chalet', 'Rovaniemi holiday']}
       body={{ en, fi, de, ja, es, 'pt-BR': ptBR, 'zh-CN': zhCN, ko, fr, it, nl, sv }}

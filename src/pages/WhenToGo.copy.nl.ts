@@ -9,7 +9,7 @@ const copy: PageCopy = {
   ui: {
     eyebrow: 'Plannen',
     h1: 'Wanneer gaan',
-    heroAlt: 'Herfstkleuren van de ruska op de fjälls van Lapland, rode en gouden hellingen rond een donkerblauw meer',
+    heroAlt: "Herfstkleuren van de ruska op de fjälls rond het Kilpisjärvi-meer, met een rode hut aan de oever",
     lead: 'De echte Lapland-kalender: wanneer het noorderlicht komt, wanneer de pistes sneeuw houden en wanneer alles volgeboekt is.',
     seasonsEyebrow: 'Vier overlappende seizoenen',
     seasonsH2: 'Kies de reis waarvoor u kwam',

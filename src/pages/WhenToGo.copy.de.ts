@@ -10,7 +10,7 @@ const copy: PageCopy = {
     eyebrow: 'Planung',
     h1: 'Beste Reisezeit',
 
-    heroAlt: 'Herbstliche Ruska-Farben auf Lapplands Fjälls, rote und goldene Hänge um einen dunkelblauen See',
+    heroAlt: "Herbstliche Ruska-Farben auf den Fjälls rund um den Kilpisjärvi, eine rote Hütte am Ufer",
     lead: 'Der echte Lappland-Kalender: wann das Polarlicht kommt, wann die Pisten Schnee halten und wann alles ausgebucht ist.',
     seasonsEyebrow: 'Vier sich überlappende Saisons',
     seasonsH2: 'Wählen Sie die Reise, für die Sie kommen',

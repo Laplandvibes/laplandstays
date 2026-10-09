@@ -19,6 +19,7 @@ import { useCopy } from '../i18n/useCopy'
 import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './DestinationPage.copy.en'
 import type { Copy } from './DestinationPage.copy.types'
+import PhotoMark from './PhotoMark'
 
 export interface DestinationAnchor {
   name: string
@@ -123,6 +124,10 @@ export interface DestinationPageProps {
   slug: string
   name: string
   heroImage: string
+  /** Kokoversiot (-800/-1200/-2560) srcsetinä; puuttuessa vain heroImage. */
+  heroSrcSet?: string
+  /** Avain PHOTO_CREDITS-taulussa: näyttää "Kuvassa" + tekijä + lisenssi kuvan päällä. */
+  heroPhotoId?: string
   ogImage?: string
   seoKeywords: string[]
   /** Per-language body content. Locales beyond en/fi fall back to en when omitted. */
@@ -336,14 +341,17 @@ export default function DestinationPage(p: DestinationPageProps) {
       {/* HERO */}
       <section className="relative min-h-[56vh] md:min-h-[62vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={p.heroImage} alt={`${p.name}, ${ui.finnishLapland}`} className="w-full h-full object-cover object-[center_38%]" loading="eager" fetchPriority="high" decoding="async" width="1600" height="900"/>
+          <img src={p.heroImage} srcSet={p.heroSrcSet} sizes={p.heroSrcSet ? '100vw' : undefined} alt={`${p.name}, ${ui.finnishLapland}`} className="w-full h-full object-cover object-[center_38%]" loading="eager" fetchPriority="high" decoding="async" width="1920" height="1080"/>
+          {/* Tekstin (vasen, ylä) takana oma tummennus: kirkas valokuva (heroteksti-portti 9.10.2026) */}
+          <div aria-hidden="true" className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(ellipse 85% 90% at 18% 38%, rgba(15,23,42,0.84) 0%, rgba(15,23,42,0.64) 55%, rgba(15,23,42,0.10) 100%)' }} />
+          {p.heroPhotoId && <PhotoMark id={p.heroPhotoId} className="absolute bottom-3 right-3 z-10" />}
           <div
             className="absolute inset-0"
-            style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }}
+            style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.82) 0%, rgba(15,23,42,0.40) 50%, rgba(15,23,42,0.22) 100%)' }}
           />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-16 md:py-20 text-white">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 flex items-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
+          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 flex items-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
             <MapPin className="w-4 h-4" /> {ui.finnishLapland}
           </p>
           <h1 className={`font-heading tracking-wide mb-4 [text-shadow:0_3px_28px_rgba(0,0,0,0.85),0_1px_4px_rgba(0,0,0,0.6)] ${b.heroH1 ? 'text-4xl sm:text-6xl md:text-7xl' : 'text-5xl sm:text-7xl md:text-8xl'}`}>{b.heroH1 ?? p.name}</h1>

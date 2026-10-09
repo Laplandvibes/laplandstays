@@ -10,7 +10,7 @@ const copy: PageCopy = {
     adNotice: 'Innehåller reklamlänkar · Lomarengas-samarbete',
     eyebrow: 'Stugsemester',
     h1: 'Stugsemestern i Lappland',
-    heroAlt: 'Timmerstuga i snöigt Lappland i blå timmen, varmt ljus i fönstren och svagt norrsken på himlen',
+    heroAlt: "En timmerstuga i vildmarken i djup snö under blå himmel i Käsivarsi vildmark, finska Lappland",
     lead: 'Egna timmerväggar, egen bastu och ingen ovanför, under eller bakom väggen.',
 
     whyEyebrow: 'Varför stuga',
