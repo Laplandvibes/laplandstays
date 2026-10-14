@@ -1,0 +1,52 @@
+{
+  "title": "Lapissa rakennetaan majoitusta ennätystahtia ennen talvea",
+  "seoTitle": "Lapissa rakennetaan majoitusta ennätystahtia",
+  "description": "Kittilässä on tänä vuonna myönnetty 233 rakennuslupaa, ja yli puolet koskee matkailumajoitusta. Mitä rakennetaan ja mitkä uudet majoitukset avautuvat talveksi.",
+  "dek": "Matkailuun liittyviä rakennuslupia on myönnetty ennätysmäärä myös Rovaniemellä, ja osa lomakylistä valmistuu luvasta ensimmäisiin asiakkaisiin muutamassa kuukaudessa.",
+  "heroAlt": "Luminen kylänraitti Äkäslompolossa Ylläksellä talvella: punaisia lomarakennuksia, kuusia ja pysäköity auto harmaan taivaan alla.",
+  "heroCaption": "Äkäslompolo Ylläksellä tammikuussa.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Kittilässä, jonka alueella ovat Levi ja Ylläsjärvi, on tänä vuonna myönnetty 233 rakennuslupaa, kun viime vuonna niitä myönnettiin alle 200. Kittilän rakennustarkastajan Laura Fagerholmin mukaan yli puolet luvista koskee matkailua palvelevaa majoitusrakentamista."
+    },
+    {
+      "t": "p",
+      "text": "Yksi lupa voi koskea useaa rakennusta. Rovaniemellä useassa hankkeessa yhdellä luvalla rakennetaan kokonainen ryhmä pieniä mökkejä tai lasi-igluja."
+    },
+    {
+      "t": "h2",
+      "text": "Tehtaalla tehty, auki muutamassa kuukaudessa"
+    },
+    {
+      "t": "p",
+      "text": "Oululainen perheyritys Halo Igloos rakensi Rovaniemen Vikaköngäkselle kokonaisen lomakylän muutamassa kuukaudessa. Yhtiön operatiivisen johtajan Jari Virtasen mukaan yksiköt tulevat valmiina yhtiön omalta tehtaalta Rantsilasta, ja yhä suurempi osa tällaisista yksiköistä tehdään nykyään Suomessa."
+    },
+    {
+      "t": "p",
+      "text": "Rakennusteollisuuden Pohjois-Suomen aluejohtajan Juha Mäntysen mukaan matkailuhankkeet ovat tuoneet Lappiin rakentajia aina Etelä-Suomesta asti. Talvisesonki alkaa nykyään jo loka- tai marraskuussa, mikä pitää aikataulut tiukkoina."
+    },
+    {
+      "t": "h2",
+      "text": "Miksi rakennetaan"
+    },
+    {
+      "t": "p",
+      "text": "Lapin hotellit täyttyvät sesonkina. Tilastokeskuksen mukaan Lapin hotellihuoneista oli käytössä 79 prosenttia joulukuussa 2025, ja huoneen keskihinta oli Lapissa vuonna 2025 maakunnista korkein, 207 euroa. Lappi on myös ainoa maakunta, jossa ulkomaiset matkailijat yöpyvät enemmän kuin kotimaiset."
+    },
+    {
+      "t": "h2",
+      "text": "Uudet majoitukset tälle talvelle"
+    },
+    {
+      "t": "p",
+      "text": "Talveksi 2026–27 on kerrottu avautuvan muun muassa Rovaniemen Santa’s Hotel Noelle, jossa on 101 huonetta 7 kerroksessa, lasi-iglukohteet Halo Riverside Vikaköngäksellä ja Aava Glass Igloos Ollerovaaralla, Arcora Boutique Hotel & Villas Muoniossa sekä North Resort Miekojärvellä. Kysy avautumispäivä majoituksesta ennen varausta, sillä ensimmäiset päivät voivat vielä siirtyä."
+    },
+    {
+      "t": "link",
+      "text": "Lasi-iglut, mökit, hotellit ja muut Lapin majoitustyypit ja niiden erot löydät majoitustyyppisivultamme.",
+      "label": "Majoitustyypit Lapissa",
+      "href": "/property-types"
+    }
+  ]
+}
