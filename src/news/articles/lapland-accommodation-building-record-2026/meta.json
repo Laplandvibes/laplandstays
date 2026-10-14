@@ -1,0 +1,44 @@
+{
+  "slug": "lapland-accommodation-building-record-2026",
+  "date": "2026-10-14",
+  "hero": {
+    "src": "PENDING",
+    "srcSmall": "PENDING",
+    "width": 1600,
+    "height": 900,
+    "credit": {}
+  },
+  "ogCard": {
+    "line": "Lapland builds new stays at record pace"
+  },
+  "sources": [
+    {
+      "publisher": "Yle",
+      "title": "Lapissa rikotaan rakentamisen ennätyksiä jo ennen talvikautta",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20250700",
+      "read": "2026-10-14"
+    },
+    {
+      "publisher": "Tilastokeskus",
+      "title": "Majoitustilasto 2025",
+      "lang": "fi",
+      "url": "https://stat.fi/fi/julkaisu/cmfzbk1ke372u07uq6vpyb546",
+      "read": "2026-10-14"
+    },
+    {
+      "publisher": "STT Info",
+      "title": "Rovaniemen hotellihanke etenee – Santa’s Hotel Noelle avataan talvikaudella 2026–2027",
+      "lang": "fi",
+      "url": "https://www.sttinfo.fi/tiedote/71803904/rovaniemen-hotellihanke-etenee-santas-hotel-noelle-avataan-talvikaudella-2026-2027",
+      "read": "2026-10-14"
+    },
+    {
+      "publisher": "Euronews",
+      "title": "Glass igloos, sky villas and boutique suites: New places to stay in Finnish Lapland this winter",
+      "lang": "en",
+      "url": "https://www.euronews.com/2026/10/13/glass-igloos-sky-villas-and-boutique-suites-new-places-to-stay-in-finnish-lapland-this-win",
+      "date": "2026-10-13"
+    }
+  ]
+}
