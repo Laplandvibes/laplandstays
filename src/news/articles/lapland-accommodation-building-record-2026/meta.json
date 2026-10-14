@@ -2,14 +2,21 @@
   "slug": "lapland-accommodation-building-record-2026",
   "date": "2026-10-14",
   "hero": {
-    "src": "PENDING",
-    "srcSmall": "PENDING",
-    "width": 1600,
-    "height": 900,
-    "credit": {}
-  },
-  "ogCard": {
-    "line": "Lapland builds new stays at record pace"
+    "src": "/images/yllas-hero.webp",
+    "srcSmall": "/images/yllas-hero-800.webp",
+    "width": 1920,
+    "height": 921,
+    "position": "50% 60%",
+    "credit": {
+      "author": "Rofraja",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Winter_in_%C3%84k%C3%A4slompolo,_Lapland_(direction_east).png",
+      "assetId": "File:Winter in Äkäslompolo, Lapland (direction east).png",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2024-01-26",
+      "retrieved": "2026-10-09"
+    }
   },
   "sources": [
     {

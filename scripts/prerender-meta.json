@@ -245,6 +245,56 @@
       "description": "Dussintals hotell i Lappland använder kameror som känner igen norrsken och skickar en varning med bild till gästens telefon. Vad det betyder när du bokar rum."
     }
   },
+  "/news/lapland-accommodation-building-record-2026": {
+    "en": {
+      "title": "Record building of new accommodation in Lapland",
+      "description": "Kittilä has granted 233 building permits this year, more than half for tourist accommodation. What is being built, and the new places to stay this winter."
+    },
+    "fi": {
+      "title": "Lapissa rakennetaan majoitusta ennätystahtia",
+      "description": "Kittilässä on tänä vuonna myönnetty 233 rakennuslupaa, ja yli puolet koskee matkailumajoitusta. Mitä rakennetaan ja mitkä uudet majoitukset avautuvat talveksi."
+    },
+    "de": {
+      "title": "Rekordtempo beim Bau neuer Unterkünfte in Lappland",
+      "description": "Kittilä hat dieses Jahr 233 Baugenehmigungen erteilt, mehr als die Hälfte für touristische Unterkünfte. Was entsteht und was diesen Winter neu öffnet."
+    },
+    "ja": {
+      "title": "ラップランドで宿泊施設の建設が過去最多ペースに",
+      "description": "キッティラでは今年233件の建築許可が出され、半数以上が観光客向けの宿泊施設です。何が建てられているのか、この冬に開業する新しい宿もまとめました。"
+    },
+    "es": {
+      "title": "Récord de construcción de alojamiento en Laponia",
+      "description": "Kittilä ha concedido este año 233 licencias de obra, más de la mitad para alojamiento turístico. Qué se construye y qué alojamientos abren este invierno."
+    },
+    "pt-BR": {
+      "title": "Lapônia: construção recorde de novas hospedagens",
+      "description": "Kittilä concedeu 233 alvarás de obra neste ano, mais da metade para hospedagem turística. O que está sendo construído e as novas hospedagens deste inverno."
+    },
+    "zh-CN": {
+      "title": "拉普蘭新住宿興建量創新高",
+      "description": "芬蘭拉普蘭的基蒂萊市今年已核發233件建築執照，其中超過半數用於服務觀光客的住宿設施。究竟哪些住宿正在興建？今年冬天又有哪些新飯店與玻璃屋即將開幕？"
+    },
+    "ko": {
+      "title": "라플란드 신규 숙박 시설 건설, 기록적 속도",
+      "description": "키틸래에서는 올해 건축 허가 233건이 나왔고, 그 절반 이상이 관광객용 숙박 시설입니다. 무엇이 지어지는지와 이번 겨울 문을 여는 새 숙소를 정리했습니다."
+    },
+    "fr": {
+      "title": "Construction record de nouveaux hébergements en Laponie",
+      "description": "Kittilä a délivré 233 permis de construire cette année, plus de la moitié pour l’hébergement touristique. Ce qui se construit et les nouveautés de cet hiver."
+    },
+    "it": {
+      "title": "Costruzione record di nuovi alloggi in Lapponia",
+      "description": "Kittilä ha rilasciato 233 permessi di costruire quest’anno, oltre la metà per alloggi turistici. Che cosa si costruisce e le nuove strutture di quest’inverno."
+    },
+    "nl": {
+      "title": "Lapland bouwt nieuwe accommodatie in recordtempo",
+      "description": "Kittilä verleende dit jaar 233 bouwvergunningen, meer dan de helft voor toeristische accommodatie. Wat er gebouwd wordt en wat er deze winter nieuw opengaat."
+    },
+    "sv": {
+      "title": "Rekordbygge av nya boenden i Lappland",
+      "description": "Kittilä har beviljat 233 bygglov i år, och mer än hälften gäller turistboende. Vad som byggs och vilka nya ställen du kan bo på i vinter."
+    }
+  },
   "/news/revontuli-rovaniemi-rooftop-hotel-plan": {
     "en": {
       "title": "Rovaniemi: hotel planned on top of Revontuli shopping centre",
