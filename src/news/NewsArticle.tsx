@@ -60,21 +60,26 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
       {/* Sama hero kuin laplandflightsissa 23.9.2026 alkaen (Vesa: "uutiset-osion hero-osio on
           ihan kamala"): kuva koko leveydelle, otsikko + ingressi kuvan päällä alareunan
           liukuvärin varassa, kirjoittaja- ja kuvatiedot kuvan alla. Kuvatiedostoa ei rajata —
-          16:9-kehys on näyttörajaus ja object-position pitää kohteen kuvassa. */}
+          16:9-kehys on näyttörajaus ja object-position pitää kohteen kuvassa.
+          14.10.2026: kuva ja liukuväri omassa kääreessään (.nw-art-media), jotta verkoston heromalli
+          toimii: alle 1024 px kuva omana kaistanaan ilman tummennusta ja teksti sen alla, 1024 px:stä
+          teksti kuvan päällä (news.css). */}
       <header className="nw-art">
-        <img
-          className="nw-art-img"
-          src={meta.hero.src}
-          srcSet={`${meta.hero.srcSmall} 800w, ${meta.hero.src} 1600w`}
-          sizes="100vw"
-          width={meta.hero.width}
-          height={meta.hero.height}
-          alt={text.heroAlt}
-          fetchPriority="high"
-          decoding="async"
-          style={meta.hero.position ? { objectPosition: meta.hero.position } : undefined}
-        />
-        <div className="nw-art-scrim" aria-hidden="true" />
+        <div className="nw-art-media" data-lv-tp-tausta="hero">
+          <img
+            className="nw-art-img"
+            src={meta.hero.src}
+            srcSet={`${meta.hero.srcSmall} 800w, ${meta.hero.src} 1600w`}
+            sizes="100vw"
+            width={meta.hero.width}
+            height={meta.hero.height}
+            alt={text.heroAlt}
+            fetchPriority="high"
+            decoding="async"
+            style={meta.hero.position ? { objectPosition: meta.hero.position } : undefined}
+          />
+          <div className="nw-art-scrim" aria-hidden="true" />
+        </div>
         <div className="wrap nw-narrow nw-art-body">
           <nav className="crumbs" aria-label="Breadcrumb">
             <span><Link to={to('/')}>{ui.ui.home}</Link></span>
