@@ -8,7 +8,8 @@
     "lead": "Mikä muuttuu Lapin majoituksessa. Jutut kirjoitetaan alkuperäisistä lähteistä, ja jokainen juttu nimeää ja linkittää sen mihin se perustuu.",
     "aboutTitle": "Näin teemme uutiset",
     "aboutText": "Avaamme jokaisen lähteen ennen kirjoittamista ja kerromme vain sen, mitä lähde sanoo. Jos luku puuttuu lähteestä, sanomme sen emmekä täytä aukkoa.",
-    "allRoutes": "Vertaa majoitustyyppejä"
+    "allRoutes": "Vertaa majoitustyyppejä",
+    "heroAlt": "Vihreät revontulet männikön yllä yöllä"
   },
   "ui": {
     "home": "Etusivu",

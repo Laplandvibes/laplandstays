@@ -16,10 +16,10 @@ import type { NewsMeta } from './types';
  *                kumpi täyttää rivit (jäännös 0 kolmella ⇒ 3, muuten 2)
  */
 export function layoutFor(n: number): { featured: boolean; cols: 2 | 3 } {
+  // 14.10.2026: aina kaksi palstaa. Kolmen palstan 299 px:n kortissa otsikko kiersi 3–4 riville
+  // (audit_otsikkorivit). Uusin leveänä vain kun loput täyttävät rivit pareittain (pariton määrä).
   if (n <= 1) return { featured: true, cols: 2 };
-  if (n === 2) return { featured: false, cols: 2 };
-  const rest = n - 1;
-  return { featured: true, cols: rest % 3 === 0 ? 3 : 2 };
+  return { featured: n % 2 === 1, cols: 2 };
 }
 
 export default function NewsIndex() {
@@ -60,8 +60,36 @@ export default function NewsIndex() {
   return (
     <NewsChrome current={SITE.path}>
       {head}
-      <header className="nw-head">
-        <div className="wrap">
+      {/* 14.10.2026: valokuvahero (naturen uutissivun tekstipalkki oli Vesalle 26.9. "aivan kamala"). Sama
+          malli kuin jutun herossa: alle 1024 px kuva omana kaistanaan ilman tummennusta ja teksti alla,
+          1024 px:stä teksti kuvan päällä alareunan liukuvärin varassa (news.css). Kuva: photoCredits.ts
+          'hero-alt' (Pexels 14118545, Markku Soini; Pexels-lisenssi, ei nimeämisvelvoitetta). */}
+      <header className="nw-head nw-head-photo">
+        <div className="nw-head-media" data-lv-tp-tausta="hero">
+          <picture>
+            <source
+              type="image/avif"
+              sizes="100vw"
+              srcSet="/images/hero-alt-800.avif 800w, /images/hero-alt-1200.avif 1200w, /images/hero-alt-2560.avif 2560w"
+            />
+            <source
+              type="image/webp"
+              sizes="100vw"
+              srcSet="/images/hero-alt-800.webp 800w, /images/hero-alt-1200.webp 1200w, /images/hero-alt-2560.webp 2560w"
+            />
+            <img
+              className="nw-head-img"
+              src="/images/hero-alt-1200.webp"
+              width={1200}
+              height={901}
+              alt={ui.index.heroAlt}
+              fetchPriority="high"
+              decoding="async"
+            />
+          </picture>
+          <div className="nw-head-scrim" aria-hidden="true" />
+        </div>
+        <div className="wrap nw-head-body">
           <nav className="crumbs" aria-label="Breadcrumb">
             <span><Link to={to('/')}>{ui.ui.home}</Link></span>
             <span><span className="sep" aria-hidden="true">›</span><span aria-current="page">{ui.section}</span></span>
