@@ -60,6 +60,28 @@
 .nw .nw-h1:lang(ko){word-break:keep-all}
 .nw .nw-h1:lang(ja){word-break:auto-phrase}
 
+/* Osion etusivun valokuvahero 14.10.2026 (feedback_hero_kuva_puhtaana_otsikko_alle): alle 1024 px kuva omana
+   kaistanaan navin alla ilman tummennusta ja teksti alla; 1024 px:stä teksti kuvan päällä, liukuväri vain tekstin
+   puolelle (alareuna) ja kuva sen yläpuolella ilman tummennusta. */
+.nw .nw-head.nw-head-photo{background:#0F172A;padding:64px 0 0}
+.nw .nw-head-media{position:relative;height:42svh;min-height:240px;overflow:hidden;background:#0B1220}
+.nw .nw-head-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 40%}
+.nw .nw-head-scrim{display:none}
+.nw .nw-head-photo .nw-head-body{padding-top:24px;padding-bottom:44px}
+/* Yläotsake omalle tummalle pohjalle kuten jutun herossa (5.10.2026): kuvan päällä kontrasti ei saa riippua kuvasta
+   (revontulikuva: ilman pohjaa 3,1:1, raja 4,5:1). Teksti alempana: liukuväri tummuu tekstilohkon yläreunaan asti. */
+.nw .nw-head-photo .eyebrow{display:inline-block;padding:5px 11px;border-radius:999px;background:rgba(15,23,42,.86);line-height:1.35}
+@media(min-width:640px){.nw .nw-head-media{height:380px}}
+@media(min-width:768px){.nw .nw-head-media{height:440px}}
+@media(min-width:1024px){
+  .nw .nw-head.nw-head-photo{display:flex;align-items:flex-end;min-height:min(70vh,640px);padding:120px 0 56px}
+  .nw .nw-head-media{position:absolute;inset:0;height:auto;min-height:0}
+  .nw .nw-head-scrim{display:block;position:absolute;inset:0;
+    background:linear-gradient(to top,rgba(10,15,28,.94) 0%,rgba(10,15,28,.86) 40%,rgba(10,15,28,.74) 60%,rgba(10,15,28,.3) 78%,rgba(10,15,28,0) 92%)}
+  .nw .nw-head-photo .nw-head-body{padding-top:0;padding-bottom:0;width:100%}
+  .nw .nw-head-photo .nw-h1{text-shadow:0 2px 24px rgba(0,0,0,.4)}
+}
+
 /* ── Juttusivun hero: kuva koko leveydelle ─────────────────────────────────
    14.10.2026 verkoston heromalli (feedback_hero_kuva_puhtaana_otsikko_alle): alle 1024 px kuva omana
    kaistanaan navin alla (verkoston kaistamitat) ilman tummennusta ja teksti alla; 1024 px:stä teksti kuvan päällä. */
@@ -147,9 +169,16 @@
 .nw .nw-card-dek{color:var(--ink2);font-size:16px;line-height:1.55;margin:10px 0 0;flex:1}
 .nw .nw-card-more{align-self:flex-start;margin-top:16px;color:var(--link);font-weight:700;font-size:15px;text-decoration:none;border-bottom:2px solid rgba(190,24,93,.3);padding-bottom:1px}
 .nw .nw-card-wide{flex-direction:row}
-.nw .nw-card-wide .nw-card-img{flex:0 0 56%;aspect-ratio:auto;min-height:330px}
+.nw .nw-card-wide .nw-card-img{flex:0 0 46%;aspect-ratio:auto;min-height:330px}
 .nw .nw-card-wide .nw-card-body{padding:34px 36px;justify-content:center}
-.nw .nw-card-wide .nw-card-title{font-size:clamp(32px,3.2vw,44px)}
+/* 14.10.2026 (audit_otsikkorivit): leveän kortin 41–44 px:n otsikko kiersi 44 %:n palstassa kolmelle riville
+   kaikilla kielillä, ja ruudukon 32–34 px:n otsikot osin myös. Kuva 46 %, leveän otsikko enintään 34 px ja ruudukon
+   enintään 30 px ⇒ kaksi riviä 1024–1920 px:llä 12 kielellä (mitattu ennen muutosta injektoidulla CSS:llä). */
+.nw .nw-card-wide .nw-card-title{font-size:clamp(28px,2.5vw,34px)}
+@media(min-width:861px){
+  .nw .nw-grid .nw-card-title{font-size:clamp(26px,2.2vw,30px)}
+  .nw .nw-grid .nw-card-title:lang(ja),.nw .nw-grid .nw-card-title:lang(zh),.nw .nw-grid .nw-card-title:lang(ko){font-size:22px}
+}
 .nw .nw-card-wide .nw-card-dek{flex:0}
 @media(max-width:860px){
   .nw .nw-card-wide{flex-direction:column}

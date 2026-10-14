@@ -256,7 +256,7 @@ for (const lang of LANGS) {
   const u = ui[lang];
   tekstiportti(`i18n/${lang}`, lang, u, { meta: false });
   for (const k of ['section', 'nav']) if (!u[k]) err(`i18n/${lang}`, `kenttä ${k} puuttuu`);
-  for (const k of ['seoTitle', 'description', 'h1', 'lead', 'aboutTitle', 'aboutText', 'allRoutes']) if (!u.index?.[k]) err(`i18n/${lang}`, `index.${k} puuttuu`);
+  for (const k of ['seoTitle', 'description', 'h1', 'lead', 'aboutTitle', 'aboutText', 'allRoutes', 'heroAlt']) if (!u.index?.[k]) err(`i18n/${lang}`, `index.${k} puuttuu`);
   for (const k of ['home', 'readMore', 'published', 'updated', 'byline', 'sources', 'source', 'read', 'photo', 'latest', 'allNews', 'moreNews']) if (!u.ui?.[k]) err(`i18n/${lang}`, `ui.${k} puuttuu`);
   if (u.index) {
     if (len(u.index.seoTitle) > 60) err(`i18n/${lang}`, `index.seoTitle ${len(u.index.seoTitle)} > 60`);

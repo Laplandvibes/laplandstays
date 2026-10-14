@@ -116,6 +116,8 @@ export interface NewsUi {
     aboutTitle: string;
     aboutText: string;
     allRoutes: string;
+    /** Osion etusivun valokuvaheron alt (14.10.2026), pakollinen news-prerender.mjs:ssä. */
+    heroAlt: string;
   };
   ui: {
     home: string;
