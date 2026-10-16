@@ -140,7 +140,7 @@
 /* ── Lähteet ─────────────────────────────────────────────────────────────── */
 .nw .nw-sources{margin-top:34px;padding-top:22px;border-top:1px solid var(--line)}
 .nw .nw-sources-h{font:700 12.5px var(--font-body),'DM Sans',system-ui,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin:0}
-.nw .nw-sources ol{margin:12px 0 0;padding-left:20px;display:grid;gap:12px;font-size:15px;line-height:1.5;color:var(--ink2)}
+.nw .nw-sources ol{margin:12px 0 0;padding-left:20px;display:grid;gap:12px;font-size:16px;line-height:1.5;color:var(--ink2)}
 .nw .nw-src-pub{font-weight:700;color:var(--ink)}
 .nw .nw-src-date{color:var(--muted)}
 .nw .nw-sources a{color:var(--link);text-decoration:underline;text-underline-offset:2px;overflow-wrap:anywhere}
