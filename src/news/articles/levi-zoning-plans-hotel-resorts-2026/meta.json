@@ -1,0 +1,96 @@
+{
+  "slug": "levi-zoning-plans-hotel-resorts-2026",
+  "date": "2026-10-16",
+  "hero": {
+    "src": "/images/news/levi-slopes-oct-1600.webp",
+    "srcSmall": "/images/news/levi-slopes-oct-800.webp",
+    "width": 1600,
+    "height": 895,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandstays.com/about",
+      "sourceUrl": "https://laplandstays.com/about",
+      "assetId": "20261014_205434",
+      "sourceName": "Levi 2026-10-14",
+      "taken": "2026-10-14",
+      "retrieved": "2026-10-16"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Kittilän kunta",
+      "title": "Vireillä olevat kaavat",
+      "lang": "fi",
+      "url": "https://kittila.fi/asuminen-ja-ymparisto/kaavoitus/vireilla-olevat-kaavat",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Kittilän kunta",
+      "title": "Kuulutus: Levin kortteleiden 207 ja 208 asemakaavamuutoksen ehdotus nähtäville",
+      "lang": "fi",
+      "url": "https://kittila.fi/sites/default/files/2026-09/Kuulutus%20Levi%20K207-208%20ehdotus%202026.pdf",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Kittilän kunta",
+      "title": "Levin kortteleiden 207 ja 208 asemakaavamuutos, kaavaselostus, ehdotusvaihe",
+      "lang": "fi",
+      "url": "https://kittila.fi/sites/default/files/2026-09/Kaavaselostus%2C%20ehdotusvaihe.pdf",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Kittilän kunnanhallitus",
+      "title": "Kaavoitushakemus Levi K1246-1248, Metsähallitus",
+      "lang": "fi",
+      "url": "https://dynasty10.kittila.fi/kokous/20261529-15.HTM",
+      "date": "2026-09-21"
+    },
+    {
+      "publisher": "Kittilän kunta",
+      "title": "Harrisaajon ranta-asemakaavan muutos, kaavaselostus, luonnos",
+      "lang": "fi",
+      "url": "https://kittila.fi/sites/default/files/2026-05/Harrisaajo_selostus_LUONNOS_18022026.pdf",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Kittilän tekninen lautakunta",
+      "title": "Riikonmuotkan ranta-asemakaava",
+      "lang": "fi",
+      "url": "https://dynasty10.kittila.fi/kokous/20261499-11.HTM",
+      "date": "2026-05-27"
+    },
+    {
+      "publisher": "Kittilän kunta",
+      "title": "Levin Kaakkoisrinne ja Taalo, osallistumis- ja arviointisuunnitelma",
+      "lang": "fi",
+      "url": "https://kittila.fi/sites/default/files/2026-09/OAS_0.pdf",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Kittilän kunta",
+      "title": "Rajalammentien ranta-asemakaava, kaavaselostus, luonnos",
+      "lang": "fi",
+      "url": "https://kittila.fi/sites/default/files/2025-06/Rajalammentie_RAK_selostus_LUONNOS_13042025.pdf",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Kittilän kunta",
+      "title": "Levin Etelärinteen asemakaavamuutos ja -laajennus, osallistumis- ja arviointisuunnitelma",
+      "lang": "fi",
+      "url": "https://kittila.fi/sites/default/files/2026-03/OAS_Etel%C3%A4rinteen%20asemakaavamuutos%20ja%20-laajennus_20260310.pdf",
+      "read": "2026-10-16"
+    },
+    {
+      "publisher": "Lapin Kansa",
+      "title": "Leville suunnitellaan uutta hotellia, resortteja ja mökkikyliä – kävimme läpi Kittilän matkailukaavat, joista suurimmat ovat kymmenien hehtaarien kokoisia",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/leville-suunnitellaan-uutta-hotellia-resortteja-ja/13689874",
+      "date": "2026-10-13"
+    }
+  ],
+  "ogCard": {
+    "line": "What Levi’s new plans include"
+  }
+}

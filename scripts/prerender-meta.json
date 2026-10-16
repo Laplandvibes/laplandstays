@@ -295,6 +295,56 @@
       "description": "Kittilä har beviljat 233 bygglov i år, och mer än hälften gäller turistboende. Vad som byggs och vilka nya ställen du kan bo på i vinter."
     }
   },
+  "/news/levi-zoning-plans-hotel-resorts-2026": {
+    "en": {
+      "title": "New hotel and resorts planned in Levi, Lapland",
+      "description": "Comments on the plan for a hotel by Lake Immeljärvi in Levi can be submitted until 29 October. Resorts are planned on Seidantie and in Raattama."
+    },
+    "fi": {
+      "title": "Levin uusi hotelli ja resortit: vireillä olevat kaavat",
+      "description": "Immeljärven rantaan suunnitellun hotellin kaavaehdotukseen voi jättää muistutuksen 29. lokakuuta asti. Resortteja suunnitellaan Seidantielle ja Raattamaan."
+    },
+    "de": {
+      "title": "Levi in Lappland: neues Hotel und Resorts geplant",
+      "description": "Zum Plan für ein Hotel am See Immeljärvi in Levi sind Stellungnahmen bis 29. Oktober möglich. Resorts sind an der Seidantie und in Raattama geplant."
+    },
+    "ja": {
+      "title": "レヴィ（ラップランド）に新ホテルとリゾートの計画",
+      "description": "レヴィのイメル湖畔に建つ予定のホテルについて、計画案への意見書を10月29日まで提出できます。セイダンティエ通りとラーッタマにはリゾートが計画されています。"
+    },
+    "es": {
+      "title": "Levi, Laponia: planean un nuevo hotel y resorts",
+      "description": "Hasta el 29 de octubre se pueden presentar alegaciones al plan de un hotel junto al lago Immeljärvi, en Levi. Hay resorts previstos en Seidantie y en Raattama."
+    },
+    "pt-BR": {
+      "title": "Levi, na Lapônia: novo hotel e resorts planejados",
+      "description": "O plano de um hotel à beira do lago Immeljärvi, em Levi, recebe manifestações até 29 de outubro. Há resorts previstos na rua Seidantie e em Raattama."
+    },
+    "zh-CN": {
+      "title": "萊維擬建新飯店與度假村（芬蘭拉普蘭）",
+      "description": "基蒂萊市目前有多項與旅遊相關的規劃正在進行中。萊維伊梅爾湖畔擬建一座飯店，民眾可在10月29日前對其規劃方案提交書面意見。塞丹路和拉塔馬則另有度假村規劃。"
+    },
+    "ko": {
+      "title": "레비에 새 호텔과 리조트 계획, 핀란드 라플란드",
+      "description": "레비 임멜야르비 호숫가에 계획된 호텔의 계획안에는 10월 29일까지 의견서를 낼 수 있습니다. 세이단티에 도로와 라타마에는 리조트가 계획되어 있습니다."
+    },
+    "fr": {
+      "title": "Levi, en Laponie : nouvel hôtel et resorts en projet",
+      "description": "Le plan d’un hôtel au bord du lac Immeljärvi, à Levi, est ouvert aux observations jusqu’au 29 octobre. Des resorts sont prévus sur Seidantie et à Raattama."
+    },
+    "it": {
+      "title": "Levi, in Lapponia: previsti un nuovo hotel e resort",
+      "description": "Sul piano per un hotel sul lago Immeljärvi, a Levi, si possono presentare osservazioni fino al 29 ottobre. Sono previsti resort su Seidantie e a Raattama."
+    },
+    "nl": {
+      "title": "Levi, Lapland: nieuw hotel en resorts gepland",
+      "description": "Op het plan voor een hotel aan het meer Immeljärvi in Levi kan tot 29 oktober worden gereageerd. Aan de Seidantie en in Raattama zijn resorts gepland."
+    },
+    "sv": {
+      "title": "Levi: nytt hotell och resorter planeras i Lappland",
+      "description": "Anmärkningar mot planen för ett hotell vid sjön Immeljärvi i Levi kan lämnas till den 29 oktober. Resorter planeras vid Seidantie och i Raattama."
+    }
+  },
   "/news/revontuli-rovaniemi-rooftop-hotel-plan": {
     "en": {
       "title": "Rovaniemi: hotel planned on top of Revontuli shopping centre",
