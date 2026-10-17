@@ -10,9 +10,10 @@ import type { CabinAreaPageCopy, CabinAreaSlug } from './CabinArea.copy.types'
 import fiCopy from './CabinArea.copy.fi'
 import enCopy from './CabinArea.copy.en'
 import deCopy from './CabinArea.copy.de'
+import REFS from '../data/cabins/refs.json'
 
 /**
- * /cabins/<area> — one page per resort listing the real Lomarengas rental cabins.
+ * /cabins/<area> — one page per resort or municipality listing the real Lomarengas rental cabins.
  *
  * WHY (Vesa 16.9.2026: "tarvitset sitä että sisältö vastaa hakuja"). OpenSEO measured
  * levi majoitus 8 100 searches/month, ruka mökit 3 600, ylläs majoitus 3 600, saariselkä
@@ -31,19 +32,26 @@ import deCopy from './CabinArea.copy.de'
  * cabins it covers; every other card says "price and free weeks on Lomarengas".
  */
 
-const AREAS: CabinAreaSlug[] = ['levi', 'yllas', 'ruka', 'saariselka', 'pyha-luosto', 'rovaniemi']
+const AREAS: CabinAreaSlug[] = [
+  'levi', 'yllas', 'ruka', 'saariselka', 'pyha-luosto', 'rovaniemi',
+  'inari', 'enontekio', 'utsjoki', 'muonio', 'kittila', 'sodankyla', 'salla', 'kemijarvi', 'posio', 'pello',
+]
 
 const COPY: Partial<Record<string, CabinAreaPageCopy>> = { fi: fiCopy, en: enCopy, de: deCopy }
 
-/** Lomarengas area search for the "browse all" button. Pyhä-Luosto and Rovaniemi have no
- *  resort search of their own on lomarengas.fi, so they get the Lapland-wide search. */
+/** Lomarengas search for the "browse all" button: the resort search where Lomarengas has one,
+ *  else the municipality search (verified by page title 17.10.2026). Pyhä-Luosto spans two resorts,
+ *  so it keeps the Lapland-wide search. */
 const PARTNER_AREA: Record<CabinAreaSlug, LomarengasArea> = {
-  levi: 'levi', yllas: 'yllas', ruka: 'ruka', saariselka: 'saariselka', 'pyha-luosto': 'lapland', rovaniemi: 'lapland',
+  levi: 'levi', yllas: 'yllas', ruka: 'ruka', saariselka: 'saariselka', 'pyha-luosto': 'lapland', rovaniemi: 'rovaniemi',
+  enontekio: 'enontekio', inari: 'inari', utsjoki: 'utsjoki', salla: 'salla', kemijarvi: 'kemijarvi', posio: 'posio',
+  kittila: 'kittila', pello: 'pello', sodankyla: 'sodankyla', muonio: 'muonio',
 }
 
 /** Destination guide on this site, when one exists. */
 const DESTINATION: Partial<Record<CabinAreaSlug, string>> = {
   levi: '/destinations/levi', yllas: '/destinations/yllas', saariselka: '/destinations/saariselka', rovaniemi: '/destinations/rovaniemi',
+  inari: '/destinations/inari',
 }
 
 interface Cabin {
@@ -57,8 +65,9 @@ interface Cabin {
   br: number
   stars: number
   img: string
-  /** Ruka only: straight-line km to Ruka village and the section it belongs to. */
+  /** Straight-line km to the nearest village or resort of the area (`ref`, a key of refs.json). */
   km?: number
+  ref?: string
   /** 'near' | 'far' (JSON imports type it as string) */
   section?: string
 }
@@ -74,6 +83,23 @@ const LOADERS: Record<CabinAreaSlug, () => Promise<{ default: AreaData }>> = {
   saariselka: () => import('../data/cabins/saariselka.json'),
   'pyha-luosto': () => import('../data/cabins/pyha-luosto.json'),
   rovaniemi: () => import('../data/cabins/rovaniemi.json'),
+  enontekio: () => import('../data/cabins/enontekio.json'),
+  inari: () => import('../data/cabins/inari.json'),
+  utsjoki: () => import('../data/cabins/utsjoki.json'),
+  salla: () => import('../data/cabins/salla.json'),
+  kemijarvi: () => import('../data/cabins/kemijarvi.json'),
+  posio: () => import('../data/cabins/posio.json'),
+  kittila: () => import('../data/cabins/kittila.json'),
+  pello: () => import('../data/cabins/pello.json'),
+  sodankyla: () => import('../data/cabins/sodankyla.json'),
+  muonio: () => import('../data/cabins/muonio.json'),
+}
+
+type RefPhrase = { fi: string; en: string; de: string }
+const refPhrase = (ref: string | undefined, lang: string): string | null => {
+  const r = ref ? (REFS as unknown as Record<string, RefPhrase>)[ref] : undefined
+  if (!r) return null
+  return lang === 'fi' ? r.fi : lang === 'de' ? r.de : r.en
 }
 
 const PAGE = 24
@@ -210,6 +236,7 @@ export default function CabinArea() {
     // Until the index answers, no <img>: the stored URL is likely dead and would
     // flash the gradient on every card first.
     const img = freshImg.has(cabin.id) ? (freshImg.get(cabin.id) || cabin.img) : (freshFailed ? cabin.img : null)
+    const from = refPhrase(cabin.ref, lang)
     return (
       <a
         key={cabin.id}
@@ -224,6 +251,7 @@ export default function CabinArea() {
             key={img}
             src={img}
             alt={`${cabin.name}, ${cabin.place}`}
+            translate="no"
             loading="lazy"
             decoding="async"
             className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
@@ -232,20 +260,21 @@ export default function CabinArea() {
         </div>
         <div className="p-4">
           <div className="flex items-baseline justify-between gap-2 mb-0.5">
-            <CardTitle className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{cabin.name}</CardTitle>
+            {/* translate="no": a Lomarengas cabin name is a proper noun, the same in every language. */}
+            <CardTitle translate="no" className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{cabin.name}</CardTitle>
             {cabin.stars > 0 && (
               <span className="text-amber-500 text-[11px] shrink-0" aria-label={`${cabin.stars}/5 ${copy.starsLabel}`}>
                 {'★'.repeat(cabin.stars)}
               </span>
             )}
           </div>
-          <p className={`text-charcoal/60 text-[13px] break-words ${split && cabin.km != null ? 'mb-1' : 'mb-3'}`}>
+          <p className={`text-charcoal/60 text-[13px] break-words ${from && cabin.km != null ? 'mb-1' : 'mb-3'}`}>
             {cabin.place === cabin.muni ? cabin.place : `${cabin.place}, ${cabin.muni}`}
           </p>
-          {split && cabin.km != null && (
+          {from && cabin.km != null && (
             <p className="inline-flex items-center gap-1.5 text-charcoal/75 text-[13px] mb-3">
               <MapPin className="w-3.5 h-3.5 text-pink shrink-0" aria-hidden="true" />
-              {cabin.km < 1 ? split.distanceUnder1 : split.distance.replace('{km}', nf.format(cabin.km))}
+              {(cabin.km < 1 ? copy.distanceUnder1 : copy.distance.replace('{km}', nf.format(cabin.km))).replace('{from}', from)}
             </p>
           )}
           <div className="flex flex-wrap items-center gap-x-3.5 gap-y-1 text-[13px] text-charcoal/75 mb-3.5">
@@ -374,12 +403,13 @@ export default function CabinArea() {
               )}
             </>
           ) : (
-            grid(groups.near, shown, () => setShown((n) => n + PAGE))
+            // One list: the area has no far cabins, or no section headings in this language.
+            grid([...groups.near, ...groups.far], shown, () => setShown((n) => n + PAGE))
           )}
 
           <p className="mt-8 text-white/50 text-[12px] leading-relaxed max-w-3xl">
             {copy.dataNote}
-            {split ? ' ' + split.distanceNote : ''}
+            {data?.cabins.some((x) => x.km != null) ? ' ' + copy.distanceNote : ''}
             {priceDate ? ' ' + copy.pricesDated.replace('{date}', priceDate) : ''}
           </p>
         </div>

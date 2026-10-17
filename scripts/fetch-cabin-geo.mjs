@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * fetch-cabin-geo.mjs — coordinates of the Ruka-page cabins from Lomarenkaan own cabin pages.
+ * fetch-cabin-geo.mjs — coordinates of the /cabins/<area> cabins from Lomarenkaan own cabin pages.
  *
  * WHY (Vesa 17.10.2026, after the measurement): the /cabins/ruka page listed every Lomarengas
  * cabin in the municipality of Kuusamo as "Ruka, Kuusamo". The feed's `place` is a regex on the
@@ -12,12 +12,16 @@
  * The product feed has no coordinates, so they are read once per cabin from the public cabin
  * page (schema.org GeoCoordinates) and kept in src/data/cabins/geo.json. Only cabins missing from
  * that table are fetched: one request per second, so a monthly refresh asks for a handful.
+ * Since 17.10.2026 evening every area page, not only Ruka (Vesa: "onko tämä tehty nyt joka
+ * paikkakunnalle?" — the other pages had been judged by URL village names, the same signal that
+ * had been wrong at Ruka).
  *
  *   node scripts/fetch-cabin-geo.mjs [--src <dump>]   then   node scripts/gen-cabin-areas.mjs [--src <dump>]
  */
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { AREAS, areaCabins, slugOf, idOf } from './cabin-areas.config.mjs';
 
 const SITE = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const srcArg = process.argv.indexOf('--src');
@@ -27,11 +31,9 @@ if (!existsSync(SRC)) { console.error(`✗ ${SRC} puuttuu`); process.exit(1); }
 
 const dump = JSON.parse(readFileSync(SRC, 'utf8'));
 const geo = existsSync(GEO) ? JSON.parse(readFileSync(GEO, 'utf8')) : {};
-// Same selection as gen-cabin-areas.mjs AREAS.ruka (place Ruka, municipality kuusamo / rukatunturi).
-const slugOf = (c) => (c.productUrl.split('/mokit/')[1] || '').trim();
-const want = dump.cottages
-  .filter((c) => c.place === 'Ruka' && ['kuusamo', 'rukatunturi'].includes(slugOf(c).split('-')[0]))
-  .map((c) => ({ id: slugOf(c).split('-').pop(), slug: slugOf(c) }))
+// Same selection as gen-cabin-areas.mjs (scripts/cabin-areas.config.mjs): every area page.
+const want = Object.values(AREAS).flatMap((def) => areaCabins(dump.cottages, def))
+  .map((c) => ({ id: idOf(slugOf(c)), slug: slugOf(c) }))
   .filter((c) => !geo[c.id]);
 console.log(`${want.length} mökiltä puuttuu koordinaatti (taulussa ${Object.keys(geo).length})`);
 

@@ -111,6 +111,126 @@
     }
   },
   {
+    "path": "/cabins/inari",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "inari"
+    }
+  },
+  {
+    "path": "/cabins/enontekio",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "enontekio"
+    }
+  },
+  {
+    "path": "/cabins/utsjoki",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "utsjoki"
+    }
+  },
+  {
+    "path": "/cabins/muonio",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "muonio"
+    }
+  },
+  {
+    "path": "/cabins/kittila",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "kittila"
+    }
+  },
+  {
+    "path": "/cabins/sodankyla",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "sodankyla"
+    }
+  },
+  {
+    "path": "/cabins/salla",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "salla"
+    }
+  },
+  {
+    "path": "/cabins/kemijarvi",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "kemijarvi"
+    }
+  },
+  {
+    "path": "/cabins/posio",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "posio"
+    }
+  },
+  {
+    "path": "/cabins/pello",
+    "locales": [
+      "fi",
+      "en",
+      "de"
+    ],
+    "harvestRecord": {
+      "file": "src/data/cabinAreas.gen.{lang}.ts",
+      "key": "pello"
+    }
+  },
+  {
     "path": "/when-to-go",
     "copyFile": "src/pages/WhenToGo.copy.{lang}.ts"
   },

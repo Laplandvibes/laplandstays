@@ -1,4 +1,60 @@
 {
+  "/cabins/enontekio": {
+    "en": {
+      "title": "Cabins in Enontekiö: Kilpisjärvi, Hetta and Raattama",
+      "description": "Enontekiö rental cabins from Lomarengas: cabins near Kilpisjärvi, Hetta and Raattama with distance, guests, bedrooms and size on one page."
+    },
+    "fi": {
+      "title": "Enontekiön mökit: Kilpisjärvi, Hetta ja Raattama",
+      "description": "Enontekiön vuokramökit Lomarenkaan valikoimasta: Kilpisjärven, Hetan ja Raattaman mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Ferienhäuser in Enontekiö: Kilpisjärvi, Hetta, Raattama",
+      "description": "Ferienhäuser in Enontekiö bei Lomarengas: Häuser bei Kilpisjärvi, Hetta und Raattama mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/inari": {
+    "en": {
+      "title": "Cabins in Inari: Inari village, Ivalo and beyond",
+      "description": "Inari rental cabins from Lomarengas: Inari village, Ivalo and the rest of Inari, with distance, guests, bedrooms and size for every cabin."
+    },
+    "fi": {
+      "title": "Inarin mökit: vuokramökit Inarista ja Ivalosta",
+      "description": "Inarin vuokramökit Lomarenkaan valikoimasta: Inarin kylä, Ivalo ja muu kunta. Jokaisesta mökistä etäisyys, henkilömäärä, makuuhuoneet ja koko."
+    },
+    "de": {
+      "title": "Ferienhäuser in Inari: Inari und Ivalo",
+      "description": "Ferienhäuser in Inari bei Lomarengas: der Ort Inari, Ivalo und das übrige Gemeindegebiet, mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/kemijarvi": {
+    "en": {
+      "title": "Cabins in Kemijärvi: Suomu and Kemijärvi",
+      "description": "Kemijärvi rental cabins from Lomarengas: cabins at Suomu and near the town centre with distance, guests, bedrooms and size on one page."
+    },
+    "fi": {
+      "title": "Kemijärven mökit: Suomu ja Kemijärvi",
+      "description": "Kemijärven vuokramökit Lomarenkaan valikoimasta: Suomutunturin ja Kemijärven keskustan mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Ferienhäuser in Kemijärvi: Suomu und Kemijärvi",
+      "description": "Ferienhäuser in Kemijärvi bei Lomarengas: Häuser in Suomu und nahe dem Stadtzentrum mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/kittila": {
+    "en": {
+      "title": "Cabins in Kittilä: Raattama and the villages",
+      "description": "Kittilä rental cabins outside the Levi slope village from Lomarengas: Raattama and other villages, with distance, guests, bedrooms and size."
+    },
+    "fi": {
+      "title": "Kittilän mökit: Raattama ja Kittilän kylät",
+      "description": "Kittilän vuokramökit Levin rinnekylän ulkopuolelta Lomarenkaan valikoimasta: Raattama ja muut kylät, etäisyys, henkilömäärä, makuuhuoneet ja koko."
+    },
+    "de": {
+      "title": "Ferienhäuser in Kittilä: Raattama und die Dörfer",
+      "description": "Ferienhäuser in Kittilä außerhalb des Skidorfs Levi bei Lomarengas: Raattama und weitere Dörfer mit Entfernung, Personenzahl und Größe."
+    }
+  },
   "/cabins/levi": {
     "en": {
       "title": "Levi cabins: log cabins and chalets to rent",
@@ -11,6 +67,48 @@
     "de": {
       "title": "Levi Ferienhäuser: Hütten und Chalets mieten",
       "description": "Ferienhäuser und Hütten in Levi auf einer Seite: Blockhütten, Ski-in-Apartments und Villen in Sirkka und Kittilä mit Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/muonio": {
+    "en": {
+      "title": "Cabins in Muonio: Olos and Muonio",
+      "description": "Muonio rental cabins from Lomarengas: cabins at Olos and near Muonio village with distance, guests, bedrooms and size on one page."
+    },
+    "fi": {
+      "title": "Muonion mökit: Olos ja Muonio",
+      "description": "Muonion vuokramökit Lomarenkaan valikoimasta: Oloksen ja Muonion keskustan mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Ferienhäuser in Muonio: Olos und Muonio",
+      "description": "Ferienhäuser in Muonio bei Lomarengas: Häuser in Olos und nahe dem Ort Muonio mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/pello": {
+    "en": {
+      "title": "Cabins in Pello: rentals from Lomarengas",
+      "description": "Pello rental cabins from Lomarengas, with the distance to Pello village, guests, bedrooms and size for every cabin."
+    },
+    "fi": {
+      "title": "Pellon mökit: vuokramökit Lomarenkaalta",
+      "description": "Pellon vuokramökit Lomarenkaan valikoimasta: jokaisesta mökistä etäisyys Pellon keskustaan, henkilömäärä, makuuhuoneet ja koko."
+    },
+    "de": {
+      "title": "Ferienhäuser in Pello",
+      "description": "Ferienhäuser in Pello bei Lomarengas mit Entfernung zum Ort, Personenzahl, Schlafzimmern und Größe für jedes Haus."
+    }
+  },
+  "/cabins/posio": {
+    "en": {
+      "title": "Cabins in Posio: village and countryside rentals",
+      "description": "Posio rental cabins from Lomarengas, near the village and around the municipality, with distance, guests, bedrooms and size on one page."
+    },
+    "fi": {
+      "title": "Posion mökit: vuokramökit Lomarenkaalta",
+      "description": "Posion vuokramökit Lomarenkaan valikoimasta keskustan läheltä ja kunnan kylistä, etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Ferienhäuser in Posio",
+      "description": "Ferienhäuser in Posio bei Lomarengas, nahe dem Ort und in der ganzen Gemeinde, mit Entfernung, Personenzahl, Schlafzimmern und Größe."
     }
   },
   "/cabins/pyha-luosto": {
@@ -67,6 +165,48 @@
     "de": {
       "title": "Saariselkä Ferienhäuser: Hütten am Kaunispää",
       "description": "Ferienhäuser und Hütten in Saariselkä: Blockhütten und Apartments im Dorf und Richtung Kakslauttanen mit Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/salla": {
+    "en": {
+      "title": "Cabins in Salla: rental cabins at Sallatunturi",
+      "description": "Salla rental cabins from Lomarengas: cabins at Sallatunturi and Salla village with distance, guests, bedrooms and size on one page."
+    },
+    "fi": {
+      "title": "Sallan mökit: vuokramökit Sallatunturilta",
+      "description": "Sallan vuokramökit Lomarenkaan valikoimasta: Sallatunturin ja Sallan keskustan mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen."
+    },
+    "de": {
+      "title": "Ferienhäuser in Salla: Sallatunturi und Ort Salla",
+      "description": "Ferienhäuser in Salla bei Lomarengas: Häuser am Sallatunturi und im Ort Salla mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    }
+  },
+  "/cabins/sodankyla": {
+    "en": {
+      "title": "Cabins in Sodankylä: rentals outside Luosto and Saariselkä",
+      "description": "Sodankylä rental cabins outside Luosto and Saariselkä from Lomarengas: distance, guests, bedrooms and size for every cabin."
+    },
+    "fi": {
+      "title": "Sodankylän mökit: vuokramökit Lomarenkaalta",
+      "description": "Sodankylän vuokramökit Luoston ja Saariselän ulkopuolelta Lomarenkaan valikoimasta: etäisyys, henkilömäärä, makuuhuoneet ja koko."
+    },
+    "de": {
+      "title": "Ferienhäuser in Sodankylä",
+      "description": "Ferienhäuser in Sodankylä außerhalb von Luosto und Saariselkä bei Lomarengas: Entfernung, Personenzahl, Schlafzimmer und Größe für jedes Haus."
+    }
+  },
+  "/cabins/utsjoki": {
+    "en": {
+      "title": "Cabins in Utsjoki: Utsjoki, Nuorgam and Karigasniemi",
+      "description": "Utsjoki rental cabins from Lomarengas: cabins near Utsjoki village, Nuorgam and Karigasniemi with distance, guests, bedrooms and size."
+    },
+    "fi": {
+      "title": "Utsjoen mökit: Utsjoki, Nuorgam ja Karigasniemi",
+      "description": "Utsjoen vuokramökit Lomarenkaan valikoimasta: Utsjoen kylän, Nuorgamin ja Karigasniemen mökit etäisyyksineen, henkilömäärineen ja kokoineen."
+    },
+    "de": {
+      "title": "Ferienhäuser in Utsjoki: Ort Utsjoki, Nuorgam, Karigasniemi",
+      "description": "Ferienhäuser in Utsjoki bei Lomarengas: Häuser bei Utsjoki, Nuorgam und Karigasniemi mit Entfernung, Personenzahl, Schlafzimmern und Größe."
     }
   },
   "/cabins/yllas": {

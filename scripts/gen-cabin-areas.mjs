@@ -19,7 +19,8 @@
  * The outputs are COMMITTED — CI builds the standalone repo and has no access to the root.
  * Refresh: `node ../scripts/sync_lomarengas_feed.mjs && node scripts/fetch-cabin-geo.mjs && node scripts/gen-cabin-areas.mjs`
  * (or `--src <dump>` on both for a dump written outside the monorepo). fetch-cabin-geo reads the
- * coordinates of new Ruka-page cabins; this script refuses to write Ruka without them.
+ * coordinates of new cabins; this script refuses to write when a cabin is missing them. Areas,
+ * municipality allowlists and distance points: scripts/cabin-areas.config.mjs + src/data/cabins/refs.json.
  *
  * 🔴 The photo URLs in these files rot. Channable re-issues every templated image: measured
  * 17.10.2026, 1 259 / 1 259 photos of a run made 16.9. answered 404, and 30 cabins had left the
@@ -40,6 +41,7 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { AREAS, MUNI, REFS, slugOf, idOf, nearestRef } from './cabin-areas.config.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SITE = resolve(HERE, '..');
@@ -53,22 +55,6 @@ if (!existsSync(SRC)) {
 }
 const dump = JSON.parse(readFileSync(SRC, 'utf8'));
 const all = dump.cottages || [];
-
-const MUNI = {
-  kittila: 'Kittilä', kolari: 'Kolari', kuusamo: 'Kuusamo', inari: 'Inari', sodankyla: 'Sodankylä',
-  pelkosenniemi: 'Pelkosenniemi', kemijarvi: 'Kemijärvi', rovaniemi: 'Rovaniemi', salla: 'Salla',
-  akaslompolo: 'Kolari', yllasjarvi: 'Kolari', rukatunturi: 'Kuusamo', saariselka: 'Inari',
-};
-
-/** area slug → feed `place` + municipality allowlist (slug prefix). */
-const AREAS = {
-  levi: { place: 'Levi', munis: ['kittila'] },
-  yllas: { place: 'Ylläs', munis: ['kolari', 'kittila', 'akaslompolo', 'yllasjarvi'] },
-  ruka: { place: 'Ruka', munis: ['kuusamo', 'rukatunturi'] },
-  saariselka: { place: 'Saariselkä', munis: ['inari', 'sodankyla', 'saariselka'] },
-  'pyha-luosto': { place: 'Pyhä-Luosto', munis: ['pelkosenniemi', 'sodankyla', 'kemijarvi'] },
-  rovaniemi: { place: 'Rovaniemi', munis: ['rovaniemi'] },
-};
 
 /** Name without a trailing unit marker: "Porukka 2" → "porukka", "Nilikuru a 2" → "nilikuru". */
 function stemOf(name) {
@@ -89,31 +75,28 @@ function diversify(rows, WIN = 6) {
   return out;
 }
 
-const slugOf = (c) => (c.productUrl.split('/mokit/')[1] || '').trim();
-const idOf = (slug) => slug.split('-').pop();
-
-// Ruka: the feed's place "Ruka" is a regex on the URL (/kuusamo|ruka/), so it holds every cabin in
-// the municipality of Kuusamo. Measured 17.10.2026 from the cabin pages' coordinates: 79 of 306
-// URLs carry no village or another one, 12 of them 31–72 km from Ruka, and every card said
-// "Ruka, Kuusamo". Vesa 17.10.: two sections, "Ruka ja lähialue" under 10 km and "Kuusamon
-// järviseudun mökit", with the distance to Ruka on every card. Coordinates: src/data/cabins/geo.json
-// (scripts/fetch-cabin-geo.mjs). Distance = straight line to the network's Ruka point.
-const RUKA = [66.1667, 29.145]; // scripts/audit_map_geography.mjs DEST_COORDS Ruka
+// Distance to the nearest village or resort of the area, on every card (Vesa 17.10.2026: Ruka
+// first, "Kortteihin etäisyys Rukalle", then "onko tämä tehty nyt joka paikkakunnalle?"). The feed's
+// `place` is a regex on the product URL, so it holds a whole municipality (Ruka = all of Kuusamo:
+// 65 of 306 cabins more than 10 km from Ruka, the farthest 72 km), and URL villages are wide
+// ("rukatunturi": 70 of 227 cabins 3–10 km from Ruka). Coordinates come from each cabin's own
+// Lomarengas page (fetch-cabin-geo.mjs). Cabins more than NEAR_KM from every point form a second
+// section; the page names it per area.
 const NEAR_KM = 10;
+const MIN_SECTION = 3;
+const PLACE_KM = 5;
+// Areas whose copy (src/pages/CabinArea.copy.*.ts) has section headings and an intro with {near}/{far}.
+// If a refresh changes which areas split, the copy must follow: the run says so.
+const SPLIT_COPY = ['yllas', 'ruka', 'saariselka', 'rovaniemi', 'enontekio', 'inari', 'utsjoki', 'salla', 'kemijarvi', 'posio', 'kittila', 'muonio'];
 const GEO_PATH = resolve(SITE, 'src', 'data', 'cabins', 'geo.json');
 const GEO = existsSync(GEO_PATH) ? JSON.parse(readFileSync(GEO_PATH, 'utf8')) : {};
-function kmFromRuka([lat, lng]) {
-  const r = Math.PI / 180, dLat = (lat - RUKA[0]) * r, dLng = (lng - RUKA[1]) * r;
-  const x = Math.sin(dLat / 2) ** 2 + Math.cos(RUKA[0] * r) * Math.cos(lat * r) * Math.sin(dLng / 2) ** 2;
-  return 2 * 6371 * Math.asin(Math.sqrt(x));
-}
 
 // Crawlable line templates. Only numbers that exist in the data (number gate).
 const where = (c) => (c.place === c.muni ? c.place : `${c.place} (${c.muni})`);
 const DIST = {
-  fi: (c) => (c.km == null ? '' : c.km < 1 ? ', alle 1 km Rukalta' : `, noin ${c.km} km Rukalta`),
-  en: (c) => (c.km == null ? '' : c.km < 1 ? ', under 1 km from Ruka' : `, about ${c.km} km from Ruka`),
-  de: (c) => (c.km == null ? '' : c.km < 1 ? ', unter 1 km von Ruka' : `, etwa ${c.km} km von Ruka`),
+  fi: (c) => (c.km < 1 ? `, alle 1 km ${REFS[c.ref].fi}` : `, noin ${c.km} km ${REFS[c.ref].fi}`),
+  en: (c) => (c.km < 1 ? `, under 1 km ${REFS[c.ref].en}` : `, about ${c.km} km ${REFS[c.ref].en}`),
+  de: (c) => (c.km < 1 ? `, unter 1 km ${REFS[c.ref].de}` : `, etwa ${c.km} km ${REFS[c.ref].de}`),
 };
 const LINE = {
   fi: (c) => `${c.name}, ${where(c)}${DIST.fi(c)}: ${c.guests} vierasta, ${c.br} makuuhuonetta, ${c.sqm} m², ${c.stars} tähteä.`,
@@ -121,14 +104,16 @@ const LINE = {
   de: (c) => `${c.name}, ${where(c)}${DIST.de(c)}: ${c.guests} Personen, ${c.br} Schlafzimmer, ${c.sqm} m², ${c.stars} Sterne.`,
 };
 const HEAD = {
-  fi: (name, n) => `${name}: ${n} vuokramökkiä Lomarenkaan valikoimassa. Jokaisesta mökistä henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.`,
-  en: (name, n) => `${name}: ${n} rental cabins in the Lomarengas listings. Guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.`,
-  de: (name, n) => `${name}: ${n} Ferienhäuser im Lomarengas-Angebot. Personenzahl, Schlafzimmer, Größe und Sterne für jede Hütte; Wochenpreise und freie Wochen bei Lomarengas.`,
+  fi: (name, n) => `${name}: ${n} vuokramökkiä Lomarenkaan valikoimassa. Jokaisesta mökistä etäisyys lähimpään kylään tai keskukseen, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.`,
+  en: (name, n) => `${name}: ${n} rental cabins in the Lomarengas listings. Distance to the nearest village or resort, guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.`,
+  de: (name, n) => `${name}: ${n} Ferienhäuser im Lomarengas-Angebot. Entfernung zum nächsten Ort oder Skigebiet, Personenzahl, Schlafzimmer, Größe und Sterne für jedes Ferienhaus; Wochenpreise und freie Wochen bei Lomarengas.`,
 };
-const HEAD_SPLIT = {
-  fi: (name, near, far) => `${name}: Lomarenkaan valikoimassa ${near} vuokramökkiä Rukalla ja enintään ${NEAR_KM} km:n päässä Rukan kylästä sekä ${far} mökkiä kauempana Kuusamon järviseudulla. Jokaisesta mökistä etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.`,
-  en: (name, near, far) => `${name}: ${near} Lomarengas rental cabins in Ruka and up to ${NEAR_KM} km from Ruka village, and ${far} more further out in the Kuusamo lake country. Distance to Ruka, guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.`,
-  de: (name, near, far) => `${name}: Lomarengas bietet ${near} Ferienhäuser in Ruka und bis zu ${NEAR_KM} km vom Ort Ruka entfernt sowie ${far} weitere in der Seenlandschaft von Kuusamo. Entfernung nach Ruka, Personenzahl, Schlafzimmer, Größe und Sterne für jedes Ferienhaus; Wochenpreise und freie Wochen bei Lomarengas.`,
+const HEAD_AREA = {
+  ruka: {
+    fi: (name, near, far) => `${name}: Lomarenkaan valikoimassa ${near} vuokramökkiä Rukalla ja enintään ${NEAR_KM} km:n päässä Rukan kylästä sekä ${far} mökkiä kauempana Kuusamon järviseudulla. Jokaisesta mökistä etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.`,
+    en: (name, near, far) => `${name}: ${near} Lomarengas rental cabins in Ruka and up to ${NEAR_KM} km from Ruka village, and ${far} more further out in the Kuusamo lake country. Distance to Ruka, guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.`,
+    de: (name, near, far) => `${name}: Lomarengas bietet ${near} Ferienhäuser in Ruka und bis zu ${NEAR_KM} km vom Ort Ruka entfernt sowie ${far} weitere in der Seenlandschaft von Kuusamo. Entfernung nach Ruka, Personenzahl, Schlafzimmer, Größe und Sterne für jedes Ferienhaus; Wochenpreise und freie Wochen bei Lomarengas.`,
+  },
 };
 const NAME = {
   levi: { fi: 'Levin mökit', en: 'Cabins in Levi', de: 'Ferienhäuser in Levi' },
@@ -137,6 +122,16 @@ const NAME = {
   saariselka: { fi: 'Saariselän mökit', en: 'Cabins in Saariselkä', de: 'Ferienhäuser in Saariselkä' },
   'pyha-luosto': { fi: 'Pyhän ja Luoston mökit', en: 'Cabins in Pyhä and Luosto', de: 'Ferienhäuser in Pyhä und Luosto' },
   rovaniemi: { fi: 'Rovaniemen mökit', en: 'Cabins in Rovaniemi', de: 'Ferienhäuser in Rovaniemi' },
+  enontekio: { fi: 'Enontekiön mökit', en: 'Cabins in Enontekiö', de: 'Ferienhäuser in Enontekiö' },
+  inari: { fi: 'Inarin mökit', en: 'Cabins in Inari', de: 'Ferienhäuser in Inari' },
+  utsjoki: { fi: 'Utsjoen mökit', en: 'Cabins in Utsjoki', de: 'Ferienhäuser in Utsjoki' },
+  salla: { fi: 'Sallan mökit', en: 'Cabins in Salla', de: 'Ferienhäuser in Salla' },
+  kemijarvi: { fi: 'Kemijärven mökit', en: 'Cabins in Kemijärvi', de: 'Ferienhäuser in Kemijärvi' },
+  posio: { fi: 'Posion mökit', en: 'Cabins in Posio', de: 'Ferienhäuser in Posio' },
+  kittila: { fi: 'Kittilän mökit', en: 'Cabins in Kittilä', de: 'Ferienhäuser in Kittilä' },
+  pello: { fi: 'Pellon mökit', en: 'Cabins in Pello', de: 'Ferienhäuser in Pello' },
+  sodankyla: { fi: 'Sodankylän mökit', en: 'Cabins in Sodankylä', de: 'Ferienhäuser in Sodankylä' },
+  muonio: { fi: 'Muonion mökit', en: 'Cabins in Muonio', de: 'Ferienhäuser in Muonio' },
 };
 
 // Image validation: the dump is a snapshot and Channable purges creatives of delisted cabins.
@@ -168,6 +163,8 @@ const outDir = resolve(SITE, 'src', 'data', 'cabins');
 mkdirSync(outDir, { recursive: true });
 const gen = { fi: {}, en: {}, de: {} };
 const summary = [];
+// Every area first, then write: a missing coordinate must not leave half the pages regenerated.
+const results = [];
 for (const [area, def] of Object.entries(AREAS)) {
   let rows = [];
   let dropped = 0;
@@ -198,46 +195,48 @@ for (const [area, def] of Object.entries(AREAS)) {
     console.error(`✗ ${area}: ${deadImages}/${before} kuvaa "kuollut" yhdellä ajolla — verkko-ongelma, ei syötemuutos. Ei kirjoitettu mitään.`);
     process.exit(2);
   }
+  const noGeo = rows.filter((c) => !GEO[c.id]);
+  if (noGeo.length) {
+    console.error(`✗ ${area}: ${noGeo.length} mökiltä puuttuu koordinaatti (${noGeo.slice(0, 5).map((c) => c.slug).join(', ')} …) — aja ensin node scripts/fetch-cabin-geo.mjs. Ei kirjoitettu mitään.`);
+    process.exit(1);
+  }
+  for (const c of rows) {
+    const n = nearestRef(def, GEO[c.id]);
+    c.km = n.km < 1 ? +n.km.toFixed(1) : Math.round(n.km);
+    c.ref = n.key;
+    c.section = n.km <= NEAR_KM ? 'near' : 'far';
+    // The village or resort name only within PLACE_KM of it; otherwise the municipality, and the
+    // distance line says how far the nearest point is. 3 km (first Ruka cut) was too tight for a
+    // resort: the Levi Star West slope apartments are 3 km from the Levi point and read "Kittilä".
+    c.place = n.km <= PLACE_KM ? REFS[n.key].place : c.muni;
+  }
   // Bigger and better-rated first — the first 60 lines are what the crawlable body prints.
   rows.sort((a, b) => (b.stars - a.stars) || (b.guests - a.guests) || a.name.localeCompare(b.name, 'fi'));
   // Then spread siblings apart (Vesa 17.9.2026: "onko liikaa samantyyppisiä?"). Sister units of
   // one complex ("Porukka 1" / "Porukka 2", "Levi Star West A" / "B", four Nilikuru flats) share
   // a photo and a name and sorted next to each other: measured 3–5 lookalike pairs in the first
   // 24 cards of Levi, Ruka, Saariselkä and Rovaniemi. Same rank order otherwise.
-  rows = diversify(rows);
-  let split = null;
-  if (area === 'ruka') {
-    const noGeo = rows.filter((c) => !GEO[c.id]);
-    if (noGeo.length) {
-      console.error(`✗ ruka: ${noGeo.length} mökiltä puuttuu koordinaatti (${noGeo.slice(0, 5).map((c) => c.slug).join(', ')} …) — aja ensin node scripts/fetch-cabin-geo.mjs`);
-      process.exit(1);
-    }
-    for (const c of rows) {
-      const km = kmFromRuka(GEO[c.id]);
-      c.km = km < 1 ? +km.toFixed(1) : Math.round(km);
-      c.section = km <= NEAR_KM ? 'near' : 'far';
-      // "Ruka" only within 3 km; otherwise the card names the municipality and the distance says
-      // how far Ruka is. Not the URL village: "rukatunturi" is a wide area in Lomarengas URLs —
-      // measured 17.10.2026, 70 of its 227 cabins are 3–10 km from Ruka and 4 more than 10 km.
-      c.place = km < 3 ? 'Ruka' : 'Kuusamo';
-    }
-    // Near cabins keep the rank order above; far cabins nearest first (that is what a Ruka reader weighs).
-    const near = rows.filter((c) => c.section === 'near');
-    const far = diversify(rows.filter((c) => c.section === 'far').sort((a, b) => (a.km - b.km) || a.name.localeCompare(b.name, 'fi')));
-    rows = [...near, ...far];
-    split = { near: near.length, far: far.length, nearKm: NEAR_KM };
-  }
+  const near = diversify(rows.filter((c) => c.section === 'near'));
+  // Far cabins nearest first: that is what a reader of this page weighs.
+  const far = diversify(rows.filter((c) => c.section === 'far').sort((a, b) => (a.km - b.km) || a.name.localeCompare(b.name, 'fi')));
+  rows = [...near, ...far];
+  // Two sections only when both hold at least MIN_SECTION cabins: a heading over one cabin is noise
+  // (Pello 1 + 11, Kittilä 2 + 19 measured 17.10.2026); those pages list everything with the distance.
+  const split = near.length >= MIN_SECTION && far.length >= MIN_SECTION ? { near: near.length, far: far.length, nearKm: NEAR_KM } : null;
+  results.push({ area, def, rows, split, dropped, deadImages });
+}
+for (const { area, def, rows, split, dropped, deadImages } of results) {
   // The sync script leaves `generated` null on purpose ("stamp it at run time"): this run
   // HEAD-checked every photo today, so today is the date the data was last known good.
   writeFileSync(resolve(outDir, `${area}.json`), JSON.stringify({ area, place: def.place, count: rows.length, generated: dump.generated || new Date().toISOString().slice(0, 10), ...(split ? { split } : {}), cabins: rows }));
   for (const lang of ['fi', 'en', 'de']) {
     gen[lang][area] = {
       title: NAME[area][lang],
-      intro: split ? HEAD_SPLIT[lang](NAME[area][lang], split.near, split.far) : HEAD[lang](NAME[area][lang], rows.length),
+      intro: split && HEAD_AREA[area] ? HEAD_AREA[area][lang](NAME[area][lang], split.near, split.far) : HEAD[lang](NAME[area][lang], rows.length),
       lines: rows.slice(0, 60).map((c) => LINE[lang](c)),
     };
   }
-  summary.push(`${area.padEnd(12)} ${String(rows.length).padStart(4)} mökkiä (pudotettu ${dropped}, kuva kuollut ${deadImages})`);
+  summary.push(`${area.padEnd(12)} ${String(rows.length).padStart(4)} mökkiä${split ? ` (lähellä ${split.near}, kauempana ${split.far})` : ''} (pudotettu ${dropped}, kuva kuollut ${deadImages})`);
 }
 for (const lang of ['fi', 'en', 'de']) {
   const body = `// GENEROITU — älä muokkaa käsin. scripts/gen-cabin-areas.mjs lukee Lomarenkaan
@@ -249,4 +248,7 @@ export const cabinAreas = ${JSON.stringify(gen[lang], null, 2)} as const;
   writeFileSync(resolve(SITE, 'src', 'data', `cabinAreas.gen.${lang}.ts`), body);
 }
 console.log(summary.join('\n'));
+const splitNow = results.filter((r) => r.split).map((r) => r.area);
+const drift = [...splitNow.filter((a) => !SPLIT_COPY.includes(a)), ...SPLIT_COPY.filter((a) => !splitNow.includes(a))];
+if (drift.length) console.warn(`⚠️ osiojako muuttui (${drift.join(', ')}): päivitä CabinArea.copy.*.ts split + intro ja SPLIT_COPY`);
 console.log(`✓ src/data/cabins/*.json + src/data/cabinAreas.gen.{fi,en,de}.ts (lähde ${dump.count} mökkiä)`);

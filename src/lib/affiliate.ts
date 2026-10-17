@@ -315,6 +315,19 @@ const LOMARENGAS_AREAS = {
   yllas: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/hiihtokeskus/yllas', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/ski-resort/yllas' },
   ruka: { fi: 'https://www.lomarengas.fi/mokkihaku/pohjois-pohjanmaa/hiihtokeskus/ruka', intl: 'https://www.lomarengas.fi/en/cottage-search/pohjois-pohjanmaa/ski-resort/ruka' },
   saariselka: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/hiihtokeskus/saariselka', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/ski-resort/saariselka' },
+  // Municipality searches for the /cabins/<municipality> pages, each verified by its page title
+  // 17.10.2026 ("Inari majoitus - vuokraa mökki edullisesti | Lomarengas", "Inari – holiday homes").
+  rovaniemi: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/rovaniemi', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/rovaniemi' },
+  enontekio: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/enontekio', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/enontekio' },
+  inari: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/inari', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/inari' },
+  utsjoki: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/utsjoki', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/utsjoki' },
+  salla: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/salla', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/salla' },
+  kemijarvi: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/kemijarvi', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/kemijarvi' },
+  posio: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/posio', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/posio' },
+  kittila: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/kittila', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/kittila' },
+  pello: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/pello', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/pello' },
+  sodankyla: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/sodankyla', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/sodankyla' },
+  muonio: { fi: 'https://www.lomarengas.fi/mokkihaku/lappi/muonio', intl: 'https://www.lomarengas.fi/en/cottage-search/lappi/muonio' },
 } as const;
 
 export type LomarengasArea = keyof typeof LOMARENGAS_AREAS;

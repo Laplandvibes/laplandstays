@@ -183,6 +183,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
                       <img
                         src={c.img}
                         alt={`${c.name}, ${c.place}`}
+                        translate="no"
                         loading="lazy"
                         decoding="async"
                         className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
@@ -190,7 +191,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
                     </div>
                     <div className="p-4">
                       <div className="flex items-baseline justify-between gap-2 mb-0.5">
-                        <h3 className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{c.name}</h3>
+                        <h3 translate="no" className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{c.name}</h3>
                         {c.stars ? (
                           <span className="text-amber-500 text-[11px] shrink-0" aria-label={`${c.stars}/5`}>
                             {'★'.repeat(c.stars)}
