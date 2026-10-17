@@ -43,7 +43,7 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Lakeside aurora cabins 15 min from the city, full safari menu on site.' },
     { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Five glass cabins set 3 m above the ground on a private lakeside peninsula near Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Newer glass-roofed apartments with skyline views from Ounasvaara fell.' },
-    { name: 'All Rovaniemi accommodation', href: HOTEL_SEARCH_FOR('en').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Browse every Rovaniemi hotel and cabin on Trip.com.' },
+    { name: 'All Rovaniemi accommodation', href: HOTEL_SEARCH_FOR('en').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Browse Rovaniemi hotels and cabins on Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Rovaniemi Airport (RVN)', detail: 'Year-round flights from HEL plus winter routes from LHR · CDG · BCN · MAD. 10 km / 15 min to city centre.' },
@@ -175,7 +175,7 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Polarlicht-Hütten am See 15 min von der Stadt, volles Safari-Menü vor Ort.' },
     { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Fünf Glashütten, 3 m über dem Boden, auf einer privaten Halbinsel am See nahe Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Neuere Apartments mit Glasdach und Skyline-Blick vom Fjäll Ounasvaara.' },
-    { name: 'Alle Rovaniemi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Stöbern Sie in allen Rovaniemi-Hotels und Hütten auf Trip.com.' },
+    { name: 'Alle Rovaniemi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Stöbern Sie in Rovaniemi-Hotels und Hütten bei Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Rovaniemi (RVN)', detail: 'Ganzjährige Flüge ab HEL plus Winterrouten ab LHR · CDG · BCN · MAD. 10 km / 15 min ins Stadtzentrum.' },
@@ -887,7 +887,7 @@ Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilres
     { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Norrskensstugor vid sjön 15 min från staden, med hela safariutbudet på plats.' },
     { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Fem glasstugor 3 m över marken på en egen udde vid sjön, nära Rovaniemi.' },
     { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nyare lägenheter med glastak och vy över staden från Ounasvaara.' },
-    { name: 'Alla boenden i Rovaniemi', href: HOTEL_SEARCH_FOR('sv').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bläddra bland alla hotell och stugor i Rovaniemi på Trip.com.' },
+    { name: 'Alla boenden i Rovaniemi', href: HOTEL_SEARCH_FOR('sv').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bläddra bland hotell och stugor i Rovaniemi på Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Från Rovaniemi flygplats (RVN)', detail: 'Flyg året runt från HEL plus vinterlinjer från LHR · CDG · BCN · MAD. 10 km / 15 min till centrum.' },

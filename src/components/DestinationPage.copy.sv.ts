@@ -18,7 +18,7 @@ const copy: Copy = {
     checkAvailability: 'Kontrollera tillgänglighet',
     anchorEyebrow: 'Ankarboenden',
     whereToStayH2: (n: string) => `Var du bor i ${n}`,
-    anchorLead: 'Klicka vidare till aktuella priser på Trip.com. Under högsäsong bokas boendena 4–8 månader i förväg.',
+    anchorLead: 'Klicka vidare till aktuella priser på Sembo. Under högsäsong bokas boendena 4–8 månader i förväg.',
     gettingThereH2: (n: string) => `Transport till ${n}`,
     transportLead: 'Verkliga priser från leverantörernas sidor – kontrollerade varje säsong. Transfer går oftast att förboka via ditt boende.',
     rentCarLabel: 'Hyr bil · EconomyBookings',

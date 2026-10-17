@@ -41,7 +41,7 @@ For extended wilderness trips, the road continues to Utsjoki and the Norwegian b
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'On the quiet eastern shore of Lake Inari, far from village lights. Fishing, saunas and aurora trips out on the lake ice.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min from Ivalo airport, glass-roofed cabins, aurora wake-up service.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Architect-designed all-suite lodge between Inari and Saariselkä.' },
-    { name: 'All Inari accommodation', href: HOTEL_SEARCH_FOR('en').inari, sid: 'destination_inari_all_search', note: 'Browse every Inari property on Trip.com.' },
+    { name: 'All Inari accommodation', href: HOTEL_SEARCH_FOR('en').inari, sid: 'destination_inari_all_search', note: 'Browse Inari properties on Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Ivalo Airport (IVL)', detail: 'Direct flights from Helsinki year-round; seasonal winter routes from e.g. London Gatwick and Paris. 50 km / 40 min north to Inari village.' },
@@ -169,7 +169,7 @@ Für ausgedehnte Wildnisreisen führt die Straße weiter nach Utsjoki und zur no
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Am stillen Ostufer des Inarisees, fern der Dorflichter. Angeln, Saunen und Polarlicht-Touren auf dem Seeeis.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min vom Flughafen Ivalo, Hütten mit Glasdach, Polarlicht-Weckdienst.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Architektonisch gestaltete Suiten-Lodge zwischen Inari und Saariselkä.' },
-    { name: 'Alle Inari-Unterkünfte', href: HOTEL_SEARCH_FOR('de').inari, sid: 'destination_inari_all_search', note: 'Stöbern Sie in allen Inari-Unterkünften auf Trip.com.' },
+    { name: 'Alle Inari-Unterkünfte', href: HOTEL_SEARCH_FOR('de').inari, sid: 'destination_inari_all_search', note: 'Stöbern Sie in den Inari-Unterkünften bei Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Ivalo (IVL)', detail: 'Direktflüge ab Helsinki ganzjährig; im Winter Saisonrouten u. a. ab London-Gatwick und Paris. 50 km / 40 min nordwärts ins Dorf Inari.' },
@@ -745,7 +745,7 @@ För längre vildmarksresor fortsätter vägen till Utsjoki och norska gränsen.
     { name: 'Wilderness Hotel Nellim', propertyQuery: 'Wilderness Hotel Nellim', sid: 'destination_inari_nellim', note: 'Vid Inarisjöns stilla östra strand, långt från byarnas ljus. Fiske, bastur och norrskensturer ute på sjöisen.' },
     { name: 'Aurora Village Ivalo', propertyQuery: 'Aurora Village Ivalo', sid: 'destination_inari_aurora_village', note: '20 min från Ivalo flygplats, stugor med glastak och väckning när norrskenet kommer.' },
     { name: 'Wilderness Hotel Muotka', propertyQuery: 'Wilderness Hotel Muotka', sid: 'destination_inari_muotka', note: 'Arkitektritad lodge med bara sviter, mellan Inari och Saariselkä.' },
-    { name: 'Alla boenden i Inari', href: HOTEL_SEARCH_FOR('sv').inari, sid: 'destination_inari_all_search', note: 'Bläddra bland alla boenden i Inari på Trip.com.' },
+    { name: 'Alla boenden i Inari', href: HOTEL_SEARCH_FOR('sv').inari, sid: 'destination_inari_all_search', note: 'Bläddra bland boenden i Inari på Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Från Ivalo flygplats (IVL)', detail: 'Direktflyg från Helsingfors året runt; vintertid säsongsrutter från bl.a. London Gatwick och Paris. 50 km / 40 min norrut till Inari by.' },

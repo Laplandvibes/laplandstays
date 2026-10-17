@@ -214,8 +214,9 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
   }
 
   const tabs: { key: Tab; label: string; icon: typeof Hotel; provider: string }[] = [
-    // Hotels brand follows the Worker's locale routing: fi → Sembo, rest → Trip.com.
-    { key: 'hotels', label: wc.tabs.hotels, icon: Hotel, provider: lang === 'fi' ? 'Sembo' : 'Trip.com' },
+    // Hotels brand follows the Worker's locale routing (SEMBO_MARKETS, LV-SEMBO-UK 17.10.2026):
+    // fi/sv/de/en → Sembo, the rest → Trip.com.
+    { key: 'hotels', label: wc.tabs.hotels, icon: Hotel, provider: ['fi', 'sv', 'de', 'en'].includes(lang) ? 'Sembo' : 'Trip.com' },
     { key: 'flights', label: wc.tabs.flights, icon: Plane, provider: 'Trip.com' },
     { key: 'cars', label: wc.tabs.cars, icon: Car, provider: 'EconomyBookings' },
   ]

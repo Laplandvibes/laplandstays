@@ -42,7 +42,7 @@ Kolari train station, 40 min away, receives overnight trains from Helsinki with 
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Sauna-equipped rooms in Äkäslompolo village, panoramic restaurant, ski resort 4.5 km.' },
     { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Family-run since 1945 on the north shore of Lake Äkäslompolo, looking across to the village and fells.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min from Ylläs, husky safari packages and lakeside cabins.' },
-    { name: 'All Ylläs accommodation', href: HOTEL_SEARCH_FOR('en').yllas, sid: 'destination_yllas_all_search', note: 'Browse every Ylläs cabin and chalet on Trip.com.' },
+    { name: 'All Ylläs accommodation', href: HOTEL_SEARCH_FOR('en').yllas, sid: 'destination_yllas_all_search', note: 'Browse Ylläs cabins and chalets on Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Kittilä Airport (KTT)', detail: 'Same airport as Levi. 50 km / 45 min to Äkäslompolo (north Ylläs), 35 km / 30 min to Ylläsjärvi (south Ylläs).' },
@@ -172,7 +172,7 @@ Bahnhof Kolari, 40 min entfernt, empfängt die Nachtzüge aus Helsinki mit Autot
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Zimmer mit eigener Sauna im Dorf Äkäslompolo, Panoramarestaurant, Skigebiet 4,5 km.' },
     { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Familiengeführt seit 1945 am Nordufer des Äkäslompolo-Sees, mit Blick über den See auf Dorf und Fjälls.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min von Ylläs, Husky-Safari-Pakete und Seehütten.' },
-    { name: 'Alle Ylläs-Unterkünfte', href: HOTEL_SEARCH_FOR('de').yllas, sid: 'destination_yllas_all_search', note: 'Stöbern Sie in allen Ylläs-Hütten und Chalets auf Trip.com.' },
+    { name: 'Alle Ylläs-Unterkünfte', href: HOTEL_SEARCH_FOR('de').yllas, sid: 'destination_yllas_all_search', note: 'Stöbern Sie in Ylläs-Hütten und Chalets bei Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Kittilä (KTT)', detail: 'Derselbe Flughafen wie Levi. 50 km / 45 min nach Äkäslompolo (Nord-Ylläs), 35 km / 30 min nach Ylläsjärvi (Süd-Ylläs).' },
@@ -757,7 +757,7 @@ Kolari järnvägsstation, 40 min bort, tar emot nattåg från Helsingfors med bi
     { name: 'Lapland Hotels Ylläskaltio', propertyQuery: 'Lapland Hotels Ylläskaltio', sid: 'destination_yllas_yllaskaltio', note: 'Rum med egen bastu i byn Äkäslompolo, panoramarestaurang, skidanläggning 4,5 km.' },
     { name: 'Hotel Ylläshumina', propertyQuery: 'Hotel Ylläshumina', sid: 'destination_yllas_yllashumina', note: 'Familjeägt sedan 1945 vid Äkäslompolosjöns norra strand, med utsikt över sjön mot byn och fjällen.' },
     { name: 'Harriniva (Muonio)', propertyQuery: 'Harriniva', sid: 'destination_yllas_harriniva', note: '40 min från Ylläs, paket med hundspannssafari och stugor vid vattnet.' },
-    { name: 'Alla boenden i Ylläs', href: HOTEL_SEARCH_FOR('sv').yllas, sid: 'destination_yllas_all_search', note: 'Bläddra bland alla stugor och chalets i Ylläs på Trip.com.' },
+    { name: 'Alla boenden i Ylläs', href: HOTEL_SEARCH_FOR('sv').yllas, sid: 'destination_yllas_all_search', note: 'Bläddra bland stugor och chalets i Ylläs på Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Från Kittilä flygplats (KTT)', detail: 'Samma flygplats som för Levi. 50 km / 45 min till Äkäslompolo (norra Ylläs), 35 km / 30 min till Ylläsjärvi (södra Ylläs).' },

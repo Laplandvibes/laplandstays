@@ -43,7 +43,7 @@ From Helsinki, overnight trains to Kolari + 1-hour transfer is a scenic alternat
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'On the slope of Levi fell: the gondola stops at the door and skiing starts in the yard.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Rooms and apartments in Levi, every one with its own sauna, about 500 m from the slopes.' },
     { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Design villas in Taalovaara, Levi, with a 24/7 concierge and a private chef on request.' },
-    { name: 'All Levi accommodation', href: HOTEL_SEARCH_FOR('en').levi, sid: 'destination_levi_all_search', note: 'Compare every Levi hotel and chalet on Trip.com.' },
+    { name: 'All Levi accommodation', href: HOTEL_SEARCH_FOR('en').levi, sid: 'destination_levi_all_search', note: 'Compare Levi hotels and chalets on Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'From Kittilä Airport (KTT)', detail: 'Direct winter flights LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min to Levi village.' },
@@ -173,7 +173,7 @@ Aus Helsinki ist der Nachtzug nach Kolari + 1-stündiger Transfer eine landschaf
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'Am Hang des Levifjälls: Die Gondel hält vor der Tür, Skifahren beginnt im Hof.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Zimmer und Apartments in Levi, jedes mit eigener Sauna, rund 500 m von den Pisten.' },
     { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Designvillen in Taalovaara bei Levi, mit Concierge rund um die Uhr und Privatkoch auf Wunsch.' },
-    { name: 'Alle Levi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').levi, sid: 'destination_levi_all_search', note: 'Vergleichen Sie alle Levi-Hotels und Chalets auf Trip.com.' },
+    { name: 'Alle Levi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').levi, sid: 'destination_levi_all_search', note: 'Vergleichen Sie Levi-Hotels und Chalets bei Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Ab Flughafen Kittilä (KTT)', detail: 'Direkte Winterflüge LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min ins Levi-Dorf.' },
@@ -758,7 +758,7 @@ Från Helsingfors är nattåg till Kolari plus en timmes transfer ett vackert al
     { name: 'Hotel Levi Panorama', propertyQuery: 'Hotel Levi Panorama', sid: 'destination_levi_panorama', note: 'I Levifjällets sluttning: gondolen stannar vid dörren och skidåkningen börjar på gården.' },
     { name: 'Lapland Hotels Sirkantähti', propertyQuery: 'Lapland Hotels Sirkantähti', sid: 'destination_levi_sirkantahti', note: 'Rum och lägenheter i Levi, alla med egen bastu, cirka 500 m från backarna.' },
     { name: 'Levi Spirit', propertyQuery: 'Levi Spirit', sid: 'destination_levi_levi_spirit', note: 'Designvillor i Taalovaara i Levi, med concierge dygnet runt och privatkock på begäran.' },
-    { name: 'Alla boenden i Levi', href: HOTEL_SEARCH_FOR('sv').levi, sid: 'destination_levi_all_search', note: 'Jämför alla hotell och stugor i Levi på Trip.com.' },
+    { name: 'Alla boenden i Levi', href: HOTEL_SEARCH_FOR('sv').levi, sid: 'destination_levi_all_search', note: 'Jämför hotell och stugor i Levi på Sembo.' },
   ],
   transport: [
     { mode: 'plane', label: 'Från Kittilä flygplats (KTT)', detail: 'Direkta vinterflyg LHR · CDG · AMS · FRA · ZRH · HEL. 15 km / 15 min till Levi by.' },
