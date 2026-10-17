@@ -1,0 +1,82 @@
+{
+  "slug": "saarua-ruka-hotel-restaurant-plan",
+  "date": "2026-10-17",
+  "hero": {
+    "src": "/images/news/ruka-village-oct-1600.webp",
+    "srcSmall": "/images/news/ruka-village-oct-800.webp",
+    "width": 1600,
+    "height": 901,
+    "position": "50% 60%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandstays.com/about",
+      "sourceUrl": "https://laplandstays.com/about",
+      "assetId": "20261010_100955",
+      "sourceName": "Ruka 2026-10-10",
+      "taken": "2026-10-10",
+      "retrieved": "2026-10-17"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Koillissanomat",
+      "title": "Rukan Saaruaan suunnitellaan uutta hotellia – Hanketta puuhaava yrittäjäpariskunta pyörittää ravintolaa Helsingissä ja Savonlinnassa",
+      "lang": "fi",
+      "url": "https://www.koillissanomat.fi/rukan-saaruaan-suunnitellaan-uutta-hotellia-hanket/13711839",
+      "date": "2026-10-17"
+    },
+    {
+      "publisher": "Kuusamon kaupunginvaltuusto",
+      "title": "Rukan asemakaavan muutos kortteleissa 140b ja 142b, korttelin 142a tontilla 2, korttelin 140a tonteilla 1 ja 4 (§ 14)",
+      "lang": "fi",
+      "url": "https://kuusamo.tweb.fi/ktwebscr/fileshow?doctype=3&docid=315179",
+      "date": "2026-05-12"
+    },
+    {
+      "publisher": "Kuusamon kaupunki",
+      "title": "Rukan asemakaavan muutos kortteleissa 140B ja 142B: osallistumis- ja arviointisuunnitelma",
+      "lang": "fi",
+      "url": "https://www.kuusamo.fi/tiedostot/asemakaavan-muutos-140a-ym-oas/",
+      "date": "2025-08-22"
+    },
+    {
+      "publisher": "Rukakeskus Oy",
+      "title": "Saaruan hotellihankkeet",
+      "lang": "fi",
+      "url": "https://www.rukasaarua.fi/saaruan-hotellihankkeet",
+      "read": "2026-10-17"
+    },
+    {
+      "publisher": "Rukakeskus Oy",
+      "title": "Ruka’s new Village in Saarua Valley",
+      "lang": "en",
+      "url": "https://www.rukasaarua.fi/en/",
+      "read": "2026-10-17"
+    },
+    {
+      "publisher": "Suomen Yrittäjät",
+      "title": "Yrittäjä Sari Helinin mielestä ravintoloista on tullut ”kaatopaikkoja”",
+      "lang": "fi",
+      "url": "https://www.yrittajat.fi/uutiset/yrittaja-sari-helinin-mielesta-ravintoloista-on-tullut-kaatopaikkoja-pienikin-virhe-voi-aiheuttaa-raivokohtauksen-mennaan-autoon-ja-kirjoitetaan-kostopalaute/",
+      "date": "2025-07-15"
+    },
+    {
+      "publisher": "Michelin Guide",
+      "title": "Le Ankka, Helsinki",
+      "lang": "en",
+      "url": "https://guide.michelin.com/en/uusimaa/helsinki/restaurant/le-ankka",
+      "read": "2026-10-17"
+    },
+    {
+      "publisher": "Yle",
+      "title": "Tunturiin nousee poikkeuksellinen hotelli Rukalla: mittakaava on huomattava, sijainti hankala ja sääolosuhteet vaikeat",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20251262",
+      "date": "2026-10-16"
+    }
+  ],
+  "ogCard": {
+    "line": "A new hotel planned in Ruka"
+  }
+}

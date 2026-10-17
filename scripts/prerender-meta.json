@@ -395,6 +395,56 @@
       "description": "Stadsstyrelsen i Rovaniemi beslöt den 28 september att ställa ut planen. Den nya delen skulle få 9 våningar mot Koskikatu och rymma ett hotell."
     }
   },
+  "/news/saarua-ruka-hotel-restaurant-plan": {
+    "en": {
+      "title": "Saarua, Ruka: new hotel and restaurant planned",
+      "description": "A small hotel and a restaurant are planned next to the RukaValley hotel in Saarua. The couple behind the project own restaurants in Helsinki and Savonlinna."
+    },
+    "fi": {
+      "title": "Saarua, Ruka: uusi hotelli ja ravintola suunnitteilla",
+      "description": "RukaValley-hotellin viereen Saaruaan suunnitellaan pientä hotellia ja ravintolaa. Takana on pariskunta, jolla on ravintolat Helsingissä ja Savonlinnassa."
+    },
+    "de": {
+      "title": "Saarua, Ruka: neues Hotel und Restaurant geplant",
+      "description": "Neben dem Hotel RukaValley in Saarua sind ein kleines Hotel und ein Restaurant geplant. Das Paar dahinter besitzt Restaurants in Helsinki und Savonlinna."
+    },
+    "ja": {
+      "title": "サールア（ルカ）に新ホテルとレストランの計画",
+      "description": "ルカのサールアで、RukaValleyホテルの隣に小さなホテルとレストランが計画されています。計画を進めているのは、ヘルシンキとサヴォンリンナにレストランを持つ夫妻です。"
+    },
+    "es": {
+      "title": "Saarua, Ruka: planean un nuevo hotel y restaurante",
+      "description": "Junto al hotel RukaValley, en Saarua, se proyectan un pequeño hotel y un restaurante. La pareja detrás del proyecto tiene restaurantes en Helsinki y Savonlinna."
+    },
+    "pt-BR": {
+      "title": "Saarua, Ruka: novo hotel e restaurante planejados",
+      "description": "Um pequeno hotel e um restaurante estão previstos junto ao hotel RukaValley, em Saarua. O casal por trás do projeto tem restaurantes em Helsinque e Savonlinna."
+    },
+    "zh-CN": {
+      "title": "薩魯阿（魯卡）擬建新飯店與餐廳",
+      "description": "在庫薩莫魯卡山東側的薩魯阿，RukaValley飯店旁擬建一座小型飯店和一家餐廳。推動項目的是一對在赫爾辛基和薩翁林納擁有餐廳的夫婦，項目目前仍處於規劃階段。"
+    },
+    "ko": {
+      "title": "사루아(루카)에 새 호텔과 레스토랑 계획",
+      "description": "루카 사루아의 RukaValley 호텔 옆에 작은 호텔과 레스토랑이 계획되고 있습니다. 사업을 추진하는 부부는 헬싱키와 사본린나에 레스토랑을 소유하고 있습니다."
+    },
+    "fr": {
+      "title": "Saarua, Ruka : nouvel hôtel et restaurant en projet",
+      "description": "Un petit hôtel et un restaurant sont prévus à côté de l’hôtel RukaValley, à Saarua. Le couple derrière le projet a des restaurants à Helsinki et à Savonlinna."
+    },
+    "it": {
+      "title": "Saarua, Ruka: in progetto nuovo hotel e ristorante",
+      "description": "Accanto all’hotel RukaValley, a Saarua, sono in progetto un piccolo hotel e un ristorante. La coppia dietro il progetto ha ristoranti a Helsinki e a Savonlinna."
+    },
+    "nl": {
+      "title": "Saarua, Ruka: nieuw hotel en restaurant gepland",
+      "description": "Naast het hotel RukaValley in Saarua zijn een klein hotel en een restaurant gepland. Het stel achter het project heeft restaurants in Helsinki en Savonlinna."
+    },
+    "sv": {
+      "title": "Saarua, Ruka: nytt hotell och restaurang planeras",
+      "description": "Ett litet hotell och en restaurang planeras intill hotellet RukaValley i Saarua. Paret bakom projektet äger restauranger i Helsingfors och Nyslott."
+    }
+  },
   "/privacy": {
     "en": {
       "title": "Privacy Policy",
