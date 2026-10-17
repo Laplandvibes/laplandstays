@@ -25,7 +25,16 @@ const copy: CabinAreaPageCopy = {
         description: 'Ruka cabins and holiday homes: the slope village and the Kuusamo lake country with guests, bedrooms and size on one page. Booking on Lomarengas.',
       },
       h1: 'Cabins in Ruka',
-      intro: 'Lomarengas lists {count} rental cabins around Ruka, from the slope village to the lakeshores of Kuusamo. Ruka opens its slopes among the first in autumn and the season runs into spring, so cabin weeks are available for a long stretch. Every cabin below shows guests, bedrooms, size and star rating; the weekly price and free weeks are on Lomarengas.',
+      intro: 'Lomarengas lists {near} rental cabins in Ruka and within 10 km of Ruka village, and {far} more further out in the Kuusamo lake country. Ruka opens its slopes among the first in autumn and the season runs into spring, so cabin weeks are available for a long stretch. Every card shows the distance to Ruka, guests, bedrooms, size and star rating; the weekly price and free weeks are on Lomarengas.',
+      split: {
+        nearH2: 'In and around Ruka',
+        nearNote: 'Cabins in the Ruka ski village and up to 10 km from it.',
+        farH2: 'Cabins in the Kuusamo lake country',
+        farNote: 'More than 10 km from Ruka, elsewhere in Kuusamo. From these cabins you usually drive to Ruka.',
+        distance: 'about {km} km from Ruka',
+        distanceUnder1: 'under 1 km from Ruka',
+        distanceNote: 'Distances are measured in a straight line from the location of the cabin (as listed on its Lomarengas page) to Ruka village; by road it is further.',
+      },
     },
     saariselka: {
       seo: {

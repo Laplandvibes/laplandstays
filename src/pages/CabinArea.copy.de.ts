@@ -25,7 +25,16 @@ const copy: CabinAreaPageCopy = {
         description: 'Ferienhäuser und Hütten in Ruka: das Pistendorf und die Seenlandschaft von Kuusamo mit Personenzahl, Schlafzimmern und Größe auf einer Seite.',
       },
       h1: 'Ferienhäuser in Ruka',
-      intro: 'Lomarengas führt {count} Ferienhäuser rund um Ruka, vom Pistendorf bis an die Seeufer von Kuusamo. Ruka öffnet seine Pisten im Herbst als eines der ersten Skigebiete, und die Saison reicht bis in den Frühling, also gibt es Hüttenwochen über einen langen Zeitraum. Zu jeder Hütte unten Personenzahl, Schlafzimmer, Größe und Sterne; Wochenpreis und freie Wochen sehen Sie bei Lomarengas.',
+      intro: 'Lomarengas führt {near} Ferienhäuser in Ruka und bis zu 10 km vom Ort Ruka entfernt sowie {far} weitere in der Seenlandschaft von Kuusamo. Ruka öffnet seine Pisten im Herbst als eines der ersten Skigebiete, und die Saison reicht bis in den Frühling, also gibt es Hüttenwochen über einen langen Zeitraum. Jede Karte zeigt die Entfernung nach Ruka, die Personenzahl, die Zahl der Schlafzimmer, die Größe und die Sterne; Wochenpreis und freie Wochen sehen Sie bei Lomarengas.',
+      split: {
+        nearH2: 'Ruka und Umgebung',
+        nearNote: 'Ferienhäuser im Skidorf Ruka und im Umkreis von bis zu 10 km.',
+        farH2: 'Ferienhäuser in der Seenlandschaft von Kuusamo',
+        farNote: 'Mehr als 10 km von Ruka entfernt, anderswo in Kuusamo. Von diesen Häusern fährt man meist mit dem Auto nach Ruka.',
+        distance: 'etwa {km} km von Ruka',
+        distanceUnder1: 'unter 1 km von Ruka',
+        distanceNote: 'Die Entfernung ist als Luftlinie vom Standort des Hauses (laut Angabe auf der Lomarengas-Seite) bis zum Ort Ruka gemessen; auf der Straße ist der Weg länger.',
+      },
     },
     saariselka: {
       seo: {

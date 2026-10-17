@@ -25,7 +25,16 @@ const copy: CabinAreaPageCopy = {
         description: 'Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla.',
       },
       h1: 'Rukan mökit',
-      intro: 'Rukalla on Lomarenkaan valikoimassa {count} vuokramökkiä rinnekylästä Kuusamon järvenrannoille. Ruka avaa rinteensä syksyllä ensimmäisten joukossa ja kausi jatkuu kevääseen, joten mökkiviikkoja on tarjolla pitkälle. Alla jokaisesta mökistä henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
+      intro: 'Lomarenkaan valikoimassa on {near} vuokramökkiä Rukalla ja enintään 10 kilometrin päässä Rukan kylästä sekä {far} mökkiä kauempana Kuusamon järviseudulla. Ruka avaa rinteensä syksyllä ensimmäisten joukossa ja kausi jatkuu kevääseen, joten mökkiviikkoja on tarjolla pitkälle. Jokaisessa kortissa on mökin etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
+      split: {
+        nearH2: 'Ruka ja lähialue',
+        nearNote: 'Mökit Rukan rinnekylässä ja enintään 10 kilometrin päässä siitä.',
+        farH2: 'Kuusamon järviseudun mökit',
+        farNote: 'Yli 10 kilometrin päässä Rukalta, muualla Kuusamossa. Näistä mökeistä Rukalle kuljetaan yleensä autolla.',
+        distance: 'noin {km} km Rukalta',
+        distanceUnder1: 'alle 1 km Rukalta',
+        distanceNote: 'Etäisyys mitataan linnuntietä mökin sijainnista (Lomarenkaan mökkisivun mukaan) Rukan kylään; tietä pitkin matka on pidempi.',
+      },
     },
     saariselka: {
       seo: {

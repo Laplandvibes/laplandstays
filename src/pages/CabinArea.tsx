@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link, Navigate, useParams } from 'react-router-dom'
-import { ArrowRight, BedDouble, ExternalLink, Ruler, Users } from 'lucide-react'
+import { ArrowRight, BedDouble, ExternalLink, MapPin, Ruler, Users } from 'lucide-react'
 import SEO from '../components/SEO'
 import NotFound from './NotFound'
 import { useLang, useLocalePath } from '../i18n/useLang'
@@ -57,8 +57,15 @@ interface Cabin {
   br: number
   stars: number
   img: string
+  /** Ruka only: straight-line km to Ruka village and the section it belongs to. */
+  km?: number
+  /** 'near' | 'far' (JSON imports type it as string) */
+  section?: string
 }
-interface AreaData { area: string; place: string; count: number; generated: string | null; cabins: Cabin[] }
+interface AreaData {
+  area: string; place: string; count: number; generated: string | null; cabins: Cabin[]
+  split?: { near: number; far: number; nearKm: number }
+}
 
 const LOADERS: Record<CabinAreaSlug, () => Promise<{ default: AreaData }>> = {
   levi: () => import('../data/cabins/levi.json'),
@@ -143,20 +150,30 @@ export default function CabinArea() {
   const [data, setData] = useState<AreaData | null>(null)
   const [live, setLive] = useState<Map<string, number> | null>(liveCache)
   const [shown, setShown] = useState(PAGE)
+  const [shownFar, setShownFar] = useState(PAGE)
   const [, setFreshTick] = useState(0)
 
+  // A split area (Ruka) shows two lists, each with its own "show more".
+  const groups = useMemo(() => {
+    if (!data) return null
+    if (!data.split) return { near: data.cabins, far: [] as Cabin[] }
+    return { near: data.cabins.filter((x) => x.section !== 'far'), far: data.cabins.filter((x) => x.section === 'far') }
+  }, [data])
+
   useEffect(() => {
-    if (!data) return
+    if (!groups) return
     let alive = true
-    loadFreshImages(data.cabins.slice(0, shown).map((c) => c.id)).then(() => { if (alive) setFreshTick((t) => t + 1) })
+    const ids = [...groups.near.slice(0, shown), ...groups.far.slice(0, shownFar)].map((c) => c.id)
+    loadFreshImages(ids).then(() => { if (alive) setFreshTick((t) => t + 1) })
     return () => { alive = false }
-  }, [data, shown])
+  }, [groups, shown, shownFar])
 
   useEffect(() => {
     if (!slug) return
     let alive = true
     setData(null)
     setShown(PAGE)
+    setShownFar(PAGE)
     LOADERS[slug]().then((mod) => { if (alive) setData(mod.default) })
     loadLivePrices().then((m) => { if (alive) setLive(m) })
     return () => { alive = false }
@@ -177,10 +194,111 @@ export default function CabinArea() {
 
   const c = copy.areas[slug]
   const count = data?.count ?? 0
-  const intro = c.intro.replace('{count}', nf.format(count))
+  const intro = c.intro
+    .replace('{count}', nf.format(count))
+    .replace('{near}', nf.format(data?.split?.near ?? 0))
+    .replace('{far}', nf.format(data?.split?.far ?? 0))
   const browseHref = buildLomarengasUrl(PARTNER_AREA[slug], `cabinpage_${slug}_all`, lang)
   const destination = DESTINATION[slug]
-  const cabins = data ? data.cabins.slice(0, shown) : []
+  const split = data?.split && c.split ? c.split : null
+  const CardTitle = split ? 'h3' : 'h2'
+
+  const card = (cabin: Cabin) => {
+    const sid = `cabinpage_${slug}`
+    const href = buildLomarengasCabinUrl(cabin.slug, sid, lang)
+    const price = live?.get(cabin.id)
+    // Until the index answers, no <img>: the stored URL is likely dead and would
+    // flash the gradient on every card first.
+    const img = freshImg.has(cabin.id) ? (freshImg.get(cabin.id) || cabin.img) : (freshFailed ? cabin.img : null)
+    return (
+      <a
+        key={cabin.id}
+        href={href}
+        target="_blank"
+        rel="sponsored nofollow noopener"
+        onClick={() => trackAffiliateClick('lomarengas', sid, href)}
+        className="relative bg-white rounded-2xl overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.25)] hover:shadow-[0_10px_36px_rgba(236,72,153,0.35)] transition-shadow"
+      >
+        <div className={`aspect-[4/3] overflow-hidden bg-charcoal/30${img ? '' : ' motion-safe:animate-pulse'}`}>
+          {img && <img
+            key={img}
+            src={img}
+            alt={`${cabin.name}, ${cabin.place}`}
+            loading="lazy"
+            decoding="async"
+            className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
+            onError={(e) => { const el = e.currentTarget; el.style.display = 'none'; el.parentElement?.classList.add('bg-gradient-to-br', 'from-[#0d2818]', 'via-[#0F172A]', 'to-[#1e1b4b]') }}
+          />}
+        </div>
+        <div className="p-4">
+          <div className="flex items-baseline justify-between gap-2 mb-0.5">
+            <CardTitle className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{cabin.name}</CardTitle>
+            {cabin.stars > 0 && (
+              <span className="text-amber-500 text-[11px] shrink-0" aria-label={`${cabin.stars}/5 ${copy.starsLabel}`}>
+                {'★'.repeat(cabin.stars)}
+              </span>
+            )}
+          </div>
+          <p className={`text-charcoal/60 text-[13px] break-words ${split && cabin.km != null ? 'mb-1' : 'mb-3'}`}>
+            {cabin.place === cabin.muni ? cabin.place : `${cabin.place}, ${cabin.muni}`}
+          </p>
+          {split && cabin.km != null && (
+            <p className="inline-flex items-center gap-1.5 text-charcoal/75 text-[13px] mb-3">
+              <MapPin className="w-3.5 h-3.5 text-pink shrink-0" aria-hidden="true" />
+              {cabin.km < 1 ? split.distanceUnder1 : split.distance.replace('{km}', nf.format(cabin.km))}
+            </p>
+          )}
+          <div className="flex flex-wrap items-center gap-x-3.5 gap-y-1 text-[13px] text-charcoal/75 mb-3.5">
+            <span className="inline-flex items-center gap-1.5">
+              <Users className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
+              <span className="sr-only">{copy.guestsLabel}: </span>
+              {cabin.guests}
+            </span>
+            {cabin.br > 0 && (
+              <span className="inline-flex items-center gap-1.5">
+                <BedDouble className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
+                <span className="sr-only">{copy.bedroomsLabel}: </span>
+                {cabin.br}
+              </span>
+            )}
+            <span className="inline-flex items-center gap-1.5">
+              <Ruler className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
+              <span className="sr-only">{copy.sizeLabel}: </span>
+              {nf.format(cabin.sqm)} m²
+            </span>
+          </div>
+          <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1 border-t border-gray-100 pt-3">
+            <p className="text-[13px] text-charcoal/75 min-w-0">
+              {price
+                ? copy.weekFrom.replace('{price}', nf.format(Math.round(price)))
+                : copy.priceOnPartner}
+            </p>
+            <span className="inline-flex items-center gap-1 text-pink text-[13px] font-semibold shrink-0">
+              {copy.viewCabin}
+              <ArrowRight className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+            </span>
+          </div>
+        </div>
+      </a>
+    )
+  }
+
+  const grid = (list: Cabin[], n: number, more: () => void) => (
+    <>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">{list.slice(0, n).map(card)}</div>
+      {n < list.length && (
+        <div className="mt-8 text-center">
+          <button
+            type="button"
+            onClick={more}
+            className="inline-flex items-center justify-center gap-2 text-sm px-6 py-3 min-h-11 rounded-full border border-white/30 text-white font-semibold hover:border-pink hover:text-pink transition-colors"
+          >
+            {copy.showMore} ({nf.format(n)}/{nf.format(list.length)})
+          </button>
+        </div>
+      )}
+    </>
+  )
 
   const crumbs = [
     { '@type': 'ListItem', position: 1, name: copy.breadcrumbHome, item: `${SITE_URL}${to('/')}`.replace(/\/?$/, '/') },
@@ -236,100 +354,32 @@ export default function CabinArea() {
 
       <section className="bg-night text-white py-12 sm:py-16 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {!data
-              ? Array.from({ length: 6 }).map((_, i) => (
-                  <div key={i} className="rounded-2xl bg-white/10 animate-pulse aspect-[4/5]" />
-                ))
-              : cabins.map((cabin) => {
-                  const sid = `cabinpage_${slug}`
-                  const href = buildLomarengasCabinUrl(cabin.slug, sid, lang)
-                  const price = live?.get(cabin.id)
-                  // Until the index answers, no <img>: the stored URL is likely dead and would
-                  // flash the gradient on every card first.
-                  const img = freshImg.has(cabin.id) ? (freshImg.get(cabin.id) || cabin.img) : (freshFailed ? cabin.img : null)
-                  return (
-                    <a
-                      key={cabin.id}
-                      href={href}
-                      target="_blank"
-                      rel="sponsored nofollow noopener"
-                      onClick={() => trackAffiliateClick('lomarengas', sid, href)}
-                      className="relative bg-white rounded-2xl overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.25)] hover:shadow-[0_10px_36px_rgba(236,72,153,0.35)] transition-shadow"
-                    >
-                      <div className={`aspect-[4/3] overflow-hidden bg-charcoal/30${img ? '' : ' motion-safe:animate-pulse'}`}>
-                        {img && <img
-                          key={img}
-                          src={img}
-                          alt={`${cabin.name}, ${cabin.place}`}
-                          loading="lazy"
-                          decoding="async"
-                          className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
-                          onError={(e) => { const el = e.currentTarget; el.style.display = 'none'; el.parentElement?.classList.add('bg-gradient-to-br', 'from-[#0d2818]', 'via-[#0F172A]', 'to-[#1e1b4b]') }}
-                        />}
-                      </div>
-                      <div className="p-4">
-                        <div className="flex items-baseline justify-between gap-2 mb-0.5">
-                          <h2 className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{cabin.name}</h2>
-                          {cabin.stars > 0 && (
-                            <span className="text-amber-500 text-[11px] shrink-0" aria-label={`${cabin.stars}/5 ${copy.starsLabel}`}>
-                              {'★'.repeat(cabin.stars)}
-                            </span>
-                          )}
-                        </div>
-                        <p className="text-charcoal/60 text-[13px] mb-3 break-words">
-                          {cabin.place === cabin.muni ? cabin.place : `${cabin.place}, ${cabin.muni}`}
-                        </p>
-                        <div className="flex flex-wrap items-center gap-x-3.5 gap-y-1 text-[13px] text-charcoal/75 mb-3.5">
-                          <span className="inline-flex items-center gap-1.5">
-                            <Users className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
-                            <span className="sr-only">{copy.guestsLabel}: </span>
-                            {cabin.guests}
-                          </span>
-                          {cabin.br > 0 && (
-                            <span className="inline-flex items-center gap-1.5">
-                              <BedDouble className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
-                              <span className="sr-only">{copy.bedroomsLabel}: </span>
-                              {cabin.br}
-                            </span>
-                          )}
-                          <span className="inline-flex items-center gap-1.5">
-                            <Ruler className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
-                            <span className="sr-only">{copy.sizeLabel}: </span>
-                            {nf.format(cabin.sqm)} m²
-                          </span>
-                        </div>
-                        <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1 border-t border-gray-100 pt-3">
-                          <p className="text-[13px] text-charcoal/75 min-w-0">
-                            {price
-                              ? copy.weekFrom.replace('{price}', nf.format(Math.round(price)))
-                              : copy.priceOnPartner}
-                          </p>
-                          <span className="inline-flex items-center gap-1 text-pink text-[13px] font-semibold shrink-0">
-                            {copy.viewCabin}
-                            <ArrowRight className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
-                          </span>
-                        </div>
-                      </div>
-                    </a>
-                  )
-                })}
-          </div>
-
-          {data && shown < data.count && (
-            <div className="mt-8 text-center">
-              <button
-                type="button"
-                onClick={() => setShown((n) => n + PAGE)}
-                className="inline-flex items-center justify-center gap-2 text-sm px-6 py-3 min-h-11 rounded-full border border-white/30 text-white font-semibold hover:border-pink hover:text-pink transition-colors"
-              >
-                {copy.showMore} ({nf.format(shown)}/{nf.format(data.count)})
-              </button>
+          {!groups ? (
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <div key={i} className="rounded-2xl bg-white/10 animate-pulse aspect-[4/5]" />
+              ))}
             </div>
+          ) : split ? (
+            <>
+              <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-2">{split.nearH2}</h2>
+              <p className="text-white/75 text-[15px] leading-relaxed max-w-3xl mb-6">{split.nearNote}</p>
+              {grid(groups.near, shown, () => setShown((n) => n + PAGE))}
+              {groups.far.length > 0 && (
+                <>
+                  <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mt-14 mb-2">{split.farH2}</h2>
+                  <p className="text-white/75 text-[15px] leading-relaxed max-w-3xl mb-6">{split.farNote}</p>
+                  {grid(groups.far, shownFar, () => setShownFar((n) => n + PAGE))}
+                </>
+              )}
+            </>
+          ) : (
+            grid(groups.near, shown, () => setShown((n) => n + PAGE))
           )}
 
           <p className="mt-8 text-white/50 text-[12px] leading-relaxed max-w-3xl">
             {copy.dataNote}
+            {split ? ' ' + split.distanceNote : ''}
             {priceDate ? ' ' + copy.pricesDated.replace('{date}', priceDate) : ''}
           </p>
         </div>
