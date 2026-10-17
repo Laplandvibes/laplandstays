@@ -246,7 +246,7 @@ export default function Cabins() {
                     onClick={onLomarengas(meta.sid, href)}
                     className="inline-flex max-w-full items-center gap-1.5 text-sm px-4 py-2 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                   >
-                    <span className="truncate">{a.cta}</span>
+                    <span className="min-w-0 break-words leading-snug">{a.cta}</span>
                     <ArrowRight className="w-3.5 h-3.5 shrink-0" />
                   </a>
                   {areaPageLabel && (
@@ -254,7 +254,7 @@ export default function Cabins() {
                       to={to(`/cabins/${meta.area}`)}
                       className="inline-flex max-w-full items-center gap-1.5 text-sm px-4 py-2 mt-2 ml-2 min-h-11 rounded-full border border-pink/30 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                     >
-                      <span className="truncate">{areaPageLabel}</span>
+                      <span className="min-w-0 break-words leading-snug">{areaPageLabel}</span>
                       <ArrowRight className="w-3.5 h-3.5 shrink-0" />
                     </Link>
                   )}

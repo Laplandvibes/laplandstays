@@ -17,7 +17,15 @@
  * INPUT: ../_affiliate/lomarengas-lapland.json (monorepo root, written by
  * scripts/sync_lomarengas_feed.mjs from the Adtraction product feed, programId 1071150664).
  * The outputs are COMMITTED — CI builds the standalone repo and has no access to the root.
- * Refresh: `node ../scripts/sync_lomarengas_feed.mjs && node scripts/gen-cabin-areas.mjs`.
+ * Refresh: `node ../scripts/sync_lomarengas_feed.mjs && node scripts/gen-cabin-areas.mjs`
+ * (or `--src <dump>` for a dump written outside the monorepo).
+ *
+ * 🔴 The photo URLs in these files rot. Channable re-issues every templated image: measured
+ * 17.10.2026, 1 259 / 1 259 photos of a run made 16.9. answered 404, and 30 cabins had left the
+ * feed. The page therefore takes each card's photo from the Worker's daily index
+ * (/_cabins?ids=) and uses the one stored here only for cabins the Worker does not list
+ * (Kuusamo outside Ruka village). Re-run this script monthly all the same: the crawlable body
+ * and the cabin count come from here.
  *
  * 🔴 No prices in these files on purpose. Weekly prices in the dump are a snapshot that
  * goes stale with every week (Vesa removed "from" prices from this site 22.8.2026 for that
@@ -34,7 +42,10 @@ import { fileURLToPath } from 'node:url';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const SITE = resolve(HERE, '..');
-const SRC = resolve(SITE, '..', '_affiliate', 'lomarengas-lapland.json');
+// `--src <dump>` reads a dump written elsewhere (a copy of sync_lomarengas_feed.mjs run outside
+// the monorepo); default is the monorepo's committed dump.
+const srcArg = process.argv.indexOf('--src');
+const SRC = srcArg > 0 ? resolve(process.argv[srcArg + 1]) : resolve(SITE, '..', '_affiliate', 'lomarengas-lapland.json');
 if (!existsSync(SRC)) {
   console.error(`✗ ${SRC} puuttuu — aja ensin node scripts/sync_lomarengas_feed.mjs monorepon juuressa`);
   process.exit(1);
@@ -166,7 +177,9 @@ for (const [area, def] of Object.entries(AREAS)) {
   // a photo and a name and sorted next to each other: measured 3–5 lookalike pairs in the first
   // 24 cards of Levi, Ruka, Saariselkä and Rovaniemi. Same rank order otherwise.
   rows = diversify(rows);
-  writeFileSync(resolve(outDir, `${area}.json`), JSON.stringify({ area, place: def.place, count: rows.length, generated: dump.generated || null, cabins: rows }));
+  // The sync script leaves `generated` null on purpose ("stamp it at run time"): this run
+  // HEAD-checked every photo today, so today is the date the data was last known good.
+  writeFileSync(resolve(outDir, `${area}.json`), JSON.stringify({ area, place: def.place, count: rows.length, generated: dump.generated || new Date().toISOString().slice(0, 10), cabins: rows }));
   for (const lang of ['fi', 'en', 'de']) {
     gen[lang][area] = {
       title: NAME[area][lang],

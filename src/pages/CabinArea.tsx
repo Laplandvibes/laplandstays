@@ -102,6 +102,35 @@ function loadLivePrices(): Promise<Map<string, number>> {
   return livePromise
 }
 
+// Today's photo for each card from the Worker's daily feed index (/_cabins?ids=, at most 24 ids
+// a call, cached 30 min). The committed data file carries a photo URL too, but Channable
+// re-issues every templated image: measured 17.10.2026, all 1 259 stored photos answered 404
+// and every card showed the empty gradient. id → today's URL; null = the Worker does not list
+// the cabin (Kuusamo outside Ruka village), so the stored URL is the only one there is.
+const freshImg = new Map<string, string | null>()
+let freshFailed = false
+const freshInFlight = new Set<string>()
+async function loadFreshImages(ids: string[]): Promise<void> {
+  const want = ids.filter((id) => !freshImg.has(id) && !freshInFlight.has(id))
+  if (!want.length || freshFailed) return
+  want.forEach((id) => freshInFlight.add(id))
+  const batches: string[][] = []
+  for (let i = 0; i < want.length; i += 24) batches.push(want.slice(i, i + 24))
+  await Promise.all(batches.map(async (batch) => {
+    try {
+      const r = await fetch(`${CABINS_API}?ids=${batch.join(',')}`)
+      if (!r.ok) throw new Error(String(r.status))
+      const d = (await r.json()) as { cabins?: { id: string; img?: string }[] }
+      const got = new Map((d.cabins || []).map((c) => [String(c.id), c.img || null]))
+      for (const id of batch) freshImg.set(id, got.get(id) ?? null)
+    } catch {
+      freshFailed = true
+    } finally {
+      batch.forEach((id) => freshInFlight.delete(id))
+    }
+  }))
+}
+
 const SITE_URL = 'https://laplandstays.com'
 
 export default function CabinArea() {
@@ -114,6 +143,14 @@ export default function CabinArea() {
   const [data, setData] = useState<AreaData | null>(null)
   const [live, setLive] = useState<Map<string, number> | null>(liveCache)
   const [shown, setShown] = useState(PAGE)
+  const [, setFreshTick] = useState(0)
+
+  useEffect(() => {
+    if (!data) return
+    let alive = true
+    loadFreshImages(data.cabins.slice(0, shown).map((c) => c.id)).then(() => { if (alive) setFreshTick((t) => t + 1) })
+    return () => { alive = false }
+  }, [data, shown])
 
   useEffect(() => {
     if (!slug) return
@@ -171,6 +208,8 @@ export default function CabinArea() {
           <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{copy.eyebrow}</p>
           <h1 className="font-heading text-4xl sm:text-6xl text-night tracking-wide mb-5">{c.h1}</h1>
           <p className="text-charcoal/80 text-lg leading-relaxed max-w-3xl mb-8">{intro}</p>
+          {/* Button labels wrap instead of truncating: "SELAA KAIKKIA ALUEEN MÖKKEJ…" ended in an
+              ellipsis on every phone (measured 17.10.2026, 320–414 px, fi/en/de). */}
           <div className="flex flex-wrap items-center gap-3">
             <a
               href={browseHref}
@@ -179,7 +218,7 @@ export default function CabinArea() {
               onClick={() => trackAffiliateClick('lomarengas', `cabinpage_${slug}_all`, browseHref)}
               className="inline-flex max-w-full items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-sm uppercase tracking-wider"
             >
-              <span className="truncate">{copy.browseAll}</span>
+              <span className="min-w-0 break-words leading-snug">{copy.browseAll}</span>
               <ExternalLink className="w-4 h-4 shrink-0" aria-hidden="true" />
             </a>
             {destination && (
@@ -187,7 +226,7 @@ export default function CabinArea() {
                 to={to(destination)}
                 className="inline-flex max-w-full items-center gap-2 border border-night/20 text-night font-semibold py-3.5 px-6 rounded-xl hover:border-pink hover:text-pink transition-colors text-sm"
               >
-                <span className="truncate">{copy.destinationLink}</span>
+                <span className="min-w-0 break-words leading-snug">{copy.destinationLink}</span>
                 <ArrowRight className="w-4 h-4 shrink-0" aria-hidden="true" />
               </Link>
             )}
@@ -206,6 +245,9 @@ export default function CabinArea() {
                   const sid = `cabinpage_${slug}`
                   const href = buildLomarengasCabinUrl(cabin.slug, sid, lang)
                   const price = live?.get(cabin.id)
+                  // Until the index answers, no <img>: the stored URL is likely dead and would
+                  // flash the gradient on every card first.
+                  const img = freshImg.has(cabin.id) ? (freshImg.get(cabin.id) || cabin.img) : (freshFailed ? cabin.img : null)
                   return (
                     <a
                       key={cabin.id}
@@ -215,26 +257,27 @@ export default function CabinArea() {
                       onClick={() => trackAffiliateClick('lomarengas', sid, href)}
                       className="relative bg-white rounded-2xl overflow-hidden group shadow-[0_6px_24px_rgba(0,0,0,0.25)] hover:shadow-[0_10px_36px_rgba(236,72,153,0.35)] transition-shadow"
                     >
-                      <div className="aspect-[4/3] overflow-hidden bg-charcoal/30">
-                        <img
-                          src={cabin.img}
+                      <div className={`aspect-[4/3] overflow-hidden bg-charcoal/30${img ? '' : ' motion-safe:animate-pulse'}`}>
+                        {img && <img
+                          key={img}
+                          src={img}
                           alt={`${cabin.name}, ${cabin.place}`}
                           loading="lazy"
                           decoding="async"
                           className="w-full h-full object-cover group-hover:scale-[1.03] transition-transform duration-300"
                           onError={(e) => { const el = e.currentTarget; el.style.display = 'none'; el.parentElement?.classList.add('bg-gradient-to-br', 'from-[#0d2818]', 'via-[#0F172A]', 'to-[#1e1b4b]') }}
-                        />
+                        />}
                       </div>
                       <div className="p-4">
                         <div className="flex items-baseline justify-between gap-2 mb-0.5">
-                          <h2 className="font-heading text-xl text-night tracking-wide truncate min-w-0">{cabin.name}</h2>
+                          <h2 className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{cabin.name}</h2>
                           {cabin.stars > 0 && (
                             <span className="text-amber-500 text-[11px] shrink-0" aria-label={`${cabin.stars}/5 ${copy.starsLabel}`}>
                               {'★'.repeat(cabin.stars)}
                             </span>
                           )}
                         </div>
-                        <p className="text-charcoal/60 text-[13px] mb-3 truncate">
+                        <p className="text-charcoal/60 text-[13px] mb-3 break-words">
                           {cabin.place === cabin.muni ? cabin.place : `${cabin.place}, ${cabin.muni}`}
                         </p>
                         <div className="flex flex-wrap items-center gap-x-3.5 gap-y-1 text-[13px] text-charcoal/75 mb-3.5">

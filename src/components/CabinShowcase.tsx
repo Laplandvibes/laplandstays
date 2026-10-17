@@ -190,14 +190,14 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
                     </div>
                     <div className="p-4">
                       <div className="flex items-baseline justify-between gap-2 mb-0.5">
-                        <h3 className="font-heading text-xl text-night tracking-wide truncate min-w-0">{c.name}</h3>
+                        <h3 className="font-heading text-xl text-night tracking-wide min-w-0 break-words">{c.name}</h3>
                         {c.stars ? (
                           <span className="text-amber-500 text-[11px] shrink-0" aria-label={`${c.stars}/5`}>
                             {'★'.repeat(c.stars)}
                           </span>
                         ) : null}
                       </div>
-                      <p className="text-charcoal/60 text-[13px] mb-3 truncate">
+                      <p className="text-charcoal/60 text-[13px] mb-3 break-words">
                         {c.place === c.muni ? c.place : `${c.place}, ${c.muni}`}
                       </p>
                       <div className="flex flex-wrap items-center gap-x-3.5 gap-y-1 text-[13px] text-charcoal/75 mb-3.5">
@@ -246,7 +246,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
               onClick={() => trackAffiliateClick('lomarengas', `cabin_more_${tab}`, moreHref)}
               className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 rounded-full border border-white/30 text-white font-semibold hover:border-pink hover:text-pink transition-colors"
             >
-              <span className="truncate">{copy.browseAll.replace('{count}', nf.format(total))}</span>
+              <span className="min-w-0 break-words leading-snug">{copy.browseAll.replace('{count}', nf.format(total))}</span>
               <ArrowRight className="w-3.5 h-3.5 shrink-0" />
             </a>
             {areaHrefs?.[tab] && areaLinkLabel && (
@@ -254,7 +254,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
                 to={areaHrefs[tab]!}
                 className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 min-h-11 rounded-full bg-[#DB2777] text-white font-semibold hover:bg-[#BE185D] transition-colors"
               >
-                <span className="truncate">{areaLinkLabel}</span>
+                <span className="min-w-0 break-words leading-snug">{areaLinkLabel}</span>
                 <ArrowRight className="w-3.5 h-3.5 shrink-0" />
               </Link>
             )}
