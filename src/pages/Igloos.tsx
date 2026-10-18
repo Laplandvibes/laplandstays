@@ -9,13 +9,16 @@ import { buildLomarengasUrl, buildAffiliateUrl, propertyLodgingLink } from '../l
 import { PROPERTY_BOOKING } from '../data/propertyBooking'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath } from '../i18n/useLang'
+import { PAGE_CLUSTERS } from '../i18n/pageClusters'
 
 /**
  * Iglumajoitus Lapissa — FINNISH-ONLY comparison page (/fi/iglumajoitus).
  *
  * Suomenkielinen vertailusivu, EI lokalisointikerrosta: reitti on olemassa vain
  * /fi/-puolella (App.tsx), prerender rajattu routes.jsonin "locales": ["fi"]
- * -kentällä ja SEO-komponentti saa hreflangLangs={FI_ONLY}, jottei sivu mainosta
+ * -kentällä. 18.10.2026 alkaen sivu on samaa hreflang-ryhmää kuin /glass-igloos (en, de, ja;
+ * src/i18n/pageClusters.ts): SEO saa hreflangPaths-kartan, routes.json "hreflangCluster". Ennen sitä
+ * SEO sai hreflangLangs={['fi']}, jottei sivu mainosta
  * yhtätoista aavevarianttia joita ei ole olemassa.
  *
  * Faktat verifioitu kohteiden OMILTA sivuilta 15.8.2026:
@@ -36,7 +39,7 @@ import { useLang, useLocalePath } from '../i18n/useLang'
  * Älä keksi id:tä tyhjän tilalle (ks. data/propertyBooking.ts 🔴-sääntö).
  */
 
-const FI_ONLY = ['fi']
+const IGLOO_PATHS = PAGE_CLUSTERS['glass-igloos'].paths
 
 const PAGE_URL = 'https://laplandstays.com/fi/iglumajoitus/'
 
@@ -233,7 +236,7 @@ export default function Igloos() {
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['iglumajoitus', 'iglumajoitus lappi', 'lasi-iglu', 'lumi-iglu', 'igluhotelli', 'iglu levi', 'iglu saariselkä', 'iglu rovaniemi', 'iglu kilpisjärvi']}
         jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
-        hreflangLangs={FI_ONLY}
+        hreflangPaths={IGLOO_PATHS}
       />
 
       {/* Hero: CSS-gradientti (ei kuvaa — uusi sivu, ei kierrätetä toisen sivun heroa) */}

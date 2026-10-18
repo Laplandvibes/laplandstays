@@ -25,6 +25,13 @@ interface SEOProps {
    * an inline array literal — this is an effect dependency.
    */
   hreflangLangs?: string[]
+  /**
+   * Language → path (without the language prefix) for a page whose versions live at DIFFERENT
+   * paths (src/i18n/pageClusters.ts, e.g. /fi/iglumajoitus ↔ /glass-igloos). Overrides
+   * hreflangLangs; must match the route's "hreflangCluster" in scripts/routes.json, which the
+   * prerenderer reads. Pass a MODULE-LEVEL object, not an inline literal (effect dependency).
+   */
+  hreflangPaths?: Partial<Record<string, string>>
 }
 
 function upsertMeta(selector: string, attr: 'name' | 'property', key: string, content: string) {
@@ -85,6 +92,7 @@ export default function SEO({
   keywords,
   jsonLd,
   hreflangLangs,
+  hreflangPaths,
 }: SEOProps) {
   const lang = useLang()
   // URL prefix uses the path token (/kr for ko, /br for pt-BR, /cn for zh-CN); other locales = lang code.
@@ -127,9 +135,12 @@ export default function SEO({
     // doesn't disagree with the static HTML.
     const oldAlts = document.head.querySelectorAll('link[rel="alternate"][data-seo-hreflang]')
     oldAlts.forEach((el) => el.remove())
-    const HREFLANGS = (hreflangLangs ?? Object.keys(PATH_PREFIX)).filter(
+    // Cross-path page (pageClusters.ts): the languages are the cluster's, in PATH_PREFIX order
+    // (= the prerenderer's locale order), each at its own path.
+    const HREFLANGS = (hreflangPaths ? Object.keys(PATH_PREFIX).filter((l) => hreflangPaths[l]) : hreflangLangs ?? Object.keys(PATH_PREFIX)).filter(
       (l): l is keyof typeof PATH_PREFIX => l in PATH_PREFIX,
     )
+    const pathOf = (l: string) => hreflangPaths?.[l] ?? canonicalPath
     // zh-CN-avain julkaistaan koodeilla zh-Hant + zh (Taiwanin perinteinen, 17.9.2026) — sama pari
     // kuin prerenderissä ja sitemapissa, muuten hydraatio riitelisi staattisen HTML:n kanssa.
     const HREFLANG_CODES: Record<string, string[]> = { 'zh-CN': ['zh-Hant', 'zh'] }
@@ -138,18 +149,19 @@ export default function SEO({
         const link = document.createElement('link')
         link.setAttribute('rel', 'alternate')
         link.setAttribute('hreflang', code)
-        link.setAttribute('href', `${SITE_URL}${PATH_PREFIX[l]}${canonicalPath}`.replace(/\/?$/, '/'))
+        link.setAttribute('href', `${SITE_URL}${PATH_PREFIX[l]}${pathOf(l)}`.replace(/\/?$/, '/'))
         link.setAttribute('data-seo-hreflang', 'true')
         document.head.appendChild(link)
       }
     })
     // x-default mirrors the prerenderer: the EN URL when EN is among the
     // alternates, otherwise the first restricted locale's own URL.
-    const xDefaultPrefix = HREFLANGS.includes('en') || HREFLANGS.length === 0 ? '' : PATH_PREFIX[HREFLANGS[0]]
+    const xDefaultLang = HREFLANGS.includes('en') || HREFLANGS.length === 0 ? 'en' : HREFLANGS[0]
+    const xDefaultPrefix = PATH_PREFIX[xDefaultLang] ?? ''
     const xDefault = document.createElement('link')
     xDefault.setAttribute('rel', 'alternate')
     xDefault.setAttribute('hreflang', 'x-default')
-    xDefault.setAttribute('href', `${SITE_URL}${xDefaultPrefix}${canonicalPath}`.replace(/\/?$/, '/'))
+    xDefault.setAttribute('href', `${SITE_URL}${xDefaultPrefix}${pathOf(xDefaultLang)}`.replace(/\/?$/, '/'))
     xDefault.setAttribute('data-seo-hreflang', 'true')
     document.head.appendChild(xDefault)
 
@@ -181,7 +193,7 @@ export default function SEO({
     upsertMeta('meta[name="twitter:description"]', 'name', 'twitter:description', description)
     upsertMeta('meta[name="twitter:image"]', 'name', 'twitter:image', ogImageV)
     upsertMeta('meta[name="twitter:site"]', 'name', 'twitter:site', '@laplandvibes')
-  }, [title, description, canonicalPath, ogImage, keywords, localePrefix, ogLocale, bcp47, hreflangLangs])
+  }, [title, description, canonicalPath, ogImage, keywords, localePrefix, ogLocale, bcp47, hreflangLangs, hreflangPaths])
 
   return (
     <>

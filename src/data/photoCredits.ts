@@ -18,9 +18,12 @@ export type PlaceNames = { latin: string } & Partial<Record<'ja' | 'ko' | 'zh-CN
 export type PhotoEntry = {
   /** Näkyvä tekijärivi; puuttuu CC0/PD-kuvilta. */
   credit?: PhotoCreditData
+  /** Kumppanin oma kuva (Sembon hotellisivu): näkyy "Kuva: Sembo" ilman linkkiä, koska suora
+   *  kumppanilinkki ohittaisi Workerin (CLAUDE.md: never raw partner URLs in source). */
+  partnerCredit?: string
   place?: PlaceNames
   receipt: {
-    source: 'Wikimedia Commons' | 'Pexels'
+    source: 'Wikimedia Commons' | 'Pexels' | 'Sembo'
     id: string
     url: string
     license: string
@@ -191,6 +194,23 @@ export const PHOTO_CREDITS: Record<string, PhotoEntry> = {
       source: 'Wikimedia Commons', id: 'Puulämmitteinen palju.jpg', url: cm('Puulämmitteinen palju.jpg'),
       license: 'CC BY-SA 4.0', author: 'Suomenkotteria', date: '2016-06-01', retrieved: RETRIEVED, priceEur: 0,
       changes: 'vain pienennys 3840x2160 -> 900 px, AVIF + WebP, ei rajausta', checks: CHECKS + '; paikka Pyhtää (ei Lappi) => paikkaa ei väitetä; ei ihmisiä',
+    },
+  },
+  // ---------------------------------------------------------------- KUMPPANIN KUVAT
+  // Lasi-iglusivu (/glass-igloos, /de/glass-igloos, /ja/glass-igloos), 18.10.2026. Kohteen oma valokuva
+  // Sembon hotellisivulta, jonne en/de-varausnappi vie (Vesa 10.9.: kuva samasta kumppanilähteestä).
+  // Nimetty yritys ⇒ ei AI:ta eikä stockia (_jobs/01-kuvat.md §0). Ei sama ruutu kuin luxuryvillas
+  // (#1 ilmakuva) eikä hoteldeals (kelo-lasi-iglu): claim.mjs check 18.10. VAPAA.
+  'hero-glass-igloos': {
+    partnerCredit: 'Sembo',
+    place: { latin: 'Kakslauttanen Arctic Resort, Saariselkä', ja: 'カクスラウッタネン、サーリセルカ' },
+    receipt: {
+      source: 'Sembo', id: 'i.travelapi.com/lodging/13000000/12320000/12318200/12318138/fd112cf1.jpg',
+      url: 'https://www.sembo.fi/travel/plan/hotel-selection/h0/hotel-details/1679682',
+      license: 'Kohteen oma kuva Sembon hotellisivulla (affiliate-kumppani); jos Sembo tai Adtraction kieltää, kuva pois ja hero gradientiksi',
+      author: 'Kakslauttanen Arctic Resort / Sembo', date: 'ei tiedossa', retrieved: '2026-10-18', priceEur: 0,
+      changes: 'vain pienennys 2000x1333 -> 1920/1200/800 px, AVIF + WebP, ei rajausta (rajaus näytöllä object-fit); jakokortti scripts/og/gen_page_cards.mjs',
+      checks: 'katsottu täysikokoisena: aito valokuva kohteesta, kaksi ihmistä kaukana hupuissa (ei kuvan pääaihe), ei logoja; claim.mjs check (varauskirja, 29 repon nimihaku, 64x36-pikselivertailu) VAPAA 18.10.2026; sha256 0bc5916e',
     },
   },
   // ---------------------------------------------------------------- JAKOKORTTI (ei näy sivulla)

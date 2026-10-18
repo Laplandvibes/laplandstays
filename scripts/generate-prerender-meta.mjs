@@ -7,7 +7,8 @@
  *    <meta description> live in a page component or in a copy file that the
  *    prerender's own readers cannot address by path:
  *      /privacy, /terms, /cookie-policy  → `const META` record in the page component
- *      /iglumajoitus, /glass-igloos      → `const seo` in the page component
+ *      /iglumajoitus                     → `const seo` in the page component
+ *      (/glass-igloos has a copyFile since 18.10.2026: GlassIgloos.copy.<lang>.ts `seo`)
  *      /cabins/<area>                    → `areas.<area>.seo` in src/pages/CabinArea.copy.<lang>.ts
  *    The browser renders exactly these objects, so the server and the browser read
  *    one source; routes.json carries no second copy of them. scripts/_prerender_routes.mjs
@@ -56,7 +57,6 @@ const LEGAL_PAGES = {
 };
 const SINGLE_LOCALE_PAGES = {
   '/iglumajoitus': 'src/pages/Igloos.tsx',
-  '/glass-igloos': 'src/pages/GlassIgloos.tsx',
 };
 const CABIN_COPY = 'src/pages/CabinArea.copy.{lang}.ts';
 

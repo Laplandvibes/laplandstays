@@ -17,6 +17,7 @@ import { bookingForQuery } from '../data/propertyBooking'
 import { HOTEL_SEARCH_FOR, buildAffiliateUrl, propertyLodgingLink } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
+import { PAGE_CLUSTERS } from '../i18n/pageClusters'
 import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './PropertyTypesPage.copy.types'
 import enCopy from './PropertyTypesPage.copy.en'
@@ -355,6 +356,15 @@ const HERO_ALT: Record<Lang, string> = {
   sv: 'Gröna norrskensdraperier över en mörk granskog och ett rödbelyst staket, Ylläsjärvi i finska Lappland',
 }
 
+/** Link from the glass-igloo category to the igloo comparison page, in the languages that have one. */
+const IGLOO_PATHS = PAGE_CLUSTERS['glass-igloos'].paths
+const IGLOO_DEEP_LINK: Partial<Record<Lang, { lead: string; label: string }>> = {
+  en: { lead: 'This category has its own comparison page: ', label: 'Glass igloos in Finland, 11 resorts by area, airport and room type' },
+  fi: { lead: 'Iglumajoitusta vertaillaan tarkemmin omalla sivullaan: ', label: 'Iglumajoitus Lapissa: lasi-iglu, lumi-iglu vai igluhotelli' },
+  de: { lead: 'Für diese Kategorie gibt es eine eigene Vergleichsseite: ', label: 'Glasiglus in Finnland, 11 Resorts nach Region, Flughafen und Zimmertyp' },
+  ja: { lead: 'このカテゴリーだけを深掘りした比較ページがあります：', label: 'ガラスイグルー比較：11施設を料金・場所・予約時期で' },
+}
+
 export default function PropertyTypesPage() {
   const lang = useLang()
   const to = useLocalePath()
@@ -480,16 +490,16 @@ export default function PropertyTypesPage() {
             bg={meta.bg}
             imageSide={meta.imageSide}
           />
-          {/* ja-only: syvempi ガラスイグルー-vertailu elää vain /ja/-lokaalissa
-              (GlassIgloos.tsx) — muille kielille linkkiä ei renderöidä, koska
-              reittiä ei ole eikä aavelokaalilinkkejä saa mainostaa. */}
-          {meta.id === 'aurora-villas' && lang === 'ja' && (
+          {/* Syvempi lasi-iglusivu niillä kielillä joilla se on (src/i18n/pageClusters.ts):
+              en/de/ja /glass-igloos, fi /fi/iglumajoitus. Muille kielille linkkiä ei renderöidä,
+              koska sivua ei ole eikä aavelokaalilinkkejä saa mainostaa. */}
+          {meta.id === 'aurora-villas' && IGLOO_DEEP_LINK[lang] && IGLOO_PATHS[lang] && (
             <div className={`px-4 sm:px-6 pb-14 sm:pb-16 -mt-8 sm:-mt-10 ${meta.bg}`}>
               <div className="max-w-6xl mx-auto">
                 <p className="text-charcoal/75 text-[15px] leading-relaxed max-w-3xl">
-                  このカテゴリーだけを深掘りした比較ページがあります：
-                  <Link to="/ja/glass-igloos" className="text-pink font-semibold hover:underline">
-                    ガラスイグルー比較 — 11施設を料金・場所・予約時期で
+                  {IGLOO_DEEP_LINK[lang]!.lead}
+                  <Link to={to(IGLOO_PATHS[lang]!)} className="text-pink font-semibold hover:underline">
+                    {IGLOO_DEEP_LINK[lang]!.label}
                   </Link>
                 </p>
               </div>

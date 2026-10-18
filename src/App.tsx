@@ -76,7 +76,7 @@ const Transport = lazy(() => import('./pages/Transport'))
 const Cabins = lazy(() => import('./pages/Cabins'))
 // FI-only vertailusivu — reitti on olemassa VAIN /fi/-puolella (ks. Igloos.tsx).
 const Igloos = lazy(() => import('./pages/Igloos'))
-// JA-only vertailusivu — reitti on olemassa VAIN /ja/-puolella (ks. GlassIgloos.tsx).
+// Lasi-iglusivu en + de + ja (18.10.2026; fi = /fi/iglumajoitus). Ks. GlassIgloos.tsx, i18n/pageClusters.ts.
 const GlassIgloos = lazy(() => import('./pages/GlassIgloos'))
 const NewsIndex = lazy(() => import('./news/NewsIndex'))
 const NewsArticle = lazy(() => import('./news/NewsArticle'))
@@ -171,6 +171,7 @@ export default function App() {
             <Route path="/transport" element={<Transport />} />
             <Route path="/cabins" element={<Cabins />} />
             <Route path="/cabins/:area" element={<CabinArea />} />
+            <Route path="/glass-igloos" element={<GlassIgloos />} />
             <Route path="/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<Terms />} />
@@ -208,6 +209,7 @@ export default function App() {
             <Route path="/de/transport" element={<Transport />} />
             <Route path="/de/cabins" element={<Cabins />} />
             <Route path="/de/cabins/:area" element={<CabinArea />} />
+            <Route path="/de/glass-igloos" element={<GlassIgloos />} />
             <Route path="/de/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/de/privacy" element={<PrivacyPolicy />} />
             <Route path="/de/terms" element={<Terms />} />

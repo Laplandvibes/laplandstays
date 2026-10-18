@@ -727,5 +727,86 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "glass-igloos": {
+    "route": "/glass-igloos",
+    "line": "Glass igloos in Finland, compared",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-glass-igloos-1920.webp",
+        "bytes": 245684,
+        "sha256": "ff6f48ea865a9aace7a4b08670f2e735e5546c42cdbb8f14285552b81dbbf779",
+        "heroSha": "ee5351af17e8c379",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15375,
+        "inkBox": [
+          368,
+          493,
+          831,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 118.6,
+        "centerSq": 119.3,
+        "photoRegion": 148.4,
+        "photoRegionRef": 148.4,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 465,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-glass-igloos-1920.webp",
+        "bytes": 245684,
+        "sha256": "ff6f48ea865a9aace7a4b08670f2e735e5546c42cdbb8f14285552b81dbbf779",
+        "heroSha": "ee5351af17e8c379",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15375,
+        "inkBox": [
+          368,
+          493,
+          831,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 118.6,
+        "centerSq": 119.3,
+        "photoRegion": 148.4,
+        "photoRegionRef": 148.4,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 465,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

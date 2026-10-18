@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom';
 import LanguageMenu, { type LanguageOption } from './LanguageMenu';
 import { useLang } from './useLang';
+import { clusterOf } from './pageClusters';
 
 /**
  * Sivustokohtainen kytkentä kanoniseen `LanguageMenu`-komponenttiin niillä
@@ -82,14 +83,18 @@ export default function LanguageSwitcher({
   const lang = useLang() as string;
   const { pathname } = useLocation();
   const bare = bareOf(pathname);
+  // Sivu, jonka kieliversiot ovat eri osoitteissa (lasi-iglut: /fi/iglumajoitus ↔ /glass-igloos):
+  // kieli saa oman osoitteensa, tai sivun puuttuessa ryhmän varasivun, ei 404:ää (pageClusters.ts).
+  const cluster = clusterOf(lang, bare.replace(/\/$/, '') || '/');
 
   const items: LanguageOption[] = LANGS.map((l) => {
     const prefix = PREFIX_OF[l.code];
+    const target = cluster ? (cluster.paths[l.code] ?? cluster.fallback) : bare;
     return {
       code: l.code,
       label: l.label,
       native: l.native,
-      href: prefix ? (bare === '/' ? `/${prefix}` : `/${prefix}${bare}`) : bare,
+      href: prefix ? (target === '/' ? `/${prefix}` : `/${prefix}${target}`) : target,
       hrefLang: l.code === 'zh-CN' ? 'zh-Hant' : l.code,
     };
   });

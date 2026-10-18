@@ -19,6 +19,8 @@ const BY: Record<Lang, string> = {
   en: 'Photo: ', fi: 'Kuva: ', de: 'Foto: ', ja: '撮影：', es: 'Foto: ', 'pt-BR': 'Foto: ',
   'zh-CN': '攝影：', ko: '촬영: ', fr: 'Photo : ', it: 'Foto: ', nl: 'Foto: ', sv: 'Foto: ',
 }
+/** Kumppanin toimittama kuva: CJK-kielissä "kuvan toimittanut", ei "kuvannut" (撮影 = kuvaaja). */
+const SUPPLIED: Partial<Record<Lang, string>> = { ja: '写真提供：', 'zh-CN': '圖片提供：', ko: '사진 제공: ' }
 const LINK = 'lv-tap after:-z-10 underline decoration-white/50 underline-offset-2 hover:decoration-white'
 
 const placeText = (p: PlaceNames, lang: Lang) => (lang === 'ja' || lang === 'ko' || lang === 'zh-CN' ? p[lang] : undefined) ?? p.latin
@@ -26,10 +28,12 @@ const placeText = (p: PlaceNames, lang: Lang) => (lang === 'ja' || lang === 'ko'
 export default function PhotoMark({ id, className = '' }: { id: string; className?: string }) {
   const lang = useLang()
   const e = PHOTO_CREDITS[id]
-  if (!e || (!e.credit && !e.place)) return null
+  if (!e || (!e.credit && !e.place && !e.partnerCredit)) return null
   return (
     <span className={`block w-fit max-w-full rounded bg-black/60 px-1.5 py-[3px] text-right text-[10px] font-normal normal-case tracking-normal leading-tight text-white ${className}`}>
       {e.place && <span className="block">{PICTURED[lang] + placeText(e.place, lang)}</span>}
+      {/* Kumppanin oma kuva: nimi ilman linkkiä (suora kumppanilinkki ohittaisi Workerin). */}
+      {e.partnerCredit && <span className="block">{(SUPPLIED[lang] ?? BY[lang]) + e.partnerCredit}</span>}
       {e.credit && (
         <span className="block">
           {BY[lang]}

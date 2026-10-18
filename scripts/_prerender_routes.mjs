@@ -1759,9 +1759,24 @@ for (const route of routes) {
     // hreflang-koodit per lokaali: oletus = lang, mutta lokaali voi julkaista useamman koodin
     // (zh-CN → zh-Hant + zh, ks. FULL_LOCALE_LIST).
     const hreflangCodes = (l) => (Array.isArray(l.hreflang) ? l.hreflang : [l.lang])
+    // [LV-HREFLANG-KLUSTERI 2026-10-18] A page whose language versions live at DIFFERENT paths
+    // (laplandstays: fi /fi/iglumajoitus ↔ en/de/ja /glass-igloos). Routes sharing a
+    // "hreflangCluster" key list each other's locales as alternates, each at its own path, in
+    // LOCALE_LIST order. Same set as SEO.tsx `hreflangPaths` and public/sitemap.xml.
+    // Without the key nothing changes. Not yet in the canonical monorepo copy.
+    const clusterAlts = route.hreflangCluster
+      ? LOCALE_LIST.flatMap((l) => {
+          const r = routes.find((x) => x.hreflangCluster === route.hreflangCluster && Array.isArray(x.locales) && x.locales.includes(l.lang))
+          return r ? [{ l, path: r.path === '/' ? '' : r.path }] : []
+        })
+      : null
     const hreflangs = consolidateTo
       ? hreflangCodes(canonicalLoc).map((code) => ({ hreflang: code, url: canonical }))
-      : hreflangLocales.flatMap((l) =>
+      : clusterAlts
+        ? clusterAlts.flatMap(({ l, path }) =>
+            hreflangCodes(l).map((code) => ({ hreflang: code, url: `${SITE}${l.prefix}${path}`.replace(SLASH_END, '/') })),
+          )
+        : hreflangLocales.flatMap((l) =>
           hreflangCodes(l).map((code) => ({
             hreflang: code,
             url: `${SITE}${l.prefix}${cleanPath}`.replace(SLASH_END, '/'),

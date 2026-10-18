@@ -241,16 +241,23 @@
     ],
     "harvestFiles": [
       "src/pages/Igloos.tsx"
-    ]
+    ],
+    "hreflangCluster": "glass-igloos"
   },
   {
     "path": "/glass-igloos",
     "locales": [
+      "en",
+      "de",
       "ja"
     ],
-    "harvestFiles": [
-      "src/pages/GlassIgloos.tsx"
-    ]
+    "copyFile": "src/pages/GlassIgloos.copy.{lang}.ts",
+    "hreflangCluster": "glass-igloos",
+    "ogImage": "/og/glass-igloos.jpg",
+    "ogCard": {
+      "hero": "/images/hero-glass-igloos-1920.webp",
+      "line": "Glass igloos in Finland, compared"
+    }
   },
   {
     "path": "/destinations/levi",
