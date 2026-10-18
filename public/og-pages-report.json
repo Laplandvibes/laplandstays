@@ -646,5 +646,86 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-lapland-accommodation-building-record-2026": {
+    "route": "/news/lapland-accommodation-building-record-2026",
+    "line": "A record year for new places to stay",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/yllas-hero.webp",
+        "bytes": 116475,
+        "sha256": "b916a433d24fe90dfc763831928e3b26acfca5e3ab45827d50a262b0fa6a8bd9",
+        "heroSha": "dafe1b82ba47561b",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15364,
+        "inkBox": [
+          348,
+          493,
+          851,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 158.2,
+        "centerSq": 167,
+        "photoRegion": 202.3,
+        "photoRegionRef": 202.3,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 504,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/yllas-hero.webp",
+        "bytes": 116475,
+        "sha256": "b916a433d24fe90dfc763831928e3b26acfca5e3ab45827d50a262b0fa6a8bd9",
+        "heroSha": "dafe1b82ba47561b",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15364,
+        "inkBox": [
+          348,
+          493,
+          851,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 158.2,
+        "centerSq": 167,
+        "photoRegion": 202.3,
+        "photoRegionRef": 202.3,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 504,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

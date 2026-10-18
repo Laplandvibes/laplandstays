@@ -359,7 +359,11 @@
     "path": "/news/lapland-accommodation-building-record-2026",
     "fallbackTitle": "Record building of new accommodation in Lapland",
     "fallbackDescription": "Kittilä has granted 233 building permits this year, more than half for tourist accommodation. What is being built, and the new places to stay this winter.",
-    "ogImage": "/images/yllas-hero.webp",
+    "ogImage": "/og/news-lapland-accommodation-building-record-2026.jpg",
+    "ogCard": {
+      "hero": "/images/yllas-hero.webp",
+      "line": "A record year for new places to stay"
+    },
     "harvestRecord": {
       "file": "node_modules/.cache/lv-news/lapland-accommodation-building-record-2026/{lang}.json",
       "key": "lapland-accommodation-building-record-2026",
