@@ -10,6 +10,7 @@
  * browser, so Google never saw a single cabin. This script turns the feed dump into
  *
  *   src/data/cabins/<area>.json          — cards for the /cabins/<area> page (lazy chunk)
+ *   src/data/cabins/areas.json           — area + place + count, for the /cabins hub index
  *   src/data/cabinAreas.gen.<lang>.ts    — harvestRecord source for the prerender: one
  *                                           sentence per cabin so the crawlable body of
  *                                           /<lang>/cabins/<area> lists real cabins
@@ -247,6 +248,10 @@ export const cabinAreas = ${JSON.stringify(gen[lang], null, 2)} as const;
 `;
   writeFileSync(resolve(SITE, 'src', 'data', `cabinAreas.gen.${lang}.ts`), body);
 }
+// Index for the /cabins hub (Cabins.tsx "cabins by area"): one row per area page, so the hub
+// links every area with its count without importing the 1 580-cabin data files (18.10.2026:
+// the hub linked 4 of 16 area pages).
+writeFileSync(resolve(outDir, 'areas.json'), JSON.stringify(results.map(({ area, def, rows }) => ({ area, place: def.place, count: rows.length }))));
 console.log(summary.join('\n'));
 const splitNow = results.filter((r) => r.split).map((r) => r.area);
 const drift = [...splitNow.filter((a) => !SPLIT_COPY.includes(a)), ...SPLIT_COPY.filter((a) => !splitNow.includes(a))];

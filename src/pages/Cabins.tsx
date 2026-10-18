@@ -17,6 +17,7 @@ import { useLocalePath } from '../i18n/useLang'
 import type { PageCopy } from './Cabins.copy.types'
 import enCopy from './Cabins.copy.en'
 import PhotoMark from '../components/PhotoMark'
+import AREA_INDEX from '../data/cabins/areas.json'
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -107,6 +108,15 @@ export default function Cabins() {
   // Internal link to /cabins/<area>, the crawlable inventory page (fi/en/de only; OpenSEO 16.9.2026).
   const AREA_PAGE_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen mökit tällä sivustolla', en: 'All cabins in the area on this site', de: 'Alle Hütten der Region auf dieser Website' }
   const areaPageLabel = AREA_PAGE_LABEL[lang]
+  // Every /cabins/<area> page with its cabin count, biggest selection first (18.10.2026: the hub
+  // linked only the four areas above, 4 of 16 pages). Counts come from gen-cabin-areas.mjs.
+  const BY_AREA: Partial<Record<string, { h2: string; lead: string; count: string }>> = {
+    fi: { h2: 'Mökit paikkakunnittain', lead: 'Jokaisella sivulla ovat paikkakunnan kaikki Lomarenkaan mökit kuvineen ja jokaisen mökin etäisyys lähimpään kylään tai keskukseen.', count: '{n} mökkiä' },
+    en: { h2: 'Cabins by area', lead: 'Each page lists every Lomarengas cabin in the area, with photos and each cabin’s distance to the nearest village or resort.', count: '{n} cabins' },
+    de: { h2: 'Ferienhäuser nach Ort', lead: 'Jede Seite zeigt alle Ferienhäuser von Lomarengas in der Gegend, mit Fotos und der Entfernung jedes Hauses zum nächsten Ort oder Skigebiet.', count: '{n} Ferienhäuser' },
+  }
+  const byArea = BY_AREA[lang]
+  const areaIndex = [...AREA_INDEX].sort((a, b) => b.count - a.count)
   const ctaHref = buildLomarengasUrl('lapland', 'article_cabin_lapland', lang)
 
   return (
@@ -264,6 +274,32 @@ export default function Cabins() {
           </div>
         </div>
       </section>
+
+      {/* Every area page (fi/en/de, where the pages exist) */}
+      {byArea && (
+        <section className="pb-16 sm:pb-20 px-4 sm:px-6 bg-white">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-4">{byArea.h2}</h2>
+            <p className="text-charcoal/70 text-lg leading-relaxed mb-8 max-w-3xl">{byArea.lead}</p>
+            <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
+              {areaIndex.map((a) => (
+                <li key={a.area}>
+                  <Link
+                    to={to(`/cabins/${a.area}`)}
+                    className="group flex h-full min-h-11 items-center justify-between gap-2 rounded-2xl border border-pink/15 bg-gradient-to-r from-pink/5 to-white p-3.5 sm:p-4 hover:border-pink/50 transition-colors"
+                  >
+                    <span className="min-w-0">
+                      <span translate="no" className="block font-heading text-xl sm:text-2xl text-night tracking-wide leading-tight break-words">{a.place}</span>
+                      <span className="block text-charcoal/70 text-[13px] sm:text-sm">{byArea.count.replace('{n}', String(a.count))}</span>
+                    </span>
+                    <ArrowRight className="w-4 h-4 shrink-0 text-pink group-hover:translate-x-0.5 transition-transform" aria-hidden="true" />
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* Live cabin showcase: real Lomarengas photos from the /_cabins feed API */}
       <CabinShowcase
