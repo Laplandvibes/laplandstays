@@ -30,6 +30,10 @@
  * (Kuusamo outside Ruka village). Re-run this script monthly all the same: the crawlable body
  * and the cabin count come from here.
  *
+ * `--text-only` rewrites only the crawlable text files (src/data/cabinAreas.gen.<lang>.ts) from the
+ * committed area files, without the feed dump and without the network: use it after a copy change in
+ * TPL / NAME below (19.10.2026, nine languages added). A full run writes the same text files.
+ *
  * 🔴 No prices in these files on purpose. Weekly prices in the dump are a snapshot that
  * goes stale with every week (Vesa removed "from" prices from this site 22.8.2026 for that
  * reason). The page overlays LIVE prices at runtime from the Worker's daily /_cabins feed
@@ -50,11 +54,12 @@ const SITE = resolve(HERE, '..');
 // the monorepo); default is the monorepo's committed dump.
 const srcArg = process.argv.indexOf('--src');
 const SRC = srcArg > 0 ? resolve(process.argv[srcArg + 1]) : resolve(SITE, '..', '_affiliate', 'lomarengas-lapland.json');
-if (!existsSync(SRC)) {
+const TEXT_ONLY = process.argv.includes('--text-only');
+if (!TEXT_ONLY && !existsSync(SRC)) {
   console.error(`✗ ${SRC} puuttuu — aja ensin node scripts/sync_lomarengas_feed.mjs monorepon juuressa`);
   process.exit(1);
 }
-const dump = JSON.parse(readFileSync(SRC, 'utf8'));
+const dump = TEXT_ONLY ? { cottages: [] } : JSON.parse(readFileSync(SRC, 'utf8'));
 const all = dump.cottages || [];
 
 /** Name without a trailing unit marker: "Porukka 2" → "porukka", "Nilikuru a 2" → "nilikuru". */
@@ -99,10 +104,18 @@ const DIST = {
   en: (c) => (c.km < 1 ? `, under 1 km ${REFS[c.ref].en}` : `, about ${c.km} km ${REFS[c.ref].en}`),
   de: (c) => (c.km < 1 ? `, unter 1 km ${REFS[c.ref].de}` : `, etwa ${c.km} km ${REFS[c.ref].de}`),
 };
+// Singular and plural by the language's own rule (Intl.PluralRules): 462 of 1 580 cabins have one
+// bedroom and 44 one star, so a fixed plural printed "1 bedrooms" / "1 makuuhuonetta" on ~30 % of the
+// lines (measured 19.10.2026). `n(lang, x, one, other)`: `#` in the form is the number.
+const PLURAL_LOCALE = { ptBR: 'pt-BR', zhCN: 'zh-TW' };
+const plural = (lang, x, one, other) => (new Intl.PluralRules(PLURAL_LOCALE[lang] || lang).select(x) === 'one' ? one : other).replace('#', String(x));
+// A cabin with no bedroom count (studio, 229 of 1 580), no star rating (7) or no size (1) says nothing
+// about it, as on the card: "0 bedrooms" / "0 stars" / "0 m²" read as a defect (measured 19.10.2026).
+const opt = (x, text) => (x > 0 ? text : '');
 const LINE = {
-  fi: (c) => `${c.name}, ${where(c)}${DIST.fi(c)}: ${c.guests} vierasta, ${c.br} makuuhuonetta, ${c.sqm} m², ${c.stars} tähteä.`,
-  en: (c) => `${c.name}, ${where(c)}${DIST.en(c)}: sleeps ${c.guests}, ${c.br} bedrooms, ${c.sqm} m², ${c.stars} stars.`,
-  de: (c) => `${c.name}, ${where(c)}${DIST.de(c)}: ${c.guests} Personen, ${c.br} Schlafzimmer, ${c.sqm} m², ${c.stars} Sterne.`,
+  fi: (c) => `${c.name}, ${where(c)}${DIST.fi(c)}: ${plural('fi', c.guests, '# vieras', '# vierasta')}${opt(c.br, `, ${plural('fi', c.br, '# makuuhuone', '# makuuhuonetta')}`)}${opt(c.sqm, `, ${c.sqm} m²`)}${opt(c.stars, `, ${plural('fi', c.stars, '# tähti', '# tähteä')}`)}.`,
+  en: (c) => `${c.name}, ${where(c)}${DIST.en(c)}: sleeps ${c.guests}${opt(c.br, `, ${plural('en', c.br, '# bedroom', '# bedrooms')}`)}${opt(c.sqm, `, ${c.sqm} m²`)}${opt(c.stars, `, ${plural('en', c.stars, '# star', '# stars')}`)}.`,
+  de: (c) => `${c.name}, ${where(c)}${DIST.de(c)}: ${plural('de', c.guests, '# Person', '# Personen')}${opt(c.br, `, ${c.br} Schlafzimmer`)}${opt(c.sqm, `, ${c.sqm} m²`)}${opt(c.stars, `, ${plural('de', c.stars, '# Stern', '# Sterne')}`)}.`,
 };
 const HEAD = {
   fi: (name, n) => `${name}: ${n} vuokramökkiä Lomarenkaan valikoimassa. Jokaisesta mökistä etäisyys lähimpään kylään tai keskukseen, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.`,
@@ -135,6 +148,32 @@ const NAME = {
   muonio: { fi: 'Muonion mökit', en: 'Cabins in Muonio', de: 'Ferienhäuser in Muonio' },
 };
 
+// The other nine site languages (19.10.2026): templates and names in scripts/cabin-areas.i18n.json,
+// keyed by the copy-file ident (ptBR, zhCN). Placeholders: {name} {where} {dist} {guests} {br} {sqm}
+// {stars} in `line`; {place} {muni} in `where`; {km} {from} in `dist`/`distUnder1`; {name} {n} in
+// `head`; {name} {near} {nearKm} {far} in `headRuka`. `from` is the phrase of refs.json in that language.
+const I18N_PATH = resolve(SITE, 'scripts', 'cabin-areas.i18n.json');
+const I18N = existsSync(I18N_PATH) ? JSON.parse(readFileSync(I18N_PATH, 'utf8')) : {};
+// `{br}` = the value; `{br|# camera|# camere}` = singular/plural form by the language's rule;
+// `[[br|, …]]` = the part inside only when the value is above 0 (no "0 bedrooms" / "0 stars").
+const fill = (t, v, lang) => t.replace(/\[\[(\w+)\|([\s\S]*?)\]\]/g, (m, k, inner) => (k in v ? (Number(v[k]) > 0 ? inner : '') : m)).replace(/\{(\w+)(?:\|([^|}]*)\|([^}]*))?\}/g, (m, k, one, other) =>
+  !(k in v) ? m : one !== undefined ? plural(lang, v[k], one, other) : String(v[k]));
+for (const [lang, t] of Object.entries(I18N)) {
+  for (const area of Object.keys(NAME)) {
+    if (!t.name?.[area]) { console.error(`✗ cabin-areas.i18n.json ${lang}: name.${area} puuttuu`); process.exit(1); }
+    NAME[area][lang] = t.name[area];
+  }
+  for (const key of Object.keys(REFS).filter((k) => k !== '_')) {
+    if (!REFS[key][lang]) { console.error(`✗ src/data/cabins/refs.json ${key}: ${lang} puuttuu`); process.exit(1); }
+  }
+  const whereT = (c) => (c.place === c.muni ? c.place : fill(t.where, { place: c.place, muni: c.muni }, lang));
+  DIST[lang] = (c) => fill(c.km < 1 ? t.distUnder1 : t.dist, { km: c.km, from: REFS[c.ref][lang] }, lang);
+  LINE[lang] = (c) => fill(t.line, { name: c.name, where: whereT(c), dist: DIST[lang](c), guests: c.guests, br: c.br, sqm: c.sqm, stars: c.stars }, lang);
+  HEAD[lang] = (name, n) => fill(t.head, { name, n }, lang);
+  HEAD_AREA.ruka[lang] = (name, near, far) => fill(t.headRuka, { name, near, far, nearKm: NEAR_KM }, lang);
+}
+const LANGS = ['fi', 'en', 'de', ...Object.keys(I18N)];
+
 // Image validation: the dump is a snapshot and Channable purges creatives of delisted cabins.
 // A card with a broken photo fails the image-frame gate and sells nothing, so every image is
 // HEAD-checked here and cabins whose photo is gone are dropped (measured 16.9.2026: 1 of 24 on Levi).
@@ -162,7 +201,36 @@ async function filterAlive(rows) {
 
 const outDir = resolve(SITE, 'src', 'data', 'cabins');
 mkdirSync(outDir, { recursive: true });
-const gen = { fi: {}, en: {}, de: {} };
+const gen = Object.fromEntries(LANGS.map((l) => [l, {}]));
+const textFor = (area, rows, split) => {
+  for (const lang of LANGS) {
+    gen[lang][area] = {
+      title: NAME[area][lang],
+      intro: split && HEAD_AREA[area] ? HEAD_AREA[area][lang](NAME[area][lang], split.near, split.far) : HEAD[lang](NAME[area][lang], rows.length),
+      lines: rows.slice(0, 60).map((c) => LINE[lang](c)),
+    };
+  }
+};
+const writeText = () => {
+  for (const lang of LANGS) {
+    const body = `// GENEROITU, älä muokkaa käsin. scripts/gen-cabin-areas.mjs lukee Lomarenkaan
+// tuotesyötteen (_affiliate/lomarengas-lapland.json) ja kirjoittaa tämän prerenderin
+// harvestRecord-lähteeksi: /cabins/<alue> -sivun ryömittävä runko listaa oikeat mökit.
+// Kieli: ${lang}. Ei hintoja (viikkohinta vanhenee; live-hinta tulee Workerin syötteestä).
+export const cabinAreas = ${JSON.stringify(gen[lang], null, 2)} as const;
+`;
+    writeFileSync(resolve(SITE, 'src', 'data', `cabinAreas.gen.${lang}.ts`), body);
+  }
+};
+if (TEXT_ONLY) {
+  for (const area of Object.keys(AREAS)) {
+    const d = JSON.parse(readFileSync(resolve(outDir, `${area}.json`), 'utf8'));
+    textFor(area, d.cabins, d.split || null);
+  }
+  writeText();
+  console.log(`✓ --text-only: src/data/cabinAreas.gen.{${LANGS.join(',')}}.ts ${Object.keys(AREAS).length} alueesta (ei syötettä, ei verkkoa)`);
+  process.exit(0);
+}
 const summary = [];
 // Every area first, then write: a missing coordinate must not leave half the pages regenerated.
 const results = [];
@@ -230,24 +298,10 @@ for (const { area, def, rows, split, dropped, deadImages } of results) {
   // The sync script leaves `generated` null on purpose ("stamp it at run time"): this run
   // HEAD-checked every photo today, so today is the date the data was last known good.
   writeFileSync(resolve(outDir, `${area}.json`), JSON.stringify({ area, place: def.place, count: rows.length, generated: dump.generated || new Date().toISOString().slice(0, 10), ...(split ? { split } : {}), cabins: rows }));
-  for (const lang of ['fi', 'en', 'de']) {
-    gen[lang][area] = {
-      title: NAME[area][lang],
-      intro: split && HEAD_AREA[area] ? HEAD_AREA[area][lang](NAME[area][lang], split.near, split.far) : HEAD[lang](NAME[area][lang], rows.length),
-      lines: rows.slice(0, 60).map((c) => LINE[lang](c)),
-    };
-  }
+  textFor(area, rows, split);
   summary.push(`${area.padEnd(12)} ${String(rows.length).padStart(4)} mökkiä${split ? ` (lähellä ${split.near}, kauempana ${split.far})` : ''} (pudotettu ${dropped}, kuva kuollut ${deadImages})`);
 }
-for (const lang of ['fi', 'en', 'de']) {
-  const body = `// GENEROITU — älä muokkaa käsin. scripts/gen-cabin-areas.mjs lukee Lomarenkaan
-// tuotesyötteen (_affiliate/lomarengas-lapland.json) ja kirjoittaa tämän prerenderin
-// harvestRecord-lähteeksi: /cabins/<alue> -sivun ryömittävä runko listaa oikeat mökit.
-// Kieli: ${lang}. Ei hintoja (viikkohinta vanhenee; live-hinta tulee Workerin syötteestä).
-export const cabinAreas = ${JSON.stringify(gen[lang], null, 2)} as const;
-`;
-  writeFileSync(resolve(SITE, 'src', 'data', `cabinAreas.gen.${lang}.ts`), body);
-}
+writeText();
 // Index for the /cabins hub (Cabins.tsx "cabins by area"): one row per area page, so the hub
 // links every area with its count without importing the 1 580-cabin data files (18.10.2026:
 // the hub linked 4 of 16 area pages).
@@ -256,4 +310,4 @@ console.log(summary.join('\n'));
 const splitNow = results.filter((r) => r.split).map((r) => r.area);
 const drift = [...splitNow.filter((a) => !SPLIT_COPY.includes(a)), ...SPLIT_COPY.filter((a) => !splitNow.includes(a))];
 if (drift.length) console.warn(`⚠️ osiojako muuttui (${drift.join(', ')}): päivitä CabinArea.copy.*.ts split + intro ja SPLIT_COPY`);
-console.log(`✓ src/data/cabins/*.json + src/data/cabinAreas.gen.{fi,en,de}.ts (lähde ${dump.count} mökkiä)`);
+console.log(`✓ src/data/cabins/*.json + src/data/cabinAreas.gen.{${LANGS.join(',')}}.ts (lähde ${dump.count} mökkiä)`);

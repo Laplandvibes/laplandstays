@@ -356,7 +356,7 @@ export default function GlassIgloos() {
         </div>
       </section>
 
-      {/* Igloo nights + a cabin week (en/de; this site's cabin pages exist in fi/en/de) */}
+      {/* Igloo nights + a cabin week (en/de) */}
       {c.cabinCombo && (
         <section className="py-14 sm:py-16 px-4 sm:px-6 bg-white">
           <div className="max-w-4xl mx-auto">

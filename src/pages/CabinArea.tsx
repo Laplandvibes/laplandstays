@@ -1,15 +1,14 @@
 import { useEffect, useMemo, useState } from 'react'
-import { Link, Navigate, useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { ArrowRight, BedDouble, ExternalLink, MapPin, Ruler, Users } from 'lucide-react'
 import SEO from '../components/SEO'
 import NotFound from './NotFound'
-import { useLang, useLocalePath } from '../i18n/useLang'
+import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
+import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import { buildLomarengasCabinUrl, buildLomarengasUrl, CABINS_API, type LomarengasArea } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import type { CabinAreaPageCopy, CabinAreaSlug } from './CabinArea.copy.types'
-import fiCopy from './CabinArea.copy.fi'
 import enCopy from './CabinArea.copy.en'
-import deCopy from './CabinArea.copy.de'
 import REFS from '../data/cabins/refs.json'
 
 /**
@@ -23,9 +22,12 @@ import REFS from '../data/cabins/refs.json'
  * (scripts/gen-cabin-areas.mjs) and the prerender prints the first 60 cabins into the
  * crawlable body via routes.json `harvestRecord`, so the answer is in the HTML.
  *
- * Only fi, en and de have copy: that is where the demand is (OpenSEO 16.9.). Other
- * locales are routed here too and redirect to their /cabins page, so the shared
- * LanguageMenu never lands on a 404.
+ * Every site language has copy since 19.10.2026 (Vesa 18.10.: a reader who came for a hotel
+ * and browses the site in Swedish or Japanese must find the cabins too, not a dead end).
+ * Until then only fi/en/de existed and the other nine redirected to /cabins. OpenSEO
+ * demand per market chose the words of each title (19.10.), not whether the page exists.
+ * Lomarengas itself is only in Finnish and English: every other language links to the
+ * English Lomarengas site and says so (dataNote, browseAll).
  *
  * 🔴 No stored prices. The dump's weekly prices go stale (Vesa removed "from" prices from
  * this site 22.8.2026). The daily Worker feed (/_cabins) is overlaid at runtime for the
@@ -37,7 +39,22 @@ const AREAS: CabinAreaSlug[] = [
   'inari', 'enontekio', 'utsjoki', 'muonio', 'kittila', 'sodankyla', 'salla', 'kemijarvi', 'posio', 'pello',
 ]
 
-const COPY: Partial<Record<string, CabinAreaPageCopy>> = { fi: fiCopy, en: enCopy, de: deCopy }
+const cache: Partial<Record<Lang, CabinAreaPageCopy>> = { en: enCopy }
+const loaders: Record<Lang, () => Promise<{ default: CabinAreaPageCopy }>> = {
+  en: () => import('./CabinArea.copy.en'),
+  fi: () => import('./CabinArea.copy.fi'),
+  de: () => import('./CabinArea.copy.de'),
+  ja: () => import('./CabinArea.copy.ja'),
+  es: () => import('./CabinArea.copy.es'),
+  'pt-BR': () => import('./CabinArea.copy.ptBR'),
+  'zh-CN': () => import('./CabinArea.copy.zhCN'),
+  ko: () => import('./CabinArea.copy.ko'),
+  fr: () => import('./CabinArea.copy.fr'),
+  it: () => import('./CabinArea.copy.it'),
+  nl: () => import('./CabinArea.copy.nl'),
+  sv: () => import('./CabinArea.copy.sv'),
+}
+preloadLazyCopy(cache, loaders)
 
 /** Lomarengas search for the "browse all" button: the resort search where Lomarengas has one,
  *  else the municipality search (verified by page title 17.10.2026). Pyhä-Luosto spans two resorts,
@@ -95,11 +112,12 @@ const LOADERS: Record<CabinAreaSlug, () => Promise<{ default: AreaData }>> = {
   muonio: () => import('../data/cabins/muonio.json'),
 }
 
-type RefPhrase = { fi: string; en: string; de: string }
-const refPhrase = (ref: string | undefined, lang: string): string | null => {
-  const r = ref ? (REFS as unknown as Record<string, RefPhrase>)[ref] : undefined
+// refs.json keys a phrase by the copy-file ident (ptBR, zhCN), like the copy files.
+const REF_KEY: Record<Lang, string> = { en: 'en', fi: 'fi', de: 'de', ja: 'ja', es: 'es', 'pt-BR': 'ptBR', 'zh-CN': 'zhCN', ko: 'ko', fr: 'fr', it: 'it', nl: 'nl', sv: 'sv' }
+const refPhrase = (ref: string | undefined, lang: Lang): string | null => {
+  const r = ref ? (REFS as unknown as Record<string, Record<string, string>>)[ref] : undefined
   if (!r) return null
-  return lang === 'fi' ? r.fi : lang === 'de' ? r.de : r.en
+  return r[REF_KEY[lang]] ?? r.en
 }
 
 const PAGE = 24
@@ -170,7 +188,7 @@ export default function CabinArea() {
   const { area } = useParams<{ area: string }>()
   const lang = useLang()
   const to = useLocalePath()
-  const copy = COPY[lang]
+  const copy = useLazyCopy(lang, cache, loaders)
   const slug = (AREAS as string[]).includes(area || '') ? (area as CabinAreaSlug) : null
 
   const [data, setData] = useState<AreaData | null>(null)
@@ -214,9 +232,6 @@ export default function CabinArea() {
   }, [lang, live])
 
   if (!slug) return <NotFound />
-  // No copy in this language ⇒ the locale has no cabin-area pages; send the visitor to
-  // the localized cabins guide instead of an empty route (the LanguageMenu links here).
-  if (!copy) return <Navigate to={to('/cabins')} replace />
 
   const c = copy.areas[slug]
   const count = data?.count ?? 0
@@ -228,6 +243,7 @@ export default function CabinArea() {
   const destination = DESTINATION[slug]
   const split = data?.split && c.split ? c.split : null
   const CardTitle = split ? 'h3' : 'h2'
+  const sentenceGap = lang === 'ja' || lang === 'zh-CN' ? '' : ' '
 
   const card = (cabin: Cabin) => {
     const sid = `cabinpage_${slug}`
@@ -290,11 +306,13 @@ export default function CabinArea() {
                 {cabin.br}
               </span>
             )}
-            <span className="inline-flex items-center gap-1.5">
-              <Ruler className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
-              <span className="sr-only">{copy.sizeLabel}: </span>
-              {nf.format(cabin.sqm)} m²
-            </span>
+            {cabin.sqm > 0 && (
+              <span className="inline-flex items-center gap-1.5">
+                <Ruler className="w-3.5 h-3.5 text-pink" aria-hidden="true" />
+                <span className="sr-only">{copy.sizeLabel}: </span>
+                {nf.format(cabin.sqm)} m²
+              </span>
+            )}
           </div>
           <div className="flex flex-wrap items-center justify-between gap-x-2 gap-y-1 border-t border-gray-100 pt-3">
             <p className="text-[13px] text-charcoal/75 min-w-0">
@@ -322,7 +340,7 @@ export default function CabinArea() {
             onClick={more}
             className="inline-flex items-center justify-center gap-2 text-sm px-6 py-3 min-h-11 rounded-full border border-white/30 text-white font-semibold hover:border-pink hover:text-pink transition-colors"
           >
-            {copy.showMore} ({nf.format(n)}/{nf.format(list.length)})
+            {sentenceGap ? `${copy.showMore} (${nf.format(n)}/${nf.format(list.length)})` : `${copy.showMore}（${nf.format(n)}/${nf.format(list.length)}）`}
           </button>
         </div>
       )}
@@ -342,7 +360,6 @@ export default function CabinArea() {
         description={c.seo.description}
         canonicalPath={`/cabins/${slug}`}
         ogImage="https://laplandstays.com/og-default.jpg"
-        hreflangLangs={['en', 'fi', 'de']}
         jsonLd={{ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: crumbs }}
       />
 
@@ -407,10 +424,11 @@ export default function CabinArea() {
             grid([...groups.near, ...groups.far], shown, () => setShown((n) => n + PAGE))
           )}
 
+          {/* Japanese and Chinese sentences end in 。 and run on without a space. */}
           <p className="mt-8 text-white/50 text-[12px] leading-relaxed max-w-3xl">
             {copy.dataNote}
-            {data?.cabins.some((x) => x.km != null) ? ' ' + copy.distanceNote : ''}
-            {priceDate ? ' ' + copy.pricesDated.replace('{date}', priceDate) : ''}
+            {data?.cabins.some((x) => x.km != null) ? sentenceGap + copy.distanceNote : ''}
+            {priceDate ? sentenceGap + copy.pricesDated.replace('{date}', priceDate) : ''}
           </p>
         </div>
       </section>

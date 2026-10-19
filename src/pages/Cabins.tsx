@@ -105,8 +105,21 @@ export default function Cabins() {
   const onLomarengas = (sid: string, href: string) => () => trackAffiliateClick('lomarengas', sid, href)
 
   const heroHref = buildLomarengasUrl('lapland', 'article_cabin_partner', lang)
-  // Internal link to /cabins/<area>, the crawlable inventory page (fi/en/de only; OpenSEO 16.9.2026).
-  const AREA_PAGE_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen mökit tällä sivustolla', en: 'All cabins in the area on this site', de: 'Alle Hütten der Region auf dieser Website' }
+  // Internal link to /cabins/<area>, the crawlable inventory page (every site language since 19.10.2026).
+  const AREA_PAGE_LABEL: Partial<Record<string, string>> = {
+    fi: 'Kaikki alueen mökit tällä sivustolla',
+    en: 'All cabins in the area on this site',
+    de: 'Alle Hütten der Region auf dieser Website',
+    ja: 'このエリアの全コテージを当サイトで見る',
+    es: 'Todas las cabañas de la zona en este sitio',
+    'pt-BR': 'Todas as cabanas da região neste site',
+    'zh-CN': '本站該地區全部木屋',
+    ko: '이 사이트의 지역 코티지 전체 목록',
+    fr: 'Tous les chalets de la région sur ce site',
+    it: 'Tutti gli chalet della zona su questo sito',
+    nl: 'Alle huisjes in het gebied op deze website',
+    sv: 'Alla stugor i området här på sajten',
+  }
   const areaPageLabel = AREA_PAGE_LABEL[lang]
   // Every /cabins/<area> page with its cabin count, biggest selection first (18.10.2026: the hub
   // linked only the four areas above, 4 of 16 pages). Counts come from gen-cabin-areas.mjs.
@@ -114,6 +127,15 @@ export default function Cabins() {
     fi: { h2: 'Mökit paikkakunnittain', lead: 'Jokaisella sivulla ovat paikkakunnan kaikki Lomarenkaan mökit kuvineen ja jokaisen mökin etäisyys lähimpään kylään tai keskukseen.', count: '{n} mökkiä' },
     en: { h2: 'Cabins by area', lead: 'Each page lists every Lomarengas cabin in the area, with photos and each cabin’s distance to the nearest village or resort.', count: '{n} cabins' },
     de: { h2: 'Ferienhäuser nach Ort', lead: 'Jede Seite zeigt alle Ferienhäuser von Lomarengas in der Gegend, mit Fotos und der Entfernung jedes Hauses zum nächsten Ort oder Skigebiet.', count: '{n} Ferienhäuser' },
+    ja: { h2: 'エリア別のコテージ', lead: '各ページに、そのエリアにあるLomarengasのコテージをすべて写真付きで掲載し、コテージごとに最寄りの村またはリゾートまでの距離を示しています。', count: 'コテージ{n}軒' },
+    es: { h2: 'Cabañas por zona', lead: 'Cada página reúne todas las cabañas de Lomarengas en la zona, con fotos y la distancia de cada cabaña al pueblo o la estación de esquí más cercanos.', count: '{n} cabañas' },
+    'pt-BR': { h2: 'Cabanas por região', lead: 'Cada página reúne todas as cabanas da Lomarengas na região, com fotos e a distância de cada cabana até o vilarejo ou a estação de esqui mais próxima.', count: '{n} cabanas' },
+    'zh-CN': { h2: '各地區木屋', lead: '每個頁面都列出該地區所有Lomarengas木屋，附照片，並標明每棟木屋到最近村莊或度假區的距離。', count: '{n}棟木屋' },
+    ko: { h2: '지역별 코티지', lead: '각 페이지에서 해당 지역의 Lomarengas 코티지를 모두 사진과 함께 보여 드리며, 코티지마다 가장 가까운 마을이나 리조트까지의 거리를 표시합니다.', count: '코티지 {n}곳' },
+    fr: { h2: 'Chalets par destination', lead: 'Chaque page présente tous les chalets Lomarengas de la région, avec leurs photos et la distance de chacun jusqu’au village ou à la station la plus proche.', count: '{n} chalets' },
+    it: { h2: 'Chalet per località', lead: 'Ogni pagina elenca tutti gli chalet di Lomarengas della zona, con foto e la distanza di ogni chalet dal paese o dalla stazione sciistica più vicina.', count: '{n} chalet' },
+    nl: { h2: 'Vakantiehuisjes per gebied', lead: 'Elke pagina toont alle huisjes van Lomarengas in het gebied, met foto’s en per huisje de afstand tot het dichtstbijzijnde dorp of skigebied.', count: '{n} huisjes' },
+    sv: { h2: 'Stugor ort för ort', lead: 'Varje sida visar alla Lomarengas stugor i området, med bilder och varje stugas avstånd till närmaste by eller skidort.', count: '{n} stugor' },
   }
   const byArea = BY_AREA[lang]
   const areaIndex = [...AREA_INDEX].sort((a, b) => b.count - a.count)
@@ -275,7 +297,7 @@ export default function Cabins() {
         </div>
       </section>
 
-      {/* Every area page (fi/en/de, where the pages exist) */}
+      {/* Every area page */}
       {byArea && (
         <section className="pb-16 sm:pb-20 px-4 sm:px-6 bg-white">
           <div className="max-w-6xl mx-auto">

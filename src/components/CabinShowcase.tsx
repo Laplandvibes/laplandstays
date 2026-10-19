@@ -79,8 +79,8 @@ function PriceLine({ tpl, price }: { tpl: string; price: string }) {
   )
 }
 
-/** Internal /cabins/<area> pages exist for fi/en/de (OpenSEO 16.9.2026); callers pass
- *  localized hrefs + a label so the band links to the crawlable inventory page too. */
+/** Internal /cabins/<area> pages exist in every site language (fi/en/de 16.9.2026, the other nine
+ *  19.10.2026); callers pass localized hrefs + a label so the band links to the crawlable inventory page too. */
 export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLinkLabel }: { copy: ShowcaseCopy; areaNames: string[]; lang: Lang; areaHrefs?: Partial<Record<GroupKey, string>>; areaLinkLabel?: string }) {
   const [data, setData] = useState<ApiData | null>(cabinsCache)
   const [failed, setFailed] = useState(false)

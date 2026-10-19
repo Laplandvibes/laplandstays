@@ -72,10 +72,6 @@
             }
           }
           if (!target) return;
-          // /cabins/<region> (Lomarengas cabin pages) exists only in en + fi + de; the /cabins
-          // index itself is in every locale. Other locale prefixes would 404 there, so only
-          // Finnish and German may redirect.
-          if (path.indexOf('/cabins/') === 0 && path !== '/cabins/' && target !== '/fi' && target !== '/de') return;
           // /glass-igloos exists in en + de + ja; the Finnish version has its own path
           // (/fi/iglumajoitus) and the language menu leads there. Other locale prefixes
           // would 404, so only German and Japanese may redirect.

@@ -11,6 +11,42 @@
     "de": {
       "title": "Ferienhäuser in Enontekiö: Kilpisjärvi, Hetta, Raattama",
       "description": "Ferienhäuser in Enontekiö bei Lomarengas: Häuser bei Kilpisjärvi, Hetta und Raattama mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "エノンテキオのコテージ：キルピスヤルヴィ・ヘッタ・ラーッタマ",
+      "description": "Lomarengasに掲載されたエノンテキオの貸コテージ。キルピスヤルヴィ、ヘッタ、ラーッタマ周辺の物件を、距離・定員・寝室数・広さとともにまとめて紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Enontekiö: Kilpisjärvi, Hetta y Raattama",
+      "description": "Cabañas de alquiler de Lomarengas en Enontekiö: cerca de Kilpisjärvi, Hetta y Raattama, con distancia, capacidad, dormitorios y superficie en una página."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Enontekiö: Kilpisjärvi, Hetta e Raattama",
+      "description": "Cabanas para alugar em Enontekiö na Lomarengas: perto de Kilpisjärvi, Hetta e Raattama, com distância, capacidade, quartos e área numa só página."
+    },
+    "zh-CN": {
+      "title": "埃農泰基厄木屋住宿：基爾皮斯耶爾維、赫塔、拉塔馬",
+      "description": "Lomarengas的埃農泰基厄出租木屋：基爾皮斯耶爾維、赫塔與拉塔馬附近的木屋一頁看完，附距離、入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "에논테키외 숙소: 킬피스야르비·헤타·라타마 코티지",
+      "description": "Lomarengas의 에논테키외 임대 코티지를 소개합니다. 킬피스야르비, 헤타, 라타마 주변의 코티지를 거리, 인원, 침실 수, 면적과 함께 한 페이지에 모았습니다."
+    },
+    "fr": {
+      "title": "Chalets à Enontekiö : Kilpisjärvi, Hetta et Raattama",
+      "description": "Chalets à louer à Enontekiö chez Lomarengas : près de Kilpisjärvi, de Hetta et de Raattama, avec distance, capacité, chambres et surface sur une page."
+    },
+    "it": {
+      "title": "Chalet a Enontekiö: Kilpisjärvi, Hetta e Raattama",
+      "description": "Chalet in affitto a Enontekiö da Lomarengas: chalet vicino a Kilpisjärvi, Hetta e Raattama, con distanza, persone, camere da letto e superficie in una pagina."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Enontekiö: Kilpisjärvi, Hetta, Raattama",
+      "description": "Huurhuisjes van Lomarengas in Enontekiö: huisjes bij Kilpisjärvi, Hetta en Raattama, met afstand, aantal personen, slaapkamers en oppervlakte op één pagina."
+    },
+    "sv": {
+      "title": "Stugor i Enontekiö: boende i Kilpisjärvi, Hetta, Raattama",
+      "description": "Hyrstugor i Enontekiö från Lomarengas: stugor nära Kilpisjärvi, Hetta och Raattama med avstånd, antal personer, sovrum och storlek på en sida."
     }
   },
   "/cabins/inari": {
@@ -25,6 +61,42 @@
     "de": {
       "title": "Ferienhäuser in Inari: Inari und Ivalo",
       "description": "Ferienhäuser in Inari bei Lomarengas: der Ort Inari, Ivalo und das übrige Gemeindegebiet, mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "フィンランド・イナリのコテージ：イナリ村・イヴァロほか",
+      "description": "Lomarengasに掲載されたイナリの貸コテージ。イナリ村、イヴァロ、そのほかのイナリ各地の物件を、距離・定員・寝室数・広さとともに紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Inari: pueblo de Inari, Ivalo y alrededores",
+      "description": "Cabañas de alquiler de Lomarengas en Inari: el pueblo de Inari, Ivalo y el resto del municipio, con distancia, capacidad, dormitorios y superficie."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Inari: vilarejo de Inari, Ivalo e arredores",
+      "description": "Cabanas para alugar em Inari na Lomarengas: o vilarejo de Inari, Ivalo e o resto do município, com distância, capacidade, quartos e área de cada cabana."
+    },
+    "zh-CN": {
+      "title": "伊納里木屋住宿：伊納里村、伊瓦洛及周邊",
+      "description": "Lomarengas的伊納里出租木屋：伊納里村、伊瓦洛及伊納里其他地區的房源一頁看完，每棟木屋都附距離、入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "이나리 숙소: 이나리 마을·이발로와 주변 코티지",
+      "description": "Lomarengas의 이나리 임대 코티지를 소개합니다. 이나리 마을과 이발로, 그 밖의 이나리 지역까지 코티지마다 거리, 인원, 침실 수, 면적을 표시합니다."
+    },
+    "fr": {
+      "title": "Chalets à Inari : village d’Inari, Ivalo et au-delà",
+      "description": "Chalets à louer à Inari chez Lomarengas : le village d’Inari, Ivalo et le reste de la commune, avec distance, capacité, chambres et surface de chaque chalet."
+    },
+    "it": {
+      "title": "Chalet a Inari: il paese di Inari, Ivalo e dintorni",
+      "description": "Chalet in affitto a Inari da Lomarengas: il paese di Inari, Ivalo e il resto del comune, con distanza, persone, camere da letto e superficie di ogni chalet."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Inari: het dorp Inari, Ivalo en verder",
+      "description": "Huurhuisjes van Lomarengas in Inari: het dorp Inari, Ivalo en de rest van de gemeente, met afstand, aantal personen, slaapkamers en oppervlakte per huisje."
+    },
+    "sv": {
+      "title": "Stugor i Inari: Inari by, Ivalo och resten av kommunen",
+      "description": "Hyrstugor i Inari från Lomarengas: Inari by, Ivalo och resten av kommunen, med avstånd, antal personer, sovrum och storlek för varje stuga."
     }
   },
   "/cabins/kemijarvi": {
@@ -39,6 +111,42 @@
     "de": {
       "title": "Ferienhäuser in Kemijärvi: Suomu und Kemijärvi",
       "description": "Ferienhäuser in Kemijärvi bei Lomarengas: Häuser in Suomu und nahe dem Stadtzentrum mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "ケミヤルヴィのコテージ：スオムとケミヤルヴィ市街",
+      "description": "Lomarengasに掲載されたケミヤルヴィの貸コテージ。スオムと市の中心部周辺の物件を、距離・定員・寝室数・広さとともにまとめて紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Kemijärvi: Suomu y el centro de Kemijärvi",
+      "description": "Cabañas de alquiler de Lomarengas en Kemijärvi: en Suomu y cerca del centro de la ciudad, con distancia, capacidad, dormitorios y superficie en una página."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Kemijärvi: Suomu e Kemijärvi",
+      "description": "Cabanas para alugar em Kemijärvi na Lomarengas: em Suomu e perto do centro da cidade, com distância, capacidade, quartos e área numa só página."
+    },
+    "zh-CN": {
+      "title": "凱米耶爾維木屋住宿：Suomu與凱米耶爾維市區",
+      "description": "Lomarengas的凱米耶爾維出租木屋：Suomu滑雪場與凱米耶爾維市中心附近的木屋一頁看完，每棟都附距離、入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "케미야르비 숙소: 수오무와 케미야르비 코티지",
+      "description": "Lomarengas의 케미야르비 임대 코티지를 소개합니다. 수오무와 시내 주변의 코티지를 거리, 인원, 침실 수, 면적과 함께 한 페이지에 모았습니다."
+    },
+    "fr": {
+      "title": "Chalets à Kemijärvi : Suomu et Kemijärvi",
+      "description": "Chalets à louer à Kemijärvi chez Lomarengas : à Suomu et près du centre-ville, avec distance, capacité, chambres et surface sur une page."
+    },
+    "it": {
+      "title": "Chalet a Kemijärvi: Suomu e Kemijärvi",
+      "description": "Chalet in affitto a Kemijärvi da Lomarengas: chalet a Suomu e vicino al centro città, con distanza, persone, camere da letto e superficie in una pagina."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Kemijärvi en bij Suomu",
+      "description": "Huurhuisjes van Lomarengas in Kemijärvi: huisjes in Suomu en bij het stadscentrum, met afstand, aantal personen, slaapkamers en oppervlakte op één pagina."
+    },
+    "sv": {
+      "title": "Stugor i Kemijärvi: Suomu och Kemijärvi",
+      "description": "Hyrstugor i Kemijärvi från Lomarengas: stugor i Suomu och nära centrum med avstånd, antal personer, sovrum och storlek på en sida."
     }
   },
   "/cabins/kittila": {
@@ -53,6 +161,42 @@
     "de": {
       "title": "Ferienhäuser in Kittilä: Raattama und die Dörfer",
       "description": "Ferienhäuser in Kittilä außerhalb des Skidorfs Levi bei Lomarengas: Raattama und weitere Dörfer mit Entfernung, Personenzahl und Größe."
+    },
+    "ja": {
+      "title": "キッティラのコテージ：ラーッタマと周辺の村",
+      "description": "Lomarengasに掲載された、レヴィのゲレンデ村以外にあるキッティラの貸コテージ。ラーッタマやほかの村の物件を、距離・定員・寝室数・広さとともに紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Kittilä: Raattama y otros pueblos",
+      "description": "Cabañas de Lomarengas en Kittilä, fuera del pueblo de esquí de Levi: Raattama y otros pueblos, con distancia, capacidad, dormitorios y superficie."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Kittilä: Raattama e os vilarejos",
+      "description": "Cabanas para alugar em Kittilä fora do vilarejo de esqui de Levi, na Lomarengas: Raattama e outros vilarejos, com distância, capacidade, quartos e área."
+    },
+    "zh-CN": {
+      "title": "基蒂萊木屋住宿：拉塔馬與周邊村莊",
+      "description": "Lomarengas的基蒂萊出租木屋，不含萊維雪道村：拉塔馬與其他村莊的房源一頁看完，每棟都附距離、入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "키틸래 숙소: 라타마와 주변 마을 코티지",
+      "description": "레비 슬로프 마을 밖에 있는 키틸래의 Lomarengas 임대 코티지를 소개합니다. 라타마와 여러 마을의 코티지를 거리, 인원, 침실 수, 면적과 함께 보여 드립니다."
+    },
+    "fr": {
+      "title": "Chalets à Kittilä : Raattama et les villages",
+      "description": "Chalets à louer à Kittilä hors de la station de Levi, chez Lomarengas : Raattama et d’autres villages, avec distance, capacité, chambres et surface."
+    },
+    "it": {
+      "title": "Chalet a Kittilä: Raattama e gli altri paesi",
+      "description": "Chalet in affitto a Kittilä fuori dal villaggio sciistico di Levi, da Lomarengas: Raattama e altri paesi, con distanza, persone, camere da letto e superficie."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Kittilä: Raattama en de dorpen",
+      "description": "Huurhuisjes van Lomarengas in Kittilä, buiten het skidorp Levi: Raattama en andere dorpen, met afstand, aantal personen, slaapkamers en oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Kittilä: Raattama och byarna utanför Levi",
+      "description": "Hyrstugor i Kittilä utanför skidbyn Levi från Lomarengas: Raattama och andra byar, med avstånd, antal personer, sovrum och storlek."
     }
   },
   "/cabins/levi": {
@@ -67,6 +211,42 @@
     "de": {
       "title": "Levi Ferienhäuser: Hütten und Chalets mieten",
       "description": "Ferienhäuser und Hütten in Levi auf einer Seite: Blockhütten, Ski-in-Apartments und Villen in Sirkka und Kittilä mit Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "レヴィのコテージ・貸別荘：ログキャビンとシャレー",
+      "description": "レヴィのコテージと貸別荘をまとめて掲載。シルッカとキッティラのログキャビン、ゲレンデ直結のアパートメント、ヴィラを、定員・寝室数・広さとともに紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Levi: casas de troncos y chalets en alquiler",
+      "description": "Cabañas y casas de vacaciones en Levi: cabañas de troncos, apartamentos a pie de pista y villas en Sirkka y Kittilä, con capacidad, dormitorios y superficie."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Levi: chalés e cabanas de troncos para alugar",
+      "description": "Cabanas e casas de temporada em Levi numa só página: cabanas de troncos, apartamentos ski-in e casas amplas em Sirkka e Kittilä, com capacidade, quartos e área."
+    },
+    "zh-CN": {
+      "title": "萊維木屋住宿：原木木屋與度假屋出租",
+      "description": "萊維的出租木屋與度假屋一頁看完：從錫爾卡村到基蒂萊的原木木屋、纜車旁的滑入式公寓和整團可住的別墅，每棟都附入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "레비 숙소: 통나무집과 샬레 임대",
+      "description": "레비의 코티지와 휴가용 주택을 한 페이지에 모았습니다. 시르카와 키틸래의 통나무집, 스키인 아파트, 빌라를 인원, 침실 수, 면적과 함께 소개합니다."
+    },
+    "fr": {
+      "title": "Chalets à Levi : chalets en rondins et villas à louer",
+      "description": "Chalets et maisons de vacances à Levi sur une page : chalets en rondins, appartements ski-in et villas à Sirkka et Kittilä, avec capacité, chambres et surface."
+    },
+    "it": {
+      "title": "Chalet a Levi: baite di tronchi e ville in affitto",
+      "description": "Chalet e case vacanza a Levi in una pagina: baite di tronchi, appartamenti ski-in e ville a Sirkka e Kittilä, con persone, camere da letto e superficie."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Levi: blokhutten en chalets huren",
+      "description": "Vakantiehuisjes en vakantiehuizen in Levi: blokhutten, ski-in-appartementen en villa’s in Sirkka en Kittilä, met aantal personen, slaapkamers en oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Levi: timmerstugor, ski-in-boende och villor",
+      "description": "Stugor och semesterbostäder i Levi på en sida: timmerstugor, ski-in-lägenheter och villor i Sirkka och Kittilä med antal personer, sovrum och storlek."
     }
   },
   "/cabins/muonio": {
@@ -81,6 +261,42 @@
     "de": {
       "title": "Ferienhäuser in Muonio: Olos und Muonio",
       "description": "Ferienhäuser in Muonio bei Lomarengas: Häuser in Olos und nahe dem Ort Muonio mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "ムオニオのコテージ：オロスとムオニオ村",
+      "description": "Lomarengasに掲載されたムオニオの貸コテージ。オロスとムオニオ村周辺の物件を、距離・定員・寝室数・広さとともにまとめて紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Muonio: Olos y el pueblo de Muonio",
+      "description": "Cabañas de alquiler de Lomarengas en Muonio: en Olos y cerca del pueblo de Muonio, con distancia, capacidad, dormitorios y superficie en una sola página."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Muonio: Olos e Muonio",
+      "description": "Cabanas para alugar em Muonio na Lomarengas: em Olos e perto do vilarejo de Muonio, com distância, capacidade, quartos e área numa só página."
+    },
+    "zh-CN": {
+      "title": "穆奧尼奧木屋住宿：Olos滑雪場與穆奧尼奧村",
+      "description": "Lomarengas的穆奧尼奧出租木屋：Olos滑雪場與穆奧尼奧村附近的木屋一頁看完，每棟都附距離、入住人數、臥室數與面積。穆奧尼奧位於瑞典邊境。"
+    },
+    "ko": {
+      "title": "무오니오 숙소: 올로스와 무오니오 코티지",
+      "description": "Lomarengas의 무오니오 임대 코티지를 소개합니다. 올로스와 무오니오 마을 주변의 코티지를 거리, 인원, 침실 수, 면적과 함께 한 페이지에 모았습니다."
+    },
+    "fr": {
+      "title": "Chalets à Muonio : Olos et le village de Muonio",
+      "description": "Chalets à louer à Muonio chez Lomarengas : à Olos et près du village de Muonio, avec distance, capacité, chambres et surface sur une page."
+    },
+    "it": {
+      "title": "Chalet a Muonio: Olos e Muonio",
+      "description": "Chalet in affitto a Muonio da Lomarengas: chalet a Olos e vicino al paese di Muonio, con distanza, persone, camere da letto e superficie in una pagina."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Muonio: Olos en het dorp Muonio",
+      "description": "Huurhuisjes van Lomarengas in Muonio: huisjes in Olos en bij het dorp Muonio, met afstand, aantal personen, slaapkamers en oppervlakte op één pagina."
+    },
+    "sv": {
+      "title": "Stugor i Muonio: Olos och Muonio centrum",
+      "description": "Hyrstugor i Muonio från Lomarengas: stugor i Olos och nära Muonio centrum med avstånd, antal personer, sovrum och storlek på en sida."
     }
   },
   "/cabins/pello": {
@@ -95,6 +311,42 @@
     "de": {
       "title": "Ferienhäuser in Pello",
       "description": "Ferienhäuser in Pello bei Lomarengas mit Entfernung zum Ort, Personenzahl, Schlafzimmern und Größe für jedes Haus."
+    },
+    "ja": {
+      "title": "ペッロのコテージ：Lomarengasの貸別荘",
+      "description": "Lomarengasに掲載されたペッロの貸コテージ。各コテージについて、ペッロ村までの距離・定員・寝室数・広さを紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Pello: alquiler a través de Lomarengas",
+      "description": "Cabañas de alquiler de Lomarengas en Pello, con la distancia al pueblo de Pello, la capacidad, los dormitorios y la superficie de cada cabaña."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Pello: aluguel de temporada na Lomarengas",
+      "description": "Cabanas para alugar em Pello na Lomarengas, com a distância até o vilarejo de Pello, a capacidade, os quartos e a área de cada cabana."
+    },
+    "zh-CN": {
+      "title": "佩洛木屋住宿：Lomarengas出租木屋",
+      "description": "Lomarengas的佩洛出租木屋一頁看完：每棟木屋都附到佩洛村的距離、入住人數、臥室數與面積。佩洛位於瑞典邊境的托爾尼奧河畔。"
+    },
+    "ko": {
+      "title": "펠로 숙소: Lomarengas 임대 코티지",
+      "description": "Lomarengas의 펠로 임대 코티지를 소개합니다. 코티지마다 펠로 마을까지의 거리, 인원, 침실 수, 면적을 표시합니다."
+    },
+    "fr": {
+      "title": "Chalets à Pello : location chez Lomarengas",
+      "description": "Chalets à louer à Pello chez Lomarengas, avec la distance jusqu’au village de Pello, la capacité, les chambres et la surface de chaque chalet."
+    },
+    "it": {
+      "title": "Chalet a Pello: in affitto su Lomarengas",
+      "description": "Chalet in affitto a Pello da Lomarengas, con la distanza dal paese di Pello, il numero di persone, le camere da letto e la superficie di ogni chalet."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes huren in Pello via Lomarengas",
+      "description": "Huurhuisjes van Lomarengas in Pello, met per huisje de afstand tot het dorp Pello, het aantal personen, de slaapkamers en de oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Pello: hyr stuga vid Torne älv",
+      "description": "Hyrstugor i Pello från Lomarengas, med avståndet till Pello centrum, antal personer, sovrum och storlek för varje stuga."
     }
   },
   "/cabins/posio": {
@@ -109,6 +361,42 @@
     "de": {
       "title": "Ferienhäuser in Posio",
       "description": "Ferienhäuser in Posio bei Lomarengas, nahe dem Ort und in der ganzen Gemeinde, mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "ポシオのコテージ：村と周辺の貸別荘",
+      "description": "Lomarengasに掲載されたポシオの貸コテージ。村の近くからポシオ全域までの物件を、距離・定員・寝室数・広さとともにまとめて紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Posio: alquiler en el pueblo y en el campo",
+      "description": "Cabañas de alquiler de Lomarengas en Posio, cerca del pueblo y en el resto del municipio, con distancia, capacidad, dormitorios y superficie en una página."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Posio: no vilarejo e no interior",
+      "description": "Cabanas para alugar em Posio na Lomarengas, perto do vilarejo e por todo o município, com distância, capacidade, quartos e área numa só página."
+    },
+    "zh-CN": {
+      "title": "波西奧木屋住宿：村莊與鄉間的出租木屋",
+      "description": "Lomarengas的波西奧出租木屋：波西奧村附近和市鎮各地的房源一頁看完，每棟都附距離、入住人數、臥室數與面積。里西通圖里國家公園就在波西奧境內。"
+    },
+    "ko": {
+      "title": "포시오 숙소: 마을과 시골의 임대 코티지",
+      "description": "Lomarengas의 포시오 임대 코티지를 소개합니다. 마을 근처와 포시오 곳곳의 코티지를 거리, 인원, 침실 수, 면적과 함께 한 페이지에 모았습니다."
+    },
+    "fr": {
+      "title": "Chalets à Posio : au village et à la campagne",
+      "description": "Chalets à louer à Posio chez Lomarengas, près du village et dans toute la commune, avec distance, capacité, chambres et surface sur une page."
+    },
+    "it": {
+      "title": "Chalet a Posio: in paese e in campagna",
+      "description": "Chalet in affitto a Posio da Lomarengas, vicino al paese e in tutto il comune, con distanza, persone, camere da letto e superficie in una pagina."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Posio, rond het dorp en daarbuiten",
+      "description": "Huurhuisjes van Lomarengas in Posio, bij het dorp en verspreid over de gemeente, met afstand, aantal personen, slaapkamers en oppervlakte op één pagina."
+    },
+    "sv": {
+      "title": "Stugor i Posio: hyr stuga i byn eller på landsbygden",
+      "description": "Hyrstugor i Posio från Lomarengas, nära centrum och runt om i kommunen, med avstånd, antal personer, sovrum och storlek på en sida."
     }
   },
   "/cabins/pyha-luosto": {
@@ -123,6 +411,42 @@
     "de": {
       "title": "Pyhä und Luosto Ferienhäuser: Hütten mieten",
       "description": "Ferienhäuser und Hütten am Pyhätunturi und in Luosto: Pelkosenniemi, Sodankylä und Kemijärvi mit Personenzahl, Schlafzimmern und Größe für jede Hütte."
+    },
+    "ja": {
+      "title": "ピュハとルオストのコテージ・貸別荘",
+      "description": "ピュハトゥントゥリとルオストのコテージ・貸別荘。ペルコセンニエミ、ソダンキュラ、ケミヤルヴィの物件を、定員・寝室数・広さとともに紹介します。予約はLomarengasで行います。"
+    },
+    "es": {
+      "title": "Cabañas en Pyhä y Luosto: casas de vacaciones en alquiler",
+      "description": "Cabañas y casas de vacaciones en Pyhä y Luosto (Pelkosenniemi, Sodankylä y Kemijärvi), con capacidad, dormitorios y superficie. La reserva, en Lomarengas."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Pyhä e Luosto: casas de temporada para alugar",
+      "description": "Cabanas e casas de temporada no Pyhätunturi e em Luosto, em Pelkosenniemi, Sodankylä e Kemijärvi, com capacidade, quartos e área. Reserva na Lomarengas."
+    },
+    "zh-CN": {
+      "title": "皮哈與盧奧斯托木屋住宿：度假屋出租",
+      "description": "皮哈通圖里與盧奧斯托的出租木屋與度假屋，位於佩爾科森涅米、索丹屈萊與凱米耶爾維，附入住人數、臥室數與面積。在Lomarengas預訂。"
+    },
+    "ko": {
+      "title": "퓌해·루오스토 숙소: 휴가용 코티지 임대",
+      "description": "퓌해툰투리와 루오스토의 코티지와 휴가용 주택을 소개합니다. 펠코센니에미, 소단퀼래, 케미야르비의 코티지를 인원, 침실 수, 면적과 함께 보여 드리며, 예약은 Lomarengas에서 합니다."
+    },
+    "fr": {
+      "title": "Chalets à Pyhä et à Luosto : maisons de vacances à louer",
+      "description": "Chalets et maisons de vacances au Pyhätunturi et à Luosto (Pelkosenniemi, Sodankylä, Kemijärvi), avec capacité, chambres et surface. Réservation sur Lomarengas."
+    },
+    "it": {
+      "title": "Chalet a Pyhä e Luosto: case vacanza in affitto",
+      "description": "Chalet e case vacanza al Pyhätunturi e a Luosto (Pelkosenniemi, Sodankylä, Kemijärvi), con persone, camere da letto e superficie. Prenotazione su Lomarengas."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes huren in Pyhä en Luosto",
+      "description": "Vakantiehuisjes bij de Pyhätunturi en in Luosto, in Pelkosenniemi, Sodankylä en Kemijärvi, met personen, slaapkamers en oppervlakte. Boeken via Lomarengas."
+    },
+    "sv": {
+      "title": "Stugor i Pyhä och Luosto: hyr stuga vid nationalparken",
+      "description": "Stugor och semesterbostäder vid Pyhätunturi och Luosto i Pelkosenniemi, Sodankylä och Kemijärvi med antal personer, sovrum och storlek. Bokning på Lomarengas."
     }
   },
   "/cabins/rovaniemi": {
@@ -137,6 +461,42 @@
     "de": {
       "title": "Rovaniemi Ferienhäuser: Hütten am Polarkreis",
       "description": "Ferienhäuser und Hütten in Rovaniemi: Flusshütten und Wildnishütten am Ounasjoki und Kemijoki mit Personenzahl, Schlafzimmern und Größe für jede Hütte."
+    },
+    "ja": {
+      "title": "ロヴァニエミのコテージ・貸別荘：北極圏線上の街",
+      "description": "ロヴァニエミのコテージと貸別荘。オウナス川やケミ川のほとりに建つコテージ、人里離れた小屋を、定員・寝室数・広さとともに紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Rovaniemi: alojamiento en el Círculo Polar",
+      "description": "Cabañas en Rovaniemi: cabañas junto al río y refugios en plena naturaleza a orillas del Ounasjoki y el Kemijoki, con capacidad, dormitorios y superficie."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Rovaniemi: casas de temporada no Círculo Polar",
+      "description": "Cabanas e casas de temporada em Rovaniemi: à beira do rio e isoladas na natureza, ao longo do Ounasjoki e do Kemijoki, com capacidade, quartos e área."
+    },
+    "zh-CN": {
+      "title": "羅瓦涅米木屋住宿：北極圈上的度假屋",
+      "description": "羅瓦涅米的出租木屋與度假屋：奧納斯河與克米河沿岸的河畔木屋和荒野小屋，每棟都附到市中心的距離、入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "로바니에미 숙소: 북극권의 휴가용 코티지",
+      "description": "로바니에미의 코티지와 휴가용 주택을 소개합니다. 오우나스강과 케미강을 따라 자리한 강변 코티지와 외딴 숲속 코티지를 인원, 침실 수, 면적과 함께 보여 드립니다."
+    },
+    "fr": {
+      "title": "Chalets à Rovaniemi : hébergement sur le cercle polaire",
+      "description": "Chalets à Rovaniemi : chalets au bord de la rivière et cabanes en pleine nature le long de l’Ounasjoki et du Kemijoki, avec capacité, chambres et surface."
+    },
+    "it": {
+      "title": "Chalet a Rovaniemi: case vacanza sul Circolo Polare Artico",
+      "description": "Chalet e case vacanza a Rovaniemi: chalet sul fiume e baite nella natura selvaggia lungo l'Ounasjoki e il Kemijoki, con persone, camere da letto e superficie."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Rovaniemi, op de poolcirkel",
+      "description": "Vakantiehuisjes in Rovaniemi: rivierhuisjes en wildernishutten langs de Ounasjoki en de Kemijoki, met aantal personen, slaapkamers en oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Rovaniemi: boende vid polcirkeln",
+      "description": "Stugor och semesterbostäder i Rovaniemi: älvnära stugor och vildmarksstugor längs Ounasjoki och Kemi älv med antal personer, sovrum och storlek."
     }
   },
   "/cabins/ruka": {
@@ -151,6 +511,42 @@
     "de": {
       "title": "Ruka Ferienhäuser: Hütten rund um den Rukatunturi",
       "description": "Ferienhäuser und Hütten in Ruka: das Pistendorf und die Seenlandschaft von Kuusamo mit Personenzahl, Schlafzimmern und Größe auf einer Seite."
+    },
+    "ja": {
+      "title": "ルカのコテージ・貸別荘：ルカトゥントゥリ周辺",
+      "description": "ルカのコテージと貸別荘。ゲレンデのある村とクーサモの湖水地方の物件を、定員・寝室数・広さとともにまとめて掲載しています。予約はLomarengasで行います。"
+    },
+    "es": {
+      "title": "Cabañas en Ruka: casas de vacaciones junto al Rukatunturi",
+      "description": "Cabañas y casas de vacaciones en Ruka: el pueblo de esquí y los lagos de Kuusamo, con capacidad, dormitorios y superficie. La reserva, en Lomarengas."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Ruka: casas de temporada ao redor do Rukatunturi",
+      "description": "Cabanas e casas de temporada em Ruka: o vilarejo de esqui e a região de lagos de Kuusamo, com capacidade, quartos e área numa só página. Reserva na Lomarengas."
+    },
+    "zh-CN": {
+      "title": "魯卡木屋住宿：魯卡山周邊的度假屋",
+      "description": "魯卡的出租木屋與度假屋：魯卡雪道村與庫薩莫湖區的房源一頁看完，每棟都附入住人數、臥室數與面積。預訂在Lomarengas完成。"
+    },
+    "ko": {
+      "title": "루카 숙소: 루카툰투리 주변 코티지",
+      "description": "루카의 코티지와 휴가용 주택을 소개합니다. 슬로프 마을과 쿠사모 호수 지대의 코티지를 인원, 침실 수, 면적과 함께 한 페이지에 모았고, 예약은 Lomarengas에서 합니다."
+    },
+    "fr": {
+      "title": "Chalets à Ruka : maisons de vacances autour du Rukatunturi",
+      "description": "Chalets et maisons de vacances à Ruka : la station et le pays des lacs de Kuusamo, avec capacité, chambres et surface sur une page. Réservation sur Lomarengas."
+    },
+    "it": {
+      "title": "Chalet a Ruka: case vacanza intorno al Rukatunturi",
+      "description": "Chalet e case vacanza a Ruka: il villaggio sciistico e la zona dei laghi di Kuusamo, con persone, camere da letto e superficie. Prenotazione su Lomarengas."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Ruka, rond de Rukatunturi",
+      "description": "Vakantiehuisjes en vakantiehuizen in Ruka: het skidorp en het merengebied van Kuusamo, met aantal personen, slaapkamers en oppervlakte. Boeken via Lomarengas."
+    },
+    "sv": {
+      "title": "Stugor i Ruka: boende runt Rukatunturi och i Kuusamo",
+      "description": "Stugor och semesterbostäder i Ruka: skidbyn och Kuusamos sjölandskap med antal personer, sovrum och storlek på en sida. Bokning på Lomarengas."
     }
   },
   "/cabins/saariselka": {
@@ -165,6 +561,42 @@
     "de": {
       "title": "Saariselkä Ferienhäuser: Hütten am Kaunispää",
       "description": "Ferienhäuser und Hütten in Saariselkä: Blockhütten und Apartments im Dorf und Richtung Kakslauttanen mit Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "サーリセルカのコテージ・貸別荘：カウニスパーの麓",
+      "description": "サーリセルカのコテージと貸別荘。村の周辺からカクスラウッタネン方面までのログキャビンとアパートメントを、定員・寝室数・広さとともに紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Saariselkä: alquiler al pie del Kaunispää",
+      "description": "Cabañas y casas de vacaciones en Saariselkä: cabañas de troncos y apartamentos en el pueblo y hacia Kakslauttanen, con capacidad, dormitorios y superficie."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Saariselkä: casas de temporada ao pé do Kaunispää",
+      "description": "Cabanas e casas de temporada em Saariselkä: cabanas de troncos e apartamentos no vilarejo e rumo a Kakslauttanen, com capacidade, quartos e área."
+    },
+    "zh-CN": {
+      "title": "薩利色爾卡木屋住宿：考尼斯帕山下的度假屋",
+      "description": "薩利色爾卡的出租木屋與度假屋：村莊周邊及往Kakslauttanen方向的原木木屋與公寓，緊鄰烏爾霍·凱科寧國家公園，每棟都附入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "사리셀카 숙소: 카우니스패 아래 코티지",
+      "description": "사리셀카의 코티지와 휴가용 주택을 소개합니다. 마을 주변과 칵슬라우타넨 방면의 통나무집과 아파트를 인원, 침실 수, 면적과 함께 보여 드립니다."
+    },
+    "fr": {
+      "title": "Chalets à Saariselkä : location au pied du Kaunispää",
+      "description": "Chalets et maisons de vacances à Saariselkä : chalets en rondins et appartements autour du village et vers Kakslauttanen, avec capacité, chambres et surface."
+    },
+    "it": {
+      "title": "Chalet a Saariselkä: case vacanza ai piedi del Kaunispää",
+      "description": "Chalet e case vacanza a Saariselkä: baite di tronchi e appartamenti intorno al paese e verso Kakslauttanen, con persone, camere da letto e superficie."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Saariselkä: aan de voet van Kaunispää",
+      "description": "Vakantiehuisjes in Saariselkä: blokhutten en appartementen rond het dorp en richting Kakslauttanen, met aantal personen, slaapkamers en oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Saariselkä: boende nedanför Kaunispää",
+      "description": "Stugor och semesterbostäder i Saariselkä: timmerstugor och lägenheter i byn och mot Kakslauttanen med antal personer, sovrum och storlek."
     }
   },
   "/cabins/salla": {
@@ -179,6 +611,42 @@
     "de": {
       "title": "Ferienhäuser in Salla: Sallatunturi und Ort Salla",
       "description": "Ferienhäuser in Salla bei Lomarengas: Häuser am Sallatunturi und im Ort Salla mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "サッラのコテージ：サッラトゥントゥリの貸別荘",
+      "description": "Lomarengasに掲載されたサッラの貸コテージ。サッラトゥントゥリとサッラ村の物件を、距離・定員・寝室数・広さとともにまとめて紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Salla: alquiler de cabañas en Sallatunturi",
+      "description": "Cabañas de alquiler de Lomarengas en Salla: en Sallatunturi y en el pueblo de Salla, con distancia, capacidad, dormitorios y superficie en una sola página."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Salla: para alugar no Sallatunturi",
+      "description": "Cabanas para alugar em Salla na Lomarengas: no Sallatunturi e no vilarejo de Salla, com distância, capacidade, quartos e área numa só página."
+    },
+    "zh-CN": {
+      "title": "薩拉木屋住宿：薩拉通圖里的出租木屋",
+      "description": "Lomarengas的薩拉出租木屋：薩拉通圖里滑雪場與薩拉村附近的木屋一頁看完，每棟都附距離、入住人數、臥室數與面積。薩拉通圖里緊鄰薩拉國家公園。"
+    },
+    "ko": {
+      "title": "살라 숙소: 살라툰투리의 임대 코티지",
+      "description": "Lomarengas의 살라 임대 코티지를 소개합니다. 살라툰투리와 살라 마을의 코티지를 거리, 인원, 침실 수, 면적과 함께 한 페이지에 모았습니다."
+    },
+    "fr": {
+      "title": "Chalets à Salla : location à Sallatunturi",
+      "description": "Chalets à louer à Salla chez Lomarengas : à Sallatunturi et au village de Salla, avec distance, capacité, chambres et surface sur une page."
+    },
+    "it": {
+      "title": "Chalet a Salla: case vacanza a Sallatunturi",
+      "description": "Chalet in affitto a Salla da Lomarengas: chalet a Sallatunturi e nel paese di Salla, con distanza, persone, camere da letto e superficie in una pagina."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Salla en bij Sallatunturi",
+      "description": "Huurhuisjes van Lomarengas in Salla: huisjes bij Sallatunturi en in het dorp Salla, met afstand, aantal personen, slaapkamers en oppervlakte op één pagina."
+    },
+    "sv": {
+      "title": "Stugor i Salla: hyr stuga vid Sallatunturi",
+      "description": "Hyrstugor i Salla från Lomarengas: stugor vid Sallatunturi och i Salla centrum med avstånd, antal personer, sovrum och storlek på en sida."
     }
   },
   "/cabins/sodankyla": {
@@ -193,6 +661,42 @@
     "de": {
       "title": "Ferienhäuser in Sodankylä",
       "description": "Ferienhäuser in Sodankylä außerhalb von Luosto und Saariselkä bei Lomarengas: Entfernung, Personenzahl, Schlafzimmer und Größe für jedes Haus."
+    },
+    "ja": {
+      "title": "ソダンキュラのコテージ：ルオスト・サーリセルカ以外の貸別荘",
+      "description": "Lomarengasに掲載された、ルオストとサーリセルカ以外にあるソダンキュラの貸コテージ。各コテージの距離・定員・寝室数・広さを紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Sodankylä, fuera de Luosto y Saariselkä",
+      "description": "Cabañas de alquiler de Lomarengas en Sodankylä, fuera de Luosto y Saariselkä: distancia, capacidad, dormitorios y superficie de cada cabaña."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Sodankylä: opções fora de Luosto e Saariselkä",
+      "description": "Cabanas para alugar em Sodankylä fora de Luosto e Saariselkä, na Lomarengas: distância, capacidade, quartos e área de cada cabana."
+    },
+    "zh-CN": {
+      "title": "索丹屈萊木屋住宿：盧奧斯托、薩利色爾卡以外的房源",
+      "description": "Lomarengas的索丹屈萊出租木屋，不含盧奧斯托與薩利色爾卡：每棟木屋都附到索丹屈萊村的距離、入住人數、臥室數與面積，一頁看完。"
+    },
+    "ko": {
+      "title": "소단퀼래 숙소: 루오스토·사리셀카 밖의 코티지",
+      "description": "루오스토와 사리셀카를 제외한 소단퀼래의 Lomarengas 임대 코티지를 소개합니다. 코티지마다 거리, 인원, 침실 수, 면적을 표시합니다."
+    },
+    "fr": {
+      "title": "Chalets à Sodankylä : en dehors de Luosto et de Saariselkä",
+      "description": "Chalets à louer à Sodankylä en dehors de Luosto et de Saariselkä, chez Lomarengas : distance, capacité, chambres et surface de chaque chalet."
+    },
+    "it": {
+      "title": "Chalet a Sodankylä, fuori da Luosto e Saariselkä",
+      "description": "Chalet in affitto a Sodankylä fuori da Luosto e Saariselkä, da Lomarengas: distanza, persone, camere da letto e superficie di ogni chalet."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Sodankylä, buiten Luosto en Saariselkä",
+      "description": "Huurhuisjes van Lomarengas in Sodankylä, buiten Luosto en Saariselkä: per huisje de afstand, het aantal personen, de slaapkamers en de oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Sodankylä utanför Luosto och Saariselkä",
+      "description": "Hyrstugor i Sodankylä utanför Luosto och Saariselkä från Lomarengas: avstånd, antal personer, sovrum och storlek för varje stuga."
     }
   },
   "/cabins/utsjoki": {
@@ -207,6 +711,42 @@
     "de": {
       "title": "Ferienhäuser in Utsjoki: Ort Utsjoki, Nuorgam, Karigasniemi",
       "description": "Ferienhäuser in Utsjoki bei Lomarengas: Häuser bei Utsjoki, Nuorgam und Karigasniemi mit Entfernung, Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "ウツヨキのコテージ：ウツヨキ村・ヌオルガム・カリガスニエミ",
+      "description": "Lomarengasに掲載されたウツヨキの貸コテージ。ウツヨキ村、ヌオルガム、カリガスニエミ周辺の物件を、距離・定員・寝室数・広さとともに紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Utsjoki: Utsjoki, Nuorgam y Karigasniemi",
+      "description": "Cabañas de alquiler de Lomarengas en Utsjoki: cerca del pueblo de Utsjoki, de Nuorgam y de Karigasniemi, con distancia, capacidad, dormitorios y superficie."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Utsjoki: Utsjoki, Nuorgam e Karigasniemi",
+      "description": "Cabanas para alugar em Utsjoki na Lomarengas: perto do vilarejo de Utsjoki, de Nuorgam e de Karigasniemi, com distância, capacidade, quartos e área."
+    },
+    "zh-CN": {
+      "title": "烏茨約基木屋住宿：努奧爾加姆與Karigasniemi",
+      "description": "Lomarengas的烏茨約基出租木屋：烏茨約基村、努奧爾加姆與Karigasniemi附近的木屋，附距離、入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "우츠요키 숙소: 우츠요키·누오르감·카리가스니에미",
+      "description": "Lomarengas의 우츠요키 임대 코티지를 소개합니다. 우츠요키 마을, 누오르감, 카리가스니에미 주변의 코티지를 거리, 인원, 침실 수, 면적과 함께 보여 드립니다."
+    },
+    "fr": {
+      "title": "Chalets à Utsjoki : Utsjoki, Nuorgam et Karigasniemi",
+      "description": "Chalets à louer à Utsjoki chez Lomarengas : près du village d’Utsjoki, de Nuorgam et de Karigasniemi, avec distance, capacité, chambres et surface."
+    },
+    "it": {
+      "title": "Chalet a Utsjoki: Utsjoki, Nuorgam e Karigasniemi",
+      "description": "Chalet in affitto a Utsjoki da Lomarengas: chalet vicino al paese di Utsjoki, a Nuorgam e a Karigasniemi, con distanza, persone, camere da letto e superficie."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Utsjoki, Nuorgam en Karigasniemi",
+      "description": "Huurhuisjes van Lomarengas in Utsjoki: huisjes bij het dorp Utsjoki, Nuorgam en Karigasniemi, met afstand, aantal personen, slaapkamers en oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Utsjoki: Utsjoki by, Nuorgam och Karigasniemi",
+      "description": "Hyrstugor i Utsjoki från Lomarengas: stugor nära Utsjoki by, Nuorgam och Karigasniemi med avstånd, antal personer, sovrum och storlek."
     }
   },
   "/cabins/yllas": {
@@ -221,6 +761,42 @@
     "de": {
       "title": "Ylläs Ferienhäuser: Äkäslompolo und Ylläsjärvi",
       "description": "Ferienhäuser und Hütten in Ylläs: Blockhütten, Seehütten und Ski-in-Apartments in Äkäslompolo und Ylläsjärvi mit Personenzahl, Schlafzimmern und Größe."
+    },
+    "ja": {
+      "title": "ユッラスのコテージ：アカスロンポロとユッラスヤルヴィ",
+      "description": "ユッラスのコテージと貸別荘。アカスロンポロとユッラスヤルヴィにあるログキャビン、湖畔のコテージ、ゲレンデ直結のアパートメントを、定員・寝室数・広さとともに紹介します。"
+    },
+    "es": {
+      "title": "Cabañas en Ylläs: Äkäslompolo e Ylläsjärvi",
+      "description": "Cabañas en Ylläs: cabañas de troncos o junto al lago y apartamentos a pie de pista en Äkäslompolo e Ylläsjärvi, con capacidad, dormitorios y superficie."
+    },
+    "pt-BR": {
+      "title": "Cabanas em Ylläs: Äkäslompolo e Ylläsjärvi",
+      "description": "Cabanas e casas de temporada em Ylläs: cabanas de troncos, à beira do lago e apartamentos ski-in em Äkäslompolo e Ylläsjärvi, com capacidade, quartos e área."
+    },
+    "zh-CN": {
+      "title": "於拉斯木屋住宿：阿卡斯隆波洛與於拉斯耶爾維",
+      "description": "於拉斯的出租木屋與度假屋：阿卡斯隆波洛與於拉斯耶爾維兩座村莊的原木木屋、湖畔木屋和滑入式公寓，每棟都附入住人數、臥室數與面積。"
+    },
+    "ko": {
+      "title": "윌래스 숙소: 애캐슬롬폴로·윌래스야르비 코티지",
+      "description": "윌래스의 코티지와 휴가용 주택을 소개합니다. 애캐슬롬폴로와 윌래스야르비의 통나무집, 호숫가 코티지, 스키인 아파트를 인원, 침실 수, 면적과 함께 보여 드립니다."
+    },
+    "fr": {
+      "title": "Chalets à Ylläs : Äkäslompolo et Ylläsjärvi",
+      "description": "Chalets à Ylläs : chalets en rondins, chalets au bord du lac et appartements ski-in à Äkäslompolo et Ylläsjärvi, avec capacité, chambres et surface."
+    },
+    "it": {
+      "title": "Chalet a Ylläs: Äkäslompolo e Ylläsjärvi",
+      "description": "Chalet e case vacanza a Ylläs: baite di tronchi, chalet sul lago e appartamenti ski-in tra Äkäslompolo e Ylläsjärvi, con persone, camere da letto e superficie."
+    },
+    "nl": {
+      "title": "Vakantiehuisjes in Ylläs: Äkäslompolo en Ylläsjärvi",
+      "description": "Vakantiehuisjes in Ylläs: blokhutten, huisjes aan het meer en ski-in-appartementen in Äkäslompolo en Ylläsjärvi, met personen, slaapkamers en oppervlakte."
+    },
+    "sv": {
+      "title": "Stugor i Ylläs: boende i Äkäslompolo och Ylläsjärvi",
+      "description": "Stugor i Ylläs: timmerstugor, sjönära stugor och ski-in-lägenheter i Äkäslompolo och Ylläsjärvi med antal personer, sovrum och storlek på en sida."
     }
   },
   "/cookie-policy": {

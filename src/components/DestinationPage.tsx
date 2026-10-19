@@ -216,13 +216,26 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 const cache: Partial<Record<Lang, Copy>> = {}
 preloadLazyCopy(cache, loaders)
 
-const CABIN_PAGE_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen vuokramökit tällä sivustolla', en: 'All rental cabins in the area on this site', de: 'Alle Ferienhäuser der Region auf dieser Website' }
-const CABIN_PAGE_AREA: Partial<Record<string, string>> = { levi: 'levi', yllas: 'yllas', saariselka: 'saariselka', rovaniemi: 'rovaniemi' }
+const CABIN_PAGE_LABEL: Partial<Record<string, string>> = {
+  fi: 'Kaikki alueen vuokramökit tällä sivustolla',
+  en: 'All rental cabins in the area on this site',
+  de: 'Alle Ferienhäuser der Region auf dieser Website',
+  ja: 'このエリアの全コテージを当サイトで見る',
+  es: 'Todas las cabañas de la zona en este sitio',
+  'pt-BR': 'Todas as cabanas da região neste site',
+  'zh-CN': '本站該地區全部木屋',
+  ko: '이 사이트의 지역 코티지 전체 목록',
+  fr: 'Tous les chalets de la région sur ce site',
+  it: 'Tutti gli chalet della zona su questo sito',
+  nl: 'Alle huisjes in het gebied op deze website',
+  sv: 'Alla stugor i området här på sajten',
+}
+const CABIN_PAGE_AREA: Partial<Record<string, string>> = { levi: 'levi', yllas: 'yllas', saariselka: 'saariselka', rovaniemi: 'rovaniemi', inari: 'inari' }
 
 export default function DestinationPage(p: DestinationPageProps) {
   const lang = useLang()
   const to = useLocalePath()
-  // /cabins/<area> inventory pages exist for fi/en/de (OpenSEO 16.9.2026); Inari has none.
+  // /cabins/<area> inventory pages: every site language since 19.10.2026 (fi/en/de 16.9.2026, Inari 17.10.).
   const cabinPageHref = CABIN_PAGE_LABEL[lang] && CABIN_PAGE_AREA[p.slug] ? to(`/cabins/${CABIN_PAGE_AREA[p.slug]}`) : null
   const ui = useCopy<Copy>(enCopy, loaders, cache)
   const b = pick(

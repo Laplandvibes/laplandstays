@@ -32,7 +32,20 @@ const loaders: Record<Lang, () => Promise<{ default: PageCopy }>> = {
 }
 preloadLazyCopy(cache, loaders)
 
-const AREA_LINK_LABEL: Partial<Record<string, string>> = { fi: 'Kaikki alueen mökit', en: 'All cabins in the area', de: 'Alle Hütten der Region' }
+const AREA_LINK_LABEL: Partial<Record<string, string>> = {
+  fi: 'Kaikki alueen mökit',
+  en: 'All cabins in the area',
+  de: 'Alle Hütten der Region',
+  ja: 'このエリアのコテージをすべて見る',
+  es: 'Todas las cabañas de la zona',
+  'pt-BR': 'Todas as cabanas da região',
+  'zh-CN': '該地區全部木屋',
+  ko: '지역 코티지 전체 목록',
+  fr: 'Tous les chalets de la région',
+  it: 'Tutti gli chalet della zona',
+  nl: 'Alle huisjes in het gebied',
+  sv: 'Alla stugor i området',
+}
 
 export default function HomeCabinShowcase() {
   const lang = useLang()
