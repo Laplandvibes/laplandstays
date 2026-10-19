@@ -7,6 +7,10 @@ import Prose from './Prose';
 import NewsCard from './NewsCard';
 import { NewsAds, NewsChrome, NotFoundPage, SITE, useNewsHead } from './site';
 import type { NewsMeta } from './types';
+import { AppPromoAurora } from '../components/AppPromo';
+
+/** Uutiset, joiden alle tulee appin revontuliyksikkö: aiheena revontulihälytys tai -ennuste. */
+const AURORA_APP_NEWS: ReadonlySet<string> = new Set(['aurora-alert-cameras-lapland-hotels']);
 
 export default function NewsArticle() {
   const { slug = '' } = useParams();
@@ -141,6 +145,14 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           </ol>
         </section>
       </article>
+
+      {/* Uutinen kertoo hotellien revontulihälytyskameroista; appin revontuliyksikkö tuo saman hälytyksen
+          lukijan omaan puhelimeen, ja sen nappi avaa appin revontulinäkymän (19.10.2026). */}
+      {AURORA_APP_NEWS.has(meta.slug) && (
+        <div className="wrap">
+          <AppPromoAurora placement="news_aurora" />
+        </div>
+      )}
 
       {others.length > 0 && (
         <section className="nw-related">
