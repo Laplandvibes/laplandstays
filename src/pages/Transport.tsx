@@ -125,7 +125,7 @@ export default function Transport() {
           <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.80)_0%,rgba(15,23,42,0.52)_58%,rgba(15,23,42,0.10)_100%)]" />
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 [text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{ui.eyebrow}</p>
-            <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
+            <h1 className="font-heading text-5xl max-sm:[:lang(ja)_&]:text-4xl sm:text-6xl md:text-7xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {ui.h1}
             </h1>
             <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">

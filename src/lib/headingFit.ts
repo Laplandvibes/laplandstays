@@ -1,4 +1,4 @@
-import { CJK, fraasit } from './cjk/fraasit'
+import { CJK, fraasit } from '../shared/cjk/fraasit'
 
 /**
  * Heading width estimates for fitting a display heading to its column (Vesa 3.10.2026: "tehdään turhaan
@@ -37,7 +37,7 @@ export const emWidth = (s: string, tracking = 0): number =>
 /**
  * Width in em of the longer line when the heading is split into two lines at the best point.
  * Break points: spaces, after a hyphen ("FINNISCH- / LAPPLAND"), and for Chinese/Japanese the phrase
- * boundaries the heading's <wbr>s use (src/lib/cjk/fraasit.ts), so the estimate matches where the line can
+ * boundaries the heading's <wbr>s use (src/shared/cjk/fraasit.ts), so the estimate matches where the line can
  * actually break. A size of 100cqi / this value lets the heading run to two lines in its column; the global
  * `text-wrap: balance` then picks the even split.
  */

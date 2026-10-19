@@ -7,17 +7,24 @@
  * tekee välimerkittömästä kiinasta yhden katkeamattoman sanan, joka ylivuotaa ja katkeaa mihin sattuu,
  * ja `word-break: auto-phrase` toimii vain Chromiumissa ja vain japanille.
  *
- * Siksi otsikon tekstiin lisätään <wbr>-katkokohdat (cjkJsxRuntime.ts) ja CSS (index.css) sallii katkon
- * vain niissä. Teksti ei muutu: <wbr> on elementti, ei merkki (textContent, haku ja kopiointi ennallaan).
+ * Siksi otsikon tekstiin lisätään <wbr>-katkokohdat (cjkJsxRuntime.ts) ja CSS (CJK_CSS, cjkOtsikotPlugin.ts) sallii
+ * katkon vain niissä. Teksti ei muutu: <wbr> on elementti, ei merkki (textContent, haku ja kopiointi ennallaan).
+ *
+ * Kanoninen lähde: lv-ops shared/cjk/. Sivustot vendoroivat kansion src/shared/cjk/:ksi tavu tavulta
+ * (scripts/rollout_cjk_otsikot.mjs --write; --check vertaa jokaisen sivuston origin/mainia tähän).
  *
  * Jako = selaimen oma Intl.Segmenter (ICU) + säännöt. ICU pirstoo translitteroidut paikannimet
  * (拉|普|蘭, 羅|瓦|涅|米) ja taivutukset (待|って|く|れ|ない), joten paikannimet suojataan listalla ja
  * kieliopilliset palat liitetään naapuriinsa. Selain ilman Intl.Segmenteria = ei katkokohtia = vanha käytös.
  */
 
-// Paikannimet, joiden sisällä ei koskaan katkea. Vain perinteinen kiina (sivuston /cn/ on zh-Hant, ja
-// scripts/zh-hant.mjs --check valvoo sitä) ja japani.
+// Paikannimet, joiden sisällä ei koskaan katkea: yksinkertaistettu kiina (verkoston /cn/), perinteinen
+// kiina (laplandstaysin /cn/) ja japani. Muodot on poimittu sivustojen omista käännöksistä. Tavallinen
+// taulukko eikä zh-avain: laplandstaysin zh-hant.mjs lukee vain zh-alipuut, joten lista ei kaada sitä.
 const PAIKAT = [
+  '拉普兰', '芬兰', '罗瓦涅米', '萨利色尔卡', '萨里塞尔卡', '伊纳里', '莱维', '列维', '于拉斯', '于莱斯', '赫尔辛基',
+  '托尔尼奥', '萨米', '库萨莫', '鲁卡', '基蒂莱', '凯米', '奥卢', '基尔皮斯耶尔维', '圣诞老人村', '圣诞老人', '皮哈',
+  '帕拉斯', '伊瓦洛', '卢奥斯托', '萨拉', '索丹屈莱', '阿卡斯隆波洛', '穆奥尼奥', '科拉里', '拉努阿',
   '拉普蘭', '芬蘭', '於拉斯', '伊納里', '羅瓦涅米', '薩利色爾卡', '赫爾辛基', '薩米', '伊瓦洛', '基蒂萊',
   '聖誕老人村', '聖誕老人', '魯卡', '庫薩莫', '皮哈', '凱米', '盧奧斯托', '列維', '萊維', '托爾尼奧',
   'ラップランド', 'フィンランド', 'ロヴァニエミ', 'レヴィ', 'ユッラス', 'サーリセルカ', 'ヘルシンキ', 'イナリ',
@@ -38,21 +45,29 @@ const EI_ALKUUN = /^[、。，．,.!！?？:：;；)）\]］}｝」』】〕〉�
 // ei rivin loppuun: avaavat sulkeet ja lainausmerkit
 const EI_LOPPUUN = /[(（[［{｛「『【〔〈《“‘]$/u;
 // kiinan rakennepartikkelit kuuluvat edelliseen sanaan
-const ZH_EDELLISEEN = /^[的地得了們著過之]$/u;
+const ZH_EDELLISEEN = /^[的地得了们們着著过過之]$/u;
 // japanin kunniaetuliite kuuluu seuraavaan sanaan
 const JA_ETULIITE = /^[ごお御]$/u;
 // japanin partikkeli, jonka JÄLKEEN on lauseenosaraja
 const JA_PARTIKKELI = /^[のはがをにへとでもやて]$/u;
+// monimerkkinen partikkeli, pääte tai apuverbi, joka ei irtoa edeltävästä katakanasanasta (ロヴァニエミ|から, オーロラ|という)
+const JA_PARTIKKELI_PITKA = /^(から|まで|より|など|だけ|しか|ほど|くらい|ぐらい|ずつ|とか|って|では|には|とは|へは|でも|にも|との|への|での|ので|のに|けど|ながら|こそ|なら|とい|ごと|まま|よう|みた|らし|ぶり|がち|につ|とし|によ|にお|です|でし|ます|まし|だっ|だろ|でき|させ|され)/u;
 // leveysyksikköä (CJK-merkki = 1): pidempään yksikköön palautetaan pehmeät rajat
 const RAJA = 6;
 
 type Luokka = 'kova' | 'pehmea' | 'ok';
 
-let segmentoijat: { ja: Intl.Segmenter; zh: Intl.Segmenter } | null | undefined;
-function segmentoija(ja: boolean): Intl.Segmenter | null {
+// Oma minimityyppi Intl.Segmenterille: osa sivustoista kääntää tsconfigin lib-asetuksella, jonka tyypeissä Segmenteria
+// ei ole (ES2022:sta alkaen), ja tsc kaatoi buildin (hoteldeals + work 1.10.2026, TS2694). Ajonaikana tarkistetaan erikseen.
+interface Segmentoija { segment(teksti: string): Iterable<{ segment: string }> }
+type SegmentoijaLuokka = new (kieli: string, optiot: { granularity: 'word' }) => Segmentoija;
+
+let segmentoijat: { ja: Segmentoija; zh: Segmentoija } | null | undefined;
+function segmentoija(ja: boolean): Segmentoija | null {
   if (segmentoijat === undefined) {
-    segmentoijat = typeof Intl !== 'undefined' && typeof Intl.Segmenter === 'function'
-      ? { ja: new Intl.Segmenter('ja', { granularity: 'word' }), zh: new Intl.Segmenter('zh', { granularity: 'word' }) }
+    const Luokka = typeof Intl !== 'undefined' ? (Intl as unknown as { Segmenter?: SegmentoijaLuokka }).Segmenter : undefined;
+    segmentoijat = typeof Luokka === 'function'
+      ? { ja: new Luokka('ja', { granularity: 'word' }), zh: new Luokka('zh', { granularity: 'word' }) }
       : null;
   }
   return segmentoijat ? (ja ? segmentoijat.ja : segmentoijat.zh) : null;
@@ -96,19 +111,38 @@ export function katkokohdat(teksti: string): number[] {
     else if (!CJK.test(a) && !CJK.test(b)) l = 'kova'; // latinalaisen tekstin sisään ei <wbr>ää
     else if (EI_ALKUUN.test(b) || EI_LOPPUUN.test(a)) l = 'kova';
     else if (NUMERO.test(a) && CJK.test(b)) l = 'kova'; // luku ja sen yksikkö: 4つ, 6月, 4種
-    else if (CJK.test(a) && NUMERO.test(b)) l = /[第約每毎共計近逾]/u.test(a) ? 'kova' : 'pehmea'; // 第6條; 6月から|7月
+    else if (CJK.test(a) && NUMERO.test(b)) l = /[第約约每毎共計计近逾]/u.test(a) ? 'kova' : 'pehmea'; // 第6條; 6月から|7月
     else if (ja) {
       if (JA_ETULIITE.test(edTeksti)) l = 'kova'; // ご|期待
       else if (ed.length === 1 && HAN.test(a) && KATA.test(b)) l = 'kova'; // etuliite: 当|サイト
       else if (nyt.length === 1 && HAN.test(b) && KATA.test(a)) l = 'kova'; // pääte: イグルー|泊
+      // Kunniaetuliitteellä alkava sana (お知らせ, ご予約) on uusi lauseenosa, ei edellisen taivutusta: pehmeä raja.
+      // Ilman tätä 求人が出たらお知らせします oli yksi 10 merkin yksikkö, joka keep-allilla levitti flex-rivin
+      // otsikon vanhempaansa leveämmäksi (laplandwork /ja/jobs/ 360 px, 8.10.2026).
+      else if (/^[ごお]\p{Script=Han}/u.test(nytTeksti) && KIRJAIN.test(a)) l = 'pehmea'; // 出たら|お知らせ
       else if (HIRA.test(b) && KIRJAIN.test(a) && !JA_ETULIITE.test(nytTeksti)) {
         // Partikkeli ja okurigana kuuluvat edelliseen. Pehmeä (vain pitkässä yksikössä) on apuverbi tai
         // muodollinen substantiivi (いただける, こと) sekä partikkelin JÄLKEINEN raja (空が|こたえて):
         // ICU:n muut hiraganapalat ovat usein taivutuksen osia (計画|しま|しょう), joiden väliin ei katketa.
         const apuverbi = [...nytTeksti].every((c) => HIRA.test(c)) && /^(いただ|いた|いる|いく|くださ|くれ|こと)/u.test(nytTeksti);
-        l = apuverbi || JA_PARTIKKELI.test(edTeksti) ? 'pehmea' : 'kova';
+        // Katakanasanan jälkeinen hiraganasana (ハスキー|そり, スキー|したい) on oma sanansa, ei taivutusta: pehmeä.
+        // Ilman sitä ハスキーそり・ oli 7 merkin yksikkö, joka katkesi hätäkatkona ・:n eteen (hubi 768 px, 8.10.2026).
+        const katakananJalkeen = KATA.test(a) && nyt.length >= 2 && [...nytTeksti].every((c) => HIRA.test(c)) && !JA_PARTIKKELI_PITKA.test(nytTeksti);
+        // Kaksi partikkelia peräkkäin on yksi yhdyspartikkeli (へ|の, に|は, で|も): ei katkoa niiden väliin. ICU antaa
+        // ラップランドへの muodossa ラップランド|へ|の, ja ilman tätä otsikko katkesi "ラップランドへ / の行き方" (hubi 16.10.2026).
+        const partikkeliJono = JA_PARTIKKELI.test(nytTeksti); // vain yksimerkkinen: PITKA-listassa on myös でき/です (が|できます saa katketa)
+        l = apuverbi || katakananJalkeen || (JA_PARTIKKELI.test(edTeksti) && !partikkeliJono) ? 'pehmea' : 'kova';
       } else if (HAN.test(a) && HAN.test(b)) l = ed.length >= 2 && nyt.length >= 2 ? 'pehmea' : 'kova'; // kanjiyhdyssana
-      else if (KATA.test(a) && KATA.test(b) && (ed.length <= 2 || nyt.length <= 2)) l = 'kova'; // ハス|キー
+      else if (KATA.test(a) && KATA.test(b) && (ed.length <= 2 || nyt.length <= 2)) {
+        // ICU pilkkoo tuntemattoman vierassanan ≤ 2 merkin paloiksi (ハス|キー), joiden väliin ei katketa. Pidennysmerkkiin
+        // ー päättyvä vähintään 4 merkin katakanajono + vähintään 3 merkin sana on kuitenkin yhdyssanan raja (ハスキー|サファリ,
+        // ウィンター|スポーツ): pehmeä. Ilman sitä ハスキーサファリを oli 9 merkin yksikkö, joka katkesi hätäkatkona pienen
+        // kanan eteen (hubi /ja/husky-safaris/ 360 px, 8.10.2026). Ehto ー rajaa pois ICU:n virhepalat (ベースレ|イヤー):
+        // korpuksessa 4 027 otsikkoa ー-ehdolla 31 muutosta, kaikki oikeita; ilman sitä 79, joista 8 sanan keskeltä.
+        let jono = 0;
+        for (let j = i - 1; j >= 0 && KATA.test(cps[j]); j--) jono++;
+        l = a === 'ー' && nyt.length >= 3 && jono >= 4 ? 'pehmea' : 'kova';
+      }
     } else {
       if (ZH_EDELLISEEN.test(nytTeksti)) l = 'kova'; // 的 edelliseen
       else if (nyt.length === 1 && HAN.test(b) && HAN.test(a) && !nimenAlku[i]) l = 'kova'; // yksittäinen merkki edelliseen
@@ -136,6 +170,38 @@ export function katkokohdat(teksti: string): number[] {
     for (const [i, l] of luokka) if (l === 'pehmea' && i > x && i < y) tulos.add(i);
   }
   return [...tulos].sort((p, q) => p - q);
+}
+
+/**
+ * Pitkät katakanasanat (vähintään 7 merkkiä, ei paikannimeä): アクティビティ, アイスフィッシング. keep-allin alla riviä
+ * pidemmän sanan ainoa katko on hätäkatko viimeiseen mahtuvaan merkkiin, joka ei tunne kinsokua: 18 px:n korttiotsikko
+ * 124 px:n laatikossa antoi 夏の / アクティビテ / ィ (laplandactivities /ja/ 360 px, 8.10.2026; ennen 夏のアク / ティビティ).
+ * otsikko.ts käärii sanan sisältävän fraasin inline-block-elementtiin, joka katkeaa vain jos fraasi ei mahdu riville, ja
+ * silloin selaimen omalla rivityksellä ja strict-kinsokulla (CJK_CSS [data-cjk-pitka]).
+ * Vain katakanasana: sekapalassa (お考えですか？, 知りたいですか？) sisäiset katkot antoivat balancen jakaa palan, vaikka
+ * se olisi mahtunut riville (laplandwork /ja/ 360–412 px: 採用をお考 / えですか？). Paikannimi ei katkea (サンタクロース).
+ * → null jos palassa ei ole pitkää katakanasanaa, muuten palat järjestyksessä.
+ */
+export function katakanaPalat(osa: string): { teksti: string; pitka: boolean }[] | null {
+  const cps = [...osa];
+  const out: { teksti: string; pitka: boolean }[] = [];
+  let i = 0, alku = 0, loytyi = false;
+  while (i < cps.length) {
+    if (!KATA.test(cps[i])) { i++; continue; }
+    let j = i;
+    while (j < cps.length && KATA.test(cps[j])) j++;
+    const sana = cps.slice(i, j).join('');
+    if (j - i > RAJA && !PAIKAT.some((p) => sana.includes(p))) {
+      if (i > alku) out.push({ teksti: cps.slice(alku, i).join(''), pitka: false });
+      out.push({ teksti: sana, pitka: true });
+      alku = j;
+      loytyi = true;
+    }
+    i = j;
+  }
+  if (!loytyi) return null;
+  if (alku < cps.length) out.push({ teksti: cps.slice(alku).join(''), pitka: false });
+  return out;
 }
 
 /** Teksti fraaseiksi katkokohtien kohdalta (testeille ja mittareille). */

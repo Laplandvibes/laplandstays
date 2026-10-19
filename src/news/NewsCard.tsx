@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useLang, useLocalePath } from '../i18n/useLang';
-import { fraasiLapset } from '../lib/cjk/otsikko';
+import { fraasiLapset } from '../shared/cjk/otsikko';
 import { formatDate } from './format';
 import { SITE } from './site';
 import type { NewsMeta, NewsText, NewsUi } from './types';
