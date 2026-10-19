@@ -132,11 +132,11 @@ const HEAD_AREA = {
 const NAME = {
   levi: { fi: 'Levin mökit', en: 'Cabins in Levi', de: 'Ferienhäuser in Levi' },
   yllas: { fi: 'Ylläksen mökit', en: 'Cabins in Ylläs', de: 'Ferienhäuser in Ylläs' },
-  ruka: { fi: 'Rukan mökit', en: 'Cabins in Ruka', de: 'Ferienhäuser in Ruka' },
+  ruka: { fi: 'Rukan ja Kuusamon mökit', en: 'Cabins in Ruka', de: 'Ferienhäuser in Ruka' },
   saariselka: { fi: 'Saariselän mökit', en: 'Cabins in Saariselkä', de: 'Ferienhäuser in Saariselkä' },
   'pyha-luosto': { fi: 'Pyhän ja Luoston mökit', en: 'Cabins in Pyhä and Luosto', de: 'Ferienhäuser in Pyhä und Luosto' },
   rovaniemi: { fi: 'Rovaniemen mökit', en: 'Cabins in Rovaniemi', de: 'Ferienhäuser in Rovaniemi' },
-  enontekio: { fi: 'Enontekiön mökit', en: 'Cabins in Enontekiö', de: 'Ferienhäuser in Enontekiö' },
+  enontekio: { fi: 'Kilpisjärven ja Enontekiön mökit', en: 'Cabins in Enontekiö', de: 'Ferienhäuser in Enontekiö' },
   inari: { fi: 'Inarin mökit', en: 'Cabins in Inari', de: 'Ferienhäuser in Inari' },
   utsjoki: { fi: 'Utsjoen mökit', en: 'Cabins in Utsjoki', de: 'Ferienhäuser in Utsjoki' },
   salla: { fi: 'Sallan mökit', en: 'Cabins in Salla', de: 'Ferienhäuser in Salla' },

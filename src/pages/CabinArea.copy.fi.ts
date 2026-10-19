@@ -27,10 +27,10 @@ const copy: CabinAreaPageCopy = {
     },
     ruka: {
       seo: {
-        title: 'Rukan mökit: vuokramökit Rukatunturin ympäriltä',
-        description: 'Rukan mökit ja vuokramökit: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen yhdellä sivulla.',
+        title: 'Rukan mökit: majoitus Rukalla ja Kuusamon järviseudulla',
+        description: 'Rukan mökit ja majoitus vuokramökeissä: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
-      h1: 'Rukan mökit',
+      h1: 'Rukan ja Kuusamon mökit',
       intro: 'Lomarenkaan valikoimassa on {near} vuokramökkiä Rukalla ja enintään 10 kilometrin päässä Rukan kylästä sekä {far} mökkiä kauempana Kuusamon järviseudulla. Ruka avaa rinteensä syksyllä ensimmäisten joukossa ja kausi jatkuu kevääseen, joten mökkiviikkoja on tarjolla pitkälle. Jokaisessa kortissa on mökin etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
       split: {
         nearH2: 'Ruka ja lähialue',
@@ -91,10 +91,10 @@ const copy: CabinAreaPageCopy = {
     },
     enontekio: {
       seo: {
-        title: 'Enontekiön mökit: Kilpisjärvi, Hetta ja Raattama',
-        description: 'Enontekiön vuokramökit Lomarenkaan valikoimasta: Kilpisjärven, Hetan ja Raattaman mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
+        title: 'Kilpisjärven ja Hetan mökit: majoitus Enontekiöllä',
+        description: 'Kilpisjärven ja Hetan majoitus vuokramökeissä: Enontekiön mökit Lomarenkaan valikoimasta etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
-      h1: 'Enontekiön mökit',
+      h1: 'Kilpisjärven ja Enontekiön mökit',
       intro: 'Enontekiöllä on Lomarenkaan valikoimassa {near} vuokramökkiä enintään 10 kilometrin päässä Kilpisjärveltä, Hetasta tai Raattamasta ja {far} mökkiä kauempana kunnan kylissä. Kilpisjärvi on Käsivarren tunturikylä Saanan juurella, Hetta kunnan keskus Pallas-Yllästunturin kansallispuiston pohjoispäässä ja Raattama kylä Ounasjoen varrella. Jokaisessa kortissa on mökin etäisyys lähimpään näistä kylistä, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
       split: {
         nearH2: 'Kilpisjärvi, Hetta, Raattama ja lähialue',
@@ -105,8 +105,8 @@ const copy: CabinAreaPageCopy = {
     },
     utsjoki: {
       seo: {
-        title: 'Utsjoen mökit: Utsjoki, Nuorgam ja Karigasniemi',
-        description: 'Utsjoen vuokramökit Lomarenkaan valikoimasta: Utsjoen kylän, Nuorgamin ja Karigasniemen mökit etäisyyksineen, henkilömäärineen ja kokoineen.',
+        title: 'Utsjoen mökit: majoitus Nuorgamissa ja Karigasniemellä',
+        description: 'Majoitus Utsjoella vuokramökeissä: Utsjoen kylän, Nuorgamin ja Karigasniemen mökit Lomarenkaan valikoimasta etäisyyksineen ja henkilömäärineen.',
       },
       h1: 'Utsjoen mökit',
       intro: 'Utsjoella on Lomarenkaan valikoimassa {near} vuokramökkiä enintään 10 kilometrin päässä Utsjoen kylästä, Nuorgamista tai Karigasniemeltä ja {far} mökkiä kauempana. Utsjoki on Suomen pohjoisin kunta Tenojoen varrella, Nuorgam Suomen pohjoisin kylä ja Karigasniemi kylä Norjan rajalla. Jokaisessa kortissa on mökin etäisyys lähimpään kylään, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -119,8 +119,8 @@ const copy: CabinAreaPageCopy = {
     },
     muonio: {
       seo: {
-        title: 'Muonion mökit: Olos ja Muonio',
-        description: 'Muonion vuokramökit Lomarenkaan valikoimasta: Oloksen ja Muonion keskustan mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
+        title: 'Muonion mökit: majoitus Oloksella ja Muoniossa',
+        description: 'Majoitus Muoniossa vuokramökeissä: Oloksen ja Muonion keskustan mökit Lomarenkaan valikoimasta etäisyyksineen, henkilömäärineen ja kokoineen.',
       },
       h1: 'Muonion mökit',
       intro: 'Muoniossa on Lomarenkaan valikoimassa {near} vuokramökkiä enintään 10 kilometrin päässä Oloksen hiihtokeskuksesta tai Muonion keskustasta ja {far} mökkiä kauempana. Muonio on Muonionjoen varrella Ruotsin rajalla, ja Pallastunturit ovat kunnan alueella. Jokaisessa kortissa on mökin etäisyys Olokselle tai keskustaan, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -147,16 +147,16 @@ const copy: CabinAreaPageCopy = {
     },
     sodankyla: {
       seo: {
-        title: 'Sodankylän mökit: vuokramökit Lomarenkaalta',
-        description: 'Sodankylän vuokramökit Luoston ja Saariselän ulkopuolelta Lomarenkaan valikoimasta: etäisyys, henkilömäärä, makuuhuoneet ja koko.',
+        title: 'Sodankylän mökit: majoitus vuokramökeissä',
+        description: 'Majoitus Sodankylässä vuokramökeissä Luoston ja Saariselän ulkopuolella: Lomarenkaan mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
       h1: 'Sodankylän mökit',
       intro: 'Sodankylässä on Lomarenkaan valikoimassa {count} vuokramökkiä Luoston ja Saariselän ulkopuolella; Saariselän mökit ovat omalla sivullaan ja Luoston mökit Pyhän ja Luoston sivulla. Sodankylässä järjestetään joka kesäkuu Midnight Sun Film Festival -elokuvajuhlat. Jokaisessa kortissa on mökin etäisyys Sodankylän keskustaan, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
     },
     salla: {
       seo: {
-        title: 'Sallan mökit: vuokramökit Sallatunturilta',
-        description: 'Sallan vuokramökit Lomarenkaan valikoimasta: Sallatunturin ja Sallan keskustan mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
+        title: 'Sallan mökit: majoitus Sallatunturilla ja Sallassa',
+        description: 'Majoitus Sallassa vuokramökeissä: Sallatunturin ja Sallan keskustan mökit Lomarenkaan valikoimasta etäisyyksineen, henkilömäärineen ja kokoineen.',
       },
       h1: 'Sallan mökit',
       intro: 'Sallassa on Lomarenkaan valikoimassa {near} vuokramökkiä enintään 10 kilometrin päässä Sallatunturilta tai Sallan keskustasta ja {far} mökkiä kauempana kunnan kylissä. Sallatunturin hiihtokeskus on Sallan kansallispuiston kupeessa Itä-Lapissa. Jokaisessa kortissa on mökin etäisyys Sallatunturille tai keskustaan, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -169,8 +169,8 @@ const copy: CabinAreaPageCopy = {
     },
     kemijarvi: {
       seo: {
-        title: 'Kemijärven mökit: Suomu ja Kemijärvi',
-        description: 'Kemijärven vuokramökit Lomarenkaan valikoimasta: Suomutunturin ja Kemijärven keskustan mökit etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
+        title: 'Kemijärven mökit: majoitus Suomulla ja Kemijärvellä',
+        description: 'Majoitus Kemijärvellä vuokramökeissä: Suomutunturin ja Kemijärven keskustan mökit Lomarenkaan valikoimasta etäisyyksineen, henkilömäärineen ja kokoineen.',
       },
       h1: 'Kemijärven mökit',
       intro: 'Kemijärvellä on Lomarenkaan valikoimassa {near} vuokramökkiä enintään 10 kilometrin päässä Suomun hiihtokeskuksesta tai Kemijärven keskustasta ja {far} mökkiä kauempana. Kemijärvi on Suomen pohjoisin kaupunki samannimisen järven rannalla, ja Suomutunturi on kaupungin kaakkoispuolella. Pyhätunturin lähellä olevat Kemijärven mökit löytyvät Pyhän ja Luoston sivulta. Jokaisessa kortissa on mökin etäisyys Suomulle tai keskustaan, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -183,8 +183,8 @@ const copy: CabinAreaPageCopy = {
     },
     posio: {
       seo: {
-        title: 'Posion mökit: vuokramökit Lomarenkaalta',
-        description: 'Posion vuokramökit Lomarenkaan valikoimasta keskustan läheltä ja kunnan kylistä, etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
+        title: 'Posion mökit: majoitus vuokramökeissä Posiolla',
+        description: 'Majoitus Posiolla vuokramökeissä: Lomarenkaan mökit keskustan läheltä ja kunnan kylistä etäisyyksineen, henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
       h1: 'Posion mökit',
       intro: 'Posiolla on Lomarenkaan valikoimassa {near} vuokramökkiä enintään 10 kilometrin päässä Posion keskustasta ja {far} mökkiä kauempana kunnan kylissä. Posiolla sijaitsevat Riisitunturin kansallispuisto ja Korouoman kanjoni. Jokaisessa kortissa on mökin etäisyys Posion keskustaan, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',
@@ -197,8 +197,8 @@ const copy: CabinAreaPageCopy = {
     },
     pello: {
       seo: {
-        title: 'Pellon mökit: vuokramökit Lomarenkaalta',
-        description: 'Pellon vuokramökit Lomarenkaan valikoimasta: jokaisesta mökistä etäisyys Pellon keskustaan, henkilömäärä, makuuhuoneet ja koko.',
+        title: 'Pellon mökit: majoitus vuokramökeissä Pellossa',
+        description: 'Majoitus Pellossa vuokramökeissä: Lomarenkaan mökit, jokaisesta etäisyys Pellon keskustaan, henkilömäärä, makuuhuoneet ja koko.',
       },
       h1: 'Pellon mökit',
       intro: 'Pellossa on Lomarenkaan valikoimassa {count} vuokramökkiä. Pello on Tornionjoen varrella Ruotsin rajalla. Jokaisessa kortissa on mökin etäisyys Pellon keskustaan, henkilömäärä, makuuhuoneet, koko ja tähdet; viikkohinnan ja vapaat viikot näet Lomarenkaalla.',

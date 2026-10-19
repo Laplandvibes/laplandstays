@@ -136,8 +136,8 @@ export const cabinAreas = {
     ]
   },
   "ruka": {
-    "title": "Rukan mökit",
-    "intro": "Rukan mökit: Lomarenkaan valikoimassa 241 vuokramökkiä Rukalla ja enintään 10 km:n päässä Rukan kylästä sekä 65 mökkiä kauempana Kuusamon järviseudulla. Jokaisesta mökistä etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
+    "title": "Rukan ja Kuusamon mökit",
+    "intro": "Rukan ja Kuusamon mökit: Lomarenkaan valikoimassa 241 vuokramökkiä Rukalla ja enintään 10 km:n päässä Rukan kylästä sekä 65 mökkiä kauempana Kuusamon järviseudulla. Jokaisesta mökistä etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
     "lines": [
       "Ruka panorama, Ruka (Kuusamo), noin 2 km Rukalta: 14 vierasta, 4 makuuhuonetta, 300 m², 5 tähteä.",
       "Holy lake chalet b, Kuusamo, noin 5 km Rukalta: 10 vierasta, 4 makuuhuonetta, 320 m², 5 tähteä.",
@@ -383,8 +383,8 @@ export const cabinAreas = {
     ]
   },
   "enontekio": {
-    "title": "Enontekiön mökit",
-    "intro": "Enontekiön mökit: 60 vuokramökkiä Lomarenkaan valikoimassa. Jokaisesta mökistä etäisyys lähimpään kylään tai keskukseen, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
+    "title": "Kilpisjärven ja Enontekiön mökit",
+    "intro": "Kilpisjärven ja Enontekiön mökit: 60 vuokramökkiä Lomarenkaan valikoimassa. Jokaisesta mökistä etäisyys lähimpään kylään tai keskukseen, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
     "lines": [
       "Villa northern lights, Raattama (Enontekiö), noin 5 km Raattamasta: 10 vierasta, 3 makuuhuonetta, 200 m², 4 tähteä.",
       "Loimu, Enontekiö, noin 6 km Kilpisjärveltä: 8 vierasta, 3 makuuhuonetta, 88 m², 4 tähteä.",
