@@ -124,7 +124,14 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
       </div>
 
       <article className="nw-sheet">
-        <Prose blocks={text.body} meta={meta} />
+        {/* Uutinen kertoo hotellien revontulihälytyskameroista; appin revontuliyksikkö tuo saman hälytyksen lukijan
+            omaan puhelimeen (nappi avaa appin revontulinäkymän). 🔴 Vesa 20.10.2026: "aivan liian alhaalla" — lähteiden
+            alla se oli 4,5 näytöllistä alhaalla puhelimella; nyt rungon sisällä ennen ensimmäistä väliotsikkoa. */}
+        <Prose
+          blocks={text.body}
+          meta={meta}
+          afterIntro={AURORA_APP_NEWS.has(meta.slug) ? <AppPromoAurora placement="news_aurora_inline" /> : undefined}
+        />
         <section className="nw-sources" aria-labelledby="nw-sources-h">
           <h2 id="nw-sources-h" className="nw-sources-h">{ui.ui.sources}</h2>
           <ol>
@@ -145,14 +152,6 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           </ol>
         </section>
       </article>
-
-      {/* Uutinen kertoo hotellien revontulihälytyskameroista; appin revontuliyksikkö tuo saman hälytyksen
-          lukijan omaan puhelimeen, ja sen nappi avaa appin revontulinäkymän (19.10.2026). */}
-      {AURORA_APP_NEWS.has(meta.slug) && (
-        <div className="wrap">
-          <AppPromoAurora placement="news_aurora" />
-        </div>
-      )}
 
       {others.length > 0 && (
         <section className="nw-related">
