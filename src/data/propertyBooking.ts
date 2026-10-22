@@ -133,6 +133,24 @@ export const PROPERTY_BOOKING: Partial<Record<PropertyKey, PropertyBooking>> = {
   silverBirch: { town: "Rovaniemi", slug: "silver_birch", semboHotel: "13758626", semboPoly: "360732", tripHotel: "125975259", tripCity: "1794" },
   leviSpirit: { town: "Levi", slug: "levi_spirit", semboHotel: "504783", semboPoly: "360006", tripHotel: "4231378", tripCity: "38182" },
   yllashumina: { town: "Ylläs", slug: "yllashumina", tripHotel: "9838618", tripCity: "259389" },
+  // Rovaniemen hotellilista (tehtävä D, 22.10.2026). Sembo: autosuggest → hotelCode + polygon, avattu
+  // Sembon sivulla ja nimi luettu takaisin (hinta näkyi); Trip.com: hotellisivun h1 + osoite luettu.
+  // Glass Resort: Sembo listaa mutta ei myy (ei huoneita 3.11., 2.12., 20.1.) ⇒ ei Sembo-tunnusta,
+  // jolloin jokainen kieli menee Trip.comiin (sama ratkaisu kuin Harriniva). Trip 10944848, EI 5790221.
+  // Santasport: Sembon 251006 = Sporthotel (huonetyypit luettu); Trip 2547303 "Santasport Resort".
+  arcticLight: { town: "Rovaniemi", slug: "arctic_light", semboHotel: "102498", semboPoly: "360732", tripHotel: "3108511", tripCity: "1794" },
+  scandicRovaniemiCity: { town: "Rovaniemi", slug: "scandic_city", semboHotel: "FI-H22793", semboPoly: "360732", tripHotel: "2158906", tripCity: "1794" },
+  scandicPohjanhovi: { town: "Rovaniemi", slug: "pohjanhovi", semboHotel: "FI-H22711", semboPoly: "360732", tripHotel: "2133257", tripCity: "1794" },
+  arcticCityHotel: { town: "Rovaniemi", slug: "arctic_city", semboHotel: "FI-H22710", semboPoly: "360732", tripHotel: "2139480", tripCity: "1794" },
+  sokosVaakuna: { town: "Rovaniemi", slug: "sokos_vaakuna", semboHotel: "FI-H22745", semboPoly: "360732", tripHotel: "2171790", tripCity: "1794" },
+  santasHotelSantaClaus: { town: "Rovaniemi", slug: "santas_hotel", semboHotel: "FI-H22788", semboPoly: "360732", tripHotel: "2164549", tripCity: "1794" },
+  postmasterHotel: { town: "Rovaniemi", slug: "postmaster", semboHotel: "28071671", semboPoly: "360732", tripHotel: "114911171", tripCity: "1794" },
+  hotelAakenus: { town: "Rovaniemi", slug: "aakenus", semboHotel: "509439", semboPoly: "360732", tripHotel: "43240155", tripCity: "1794" },
+  skyOunasvaara: { town: "Rovaniemi", slug: "sky_ounasvaara", semboHotel: "FI-H85147", semboPoly: "360732", tripHotel: "2164539", tripCity: "1794" },
+  santasport: { town: "Rovaniemi", slug: "santasport", semboHotel: "251006", semboPoly: "360732", tripHotel: "2547303", tripCity: "1794" },
+  santaClausHolidayVillage: { town: "Rovaniemi", slug: "santa_claus_hv", semboHotel: "1659057", semboPoly: "360049", tripHotel: "2157251", tripCity: "1794" },
+  glassResort: { town: "Rovaniemi", slug: "glass_resort", tripHotel: "10944848", tripCity: "1794" },
+  invisibleForest: { town: "Rovaniemi", slug: "invisible_forest", semboHotel: "11442214", semboPoly: "360732", tripHotel: "115478710", tripCity: "1794" },
 };
 
 /**

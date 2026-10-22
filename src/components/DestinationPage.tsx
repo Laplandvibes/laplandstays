@@ -106,6 +106,13 @@ export interface DestinationBody {
   howToGet: string
   stayTypes: string[]
   anchorProperties?: DestinationAnchor[]
+  /**
+   * Named hotels grouped by area (Rovaniemi since 22.10.2026, tehtävä D). Rendered in the same
+   * "where to stay" panel above `anchorProperties`, which then carries only the city-search row.
+   */
+  anchorGroups?: { title: string; items: DestinationAnchor[] }[]
+  /** Lead line of the "where to stay" panel when the page has its own (else the shared chrome line). */
+  anchorIntro?: string
   transport?: TransportRow[]
   guide?: DestinationGuide
   dayPlan?: { day: string; title: string; body: string }[]
@@ -280,7 +287,8 @@ export default function DestinationPage(p: DestinationPageProps) {
    * `bestGoogleRated` drops them.
    */
   const editorsPick = bestGoogleRated(
-    (b.anchorProperties ?? []).map((a) => propertyForQuery(a.propertyQuery ?? a.name)),
+    [...(b.anchorGroups ?? []).flatMap((g) => g.items), ...(b.anchorProperties ?? [])]
+      .map((a) => propertyForQuery(a.propertyQuery ?? a.name)),
   )
   const pickNote = editorialPickNote(chrome.editorial, editorsPick, lang)
 
@@ -338,6 +346,71 @@ export default function DestinationPage(p: DestinationPageProps) {
       '@type': 'AdministrativeArea',
       name: 'Lapland, Finland',
     },
+  }
+
+  /** One named-property row of the "where to stay" panel (flat list and area groups share it). */
+  const renderAnchor = (a: DestinationAnchor) => {
+                    // A named property gets its OWN booking page via the
+                    // partner's property id; `?ss=` carries the TOWN. Rows with
+                    // an explicit `href` are the city-search row, and a query
+                    // that is not in the registry keeps the old city behaviour
+                    // rather than guessing an id.
+                    const booking = a.href ? null : bookingForQuery(a.propertyQuery ?? a.name)
+                    const finalHref = a.href ?? (booking
+                      ? propertyLodgingLink(booking, a.sid, lang)
+                      : buildAffiliateUrl({
+                        partner: 'hotels',
+                        sid: a.sid,
+                        destination: a.propertyQuery ?? a.name,
+                        lang,
+                      }))
+                    // Registry lookup by the affiliate search string the card
+                    // already carries. `null` for city-search rows ("All Levi
+                    // accommodation") and for names that do not identify a
+                    // single business — those simply show no rating.
+                    const prop = propertyForQuery(a.propertyQuery ?? a.name)
+                    const isPick = editorsPick !== null && prop === editorsPick
+                    return (
+                    <li
+                      key={a.name}
+                      className="rounded-xl bg-white/[0.05] border border-white/10 hover:border-pink/40 hover:bg-white/[0.09] focus-within:border-pink/40 transition-all"
+                    >
+                      {/* Rating + pick chip at the card's TOP RIGHT (Vesa
+                          2026-08-09: arvion paikka on ylälaidassa valinnan
+                          kanssa, ei kuvauksen alla). The strip stays OUTSIDE
+                          the booking link on purpose: GoogleRatingRow is its
+                          own link to Google's review list (an <a> cannot
+                          nest), and it renders on EVERY rated card, not only
+                          the winner — "highest rated on this page" is
+                          checkable only if the reader sees the numbers it
+                          beat. */}
+                      {(prop || isPick) && (
+                        <div className="px-5 pt-3 -mb-1 flex flex-wrap items-start justify-end gap-x-2 gap-y-1.5">
+                          {isPick && (
+                            <EditorsPickChip
+                              label={chrome.editorial.pickLabel}
+                              reason={chrome.editorial.pickReason}
+                              note={pickNote}
+                            />
+                          )}
+                          <GoogleRatingRow property={prop} tone="dark" />
+                        </div>
+                      )}
+                      <a
+                        href={finalHref}
+                        target="_blank"
+                        rel="sponsored nofollow noopener"
+                        onClick={() => trackAffiliateClick('lodging', a.sid, finalHref)}
+                        className="group flex items-center justify-between gap-4 px-5 py-4"
+                      >
+                        <div className="min-w-0">
+                          <p className="font-heading text-lg text-white tracking-wide group-hover:text-pink transition-colors">{a.name}</p>
+                          {a.note && <p className="text-sm text-white/55 leading-snug mt-0.5">{a.note}</p>}
+                        </div>
+                        <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
+                      </a>
+                    </li>
+                    )
   }
 
   return (
@@ -668,86 +741,32 @@ export default function DestinationPage(p: DestinationPageProps) {
       {(b.anchorProperties || b.transport) && (
         <section className="py-12 sm:py-14 px-4 sm:px-6 bg-white">
           <div className="max-w-6xl mx-auto rounded-3xl bg-night text-white px-6 sm:px-10 lg:px-14 py-10 sm:py-12 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12">
-            {b.anchorProperties && b.anchorProperties.length > 0 && (
+            {((b.anchorGroups?.length ?? 0) > 0 || (b.anchorProperties?.length ?? 0) > 0) && (
               <div>
                 <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.anchorEyebrow}</p>
                 <h2 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4">{ui.whereToStayH2(p.name)}</h2>
                 <p className="text-white/70 text-base leading-relaxed mb-6">
-                  {ui.anchorLead}
+                  {b.anchorIntro ?? ui.anchorLead}
                 </p>
+
+                {/* Hotellit alueittain (Rovaniemi 22.10.2026, tehtävä D): ryhmän otsikko + samat rivit. */}
+                {b.anchorGroups?.map((g) => (
+                  <div key={g.title} className="mb-7">
+                    <h3 className="font-heading text-xl sm:text-2xl text-white tracking-wide mb-3">{g.title}</h3>
+                    <ul className="space-y-3">{g.items.map(renderAnchor)}</ul>
+                  </div>
+                ))}
 
                 {/* Toimituksen valinta johtaa listaa (Vesa 2026-08-09: "jos
                     toimituksen valinta on tehty, miksi se ei ole ekana?") —
                     muu järjestys ja "kaikki majoitukset" -häntärivi ennallaan. */}
                 <ul className="space-y-3">
                   {(() => {
-                    const list = b.anchorProperties!
+                    const list = b.anchorProperties ?? []
                     if (!editorsPick) return list
                     const i = list.findIndex((x) => propertyForQuery(x.propertyQuery ?? x.name) === editorsPick)
                     return i > 0 ? [list[i], ...list.slice(0, i), ...list.slice(i + 1)] : list
-                  })().map((a) => {
-                    // A named property gets its OWN booking page via the
-                    // partner's property id; `?ss=` carries the TOWN. Rows with
-                    // an explicit `href` are the city-search row, and a query
-                    // that is not in the registry keeps the old city behaviour
-                    // rather than guessing an id.
-                    const booking = a.href ? null : bookingForQuery(a.propertyQuery ?? a.name)
-                    const finalHref = a.href ?? (booking
-                      ? propertyLodgingLink(booking, a.sid, lang)
-                      : buildAffiliateUrl({
-                        partner: 'hotels',
-                        sid: a.sid,
-                        destination: a.propertyQuery ?? a.name,
-                        lang,
-                      }))
-                    // Registry lookup by the affiliate search string the card
-                    // already carries. `null` for city-search rows ("All Levi
-                    // accommodation") and for names that do not identify a
-                    // single business — those simply show no rating.
-                    const prop = propertyForQuery(a.propertyQuery ?? a.name)
-                    const isPick = editorsPick !== null && prop === editorsPick
-                    return (
-                    <li
-                      key={a.name}
-                      className="rounded-xl bg-white/[0.05] border border-white/10 hover:border-pink/40 hover:bg-white/[0.09] focus-within:border-pink/40 transition-all"
-                    >
-                      {/* Rating + pick chip at the card's TOP RIGHT (Vesa
-                          2026-08-09: arvion paikka on ylälaidassa valinnan
-                          kanssa, ei kuvauksen alla). The strip stays OUTSIDE
-                          the booking link on purpose: GoogleRatingRow is its
-                          own link to Google's review list (an <a> cannot
-                          nest), and it renders on EVERY rated card, not only
-                          the winner — "highest rated on this page" is
-                          checkable only if the reader sees the numbers it
-                          beat. */}
-                      {(prop || isPick) && (
-                        <div className="px-5 pt-3 -mb-1 flex flex-wrap items-start justify-end gap-x-2 gap-y-1.5">
-                          {isPick && (
-                            <EditorsPickChip
-                              label={chrome.editorial.pickLabel}
-                              reason={chrome.editorial.pickReason}
-                              note={pickNote}
-                            />
-                          )}
-                          <GoogleRatingRow property={prop} tone="dark" />
-                        </div>
-                      )}
-                      <a
-                        href={finalHref}
-                        target="_blank"
-                        rel="sponsored nofollow noopener"
-                        onClick={() => trackAffiliateClick('lodging', a.sid, finalHref)}
-                        className="group flex items-center justify-between gap-4 px-5 py-4"
-                      >
-                        <div className="min-w-0">
-                          <p className="font-heading text-lg text-white tracking-wide group-hover:text-pink transition-colors">{a.name}</p>
-                          {a.note && <p className="text-sm text-white/55 leading-snug mt-0.5">{a.note}</p>}
-                        </div>
-                        <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
-                      </a>
-                    </li>
-                    )
-                  })}
+                  })().map(renderAnchor)}
                 </ul>
 
                 {/* Myytävä Esittelykumppani-paikka (KKV: merkitty mainokseksi)

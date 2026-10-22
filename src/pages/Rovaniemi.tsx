@@ -1,5 +1,29 @@
 import DestinationPage, { type DestinationBody } from '../components/DestinationPage'
 import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
+import { ROVANIEMI_HOTELS } from '../data/rovaniemiHotels'
+import type { RovaniemiHotelsCopy } from './Rovaniemi.hotels.types'
+import hotelsEn from './Rovaniemi.hotels.en'
+import hotelsFi from './Rovaniemi.hotels.fi'
+import hotelsDe from './Rovaniemi.hotels.de'
+import hotelsKo from './Rovaniemi.hotels.ko'
+import hotelsFr from './Rovaniemi.hotels.fr'
+import hotelsIt from './Rovaniemi.hotels.it'
+import hotelsNl from './Rovaniemi.hotels.nl'
+import hotelsJa from './Rovaniemi.hotels.ja'
+import hotelsEs from './Rovaniemi.hotels.es'
+import hotelsPtBR from './Rovaniemi.hotels.ptBR'
+import hotelsZhCN from './Rovaniemi.hotels.zhCN'
+import hotelsSv from './Rovaniemi.hotels.sv'
+
+/** Hotel list by area (22.10.2026): names, partner query and sub-id from data, the one-line note per language. */
+const hotelGroups = (copy: RovaniemiHotelsCopy) =>
+  copy.groups.map((g) => ({
+    title: g.title,
+    items: g.items.map(({ key, note }) => {
+      const h = ROVANIEMI_HOTELS[key]
+      return { name: h.name, propertyQuery: h.query, sid: h.sid, note }
+    }),
+  }))
 
 const en: DestinationBody = {
   tagline: 'The capital of Finnish Lapland, Santa Claus Village, two rivers, and direct aurora access from a full-service city.',
@@ -39,12 +63,9 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     { name: 'Glass igloos compared', href: '/glass-igloos', blurb: '11 glass-igloo resorts around Rovaniemi and further north, by area and airport.' },
     { name: 'Ice and snow hotels', href: '/ice-hotels', blurb: 'Arctic SnowHotel near Rovaniemi and two more places to sleep in snow this winter.' },
   ],
+  anchorIntro: hotelsEn.intro,
+  anchorGroups: hotelGroups(hotelsEn),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architect-designed glass-front nest suites at Santa Claus Village.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'North-facing glass igloos in Santa Claus Village, each with its own northern lights alarm.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Lakeside aurora cabins 15 min from the city, full safari menu on site.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Five glass cabins set 3 m above the ground on a private lakeside peninsula near Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Newer glass-roofed apartments with skyline views from Ounasvaara fell.' },
     { name: 'All Rovaniemi accommodation', href: HOTEL_SEARCH_FOR('en').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Browse Rovaniemi hotels and cabins on Sembo.' },
   ],
   transport: [
@@ -65,8 +86,8 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     { day: '03', title: 'Arktikum + city culture', body: 'Half-day at Arktikum (Sámi + Lapland history museum, beautiful glass corridor). Lunch in city. Afternoon free, Lainio Snow Village day-trip if seasonal.' },
     { day: '04', title: 'Slow morning · onward', body: 'Last sauna, breakfast in town. Either fly home from RVN or rent a car and drive 2 hr north to Levi for a second leg.' },
   ],
-  seoTitle: 'Rovaniemi Cabins & Aurora Villas, The Arctic Circle Capital',
-  seoDescription: 'River-side log cabins, glass aurora villas and Santa Claus Village stays in Rovaniemi, Finnish Lapland. Arctic Circle access, major airport, direct booking.',
+  seoTitle: 'Rovaniemi Hotels: 20 Places to Stay, Area by Area',
+  seoDescription: 'Rovaniemi hotels by area: the city centre, Ounasvaara hill, Santa Claus Village and resorts outside town, plus cabins and glass igloos nearby.',
 }
 
 const fi: DestinationBody = {
@@ -107,12 +128,9 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     { name: 'Iglumajoitus Lapissa', href: '/iglumajoitus', blurb: 'Lasi-iglu, lumi-iglu vai igluhotelli: miten ne eroavat ja missä iglut ovat.' },
     { name: 'Jää- ja lumihotellit', href: '/ice-hotels', blurb: 'Arctic SnowHotel Rovaniemen lähellä ja kaksi muuta paikkaa, joissa voi nukkua lumessa tänä talvena.' },
   ],
+  anchorIntro: hotelsFi.intro,
+  anchorGroups: hotelGroups(hotelsFi),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkkitehtien suunnittelemat lasisviitit Joulupukin Pajakylässä.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Pohjoiseen katsovat lasi-iglut Joulupukin Pajakylässä, revontulihälytys joka iglussa.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Rannan aurora-mökit 15 min päässä kaupungista, täysi safarivalikoima paikan päällä.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Viisi lasimökkiä 3 metrin korkeudella omalla niemellään järven rannalla, Rovaniemen lähellä.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Uudet lasikattoiset huoneistot Ounasvaaran tunturilta kaupunkinäkymin.' },
     { name: 'Kaikki Rovaniemen majoitukset', href: HOTEL_SEARCH_FOR('fi').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Selaa kaikki Rovaniemen hotellit ja mökit Sembossa.' },
   ],
   transport: [
@@ -133,8 +151,8 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     { day: '03', title: 'Arktikum + kaupunkikulttuuri', body: 'Puolipäivä Arktikumissa (saamelais- + Lapin-historian museo, kaunis lasikäytävä). Lounas kaupungissa. Iltapäivä vapaa, Lainion lumikylän päiväretki sesongissa.' },
     { day: '04', title: 'Rauhallinen aamu · eteenpäin', body: 'Viimeinen sauna, aamiainen kaupungissa. Lennä kotiin RVN:stä tai vuokraa auto ja aja 2 h pohjoiseen Leville toiselle etapille.' },
   ],
-  seoTitle: 'Rovaniemen mökit ja aurora-villat, napapiirin pääkaupunki',
-  seoDescription: 'Joenvarsihirsimökit, lasi-aurora-villat ja Joulupukin pajakylän majoitukset Rovaniemellä. Napapiirin pääsy, iso lentokenttä, suora varaus.',
+  seoTitle: 'Rovaniemen hotellit: 20 majoitusta alueittain',
+  seoDescription: 'Rovaniemen hotellit alueittain: keskusta, Ounasvaara, Joulupukin Pajakylä ja lomakohteet kaupungin ulkopuolella. Mukana myös lähiseudun mökit ja lasi-iglut.',
 }
 
 const de: DestinationBody = {
@@ -175,12 +193,9 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
     { name: 'Glasiglus im Vergleich', href: '/glass-igloos', blurb: '11 Glasiglu-Resorts rund um Rovaniemi und weiter im Norden, nach Region und Flughafen.' },
     { name: 'Eis- und Schneehotels', href: '/ice-hotels', blurb: 'Das Arctic SnowHotel bei Rovaniemi und zwei weitere Orte, an denen Sie diesen Winter im Schnee schlafen können.' },
   ],
+  anchorIntro: hotelsDe.intro,
+  anchorGroups: hotelGroups(hotelsDe),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architektonisch gestaltete Nest-Suiten mit Glasfront am Weihnachtsmanndorf.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Nach Norden ausgerichtete Glasiglus am Weihnachtsmanndorf, jedes mit eigenem Polarlicht-Alarm.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Polarlicht-Hütten am See 15 min von der Stadt, volles Safari-Menü vor Ort.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Fünf Glashütten, 3 m über dem Boden, auf einer privaten Halbinsel am See nahe Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Neuere Apartments mit Glasdach und Skyline-Blick vom Fjäll Ounasvaara.' },
     { name: 'Alle Rovaniemi-Unterkünfte', href: HOTEL_SEARCH_FOR('de').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Stöbern Sie in Rovaniemi-Hotels und Hütten bei Sembo.' },
   ],
   transport: [
@@ -201,8 +216,8 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
     { day: '03', title: 'Arktikum + Stadtkultur', body: 'Halbtägiger Besuch im Arktikum (Sámi + Lappland-Geschichtsmuseum, schöner Glaskorridor). Mittag in der Stadt. Nachmittag frei, saisonaler Tagesausflug ins Lainio Snow Village.' },
     { day: '04', title: 'Ruhiger Morgen · Weiterreise', body: 'Letzte Sauna, Frühstück in der Stadt. Entweder von RVN heimfliegen oder einen Mietwagen nehmen und 2 h nordwärts nach Levi für eine zweite Etappe fahren.' },
   ],
-  seoTitle: 'Rovaniemi: Hütten & Polarlicht-Villen am Polarkreis',
-  seoDescription: 'Flussufer-Blockhütten, Polarlicht-Glasvillen und Übernachtungen im Weihnachtsmanndorf in Rovaniemi. Polarkreis-Zugang, großer Flughafen, direkte Buchung.',
+  seoTitle: 'Hotels in Rovaniemi: 20 Unterkünfte nach Lage',
+  seoDescription: 'Hotels in Rovaniemi nach Lage: Stadtzentrum, Ounasvaara, Weihnachtsmanndorf und Resorts an Seen außerhalb der Stadt, dazu Hütten und Glasiglus in der Nähe.',
 }
 
 const ko: DestinationBody = {
@@ -243,12 +258,9 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
     { name: '글래스 이글루 비교', href: '/glass-igloos', blurb: '로바니에미 주변과 더 북쪽의 글래스 이글루 숙소 11곳, 지역·공항별 비교.' },
     { name: '아이스 호텔과 스노호텔', href: '/ice-hotels', blurb: '로바니에미 근교 Arctic SnowHotel 외에, 이번 겨울 눈 속에서 잘 수 있는 두 곳.' },
   ],
+  anchorIntro: hotelsKo.intro,
+  anchorGroups: hotelGroups(hotelsKo),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '산타클로스 마을의 건축가가 설계한 유리 정면 네스트 스위트.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: '산타클로스 마을의 북향 글래스 이글루. 모든 이글루에 오로라 알림이 있습니다.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '도심에서 15분 거리의 호숫가 오로라 캐빈. 풀 사파리 프로그램이 현장에서 운영됩니다.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: '로바니에미 근교 호숫가의 전용 반도에 지상 3m 높이로 세운 글래스 캐빈 다섯 채.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Ounasvaara 봉우리에서 도심 스카이라인이 펼쳐지는 신축 유리 천장 아파트.' },
     { name: '로바니에미 전체 숙소', href: HOTEL_SEARCH_FOR('ko').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.com에서 로바니에미의 모든 호텔과 캐빈을 둘러보세요.' },
   ],
   transport: [
@@ -269,8 +281,8 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
     { day: '03', title: 'Arktikum + 도시 문화', body: '오전은 Arktikum(사미와 라플란드 역사 박물관, 아름다운 유리 회랑)에서 반나절. 도심에서 점심. 오후는 자유. 시즌이라면 Lainio Snow Village 당일치기를 권합니다.' },
     { day: '04', title: '느긋한 아침 · 다음 일정', body: '마지막 사우나, 도심에서 아침. RVN에서 귀국 항공편을 타거나, 렌터카로 북쪽으로 2시간 운전해 두 번째 일정의 레비로 이동.' },
   ],
-  seoTitle: '로바니에미 캐빈과 오로라 빌라. 북극권의 중심 도시',
-  seoDescription: '핀란드 라플란드 로바니에미: 강가 통나무 캐빈, 글래스 오로라 빌라, 산타클로스 마을 숙박. 북극권 접근성과 대형 공항, 직접 예약.',
+  seoTitle: '로바니에미 숙소: 지역별 호텔 20곳',
+  seoDescription: '로바니에미 숙소를 도심, Ounasvaara 봉우리, 산타클로스 마을, 시외 호숫가 리조트의 네 지역으로 나눠 소개합니다. 근교의 코티지와 글래스 이글루도 함께 다룹니다.',
 }
 
 const fr: DestinationBody = {
@@ -311,12 +323,9 @@ La location de voiture est simple ; la ville est la base logistique des road tri
     { name: 'Igloos de verre comparés', href: '/glass-igloos', blurb: '11 resorts à igloos de verre autour de Rovaniemi et plus au nord, par région et aéroport.' },
     { name: 'Hôtels de glace et de neige', href: '/ice-hotels', blurb: 'Arctic SnowHotel près de Rovaniemi et deux autres lieux où dormir dans la neige cet hiver.' },
   ],
+  anchorIntro: hotelsFr.intro,
+  anchorGroups: hotelGroups(hotelsFr),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites-nichoirs à façade vitrée signées par un architecte, au village du Père Noël.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Igloos de verre orientés au nord au village du Père Noël, chacun avec son alerte aurores.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Chalets aurores au bord du lac à 15 min de la ville, carte complète de safaris sur place.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinq cabanes de verre perchées à 3 m du sol sur une presqu\'île privée au bord d\'un lac, près de Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartements à toit de verre récents avec vue sur la ligne d\'horizon depuis Ounasvaara.' },
     { name: 'Tous les hébergements de Rovaniemi', href: HOTEL_SEARCH_FOR('fr').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Parcourez tous les hôtels et chalets de Rovaniemi sur Trip.com.' },
   ],
   transport: [
@@ -337,8 +346,8 @@ La location de voiture est simple ; la ville est la base logistique des road tri
     { day: '03', title: 'Arktikum + culture urbaine', body: 'Demi-journée à l\'Arktikum (musée sámi et histoire de Laponie, beau couloir de verre). Déjeuner en ville. Après-midi libre, excursion à Lainio Snow Village selon la saison.' },
     { day: '04', title: 'Matinée tranquille · suite du voyage', body: 'Dernier sauna, petit-déjeuner en ville. Vol retour depuis RVN ou location de voiture et 2 h de route au nord vers Levi pour une seconde étape.' },
   ],
-  seoTitle: 'Chalets et villas aurores à Rovaniemi, cercle polaire arctique',
-  seoDescription: 'Chalets en rondins en bord de rivière, villas aurores en verre et séjours au village du Père Noël à Rovaniemi. Accès au cercle polaire arctique, grand aéroport.',
+  seoTitle: 'Hôtels à Rovaniemi : 20 adresses, secteur par secteur',
+  seoDescription: 'Hôtels à Rovaniemi par secteur : centre-ville, colline d’Ounasvaara, Village du Père Noël et resorts hors de la ville, mais aussi chalets et igloos de verre.',
 }
 
 const it: DestinationBody = {
@@ -379,12 +388,9 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
     { name: 'Igloo di vetro a confronto', href: '/glass-igloos', blurb: '11 resort con igloo di vetro intorno a Rovaniemi e più a nord, per zona e aeroporto.' },
     { name: 'Hotel di ghiaccio e di neve', href: '/ice-hotels', blurb: 'L\'Arctic SnowHotel vicino a Rovaniemi e altri due posti dove dormire nella neve quest\'inverno.' },
   ],
+  anchorIntro: hotelsIt.intro,
+  anchorGroups: hotelGroups(hotelsIt),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suite-nido firmate da un architetto con facciata in vetro, al villaggio di Babbo Natale.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Igloo di vetro rivolti a nord nel villaggio di Babbo Natale, ognuno con il suo allarme aurora.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Chalet aurora sul lago a 15 min dalla città, menù safari completo in struttura.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinque cabine di vetro sollevate a 3 m da terra su una penisola privata sul lago, vicino a Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Appartamenti con tetto di vetro più recenti, vista skyline dal fjäll Ounasvaara.' },
     { name: 'Tutti gli alloggi di Rovaniemi', href: HOTEL_SEARCH_FOR('it').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Esplori ogni hotel e chalet di Rovaniemi su Trip.com.' },
   ],
   transport: [
@@ -405,8 +411,8 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
     { day: '03', title: 'Arktikum + cultura cittadina', body: 'Mezza giornata all\'Arktikum (museo sámi e storia della Lapponia, splendido corridoio di vetro). Pranzo in città. Pomeriggio libero, escursione al Lainio Snow Village se la stagione lo consente.' },
     { day: '04', title: 'Mattina lenta · prosecuzione', body: 'Ultima sauna, colazione in centro. Volo da RVN per il ritorno, oppure auto a noleggio e 2 ore di guida a nord verso Levi per una seconda tappa.' },
   ],
-  seoTitle: 'Chalet e ville aurora a Rovaniemi, Circolo Polare',
-  seoDescription: 'Chalet in tronchi sui fiumi, ville aurora in vetro e soggiorni al villaggio di Babbo Natale a Rovaniemi. Accesso al Circolo Polare, grande aeroporto.',
+  seoTitle: 'Hotel a Rovaniemi: 20 alberghi, zona per zona',
+  seoDescription: 'Dove dormire a Rovaniemi: 20 hotel tra centro, Ounasvaara, Villaggio di Babbo Natale e resort sui laghi fuori città, più chalet e igloo di vetro nei dintorni.',
 }
 
 const nl: DestinationBody = {
@@ -447,12 +453,9 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
     { name: 'Glazen iglo’s vergeleken', href: '/glass-igloos', blurb: '11 resorts met glazen iglo’s rond Rovaniemi en verder naar het noorden, per gebied en luchthaven.' },
     { name: 'IJs- en sneeuwhotels', href: '/ice-hotels', blurb: 'Arctic SnowHotel bij Rovaniemi en nog twee plekken om deze winter in de sneeuw te slapen.' },
   ],
+  anchorIntro: hotelsNl.intro,
+  anchorGroups: hotelGroups(hotelsNl),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Door architecten ontworpen nest-suites met glazen front bij het Kerstmandorp.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Glazen iglo\'s op het noorden bij het Kerstmandorp, elk met een eigen noorderlichtalarm.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Noorderlichthutten aan het meer op 15 min van de stad, volledig safarimenu ter plaatse.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Vijf glazen hutten op 3 m hoogte op een eigen schiereiland aan het meer, vlak bij Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nieuwere appartementen met glazen dak en zicht op de skyline vanaf Ounasvaara.' },
     { name: 'Alle Rovaniemi-accommodaties', href: HOTEL_SEARCH_FOR('nl').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bekijk elk hotel en elke hut in Rovaniemi op Trip.com.' },
   ],
   transport: [
@@ -473,8 +476,8 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
     { day: '03', title: 'Arktikum + stadscultuur', body: 'Halve dag in Arktikum (Sámi en Lapland-geschiedenis, prachtige glazen gang). Lunch in de stad. Middag vrij, dagtrip naar Lainio Snow Village indien in seizoen.' },
     { day: '04', title: 'Rustige ochtend · verder', body: 'Laatste sauna, ontbijt in de stad. Naar huis vanaf RVN of een huurauto nemen en 2 uur noordwaarts rijden naar Levi voor een tweede etappe.' },
   ],
-  seoTitle: 'Rovaniemi-cabins en noorderlichtvilla\'s, aan de Poolcirkel',
-  seoDescription: 'Houten hutten aan de rivier, glazen noorderlichtvilla\'s en verblijven in het Kerstmandorp in Rovaniemi. Toegang tot de Poolcirkel, grote luchthaven.',
+  seoTitle: 'Hotels in Rovaniemi: 20 adressen, gebied voor gebied',
+  seoDescription: 'Overnachten in Rovaniemi: hotels in het centrum, op de heuvel Ounasvaara, bij het Kerstmandorp en aan meren buiten de stad, plus huisjes en glazen iglo’s.',
 }
 
 const ja: DestinationBody = {
@@ -516,12 +519,9 @@ const ja: DestinationBody = {
     { name: 'グラスイグルー比較', href: '/glass-igloos', blurb: 'ロヴァニエミ周辺と北のイグルー11施設を料金と場所で比較。' },
     { name: 'アイスホテル・雪のホテル', href: '/ice-hotels', blurb: 'ロヴァニエミ近郊のArctic SnowHotelと、この冬に雪の中で眠れるほかの二か所。' },
   ],
+  anchorIntro: hotelsJa.intro,
+  anchorGroups: hotelGroups(hotelsJa),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'サンタクロース村にある、建築家設計のガラスフロント・ネストスイート。' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'サンタクロース村にある北向きのガラスイグルー。各イグルーにオーロラアラーム付き。' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '市から15分の湖畔オーロラキャビン。サファリのフルメニューを敷地内に。' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'ロヴァニエミ近郊、湖畔のプライベート半島に建つ、地上3mのガラスキャビン五棟。' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'オウナスヴァーラ山からスカイラインを望むガラス屋根の新しいアパートメント。' },
     { name: 'ロヴァニエミのすべての宿泊施設', href: HOTEL_SEARCH_FOR('ja').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Trip.comでロヴァニエミの全宿を閲覧できます。' },
   ],
   transport: [
@@ -542,14 +542,14 @@ const ja: DestinationBody = {
     { day: '03', title: 'Arktikum+市の文化', body: '半日Arktikumで（サーミ&ラップランド史博物館、美しいガラス回廊）。市内で昼食。午後は自由。季節次第でLainio Snow Villageの日帰りも。' },
     { day: '04', title: 'ゆっくり朝・移動', body: '最後のサウナ、市内で朝食。RVNから帰国するか、レンタカーで2時間北のLeviに移って第2レグへ。' },
   ],
-  seoTitle: 'ロヴァニエミのキャビン&オーロラ・ヴィラ。北極圏の首府',
-  seoDescription: 'ロヴァニエミ（フィンランド領ラップランド）の川辺ログキャビン、ガラスのオーロラ・ヴィラ、サンタクロース村滞在。北極圏アクセス、主要空港、直接予約。',
+  seoTitle: 'ロヴァニエミのホテル20軒｜エリア別に選ぶ宿泊先',
+  seoDescription: 'ロヴァニエミのホテルをエリア別にまとめました。市中心部、オウナスヴァーラ山、北極圏線上のサンタクロース村、郊外の湖畔リゾートの4エリア20軒に加え、近郊のコテージやグラスイグルーも紹介しています。',
 }
 
 const es: DestinationBody = {
   // ES targets `cabañas en rovaniemi` (brief 187, 2026-08-15): hero H1 override +
   // guide-osio alla. Muut lokaalit renderöityvät ennallaan.
-  heroH1: 'Cabañas en Rovaniemi',
+  heroH1: 'Alojamiento en Rovaniemi',
   tagline: 'Qué es un mökki, en qué zona conviene dormir y qué mirar antes de reservar, con el Círculo Polar Ártico y todos los servicios de la capital de Laponia al lado.',
   description: `Rovaniemi es la capital administrativa de la Laponia finlandesa y la principal puerta internacional. La ciudad está sobre el Círculo Polar Ártico, en la confluencia de los ríos Kemijoki y Ounasjoki, con unos 65.000 habitantes, pequeña para los estándares europeos, pero, con diferencia, el mayor asentamiento de la región.
 
@@ -587,12 +587,9 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     { name: 'Hoteles iglú comparados', href: '/glass-igloos', blurb: '11 complejos con iglús de cristal en Rovaniemi y más al norte, por zona y aeropuerto.' },
     { name: 'Hoteles de hielo y nieve', href: '/ice-hotels', blurb: 'El Arctic SnowHotel, cerca de Rovaniemi, y otros dos lugares para dormir en la nieve este invierno.' },
   ],
+  anchorIntro: hotelsEs.intro,
+  anchorGroups: hotelGroups(hotelsEs),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites tipo nido con frente de cristal diseñadas por arquitectos en el Pueblo de Papá Noel.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Iglús de cristal orientados al norte en el Pueblo de Papá Noel, cada uno con su alarma de auroras.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabañas aurora junto al lago a 15 min de la ciudad, carta completa de safaris en el mismo recinto.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinco cabañas de cristal elevadas 3 m sobre el suelo en una península privada junto al lago, cerca de Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos más nuevos con techo de cristal y vistas desde el fjäll Ounasvaara.' },
     { name: 'Todos los alojamientos de Rovaniemi', href: HOTEL_SEARCH_FOR('es').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Consulte todos los hoteles y cabañas de Rovaniemi en Trip.com.' },
   ],
   transport: [
@@ -726,8 +723,8 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     ],
     footnote: 'Distancias y transporte comprobados el 15.8.2026 (santaclausvillage.info y datos publicados de este sitio). Los servicios concretos de cada cabaña ( sauna, orientación, extras ) son datos del anunciante: confírmelos en la página de la propiedad antes de reservar.',
   },
-  seoTitle: 'Cabañas en Rovaniemi: cómo elegir y qué mirar antes',
-  seoDescription: 'Qué es un mökki, en qué zona de Rovaniemi dormir (centro, Ounasvaara, Pueblo de Papá Noel o río), cuándo hace falta coche y qué preguntar antes de reservar.',
+  seoTitle: 'Alojamiento en Rovaniemi: hoteles y cabañas por zona',
+  seoDescription: 'Hoteles en Rovaniemi por zona: centro, Ounasvaara, Pueblo de Papá Noel y complejos junto a lagos fuera de la ciudad, además de cabañas e iglús de cristal.',
 }
 
 const ptBR: DestinationBody = {
@@ -768,12 +765,9 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
     { name: 'Iglus de vidro comparados', href: '/glass-igloos', blurb: '11 hotéis com iglus de vidro nos arredores de Rovaniemi e mais ao norte, por região e aeroporto.' },
     { name: 'Hotéis de gelo e neve', href: '/ice-hotels', blurb: 'O Arctic SnowHotel, perto de Rovaniemi, e mais dois lugares para dormir na neve neste inverno.' },
   ],
+  anchorIntro: hotelsPtBR.intro,
+  anchorGroups: hotelGroups(hotelsPtBR),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suítes tipo ninho com frente de vidro projetadas por arquitetos na Vila do Papai Noel.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Iglus de vidro voltados para o norte na Vila do Papai Noel, cada um com alarme de aurora.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Cabanas aurora à beira do lago a 15 min da cidade, cardápio completo de safáris no local.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Cinco cabanas de vidro a 3 m do chão em uma península particular à beira do lago, perto de Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Apartamentos mais novos com teto de vidro e vistas do fjäll Ounasvaara.' },
     { name: 'Todas as hospedagens de Rovaniemi', href: HOTEL_SEARCH_FOR('pt-BR').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Veja todos os hotéis e cabanas de Rovaniemi no Trip.com.' },
   ],
   transport: [
@@ -794,8 +788,8 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
     { day: '03', title: 'Arktikum + cultura urbana', body: 'Meio dia no Arktikum (museu sámi + história da Lapônia, belo corredor de vidro). Almoço na cidade. Tarde livre, bate-volta a Lainio Snow Village se a temporada permitir.' },
     { day: '04', title: 'Manhã lenta · próxima etapa', body: 'Última sauna, café da manhã na cidade. Voe para casa de RVN ou alugue um carro e dirija 2 h ao norte até Levi para a segunda etapa.' },
   ],
-  seoTitle: 'Cabanas e vilas aurora em Rovaniemi, Círculo Polar',
-  seoDescription: 'Cabanas de tronco à beira-rio, vilas aurora de vidro e estadias na Vila do Papai Noel em Rovaniemi. Acesso ao Círculo Polar, aeroporto principal.',
+  seoTitle: 'Hotéis em Rovaniemi: 20 lugares para ficar, por região',
+  seoDescription: 'Onde ficar em Rovaniemi: hotéis no centro, no fjäll Ounasvaara, na Vila do Papai Noel e à beira de lagos fora da cidade, além de cabanas e iglus de vidro.',
 }
 
 const zhCN: DestinationBody = {
@@ -836,12 +830,9 @@ const zhCN: DestinationBody = {
     { name: '玻璃屋比較', href: '/glass-igloos', blurb: '羅瓦涅米周邊與更北方的11間玻璃屋度假村，依地區與機場比較。' },
     { name: '冰雪飯店', href: '/ice-hotels', blurb: '羅瓦涅米附近的Arctic SnowHotel，以及今年冬天另外兩處能在雪屋過夜的地方。' },
   ],
+  anchorIntro: hotelsZhCN.intro,
+  anchorGroups: hotelGroups(hotelsZhCN),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '聖誕老人村內由建築師設計的玻璃幕牆巢式套房。' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: '聖誕老人村內朝北的玻璃屋，每間都設有極光提醒。' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: '距市區15分鐘的湖畔極光小屋。園區內提供全套探險項目。' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: '羅瓦涅米近郊湖畔私人半島上的五間玻璃小屋，離地3米。' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: '位於Ounasvaara山的較新玻璃屋頂公寓，可眺望天際線。' },
     { name: '羅瓦涅米全部住宿', href: HOTEL_SEARCH_FOR('zh-CN').rovaniemi, sid: 'destination_rovaniemi_all_search', note: '在Trip.com瀏覽羅瓦涅米所有飯店與小屋。' },
   ],
   transport: [
@@ -862,8 +853,8 @@ const zhCN: DestinationBody = {
     { day: '03', title: 'Arktikum + 城市文化', body: '半日在Arktikum（薩米與拉普蘭歷史博物館，玻璃廊道極美）。在市內午餐。下午自由。若季節合適可前往Lainio雪村一日遊。' },
     { day: '04', title: '悠閒晨光 · 繼續行程', body: '最後一次桑拿、市內早餐。從RVN返航，或租車北行2小時前往Levi開啟下一段。' },
   ],
-  seoTitle: '羅瓦涅米住宿推薦：極光玻璃屋、聖誕老人村飯店與小木屋',
-  seoDescription: '芬蘭拉普蘭羅瓦涅米住宿指南：極光玻璃屋、濱河原木小木屋與聖誕老人村飯店。北極圈入口、主要機場、直接預訂。',
+  seoTitle: '羅瓦涅米住宿：20間飯店，依地區整理',
+  seoDescription: '羅瓦涅米住宿依地區介紹：市中心、Ounasvaara山、聖誕老人村，以及市區以外的湖畔度假村；周邊的木屋與玻璃屋也一併收錄。',
 }
 
 const sv: DestinationBody = {
@@ -904,12 +895,9 @@ Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilres
     { name: 'Glasigloor jämförda', href: '/glass-igloos', blurb: '11 anläggningar med glasigloor runt Rovaniemi och längre norrut, efter område och flygplats.' },
     { name: 'Is- och snöhotell', href: '/ice-hotels', blurb: 'Arctic SnowHotel nära Rovaniemi och ytterligare två ställen där du kan sova i snö i vinter.' },
   ],
+  anchorIntro: hotelsSv.intro,
+  anchorGroups: hotelGroups(hotelsSv),
   anchorProperties: [
-    { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkitektritade sviter med glasfront, som fågelbon, vid Santa Claus Village.' },
-    { name: 'Santa\'s Igloos Arctic Circle', propertyQuery: 'Santa\'s Igloos Arctic Circle', sid: 'destination_rovaniemi_santas_igloos', note: 'Glasigloor mot norr vid Santa Claus Village, var och en med eget norrskenslarm.' },
-    { name: 'Apukka Resort', propertyQuery: 'Apukka Resort Rovaniemi', sid: 'destination_rovaniemi_apukka', note: 'Norrskensstugor vid sjön 15 min från staden, med hela safariutbudet på plats.' },
-    { name: 'Silver Birch Resort', propertyQuery: 'Silver Birch Resort', sid: 'destination_rovaniemi_silver_birch', note: 'Fem glasstugor 3 m över marken på en egen udde vid sjön, nära Rovaniemi.' },
-    { name: 'Nova Skyland', propertyQuery: 'Nova Skyland', sid: 'destination_rovaniemi_nova_skyland', note: 'Nyare lägenheter med glastak och vy över staden från Ounasvaara.' },
     { name: 'Alla boenden i Rovaniemi', href: HOTEL_SEARCH_FOR('sv').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Bläddra bland hotell och stugor i Rovaniemi på Sembo.' },
   ],
   transport: [
@@ -930,8 +918,8 @@ Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilres
     { day: '03', title: 'Arktikum + stadens kultur', body: 'Halvdag på Arktikum (museum om samisk kultur och Lapplands historia, med en vacker glaskorridor). Lunch i stan. Eftermiddagen fri, eller en dagsutflykt till Lainio Snow Village om säsongen tillåter.' },
     { day: '04', title: 'Långsam morgon · vidare', body: 'Sista bastun, frukost i stan. Antingen flyger du hem från RVN eller hyr bil och kör 2 timmar norrut till Levi för en andra etapp.' },
   ],
-  seoTitle: 'Stugor och norrskensvillor i Rovaniemi vid polcirkeln',
-  seoDescription: 'Timmerstugor vid älven, norrskensvillor i glas och boende vid Santa Claus Village i Rovaniemi, finska Lappland. Polcirkeln, stor flygplats och direktbokning.',
+  seoTitle: 'Hotell i Rovaniemi: 20 boenden, område för område',
+  seoDescription: 'Hotell och boende i Rovaniemi efter område: centrum, Ounasvaara, Jultomtens by och sjönära anläggningar utanför staden, samt stugor och glasigloor i närheten.',
 }
 
 export default function Rovaniemi() {

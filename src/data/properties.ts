@@ -155,6 +155,21 @@ export const PROPERTIES = withGoogleReviews({
 
   // ── Designer lodges ───────────────────────────────────────────────────
   arcticTreeHouse: { name: "Arctic TreeHouse Hotel", destination: "Arctic TreeHouse Hotel" },
+  // Rovaniemen hotellilista alueittain (tehtävä D, 22.10.2026): nimet ja tunnukset hotellien omilta
+  // sivuilta ja kumppaneilta luettuina, raportti side-session-notes/…/rovaniemi-hotellit-faktat-20261022.md.
+  arcticLight: { name: "Arctic Light Hotel", destination: "Arctic Light Hotel Rovaniemi" },
+  scandicRovaniemiCity: { name: "Scandic Rovaniemi City", destination: "Scandic Rovaniemi City" },
+  scandicPohjanhovi: { name: "Scandic Pohjanhovi", destination: "Scandic Pohjanhovi" },
+  arcticCityHotel: { name: "Arctic City Hotel", destination: "Arctic City Hotel Rovaniemi" },
+  sokosVaakuna: { name: "Original Sokos Hotel Vaakuna Rovaniemi", destination: "Original Sokos Hotel Vaakuna Rovaniemi" },
+  santasHotelSantaClaus: { name: "Santa's Hotel Santa Claus", destination: "Santa's Hotel Santa Claus" },
+  postmasterHotel: { name: "Postmaster Hotel", destination: "Postmaster Hotel Rovaniemi" },
+  hotelAakenus: { name: "Hotel Aakenus", destination: "Hotel Aakenus" },
+  skyOunasvaara: { name: "Lapland Hotels Sky Ounasvaara", destination: "Lapland Hotels Sky Ounasvaara" },
+  santasport: { name: "Santasport Resort", destination: "Santasport Resort Rovaniemi" },
+  santaClausHolidayVillage: { name: "Santa Claus Holiday Village", destination: "Santa Claus Holiday Village" },
+  glassResort: { name: "Glass Resort", destination: "Glass Resort Rovaniemi" },
+  invisibleForest: { name: "Invisible Forest Lodge", destination: "Invisible Forest Lodge" },
 });
 
 /**
