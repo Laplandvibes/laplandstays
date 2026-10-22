@@ -1105,7 +1105,7 @@
   </url>
   <url>
     <loc>https://laplandstays.com/ja/destinations/rovaniemi/</loc>
-    <lastmod>2026-10-06</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/rovaniemi/" />
     <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/rovaniemi/" />
@@ -3649,6 +3649,235 @@
     <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/glass-igloos/" />
     <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/glass-igloos/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/glass-igloos/" />
+  </url>
+  <!-- Ice and snow hotels: same path in all 12 languages (src/pages/IceHotels.tsx) -->
+  <url>
+    <loc>https://laplandstays.com/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/fi/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/de/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/ja/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/es/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/br/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/cn/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/kr/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/fr/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/it/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/nl/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/sv/ice-hotels/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/ice-hotels/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/ice-hotels/" />
   </url>
   <url>
     <loc>https://laplandstays.com/cabins/levi/</loc>

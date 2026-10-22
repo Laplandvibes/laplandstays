@@ -23,7 +23,7 @@ export type PhotoEntry = {
   partnerCredit?: string
   place?: PlaceNames
   receipt: {
-    source: 'Wikimedia Commons' | 'Pexels' | 'Sembo'
+    source: 'Wikimedia Commons' | 'Pexels' | 'Sembo' | 'Snowhotel Family -mediapankki'
     id: string
     url: string
     license: string
@@ -211,6 +211,23 @@ export const PHOTO_CREDITS: Record<string, PhotoEntry> = {
       author: 'Kakslauttanen Arctic Resort / Sembo', date: 'ei tiedossa', retrieved: '2026-10-18', priceEur: 0,
       changes: 'vain pienennys 2000x1333 -> 1920/1200/800 px, AVIF + WebP, ei rajausta (rajaus näytöllä object-fit); jakokortti scripts/og/gen_page_cards.mjs',
       checks: 'katsottu täysikokoisena: aito valokuva kohteesta, kaksi ihmistä kaukana hupuissa (ei kuvan pääaihe), ei logoja; claim.mjs check (varauskirja, 29 repon nimihaku, 64x36-pikselivertailu) VAPAA 18.10.2026; sha256 0bc5916e',
+    },
+  },
+  // Jää- ja lumihotellisivu (/ice-hotels, 12 kieltä), 22.10.2026. Kohteen oma kuva Snowhotel Familyn
+  // mediapankista; ehdot (snowhotel.fi/media-ja-yhteistyot, luettu 22.10.2026): "Kaikkia Snowhotel Familyn
+  // kuvia ja videoita saa käyttää Snowhotel Familyyn ja sen brändeihin (Arctic SnowHotel & Glass Igloos, …)
+  // liittyvään viestintään, uutisointiin ja markkinointiin. Kuvien … käyttö brändeistä irrallaan on kiellettyä."
+  // Sivu kertoo juuri tästä kohteesta, joten käyttö on ehtojen mukaista. claim.mjs take 22.10. VAPAA → VARATTU.
+  'hero-ice-hotels': {
+    partnerCredit: 'Arctic SnowHotel & Glass Igloos',
+    place: { latin: 'Arctic SnowHotel, Rovaniemi', ja: 'アークティックスノーホテル、ロヴァニエミ', ko: '아크틱 스노호텔, 로바니에미', 'zh-CN': 'Arctic SnowHotel，羅瓦涅米' },
+    receipt: {
+      source: 'Snowhotel Family -mediapankki', id: 'Mediabank/Arctic SnowHotel & Glass Igloos/SnowHotel/SnowHotel Rooms/Suite - Hotel room - Arctic Snowhotel & Glass igloos (2).jpg',
+      url: 'https://snowhotel.kuvat.fi/kuvat/Mediabank/Arctic%20SnowHotel%20%26%20Glass%20Igloos/SnowHotel/SnowHotel%20Rooms/',
+      license: 'Kohteen oma mediapankki: käyttö Snowhotel Familyn brändeihin liittyvään viestintään ja markkinointiin sallittu, irrallaan kielletty (snowhotel.fi/media-ja-yhteistyot)',
+      author: 'Arctic SnowHotel & Glass Igloos (Snowhotel Family)', date: 'ei tiedossa', retrieved: '2026-10-22', priceEur: 0,
+      changes: 'vain pienennys 4080x3060 -> 1920/1200/800 px, AVIF + WebP, ei rajausta (rajaus näytöllä object-fit); jakokortti scripts/og/gen_page_cards.mjs',
+      checks: 'katsottu: aito valokuva kohteen lumisviitistä, ei ihmisiä, tyynyissä kohteen oma logo (kohteen oma kuva); claim.mjs check + take 22.10.2026 VAPAA; sha256 4e4c12fa',
     },
   },
   // ---------------------------------------------------------------- JAKOKORTTI (ei näy sivulla)

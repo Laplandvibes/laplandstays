@@ -808,5 +808,86 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "ice-hotels": {
+    "route": "/ice-hotels",
+    "line": "Where to sleep in snow in Lapland",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/hero-ice-hotels-1920.webp",
+        "bytes": 109535,
+        "sha256": "62c38c9932790e4c74ca9f3c835cc4425e0e29b49a3a2a6a22dca305949a1fab",
+        "heroSha": "fb586e020a4720a3",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15297,
+        "inkBox": [
+          362,
+          493,
+          836,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 137,
+        "centerSq": 134.8,
+        "photoRegion": 173.4,
+        "photoRegionRef": 173.4,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 477,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/hero-ice-hotels-1920.webp",
+        "bytes": 109535,
+        "sha256": "62c38c9932790e4c74ca9f3c835cc4425e0e29b49a3a2a6a22dca305949a1fab",
+        "heroSha": "fb586e020a4720a3",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15297,
+        "inkBox": [
+          362,
+          493,
+          836,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 137,
+        "centerSq": 134.8,
+        "photoRegion": 173.4,
+        "photoRegionRef": 173.4,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 477,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

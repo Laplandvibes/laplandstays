@@ -287,6 +287,11 @@ export default function Igloos() {
               )
             })}
           </div>
+          {/* Lumihotelleille oma sivu 22.10.2026 (tehtävä C): missä lumessa voi nukkua tänä talvena. */}
+          <p className="text-charcoal/70 text-[15px] leading-relaxed mt-8 max-w-3xl">
+            Missä lumessa voi nukkua tänä talvena:{' '}
+            <Link to="/fi/ice-hotels" className="text-pink font-semibold hover:underline">jää- ja lumihotellit Lapissa</Link>
+          </p>
         </div>
       </section>
 

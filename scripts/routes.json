@@ -188,6 +188,15 @@
     }
   },
   {
+    "path": "/ice-hotels",
+    "copyFile": "src/pages/IceHotels.copy.{lang}.ts",
+    "ogImage": "/og/ice-hotels.jpg",
+    "ogCard": {
+      "hero": "/images/hero-ice-hotels-1920.webp",
+      "line": "Where to sleep in snow in Lapland"
+    }
+  },
+  {
     "path": "/destinations/levi",
     "pageFile": "src/pages/Levi.tsx",
     "harvestFiles": [

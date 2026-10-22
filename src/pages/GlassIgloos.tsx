@@ -78,6 +78,21 @@ const TYPE_ICONS = [Sparkles, Building2, Snowflake]
 
 const linkClass = 'text-pink font-semibold hover:underline'
 
+/** Link from the snow-hotel type card to /ice-hotels (all 12 languages since 22.10.2026, tehtävä C). */
+const ICE_LINK: Partial<Record<Lang, { lead: string; label: string }>> = {
+  en: { lead: 'Where you can sleep in snow this winter: ', label: 'ice and snow hotels in Finnish Lapland' },
+  de: { lead: 'Wo Sie diesen Winter im Schnee schlafen können: ', label: 'Eis- und Schneehotels in Finnisch-Lappland' },
+  ja: { lead: 'この冬、雪の中で眠れる場所：', label: 'フィンランド・ラップランドのアイスホテルと雪のホテル' },
+  sv: { lead: 'Här kan du sova i snö i vinter: ', label: 'is- och snöhotell i finska Lappland' },
+  es: { lead: 'Dónde se puede dormir en la nieve este invierno: ', label: 'hoteles de hielo y nieve en la Laponia finlandesa' },
+  'pt-BR': { lead: 'Onde dá para dormir na neve neste inverno: ', label: 'hotéis de gelo e neve na Lapônia finlandesa' },
+  ko: { lead: '이번 겨울 눈 속에서 잘 수 있는 곳: ', label: '핀란드 라플란드의 아이스 호텔과 스노호텔' },
+  fr: { lead: 'Où dormir dans la neige cet hiver : ', label: 'hôtels de glace et de neige en Laponie finlandaise' },
+  it: { lead: 'Dove si può dormire nella neve quest\'inverno: ', label: 'hotel di ghiaccio e di neve nella Lapponia finlandese' },
+  nl: { lead: 'Waar u deze winter in de sneeuw kunt slapen: ', label: 'ijs- en sneeuwhotels in Fins Lapland' },
+  'zh-CN': { lead: '今年冬天哪裡能在雪屋過夜：', label: '芬蘭拉普蘭的冰雪飯店' },
+}
+
 /** "Check dates: <resort>" for screen readers, with the reader's own colon: full-width in ja/zh,
  *  a non-breaking space before it in French (natiivikaannos rule 19: punctuation comes from the
  *  reader's language, not from the code). */
@@ -217,6 +232,12 @@ export default function GlassIgloos() {
             <RichText parts={c.typesNote} to={to} />
           </p>
           <p className="text-charcoal/70 text-[15px] leading-relaxed mt-4 max-w-3xl">{c.kidsNote}</p>
+          {ICE_LINK[lang] && (
+            <p className="text-charcoal/70 text-[15px] leading-relaxed mt-4 max-w-3xl">
+              {ICE_LINK[lang]!.lead}
+              <Link to={to('/ice-hotels')} className={linkClass}>{ICE_LINK[lang]!.label}</Link>
+            </p>
+          )}
         </div>
       </section>
 

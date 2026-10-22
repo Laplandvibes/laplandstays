@@ -37,6 +37,7 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Quieter fell destination, 2 hr northwest.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Wilderness gateway, 3 hr further north.' },
     { name: 'Glass igloos compared', href: '/glass-igloos', blurb: '11 glass-igloo resorts around Rovaniemi and further north, by area and airport.' },
+    { name: 'Ice and snow hotels', href: '/ice-hotels', blurb: 'Arctic SnowHotel near Rovaniemi and two more places to sleep in snow this winter.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architect-designed glass-front nest suites at Santa Claus Village.' },
@@ -104,6 +105,7 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Hiljaisempi tunturikohde, 2 tunnin päässä luoteeseen.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Erämaaportti, 3 tunnin päässä pohjoisempana.' },
     { name: 'Iglumajoitus Lapissa', href: '/iglumajoitus', blurb: 'Lasi-iglu, lumi-iglu vai igluhotelli: miten ne eroavat ja missä iglut ovat.' },
+    { name: 'Jää- ja lumihotellit', href: '/ice-hotels', blurb: 'Arctic SnowHotel Rovaniemen lähellä ja kaksi muuta paikkaa, joissa voi nukkua lumessa tänä talvena.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkkitehtien suunnittelemat lasisviitit Joulupukin Pajakylässä.' },
@@ -171,6 +173,7 @@ Weiterfahrt mit Mietwagen ist einfach; die Stadt ist die logistische Basis für 
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Ruhigeres Fjäll-Ziel, 2 h nordwestlich.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Wildnis-Tor, 3 h weiter nördlich.' },
     { name: 'Glasiglus im Vergleich', href: '/glass-igloos', blurb: '11 Glasiglu-Resorts rund um Rovaniemi und weiter im Norden, nach Region und Flughafen.' },
+    { name: 'Eis- und Schneehotels', href: '/ice-hotels', blurb: 'Das Arctic SnowHotel bei Rovaniemi und zwei weitere Orte, an denen Sie diesen Winter im Schnee schlafen können.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Architektonisch gestaltete Nest-Suiten mit Glasfront am Weihnachtsmanndorf.' },
@@ -238,6 +241,7 @@ VR이 헬싱키에서 자동차 운송 서비스가 포함된 야간 열차를 �
     { name: 'Ylläs', href: '/destinations/yllas', blurb: '더 조용한 봉우리 목적지, 북서쪽으로 2시간.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '야생 관문, 더 북쪽으로 3시간.' },
     { name: '글래스 이글루 비교', href: '/glass-igloos', blurb: '로바니에미 주변과 더 북쪽의 글래스 이글루 숙소 11곳, 지역·공항별 비교.' },
+    { name: '아이스 호텔과 스노호텔', href: '/ice-hotels', blurb: '로바니에미 근교 Arctic SnowHotel 외에, 이번 겨울 눈 속에서 잘 수 있는 두 곳.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '산타클로스 마을의 건축가가 설계한 유리 정면 네스트 스위트.' },
@@ -305,6 +309,7 @@ La location de voiture est simple ; la ville est la base logistique des road tri
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destination de fjäll plus calme, à 2 h au nord-ouest.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porte de la nature sauvage, 3 h plus au nord.' },
     { name: 'Igloos de verre comparés', href: '/glass-igloos', blurb: '11 resorts à igloos de verre autour de Rovaniemi et plus au nord, par région et aéroport.' },
+    { name: 'Hôtels de glace et de neige', href: '/ice-hotels', blurb: 'Arctic SnowHotel près de Rovaniemi et deux autres lieux où dormir dans la neige cet hiver.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites-nichoirs à façade vitrée signées par un architecte, au village du Père Noël.' },
@@ -372,6 +377,7 @@ Il noleggio auto è semplice; la città è la base logistica per road trip nell\
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destinazione di fjäll più tranquilla, a 2 ore verso nord-ovest.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porta della natura selvaggia, 3 ore più a nord.' },
     { name: 'Igloo di vetro a confronto', href: '/glass-igloos', blurb: '11 resort con igloo di vetro intorno a Rovaniemi e più a nord, per zona e aeroporto.' },
+    { name: 'Hotel di ghiaccio e di neve', href: '/ice-hotels', blurb: 'L\'Arctic SnowHotel vicino a Rovaniemi e altri due posti dove dormire nella neve quest\'inverno.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suite-nido firmate da un architetto con facciata in vetro, al villaggio di Babbo Natale.' },
@@ -439,6 +445,7 @@ Doorrijden met een huurauto is eenvoudig; de stad is de logistieke uitvalsbasis 
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Rustigere fjäll-bestemming, 2 uur naar het noordwesten.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Poort naar de wildernis, 3 uur verder noordwaarts.' },
     { name: 'Glazen iglo’s vergeleken', href: '/glass-igloos', blurb: '11 resorts met glazen iglo’s rond Rovaniemi en verder naar het noorden, per gebied en luchthaven.' },
+    { name: 'IJs- en sneeuwhotels', href: '/ice-hotels', blurb: 'Arctic SnowHotel bij Rovaniemi en nog twee plekken om deze winter in de sneeuw te slapen.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Door architecten ontworpen nest-suites met glazen front bij het Kerstmandorp.' },
@@ -507,6 +514,7 @@ const ja: DestinationBody = {
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '原野への入り口、さらに北へ3時間。' },
     // ja-only: /ja/glass-igloos on olemassa vain ja-lokaalissa (GlassIgloos.tsx)
     { name: 'グラスイグルー比較', href: '/glass-igloos', blurb: 'ロヴァニエミ周辺と北のイグルー11施設を料金と場所で比較。' },
+    { name: 'アイスホテル・雪のホテル', href: '/ice-hotels', blurb: 'ロヴァニエミ近郊のArctic SnowHotelと、この冬に雪の中で眠れるほかの二か所。' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'サンタクロース村にある、建築家設計のガラスフロント・ネストスイート。' },
@@ -577,6 +585,7 @@ El alquiler de coche es sencillo; la ciudad es la base logística para road trip
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destino de fjäll más tranquilo, 2 h al noroeste.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Puerta a la naturaleza, 3 h más al norte.' },
     { name: 'Hoteles iglú comparados', href: '/glass-igloos', blurb: '11 complejos con iglús de cristal en Rovaniemi y más al norte, por zona y aeropuerto.' },
+    { name: 'Hoteles de hielo y nieve', href: '/ice-hotels', blurb: 'El Arctic SnowHotel, cerca de Rovaniemi, y otros dos lugares para dormir en la nieve este invierno.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suites tipo nido con frente de cristal diseñadas por arquitectos en el Pueblo de Papá Noel.' },
@@ -757,6 +766,7 @@ Aluguel de carro é tranquilo; a cidade é a base logística para road trips pel
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Destino de fjäll mais tranquilo, 2 h a noroeste.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Portal para a natureza, mais 3 h ao norte.' },
     { name: 'Iglus de vidro comparados', href: '/glass-igloos', blurb: '11 hotéis com iglus de vidro nos arredores de Rovaniemi e mais ao norte, por região e aeroporto.' },
+    { name: 'Hotéis de gelo e neve', href: '/ice-hotels', blurb: 'O Arctic SnowHotel, perto de Rovaniemi, e mais dois lugares para dormir na neve neste inverno.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Suítes tipo ninho com frente de vidro projetadas por arquitetos na Vila do Papai Noel.' },
@@ -824,6 +834,7 @@ const zhCN: DestinationBody = {
     { name: 'Ylläs', href: '/destinations/yllas', blurb: '更安靜的山地目的地，西北行2小時。' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: '通往荒野的入口，再向北3小時。' },
     { name: '玻璃屋比較', href: '/glass-igloos', blurb: '羅瓦涅米周邊與更北方的11間玻璃屋度假村，依地區與機場比較。' },
+    { name: '冰雪飯店', href: '/ice-hotels', blurb: '羅瓦涅米附近的Arctic SnowHotel，以及今年冬天另外兩處能在雪屋過夜的地方。' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: '聖誕老人村內由建築師設計的玻璃幕牆巢式套房。' },
@@ -891,6 +902,7 @@ Hyrbil för vidare färd är enkelt; staden är den logistiska basen för bilres
     { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Lugnare fjälldestination, 2 timmar nordväst.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Porten till vildmarken, 3 timmar längre norrut.' },
     { name: 'Glasigloor jämförda', href: '/glass-igloos', blurb: '11 anläggningar med glasigloor runt Rovaniemi och längre norrut, efter område och flygplats.' },
+    { name: 'Is- och snöhotell', href: '/ice-hotels', blurb: 'Arctic SnowHotel nära Rovaniemi och ytterligare två ställen där du kan sova i snö i vinter.' },
   ],
   anchorProperties: [
     { name: 'Arctic TreeHouse Hotel', propertyQuery: 'Arctic TreeHouse Hotel', sid: 'destination_rovaniemi_arctic_treehouse', note: 'Arkitektritade sviter med glasfront, som fågelbon, vid Santa Claus Village.' },

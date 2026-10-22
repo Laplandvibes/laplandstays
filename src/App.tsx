@@ -78,6 +78,8 @@ const Cabins = lazy(() => import('./pages/Cabins'))
 const Igloos = lazy(() => import('./pages/Igloos'))
 // Lasi-iglusivu en + de + ja (18.10.2026; fi = /fi/iglumajoitus). Ks. GlassIgloos.tsx, i18n/pageClusters.ts.
 const GlassIgloos = lazy(() => import('./pages/GlassIgloos'))
+// Jää- ja lumihotellit kaikilla 12 kielellä (22.10.2026, tehtävä C). Ks. IceHotels.tsx.
+const IceHotels = lazy(() => import('./pages/IceHotels'))
 const NewsIndex = lazy(() => import('./news/NewsIndex'))
 const NewsArticle = lazy(() => import('./news/NewsArticle'))
 const EditorialPolicy = lazy(() => import('./pages/EditorialPolicy'))
@@ -172,6 +174,7 @@ export default function App() {
             <Route path="/cabins" element={<Cabins />} />
             <Route path="/cabins/:area" element={<CabinArea />} />
             <Route path="/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/ice-hotels" element={<IceHotels />} />
             <Route path="/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/privacy" element={<PrivacyPolicy />} />
             <Route path="/terms" element={<Terms />} />
@@ -191,6 +194,7 @@ export default function App() {
             <Route path="/fi/cabins" element={<Cabins />} />
             <Route path="/fi/cabins/:area" element={<CabinArea />} />
             <Route path="/fi/iglumajoitus" element={<Igloos />} />
+            <Route path="/fi/ice-hotels" element={<IceHotels />} />
             <Route path="/fi/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/fi/privacy" element={<PrivacyPolicy />} />
             <Route path="/fi/terms" element={<Terms />} />
@@ -210,6 +214,7 @@ export default function App() {
             <Route path="/de/cabins" element={<Cabins />} />
             <Route path="/de/cabins/:area" element={<CabinArea />} />
             <Route path="/de/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/de/ice-hotels" element={<IceHotels />} />
             <Route path="/de/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/de/privacy" element={<PrivacyPolicy />} />
             <Route path="/de/terms" element={<Terms />} />
@@ -229,6 +234,7 @@ export default function App() {
             <Route path="/ja/cabins" element={<Cabins />} />
             <Route path="/ja/cabins/:area" element={<CabinArea />} />
             <Route path="/ja/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/ja/ice-hotels" element={<IceHotels />} />
             <Route path="/ja/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/ja/privacy" element={<PrivacyPolicy />} />
             <Route path="/ja/terms" element={<Terms />} />
@@ -248,6 +254,7 @@ export default function App() {
             <Route path="/es/cabins" element={<Cabins />} />
             <Route path="/es/cabins/:area" element={<CabinArea />} />
             <Route path="/es/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/es/ice-hotels" element={<IceHotels />} />
             <Route path="/es/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/es/privacy" element={<PrivacyPolicy />} />
             <Route path="/es/terms" element={<Terms />} />
@@ -267,6 +274,7 @@ export default function App() {
             <Route path="/br/cabins" element={<Cabins />} />
             <Route path="/br/cabins/:area" element={<CabinArea />} />
             <Route path="/br/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/br/ice-hotels" element={<IceHotels />} />
             <Route path="/br/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/br/privacy" element={<PrivacyPolicy />} />
             <Route path="/br/terms" element={<Terms />} />
@@ -286,6 +294,7 @@ export default function App() {
             <Route path="/cn/cabins" element={<Cabins />} />
             <Route path="/cn/cabins/:area" element={<CabinArea />} />
             <Route path="/cn/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/cn/ice-hotels" element={<IceHotels />} />
             <Route path="/cn/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/cn/privacy" element={<PrivacyPolicy />} />
             <Route path="/cn/terms" element={<Terms />} />
@@ -305,6 +314,7 @@ export default function App() {
             <Route path="/kr/cabins" element={<Cabins />} />
             <Route path="/kr/cabins/:area" element={<CabinArea />} />
             <Route path="/kr/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/kr/ice-hotels" element={<IceHotels />} />
             <Route path="/kr/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/kr/privacy" element={<PrivacyPolicy />} />
             <Route path="/kr/terms" element={<Terms />} />
@@ -324,6 +334,7 @@ export default function App() {
             <Route path="/fr/cabins" element={<Cabins />} />
             <Route path="/fr/cabins/:area" element={<CabinArea />} />
             <Route path="/fr/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/fr/ice-hotels" element={<IceHotels />} />
             <Route path="/fr/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/fr/privacy" element={<PrivacyPolicy />} />
             <Route path="/fr/terms" element={<Terms />} />
@@ -343,6 +354,7 @@ export default function App() {
             <Route path="/it/cabins" element={<Cabins />} />
             <Route path="/it/cabins/:area" element={<CabinArea />} />
             <Route path="/it/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/it/ice-hotels" element={<IceHotels />} />
             <Route path="/it/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/it/privacy" element={<PrivacyPolicy />} />
             <Route path="/it/terms" element={<Terms />} />
@@ -362,6 +374,7 @@ export default function App() {
             <Route path="/nl/cabins" element={<Cabins />} />
             <Route path="/nl/cabins/:area" element={<CabinArea />} />
             <Route path="/nl/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/nl/ice-hotels" element={<IceHotels />} />
             <Route path="/nl/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/nl/privacy" element={<PrivacyPolicy />} />
             <Route path="/nl/terms" element={<Terms />} />
@@ -381,6 +394,7 @@ export default function App() {
             <Route path="/sv/cabins" element={<Cabins />} />
             <Route path="/sv/cabins/:area" element={<CabinArea />} />
             <Route path="/sv/glass-igloos" element={<GlassIgloos />} />
+            <Route path="/sv/ice-hotels" element={<IceHotels />} />
             <Route path="/sv/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/sv/privacy" element={<PrivacyPolicy />} />
             <Route path="/sv/terms" element={<Terms />} />
