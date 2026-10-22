@@ -72,10 +72,10 @@
             }
           }
           if (!target) return;
-          // /glass-igloos exists in en + de + ja; the Finnish version has its own path
-          // (/fi/iglumajoitus) and the language menu leads there. Other locale prefixes
-          // would 404, so only German and Japanese may redirect.
-          if ((path === '/glass-igloos' || path.indexOf('/glass-igloos/') === 0) && target !== '/de' && target !== '/ja') return;
+          // /glass-igloos exists in every locale except Finnish, whose version has its
+          // own path (/fi/iglumajoitus) that the language menu leads to. /fi/glass-igloos
+          // would 404, so a Finnish browser stays on the English page.
+          if ((path === '/glass-igloos' || path.indexOf('/glass-igloos/') === 0) && target !== '/de' && target !== '/ja' && target !== '/sv' && target !== '/es' && target !== '/br' && target !== '/kr' && target !== '/fr' && target !== '/it' && target !== '/nl' && target !== '/cn') return;
           var dest = path === '/' ? target : target + path;
           if (location.search) dest += location.search;
           if (location.hash) dest += location.hash;

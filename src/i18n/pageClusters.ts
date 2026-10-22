@@ -10,8 +10,9 @@
  * (SEO.tsx `hreflangPaths`) and in public/sitemap.xml.
  *
  * `fallback` is where the language menu sends a language that has no version yet, instead of
- * a 404 (tehtävä B, HANDOFF-STAYS-KIELIKATTAVUUS-20261018: the other 8 languages come later;
- * add each one here AND to routes.json `locales` when it ships).
+ * a 404. Since 22.10.2026 the glass-igloo cluster covers all 12 languages, so its fallback is
+ * unused; keep it for a future cluster that ships language by language (add each language here
+ * AND to routes.json `locales` when it ships).
  *
  * 🔴 Keep in step with scripts/routes.json: every path here is a route there, and both routes
  * carry "hreflangCluster": "<key>".
@@ -25,7 +26,12 @@ export interface PageCluster {
 
 export const PAGE_CLUSTERS: Record<string, PageCluster> = {
   'glass-igloos': {
-    paths: { en: '/glass-igloos', fi: '/iglumajoitus', de: '/glass-igloos', ja: '/glass-igloos' },
+    paths: {
+      en: '/glass-igloos', fi: '/iglumajoitus', de: '/glass-igloos', ja: '/glass-igloos',
+      // tehtävä B 22.10.2026: the other eight languages
+      sv: '/glass-igloos', es: '/glass-igloos', 'pt-BR': '/glass-igloos', ko: '/glass-igloos',
+      fr: '/glass-igloos', it: '/glass-igloos', nl: '/glass-igloos', 'zh-CN': '/glass-igloos',
+    },
     fallback: '/property-types',
   },
 }

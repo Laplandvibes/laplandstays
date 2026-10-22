@@ -169,7 +169,15 @@
     "locales": [
       "en",
       "de",
-      "ja"
+      "ja",
+      "sv",
+      "es",
+      "pt-BR",
+      "ko",
+      "fr",
+      "it",
+      "nl",
+      "zh-CN"
     ],
     "copyFile": "src/pages/GlassIgloos.copy.{lang}.ts",
     "hreflangCluster": "glass-igloos",

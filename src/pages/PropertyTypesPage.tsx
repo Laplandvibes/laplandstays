@@ -363,6 +363,14 @@ const IGLOO_DEEP_LINK: Partial<Record<Lang, { lead: string; label: string }>> = 
   fi: { lead: 'Iglumajoitusta vertaillaan tarkemmin omalla sivullaan: ', label: 'Iglumajoitus Lapissa: lasi-iglu, lumi-iglu vai igluhotelli' },
   de: { lead: 'Für diese Kategorie gibt es eine eigene Vergleichsseite: ', label: 'Glasiglus in Finnland, 11 Resorts nach Region, Flughafen und Zimmertyp' },
   ja: { lead: 'このカテゴリーだけを深掘りした比較ページがあります：', label: 'ガラスイグルー比較：11施設を料金・場所・予約時期で' },
+  sv: { lead: 'Den här kategorin har en egen jämförelsesida: ', label: 'Glasigloor i Finland, 11 anläggningar efter område, flygplats och rumstyp' },
+  es: { lead: 'Esta categoría tiene su propia página comparativa: ', label: 'Hoteles iglú en Finlandia, 11 complejos por zona, aeropuerto y tipo de habitación' },
+  'pt-BR': { lead: 'Esta categoria tem uma página de comparação própria: ', label: 'Iglus de vidro na Finlândia, 11 hotéis por região, aeroporto e tipo de quarto' },
+  ko: { lead: '이 유형만 따로 비교한 페이지가 있습니다: ', label: '핀란드 이글루 호텔 11곳, 지역·공항·객실 유형별 비교' },
+  fr: { lead: 'Cette catégorie a sa propre page comparative : ', label: 'Igloos de verre en Laponie, 11 resorts par région, aéroport et type de chambre' },
+  it: { lead: 'Questa categoria ha una pagina di confronto dedicata: ', label: 'Igloo di vetro in Lapponia, 11 resort per zona, aeroporto e tipo di camera' },
+  nl: { lead: 'Deze categorie heeft een eigen vergelijkingspagina: ', label: 'Glazen iglo’s in Finland, 11 resorts per gebied, luchthaven en kamertype' },
+  'zh-CN': { lead: '這個類別另有專門的比較頁面：', label: '芬蘭玻璃屋，依地區、機場與房型比較11間度假村' },
 }
 
 export default function PropertyTypesPage() {
@@ -491,8 +499,8 @@ export default function PropertyTypesPage() {
             imageSide={meta.imageSide}
           />
           {/* Syvempi lasi-iglusivu niillä kielillä joilla se on (src/i18n/pageClusters.ts):
-              en/de/ja /glass-igloos, fi /fi/iglumajoitus. Muille kielille linkkiä ei renderöidä,
-              koska sivua ei ole eikä aavelokaalilinkkejä saa mainostaa. */}
+              fi /fi/iglumajoitus, muut 11 kieltä /glass-igloos (22.10.2026 alkaen). Linkki renderöidään vain
+              kielelle jolla on sekä sivu että linkkiteksti: aavelokaalilinkkejä ei saa mainostaa. */}
           {meta.id === 'aurora-villas' && IGLOO_DEEP_LINK[lang] && IGLOO_PATHS[lang] && (
             <div className={`px-4 sm:px-6 pb-14 sm:pb-16 -mt-8 sm:-mt-10 ${meta.bg}`}>
               <div className="max-w-6xl mx-auto">

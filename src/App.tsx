@@ -247,6 +247,7 @@ export default function App() {
             <Route path="/es/transport" element={<Transport />} />
             <Route path="/es/cabins" element={<Cabins />} />
             <Route path="/es/cabins/:area" element={<CabinArea />} />
+            <Route path="/es/glass-igloos" element={<GlassIgloos />} />
             <Route path="/es/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/es/privacy" element={<PrivacyPolicy />} />
             <Route path="/es/terms" element={<Terms />} />
@@ -265,6 +266,7 @@ export default function App() {
             <Route path="/br/transport" element={<Transport />} />
             <Route path="/br/cabins" element={<Cabins />} />
             <Route path="/br/cabins/:area" element={<CabinArea />} />
+            <Route path="/br/glass-igloos" element={<GlassIgloos />} />
             <Route path="/br/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/br/privacy" element={<PrivacyPolicy />} />
             <Route path="/br/terms" element={<Terms />} />
@@ -283,6 +285,7 @@ export default function App() {
             <Route path="/cn/transport" element={<Transport />} />
             <Route path="/cn/cabins" element={<Cabins />} />
             <Route path="/cn/cabins/:area" element={<CabinArea />} />
+            <Route path="/cn/glass-igloos" element={<GlassIgloos />} />
             <Route path="/cn/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/cn/privacy" element={<PrivacyPolicy />} />
             <Route path="/cn/terms" element={<Terms />} />
@@ -301,6 +304,7 @@ export default function App() {
             <Route path="/kr/transport" element={<Transport />} />
             <Route path="/kr/cabins" element={<Cabins />} />
             <Route path="/kr/cabins/:area" element={<CabinArea />} />
+            <Route path="/kr/glass-igloos" element={<GlassIgloos />} />
             <Route path="/kr/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/kr/privacy" element={<PrivacyPolicy />} />
             <Route path="/kr/terms" element={<Terms />} />
@@ -319,6 +323,7 @@ export default function App() {
             <Route path="/fr/transport" element={<Transport />} />
             <Route path="/fr/cabins" element={<Cabins />} />
             <Route path="/fr/cabins/:area" element={<CabinArea />} />
+            <Route path="/fr/glass-igloos" element={<GlassIgloos />} />
             <Route path="/fr/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/fr/privacy" element={<PrivacyPolicy />} />
             <Route path="/fr/terms" element={<Terms />} />
@@ -337,6 +342,7 @@ export default function App() {
             <Route path="/it/transport" element={<Transport />} />
             <Route path="/it/cabins" element={<Cabins />} />
             <Route path="/it/cabins/:area" element={<CabinArea />} />
+            <Route path="/it/glass-igloos" element={<GlassIgloos />} />
             <Route path="/it/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/it/privacy" element={<PrivacyPolicy />} />
             <Route path="/it/terms" element={<Terms />} />
@@ -355,6 +361,7 @@ export default function App() {
             <Route path="/nl/transport" element={<Transport />} />
             <Route path="/nl/cabins" element={<Cabins />} />
             <Route path="/nl/cabins/:area" element={<CabinArea />} />
+            <Route path="/nl/glass-igloos" element={<GlassIgloos />} />
             <Route path="/nl/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/nl/privacy" element={<PrivacyPolicy />} />
             <Route path="/nl/terms" element={<Terms />} />
@@ -373,6 +380,7 @@ export default function App() {
             <Route path="/sv/transport" element={<Transport />} />
             <Route path="/sv/cabins" element={<Cabins />} />
             <Route path="/sv/cabins/:area" element={<CabinArea />} />
+            <Route path="/sv/glass-igloos" element={<GlassIgloos />} />
             <Route path="/sv/editorial-policy" element={<EditorialPolicy />} />
             <Route path="/sv/privacy" element={<PrivacyPolicy />} />
             <Route path="/sv/terms" element={<Terms />} />

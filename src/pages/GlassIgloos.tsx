@@ -9,33 +9,55 @@ import PhotoMark from '../components/PhotoMark'
 import { buildAffiliateUrl, propertyLodgingLink } from '../lib/affiliate'
 import { PROPERTY_BOOKING } from '../data/propertyBooking'
 import { trackAffiliateClick } from '../lib/analytics'
-import { useLang, useLocalePath } from '../i18n/useLang'
+import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
+import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import { PAGE_CLUSTERS } from '../i18n/pageClusters'
 import type { GlassIgloosCopy, IglooRowKey, Rich } from './GlassIgloos.copy.types'
 import enCopy from './GlassIgloos.copy.en'
-import deCopy from './GlassIgloos.copy.de'
-import jaCopy from './GlassIgloos.copy.ja'
 
 /**
- * Glass-igloo comparison: /glass-igloos (en), /de/glass-igloos, /ja/glass-igloos.
+ * Glass-igloo comparison: /glass-igloos in en and ten more languages (/de, /ja since 18.10.2026,
+ * /sv /es /br /kr /fr /it /nl /cn since 22.10.2026).
  *
  * Until 18.10.2026 a Japanese-only page with its copy inline. Now one component, copy per
- * language in GlassIgloos.copy.<lang>.ts. Finnish has its own page at /fi/iglumajoitus
- * (Igloos.tsx); the four are one hreflang group (src/i18n/pageClusters.ts, routes.json
- * "hreflangCluster", public/sitemap.xml). Another language reaching this route is sent to its
- * own version (fi) or the cluster's fallback page, never shown English on a localized URL.
+ * language in GlassIgloos.copy.<lang>.ts, loaded per language like the cabin pages. Finnish has
+ * its own page at /fi/iglumajoitus (Igloos.tsx); together they are one hreflang group
+ * (src/i18n/pageClusters.ts, routes.json "hreflangCluster", public/sitemap.xml). A Finnish reader
+ * reaching this route is sent to the Finnish page, never shown English on a localized URL.
  *
  * Rows, booking ids and sub-ids are data and live here; text lives in the copy files. Every
  * row opens the property's own page at the booking partner through the Worker
- * (propertyLodgingLink): en/de → Sembo, ja → Trip.com (CLAUDE.md, Affiliate Links).
+ * (propertyLodgingLink): en/de/sv → Sembo, the other languages → Trip.com (CLAUDE.md,
+ * Affiliate Links); each copy file's tableNote names that partner.
  * 🔴 SID: <prefix>_<booking slug>, ≤ 33 chars (scripts/check-sids.mjs). The ja prefix
  * `stays_ja_igloos` predates this file; keep it so the click history stays one series.
  * Per-row CTA on purpose: one shared "search" button would drop the reader on the partner's
  * front page (mainos-CTA-auditti 9.8.2026).
  */
 
-const COPY: Partial<Record<string, GlassIgloosCopy>> = { en: enCopy, de: deCopy, ja: jaCopy }
-const SID_PREFIX: Partial<Record<string, string>> = { en: 'igloos_en', de: 'igloos_de', ja: 'stays_ja_igloos' }
+const cache: Partial<Record<Lang, GlassIgloosCopy>> = { en: enCopy }
+const loaders: Record<Lang, () => Promise<{ default: GlassIgloosCopy }>> = {
+  en: () => import('./GlassIgloos.copy.en'),
+  // Finnish never renders this page (redirected to /fi/iglumajoitus below); the loader only
+  // keeps the map complete.
+  fi: () => import('./GlassIgloos.copy.en'),
+  de: () => import('./GlassIgloos.copy.de'),
+  ja: () => import('./GlassIgloos.copy.ja'),
+  sv: () => import('./GlassIgloos.copy.sv'),
+  es: () => import('./GlassIgloos.copy.es'),
+  'pt-BR': () => import('./GlassIgloos.copy.ptBR'),
+  ko: () => import('./GlassIgloos.copy.ko'),
+  fr: () => import('./GlassIgloos.copy.fr'),
+  it: () => import('./GlassIgloos.copy.it'),
+  nl: () => import('./GlassIgloos.copy.nl'),
+  'zh-CN': () => import('./GlassIgloos.copy.zhCN'),
+}
+preloadLazyCopy(cache, loaders)
+
+const SID_PREFIX: Partial<Record<Lang, string>> = {
+  en: 'igloos_en', de: 'igloos_de', ja: 'stays_ja_igloos', sv: 'igloos_sv', es: 'igloos_es',
+  'pt-BR': 'igloos_pt', ko: 'igloos_ko', fr: 'igloos_fr', it: 'igloos_it', nl: 'igloos_nl', 'zh-CN': 'igloos_zh',
+}
 const CLUSTER = PAGE_CLUSTERS['glass-igloos']
 const PAGE_PATH = '/glass-igloos'
 const SITE = 'https://laplandstays.com'
@@ -56,6 +78,16 @@ const TYPE_ICONS = [Sparkles, Building2, Snowflake]
 
 const linkClass = 'text-pink font-semibold hover:underline'
 
+/** "Check dates: <resort>" for screen readers, with the reader's own colon: full-width in ja/zh,
+ *  a non-breaking space before it in French (natiivikaannos rule 19: punctuation comes from the
+ *  reader's language, not from the code). */
+const NBSP = String.fromCharCode(160)
+function bookAria(lang: Lang, label: string, name: string): string {
+  if (lang === 'ja' || lang === 'zh-CN') return `${label}：${name}`
+  if (lang === 'fr') return `${label}${NBSP}: ${name}`
+  return `${label}: ${name}`
+}
+
 function RichText({ parts, to }: { parts: Rich; to: (p: string) => string }) {
   return (
     <>
@@ -71,11 +103,11 @@ function RichText({ parts, to }: { parts: Rich; to: (p: string) => string }) {
 export default function GlassIgloos() {
   const lang = useLang()
   const to = useLocalePath()
-  const c = COPY[lang]
+  const c = useLazyCopy(lang, cache, loaders)
   const sidPrefix = SID_PREFIX[lang]
 
-  // A language without copy: its own version of the page if it has one, else the fallback.
-  if (!c || !sidPrefix) {
+  // A language without its own version here (fi): its own page if it has one, else the fallback.
+  if (!sidPrefix) {
     const own = CLUSTER.paths[lang]
     return <Navigate to={to(own && own !== PAGE_PATH ? own : CLUSTER.fallback)} replace />
   }
@@ -235,7 +267,7 @@ export default function GlassIgloos() {
                     target="_blank"
                     rel="sponsored nofollow noopener"
                     onClick={() => trackAffiliateClick('lodging', sid, href)}
-                    aria-label={`${c.bookLabel}: ${r.name}`}
+                    aria-label={bookAria(lang, c.bookLabel, r.name)}
                     className="lv-tap inline-flex items-center gap-1 text-[13px] px-3 py-1.5 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                   >
                     {c.bookLabel}
@@ -276,7 +308,7 @@ export default function GlassIgloos() {
                           target="_blank"
                           rel="sponsored nofollow noopener"
                           onClick={() => trackAffiliateClick('lodging', sid, href)}
-                          aria-label={`${c.bookLabel}: ${r.name}`}
+                          aria-label={bookAria(lang, c.bookLabel, r.name)}
                           className="inline-flex items-center gap-1 text-[13px] whitespace-nowrap px-3 py-1.5 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                         >
                           {c.bookLabel}

@@ -36,6 +36,7 @@ Car rental recommended, the best dark-sky cabin roads are a short drive from the
     { name: 'Inari', href: '/destinations/inari', blurb: 'Further north on the great lake, Sámi heartland.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: "Lapland's capital, Santa Claus Village, more amenities." },
     { name: 'Levi', href: '/destinations/levi', blurb: 'The biggest village and easiest arrival in Lapland.' },
+    { name: 'Glass igloos compared', href: '/glass-igloos', blurb: 'From Kakslauttanen to Levi: 11 glass-igloo resorts by area and airport.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'The original glass igloos. Books 8–12 mo ahead for peak aurora.' },
@@ -100,6 +101,7 @@ Vuokra-autoa suositellaan, parhaat pimeätaivasmökit ovat lyhyen ajomatkan pä�
     { name: 'Inari', href: '/destinations/inari', blurb: 'Pohjoisempana suurella järvellä, saamelaisten sydänmaa.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapin pääkaupunki, Joulupukin pajakylä, enemmän palveluja.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'Lapin suurin kylä ja helpoin saapuminen.' },
+    { name: 'Iglumajoitus Lapissa', href: '/iglumajoitus', blurb: 'Lasi-iglu, lumi-iglu vai igluhotelli: miten ne eroavat ja missä iglut ovat.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Alkuperäiset lasi-iglut. Varataan 8–12 kk etukäteen revontuli-huipulle.' },
@@ -164,6 +166,7 @@ Mietwagen empfohlen, die besten Dunkelhimmel-Hütten liegen eine kurze Fahrt vom
     { name: 'Inari', href: '/destinations/inari', blurb: 'Weiter nördlich am großen See, das Herzland der Sámi.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapplands Hauptstadt, Weihnachtsmanndorf, mehr Annehmlichkeiten.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'Das größte Dorf und die einfachste Ankunft in Lappland.' },
+    { name: 'Glasiglus im Vergleich', href: '/glass-igloos', blurb: 'Von Kakslauttanen bis Levi: 11 Glasiglu-Resorts nach Region und Flughafen.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Die ursprünglichen Glasiglus. 8–12 Monate im Voraus für die Polarlicht-Hauptsaison ausgebucht.' },
@@ -228,6 +231,7 @@ const ko: DestinationBody = {
     { name: 'Inari', href: '/destinations/inari', blurb: '더 북쪽 거대 호수 옆, 사미 문화의 중심지.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '라플란드의 중심 도시이자 산타클로스 마을, 더 풍부한 인프라.' },
     { name: 'Levi', href: '/destinations/levi', blurb: '라플란드 최대 마을, 가장 쉬운 도착지.' },
+    { name: '글래스 이글루 비교', href: '/glass-igloos', blurb: 'Kakslauttanen부터 레비까지 글래스 이글루 숙소 11곳, 지역·공항별 비교.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '글래스 이글루의 원조. 오로라 성수기는 8–12개월 전 마감.' },
@@ -292,6 +296,7 @@ Voiture de location recommandée, les meilleurs chalets à ciel noir sont à que
     { name: 'Inari', href: '/destinations/inari', blurb: 'Plus au nord sur le grand lac, cœur du peuple sámi.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'La capitale de la Laponie, le village du Père Noël et plus de services.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'Le plus grand village et l\'arrivée la plus simple en Laponie.' },
+    { name: 'Igloos de verre comparés', href: '/glass-igloos', blurb: 'De Kakslauttanen à Levi : 11 resorts à igloos de verre par région et aéroport.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Les igloos de verre originels. Complets 8 à 12 mois à l\'avance en haute saison aurores.' },
@@ -356,6 +361,7 @@ Auto a noleggio consigliata, gli chalet con cielo più scuro distano una breve g
     { name: 'Inari', href: '/destinations/inari', blurb: 'Più a nord sul grande lago, cuore del popolo sámi.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'La capitale della Lapponia e il villaggio di Babbo Natale, con più servizi.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'Il paese più grande e l\'arrivo più semplice in Lapponia.' },
+    { name: 'Igloo di vetro a confronto', href: '/glass-igloos', blurb: 'Da Kakslauttanen a Levi: 11 resort con igloo di vetro, per zona e aeroporto.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Gli igloo di vetro originali. Si prenotano 8–12 mesi prima in alta stagione aurorale.' },
@@ -420,6 +426,7 @@ Huurauto aanbevolen, de beste donkere-hemel hutten liggen op een korte rit van d
     { name: 'Inari', href: '/destinations/inari', blurb: 'Noordelijker aan het grote meer, hart van het Sámi-volk.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'De hoofdstad van Lapland, het Kerstmandorp, meer voorzieningen.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'Het grootste dorp en de makkelijkste aankomst in Lapland.' },
+    { name: 'Glazen iglo’s vergeleken', href: '/glass-igloos', blurb: 'Van Kakslauttanen tot Levi: 11 resorts met glazen iglo’s, per gebied en luchthaven.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De oorspronkelijke glasiglo\'s. 8–12 maanden vooruit volgeboekt in noorderlichthoogseizoen.' },
@@ -549,7 +556,8 @@ Coche de alquiler recomendado, los mejores caminos a cabañas con cielo oscuro e
   siblings: [
     { name: 'Inari', href: '/destinations/inari', blurb: 'Más al norte sobre el gran lago, corazón sami.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'La capital de Laponia, Pueblo de Papá Noel, más servicios.' },
-    { name: 'Levi', href: '/destinations/levi', blurb: 'El pueblo más grande y el llegada más fácil a Laponia.' },
+    { name: 'Levi', href: '/destinations/levi', blurb: 'El pueblo más grande y la llegada más fácil a Laponia.' },
+    { name: 'Hoteles iglú comparados', href: '/glass-igloos', blurb: 'De Kakslauttanen a Levi: 11 complejos con iglús de cristal por zona y aeropuerto.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Los iglús de cristal originales. Se reservan con 8–12 meses para la mejor aurora.' },
@@ -614,6 +622,7 @@ Aluguel de carro recomendado, as melhores estradas para cabanas em céu escuro f
     { name: 'Inari', href: '/destinations/inari', blurb: 'Mais ao norte no grande lago, coração sámi.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'A capital da Lapônia, Vila do Papai Noel, mais infraestrutura.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'A maior vila e a chegada mais fácil à Lapônia.' },
+    { name: 'Iglus de vidro comparados', href: '/glass-igloos', blurb: 'Do Kakslauttanen a Levi: 11 hotéis com iglus de vidro por região e aeroporto.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'Os iglus de vidro originais. Reserve com 8–12 meses para o pico da aurora.' },
@@ -678,6 +687,7 @@ const zhCN: DestinationBody = {
     { name: 'Inari', href: '/destinations/inari', blurb: '更靠北的大湖，薩米文化的核心。' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: '拉普蘭首府、聖誕老人村、設施更齊全。' },
     { name: 'Levi', href: '/destinations/levi', blurb: '拉普蘭最大、最易抵達的村莊。' },
+    { name: '玻璃屋比較', href: '/glass-igloos', blurb: '從Kakslauttanen到萊維：11間玻璃屋度假村，依地區與機場比較。' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: '初代玻璃屋。極光旺季需提前8–12個月預訂。' },
@@ -742,6 +752,7 @@ Hyrbil rekommenderas: de bästa stugvägarna under mörk himmel ligger en kort b
     { name: 'Inari', href: '/destinations/inari', blurb: 'Längre norrut vid den stora sjön, samiskt kärnland.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapplands huvudstad, Santa Claus Village och mer service.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'Lapplands största by och enklaste ankomst.' },
+    { name: 'Glasigloor jämförda', href: '/glass-igloos', blurb: 'Från Kakslauttanen till Levi: 11 anläggningar med glasigloor, efter område och flygplats.' },
   ],
   anchorProperties: [
     { name: 'Kakslauttanen Arctic Resort', propertyQuery: 'Kakslauttanen Arctic Resort', sid: 'destination_saariselka_kakslauttanen', note: 'De ursprungliga glasigloorna. Bokas 8–12 månader i förväg för norrskenshögsäsongen.' },
