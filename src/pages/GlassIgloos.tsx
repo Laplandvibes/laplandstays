@@ -248,17 +248,19 @@ export default function GlassIgloos() {
               return (
                 <li key={key} className="bg-white border border-pink/10 rounded-2xl p-4">
                   <h3 className="font-heading text-xl text-night tracking-wide leading-tight mb-2" translate="no">{r.name}</h3>
+                  {/* dt capped at 7.5rem: an `auto` track grows to the label's max-content, and nl "Dichtstbijzijnde
+                      luchthaven" left the value column ~50 px at 320 px, so the page scrolled sideways (22.10.2026). */}
                   <dl className="grid grid-cols-[auto_minmax(0,1fr)] gap-x-3 gap-y-1 text-[14px] mb-3">
-                    <dt className="text-charcoal/55">{c.tableHeaders.area}</dt>
-                    <dd className="text-charcoal/80">{r.area}</dd>
-                    <dt className="text-charcoal/55">{c.tableHeaders.airport}</dt>
-                    <dd className="text-charcoal/80">{r.airport}</dd>
-                    <dt className="text-charcoal/55">{c.tableHeaders.feature}</dt>
-                    <dd className="text-charcoal/80">{r.feature}</dd>
+                    <dt className="text-charcoal/55 max-w-[7.5rem] [overflow-wrap:anywhere]">{c.tableHeaders.area}</dt>
+                    <dd className="text-charcoal/80 min-w-0 [overflow-wrap:anywhere]">{r.area}</dd>
+                    <dt className="text-charcoal/55 max-w-[7.5rem] [overflow-wrap:anywhere]">{c.tableHeaders.airport}</dt>
+                    <dd className="text-charcoal/80 min-w-0 [overflow-wrap:anywhere]">{r.airport}</dd>
+                    <dt className="text-charcoal/55 max-w-[7.5rem] [overflow-wrap:anywhere]">{c.tableHeaders.feature}</dt>
+                    <dd className="text-charcoal/80 min-w-0 [overflow-wrap:anywhere]">{r.feature}</dd>
                     {hasPrice && (
                       <>
-                        <dt className="text-charcoal/55">{c.priceHeader}</dt>
-                        <dd className="text-charcoal/80">{r.price}</dd>
+                        <dt className="text-charcoal/55 max-w-[7.5rem] [overflow-wrap:anywhere]">{c.priceHeader}</dt>
+                        <dd className="text-charcoal/80 min-w-0 [overflow-wrap:anywhere]">{r.price}</dd>
                       </>
                     )}
                   </dl>
