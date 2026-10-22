@@ -11,6 +11,8 @@ const copy: ChromeCopy = {
     yllas: '於拉斯',
     saariselka: '薩利色爾卡',
     inari: '伊納里',
+    ruka: '魯卡',
+    pyhaLuosto: '皮哈與盧奧斯托',
     rovaniemi: '羅瓦涅米',
     news: '新聞',
     bookNow: '立即預訂',

@@ -3003,6 +3003,464 @@
     <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/inari/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/inari/" />
   </url>
+  <!-- ruka: same path in all 12 languages (src/pages/Ruka.tsx) -->
+  <url>
+    <loc>https://laplandstays.com/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/fi/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/de/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/ja/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/es/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/br/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/cn/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/kr/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/fr/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/it/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/nl/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/sv/destinations/ruka/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/ruka/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/ruka/" />
+  </url>
+  <!-- pyha-luosto: same path in all 12 languages (src/pages/PyhaLuosto.tsx) -->
+  <url>
+    <loc>https://laplandstays.com/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/fi/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/de/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/ja/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/es/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/br/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/cn/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/kr/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/fr/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/it/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/nl/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
+  <url>
+    <loc>https://laplandstays.com/sv/destinations/pyha-luosto/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://laplandstays.com/de/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://laplandstays.com/ja/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://laplandstays.com/es/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://laplandstays.com/br/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://laplandstays.com/cn/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://laplandstays.com/kr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://laplandstays.com/fr/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://laplandstays.com/it/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://laplandstays.com/nl/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://laplandstays.com/sv/destinations/pyha-luosto/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://laplandstays.com/destinations/pyha-luosto/" />
+  </url>
   <url>
     <loc>https://laplandstays.com/sv/destinations/levi/</loc>
     <lastmod>2026-10-18</lastmod>
@@ -4356,7 +4814,7 @@
   </url>
   <url>
     <loc>https://laplandstays.com/fi/cabins/ruka/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <priority>0.7</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://laplandstays.com/cabins/ruka/" />
     <xhtml:link rel="alternate" hreflang="fi" href="https://laplandstays.com/fi/cabins/ruka/" />

@@ -27,7 +27,7 @@ const copy: CabinAreaPageCopy = {
     },
     ruka: {
       seo: {
-        title: 'Rukan mökit: majoitus Rukalla ja Kuusamon järviseudulla',
+        title: 'Rukan mökit: vuokramökit Rukalla ja Kuusamon järviseudulla',
         description: 'Rukan mökit ja majoitus vuokramökeissä: Rukatunturin rinnekylän ja Kuusamon järviseudun mökit henkilömäärineen, makuuhuoneineen ja kokoineen.',
       },
       h1: 'Rukan ja Kuusamon mökit',

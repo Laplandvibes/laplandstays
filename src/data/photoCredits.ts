@@ -23,7 +23,7 @@ export type PhotoEntry = {
   partnerCredit?: string
   place?: PlaceNames
   receipt: {
-    source: 'Wikimedia Commons' | 'Pexels' | 'Sembo' | 'Snowhotel Family -mediapankki'
+    source: 'Wikimedia Commons' | 'Pexels' | 'Sembo' | 'Snowhotel Family -mediapankki' | 'LaplandVibes (oma kuva)'
     id: string
     url: string
     license: string
@@ -218,6 +218,25 @@ export const PHOTO_CREDITS: Record<string, PhotoEntry> = {
   // kuvia ja videoita saa käyttää Snowhotel Familyyn ja sen brändeihin (Arctic SnowHotel & Glass Igloos, …)
   // liittyvään viestintään, uutisointiin ja markkinointiin. Kuvien … käyttö brändeistä irrallaan on kiellettyä."
   // Sivu kertoo juuri tästä kohteesta, joten käyttö on ehtojen mukaista. claim.mjs take 22.10. VAPAA → VARATTU.
+  // Ruka ja Pyhä–Luosto (tehtävä E, 22.10.2026). Ruka: oma kuva 10.10.2026 (sama kuva jo staysin Saarua-uutisessa, sama sivusto).
+  'ruka-hero': {
+    partnerCredit: 'LaplandVibes',
+    place: { latin: 'Ruka, Kuusamo', ja: 'ルカ、クーサモ', ko: '루카, 쿠사모', 'zh-CN': '魯卡，庫薩莫' },
+    receipt: {
+      source: 'LaplandVibes (oma kuva)', id: 'own:20261010_100955', url: '', license: 'oma', author: 'LaplandVibes', date: '2026-10-10 10:09',
+      retrieved: '2026-10-22', priceEur: 0, changes: 'vain pienennys 4000x2252 -> 2560/1920/1200/800 px WebP, ei rajausta',
+      checks: 'katsottu täysikokoisena: Rukan kylän aukio ensilumen jälkeen, ei ihmisiä eikä luettavia rekisterikilpiä; claim.mjs 22.10.: vain laplandstays (uutinen saarua-ruka-hotel-restaurant-plan)',
+    },
+  },
+  'pyha-luosto-hero': {
+    credit: { author: 'Ximonic (Simo Räsänen)', ...BYSA4, sourceUrl: cm('Pyhätunturi and string bog at Kuoksuoja, Kemijärvi, Lapland, Finland, 2021 September.jpg') },
+    place: { latin: 'Pyhätunturi', ja: 'ピュハトゥントゥリ', ko: '퓌해툰투리', 'zh-CN': '皮哈通圖里' },
+    receipt: {
+      source: 'Wikimedia Commons', id: 'Pyhätunturi and string bog at Kuoksuoja, Kemijärvi, Lapland, Finland, 2021 September.jpg', url: cm('Pyhätunturi and string bog at Kuoksuoja, Kemijärvi, Lapland, Finland, 2021 September.jpg'),
+      license: 'CC BY-SA 4.0', author: 'Ximonic (Simo Räsänen)', date: '2021-09-17', retrieved: '2026-10-22', priceEur: 0,
+      changes: 'rajaus 3600x2025 (yläreunasta 60 px alas), pienennys 2560/1920/1200/800 px WebP', checks: 'katsottu täysikokoisena: Pyhätunturin tunturijono ja rinteet Kuoksuon suolta, ruska, ei ihmisiä; claim.mjs 22.10.: VAPAA (ei muualla verkostossa); talvikuvaa ei löytynyt Commonsista eikä omista (Luosto 0, Pyhä sisarkuvia)',
+    },
+  },
   'hero-ice-hotels': {
     partnerCredit: 'Arctic SnowHotel & Glass Igloos',
     place: { latin: 'Arctic SnowHotel, Rovaniemi', ja: 'アークティックスノーホテル、ロヴァニエミ', ko: '아크틱 스노호텔, 로바니에미', 'zh-CN': 'Arctic SnowHotel，羅瓦涅米' },

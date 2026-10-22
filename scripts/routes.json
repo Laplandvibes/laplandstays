@@ -225,6 +225,30 @@
     ]
   },
   {
+    "path": "/destinations/ruka",
+    "pageFile": "src/pages/Ruka.tsx",
+    "harvestFiles": [
+      "src/pages/Ruka.tsx"
+    ],
+    "ogImage": "/og/destinations-ruka.jpg",
+    "ogCard": {
+      "hero": "/images/ruka-hero.webp",
+      "line": "Where to stay in Ruka"
+    }
+  },
+  {
+    "path": "/destinations/pyha-luosto",
+    "pageFile": "src/pages/PyhaLuosto.tsx",
+    "harvestFiles": [
+      "src/pages/PyhaLuosto.tsx"
+    ],
+    "ogImage": "/og/destinations-pyha-luosto.jpg",
+    "ogCard": {
+      "hero": "/images/pyha-luosto-hero.webp",
+      "line": "Where to stay in Pyhä and Luosto"
+    }
+  },
+  {
     "path": "/destinations/rovaniemi",
     "pageFile": "src/pages/Rovaniemi.tsx",
     "harvestFiles": [

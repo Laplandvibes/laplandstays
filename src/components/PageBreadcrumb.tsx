@@ -19,6 +19,8 @@ export default function PageBreadcrumb() {
     '/destinations/yllas': c.yllas,
     '/destinations/saariselka': c.saariselka,
     '/destinations/inari': c.inari,
+    '/destinations/ruka': c.ruka,
+    '/destinations/pyha-luosto': c.pyhaLuosto,
     '/destinations/rovaniemi': c.rovaniemi,
     '/when-to-go': c.whenToGo,
     '/transport': c.transport,

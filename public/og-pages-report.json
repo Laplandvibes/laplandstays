@@ -889,5 +889,167 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "destinations-ruka": {
+    "route": "/destinations/ruka",
+    "line": "Where to stay in Ruka",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/ruka-hero.webp",
+        "bytes": 150615,
+        "sha256": "59aa2ecaa5fac41108aa1f7aed6b5df1c74d3c8f0dacd23736a62f8629800db0",
+        "heroSha": "24a8ccda94788603",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 13682,
+        "inkBox": [
+          411,
+          493,
+          786,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 93.8,
+        "centerSq": 109.5,
+        "photoRegion": 114.9,
+        "photoRegionRef": 114.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 304,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/ruka-hero.webp",
+        "bytes": 150615,
+        "sha256": "59aa2ecaa5fac41108aa1f7aed6b5df1c74d3c8f0dacd23736a62f8629800db0",
+        "heroSha": "24a8ccda94788603",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 13682,
+        "inkBox": [
+          411,
+          493,
+          786,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 93.8,
+        "centerSq": 109.5,
+        "photoRegion": 114.9,
+        "photoRegionRef": 114.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 304,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "destinations-pyha-luosto": {
+    "route": "/destinations/pyha-luosto",
+    "line": "Where to stay in Pyhä and Luosto",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/pyha-luosto-hero.webp",
+        "bytes": 224038,
+        "sha256": "0c48586625bf5a0ff1ade9815431716c63684c9fb2fe7a1ff4633ad304cd5ae4",
+        "heroSha": "cf8f3b1fcb027d26",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15132,
+        "inkBox": [
+          366,
+          493,
+          833,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 90,
+        "centerSq": 94,
+        "photoRegion": 109.4,
+        "photoRegionRef": 109.4,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 468,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/pyha-luosto-hero.webp",
+        "bytes": 224038,
+        "sha256": "0c48586625bf5a0ff1ade9815431716c63684c9fb2fe7a1ff4633ad304cd5ae4",
+        "heroSha": "cf8f3b1fcb027d26",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15132,
+        "inkBox": [
+          366,
+          493,
+          833,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 90,
+        "centerSq": 94,
+        "photoRegion": 109.4,
+        "photoRegionRef": 109.4,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 468,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

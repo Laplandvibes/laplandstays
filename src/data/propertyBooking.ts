@@ -151,6 +151,24 @@ export const PROPERTY_BOOKING: Partial<Record<PropertyKey, PropertyBooking>> = {
   santaClausHolidayVillage: { town: "Rovaniemi", slug: "santa_claus_hv", semboHotel: "1659057", semboPoly: "360049", tripHotel: "2157251", tripCity: "1794" },
   glassResort: { town: "Rovaniemi", slug: "glass_resort", tripHotel: "10944848", tripCity: "1794" },
   invisibleForest: { town: "Rovaniemi", slug: "invisible_forest", semboHotel: "11442214", semboPoly: "360732", tripHotel: "115478710", tripCity: "1794" },
+  // Ruka ja Pyhä–Luosto (tehtävä E, 22.10.2026). Sembo: autosuggest → hotelCode + polygon, nimi luettu sembo.fi:ssä;
+  // Trip.com: h1 luettu. Ei Sembo-tunnusta (Sembo ei myy) ⇒ Trip.com kaikilla kielillä: Ruka Ski Chalets, Kurula's, Kultakero.
+  // Hotel Pyhätunturin Sembo-polygoni on Pelkosenniemi 360643, ei Pyhä 360729 (Sembon oma luokittelu).
+  scandicRukahovi: { town: "Kuusamo", slug: "rukahovi", semboHotel: "3195914", semboPoly: "360525", tripHotel: "4359383", tripCity: "1787" },
+  skiInnRukaVillage: { town: "Kuusamo", slug: "rukavillage", semboHotel: "1955345", semboPoly: "360525", tripHotel: "7043012", tripCity: "1787" },
+  rukaSkiChalets: { town: "Kuusamo", slug: "ruka_ski_chalets", tripHotel: "10727773", tripCity: "1787" },
+  royalRuka: { town: "Kuusamo", slug: "royal_ruka", semboHotel: "271270", semboPoly: "360525", tripHotel: "4046927", tripCity: "1787" },
+  skiInnRukaValley: { town: "Kuusamo", slug: "rukavalley", semboHotel: "1782098", semboPoly: "360525", tripHotel: "53222973", tripCity: "1787" },
+  northernSenses: { town: "Kuusamo", slug: "northern_senses", semboHotel: "3321846", semboPoly: "360525", tripHotel: "96297262", tripCity: "1787" },
+  kuusamonTropiikki: { town: "Kuusamo", slug: "tropiikki", semboHotel: "FI-H70651", semboPoly: "360585", tripHotel: "3156462", tripCity: "1787" },
+  hotelPyhatunturi: { town: "Pyhä", slug: "hotel_pyhatunturi", semboHotel: "480856", semboPoly: "360643", tripHotel: "22900228", tripCity: "56282" },
+  pyhaIgloos: { town: "Pyhä", slug: "pyha_igloos", semboHotel: "901011", semboPoly: "360729", tripHotel: "13690665", tripCity: "56282" },
+  northernLightsVillagePyha: { town: "Pyhä", slug: "nlv_pyha", semboHotel: "24807846", semboPoly: "360729", tripHotel: "112208820", tripCity: "56282" },
+  sundayMorning: { town: "Pyhä", slug: "sunday_morning", semboHotel: "24893950", semboPoly: "360729", tripHotel: "101982118", tripCity: "56282" },
+  kurulas: { town: "Pyhä", slug: "kurulas", tripHotel: "101233517", tripCity: "56282" },
+  skiInnKultakero: { town: "Pyhä", slug: "kultakero", tripHotel: "29277139", tripCity: "56282" },
+  luostotunturi: { town: "Luosto", slug: "luostotunturi", semboHotel: "1727124", semboPoly: "360048", tripHotel: "3044287", tripCity: "9888" },
+  santasHotelAurora: { town: "Luosto", slug: "santas_aurora", semboHotel: "282349", semboPoly: "360048", tripHotel: "3176942", tripCity: "9888" },
 };
 
 /**

@@ -15,6 +15,8 @@ export type ChromeCopy = {
     yllas: string
     saariselka: string
     inari: string
+    ruka: string
+    pyhaLuosto: string
     rovaniemi: string
     /** Uutisosio /news (25.9.2026). Sama sana kuin src/news/i18n/<kieli>.json `nav`. */
     news: string

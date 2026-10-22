@@ -39,11 +39,14 @@ const CARS_PICKUP_FOR: Record<string, string> = {
   saariselka: 'IVL',
   inari: 'IVL',
   rovaniemi: 'RVN',
+  ruka: 'KAO',
+  'pyha-luosto': 'RVN',
 }
 const LOMARENGAS_AREA_FOR: Record<string, LomarengasArea> = {
   levi: 'levi',
   yllas: 'yllas',
   saariselka: 'saariselka',
+  ruka: 'ruka',
 }
 
 export interface TransportRow {
@@ -136,6 +139,13 @@ export interface DestinationPageProps {
   /** Avain PHOTO_CREDITS-taulussa: näyttää "Kuvassa" + tekijä + lisenssi kuvan päällä. */
   heroPhotoId?: string
   ogImage?: string
+  /**
+   * Region line for a destination outside Lapland (Ruka is in Kuusamo, North Ostrobothnia, 22.10.2026): replaces
+   * "Finnish Lapland" in the hero, the image alt text and the structured data. `schema` is the English region name.
+   */
+  region?: { label: Partial<Record<Lang, string>>; schema: string }
+  /** Place sent to the hotel search when the page name is not one place (Pyhä–Luosto: the Worker finds no Sembo area for it). */
+  searchName?: string
   seoKeywords: string[]
   /** Per-language body content. Locales beyond en/fi fall back to en when omitted. */
   body: {
@@ -237,7 +247,7 @@ const CABIN_PAGE_LABEL: Partial<Record<string, string>> = {
   nl: 'Alle huisjes in het gebied op deze website',
   sv: 'Alla stugor i området här på sajten',
 }
-const CABIN_PAGE_AREA: Partial<Record<string, string>> = { levi: 'levi', yllas: 'yllas', saariselka: 'saariselka', rovaniemi: 'rovaniemi', inari: 'inari' }
+const CABIN_PAGE_AREA: Partial<Record<string, string>> = { levi: 'levi', yllas: 'yllas', saariselka: 'saariselka', rovaniemi: 'rovaniemi', inari: 'inari', ruka: 'ruka', 'pyha-luosto': 'pyha-luosto' }
 
 export default function DestinationPage(p: DestinationPageProps) {
   const lang = useLang()
@@ -245,6 +255,9 @@ export default function DestinationPage(p: DestinationPageProps) {
   // /cabins/<area> inventory pages: every site language since 19.10.2026 (fi/en/de 16.9.2026, Inari 17.10.).
   const cabinPageHref = CABIN_PAGE_LABEL[lang] && CABIN_PAGE_AREA[p.slug] ? to(`/cabins/${CABIN_PAGE_AREA[p.slug]}`) : null
   const ui = useCopy<Copy>(enCopy, loaders, cache)
+  const regionLabel = p.region ? (p.region.label[lang] ?? p.region.label.en ?? ui.finnishLapland) : ui.finnishLapland
+  // Sub-ids are snake_case (Worker convention); the URL slug of Pyhä–Luosto has a hyphen.
+  const sidSlug = p.slug.replace(/-/g, '_')
   const b = pick(
     lang,
     p.body.en,
@@ -260,7 +273,7 @@ export default function DestinationPage(p: DestinationPageProps) {
     p.body.nl ?? p.body.en,
     p.body.sv ?? p.body.en,
   )
-  const searchUrl = buildHotelSearch(`${p.name}, Finland`, `destination_${p.slug}`, lang)
+  const searchUrl = buildHotelSearch(`${p.searchName ?? p.name}, Finland`, `destination_${sidSlug}`, lang)
   const pfx = ecoPrefix[lang]
   const chrome = useChrome()
 
@@ -307,7 +320,7 @@ export default function DestinationPage(p: DestinationPageProps) {
   const touristDestinationJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'TouristDestination',
-    name: `${p.name}, ${ui.finnishLapland}`,
+    name: `${p.name}, ${regionLabel}`,
     description: b.seoDescription,
     url: `https://laplandstays.com/destinations/${p.slug}`,
     image: p.heroImage,
@@ -339,12 +352,12 @@ export default function DestinationPage(p: DestinationPageProps) {
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'FI',
-      addressRegion: 'Lapland',
+      addressRegion: p.region?.schema ?? 'Lapland',
       addressLocality: p.name,
     },
     containedInPlace: {
       '@type': 'AdministrativeArea',
-      name: 'Lapland, Finland',
+      name: `${p.region?.schema ?? 'Lapland'}, Finland`,
     },
   }
 
@@ -427,7 +440,7 @@ export default function DestinationPage(p: DestinationPageProps) {
       {/* HERO */}
       <section className="relative min-h-[56vh] md:min-h-[62vh] flex items-center overflow-hidden">
         <div className="absolute inset-0">
-          <img src={p.heroImage} srcSet={p.heroSrcSet} sizes={p.heroSrcSet ? '100vw' : undefined} alt={`${p.name}, ${ui.finnishLapland}`} className="w-full h-full object-cover object-[center_38%]" loading="eager" fetchPriority="high" decoding="async" width="1920" height="1080"/>
+          <img src={p.heroImage} srcSet={p.heroSrcSet} sizes={p.heroSrcSet ? '100vw' : undefined} alt={`${p.name}, ${regionLabel}`} className="w-full h-full object-cover object-[center_38%]" loading="eager" fetchPriority="high" decoding="async" width="1920" height="1080"/>
           {/* Tekstin (vasen, ylä) takana oma tummennus: kirkas valokuva (heroteksti-portti 9.10.2026) */}
           <div aria-hidden="true" className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(ellipse 85% 90% at 18% 38%, rgba(15,23,42,0.84) 0%, rgba(15,23,42,0.64) 55%, rgba(15,23,42,0.10) 100%)' }} />
           {p.heroPhotoId && <PhotoMark id={p.heroPhotoId} className="absolute bottom-3 right-3 z-10" />}
@@ -438,7 +451,7 @@ export default function DestinationPage(p: DestinationPageProps) {
         </div>
         <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-16 md:py-20 text-white">
           <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 flex items-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
-            <MapPin className="w-4 h-4" /> {ui.finnishLapland}
+            <MapPin className="w-4 h-4" /> {regionLabel}
           </p>
           <h1 className={`font-heading tracking-wide mb-4 [text-shadow:0_3px_28px_rgba(0,0,0,0.85),0_1px_4px_rgba(0,0,0,0.6)] ${b.heroH1 ? 'text-4xl sm:text-6xl md:text-7xl' : 'text-5xl sm:text-7xl md:text-8xl'}`}>{b.heroH1 ?? p.name}</h1>
           <p className="text-xl sm:text-2xl md:text-3xl text-white/90 max-w-3xl leading-snug [text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{b.tagline}</p>
@@ -504,7 +517,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               href={searchUrl}
               target="_blank"
               rel="sponsored nofollow noopener"
-              onClick={() => trackAffiliateClick('lodging', `destination_overview_${p.slug}`, searchUrl)}
+              onClick={() => trackAffiliateClick('lodging', `destination_overview_${sidSlug}`, searchUrl)}
               className="inline-flex items-center gap-3 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-8 py-4 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-lg hover:shadow-xl hover:-translate-y-0.5"
             >
               {ui.seePricesIn(p.name)}
@@ -707,7 +720,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               href={searchUrl}
               target="_blank"
               rel="sponsored nofollow noopener"
-              onClick={() => trackAffiliateClick('lodging', `destination_book_${p.slug}`, searchUrl)}
+              onClick={() => trackAffiliateClick('lodging', `destination_book_${sidSlug}`, searchUrl)}
               className="inline-flex items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-8 py-4 rounded-xl transition-colors uppercase tracking-widest text-sm"
             >
               {ui.checkAvailability} <ArrowRight className="w-4 h-4" />
@@ -732,8 +745,8 @@ export default function DestinationPage(p: DestinationPageProps) {
               the lodging partner, so this slot sells a COMPLEMENTARY product instead
               (car rental — replaced Kiwitaxi 2026-07-09, which doesn't serve
               Lapland airports; no cannibalising our own affiliate route). */}
-          <PartnerStayAd partner="cars" sid={`destination_${p.slug}_cars`} carsPickup={CARS_PICKUP_FOR[p.slug] ?? 'RVN'} />
-          <PartnerStayAd partner="lomarengas" sid={`destination_${p.slug}_lomarengas`} lomarengasArea={LOMARENGAS_AREA_FOR[p.slug] ?? 'lapland'} />
+          <PartnerStayAd partner="cars" sid={`destination_${sidSlug}_cars`} carsPickup={CARS_PICKUP_FOR[p.slug] ?? 'RVN'} />
+          <PartnerStayAd partner="lomarengas" sid={`destination_${sidSlug}_lomarengas`} lomarengasArea={LOMARENGAS_AREA_FOR[p.slug] ?? 'lapland'} />
         </div>
       </section>
 

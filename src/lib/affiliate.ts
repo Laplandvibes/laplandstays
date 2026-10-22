@@ -247,6 +247,11 @@ function buildHotelSearchLang(lang: Lang = "en") {
   saariselka: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_saariselka', destination: 'Saariselkä, Finland', lang }),
   inari: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_inari', destination: 'Inari, Finland', lang }),
   rovaniemi: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_rovaniemi', destination: 'Rovaniemi, Finland', lang }),
+  // Ruka ja Pyhä–Luosto (22.10.2026): Worker ratkaisee nämä Sembon paikkapolygoneiksi (Ruka 360525, Pyhä 360729,
+  // Luosto 360048) ja Trip.comin kaupungeiksi (1787, 10155, 9888), tarkistettu QA-otsakkeella 22.10.
+  ruka: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_ruka', destination: 'Ruka, Finland', lang }),
+  pyha: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_pyha', destination: 'Pyhätunturi, Finland', lang }),
+  luosto: buildAffiliateUrl({ partner: 'hotels', sid: 'destination_luosto', destination: 'Luosto, Finland', lang }),
 
   // Property categories — point at the city where the category is concentrated.
   // SID still records the category; user lands on real results, not a 0-hit page.
@@ -296,6 +301,7 @@ function buildCarsLang(lang: Lang = "en") {
   fromRovaniemi: buildAffiliateUrl({ partner: 'cars', sid: 'cars_rovaniemi', query: { pickup_location: 'RVN' }, lang }),
   fromKittila: buildAffiliateUrl({ partner: 'cars', sid: 'cars_kittila', query: { pickup_location: 'KTT' }, lang }),
   fromIvalo: buildAffiliateUrl({ partner: 'cars', sid: 'cars_ivalo', query: { pickup_location: 'IVL' }, lang }),
+  fromKuusamo: buildAffiliateUrl({ partner: 'cars', sid: 'cars_kuusamo', query: { pickup_location: 'KAO' }, lang }),
   generic: buildAffiliateUrl({ partner: 'cars', sid: 'cars_generic', lang }),
   };
 }

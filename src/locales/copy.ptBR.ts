@@ -11,6 +11,8 @@ const copy: ChromeCopy = {
     yllas: 'Ylläs',
     saariselka: 'Saariselkä',
     inari: 'Inari',
+    ruka: 'Ruka',
+    pyhaLuosto: 'Pyhä e Luosto',
     rovaniemi: 'Rovaniemi',
     news: 'Notícias',
     bookNow: 'Reservar',

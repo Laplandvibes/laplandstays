@@ -68,7 +68,7 @@ const PARTNER_AREA: Record<CabinAreaSlug, LomarengasArea> = {
 /** Destination guide on this site, when one exists. */
 const DESTINATION: Partial<Record<CabinAreaSlug, string>> = {
   levi: '/destinations/levi', yllas: '/destinations/yllas', saariselka: '/destinations/saariselka', rovaniemi: '/destinations/rovaniemi',
-  inari: '/destinations/inari',
+  inari: '/destinations/inari', ruka: '/destinations/ruka', 'pyha-luosto': '/destinations/pyha-luosto',
 }
 
 interface Cabin {

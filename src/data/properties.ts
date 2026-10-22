@@ -170,6 +170,22 @@ export const PROPERTIES = withGoogleReviews({
   santaClausHolidayVillage: { name: "Santa Claus Holiday Village", destination: "Santa Claus Holiday Village" },
   glassResort: { name: "Glass Resort", destination: "Glass Resort Rovaniemi" },
   invisibleForest: { name: "Invisible Forest Lodge", destination: "Invisible Forest Lodge" },
+  // Ruka ja Pyhä–Luosto (tehtävä E, 22.10.2026): nimet ja tunnukset raportista side-session-notes/…/ruka-pyhaluosto-faktat-20261022.md.
+  scandicRukahovi: { name: "Scandic Rukahovi", destination: "Scandic Rukahovi" },
+  skiInnRukaVillage: { name: "Ski-Inn RukaVillage", destination: "Ski-Inn RukaVillage" },
+  rukaSkiChalets: { name: "Ruka Ski Chalets", destination: "Ruka Ski Chalets" },
+  royalRuka: { name: "Hotel Royal Ruka", destination: "Hotel Royal Ruka" },
+  skiInnRukaValley: { name: "Ski-Inn RukaValley", destination: "Ski-Inn RukaValley" },
+  northernSenses: { name: "House of Northern Senses", destination: "House of Northern Senses" },
+  kuusamonTropiikki: { name: "Holiday Club Kuusamon Tropiikki", destination: "Holiday Club Kuusamon Tropiikki" },
+  hotelPyhatunturi: { name: "Hotel Pyhätunturi", destination: "Hotel Pyhätunturi" },
+  pyhaIgloos: { name: "Pyhä Igloos", destination: "Pyhä Igloos" },
+  northernLightsVillagePyha: { name: "Northern Lights Village Pyhä", destination: "Northern Lights Village Pyhä" },
+  sundayMorning: { name: "Sunday Morning Resort", destination: "Sunday Morning Resort" },
+  kurulas: { name: "Kurula’s Resort", destination: "Kurula’s Resort" },
+  skiInnKultakero: { name: "Ski-Inn Kultakero", destination: "Ski-Inn Kultakero" },
+  luostotunturi: { name: "Lapland Hotels Luostotunturi", destination: "Lapland Hotels Luostotunturi" },
+  santasHotelAurora: { name: "Santa’s Hotel Aurora & Igloos", destination: "Santa’s Hotel Aurora & Igloos" },
 });
 
 /**

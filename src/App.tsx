@@ -67,6 +67,8 @@ const Levi = lazy(() => import('./pages/Levi'))
 const Yllas = lazy(() => import('./pages/Yllas'))
 const Saariselka = lazy(() => import('./pages/Saariselka'))
 const Inari = lazy(() => import('./pages/Inari'))
+const Ruka = lazy(() => import('./pages/Ruka'))
+const PyhaLuosto = lazy(() => import('./pages/PyhaLuosto'))
 const Rovaniemi = lazy(() => import('./pages/Rovaniemi'))
 const CabinArea = lazy(() => import('./pages/CabinArea'))
 const PropertyTypesPage = lazy(() => import('./pages/PropertyTypesPage'))
@@ -166,6 +168,8 @@ export default function App() {
             <Route path="/destinations/yllas" element={<Yllas />} />
             <Route path="/destinations/saariselka" element={<Saariselka />} />
             <Route path="/destinations/inari" element={<Inari />} />
+            <Route path="/destinations/ruka" element={<Ruka />} />
+            <Route path="/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/property-types" element={<PropertyTypesPage />} />
             <Route path="/about" element={<About />} />
@@ -186,6 +190,8 @@ export default function App() {
             <Route path="/fi/destinations/yllas" element={<Yllas />} />
             <Route path="/fi/destinations/saariselka" element={<Saariselka />} />
             <Route path="/fi/destinations/inari" element={<Inari />} />
+            <Route path="/fi/destinations/ruka" element={<Ruka />} />
+            <Route path="/fi/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/fi/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/fi/property-types" element={<PropertyTypesPage />} />
             <Route path="/fi/about" element={<About />} />
@@ -206,6 +212,8 @@ export default function App() {
             <Route path="/de/destinations/yllas" element={<Yllas />} />
             <Route path="/de/destinations/saariselka" element={<Saariselka />} />
             <Route path="/de/destinations/inari" element={<Inari />} />
+            <Route path="/de/destinations/ruka" element={<Ruka />} />
+            <Route path="/de/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/de/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/de/property-types" element={<PropertyTypesPage />} />
             <Route path="/de/about" element={<About />} />
@@ -226,6 +234,8 @@ export default function App() {
             <Route path="/ja/destinations/yllas" element={<Yllas />} />
             <Route path="/ja/destinations/saariselka" element={<Saariselka />} />
             <Route path="/ja/destinations/inari" element={<Inari />} />
+            <Route path="/ja/destinations/ruka" element={<Ruka />} />
+            <Route path="/ja/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/ja/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/ja/property-types" element={<PropertyTypesPage />} />
             <Route path="/ja/about" element={<About />} />
@@ -246,6 +256,8 @@ export default function App() {
             <Route path="/es/destinations/yllas" element={<Yllas />} />
             <Route path="/es/destinations/saariselka" element={<Saariselka />} />
             <Route path="/es/destinations/inari" element={<Inari />} />
+            <Route path="/es/destinations/ruka" element={<Ruka />} />
+            <Route path="/es/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/es/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/es/property-types" element={<PropertyTypesPage />} />
             <Route path="/es/about" element={<About />} />
@@ -266,6 +278,8 @@ export default function App() {
             <Route path="/br/destinations/yllas" element={<Yllas />} />
             <Route path="/br/destinations/saariselka" element={<Saariselka />} />
             <Route path="/br/destinations/inari" element={<Inari />} />
+            <Route path="/br/destinations/ruka" element={<Ruka />} />
+            <Route path="/br/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/br/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/br/property-types" element={<PropertyTypesPage />} />
             <Route path="/br/about" element={<About />} />
@@ -286,6 +300,8 @@ export default function App() {
             <Route path="/cn/destinations/yllas" element={<Yllas />} />
             <Route path="/cn/destinations/saariselka" element={<Saariselka />} />
             <Route path="/cn/destinations/inari" element={<Inari />} />
+            <Route path="/cn/destinations/ruka" element={<Ruka />} />
+            <Route path="/cn/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/cn/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/cn/property-types" element={<PropertyTypesPage />} />
             <Route path="/cn/about" element={<About />} />
@@ -306,6 +322,8 @@ export default function App() {
             <Route path="/kr/destinations/yllas" element={<Yllas />} />
             <Route path="/kr/destinations/saariselka" element={<Saariselka />} />
             <Route path="/kr/destinations/inari" element={<Inari />} />
+            <Route path="/kr/destinations/ruka" element={<Ruka />} />
+            <Route path="/kr/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/kr/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/kr/property-types" element={<PropertyTypesPage />} />
             <Route path="/kr/about" element={<About />} />
@@ -326,6 +344,8 @@ export default function App() {
             <Route path="/fr/destinations/yllas" element={<Yllas />} />
             <Route path="/fr/destinations/saariselka" element={<Saariselka />} />
             <Route path="/fr/destinations/inari" element={<Inari />} />
+            <Route path="/fr/destinations/ruka" element={<Ruka />} />
+            <Route path="/fr/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/fr/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/fr/property-types" element={<PropertyTypesPage />} />
             <Route path="/fr/about" element={<About />} />
@@ -346,6 +366,8 @@ export default function App() {
             <Route path="/it/destinations/yllas" element={<Yllas />} />
             <Route path="/it/destinations/saariselka" element={<Saariselka />} />
             <Route path="/it/destinations/inari" element={<Inari />} />
+            <Route path="/it/destinations/ruka" element={<Ruka />} />
+            <Route path="/it/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/it/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/it/property-types" element={<PropertyTypesPage />} />
             <Route path="/it/about" element={<About />} />
@@ -366,6 +388,8 @@ export default function App() {
             <Route path="/nl/destinations/yllas" element={<Yllas />} />
             <Route path="/nl/destinations/saariselka" element={<Saariselka />} />
             <Route path="/nl/destinations/inari" element={<Inari />} />
+            <Route path="/nl/destinations/ruka" element={<Ruka />} />
+            <Route path="/nl/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/nl/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/nl/property-types" element={<PropertyTypesPage />} />
             <Route path="/nl/about" element={<About />} />
@@ -386,6 +410,8 @@ export default function App() {
             <Route path="/sv/destinations/yllas" element={<Yllas />} />
             <Route path="/sv/destinations/saariselka" element={<Saariselka />} />
             <Route path="/sv/destinations/inari" element={<Inari />} />
+            <Route path="/sv/destinations/ruka" element={<Ruka />} />
+            <Route path="/sv/destinations/pyha-luosto" element={<PyhaLuosto />} />
             <Route path="/sv/destinations/rovaniemi" element={<Rovaniemi />} />
             <Route path="/sv/property-types" element={<PropertyTypesPage />} />
             <Route path="/sv/about" element={<About />} />
