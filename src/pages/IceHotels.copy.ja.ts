@@ -45,7 +45,7 @@ const ja: IceHotelsCopy = {
       { to: '/glass-igloos', label: 'グラスイグルー比較ページ' },
       'で、ほかの10施設と比較しています。',
     ],
-    ctaLabel: '空室を見る',
+    ctaLabel: '料金と空室を見る',
     ctaNote: '予約パートナーのTrip.comで、この施設のページが開きます。旅行の日程に合わせた料金を確認できます。',
   },
   snowVillage: {

@@ -45,7 +45,7 @@ const de: IceHotelsCopy = {
       { to: '/glass-igloos', label: 'Glasiglu-Seite' },
       ' vergleichen wir sie mit zehn anderen Resorts.',
     ],
-    ctaLabel: 'Verfügbarkeit prüfen',
+    ctaLabel: 'Preise und Verfügbarkeit',
     ctaNote: 'Öffnet die Seite des Resorts bei unserem Buchungspartner Sembo, mit Preisen für Ihre Reisedaten.',
   },
   snowVillage: {

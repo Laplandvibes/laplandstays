@@ -5,7 +5,7 @@ import type { RovaniemiHotelsCopy } from './Rovaniemi.hotels.types'
  * 22.10.2026; where the site does not state a number (rooms, airport distance) the note has none.
  */
 const en: RovaniemiHotelsCopy = {
-  intro: '20 hotels in four areas. Each name opens that hotel’s own page at our booking partner, with prices for your dates.',
+  intro: '20 hotels in four areas. Each name takes you to the hotel’s own page at our booking partner, with prices for your dates.',
   groups: [
     {
       title: 'City centre',
@@ -23,7 +23,7 @@ const en: RovaniemiHotelsCopy = {
     {
       title: 'Ounasvaara hill',
       items: [
-        { key: 'skyOunasvaara', note: 'On top of Ounasvaara, 4 km from the centre and 20 m from the nearest slope; rooms with saunas and family rooms.' },
+        { key: 'skyOunasvaara', note: 'On top of Ounasvaara, 4 km from the centre and 20 m from the nearest slope, with sauna rooms and family rooms.' },
         { key: 'laplandHotelsOunasvaara', note: 'Cabins and holiday apartments between the Kemijoki River and the ski slopes, each with a private sauna and kitchen; 3 km from the centre.' },
         { key: 'santasport', note: 'An Olympic training centre beside the Ounasvaara trails, 2 km from the centre; some rooms have a sauna and a balcony.' },
       ],
@@ -32,19 +32,19 @@ const en: RovaniemiHotelsCopy = {
       title: 'Santa Claus Village and the Arctic Circle',
       items: [
         { key: 'santaClausHolidayVillage', note: 'On the Arctic Circle in Santa Claus Village: cottages, suites and glass igloo cottages, all with a private sauna.' },
-        { key: 'santasIgloosArcticCircle', note: 'Glass igloos facing north in Santa Claus Village, each with a northern lights alarm; 5 km from the airport.' },
+        { key: 'santasIgloosArcticCircle', note: 'North-facing glass igloos in Santa Claus Village, each with a northern lights alarm; 5 km from the airport.' },
         { key: 'arcticTreeHouse', note: 'Suites with a full glass wall on a forest slope, 100 m from SantaPark and 2.2 km from Santa Claus Village.' },
         { key: 'novaSkyland', note: 'Every room and cabin has a private sauna; about 300 m from Santa Claus Village and 5 minutes by car from the airport.' },
-        { key: 'glassResort', note: 'Glass apartments with a private sauna and an outdoor hot tub, in a forest inside Santa Claus Village.' },
+        { key: 'glassResort', note: 'Glass apartments with a private sauna and an outdoor hot tub, in a forest within Santa Claus Village.' },
       ],
     },
     {
       title: 'Outside the city',
       items: [
         { key: 'apukka', note: 'Glass igloos between two wilderness lakes, 18 km from the city, with the resort’s own shuttle bus to the centre.' },
-        { key: 'arcticSnowHotel', note: 'A snow and ice hotel from 15 December and heated glass igloos with a 360° glass roof, 26 km from the centre.' },
-        { key: 'invisibleForest', note: 'Mirrored glass suites with a private sauna, outdoor hot tub and kitchen, by the Ounasjoki River less than 10 minutes’ drive from the centre.' },
-        { key: 'silverBirch', note: 'Only five glass cabins, three metres above the ground on a lake shore near Oikarainen, sold as multi-night stays.' },
+        { key: 'arcticSnowHotel', note: 'A snow and ice hotel open from 15 December, plus heated glass igloos with a 360° glass roof, 26 km from the centre.' },
+        { key: 'invisibleForest', note: 'Mirrored glass suites with a private sauna, outdoor hot tub and kitchen, by the Ounasjoki River, less than 10 minutes’ drive from the centre.' },
+        { key: 'silverBirch', note: 'Only five glass cabins, raised three metres off the ground on a lakeshore near Oikarainen, sold for stays of several nights.' },
       ],
     },
   ],

@@ -51,7 +51,7 @@ const fr: IceHotelsCopy = {
       { to: '/glass-igloos', label: 'page consacrée aux igloos de verre' },
       '.',
     ],
-    ctaLabel: 'Vérifier la disponibilité',
+    ctaLabel: 'Voir prix et disponibilités',
     ctaNote: 'Ouvre la page du resort chez notre partenaire de réservation Trip.com, avec les prix pour vos dates de séjour.',
   },
   snowVillage: {

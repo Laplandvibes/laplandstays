@@ -48,7 +48,7 @@ const sv: IceHotelsCopy = {
       { to: '/glass-igloos', label: 'sida om glasigloor' },
       '.',
     ],
-    ctaLabel: 'Se lediga datum',
+    ctaLabel: 'Se priser och lediga rum',
     ctaNote: 'Öppnar anläggningens egen sida hos vår bokningspartner Sembo, med priser för dina resdatum.',
   },
   snowVillage: {

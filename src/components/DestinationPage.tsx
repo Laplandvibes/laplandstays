@@ -467,8 +467,8 @@ export default function DestinationPage(p: DestinationPageProps) {
       {/* OVERVIEW */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-4xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.overviewEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.overviewH2(p.name)}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3 max-lg:text-center">{ui.overviewEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{ui.overviewH2(p.name)}</h2>
           <p className="text-charcoal/75 text-lg leading-relaxed whitespace-pre-line">{b.description}</p>
 
           {/* Fact strip. Two things were wrong here until 2026-08-23 (Vesa: "niin
@@ -512,7 +512,8 @@ export default function DestinationPage(p: DestinationPageProps) {
             })}
           </div>
 
-          <div className="mt-8">
+          {/* Alle 1024 px nappi keskelle kuten otsikot (Vesa 18.10.2026, keskityssääntö). */}
+          <div className="mt-8 max-lg:text-center">
             <a
               href={searchUrl}
               target="_blank"
@@ -523,7 +524,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               {ui.seePricesIn(p.name)}
               <ArrowRight className="w-4 h-4" />
             </a>
-            <AffiliateDisclosure variant="compact" className="mt-4 justify-start" />
+            <AffiliateDisclosure variant="compact" className="mt-4 justify-start max-lg:justify-center" />
           </div>
         </div>
       </section>
@@ -536,8 +537,8 @@ export default function DestinationPage(p: DestinationPageProps) {
       {b.guide && (
         <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-pink/5 to-white">
           <div className="max-w-4xl mx-auto">
-            <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{b.guide.eyebrow}</p>
-            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-5">{b.guide.h2}</h2>
+            <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3 max-lg:text-center">{b.guide.eyebrow}</p>
+            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-5 max-lg:text-center text-balance">{b.guide.h2}</h2>
             <p className="text-charcoal/75 text-lg leading-relaxed whitespace-pre-line mb-10">{b.guide.intro}</p>
 
             <div className="space-y-10">
@@ -700,8 +701,8 @@ export default function DestinationPage(p: DestinationPageProps) {
       {/* WHAT TO BOOK */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-5xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.staysInEyebrow(p.name)}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-8">{ui.whatToBookH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3 max-lg:text-center">{ui.staysInEyebrow(p.name)}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-8 max-lg:text-center">{ui.whatToBookH2}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {b.stayTypes.map((s) => (
               <div key={s} className="flex items-start gap-3 bg-pink/5 border border-pink/20 rounded-2xl p-5">
@@ -847,8 +848,8 @@ export default function DestinationPage(p: DestinationPageProps) {
       {b.dayPlan && b.dayPlan.length > 0 && (
         <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
           <div className="max-w-5xl mx-auto">
-            <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.sampleItinerary}</p>
-            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-3">{ui.dayPlanH2(b.dayPlan.length, p.name)}</h2>
+            <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{ui.sampleItinerary}</p>
+            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-3 max-lg:text-center text-balance">{ui.dayPlanH2(b.dayPlan.length, p.name)}</h2>
             <p className="text-charcoal/65 text-base leading-relaxed mb-10 max-w-2xl">
               {ui.dayPlanLead}
             </p>

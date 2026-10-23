@@ -266,8 +266,8 @@ export default function Igloos() {
       {/* Kolme iglutyyppiä */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">Vertailu</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">Kolme tapaa nukkua iglussa</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">Vertailu</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">Kolme tapaa nukkua iglussa</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">
             Sana "iglu" kattaa Lapissa kolme aika erilaista yötä. Ennen kuin vertailet hintoja, päätä kumpaa olet ostamassa: lämmintä lasikattoa, yötä lumen sisällä vai valmista lomakylää.
           </p>
@@ -287,10 +287,10 @@ export default function Igloos() {
               )
             })}
           </div>
-          {/* Lumihotelleille oma sivu 22.10.2026 (tehtävä C): missä lumessa voi nukkua tänä talvena. */}
+          {/* Lumihotelleille oma sivu 22.10.2026 (tehtävä C): missä voi nukkua lumessa tänä talvena. */}
           <p className="text-charcoal/70 text-[15px] leading-relaxed mt-8 max-w-3xl">
-            Missä lumessa voi nukkua tänä talvena:{' '}
-            <Link to="/fi/ice-hotels" className="text-pink font-semibold hover:underline">jää- ja lumihotellit Lapissa</Link>
+            Haluatko nukkua lumessa? Tämän talven paikat löydät sivulta{' '}
+            <Link to="/fi/ice-hotels" className="text-pink font-semibold hover:underline">jää- ja lumihotellit Lapissa</Link>.
           </p>
         </div>
       </section>
@@ -298,7 +298,7 @@ export default function Igloos() {
       {/* Vertailutaulukko */}
       <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-5xl mx-auto">
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">Erot yhdellä silmäyksellä</h2>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">Erot yhdellä silmäyksellä</h2>
           <div className="overflow-x-auto rounded-2xl border border-pink/10 bg-white">
             <table className="w-full min-w-[640px] text-left text-[14px]">
               <thead>
@@ -330,8 +330,8 @@ export default function Igloos() {
       {/* Sijainnit */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">Missä iglut ovat</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">Levi, Saariselkä, Rovaniemi ja Kilpisjärvi</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">Missä iglut ovat</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">Levi, Saariselkä, Rovaniemi ja Kilpisjärvi</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">
             Iglut eivät ole hiihtokeskusten keskustoissa vaan niiden laidoilla, jossa taivas on pimeä. Nämä neljä suuntaa kattavat valtaosan Lapin iglumajoituksesta.
           </p>
@@ -423,8 +423,8 @@ export default function Igloos() {
       {/* Milloin varata */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">Ajoitus</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">Milloin iglu-yö kannattaa varata</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">Ajoitus</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">Milloin iglu-yö kannattaa varata</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-8">
             Iglukausi seuraa pimeyttä, ei hiihtolomia. Nyrkkisääntö: mitä pimeämpi yö, sitä kovempi kysyntä lasikatoille.
           </p>

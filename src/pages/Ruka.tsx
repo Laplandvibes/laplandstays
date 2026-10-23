@@ -21,19 +21,19 @@ The resort has 41 slopes and 22 lifts, and this season runs from 2 October 2026 
     { label: 'Ski season 2026–27', value: '2 Oct – 2 May' },
   ],
   highlights: [
-    { title: 'A car-free village at the slopes', body: 'Cars stay in the underground parking hall for 320 cars. The SkiBus, the airport bus and the trail bus stop at the turning circle on the southern edge of the village, and the Village-2-Valley gondola runs from the village to Ruka Valley.' },
-    { title: 'Karhunkierros, 81 km', body: 'Finland’s most popular hiking trail starts and ends at Saarua in East Ruka, where parking is free. It runs through Oulanka National Park and is walked from the end of May to October; in winter the trail is not safe to use.' },
-    { title: 'Oulanka National Park', body: 'Founded in 1956, 286 km² and 30 km from Ruka. With 187,400 visits in 2024 it is the busiest of the national parks around Kuusamo.' },
-    { title: 'Riisitunturi and crown snow', body: 'In Riisitunturi National Park, 30 km from Ruka, snow and rime build up on the spruces from October at the latest. An open wilderness hut stands on top of the fell; there is no public transport to the park.' },
-    { title: 'Where to watch the northern lights', body: 'The resort names Juhannuskallio, which you can reach by car, and the Valtavaara and Konttainen area. From August to November, lake and pond shores around Kuusamo can show the aurora twice: in the sky and on the water.' },
+    { title: 'A car-free village by the slopes', body: 'Cars stay in an underground car park with room for 320. The SkiBus, the airport bus and the Karhunkierros trail bus stop at the turning circle on the southern edge of the village, and the Village-2-Valley gondola runs from the village to Ruka Valley.' },
+    { title: 'Karhunkierros, 81 km', body: 'Finland’s most popular hiking trail starts and ends at Saarua in East Ruka, where parking is free. It runs through Oulanka National Park, and the hiking season lasts from the end of May to October; in winter the trail is not safe to use.' },
+    { title: 'Oulanka National Park', body: 'Founded in 1956, the park covers 286 km² and lies 30 km from Ruka. With 187,400 visits in 2024, it is the busiest national park around Kuusamo.' },
+    { title: 'Riisitunturi and crown snow', body: 'In Riisitunturi National Park, 30 km from Ruka, snow and rime start building up on the spruces in October at the latest. An open wilderness hut stands on top of the fell; there is no public transport to the park.' },
+    { title: 'Where to watch the northern lights', body: 'The resort recommends Juhannuskallio, which you can reach by car, and the Valtavaara and Konttainen area. From August to November, lake and pond shores around Kuusamo can show the aurora twice: in the sky and on the water.' },
     { title: 'Summer: bike park and midnight sun', body: 'Four lifts serve Ruka Bike Park, and the area has 300 km of hiking routes and 180 km of mountain-bike routes. In Kuusamo the midnight sun lasts from mid-June to the end of the month.' },
   ],
   whenToGo: `The ski season runs from 2 October 2026 to 2 May 2027, with night skiing on Fridays from 7 to 11 pm between December and mid-April.
-The northern lights need dark nights, so autumn to early spring; from August to November lake shores can mirror them on open water.
-Karhunkierros is walked from the end of May to October; July and September, with its autumn colours, are the busiest months.`,
-  howToGet: `Fly to Kuusamo (KAO): Finnair flies from Helsinki all year in about an hour, and in winter 2026–27 there are 9 direct flights from 8 European cities. Ruka is a 30-minute drive from the airport.
-The airport bus waits for every scheduled flight. Book a seat in advance, at the latest 24 hours before; without a booking you board only if there is space.
-By train, take the night train from Helsinki to Kemijärvi and the connecting bus to Ruka. By car it is a little over 800 km from Helsinki on road 5.`,
+The northern lights need dark nights, so come between autumn and early spring; from August to November, the open water of the lakes can mirror them.
+The Karhunkierros hiking season runs from the end of May to October; the busiest months are July and, with its autumn colours, September.`,
+  howToGet: `Fly to Kuusamo (KAO): Finnair flies from Helsinki all year round, a flight of about an hour, and in winter 2026–27 there are 9 direct flights from 8 European cities. Ruka is a 30-minute drive from the airport.
+The airport bus waits for every scheduled flight. Book a seat in advance, no later than 24 hours before; without a booking you can board only if there is space.
+By train, take the night train from Helsinki to Kemijärvi and the connecting bus to Ruka. By car, it is a little over 800 km from Helsinki on road 5.`,
   stayTypes: [
     'Apartments in the car-free village, steps from the lifts; every Ski-Inn RukaVillage apartment has a sauna and a drying cabinet for ski gear.',
     'Hotels on the fell, from a ski-in, ski-out mountain hotel to rooms with a view of Juhannuskallio.',
@@ -43,7 +43,7 @@ By train, take the night train from Helsinki to Kemijärvi and the connecting bu
   siblings: [
     { name: 'Pyhä–Luosto', href: '/destinations/pyha-luosto', blurb: 'Two fell villages in Eastern Lapland, 25 km apart.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapland’s capital and its main airport.' },
-    { name: 'Levi', href: '/destinations/levi', blurb: 'Ski village in western Lapland, by Kittilä airport.' },
+    { name: 'Levi', href: '/destinations/levi', blurb: 'A ski village in western Lapland, near Kittilä Airport.' },
   ],
   anchorGroups: [
     {
@@ -52,7 +52,7 @@ By train, take the night train from Helsinki to Kemijärvi and the connecting bu
         { name: 'Scandic Rukahovi', propertyQuery: 'Scandic Rukahovi', sid: 'destination_ruka_rukahovi', note: 'A mountain hotel in the village with ski-in, ski-out access and a nightclub.' },
         { name: 'Ski-Inn RukaVillage', propertyQuery: 'Ski-Inn RukaVillage', sid: 'destination_ruka_rukavillage', note: 'Apartments in the middle of the village, all with a sauna and a drying cabinet, some with a jacuzzi.' },
         { name: 'Ruka Ski Chalets', propertyQuery: 'Ruka Ski Chalets', sid: 'destination_ruka_ski_chalets', note: 'Within walking distance of the lifts; the larger units (46–81.5 m²) have a private sauna.' },
-        { name: 'Hotel Royal Ruka', propertyQuery: 'Hotel Royal Ruka', sid: 'destination_ruka_royal', note: 'Some rooms look out to Juhannuskallio; the restaurant serves fish from Lake Kitka and reindeer.' },
+        { name: 'Hotel Royal Ruka', propertyQuery: 'Hotel Royal Ruka', sid: 'destination_ruka_royal', note: 'Some rooms look out over Juhannuskallio; the restaurant serves reindeer and fish from Lake Kitka.' },
         { name: 'Ski-Inn RukaValley', propertyQuery: 'Ski-Inn RukaValley', sid: 'destination_ruka_rukavalley', note: 'Hotel rooms and apartments in Ruka Valley, on the Saarua side of the fell.' },
       ],
     },
@@ -69,9 +69,9 @@ By train, take the night train from Helsinki to Kemijärvi and the connecting bu
   ],
   transport: [
     { mode: 'plane', label: 'From Kuusamo Airport (KAO)', detail: 'Finnair from Helsinki all year, about 1 h; in winter 2026–27 also 9 direct flights from 8 European cities. 30 min by car to Ruka.' },
-    { mode: 'bus', label: 'Airport bus to Ruka village', detail: 'Meets every scheduled flight. Book a seat in advance, at the latest 24 h before.' },
+    { mode: 'bus', label: 'Airport bus to Ruka village', detail: 'Meets every scheduled flight. Book a seat in advance, no later than 24 h before.' },
     { mode: 'train', label: 'Night train to Kemijärvi', detail: 'Daily from Helsinki, with a bus connection to Ruka that waits up to 60 min for a late train.' },
-    { mode: 'car', label: 'By car from Helsinki', detail: 'A little over 800 km on road 5. In the village, park in the underground hall.' },
+    { mode: 'car', label: 'By car from Helsinki', detail: 'A little over 800 km on road 5. In the village, park in the underground car park.' },
   ],
   carRental: {
     href: CARS_FOR('en').fromKuusamo,
@@ -84,10 +84,10 @@ By train, take the night train from Helsinki to Kemijärvi and the connecting bu
 }
 
 const fi: DestinationBody = {
-  tagline: 'Autoton kylä 41 rinteen juurella Kuusamossa, Lapin rajan eteläpuolella, ja Oulangan kansallispuisto 30 kilometrin päässä.',
-  description: `Ruka on tunturi- ja hiihtokeskus Kuusamossa, Koillismaalla Pohjois-Pohjanmaalla. Se on aivan Lapin maakunnan ulkopuolella, mutta lunta on yhtä lailla: maa on valkoinen noin 200 päivää vuodessa, lokakuun lopusta toukokuun puoliväliin.
+  tagline: 'Autoton kylä 41 rinteen juurella Kuusamossa, aivan Lapin rajan eteläpuolella. Oulangan kansallispuistoon on 30 kilometriä.',
+  description: `Ruka on tunturi- ja hiihtokeskus Kuusamossa, Koillismaalla Pohjois-Pohjanmaalla. Se on aivan Lapin maakunnan ulkopuolella, mutta lunta riittää yhtä lailla: maa on lumen peitossa noin 200 päivää vuodessa, lokakuun lopusta toukokuun puoliväliin.
 
-Rinteitä on 41 ja hissejä 22, ja tämä kausi kestää 2.10.2026–2.5.2027. Rukan kylä on rinteiden juurella: autoton keskusta, jossa on yli 1 000 matkailijavuodepaikkaa, 15 ravintolaa ja maanalainen pysäköintihalli. Suurin osa alueen majoituksesta on lomahuoneistoja ja mökkejä eikä hotelleja: Kuusamossa niitä on noin 7 500.`,
+Rinteitä on 41 ja hissejä 22, ja tämän talven kausi kestää 2.10.2026–2.5.2027. Rukan kylä on rinteiden juurella: autoton keskusta, jossa on yli 1 000 vuodepaikkaa matkailijoille, 15 ravintolaa ja maanalainen pysäköintihalli. Suurin osa alueen majoituksesta on hotellien sijaan lomahuoneistoja ja mökkejä, joita Kuusamossa on noin 7 500.`,
   facts: [
     { label: 'Rinteet ja hissit', value: '41 · 22' },
     { label: 'Tunturin laki', value: '492 m' },
@@ -95,38 +95,38 @@ Rinteitä on 41 ja hissejä 22, ja tämä kausi kestää 2.10.2026–2.5.2027. R
     { label: 'Hiihtokausi 2026–27', value: '2.10.–2.5.' },
   ],
   highlights: [
-    { title: 'Autoton kylä rinteiden juurella', body: 'Autot jäävät 320 paikan maanalaiseen pysäköintihalliin. Skibussi, lentokenttäbussi ja reittibussi pysähtyvät kylän eteläreunan kääntöpaikalla, ja Village-2-Valley-gondoli kulkee kylästä Ruka Valleyyn.' },
-    { title: 'Karhunkierros, 81 km', body: 'Suomen suosituin vaellusreitti alkaa ja päättyy Itä-Rukan Saaruaan, jossa pysäköinti on maksutonta. Reitti kulkee Oulangan kansallispuiston läpi, ja sitä kuljetaan toukokuun lopusta lokakuuhun; talvella reitti ei ole turvallinen.' },
-    { title: 'Oulangan kansallispuisto', body: 'Perustettu 1956, 286 km² ja 30 km Rukalta. Vuonna 2024 käyntejä oli 187 400, eniten Kuusamon seudun kansallispuistoista.' },
+    { title: 'Autoton kylä rinteiden juurella', body: 'Autot jäävät 320 paikan maanalaiseen pysäköintihalliin. Skibussi, lentokenttäbussi ja Karhunkierroksen bussi pysähtyvät kylän eteläreunan kääntöpaikalla, ja Village-2-Valley-gondoli kulkee kylästä Ruka Valleyyn.' },
+    { title: 'Karhunkierros, 81 km', body: 'Suomen suosituimman vaellusreitin lähtö- ja päätepiste on Itä-Rukan Saaruassa, jossa pysäköinti on maksutonta. Reitti kulkee Oulangan kansallispuiston läpi, ja sillä vaelletaan toukokuun lopusta lokakuuhun; talvella reitti ei ole turvallinen.' },
+    { title: 'Oulangan kansallispuisto', body: 'Perustettu vuonna 1956, pinta-ala 286 km², Rukalta 30 km. Vuonna 2024 puistossa käytiin 187 400 kertaa, enemmän kuin missään muussa Kuusamon seudun kansallispuistossa.' },
     { title: 'Riisitunturi ja tykkylumi', body: 'Riisitunturin kansallispuistossa, 30 km Rukalta, kuusiin alkaa kertyä tykkylunta viimeistään lokakuussa. Tunturin laella on autiotupa; puistoon ei kulje julkista liikennettä.' },
-    { title: 'Missä revontulia katsotaan', body: 'Rukan omat vinkit ovat autolla saavutettava Juhannuskallio sekä Valtavaaran ja Konttaisen alue. Elo–marraskuussa Kuusamon järvien ja lampien rannoilla revontulet voi nähdä kahteen kertaan: taivaalla ja vedessä.' },
-    { title: 'Kesä: pyöräpuisto ja yötön yö', body: 'Ruka Bike Parkia palvelee neljä hissiä, ja alueella on 300 km retkeilyreittejä ja 180 km maastopyöräreittejä. Kuusamossa yötön yö kestää kesäkuun puolivälistä kuun loppuun.' },
+    { title: 'Revontulten katselupaikat', body: 'Ruka suosittelee Juhannuskalliota, jonne pääsee autolla, sekä Valtavaaran ja Konttaisen aluetta. Elo–marraskuussa revontulet voi nähdä Kuusamon järvien ja lampien rannoilla kahteen kertaan: taivaalla ja vedenpinnassa.' },
+    { title: 'Kesä: pyöräpuisto ja yötön yö', body: 'Ruka Bike Parkiin pääsee neljällä hissillä, ja alueella on 300 km retkeilyreittejä ja 180 km maastopyöräreittejä. Kuusamossa yötön yö kestää kesäkuun puolivälistä kuun loppuun.' },
   ],
   whenToGo: `Hiihtokausi kestää 2.10.2026–2.5.2027. Iltalaskua on perjantaisin klo 19–23 joulukuusta huhtikuun puoliväliin.
-Revontulet tarvitsevat pimeät yöt, eli syksystä alkukevääseen; elo–marraskuussa järvien rannoilla ne voivat heijastua sulasta vedestä.
-Karhunkierrosta kuljetaan toukokuun lopusta lokakuuhun; heinä- ja syyskuu (ruska) ovat vilkkaimmat kuukaudet.`,
-  howToGet: `Lennä Kuusamoon (KAO): Finnair lentää Helsingistä ympäri vuoden noin tunnissa, ja talvella 2026–27 suoria lentoja on 9 kahdeksasta Euroopan kaupungista. Lentoasemalta Rukalle on 30 minuutin ajomatka.
-Lentokenttäbussi odottaa jokaista aikataulun mukaista lentoa. Varaa paikka etukäteen, viimeistään vuorokautta ennen; ilman varausta pääset kyytiin vain, jos tilaa on.
-Junalla: yöjuna Helsingistä Kemijärvelle ja jatkoyhteys bussilla Rukalle. Autolla Helsingistä on vähän yli 800 km valtatietä 5.`,
+Revontulia voi nähdä, kun yöt ovat pimeitä, eli syksystä alkukevääseen; elo–marraskuussa ne voivat heijastua järvien sulasta vedestä.
+Karhunkierroksella vaelletaan toukokuun lopusta lokakuuhun; vilkkainta on heinäkuussa ja ruska-aikaan syyskuussa.`,
+  howToGet: `Lennä Kuusamoon (KAO): Finnair lentää Helsingistä ympäri vuoden noin tunnissa, ja talvella 2026–27 Kuusamoon on lisäksi 9 suoraa lentoa 8 Euroopan kaupungista. Lentoasemalta Rukalle on 30 minuutin ajomatka.
+Lentokenttäbussi odottaa jokaista aikataulun mukaista lentoa. Varaa paikka etukäteen, viimeistään vuorokautta ennen matkaa; ilman varausta pääset kyytiin vain, jos tilaa on.
+Yöjuna kulkee Helsingistä Kemijärvelle, josta on bussiyhteys Rukalle. Autolla Helsingistä on vähän yli 800 km valtatietä 5 pitkin.`,
   stayTypes: [
     'Huoneistot autottomassa kylässä hissien vieressä; jokaisessa Ski-Inn RukaVillage -huoneistossa on sauna ja kuivauskaappi.',
-    'Hotellit tunturilla, rinteeltä suoraan ovelle -vuoristohotellista huoneisiin, joista näkyy Juhannuskallio.',
+    'Hotellit tunturilla, esimerkiksi vuoristohotelli, josta pääsee suksilla suoraan rinteeseen, ja hotelli, jonka huoneista näkyy Juhannuskallio.',
     'Lomamökit tunturin ympärillä ja Kuusamon järvien rannoilla.',
-    'Rinteiden ulkopuolella: kartano järven rannalla sekä vesipuisto- ja kylpylähotelli Kuusamossa, 22 km päässä.',
+    'Kauempana rinteistä: kartano järven rannalla sekä vesipuisto- ja kylpylähotelli Kuusamon keskustan lähellä, 22 km:n päässä.',
   ],
   siblings: [
-    { name: 'Pyhä–Luosto', href: '/destinations/pyha-luosto', blurb: 'Kaksi tunturikylää Itä-Lapissa, 25 km toisistaan.' },
-    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapin pääkaupunki ja sen päälentoasema.' },
+    { name: 'Pyhä–Luosto', href: '/destinations/pyha-luosto', blurb: 'Kaksi tunturikylää Itä-Lapissa, 25 km:n päässä toisistaan.' },
+    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Lapin pääkaupunki ja maakunnan päälentoasema.' },
     { name: 'Levi', href: '/destinations/levi', blurb: 'Hiihtokylä Länsi-Lapissa, Kittilän lentoaseman lähellä.' },
   ],
   anchorGroups: [
     {
       title: 'Rukan kylä ja rinteet',
       items: [
-        { name: 'Scandic Rukahovi', propertyQuery: 'Scandic Rukahovi', sid: 'destination_ruka_rukahovi', note: 'Vuoristohotelli kylässä: rinteeltä suoraan ovelle, ja talossa on yökerho.' },
+        { name: 'Scandic Rukahovi', propertyQuery: 'Scandic Rukahovi', sid: 'destination_ruka_rukahovi', note: 'Vuoristohotelli kylässä: ovelta pääsee suksilla suoraan rinteeseen, ja talossa on yökerho.' },
         { name: 'Ski-Inn RukaVillage', propertyQuery: 'Ski-Inn RukaVillage', sid: 'destination_ruka_rukavillage', note: 'Huoneistoja keskellä kylää, kaikissa sauna ja kuivauskaappi, osassa poreallas.' },
         { name: 'Ruka Ski Chalets', propertyQuery: 'Ruka Ski Chalets', sid: 'destination_ruka_ski_chalets', note: 'Kävelymatkan päässä hisseistä; isommissa (46–81,5 m²) on oma sauna.' },
-        { name: 'Hotel Royal Ruka', propertyQuery: 'Hotel Royal Ruka', sid: 'destination_ruka_royal', note: 'Osasta huoneista näkyy Juhannuskallio; ravintolassa Kitkajärven kalaa ja poroa.' },
+        { name: 'Hotel Royal Ruka', propertyQuery: 'Hotel Royal Ruka', sid: 'destination_ruka_royal', note: 'Osasta huoneista näkyy Juhannuskallio; ravintolassa tarjoillaan Kitkajärven kalaa ja poroa.' },
         { name: 'Ski-Inn RukaValley', propertyQuery: 'Ski-Inn RukaValley', sid: 'destination_ruka_rukavalley', note: 'Hotellihuoneita ja huoneistoja Ruka Valleyssa, tunturin Saaruan puolella.' },
       ],
     },
@@ -134,7 +134,7 @@ Junalla: yöjuna Helsingistä Kemijärvelle ja jatkoyhteys bussilla Rukalle. Aut
       title: 'Kuusamon seutu',
       items: [
         { name: 'House of Northern Senses', propertyQuery: 'House of Northern Senses', sid: 'destination_ruka_northern_senses', note: 'Kunnostettu kartano järven rannalla: kahdeksan huonetta ja sviittiä enintään 22 vieraalle, savusauna ja rantasauna.' },
-        { name: 'Holiday Club Kuusamon Tropiikki', propertyQuery: 'Holiday Club Kuusamon Tropiikki', sid: 'destination_ruka_tropiikki', note: 'Kuusamossa, vesipuisto ja kylpylä; rinteille 22 km ja lentoasemalle 6,5 km.' },
+        { name: 'Holiday Club Kuusamon Tropiikki', propertyQuery: 'Holiday Club Kuusamon Tropiikki', sid: 'destination_ruka_tropiikki', note: 'Kuusamon keskustan lähellä: vesipuisto ja kylpylä. Rinteille 22 km ja lentoasemalle 6,5 km.' },
       ],
     },
   ],
@@ -144,7 +144,7 @@ Junalla: yöjuna Helsingistä Kemijärvelle ja jatkoyhteys bussilla Rukalle. Aut
   transport: [
     { mode: 'plane', label: 'Kuusamon lentoasemalta (KAO)', detail: 'Finnair Helsingistä ympäri vuoden, noin 1 h; talvella 2026–27 lisäksi 9 suoraa lentoa 8 Euroopan kaupungista. Autolla Rukalle 30 min.' },
     { mode: 'bus', label: 'Lentokenttäbussi Rukan kylään', detail: 'Odottaa jokaista aikataulun mukaista lentoa. Varaa paikka etukäteen, viimeistään 24 h ennen.' },
-    { mode: 'train', label: 'Yöjuna Kemijärvelle', detail: 'Päivittäin Helsingistä, ja Rukan bussi odottaa myöhässä olevaa junaa enintään 60 min.' },
+    { mode: 'train', label: 'Yöjuna Kemijärvelle', detail: 'Päivittäin Helsingistä. Rukalle jatkava bussi odottaa myöhässä olevaa junaa enintään 60 min.' },
     { mode: 'car', label: 'Autolla Helsingistä', detail: 'Vähän yli 800 km valtatietä 5. Kylässä auto jää maanalaiseen pysäköintihalliin.' },
   ],
   carRental: {
@@ -154,7 +154,7 @@ Junalla: yöjuna Helsingistä Kemijärvelle ja jatkoyhteys bussilla Rukalle. Aut
     blurb: 'Rukalle 30 min · Rukan ja Oulangan lentoasema',
   },
   seoTitle: 'Rukan majoitus: hotellit, huoneistot ja mökit',
-  seoDescription: 'Rukan majoitus rinteiden vierestä ja Kuusamon seudulta: huoneistot autottomassa kylässä, rinnehotelli, järvenrannan kartano, mökit ja matka perille.',
+  seoDescription: 'Rukan majoitus rinteiden vierestä ja Kuusamon seudulta: huoneistot autottomassa kylässä, rinnehotelli, järvenrantakartano ja mökit sekä kulkuyhteydet perille.',
 }
 
 const de: DestinationBody = {

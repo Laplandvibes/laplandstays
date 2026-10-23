@@ -37,7 +37,7 @@ The mix is unusual: a working northern city with restaurants, the Arktikum scien
     { label: 'Santa Village', value: 'Open year-round' },
   ],
   highlights: [
-    { title: 'Santa Claus Village on the Arctic Circle', body: 'The original, a white line marks the Arctic Circle across the square, and Santa keeps office hours every day of the year.' },
+    { title: 'Santa Claus Village on the Arctic Circle', body: 'This is the original. A white line marks the Arctic Circle across the square, and Santa keeps office hours every day of the year.' },
     { title: 'Arktikum museum', body: "One of Finland's finest museums of Arctic science, Sámi culture and Lapland history, a 172-metre glass tube on the bank of the Ounasjoki, pointing north." },
     { title: 'Ranua Wildlife Park', body: "An 80 km drive south: one of the world's northernmost zoos, with 50 Arctic and boreal species including Finland's only polar bears, plus wolverines and lynx." },
     { title: 'Ounasvaara fell inside the city', body: 'A ski hill, downhill bike park and aurora viewpoint, 10 minutes from the centre by car, no national-park drive required.' },
@@ -45,7 +45,7 @@ The mix is unusual: a working northern city with restaurants, the Arktikum scien
     { title: 'River-side cabin belts', body: 'Properties along the Kemijoki and on Ounasvaara give aurora-ready dark skies within 15 minutes of restaurants and shopping.' },
   ],
   whenToGo: `Mid-September – late March is aurora season; November – February is deepest winter.
-Around December 21 the sun rises for barely two hours: Rovaniemi sits just south of true polar night, in long blue twilight.
+Around 21 December the sun is up for barely two hours: Rovaniemi sits just south of true polar night, in long blue twilight.
 June – July gives midnight sun and rafting trips on the rivers around the city.`,
   howToGet: `Fly into Rovaniemi (RVN), the best-connected airport in Lapland.
 Finnish Railways runs overnight trains from Helsinki with car-carrier service direct to Rovaniemi station.
@@ -57,11 +57,11 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
     'Ounasvaara fell-side chalets, ski-in access in winter, bike trails in summer, aurora-ready horizon five minutes from downtown.',
   ],
   siblings: [
-    { name: 'Levi', href: '/destinations/levi', blurb: 'The biggest ski village in Finland, 2 hr north.' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Quieter fell destination, 2 hr northwest.' },
-    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Wilderness gateway, 3 hr further north.' },
-    { name: 'Glass igloos compared', href: '/glass-igloos', blurb: '11 glass-igloo resorts around Rovaniemi and further north, by area and airport.' },
-    { name: 'Ice and snow hotels', href: '/ice-hotels', blurb: 'Arctic SnowHotel near Rovaniemi and two more places to sleep in snow this winter.' },
+    { name: 'Levi', href: '/destinations/levi', blurb: 'Finland’s biggest ski village, 2 hours north.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'A quieter fell resort, 2 hours north-west.' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Gateway to the wilderness, 3 hours north.' },
+    { name: 'Glass igloos compared', href: '/glass-igloos', blurb: '11 glass igloo resorts around Rovaniemi and further north, sorted by area and airport.' },
+    { name: 'Ice and snow hotels', href: '/ice-hotels', blurb: 'Arctic SnowHotel near Rovaniemi and two other places to sleep in the snow this winter.' },
   ],
   anchorIntro: hotelsEn.intro,
   anchorGroups: hotelGroups(hotelsEn),
@@ -83,7 +83,7 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
   dayPlan: [
     { day: '01', title: 'Arrive · Santa Claus Village', body: 'RVN 10 km from city. Drop bags, head straight to Santa Claus Village (open year-round). Cross the Arctic Circle line, post a card. Dinner in town at Nili.' },
     { day: '02', title: 'Husky + ice-floating', body: 'Apukka or a nearby farm for a husky safari (book ahead). Afternoon dry-suit ice-floating on Ounasjoki, surprisingly warm, completely silent. Aurora window from Ounasvaara fell.' },
-    { day: '03', title: 'Arktikum + city culture', body: 'Half-day at Arktikum (Sámi + Lapland history museum, beautiful glass corridor). Lunch in city. Afternoon free, Lainio Snow Village day-trip if seasonal.' },
+    { day: '03', title: 'Arktikum + city culture', body: 'Half-day at Arktikum (Sámi + Lapland history museum, beautiful glass corridor). Lunch in city. Afternoon free, or a day trip to SnowVillage in Lainio in season.' },
     { day: '04', title: 'Slow morning · onward', body: 'Last sauna, breakfast in town. Either fly home from RVN or rent a car and drive 2 hr north to Levi for a second leg.' },
   ],
   seoTitle: 'Rovaniemi Hotels: 20 Places to Stay, Area by Area',
@@ -91,10 +91,10 @@ Onward car hire is easy; the city is the logistical base for inland Lapland road
 }
 
 const fi: DestinationBody = {
-  tagline: 'Suomen Lapin pääkaupunki, Joulupukin pajakylä, kaksi jokea ja suora pääsy revontulille täysipalvelukaupungista.',
-  description: `Rovaniemi on Suomen Lapin hallinnollinen pääkaupunki ja pääasiallinen kansainvälinen porttikaupunki. Kaupunki sijaitsee napapiirillä, Kemijoen ja Ounasjoen yhtymäkohdassa, ja siellä on noin 65 000 asukasta, eurooppalaisittain pieni, mutta selvästi alueen suurin asutus.
+  tagline: 'Suomen Lapin pääkaupunki, Joulupukin Pajakylä, kaksi jokea ja suora pääsy revontulille täysipalvelukaupungista.',
+  description: `Rovaniemi on Suomen Lapin hallinnollinen pääkaupunki ja pääasiallinen kansainvälinen porttikaupunki. Kaupunki sijaitsee napapiirillä, Kemijoen ja Ounasjoen yhtymäkohdassa, ja asukkaita on noin 65 000: eurooppalaisittain pieni kaupunki, mutta selvästi alueen suurin.
 
-Yhdistelmä on epätavallinen: toimiva pohjoinen kaupunki ravintoloineen, Arktikum-tiedemuseo ja Aallon suunnittelema kuntahallinnon arkkitehtuuri, jonka rinnalla alkuperäinen Joulupukin pajakylä napapiirin linjalla ja mökkialueet lyhyen ajomatkan päässä. Matkailijoille jotka haluavat revontulia ja erämaata mutta myös lentää kotiin suuren lentokentän kautta, Rovaniemi on luonnollinen tukikohta.`,
+Yhdistelmä on epätavallinen: toimiva pohjoinen kaupunki ravintoloineen, Arktikum-tiedemuseo ja Aallon suunnittelema kuntahallinnon arkkitehtuuri, ja niiden rinnalla alkuperäinen Joulupukin Pajakylä napapiirin linjalla ja mökkialueet lyhyen ajomatkan päässä. Matkailijoille, jotka haluavat revontulia ja erämaata mutta myös lentää kotiin suuren lentokentän kautta, Rovaniemi on luonnollinen tukikohta.`,
   facts: [
     { label: 'Lähin lentokenttä', value: 'RVN 10 min' },
     { label: 'Väkiluku', value: '~65 000' },
@@ -102,7 +102,7 @@ Yhdistelmä on epätavallinen: toimiva pohjoinen kaupunki ravintoloineen, Arktik
     { label: 'Pajakylä', value: 'Auki ympäri vuoden' },
   ],
   highlights: [
-    { title: 'Joulupukin pajakylä napapiirillä', body: 'Alkuperäinen: valkoinen viiva merkitsee napapiirin kulun aukion poikki, ja Joulupukki pitää vastaanottoa joka päivä vuodessa.' },
+    { title: 'Joulupukin Pajakylä napapiirillä', body: 'Alkuperäinen: valkoinen viiva merkitsee napapiirin kulun aukion poikki, ja Joulupukki pitää vastaanottoa vuoden jokaisena päivänä.' },
     { title: 'Arktikum-museo', body: 'Suomen hienoin arktisen tieteen, saamelaiskulttuurin ja Lapin historian museo, 172 metrin lasiputki Ounasjoen rannalla, osoittamassa pohjoiseen.' },
     { title: 'Ranuan eläinpuisto', body: '80 km ajomatka etelään: yksi maailman pohjoisimmista eläinpuistoista, 50 arktista ja boreaalista lajia mukaan lukien Suomen ainoat jääkarhut sekä ahmoja ja ilveksiä.' },
     { title: 'Ounasvaaran tunturi kaupungin sisällä', body: 'Hiihtomäki, alamäkipyöräpuisto ja revontulien näkölava, 10 minuuttia keskustasta autolla, ei kansallispuistoajoa tarvita.' },
@@ -112,26 +112,26 @@ Yhdistelmä on epätavallinen: toimiva pohjoinen kaupunki ravintoloineen, Arktik
   whenToGo: `Syyskuun puoliväli–maaliskuun loppu on revontulisesonki; marraskuu–helmikuu on syvintä talvea.
 Rovaniemellä ei ole varsinaista kaamosta: aurinko nousee jouluaikaankin pariksi tunniksi, ja keskipäivä on pitkää sinistä hämärää.
 Kesä–heinäkuu antaa keskiyön auringon ja koskenlaskua Oikaraisenkoskella.`,
-  howToGet: `Lennä Rovaniemelle (RVN), Lapin parhaiten verkostoitunut lentokenttä.
+  howToGet: `Lennä Rovaniemelle (RVN): sen lentokentältä on Lapin parhaat yhteydet.
 VR liikennöi yöjunia Helsingistä autonkuljetuspalvelulla suoraan Rovaniemen asemalle.
-Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logistinen tukikohta.`,
+Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin automatkan logistinen tukikohta.`,
   stayTypes: [
     'Joenvarsihirsimökit Kemijoen ja Ounasjoen varrella, 6–10 vierasta, sauna, takka, avoimet jokimaisemat.',
-    'Lasi-aurora-villat Joulupukin pajakylän ympärillä, rakennettu napapiirikokemukseen taivaannäköalalla.',
+    'Lasi-aurora-villat Joulupukin Pajakylän ympärillä, rakennettu napapiirikokemukseen taivaannäköalalla.',
     'Design-huoneistot kaupungin keskustassa, kävelyetäisyydellä ravintoloista, tukikohta päiväretkisafariaikatauluille.',
     'Ounasvaaran tunturin rinneasunnot, rinneasuminen talvella, polut kesällä, revontulihorisontti viiden minuutin päässä keskustasta.',
   ],
   siblings: [
-    { name: 'Levi', href: '/destinations/levi', blurb: 'Suomen suurin hiihtokylä, 2 tunnin päässä pohjoiseen.' },
-    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Hiljaisempi tunturikohde, 2 tunnin päässä luoteeseen.' },
-    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Erämaaportti, 3 tunnin päässä pohjoisempana.' },
+    { name: 'Levi', href: '/destinations/levi', blurb: 'Suomen suurin hiihtokylä, 2 tunnin ajomatkan päässä pohjoisessa.' },
+    { name: 'Ylläs', href: '/destinations/yllas', blurb: 'Rauhallisempi tunturikohde, 2 tunnin ajomatkan päässä luoteessa.' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Portti erämaahan, 3 tunnin ajomatkan päässä pohjoisessa.' },
     { name: 'Iglumajoitus Lapissa', href: '/iglumajoitus', blurb: 'Lasi-iglu, lumi-iglu vai igluhotelli: miten ne eroavat ja missä iglut ovat.' },
     { name: 'Jää- ja lumihotellit', href: '/ice-hotels', blurb: 'Arctic SnowHotel Rovaniemen lähellä ja kaksi muuta paikkaa, joissa voi nukkua lumessa tänä talvena.' },
   ],
   anchorIntro: hotelsFi.intro,
   anchorGroups: hotelGroups(hotelsFi),
   anchorProperties: [
-    { name: 'Kaikki Rovaniemen majoitukset', href: HOTEL_SEARCH_FOR('fi').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Selaa kaikki Rovaniemen hotellit ja mökit Sembossa.' },
+    { name: 'Kaikki Rovaniemen majoitukset', href: HOTEL_SEARCH_FOR('fi').rovaniemi, sid: 'destination_rovaniemi_all_search', note: 'Selaa kaikkia Rovaniemen hotelleja ja mökkejä Sembossa.' },
   ],
   transport: [
     { mode: 'plane', label: 'Rovaniemen lentokentältä (RVN)', detail: 'Ympärivuotiset lennot HEL:stä sekä talvireitit LHR · CDG · BCN · MAD. 10 km / 15 min kaupungin keskustaan.' },
@@ -146,12 +146,12 @@ Jatkokulku vuokra-autolla on helppo; kaupunki on sisämaa-Lapin road tripin logi
     blurb: '10 km kaupunkiin · Lapin helpoin nouto · saatavuus ympäri vuoden',
   },
   dayPlan: [
-    { day: '01', title: 'Saavu · Joulupukin pajakylä', body: 'RVN 10 km kaupungista. Jätä laukut, suuntaa suoraan Pajakylään (auki ympäri vuoden). Ylitä napapiirin viiva, lähetä kortti. Illallinen Niliissä keskustassa.' },
-    { day: '02', title: 'Husky + avantokellunta', body: 'Apukka tai lähitilalla husky-safari (varaa etukäteen). Iltapäivällä avantokellunta kuivapuvussa Ounasjoella, yllättävän lämmin, täysin hiljainen. Revontuli-ikkuna Ounasvaaralta.' },
+    { day: '01', title: 'Saavu · Joulupukin Pajakylä', body: 'RVN 10 km kaupungista. Jätä laukut, suuntaa suoraan Pajakylään (auki ympäri vuoden). Ylitä napapiirin viiva, lähetä kortti. Illallinen Niliissä keskustassa.' },
+    { day: '02', title: 'Husky + avantokellunta', body: 'Apukassa tai lähitilalla husky-safari (varaa etukäteen). Iltapäivällä avantokellunta kuivapuvussa Ounasjoella, yllättävän lämmin, täysin hiljainen. Revontuli-ikkuna Ounasvaaralta.' },
     { day: '03', title: 'Arktikum + kaupunkikulttuuri', body: 'Puolipäivä Arktikumissa (saamelais- + Lapin-historian museo, kaunis lasikäytävä). Lounas kaupungissa. Iltapäivä vapaa, Lainion lumikylän päiväretki sesongissa.' },
     { day: '04', title: 'Rauhallinen aamu · eteenpäin', body: 'Viimeinen sauna, aamiainen kaupungissa. Lennä kotiin RVN:stä tai vuokraa auto ja aja 2 h pohjoiseen Leville toiselle etapille.' },
   ],
-  seoTitle: 'Rovaniemen hotellit: 20 majoitusta alueittain',
+  seoTitle: 'Rovaniemen hotellit: 20 majoituspaikkaa alueittain',
   seoDescription: 'Rovaniemen hotellit alueittain: keskusta, Ounasvaara, Joulupukin Pajakylä ja lomakohteet kaupungin ulkopuolella. Mukana myös lähiseudun mökit ja lasi-iglut.',
 }
 

@@ -46,7 +46,7 @@ const nl: IceHotelsCopy = {
       { to: '/glass-igloos', label: 'pagina over glazen iglo’s' },
       ' worden ze vergeleken met tien andere resorts.',
     ],
-    ctaLabel: 'Beschikbaarheid bekijken',
+    ctaLabel: 'Prijzen en beschikbaarheid',
     ctaNote: 'Opent de eigen pagina van het resort bij onze boekingspartner Trip.com, met prijzen voor uw reisperiode.',
   },
   snowVillage: {

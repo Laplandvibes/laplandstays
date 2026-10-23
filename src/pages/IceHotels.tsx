@@ -175,27 +175,28 @@ export default function IceHotels() {
 
       {/* Where you can sleep in snow */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.staysEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-6">{c.staysH2}</h2>
+        <div className="max-w-3xl mx-auto">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.staysEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.staysH2}</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-10">{c.staysIntro}</p>
           <StayBlock s={c.arctic}>
             <p className="text-charcoal/75 text-[15px] leading-relaxed mt-4">
               <RichText parts={c.arctic.glassNote} to={to} />
             </p>
-            <div className="mt-5 flex flex-col sm:flex-row sm:items-center gap-3">
+            {/* Nappi ja selite allekkain tabletilla: vierekkäin nappi kutistui ja rivittyi kahdelle riville 768–1024 px (Vesa 23.10.2026). */}
+            <div className="mt-5 flex flex-col lg:flex-row lg:items-center gap-3">
               <a
                 href={href}
                 target="_blank"
                 rel="sponsored nofollow noopener"
                 onClick={() => trackAffiliateClick('lodging', sid, href)}
                 aria-label={bookAria(lang, c.arctic.ctaLabel, c.arctic.name)}
-                className="lv-tap inline-flex w-fit items-center gap-1.5 px-5 py-2.5 rounded-full bg-pink text-white font-semibold text-sm hover:bg-pink/90 transition-colors"
+                className="lv-tap inline-flex w-fit shrink-0 whitespace-nowrap items-center gap-1.5 px-5 py-2.5 rounded-full bg-pink text-white font-semibold text-sm hover:bg-pink/90 transition-colors"
               >
                 {c.arctic.ctaLabel}
                 <ExternalLink className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
               </a>
-              <p className="text-charcoal/75 text-base leading-snug">{c.arctic.ctaNote}</p>
+              <p className="text-charcoal/75 text-[15px] leading-snug lg:max-w-md">{c.arctic.ctaNote}</p>
             </div>
           </StayBlock>
           <StayBlock s={c.snowVillage} />
@@ -206,8 +207,8 @@ export default function IceHotels() {
       {/* What the night is like */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/[0.04]">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.nightEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-10">{c.nightH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.nightEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-10 max-lg:text-center text-balance">{c.nightH2}</h2>
           <ul className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {c.night.map((p, i) => {
               const Icon = NIGHT_ICONS[i] ?? Thermometer
@@ -228,8 +229,8 @@ export default function IceHotels() {
       {/* Day visits */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.visitsEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-6">{c.visitsH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.visitsEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.visitsH2}</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">{c.visitsIntro}</p>
           {/* Phones and tablets: rows; desktop: table (a wide table widens the mobile layout, 18.10.2026). */}
           <ul className="lg:hidden space-y-3">
@@ -274,18 +275,18 @@ export default function IceHotels() {
 
       {/* The ICEHOTEL is in Sweden */}
       <section className="py-14 sm:py-16 px-4 sm:px-6 bg-night text-white">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.swedenEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl tracking-wide mb-5">{c.swedenH2}</h2>
+        <div className="max-w-3xl mx-auto">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.swedenEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl tracking-wide mb-5 max-lg:text-center text-balance">{c.swedenH2}</h2>
           {c.swedenBody.map((p) => <p key={p} className="text-white/80 text-[15px] sm:text-base leading-relaxed mb-3 last:mb-0">{p}</p>)}
         </div>
       </section>
 
       {/* Warmer options */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
-        <div className="max-w-4xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.nextEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-5">{c.nextH2}</h2>
+        <div className="max-w-3xl mx-auto">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.nextEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-5 max-lg:text-center text-balance">{c.nextH2}</h2>
           {c.next.map((parts, i) => (
             <p key={i} className="text-charcoal/80 text-[15px] sm:text-base leading-relaxed mb-3">
               <RichText parts={parts} to={to} />

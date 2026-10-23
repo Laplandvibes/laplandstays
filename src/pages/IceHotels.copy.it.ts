@@ -46,7 +46,7 @@ const it: IceHotelsCopy = {
       { to: '/glass-igloos', label: "pagina sugli igloo di vetro" },
       ".",
     ],
-    ctaLabel: "Verifica disponibilità",
+    ctaLabel: "Vedi prezzi e disponibilità",
     ctaNote: "Apre la pagina del resort presso il nostro partner di prenotazione Trip.com, con i prezzi per le Sue date di viaggio.",
   },
   snowVillage: {

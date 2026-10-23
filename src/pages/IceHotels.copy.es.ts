@@ -51,7 +51,7 @@ const es: IceHotelsCopy = {
       { to: '/glass-igloos', label: 'página de iglús de cristal' },
       '.',
     ],
-    ctaLabel: 'Ver disponibilidad',
+    ctaLabel: 'Ver precios y disponibilidad',
     ctaNote: 'Abre la página del complejo en nuestro socio de reservas Trip.com, con precios para sus fechas de viaje.',
   },
   snowVillage: {

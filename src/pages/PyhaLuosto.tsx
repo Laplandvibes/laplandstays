@@ -9,7 +9,7 @@ import { HOTEL_SEARCH_FOR, CARS_FOR } from '../lib/affiliate'
  */
 const en: DestinationBody = {
   tagline: 'Two fell villages 25 km apart in Eastern Lapland, at either end of Pyhä-Luosto National Park, each with its own ski slopes.',
-  description: `Pyhä and Luosto are two small resort villages on road 962, 25 km apart: Pyhä in Pelkosenniemi and Luosto in Sodankylä. Between them runs a 35-kilometre chain of fells, the remnant of one of the world's oldest mountain ranges and Finland's southernmost area of great fells. It has been protected as Pyhä-Luosto National Park since 2005, built on Pyhätunturi National Park, founded in 1938.
+  description: `Pyhä and Luosto are two small resort villages on road 962, 25 km apart: Pyhä in Pelkosenniemi and Luosto in Sodankylä. Between them runs a 35-kilometre chain of fells, Finland's southernmost area of great fells and the remnant of one of the world's oldest mountain ranges. It has been protected since 2005 as Pyhä-Luosto National Park, which grew out of Pyhätunturi National Park, founded in 1938.
 
 Neither village is a large resort. Pyhä has 15 slopes and Luosto 10, each village has a handful of hotels, and the rest is apartments, log cabins and rooms with glass roofs. Rovaniemi is about 115 km from Luosto, and in winter buses run from the airport to both villages four times a day.`,
   facts: [
@@ -19,19 +19,19 @@ Neither village is a large resort. Pyhä has 15 slopes and Luosto 10, each villa
     { label: 'Slopes', value: 'Pyhä 15 · Luosto 10' },
   ],
   highlights: [
-    { title: 'Isokuru gorge and its waterfall', body: 'Isokuru, the largest gorge in the park, is 220 m deep. A 17-metre waterfall drops into the clear Pyhänkasteenlampi pond, 12 m deep; swimming in the pond and approaching the falls are prohibited.' },
-    { title: 'Lampivaara Amethyst Mine', body: 'One of the few gem mines in the world open to visitors, about 5 km from Luosto, and every visitor digs an amethyst of their own. Winter tours run from 1 November 2026 to 18 April 2027; from the Ukko-Luosto car park a tour costs €78 per adult, with the mine’s own transport, as private cars are not allowed.' },
+    { title: 'Isokuru gorge and its waterfall', body: 'Isokuru, the largest gorge in the park, is 220 m deep. A 17-metre waterfall drops into Pyhänkasteenlampi, a clear pond 12 m deep. Swimming in the pond and going near the falls are both prohibited.' },
+    { title: 'Lampivaara Amethyst Mine', body: 'About 5 km from Luosto, this is one of the few gem mines in the world open to visitors, and everyone digs an amethyst of their own. Winter tours run from 1 November 2026 to 18 April 2027. A tour from the Ukko-Luosto car park costs €78 per adult, including the mine’s own transport: private cars are not allowed.' },
     { title: 'Two ski areas on one chain of fells', body: 'Pyhä has 15 slopes, 9 lifts and a 280 m vertical drop; Luosto has 10 slopes and 4 lifts. Pyhä aims to open on 20 November 2026 and Luosto on 28 November.' },
     { title: 'Aurora alert in Luosto', body: 'Luosto has its own aurora sensor with a free real-time alert, and a camera on top of Luosto fell streams the sky around the clock.' },
     { title: 'Old forest on Ukko-Luosto', body: 'On the south-west side of Ukko-Luosto and Lampivaara the forest has never been felled, and the trees are up to 400 years old.' },
-    { title: 'The highest tops', body: 'Noitatunturi rises to 540 m and Ukko-Luosto to 514 m, the highest tops of the chain.' },
+    { title: 'The highest summits', body: 'Noitatunturi (540 m) and Ukko-Luosto (514 m) are the highest summits in the chain.' },
   ],
   whenToGo: `Pyhä aims to open its slopes on 20 November 2026 and Luosto on 28 November; Pyhä's season runs to early May.
-Statistically the northern lights are most likely from mid-August to mid-April; Luosto's aurora alert and fell-top camera tell you when to look up.
+Statistically, the northern lights are most likely from mid-August to mid-April; Luosto's aurora alert and fell-top camera tell you when to look up.
 The Amethyst Mine's winter tours run from 1 November 2026 to 18 April 2027, daily from 1 December to 28 March (closed on 24 December).`,
   howToGet: `Fly to Rovaniemi (RVN). Buses run from the airport to Luosto and on to Pyhä four times a day in winter and twice a day in summer.
 By train, take the night train from Helsinki to Kemijärvi; buses run from Kemijärvi station to Pyhä, about 47 km away.
-By car, Rovaniemi to Luosto is about 115 km (road 4 north, then road 962 at Torvinen) and Rovaniemi to Pyhä via Kemijärvi about 130 km. A bus also runs between the two villages.`,
+By car, Rovaniemi to Luosto is about 115 km (north on road 4, then road 962 from Torvinen), and Rovaniemi to Pyhä via Kemijärvi about 130 km. A bus also runs between the two villages.`,
   stayTypes: [
     'Rooms and igloos with glass roofs in both villages, for watching the sky from bed.',
     'Fell hotels in the village centres, close to the slopes and the national park trails.',
@@ -41,15 +41,15 @@ By car, Rovaniemi to Luosto is about 115 km (road 4 north, then road 962 at Torv
   siblings: [
     { name: 'Ruka', href: '/destinations/ruka', blurb: 'A car-free ski village in Kuusamo, just south of Lapland.' },
     { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'The airport for Pyhä and Luosto, about 115 km away.' },
-    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Fell village further north, by Urho Kekkonen National Park.' },
+    { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'A fell village further north, next to Urho Kekkonen National Park.' },
   ],
   anchorGroups: [
     {
       title: 'Pyhä',
       items: [
         { name: 'Hotel Pyhätunturi', propertyQuery: 'Hotel Pyhätunturi', sid: 'destination_pyha_hotel', note: 'In the heart of Pyhä: 46 double rooms, five superior rooms and one panorama room; breakfast, sauna and gym are included.' },
-        { name: 'Pyhä Igloos', propertyQuery: 'Pyhä Igloos', sid: 'destination_pyha_igloos', note: 'Rooms with an igloo-like glass ceiling in the centre of the ski resort, each with its own entrance from outside.' },
-        { name: 'Northern Lights Village Pyhä', propertyQuery: 'Northern Lights Village Pyhä', sid: 'destination_pyha_nlv', note: 'Some cabins have a glass roof right above the bed; sauna, hot tub, and transfers from Rovaniemi airport.' },
+        { name: 'Pyhä Igloos', propertyQuery: 'Pyhä Igloos', sid: 'destination_pyha_igloos', note: 'Rooms with an igloo-like glass ceiling in the centre of the ski resort, each with its own outside entrance.' },
+        { name: 'Northern Lights Village Pyhä', propertyQuery: 'Northern Lights Village Pyhä', sid: 'destination_pyha_nlv', note: 'Some cabins have a glass roof right above the bed; sauna, hot tub and transfers from Rovaniemi Airport.' },
         { name: 'Sunday Morning Resort', propertyQuery: 'Sunday Morning Resort', sid: 'destination_pyha_sunday_morning', note: 'On the shore of Lake Pyhäjärvi next to the national park; its Aamu Suites sleep one to four.' },
         { name: 'Kurula’s Resort', propertyQuery: 'Kurula’s Resort', sid: 'destination_pyha_kurulas', note: '17 suites in the main lodge beside Lake Pyhäjärvi, heated with geothermal energy from the lake.' },
         { name: 'Ski-Inn Kultakero', propertyQuery: 'Ski-Inn Kultakero', sid: 'destination_pyha_kultakero', note: 'Hotel rooms and apartments in seven sizes, near the slopes and the national park.' },
@@ -59,7 +59,7 @@ By car, Rovaniemi to Luosto is about 115 km (road 4 north, then road 962 at Torv
       title: 'Luosto',
       items: [
         { name: 'Lapland Hotels Luostotunturi', propertyQuery: 'Lapland Hotels Luostotunturi', sid: 'destination_luosto_luostotunturi', note: 'In Luosto’s log village next to the national park: hotel rooms, apartments and log cabins, and the Amethyst Spa.' },
-        { name: 'Santa’s Hotel Aurora & Igloos', propertyQuery: 'Santa’s Hotel Aurora & Igloos', sid: 'destination_luosto_aurora', note: 'Every hotel room has a private sauna, and ten glass igloos joined to the hotel each have an aurora alert.' },
+        { name: 'Santa’s Hotel Aurora & Igloos', propertyQuery: 'Santa’s Hotel Aurora & Igloos', sid: 'destination_luosto_aurora', note: 'Every hotel room has a private sauna, and each of the ten glass igloos connected to the hotel has an aurora alert.' },
       ],
     },
   ],
@@ -84,10 +84,10 @@ By car, Rovaniemi to Luosto is about 115 km (road 4 north, then road 962 at Torv
 }
 
 const fi: DestinationBody = {
-  tagline: 'Kaksi tunturikylää 25 km:n päässä toisistaan Itä-Lapissa, Pyhä-Luoston kansallispuiston kummassakin päässä, ja kummallakin omat rinteet.',
-  description: `Pyhä ja Luosto ovat kaksi pientä matkailukylää maantien 962 varrella, 25 km toisistaan: Pyhä Pelkosenniemellä ja Luosto Sodankylässä. Niiden välissä on 35 kilometrin tunturiketju, joka on jäänne yhdestä maailman vanhimmista vuorijonoista ja Suomen eteläisin suurtunturialue. Se on ollut suojeltuna Pyhä-Luoston kansallispuistona vuodesta 2005, ja puisto rakentui vuonna 1938 perustetun Pyhätunturin kansallispuiston pohjalle.
+  tagline: 'Kaksi tunturikylää Itä-Lapissa 25 km:n päässä toisistaan, Pyhä-Luoston kansallispuiston eri päissä. Kummassakin on omat rinteet.',
+  description: `Pyhä ja Luosto ovat kaksi pientä matkailukylää maantien 962 varrella, 25 km:n päässä toisistaan: Pyhä Pelkosenniemellä ja Luosto Sodankylässä. Niiden välissä kulkee 35 kilometrin tunturiketju. Se on jäänne yhdestä maailman vanhimmista vuorijonoista ja Suomen eteläisin suurtunturialue. Vuodesta 2005 ketju on ollut suojeltu Pyhä-Luoston kansallispuistona, joka syntyi, kun vuonna 1938 perustettua Pyhätunturin kansallispuistoa laajennettiin.
 
-Kumpikaan kylä ei ole suuri keskus. Pyhällä on 15 rinnettä ja Luostolla 10, kummassakin kylässä on muutama hotelli, ja muu majoitus on huoneistoja, hirsimökkejä ja lasikattoisia huoneita. Rovaniemeltä on Luostolle noin 115 km, ja talvella bussit kulkevat lentoasemalta molempiin kyliin neljästi päivässä.`,
+Kumpikaan kylä ei ole suuri matkailukeskus. Pyhällä on 15 rinnettä ja Luostolla 10, kummassakin kylässä on muutama hotelli, ja muu majoitus on huoneistoja, hirsimökkejä ja lasikattoisia huoneita. Rovaniemeltä Luostolle on noin 115 km, ja talvella bussit kulkevat lentoasemalta molempiin kyliin neljästi päivässä.`,
   facts: [
     { label: 'Kylien välillä', value: '25 km, tie 962' },
     { label: 'Korkein tunturi', value: 'Noitatunturi 540 m' },
@@ -96,46 +96,46 @@ Kumpikaan kylä ei ole suuri keskus. Pyhällä on 15 rinnettä ja Luostolla 10, 
   ],
   highlights: [
     { title: 'Isokuru ja sen putous', body: 'Puiston suurin rotkolaakso Isokuru on 220 metriä syvä. Kirkkaaseen, 12 metriä syvään Pyhänkasteenlampeen laskee 17 metrin putous; lammessa uiminen ja putouksen lähelle meneminen on kielletty.' },
-    { title: 'Lampivaaran ametistikaivos', body: 'Yksi harvoista jalokivikaivoksista maailmassa, joihin pääsee vierailemaan, noin 5 km Luostolta, ja jokainen kaivaa oman ametistinsa. Talvikierrokset ovat 1.11.2026–18.4.2027; Ukko-Luoston pysäköintialueelta kierros maksaa aikuiselta 78 €, ja kaivokselle kuljetaan sen omalla kyydillä, koska yksityisautoilu ei ole sallittua.' },
-    { title: 'Kaksi hiihtokeskusta samalla tunturijonolla', body: 'Pyhällä on 15 rinnettä, 9 hissiä ja 280 metrin korkeusero; Luostolla 10 rinnettä ja 4 hissiä. Pyhän tavoite on avata 20.11.2026 ja Luoston 28.11.2026.' },
-    { title: 'Revontulihälytys Luostolla', body: 'Luostolla on oma revontulisensori ja maksuton reaaliaikainen hälytys, ja Luoston tunturin laella oleva kamera lähettää taivaasta kuvaa ympäri vuorokauden.' },
-    { title: 'Vanha metsä Ukko-Luostolla', body: 'Ukko-Luoston ja Lampivaaran lounaisrinteillä metsää ei ole koskaan hakattu, ja puut ovat jopa 400 vuoden ikäisiä.' },
+    { title: 'Lampivaaran ametistikaivos', body: 'Noin 5 km Luostolta on yksi maailman harvoista jalokivikaivoksista, joissa voi vierailla, ja jokainen kävijä kaivaa itselleen oman ametistin. Talvikierroksia on 1.11.2026–18.4.2027. Ukko-Luoston pysäköintialueelta kierros maksaa aikuiselta 78 €, ja kaivokselle mennään kaivoksen omalla kyydillä, koska yksityisautoilu ei ole sallittua.' },
+    { title: 'Kaksi hiihtokeskusta samassa tunturiketjussa', body: 'Pyhällä on 15 rinnettä, 9 hissiä ja 280 metrin korkeusero; Luostolla 10 rinnettä ja 4 hissiä. Pyhä aikoo avata rinteensä 20.11.2026 ja Luosto 28.11.2026.' },
+    { title: 'Revontulihälytys Luostolla', body: 'Luostolla on oma revontulianturi ja maksuton reaaliaikainen hälytys, ja Luostotunturin laella oleva kamera lähettää taivaasta kuvaa ympäri vuorokauden.' },
+    { title: 'Vanha metsä Ukko-Luostolla', body: 'Ukko-Luoston ja Lampivaaran lounaisrinteillä metsää ei ole koskaan hakattu, ja puut ovat jopa 400-vuotiaita.' },
     { title: 'Korkeimmat huiput', body: 'Noitatunturi kohoaa 540 metriin ja Ukko-Luosto 514 metriin; ne ovat tunturiketjun korkeimmat huiput.' },
   ],
   whenToGo: `Pyhä tavoittelee rinteiden avaamista 20.11.2026 ja Luosto 28.11.2026; Pyhän kausi jatkuu toukokuun alkuun.
-Tilastollisesti revontulia näkee todennäköisimmin elokuun puolivälistä huhtikuun puoliväliin; Luoston revontulihälytys ja tunturikamera kertovat, milloin kannattaa katsoa ylös.
-Ametistikaivoksen talvikierrokset ovat 1.11.2026–18.4.2027, päivittäin 1.12.–28.3. (suljettu 24.12.).`,
+Tilastollisesti revontulia näkee todennäköisimmin elokuun puolivälistä huhtikuun puoliväliin; Luoston revontulihälytys ja tunturikamera kertovat, milloin kannattaa katsoa taivaalle.
+Ametistikaivoksen talvikierroksia on 1.11.2026–18.4.2027, ja 1.12.–28.3. joka päivä (paitsi 24.12.).`,
   howToGet: `Lennä Rovaniemelle (RVN). Lentoasemalta kulkee bussi Luostolle ja edelleen Pyhälle talvella neljästi ja kesällä kahdesti päivässä.
-Junalla: yöjuna Helsingistä Kemijärvelle, josta bussit kulkevat Pyhälle, noin 47 km.
-Autolla Rovaniemeltä Luostolle on noin 115 km (valtatie 4 pohjoiseen ja Torvisesta tie 962) ja Rovaniemeltä Kemijärven kautta Pyhälle noin 130 km. Kylien välillä kulkee myös bussi.`,
+Yöjuna kulkee Helsingistä Kemijärvelle, josta on bussiyhteys Pyhälle (noin 47 km).
+Autolla Rovaniemeltä Luostolle on noin 115 km (valtatietä 4 pohjoiseen ja Torvisesta tietä 962) ja Rovaniemeltä Kemijärven kautta Pyhälle noin 130 km. Kylien välillä kulkee myös bussi.`,
   stayTypes: [
-    'Lasikattoiset huoneet ja iglut kummassakin kylässä, taivaan katseluun sängystä.',
+    'Lasikattoisia huoneita ja igluja kummassakin kylässä: taivasta voi katsella sängystä.',
     'Tunturihotellit kylien keskustoissa, lähellä rinteitä ja kansallispuiston polkuja.',
     'Hirsimökit ja huoneistot Luoston hirsikylässä ja Pyhän rinteiden ympärillä.',
-    'Järvenrannan lomakohteet Pyhäjärven rannalla Pyhätunturin juurella.',
+    'Lomakohteet Pyhäjärven rannalla Pyhätunturin juurella.',
   ],
   siblings: [
     { name: 'Ruka', href: '/destinations/ruka', blurb: 'Autoton hiihtokylä Kuusamossa, aivan Lapin eteläpuolella.' },
-    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Pyhän ja Luoston lentoasema noin 115 km:n päässä.' },
+    { name: 'Rovaniemi', href: '/destinations/rovaniemi', blurb: 'Pyhän ja Luoston lähin lentoasema, noin 115 km:n päässä.' },
     { name: 'Saariselkä', href: '/destinations/saariselka', blurb: 'Tunturikylä pohjoisempana, Urho Kekkosen kansallispuiston vieressä.' },
   ],
   anchorGroups: [
     {
       title: 'Pyhä',
       items: [
-        { name: 'Hotel Pyhätunturi', propertyQuery: 'Hotel Pyhätunturi', sid: 'destination_pyha_hotel', note: 'Pyhän sydämessä: 46 kahden hengen huonetta, viisi superior-huonetta ja yksi panoraamahuone; aamiainen, sauna ja kuntosali sisältyvät.' },
-        { name: 'Pyhä Igloos', propertyQuery: 'Pyhä Igloos', sid: 'destination_pyha_igloos', note: 'Iglumaisella lasikatolla varustettuja huoneita hiihtokeskuksen keskustassa, jokaisessa oma sisäänkäynti ulkoa.' },
-        { name: 'Northern Lights Village Pyhä', propertyQuery: 'Northern Lights Village Pyhä', sid: 'destination_pyha_nlv', note: 'Osassa mökeistä lasikatto suoraan sängyn yllä; sauna, palju ja kuljetukset Rovaniemen lentoasemalta.' },
-        { name: 'Sunday Morning Resort', propertyQuery: 'Sunday Morning Resort', sid: 'destination_pyha_sunday_morning', note: 'Pyhäjärven rannalla kansallispuiston vieressä; Aamu-sviiteissä majoittuu yhdestä neljään henkeä.' },
-        { name: 'Kurula’s Resort', propertyQuery: 'Kurula’s Resort', sid: 'destination_pyha_kurulas', note: 'Päärakennuksessa 17 sviittiä Pyhäjärven rannalla, lämmitys järven maalämmöllä.' },
-        { name: 'Ski-Inn Kultakero', propertyQuery: 'Ski-Inn Kultakero', sid: 'destination_pyha_kultakero', note: 'Hotellihuoneita ja huoneistoja seitsemässä koossa, lähellä rinteitä ja kansallispuistoa.' },
+        { name: 'Hotel Pyhätunturi', propertyQuery: 'Hotel Pyhätunturi', sid: 'destination_pyha_hotel', note: 'Keskellä Pyhää: 46 kahden hengen huonetta, viisi superior-huonetta ja yksi panoraamahuone; hintaan sisältyvät aamiainen, sauna ja kuntosali.' },
+        { name: 'Pyhä Igloos', propertyQuery: 'Pyhä Igloos', sid: 'destination_pyha_igloos', note: 'Huoneita, joissa on iglumainen lasikatto, keskellä hiihtokeskusta; jokaiseen on oma sisäänkäynti ulkoa.' },
+        { name: 'Northern Lights Village Pyhä', propertyQuery: 'Northern Lights Village Pyhä', sid: 'destination_pyha_nlv', note: 'Osassa mökeistä on lasikatto suoraan sängyn yläpuolella; lisäksi sauna, palju ja kuljetukset Rovaniemen lentoasemalta.' },
+        { name: 'Sunday Morning Resort', propertyQuery: 'Sunday Morning Resort', sid: 'destination_pyha_sunday_morning', note: 'Pyhäjärven rannalla kansallispuiston vieressä; Aamu-sviiteissä on tilaa 1–4 hengelle.' },
+        { name: 'Kurula’s Resort', propertyQuery: 'Kurula’s Resort', sid: 'destination_pyha_kurulas', note: 'Päärakennuksessa on 17 sviittiä Pyhäjärven rannalla, ja se lämmitetään järvestä saatavalla maalämmöllä.' },
+        { name: 'Ski-Inn Kultakero', propertyQuery: 'Ski-Inn Kultakero', sid: 'destination_pyha_kultakero', note: 'Hotellihuoneita ja huoneistoja seitsemää eri kokoa, lähellä rinteitä ja kansallispuistoa.' },
       ],
     },
     {
       title: 'Luosto',
       items: [
         { name: 'Lapland Hotels Luostotunturi', propertyQuery: 'Lapland Hotels Luostotunturi', sid: 'destination_luosto_luostotunturi', note: 'Luoston hirsikylässä kansallispuiston vieressä: hotellihuoneita, huoneistoja ja hirsimökkejä sekä Amethyst Spa.' },
-        { name: 'Santa’s Hotel Aurora & Igloos', propertyQuery: 'Santa’s Hotel Aurora & Igloos', sid: 'destination_luosto_aurora', note: 'Jokaisessa hotellihuoneessa on oma sauna, ja hotelliin liitetyissä kymmenessä lasi-iglussa on kussakin revontulihälytin.' },
+        { name: 'Santa’s Hotel Aurora & Igloos', propertyQuery: 'Santa’s Hotel Aurora & Igloos', sid: 'destination_luosto_aurora', note: 'Jokaisessa hotellihuoneessa on oma sauna. Hotellin yhteydessä on kymmenen lasi-iglua, ja jokaisessa on revontulihälytin.' },
       ],
     },
   ],
@@ -146,8 +146,8 @@ Autolla Rovaniemeltä Luostolle on noin 115 km (valtatie 4 pohjoiseen ja Torvise
   transport: [
     { mode: 'plane', label: 'Rovaniemen lentoasemalta (RVN)', detail: 'Rovaniemeltä Luostolle noin 115 km ja Kemijärven kautta Pyhälle noin 130 km.' },
     { mode: 'bus', label: 'Bussi Luostolle ja Pyhälle', detail: 'Rovaniemen lentoasemalta, rautatieasemalta ja linja-autoasemalta: talvella neljä lähtöä päivässä, kesällä kaksi.' },
-    { mode: 'train', label: 'Yöjuna Kemijärvelle', detail: 'Helsingistä; Kemijärven asemalta bussit Pyhälle, noin 47 km.' },
-    { mode: 'car', label: 'Kylien välillä', detail: '25 km tietä 962, ja Pyhän ja Luoston välillä kulkee bussi.' },
+    { mode: 'train', label: 'Yöjuna Kemijärvelle', detail: 'Helsingistä. Kemijärven asemalta on bussiyhteys Pyhälle, noin 47 km.' },
+    { mode: 'car', label: 'Kylien välillä', detail: '25 km tietä 962. Pyhän ja Luoston välillä kulkee myös bussi.' },
   ],
   carRental: {
     href: CARS_FOR('fi').fromRovaniemi,
@@ -156,7 +156,7 @@ Autolla Rovaniemeltä Luostolle on noin 115 km (valtatie 4 pohjoiseen ja Torvise
     blurb: 'Luostolle noin 115 km · Pyhälle 130 km',
   },
   seoTitle: 'Pyhän ja Luoston majoitus: hotellit, iglut ja mökit',
-  seoDescription: 'Hotellit, lasi-iglut ja hirsimökit Pyhällä ja Luostolla, kahdessa tunturikylässä 25 km:n päässä toisistaan Itä-Lapissa, ja matka Rovaniemen lentoasemalta.',
+  seoDescription: 'Pyhän ja Luoston hotellit, lasi-iglut ja hirsimökit kahdessa Itä-Lapin tunturikylässä 25 km:n päässä toisistaan sekä yhteydet Rovaniemen lentoasemalta.',
 }
 
 const de: DestinationBody = {

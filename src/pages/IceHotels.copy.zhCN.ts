@@ -47,7 +47,7 @@ const zhCN: IceHotelsCopy = {
       { to: '/glass-igloos', label: '玻璃屋頁面' },
       '把它和另外十間度假村放在一起比較。',
     ],
-    ctaLabel: '檢視空房',
+    ctaLabel: '查看房價與空房',
     ctaNote: '開啟度假村在我們的訂房合作夥伴Trip.com上的頁面，顯示您旅行日期的房價。',
   },
   snowVillage: {

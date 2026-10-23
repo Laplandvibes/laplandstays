@@ -44,7 +44,7 @@ const ko: IceHotelsCopy = {
       { to: '/glass-igloos', label: '글래스 이글루 페이지' },
       '에서 다른 숙소 열 곳과 함께 비교합니다.',
     ],
-    ctaLabel: '빈 객실 확인',
+    ctaLabel: '요금과 빈 객실 보기',
     ctaNote: '저희 예약 파트너 Trip.com의 이 리조트 페이지가 열리며, 여행 날짜의 요금이 표시됩니다.',
   },
   snowVillage: {

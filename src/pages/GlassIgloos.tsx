@@ -80,7 +80,7 @@ const linkClass = 'text-pink font-semibold hover:underline'
 
 /** Link from the snow-hotel type card to /ice-hotels (all 12 languages since 22.10.2026, tehtävä C). */
 const ICE_LINK: Partial<Record<Lang, { lead: string; label: string }>> = {
-  en: { lead: 'Where you can sleep in snow this winter: ', label: 'ice and snow hotels in Finnish Lapland' },
+  en: { lead: 'Where to sleep in the snow this winter: ', label: 'ice and snow hotels in Finnish Lapland' },
   de: { lead: 'Wo Sie diesen Winter im Schnee schlafen können: ', label: 'Eis- und Schneehotels in Finnisch-Lappland' },
   ja: { lead: 'この冬、雪の中で眠れる場所：', label: 'フィンランド・ラップランドのアイスホテルと雪のホテル' },
   sv: { lead: 'Här kan du sova i snö i vinter: ', label: 'is- och snöhotell i finska Lappland' },
@@ -209,8 +209,8 @@ export default function GlassIgloos() {
       {/* Three types */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.typesEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-6">{c.typesH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.typesEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.typesH2}</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">{c.typesIntro}</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
             {c.typeCards.map((card, i) => {
@@ -244,8 +244,8 @@ export default function GlassIgloos() {
       {/* Season */}
       <section className="py-14 sm:py-16 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.seasonEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{c.seasonH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.seasonEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.seasonH2}</h2>
           {c.seasonBody.map((p, i) => (
             <p key={i} className={`text-charcoal/75 text-[15px] sm:text-base leading-relaxed ${i < c.seasonBody.length - 1 ? 'mb-4' : ''}`}>{p}</p>
           ))}
@@ -255,7 +255,7 @@ export default function GlassIgloos() {
       {/* Property table */}
       <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-4">{c.tableH2}</h2>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-4 max-lg:text-center text-balance">{c.tableH2}</h2>
           <p className="text-charcoal/70 text-[15px] leading-relaxed mb-6 max-w-3xl">{c.tableIntro}</p>
           {/* Under lg the same rows as cards. 🔴 A 760–880 px table, even inside overflow-x-auto, made
               mobile Chrome widen the layout viewport (measured 18.10.2026: 320 px phone → innerWidth 626,
@@ -356,8 +356,8 @@ export default function GlassIgloos() {
         return (
           <section key={id} className="py-16 sm:py-20 px-4 sm:px-6 odd:bg-white even:bg-gradient-to-b even:from-white even:to-pink/5">
             <div className="max-w-4xl mx-auto">
-              <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{area.eyebrow}</p>
-              <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-5">{area.title}</h2>
+              <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{area.eyebrow}</p>
+              <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-5 max-lg:text-center text-balance">{area.title}</h2>
               <p className="text-charcoal/75 text-[15px] sm:text-base leading-relaxed mb-7">{area.intro}</p>
               <div className="space-y-4 mb-7">
                 {area.properties.map((p) => (
@@ -394,8 +394,8 @@ export default function GlassIgloos() {
       {/* Which area: three questions */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.questionsEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{c.questionsH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.questionsEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.questionsH2}</h2>
           <p className="text-charcoal/75 text-[15px] sm:text-base leading-relaxed mb-7">{c.questionsIntro}</p>
           <div className="space-y-3">
             {c.questions.map((pt, i) => (
@@ -434,8 +434,8 @@ export default function GlassIgloos() {
       {/* Getting there */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.accessEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{c.accessH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.accessEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.accessH2}</h2>
           {c.access.map((p, i) => (
             <p key={i} className={`text-charcoal/75 text-[15px] sm:text-base leading-relaxed ${i < c.access.length - 1 ? 'mb-4' : ''}`}>
               <RichText parts={p} to={to} />
@@ -447,8 +447,8 @@ export default function GlassIgloos() {
       {/* Sample trips */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.itinerariesEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{c.itinerariesH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.itinerariesEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.itinerariesH2}</h2>
           <p className="text-charcoal/75 text-[15px] sm:text-base leading-relaxed mb-7">{c.itinerariesIntro}</p>
           <div className="space-y-4">
             {c.itineraries.map((m) => (
@@ -464,8 +464,8 @@ export default function GlassIgloos() {
       {/* What the rate includes */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.inclusionsEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{c.inclusionsH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.inclusionsEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.inclusionsH2}</h2>
           {c.inclusionsBody.map((p, i) => (
             <p key={i} className={`text-charcoal/75 text-[15px] sm:text-base leading-relaxed ${i < c.inclusionsBody.length - 1 ? 'mb-4' : 'mb-7'}`}>{p}</p>
           ))}
@@ -487,8 +487,8 @@ export default function GlassIgloos() {
       {/* When to book */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.bookingEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{c.bookingH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.bookingEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.bookingH2}</h2>
           <p className="text-charcoal/75 text-[15px] sm:text-base leading-relaxed mb-7">{c.bookingIntro}</p>
           <div className="space-y-3 text-[15px] mb-7">
             {c.bookingRows.map((s) => (
@@ -507,8 +507,8 @@ export default function GlassIgloos() {
       {/* Cloudy nights */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{c.cloudyEyebrow}</p>
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{c.cloudyH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 max-lg:text-center">{c.cloudyEyebrow}</p>
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{c.cloudyH2}</h2>
           <p className="text-charcoal/75 text-[15px] sm:text-base leading-relaxed mb-7">{c.cloudyIntro}</p>
           <div className="space-y-3 mb-7">
             {c.cloudy.map((pt, i) => (
