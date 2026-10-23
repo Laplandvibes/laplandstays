@@ -186,6 +186,44 @@ export const FEATURED_CONTEXT: Record<FeaturedPlacement, { fi: string; en: strin
   destination_rovaniemi: { fi: 'Missä yöpyä Rovaniemellä', en: 'Where to stay in Rovaniemi', sv: 'Var du bor i Rovaniemi' },
 }
 
+/**
+ * Visit Inari (Inari + Ivalon Kultahippu), maksullinen kumppani 890 € alv 0, 1.11.2026–31.10.2027
+ * (sovittu Inarissa 12.10., kirjallisena Petrille 19.10.). Yksi kolmesta paikasta: lukija etsii
+ * yöpaikkaa Inarista. Muut: laplandtransport /airport-transfers/ivalo, laplanddining Inari.
+ *
+ * 🔴 ESIKATSELU 23.10.2026, EI JULKAISTU: Petrille luvattiin 19.10. "Lähetän mainokset sinulle
+ * katsottavaksi, ennen kuin ne menevät näkyviin." Ennen mergeä mainiin:
+ *  1. Petrin hyväksyntä tekstille ja kuvalle.
+ *  2. Worker-reitti `visitinari` (affiliate-redirect-worker PARTNERS-kartta, network direct,
+ *     base https://visitinari.fi/) + deploy, muuten linkki ohjautuu hubiin.
+ *  3. articleUrl vasta kun /blog/visit-inari on julkaistu (muuten 404).
+ * Kuva: oma valokuva Lomakylän mökeistä 13.10.2026 klo 8.14 (reissu_2026-10, 20261013_081447),
+ * ei sama tiedosto kuin artikkelissa. Logo: Visit Inarin oma tumma merkki valkoisella chipillä.
+ */
+const visitInariInari: Partner = {
+  name: 'Visit Inari',
+  tagline: 'Mökit Inarijärven rannalla ja hotelli kylän keskustassa',
+  taglineEn: 'Cabins on Lake Inari and a hotel in the village centre',
+  taglineSv: 'Stugor vid Enaresjön och ett hotell mitt i byn',
+  description: 'Lomakylä Inarin mökit ovat järven rannassa, ja Inari Sauna Suiteissa on oma sauna. Rannan revontulikeinusta katsellaan talvella revontulia jäätyneen järven yllä. Hotelli Inari on kylän keskustassa puolen kilometrin päässä, ja kuljetus Ivalon kentältä ajaa kaikille lennoille, kun sen varaa etukäteen.',
+  descriptionEn: 'Lomakylä Inari\'s cabins sit on the shore of Lake Inari, and the Inari Sauna Suites each have their own sauna. In winter, the aurora swing on the shore looks out over the frozen lake. Hotel Inari is half a kilometre away in the village centre, and the transfer from Ivalo airport meets every flight when booked in advance.',
+  descriptionSv: 'Lomakylä Inaris stugor ligger vid Enaresjön, och Inari Sauna Suites har egen bastu. På vintern ser man norrsken över den frusna sjön från norrskensgungan på stranden. Hotel Inari ligger en halv kilometer bort mitt i byn, och transfern från Ivalo flygplats går till alla flyg när den bokas i förväg.',
+  url: 'https://go.laplandvibes.com/go/visitinari?sid=stays_destination_inari&dest=https%3A%2F%2Fvisitinari.fi%2Faccommodation%2F',
+  urlFi: 'https://go.laplandvibes.com/go/visitinari?sid=stays_destination_inari&dest=https%3A%2F%2Fvisitinari.fi%2Ffi%2Fmajoitus%2F',
+  imageSrc: '/images/partners/visitinari-lomakyla-mokit.webp',
+  logoSrc: '/images/partners/visitinari.svg',
+  logoAlt: 'Visit Inari',
+  ctaLabel: 'Katso majoitukset',
+  ctaLabelEn: 'See the accommodation',
+  ctaLabelSv: 'Se boendet',
+  articleUrl: 'https://laplandvibes.com/fi/blog/visit-inari/',
+  articleUrlEn: 'https://laplandvibes.com/blog/visit-inari/',
+  articleUrlSv: 'https://laplandvibes.com/sv/blog/visit-inari/',
+  articleLabel: 'Lue juttu',
+  articleLabelEn: 'Read the article',
+  articleLabelSv: 'Läs artikeln',
+}
+
 /** Myydyt Esittelykumppani-paikat. null = house-ad (paikka vapaana). */
 export const FEATURED_PARTNERS: Record<FeaturedPlacement, Partner | null> = {
   home_amenities: null,
@@ -194,7 +232,7 @@ export const FEATURED_PARTNERS: Record<FeaturedPlacement, Partner | null> = {
   destination_levi: null,
   destination_yllas: null,
   destination_saariselka: null,
-  destination_inari: null,
+  destination_inari: visitInariInari,
   destination_rovaniemi: null,
 }
 

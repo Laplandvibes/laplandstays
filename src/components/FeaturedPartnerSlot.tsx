@@ -56,6 +56,7 @@ export default function FeaturedPartnerSlot({
   locale,
   surface = 'light',
   className,
+  cardLayout = false,
 }: {
   /** `undefined` = tuntematon pinta → ei renderöidä mitään (fail closed). */
   placement: FeaturedPlacement | undefined
@@ -63,6 +64,12 @@ export default function FeaturedPartnerSlot({
   /** Sivun pohja: `light` = cream-sivu, `dark` = night-osio. */
   surface?: 'light' | 'dark'
   className?: string
+  /**
+   * Myyty paikka isona korttina (kuva, kuvaus, CTA ja juttulinkki) bannerin sijaan.
+   * 23.10.2026 Visit Inari: kohdesivun myyty paikka johdannon jälkeen täysleveänä; banneri
+   * näytti maksavasta kumppanista vain pikkukuvan ja otsikon. Tyhjä paikka pysyy bannerina.
+   */
+  cardLayout?: boolean
 }) {
   if (!placement) return null
   if (!adLocaleEnabled(locale)) return null
@@ -94,7 +101,8 @@ export default function FeaturedPartnerSlot({
             cream-pinnalla PartnerSlot renderöi jo oman valkoisen korttinsa,
             joten siellä riittää kevyt reunus. */}
         <PartnerSlot
-          variant="banner"
+          variant={cardLayout ? 'card' : 'banner'}
+          layout={cardLayout ? 'wide' : undefined}
           partner={partner}
           locale={locale}
           surface={surface}
