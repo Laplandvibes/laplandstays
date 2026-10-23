@@ -8,7 +8,7 @@ import PartnerStayAd from './PartnerStayAd'
 import FeaturedPartnerSlot from './FeaturedPartnerSlot'
 import EditorsPickChip from './EditorsPickChip'
 import GoogleRatingRow from './GoogleRatingRow'
-import { DESTINATION_PLACEMENT } from '../data/adSlots'
+import { DESTINATION_PLACEMENT, FEATURED_PARTNERS } from '../data/adSlots'
 import { propertyForQuery, bestGoogleRated, editorialPickNote } from '../data/properties'
 import { bookingForQuery } from '../data/propertyBooking'
 import { useCopy as useChrome } from '../locales/copy'
@@ -258,6 +258,8 @@ export default function DestinationPage(p: DestinationPageProps) {
   const regionLabel = p.region ? (p.region.label[lang] ?? p.region.label.en ?? ui.finnishLapland) : ui.finnishLapland
   // Sub-ids are snake_case (Worker convention); the URL slug of Pyhä–Luosto has a hyphen.
   const sidSlug = p.slug.replace(/-/g, '_')
+  const featuredPlacement = DESTINATION_PLACEMENT[p.slug]
+  const soldFeatured = featuredPlacement ? FEATURED_PARTNERS[featuredPlacement] != null : false
   const b = pick(
     lang,
     p.body.en,
@@ -635,6 +637,17 @@ export default function DestinationPage(p: DestinationPageProps) {
         </section>
       )}
 
+      {/* MYYTY Esittelykumppani johdannon jälkeen (23.10.2026, Visit Inari). Maksettu mainos ei saa
+          jäädä seitsemän näytöllisen syvyyteen (feedback_oma_mainos_nakyvaan_kohtaan 20.10.): sama
+          paikka, eri kohta sivua. Tyhjä house-ad pysyy Missä yöpyä -listan alla (Vesa 2026-08-09). */}
+      {soldFeatured && (
+        <section className="pt-2 pb-8 px-4 sm:px-6 bg-white">
+          <div className="max-w-6xl mx-auto rounded-3xl bg-night px-4 sm:px-8 py-6 sm:py-8">
+            <FeaturedPartnerSlot placement={featuredPlacement} locale={lang} surface="dark" cardLayout className="!mb-0" />
+          </div>
+        </section>
+      )}
+
       {/* HIGHLIGHTS */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-6xl mx-auto">
@@ -788,12 +801,14 @@ export default function DestinationPage(p: DestinationPageProps) {
                     ensimmäisenä teki koko osiosta puuroa (Vesa 2026-08-09).
                     Tyhjänä = kanoninen vaalea house-ad; muilla kuin fi/en/sv ei
                     renderöidy mitään eikä listaan jää aukkoa. */}
-                <FeaturedPartnerSlot
-                  placement={DESTINATION_PLACEMENT[p.slug]}
-                  locale={lang}
-                  surface="dark"
-                  className="mt-6"
-                />
+                {!soldFeatured && (
+                  <FeaturedPartnerSlot
+                    placement={DESTINATION_PLACEMENT[p.slug]}
+                    locale={lang}
+                    surface="dark"
+                    className="mt-6"
+                  />
+                )}
               </div>
             )}
 
