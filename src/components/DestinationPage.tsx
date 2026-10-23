@@ -642,8 +642,9 @@ export default function DestinationPage(p: DestinationPageProps) {
           paikka, eri kohta sivua. Tyhjä house-ad pysyy Missä yöpyä -listan alla (Vesa 2026-08-09). */}
       {soldFeatured && (
         <section className="pt-2 pb-8 px-4 sm:px-6 bg-white">
-          <div className="max-w-6xl mx-auto rounded-3xl bg-night px-4 sm:px-8 py-6 sm:py-8">
-            <FeaturedPartnerSlot placement={featuredPlacement} locale={lang} surface="dark" cardLayout className="!mb-0" />
+          {/* Vaalea kortti, ei tummaa paneelia (Vesa 23.10.: "liian tummaa … tunkkasen näköinen"). */}
+          <div className="max-w-6xl mx-auto">
+            <FeaturedPartnerSlot placement={featuredPlacement} locale={lang} surface="light" cardLayout className="!mb-0" />
           </div>
         </section>
       )}
