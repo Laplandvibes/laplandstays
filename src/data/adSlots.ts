@@ -191,12 +191,10 @@ export const FEATURED_CONTEXT: Record<FeaturedPlacement, { fi: string; en: strin
  * (sovittu Inarissa 12.10., kirjallisena Petrille 19.10.). Yksi kolmesta paikasta: lukija etsii
  * yöpaikkaa Inarista. Muut: laplandtransport /airport-transfers/ivalo, laplanddining Inari.
  *
- * 🔴 ESIKATSELU 23.10.2026, EI JULKAISTU: Petrille luvattiin 19.10. "Lähetän mainokset sinulle
- * katsottavaksi, ennen kuin ne menevät näkyviin." Ennen mergeä mainiin:
- *  1. Petrin hyväksyntä tekstille ja kuvalle.
- *  2. Worker-reitti `visitinari` (affiliate-redirect-worker PARTNERS-kartta, network direct,
- *     base https://visitinari.fi/) + deploy, muuten linkki ohjautuu hubiin.
- *  3. articleUrl vasta kun /blog/visit-inari on julkaistu (muuten 404).
+ * 🟢 HYVÄKSYTTY JA JULKAISTU 23.10.2026: Petri Saastamoinen hyväksyi tekstin ja kuvan sellaisenaan
+ * ("En näihin keksi lisättävää tai muokattavaa", Gmail 1a168160afde3918). Worker-reitti `visitinari`
+ * live 23.10. (UTM utm_campaign=visit-inari-2026). Muilla kielillä Visit Inarin omat englanninkieliset
+ * nimet (Holiday Village Inari, Crow Creek Cabins, Hotel Kultahippu); i18n 9 kielelle natiivilukijan jälkeen.
  * Kuva: oma valokuva Lomakylän mökeistä 13.10.2026 klo 8.14 (reissu_2026-10, 20261013_081447),
  * ei sama tiedosto kuin artikkelissa. Logo: Visit Inarin oma tumma merkki valkoisella chipillä.
  */
@@ -204,10 +202,10 @@ const visitInariInari: Partner = {
   name: 'Visit Inari',
   tagline: 'Mökit Inarijärven rannalla ja hotelli kylän keskustassa',
   taglineEn: 'Cabins on Lake Inari and a hotel in the village centre',
-  taglineSv: 'Stugor vid Enaresjön och ett hotell mitt i byn',
+  taglineSv: 'Stugor vid Enare träsk och ett hotell mitt i byn',
   description: 'Lomakylä Inarin mökit ovat järven rannassa, ja Inari Sauna Suiteissa on oma sauna. Rannan revontulikeinusta katsellaan talvella revontulia jäätyneen järven yllä. Hotelli Inari on kylän keskustassa puolen kilometrin päässä, ja kuljetus Ivalon kentältä ajaa kaikille lennoille, kun sen varaa etukäteen.',
-  descriptionEn: 'Lomakylä Inari\'s cabins sit on the shore of Lake Inari, and the Inari Sauna Suites each have their own sauna. In winter, the aurora swing on the shore looks out over the frozen lake. Hotel Inari is half a kilometre away in the village centre, and the transfer from Ivalo airport meets every flight when booked in advance.',
-  descriptionSv: 'Lomakylä Inaris stugor ligger vid Enaresjön, och Inari Sauna Suites har egen bastu. På vintern ser man norrsken över den frusna sjön från norrskensgungan på stranden. Hotel Inari ligger en halv kilometer bort mitt i byn, och transfern från Ivalo flygplats går till alla flyg när den bokas i förväg.',
+  descriptionEn: 'The cabins at Holiday Village Inari sit on the shore of Lake Inari, and the Inari Sauna Suites each have their own sauna. In winter you can watch the northern lights over the frozen lake from the Aurora Swing on the shore. Hotel Inari is half a kilometre away in the village centre, and the transfer from Ivalo Airport meets every flight when booked in advance.',
+  descriptionSv: 'Stugorna i Holiday Village Inari ligger vid Enare träsk, och Inari Sauna Suites har egen bastu. På vintern kan du se norrsken över den frusna sjön från norrskensgungan Aurora Swing på stranden. Hotel Inari ligger en halv kilometer bort mitt i byn, och transfern från Ivalo flygplats möter alla flyg om den bokas i förväg.',
   url: 'https://go.laplandvibes.com/go/visitinari?sid=stays_destination_inari&dest=https%3A%2F%2Fvisitinari.fi%2Faccommodation%2F',
   urlFi: 'https://go.laplandvibes.com/go/visitinari?sid=stays_destination_inari&dest=https%3A%2F%2Fvisitinari.fi%2Ffi%2Fmajoitus%2F',
   imageSrc: '/images/partners/visitinari-lomakyla-mokit.webp',
@@ -222,6 +220,71 @@ const visitInariInari: Partner = {
   articleLabel: 'Lue juttu',
   articleLabelEn: 'Read the article',
   articleLabelSv: 'Läs artikeln',
+  i18n: {
+    de: {
+      tagline: 'Hütten am Inarisee und ein Hotel im Dorfzentrum',
+      description: 'Die Hütten des Holiday Village Inari liegen am Ufer des Inarisees, und die Inari Sauna Suites haben eine eigene Sauna. Von der Polarlichtschaukel Aurora Swing am Ufer sieht man im Winter die Polarlichter über dem zugefrorenen See. Das Hotel Inari liegt einen halben Kilometer entfernt im Dorfzentrum, und der Transfer vom Flughafen Ivalo holt Sie bei Vorausbuchung von jedem Flug ab.',
+      cta: 'Unterkünfte ansehen',
+      articleLabel: 'Artikel lesen',
+      articleUrl: 'https://laplandvibes.com/de/blog/visit-inari/',
+    },
+    fr: {
+      tagline: 'Chalets au bord du lac Inari et hôtel au centre du village',
+      description: 'Les chalets du Holiday Village Inari sont au bord du lac, et les Inari Sauna Suites ont leur propre sauna. En hiver, depuis l\'Aurora Swing, la balançoire de la rive, on regarde les aurores boréales au-dessus du lac gelé. L\'Hotel Inari est au centre du village, à un demi-kilomètre, et le transfert depuis l\'aéroport d\'Ivalo est assuré pour tous les vols s\'il est réservé à l\'avance.',
+      cta: 'Voir les hébergements',
+      articleLabel: 'Lire l\'article',
+      articleUrl: 'https://laplandvibes.com/fr/blog/visit-inari/',
+    },
+    it: {
+      tagline: 'Baite sul lago Inari e un hotel nel centro del villaggio',
+      description: 'Le baite dell\'Holiday Village Inari sono sulla riva del lago, e le Inari Sauna Suite hanno una sauna privata. In inverno, dall\'Aurora Swing, l\'altalena sulla riva, si guarda l\'aurora boreale sopra il lago ghiacciato. L\'Hotel Inari è nel centro del villaggio, a mezzo chilometro, e il transfer dall\'aeroporto di Ivalo copre tutti i voli se prenotato in anticipo.',
+      cta: 'Vedi gli alloggi',
+      articleLabel: 'Leggi l\'articolo',
+      articleUrl: 'https://laplandvibes.com/it/blog/visit-inari/',
+    },
+    es: {
+      tagline: 'Cabañas a orillas del lago Inari y hotel en el centro del pueblo',
+      description: 'Las cabañas del Holiday Village Inari están a orillas del lago, y las Inari Sauna Suites tienen sauna propia. En invierno, desde el Aurora Swing, el columpio de la orilla, se contempla la aurora boreal sobre el lago helado. El Hotel Inari está en el centro del pueblo, a medio kilómetro, y el traslado desde el aeropuerto de Ivalo cubre todos los vuelos si se reserva con anticipación.',
+      cta: 'Ver alojamientos',
+      articleLabel: 'Leer el artículo',
+      articleUrl: 'https://laplandvibes.com/es/blog/visit-inari/',
+    },
+    pt: {
+      tagline: 'Cabanas no lago Inari e hotel no centro do vilarejo',
+      description: 'As cabanas do Holiday Village Inari ficam na beira do lago, e as Inari Sauna Suites têm sauna própria. No inverno, do balanço da margem (Aurora Swing), dá para ver a aurora boreal sobre o lago congelado. O Hotel Inari fica a meio quilômetro, no centro do vilarejo, e o traslado do aeroporto de Ivalo atende a todos os voos, desde que reservado com antecedência.',
+      cta: 'Ver as hospedagens',
+      articleLabel: 'Leia o artigo',
+      articleUrl: 'https://laplandvibes.com/br/blog/visit-inari/',
+    },
+    nl: {
+      tagline: 'Hutten aan het Inarimeer en een hotel in het dorpscentrum',
+      description: 'De hutten van Holiday Village Inari staan aan de oever van het meer, en de Inari Sauna Suites hebben een eigen sauna. Vanaf de noorderlichtschommel (Aurora Swing) aan de oever kijkt u in de winter naar het noorderlicht boven het bevroren meer. Hotel Inari ligt op een halve kilometer afstand, in het dorpscentrum, en de transfer vanaf het vliegveld van Ivalo sluit aan op alle vluchten, als u die vooraf reserveert.',
+      cta: 'Bekijk de accommodaties',
+      articleLabel: 'Lees het artikel',
+      articleUrl: 'https://laplandvibes.com/nl/blog/visit-inari/',
+    },
+    ja: {
+      tagline: 'イナリ湖畔のコテージと、村の中心のホテル',
+      description: 'Holiday Village Inari のコテージは湖のほとりにあり、Inari Sauna Suite には専用サウナが付いています。冬は湖畔のオーロラブランコ（Aurora Swing）から、凍った湖の上のオーロラを眺められます。Hotel Inari は半キロ先の村の中心にあり、イヴァロ空港からの送迎は事前に予約すればすべての便に対応します。',
+      cta: '宿泊施設を見る',
+      articleLabel: '記事を読む',
+      articleUrl: 'https://laplandvibes.com/ja/blog/visit-inari/',
+    },
+    ko: {
+      tagline: '이나리 호숫가의 캐빈과 마을 중심의 호텔',
+      description: 'Holiday Village Inari의 캐빈은 호숫가에 있고, Inari Sauna Suite에는 전용 사우나가 있습니다. 겨울에는 호숫가의 오로라 그네(Aurora Swing)에서 얼어붙은 호수 위의 오로라를 바라봅니다. Hotel Inari는 반 킬로미터 떨어진 마을 중심에 있고, 이발로 공항 픽업은 미리 예약하면 모든 항공편에 맞춰 운행합니다.',
+      cta: '숙소 보기',
+      articleLabel: '기사 읽기',
+      articleUrl: 'https://laplandvibes.com/kr/blog/visit-inari/',
+    },
+    zh: {
+      tagline: '伊納里湖畔的小木屋和村中心的飯店',
+      description: 'Holiday Village Inari 的小木屋就在湖邊，Inari Sauna Suite 配有私人桑拿。冬天可以坐在湖岸的極光鞦韆（Aurora Swing）上，看結冰湖面上空的極光。Hotel Inari 在半公里外的村中心，伊瓦洛機場接送只要提前預訂，就能接所有航班。',
+      cta: '查看住宿',
+      articleLabel: '閱讀文章',
+      articleUrl: 'https://laplandvibes.com/cn/blog/visit-inari/',
+    },
+  },
 }
 
 /** Myydyt Esittelykumppani-paikat. null = house-ad (paikka vapaana). */
