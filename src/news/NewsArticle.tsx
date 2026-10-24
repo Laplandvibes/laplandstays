@@ -7,6 +7,7 @@ import Prose from './Prose';
 import NewsCard from './NewsCard';
 import { NewsAds, NewsChrome, NotFoundPage, SITE, useNewsHead } from './site';
 import type { NewsMeta } from './types';
+import ShareBar, { ShareButton } from '../shared/ShareBar/ShareBar';
 import { AppPromoAurora } from '../components/AppPromo';
 
 /** Uutiset, joiden alle tulee appin revontuliyksikkö: aiheena revontulihälytys tai -ennuste. */
@@ -121,6 +122,8 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
             <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
           </span>
         </p>
+        {/* Jaa-nappi tekijärivin alle omalle rivilleen ja jako jutun loppuun (Vesa 24.10.2026). */}
+        <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" className="mt-4" />
       </div>
 
       <article className="nw-sheet">
@@ -132,6 +135,7 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           meta={meta}
           afterIntro={AURORA_APP_NEWS.has(meta.slug) ? <AppPromoAurora placement="news_aurora_inline" /> : undefined}
         />
+        <ShareBar lang={lang} title={text.title} tone="light" />
         <section className="nw-sources" aria-labelledby="nw-sources-h">
           <h2 id="nw-sources-h" className="nw-sources-h">{ui.ui.sources}</h2>
           <ol>
