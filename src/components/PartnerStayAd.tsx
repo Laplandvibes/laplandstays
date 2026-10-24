@@ -364,19 +364,27 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
 
       <div className={photo ? 'relative md:grid md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]' : 'relative'}>
       {photo && (
-        <a href={href} target="_blank" rel="sponsored nofollow noopener" tabIndex={-1} aria-hidden="true" className="group/photo relative block aspect-[16/9] md:aspect-auto overflow-hidden">
-          <img
-            src={photo.src}
-            srcSet={photo.srcSet}
-            sizes={photo.srcSet ? '(min-width: 768px) 40vw, 100vw' : undefined}
-            alt=""
-            loading="lazy"
-            decoding="async"
-            className={`absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover/photo:scale-[1.03] ${photo.position ?? 'object-center'}`}
-          />
-          <span className="absolute bottom-2 right-2 block w-fit max-w-[calc(100%-1rem)] rounded bg-black/60 px-1.5 py-[3px] text-right text-[10px] leading-tight text-white">
-            <span className="block">{PICTURED[lang] + photo.place}</span>
-            <span className="block">{((photo.supplied && SUPPLIED[lang]) || BY[lang]) + photo.by}</span>
+        <a href={href} target="_blank" rel="sponsored nofollow noopener" tabIndex={-1} aria-hidden="true" className="group/photo block">
+          <div className="relative aspect-[16/9] md:aspect-auto md:h-full overflow-hidden">
+            <img
+              src={photo.src}
+              srcSet={photo.srcSet}
+              sizes={photo.srcSet ? '(min-width: 768px) 40vw, 100vw' : undefined}
+              alt=""
+              loading="lazy"
+              decoding="async"
+              className={`absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover/photo:scale-[1.03] ${photo.position ?? 'object-center'}`}
+            />
+            {/* md+: small mark in the photo's bottom-right corner. */}
+            <span className="hidden md:block absolute bottom-2 right-2 w-fit max-w-[calc(100%-1rem)] rounded bg-black/60 px-1.5 py-[3px] text-right text-[10px] leading-tight text-white">
+              <span className="block">{PICTURED[lang] + photo.place}</span>
+              <span className="block">{((photo.supplied && SUPPLIED[lang]) || BY[lang]) + photo.by}</span>
+            </span>
+          </div>
+          {/* Phone: one line under the photo, not over it (feedback_kuvakrediitti 26.–28.9.: card photo ⇒ mark below;
+              24.10. the corner mark covered the Lomarengas watermark at 390 px). */}
+          <span className="md:hidden block px-6 sm:px-8 pt-2 text-right text-[12px] leading-snug text-charcoal/60">
+            {PICTURED[lang] + photo.place} · {((photo.supplied && SUPPLIED[lang]) || BY[lang]) + photo.by}
           </span>
         </a>
       )}

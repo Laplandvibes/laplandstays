@@ -173,11 +173,15 @@ export default function CabinCarAd({ className = '' }: { className?: string }) {
           decoding="async"
           className="absolute inset-0 h-full w-full object-cover object-[40%_center]"
         />
-        <span className="absolute bottom-2 right-2 block rounded bg-black/60 px-1.5 py-[3px] text-right text-[10px] leading-tight text-white">
+        <span className="hidden md:block absolute bottom-2 right-2 rounded bg-black/60 px-1.5 py-[3px] text-right text-[10px] leading-tight text-white">
           <span className="block">{PICTURED[lang]}{lang === 'ja' ? 'サーリセルカ–イヴァロ' : lang === 'ko' ? '사리셀카–이발로' : lang === 'zh-CN' ? '薩利色爾卡–伊瓦洛' : 'Saariselkä–Ivalo'}</span>
           <span className="block">{BY[lang]}LaplandVibes</span>
         </span>
       </div>
+      {/* Phone: the photo mark as one line under the photo, not over it. */}
+      <p className="md:hidden px-6 sm:px-8 pt-2 text-right text-[12px] leading-snug text-charcoal/60">
+        {PICTURED[lang]}{lang === 'ja' ? 'サーリセルカ–イヴァロ' : lang === 'ko' ? '사리셀카–이발로' : lang === 'zh-CN' ? '薩利色爾卡–伊瓦洛' : 'Saariselkä–Ivalo'} · {BY[lang]}LaplandVibes
+      </p>
       <div className="relative p-6 sm:p-8">
         <div className="mb-4 flex flex-col-reverse gap-3">
           <div className="flex items-center gap-3 min-w-0">
