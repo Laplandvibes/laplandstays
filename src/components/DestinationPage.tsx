@@ -200,7 +200,7 @@ const ecoPrefix: Record<Lang, string> = {
  * so the 7 pages × 12 locales do not each need hand-placed no-break spaces. CJK text has no such spaces.
  */
 const NB_GROUP = /(\d)[ \u202F](?=\d{3}(?!\d))/g
-const NB_UNIT = /(\d) (?=(?:km²|km|m²|m|cm|min|h|kg|°C|°|%|€)(?!\p{L}))/gu
+const NB_UNIT = /(\d) (?=(?:km²|km|m²|m|cm|min|h|kg|°C|°|%|€)(?![A-Za-zÀ-ÿ]))/g
 const nb = (t: string) => t.replace(NB_GROUP, '$1\u00A0').replace(NB_UNIT, '$1\u00A0')
 
 const transportIcon: Record<NonNullable<TransportRow['mode']>, typeof Plane> = {
@@ -899,7 +899,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                     <div className="min-w-0">
                       <p className="text-[11px] uppercase tracking-widest text-pink font-semibold mb-1">{ui.rentCarLabel}</p>
                       <p className="text-white text-[15px] leading-snug">
-                        {b.carRental.airport}{b.carRental.blurb ? ` · ${b.carRental.blurb}` : ''}
+                        {nb(b.carRental.airport + (b.carRental.blurb ? ` · ${b.carRental.blurb}` : ''))}
                       </p>
                     </div>
                     <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
