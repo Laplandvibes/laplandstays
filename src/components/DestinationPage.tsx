@@ -194,6 +194,15 @@ const ecoPrefix: Record<Lang, string> = {
   'sv': '/sv',
 }
 
+/**
+ * Numbers never break from their thousands group or unit (Vesa 24.10.2026: "1 040 / km²" on two lines made the
+ * Inari page look careless). Applied at render to the prose and facts of every destination page in all languages,
+ * so the 7 pages × 12 locales do not each need hand-placed no-break spaces. CJK text has no such spaces.
+ */
+const NB_GROUP = /(\d)[ \u202F](?=\d{3}(?!\d))/g
+const NB_UNIT = /(\d) (?=(?:km²|km|m²|m|cm|min|h|kg|°C|°|%|€)(?!\p{L}))/gu
+const nb = (t: string) => t.replace(NB_GROUP, '$1\u00A0').replace(NB_UNIT, '$1\u00A0')
+
 const transportIcon: Record<NonNullable<TransportRow['mode']>, typeof Plane> = {
   plane: Plane,
   bus: Bus,
@@ -445,7 +454,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                       >
                         <div className="min-w-0">
                           <p className="font-heading text-lg text-white tracking-wide group-hover:text-pink transition-colors">{a.name}</p>
-                          {a.note && <p className="text-sm text-white/55 leading-snug mt-0.5">{a.note}</p>}
+                          {a.note && <p className="text-sm text-white/55 leading-snug mt-0.5">{nb(a.note)}</p>}
                         </div>
                         <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
                       </a>
@@ -464,24 +473,22 @@ export default function DestinationPage(p: DestinationPageProps) {
         jsonLd={[breadcrumbJsonLd, touristDestinationJsonLd, cityJsonLd]}
       />
 
-      {/* HERO */}
-      <section className="relative min-h-[56vh] md:min-h-[62vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0">
-          <img src={p.heroImage} srcSet={p.heroSrcSet} sizes={p.heroSrcSet ? '100vw' : undefined} alt={`${p.name}, ${regionLabel}`} className="w-full h-full object-cover object-[center_38%]" loading="eager" fetchPriority="high" decoding="async" width="1920" height="1080"/>
-          {/* Tekstin (vasen, ylä) takana oma tummennus: kirkas valokuva (heroteksti-portti 9.10.2026) */}
-          <div aria-hidden="true" className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(ellipse 85% 90% at 18% 38%, rgba(15,23,42,0.84) 0%, rgba(15,23,42,0.64) 55%, rgba(15,23,42,0.10) 100%)' }} />
+      {/* HERO — kuva puhtaana puhelimessa ja tabletilla, teksti sen alla; lg+ teksti kuvan päällä vaakaliukuman
+          varassa (feedback_hero_kuva_puhtaana_otsikko_alle 3.10. + 17.10., malli skiresorts Hero.tsx). Vesa 24.10.2026
+          Inarin sivusta puhelimella: "eikö hero osalle joku overlay joka peittää kuvan … mielestäni se on väärin". */}
+      <section className="relative overflow-hidden bg-night lg:min-h-[62vh] lg:flex lg:items-center">
+        <div className="relative h-[42svh] min-h-[240px] sm:h-[380px] md:h-[440px] lg:absolute lg:inset-0 lg:h-auto lg:min-h-0" data-lv-tp-tausta="hero">
+          <img src={p.heroImage} srcSet={p.heroSrcSet} sizes={p.heroSrcSet ? '(max-width: 1023px) 160vw, 100vw' : undefined} alt={`${p.name}, ${regionLabel}`} className="absolute inset-0 w-full h-full object-cover object-[center_45%]" loading="eager" fetchPriority="high" decoding="async" width="1920" height="1080"/>
+          <div aria-hidden="true" className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#0F172A]/85 via-[#0F172A]/70 via-55% to-transparent" />
+          <div aria-hidden="true" className="hidden lg:block absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-[#0F172A]/60" />
           {p.heroPhotoId && <PhotoMark id={p.heroPhotoId} className="absolute bottom-3 right-3 z-10" />}
-          <div
-            className="absolute inset-0"
-            style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.82) 0%, rgba(15,23,42,0.40) 50%, rgba(15,23,42,0.22) 100%)' }}
-          />
         </div>
-        <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-16 md:py-20 text-white">
-          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 flex items-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
+        <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 pt-7 pb-9 sm:pt-9 sm:pb-11 lg:py-20 text-white max-lg:text-center">
+          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-xs sm:text-sm font-semibold mb-4 flex items-center gap-2 max-lg:justify-center lg:[text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
             <MapPin className="w-4 h-4" /> {regionLabel}
           </p>
-          <h1 className={`font-heading tracking-wide mb-4 [text-shadow:0_3px_28px_rgba(0,0,0,0.85),0_1px_4px_rgba(0,0,0,0.6)] ${b.heroH1 ? 'text-4xl sm:text-6xl md:text-7xl' : 'text-5xl sm:text-7xl md:text-8xl'}`}>{b.heroH1 ?? p.name}</h1>
-          <p className="text-xl sm:text-2xl md:text-3xl text-white/90 max-w-3xl leading-snug [text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{b.tagline}</p>
+          <h1 className={`font-heading tracking-wide mb-4 text-balance lg:[text-shadow:0_3px_28px_rgba(0,0,0,0.85),0_1px_4px_rgba(0,0,0,0.6)] ${b.heroH1 ? 'text-4xl sm:text-6xl md:text-7xl' : 'text-5xl sm:text-7xl md:text-8xl'}`}>{b.heroH1 ?? p.name}</h1>
+          <p className="text-xl sm:text-2xl md:text-3xl text-white/90 max-w-3xl max-lg:mx-auto leading-snug text-pretty lg:[text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{nb(b.tagline)}</p>
         </div>
       </section>
 
@@ -496,7 +503,7 @@ export default function DestinationPage(p: DestinationPageProps) {
         <div className="max-w-4xl mx-auto">
           <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3 max-lg:text-center">{ui.overviewEyebrow}</p>
           <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 max-lg:text-center text-balance">{ui.overviewH2(p.name)}</h2>
-          <p className="text-charcoal/75 text-lg leading-relaxed whitespace-pre-line">{b.description}</p>
+          <p className="text-charcoal/75 text-lg leading-relaxed whitespace-pre-line">{nb(b.description)}</p>
 
           {/* Fact strip. Two things were wrong here until 2026-08-23 (Vesa: "niin
               kamala kun olla ja voi"):
@@ -532,7 +539,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                         : 'font-heading text-[26px] min-[360px]:text-3xl text-night tracking-wide leading-none mt-auto'
                     }
                   >
-                    {f.value}
+                    {nb(f.value)}
                   </p>
                 </div>
               )
@@ -573,14 +580,14 @@ export default function DestinationPage(p: DestinationPageProps) {
                 <div key={s.h3}>
                   <h3 className="font-heading text-2xl sm:text-3xl text-night tracking-wide mb-3">{s.h3}</h3>
                   {s.paras.map((para, i) => (
-                    <p key={i} className="text-charcoal/75 leading-relaxed mb-3">{para}</p>
+                    <p key={i} className="text-charcoal/75 leading-relaxed mb-3">{nb(para)}</p>
                   ))}
                   {s.bullets && (
                     <ul className="space-y-2 mb-3">
                       {s.bullets.map((bl) => (
                         <li key={bl} className="flex items-start gap-3">
                           <Snowflake className="w-4 h-4 text-pink shrink-0 mt-1" aria-hidden="true" />
-                          <span className="text-charcoal/75 leading-relaxed">{bl}</span>
+                          <span className="text-charcoal/75 leading-relaxed">{nb(bl)}</span>
                         </li>
                       ))}
                     </ul>
@@ -694,7 +701,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                     {String(i + 1).padStart(2, '0')}
                   </span>
                   <h3 className="font-heading text-2xl text-night tracking-wide mb-2">{h.title}</h3>
-                  <p className="text-charcoal/70 leading-relaxed text-[15px]">{h.body}</p>
+                  <p className="text-charcoal/70 leading-relaxed text-[15px]">{nb(h.body)}</p>
                   {hl && (
                     <a
                       href={`${hl.base}${pfx}${hl.path ?? '/'}`}
@@ -738,14 +745,14 @@ export default function DestinationPage(p: DestinationPageProps) {
               <h3 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4 flex items-center gap-3">
                 <Thermometer className="w-7 h-7 text-pink" /> {ui.seasonsH3}
               </h3>
-              <p className="text-white/75 leading-relaxed whitespace-pre-line">{b.whenToGo}</p>
+              <p className="text-white/75 leading-relaxed whitespace-pre-line">{nb(b.whenToGo)}</p>
             </div>
             <div>
               <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{ui.gettingThereEyebrow}</p>
               <h3 className="font-heading text-3xl sm:text-4xl tracking-wide mb-4 flex items-center gap-3">
                 <Bell className="w-7 h-7 text-pink" /> {ui.travelH3}
               </h3>
-              <p className="text-white/75 leading-relaxed whitespace-pre-line">{b.howToGet}</p>
+              <p className="text-white/75 leading-relaxed whitespace-pre-line">{nb(b.howToGet)}</p>
             </div>
           </div>
         </div>
@@ -779,7 +786,7 @@ export default function DestinationPage(p: DestinationPageProps) {
             {b.stayTypes.map((s) => (
               <div key={s} className="flex items-start gap-3 bg-pink/5 border border-pink/20 rounded-2xl p-5">
                 <Snowflake className="w-5 h-5 text-pink shrink-0 mt-0.5" />
-                <p className="text-charcoal/80 leading-relaxed">{s}</p>
+                <p className="text-charcoal/80 leading-relaxed">{nb(s)}</p>
               </div>
             ))}
           </div>
@@ -874,7 +881,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                         </div>
                         <div className="min-w-0">
                           <p className="text-[11px] uppercase tracking-widest text-white/55 font-semibold mb-1">{t.label}</p>
-                          <p className="text-white text-[15px] leading-snug">{t.detail}</p>
+                          <p className="text-white text-[15px] leading-snug">{nb(t.detail)}</p>
                         </div>
                       </li>
                     )
@@ -919,7 +926,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                   <span className="font-heading text-3xl text-pink shrink-0 leading-none w-12">{d.day}</span>
                   <div>
                     <h3 className="font-heading text-xl text-night tracking-wide mb-1.5">{d.title}</h3>
-                    <p className="text-charcoal/70 leading-relaxed text-[15px]">{d.body}</p>
+                    <p className="text-charcoal/70 leading-relaxed text-[15px]">{nb(d.body)}</p>
                   </div>
                 </div>
               ))}
@@ -973,7 +980,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                 <h3 className="font-heading text-xl text-night tracking-wide mb-1.5 group-hover:text-pink transition-colors">
                   {s.name}
                 </h3>
-                <p className="text-charcoal/60 text-sm leading-snug mb-3">{s.blurb}</p>
+                <p className="text-charcoal/60 text-sm leading-snug mb-3">{nb(s.blurb)}</p>
                 <span className="inline-flex items-center gap-1 text-[#DB2777] text-sm font-semibold">
                   {ui.seeStays} <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </span>
