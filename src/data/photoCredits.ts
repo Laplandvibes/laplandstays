@@ -88,7 +88,7 @@ export const PHOTO_CREDITS: Record<string, PhotoEntry> = {
   },
   'hero-whentogo': {
     credit: { author: 'Ninara', ...BY2, sourceUrl: cm('Lake Kilpisjärvi in Enontekiö, Lapland, Finland, 2021 September.jpg') },
-    place: { latin: 'Kilpisjärvi', ja: 'キルピスヤルヴィ', ko: '킬피스예르비', 'zh-CN': '基爾皮斯耶爾維' },
+    place: { latin: 'Kilpisjärvi', ja: 'キルピスヤルヴィ', ko: '킬피스야르비', 'zh-CN': '基爾皮斯耶爾維' },
     receipt: {
       source: 'Wikimedia Commons', id: 'Lake Kilpisjärvi in Enontekiö, Lapland, Finland, 2021 September.jpg', url: cm('Lake Kilpisjärvi in Enontekiö, Lapland, Finland, 2021 September.jpg'),
       license: 'CC BY 2.0', author: 'Ninara', date: '2021-09-07 10:55', retrieved: RETRIEVED, priceEur: 0,

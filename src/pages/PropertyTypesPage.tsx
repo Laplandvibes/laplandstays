@@ -350,7 +350,7 @@ const HERO_ALT: Record<Lang, string> = {
   'pt-BR': 'Cortinas verdes de aurora boreal sobre uma floresta escura de abetos e uma cerca iluminada de vermelho, Ylläsjärvi, Lapônia finlandesa',
   'zh-CN': '芬蘭拉普蘭於拉斯湖畔，綠色極光垂落在漆黑的雲杉林和一道被映成紅色的圍欄上空',
   fr: "Rideaux verts d'aurore boréale au-dessus d'une sombre forêt d'épicéas et d'une clôture éclairée en rouge, Ylläsjärvi, Laponie finlandaise",
-  ko: '핀란드 라플란드 윌래스예르비, 어두운 가문비나무 숲과 붉게 비친 울타리 위로 펼쳐진 초록빛 오로라',
+  ko: '핀란드 라플란드 윌래스야르비, 어두운 가문비나무 숲과 붉게 비친 울타리 위로 펼쳐진 초록빛 오로라',
   it: "Cortine verdi di aurora boreale sopra una scura foresta di abeti e una staccionata illuminata di rosso, Ylläsjärvi, Lapponia finlandese",
   nl: 'Groene noorderlichtgordijnen boven een donker sparrenbos en een rood verlicht hek, Ylläsjärvi in Fins Lapland',
   sv: 'Gröna norrskensdraperier över en mörk granskog och ett rödbelyst staket, Ylläsjärvi i finska Lappland',
