@@ -36,8 +36,11 @@ export default function Hero() {
   const h1Em = twoLineEm(c.h1, 0.025)
   return (
     <section className="relative overflow-hidden bg-night">
-      {/* Image */}
-      <div className="relative min-h-[90svh] sm:min-h-screen flex items-center justify-center">
+      {/* Alle 1024 px kuva omana kaistanaan ilman tummennusta ja teksti sen alla; lg+ teksti kuvan päällä
+          (Vesa 24.10.2026: "Kyllä, muuta etusivun hero puhelimessa samaan malliin: kuva puhtaana, teksti alle";
+          feedback_hero_kuva_puhtaana_otsikko_alle 3.10.). Kuvakerros = data-lv-tp-tausta (tekstipäällekkäisyysportti). */}
+      <div className="relative lg:min-h-screen lg:flex lg:items-center lg:justify-center">
+        <div className="relative h-[42svh] min-h-[240px] sm:h-[380px] md:h-[440px] lg:absolute lg:inset-0 lg:h-auto lg:min-h-0" data-lv-tp-tausta="hero">
         {/* Responsive hero (avif → webp → original). Mobile pulls the 800px
             variant; the preload in index.html feeds the same one before mount. */}
         <picture>
@@ -56,23 +59,24 @@ export default function Hero() {
         </picture>
 
         {/* Kuvan tekijä ja paikka, kun kuva sitä vaatii (Pexels-kuva 24.10.2026 ei vaadi, PhotoMark ei silloin renderöi mitään). */}
-        {!isSummerSeason() && <PhotoMark id="hero" className="absolute bottom-28 sm:bottom-36 right-3 z-20" />}
+        {!isSummerSeason() && <PhotoMark id="hero" className="absolute bottom-3 right-3 lg:bottom-36 z-20" />}
 
-        {/* Scrim for legibility */}
-        <div className="absolute inset-0 bg-gradient-to-b from-night/35 via-transparent to-night" />
+        {/* Tummennukset vain lg+, jossa teksti on kuvan päällä. */}
+        <div className="hidden lg:block absolute inset-0 bg-gradient-to-b from-night/35 via-transparent to-night" />
         {/* Tekstin takana oma tummennus (heroteksti-portti 9.10.2026): kirkas valokuva ei kanna pinkkiä yläotsikkoa ilman sitä */}
-        <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.55)_0%,rgba(15,23,42,0.26)_55%,rgba(15,23,42,0)_100%)]" />
+        <div aria-hidden="true" className="hidden lg:block absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.55)_0%,rgba(15,23,42,0.26)_55%,rgba(15,23,42,0)_100%)]" />
+        </div>
 
         {/* Hero copy */}
         {/* w-full: as a container this flex item may not size itself from its content (it would collapse to 0
             and 100cqi with it); w-full + max-w gives the same width the text used to stretch it to. */}
-        <div className="@container w-full relative z-10 text-center px-5 sm:px-6 max-w-3xl xl:max-w-5xl mx-auto pt-28 pb-32 sm:pb-40">
+        <div className="@container w-full relative z-10 text-center px-5 sm:px-6 max-w-3xl xl:max-w-5xl mx-auto pt-7 pb-8 sm:pt-9 sm:pb-10 lg:pt-28 lg:pb-40">
           {/* 🔴 Muste #F9A8D4, ei #EC4899 (heroteksti-portti 20.9.2026). Pinkki
               muste 11 px:n tekstissa valokuvan paalla mitattiin mediaanilla
               3,89:1 kun alle 18 px:n tekstin raja on 4,5:1 — 84 % taustapikse-
               leista alle rajan kolmella leveydella. Sama vaaleampi pinkki kuin
               hubin sanamerkissa: samaa taustaa vasten 7,57:1. Varjo jaa. */}
-          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-[11px] sm:text-xs font-semibold mb-5 inline-flex items-center justify-center gap-2 rounded-full bg-night/55 px-3.5 py-1.5 backdrop-blur-sm [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
+          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-[11px] sm:text-xs font-semibold mb-5 inline-flex items-center justify-center gap-2 lg:rounded-full lg:bg-night/55 lg:px-3.5 lg:py-1.5 lg:backdrop-blur-sm lg:[text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
             <MapPin className="w-3.5 h-3.5" />
             {c.eyebrow}
           </p>
@@ -90,8 +94,8 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Widget: overlaps hero on desktop, flows into section on mobile */}
-      <div id="search" className="relative z-20 -mt-24 sm:-mt-32 pb-12 sm:pb-16 px-4 sm:px-6">
+      {/* Widget: overlaps hero on desktop, flows under the hero copy below lg */}
+      <div id="search" className="relative z-20 lg:-mt-32 pb-12 sm:pb-16 px-4 sm:px-6">
         <div className="max-w-5xl mx-auto">
           <TravelSearchWidget defaultTab="hotels" />
           <p className="mt-4 text-center text-xs text-snow/80">
