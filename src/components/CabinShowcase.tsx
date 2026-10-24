@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, BedDouble, Ruler, Users } from 'lucide-react'
-import { buildLomarengasCabinUrl, buildLomarengasUrl, CABINS_API } from '../lib/affiliate'
+import { buildLomarengasCabinUrl, buildLomarengasUrl, CABINS_API, type LomarengasArea } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import type { Lang } from '../i18n/useLang'
 
@@ -13,7 +13,24 @@ import type { Lang } from '../i18n/useLang'
 // Every CTA routes through go/lomarengas so clicks land in D1 with an epi
 // placement tag. If the fetch fails (adblock, offline), the band hides itself.
 
-type GroupKey = 'levi' | 'yllas' | 'ruka' | 'saariselka'
+type ApiKey = 'levi' | 'yllas' | 'ruka' | 'saariselka'
+/** Areas the live /_cabins feed does not group (it knows four resorts): served from the site's own
+ *  per-area snapshot, the same file the /cabins/<area> page lists (Vesa 24.10.2026: "lomarenkaasta puuttuu
+ *  uudet kaupungit"). No weekly price there: the snapshot is up to a week old and a stale price is worse than none. */
+type StaticKey = 'pyha-luosto' | 'rovaniemi' | 'inari'
+type GroupKey = ApiKey | StaticKey
+
+type StaticFile = { count: number; generated: string; cabins: { id: string; name: string; img: string; slug: string; place: string; muni: string; guests: number; sqm: number | null; br: number | null; stars: number | null }[] }
+const STATIC_LOADERS: Record<StaticKey, () => Promise<{ default: StaticFile }>> = {
+  'pyha-luosto': () => import('../data/cabins/pyha-luosto.json') as Promise<{ default: StaticFile }>,
+  rovaniemi: () => import('../data/cabins/rovaniemi.json') as Promise<{ default: StaticFile }>,
+  inari: () => import('../data/cabins/inari.json') as Promise<{ default: StaticFile }>,
+}
+/** Lomarengas search behind "browse all": Pyhä–Luosto has no Lomarengas area of its own (CabinArea PARTNER_AREA). */
+const MORE_AREA: Record<GroupKey, LomarengasArea> = {
+  levi: 'levi', yllas: 'yllas', ruka: 'ruka', saariselka: 'saariselka', 'pyha-luosto': 'lapland', rovaniemi: 'rovaniemi', inari: 'inari',
+}
+const isStatic = (k: GroupKey): k is StaticKey => k in STATIC_LOADERS
 
 type ApiCabin = {
   id: string
@@ -49,7 +66,7 @@ export type ShowcaseCopy = {
   dataNote: string
 }
 
-const TABS: GroupKey[] = ['levi', 'yllas', 'ruka', 'saariselka']
+const TABS: ApiKey[] = ['levi', 'yllas', 'ruka', 'saariselka']
 const CARDS_SHOWN = 6
 
 let cabinsCache: ApiData | null = null
@@ -81,10 +98,25 @@ function PriceLine({ tpl, price }: { tpl: string; price: string }) {
 
 /** Internal /cabins/<area> pages exist in every site language (fi/en/de 16.9.2026, the other nine
  *  19.10.2026); callers pass localized hrefs + a label so the band links to the crawlable inventory page too. */
-export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLinkLabel }: { copy: ShowcaseCopy; areaNames: string[]; lang: Lang; areaHrefs?: Partial<Record<GroupKey, string>>; areaLinkLabel?: string }) {
+export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLinkLabel, extraTabs = [], staticNote }: { copy: ShowcaseCopy; areaNames: string[]; lang: Lang; areaHrefs?: Partial<Record<GroupKey, string>>; areaLinkLabel?: string; extraTabs?: { key: StaticKey; name: string }[]; /** Data note for snapshot tabs, `{date}` = list date. */ staticNote?: string }) {
   const [data, setData] = useState<ApiData | null>(cabinsCache)
   const [failed, setFailed] = useState(false)
   const [tab, setTab] = useState<GroupKey>('levi')
+  const [staticGroups, setStaticGroups] = useState<Partial<Record<StaticKey, { total: number; generated: string; cabins: ApiCabin[] }>>>({})
+
+  useEffect(() => {
+    if (!isStatic(tab) || staticGroups[tab]) return
+    let alive = true
+    STATIC_LOADERS[tab]().then((m) => {
+      if (!alive) return
+      const cabins: ApiCabin[] = m.default.cabins.map((c) => ({
+        id: c.id, name: c.name, img: c.img, slug: c.slug, place: c.place, muni: c.muni,
+        p: c.guests ?? null, pe: 0, sqm: c.sqm ?? null, br: c.br ?? null, stars: c.stars ?? null, weeklyFrom: null,
+      }))
+      setStaticGroups((g) => ({ ...g, [tab]: { total: m.default.count, generated: m.default.generated, cabins } }))
+    }).catch(() => {})
+    return () => { alive = false }
+  }, [tab, staticGroups])
 
   useEffect(() => {
     let alive = true
@@ -108,9 +140,15 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
 
   if (failed) return null
 
-  const cabins = data ? (data.groups[tab] ?? []).slice(0, CARDS_SHOWN) : []
-  const total = data?.totals[tab] ?? 0
-  const moreHref = buildLomarengasUrl(tab, `cabin_more_${tab}`, lang)
+  const sidTab = tab.replace(/-/g, '_')
+  const group = isStatic(tab) ? staticGroups[tab] : undefined
+  const cabins = isStatic(tab)
+    ? (group?.cabins ?? []).slice(0, CARDS_SHOWN)
+    : data ? (data.groups[tab] ?? []).slice(0, CARDS_SHOWN) : []
+  const total = isStatic(tab) ? group?.total ?? 0 : data?.totals[tab] ?? 0
+  const ready = isStatic(tab) ? !!group : !!data
+  const moreHref = buildLomarengasUrl(MORE_AREA[tab], `cabin_more_${sidTab}`, lang)
+  const tabs: { key: GroupKey; name: string }[] = [...TABS.map((key, i) => ({ key, name: areaNames[i] ?? key })), ...extraTabs]
 
   return (
     <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white">
@@ -136,7 +174,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
         <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-8 max-w-3xl">{copy.lead}</p>
 
         <div className="flex flex-wrap gap-2 mb-7" role="tablist" aria-label={copy.h2}>
-          {TABS.map((key, i) => (
+          {tabs.map(({ key, name }) => (
             <button
               key={key}
               type="button"
@@ -147,7 +185,7 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
                 tab === key ? 'bg-[#DB2777] text-white' : 'bg-white/10 text-white/80 hover:bg-white/20'
               }`}
             >
-              {areaNames[i] ?? key}
+              {name}
             </button>
           ))}
         </div>
@@ -158,12 +196,12 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
             suoraan ruudun reunaan. sm:stä ylös tämä on ruudukko joka mahtuu
             kokonaan, joten maski pois — muuten se haalistaisi oikean sarakkeen. */}
         <div className="flex gap-4 overflow-x-auto pb-3 snap-x snap-mandatory [mask-image:linear-gradient(to_right,#000_calc(100%_-_44px),transparent_100%)] sm:grid sm:grid-cols-2 lg:grid-cols-3 sm:gap-5 sm:overflow-visible sm:pb-0 sm:[mask-image:none]">
-          {!data
+          {!ready
             ? Array.from({ length: 3 }).map((_, i) => (
                 <div key={i} className="snap-start shrink-0 w-[78%] sm:w-auto sm:shrink rounded-2xl bg-white/10 animate-pulse aspect-[4/5]" />
               ))
             : cabins.map((c) => {
-                const sid = `cabin_card_${tab}`
+                const sid = `cabin_card_${sidTab}`
                 const href = buildLomarengasCabinUrl(c.slug, sid, lang)
                 // 'relative' is load-bearing: the sr-only spans inside are
                 // position:absolute, and without a positioned ancestor they
@@ -238,13 +276,13 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
               })}
         </div>
 
-        {data && total > 0 && (
+        {ready && total > 0 && (
           <div className="mt-8 flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between">
             <a
               href={moreHref}
               target="_blank"
               rel="sponsored nofollow noopener"
-              onClick={() => trackAffiliateClick('lomarengas', `cabin_more_${tab}`, moreHref)}
+              onClick={() => trackAffiliateClick('lomarengas', `cabin_more_${sidTab}`, moreHref)}
               className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 rounded-full border border-white/30 text-white font-semibold hover:border-pink hover:text-pink transition-colors"
             >
               <span className="min-w-0 break-words leading-snug">{copy.browseAll.replace('{count}', nf.format(total))}</span>
@@ -259,7 +297,11 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
                 <ArrowRight className="w-3.5 h-3.5 shrink-0" />
               </Link>
             )}
-            <p className="text-white/50 text-[12px] leading-relaxed">{copy.dataNote}</p>
+            <p className="text-white/60 text-[12px] leading-relaxed">
+              {group && staticNote
+                ? staticNote.replace('{date}', new Date(group.generated + 'T12:00:00Z').toLocaleDateString(lang, { day: 'numeric', month: 'numeric', year: 'numeric' }))
+                : copy.dataNote}
+            </p>
           </div>
         )}
       </div>

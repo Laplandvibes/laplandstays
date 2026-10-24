@@ -46,22 +46,22 @@ export default function Hero() {
           <img
             src={HERO.base}
             alt={isSummerSeason() ? c.altSummer ?? c.alt : c.alt}
-            className="absolute inset-0 w-full h-full object-cover object-[center_38%]"
+            className="absolute inset-0 w-full h-full object-cover object-[20%_60%] sm:object-[center_60%]"
             loading="eager"
             fetchPriority="high"
             decoding="async"
             width="1920"
-            height="1440"
+            height="1280"
           />
         </picture>
 
-        {/* Kuvan tekijä ja paikka (CC BY-SA). Widget peittää hero-kuvan alimmat ~96–128 px, joten merkintä istuu sen yläpuolella. */}
+        {/* Kuvan tekijä ja paikka, kun kuva sitä vaatii (Pexels-kuva 24.10.2026 ei vaadi, PhotoMark ei silloin renderöi mitään). */}
         {!isSummerSeason() && <PhotoMark id="hero" className="absolute bottom-28 sm:bottom-36 right-3 z-20" />}
 
         {/* Scrim for legibility */}
-        <div className="absolute inset-0 bg-gradient-to-b from-night/50 via-night/22 to-night" />
+        <div className="absolute inset-0 bg-gradient-to-b from-night/35 via-transparent to-night" />
         {/* Tekstin takana oma tummennus (heroteksti-portti 9.10.2026): kirkas valokuva ei kanna pinkkiä yläotsikkoa ilman sitä */}
-        <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.80)_0%,rgba(15,23,42,0.52)_58%,rgba(15,23,42,0.10)_100%)]" />
+        <div aria-hidden="true" className="absolute inset-0 [background:radial-gradient(ellipse_72%_64%_at_50%_52%,rgba(15,23,42,0.55)_0%,rgba(15,23,42,0.26)_55%,rgba(15,23,42,0)_100%)]" />
 
         {/* Hero copy */}
         {/* w-full: as a container this flex item may not size itself from its content (it would collapse to 0
@@ -72,7 +72,7 @@ export default function Hero() {
               3,89:1 kun alle 18 px:n tekstin raja on 4,5:1 — 84 % taustapikse-
               leista alle rajan kolmella leveydella. Sama vaaleampi pinkki kuin
               hubin sanamerkissa: samaa taustaa vasten 7,57:1. Varjo jaa. */}
-          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-[11px] sm:text-xs font-semibold mb-5 inline-flex items-center justify-center gap-2 [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
+          <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-[11px] sm:text-xs font-semibold mb-5 inline-flex items-center justify-center gap-2 rounded-full bg-night/55 px-3.5 py-1.5 backdrop-blur-sm [text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
             <MapPin className="w-3.5 h-3.5" />
             {c.eyebrow}
           </p>

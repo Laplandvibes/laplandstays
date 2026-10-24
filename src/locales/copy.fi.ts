@@ -25,7 +25,7 @@ const copy: ChromeCopy = {
     lead: 'Lasi-iglu, jossa katsot revontulia suoraan tyynyltä, hirsimökki, jossa on oma sauna ja järvi heti pihalla, tai kunnon hotelli kylän keskellä.',
     leadSummer: 'Rantamökki keskiyön auringon alla omalla saunalla, jokivarsimaja vihreällä tunturilla tai kunnon hotelli kylän keskellä.',
     disclosure: 'Sivu sisältää kumppanuuslinkkejä. Kun varaat näiden kautta, LaplandStays saa pienen provision ilman lisäkustannuksia sinulle.',
-    alt: "Pieni hirsimaja lumisella tunturilla Suomen Lapissa matalassa kultaisessa talvivalossa, lumessa kulkevia jälkiä",
+    alt: "Hirsitalo, jonka ikkunoissa palaa valo, vihreät revontulet tähtitaivaalla ja luminen piha mäntymetsän laidassa",
     altSummer: 'Isoikkunainen mökki korkeiden mäntyjen keskellä kallioisella järvenrannalla, edessä terassi ja riippumatto, matalan kultaisen auringon valossa',
   },
   editorial: {

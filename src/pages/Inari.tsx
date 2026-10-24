@@ -784,6 +784,27 @@ export default function Inari() {
         1: { base: 'https://laplandvisit.com' },
         2: { base: 'https://laplandvibes.com', path: '/northern-lights/' },
       }}
+      dayPlanStory={{
+        // Hub article from our own visit 12.–14.10.2026 (Visit Inari, paid partner: the note says so in every language).
+        path: '/blog/visit-inari/',
+        image: '/images/ads/inarijarvi-shore-1200.webp',
+        srcSet: '/images/ads/inarijarvi-shore-700.webp 700w, /images/ads/inarijarvi-shore-1200.webp 1200w',
+        place: 'Inarijärvi',
+        text: {
+          fi: { eyebrow: 'Kävimme Inarissa lokakuussa', title: 'Lounas Ivalossa, yö Lomakylä Inarissa ja aamu Inarijärven rannalla', cta: 'Lue, miltä Inarissa tuntui', note: 'Juttu on tehty yhteistyössä Visit Inarin kanssa.' },
+          en: { eyebrow: 'We visited Inari in October', title: 'Lunch in Ivalo, a night at Holiday Village Inari and a morning on Lake Inari', cta: 'Read how Inari felt', note: 'The article was made in partnership with Visit Inari.' },
+          de: { eyebrow: 'Wir waren im Oktober in Inari', title: 'Mittagessen in Ivalo, eine Nacht im Holiday Village Inari und ein Morgen am Inarisee', cta: 'Lesen Sie, wie sich Inari anfühlte', note: 'Der Artikel entstand in Zusammenarbeit mit Visit Inari.' },
+          ja: { eyebrow: '10月にイナリを訪ねました', title: 'イヴァロでランチ、Holiday Village Inari で一泊、イナリ湖畔の朝', cta: 'イナリで過ごした時間を読む', note: 'この記事は Visit Inari との協力で制作しました。' },
+          es: { eyebrow: 'Visitamos Inari en octubre', title: 'Almuerzo en Ivalo, una noche en el Holiday Village Inari y una mañana a orillas del lago Inari', cta: 'Lea cómo fue estar en Inari', note: 'El artículo se hizo en colaboración con Visit Inari.' },
+          'pt-BR': { eyebrow: 'Visitamos Inari em outubro', title: 'Almoço em Ivalo, uma noite no Holiday Village Inari e uma manhã à beira do lago Inari', cta: 'Leia como foi estar em Inari', note: 'A matéria foi feita em parceria com a Visit Inari.' },
+          'zh-CN': { eyebrow: '我們十月走訪了伊納里', title: '在伊瓦洛吃午餐、在 Holiday Village Inari 住一晚，在伊納里湖畔迎接早晨', cta: '閱讀我們在伊納里的見聞', note: '本文與 Visit Inari 合作製作。' },
+          ko: { eyebrow: '10월에 이나리를 다녀왔습니다', title: '이발로에서 점심, Holiday Village Inari에서 하룻밤, 이나리 호숫가의 아침', cta: '이나리에서 보낸 시간 읽기', note: '이 기사는 Visit Inari와 협력하여 제작했습니다.' },
+          fr: { eyebrow: 'Nous sommes allés à Inari en octobre', title: 'Déjeuner à Ivalo, une nuit au Holiday Village Inari et un matin au bord du lac Inari', cta: 'Lire ce que nous avons vécu à Inari', note: 'L’article a été réalisé en partenariat avec Visit Inari.' },
+          it: { eyebrow: 'Siamo stati a Inari a ottobre', title: 'Pranzo a Ivalo, una notte all’Holiday Village Inari e una mattina sul lago Inari', cta: 'Legga com’è stato stare a Inari', note: 'L’articolo è stato realizzato in collaborazione con Visit Inari.' },
+          nl: { eyebrow: 'We waren in oktober in Inari', title: 'Lunch in Ivalo, een nacht in Holiday Village Inari en een ochtend aan het Inarimeer', cta: 'Lees hoe Inari voelde', note: 'Het artikel is gemaakt in samenwerking met Visit Inari.' },
+          sv: { eyebrow: 'Vi var i Inari i oktober', title: 'Lunch i Ivalo, en natt på Holiday Village Inari och en morgon vid Enare träsk', cta: 'Läs hur det kändes i Inari', note: 'Artikeln är gjord i samarbete med Visit Inari.' },
+        },
+      }}
     />
   )
 }

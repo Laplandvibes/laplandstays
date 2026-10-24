@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { ArrowRight, MapPin, Thermometer, Bell, Snowflake, Plane, Bus, Car as CarIcon, Train } from 'lucide-react'
 import SEO from './SEO'
@@ -19,7 +20,7 @@ import { useCopy } from '../i18n/useCopy'
 import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './DestinationPage.copy.en'
 import type { Copy } from './DestinationPage.copy.types'
-import PhotoMark from './PhotoMark'
+import PhotoMark, { PICTURED } from './PhotoMark'
 
 export interface DestinationAnchor {
   name: string
@@ -162,6 +163,17 @@ export interface DestinationPageProps {
     nl?: DestinationBody
     sv?: DestinationBody
   }
+  /**
+   * Our own story from the place, linked under the sample itinerary (Inari 24.10.2026, Vesa: "eikö tästä voisi olla
+   * artikkeliin linkki, lue miltä inarissa tuntui olla"). `path` is the hub blog path; the language prefix is added here.
+   */
+  dayPlanStory?: {
+    path: string
+    image: string
+    srcSet?: string
+    place: string
+    text: Record<Lang, { eyebrow: string; title: string; cta: string; note?: string }>
+  }
   /** Optional ecosystem cross-links per highlight card, keyed by highlight index. */
   highlightLinks?: Record<number, HighlightLink>
 }
@@ -255,6 +267,19 @@ export default function DestinationPage(p: DestinationPageProps) {
   // /cabins/<area> inventory pages: every site language since 19.10.2026 (fi/en/de 16.9.2026, Inari 17.10.).
   const cabinPageHref = CABIN_PAGE_LABEL[lang] && CABIN_PAGE_AREA[p.slug] ? to(`/cabins/${CABIN_PAGE_AREA[p.slug]}`) : null
   const ui = useCopy<Copy>(enCopy, loaders, cache)
+  // One real cabin of this destination from the site's Lomarengas list (same file as /cabins/<area>), for the cabin ad.
+  const [cabinPhoto, setCabinPhoto] = useState<{ src: string; place: string; by: string; supplied: boolean } | null>(null)
+  useEffect(() => {
+    const area = CABIN_PAGE_AREA[p.slug]
+    if (!area) return
+    let alive = true
+    import(`../data/cabins/${area}.json`).then((m: { default: { cabins: { name: string; place: string; img: string; stars: number | null; section?: string }[] } }) => {
+      const list = m.default.cabins.filter((c) => c.img)
+      const best = list.find((c) => c.section !== 'far' && (c.stars ?? 0) >= 4) ?? list[0]
+      if (alive && best) setCabinPhoto({ src: best.img, place: `${best.name}, ${best.place}`, by: 'Lomarengas', supplied: true })
+    }).catch(() => {})
+    return () => { alive = false }
+  }, [p.slug])
   const regionLabel = p.region ? (p.region.label[lang] ?? p.region.label.en ?? ui.finnishLapland) : ui.finnishLapland
   // Sub-ids are snake_case (Worker convention); the URL slug of Pyhä–Luosto has a hyphen.
   const sidSlug = p.slug.replace(/-/g, '_')
@@ -687,6 +712,20 @@ export default function DestinationPage(p: DestinationPageProps) {
         </div>
       </section>
 
+      {/* MÖKKIMAINOS kohokohtien perään, ei enää autoilmoituksen kanssa sivun alaosassa (Vesa 24.10.2026: "voisiko
+          ne olla vähän ylempänä ettei ne olisi perästysten … jokin taustakuva, jotain eloa"). Funktio: lukija joka
+          vertaa hotelleja näkee, että saman paikan saa koko mökkinä; kuva on oikea mökki tämän kohteen syötteestä. */}
+      <section className="py-10 sm:py-12 px-4 sm:px-6 bg-gradient-to-b from-pink/5 to-white">
+        <div className="max-w-6xl mx-auto">
+          <PartnerStayAd
+            partner="lomarengas"
+            sid={`destination_${sidSlug}_lomarengas`}
+            lomarengasArea={LOMARENGAS_AREA_FOR[p.slug] ?? 'lapland'}
+            photo={cabinPhoto ?? undefined}
+          />
+        </div>
+      </section>
+
       {/* WHEN / HOW */}
       {/* Contained dark panel, not a full-bleed stripe — on wide desktops the
           edge-to-edge night bands cut the cream page into slabs (Vesa
@@ -709,6 +748,25 @@ export default function DestinationPage(p: DestinationPageProps) {
               <p className="text-white/75 leading-relaxed whitespace-pre-line">{b.howToGet}</p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* AUTOMAINOS saapumisohjeen perään: lukija on juuri lukenut miten kohteeseen pääsee. Kuva on oma
+          (tie 4 Inarin pohjoispuolella 13.10.2026), ei tekoälyautoa eikä kilpiä (CLAUDE.md, mainos sivun aiheesta). */}
+      <section className="pb-10 sm:pb-12 px-4 sm:px-6 bg-white">
+        <div className="max-w-6xl mx-auto">
+          <PartnerStayAd
+            partner="cars"
+            sid={`destination_${sidSlug}_cars`}
+            carsPickup={CARS_PICKUP_FOR[p.slug] ?? 'RVN'}
+            photo={{
+              src: '/images/ads/road-4-utsjoki-frost-1600.webp',
+              srcSet: '/images/ads/road-4-utsjoki-frost-900.webp 900w, /images/ads/road-4-utsjoki-frost-1600.webp 1600w',
+              place: lang === 'ja' ? 'E75、イナリ' : lang === 'ko' ? 'E75, 이나리' : lang === 'zh-CN' ? 'E75，伊納里' : 'E75, Inari',
+              by: 'LaplandVibes',
+              position: 'object-[48%_center]',
+            }}
+          />
         </div>
       </section>
 
@@ -748,20 +806,6 @@ export default function DestinationPage(p: DestinationPageProps) {
               </p>
             )}
           </div>
-        </div>
-      </section>
-
-      {/* PARTNER ADS, brand-skinned affiliate placements, contextual to booking.
-          the lodging partner (compare everything) + Lomarengas (whole-cabin angle). Each
-          ad carries its own AffiliateDisclosure + sponsored attrs internally. */}
-      <section className="py-14 sm:py-16 px-4 sm:px-6 bg-gradient-to-b from-pink/5 to-white">
-        <div className="max-w-5xl mx-auto grid grid-cols-1 gap-6">
-          {/* the lodging partner ad removed here: the page's own search already routes to
-              the lodging partner, so this slot sells a COMPLEMENTARY product instead
-              (car rental — replaced Kiwitaxi 2026-07-09, which doesn't serve
-              Lapland airports; no cannibalising our own affiliate route). */}
-          <PartnerStayAd partner="cars" sid={`destination_${sidSlug}_cars`} carsPickup={CARS_PICKUP_FOR[p.slug] ?? 'RVN'} />
-          <PartnerStayAd partner="lomarengas" sid={`destination_${sidSlug}_lomarengas`} lomarengasArea={LOMARENGAS_AREA_FOR[p.slug] ?? 'lapland'} />
         </div>
       </section>
 
@@ -880,6 +924,33 @@ export default function DestinationPage(p: DestinationPageProps) {
                 </div>
               ))}
             </div>
+
+            {p.dayPlanStory && (() => {
+              const st = p.dayPlanStory
+              const t = st.text[lang]
+              const storyHref = `https://laplandvibes.com${pfx}${st.path}`
+              return (
+                <a
+                  href={storyHref}
+                  target="_blank"
+                  rel="noopener"
+                  className="group mt-8 grid overflow-hidden rounded-2xl bg-night text-white shadow-[0_24px_48px_-28px_rgba(15,23,42,0.6)] md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]"
+                >
+                  <div className="relative aspect-[3/2] md:aspect-auto overflow-hidden">
+                    <img src={st.image} srcSet={st.srcSet} sizes="(min-width: 768px) 40vw, 100vw" alt="" loading="lazy" decoding="async" className="absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.03]" />
+                    <span className="absolute bottom-2 right-2 rounded bg-black/60 px-1.5 py-[3px] text-[10px] leading-tight text-white">{PICTURED[lang] + st.place}</span>
+                  </div>
+                  <div className="p-6 sm:p-8 md:py-9">
+                    <p className="text-[#F9A8D4] uppercase tracking-[0.24em] text-xs font-semibold mb-3">{t.eyebrow}</p>
+                    <h3 className="font-heading text-3xl sm:text-4xl tracking-wide leading-tight text-balance">{t.title}</h3>
+                    <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white underline decoration-white/40 underline-offset-4 group-hover:decoration-white">
+                      {t.cta} <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
+                    </span>
+                    {t.note && <p className="mt-4 text-sm text-white/65 leading-relaxed">{t.note}</p>}
+                  </div>
+                </a>
+              )
+            })()}
           </div>
         </section>
       )}
@@ -909,6 +980,31 @@ export default function DestinationPage(p: DestinationPageProps) {
               </Link>
             ))}
           </div>
+          {/* Every other destination of the site (24.10.2026: Ruka and Pyhä–Luosto came 22.10. and no page linked them
+              here). The three cards above keep their hand-written blurbs; the rest are name chips from the nav copy. */}
+          {(() => {
+            const all = [
+              { slug: 'levi', label: chrome.nav.levi }, { slug: 'yllas', label: chrome.nav.yllas }, { slug: 'ruka', label: chrome.nav.ruka },
+              { slug: 'pyha-luosto', label: chrome.nav.pyhaLuosto }, { slug: 'rovaniemi', label: chrome.nav.rovaniemi },
+              { slug: 'saariselka', label: chrome.nav.saariselka }, { slug: 'inari', label: chrome.nav.inari },
+            ]
+            const shown = new Set(b.siblings.map((x) => x.href.replace(/\/+$/, '').split('/').pop()))
+            const rest = all.filter((d) => d.slug !== p.slug && !shown.has(d.slug))
+            if (rest.length === 0) return null
+            return (
+              <div className="mt-5 flex flex-wrap justify-center gap-2.5">
+                {rest.map((d) => (
+                  <Link
+                    key={d.slug}
+                    to={to(`/destinations/${d.slug}`)}
+                    className="inline-flex items-center gap-1.5 min-h-11 rounded-full bg-white border border-night/10 px-4 py-2 text-sm font-semibold text-night hover:border-pink/50 hover:text-[#DB2777] transition-colors"
+                  >
+                    {d.label} <ArrowRight className="h-3.5 w-3.5" aria-hidden="true" />
+                  </Link>
+                ))}
+              </div>
+            )
+          })()}
         </div>
       </section>
 

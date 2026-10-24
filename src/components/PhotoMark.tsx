@@ -11,16 +11,16 @@ import { PHOTO_CREDITS, type PlaceNames } from '../data/photoCredits'
  * `rel` on `noopener` ilman `noreferrer`ia (verkoston sääntö), lisenssille `license`.
  * Kuvan päälle EI saa laittaa tätä linkin sisään: ei sisäkkäisiä linkkejä (kortit ovat <div>).
  */
-const PICTURED: Record<Lang, string> = {
+export const PICTURED: Record<Lang, string> = {
   en: 'Pictured: ', fi: 'Kuvassa: ', de: 'Im Bild: ', ja: '写真：', es: 'En la foto: ', 'pt-BR': 'Na foto: ',
   'zh-CN': '圖：', ko: '사진: ', fr: 'Sur la photo : ', it: 'Nella foto: ', nl: 'Op de foto: ', sv: 'På bilden: ',
 }
-const BY: Record<Lang, string> = {
+export const BY: Record<Lang, string> = {
   en: 'Photo: ', fi: 'Kuva: ', de: 'Foto: ', ja: '撮影：', es: 'Foto: ', 'pt-BR': 'Foto: ',
   'zh-CN': '攝影：', ko: '촬영: ', fr: 'Photo : ', it: 'Foto: ', nl: 'Foto: ', sv: 'Foto: ',
 }
 /** Kumppanin toimittama kuva: CJK-kielissä "kuvan toimittanut", ei "kuvannut" (撮影 = kuvaaja). */
-const SUPPLIED: Partial<Record<Lang, string>> = { ja: '写真提供：', 'zh-CN': '圖片提供：', ko: '사진 제공: ' }
+export const SUPPLIED: Partial<Record<Lang, string>> = { ja: '写真提供：', 'zh-CN': '圖片提供：', ko: '사진 제공: ' }
 const LINK = 'lv-tap after:-z-10 underline decoration-white/50 underline-offset-2 hover:decoration-white'
 
 const placeText = (p: PlaceNames, lang: Lang) => (lang === 'ja' || lang === 'ko' || lang === 'zh-CN' ? p[lang] : undefined) ?? p.latin

@@ -221,19 +221,19 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
     { key: 'cars', label: wc.tabs.cars, icon: Car, provider: 'EconomyBookings' },
   ]
 
-  const selectCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-10 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none appearance-none cursor-pointer transition-colors'
+  // Light card over the dark hero (Vesa 24.10.2026: "widget on liian tumma"): the navy box sat on a navy
+  // photograph and disappeared into it. Inputs are pale grey with dark ink, the active tab is the white sheet.
+  const selectCls = 'w-full bg-[#F4F6FA] text-night rounded-xl pl-12 pr-10 py-4 text-[15px] border border-night/15 hover:border-[#DB2777]/50 focus:border-[#DB2777] focus:bg-white outline-none appearance-none cursor-pointer transition-colors'
   // appearance-none hides the OS arrow, so every <select> draws its own chevron
-  const chevronCls = 'absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-white/60 pointer-events-none'
-  const dateCls = 'w-full bg-white/[0.07] text-white rounded-xl pl-12 pr-3 py-4 text-[15px] border border-white/25 hover:border-vibe-pink/50 focus:border-vibe-pink/70 outline-none [color-scheme:dark] transition-colors'
-  const iconCls = 'absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-vibe-pink pointer-events-none'
-  const labelCls = 'block text-[11px] uppercase tracking-[0.18em] text-white/85 font-semibold mb-2'
-  const optStyle = { background: '#0a1628', color: '#f8fafc' }
+  const chevronCls = 'absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-charcoal/55 pointer-events-none'
+  const dateCls = 'w-full bg-[#F4F6FA] text-night rounded-xl pl-12 pr-3 py-4 text-[15px] border border-night/15 hover:border-[#DB2777]/50 focus:border-[#DB2777] focus:bg-white outline-none [color-scheme:light] transition-colors'
+  const iconCls = 'absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-[#DB2777] pointer-events-none'
+  const labelCls = 'block text-[11px] uppercase tracking-[0.18em] text-charcoal/70 font-semibold mb-2'
+  const optStyle = { background: '#ffffff', color: '#0F172A' }
 
   return (
-    <div className={`relative rounded-3xl overflow-hidden shadow-2xl shadow-black/40 ${className}`}>
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0a1628] via-[#0f1d32] to-[#0a1628]" />
-      <div className="absolute top-0 left-0 right-0 h-[2px] bg-vibe-pink opacity-60" />
-      <div className="absolute -top-20 left-1/2 -translate-x-1/2 w-[400px] h-[200px] bg-vibe-pink opacity-[0.06] blur-[80px] rounded-full" />
+    <div className={`relative rounded-3xl overflow-hidden bg-white shadow-[0_24px_60px_-12px_rgba(2,6,23,0.55)] ${className}`}>
+      <div className="absolute top-0 left-0 right-0 h-[3px] bg-[#DB2777] z-20" />
 
       <div className="relative z-10">
         <div className="flex">
@@ -243,8 +243,8 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
               onClick={() => setActiveTab(key)}
               className={`flex-1 min-w-0 flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-2.5 px-1 py-3 sm:py-6 text-[11px] sm:text-[16px] font-bold tracking-wide uppercase leading-tight text-center transition-all border-b-2 ${
                 activeTab === key
-                  ? 'bg-vibe-pink/20 text-white border-vibe-pink'
-                  : 'text-white/85 hover:text-white hover:bg-white/10 border-transparent'
+                  ? 'bg-white text-night border-[#DB2777]'
+                  : 'bg-[#EEF2F7] text-charcoal/80 hover:text-night hover:bg-[#E4E9F1] border-transparent'
               }`}
             >
               <Icon className="w-4 h-4 sm:w-5 sm:h-5 shrink-0" />
@@ -253,7 +253,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
           ))}
         </div>
 
-        <div className="h-px bg-white/10" />
+        <div className="h-px bg-night/10" />
 
         <div className="p-5 sm:p-8">
           {activeTab === 'hotels' && (
@@ -379,7 +379,7 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
             <ArrowRight className="w-4 h-4" />
           </button>
 
-          <p className="text-center text-white/65 text-xs mt-4">
+          <p className="text-center text-charcoal/70 text-xs mt-4">
             {wc.poweredBy(tabs.find(t => t.key === activeTab)?.provider || '')}
           </p>
         </div>

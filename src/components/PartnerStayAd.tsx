@@ -4,6 +4,7 @@ import { useLang, type Lang } from '../i18n/useLang'
 import { trackAffiliateClick } from '../lib/analytics'
 import { buildAffiliateUrl, buildLomarengasUrl, type LomarengasArea } from '../lib/affiliate'
 import AffiliateDisclosure from './AffiliateDisclosure'
+import { BY, PICTURED, SUPPLIED } from './PhotoMark'
 
 // ─────────────────────────────────────────────────────────────────────────────
 // PartnerStayAd, a brand-skinned affiliate ad card for LaplandStays' booking
@@ -326,10 +327,16 @@ interface PartnerStayAdProps {
   /** lomarengas: cottage-search area for the deep link (default: all Lapland).
    *  Same rule — the ad must never land on lomarengas.fi's front page. */
   lomarengasArea?: LomarengasArea
+  /**
+   * Photo for the card (24.10.2026, Vesa: "ehkä niitä voisi vähän tuunata? jokin taustakuva … jotain eloa").
+   * Left column from md, a clean band on top on a phone; `place` + `by` become the small bottom-right mark
+   * ("Kuvassa: … / Kuva: …"), supplied photos (Lomarengas feed) with the CJK "supplied by" wording.
+   */
+  photo?: { src: string; srcSet?: string; place: string; by: string; supplied?: boolean; position?: string }
   className?: string
 }
 
-export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomarengasArea = 'lapland', className = '' }: PartnerStayAdProps) {
+export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomarengasArea = 'lapland', photo, className = '' }: PartnerStayAdProps) {
   const lang = useLang()
   const cfg = CONFIG[partner]
   const c = COPY[partner][lang] ?? COPY[partner].en
@@ -355,6 +362,24 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
         style={{ background: `radial-gradient(closest-side, ${cfg.accent}1F, transparent)` }}
       />
 
+      <div className={photo ? 'relative md:grid md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]' : 'relative'}>
+      {photo && (
+        <a href={href} target="_blank" rel="sponsored nofollow noopener" tabIndex={-1} aria-hidden="true" className="group/photo relative block aspect-[16/9] md:aspect-auto overflow-hidden">
+          <img
+            src={photo.src}
+            srcSet={photo.srcSet}
+            sizes={photo.srcSet ? '(min-width: 768px) 40vw, 100vw' : undefined}
+            alt=""
+            loading="lazy"
+            decoding="async"
+            className={`absolute inset-0 h-full w-full object-cover transition-transform duration-700 group-hover/photo:scale-[1.03] ${photo.position ?? 'object-center'}`}
+          />
+          <span className="absolute bottom-2 right-2 block w-fit max-w-[calc(100%-1rem)] rounded bg-black/60 px-1.5 py-[3px] text-right text-[10px] leading-tight text-white">
+            <span className="block">{PICTURED[lang] + photo.place}</span>
+            <span className="block">{((photo.supplied && SUPPLIED[lang]) || BY[lang]) + photo.by}</span>
+          </span>
+        </a>
+      )}
       <div className="relative p-6 sm:p-8">
         {/* Header: icon badge + eyebrow left, BIG real partner logo right.
             (Ad label moved to the bottom-right corner — Vesa 2026-07-06.)
@@ -424,6 +449,7 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
         </div>
 
         <AffiliateDisclosure variant="compact" className="mt-6 !justify-start text-left" />
+      </div>
       </div>
 
       {/* Ad label — bottom-right corner (Vesa 2026-07-06). */}

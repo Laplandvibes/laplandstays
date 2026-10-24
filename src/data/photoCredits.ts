@@ -48,13 +48,15 @@ const BY2 = { license: 'CC BY 2.0', licenseUrl: 'https://creativecommons.org/lic
 
 export const PHOTO_CREDITS: Record<string, PhotoEntry> = {
   // ---------------------------------------------------------------- HEROT
+  // 24.10.2026 (Vesa: "aivan hirveä tämä hero kuva"): hämärä Käsivarren autiotupa vaihtui majoitukseen revontulten alla.
+  // Commonsin ehdokkaat hylätty: Kilpisjärven mökki (Brotto) on jo hubin majoitussivulla ja dealsilla, Lapland View
+  // Lodge on Ruotsissa (Övertorneå), Pexels 31126199 kuvaajan tunnisteissa Norja, 91216 tunturikoivikkoa (ei varmistettavissa).
   hero: {
-    credit: { author: 'Tadeáš Gregor', ...BYSA4, sourceUrl: cm('Puvrrasjoki wilderness hut 3.jpg') },
-    place: { latin: 'Käsivarsi, Enontekiö', ja: 'ケシヴァルシ、エノンテキオ', ko: '케시바르시, 에논테키외', 'zh-CN': '凱西瓦爾西，埃農泰基厄' },
     receipt: {
-      source: 'Wikimedia Commons', id: 'Puvrrasjoki wilderness hut 3.jpg', url: cm('Puvrrasjoki wilderness hut 3.jpg'),
-      license: 'CC BY-SA 4.0', author: 'Tadeáš Gregor', date: '2010-03-16 16:32', retrieved: RETRIEVED, priceEur: 0,
-      changes: 'vain pienennys 3072x2304 -> 2560/1920/1200/800 px, AVIF + WebP, ei rajausta; GPS 68.90 N 21.40 E (Käsivarren erämaa)', checks: CHECKS,
+      source: 'Pexels', id: 'pexels:6386260', url: 'https://www.pexels.com/photo/6386260/',
+      license: 'Pexels License', author: 'SergK1', date: 'ladattu Pexelsiin 2021-01-03 (kuvaajan tunnisteet: Lapland, Finland, Rovaniemi)', retrieved: '2026-10-24', priceEur: 0,
+      changes: 'pienennetty 6720x4480 -> 2560/1920/1200/800 px, AVIF + WebP, ei rajausta; paikkaa ei väitetä (alt ei nimeä paikkaa)',
+      checks: 'katsottu 1600 px:nä: aito valokuva (ladattu 2021, ennen 2023), ei ihmisiä, ei merkkejä eikä kilpiä; tunnus haettu verkoston src/-kansioista ja kuvainventaariosta: ei muualla 24.10.2026',
     },
   },
   'hero-about': {

@@ -27,6 +27,7 @@
  * erillään tästä ja renderöityy kaikilla 12 kielellä ennallaan.
  */
 import PartnerSlot from '../shared/PartnerSlot'
+import FeaturedPartnerCard from './FeaturedPartnerCard'
 import { adLocaleEnabled, normalizeAdLocale, type AdLocale } from '../shared/adSlotsCopy'
 import {
   AD_SLOTS,
@@ -98,6 +99,16 @@ export default function FeaturedPartnerSlot({
   const context = contextLabel(placement, locale)
   const wrap = ['mb-10 sm:mb-12', className].filter(Boolean).join(' ')
   const markerTone = surface === 'dark' ? 'text-white/45' : 'text-charcoal/55'
+
+  // Myyty paikka isona korttina: oma kuvavetoinen asettelu, yksi mainosmerkintä oikeassa alakulmassa
+  // (Vesa 24.10.2026: merkintä oli kahdesti ja teksti valkoisella laatikolla valkoisella sivulla).
+  if (partner && cardLayout) {
+    return (
+      <div className={wrap} data-featured-partner={placement}>
+        <FeaturedPartnerCard partner={partner} locale={locale} marker={`${m.ad} · ${m.featured}`} />
+      </div>
+    )
+  }
 
   if (partner) {
     return (

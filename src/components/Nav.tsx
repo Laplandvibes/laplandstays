@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef, Fragment } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import { Menu, X } from 'lucide-react'
+import { ChevronDown, Menu, X } from 'lucide-react'
 import { HOTEL_SEARCH_FOR } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, pick } from '../i18n/useLang'
@@ -24,15 +24,30 @@ export default function Nav() {
   const to = useLocalePath()
   const c = useCopy().nav
 
+  /* Kohteet pudotusvalikkoon (Vesa 24.10.2026: "navista puuttuu" Ruka ja Pyhä–Luosto, jotka tulivat 22.10.).
+     Seitsemän kohdetta + neljä muuta linkkiä ei mahdu 1280 px:n riviin (alla 25.9. mittaus), joten
+     rivillä on yksi "Kohteet"-painike ja kaikki kohteet sen alla; puhelinvalikossa ne ovat omana ryhmänään. */
+  const destinations = [
+    { href: to('/destinations/levi'), label: c.levi },
+    { href: to('/destinations/yllas'), label: c.yllas },
+    { href: to('/destinations/ruka'), label: c.ruka },
+    { href: to('/destinations/pyha-luosto'), label: c.pyhaLuosto },
+    { href: to('/destinations/rovaniemi'), label: c.rovaniemi },
+    { href: to('/destinations/saariselka'), label: c.saariselka },
+    { href: to('/destinations/inari'), label: c.inari },
+  ]
   const links = [
     { href: to('/'), label: c.home },
     { href: to('/property-types'), label: c.propertyTypes },
-    { href: to('/destinations/levi'), label: c.levi },
-    { href: to('/destinations/yllas'), label: c.yllas },
-    { href: to('/destinations/saariselka'), label: c.saariselka },
-    { href: to('/destinations/inari'), label: c.inari },
-    { href: to('/destinations/rovaniemi'), label: c.rovaniemi },
+    { href: to('/cabins'), label: c.cabins },
   ]
+  const destLabel = pick(lang,
+    'Destinations', 'Kohteet', 'Reiseziele', 'エリア', 'Destinos',
+    'Destinos', '目的地', '여행지', 'Destinations', 'Destinazioni', 'Bestemmingen', 'Resmål')
+  const destActive = destinations.some((d) => samePath(location.pathname, d.href))
+  const [destOpen, setDestOpen] = useState(false)
+  // Hover opens the menu; a click right after that hover must not close it again (mouse users do both).
+  const hoverOpenedAt = useRef(0)
   // 🔴 Uutisosio EI mahdu tähän riviin (mitattu 25.9.2026). Lisäsin sen tänne, ja
   // `npm run portti --taso selain` kaatui: 1280 px:n leveydellä japaninkielinen
   // "今すぐ予約" rivittyi kahdelle riville, koska yksi linkki lisää vei tilan pilleriltä.
@@ -46,7 +61,15 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', handler)
   }, [])
 
-  useEffect(() => { setOpen(false) }, [location.pathname])
+  useEffect(() => { setOpen(false); setDestOpen(false) }, [location.pathname])
+  useEffect(() => {
+    if (!destOpen) return
+    const onKey = (e: KeyboardEvent) => { if (e.key === 'Escape') setDestOpen(false) }
+    const onDown = (e: MouseEvent) => { if (!(e.target as HTMLElement).closest('[data-lv-dest]')) setDestOpen(false) }
+    window.addEventListener('keydown', onKey)
+    window.addEventListener('mousedown', onDown)
+    return () => { window.removeEventListener('keydown', onKey); window.removeEventListener('mousedown', onDown) }
+  }, [destOpen])
 
 
   const homePath = to('/')
@@ -99,22 +122,56 @@ export default function Nav() {
           </div>
 
           <div className="hidden xl:flex items-center gap-0.5">
-            {links.map((l) => {
+            {links.map((l, i) => {
               const active = samePath(location.pathname, l.href)
+              const tone = (on: boolean) => on
+                ? 'text-pink bg-pink/10'
+                : scrolled
+                  ? 'text-charcoal hover:text-pink hover:bg-pink/5'
+                  : 'text-white/90 hover:text-white hover:bg-white/10'
               return (
-                <Link
-                  key={l.href}
-                  to={l.href}
-                  className={`whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${
-                    active
-                      ? 'text-pink bg-pink/10'
-                      : scrolled
-                        ? 'text-charcoal hover:text-pink hover:bg-pink/5'
-                        : 'text-white/90 hover:text-white hover:bg-white/10'
-                  }`}
-                >
-                  {l.label}
-                </Link>
+                <Fragment key={l.href}>
+                  {i === 1 && (
+                    <div className="relative" data-lv-dest="" onMouseLeave={() => setDestOpen(false)}>
+                      <button
+                        type="button"
+                        aria-expanded={destOpen}
+                        aria-haspopup="true"
+                        onClick={() => setDestOpen((v) => (v && Date.now() - hoverOpenedAt.current < 600 ? true : !v))}
+                        onMouseEnter={() => { hoverOpenedAt.current = Date.now(); setDestOpen(true) }}
+                        className={`inline-flex items-center gap-1 whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${tone(destActive || destOpen)}`}
+                      >
+                        {destLabel}
+                        <ChevronDown className={`w-3.5 h-3.5 transition-transform ${destOpen ? 'rotate-180' : ''}`} aria-hidden="true" />
+                      </button>
+                      {destOpen && (
+                        /* pt-2 = hover bridge: the pointer crosses the gap without closing the menu. */
+                        <div className="absolute left-0 top-full pt-2 z-50">
+                          <ul className="min-w-[13rem] rounded-xl bg-white shadow-[0_16px_40px_-8px_rgba(15,23,42,0.35)] ring-1 ring-night/10 p-1.5">
+                            {destinations.map((d) => (
+                              <li key={d.href}>
+                                <Link
+                                  to={d.href}
+                                  className={`block whitespace-nowrap px-3.5 py-2.5 text-sm font-medium rounded-lg transition-colors ${
+                                    samePath(location.pathname, d.href) ? 'text-pink bg-pink/10' : 'text-charcoal hover:text-pink hover:bg-pink/5'
+                                  }`}
+                                >
+                                  {d.label}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                  <Link
+                    to={l.href}
+                    className={`whitespace-nowrap px-3 py-1.5 text-sm font-medium rounded-lg transition-colors ${tone(active)}`}
+                  >
+                    {l.label}
+                  </Link>
+                </Fragment>
               )
             })}
             <div className={`ml-2 border-l pl-2 ${scrolled ? 'border-charcoal/15' : 'border-white/25'}`}>
@@ -163,6 +220,20 @@ export default function Nav() {
                 </Link>
               )
             })}
+            <p className="mt-4 px-4 pb-1 text-xs font-semibold uppercase tracking-[0.18em] text-charcoal/60">{destLabel}</p>
+            <div className="flex flex-col gap-1">
+              {destinations.map((d) => (
+                <Link
+                  key={d.href}
+                  to={d.href}
+                  className={`px-4 py-3 text-base font-medium rounded-xl transition-colors ${
+                    samePath(location.pathname, d.href) ? 'text-pink bg-pink/10' : 'text-charcoal hover:bg-pink/5'
+                  }`}
+                >
+                  {d.label}
+                </Link>
+              ))}
+            </div>
             <a
               href={bookHref}
               {...(isHome

@@ -102,7 +102,7 @@ function usePriceGuideCopy(): PriceGuideCopy {
 // up at a different x in every row, which defeats the whole point of a shared
 // axis. Below md the band drops to its own full-width line.
 const GRID =
-  'grid grid-cols-[minmax(0,1fr)] md:grid-cols-[minmax(0,1fr)_clamp(140px,26vw,300px)_1rem] gap-x-4 md:gap-x-6'
+  'grid grid-cols-[minmax(0,1fr)] md:grid-cols-[minmax(0,1fr)_clamp(140px,26vw,300px)_1rem] lg:grid-cols-[minmax(0,1fr)_clamp(150px,15vw,210px)_1rem] gap-x-4 md:gap-x-6'
 
 function RangeBar({ from, to, accent }: { from: number; to: number; accent: string }) {
   const left = pct(from)
@@ -150,109 +150,113 @@ export default function PriceGuide() {
   // expensive one" by shape (Vesa 2026-07-24, replacing the flat rate table;
   // amounts removed 2026-09-24). The SEO keyword slug that used to sit under
   // each name is gone: the anchor properties are the line worth reading there.
+  // Booking note: left-aligned at a readable measure. Rendered in the left column from lg, under the ladder below lg.
+  const tip = (
+    <>
+      <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-pink">
+        {copy.tip.label.replace(/[.:：。]\s*$/, '')}
+      </p>
+      <p className="mt-2 max-w-[68ch] text-[15px] leading-relaxed text-charcoal/75">
+        {copy.tip.pre}
+        <strong className="font-semibold text-night">{copy.tip.strong}</strong>
+        {copy.tip.post}
+      </p>
+    </>
+  )
+
   return (
     <section id="price-guide" className="lvs-warm-veil py-16 sm:py-24 px-4 sm:px-6 bg-gradient-to-b from-[#FBF6F0] via-white to-white">
-      <div className="relative max-w-5xl mx-auto">
-        {/* Centred like every other section header on the page; the measure is
-            capped at ~54ch so the lead stops wrapping into ragged full-width
-            lines the way it did at max-w-3xl. */}
-        {/* lg:max-w-none (3.10.2026): the 54ch cap (593 px) also held the 60 px heading, which ran to three
-            lines in fi/es/fr ("MAJOITUSTYYPIT / KALLEIMMASTA / EDULLISIMPAAN") inside a 1024 px section. The
-            heading now uses the section width and balances to two lines; the lead keeps its 54ch measure. */}
-        <div className="mb-8 sm:mb-12 mx-auto max-w-[54ch] lg:max-w-none text-center">
-          <p className="text-pink uppercase tracking-[0.28em] text-xs sm:text-sm font-semibold mb-3">
-            {copy.eyebrow}
-          </p>
-          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">
-            {copy.heading}
-          </h2>
-          {/* Own wrapper so 54ch is measured in the 16 px body face, as before (593 px). */}
-          <div className="lg:max-w-[54ch] lg:mx-auto">
-            <p className="mt-4 text-charcoal/70 text-base sm:text-[17px] leading-relaxed hidden sm:block">
-              {copy.lead}
-            </p>
-          </div>
-        </div>
-
-        <div className="lvs-card overflow-hidden rounded-3xl">
-          {/* Scale header: labels the axis the bars below are drawn against.
-              Visible on mobile too: below md the row drops its band onto its own
-              line, and an unlabelled bar with no figure beside it says nothing. */}
-          <div className={`${GRID} px-5 sm:px-8 pt-5 md:pt-6 pb-3 md:pb-4 items-end`}>
-            <span />
-            <div className="relative">
-              <div className="flex justify-between text-[10px] font-semibold uppercase tracking-[0.14em] text-charcoal/40">
-                <span>{copy.scale.low}</span>
-                <span>{copy.scale.high}</span>
-              </div>
-              <div className="relative mt-1.5 h-1.5">
-                {SCALE_TICKS.map((t) => (
-                  <span key={t} className="absolute bottom-0 h-1.5 w-px bg-night/[0.12]" style={{ left: `${pct(t)}%` }} />
-                ))}
-                <span className="absolute bottom-0 left-0 right-0 h-px bg-night/[0.08]" />
-              </div>
+      <div className="relative max-w-5xl lg:max-w-7xl mx-auto">
+        {/* One card on a computer (Vesa 24.10.2026: "eikö tietokoneella nämä voisi olla rinnakkain yhtenä korttina?"):
+            the header, lead and booking tip were stacked above and below a 1 024 px list with empty page on both
+            sides. From lg the card has two columns, the words on the left and the ladder on the right; below lg it
+            keeps the old order (header, ladder, tip), centred like the other section headers. */}
+        <div className="lvs-card overflow-hidden rounded-3xl lg:grid lg:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+          <div className="flex flex-col px-5 sm:px-8 lg:px-10 pt-7 sm:pt-9 lg:py-10 lg:bg-[#FBF6F0] lg:border-r lg:border-night/[0.06]">
+            <div className="mx-auto max-w-[54ch] text-center lg:mx-0 lg:max-w-none lg:text-left">
+              <p className="text-pink uppercase tracking-[0.28em] text-xs sm:text-sm font-semibold mb-3">
+                {copy.eyebrow}
+              </p>
+              <h2 className="text-4xl sm:text-5xl lg:text-4xl font-heading text-night tracking-wide text-balance">
+                {copy.heading}
+              </h2>
+              <p className="mt-4 text-charcoal/70 text-base sm:text-[17px] leading-relaxed hidden sm:block">
+                {copy.lead}
+              </p>
             </div>
-            <span />
+            <div className="hidden lg:block mt-auto pt-8">{tip}</div>
           </div>
 
-          {copy.tiers.map((tier, i) => {
-            const meta = tierMetaFor(lang)[i]
-            const Icon = meta.icon
-            const [r, g, b] = rampRgb(pct(meta.to) / 100)
-            const accent = `rgb(${r} ${g} ${b})`
-            return (
-              <a
-                key={tier.name}
-                href={meta.cta}
-                target="_blank"
-                rel="sponsored nofollow noopener"
-                onClick={onClick(meta.campaign, meta.cta)}
-                aria-label={`${tier.name}: ${tier.ctaLabel}`}
-                style={{ ['--tier-accent' as string]: accent }}
-                className={`${GRID} group items-center px-5 sm:px-8 py-5 border-t border-night/[0.055] transition-colors duration-200 hover:bg-[#FDF9F4]`}
-              >
-                <div className="col-start-1 row-start-1 flex items-center gap-3.5 min-w-0">
-                  <span
-                    className="hidden sm:flex h-11 w-11 shrink-0 items-center justify-center rounded-xl"
-                    style={{ background: `rgb(${r} ${g} ${b} / 0.12)` }}
-                  >
-                    <Icon className="h-5 w-5" style={{ color: accent }} />
-                  </span>
-                  <div className="min-w-0">
-                    {/* leading-tight, not leading-none: Bebas umlauts (ä/ö in
-                        fi/sv/de) sit high and clip against a 1.0 line box. */}
-                    <h3 className="font-heading text-xl sm:text-2xl text-night tracking-wide leading-tight">
-                      {tier.name}
-                    </h3>
-                    {/* Three names, not all five: the full list overran the
-                        column and the clamp cut a property name mid-word. */}
-                    <p className="mt-1.5 text-[13px] leading-snug text-charcoal/55 line-clamp-1">
-                      {tier.examples.slice(0, 3).join(' · ')}
-                    </p>
+          <div className="mt-6 lg:mt-0 lg:py-4">
+            {/* Scale header: labels the axis the bars below are drawn against.
+                Visible on mobile too: below md the row drops its band onto its own
+                line, and an unlabelled bar with no figure beside it says nothing. */}
+            <div className={`${GRID} px-5 sm:px-8 pt-5 md:pt-6 pb-3 md:pb-4 items-end`}>
+              <span />
+              <div className="relative">
+                <div className="flex justify-between text-[10px] font-semibold uppercase tracking-[0.14em] text-charcoal/40">
+                  <span>{copy.scale.low}</span>
+                  <span>{copy.scale.high}</span>
+                </div>
+                <div className="relative mt-1.5 h-1.5">
+                  {SCALE_TICKS.map((t) => (
+                    <span key={t} className="absolute bottom-0 h-1.5 w-px bg-night/[0.12]" style={{ left: `${pct(t)}%` }} />
+                  ))}
+                  <span className="absolute bottom-0 left-0 right-0 h-px bg-night/[0.08]" />
+                </div>
+              </div>
+              <span />
+            </div>
+  
+            {copy.tiers.map((tier, i) => {
+              const meta = tierMetaFor(lang)[i]
+              const Icon = meta.icon
+              const [r, g, b] = rampRgb(pct(meta.to) / 100)
+              const accent = `rgb(${r} ${g} ${b})`
+              return (
+                <a
+                  key={tier.name}
+                  href={meta.cta}
+                  target="_blank"
+                  rel="sponsored nofollow noopener"
+                  onClick={onClick(meta.campaign, meta.cta)}
+                  aria-label={`${tier.name}: ${tier.ctaLabel}`}
+                  style={{ ['--tier-accent' as string]: accent }}
+                  className={`${GRID} group items-center px-5 sm:px-8 py-5 border-t border-night/[0.055] transition-colors duration-200 hover:bg-[#FDF9F4]`}
+                >
+                  <div className="col-start-1 row-start-1 flex items-center gap-3.5 min-w-0">
+                    <span
+                      className="hidden sm:flex h-11 w-11 shrink-0 items-center justify-center rounded-xl"
+                      style={{ background: `rgb(${r} ${g} ${b} / 0.12)` }}
+                    >
+                      <Icon className="h-5 w-5" style={{ color: accent }} />
+                    </span>
+                    <div className="min-w-0">
+                      {/* leading-tight, not leading-none: Bebas umlauts (ä/ö in
+                          fi/sv/de) sit high and clip against a 1.0 line box. */}
+                      <h3 className="font-heading text-xl sm:text-2xl text-night tracking-wide leading-tight">
+                        {tier.name}
+                      </h3>
+                      {/* Three names, not all five: the full list overran the
+                          column and the clamp cut a property name mid-word. */}
+                      <p className="mt-1.5 text-[13px] leading-snug text-charcoal/55 line-clamp-1 lg:line-clamp-2">
+                        {tier.examples.slice(0, 3).join(' · ')}
+                      </p>
+                    </div>
                   </div>
-                </div>
+  
+                  <ArrowRight className="hidden md:block col-start-3 row-start-1 h-4 w-4 shrink-0 self-center text-charcoal/25 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-[var(--tier-accent)]" />
+  
+                  <div className="col-start-1 row-start-2 mt-4 md:col-start-2 md:row-start-1 md:mt-0 md:self-center">
+                    <RangeBar from={meta.from} to={meta.to} accent={accent} />
+                  </div>
+                </a>
+              )
+            })}
+  
+            </div>
 
-                <ArrowRight className="hidden md:block col-start-3 row-start-1 h-4 w-4 shrink-0 self-center text-charcoal/25 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-[var(--tier-accent)]" />
-
-                <div className="col-start-1 row-start-2 mt-4 md:col-start-2 md:row-start-1 md:mt-0 md:self-center">
-                  <RangeBar from={meta.from} to={meta.to} accent={accent} />
-                </div>
-              </a>
-            )
-          })}
-
-          {/* Booking note: left-aligned at a readable measure instead of a
-              centred block that wrapped into ragged lines. */}
-          <div className="border-t border-night/[0.055] bg-[#FBF6F0] px-5 sm:px-8 py-5 sm:py-6">
-            <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-pink">
-              {copy.tip.label.replace(/[.:：。]\s*$/, '')}
-            </p>
-            <p className="mt-2 max-w-[68ch] text-[15px] leading-relaxed text-charcoal/75">
-              {copy.tip.pre}
-              <strong className="font-semibold text-night">{copy.tip.strong}</strong>
-              {copy.tip.post}
-            </p>
-          </div>
+          <div className="lg:hidden border-t border-night/[0.055] bg-[#FBF6F0] px-5 sm:px-8 py-5 sm:py-6">{tip}</div>
         </div>
 
         <AffiliateDisclosure variant="compact" className="mt-6 sm:mt-8 text-center" />

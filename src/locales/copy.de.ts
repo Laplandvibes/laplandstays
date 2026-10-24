@@ -25,7 +25,7 @@ const copy: ChromeCopy = {
     lead: 'Glasiglus unter dem Polarlicht, Polarlicht-Blockhütten im Kiefernwald mit eigener Sauna und Lappland-Hotels mitten im Dorf.',
     leadSummer: 'Seehütten unter der Mitternachtssonne mit eigener Sauna, Blockhütten am Fluss in den grünen Fjälls oder ein richtiges Hotel mitten im Dorf.',
     disclosure: 'Diese Seite enthält Partnerlinks. Wenn Sie darüber buchen, erhält LaplandStays möglicherweise eine Provision ohne Mehrkosten für Sie.',
-    alt: "Eine kleine Blockhütte auf einem verschneiten Fjäll in Finnisch-Lappland im tiefen goldenen Winterlicht, Spuren im Schnee",
+    alt: "Ein Blockhaus mit erleuchteten Fenstern, grünes Polarlicht am Sternenhimmel und ein verschneiter Hof am Rand eines Kiefernwalds",
     altSummer: 'Eine Hütte mit großen Fenstern zwischen hohen Kiefern an einem felsigen Seeufer, davor eine Terrasse und eine Hängematte, im tiefen goldenen Sonnenlicht',
   },
   editorial: {
