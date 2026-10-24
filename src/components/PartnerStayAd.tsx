@@ -386,7 +386,9 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
             <sm the logo gets its own row on top (flex-col-reverse): the h-14
             logo + shrink-0 next to the eyebrow overflowed the card's inner
             ~300px at 375px and overflow-hidden clipped it (Vesa 2026-08-09). */}
-        <div className="mb-4 flex flex-col-reverse gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+        {/* With a photo the text column is narrow: logo on its own row (the 24.10. layout put the logo over the eyebrow at
+            1024–1280 px), and no header logo at all when the feed photo already carries the Lomarengas mark. */}
+        <div className={photo ? 'mb-4 flex flex-col-reverse gap-3' : 'mb-4 flex flex-col-reverse gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4'}>
           <div className="flex items-center gap-3 min-w-0">
             <span
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl"
@@ -398,7 +400,7 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
               {c.eyebrow}
             </p>
           </div>
-          {cfg.logo ? (
+          {photo && partner === 'lomarengas' ? null : cfg.logo ? (
             <img
               src={cfg.logo}
               alt={cfg.brand}
@@ -406,7 +408,7 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
               height={80}
               loading="lazy"
               decoding="async"
-              className="h-10 sm:h-14 md:h-20 w-auto max-w-[240px] sm:max-w-[260px] shrink-0 self-start"
+              className={photo ? 'h-10 sm:h-12 w-auto max-w-[200px] shrink-0 self-start' : 'h-10 sm:h-14 md:h-20 w-auto max-w-[240px] sm:max-w-[260px] shrink-0 self-start'}
             />
           ) : (
             // Category advertiser (car rental) without a brand logo: brand name

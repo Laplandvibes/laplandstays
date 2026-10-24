@@ -14,6 +14,8 @@ import FAQSection, { type FAQItem } from '../components/FAQSection'
 import CabinCarAd from '../components/CabinCarAd'
 import HomeCabinShowcase from '../components/HomeCabinShowcase'
 import HomeAdSlots, { MainPartnerBanner } from '../shared/HomeAdSlots'
+import FeaturedPartnerCard from '../components/FeaturedPartnerCard'
+import { adSlotsCopy } from '../shared/adSlotsCopy'
 import { AD_SLOTS } from '../data/adSlots'
 import Newsletter from '../components/Newsletter'
 import SEO from '../components/SEO'
@@ -176,7 +178,18 @@ export default function Home() {
       <FeaturedProperties />
       {/* LV Media -kumppaniosio: kakkospääkumppani + 6 kohdepaikkaa
           (house-adit kun tyhjänä). */}
-      <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
+      {/* Yksi kumppanikortti (Aurora Holidays) samaan kuvavetoiseen korttiin kuin kohdesivun esittelykumppani:
+          jaettu kortti oli valkoinen tekstilaatikko valkoisella sivulla (Vesa 24.10.2026: "aurora holidays on edelleen
+          valkoinen valkoista taustaa vasten?"). Kaksi korttia tai tyhjä paikka = jaettu HomeAdSlots ennallaan. */}
+      {AD_SLOTS.cards?.[0] && !AD_SLOTS.cards?.[1] ? (
+        <section className="py-12 sm:py-16 px-4 sm:px-6">
+          <div className="max-w-6xl mx-auto">
+            <FeaturedPartnerCard partner={AD_SLOTS.cards[0]} locale={lang} marker={adSlotsCopy(lang).badge} />
+          </div>
+        </section>
+      ) : (
+        <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
+      )}
       {/* Oikea tuoterivi tyhjän house-ad-kortin tilalle (Vesa 4.9.). */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         <ProductRail partner={finlaysonRail} snapshot={finlaysonPicks} lang={lang as RailLang} sid="home_bed_linen" variant="light" />

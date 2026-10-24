@@ -36,8 +36,9 @@ export default function FeaturedPartnerCard({ partner, locale, marker }: { partn
       data-partner-slot="card"
       className="group relative overflow-hidden rounded-[28px] bg-night shadow-[0_28px_56px_-28px_rgba(15,23,42,0.55)] md:min-h-[27rem] lg:min-h-[29rem]"
     >
-      {/* Photo: its own block on a phone (clean, nothing over it but the logo), the card's background from md. */}
-      <a href={href} target="_blank" rel="sponsored nofollow noopener" tabIndex={-1} aria-hidden="true" className="block md:absolute md:inset-0">
+      {/* Photo: its own block on a phone; from md the right 70 % of the card, fading into the text column. Not the whole
+          card: partner files can be small (Aurora Holidays 986 px from a brochure) and a full 1 152 px card upscaled it soft. */}
+      <a href={href} target="_blank" rel="sponsored nofollow noopener" tabIndex={-1} aria-hidden="true" className="block md:absolute md:inset-y-0 md:right-0 md:left-[30%]">
         <div className="relative aspect-[16/10] md:aspect-auto md:h-full overflow-hidden">
           {partner.imageSrc && (
             <img
@@ -53,12 +54,12 @@ export default function FeaturedPartnerCard({ partner, locale, marker }: { partn
           <div
             aria-hidden="true"
             className="absolute inset-0 hidden md:block lg:hidden"
-            style={{ background: 'linear-gradient(90deg, rgba(15,23,42,0.92) 0%, rgba(15,23,42,0.84) 55%, rgba(15,23,42,0.35) 80%, rgba(15,23,42,0.1) 100%)' }}
+            style={{ background: 'linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(15,23,42,0.85) 40%, rgba(15,23,42,0.4) 75%, rgba(15,23,42,0.15) 100%)' }}
           />
           <div
             aria-hidden="true"
             className="absolute inset-0 hidden lg:block"
-            style={{ background: 'linear-gradient(90deg, rgba(15,23,42,0.92) 0%, rgba(15,23,42,0.78) 34%, rgba(15,23,42,0.30) 56%, rgba(15,23,42,0) 70%)' }}
+            style={{ background: 'linear-gradient(90deg, rgba(15,23,42,1) 0%, rgba(15,23,42,0.7) 20%, rgba(15,23,42,0.2) 42%, rgba(15,23,42,0) 58%)' }}
           />
         </div>
       </a>

@@ -3,6 +3,7 @@ import { useLang, type Lang } from '../i18n/useLang'
 import { buildAffiliateUrl } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import AffiliateDisclosure from './AffiliateDisclosure'
+import { BY, PICTURED } from './PhotoMark'
 
 /**
  * CabinCarAd — car rental built from the CABIN reader's situation, not from the product.
@@ -159,8 +160,26 @@ export default function CabinCarAd({ className = '' }: { className?: string }) {
         className="pointer-events-none absolute -top-24 -right-24 h-64 w-64 rounded-full"
         style={{ background: `radial-gradient(closest-side, ${ACCENT}1F, transparent)` }}
       />
+      {/* Photo column (Vesa 24.10.2026: "etusivulla on myös economy booking ilman kuvaa"): own photo from the
+          October trip, road between Saariselkä and Ivalo with the fells behind; no people, no plates. */}
+      <div className="relative md:grid md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)]">
+      <div className="relative aspect-[16/9] md:aspect-auto overflow-hidden">
+        <img
+          src="/images/ads/road-saariselka-ivalo-fells-1600.webp"
+          srcSet="/images/ads/road-saariselka-ivalo-fells-900.webp 900w, /images/ads/road-saariselka-ivalo-fells-1600.webp 1600w"
+          sizes="(min-width: 768px) 40vw, 100vw"
+          alt=""
+          loading="lazy"
+          decoding="async"
+          className="absolute inset-0 h-full w-full object-cover object-[40%_center]"
+        />
+        <span className="absolute bottom-2 right-2 block rounded bg-black/60 px-1.5 py-[3px] text-right text-[10px] leading-tight text-white">
+          <span className="block">{PICTURED[lang]}{lang === 'ja' ? 'サーリセルカ–イヴァロ' : lang === 'ko' ? '사리셀카–이발로' : lang === 'zh-CN' ? '薩利色爾卡–伊瓦洛' : 'Saariselkä–Ivalo'}</span>
+          <span className="block">{BY[lang]}LaplandVibes</span>
+        </span>
+      </div>
       <div className="relative p-6 sm:p-8">
-        <div className="mb-4 flex flex-col-reverse gap-3 sm:flex-row sm:items-start sm:justify-between sm:gap-4">
+        <div className="mb-4 flex flex-col-reverse gap-3">
           <div className="flex items-center gap-3 min-w-0">
             <span
               className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl"
@@ -179,7 +198,7 @@ export default function CabinCarAd({ className = '' }: { className?: string }) {
             height={80}
             loading="lazy"
             decoding="async"
-            className="h-10 sm:h-14 md:h-20 w-auto max-w-[240px] sm:max-w-[260px] shrink-0 self-start"
+            className="h-10 sm:h-12 w-auto max-w-[200px] shrink-0 self-start"
           />
         </div>
 
@@ -218,6 +237,7 @@ export default function CabinCarAd({ className = '' }: { className?: string }) {
         <p className="mt-3 text-charcoal/55 text-[12px] leading-relaxed">{c.note}</p>
 
         <AffiliateDisclosure variant="compact" className="mt-6 !justify-start text-left" />
+      </div>
       </div>
 
       <span
