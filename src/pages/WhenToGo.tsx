@@ -36,15 +36,6 @@ const articleJsonLd = {
   image: "https://laplandstays.com/og/when-to-go-1200x630.jpg",
 }
 
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://laplandstays.com/' },
-    { '@type': 'ListItem', position: 2, name: 'When to Go', item: 'https://laplandstays.com/when-to-go' },
-  ],
-}
-
 // ---------- copy (lazy-loaded per locale) ----------
 
 const cache: Partial<Record<Lang, PageCopy>> = { en: enCopy }
@@ -89,7 +80,7 @@ export default function WhenToGo() {
         canonicalPath="/when-to-go"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['when to visit lapland', 'best time lapland', 'aurora season finland', 'midnight sun lapland', 'lapland weather by month', 'lapland march', 'lapland new year']}
-        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo)]}
       />
 
       <section className="relative overflow-hidden bg-night text-white">

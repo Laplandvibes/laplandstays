@@ -27,15 +27,6 @@ const aboutPageJsonLd = {
   },
 }
 
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://laplandstays.com/' },
-    { '@type': 'ListItem', position: 2, name: 'About', item: 'https://laplandstays.com/about' },
-  ],
-}
-
 // ---------- copy (lazy-loaded per locale) ----------
 
 const cache: Partial<Record<Lang, PageCopy>> = { en: enCopy }
@@ -77,7 +68,7 @@ export default function About() {
         canonicalPath="/about"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['about laplandstays', 'lapeso oy', 'lapland accommodation guide', 'who runs laplandstays']}
-        jsonLd={[aboutPageJsonLd, breadcrumbJsonLd]}
+        jsonLd={[aboutPageJsonLd]}
       />
 
       <section className="relative overflow-hidden bg-night text-white">

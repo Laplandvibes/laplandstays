@@ -39,15 +39,6 @@ const articleJsonLd = {
   image: 'https://laplandstays.com/og-default.jpg',
 }
 
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://laplandstays.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Cabin Holidays', item: 'https://laplandstays.com/cabins' },
-  ],
-}
-
 // ---------- copy (lazy-loaded per locale) ----------
 
 const cache: Partial<Record<Lang, PageCopy>> = { en: enCopy }
@@ -149,7 +140,7 @@ export default function Cabins() {
         canonicalPath="/cabins"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['lapland cabin holiday', 'lapland log cabin', 'levi cabin', 'yllas cabin', 'ruka cabin', 'saariselka cabin', 'finnish mokki', 'lomarengas lapland']}
-        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo)]}
       />
 
       <section className="relative overflow-hidden bg-night text-white">

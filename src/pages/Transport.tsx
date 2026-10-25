@@ -39,15 +39,6 @@ const articleJsonLd = {
   image: "https://laplandstays.com/og/transport-1200x630.jpg",
 }
 
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://laplandstays.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Transport', item: 'https://laplandstays.com/transport' },
-  ],
-}
-
 // ---------- copy (lazy-loaded per locale) ----------
 
 const cache: Partial<Record<Lang, PageCopy>> = { en: enCopy }
@@ -101,7 +92,7 @@ export default function Transport() {
         canonicalPath="/transport"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['how to get to lapland', 'flights to lapland', 'kittila airport', 'rovaniemi airport', 'ivalo airport', 'helsinki rovaniemi train', 'lapland car rental', 'lapland transport']}
-        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo)]}
       />
 
       <section className="relative overflow-hidden bg-night text-white">

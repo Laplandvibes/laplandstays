@@ -28,15 +28,6 @@ const articleJsonLd = {
   image: "https://laplandstays.com/og/editorial-policy-1200x630.jpg",
 }
 
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://laplandstays.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Editorial Policy', item: 'https://laplandstays.com/editorial-policy' },
-  ],
-}
-
 // ---------- copy (lazy-loaded per locale) ----------
 
 const cache: Partial<Record<Lang, PageCopy>> = { en: enCopy }
@@ -77,7 +68,7 @@ export default function EditorialPolicy() {
         canonicalPath="/editorial-policy"
         ogImage="https://laplandstays.com/og-default.jpg"
         keywords={['laplandstays editorial policy', 'how laplandstays works', 'lapland accommodation guide standards', 'affiliate independence', 'correction policy']}
-        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo)]}
       />
 
       {/* Same hero frame as the other sub-pages (WhenToGo/Transport/PropertyTypes

@@ -44,15 +44,6 @@ const articleJsonLd = {
   image: "https://laplandstays.com/og/property-types-1200x630.jpg",
 }
 
-const breadcrumbJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://laplandstays.com/' },
-    { '@type': 'ListItem', position: 2, name: 'Property Types', item: 'https://laplandstays.com/property-types' },
-  ],
-}
-
 interface Anchor {
   name: string
   propertyQuery: string
@@ -387,7 +378,7 @@ export default function PropertyTypesPage() {
         canonicalPath="/property-types"
         ogImage="https://laplandstays.com/og-property-types.jpg"
         keywords={['Lapland aurora villa', 'Finnish log cabin', 'ski-in chalet Finland', 'designer lodge Lapland', 'glass igloo Finland']}
-        jsonLd={[localizeArticle(articleJsonLd, seo), breadcrumbJsonLd]}
+        jsonLd={[localizeArticle(articleJsonLd, seo)]}
       />
 
       {/* Editorial hero, background image with a soft directional scrim */}
