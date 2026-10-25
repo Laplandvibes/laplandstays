@@ -84,6 +84,26 @@ function injectInLanguage(node: unknown, bcp47: string): unknown {
   return node
 }
 
+// Murupolun osoitteet sivun omalla kielellä ja kauttaviivalla. Sivut kirjoittavat BreadcrumbListinsä
+// englanninkielisillä osoitteilla (https://laplandstays.com/destinations/levi), joten /fi/-sivu kertoi
+// Googlelle olevansa englanninkielinen osoite ilman kauttaviivaa (mitattu livestä 20.10.2026). Sivun oma
+// muru (viimeinen) = tämän sivun canonical, myös kun kielellä on eri polku (/fi/iglumajoitus); muut
+// saman sivuston murut saavat kielen etuliitteen.
+const LOCALE_PATH_RE = /^\/(fi|de|ja|es|br|cn|kr|fr|it|nl|sv)(?=\/|$)/
+function localizeCrumbs(node: unknown, localePrefix: string, pageUrl: string): unknown {
+  if (Array.isArray(node)) return node.map((n) => localizeCrumbs(n, localePrefix, pageUrl))
+  const o = node as { '@type'?: string; itemListElement?: { item?: unknown }[] } | null
+  if (!o || o['@type'] !== 'BreadcrumbList' || !Array.isArray(o.itemListElement)) return node
+  const list = o.itemListElement
+  list.forEach((it, i) => {
+    if (typeof it.item !== 'string' || !it.item.startsWith(SITE_URL)) return
+    if (i === list.length - 1) { it.item = pageUrl; return }
+    const path = it.item.slice(SITE_URL.length).replace(LOCALE_PATH_RE, '') || '/'
+    it.item = `${SITE_URL}${localePrefix}${path === '/' ? '' : path}`.replace(/\/?$/, '/')
+  })
+  return node
+}
+
 export default function SEO({
   title,
   description,
@@ -106,9 +126,10 @@ export default function SEO({
   // JSON-LD is rendered as real <script> elements below (React 19 hoists them to
   // <head>) so the schema lands in the prerendered static HTML, a useEffect
   // injection does not run during SSG/prerender.
+  const pageUrl = `${SITE_URL}${localePrefix}${canonicalPath}`.replace(/\/?$/, '/')
   const jsonLdItems = jsonLd
     ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map(
-        (obj) => injectInLanguage(JSON.parse(JSON.stringify(obj)), bcp47) as object,
+        (obj) => localizeCrumbs(injectInLanguage(JSON.parse(JSON.stringify(obj)), bcp47), localePrefix, pageUrl) as object,
       )
     : []
 
