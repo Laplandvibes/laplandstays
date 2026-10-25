@@ -57,8 +57,8 @@ const copy: ChromeCopy = {
     emailLabel: 'Indirizzo email',
     submit: 'Ricevi la prossima e-mail',
     submitting: 'Iscrizione…',
-    success: 'Ci siamo quasi: conferma l\'iscrizione dall\'e-mail che Le abbiamo appena inviato.',
-    error: 'Iscrizione non riuscita. Riprova o scrivi a info@laplandvibes.com.',
+    success: 'Ci siamo quasi: confermi l\'iscrizione dall\'e-mail che Le abbiamo appena inviato.',
+    error: 'Iscrizione non riuscita. Riprovi o scriva a info@laplandvibes.com.',
     footnote: 'Solo quando c\'è davvero qualcosa da raccontare. Disiscrizione con un clic.',
     privacyLink: 'Informativa sulla privacy',
     benefits: [

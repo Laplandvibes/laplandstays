@@ -126,8 +126,8 @@ const LOMARENGAS_COPY: Record<Lang, AdCopy> = {
   es: {
     adLabel: 'Anuncio',
     eyebrow: 'Una cabaña entera, no una habitación',
-    headline: 'Alquila una cabaña entera en Laponia, con sauna propia y sitio para todos',
-    sub: 'La mayor agencia de alquiler de cabañas de Finlandia. Miles de cabañas por toda Laponia, muchas con sauna privada junto al lago y chimenea. Reserva directamente y tiene todo el sitio para usted, no solo una habitación. Cuando quiere espacio, calma y su propia cocina, la cabaña gana al hotel.',
+    headline: 'Alquile una cabaña entera en Laponia, con sauna propia y sitio para todos',
+    sub: 'La mayor agencia de alquiler de cabañas de Finlandia. Miles de cabañas por toda Laponia, muchas con sauna privada junto al lago y chimenea. Reserve directamente y tendrá todo el sitio para usted, no solo una habitación. Cuando quiere espacio, calma y su propia cocina, la cabaña gana al hotel.',
     trust: ['Sauna privada en la mayoría', 'La cabaña entera, sin compartir', 'Cabañas por toda Laponia'],
     cta: 'Ver cabañas disponibles',
     poweredBy: 'Reserva con Lomarengas',
@@ -171,7 +171,7 @@ const LOMARENGAS_COPY: Record<Lang, AdCopy> = {
   it: {
     adLabel: 'Annuncio',
     eyebrow: 'Una baita intera, non una stanza',
-    headline: 'Affitta una baita intera in Lapponia, con sauna privata e spazio per tutti',
+    headline: 'Affitti una baita intera in Lapponia, con sauna privata e spazio per tutti',
     sub: "La più grande agenzia di affitto baite della Finlandia. Migliaia di baite in tutta la Lapponia, molte con sauna privata sul lago e camino. Prenoti diretto e ha tutta la baita per sé, non solo una stanza. Quando vuole spazio, silenzio e una cucina propria, la baita batte l'hotel.",
     trust: ['Sauna privata nella maggior parte', "L'intera baita, non condivisa", 'Baite in tutta la Lapponia'],
     cta: 'Vedi baite disponibili',
@@ -240,9 +240,9 @@ const CARS_COPY: Record<Lang, AdCopy> = {
   es: {
     adLabel: 'Anuncio',
     eyebrow: 'Su propio ritmo en Laponia',
-    headline: 'Un coche de alquiler desde el aeropuerto, a los montes y las auroras cuando quieras',
+    headline: 'Un coche de alquiler desde el aeropuerto, a los montes y las auroras cuando quiera',
     sub: 'En Laponia las distancias son largas y el transporte público escaso. Con su propio coche va del hotel a la estación de esquí, a la granja de huskies y a los mejores puntos para ver auroras sin esperar el autobús. Recogida en el aeropuerto y neumáticos de invierno de serie en Finlandia.',
-    trust: ['Recogida en el aeropuerto', 'Neumáticos de invierno incluidos', 'Compara empresas de alquiler'],
+    trust: ['Recogida en el aeropuerto', 'Neumáticos de invierno incluidos', 'Compare empresas de alquiler'],
     cta: 'Ver coches de alquiler',
     poweredBy: 'Alquiler de coches vía EconomyBookings',
   },
@@ -285,9 +285,9 @@ const CARS_COPY: Record<Lang, AdCopy> = {
   it: {
     adLabel: 'Annuncio',
     eyebrow: 'Il Suo ritmo in Lapponia',
-    headline: 'Un’auto a noleggio dall’aeroporto, verso i fjäll e l’aurora quando vuoi',
+    headline: 'Un’auto a noleggio dall’aeroporto, verso i fjäll e l’aurora quando vuole Lei',
     sub: "In Lapponia le distanze sono lunghe e i mezzi pubblici scarsi. Con un’auto propria raggiunge dall'hotel la stazione sciistica, la fattoria degli husky e i punti migliori per l'aurora senza aspettare il bus. Ritiro direttamente in aeroporto, pneumatici invernali di serie in Finlandia.",
-    trust: ['Ritiro in aeroporto', 'Pneumatici invernali inclusi', 'Confronta gli autonoleggi'],
+    trust: ['Ritiro in aeroporto', 'Pneumatici invernali inclusi', 'Confronti gli autonoleggi'],
     cta: 'Vedi le auto a noleggio',
     poweredBy: 'Autonoleggio tramite EconomyBookings',
   },

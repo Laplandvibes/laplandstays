@@ -67,7 +67,7 @@ const auroraHolidays: Partner = {
     es: {
       tagline: 'Utsjoki: cabaña a orillas del Teno, con sauna propia',
       description: 'El municipio más septentrional de Finlandia, a 450 km al norte del Círculo Polar, con la farola más cercana demasiado lejos para molestar. Una empresa familiar sami con sus propias cabañas junto al río: dos dormitorios, sauna privada, sitio para una familia de cinco y salidas guiadas a ver auroras de septiembre a abril.',
-      cta: 'Visita su web',
+      cta: 'Ver su web',
       articleLabel: 'Leer el artículo',
       articleUrl: 'https://laplandvibes.com/es/blog/aurora-holidays/',
     },

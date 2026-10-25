@@ -58,7 +58,7 @@ const copy: ChromeCopy = {
     submit: 'Recibir el próximo email',
     submitting: 'Uniéndose…',
     success: 'Ya casi: confirme su suscripción desde el correo que acabamos de enviarle.',
-    error: 'No se pudo completar la suscripción. Inténtalo de nuevo o escribe a info@laplandvibes.com.',
+    error: 'No se pudo completar la suscripción. Inténtelo de nuevo o escriba a info@laplandvibes.com.',
     footnote: 'Solo cuando de verdad hay algo que contar. Baja con un clic.',
     privacyLink: 'Política de privacidad',
     benefits: [
