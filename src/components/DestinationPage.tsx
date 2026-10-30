@@ -21,6 +21,7 @@ import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './DestinationPage.copy.en'
 import type { Copy } from './DestinationPage.copy.types'
 import PhotoMark, { PICTURED } from './PhotoMark'
+import SemboUkCodeStrip from './SemboUkCodeStrip'
 
 export interface DestinationAnchor {
   name: string
@@ -560,6 +561,7 @@ export default function DestinationPage(p: DestinationPageProps) {
             </a>
             <AffiliateDisclosure variant="compact" className="mt-4 justify-start max-lg:justify-center" />
           </div>
+          <SemboUkCodeStrip lang={lang} surface={`destination_${sidSlug}`} className="mt-6 max-w-xl max-lg:mx-auto" />
         </div>
       </section>
 

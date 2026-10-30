@@ -8,6 +8,7 @@ import { useCopy } from '../i18n/useCopy'
 import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './TravelSearchWidget.copy.en'
 import type { Copy } from './TravelSearchWidget.copy.types'
+import SemboUkCodeStrip from './SemboUkCodeStrip'
 
 
 // Hotels search destinations. Values feed the Worker's ss= as-is: the fi
@@ -378,6 +379,9 @@ export default function TravelSearchWidget({ defaultTab = 'hotels', className = 
             {activeTab === 'hotels' ? wc.searchHotels : activeTab === 'flights' ? wc.searchFlights : wc.compareCars}
             <ArrowRight className="w-4 h-4" />
           </button>
+
+          {/* English hotel searches open sembo.co.uk: Sembo UK's code for November bookings. */}
+          {activeTab === 'hotels' && <SemboUkCodeStrip lang={lang} surface="hero_widget" className="mt-4" />}
 
           <p className="text-center text-charcoal/70 text-xs mt-4">
             {wc.poweredBy(tabs.find(t => t.key === activeTab)?.provider || '')}
