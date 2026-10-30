@@ -1,0 +1,76 @@
+{
+  "slug": "rovaniemi-skyview-rooftop-spa-restaurant-open",
+  "date": "2026-10-30",
+  "hero": {
+    "src": "/images/news/rovaniemi-ounasvaara-view-1600.webp",
+    "srcSmall": "/images/news/rovaniemi-ounasvaara-view-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "position": "50% 50%",
+    "credit": {
+      "author": "Jeanie Mackinder",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rovaniemi_Bridges.jpg",
+      "assetId": "Rovaniemi Bridges.jpg",
+      "sourceName": "Wikimedia Commons",
+      "taken": "2006-07-10",
+      "retrieved": "2026-10-29"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Lapin Kansa",
+      "title": "Lämmitetty ulkoallas ja huippukokin ravintola – 20 miljoonan euron igluresortti houkuttelee Olleronvaaraan myös rovaniemeläisiä",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/lammitetty-ulkoallas-ja-huippukokin-ravintola-20-m/13718460",
+      "date": "2026-10-29"
+    },
+    {
+      "publisher": "SkyView Igloo Resort",
+      "title": "SkyView Igloo Resort | Luxury Glass Igloos in Rovaniemi",
+      "lang": "en",
+      "url": "https://skyviewigloos.com/",
+      "read": "2026-10-29"
+    },
+    {
+      "publisher": "SkyView Igloo Resort",
+      "title": "Arctic Spa Culta | Luxury Infinity Pool & Sauna in Lapland",
+      "lang": "en",
+      "url": "https://skyviewigloos.com/arctic-spa-culta/",
+      "read": "2026-10-29"
+    },
+    {
+      "publisher": "SkyView Igloo Resort",
+      "title": "Restaurant Aura | Nordic-Asian Dining at SkyView Lapland",
+      "lang": "en",
+      "url": "https://skyviewigloos.com/restaurant-aura/",
+      "read": "2026-10-29"
+    },
+    {
+      "publisher": "SkyView Igloo Resort",
+      "title": "Luxury Two-Story Glass Igloos | SkyView Resort Lapland",
+      "lang": "en",
+      "url": "https://skyviewigloos.com/stay/",
+      "read": "2026-10-29"
+    },
+    {
+      "publisher": "Yle",
+      "title": "Lappiin nousee useita korkeatasoisia ravintoloita – osa tavoittelee ”luonnollista luksusta”, toiset tähtiä",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20251686",
+      "date": "2026-10-18"
+    },
+    {
+      "publisher": "Visit Rovaniemi",
+      "title": "SkyView Igloo Resort & Spa",
+      "lang": "en",
+      "url": "https://www.visitrovaniemi.fi/accommodation/skyview-igloo-suite/",
+      "read": "2026-10-29"
+    }
+  ],
+  "ogCard": {
+    "line": "Rooftop spa opens in Rovaniemi",
+    "focus": "50% 50%"
+  }
+}

@@ -1105,6 +1105,56 @@
       "description": "Stadsstyrelsen i Rovaniemi beslöt den 28 september att ställa ut planen. Den nya delen skulle få 9 våningar mot Koskikatu och rymma ett hotell."
     }
   },
+  "/news/rovaniemi-skyview-rooftop-spa-restaurant-open": {
+    "en": {
+      "title": "SkyView Rovaniemi: rooftop spa and restaurant open",
+      "description": "The rooftop spa at SkyView Igloo Resort in Olleronvaara and Restaurant Aura, created with chef Tomi Björck, also serve guests who stay elsewhere."
+    },
+    "fi": {
+      "title": "SkyView Rovaniemi: kattokylpylä ja ravintola auki",
+      "description": "Olleronvaaran SkyView Igloo Resortin kattokylpylä ja Tomi Björckin kanssa luotu ravintola Aura palvelevat myös muita kuin yöpyviä. Hinnat ja ajat."
+    },
+    "de": {
+      "title": "SkyView Rovaniemi: Dachspa und Restaurant geöffnet",
+      "description": "Der Dachspa des SkyView Igloo Resort in Olleronvaara und das mit dem Koch Tomi Björck entwickelte Restaurant Aura stehen auch auswärtigen Gästen offen."
+    },
+    "ja": {
+      "title": "SkyView ロヴァニエミ：屋上スパとレストラン開業",
+      "description": "ロヴァニエミのSkyView Igloo Resortの屋上スパと、シェフTomi Björckと手がけたレストランAuraは、宿泊しない人も利用できます。"
+    },
+    "es": {
+      "title": "SkyView Rovaniemi: spa de azotea y restaurante abiertos",
+      "description": "El spa de azotea del SkyView Igloo Resort de Olleronvaara y el restaurante Aura, creado con el chef Tomi Björck, también atienden a quienes no se alojan allí."
+    },
+    "pt-BR": {
+      "title": "SkyView Rovaniemi: spa na cobertura e restaurante abertos",
+      "description": "O spa na cobertura do SkyView Igloo Resort de Olleronvaara e o restaurante Aura, criado com o chef Tomi Björck, também atendem quem se hospeda em outro lugar."
+    },
+    "zh-CN": {
+      "title": "SkyView 羅瓦涅米：屋頂水療與餐廳開放",
+      "description": "羅瓦涅米Olleronvaara的SkyView Igloo Resort屋頂水療，以及與主廚Tomi Björck打造的餐廳Aura，也對不住宿的客人開放。"
+    },
+    "ko": {
+      "title": "SkyView 로바니에미: 루프톱 스파와 레스토랑 개방",
+      "description": "로바니에미 SkyView Igloo Resort의 루프톱 스파와 레스토랑 Aura는 리조트에 숙박하지 않는 손님도 이용할 수 있습니다."
+    },
+    "fr": {
+      "title": "SkyView Rovaniemi : spa de toit et restaurant ouverts",
+      "description": "Le spa de toit du SkyView Igloo Resort d’Olleronvaara et le restaurant Aura, créé avec le chef Tomi Björck, accueillent aussi les clients d’autres hôtels."
+    },
+    "it": {
+      "title": "SkyView Rovaniemi: spa sul tetto e ristorante aperti",
+      "description": "La spa sul tetto dello SkyView Igloo Resort di Olleronvaara e il ristorante Aura, creato con lo chef Tomi Björck, accolgono anche chi non alloggia lì."
+    },
+    "nl": {
+      "title": "SkyView Rovaniemi: dakspa en restaurant open",
+      "description": "De dakspa van SkyView Igloo Resort in Olleronvaara en restaurant Aura, gemaakt met chef-kok Tomi Björck, zijn ook open voor gasten die elders slapen."
+    },
+    "sv": {
+      "title": "SkyView Rovaniemi: takspa och restaurang öppna",
+      "description": "Takspat på SkyView Igloo Resort i Olleronvaara och restaurang Aura, skapad med kocken Tomi Björck, tar även emot gäster som bor någon annanstans."
+    }
+  },
   "/news/saarua-ruka-hotel-restaurant-plan": {
     "en": {
       "title": "Saarua, Ruka: new hotel and restaurant planned",
