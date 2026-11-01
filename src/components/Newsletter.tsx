@@ -308,8 +308,7 @@ export default function Newsletter() {
           )}
 
           <p className="text-white/90 text-xs mt-5">
-            {c.footnote}{' '}
-            <Link to={to('/privacy')} className="underline hover:text-white">{c.privacyLink}</Link>.
+            {c.footnote}
           </p>
         </div>
       </div>
