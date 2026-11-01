@@ -9,7 +9,7 @@ import { BY, PICTURED, SUPPLIED } from './PhotoMark'
 // ─────────────────────────────────────────────────────────────────────────────
 // PartnerStayAd, a brand-skinned affiliate ad card for LaplandStays' booking
 // partners. Two advertisers, each in their OWN brand skin:
-//   • Lomarengas (Home / green), Finland's biggest holiday-cottage agency,
+//   • Lomarengas (Home / yellow + navy), Finland's biggest holiday-cottage agency,
 //     direct Adtraction deep-link (channel as=2086870803; no client SID slot).
 //   • Car rental (Car / teal), EconomyBookings via go.laplandvibes.com/go/cars.
 // Direct links come from _affiliate/affiliate-links.json.
@@ -26,8 +26,8 @@ import { BY, PICTURED, SUPPLIED } from './PhotoMark'
 // "Mainos / Ad" unit. The card is rendered in this site's LIGHT editorial idiom
 // (warm paper-white .lvs-card with the advertiser's accent as a top rule + soft
 // corner wash) so it reads as an authentic partner placement that still belongs
-// on the cream page — Lomarengas green and EconomyBookings teal both sit
-// cleanly on white. Offers are EVERGREEN and accurate (no time-limited promos
+// on the cream page — Lomarengas yellow with its navy ink and EconomyBookings
+// teal both sit cleanly on white. Offers are EVERGREEN and accurate (no time-limited promos
 // hardcoded, no invented stats), per the affiliate creative rule.
 //
 // Required affiliate attributes (LV spec): target="_blank"
@@ -45,17 +45,22 @@ interface PartnerConfig {
   /** Advertiser brand accent, border rule, icon, trust dots, CTA pill. */
   accent: string
   accentDark: string
+  /** CTA text colour on the accent pill (the brand's own ink, measured ≥ 4.5:1). */
+  accentInk: string
   icon: LucideIcon
   trackKey: string
 }
 
 const CONFIG: Record<PartnerKey, PartnerConfig> = {
-  // Lomarengas, Finland's largest holiday-cottage agency. Brand green.
+  // Lomarengas, Finland's largest holiday-cottage agency. Its own yellow + navy,
+  // measured from the logo and lomarengas.fi 2026-11-01 (the green #10B981 here was
+  // a guess, and white on it was 2.5:1). Navy on the yellow pill 6.3:1, on white 10.2:1.
   lomarengas: {
     brand: 'Lomarengas',
     logo: '/images/partners/lomarengas.png',
-    accent: '#10B981',
-    accentDark: '#047857',
+    accent: '#FDC300',
+    accentDark: '#153D8A',
+    accentInk: '#153D8A',
     icon: Home,
     trackKey: 'lomarengas',
   },
@@ -69,6 +74,7 @@ const CONFIG: Record<PartnerKey, PartnerConfig> = {
     logo: '/images/partners/economybookings.svg',
     accent: '#0F766E',
     accentDark: '#0B5E57',
+    accentInk: '#FFFFFF',
     icon: Car,
     trackKey: 'cars',
   },
@@ -448,8 +454,8 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={() => trackAffiliateClick(cfg.trackKey, `stay_ad:${sid}`, href)}
-            className="group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 text-white font-semibold no-underline shadow-lg transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 whitespace-nowrap"
-            style={{ backgroundColor: cfg.accent, boxShadow: `0 14px 30px -12px ${cfg.accent}8C` }}
+            className="group inline-flex items-center justify-center gap-2 rounded-full px-6 py-3.5 font-semibold no-underline shadow-lg transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 whitespace-nowrap"
+            style={{ backgroundColor: cfg.accent, color: cfg.accentInk, boxShadow: `0 14px 30px -12px ${cfg.accent}8C` }}
           >
             {c.cta}
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" aria-hidden="true" />
