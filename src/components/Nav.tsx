@@ -112,7 +112,7 @@ export default function Nav() {
                 }
               }}
             >
-                <span className="lv-wm tracking-wide leading-none font-heading text-2xl sm:text-3xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]" data-lv-sanamerkki="" style={WM_STYLE}>
+                <span translate="no" className="notranslate lv-wm tracking-wide leading-none font-heading text-2xl sm:text-3xl drop-shadow-[0_2px_8px_rgba(0,0,0,0.55)]" data-lv-sanamerkki="" style={WM_STYLE}>
                   <span className="text-pink">#</span>
                   <span className={scrolled ? 'text-night' : 'text-white'}>LAPLAND</span>
                   <span className="text-pink">STAYS</span>
