@@ -13,7 +13,7 @@ import { DESTINATION_PLACEMENT, FEATURED_PARTNERS } from '../data/adSlots'
 import { propertyForQuery, bestGoogleRated, editorialPickNote } from '../data/properties'
 import { bookingForQuery } from '../data/propertyBooking'
 import { useCopy as useChrome } from '../locales/copy'
-import { buildHotelSearch, buildAffiliateUrl, propertyLodgingLink, type LomarengasArea } from '../lib/affiliate'
+import { buildHotelSearch, buildAffiliateUrl, propertyLodgingLink, CABINS_API, type LomarengasArea } from '../lib/affiliate'
 import { trackAffiliateClick } from '../lib/analytics'
 import { useLang, useLocalePath, pick, type Lang } from '../i18n/useLang'
 import { useCopy } from '../i18n/useCopy'
@@ -278,15 +278,23 @@ export default function DestinationPage(p: DestinationPageProps) {
   const cabinPageHref = CABIN_PAGE_LABEL[lang] && CABIN_PAGE_AREA[p.slug] ? to(`/cabins/${CABIN_PAGE_AREA[p.slug]}`) : null
   const ui = useCopy<Copy>(enCopy, loaders, cache)
   // One real cabin of this destination from the site's Lomarengas list (same file as /cabins/<area>), for the cabin ad.
+  // 🔴 The photo comes from the Worker's daily index (/_cabins?ids=), not from the stored URL: Channable re-issues every
+  // templated image, and on 1.11.2026 the stored 17.10. URLs answered 404 on all 7 destination pages (broken image in
+  // the ad). Same source as /cabins/<area> (CabinArea.tsx). No fresh photo ⇒ the card renders without the photo column.
   const [cabinPhoto, setCabinPhoto] = useState<{ src: string; place: string; by: string; supplied: boolean } | null>(null)
   useEffect(() => {
     const area = CABIN_PAGE_AREA[p.slug]
     if (!area) return
     let alive = true
-    import(`../data/cabins/${area}.json`).then((m: { default: { cabins: { name: string; place: string; img: string; stars: number | null; section?: string }[] } }) => {
-      const list = m.default.cabins.filter((c) => c.img)
-      const best = list.find((c) => c.section !== 'far' && (c.stars ?? 0) >= 4) ?? list[0]
-      if (alive && best) setCabinPhoto({ src: best.img, place: `${best.name}, ${best.place}`, by: 'Lomarengas', supplied: true })
+    import(`../data/cabins/${area}.json`).then(async (m: { default: { cabins: { id: string; name: string; place: string; stars: number | null; section?: string }[] } }) => {
+      const all = m.default.cabins
+      const pool = [...all.filter((c) => c.section !== 'far' && (c.stars ?? 0) >= 4), ...all].slice(0, 24)
+      const r = await fetch(`${CABINS_API}?ids=${pool.map((c) => c.id).join(',')}`)
+      if (!r.ok) return
+      const d = (await r.json()) as { cabins?: { id: string; img?: string }[] }
+      const fresh = new Map((d.cabins || []).map((c) => [String(c.id), c.img]))
+      const best = pool.find((c) => fresh.get(String(c.id)))
+      if (alive && best) setCabinPhoto({ src: fresh.get(String(best.id))!, place: `${best.name}, ${best.place}`, by: 'Lomarengas', supplied: true })
     }).catch(() => {})
     return () => { alive = false }
   }, [p.slug])
