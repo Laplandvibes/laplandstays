@@ -955,6 +955,56 @@
       "description": "Dussintals hotell i Lappland använder kameror som känner igen norrsken och skickar en varning med bild till gästens telefon. Vad det betyder när du bokar rum."
     }
   },
+  "/news/inari-limits-new-igloo-construction": {
+    "en": {
+      "title": "Inari curbs new aurora cabin building",
+      "description": "Inari has tightened permits for aurora cabins and glass igloos. A 60-cabin resort west of Ivalo was rejected, and new capacity now waits for zoning."
+    },
+    "fi": {
+      "title": "Inari jarruttaa revontulikotien rakentamista",
+      "description": "Inari on tiukentanut revontulikotien lupia. Ivalon länsipuolelle suunniteltu 60 mökin hanke hylättiin, ja uusi kapasiteetti odottaa kaavoitusta."
+    },
+    "de": {
+      "title": "Inari bremst den Bau von Polarlicht-Hütten",
+      "description": "Inari hat die Genehmigungen für Polarlicht-Hütten verschärft. Ein Projekt mit 60 Hütten westlich von Ivalo wurde abgelehnt, neue Kapazität wartet auf Pläne."
+    },
+    "ja": {
+      "title": "イナリ、新たなオーロラ・キャビンの建設を抑制",
+      "description": "イナリはオーロラ・キャビンとグラスイグルーの許可を厳しくしました。イヴァロ西側の60棟のリゾート計画は否決され、新しい客室は都市計画を待っています。"
+    },
+    "es": {
+      "title": "Inari frena las cabañas de auroras",
+      "description": "Inari ha endurecido los permisos de cabañas de auroras. Se rechazó un proyecto de 60 cabañas al oeste de Ivalo y la nueva capacidad espera al planeamiento."
+    },
+    "pt-BR": {
+      "title": "Inari freia novas cabanas de aurora",
+      "description": "Inari endureceu as licenças de cabanas de aurora e iglus de vidro. Um projeto de 60 cabanas a oeste de Ivalo foi rejeitado e novos quartos dependem do plano."
+    },
+    "zh-CN": {
+      "title": "伊納里收緊新建極光小屋",
+      "description": "伊納里已經收緊了新建極光小屋和玻璃屋的建設許可。伊瓦洛以西一處60棟小屋的度假村計劃已經被否決，新增的住宿容量如今都要等待城市規劃程式給出答案。"
+    },
+    "ko": {
+      "title": "이나리, 신규 오로라 캐빈 건설 제동",
+      "description": "이나리가 오로라 캐빈과 글래스 이글루 허가를 조였습니다. 이발로 서쪽의 60채 리조트 계획은 부결됐고, 새 객실은 도시계획을 기다립니다."
+    },
+    "fr": {
+      "title": "Inari freine les chalets aux aurores",
+      "description": "Inari a durci les permis pour les chalets aux aurores. Un projet de 60 chalets à l’ouest d’Ivalo a été rejeté et les capacités nouvelles attendent l’urbanisme."
+    },
+    "it": {
+      "title": "Inari frena i nuovi chalet aurora",
+      "description": "Inari ha stretto i permessi per chalet aurora e igloo di vetro. Un progetto da 60 chalet a ovest di Ivalo è stato respinto e la nuova capacità attende i piani."
+    },
+    "nl": {
+      "title": "Inari remt bouw van noorderlichthutten af",
+      "description": "Inari heeft de vergunningen voor noorderlichthutten verscherpt. Een plan voor 60 hutten bij Ivalo is afgewezen en nieuwe capaciteit wacht op planvorming."
+    },
+    "sv": {
+      "title": "Inari bromsar nya norrskensstugor",
+      "description": "Inari har skärpt loven för norrskensstugor och glasigloor. Ett projekt med 60 stugor väster om Ivalo avslogs, och ny kapacitet väntar på planläggning."
+    }
+  },
   "/news/lapland-accommodation-building-record-2026": {
     "en": {
       "title": "Record building of new accommodation in Lapland",

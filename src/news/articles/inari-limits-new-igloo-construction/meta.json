@@ -1,0 +1,55 @@
+{
+  "slug": "inari-limits-new-igloo-construction",
+  "date": "2026-11-06",
+  "hero": {
+    "src": "/images/news/inari-lake-shore-forest-1600.webp",
+    "srcSmall": "/images/news/inari-lake-shore-forest-800.webp",
+    "width": 1600,
+    "height": 901,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandstays.com/about",
+      "sourceUrl": "https://laplandstays.com/about",
+      "assetId": "20261012_131007",
+      "sourceName": "Inari 2026-10-12",
+      "taken": "2026-10-12",
+      "retrieved": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Lapin Kansa",
+      "title": "Inarin kunta on alkanut suitsia igluintoa – rakennustarkastaja: \"Joka niemeen ja notkelmaan haluttaisiin rakentaa matkailurysä\"",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/inarin-kunta-on-alkanut-suitsia-igluintoa-rakennus/13738462",
+      "date": "2026-11-04"
+    },
+    {
+      "publisher": "Inarin kunta",
+      "title": "Kunnanhallitus Pöytäkirja 04.08.2025/Pykälä 186: Poikkeamispäätös RakL 7 § ja 57 §: Juurikangas, Ivalo",
+      "lang": "fi",
+      "url": "https://inari.oncloudos.com/cgi/DREQUEST.PHP?page=meetingitem&id=2025304-21",
+      "date": "2025-08-04"
+    },
+    {
+      "publisher": "Inarin kunta",
+      "title": "Saariselän länsipuolen asemakaavoituksen suunnittelu käynnistyy",
+      "lang": "fi",
+      "url": "https://www.inari.fi/fi/tiedotteet-ja-kuulutukset/tiedotteet/saariselan-lansipuolen-asemakaavoituksen-suunnittelu-kaynnistyy.html",
+      "date": "2026-03-27"
+    },
+    {
+      "publisher": "Inarin kunta",
+      "title": "Maapoliittinen ohjelma: Inarin kunnan maapoliittiset linjaukset",
+      "lang": "fi",
+      "url": "https://www.inari.fi/media/tiedostot-2022/tekninen/maapoliittinen-ohjelma_valtuustonhyvaksyma.pdf",
+      "date": "2022-12-08"
+    }
+  ],
+  "ogCard": {
+    "line": "Inari brakes new aurora cabin building",
+    "focus": "50% 50%"
+  }
+}
