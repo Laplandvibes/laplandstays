@@ -1155,6 +1155,56 @@
       "description": "Stadsstyrelsen i Rovaniemi beslöt den 28 september att ställa ut planen. Den nya delen skulle få 9 våningar mot Koskikatu och rymma ett hotell."
     }
   },
+  "/news/rovaniemi-arctic-garden-hotel-plan": {
+    "en": {
+      "title": "Rovaniemi riverside block becomes a hotel",
+      "description": "Rovaniemi's protected Lääninhallitus block is being turned into a hotel of about 100 rooms. According to Lapin Kansa it is planned to open in summer 2028."
+    },
+    "fi": {
+      "title": "Rovaniemen arvokortteli muuttuu hotelliksi",
+      "description": "Rovaniemen suojeltu lääninhallituksen kortteli muuttuu noin 100 huoneen hotelliksi. Lapin Kansan mukaan se on suunniteltu avattavaksi kesällä 2028."
+    },
+    "de": {
+      "title": "Rovaniemi: Viertel am Fluss wird Hotel",
+      "description": "Das denkmalgeschützte Lääninhallitus-Viertel in Rovaniemi wird zu einem Hotel mit rund 100 Zimmern. Laut Lapin Kansa soll es im Sommer 2028 öffnen."
+    },
+    "ja": {
+      "title": "ロヴァニエミ：川沿いの保護街区がホテルに",
+      "description": "ロヴァニエミの保護されたLääninhallitusの街区が約100室のホテルに変わります。Lapin Kansaによると、開業は2028年夏の予定です。"
+    },
+    "es": {
+      "title": "Rovaniemi: la manzana junto al río será un hotel",
+      "description": "La manzana protegida de Lääninhallitus, en Rovaniemi, será un hotel de unas 100 habitaciones. Según Lapin Kansa, abrirá en el verano de 2028."
+    },
+    "pt-BR": {
+      "title": "Rovaniemi: quadra à beira do rio vira hotel",
+      "description": "A quadra protegida de Lääninhallitus, em Rovaniemi, vai virar um hotel de cerca de 100 quartos. Segundo o Lapin Kansa, deve abrir no verão de 2028."
+    },
+    "zh-CN": {
+      "title": "羅瓦涅米河畔街區將變成飯店",
+      "description": "羅瓦涅米受保護的Lääninhallitus街區正在改造成約100間客房的飯店。據Lapin Kansa的說法，飯店計劃在2028年夏天開業。"
+    },
+    "ko": {
+      "title": "로바니에미 강변 보호 블록이 호텔로",
+      "description": "로바니에미의 Lääninhallitus 블록이 약 100실 호텔로 바뀝니다. Lapin Kansa에 따르면 2028년 여름 개업 예정입니다."
+    },
+    "fr": {
+      "title": "Rovaniemi : un quartier au bord du fleuve en hôtel",
+      "description": "À Rovaniemi, le quartier protégé de Lääninhallitus devient un hôtel d’environ 100 chambres. Selon Lapin Kansa, l’ouverture est prévue à l’été 2028."
+    },
+    "it": {
+      "title": "Rovaniemi: il quartiere sul fiume diventa hotel",
+      "description": "A Rovaniemi il quartiere protetto di Lääninhallitus diventa un hotel di circa 100 camere. Secondo Lapin Kansa l'apertura è prevista per l'estate 2028."
+    },
+    "nl": {
+      "title": "Rovaniemi: blok aan de rivier wordt hotel",
+      "description": "Het beschermde Lääninhallitus-blok in Rovaniemi wordt een hotel met ongeveer 100 kamers. Volgens Lapin Kansa is de opening gepland voor de zomer van 2028."
+    },
+    "sv": {
+      "title": "Rovaniemis kvarter vid älven blir hotell",
+      "description": "Rovaniemis skyddade Lääninhallitus-kvarter byggs om till ett hotell med cirka 100 rum. Enligt Lapin Kansa planeras öppningen till sommaren 2028."
+    }
+  },
   "/news/rovaniemi-skyview-rooftop-spa-restaurant-open": {
     "en": {
       "title": "SkyView Rovaniemi: rooftop spa and restaurant open",

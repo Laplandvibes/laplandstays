@@ -1213,5 +1213,86 @@
         "samaKuinKesa": true
       }
     }
+  },
+  "news-rovaniemi-arctic-garden-hotel-plan": {
+    "route": "/news/rovaniemi-arctic-garden-hotel-plan",
+    "line": "Rovaniemi heritage block becomes hotel",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/news/rovaniemi-centre-autumn-evening-1600.webp",
+        "bytes": 146107,
+        "sha256": "2f213c57c92db08c58b528dff12ad8aed9cc8a858401cc237304ab1427afdca4",
+        "heroSha": "ef567544832b4ae7",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16449,
+        "inkBox": [
+          318,
+          493,
+          881,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 68.8,
+        "centerSq": 73.8,
+        "photoRegion": 80.2,
+        "photoRegionRef": 80.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 566,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/news/rovaniemi-centre-autumn-evening-1600.webp",
+        "bytes": 146107,
+        "sha256": "2f213c57c92db08c58b528dff12ad8aed9cc8a858401cc237304ab1427afdca4",
+        "heroSha": "ef567544832b4ae7",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 16449,
+        "inkBox": [
+          318,
+          493,
+          881,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 68.8,
+        "centerSq": 73.8,
+        "photoRegion": 80.2,
+        "photoRegionRef": 80.2,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 566,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
   }
 }

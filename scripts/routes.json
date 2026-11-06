@@ -310,6 +310,21 @@
     }
   },
   {
+    "path": "/news/rovaniemi-arctic-garden-hotel-plan",
+    "fallbackTitle": "Rovaniemi riverside block becomes a hotel",
+    "fallbackDescription": "Rovaniemi's protected Lääninhallitus block is being turned into a hotel of about 100 rooms. According to Lapin Kansa it is planned to open in summer 2028.",
+    "ogImage": "/og/news-rovaniemi-arctic-garden-hotel-plan.jpg",
+    "ogCard": {
+      "hero": "/images/news/rovaniemi-centre-autumn-evening-1600.webp",
+      "line": "Rovaniemi heritage block becomes hotel"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/rovaniemi-arctic-garden-hotel-plan/{lang}.json",
+      "key": "rovaniemi-arctic-garden-hotel-plan",
+      "mode": "jsonFile"
+    }
+  },
+  {
     "path": "/news/rovaniemi-skyview-rooftop-spa-restaurant-open",
     "fallbackTitle": "SkyView Rovaniemi: rooftop spa and restaurant open",
     "fallbackDescription": "The rooftop spa at SkyView Igloo Resort in Olleronvaara and Restaurant Aura, created with chef Tomi Björck, also serve guests who stay elsewhere.",

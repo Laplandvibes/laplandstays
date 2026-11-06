@@ -1,0 +1,69 @@
+{
+  "slug": "rovaniemi-arctic-garden-hotel-plan",
+  "date": "2026-11-06",
+  "hero": {
+    "src": "/images/news/rovaniemi-centre-autumn-evening-1600.webp",
+    "srcSmall": "/images/news/rovaniemi-centre-autumn-evening-800.webp",
+    "width": 1600,
+    "height": 901,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandstays.com/about",
+      "sourceUrl": "https://laplandstays.com/about",
+      "assetId": "20261015_183727",
+      "sourceName": "Rovaniemi 2026-10-15",
+      "taken": "2026-10-15",
+      "retrieved": "2026-11-06"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Lapin Kansa",
+      "title": "Rovaniemen arvokortteli muuntuu hotelliksi Gröhnin perheen käsissä – \"Uskomatonta omistaa näin hieno alue\"",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/rovaniemen-arvokortteli-muuntuu-hotelliksi-grohnin/13739070",
+      "date": "2026-11-05"
+    },
+    {
+      "publisher": "Senaatti-kiinteistöt",
+      "title": "Rovaniemen keskustan Lääninhallituksen kortteli on myyty",
+      "lang": "fi",
+      "url": "https://www.senaatti.fi/ajankohtaista/uutiset/rovaniemen-keskustan-laaninhallituksen-kortteli-on-myyty/",
+      "date": "2026-03-27"
+    },
+    {
+      "publisher": "Yle",
+      "title": "Lapin lääninhallituksen tiloihin tulee hotelli, paikallinen hotelliyrittäjä lupaa kunnioittaa alueen historiaa",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20217727",
+      "date": "2026-03-27"
+    },
+    {
+      "publisher": "Rovaniemen kaupunki",
+      "title": "Asemakaavan muutos 1. kaupunginosa kortteli 38 tontti 6, Valtakatu",
+      "lang": "fi",
+      "url": "https://www.rovaniemi.fi/Asuminen-ja-ymparisto/Kaavoitus-ja-maankaytto/Kaavatori/Asemakaava?showmodul=213&CityPlanID=85549f66-c73b-4642-9821-b3668a333840",
+      "read": "2026-11-06"
+    },
+    {
+      "publisher": "Arctic Hotel Collection",
+      "title": "Rovaniemi's newest boutique hotel with history",
+      "lang": "en",
+      "url": "https://www.arctichotelcollection.fi/laaninhallitus",
+      "read": "2026-11-06"
+    },
+    {
+      "publisher": "Arctic Hotel Collection",
+      "title": "Pohjoista vieraanvaraisuutta sukupolvien kokemuksella",
+      "lang": "fi",
+      "url": "https://www.arctichotelcollection.fi/",
+      "read": "2026-11-06"
+    }
+  ],
+  "ogCard": {
+    "line": "Rovaniemi heritage block becomes hotel",
+    "focus": "50% 50%"
+  }
+}
