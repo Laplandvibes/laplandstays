@@ -51,7 +51,7 @@ export default function BookingCTA() {
           <h2 className="text-4xl sm:text-5xl lg:text-7xl font-heading text-white tracking-wide mb-6 [text-shadow:0_3px_28px_rgba(0,0,0,0.75),0_1px_4px_rgba(0,0,0,0.55)]">
             {c.h2}
           </h2>
-          <p className="text-white/90 text-lg max-w-2xl mx-auto mb-8 leading-relaxed [text-shadow:0_2px_14px_rgba(0,0,0,0.8)]">
+          <p className="text-white/90 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left mb-8 leading-relaxed [text-shadow:0_2px_14px_rgba(0,0,0,0.8)]">
             {c.lead}
           </p>
         </div>

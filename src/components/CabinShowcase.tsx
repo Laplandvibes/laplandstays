@@ -153,8 +153,8 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
   return (
     <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white">
       <div className="max-w-6xl mx-auto">
-        <div className="flex flex-wrap items-end justify-between gap-4 mb-5">
-          <div className="min-w-0">
+        <div className="flex flex-col items-center text-center gap-4 mb-5 lg:flex-row lg:flex-wrap lg:items-end lg:justify-between lg:text-left">
+          <div className="min-w-0 max-w-full">
             <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{copy.eyebrow}</p>
             <h2 className="font-heading text-4xl sm:text-5xl tracking-wide">{copy.h2}</h2>
           </div>
@@ -171,9 +171,9 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
             />
           </span>
         </div>
-        <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-8 max-w-3xl">{copy.lead}</p>
+        <p className="text-white/70 text-base sm:text-lg leading-relaxed mb-8 max-w-3xl mx-auto w-fit lg:mx-0 lg:w-auto">{copy.lead}</p>
 
-        <div className="flex flex-wrap gap-2 mb-7" role="tablist" aria-label={copy.h2}>
+        <div className="flex flex-wrap justify-center lg:justify-start gap-2 mb-7" role="tablist" aria-label={copy.h2}>
           {tabs.map(({ key, name }) => (
             <button
               key={key}
@@ -277,13 +277,13 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
         </div>
 
         {ready && total > 0 && (
-          <div className="mt-8 flex flex-col sm:flex-row sm:items-center gap-4 sm:justify-between">
+          <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:flex-wrap sm:justify-center lg:flex-nowrap lg:justify-between">
             <a
               href={moreHref}
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lomarengas', `cabin_more_${sidTab}`, moreHref)}
-              className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 rounded-full border border-white/30 text-white font-semibold hover:border-pink hover:text-pink transition-colors"
+              className="inline-flex max-w-full max-sm:w-full max-sm:max-w-sm items-center justify-center gap-1.5 text-sm px-5 py-2.5 rounded-full border border-white/30 text-white font-semibold hover:border-pink hover:text-pink transition-colors"
             >
               <span className="min-w-0 break-words leading-snug">{copy.browseAll.replace('{count}', nf.format(total))}</span>
               <ArrowRight className="w-3.5 h-3.5 shrink-0" />
@@ -291,13 +291,13 @@ export default function CabinShowcase({ copy, areaNames, lang, areaHrefs, areaLi
             {areaHrefs?.[tab] && areaLinkLabel && (
               <Link
                 to={areaHrefs[tab]!}
-                className="inline-flex max-w-full items-center justify-center gap-1.5 text-sm px-5 py-2.5 min-h-11 rounded-full bg-[#DB2777] text-white font-semibold hover:bg-[#BE185D] transition-colors"
+                className="inline-flex max-w-full max-sm:w-full max-sm:max-w-sm items-center justify-center gap-1.5 text-sm px-5 py-2.5 min-h-11 rounded-full bg-[#DB2777] text-white font-semibold hover:bg-[#BE185D] transition-colors"
               >
                 <span className="min-w-0 break-words leading-snug">{areaLinkLabel}</span>
                 <ArrowRight className="w-3.5 h-3.5 shrink-0" />
               </Link>
             )}
-            <p className="text-white/60 text-[12px] leading-relaxed">
+            <p className="text-white/60 text-[12px] leading-relaxed text-center [text-wrap:balance] sm:basis-full lg:basis-auto lg:text-left lg:[text-wrap:wrap]">
               {group && staticNote
                 ? staticNote.replace('{date}', new Date(group.generated + 'T12:00:00Z').toLocaleDateString(lang, { day: 'numeric', month: 'numeric', year: 'numeric' }))
                 : copy.dataNote}

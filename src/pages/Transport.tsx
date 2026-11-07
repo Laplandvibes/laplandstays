@@ -132,11 +132,11 @@ export default function Transport() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.airportsEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.airportsEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">
             {ui.airportsH2}
           </h2>
-          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">
+          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl mx-auto w-fit lg:mx-0 lg:w-auto">
             {ui.airportsLead}
           </p>
 
@@ -206,8 +206,8 @@ export default function Transport() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white">
         <div className="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.railEyebrow}</p>
-            <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-6">{ui.railH2}</h2>
+            <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.railEyebrow}</p>
+            <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-6 text-center lg:text-left">{ui.railH2}</h2>
             <div className="space-y-5 text-white/75 text-base leading-relaxed">
               <p>{ui.railP1}</p>
               <ul className="space-y-2.5 pl-5 text-[15px]">
@@ -272,8 +272,8 @@ export default function Transport() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-5xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.carEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.carEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">
             {ui.carH2}
           </h2>
 
@@ -312,8 +312,8 @@ export default function Transport() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.withinEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.withinEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">
             {ui.withinH2}
           </h2>
           <div className="space-y-3 text-[15px]">

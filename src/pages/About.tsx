@@ -107,8 +107,8 @@ export default function About() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.missionEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.missionEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">
             {ui.missionH2}
           </h2>
           <div className="space-y-5 text-charcoal/75 text-lg leading-relaxed">
@@ -120,8 +120,8 @@ export default function About() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-4xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.opEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-8">{ui.opH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.opEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-8 text-center lg:text-left">{ui.opH2}</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             {ui.opCards.map((card, i) => {
@@ -155,8 +155,8 @@ export default function About() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.principlesEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-8">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.principlesEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-8 text-center lg:text-left">
             {ui.principlesH2}
           </h2>
 

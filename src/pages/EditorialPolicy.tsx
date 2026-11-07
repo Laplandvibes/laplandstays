@@ -93,8 +93,8 @@ export default function EditorialPolicy() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.principlesEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-10">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.principlesEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-10 text-center lg:text-left">
             {ui.principlesH2}
           </h2>
 
@@ -122,9 +122,9 @@ export default function EditorialPolicy() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white">
         <div className="max-w-4xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.sourcesEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-6">{ui.sourcesH2}</h2>
-          <p className="text-white/65 text-base leading-relaxed mb-8 max-w-2xl">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.sourcesEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-6 text-center lg:text-left">{ui.sourcesH2}</h2>
+          <p className="text-white/65 text-base leading-relaxed mb-8 max-w-2xl mx-auto w-fit lg:mx-0 lg:w-auto">
             {ui.sourcesLead}
           </p>
           <div className="stack-table overflow-x-auto rounded-xl border border-white/10">
@@ -150,8 +150,8 @@ export default function EditorialPolicy() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.reviewerEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.reviewerH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.reviewerEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">{ui.reviewerH2}</h2>
           <div className="bg-white border border-pink/15 rounded-2xl p-7 sm:p-8 shadow-sm">
             <div className="flex items-start gap-5">
               <div className="w-16 h-16 rounded-full bg-pink/10 flex items-center justify-center shrink-0">
@@ -173,8 +173,8 @@ export default function EditorialPolicy() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.corrEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.corrH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.corrEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">{ui.corrH2}</h2>
           <div className="space-y-5 text-charcoal/75 text-lg leading-relaxed">
             <p>{ui.corrP1}</p>
             <p>

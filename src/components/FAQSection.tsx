@@ -117,7 +117,7 @@ export default function FAQSection({ items }: { items: FAQItem[] }) {
         <div className="text-center mb-14 max-w-3xl mx-auto">
           <p className="text-pink uppercase tracking-[0.3em] text-sm font-semibold mb-3">{c.eyebrow}</p>
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">{c.h2}</h2>
-          <p className="mt-5 text-charcoal/70 text-lg leading-relaxed">{c.lead}</p>
+          <p className="mt-5 mx-auto max-lg:w-fit max-lg:text-left text-charcoal/70 text-lg leading-relaxed">{c.lead}</p>
         </div>
 
         <div className="space-y-4">

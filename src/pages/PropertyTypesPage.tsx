@@ -129,8 +129,8 @@ function CategorySection(p: CategoryProps) {
 
   const content = (
     <div>
-      <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{p.eyebrow}</p>
-      <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-4">{p.title}</h2>
+      <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{p.eyebrow}</p>
+      <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-4 text-center lg:text-left">{p.title}</h2>
       <p className="text-charcoal/75 leading-relaxed text-lg mb-6">{p.body}</p>
 
       {/* No price row since 2026-09-24: a typed-in nightly range goes stale and the
@@ -189,7 +189,7 @@ function CategorySection(p: CategoryProps) {
         target="_blank"
         rel="sponsored nofollow noopener"
         onClick={() => trackAffiliateClick('lodging', p.ctaSid, p.ctaHref)}
-        className="inline-flex items-center gap-2.5 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
+        className="max-lg:flex max-lg:w-fit max-lg:mx-auto inline-flex items-center gap-2.5 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold px-6 py-3.5 rounded-xl transition-all duration-300 text-sm uppercase tracking-widest shadow-md hover:shadow-lg hover:-translate-y-0.5"
       >
         {p.ctaLabel}
         <ArrowRight className="w-4 h-4" />

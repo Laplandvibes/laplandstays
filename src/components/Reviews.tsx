@@ -198,7 +198,7 @@ export default function Reviews() {
           <h2 className="text-3xl sm:text-5xl lg:text-6xl font-heading text-snow tracking-wide">
             {c.h2}
           </h2>
-          <p className="mt-4 sm:mt-5 text-snow/70 text-base sm:text-lg leading-relaxed">
+          <p className="mt-4 sm:mt-5 mx-auto max-lg:w-fit max-lg:text-left text-snow/70 text-base sm:text-lg leading-relaxed">
             {c.lead}
           </p>
         </div>

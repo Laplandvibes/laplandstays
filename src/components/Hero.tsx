@@ -88,7 +88,7 @@ export default function Hero() {
             {c.h1}
           </h1>
           {/* xl:max-w-[45rem] = the 720 px the lead had inside the old max-w-3xl column. */}
-          <p className="text-snow/85 font-body text-base sm:text-lg lg:text-xl max-w-2xl xl:max-w-[45rem] mx-auto leading-relaxed xl:text-2xl">
+          <p className="text-snow/85 font-body text-base sm:text-lg lg:text-xl max-w-2xl xl:max-w-[45rem] mx-auto max-lg:w-fit max-lg:text-left leading-relaxed xl:text-2xl">
             {lead}
           </p>
         </div>

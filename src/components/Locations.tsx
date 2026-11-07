@@ -60,7 +60,7 @@ export default function Locations({ placement }: { placement?: FeaturedPlacement
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-night tracking-wide">
             {c.h2}
           </h2>
-          <p className="mt-5 text-charcoal/70 text-lg leading-relaxed">
+          <p className="mt-5 mx-auto max-lg:w-fit max-lg:text-left text-charcoal/70 text-lg leading-relaxed">
             {c.lead}
           </p>
         </div>

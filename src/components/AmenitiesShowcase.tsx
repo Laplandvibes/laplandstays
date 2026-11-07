@@ -91,7 +91,7 @@ export default function AmenitiesShowcase({ placement }: { placement?: FeaturedP
           <h2 className="text-4xl sm:text-5xl lg:text-6xl font-heading text-white tracking-wide">
             {c.h2}
           </h2>
-          <p className="mt-5 text-white/80 text-lg leading-relaxed">
+          <p className="mt-5 mx-auto max-lg:w-fit max-lg:text-left text-white/80 text-lg leading-relaxed">
             {c.lead}
           </p>
         </div>
