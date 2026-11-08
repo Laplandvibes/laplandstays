@@ -84,7 +84,7 @@ export default function EditorialPolicy() {
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5">
             {ui.h1}
           </h1>
-          <p className="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-white/75 text-lg max-w-2xl mx-auto leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">
             {ui.intro}
           </p>
           </div>
@@ -127,7 +127,7 @@ export default function EditorialPolicy() {
           <p className="text-white/65 text-base leading-relaxed mb-8 max-w-2xl mx-auto w-fit lg:mx-0 lg:w-auto">
             {ui.sourcesLead}
           </p>
-          <div className="stack-table overflow-x-auto rounded-xl border border-white/10">
+          <div className="stack-table stack-lause overflow-x-auto rounded-xl border border-white/10">
             <table className="w-full text-sm">
               <thead>
                 <tr className="bg-white/[0.04] text-left">
@@ -194,7 +194,7 @@ export default function EditorialPolicy() {
       <section className="py-16 px-4 sm:px-6 bg-night text-white text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-heading text-3xl sm:text-4xl tracking-wide mb-3">{ui.readOnH2}</h2>
-          <p className="text-white/65 mb-8 leading-relaxed">
+          <p className="text-white/65 mb-8 leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">
             {ui.readOnLead}
           </p>
           <div className="flex flex-wrap items-center justify-center gap-3">

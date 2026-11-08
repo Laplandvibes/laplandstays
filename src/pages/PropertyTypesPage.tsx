@@ -423,7 +423,7 @@ export default function PropertyTypesPage() {
             <h1 className="font-heading text-[2.75rem] leading-[1.05] sm:text-6xl md:text-7xl tracking-wide mb-6 [text-shadow:0_3px_30px_rgba(0,0,0,0.7),0_1px_4px_rgba(0,0,0,0.55)]">
               {ui.h1}
             </h1>
-            <p className="text-white/90 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-7 [text-shadow:0_2px_16px_rgba(0,0,0,0.8)]">
+            <p className="text-white/90 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mb-7 max-lg:mx-auto max-lg:w-fit max-lg:text-left [text-shadow:0_2px_16px_rgba(0,0,0,0.8)]">
               {ui.lead}
             </p>
 

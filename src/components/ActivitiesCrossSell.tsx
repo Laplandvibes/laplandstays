@@ -88,7 +88,7 @@ export default function ActivitiesCrossSell({ gygSlug = 'lappi-suomi-l2652', cmp
           <h2 id="activities-crosssell-title" className="font-heading text-3xl sm:text-4xl tracking-wide mb-4" style={{ color: '#1F2937' }}>
             {t.heading}
           </h2>
-          <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#4B5563' }}>
+          <p className="text-base sm:text-lg leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left" style={{ color: '#4B5563' }}>
             {t.blurb}
           </p>
         </div>

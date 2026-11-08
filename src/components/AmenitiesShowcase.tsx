@@ -136,7 +136,7 @@ export default function AmenitiesShowcase({ placement }: { placement?: FeaturedP
                 <p className="text-[11px] uppercase tracking-widest text-white/80 font-semibold mb-2">{c.lookForLabel}</p>
                 <p className="text-sm text-white/70 leading-relaxed mb-4">{amenity.lookForIn}</p>
 
-                <div className="mt-auto pt-3 border-t border-white/10 flex flex-wrap gap-2">
+                <div className="mt-auto pt-3 border-t border-white/10 flex flex-wrap gap-2 max-sm:[&>a]:flex-auto max-sm:[&>a]:justify-center">
                   {amenity.examples.map((ex) => (
                     <a
                       key={ex.name}
@@ -177,6 +177,10 @@ export default function AmenitiesShowcase({ placement }: { placement?: FeaturedP
 
           <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2">
             <span className="text-[13px] text-white/55">{c.ctaByDestination}</span>
+            {/* Below lg the destination pills get their own centred row under the label: inline with it,
+                the label pushed the pills off the column centre on phones (gate:tabletti 9.11.2026, fi 390 px).
+                lg:contents keeps the desktop line exactly as before. */}
+            <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 max-lg:basis-full lg:contents">
             {DESTINATIONS.map((d) => {
               const href = buildAffiliateUrl({
                 partner: 'hotels', sid: `amenities_dest_${d.key}`, destination: d.query, lang,
@@ -194,6 +198,7 @@ export default function AmenitiesShowcase({ placement }: { placement?: FeaturedP
                 </a>
               )
             })}
+            </div>
           </div>
         </div>
       </div>

@@ -180,7 +180,7 @@ export default function PriceGuide() {
               <h2 className="text-4xl sm:text-5xl lg:text-4xl font-heading text-night tracking-wide text-balance">
                 {copy.heading}
               </h2>
-              <p className="mt-4 text-charcoal/70 text-base sm:text-[17px] leading-relaxed hidden sm:block">
+              <p className="mt-4 text-charcoal/70 text-base sm:text-[17px] leading-relaxed hidden sm:block max-lg:mx-auto max-lg:w-fit max-lg:text-left">
                 {copy.lead}
               </p>
             </div>

@@ -190,6 +190,11 @@
   .stack-table td:first-child { font-weight: 700; text-align: left !important; padding-bottom: 0.35rem !important; display: block; }
   .stack-table td:first-child::before { content: none; }
   .stack-table td svg { margin-left: 0; margin-right: 0; }
+  /* Sentence cells (editorial-policy sources, 9.11.2026): label above, sentence left-aligned at full width.
+     Beside a long label (de "WOFÜR SIE VERWENDET WIRD") the sentence got a third of the row, right-aligned,
+     and one word overflowed the page by 4 px at 360 px (gate:tabletti). */
+  .stack-table.stack-lause td:not(:first-child) { display: block; text-align: left !important; }
+  .stack-table.stack-lause td:not(:first-child)::before { display: block; margin-bottom: 0.2rem; }
 }
 
 /* LV-ORPOSANA:alku
