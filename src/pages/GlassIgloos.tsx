@@ -196,7 +196,7 @@ export default function GlassIgloos() {
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {c.h1}
             </h1>
-            <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
+            <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 max-lg:mx-auto max-lg:w-fit max-lg:text-left [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
               {c.lead}
             </p>
             <AffiliateDisclosure variant="compact" className="text-white/75 [&>svg]:text-white/75 [text-shadow:0_1px_8px_rgba(0,0,0,0.8)]" />
@@ -531,7 +531,7 @@ export default function GlassIgloos() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl tracking-wide mb-4">{c.ctaH2}</h2>
-          <p className="text-white/70 mb-8 leading-relaxed">{c.ctaBody}</p>
+          <p className="text-white/70 mb-8 leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">{c.ctaBody}</p>
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
             <Link
               to={to('/when-to-go')}
@@ -546,7 +546,7 @@ export default function GlassIgloos() {
               {c.ctaSecondary}
             </Link>
           </div>
-          <p className="text-white/80 text-base leading-relaxed mt-8 max-w-xl mx-auto">{c.checkedNote}</p>
+          <p className="text-white/80 text-base leading-relaxed mt-8 max-w-xl mx-auto max-lg:mx-auto max-lg:w-fit max-lg:text-left">{c.checkedNote}</p>
         </div>
       </section>
 

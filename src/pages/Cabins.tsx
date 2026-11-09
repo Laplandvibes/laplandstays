@@ -176,7 +176,7 @@ export default function Cabins() {
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {ui.h1}
             </h1>
-            <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
+            <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
               {ui.lead}
             </p>
           </div>
@@ -188,9 +188,9 @@ export default function Cabins() {
       {/* Why a cabin */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.whyEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.whyH2}</h2>
-          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">{ui.whyLead}</p>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.whyEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">{ui.whyH2}</h2>
+          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl mx-auto w-fit lg:mx-0 lg:w-auto">{ui.whyLead}</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {ui.whyCards.map((card, i) => {
               const Icon = WHY_ICONS[i]
@@ -236,9 +236,9 @@ export default function Cabins() {
       {/* The four regions */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.areasEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.areasH2}</h2>
-          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">{ui.areasLead}</p>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.areasEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">{ui.areasH2}</h2>
+          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl mx-auto w-fit lg:mx-0 lg:w-auto">{ui.areasLead}</p>
 
           <div className="space-y-5">
             {ui.areas.map((a, i) => {
@@ -292,8 +292,8 @@ export default function Cabins() {
       {byArea && (
         <section className="pb-16 sm:pb-20 px-4 sm:px-6 bg-white">
           <div className="max-w-6xl mx-auto">
-            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-4">{byArea.h2}</h2>
-            <p className="text-charcoal/70 text-lg leading-relaxed mb-8 max-w-3xl">{byArea.lead}</p>
+            <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-4 text-center lg:text-left">{byArea.h2}</h2>
+            <p className="text-charcoal/70 text-lg leading-relaxed mb-8 max-w-3xl mx-auto w-fit lg:mx-0 lg:w-auto">{byArea.lead}</p>
             <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               {areaIndex.map((a) => (
                 <li key={a.area}>
@@ -326,9 +326,9 @@ export default function Cabins() {
       {/* Practical: how to read a listing */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-5xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.practicalEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.practicalH2}</h2>
-          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl">{ui.practicalLead}</p>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.practicalEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">{ui.practicalH2}</h2>
+          <p className="text-charcoal/70 text-lg leading-relaxed mb-10 max-w-3xl mx-auto w-fit lg:mx-0 lg:w-auto">{ui.practicalLead}</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="bg-white border border-gray-100 rounded-2xl p-6">
               <h3 className="font-heading text-xl text-night tracking-wide mb-3">{ui.checkTitle}</h3>
@@ -349,8 +349,8 @@ export default function Cabins() {
       {/* Seasons */}
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.seasonEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">{ui.seasonH2}</h2>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.seasonEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">{ui.seasonH2}</h2>
           <p className="text-charcoal/70 text-lg leading-relaxed mb-8">{ui.seasonLead}</p>
           <div className="space-y-3 text-[15px]">
             {ui.seasons.map((s, i) => (
@@ -367,7 +367,7 @@ export default function Cabins() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-4">{ui.ctaH2}</h2>
-          <p className="text-white/70 mb-8 leading-relaxed">{ui.ctaLead}</p>
+          <p className="text-white/70 mb-8 leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">{ui.ctaLead}</p>
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
             <a
               href={ctaHref}

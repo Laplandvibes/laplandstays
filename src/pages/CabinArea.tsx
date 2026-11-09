@@ -365,22 +365,22 @@ export default function CabinArea() {
 
       <section className="bg-white pt-24 sm:pt-28 pb-10 sm:pb-12 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <Link to={to('/cabins')} className="inline-flex items-center gap-1.5 text-[13px] font-semibold text-charcoal/60 hover:text-pink transition-colors mb-6">
+          <Link to={to('/cabins')} className="flex w-fit items-center gap-1.5 text-[13px] font-semibold text-charcoal/60 hover:text-pink transition-colors mb-6 max-lg:mx-auto">
             <ArrowRight className="w-3.5 h-3.5 rotate-180" aria-hidden="true" />
             {copy.breadcrumbCabins}
           </Link>
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{copy.eyebrow}</p>
-          <h1 className="font-heading text-4xl sm:text-6xl text-night tracking-wide mb-5">{c.h1}</h1>
-          <p className="text-charcoal/80 text-lg leading-relaxed max-w-3xl mb-8">{intro}</p>
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{copy.eyebrow}</p>
+          <h1 className="font-heading text-4xl sm:text-6xl text-night tracking-wide mb-5 text-center lg:text-left">{c.h1}</h1>
+          <p className="text-charcoal/80 text-lg leading-relaxed max-w-3xl mb-8 mx-auto w-fit lg:mx-0 lg:w-auto">{intro}</p>
           {/* Button labels wrap instead of truncating: "SELAA KAIKKIA ALUEEN MÖKKEJ…" ended in an
               ellipsis on every phone (measured 17.10.2026, 320–414 px, fi/en/de). */}
-          <div className="flex flex-wrap items-center gap-3">
+          <div className="flex flex-col items-stretch gap-3 max-w-sm mx-auto sm:max-w-none sm:flex-row sm:flex-wrap sm:items-center sm:justify-center lg:justify-start lg:mx-0">
             <a
               href={browseHref}
               target="_blank"
               rel="sponsored nofollow noopener"
               onClick={() => trackAffiliateClick('lomarengas', `cabinpage_${slug}_all`, browseHref)}
-              className="inline-flex max-w-full items-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-sm uppercase tracking-wider"
+              className="inline-flex max-w-full items-center justify-center gap-2 bg-[#DB2777] hover:bg-[#BE185D] text-white font-semibold py-3.5 px-6 rounded-xl transition-colors text-sm uppercase tracking-wider"
             >
               <span className="min-w-0 break-words leading-snug">{copy.browseAll}</span>
               <ExternalLink className="w-4 h-4 shrink-0" aria-hidden="true" />
@@ -388,7 +388,7 @@ export default function CabinArea() {
             {destination && (
               <Link
                 to={to(destination)}
-                className="inline-flex max-w-full items-center gap-2 border border-night/20 text-night font-semibold py-3.5 px-6 rounded-xl hover:border-pink hover:text-pink transition-colors text-sm"
+                className="inline-flex max-w-full items-center justify-center gap-2 border border-night/20 text-night font-semibold py-3.5 px-6 rounded-xl hover:border-pink hover:text-pink transition-colors text-sm"
               >
                 <span className="min-w-0 break-words leading-snug">{copy.destinationLink}</span>
                 <ArrowRight className="w-4 h-4 shrink-0" aria-hidden="true" />
@@ -408,13 +408,13 @@ export default function CabinArea() {
             </div>
           ) : split ? (
             <>
-              <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-2">{split.nearH2}</h2>
-              <p className="text-white/75 text-[15px] leading-relaxed max-w-3xl mb-6">{split.nearNote}</p>
+              <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-2 text-center lg:text-left">{split.nearH2}</h2>
+              <p className="text-white/75 text-[15px] leading-relaxed max-w-3xl mb-6 mx-auto w-fit lg:mx-0 lg:w-auto">{split.nearNote}</p>
               {grid(groups.near, shown, () => setShown((n) => n + PAGE))}
               {groups.far.length > 0 && (
                 <>
-                  <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mt-14 mb-2">{split.farH2}</h2>
-                  <p className="text-white/75 text-[15px] leading-relaxed max-w-3xl mb-6">{split.farNote}</p>
+                  <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mt-14 mb-2 text-center lg:text-left">{split.farH2}</h2>
+                  <p className="text-white/75 text-[15px] leading-relaxed max-w-3xl mb-6 mx-auto w-fit lg:mx-0 lg:w-auto">{split.farNote}</p>
                   {grid(groups.far, shownFar, () => setShownFar((n) => n + PAGE))}
                 </>
               )}
@@ -435,8 +435,8 @@ export default function CabinArea() {
 
       <section className="bg-white py-12 sm:py-16 px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
-          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6">{copy.otherAreasH2}</h2>
-          <div className="flex flex-wrap gap-3">
+          <h2 className="font-heading text-3xl sm:text-4xl text-night tracking-wide mb-6 text-center lg:text-left">{copy.otherAreasH2}</h2>
+          <div className="flex flex-wrap justify-center gap-3 lg:justify-start">
             {AREAS.filter((a) => a !== slug).map((a) => (
               <Link
                 key={a}

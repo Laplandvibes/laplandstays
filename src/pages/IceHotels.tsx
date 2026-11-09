@@ -163,7 +163,7 @@ export default function IceHotels() {
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {c.h1}
             </h1>
-            <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
+            <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 max-lg:mx-auto max-lg:w-fit max-lg:text-left [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
               {c.lead}
             </p>
             <AffiliateDisclosure variant="compact" className="text-white/75 [&>svg]:text-white/75 [text-shadow:0_1px_8px_rgba(0,0,0,0.8)]" />

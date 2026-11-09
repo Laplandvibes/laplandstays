@@ -497,7 +497,7 @@ export default function DestinationPage(p: DestinationPageProps) {
             <MapPin className="w-4 h-4" /> {regionLabel}
           </p>
           <h1 className={`font-heading tracking-wide mb-4 text-balance lg:[text-shadow:0_3px_28px_rgba(0,0,0,0.85),0_1px_4px_rgba(0,0,0,0.6)] ${b.heroH1 ? 'text-4xl sm:text-6xl md:text-7xl' : 'text-5xl sm:text-7xl md:text-8xl'}`}>{b.heroH1 ?? p.name}</h1>
-          <p className="text-xl sm:text-2xl md:text-3xl text-white/90 max-w-3xl max-lg:mx-auto leading-snug text-pretty lg:[text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{nb(b.tagline)}</p>
+          <p className="text-xl sm:text-2xl md:text-3xl text-white/90 max-w-3xl max-lg:mx-auto max-lg:w-fit max-lg:text-left leading-snug text-pretty lg:[text-shadow:0_2px_12px_rgba(0,0,0,0.9)]">{nb(b.tagline)}</p>
         </div>
       </section>
 
@@ -805,7 +805,7 @@ export default function DestinationPage(p: DestinationPageProps) {
             <h3 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">
               {ui.findCabinH3(p.name)}
             </h3>
-            <p className="text-white/65 mb-6">{ui.findCabinLead}</p>
+            <p className="text-white/65 mb-6 max-lg:mx-auto max-lg:w-fit max-lg:text-left">{ui.findCabinLead}</p>
             <a
               href={searchUrl}
               target="_blank"
@@ -816,7 +816,7 @@ export default function DestinationPage(p: DestinationPageProps) {
               {ui.checkAvailability} <ArrowRight className="w-4 h-4" />
             </a>
             {cabinPageHref && (
-              <p className="mt-4">
+              <p className="mt-4 max-lg:mx-auto max-lg:w-fit max-lg:text-left">
                 <Link to={cabinPageHref} className="inline-flex items-center gap-1.5 text-sm text-white/80 hover:text-pink font-semibold min-h-11">
                   {CABIN_PAGE_LABEL[lang]} <ArrowRight className="w-3.5 h-3.5" />
                 </Link>

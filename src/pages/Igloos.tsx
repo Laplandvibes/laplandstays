@@ -253,7 +253,7 @@ export default function Igloos() {
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               Iglumajoitus Lapissa
             </h1>
-            <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
+            <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-6 max-lg:mx-auto max-lg:w-fit max-lg:text-left [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
               Lasi-iglu, lumi-iglu vai kokonainen iglukylä? Tässä vertailussa käydään läpi, miten kolme iglutyyppiä eroavat, missä iglut oikeasti sijaitsevat ja milloin yö kannattaa varata.
             </p>
             <AffiliateDisclosure variant="compact" className="text-white/70 [&>svg]:text-white/70 [text-shadow:0_1px_8px_rgba(0,0,0,0.8)]" />
@@ -443,7 +443,7 @@ export default function Igloos() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-4">Rakenna loma iglun ympärille</h2>
-          <p className="text-white/70 mb-8 leading-relaxed">
+          <p className="text-white/70 mb-8 leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">
             Valitse ensin iglutyyppi ja alue, varaa iglu-yö kohteen kalenterista, ja hae loppuviikon tukikohta Lapin mökkihausta.
           </p>
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">

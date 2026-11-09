@@ -107,7 +107,7 @@ export default function WhenToGo() {
             <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {ui.h1}
             </h1>
-            <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8 [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
+            <p className="text-white/85 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-8 max-lg:mx-auto max-lg:w-fit max-lg:text-left [text-shadow:0_1px_10px_rgba(0,0,0,0.8)]">
               {ui.lead}
             </p>
             <AffiliateDisclosure variant="compact" className="text-white/70 [&>svg]:text-white/70 [text-shadow:0_1px_8px_rgba(0,0,0,0.8)]" />
@@ -120,8 +120,8 @@ export default function WhenToGo() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.seasonsEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-10">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.seasonsEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-10 text-center lg:text-left">
             {ui.seasonsH2}
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
@@ -141,11 +141,11 @@ export default function WhenToGo() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white">
         <div className="max-w-6xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.monthEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-4">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.monthEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-4 text-center lg:text-left">
             {ui.monthH2}
           </h2>
-          <p className="text-white/65 text-base leading-relaxed mb-8 max-w-3xl">
+          <p className="text-white/65 text-base leading-relaxed mb-8 max-w-3xl mx-auto w-fit lg:mx-0 lg:w-auto">
             {ui.monthLead}
           </p>
 
@@ -180,8 +180,8 @@ export default function WhenToGo() {
 
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-pink/5">
         <div className="max-w-3xl mx-auto">
-          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3">{ui.secretEyebrow}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6">
+          <p className="text-pink uppercase tracking-[0.3em] text-xs font-semibold mb-3 text-center lg:text-left">{ui.secretEyebrow}</p>
+          <h2 className="font-heading text-4xl sm:text-5xl text-night tracking-wide mb-6 text-center lg:text-left">
             {ui.secretH2}
           </h2>
           <div className="space-y-5 text-charcoal/75 text-lg leading-relaxed">
@@ -205,10 +205,10 @@ export default function WhenToGo() {
       <section className="py-16 sm:py-20 px-4 sm:px-6 bg-night text-white text-center">
         <div className="max-w-2xl mx-auto">
           <h2 className="font-heading text-4xl sm:text-5xl tracking-wide mb-4">{ui.ctaH2}</h2>
-          <p className="text-white/70 mb-8 leading-relaxed">
+          <p className="text-white/70 mb-8 leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">
             {ui.ctaLead}
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <div className="flex flex-col items-stretch gap-4 max-w-sm mx-auto sm:max-w-none sm:flex-row sm:flex-wrap sm:items-center sm:justify-center">
             <a
               href={HOTEL_SEARCH_FOR(lang).lapland}
               target="_blank"
