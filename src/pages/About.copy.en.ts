@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "What is covered",
-        "body": "Glass igloos, lakeside cabins, ski-in chalets, designer lodges and Lapland Hotels in five destinations (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Aurora season Sep–Apr, midnight sun Jun–Jul."
+        "body": "Glass igloos, lakeside cabins, ski-in chalets, designer lodges and Lapland Hotels in five destinations (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Aurora season Sep–Apr, midnight sun Jun–Jul."
       }
     ],
     "principlesEyebrow": "How testing works",

@@ -390,7 +390,8 @@ export default function PartnerStayAd({ partner, sid, carsPickup = 'RVN', lomare
           {/* Phone: one line under the photo, not over it (feedback_kuvakrediitti 26.–28.9.: card photo ⇒ mark below;
               24.10. the corner mark covered the Lomarengas watermark at 390 px). */}
           <span className="md:hidden block px-6 sm:px-8 pt-2 text-right text-[12px] leading-snug text-charcoal/60">
-            {PICTURED[lang] + photo.place} · {((photo.supplied && SUPPLIED[lang]) || BY[lang]) + photo.by}
+            <span className="block">{PICTURED[lang] + photo.place}</span>
+            <span className="block">{((photo.supplied && SUPPLIED[lang]) || BY[lang]) + photo.by}</span>
           </span>
         </a>
       )}

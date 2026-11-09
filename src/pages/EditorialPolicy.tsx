@@ -7,6 +7,7 @@ import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './EditorialPolicy.copy.types'
 import enCopy from './EditorialPolicy.copy.en'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -159,7 +160,7 @@ export default function EditorialPolicy() {
               </div>
               <div>
                 <p className="font-heading text-2xl text-night tracking-wide">Vesa Pesola</p>
-                <p className="text-pink text-sm font-semibold uppercase tracking-widest mt-0.5 mb-3">{ui.reviewerRole}</p>
+                <Erotinrivi className="text-pink text-sm font-semibold uppercase tracking-widest mt-0.5 mb-3" osat={erotinOsat(ui.reviewerRole)} />
                 <p className="text-charcoal/75 leading-relaxed text-[15px]">
                   {ui.reviewerBody1}{' '}
                   <a href="mailto:info@laplandvibes.com" className="text-pink font-semibold hover:underline">info@laplandvibes.com</a>{' '}

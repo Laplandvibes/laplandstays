@@ -23,6 +23,7 @@
  * "Mainos"-pilleri, ansaittu = lumi/amber ilman pinkkiä.
  */
 import { Award } from 'lucide-react'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 export default function EditorsPickChip({
   label,
@@ -55,7 +56,7 @@ export default function EditorsPickChip({
       </span>
       {note && (
         <span data-editors-pick-note="" className="text-[11px] leading-snug text-white/65">
-          {note}
+          <Erotinrivi as="span" osat={erotinOsat(note)} />
         </span>
       )}
     </div>

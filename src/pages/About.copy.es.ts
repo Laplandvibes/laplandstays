@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Qué se cubre",
-        "body": "Iglús de cristal, cabañas junto al lago, chalets ski-in, lodges de diseño y hoteles de Laponia en cinco destinos (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Temporada de auroras sep–abr, sol de medianoche jun–jul."
+        "body": "Iglús de cristal, cabañas junto al lago, chalets ski-in, lodges de diseño y hoteles de Laponia en cinco destinos (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Temporada de auroras sep–abr, sol de medianoche jun–jul."
       }
     ],
     "principlesEyebrow": "Cómo verificamos",

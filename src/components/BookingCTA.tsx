@@ -6,6 +6,7 @@ import { useCopy } from '../i18n/useCopy'
 import { preloadLazyCopy } from '../i18n/lazyCopy'
 import enCopy from './BookingCTA.copy.en'
 import type { Copy } from './BookingCTA.copy.types'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 
 const TRUST_ICONS = [BadgeCheck, ShieldCheck, Clock, Headphones]
@@ -88,7 +89,7 @@ export default function BookingCTA() {
           {c.seasonAnchors.map((a) => (
             <div key={a.label} className="flex-1 px-5 py-3.5 text-center">
               <p className="text-[10px] uppercase tracking-widest text-white/60 font-semibold mb-0.5">{a.label}</p>
-              <p className="font-heading text-snow text-lg tracking-wide leading-tight">{a.value}</p>
+              <Erotinrivi className="font-heading text-snow text-lg tracking-wide leading-tight" osat={erotinOsat(a.value)} />
               <p className="text-[11px] text-white/60 mt-0.5">{a.sub}</p>
             </div>
           ))}
@@ -120,7 +121,7 @@ export default function BookingCTA() {
             <span className="hidden sm:inline text-white/30">·</span>
             <span className="inline-flex items-center gap-2">
               <MapPin className="w-3.5 h-3.5" />
-              {c.statsLabel}
+              <Erotinrivi as="span" osat={erotinOsat(c.statsLabel)} />
             </span>
           </div>
         </div>

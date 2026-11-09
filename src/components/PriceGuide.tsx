@@ -6,6 +6,7 @@ import { useLang, type Lang } from '../i18n/useLang'
 import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PriceGuideCopy } from './PriceGuide.copy.en'
 import enCopy from './PriceGuide.copy.en'
+import { Erotinrivi } from '../shared/Erotin';
 
 // Non-translatable per-tier data. Order matches `tiers` in PriceGuide.copy.*.
 //
@@ -239,9 +240,7 @@ export default function PriceGuide() {
                       </h3>
                       {/* Three names, not all five: the full list overran the
                           column and the clamp cut a property name mid-word. */}
-                      <p className="mt-1.5 text-[13px] leading-snug text-charcoal/55 line-clamp-1 lg:line-clamp-2">
-                        {tier.examples.slice(0, 3).join(' · ')}
-                      </p>
+                      <Erotinrivi className="mt-1.5 text-[13px] leading-snug text-charcoal/55" osat={tier.examples.slice(0, 3)} />
                     </div>
                   </div>
   

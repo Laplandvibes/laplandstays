@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Ce qui est couvert",
-        "body": "Igloos de verre, chalets au bord du lac, chalets ski-in, lodges signés et hôtels de Laponie dans cinq destinations (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Saison aurores sept.–avr., soleil de minuit juin–juil."
+        "body": "Igloos de verre, chalets au bord du lac, chalets ski-in, lodges signés et hôtels de Laponie dans cinq destinations (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Saison aurores sept.–avr., soleil de minuit juin–juil."
       }
     ],
     "principlesEyebrow": "Comment fonctionne la vérification",

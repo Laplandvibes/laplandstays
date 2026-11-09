@@ -14,6 +14,7 @@ import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './WhenToGo.copy.types'
 import enCopy from './WhenToGo.copy.en'
 import PhotoMark from '../components/PhotoMark'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -166,10 +167,10 @@ export default function WhenToGo() {
                   <tr key={m.m} className={i % 2 === 0 ? 'bg-white/[0.02]' : ''}>
                     <td className="px-4 py-3 font-heading text-base text-pink whitespace-nowrap">{m.m}</td>
                     <td data-label={ui.th.daylight} className="px-4 py-3 text-white/75 whitespace-nowrap text-[13px]">{m.daylight}</td>
-                    <td data-label={ui.th.aurora} className="px-4 py-3 text-white/75 text-[13px]">{m.aurora}</td>
-                    <td data-label={ui.th.snow} className="px-4 py-3 text-white/75 text-[13px]">{m.snow}</td>
-                    <td data-label={ui.th.vibe} className="px-4 py-3 text-white/75 text-[13px]">{m.vibe}</td>
-                    <td data-label={ui.th.booking} className="px-4 py-3 text-white/75 text-[13px]">{m.bookingNote}</td>
+                    <td data-label={ui.th.aurora} className="px-4 py-3 text-white/75 text-[13px]"><Erotinrivi as="span" osat={erotinOsat(m.aurora)} /></td>
+                    <td data-label={ui.th.snow} className="px-4 py-3 text-white/75 text-[13px]"><Erotinrivi as="span" osat={erotinOsat(m.snow)} /></td>
+                    <td data-label={ui.th.vibe} className="px-4 py-3 text-white/75 text-[13px]"><Erotinrivi as="span" osat={erotinOsat(m.vibe)} /></td>
+                    <td data-label={ui.th.booking} className="px-4 py-3 text-white/75 text-[13px]"><Erotinrivi as="span" osat={erotinOsat(m.bookingNote)} /></td>
                   </tr>
                 ))}
               </tbody>

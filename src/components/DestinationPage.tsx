@@ -22,6 +22,7 @@ import enCopy from './DestinationPage.copy.en'
 import type { Copy } from './DestinationPage.copy.types'
 import PhotoMark, { PICTURED } from './PhotoMark'
 import SemboUkCodeStrip from './SemboUkCodeStrip'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 export interface DestinationAnchor {
   name: string
@@ -891,7 +892,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                         </div>
                         <div className="min-w-0">
                           <p className="text-[11px] uppercase tracking-widest text-white/55 font-semibold mb-1">{t.label}</p>
-                          <p className="text-white text-[15px] leading-snug">{nb(t.detail)}</p>
+                          <Erotinrivi className="text-white text-[15px] leading-snug" osat={erotinOsat(nb(t.detail))} />
                         </div>
                       </li>
                     )
@@ -907,10 +908,8 @@ export default function DestinationPage(p: DestinationPageProps) {
                     className="mt-6 group flex items-center justify-between gap-4 px-5 py-4 rounded-xl bg-gradient-to-r from-pink/15 to-pink/5 border border-pink/30 hover:border-pink/60 hover:from-pink/25 hover:to-pink/15 transition-all"
                   >
                     <div className="min-w-0">
-                      <p className="text-[11px] uppercase tracking-widest text-pink font-semibold mb-1">{ui.rentCarLabel}</p>
-                      <p className="text-white text-[15px] leading-snug">
-                        {nb(b.carRental.airport + (b.carRental.blurb ? ` · ${b.carRental.blurb}` : ''))}
-                      </p>
+                      <Erotinrivi className="text-[11px] uppercase tracking-widest text-pink font-semibold mb-1" osat={erotinOsat(ui.rentCarLabel)} />
+                      <Erotinrivi className="text-white text-[15px] leading-snug" osat={[nb(b.carRental.airport), b.carRental.blurb ? nb(b.carRental.blurb) : null]} />
                     </div>
                     <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
                   </a>
@@ -935,7 +934,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                 <div key={d.day} className="flex gap-4 items-start bg-gradient-to-b from-pink/5 to-white border border-pink/10 rounded-2xl p-5">
                   <span className="font-heading text-3xl text-pink shrink-0 leading-none w-12">{d.day}</span>
                   <div>
-                    <h3 className="font-heading text-xl text-night tracking-wide mb-1.5">{d.title}</h3>
+                    <h3 className="font-heading text-xl text-night tracking-wide mb-1.5"><Erotinrivi as="span" osat={erotinOsat(d.title)} /></h3>
                     <p className="text-charcoal/70 leading-relaxed text-[15px]">{nb(d.body)}</p>
                   </div>
                 </div>

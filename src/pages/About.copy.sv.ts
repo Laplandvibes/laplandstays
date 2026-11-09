@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Vad som behandlas",
-        "body": "Glasigloor, stugor vid sjön, ski-in-chalet, designlodger och Lapland Hotels på fem resmål (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Norrskenssäsong sep–apr, midnattssol jun–jul."
+        "body": "Glasigloor, stugor vid sjön, ski-in-chalet, designlodger och Lapland Hotels på fem resmål (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Norrskenssäsong sep–apr, midnattssol jun–jul."
       }
     ],
     "principlesEyebrow": "Så fungerar granskningen",

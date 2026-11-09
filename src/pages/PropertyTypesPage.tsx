@@ -22,6 +22,7 @@ import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './PropertyTypesPage.copy.types'
 import enCopy from './PropertyTypesPage.copy.en'
 import PhotoMark from '../components/PhotoMark'
+import { Erotinrivi, Pinorivi } from '../shared/Erotin';
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -172,16 +173,11 @@ function CategorySection(p: CategoryProps) {
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5 mb-7 text-sm">
         <MapPin className="w-4 h-4 text-charcoal/45 shrink-0" />
         <span className="text-charcoal/70 uppercase text-xs tracking-widest font-semibold">{p.concentratedLabel}</span>
-        <div className="flex flex-wrap items-center gap-x-3 gap-y-1.5">
-          {p.concentratedIn.map((c, i) => (
-            <span key={c.to} className="flex items-center gap-3">
-              {i > 0 && <span className="text-charcoal/30">·</span>}
-              <Link to={c.to} className="text-pink font-semibold hover:underline">
+        <Erotinrivi as="div" osat={p.concentratedIn.map((c) => (
+          <Link key={c.to} to={c.to} className="text-pink font-semibold hover:underline">
                 {c.name}
               </Link>
-            </span>
-          ))}
-        </div>
+        ))} />
       </div>
 
       <a
@@ -429,9 +425,7 @@ export default function PropertyTypesPage() {
 
             {/* Single-line editorial stat subtitle, replaces the old boxy stat pill */}
             <p className="text-snow/80 uppercase text-xs sm:text-sm font-medium tracking-[0.18em] [text-shadow:0_2px_12px_rgba(0,0,0,0.8)]">
-              4 {ui.statCategories}
-              <span className="mx-2.5 text-snow/45">·</span>
-              12+ {ui.statAnchors}
+              <Pinorivi text={`4 ${ui.statCategories} · 12+ ${ui.statAnchors}`} />
             </p>
           </div>
         </div>

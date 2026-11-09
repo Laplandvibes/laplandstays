@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { ShieldCheck } from 'lucide-react'
 import { useLocalePath } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
+import { Erotinrivi } from '../shared/Erotin';
 
 interface ReviewedByProps {
   /** Last review date in human format, e.g. "April 2026". */
@@ -44,20 +45,18 @@ export default function ReviewedBy({
       aria-label={c.ariaLabel}
     >
       <ShieldCheck className="w-3.5 h-3.5 text-pink shrink-0" />
-      <p className={`text-[12px] ${dim} font-medium leading-snug`}>
+      <Erotinrivi className={`text-[12px] ${dim} font-medium leading-snug`} osat={[
         <span className="whitespace-nowrap">
           {reviewedLabel} <span className={`${strong} font-semibold`}>{reviewer}</span>
-        </span>
-        <span aria-hidden="true"> · </span>
-        <span className="whitespace-nowrap">{resolvedDate}</span>
-        <span aria-hidden="true"> · </span>
+        </span>,
+        <span className="whitespace-nowrap">{resolvedDate}</span>,
         <Link
           to={to('/editorial-policy')}
           className={`${link} font-semibold underline-offset-2 hover:underline whitespace-nowrap`}
         >
           {policyLabel}
-        </Link>
-      </p>
+        </Link>,
+      ]} />
     </div>
   )
 }

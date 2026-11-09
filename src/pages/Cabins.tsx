@@ -18,6 +18,7 @@ import type { PageCopy } from './Cabins.copy.types'
 import enCopy from './Cabins.copy.en'
 import PhotoMark from '../components/PhotoMark'
 import AREA_INDEX from '../data/cabins/areas.json'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -168,7 +169,7 @@ export default function Cabins() {
             {/* KKV ad marking: visible before any commercial content (Lomarengas terms). */}
             <p className="inline-flex items-center gap-1.5 text-[10px] sm:text-[11px] uppercase tracking-widest text-white/85 bg-night/45 backdrop-blur-[2px] border border-white/25 rounded-full px-3 py-1 mb-5 max-w-full">
               <Megaphone className="w-3 h-3 shrink-0" aria-hidden="true" />
-              <span className="min-w-0">{ui.adNotice}</span>
+              <Erotinrivi as="span" className="min-w-0" osat={erotinOsat(ui.adNotice)} />
             </p>
             {/* No eyebrow / no second disclosure here: the ad-marking pill above is the
                 single legally required notice, and the H1 already names the topic
@@ -269,7 +270,7 @@ export default function Cabins() {
                     onClick={onLomarengas(meta.sid, href)}
                     className="inline-flex max-w-full items-center gap-1.5 text-sm px-4 py-2 rounded-full bg-pink/10 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                   >
-                    <span className="min-w-0 break-words leading-snug">{a.cta}</span>
+                    <Erotinrivi as="span" className="min-w-0 break-words leading-snug" osat={erotinOsat(a.cta)} />
                     <ArrowRight className="w-3.5 h-3.5 shrink-0" />
                   </a>
                   {areaPageLabel && (
@@ -277,7 +278,7 @@ export default function Cabins() {
                       to={to(`/cabins/${meta.area}`)}
                       className="inline-flex max-w-full items-center gap-1.5 text-sm px-4 py-2 mt-2 ml-2 min-h-11 rounded-full border border-pink/30 text-pink font-semibold hover:bg-pink hover:text-white transition-colors"
                     >
-                      <span className="min-w-0 break-words leading-snug">{areaPageLabel}</span>
+                      <Erotinrivi as="span" className="min-w-0 break-words leading-snug" osat={erotinOsat(areaPageLabel)} />
                       <ArrowRight className="w-3.5 h-3.5 shrink-0" />
                     </Link>
                   )}

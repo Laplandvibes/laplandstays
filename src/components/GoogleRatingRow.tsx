@@ -35,6 +35,7 @@ import {
 } from '../data/properties'
 import { useCopy } from '../locales/copy'
 import { useLang } from '../i18n/useLang'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 export default function GoogleRatingRow({
   property,
@@ -87,7 +88,7 @@ export default function GoogleRatingRow({
         .join(' ')}
     >
       <Star className="w-3 h-3 text-amber shrink-0" aria-hidden="true" />
-      <span className="font-semibold">{line}</span>
+      <Erotinrivi as="span" className="font-semibold" osat={erotinOsat(line)} />
       <span className="sr-only">{` (${e.ratingAria}${verified ? `, ${verified}` : ''})`}</span>
     </a>
   )

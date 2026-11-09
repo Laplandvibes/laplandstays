@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Ambito coperto",
-        "body": "Igloo di vetro, chalet sul lago, chalet ski-in, lodge firmati e Lapland Hotels in cinque mete (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Stagione aurorale set–apr, sole di mezzanotte giu–lug."
+        "body": "Igloo di vetro, chalet sul lago, chalet ski-in, lodge firmati e Lapland Hotels in cinque mete (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Stagione aurorale set–apr, sole di mezzanotte giu–lug."
       }
     ],
     "principlesEyebrow": "Come avviene la verifica",

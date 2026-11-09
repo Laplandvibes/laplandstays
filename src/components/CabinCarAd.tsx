@@ -180,7 +180,8 @@ export default function CabinCarAd({ className = '' }: { className?: string }) {
       </div>
       {/* Phone: the photo mark as one line under the photo, not over it. */}
       <p className="md:hidden px-6 sm:px-8 pt-2 text-right text-[12px] leading-snug text-charcoal/60">
-        {PICTURED[lang]}{lang === 'ja' ? 'サーリセルカ–イヴァロ' : lang === 'ko' ? '사리셀카–이발로' : lang === 'zh-CN' ? '薩利色爾卡–伊瓦洛' : 'Saariselkä–Ivalo'} · {BY[lang]}LaplandVibes
+        <span className="block">{PICTURED[lang]}{lang === 'ja' ? 'サーリセルカ–イヴァロ' : lang === 'ko' ? '사리셀카–이발로' : lang === 'zh-CN' ? '薩利色爾卡–伊瓦洛' : 'Saariselkä–Ivalo'}</span>
+        <span className="block">{BY[lang]}LaplandVibes</span>
       </p>
       <div className="relative p-6 sm:p-8">
         <div className="mb-4 flex flex-col-reverse gap-3">

@@ -37,7 +37,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Was abgedeckt wird",
-        "body": "Glasiglus, Seehütten, Pisten-Chalets, Designer-Lodges und Lapland-Hotels in fünf Reisezielen (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Polarlicht-Saison Sep–Apr, Mitternachtssonne Jun–Jul."
+        "body": "Glasiglus, Seehütten, Pisten-Chalets, Designer-Lodges und Lapland-Hotels in fünf Reisezielen (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Polarlicht-Saison Sep–Apr, Mitternachtssonne Jun–Jul."
       }
     ],
     "principlesEyebrow": "Wie die Prüfung funktioniert",

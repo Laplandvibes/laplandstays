@@ -13,6 +13,7 @@ import { useLang, useLocalePath, type Lang } from '../i18n/useLang'
 import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { IceHotelsCopy, IceStayCopy, Rich } from './IceHotels.copy.types'
 import enCopy from './IceHotels.copy.en'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 /**
  * Ice and snow hotels in Finnish Lapland, /ice-hotels in all 12 languages (tehtävä C, 22.10.2026).
@@ -158,7 +159,7 @@ export default function IceHotels() {
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             <p className="inline-flex items-center gap-1.5 text-[10px] sm:text-[11px] uppercase tracking-widest text-white/85 bg-night/45 border border-white/25 rounded-full px-3 py-1 mb-5 max-w-full">
               <Megaphone className="w-3 h-3 shrink-0" aria-hidden="true" />
-              <span className="min-w-0">{c.adBadge}</span>
+              <Erotinrivi as="span" className="min-w-0" osat={erotinOsat(c.adBadge)} />
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {c.h1}

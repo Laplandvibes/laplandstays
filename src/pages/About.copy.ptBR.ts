@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "O que é coberto",
-        "body": "Iglus de vidro, cabanas à beira do lago, chalés ski-in, lodges de design e Lapland Hotels em cinco destinos (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Temporada de aurora set–abr, sol da meia-noite jun–jul."
+        "body": "Iglus de vidro, cabanas à beira do lago, chalés ski-in, lodges de design e Lapland Hotels em cinco destinos (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Temporada de aurora set–abr, sol da meia-noite jun–jul."
       }
     ],
     "principlesEyebrow": "Como verificamos",

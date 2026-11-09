@@ -17,6 +17,7 @@ import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import type { PageCopy } from './Transport.copy.types'
 import enCopy from './Transport.copy.en'
 import PhotoMark from '../components/PhotoMark'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
@@ -157,20 +158,20 @@ export default function Transport() {
                     </div>
                     <div className="lg:col-span-3">
                       <p className="text-[11px] font-bold uppercase tracking-widest text-charcoal/70 mb-1">{ui.servesLabel}</p>
-                      <p className="text-charcoal/85 text-[15px] leading-snug">{a.serves}</p>
+                      <Erotinrivi className="text-charcoal/85 text-[15px] leading-snug" osat={erotinOsat(a.serves)} />
                     </div>
                     <div className="lg:col-span-3">
                       <p className="text-[11px] font-bold uppercase tracking-widest text-charcoal/70 mb-1">{ui.routesLabel}</p>
-                      <p className="text-charcoal/85 text-[15px] leading-snug">{a.routes}</p>
+                      <Erotinrivi className="text-charcoal/85 text-[15px] leading-snug" osat={erotinOsat(a.routes)} />
                     </div>
                     <div className="lg:col-span-3 grid grid-cols-2 gap-3">
                       <div>
                         <p className="text-[11px] font-bold uppercase tracking-widest text-charcoal/70 mb-1">{ui.busLabel}</p>
-                        <p className="text-charcoal/85 text-[14px] leading-snug">{a.busPrice}</p>
+                        <Erotinrivi className="text-charcoal/85 text-[14px] leading-snug" osat={erotinOsat(a.busPrice)} />
                       </div>
                       <div>
                         <p className="text-[11px] font-bold uppercase tracking-widest text-charcoal/70 mb-1">{ui.taxiLabel}</p>
-                        <p className="text-charcoal/85 text-[14px] leading-snug">{a.taxiPrice}</p>
+                        <Erotinrivi className="text-charcoal/85 text-[14px] leading-snug" osat={erotinOsat(a.taxiPrice)} />
                       </div>
                     </div>
                   </div>

@@ -14,6 +14,7 @@ import { preloadLazyCopy, useLazyCopy } from '../i18n/lazyCopy'
 import { PAGE_CLUSTERS } from '../i18n/pageClusters'
 import type { GlassIgloosCopy, IglooRowKey, Rich } from './GlassIgloos.copy.types'
 import enCopy from './GlassIgloos.copy.en'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 /**
  * Glass-igloo comparison: /glass-igloos in en and ten more languages (/de, /ja since 18.10.2026,
@@ -191,7 +192,7 @@ export default function GlassIgloos() {
           <div className="relative z-10 max-w-4xl mx-auto text-center">
             <p className="inline-flex items-center gap-1.5 text-[10px] sm:text-[11px] uppercase tracking-widest text-white/85 bg-night/45 border border-white/25 rounded-full px-3 py-1 mb-5 max-w-full">
               <Megaphone className="w-3 h-3 shrink-0" aria-hidden="true" />
-              <span className="min-w-0">{c.adBadge}</span>
+              <Erotinrivi as="span" className="min-w-0" osat={erotinOsat(c.adBadge)} />
             </p>
             <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl tracking-wide mb-5 [text-shadow:0_2px_18px_rgba(0,0,0,0.75)]">
               {c.h1}

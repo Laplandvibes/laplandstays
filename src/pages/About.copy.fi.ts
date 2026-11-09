@@ -36,7 +36,7 @@ const copy: PageCopy = {
       },
       {
         "title": "Mitä käsitellään",
-        "body": "Lasi-iglut, rantamökit, rinneasunnot, design-erämaakohteet ja Lapin hotellit viidessä kohteessa (Levi · Ylläs · Saariselkä · Inari · Rovaniemi). Revontulisesonki syys–huhtikuussa, keskiyön aurinko kesä–heinäkuussa."
+        "body": "Lasi-iglut, rantamökit, rinneasunnot, design-erämaakohteet ja Lapin hotellit viidessä kohteessa (Levi, Ylläs, Saariselkä, Inari, Rovaniemi). Revontulisesonki syys–huhtikuussa, keskiyön aurinko kesä–heinäkuussa."
       }
     ],
     "principlesEyebrow": "Miten testaus toimii",
