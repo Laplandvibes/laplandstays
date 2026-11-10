@@ -909,7 +909,7 @@ export default function DestinationPage(p: DestinationPageProps) {
                   >
                     <div className="min-w-0">
                       <Erotinrivi className="text-[11px] uppercase tracking-widest text-pink font-semibold mb-1" osat={erotinOsat(ui.rentCarLabel)} />
-                      <Erotinrivi className="text-white text-[15px] leading-snug" osat={[nb(b.carRental.airport), b.carRental.blurb ? nb(b.carRental.blurb) : null]} />
+                      <Erotinrivi className="text-white text-[15px] leading-snug" osat={[nb(b.carRental.airport), ...(b.carRental.blurb ? erotinOsat(nb(b.carRental.blurb)) : [])]} />
                     </div>
                     <ArrowRight className="w-4 h-4 text-pink shrink-0 group-hover:translate-x-1 transition-transform" />
                   </a>

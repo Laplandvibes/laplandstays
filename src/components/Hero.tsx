@@ -4,6 +4,7 @@ import { useCopy } from '../locales/copy'
 import { isSummerSeason } from '../lib/seasonal'
 import { twoLineEm } from '../lib/headingFit'
 import PhotoMark from './PhotoMark'
+import { Erotinrivi, erotinOsat } from '../shared/Erotin'
 
 // Responsive hero: mobile pulls the 800px AVIF (~33KB) instead of the full
 // 1536–1920px image. The <link rel=preload imagesrcset> in index.html feeds the
@@ -77,8 +78,8 @@ export default function Hero() {
               leista alle rajan kolmella leveydella. Sama vaaleampi pinkki kuin
               hubin sanamerkissa: samaa taustaa vasten 7,57:1. Varjo jaa. */}
           <p className="text-[#F9A8D4] uppercase tracking-[0.3em] text-[11px] sm:text-xs font-semibold mb-5 inline-flex items-center justify-center gap-2 lg:rounded-full lg:bg-night/55 lg:px-3.5 lg:py-1.5 lg:backdrop-blur-sm lg:[text-shadow:0_2px_12px_rgba(0,0,0,0.9),0_0_24px_rgba(0,0,0,0.6)]">
-            <MapPin className="w-3.5 h-3.5" />
-            {c.eyebrow}
+            <MapPin className="w-3.5 h-3.5 shrink-0" />
+            <Erotinrivi as="span" pino osat={erotinOsat(c.eyebrow)} />
           </p>
           {/* --h1-max = the designed size (lg 72 px, xl the clamp); the size is never larger than before. */}
           <h1
