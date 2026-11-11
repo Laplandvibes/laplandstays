@@ -2,25 +2,36 @@
   "title": "Férias escolares na Finlândia 2027: datas por cidade e a Lapônia",
   "seoTitle": "Férias escolares Finlândia 2027: Lapônia em fevereiro",
   "description": "Férias escolares Finlândia 2027: Helsinque e Turku de 22 a 26 de fevereiro, Tampere de 1 a 5 de março, Oulu e Rovaniemi de 8 a 12. O que muda para a Lapônia.",
-  "dek": "Helsinque, Espoo, Vantaa e Turku têm férias de 22 a 26 de fevereiro, Tampere e Jyväskylä de 1 a 5 de março, Oulu, Kuopio e Rovaniemi de 8 a 12 de março. Em uma estação de esqui, a semana começa no sábado anterior.",
+  "dek": "As férias escolares de inverno da Finlândia chegam em três ondas, do fim de fevereiro até meados de março. Em uma estação de esqui, a semana começa no sábado anterior.",
   "heroAlt": "Prédios de apartamentos escuros, revestidos de madeira, ao longo de uma rua no centro de Levi ao anoitecer: uma fina primeira neve sobre os telhados e a calçada, luzes nas janelas e junto às portas, o telhado íngreme da Capela de Santa Maria e, atrás, uma floresta de abetos na névoa.",
   "heroCaption": "Prédios de apartamentos no centro de Levi ao lado da Capela de Santa Maria durante a primeira neve de outubro de 2026.",
   "body": [
     {
       "t": "p",
-      "text": "As férias escolares de inverno da Finlândia, chamadas em finlandês de hiihtoloma, ou seja, «férias de esqui», são divididas em 2027 em três partes: a semana 8 vai de 22 a 26 de fevereiro, a semana 9 de 1 a 5 de março e a semana 10 de 8 a 12 de março de 2027. Segundo a Agência Nacional de Educação da Finlândia, as férias são escalonadas nessas três semanas, e cada município decide a sua. Para quem reserva hospedagem na Lapônia, isso significa três semanas seguidas de alta temporada doméstica, do fim de fevereiro até meados de março."
+      "text": "As férias escolares de inverno da Finlândia, chamadas em finlandês de hiihtoloma, ou seja, «férias de esqui», são divididas em 2027 em três partes: as semanas 8, 9 e 10. Segundo a Agência Nacional de Educação da Finlândia, as férias são escalonadas nessas três semanas, e cada município decide a sua. Para quem reserva hospedagem na Lapônia, isso significa três semanas seguidas de alta temporada doméstica."
     },
     {
       "t": "h2",
       "text": "As semanas de férias de esqui 2027 por cidade"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "weeks",
       "items": [
-        "Semana 8, de 22 a 26 de fevereiro de 2027: Helsinque, Espoo, Vantaa, Turku e Pori.",
-        "Semana 9, de 1 a 5 de março de 2027: Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa e Kokkola.",
-        "Semana 10, de 8 a 12 de março de 2027: Oulu, Rovaniemi, Kuopio, Joensuu e Kajaani."
-      ]
+        "Semana 8",
+        "de 22 a 26 de fevereiro de 2027",
+        "Helsinque, Espoo, Vantaa, Turku e Pori",
+        "Na estação: de 20 a 28 de fevereiro de 2027",
+        "Semana 9",
+        "de 1 a 5 de março de 2027",
+        "Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa e Kokkola",
+        "Na estação: de 27 de fevereiro a 7 de março de 2027",
+        "Semana 10",
+        "de 8 a 12 de março de 2027",
+        "Oulu, Rovaniemi, Kuopio, Joensuu e Kajaani",
+        "Na estação: de 6 a 14 de março de 2027"
+      ],
+      "text": "A barra escura são as férias escolares, de segunda a sexta. A barra clara é a semana de férias de esqui no calendário de Ruka, de um sábado até o domingo da semana seguinte."
     },
     {
       "t": "p",
@@ -32,15 +43,7 @@
     },
     {
       "t": "p",
-      "text": "As férias escolares vão de segunda a sexta, mas as famílias partem já no fim de semana anterior. No seu próprio calendário, Ruka marca as semanas de férias de esqui de um sábado até o domingo da semana seguinte:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Semana 8: de 20 a 28 de fevereiro de 2027",
-        "Semana 9: de 27 de fevereiro a 7 de março de 2027",
-        "Semana 10: de 6 a 14 de março de 2027"
-      ]
+      "text": "As férias escolares vão de segunda a sexta, mas as famílias partem já no fim de semana anterior. No seu próprio calendário, Ruka marca as semanas de férias de esqui de um sábado até o domingo da semana seguinte. Nos quadros acima, é a barra clara."
     },
     {
       "t": "p",
@@ -56,7 +59,18 @@
     },
     {
       "t": "p",
-      "text": "A temporada aparece nos preços. Segundo dados preliminares do instituto de estatística da Finlândia, os estabelecimentos de hospedagem da Lapônia registraram cerca de 0,44 milhão de pernoites em março de 2026, o segundo maior número da Finlândia depois de Uusimaa. O preço médio de um quarto de hotel na Lapônia foi de 231 euros, contra uma média nacional de 133 euros. Os quartos de hotel da Lapônia foram os mais caros do país nesse mês."
+      "text": "A temporada aparece nos preços. Segundo dados preliminares do instituto de estatística da Finlândia, os quartos de hotel da Lapônia foram os mais caros do país em março de 2026, e o número de pernoites foi o segundo maior da Finlândia, depois de Uusimaa."
+    },
+    {
+      "t": "embed",
+      "id": "prices",
+      "title": "Hospedagem na Lapônia em março de 2026",
+      "items": [
+        "231 euros: preço médio de um quarto de hotel na Lapônia",
+        "133 euros: preço médio de um quarto de hotel em todo o país",
+        "0,44 milhão: pernoites nos estabelecimentos de hospedagem da Lapônia"
+      ],
+      "text": "Fonte: instituto de estatística da Finlândia, dados preliminares."
     },
     {
       "t": "h2",

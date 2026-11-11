@@ -2,25 +2,36 @@
   "title": "Vacaciones escolares en Finlandia 2027: fechas por ciudad y Laponia",
   "seoTitle": "Vacaciones escolares Finlandia 2027: Laponia en febrero",
   "description": "Vacaciones escolares Finlandia 2027: Helsinki y Turku del 22 al 26 de febrero, Tampere del 1 al 5 de marzo, Oulu y Rovaniemi del 8 al 12. Efecto en Laponia.",
-  "dek": "Helsinki, Espoo, Vantaa y Turku tienen vacaciones del 22 al 26 de febrero, Tampere y Jyväskylä del 1 al 5 de marzo, Oulu, Kuopio y Rovaniemi del 8 al 12 de marzo. En una estación de esquí la semana empieza el sábado anterior.",
+  "dek": "Las vacaciones escolares de invierno de Finlandia llegan en tres oleadas, desde finales de febrero hasta mediados de marzo. En una estación de esquí la semana empieza el sábado anterior.",
   "heroAlt": "Edificios de apartamentos oscuros, revestidos de madera, a lo largo de una calle del centro de Levi al anochecer: una fina primera nieve sobre los tejados y la acera, luces en las ventanas y junto a las puertas, el tejado empinado de la capilla de Santa María y, detrás, un bosque de abetos entre la neblina.",
   "heroCaption": "Edificios de apartamentos en el centro de Levi junto a la capilla de Santa María durante la primera nevada de octubre de 2026.",
   "body": [
     {
       "t": "p",
-      "text": "Las vacaciones escolares de invierno de Finlandia, llamadas en finés hiihtoloma, es decir, «vacaciones de esquí», se dividen en 2027 en tres partes: la semana 8 va del 22 al 26 de febrero, la semana 9 del 1 al 5 de marzo y la semana 10 del 8 al 12 de marzo de 2027. Según la Agencia Nacional de Educación de Finlandia, las vacaciones se escalonan en estas tres semanas y cada municipio decide la suya. Para quien reserva alojamiento en Laponia, eso significa tres semanas seguidas de temporada alta nacional, desde finales de febrero hasta mediados de marzo."
+      "text": "Las vacaciones escolares de invierno de Finlandia, llamadas en finés hiihtoloma, es decir, «vacaciones de esquí», se dividen en 2027 en tres partes: las semanas 8, 9 y 10. Según la Agencia Nacional de Educación de Finlandia, las vacaciones se escalonan en estas tres semanas y cada municipio decide la suya. Para quien reserva alojamiento en Laponia, eso significa tres semanas seguidas de temporada alta nacional."
     },
     {
       "t": "h2",
       "text": "Las semanas de vacaciones de esquí 2027 por ciudad"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "weeks",
       "items": [
-        "Semana 8, del 22 al 26 de febrero de 2027: Helsinki, Espoo, Vantaa, Turku y Pori.",
-        "Semana 9, del 1 al 5 de marzo de 2027: Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa y Kokkola.",
-        "Semana 10, del 8 al 12 de marzo de 2027: Oulu, Rovaniemi, Kuopio, Joensuu y Kajaani."
-      ]
+        "Semana 8",
+        "del 22 al 26 de febrero de 2027",
+        "Helsinki, Espoo, Vantaa, Turku y Pori",
+        "En la estación: del 20 al 28 de febrero de 2027",
+        "Semana 9",
+        "del 1 al 5 de marzo de 2027",
+        "Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa y Kokkola",
+        "En la estación: del 27 de febrero al 7 de marzo de 2027",
+        "Semana 10",
+        "del 8 al 12 de marzo de 2027",
+        "Oulu, Rovaniemi, Kuopio, Joensuu y Kajaani",
+        "En la estación: del 6 al 14 de marzo de 2027"
+      ],
+      "text": "La barra oscura son las vacaciones escolares, de lunes a viernes. La barra clara es la semana de vacaciones de esquí en el calendario de Ruka, desde un sábado hasta el domingo de la semana siguiente."
     },
     {
       "t": "p",
@@ -32,15 +43,7 @@
     },
     {
       "t": "p",
-      "text": "Las vacaciones escolares van de lunes a viernes, pero las familias salen el fin de semana anterior. En su propio calendario, Ruka marca las semanas de vacaciones de esquí desde un sábado hasta el domingo de la semana siguiente:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Semana 8: del 20 al 28 de febrero de 2027",
-        "Semana 9: del 27 de febrero al 7 de marzo de 2027",
-        "Semana 10: del 6 al 14 de marzo de 2027"
-      ]
+      "text": "Las vacaciones escolares van de lunes a viernes, pero las familias salen el fin de semana anterior. En su propio calendario, Ruka marca las semanas de vacaciones de esquí desde un sábado hasta el domingo de la semana siguiente. En los recuadros de arriba es la barra clara."
     },
     {
       "t": "p",
@@ -56,7 +59,18 @@
     },
     {
       "t": "p",
-      "text": "La temporada se nota en los precios. Según las cifras preliminares del Instituto de Estadística de Finlandia, los establecimientos de alojamiento de Laponia registraron en marzo de 2026 unos 0,44 millones de pernoctaciones, la segunda cifra más alta de Finlandia después de Uusimaa. El precio medio de una habitación de hotel en Laponia fue de 231 euros, frente a una media nacional de 133 euros. Las habitaciones de hotel de Laponia fueron las más caras del país ese mes."
+      "text": "La temporada se nota en los precios. Según las cifras preliminares del Instituto de Estadística de Finlandia, las habitaciones de hotel de Laponia fueron las más caras del país en marzo de 2026, y las pernoctaciones fueron la segunda cifra más alta de Finlandia después de Uusimaa."
+    },
+    {
+      "t": "embed",
+      "id": "prices",
+      "title": "El alojamiento en Laponia en marzo de 2026",
+      "items": [
+        "231 euros: precio medio de una habitación de hotel en Laponia",
+        "133 euros: precio medio de una habitación de hotel en todo el país",
+        "0,44 millones: pernoctaciones en los alojamientos de Laponia"
+      ],
+      "text": "Fuente: Instituto de Estadística de Finlandia, cifras preliminares."
     },
     {
       "t": "h2",

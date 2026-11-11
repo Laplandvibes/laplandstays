@@ -209,3 +209,67 @@
   .nw .nw-sheet{margin-top:22px;border-radius:16px;margin-left:12px;margin-right:12px}
   .nw .nw-card-body{padding:20px 20px 22px}
 }
+
+/* ── Jutun elävöitys 11.11.2026 ────────────────────────────────────────────
+   Vesa 11.11.2026 (hiihtolomajuttu puhelimella): "artikkelikohdassa voisi olla väriä, vähän eloa",
+   "viikkojen takana voisi olla oma laatikko, visualisoitu näitä" ja jakonapeista "miten sattuu".
+   Värit sivuston omasta paletista: pinkki #BE185D, Suomen sininen #002F6C, syvä yö #0F172A.
+   Teksti väripohjalla vähintään 16 px ja kontrasti vähintään 4,5:1. */
+.nw .nw-prose > p:first-child{font-size:19px;line-height:1.66}
+.nw .nw-prose > h2{position:relative;padding-top:16px}
+.nw .nw-prose > h2::before{content:"";position:absolute;left:0;top:0;width:44px;height:4px;border-radius:2px;background:#EC4899}
+.nw .nw-prose > ul{list-style:none;padding-left:0}
+.nw .nw-prose > ul > li{position:relative;padding-left:26px;margin:10px 0}
+.nw .nw-prose > ul > li::before{content:"";position:absolute;left:4px;top:.62em;width:9px;height:9px;border-radius:50%;background:#EC4899}
+.nw .nw-prose > .nw-linkp{background:#FDF2F8;border:1px solid #FBCFE8;border-radius:16px;padding:16px 18px;margin:0 0 12px;line-height:1.6}
+.nw .nw-prose > .nw-linkp .nw-inlink{display:inline-block;margin-top:6px}
+.nw .nw-prose > .nw-note{background:#F1F5FB;border-left:4px solid #002F6C;border-radius:0 12px 12px 0;padding:12px 14px;font-size:16px}
+
+/* Viikkokortit: sama aikajana joka kortissa, joten kolme porrasta näkyvät allekkain. */
+.nw .nw-weeks{display:grid;gap:12px;margin:6px 0 22px}
+.nw .nw-wk{--wk:#BE185D;--wk-bg:#FDF2F8;--wk-line:#FBCFE8;--wk-soft:#F9A8D4;
+  background:var(--wk-bg);border:1px solid var(--wk-line);border-left:6px solid var(--wk);border-radius:16px;padding:16px 16px 14px;min-width:0;display:flex;flex-direction:column}
+.nw .nw-wk-2{--wk:#002F6C;--wk-bg:#EEF3FA;--wk-line:#C9D8EC;--wk-soft:#9DB7DB}
+.nw .nw-wk-3{--wk:#0F766E;--wk-bg:#ECFDF8;--wk-line:#B6E6DA;--wk-soft:#7DD3C0}
+.nw .nw-wk-head{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:2px 14px}
+.nw .nw-wk-label{font-size:34px;line-height:1;color:var(--wk)}
+.nw .nw-wk-label:lang(ja),.nw .nw-wk-label:lang(zh),.nw .nw-wk-label:lang(ko){font-family:var(--font-body),system-ui,sans-serif;font-weight:700;font-size:24px;letter-spacing:0}
+.nw .nw-wk-dates{font:700 20px/1.2 var(--font-body),"DM Sans",system-ui,sans-serif;color:var(--ink);font-variant-numeric:tabular-nums;text-wrap:balance}
+.nw .nw-wk-cities{font-size:16.5px;line-height:1.5;color:var(--ink);margin:8px 0 0}
+.nw .nw-wk-track{position:relative;flex:none;height:12px;border-radius:6px;background:rgba(15,23,42,.08);margin:14px 0 0;overflow:hidden}
+.nw .nw-wk-cities{flex:1}
+.nw .nw-wk-track i{position:absolute;top:0;bottom:0;border-radius:6px}
+.nw .nw-wk-resort{background:var(--wk-soft)}
+.nw .nw-wk-school{background:var(--wk)}
+.nw .nw-wk-stay{font-size:16px;line-height:1.45;color:var(--ink2);margin:8px 0 0;text-wrap:balance}
+.nw .nw-weeks-legend{font-size:16px;line-height:1.5;color:var(--ink2);margin:2px 2px 0}
+@media(min-width:760px){
+  .nw .nw-weeks{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .nw .nw-weeks-legend{grid-column:1 / -1}
+  .nw .nw-wk-label{font-size:30px}
+  .nw .nw-wk-dates{font-size:18px}
+  .nw .nw-wk-stay{min-height:2.9em}
+}
+
+/* Lukupaneeli: arkin ainoa tumma esine. */
+.nw .nw-stats{background:linear-gradient(160deg,#0F172A 0%,#1B2440 100%);color:#F9FAFB;border-radius:18px;padding:20px 18px 18px;margin:6px 0 22px}
+.nw .nw-stats-title{font:700 16px/1.4 var(--font-body),"DM Sans",system-ui,sans-serif;color:#F9A8D4;margin:0 0 10px}
+.nw .nw-stats-grid{display:grid;gap:14px;margin:0}
+.nw .nw-stat{display:grid;grid-template-columns:1fr;gap:4px;margin:0}
+.nw .nw-stat dt{font-size:40px;line-height:1;color:#F9A8D4;white-space:nowrap}
+.nw .nw-stat dt:lang(ja),.nw .nw-stat dt:lang(zh),.nw .nw-stat dt:lang(ko){font-family:var(--font-body),system-ui,sans-serif;font-weight:700;font-size:32px;letter-spacing:0}
+.nw .nw-stat dd{margin:0;font-size:16px;line-height:1.45;color:#E8EDF5}
+.nw .nw-stat + .nw-stat{border-top:1px solid rgba(255,255,255,.14);padding-top:14px}
+.nw .nw-stats-src{font-size:16px;line-height:1.45;color:#C9D3E2;margin:14px 0 0}
+@media(min-width:760px){
+  .nw .nw-stats{padding:26px 28px 24px}
+  .nw .nw-stats-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+  .nw .nw-stat{gap:6px;align-content:start}
+  .nw .nw-stat + .nw-stat{border-top:0;padding-top:0;border-left:1px solid rgba(255,255,255,.14);padding-left:22px}
+}
+
+/* Jakonapit puhelimella tasaisena ruudukkona (kuusi nappia = kolme riviä kahta), ei eripituisina riveinä. */
+@media(max-width:640px){
+  .nw .nw-sheet section > ul[role="list"]{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .nw .nw-sheet section > ul[role="list"] a,.nw .nw-sheet section > ul[role="list"] button{width:100%;justify-content:center}
+}

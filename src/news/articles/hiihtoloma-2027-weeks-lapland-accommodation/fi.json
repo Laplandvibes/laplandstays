@@ -1,26 +1,37 @@
 {
-  "title": "Hiihtoloma 2027: viikot 8, 9 ja 10 ja Lapin majoitus",
+  "title": "Hiihtoloma 2027: päivät kaupungeittain ja Lapin majoitus",
   "seoTitle": "Hiihtoloma 2027: hiihtolomaviikot 8, 9 ja 10 päivämäärineen",
   "description": "Hiihtoloma 2027: Helsinki ja Turku lomailevat 22.–26.2., Tampere 1.–5.3. sekä Oulu ja Rovaniemi 8.–12.3. Näin viikot näkyvät Lapin majoituksessa.",
-  "dek": "Helsinki, Espoo, Vantaa ja Turku lomailevat 22.–26.2., Tampere ja Jyväskylä 1.–5.3. sekä Oulu, Kuopio ja Rovaniemi 8.–12.3. Hiihtokeskuksessa viikko alkaa jo edeltävänä lauantaina.",
+  "dek": "Koulujen talviloma on kolmessa osassa helmikuun lopusta maaliskuun puoliväliin. Hiihtokeskuksessa viikko alkaa jo edeltävänä lauantaina.",
   "heroAlt": "Tummia puuverhoiltuja huoneistotaloja Levin keskustan kadun varrella hämärässä: katoilla ja jalkakäytävällä ohut ensilumi, ikkunoissa ja ulko-ovilla valot, taustalla Marian kappelin jyrkkä katto ja sumuinen kuusikko.",
   "heroCaption": "Huoneistotaloja Levin keskustassa Marian kappelin vieressä ensilumen aikaan lokakuussa 2026.",
   "body": [
     {
       "t": "p",
-      "text": "Hiihtoloma 2027 on kolmessa osassa: viikko 8 on 22.–26.2., viikko 9 on 1.–5.3. ja viikko 10 on 8.–12.3.2027. Opetushallituksen mukaan talvilomaa vietetään porrastetusti näiden kolmen viikon aikana, ja jokainen kunta päättää oman viikkonsa itse. Lapin majoituksen varaajalle se tarkoittaa kolmea peräkkäistä kotimaan sesonkiviikkoa helmikuun lopusta maaliskuun puoliväliin."
+      "text": "Hiihtoloma 2027 on kolmessa osassa: viikoilla 8, 9 ja 10. Opetushallituksen mukaan talvilomaa vietetään porrastetusti näiden kolmen viikon aikana, ja jokainen kunta päättää oman viikkonsa itse. Lapin majoituksen varaajalle se tarkoittaa kolmea peräkkäistä kotimaan sesonkiviikkoa."
     },
     {
       "t": "h2",
       "text": "Hiihtolomaviikot 2027 kaupungeittain"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "weeks",
       "items": [
-        "Viikko 8, 22.–26.2.2027: Helsinki, Espoo, Vantaa, Turku ja Pori.",
-        "Viikko 9, 1.–5.3.2027: Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa ja Kokkola.",
-        "Viikko 10, 8.–12.3.2027: Oulu, Rovaniemi, Kuopio, Joensuu ja Kajaani."
-      ]
+        "Viikko 8",
+        "22.–26.2.2027",
+        "Helsinki, Espoo, Vantaa, Turku ja Pori",
+        "Hiihtokeskuksessa 20.–28.2.2027",
+        "Viikko 9",
+        "1.–5.3.2027",
+        "Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa ja Kokkola",
+        "Hiihtokeskuksessa 27.2.–7.3.2027",
+        "Viikko 10",
+        "8.–12.3.2027",
+        "Oulu, Rovaniemi, Kuopio, Joensuu ja Kajaani",
+        "Hiihtokeskuksessa 6.–14.3.2027"
+      ],
+      "text": "Tumma palkki on koulun loma maanantaista perjantaihin. Vaalea palkki on hiihtolomaviikko Rukan kalenterissa, lauantaista seuraavan viikon sunnuntaihin."
     },
     {
       "t": "p",
@@ -32,15 +43,7 @@
     },
     {
       "t": "p",
-      "text": "Koulun loma on maanantaista perjantaihin, mutta matkaan lähdetään jo edeltävänä viikonloppuna. Ruka merkitsee omassa kalenterissaan hiihtolomaviikot lauantaista seuraavan viikon sunnuntaihin:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Viikko 8: 20.–28.2.2027",
-        "Viikko 9: 27.2.–7.3.2027",
-        "Viikko 10: 6.–14.3.2027"
-      ]
+      "text": "Koulun loma on maanantaista perjantaihin, mutta matkaan lähdetään jo edeltävänä viikonloppuna. Ruka merkitsee omassa kalenterissaan hiihtolomaviikot lauantaista seuraavan viikon sunnuntaihin, ja ne näkyvät yllä olevissa laatikoissa vaaleana palkkina."
     },
     {
       "t": "p",
@@ -56,7 +59,18 @@
     },
     {
       "t": "p",
-      "text": "Sesonki näkyy hinnoissa. Tilastokeskuksen ennakkotietojen mukaan Lapin majoitusliikkeissä kirjattiin maaliskuussa 2026 noin 0,44 miljoonaa yöpymistä, toiseksi eniten Suomessa Uudenmaan jälkeen. Hotellihuoneen keskihinta oli Lapissa 231 euroa, kun koko maan keskihinta oli 133 euroa. Lapin hotellihuoneet olivat tuolloin maan kalleimmat."
+      "text": "Sesonki näkyy hinnoissa. Tilastokeskuksen ennakkotietojen mukaan Lapin hotellihuoneet olivat maaliskuussa 2026 maan kalleimmat, ja yöpymisiä kirjattiin toiseksi eniten Suomessa Uudenmaan jälkeen."
+    },
+    {
+      "t": "embed",
+      "id": "prices",
+      "title": "Lapin majoitus maaliskuussa 2026",
+      "items": [
+        "231 euroa: hotellihuoneen keskihinta Lapissa",
+        "133 euroa: hotellihuoneen keskihinta koko maassa",
+        "0,44 miljoonaa: yöpymistä Lapin majoitusliikkeissä"
+      ],
+      "text": "Lähde: Tilastokeskus, ennakkotiedot."
     },
     {
       "t": "h2",

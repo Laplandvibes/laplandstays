@@ -2,25 +2,36 @@
   "title": "Schoolvakantie Finland 2027: skivakantieweken per stad en Lapland",
   "seoTitle": "Schoolvakantie Finland 2027: Lapland in februari",
   "description": "Schoolvakantie Finland 2027: Helsinki en Turku 22–26 februari, Tampere 1–5 maart, Oulu en Rovaniemi 8–12 maart. Wat dat voor Lapland betekent.",
-  "dek": "Helsinki, Espoo, Vantaa en Turku hebben vakantie op 22–26 februari, Tampere en Jyväskylä op 1–5 maart, Oulu, Kuopio en Rovaniemi op 8–12 maart. In een skidorp begint de week op de zaterdag ervoor.",
+  "dek": "De Finse schoolwintervakantie komt in drie golven, van eind februari tot half maart. In een skidorp begint de week op de zaterdag ervoor.",
   "heroAlt": "Donkere, met hout beklede appartementengebouwen langs een straat in het centrum van Levi in de schemering: een dun laagje eerste sneeuw op de daken en het trottoir, licht in de ramen en bij de deuren, het steile dak van de Mariakapel en daarachter een nevelig sparrenbos.",
   "heroCaption": "Appartementengebouwen in het centrum van Levi naast de Mariakapel tijdens de eerste sneeuw in oktober 2026.",
   "body": [
     {
       "t": "p",
-      "text": "De Finse schoolwintervakantie, in het Fins hiihtoloma of skivakantie, is in 2027 in drie delen verdeeld: week 8 is 22–26 februari, week 9 is 1–5 maart en week 10 is 8–12 maart 2027. Volgens het Finse Nationaal Agentschap voor Onderwijs is de vakantie over deze drie weken gespreid en bepaalt elke gemeente zelf haar week. Voor wie een verblijf in Lapland boekt, betekent dat drie opeenvolgende weken binnenlands hoogseizoen, van eind februari tot half maart."
+      "text": "De Finse schoolwintervakantie, in het Fins hiihtoloma of skivakantie, is in 2027 in drie delen verdeeld: de weken 8, 9 en 10. Volgens het Finse Nationaal Agentschap voor Onderwijs is de vakantie over deze drie weken gespreid en bepaalt elke gemeente zelf haar week. Voor wie een verblijf in Lapland boekt, betekent dat drie opeenvolgende weken binnenlands hoogseizoen."
     },
     {
       "t": "h2",
       "text": "De skivakantieweken 2027 per stad"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "weeks",
       "items": [
-        "Week 8, 22–26 februari 2027: Helsinki, Espoo, Vantaa, Turku en Pori.",
-        "Week 9, 1–5 maart 2027: Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa en Kokkola.",
-        "Week 10, 8–12 maart 2027: Oulu, Rovaniemi, Kuopio, Joensuu en Kajaani."
-      ]
+        "Week 8",
+        "22–26 februari 2027",
+        "Helsinki, Espoo, Vantaa, Turku en Pori",
+        "In het skidorp: 20–28 februari 2027",
+        "Week 9",
+        "1–5 maart 2027",
+        "Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa en Kokkola",
+        "In het skidorp: 27 februari–7 maart 2027",
+        "Week 10",
+        "8–12 maart 2027",
+        "Oulu, Rovaniemi, Kuopio, Joensuu en Kajaani",
+        "In het skidorp: 6–14 maart 2027"
+      ],
+      "text": "De donkere balk is de schoolvakantie van maandag tot en met vrijdag. De lichte balk is de skivakantieweek in de kalender van Ruka, van een zaterdag tot de zondag van de week erna."
     },
     {
       "t": "p",
@@ -32,15 +43,7 @@
     },
     {
       "t": "p",
-      "text": "De schoolvakantie loopt van maandag tot en met vrijdag, maar gezinnen vertrekken al het weekend ervoor. In zijn eigen kalender markeert Ruka de skivakantieweken van een zaterdag tot de zondag van de week erna:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Week 8: 20–28 februari 2027",
-        "Week 9: 27 februari–7 maart 2027",
-        "Week 10: 6–14 maart 2027"
-      ]
+      "text": "De schoolvakantie loopt van maandag tot en met vrijdag, maar gezinnen vertrekken al het weekend ervoor. In zijn eigen kalender markeert Ruka de skivakantieweken van een zaterdag tot de zondag van de week erna. In de kaders hierboven is dat de lichte balk."
     },
     {
       "t": "p",
@@ -56,7 +59,18 @@
     },
     {
       "t": "p",
-      "text": "Het seizoen is terug te zien in de prijzen. Volgens voorlopige cijfers van Statistics Finland registreerden de accommodaties in Lapland in maart 2026 ongeveer 0,44 miljoen overnachtingen, na Uusimaa het hoogste aantal van Finland. De gemiddelde prijs van een hotelkamer in Lapland was 231 euro, tegenover een landelijk gemiddelde van 133 euro. De hotelkamers in Lapland waren die maand de duurste van het land."
+      "text": "Het seizoen is terug te zien in de prijzen. Volgens voorlopige cijfers van Statistics Finland waren de hotelkamers in Lapland in maart 2026 de duurste van het land. Het aantal overnachtingen was na Uusimaa het hoogste van Finland."
+    },
+    {
+      "t": "embed",
+      "id": "prices",
+      "title": "Verblijf in Lapland in maart 2026",
+      "items": [
+        "231 euro: gemiddelde prijs van een hotelkamer in Lapland",
+        "133 euro: gemiddelde prijs van een hotelkamer in heel Finland",
+        "0,44 miljoen: overnachtingen in accommodaties in Lapland"
+      ],
+      "text": "Bron: Statistics Finland, voorlopige cijfers."
     },
     {
       "t": "h2",

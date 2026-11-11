@@ -21,6 +21,7 @@ import SEO from '../components/SEO'
 import { useLocalePath } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
 import type { NewsBlock, NewsMeta } from './types'
+import { renderStaysEmbed } from './embeds'
 import './news.css'
 
 export const SITE = {
@@ -92,9 +93,9 @@ export function useNewsHead(m: {
   )
 }
 
-/** Tällä sivustolla ei ole vielä jutun omia upotuksia. */
-export function renderEmbed(_block: Extract<NewsBlock, { t: 'embed' }>, _meta: NewsMeta): ReactNode {
-  return null
+/** Jutun omat upotukset (viikkokortit, lukupaneeli): src/news/embeds.tsx. */
+export function renderEmbed(block: Extract<NewsBlock, { t: 'embed' }>, meta: NewsMeta): ReactNode {
+  return renderStaysEmbed(block, meta)
 }
 
 /** Tällä sivustolla ei ole jutun alle tulevaa mainosruudukkoa. */

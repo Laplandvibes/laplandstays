@@ -2,25 +2,36 @@
   "title": "Sportlov i Finland 2027: veckor per stad och boende i Lappland",
   "seoTitle": "Finska sportlovet 2027: veckor och Lappland",
   "description": "Finska sportlovet 2027: Helsingfors och Åbo 22–26 februari, Tammerfors 1–5 mars, Uleåborg och Rovaniemi 8–12 mars. Vad det betyder för boende i Lappland.",
-  "dek": "Helsingfors, Esbo, Vanda och Åbo har lov 22–26 februari, Tammerfors och Jyväskylä 1–5 mars, Uleåborg, Kuopio och Rovaniemi 8–12 mars. I en skidort börjar veckan lördagen före.",
+  "dek": "Skolornas vinterlov i Finland kommer i tre omgångar från slutet av februari till mitten av mars. I en skidort börjar veckan lördagen före.",
   "heroAlt": "Mörka trähus med panel längs en gata i centrala Levi i skymningen: tunt första snötäcke på taken och trottoaren, lysande fönster och dörrlampor, S:t Marias kapells branta tak och en dimmig granskog bakom.",
   "heroCaption": "Lägenhetshus i centrala Levi intill S:t Marias kapell under första snön i oktober 2026.",
   "body": [
     {
       "t": "p",
-      "text": "Finlands skolors vinterlov, på finska hiihtoloma, alltså skidlovet, delas 2027 upp i tre delar: vecka 8 är 22–26 februari, vecka 9 är 1–5 mars och vecka 10 är 8–12 mars 2027. Enligt Utbildningsstyrelsen är lovet förskjutet över dessa tre veckor, och varje kommun bestämmer sin egen vecka. För den som bokar boende i Lappland betyder det tre veckor i följd med inhemsk högsäsong från slutet av februari till mitten av mars."
+      "text": "Finlands skolors vinterlov, på finska hiihtoloma, alltså skidlovet, delas 2027 upp i tre delar: veckorna 8, 9 och 10. Enligt Utbildningsstyrelsen är lovet förskjutet över dessa tre veckor, och varje kommun bestämmer sin egen vecka. För den som bokar boende i Lappland betyder det tre veckor i följd med inhemsk högsäsong."
     },
     {
       "t": "h2",
       "text": "Sportlovsveckorna 2027 stad för stad"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "weeks",
       "items": [
-        "Vecka 8, 22–26 februari 2027: Helsingfors, Esbo, Vanda, Åbo och Björneborg.",
-        "Vecka 9, 1–5 mars 2027: Tammerfors, Jyväskylä, Lahtis, Tavastehus, Kouvola, Kotka, Villmanstrand, S:t Michel, Seinäjoki, Vasa och Karleby.",
-        "Vecka 10, 8–12 mars 2027: Uleåborg, Rovaniemi, Kuopio, Joensuu och Kajana."
-      ]
+        "Vecka 8",
+        "22–26 februari 2027",
+        "Helsingfors, Esbo, Vanda, Åbo och Björneborg",
+        "På skidorten: 20–28 februari 2027",
+        "Vecka 9",
+        "1–5 mars 2027",
+        "Tammerfors, Jyväskylä, Lahtis, Tavastehus, Kouvola, Kotka, Villmanstrand, S:t Michel, Seinäjoki, Vasa och Karleby",
+        "På skidorten: 27 februari–7 mars 2027",
+        "Vecka 10",
+        "8–12 mars 2027",
+        "Uleåborg, Rovaniemi, Kuopio, Joensuu och Kajana",
+        "På skidorten: 6–14 mars 2027"
+      ],
+      "text": "Den mörka stapeln är skollovet från måndag till fredag. Den ljusa stapeln är sportlovsveckan i Rukas kalender, från en lördag till söndagen veckan därpå."
     },
     {
       "t": "p",
@@ -32,15 +43,7 @@
     },
     {
       "t": "p",
-      "text": "Skolloven pågår från måndag till fredag, men familjerna reser redan helgen innan. I sin egen kalender markerar Ruka sportlovsveckorna från en lördag till söndagen veckan därpå:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Vecka 8: 20–28 februari 2027",
-        "Vecka 9: 27 februari–7 mars 2027",
-        "Vecka 10: 6–14 mars 2027"
-      ]
+      "text": "Skolloven pågår från måndag till fredag, men familjerna reser redan helgen innan. I sin egen kalender markerar Ruka sportlovsveckorna från en lördag till söndagen veckan därpå. I rutorna ovan är det den ljusa stapeln."
     },
     {
       "t": "p",
@@ -56,7 +59,18 @@
     },
     {
       "t": "p",
-      "text": "Säsongen syns i priserna. Enligt Statistikcentralens preliminära uppgifter hade inkvarteringsrörelserna i Lappland cirka 0,44 miljoner övernattningar i mars 2026, näst flest i Finland efter Nyland. Genomsnittspriset för ett hotellrum i Lappland var 231 euro, mot ett riksgenomsnitt på 133 euro. Lapplands hotellrum var landets dyraste den månaden."
+      "text": "Säsongen syns i priserna. Enligt Statistikcentralens preliminära uppgifter var Lapplands hotellrum landets dyraste i mars 2026, och antalet övernattningar var näst störst i Finland efter Nyland."
+    },
+    {
+      "t": "embed",
+      "id": "prices",
+      "title": "Boende i Lappland i mars 2026",
+      "items": [
+        "231 euro: genomsnittspris för ett hotellrum i Lappland",
+        "133 euro: genomsnittspris för ett hotellrum i hela landet",
+        "0,44 miljoner: övernattningar på inkvarteringsrörelser i Lappland"
+      ],
+      "text": "Källa: Statistikcentralen, preliminära uppgifter."
     },
     {
       "t": "h2",

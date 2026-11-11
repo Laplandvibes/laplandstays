@@ -2,25 +2,36 @@
   "title": "Schulferien Finnland 2027: Termine nach Stadt, Lappland im Februar",
   "seoTitle": "Schulferien Finnland 2027: Winterferien & Lappland",
   "description": "Winterferien Finnland 2027: Helsinki und Turku 22.–26. Februar, Tampere 1.–5. März, Oulu und Rovaniemi 8.–12. März. Was das für Lappland bedeutet.",
-  "dek": "Helsinki, Espoo, Vantaa und Turku haben vom 22.–26. Februar frei, Tampere und Jyväskylä vom 1.–5. März, Oulu, Kuopio und Rovaniemi vom 8.–12. März. Im Skigebiet beginnt die Woche am Samstag davor.",
+  "dek": "Die finnischen Winterferien kommen in drei Abschnitten von Ende Februar bis Mitte März. Im Skigebiet beginnt die Woche am Samstag davor.",
   "heroAlt": "Dunkle holzverkleidete Apartmenthäuser an einer Straße im Zentrum von Levi in der Dämmerung: dünner erster Schnee auf Dächern und Gehweg, Licht in den Fenstern und an den Türen, das steile Dach der Marienkapelle und dahinter ein dunstiger Fichtenwald.",
   "heroCaption": "Apartmenthäuser im Zentrum von Levi neben der Marienkapelle beim ersten Schnee im Oktober 2026.",
   "body": [
     {
       "t": "p",
-      "text": "Die finnischen Winterferien der Schulen, auf Finnisch hiihtoloma, also „Skiferien“, sind 2027 in drei Abschnitte geteilt: Woche 8 ist der 22.–26. Februar, Woche 9 der 1.–5. März und Woche 10 der 8.–12. März 2027. Laut der Finnischen Nationalagentur für Bildung sind die Ferien auf diese drei Wochen gestaffelt, und jede Gemeinde legt ihre eigene Woche fest. Für alle, die eine Unterkunft in Lappland buchen, bedeutet das drei aufeinanderfolgende Wochen inländischer Hochsaison von Ende Februar bis Mitte März."
+      "text": "Die finnischen Winterferien der Schulen, auf Finnisch hiihtoloma, also „Skiferien“, sind 2027 in drei Abschnitte geteilt: die Wochen 8, 9 und 10. Laut der Finnischen Nationalagentur für Bildung sind die Ferien auf diese drei Wochen gestaffelt, und jede Gemeinde legt ihre eigene Woche fest. Für alle, die eine Unterkunft in Lappland buchen, bedeutet das drei aufeinanderfolgende Wochen inländischer Hochsaison."
     },
     {
       "t": "h2",
       "text": "Die Winterferien 2027 nach Stadt"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "weeks",
       "items": [
-        "Woche 8, 22.–26. Februar 2027: Helsinki, Espoo, Vantaa, Turku und Pori.",
-        "Woche 9, 1.–5. März 2027: Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa und Kokkola.",
-        "Woche 10, 8.–12. März 2027: Oulu, Rovaniemi, Kuopio, Joensuu und Kajaani."
-      ]
+        "Woche 8",
+        "22.–26. Februar 2027",
+        "Helsinki, Espoo, Vantaa, Turku und Pori",
+        "Im Skigebiet: 20.–28. Februar 2027",
+        "Woche 9",
+        "1.–5. März 2027",
+        "Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa und Kokkola",
+        "Im Skigebiet: 27. Februar–7. März 2027",
+        "Woche 10",
+        "8.–12. März 2027",
+        "Oulu, Rovaniemi, Kuopio, Joensuu und Kajaani",
+        "Im Skigebiet: 6.–14. März 2027"
+      ],
+      "text": "Der dunkle Balken zeigt die Schulferien von Montag bis Freitag. Der helle Balken zeigt die Winterferienwoche in Rukas Kalender, von einem Samstag bis zum Sonntag der Folgewoche."
     },
     {
       "t": "p",
@@ -32,15 +43,7 @@
     },
     {
       "t": "p",
-      "text": "Die Schulferien dauern von Montag bis Freitag, doch die Familien reisen schon am Wochenende davor an. In seinem eigenen Kalender markiert Ruka die Winterferienwochen von einem Samstag bis zum Sonntag der Folgewoche:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Woche 8: 20.–28. Februar 2027",
-        "Woche 9: 27. Februar–7. März 2027",
-        "Woche 10: 6.–14. März 2027"
-      ]
+      "text": "Die Schulferien dauern von Montag bis Freitag, doch die Familien reisen schon am Wochenende davor an. In seinem eigenen Kalender markiert Ruka die Winterferienwochen von einem Samstag bis zum Sonntag der Folgewoche. In den Kästen oben ist das der helle Balken."
     },
     {
       "t": "p",
@@ -56,7 +59,18 @@
     },
     {
       "t": "p",
-      "text": "Die Saison zeigt sich in den Preisen. Laut vorläufigen Angaben von Statistik Finnland verzeichneten die Beherbergungsbetriebe in Lappland im März 2026 rund 0,44 Millionen Übernachtungen, nach Uusimaa die zweithöchste Zahl in Finnland. Der Durchschnittspreis eines Hotelzimmers in Lappland lag bei 231 Euro, gegenüber einem landesweiten Durchschnitt von 133 Euro. Die Hotelzimmer in Lappland waren in diesem Monat die teuersten des Landes."
+      "text": "Die Saison zeigt sich in den Preisen. Laut vorläufigen Angaben von Statistik Finnland waren die Hotelzimmer in Lappland im März 2026 die teuersten des Landes, und die Zahl der Übernachtungen war nach Uusimaa die zweithöchste in Finnland."
+    },
+    {
+      "t": "embed",
+      "id": "prices",
+      "title": "Unterkünfte in Lappland im März 2026",
+      "items": [
+        "231 Euro: Durchschnittspreis eines Hotelzimmers in Lappland",
+        "133 Euro: Durchschnittspreis eines Hotelzimmers landesweit",
+        "0,44 Millionen: Übernachtungen in den Beherbergungsbetrieben Lapplands"
+      ],
+      "text": "Quelle: Statistik Finnland, vorläufige Angaben."
     },
     {
       "t": "h2",

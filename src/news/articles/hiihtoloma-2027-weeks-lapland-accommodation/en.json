@@ -2,25 +2,36 @@
   "title": "Finland's ski holiday weeks 2027: dates by city and Lapland stays",
   "seoTitle": "Finland ski holiday weeks 2027: school winter break dates",
   "description": "Finland ski holiday weeks 2027: Helsinki and Turku are off 22–26 February, Tampere 1–5 March, Oulu and Rovaniemi 8–12 March. What that means for Lapland stays.",
-  "dek": "Helsinki, Espoo, Vantaa and Turku are off 22–26 February, Tampere and Jyväskylä 1–5 March, and Oulu, Kuopio and Rovaniemi 8–12 March. At a ski resort the week starts on the Saturday before.",
+  "dek": "Finland's school winter holiday comes in three waves from late February to mid-March. At a ski resort the week starts on the Saturday before.",
   "heroAlt": "Dark timber-clad apartment buildings along a street in the centre of Levi at dusk: a thin first snow on the roofs and the pavement, lights in the windows and by the doors, the steep roof of St Mary's Chapel and a misty spruce forest behind.",
   "heroCaption": "Apartment buildings in the centre of Levi next to St Mary's Chapel during the first snow in October 2026.",
   "body": [
     {
       "t": "p",
-      "text": "Finland's school winter holiday, known as hiihtoloma or the ski holiday, comes in three parts in 2027: week 8 is 22–26 February, week 9 is 1–5 March and week 10 is 8–12 March 2027. According to the Finnish National Agency for Education, the holiday is staggered across these three weeks, and each municipality decides its own week. For anyone booking a stay in Lapland, that means three consecutive weeks of domestic peak season from late February to mid-March."
+      "text": "Finland's school winter holiday, known as hiihtoloma or the ski holiday, comes in three parts in 2027: weeks 8, 9 and 10. According to the Finnish National Agency for Education, the holiday is staggered across these three weeks, and each municipality decides its own week. For anyone booking a stay in Lapland, that means three consecutive weeks of domestic peak season."
     },
     {
       "t": "h2",
       "text": "Ski holiday weeks 2027 by city"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "weeks",
       "items": [
-        "Week 8, 22–26 February 2027: Helsinki, Espoo, Vantaa, Turku and Pori.",
-        "Week 9, 1–5 March 2027: Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa and Kokkola.",
-        "Week 10, 8–12 March 2027: Oulu, Rovaniemi, Kuopio, Joensuu and Kajaani."
-      ]
+        "Week 8",
+        "22–26 February 2027",
+        "Helsinki, Espoo, Vantaa, Turku and Pori",
+        "At the ski resort: 20–28 February 2027",
+        "Week 9",
+        "1–5 March 2027",
+        "Tampere, Jyväskylä, Lahti, Hämeenlinna, Kouvola, Kotka, Lappeenranta, Mikkeli, Seinäjoki, Vaasa and Kokkola",
+        "At the ski resort: 27 February–7 March 2027",
+        "Week 10",
+        "8–12 March 2027",
+        "Oulu, Rovaniemi, Kuopio, Joensuu and Kajaani",
+        "At the ski resort: 6–14 March 2027"
+      ],
+      "text": "The dark bar is the school holiday from Monday to Friday. The light bar is the ski holiday week in Ruka's calendar, from a Saturday to the Sunday of the following week."
     },
     {
       "t": "p",
@@ -32,15 +43,7 @@
     },
     {
       "t": "p",
-      "text": "The school holiday runs from Monday to Friday, but families set off the weekend before. In its own calendar, Ruka marks the ski holiday weeks from a Saturday to the Sunday of the following week:"
-    },
-    {
-      "t": "ul",
-      "items": [
-        "Week 8: 20–28 February 2027",
-        "Week 9: 27 February–7 March 2027",
-        "Week 10: 6–14 March 2027"
-      ]
+      "text": "The school holiday runs from Monday to Friday, but families set off the weekend before. In its own calendar, Ruka marks the ski holiday weeks from a Saturday to the Sunday of the following week. In the boxes above, that is the light bar."
     },
     {
       "t": "p",
@@ -56,7 +59,18 @@
     },
     {
       "t": "p",
-      "text": "The season shows in prices. According to preliminary figures from Statistics Finland, accommodation establishments in Lapland recorded about 0.44 million overnight stays in March 2026, the second highest figure in Finland after Uusimaa. The average price of a hotel room in Lapland was 231 euros, against a national average of 133 euros. Lapland's hotel rooms were the most expensive in the country that month."
+      "text": "The season shows in prices. According to preliminary figures from Statistics Finland, Lapland's hotel rooms were the most expensive in the country in March 2026, and the region recorded the second highest number of overnight stays in Finland after Uusimaa."
+    },
+    {
+      "t": "embed",
+      "id": "prices",
+      "title": "Lapland accommodation in March 2026",
+      "items": [
+        "231 euros: average price of a hotel room in Lapland",
+        "133 euros: average price of a hotel room in Finland as a whole",
+        "0.44 million: overnight stays at accommodation establishments in Lapland"
+      ],
+      "text": "Source: Statistics Finland, preliminary figures."
     },
     {
       "t": "h2",
