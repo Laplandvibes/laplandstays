@@ -1,0 +1,83 @@
+{
+  "slug": "hiihtoloma-2027-weeks-lapland-accommodation",
+  "date": "2026-11-11",
+  "hero": {
+    "src": "/images/news/levi-apartments-first-snow-1600.webp",
+    "srcSmall": "/images/news/levi-apartments-first-snow-800.webp",
+    "width": 1600,
+    "height": 901,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandstays.com/about",
+      "sourceUrl": "https://laplandstays.com/about",
+      "assetId": "20261014_180924",
+      "sourceName": "Levi 2026-10-14",
+      "taken": "2026-10-14",
+      "retrieved": "2026-11-11"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Opetushallitus",
+      "title": "Koulujen työ- ja loma-ajat lukuvuonna 2026–2027",
+      "lang": "fi",
+      "url": "https://www.oph.fi/fi/uutiset/2026/koulujen-tyo-ja-loma-ajat-lukuvuonna-2026-2027",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Helsingin kaupunki",
+      "title": "Koulujen ja oppilaitosten työ- ja loma-ajat",
+      "lang": "fi",
+      "url": "https://www.hel.fi/fi/kasvatus-ja-koulutus/koulujen-ja-oppilaitosten-tyo-ja-loma-ajat",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "City of Tampere",
+      "title": "School year and holidays",
+      "lang": "en",
+      "url": "https://tampere.fi/en/koulutus/perusopetus/school-year-and-holidays",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Oulun kaupunki",
+      "title": "Koulujen työ- ja loma-ajat",
+      "lang": "fi",
+      "url": "https://www.ouka.fi/koulujen-tyo-ja-loma-ajat",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Kittilän koulutoimisto",
+      "title": "Lukuvuoden 2026-2027 työ- ja loma-ajat",
+      "lang": "fi",
+      "url": "https://kittila.inschool.fi/news/553?langid=3",
+      "date": "2026-03-11"
+    },
+    {
+      "publisher": "Ruka",
+      "title": "Finnish Winter Holidays, week 9 - 2027",
+      "lang": "en",
+      "url": "https://www.ruka.fi/en/events/finnish-winter-holidays-week-9",
+      "read": "2026-11-11"
+    },
+    {
+      "publisher": "Tilastokeskus",
+      "title": "Ulkomaisten matkailijoiden yöpymisiä 5 % edellisvuotta enemmän maaliskuussa 2026",
+      "lang": "fi",
+      "url": "https://stat.fi/fi/julkaisu/cmfzbp8ro382807ul6mltblbr",
+      "date": "2026-04-29"
+    },
+    {
+      "publisher": "Yle",
+      "title": "”Jos hinnat olisivat maltillisempia, kävisimme useammin” – tunturiloman kokonaishinta voi nousta yli 4 000 euroon",
+      "lang": "fi",
+      "url": "https://yle.fi/a/74-20210098",
+      "date": "2026-02-14"
+    }
+  ],
+  "ogCard": {
+    "line": "Finland's ski holiday weeks 2027",
+    "focus": "50% 50%"
+  }
+}

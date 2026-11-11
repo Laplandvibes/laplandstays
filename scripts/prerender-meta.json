@@ -955,6 +955,56 @@
       "description": "Dussintals hotell i Lappland använder kameror som känner igen norrsken och skickar en varning med bild till gästens telefon. Vad det betyder när du bokar rum."
     }
   },
+  "/news/hiihtoloma-2027-weeks-lapland-accommodation": {
+    "en": {
+      "title": "Finland ski holiday weeks 2027: school winter break dates",
+      "description": "Finland ski holiday weeks 2027: Helsinki and Turku are off 22–26 February, Tampere 1–5 March, Oulu and Rovaniemi 8–12 March. What that means for Lapland stays."
+    },
+    "fi": {
+      "title": "Hiihtoloma 2027: hiihtolomaviikot 8, 9 ja 10 päivämäärineen",
+      "description": "Hiihtoloma 2027: Helsinki ja Turku lomailevat 22.–26.2., Tampere 1.–5.3. sekä Oulu ja Rovaniemi 8.–12.3. Näin viikot näkyvät Lapin majoituksessa."
+    },
+    "de": {
+      "title": "Schulferien Finnland 2027: Winterferien & Lappland",
+      "description": "Winterferien Finnland 2027: Helsinki und Turku 22.–26. Februar, Tampere 1.–5. März, Oulu und Rovaniemi 8.–12. März. Was das für Lappland bedeutet."
+    },
+    "ja": {
+      "title": "フィンランド2月・3月の学校休み2027とラップランド",
+      "description": "2027年のフィンランドの冬休みは2月22日〜26日、3月1日〜5日、3月8日〜12日の三つの週に分かれます。ラップランドの宿泊への影響をまとめました。"
+    },
+    "es": {
+      "title": "Vacaciones escolares Finlandia 2027: Laponia en febrero",
+      "description": "Vacaciones escolares Finlandia 2027: Helsinki y Turku del 22 al 26 de febrero, Tampere del 1 al 5 de marzo, Oulu y Rovaniemi del 8 al 12. Efecto en Laponia."
+    },
+    "pt-BR": {
+      "title": "Férias escolares Finlândia 2027: Lapônia em fevereiro",
+      "description": "Férias escolares Finlândia 2027: Helsinque e Turku de 22 a 26 de fevereiro, Tampere de 1 a 5 de março, Oulu e Rovaniemi de 8 a 12. O que muda para a Lapônia."
+    },
+    "zh-CN": {
+      "title": "芬蘭2月、3月學校假期2027與拉普蘭住宿",
+      "description": "2027年芬蘭冬季假期分三段：2月22日至26日、3月1日至5日、3月8日至12日。預訂拉普蘭住宿之前，請先了解這些周次對住宿預訂意味著什麼。"
+    },
+    "ko": {
+      "title": "핀란드 2월·3월 겨울방학 2027, 라플란드 숙소",
+      "description": "2027년 핀란드 겨울방학은 2월 22일~26일, 3월 1일~5일, 3월 8일~12일의 세 번입니다. 라플란드 숙소 예약 전 확인할 점입니다."
+    },
+    "fr": {
+      "title": "Vacances scolaires Finlande 2027 : dates et Laponie",
+      "description": "Vacances scolaires Finlande 2027 : Helsinki et Turku du 22 au 26 février, Tampere du 1 au 5 mars, Oulu et Rovaniemi du 8 au 12. Ce qui change en Laponie."
+    },
+    "it": {
+      "title": "Vacanze scolastiche Finlandia 2027: Lapponia a febbraio",
+      "description": "Vacanze scolastiche Finlandia 2027: Helsinki e Turku dal 22 al 26 febbraio, Tampere dall'1 al 5 marzo, Oulu e Rovaniemi dall'8 al 12. Cosa cambia in Lapponia."
+    },
+    "nl": {
+      "title": "Schoolvakantie Finland 2027: Lapland in februari",
+      "description": "Schoolvakantie Finland 2027: Helsinki en Turku 22–26 februari, Tampere 1–5 maart, Oulu en Rovaniemi 8–12 maart. Wat dat voor Lapland betekent."
+    },
+    "sv": {
+      "title": "Finska sportlovet 2027: veckor och Lappland",
+      "description": "Finska sportlovet 2027: Helsingfors och Åbo 22–26 februari, Tammerfors 1–5 mars, Uleåborg och Rovaniemi 8–12 mars. Vad det betyder för boende i Lappland."
+    }
+  },
   "/news/inari-limits-new-igloo-construction": {
     "en": {
       "title": "Inari curbs new aurora cabin building",
