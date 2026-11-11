@@ -273,3 +273,24 @@
   .nw .nw-sheet section > ul[role="list"]{display:grid;grid-template-columns:1fr 1fr;gap:10px}
   .nw .nw-sheet section > ul[role="list"] a,.nw .nw-sheet section > ul[role="list"] button{width:100%;justify-content:center}
 }
+
+/* Jutun hero alle 1024 px (11.11.2026, Vesa: "miksi ne ei ole keskitetty ja rajattu oikein"): otsikko, yläotsake ja
+   murupolku keskellä; ingressi enintään 34 merkin palstana keskellä, rivit vasemmalta (kolmen rivin keskitetty
+   kappale hyppii reunoiltaan, gate:tabletti). 1024 px:stä ylöspäin teksti on kuvan päällä vasemmalla kuten ennen. */
+@media(max-width:1023.98px){
+  .nw .nw-art .nw-art-body{text-align:center}
+  .nw .nw-art .crumbs{justify-content:center}
+  .nw .nw-art .nw-kicker{justify-content:center}
+  .nw .nw-art .nw-h1{margin-left:auto;margin-right:auto;max-width:20ch}
+  .nw .nw-art .nw-h1:lang(ja),.nw .nw-art .nw-h1:lang(zh),.nw .nw-art .nw-h1:lang(ko){max-width:none}
+  .nw .nw-art .nw-dek{width:fit-content;max-width:min(36ch,100%);margin-left:auto;margin-right:auto;text-align:left}
+}
+@media(max-width:1023.98px){
+  .nw .nw-art-meta{text-align:center}
+  .nw .nw-art-meta .nw-byline{justify-content:center}
+  /* Keskitettynä osat ovat allekkain, joten erotinpiste jäisi irralleen rivin alkuun (9.11. välipistesääntö). */
+  .nw .nw-art .nw-kicker,.nw .nw-art-meta .nw-byline{flex-direction:column;align-items:center}
+  .nw .nw-art .nw-kicker > *::before,.nw .nw-art-meta .nw-byline > *::before{content:none}
+  .nw .nw-art-meta .nw-art-cap{width:fit-content;max-width:min(44ch,100%);margin-left:auto;margin-right:auto;text-align:left}
+  .nw .nw-art-meta > div > button{margin-left:auto;margin-right:auto}
+}
