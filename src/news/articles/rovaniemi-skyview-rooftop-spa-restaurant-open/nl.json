@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "Spa en restaurant in het kort",
       "items": [
-        "Spasessie: 129 euro per persoon, twee uur",
-        "Starttijden: 9, 12, 15, 18 en 21 uur",
-        "Plaatsen: hooguit 16 gasten per keer",
-        "Ontbijtbuffet: 39 euro, van 7 tot 11 uur",
-        "Diner: 17 tot 23 uur"
+        "Prijs van de spa: 129 euro per persoon",
+        "Tijd in de spa: 2 uur",
+        "Spasessies beginnen om: 9.00, 12.00, 15.00, 18.00 en 21.00 uur",
+        "Gasten tegelijk in de spa: hooguit 16",
+        "Ontbijtbuffet: 7.00–11.00 uur, prijs 39 euro",
+        "Diner: 17.00–23.00 uur"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "De spa heeft vijf sessies van twee uur per dag, die beginnen om 9, 12, 15, 18 en 21 uur. Er is per keer plaats voor hooguit 16 gasten, acht vrouwen en acht mannen. De laatste twee sessies zijn alleen voor volwassenen."
+      "text": "De spa heeft vijf sessies van twee uur per dag, die beginnen om 9.00, 12.00, 15.00, 18.00 en 21.00 uur. Er is per keer plaats voor hooguit 16 gasten, acht vrouwen en acht mannen. De laatste twee sessies zijn alleen voor volwassenen."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "Restaurant Aura is elke dag open, met ontbijt van 7 tot 11 uur en diner van 17 tot 23 uur. Het ontbijtbuffet kost 39 euro en daarvoor hoeft volgens het restaurant geen tafel te worden gereserveerd. Op het buffet staan onder meer rendier in verschillende vormen, vis en viskuit en rameneieren."
+      "text": "Restaurant Aura is elke dag open, met ontbijt van 7.00 tot 11.00 uur en diner van 17.00 tot 23.00 uur. Het ontbijtbuffet kost 39 euro en daarvoor hoeft volgens het restaurant geen tafel te worden gereserveerd. Op het buffet staan onder meer rendier in verschillende vormen, vis en viskuit en rameneieren."
     },
     {
       "t": "p",

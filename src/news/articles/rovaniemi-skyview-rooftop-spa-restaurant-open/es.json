@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "El spa y el restaurante en breve",
       "items": [
-        "Turno de spa: 129 euros por persona, dos horas",
-        "Horas de inicio: 9, 12, 15, 18 y 21",
-        "Aforo: un máximo de 16 personas a la vez",
-        "Bufé de desayuno: 39 euros, de 7 a 11",
-        "Horario de cena: 17 a 23"
+        "Precio del spa: 129 euros por persona",
+        "Duración del turno de spa: 2 horas",
+        "Inicio de los turnos de spa: a las 9:00, 12:00, 15:00, 18:00 y 21:00",
+        "Personas a la vez en el spa: un máximo de 16",
+        "Bufé de desayuno: de 7:00 a 11:00, 39 euros",
+        "Cena: de 17:00 a 23:00"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "El spa ofrece cinco turnos de dos horas al día, que empiezan a las 9, las 12, las 15, las 18 y las 21. Hay sitio para un máximo de 16 personas a la vez, ocho mujeres y ocho hombres. Los dos últimos turnos son solo para adultos."
+      "text": "El spa ofrece cinco turnos de dos horas al día, que empiezan a las 9:00, las 12:00, las 15:00, las 18:00 y las 21:00. Hay sitio para un máximo de 16 personas a la vez, ocho mujeres y ocho hombres. Los dos últimos turnos son solo para adultos."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "El restaurante Aura abre todos los días: desayuno de 7 a 11 y cena de 17 a 23. El bufé de desayuno cuesta 39 euros y, según el restaurante, no hace falta reservar mesa. El bufé incluye reno en varias formas, pescado y huevas, y huevos ramen."
+      "text": "El restaurante Aura abre todos los días: desayuno de 7:00 a 11:00 y cena de 17:00 a 23:00. El bufé de desayuno cuesta 39 euros y, según el restaurante, no hace falta reservar mesa. El bufé incluye reno en varias formas, pescado y huevas, y huevos ramen."
     },
     {
       "t": "p",

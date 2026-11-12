@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "Spa und Restaurant in Kürze",
       "items": [
-        "Spa-Durchgang: 129 Euro pro Person, zwei Stunden",
-        "Startzeiten: 9, 12, 15, 18 und 21 Uhr",
-        "Plätze: höchstens 16 Gäste gleichzeitig",
-        "Frühstücksbuffet: 39 Euro, von 7 bis 11 Uhr",
-        "Abendessen: 17 bis 23 Uhr"
+        "Preis im Spa: 129 Euro pro Person",
+        "Aufenthalt im Spa: 2 Stunden",
+        "Spa-Durchgänge beginnen: um 9:00, 12:00, 15:00, 18:00 und 21:00 Uhr",
+        "Gäste gleichzeitig im Spa: höchstens 16",
+        "Frühstücksbuffet: 7:00–11:00 Uhr, Preis 39 Euro",
+        "Abendessen: 17:00–23:00 Uhr"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "Der Spa bietet täglich fünf zweistündige Durchgänge an, die um 9, 12, 15, 18 und 21 Uhr beginnen. Gleichzeitig ist Platz für höchstens 16 Gäste, acht Frauen und acht Männer. Die beiden letzten Durchgänge sind nur für Erwachsene."
+      "text": "Der Spa bietet täglich fünf zweistündige Durchgänge an, die um 9:00, 12:00, 15:00, 18:00 und 21:00 Uhr beginnen. Gleichzeitig ist Platz für höchstens 16 Gäste, acht Frauen und acht Männer. Die beiden letzten Durchgänge sind nur für Erwachsene."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "Das Restaurant Aura ist täglich geöffnet, Frühstück von 7 bis 11 Uhr und Abendessen von 17 bis 23 Uhr. Das Frühstücksbuffet kostet 39 Euro, und nach Angaben des Restaurants ist dafür keine Tischreservierung nötig. Zum Buffet gehören Rentier in mehreren Formen, Fisch und Rogen sowie Ramen-Eier."
+      "text": "Das Restaurant Aura ist täglich geöffnet, Frühstück von 7:00 bis 11:00 Uhr und Abendessen von 17:00 bis 23:00 Uhr. Das Frühstücksbuffet kostet 39 Euro, und nach Angaben des Restaurants ist dafür keine Tischreservierung nötig. Zum Buffet gehören Rentier in mehreren Formen, Fisch und Rogen sowie Ramen-Eier."
     },
     {
       "t": "p",

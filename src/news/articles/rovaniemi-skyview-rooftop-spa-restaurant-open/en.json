@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "Spa and restaurant in brief",
       "items": [
-        "Spa session: 129 euros per person, two hours",
-        "Sessions start at: 9, 12, 15, 18 and 21",
-        "Capacity: no more than 16 guests at a time",
-        "Breakfast buffet: 39 euros, from 7 to 11",
-        "Dinner hours: 17 to 23"
+        "Spa price: 129 euros per person",
+        "Time in the spa: 2 hours",
+        "Spa sessions start at: 9:00, 12:00, 15:00, 18:00 and 21:00",
+        "Spa guests at a time: no more than 16",
+        "Breakfast buffet: 7:00–11:00, price 39 euros",
+        "Dinner: 17:00–23:00"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "The spa runs five two-hour sessions a day, starting at 9, 12, 15, 18 and 21. There is room for no more than 16 guests at a time, eight women and eight men. The two last sessions are for adults only."
+      "text": "The spa runs five two-hour sessions a day, starting at 9:00, 12:00, 15:00, 18:00 and 21:00. There is room for no more than 16 guests at a time, eight women and eight men. The two last sessions are for adults only."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "Restaurant Aura is open daily, with breakfast from 7 to 11 and dinner from 17 to 23. The breakfast buffet costs 39 euros, and the restaurant says no table booking is needed for it. The buffet includes reindeer in several forms, fish and roe, and ramen eggs."
+      "text": "Restaurant Aura is open daily, with breakfast from 7:00 to 11:00 and dinner from 17:00 to 23:00. The breakfast buffet costs 39 euros, and the restaurant says no table booking is needed for it. The buffet includes reindeer in several forms, fish and roe, and ramen eggs."
     },
     {
       "t": "p",

@@ -15,10 +15,11 @@
       "id": "facts-lyhyesti",
       "title": "Os planos de Levi em resumo",
       "items": [
-        "Hotel: margem norte do lago Immeljärvi, cerca de 4,33 hectares",
-        "Área construída: 17.400 metros quadrados",
-        "Consulta pública: de 30 de setembro a 29 de outubro de 2026",
-        "Maior plano: Encosta Sul, cerca de 38 hectares"
+        "Local do hotel: margem norte do lago Immeljärvi",
+        "Tamanho do terreno do hotel: cerca de 4,33 hectares",
+        "Área que pode ser construída: 17.400 metros quadrados",
+        "Consulta pública do plano do hotel: de 30 de setembro a 29 de outubro de 2026",
+        "Maior área de plano: Encosta Sul, cerca de 38 hectares"
       ]
     },
     {
@@ -43,7 +44,7 @@
     },
     {
       "t": "p",
-      "text": "A proposta de plano ficou em consulta pública de 30 de setembro a 29 de outubro de 2026. Manifestações por escrito podiam ser enviadas à comissão técnica do município de Kittilä até as 16:00 do dia 29 de outubro."
+      "text": "A proposta de plano ficou em consulta pública de 30 de setembro a 29 de outubro de 2026. Manifestações por escrito podiam ser enviadas à comissão técnica do município de Kittilä até as 16h do dia 29 de outubro."
     },
     {
       "t": "h2",

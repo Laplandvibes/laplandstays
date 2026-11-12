@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "Kylpylä ja ravintola lyhyesti",
       "items": [
-        "Kylpylävuoro: 129 euroa hengeltä, kaksi tuntia",
-        "Vuorot alkavat kello: 9, 12, 15, 18 ja 21",
-        "Paikkoja: enintään 16 kerrallaan",
-        "Aamiaisbuffet: 39 euroa, kello 7–11",
-        "Päivällinen kello: 17–23"
+        "Kylpylän hinta: 129 euroa hengeltä",
+        "Kylpemisaika: 2 tuntia",
+        "Kylpyvuorot alkavat: kello 9.00, 12.00, 15.00, 18.00 ja 21.00",
+        "Kylpijöitä kerrallaan: enintään 16",
+        "Aamiaisbuffet: kello 7.00–11.00, hinta 39 euroa",
+        "Päivällinen: kello 17.00–23.00"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "Kylpylässä on viisi kahden tunnin vuoroa päivässä, ja vuorot alkavat kello 9, 12, 15, 18 ja 21. Paikkoja on kerrallaan enintään 16, kahdeksan naiselle ja kahdeksan miehelle. Kaksi viimeistä vuoroa on tarkoitettu vain täysi-ikäisille."
+      "text": "Kylpylässä on viisi kahden tunnin vuoroa päivässä, ja vuorot alkavat kello 9.00, 12.00, 15.00, 18.00 ja 21.00. Paikkoja on kerrallaan enintään 16, kahdeksan naiselle ja kahdeksan miehelle. Kaksi viimeistä vuoroa on tarkoitettu vain täysi-ikäisille."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "Ravintola Aura on auki joka päivä: aamiainen kello 7–11 ja päivällinen kello 17–23. Aamiaisbuffet maksaa 39 euroa, eikä sille tarvitse ravintolan mukaan varata pöytää etukäteen. Buffetissa on muun muassa poroa eri muodoissa, kalaa ja mätiä sekä ramen-kananmunia."
+      "text": "Ravintola Aura on auki joka päivä: aamiainen kello 7.00–11.00 ja päivällinen kello 17.00–23.00. Aamiaisbuffet maksaa 39 euroa, eikä sille tarvitse ravintolan mukaan varata pöytää etukäteen. Buffetissa on muun muassa poroa eri muodoissa, kalaa ja mätiä sekä ramen-kananmunia."
     },
     {
       "t": "p",

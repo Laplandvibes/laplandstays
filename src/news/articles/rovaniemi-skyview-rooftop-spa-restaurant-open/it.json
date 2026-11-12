@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "Spa e ristorante in breve",
       "items": [
-        "Turno in spa: 129 euro a persona, due ore",
-        "Orari di inizio: 9, 12, 15, 18 e 21",
-        "Posti: al massimo 16 per volta",
-        "Buffet della colazione: 39 euro, dalle 7 alle 11",
-        "Orario della cena: 17–23"
+        "Prezzo della spa: 129 euro a persona",
+        "Durata del turno in spa: 2 ore",
+        "Inizio dei turni in spa: alle 9:00, 12:00, 15:00, 18:00 e 21:00",
+        "Ospiti in spa per volta: al massimo 16",
+        "Buffet della colazione: dalle 7:00 alle 11:00, 39 euro",
+        "Cena: dalle 17:00 alle 23:00"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "La spa propone cinque turni di due ore al giorno, che iniziano alle 9, alle 12, alle 15, alle 18 e alle 21. I posti sono al massimo 16 per volta, otto per le donne e otto per gli uomini. Gli ultimi due turni sono riservati agli adulti."
+      "text": "La spa propone cinque turni di due ore al giorno, che iniziano alle 9:00, alle 12:00, alle 15:00, alle 18:00 e alle 21:00. I posti sono al massimo 16 per volta, otto per le donne e otto per gli uomini. Gli ultimi due turni sono riservati agli adulti."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "Il ristorante Aura è aperto tutti i giorni: colazione dalle 7 alle 11 e cena dalle 17 alle 23. Il buffet della colazione costa 39 euro e, secondo il ristorante, non serve prenotare un tavolo. Il buffet comprende renna in varie forme, pesce e uova di pesce e uova ramen."
+      "text": "Il ristorante Aura è aperto tutti i giorni: colazione dalle 7:00 alle 11:00 e cena dalle 17:00 alle 23:00. Il buffet della colazione costa 39 euro e, secondo il ristorante, non serve prenotare un tavolo. Il buffet comprende renna in varie forme, pesce e uova di pesce e uova ramen."
     },
     {
       "t": "p",

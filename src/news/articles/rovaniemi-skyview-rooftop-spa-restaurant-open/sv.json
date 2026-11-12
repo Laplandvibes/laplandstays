@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "Spa och restaurang i korthet",
       "items": [
-        "Spapass: 129 euro per person, två timmar",
-        "Passen börjar klockan: 9, 12, 15, 18 och 21",
-        "Platser: högst 16 gäster åt gången",
-        "Frukostbuffé: 39 euro, klockan 7–11",
-        "Middag klockan: 17–23"
+        "Pris för spat: 129 euro per person",
+        "Badtid: 2 timmar",
+        "Spapassen börjar: kl. 9.00, 12.00, 15.00, 18.00 och 21.00",
+        "Gäster i spat åt gången: högst 16",
+        "Frukostbuffé: kl. 7.00–11.00, pris 39 euro",
+        "Middag: kl. 17.00–23.00"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "Spat har fem tvåtimmarspass om dagen, och passen börjar klockan 9, 12, 15, 18 och 21. Det finns plats för högst 16 gäster åt gången, åtta kvinnor och åtta män. De två sista passen är bara för vuxna."
+      "text": "Spat har fem tvåtimmarspass om dagen, och passen börjar kl. 9.00, 12.00, 15.00, 18.00 och 21.00. Det finns plats för högst 16 gäster åt gången, åtta kvinnor och åtta män. De två sista passen är bara för vuxna."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "Restaurang Aura är öppen varje dag, med frukost klockan 7–11 och middag klockan 17–23. Frukostbuffén kostar 39 euro, och enligt restaurangen behöver man inte boka bord till den. I buffén finns ren i flera former, fisk och rom samt ramenägg."
+      "text": "Restaurang Aura är öppen varje dag, med frukost kl. 7.00–11.00 och middag kl. 17.00–23.00. Frukostbuffén kostar 39 euro, och enligt restaurangen behöver man inte boka bord till den. I buffén finns ren i flera former, fisk och rom samt ramenägg."
     },
     {
       "t": "p",

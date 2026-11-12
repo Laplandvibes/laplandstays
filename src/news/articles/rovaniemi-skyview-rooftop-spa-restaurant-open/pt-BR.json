@@ -15,11 +15,12 @@
       "id": "facts-lyhyesti",
       "title": "Spa e restaurante em resumo",
       "items": [
-        "Turno no spa: 129 euros por pessoa, duas horas",
-        "Horários de início: 9, 12, 15, 18 e 21",
-        "Vagas: no máximo 16 pessoas por vez",
-        "Café da manhã: bufê por 39 euros, das 7 às 11",
-        "Horário do jantar: 17 às 23"
+        "Preço do spa: 129 euros por pessoa",
+        "Tempo no spa: 2 horas",
+        "Início dos turnos no spa: 9h, 12h, 15h, 18h e 21h",
+        "Pessoas por vez no spa: no máximo 16",
+        "Bufê de café da manhã: das 7h às 11h, 39 euros",
+        "Jantar: das 17h às 23h"
       ]
     },
     {
@@ -36,7 +37,7 @@
     },
     {
       "t": "p",
-      "text": "O spa tem cinco turnos de duas horas por dia, que começam às 9, às 12, às 15, às 18 e às 21. Há lugar para no máximo 16 pessoas por vez, oito mulheres e oito homens. Os dois últimos turnos são só para adultos."
+      "text": "O spa tem cinco turnos de duas horas por dia, que começam às 9h, às 12h, às 15h, às 18h e às 21h. Há lugar para no máximo 16 pessoas por vez, oito mulheres e oito homens. Os dois últimos turnos são só para adultos."
     },
     {
       "t": "p",
@@ -48,7 +49,7 @@
     },
     {
       "t": "p",
-      "text": "O restaurante Aura abre todos os dias: café da manhã das 7 às 11 e jantar das 17 às 23. O bufê de café da manhã custa 39 euros e, segundo o restaurante, não é preciso reservar mesa. O bufê tem rena de várias formas, peixe e ovas, além de ovos de ramen."
+      "text": "O restaurante Aura abre todos os dias: café da manhã das 7h às 11h e jantar das 17h às 23h. O bufê de café da manhã custa 39 euros e, segundo o restaurante, não é preciso reservar mesa. O bufê tem rena de várias formas, peixe e ovas, além de ovos de ramen."
     },
     {
       "t": "p",
