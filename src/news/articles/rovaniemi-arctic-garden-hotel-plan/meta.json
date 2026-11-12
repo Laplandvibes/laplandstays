@@ -65,5 +65,13 @@
   "ogCard": {
     "line": "Rovaniemi heritage block becomes hotel",
     "focus": "50% 50%"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    },
+    "facts-hotellit": {
+      "kind": "facts"
+    }
   }
 }

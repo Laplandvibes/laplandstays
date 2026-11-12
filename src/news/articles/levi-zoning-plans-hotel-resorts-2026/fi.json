@@ -8,6 +8,21 @@
   "body": [
     {
       "t": "p",
+      "text": "Leville suunnitellaan uutta hotellia, resortteja ja loma-asuntoja. Hankkeet ovat vasta kaavavaiheessa, eikä hotellin huonemäärää tai valmistumisaikaa vielä tiedetä."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Levin kaavat lyhyesti",
+      "items": [
+        "Hotelli: Immeljärven pohjoisranta, noin 4,33 hehtaaria",
+        "Rakennusoikeus: 17 400 kerrosneliömetriä",
+        "Hotellikaava nähtävillä: 30. syyskuuta–29. lokakuuta 2026",
+        "Suurin kaava-alue: Etelärinne, noin 38 hehtaaria"
+      ]
+    },
+    {
+      "t": "p",
       "text": "Kittilässä on vireillä useita matkailuun liittyviä kaavoja, ja suurin osa niistä koskee Levin matkailukeskusta ja sen ympäristöä. Kunnan kaava-asiakirjoissa suunnitellaan hotellia Levin keskustaan, resortteja Levin lähelle ja Raattamaan sekä loma-asuntoja Levin rinteille ja Ylläsjärvelle. Kaavat ovat eri vaiheissa, ja osa tuli vireille vasta syyskuun lopussa."
     },
     {
@@ -16,7 +31,11 @@
     },
     {
       "t": "p",
-      "text": "Pisimmällä on Levin kortteleiden 207 ja 208 asemakaavan muutos Immeljärven pohjoisrannalla Levin keskustassa. Kaava mahdollistaa hotelli-, liike-, asuin- ja majoitustilojen rakentamisen noin 4,33 hehtaarin alueelle, ja rakennusoikeutta on yhteensä 17 400 kerrosneliömetriä. Viitesuunnitelmassa alueen eteläosaan tulee hotelli, jonka yhteyteen voidaan sijoittaa ravintola ja saunamaailma, ja pohjoisosaan lomahuoneistoja. Kaavamuutosta on hakenut Partnos Oy."
+      "text": "Pisimmällä on Levin kortteleiden 207 ja 208 asemakaavan muutos Immeljärven pohjoisrannalla Levin keskustassa. Kaava mahdollistaa hotelli-, liike-, asuin- ja majoitustilojen rakentamisen noin 4,33 hehtaarin alueelle, ja rakennusoikeutta on yhteensä 17 400 kerrosneliömetriä."
+    },
+    {
+      "t": "p",
+      "text": "Viitesuunnitelmassa alueen eteläosaan tulee hotelli, jonka yhteyteen voidaan sijoittaa ravintola ja saunamaailma, ja pohjoisosaan lomahuoneistoja. Kaavamuutosta on hakenut Partnos Oy."
     },
     {
       "t": "p",
@@ -31,7 +50,8 @@
       "text": "Resortteja Seidantielle ja Raattamaan"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-resortit",
       "items": [
         "Seidantie, Levi: Metsähallitus ja Tornator ovat hakeneet kaavamuutosta, joka mahdollistaisi resortin majoitustiloineen Seidantien päähän noin 3,5 hehtaarin alueelle. Kaava tuli vireille 30. syyskuuta, ja aikataulun mukaan valtuusto käsittelisi sen kesäkuussa 2027.",
         "Harrisaajo, Raattama: noin 25,9 hehtaarin alueelle suunnitellaan pienimuotoista resorttia, jossa olisi 30–60 pientä majoitusyksikköä kahdesta neljään hengelle, sekä yhdeksän lomarakennustonttia. Alue on Raattaman kylän lähellä, tietä pitkin noin 80 kilometrin päässä Kittilän kirkonkylästä. Kaavaluonnos oli nähtävillä kesäkuussa 2026.",
@@ -40,10 +60,11 @@
     },
     {
       "t": "h2",
-      "text": "Loma-asuntoja Levin rinteille ja Ylläsjärvelle"
+      "text": "Loma-asunnot Levillä ja Ylläsjärvellä"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loma-asunnot",
       "items": [
         "Levin Kaakkoisrinne ja Taalo: Kaakkoisrinteen leirintäaluetta tutkitaan loma-asuntojen alueeksi, ja Taalovaarassa rakennusoikeuksia jaettaisiin useammalle tontille. Kaava-alue on noin 11 hehtaaria, ja se tuli vireille 30. syyskuuta. Aikataulun mukaan valtuusto käsittelisi sen syyskuussa 2027.",
         "Rajalammentie, Ylläsjärvi: loma-asuntojen kortteleita, kolme omakotitonttia ja pieni kortteli esimerkiksi kahvilalle, ravintolalle tai majoitukselle noin 1,2 kilometrin päässä Ylläsjärven kylästä. Rakennusoikeutta on yhteensä 13 150 kerrosneliömetriä. Kaavaluonnos oli nähtävillä kesällä 2025."
@@ -55,7 +76,11 @@
     },
     {
       "t": "p",
-      "text": "Pinta-alaltaan suurin Levin kaava on Etelärinteen asemakaavan muutos ja laajennus, noin 38 hehtaaria Levin Etelärinteiden vieressä. Maanomistajat ovat Suomen valtio ja Levi Ski Resort, ja suunnittelussa otetaan huomioon Metsähallituksen ja Oulun yliopiston arkkitehtuurin yksikön ideakilpailun tulokset. Mitä alueelle rakennetaan, ei ole vielä kerrottu. Aikataulun mukaan valtuusto käsittelisi kaavan helmikuussa 2027."
+      "text": "Pinta-alaltaan suurin Levin kaava on Etelärinteen asemakaavan muutos ja laajennus, noin 38 hehtaaria Levin Etelärinteiden vieressä. Maanomistajat ovat Suomen valtio ja Levi Ski Resort, ja suunnittelussa otetaan huomioon Metsähallituksen ja Oulun yliopiston arkkitehtuurin yksikön ideakilpailun tulokset."
+    },
+    {
+      "t": "p",
+      "text": "Mitä alueelle rakennetaan, ei ole vielä kerrottu. Aikataulun mukaan valtuusto käsittelisi kaavan helmikuussa 2027."
     },
     {
       "t": "link",

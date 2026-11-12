@@ -2,13 +2,29 @@
   "title": "Rovaniemis igloresort öppnar takspa och restaurang för alla",
   "seoTitle": "SkyView Rovaniemi: takspa och restaurang öppna",
   "description": "Takspat på SkyView Igloo Resort i Olleronvaara och restaurang Aura, skapad med kocken Tomi Björck, tar även emot gäster som bor någon annanstans.",
-  "dek": "Arctic Spa Culta öppnade den 16 oktober. Ett tvåtimmarspass kostar 129 euro, och högst 16 gäster släpps in åt gången.",
+  "dek": "Arctic Spa Culta öppnade i oktober. Ett tvåtimmarspass kostar 129 euro, och högst 16 gäster släpps in åt gången.",
   "heroAlt": "Utsikt från skidbacken på Ounasvaara i Rovaniemi på sommaren: i förgrunden en stollift och tallar, i mitten Kemi älv och dess stålbroar, och på andra stranden hus bland skogen.",
   "heroCaption": "Rovaniemi och broarna över Kemi älv, sedda från skidbacken på Ounasvaara på sommaren. SkyView Igloo Resort ligger på en annan höjd, Olleronvaara, omkring 10 kilometer från centrum.",
   "body": [
     {
       "t": "p",
-      "text": "SkyView Igloo Resort i Olleronvaara i Rovaniemi har öppnat ett takspa och en restaurang som också tar emot besökare som inte bor på resorten. Enligt företaget öppnade spat Arctic Spa Culta den 16 oktober, och på taket finns en uppvärmd infinitypool och en panoramabastu. Restaurang Aura har skapats tillsammans med kocken Tomi Björck."
+      "text": "SkyView Igloo Resort i Olleronvaara i Rovaniemi har öppnat ett takspa och en restaurang som också tar emot besökare som inte bor på resorten."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Spa och restaurang i korthet",
+      "items": [
+        "Spapass: 129 euro per person, två timmar",
+        "Passen börjar: klockan 9, 12, 15, 18 och 21",
+        "Platser: högst 16 gäster åt gången",
+        "Frukostbuffé: 39 euro, klockan 7–11",
+        "Middag: klockan 17–23"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Enligt företaget öppnade spat Arctic Spa Culta den 16 oktober, och på taket finns en uppvärmd infinitypool och en panoramabastu. Restaurang Aura har skapats tillsammans med kocken Tomi Björck."
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "Ett spapass kostar 129 euro"
+      "text": "Spapass och pris"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Råvaror från norr och smaker från Asien på Aura"
+      "text": "Restaurang Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "Iglorna har två våningar"
+      "text": "Iglorna och läget"
     },
     {
       "t": "p",

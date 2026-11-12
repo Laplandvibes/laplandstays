@@ -2,13 +2,29 @@
   "title": "Iglooresort in Rovaniemi opent dakspa en restaurant voor iedereen",
   "seoTitle": "SkyView Rovaniemi: dakspa en restaurant open",
   "description": "De dakspa van SkyView Igloo Resort in Olleronvaara en restaurant Aura, gemaakt met chef-kok Tomi Björck, zijn ook open voor gasten die elders slapen.",
-  "dek": "Arctic Spa Culta ging op 16 oktober open. Een sessie van twee uur kost 129 euro en er worden per keer hooguit 16 gasten toegelaten.",
+  "dek": "Arctic Spa Culta ging in oktober open. Een sessie van twee uur kost 129 euro en er worden per keer hooguit 16 gasten toegelaten.",
   "heroAlt": "Uitzicht vanaf de skipiste op de Ounasvaara in Rovaniemi in de zomer: op de voorgrond een stoeltjeslift en dennen, in het midden de rivier de Kemijoki met zijn stalen bruggen en op de andere oever huizen tussen het bos.",
   "heroCaption": "Rovaniemi en de bruggen over de Kemijoki, in de zomer gezien vanaf de skipiste op de Ounasvaara. SkyView Igloo Resort ligt op een andere heuvel, Olleronvaara, op ongeveer 10 kilometer van het centrum.",
   "body": [
     {
       "t": "p",
-      "text": "SkyView Igloo Resort in Olleronvaara in Rovaniemi heeft een dakspa en een restaurant geopend die ook bezoekers ontvangen die niet in het resort overnachten. Volgens het bedrijf ging de spa Arctic Spa Culta op 16 oktober open en op het dak liggen een verwarmd infinityzwembad en een panoramasauna. Restaurant Aura is samen met chef-kok Tomi Björck gemaakt."
+      "text": "SkyView Igloo Resort in Olleronvaara in Rovaniemi heeft een dakspa en een restaurant geopend die ook bezoekers ontvangen die niet in het resort overnachten."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Spa en restaurant in het kort",
+      "items": [
+        "Spasessie: 129 euro per persoon, twee uur",
+        "Starttijden: 9, 12, 15, 18 en 21 uur",
+        "Plaatsen: hooguit 16 gasten per keer",
+        "Ontbijtbuffet: 39 euro, van 7 tot 11 uur",
+        "Diner: van 17 tot 23 uur"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Volgens het bedrijf ging de spa Arctic Spa Culta op 16 oktober open en op het dak liggen een verwarmd infinityzwembad en een panoramasauna. Restaurant Aura is samen met chef-kok Tomi Björck gemaakt."
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "Een spasessie kost 129 euro"
+      "text": "Spasessies en prijs"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Noordelijke ingrediënten en Aziatische smaken bij Aura"
+      "text": "Restaurant Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "De iglo's hebben twee verdiepingen"
+      "text": "De iglo's en de ligging"
     },
     {
       "t": "p",

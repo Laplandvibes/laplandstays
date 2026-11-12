@@ -8,11 +8,26 @@
   "body": [
     {
       "t": "p",
-      "text": "Selon Koillissanomat, un nouvel hôtel de petite taille et un restaurant sont en projet dans le village de Saarua, sur le versant est du Rukatunturi, à Kuusamo. Le site se trouve à côté de l’hôtel RukaValley, sur un terrain appartenant à Metsähallitus, entre l’hôtel et la route. Le projet est porté par un couple d’entrepreneurs, Sari Helin et Ilkka Lääveri, qui sont allés voir le terrain en septembre."
+      "text": "Selon Koillissanomat, un nouvel hôtel de petite taille et un restaurant sont en projet dans le village de Saarua, sur le versant est du Rukatunturi, à Kuusamo."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Saarua et Ruka en bref",
+      "items": [
+        "État du projet : au stade de la planification, rien à réserver pour l’instant",
+        "Village de Saarua : il faudra 8–10 ans pour l’achever",
+        "Parcelle hôtelière : réservée à un hôtel de 200–250 chambres",
+        "Hôtel d’Arina à Ruka : 217 chambres, prêt pour la saison d’hiver 2027–2028"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Le site se trouve à côté de l’hôtel RukaValley, sur un terrain appartenant à Metsähallitus, entre l’hôtel et la route. Le projet est porté par un couple d’entrepreneurs, Sari Helin et Ilkka Lääveri, qui sont allés voir le terrain en septembre."
     },
     {
       "t": "h2",
-      "text": "Des restaurateurs d’Helsinki et de Punkaharju"
+      "text": "Le couple à l’origine du projet"
     },
     {
       "t": "p",
@@ -20,19 +35,27 @@
     },
     {
       "t": "h2",
-      "text": "Un nouveau village sort de terre à Saarua"
+      "text": "Le nouveau village de Saarua"
     },
     {
       "t": "p",
-      "text": "Saarua se situe entre les pistes de Ruka et la réserve naturelle de Valtavaara. Rukakeskus Oy y construit un village piétonnier avec des maisons de vacances et des appartements, et selon l’entreprise, il faudra 8–10 ans pour achever l’ensemble du village. Au centre du village, le plan d’urbanisme réserve une parcelle d’environ 11 000 mètres carrés à un hôtel de 200–250 chambres. Elle appartient à Metsähallitus, qui est disposé à discuter de son aménagement."
+      "text": "Saarua se situe entre les pistes de Ruka et la réserve naturelle de Valtavaara. Rukakeskus Oy y construit un village piétonnier avec des maisons de vacances et des appartements, et selon l’entreprise, il faudra 8–10 ans pour achever l’ensemble du village."
     },
     {
       "t": "p",
-      "text": "Le 12 mai 2026, le conseil municipal de Kuusamo a approuvé à l’unanimité une modification du plan d’aménagement détaillé couvrant la majeure partie du centre de Ruka Est. L’objectif est de développer les services touristiques du secteur et d’élargir l’offre d’hébergement. La zone s’étend sur environ 7,5 hectares, avec 32 300 mètres carrés de surface de plancher autorisée ; à l’exception d’une parcelle, les terrains appartiennent à Metsähallitus et à la ville."
+      "text": "Au centre du village, le plan d’urbanisme réserve une parcelle d’environ 11 000 mètres carrés à un hôtel de 200–250 chambres. Elle appartient à Metsähallitus, qui est disposé à discuter de son aménagement."
+    },
+    {
+      "t": "p",
+      "text": "Le 12 mai 2026, le conseil municipal de Kuusamo a approuvé à l’unanimité une modification du plan d’aménagement détaillé couvrant la majeure partie du centre de Ruka Est. L’objectif est de développer les services touristiques du secteur et d’élargir l’offre d’hébergement."
+    },
+    {
+      "t": "p",
+      "text": "La zone s’étend sur environ 7,5 hectares, avec 32 300 mètres carrés de surface de plancher autorisée ; à l’exception d’une parcelle, les terrains appartiennent à Metsähallitus et à la ville."
     },
     {
       "t": "h2",
-      "text": "Un grand hôtel se construit aussi dans le village de Ruka"
+      "text": "Le grand hôtel du village de Ruka"
     },
     {
       "t": "p",

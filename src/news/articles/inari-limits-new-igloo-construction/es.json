@@ -8,7 +8,22 @@
   "body": [
     {
       "t": "p",
-      "text": "Inari ha empezado a frenar la construcción de cabañas de auroras. Según Lapin Kansa, el municipio ha endurecido la concesión de permisos. Apenas quedan parcelas libres para los recién llegados y el criterio se ha vuelto bastante más estricto en tres años."
+      "text": "Inari ha empezado a frenar la construcción de cabañas de auroras e iglús de cristal. Para el viajero, las habitaciones nuevas llegarán despacio y conviene reservar los sitios más conocidos con más antelación."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "La línea de Inari, en breve",
+      "items": [
+        "Proyecto rechazado: 60 cabañas de auroras al oeste de Ivalo",
+        "Decisión: la junta municipal denegó la licencia el 4 de agosto de 2025",
+        "Nuevo planeamiento: al oeste de Saariselkä, anunciado el 25 de marzo de 2026",
+        "Áreas de planeamiento: unas 110 y unas 23 hectáreas"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Según Lapin Kansa, el municipio ha endurecido la concesión de permisos. Apenas quedan parcelas libres para los recién llegados y el criterio se ha vuelto bastante más estricto en tres años."
     },
     {
       "t": "p",
@@ -16,7 +31,7 @@
     },
     {
       "t": "h2",
-      "text": "Rechazado un proyecto de 60 cabañas cerca de Ivalo"
+      "text": "El proyecto rechazado cerca de Ivalo"
     },
     {
       "t": "p",
@@ -24,15 +39,23 @@
     },
     {
       "t": "p",
-      "text": "En su decisión, la junta señaló que el proyecto perjudicaría el planeamiento y la demás ordenación del uso del suelo, dificultaría alcanzar los objetivos de protección de la naturaleza y llevaría a una construcción de efectos significativos. Dónde se sitúan los servicios turísticos, y cuántos, debe resolverse en un procedimiento de planeamiento interactivo en el que el poder de decisión está en el consejo municipal."
+      "text": "En su decisión, la junta señaló que el proyecto perjudicaría el planeamiento y la demás ordenación del uso del suelo, dificultaría alcanzar los objetivos de protección de la naturaleza y llevaría a una construcción de efectos significativos."
     },
     {
       "t": "p",
-      "text": "El Centro ELY de Laponia consideró en su informe que los valores del depósito eólico de valor nacional y de la zona de eskers de Juurikangas se protegerían mejor con el planeamiento. Según el museo sami Siida, la cantidad de obra nueva era bastante alta y su ubicación debería estudiarse como parte de un plan. La cooperativa de pastoreo de renos de Hammastunturi señaló que en el lugar se formaría una zona turística nueva, grande a escala de Inari, y que se perdería la tranquilidad del área."
+      "text": "Dónde se sitúan los servicios turísticos, y cuántos, debe resolverse en un procedimiento de planeamiento interactivo en el que el poder de decisión está en el consejo municipal."
+    },
+    {
+      "t": "p",
+      "text": "El Centro ELY de Laponia consideró en su informe que los valores del depósito eólico de valor nacional y de la zona de eskers de Juurikangas se protegerían mejor con el planeamiento."
+    },
+    {
+      "t": "p",
+      "text": "Según el museo sami Siida, la cantidad de obra nueva era bastante alta y su ubicación debería estudiarse como parte de un plan. La cooperativa de pastoreo de renos de Hammastunturi señaló que en el lugar se formaría una zona turística nueva, grande a escala de Inari, y que se perdería la tranquilidad del área."
     },
     {
       "t": "h2",
-      "text": "La política de suelo limita las parcelas de orilla"
+      "text": "La política de suelo pone límites"
     },
     {
       "t": "p",
@@ -40,11 +63,19 @@
     },
     {
       "t": "h2",
-      "text": "Se planea nueva capacidad al oeste de Saariselkä"
+      "text": "Nueva capacidad al oeste de Saariselkä"
     },
     {
       "t": "p",
-      "text": "El planeamiento parcial al oeste de Saariselkä se anunció el 25 de marzo de 2026 y se prepara en dos partes. La modificación y ampliación del plan de Kaunispää abarca unas 110 hectáreas al oeste de la carretera nacional 4, donde el objetivo es destinar las áreas de servicios turísticos del plan general a usos que apoyen el alojamiento en Saariselkä. La ampliación de Kaunisniemi abarca unas 23 hectáreas y permitiría crecer a la zona turística Northern Lights Village Saariselkä."
+      "text": "El planeamiento parcial al oeste de Saariselkä se anunció el 25 de marzo de 2026 y se prepara en dos partes."
+    },
+    {
+      "t": "p",
+      "text": "La modificación y ampliación del plan de Kaunispää abarca unas 110 hectáreas al oeste de la carretera nacional 4, donde el objetivo es destinar las áreas de servicios turísticos del plan general a usos que apoyen el alojamiento en Saariselkä. La ampliación de Kaunisniemi abarca unas 23 hectáreas y permitiría crecer a la zona turística Northern Lights Village Saariselkä."
+    },
+    {
+      "t": "h2",
+      "text": "Qué cambia"
     },
     {
       "t": "p",

@@ -8,7 +8,22 @@
   "body": [
     {
       "t": "p",
-      "text": "Inari is begonnen de bouw van noorderlichthutten te vertragen. Volgens Lapin Kansa heeft de gemeente het verlenen van vergunningen verscherpt. Vrije kavels zijn er voor nieuwkomers nauwelijks nog, en de lijn is in drie jaar aanzienlijk strenger geworden."
+      "text": "Inari is begonnen de bouw van noorderlichthutten en glazen iglo's af te remmen. Voor reizigers betekent dit dat er maar langzaam kamers bijkomen en dat de bekendste adressen beter vroeger dan voorheen geboekt worden."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "De lijn van Inari in het kort",
+      "items": [
+        "Afgewezen plan: 60 noorderlichthutten ten westen van Ivalo",
+        "Besluit: het gemeentebestuur weigerde de vergunning op 4 augustus 2025",
+        "Nieuwe planvorming: ten westen van Saariselkä, aangekondigd op 25 maart 2026",
+        "Plangebieden: ongeveer 110 en ongeveer 23 hectare"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Volgens Lapin Kansa heeft de gemeente het verlenen van vergunningen verscherpt. Vrije kavels zijn er voor nieuwkomers nauwelijks nog, en de lijn is in drie jaar aanzienlijk strenger geworden."
     },
     {
       "t": "p",
@@ -16,7 +31,7 @@
     },
     {
       "t": "h2",
-      "text": "Plan voor 60 hutten bij Ivalo afgewezen"
+      "text": "Het afgewezen plan bij Ivalo"
     },
     {
       "t": "p",
@@ -24,11 +39,19 @@
     },
     {
       "t": "p",
-      "text": "In zijn besluit stelde het gemeentebestuur dat het plan de planvorming en de overige inrichting van het grondgebruik zou schaden, het halen van de natuurbeschermingsdoelen zou bemoeilijken en zou leiden tot bouw met aanzienlijke gevolgen. Waar toeristische voorzieningen komen en hoeveel ervan, moet worden uitgemaakt in een interactieve bestemmingsplanprocedure waarin de gemeenteraad de beslissingsmacht heeft."
+      "text": "In zijn besluit stelde het gemeentebestuur dat het plan de planvorming en de overige inrichting van het grondgebruik zou schaden, het halen van de natuurbeschermingsdoelen zou bemoeilijken en zou leiden tot bouw met aanzienlijke gevolgen."
     },
     {
       "t": "p",
-      "text": "Het ELY-centrum Lapland vond in zijn advies dat de waarden van de nationaal waardevolle windafzetting en het eskergebied bij Juurikangas het best met planvorming worden beschermd. Volgens het Sámi-museum Siida was de hoeveelheid nieuwbouw vrij groot en zou de plaatsing beter als onderdeel van een plan worden onderzocht. De rendierhouderscoöperatie Hammastunturi stelde dat op de locatie een naar Inari-maatstaven groot nieuw toeristengebied zou ontstaan en dat de rust van het gebied verloren zou gaan."
+      "text": "Waar toeristische voorzieningen komen en hoeveel ervan, moet worden uitgemaakt in een interactieve bestemmingsplanprocedure waarin de gemeenteraad de beslissingsmacht heeft."
+    },
+    {
+      "t": "p",
+      "text": "Het ELY-centrum Lapland vond in zijn advies dat de waarden van de nationaal waardevolle windafzetting en het eskergebied bij Juurikangas het best met planvorming worden beschermd."
+    },
+    {
+      "t": "p",
+      "text": "Volgens het Sámi-museum Siida was de hoeveelheid nieuwbouw vrij groot en zou de plaatsing beter als onderdeel van een plan worden onderzocht. De rendierhouderscoöperatie Hammastunturi stelde dat op de locatie een naar Inari-maatstaven groot nieuw toeristengebied zou ontstaan en dat de rust van het gebied verloren zou gaan."
     },
     {
       "t": "h2",
@@ -40,11 +63,19 @@
     },
     {
       "t": "h2",
-      "text": "Nieuwe capaciteit gepland ten westen van Saariselkä"
+      "text": "Nieuwe capaciteit bij Saariselkä"
     },
     {
       "t": "p",
-      "text": "De bestemmingsplanning ten westen van Saariselkä is op 25 maart 2026 aangekondigd en wordt in twee delen voorbereid. De planwijziging en uitbreiding Kaunispää beslaat ongeveer 110 hectare ten westen van rijksweg 4, waar het doel is de gebieden voor toeristische voorzieningen uit het algemene plan te bestemmen voor functies die de logies in Saariselkä ondersteunen. De uitbreiding Kaunisniemi beslaat ongeveer 23 hectare en zou het toeristengebied Northern Lights Village Saariselkä laten groeien."
+      "text": "De bestemmingsplanning ten westen van Saariselkä is op 25 maart 2026 aangekondigd en wordt in twee delen voorbereid."
+    },
+    {
+      "t": "p",
+      "text": "De planwijziging en uitbreiding Kaunispää beslaat ongeveer 110 hectare ten westen van rijksweg 4, waar het doel is de gebieden voor toeristische voorzieningen uit het algemene plan te bestemmen voor functies die de logies in Saariselkä ondersteunen. De uitbreiding Kaunisniemi beslaat ongeveer 23 hectare en zou het toeristengebied Northern Lights Village Saariselkä laten groeien."
+    },
+    {
+      "t": "h2",
+      "text": "Wat dit verandert"
     },
     {
       "t": "p",

@@ -2,13 +2,29 @@
   "title": "Iglu-Resort in Rovaniemi öffnet Dachspa und Restaurant für alle",
   "seoTitle": "SkyView Rovaniemi: Dachspa und Restaurant geöffnet",
   "description": "Der Dachspa des SkyView Igloo Resort in Olleronvaara und das mit dem Koch Tomi Björck entwickelte Restaurant Aura stehen auch auswärtigen Gästen offen.",
-  "dek": "Arctic Spa Culta hat am 16. Oktober eröffnet. Ein zweistündiger Durchgang kostet 129 Euro, und es werden höchstens 16 Gäste gleichzeitig eingelassen.",
+  "dek": "Arctic Spa Culta hat im Oktober eröffnet. Ein zweistündiger Durchgang kostet 129 Euro, und es werden höchstens 16 Gäste gleichzeitig eingelassen.",
   "heroAlt": "Blick von der Skipiste auf dem Ounasvaara in Rovaniemi im Sommer: im Vordergrund ein Sessellift und Kiefern, in der Mitte der Fluss Kemijoki mit seinen Stahlbrücken und am gegenüberliegenden Ufer Häuser zwischen dem Wald.",
   "heroCaption": "Rovaniemi und die Brücken über den Kemijoki, im Sommer von der Skipiste auf dem Ounasvaara aus gesehen. Das SkyView Igloo Resort steht auf einem anderen Hügel, dem Olleronvaara, etwa 10 Kilometer vom Stadtzentrum entfernt.",
   "body": [
     {
       "t": "p",
-      "text": "Das SkyView Igloo Resort in Olleronvaara in Rovaniemi hat einen Dachspa und ein Restaurant eröffnet, die auch Gäste aufnehmen, die nicht im Resort übernachten. Nach Angaben des Unternehmens hat der Spa Arctic Spa Culta am 16. Oktober eröffnet, und auf seinem Dach gibt es einen beheizten Infinity-Pool und eine Panoramasauna. Das Restaurant Aura ist gemeinsam mit dem Koch Tomi Björck entstanden."
+      "text": "Das SkyView Igloo Resort in Olleronvaara in Rovaniemi hat einen Dachspa und ein Restaurant eröffnet, die auch Gäste aufnehmen, die nicht im Resort übernachten."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Spa und Restaurant in Kürze",
+      "items": [
+        "Spa-Durchgang: 129 Euro pro Person, zwei Stunden",
+        "Beginn: um 9, 12, 15, 18 und 21 Uhr",
+        "Plätze: höchstens 16 Gäste gleichzeitig",
+        "Frühstücksbuffet: 39 Euro, von 7 bis 11 Uhr",
+        "Abendessen: von 17 bis 23 Uhr"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Nach Angaben des Unternehmens hat der Spa Arctic Spa Culta am 16. Oktober eröffnet, und auf seinem Dach gibt es einen beheizten Infinity-Pool und eine Panoramasauna. Das Restaurant Aura ist gemeinsam mit dem Koch Tomi Björck entstanden."
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "Ein Spa-Durchgang kostet 129 Euro"
+      "text": "Spa-Durchgänge und Preis"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Zutaten aus dem Norden und asiatische Aromen im Aura"
+      "text": "Restaurant Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "Die Iglus haben zwei Etagen"
+      "text": "Iglus und Lage"
     },
     {
       "t": "p",

@@ -8,31 +8,62 @@
   "body": [
     {
       "t": "p",
-      "text": "Historiallisen lääninhallituksen korttelin muutos hotellialueeksi on alkanut Rovaniemellä. Lapin Kansan mukaan työt keskittyvät aluksi lääninhallituksen päärakennukseen, jossa puretaan pois toimistohuoneiden väliseiniä hotellihuoneiden tieltä."
+      "text": "Rovaniemen historiallisen lääninhallituksen korttelin muutos hotelliksi on alkanut. Matkailijalle se ei muuta mitään tänä eikä ensi talvena, sillä huoneita ei ole vielä myynnissä."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Hotellihanke lyhyesti",
+      "items": [
+        "Omistaja: rovaniemeläinen perheyritys City-Hotelli Oy",
+        "Kauppa: maaliskuussa 2026, Ylen mukaan 4,5 miljoonaa euroa",
+        "Työnimi: Arctic Garden",
+        "Avaus: suunniteltu kesään 2028"
+      ]
     },
     {
       "t": "p",
-      "text": "Omistaja on rovaniemeläinen perheyritys City-Hotelli Oy, joka pyörittää kaupungissa jo Arctic City Hotelia ja Arctic Light Hotelia. Se osti korttelin valtion kiinteistöyhtiöltä Senaatti-kiinteistöiltä maaliskuussa 2026, ja Ylen mukaan kauppahinta oli 4,5 miljoonaa euroa. Uuden hotellin työnimi on Arctic Garden, mutta Mikael Gröhnin mukaan siitä voi tulla myös Arctic Avenue. Perhe kertoo haluavansa säilyttää suojeltujen rakennusten historian näkyvissä ja avata puistomaisen korttelin jälleen rovaniemeläisille."
+      "text": "Lapin Kansan mukaan työt keskittyvät aluksi lääninhallituksen päärakennukseen, jossa puretaan pois toimistohuoneiden väliseiniä hotellihuoneiden tieltä."
+    },
+    {
+      "t": "p",
+      "text": "Omistaja on rovaniemeläinen perheyritys City-Hotelli Oy, joka pyörittää kaupungissa jo Arctic City Hotelia ja Arctic Light Hotelia. Se osti korttelin valtion kiinteistöyhtiöltä Senaatti-kiinteistöiltä maaliskuussa 2026, ja Ylen mukaan kauppahinta oli 4,5 miljoonaa euroa."
+    },
+    {
+      "t": "p",
+      "text": "Uuden hotellin työnimi on Arctic Garden, mutta Mikael Gröhnin mukaan siitä voi tulla myös Arctic Avenue. Perhe kertoo haluavansa säilyttää suojeltujen rakennusten historian näkyvissä ja avata puistomaisen korttelin jälleen rovaniemeläisille."
     },
     {
       "t": "h2",
-      "text": "Kortteli on säilynyt lähes muuttumattomana"
+      "text": "Lähes muuttumaton kortteli"
     },
     {
       "t": "p",
-      "text": "Koskenrantana tunnettu kortteli sijaitsee Kemijoen rannalla Jätkänkynttilän ja Ounaskosken siltojen välissä. Senaatti-kiinteistöjen mukaan lääninhallituksen virastotalo valmistui vuonna 1947 ja Kemijoen Uittoyhdistyksen talo vuonna 1939. Uittoyhdistyksen talo on alueen vanhin rakennus ja ainoa, joka säilyi Lapin sodan tuhosta. Korttelissa ovat myös maaherran asunto, sen sauna- ja talousrakennus, virkamiehille rakennettu rivitalo ja vanha lämpökeskus."
+      "text": "Koskenrantana tunnettu kortteli sijaitsee Kemijoen rannalla Jätkänkynttilän ja Ounaskosken siltojen välissä. Senaatti-kiinteistöjen mukaan lääninhallituksen virastotalo valmistui vuonna 1947 ja Kemijoen Uittoyhdistyksen talo vuonna 1939."
     },
     {
       "t": "p",
-      "text": "Kokonaisuus on osa Alvar Aallon suunnittelemaa Poronsarvi-asemakaavaa, joka määritti Rovaniemen hallinto- ja kulttuurikeskuksen rakenteen toisen maailmansodan jälkeen. Senaatti-kiinteistöjen mukaan rakennettu ympäristö on pysynyt käytännössä muuttumattomana lähes seitsemänkymmentä vuotta, ja pääosa rakennuksista pihapiireineen suojeltiin Lapin ELY-keskuksen päätöksellä vuonna 2025. Tilat ovat olleet tyhjillään siitä asti, kun Lapin aluehallintovirasto muutti pois vuonna 2024."
+      "text": "Uittoyhdistyksen talo on alueen vanhin rakennus ja ainoa, joka säilyi Lapin sodan tuhosta. Korttelissa ovat myös maaherran asunto, sen sauna- ja talousrakennus, virkamiehille rakennettu rivitalo ja vanha lämpökeskus."
+    },
+    {
+      "t": "p",
+      "text": "Kokonaisuus on osa Alvar Aallon suunnittelemaa Poronsarvi-asemakaavaa, joka määritti Rovaniemen hallinto- ja kulttuurikeskuksen rakenteen toisen maailmansodan jälkeen."
+    },
+    {
+      "t": "p",
+      "text": "Senaatti-kiinteistöjen mukaan rakennettu ympäristö on pysynyt käytännössä muuttumattomana lähes seitsemänkymmentä vuotta, ja pääosa rakennuksista pihapiireineen suojeltiin Lapin ELY-keskuksen päätöksellä vuonna 2025. Tilat ovat olleet tyhjillään siitä asti, kun Lapin aluehallintovirasto muutti pois vuonna 2024."
     },
     {
       "t": "h2",
-      "text": "Villahuoneistoja, juhlasalin ravintola ja hirsisauna"
+      "text": "Huoneistot, ravintola ja sauna"
     },
     {
       "t": "p",
-      "text": "Mikael Gröhn kertoi maaliskuussa, että rannan talon kolmesta yli 100 neliön asuinhuoneistosta tehdään villa-tyyppisiä hotellihuoneistoja, että maaherran edustustilat voivat tulla käyttöön juhlatilana ja että pyöröhirsinen vierastalo voisi palvella hotellin tilaussaunana. Ravintola on suunniteltu juhlasaliin, jota laajennettaisiin lasisella lisärakennuksella samaan tapaan kuin Arctic Light Hotelissa."
+      "text": "Mikael Gröhn kertoi maaliskuussa, että rannan talon kolmesta yli 100 neliön asuinhuoneistosta tehdään villa-tyyppisiä hotellihuoneistoja, että maaherran edustustilat voivat tulla käyttöön juhlatilana ja että pyöröhirsinen vierastalo voisi palvella hotellin tilaussaunana."
+    },
+    {
+      "t": "p",
+      "text": "Ravintola on suunniteltu juhlasaliin, jota laajennettaisiin lasisella lisärakennuksella samaan tapaan kuin Arctic Light Hotelissa."
     },
     {
       "t": "p",
@@ -52,11 +83,23 @@
     },
     {
       "t": "p",
-      "text": "Matkailijalle kortteli ei muuta mitään tänä eikä ensi talvena. Huoneita ei ole myynnissä, ja omilla sivuillaan yhtiö kertoo hankkeen aikataulun olevan vielä tarkentumassa eikä anna avauspäivää. Lapin Kansan mukaan hotelli on suunniteltu avattavaksi kesällä 2028, kun taas Ylen mukaan kaupan allekirjoitushetkellä maaliskuussa arvio oli lokakuu 2027. Alueella on lisäksi yhä vireillä vuonna 2018 käynnistetty asemakaavamuutos."
+      "text": "Matkailijalle kortteli ei muuta mitään tänä eikä ensi talvena. Huoneita ei ole myynnissä, ja omilla sivuillaan yhtiö kertoo hankkeen aikataulun olevan vielä tarkentumassa eikä anna avauspäivää."
     },
     {
       "t": "p",
-      "text": "Siihen asti varattavissa ovat saman perheen kaksi hotellia keskustassa. Arctic Light Hotelissa on 57 huonetta arkkitehti Ferdinand Salokankaan suunnittelemassa rakennuksessa, ja vuodesta 1978 toimineessa Arctic City Hotelissa on 55 Classic-huonetta, 33 Style-huonetta ja kaksi saunallista Junior-sviittiä."
+      "text": "Lapin Kansan mukaan hotelli on suunniteltu avattavaksi kesällä 2028, kun taas Ylen mukaan kaupan allekirjoitushetkellä maaliskuussa arvio oli lokakuu 2027. Alueella on lisäksi yhä vireillä vuonna 2018 käynnistetty asemakaavamuutos."
+    },
+    {
+      "t": "p",
+      "text": "Siihen asti varattavissa ovat saman perheen kaksi hotellia keskustassa."
+    },
+    {
+      "t": "embed",
+      "id": "facts-hotellit",
+      "items": [
+        "Arctic Light Hotel: 57 huonetta arkkitehti Ferdinand Salokankaan suunnittelemassa rakennuksessa",
+        "Arctic City Hotel: toiminut vuodesta 1978, ja siinä on 55 Classic-huonetta, 33 Style-huonetta ja kaksi saunallista Junior-sviittiä"
+      ]
     },
     {
       "t": "link",

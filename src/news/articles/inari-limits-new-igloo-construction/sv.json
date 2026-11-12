@@ -8,7 +8,22 @@
   "body": [
     {
       "t": "p",
-      "text": "Inari har börjat bromsa byggandet av norrskensstugor. Enligt Lapin Kansa har kommunen skärpt beviljandet av lov. Lediga tomter finns det knappt kvar för nykomlingar, och linjen har blivit betydligt strängare under de tre senaste åren."
+      "text": "Inari har börjat bromsa byggandet av norrskensstugor och glasigloor. För resenärer betyder det att nya rum kommer långsamt och att de mest kända anläggningarna bör bokas tidigare än förr."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Inaris linje i korthet",
+      "items": [
+        "Avslaget projekt: 60 norrskensstugor väster om Ivalo",
+        "Beslut: kommunstyrelsen avslog lovet den 4 augusti 2025",
+        "Ny planläggning: väster om Saariselkä, kungjord den 25 mars 2026",
+        "Planområden: cirka 110 och cirka 23 hektar"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Enligt Lapin Kansa har kommunen skärpt beviljandet av lov. Lediga tomter finns det knappt kvar för nykomlingar, och linjen har blivit betydligt strängare under de tre senaste åren."
     },
     {
       "t": "p",
@@ -16,7 +31,7 @@
     },
     {
       "t": "h2",
-      "text": "Projekt med 60 norrskensstugor nära Ivalo avslogs"
+      "text": "Det avslagna projektet nära Ivalo"
     },
     {
       "t": "p",
@@ -24,11 +39,19 @@
     },
     {
       "t": "p",
-      "text": "I beslutet konstaterade kommunstyrelsen att projektet skulle skada planläggningen och den övriga regleringen av markanvändningen, göra det svårare att nå naturvårdens mål och leda till byggande med betydande konsekvenser. Var turismtjänsterna placeras, och hur många de blir, måste avgöras i en interaktiv planprocess där fullmäktige har beslutanderätten."
+      "text": "I beslutet konstaterade kommunstyrelsen att projektet skulle skada planläggningen och den övriga regleringen av markanvändningen, göra det svårare att nå naturvårdens mål och leda till byggande med betydande konsekvenser."
     },
     {
       "t": "p",
-      "text": "Lapplands NTM-central ansåg i sitt utlåtande att värdena hos den nationellt värdefulla vindavlagringen och åsområdet vid Juurikangas tryggas bäst genom planläggning. Samemuseet Siida ansåg att mängden nybyggnation var ganska stor och att placeringen borde undersökas som en del av en plan. Hammastunturi renbeteslag konstaterade att det på platsen skulle bildas ett nytt turistområde som är stort i Inarimått och att områdets lugn skulle gå förlorat."
+      "text": "Var turismtjänsterna placeras, och hur många de blir, måste avgöras i en interaktiv planprocess där fullmäktige har beslutanderätten."
+    },
+    {
+      "t": "p",
+      "text": "Lapplands NTM-central ansåg i sitt utlåtande att värdena hos den nationellt värdefulla vindavlagringen och åsområdet vid Juurikangas tryggas bäst genom planläggning."
+    },
+    {
+      "t": "p",
+      "text": "Samemuseet Siida ansåg att mängden nybyggnation var ganska stor och att placeringen borde undersökas som en del av en plan. Hammastunturi renbeteslag konstaterade att det på platsen skulle bildas ett nytt turistområde som är stort i Inarimått och att områdets lugn skulle gå förlorat."
     },
     {
       "t": "h2",
@@ -40,11 +63,19 @@
     },
     {
       "t": "h2",
-      "text": "Ny kapacitet planeras väster om Saariselkä"
+      "text": "Ny kapacitet väster om Saariselkä"
     },
     {
       "t": "p",
-      "text": "Detaljplaneringen väster om Saariselkä kungjordes den 25 mars 2026 och bereds i två delar. Planändringen och utvidgningen vid Kaunispää omfattar cirka 110 hektar väster om riksväg 4, där målet är att planlägga generalplanens områden för turisttjänster för funktioner som stöder inkvarteringen i Saariselkä. Utvidgningen vid Kaunisniemi omfattar cirka 23 hektar och skulle göra det möjligt för turistområdet Northern Lights Village Saariselkä att växa."
+      "text": "Detaljplaneringen väster om Saariselkä kungjordes den 25 mars 2026 och bereds i två delar."
+    },
+    {
+      "t": "p",
+      "text": "Planändringen och utvidgningen vid Kaunispää omfattar cirka 110 hektar väster om riksväg 4, där målet är att planlägga generalplanens områden för turisttjänster för funktioner som stöder inkvarteringen i Saariselkä. Utvidgningen vid Kaunisniemi omfattar cirka 23 hektar och skulle göra det möjligt för turistområdet Northern Lights Village Saariselkä att växa."
+    },
+    {
+      "t": "h2",
+      "text": "Vad det här ändrar"
     },
     {
       "t": "p",

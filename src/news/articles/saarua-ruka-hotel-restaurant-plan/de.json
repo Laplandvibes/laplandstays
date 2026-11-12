@@ -8,11 +8,26 @@
   "body": [
     {
       "t": "p",
-      "text": "Im Dorf Saarua auf der Ostseite des Rukatunturi in Kuusamo sind laut Koillissanomat ein neues kleines Hotel und ein Restaurant geplant. Der Standort liegt neben dem Hotel RukaValley, auf einem Grundstück von Metsähallitus zwischen dem Hotel und der Straße. Hinter dem Projekt steht das Unternehmerpaar Sari Helin und Ilkka Lääveri, das sich das Grundstück im September angesehen hat."
+      "text": "Im Dorf Saarua auf der Ostseite des Rukatunturi in Kuusamo sind laut Koillissanomat ein neues kleines Hotel und ein Restaurant geplant."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Saarua und Ruka in Kürze",
+      "items": [
+        "Stand: in der Planungsphase, noch nichts buchbar",
+        "Dorf Saarua: Bauzeit 8–10 Jahre",
+        "Hotelgrundstück im Plan: für ein Hotel mit 200–250 Zimmern",
+        "Arina-Hotel in Ruka: 217 Zimmer, fertig zur Wintersaison 2027–2028"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Der Standort liegt neben dem Hotel RukaValley, auf einem Grundstück von Metsähallitus zwischen dem Hotel und der Straße. Hinter dem Projekt steht das Unternehmerpaar Sari Helin und Ilkka Lääveri, das sich das Grundstück im September angesehen hat."
     },
     {
       "t": "h2",
-      "text": "Gastronomen aus Helsinki und Punkaharju"
+      "text": "Das Paar hinter dem Projekt"
     },
     {
       "t": "p",
@@ -20,19 +35,27 @@
     },
     {
       "t": "h2",
-      "text": "In Saarua entsteht ein neues Dorf"
+      "text": "Das neue Dorf in Saarua"
     },
     {
       "t": "p",
-      "text": "Saarua liegt zwischen den Pisten von Ruka und dem Naturschutzgebiet Valtavaara. Rukakeskus Oy baut dort ein Fußgängerdorf mit Ferienhäusern und Apartments, und nach Angaben des Unternehmens dauert es 8–10 Jahre, bis das ganze Dorf fertig ist. Ein rund 11.000 Quadratmeter großes Grundstück in der Dorfmitte ist im Bebauungsplan für ein Hotel mit 200–250 Zimmern ausgewiesen. Es gehört Metsähallitus, und dort ist man offen für Gespräche über die Bebauung."
+      "text": "Saarua liegt zwischen den Pisten von Ruka und dem Naturschutzgebiet Valtavaara. Rukakeskus Oy baut dort ein Fußgängerdorf mit Ferienhäusern und Apartments, und nach Angaben des Unternehmens dauert es 8–10 Jahre, bis das ganze Dorf fertig ist."
     },
     {
       "t": "p",
-      "text": "Am 12. Mai 2026 hat der Stadtrat von Kuusamo einstimmig eine Änderung des Bebauungsplans beschlossen, die den größten Teil des Zentrums von Ost-Ruka betrifft. Ziel ist es, die touristischen Dienstleistungen im Gebiet auszubauen und das Unterkunftsangebot zu erweitern. Auf dem rund 7,5 Hektar großen Gebiet sind 32.300 Quadratmeter Geschossfläche zulässig, und bis auf ein Grundstück gehören die Flächen Metsähallitus und der Stadt."
+      "text": "Ein rund 11.000 Quadratmeter großes Grundstück in der Dorfmitte ist im Bebauungsplan für ein Hotel mit 200–250 Zimmern ausgewiesen. Es gehört Metsähallitus, und dort ist man offen für Gespräche über die Bebauung."
+    },
+    {
+      "t": "p",
+      "text": "Am 12. Mai 2026 hat der Stadtrat von Kuusamo einstimmig eine Änderung des Bebauungsplans beschlossen, die den größten Teil des Zentrums von Ost-Ruka betrifft. Ziel ist es, die touristischen Dienstleistungen im Gebiet auszubauen und das Unterkunftsangebot zu erweitern."
+    },
+    {
+      "t": "p",
+      "text": "Auf dem rund 7,5 Hektar großen Gebiet sind 32.300 Quadratmeter Geschossfläche zulässig, und bis auf ein Grundstück gehören die Flächen Metsähallitus und der Stadt."
     },
     {
       "t": "h2",
-      "text": "Auch im Dorf Ruka entsteht ein großes Hotel"
+      "text": "Das große Hotel im Dorf Ruka"
     },
     {
       "t": "p",

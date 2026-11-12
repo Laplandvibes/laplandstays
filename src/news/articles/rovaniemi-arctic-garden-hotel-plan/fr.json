@@ -8,11 +8,30 @@
   "body": [
     {
       "t": "p",
-      "text": "La transformation du quartier historique de Lääninhallitus, à Rovaniemi, en zone hôtelière a commencé. Selon Lapin Kansa, les travaux se concentrent d’abord sur le bâtiment principal de la préfecture, où les cloisons entre les bureaux sont abattues pour laisser place aux chambres d’hôtel."
+      "text": "La transformation du quartier historique de Lääninhallitus, à Rovaniemi, en hôtel a commencé. Pour les voyageurs, rien ne change cet hiver ni le suivant, car aucune chambre n’est encore en vente."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Le projet d’hôtel en bref",
+      "items": [
+        "Propriétaire : City-Hotelli Oy, entreprise familiale de Rovaniemi",
+        "Achat : mars 2026, 4,5 millions d’euros selon Yle",
+        "Nom de travail : Arctic Garden",
+        "Ouverture : prévue pour l’été 2028"
+      ]
     },
     {
       "t": "p",
-      "text": "Le propriétaire est City-Hotelli Oy, une entreprise familiale de Rovaniemi qui exploite déjà l’Arctic City Hotel et l’Arctic Light Hotel dans la ville. Elle a acheté le quartier à la société immobilière de l’État Senaatti-kiinteistöt en mars 2026 et, selon Yle, le prix était de 4,5 millions d’euros. Le nom de travail du nouvel hôtel est Arctic Garden, mais Mikael Gröhn a dit qu’il pourrait aussi devenir Arctic Avenue. La famille déclare vouloir garder visible l’histoire des bâtiments protégés et ouvrir de nouveau aux habitants de Rovaniemi ce quartier aux allures de parc."
+      "text": "Selon Lapin Kansa, les travaux se concentrent d’abord sur le bâtiment principal de la préfecture, où les cloisons entre les bureaux sont abattues pour laisser place aux chambres d’hôtel."
+    },
+    {
+      "t": "p",
+      "text": "Le propriétaire est City-Hotelli Oy, une entreprise familiale de Rovaniemi qui exploite déjà l’Arctic City Hotel et l’Arctic Light Hotel dans la ville. Elle a acheté le quartier à la société immobilière de l’État Senaatti-kiinteistöt en mars 2026 et, selon Yle, le prix était de 4,5 millions d’euros."
+    },
+    {
+      "t": "p",
+      "text": "Le nom de travail du nouvel hôtel est Arctic Garden, mais Mikael Gröhn a dit qu’il pourrait aussi devenir Arctic Avenue. La famille déclare vouloir garder visible l’histoire des bâtiments protégés et ouvrir de nouveau aux habitants de Rovaniemi ce quartier aux allures de parc."
     },
     {
       "t": "h2",
@@ -20,19 +39,31 @@
     },
     {
       "t": "p",
-      "text": "Le quartier, connu sous le nom de Koskenranta, se trouve au bord du Kemijoki, entre les ponts Jätkänkynttilä et Ounaskoski. Selon Senaatti-kiinteistöt, l’immeuble administratif de la préfecture a été achevé en 1947 et la maison de l’association de flottage du Kemijoki en 1939. La maison de l’association de flottage est le plus ancien bâtiment du site et le seul à avoir survécu aux destructions de la guerre de Laponie. Le quartier abrite aussi la résidence du gouverneur, son sauna et son bâtiment annexe, une maison mitoyenne construite pour les fonctionnaires et l’ancienne centrale thermique."
+      "text": "Le quartier, connu sous le nom de Koskenranta, se trouve au bord du Kemijoki, entre les ponts Jätkänkynttilä et Ounaskoski. Selon Senaatti-kiinteistöt, l’immeuble administratif de la préfecture a été achevé en 1947 et la maison de l’association de flottage du Kemijoki en 1939."
     },
     {
       "t": "p",
-      "text": "L’ensemble fait partie du plan d’urbanisme Poronsarvi dessiné par Alvar Aalto, qui a fixé la forme du centre administratif et culturel de Rovaniemi après la Seconde Guerre mondiale. Senaatti-kiinteistöt indique que l’environnement bâti est resté pratiquement inchangé pendant près de soixante-dix ans et que la plupart des bâtiments et de leurs cours ont été protégés par une décision du centre ELY de Laponie en 2025. Les locaux sont vides depuis le départ de l’agence administrative régionale de Laponie en 2024."
+      "text": "La maison de l’association de flottage est le plus ancien bâtiment du site et le seul à avoir survécu aux destructions de la guerre de Laponie. Le quartier abrite aussi la résidence du gouverneur, son sauna et son bâtiment annexe, une maison mitoyenne construite pour les fonctionnaires et l’ancienne centrale thermique."
+    },
+    {
+      "t": "p",
+      "text": "L’ensemble fait partie du plan d’urbanisme Poronsarvi dessiné par Alvar Aalto, qui a fixé la forme du centre administratif et culturel de Rovaniemi après la Seconde Guerre mondiale."
+    },
+    {
+      "t": "p",
+      "text": "Senaatti-kiinteistöt indique que l’environnement bâti est resté pratiquement inchangé pendant près de soixante-dix ans et que la plupart des bâtiments et de leurs cours ont été protégés par une décision du centre ELY de Laponie en 2025. Les locaux sont vides depuis le départ de l’agence administrative régionale de Laponie en 2024."
     },
     {
       "t": "h2",
-      "text": "Des suites de type villa, un restaurant dans la salle de bal et un sauna en rondins"
+      "text": "Suites, restaurant et sauna"
     },
     {
       "t": "p",
-      "text": "Mikael Gröhn a déclaré en mars que les trois appartements de plus de 100 mètres carrés de la maison du bord de l’eau deviendront des suites d’hôtel de type villa, que les salons de réception du gouverneur pourraient servir d’espace événementiel et que la maison d’hôtes en rondins pourrait faire office de sauna privé de l’hôtel. Le restaurant est prévu dans la salle de bal, qui serait agrandie par une annexe en verre, comme à l’Arctic Light Hotel."
+      "text": "Mikael Gröhn a déclaré en mars que les trois appartements de plus de 100 mètres carrés de la maison du bord de l’eau deviendront des suites d’hôtel de type villa, que les salons de réception du gouverneur pourraient servir d’espace événementiel et que la maison d’hôtes en rondins pourrait faire office de sauna privé de l’hôtel."
+    },
+    {
+      "t": "p",
+      "text": "Le restaurant est prévu dans la salle de bal, qui serait agrandie par une annexe en verre, comme à l’Arctic Light Hotel."
     },
     {
       "t": "p",
@@ -40,7 +71,7 @@
     },
     {
       "t": "h2",
-      "text": "Le parc de la cour intérieure est destiné à tous"
+      "text": "Un parc intérieur ouvert à tous"
     },
     {
       "t": "p",
@@ -52,11 +83,23 @@
     },
     {
       "t": "p",
-      "text": "Pour un voyageur, le quartier ne change rien cet hiver ni le suivant. Aucune chambre n’est en vente et, sur son propre site, l’entreprise indique que le calendrier du projet est encore en cours de précision et ne donne pas de date d’ouverture. Selon Lapin Kansa, l’hôtel doit ouvrir à l’été 2028, alors que selon Yle l’estimation donnée à la signature de la vente en mars était octobre 2027. Une modification du plan d’urbanisme lancée en 2018 est par ailleurs toujours en cours pour le secteur."
+      "text": "Pour un voyageur, le quartier ne change rien cet hiver ni le suivant. Aucune chambre n’est en vente et, sur son propre site, l’entreprise indique que le calendrier du projet est encore en cours de précision et ne donne pas de date d’ouverture."
     },
     {
       "t": "p",
-      "text": "Jusqu’à l’ouverture du quartier, ce sont les deux hôtels de la même famille au centre-ville que l’on peut réserver. L’Arctic Light Hotel compte 57 chambres dans un bâtiment conçu par l’architecte Ferdinand Salokangas, et l’Arctic City Hotel, ouvert depuis 1978, compte 55 chambres Classic, 33 chambres Style et deux junior suites avec sauna."
+      "text": "Selon Lapin Kansa, l’hôtel doit ouvrir à l’été 2028, alors que selon Yle l’estimation donnée à la signature de la vente en mars était octobre 2027. Une modification du plan d’urbanisme lancée en 2018 est par ailleurs toujours en cours pour le secteur."
+    },
+    {
+      "t": "p",
+      "text": "Jusqu’à l’ouverture du quartier, ce sont les deux hôtels de la même famille au centre-ville que l’on peut réserver."
+    },
+    {
+      "t": "embed",
+      "id": "facts-hotellit",
+      "items": [
+        "Arctic Light Hotel : 57 chambres dans un bâtiment conçu par l’architecte Ferdinand Salokangas",
+        "Arctic City Hotel : ouvert depuis 1978, avec 55 chambres Classic, 33 chambres Style et deux junior suites avec sauna"
+      ]
     },
     {
       "t": "link",

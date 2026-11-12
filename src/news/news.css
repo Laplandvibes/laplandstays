@@ -297,3 +297,22 @@
 }
 /* kapein-puhelin-20261112: alle 375 px otsikko enintään kolmella rivillä 12 kielellä. */
 @media(max-width:374.98px){.nw .nw-art .nw-h1{font-size:32px}}
+
+/* Tietokortit vanhoihin uutisiin (12.11.2026): sama kortti kuin skiresortsissa, transportissa ja naturessa. */
+.nw{--lv-acc:#EC4899;--lv-acc-ink:#BE185D;--lv-tint-line:#E4DED3}
+/* Tietokortti: "nimi: tieto" -rivit. Nimi värillä omalla rivillään, tieto alla. */
+.nw .nw-facts{background:#fff;border:1px solid var(--lv-tint-line);border-left:6px solid var(--lv-acc);border-radius:16px;padding:6px 16px;margin:6px 0 22px;box-shadow:0 14px 34px -26px rgba(15,23,42,.45)}
+.nw .nw-facts-title{font:700 17px/1.4 var(--font-body),"DM Sans",system-ui,sans-serif;color:#0F172A;margin:12px 0 2px}
+.nw .nw-facts-rows{margin:0}
+.nw .nw-fact{padding:12px 0;margin:0}
+.nw .nw-fact + .nw-fact{border-top:1px solid #E5EAF1}
+.nw .nw-fact dt{font:700 16px/1.35 var(--font-body),"DM Sans",system-ui,sans-serif;color:var(--lv-acc-ink);margin:0 0 3px}
+.nw .nw-fact dd{margin:0;font-size:17px;line-height:1.55;color:#0F172A}
+.nw .nw-fact dt + dd::first-letter{text-transform:uppercase}
+.nw .nw-facts-note{font-size:16px;line-height:1.5;color:#334155;margin:4px 0 12px}
+@media(min-width:760px){
+  .nw .nw-facts{padding:8px 22px}
+  .nw .nw-facts:not(.nw-facts-bars) .nw-fact{display:grid;grid-template-columns:minmax(150px,30%) 1fr;gap:18px;align-items:baseline}
+  .nw .nw-facts:not(.nw-facts-bars) .nw-fact dt{margin:0}
+  .nw .nw-facts:not(.nw-facts-bars) .nw-fact > dd:only-child{grid-column:1 / -1}
+}

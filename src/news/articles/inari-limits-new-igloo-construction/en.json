@@ -8,7 +8,22 @@
   "body": [
     {
       "t": "p",
-      "text": "Inari has started to slow down the building of aurora cabins. According to Lapin Kansa the municipality has tightened the granting of permits, there are hardly any free plots left for newcomers, and the line has become considerably stricter over the past three years."
+      "text": "Inari has started to slow down the building of aurora cabins and glass igloos. For travellers it means new rooms will come slowly, and the best known places are worth booking earlier than before."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "The Inari decision in brief",
+      "items": [
+        "Rejected project: 60 aurora cabins west of Ivalo",
+        "Decision: the municipal board refused the permit on 4 August 2025",
+        "New zoning: west side of Saariselkä, announced on 25 March 2026",
+        "Plan areas: about 110 and about 23 hectares"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "According to Lapin Kansa the municipality has tightened the granting of permits, there are hardly any free plots left for newcomers, and the line has become considerably stricter over the past three years."
     },
     {
       "t": "p",
@@ -16,7 +31,7 @@
     },
     {
       "t": "h2",
-      "text": "A 60-cabin plan near Ivalo was turned down"
+      "text": "The rejected plan near Ivalo"
     },
     {
       "t": "p",
@@ -24,11 +39,19 @@
     },
     {
       "t": "p",
-      "text": "In its decision the board said the project would harm zoning and the other arrangement of land use, make it harder to reach nature conservation goals and lead to construction with significant effects. Where tourism services are placed, and how many of them, has to be settled in an interactive zoning procedure in which the council holds the decision-making power."
+      "text": "In its decision the board said the project would harm zoning and the other arrangement of land use, make it harder to reach nature conservation goals and lead to construction with significant effects."
     },
     {
       "t": "p",
-      "text": "The Lapland ELY Centre said in its statement that the values of the nationally valuable wind deposit and the esker area at Juurikangas would best be safeguarded by zoning. The Sámi Museum Siida said the amount of new building was fairly large and its placement should be studied as part of a plan. The Hammastunturi reindeer herding co-operative said that a new tourism area large by Inari standards would form on the site and the peace of the area would be lost."
+      "text": "Where tourism services are placed, and how many of them, has to be settled in an interactive zoning procedure in which the council holds the decision-making power."
+    },
+    {
+      "t": "p",
+      "text": "The Lapland ELY Centre said in its statement that the values of the nationally valuable wind deposit and the esker area at Juurikangas would best be safeguarded by zoning."
+    },
+    {
+      "t": "p",
+      "text": "The Sámi Museum Siida said the amount of new building was fairly large and its placement should be studied as part of a plan. The Hammastunturi reindeer herding co-operative said that a new tourism area large by Inari standards would form on the site and the peace of the area would be lost."
     },
     {
       "t": "h2",
@@ -40,11 +63,19 @@
     },
     {
       "t": "h2",
-      "text": "New capacity is planned west of Saariselkä"
+      "text": "New capacity west of Saariselkä"
     },
     {
       "t": "p",
-      "text": "Zoning on the west side of Saariselkä was announced on 25 March 2026 and is being prepared in two parts. The Kaunispää plan amendment and extension covers about 110 hectares west of highway 4, where the aim is to zone the tourism service areas of the local master plan for functions that support accommodation at Saariselkä. The Kaunisniemi extension covers about 23 hectares and would allow the Northern Lights Village Saariselkä tourism area to grow."
+      "text": "Zoning on the west side of Saariselkä was announced on 25 March 2026 and is being prepared in two parts."
+    },
+    {
+      "t": "p",
+      "text": "The Kaunispää plan amendment and extension covers about 110 hectares west of highway 4, where the aim is to zone the tourism service areas of the local master plan for functions that support accommodation at Saariselkä. The Kaunisniemi extension covers about 23 hectares and would allow the Northern Lights Village Saariselkä tourism area to grow."
+    },
+    {
+      "t": "h2",
+      "text": "What this changes"
     },
     {
       "t": "p",

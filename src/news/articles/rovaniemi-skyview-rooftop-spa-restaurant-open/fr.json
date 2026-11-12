@@ -2,13 +2,29 @@
   "title": "Rovaniemi : spa de toit et restaurant ouverts à tous au resort d’igloos",
   "seoTitle": "SkyView Rovaniemi : spa de toit et restaurant ouverts",
   "description": "Le spa de toit du SkyView Igloo Resort d’Olleronvaara et le restaurant Aura, créé avec le chef Tomi Björck, accueillent aussi les clients d’autres hôtels.",
-  "dek": "Arctic Spa Culta a ouvert le 16 octobre. Une séance de deux heures coûte 129 euros, et 16 clients au maximum sont admis à la fois.",
+  "dek": "Arctic Spa Culta a ouvert en octobre. Une séance de deux heures coûte 129 euros, et 16 clients au maximum sont admis à la fois.",
   "heroAlt": "Vue depuis la piste de ski d’Ounasvaara à Rovaniemi en été : au premier plan, un télésiège et des pins ; au milieu, la rivière Kemijoki et ses ponts en acier ; sur l’autre rive, des maisons au milieu de la forêt.",
   "heroCaption": "Rovaniemi et les ponts sur le Kemijoki, vus en été depuis la piste de ski d’Ounasvaara. Le SkyView Igloo Resort se trouve sur une autre colline, Olleronvaara, à environ 10 kilomètres du centre-ville.",
   "body": [
     {
       "t": "p",
-      "text": "Le SkyView Igloo Resort, à Olleronvaara, à Rovaniemi, a ouvert un spa de toit et un restaurant qui accueillent aussi des visiteurs qui ne séjournent pas au resort. Selon l’entreprise, le spa Arctic Spa Culta a ouvert le 16 octobre et son toit abrite une piscine à débordement chauffée et un sauna panoramique. Le restaurant Aura a été créé avec le chef Tomi Björck."
+      "text": "Le SkyView Igloo Resort, à Olleronvaara, à Rovaniemi, a ouvert un spa de toit et un restaurant qui accueillent aussi des visiteurs qui ne séjournent pas au resort."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Le spa et le restaurant en bref",
+      "items": [
+        "Séance de spa : 129 euros par personne, deux heures",
+        "Début des séances : à 9, 12, 15, 18 et 21 heures",
+        "Places : 16 clients au maximum à la fois",
+        "Buffet du petit-déjeuner : 39 euros, de 7 à 11 heures",
+        "Dîner : de 17 à 23 heures"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Selon l’entreprise, le spa Arctic Spa Culta a ouvert le 16 octobre et son toit abrite une piscine à débordement chauffée et un sauna panoramique. Le restaurant Aura a été créé avec le chef Tomi Björck."
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "Une séance de spa coûte 129 euros"
+      "text": "Séances de spa et tarif"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Des produits du Nord et des saveurs d’Asie à l’Aura"
+      "text": "Le restaurant Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "Les igloos ont deux niveaux"
+      "text": "Les igloos et leur emplacement"
     },
     {
       "t": "p",

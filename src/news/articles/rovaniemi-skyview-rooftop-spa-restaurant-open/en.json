@@ -2,13 +2,29 @@
   "title": "Rovaniemi igloo resort opens its rooftop spa and restaurant to all",
   "seoTitle": "SkyView Rovaniemi: rooftop spa and restaurant open",
   "description": "The rooftop spa at SkyView Igloo Resort in Olleronvaara and Restaurant Aura, created with chef Tomi Björck, also serve guests who stay elsewhere.",
-  "dek": "Arctic Spa Culta opened on 16 October. A two-hour session costs 129 euros, and no more than 16 guests are let in at a time.",
+  "dek": "Arctic Spa Culta opened in October. A two-hour session costs 129 euros, and no more than 16 guests are let in at a time.",
   "heroAlt": "A view from the ski slope on Ounasvaara in Rovaniemi in summer: a chairlift and pine trees in the foreground, the Kemijoki river and its steel bridges in the middle, and houses among the forest on the far bank.",
   "heroCaption": "Rovaniemi and the bridges over the Kemijoki, seen from the ski slope on Ounasvaara in summer. SkyView Igloo Resort stands on another hill, Olleronvaara, about 10 kilometres from the city centre.",
   "body": [
     {
       "t": "p",
-      "text": "SkyView Igloo Resort in Olleronvaara, Rovaniemi, has opened a rooftop spa and a restaurant that also take visitors who are not staying at the resort. According to the company, the spa Arctic Spa Culta opened on 16 October, and on its roof there is a heated infinity pool and a panoramic sauna. Restaurant Aura was created together with chef Tomi Björck."
+      "text": "SkyView Igloo Resort in Olleronvaara, Rovaniemi, has opened a rooftop spa and a restaurant that also take visitors who are not staying at the resort."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Spa and restaurant in brief",
+      "items": [
+        "Spa session: 129 euros per person, two hours",
+        "Sessions start: at 9, 12, 15, 18 and 21",
+        "Capacity: no more than 16 guests at a time",
+        "Breakfast buffet: 39 euros, from 7 to 11",
+        "Dinner: from 17 to 23"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "According to the company, the spa Arctic Spa Culta opened on 16 October, and on its roof there is a heated infinity pool and a panoramic sauna. Restaurant Aura was created together with chef Tomi Björck."
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "A spa session costs 129 euros"
+      "text": "Spa sessions and price"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Northern ingredients and Asian flavours at Aura"
+      "text": "Restaurant Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "The igloos have two floors"
+      "text": "Igloos and location"
     },
     {
       "t": "p",

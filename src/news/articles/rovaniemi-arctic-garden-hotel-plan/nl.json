@@ -8,31 +8,62 @@
   "body": [
     {
       "t": "p",
-      "text": "De verbouwing van het historische Lääninhallitus-blok in Rovaniemi tot hotelgebied is begonnen. Volgens Lapin Kansa richt het werk zich eerst op het hoofdgebouw van het provinciebestuur, waar de tussenwanden tussen de kantoorruimtes worden gesloopt om plaats te maken voor hotelkamers."
+      "text": "De verbouwing van het historische Lääninhallitus-blok in Rovaniemi tot hotel is begonnen. Voor reizigers verandert er deze winter en de volgende niets, want er zijn nog geen kamers in de verkoop."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Het hotelproject in het kort",
+      "items": [
+        "Eigenaar: City-Hotelli Oy, een familiebedrijf uit Rovaniemi",
+        "Aankoop: maart 2026, volgens Yle 4,5 miljoen euro",
+        "Werknaam: Arctic Garden",
+        "Opening: gepland voor de zomer van 2028"
+      ]
     },
     {
       "t": "p",
-      "text": "De eigenaar is City-Hotelli Oy, een familiebedrijf uit Rovaniemi dat in de stad al Arctic City Hotel en Arctic Light Hotel runt. Het kocht het blok in maart 2026 van het staatsvastgoedbedrijf Senaatti-kiinteistöt en volgens Yle was de prijs 4,5 miljoen euro. De werknaam van het nieuwe hotel is Arctic Garden, maar volgens Mikael Gröhn kan het ook Arctic Avenue worden. De familie zegt dat ze de geschiedenis van de beschermde gebouwen zichtbaar wil houden en het parkachtige blok weer wil openen voor de inwoners van Rovaniemi."
+      "text": "Volgens Lapin Kansa richt het werk zich eerst op het hoofdgebouw van het provinciebestuur, waar de tussenwanden tussen de kantoorruimtes worden gesloopt om plaats te maken voor hotelkamers."
+    },
+    {
+      "t": "p",
+      "text": "De eigenaar is City-Hotelli Oy, een familiebedrijf uit Rovaniemi dat in de stad al Arctic City Hotel en Arctic Light Hotel runt. Het kocht het blok in maart 2026 van het staatsvastgoedbedrijf Senaatti-kiinteistöt en volgens Yle was de prijs 4,5 miljoen euro."
+    },
+    {
+      "t": "p",
+      "text": "De werknaam van het nieuwe hotel is Arctic Garden, maar volgens Mikael Gröhn kan het ook Arctic Avenue worden. De familie zegt dat ze de geschiedenis van de beschermde gebouwen zichtbaar wil houden en het parkachtige blok weer wil openen voor de inwoners van Rovaniemi."
     },
     {
       "t": "h2",
-      "text": "Een blok dat vrijwel onveranderd is gebleven"
+      "text": "Een vrijwel onveranderd blok"
     },
     {
       "t": "p",
-      "text": "Het blok, bekend als Koskenranta, ligt aan de oever van de Kemijoki tussen de bruggen Jätkänkynttilä en Ounaskoski. Volgens Senaatti-kiinteistöt werd het kantoorgebouw van het provinciebestuur in 1947 opgeleverd en het huis van de vereniging voor houtvlotten op de Kemijoki in 1939. Dat huis is het oudste gebouw op het terrein en het enige dat de verwoesting van de Laplandoorlog doorstond. In het blok staan ook de ambtswoning van de gouverneur, de bijbehorende sauna en het bijgebouw, een rijtjeshuis dat voor ambtenaren is gebouwd en de oude warmtecentrale."
+      "text": "Het blok, bekend als Koskenranta, ligt aan de oever van de Kemijoki tussen de bruggen Jätkänkynttilä en Ounaskoski. Volgens Senaatti-kiinteistöt werd het kantoorgebouw van het provinciebestuur in 1947 opgeleverd en het huis van de vereniging voor houtvlotten op de Kemijoki in 1939."
     },
     {
       "t": "p",
-      "text": "Het geheel maakt deel uit van het door Alvar Aalto getekende stadsplan Poronsarvi, dat na de Tweede Wereldoorlog de vorm van het bestuurlijke en culturele centrum van Rovaniemi bepaalde. Senaatti-kiinteistöt zegt dat de gebouwde omgeving bijna zeventig jaar vrijwel onveranderd is gebleven en dat het grootste deel van de gebouwen en hun erven in 2025 is beschermd met een besluit van het ELY-centrum van Lapland. De ruimtes staan leeg sinds het regionale bestuursagentschap van Lapland er in 2024 vertrok."
+      "text": "Dat huis is het oudste gebouw op het terrein en het enige dat de verwoesting van de Laplandoorlog doorstond. In het blok staan ook de ambtswoning van de gouverneur, de bijbehorende sauna en het bijgebouw, een rijtjeshuis dat voor ambtenaren is gebouwd en de oude warmtecentrale."
+    },
+    {
+      "t": "p",
+      "text": "Het geheel maakt deel uit van het door Alvar Aalto getekende stadsplan Poronsarvi, dat na de Tweede Wereldoorlog de vorm van het bestuurlijke en culturele centrum van Rovaniemi bepaalde."
+    },
+    {
+      "t": "p",
+      "text": "Senaatti-kiinteistöt zegt dat de gebouwde omgeving bijna zeventig jaar vrijwel onveranderd is gebleven en dat het grootste deel van de gebouwen en hun erven in 2025 is beschermd met een besluit van het ELY-centrum van Lapland. De ruimtes staan leeg sinds het regionale bestuursagentschap van Lapland er in 2024 vertrok."
     },
     {
       "t": "h2",
-      "text": "Villasuites, een restaurant in de feestzaal en een sauna van stammen"
+      "text": "Suites, restaurant en sauna"
     },
     {
       "t": "p",
-      "text": "Mikael Gröhn zei in maart dat de drie appartementen van meer dan 100 vierkante meter in het huis aan de rivier hotelsuites van het villatype worden, dat de representatieve zalen van de gouverneur als evenementenruimte in gebruik kunnen komen en dat het gastenhuis van ronde stammen de privésauna van het hotel zou kunnen worden. Het restaurant is gepland in de feestzaal, die net als bij Arctic Light Hotel met een glazen aanbouw zou worden uitgebreid."
+      "text": "Mikael Gröhn zei in maart dat de drie appartementen van meer dan 100 vierkante meter in het huis aan de rivier hotelsuites van het villatype worden, dat de representatieve zalen van de gouverneur als evenementenruimte in gebruik kunnen komen en dat het gastenhuis van ronde stammen de privésauna van het hotel zou kunnen worden."
+    },
+    {
+      "t": "p",
+      "text": "Het restaurant is gepland in de feestzaal, die net als bij Arctic Light Hotel met een glazen aanbouw zou worden uitgebreid."
     },
     {
       "t": "p",
@@ -40,7 +71,7 @@
     },
     {
       "t": "h2",
-      "text": "Het park op de binnenplaats is voor iedereen bedoeld"
+      "text": "Het binnenpark is voor iedereen"
     },
     {
       "t": "p",
@@ -52,11 +83,23 @@
     },
     {
       "t": "p",
-      "text": "Voor een reiziger verandert het blok deze winter en de volgende niets. Er zijn geen kamers in de verkoop en op de eigen website zegt het bedrijf dat de planning van het project nog wordt aangescherpt, zonder een openingsdatum te geven. Volgens Lapin Kansa moet het hotel in de zomer van 2028 opengaan, terwijl de schatting bij het ondertekenen van de koop in maart volgens Yle oktober 2027 was. Voor het gebied loopt daarnaast nog een in 2018 gestarte wijziging van het bestemmingsplan."
+      "text": "Voor een reiziger verandert het blok deze winter en de volgende niets. Er zijn geen kamers in de verkoop en op de eigen website zegt het bedrijf dat de planning van het project nog wordt aangescherpt, zonder een openingsdatum te geven."
     },
     {
       "t": "p",
-      "text": "Tot het blok opengaat zijn de twee hotels van dezelfde familie in het centrum de hotels die geboekt kunnen worden. Arctic Light Hotel heeft 57 kamers in een gebouw dat is ontworpen door architect Ferdinand Salokangas, en Arctic City Hotel, open sinds 1978, heeft 55 Classic-kamers, 33 Style-kamers en twee junior suites met sauna."
+      "text": "Volgens Lapin Kansa moet het hotel in de zomer van 2028 opengaan, terwijl de schatting bij het ondertekenen van de koop in maart volgens Yle oktober 2027 was. Voor het gebied loopt daarnaast nog een in 2018 gestarte wijziging van het bestemmingsplan."
+    },
+    {
+      "t": "p",
+      "text": "Tot het blok opengaat zijn de twee hotels van dezelfde familie in het centrum de hotels die geboekt kunnen worden."
+    },
+    {
+      "t": "embed",
+      "id": "facts-hotellit",
+      "items": [
+        "Arctic Light Hotel: 57 kamers in een gebouw dat is ontworpen door architect Ferdinand Salokangas",
+        "Arctic City Hotel: open sinds 1978, met 55 Classic-kamers, 33 Style-kamers en twee junior suites met sauna"
+      ]
     },
     {
       "t": "link",

@@ -8,6 +8,21 @@
   "body": [
     {
       "t": "p",
+      "text": "In Levi werden ein neues Hotel, Resorts und Ferienhäuser geplant. Die Vorhaben stecken noch im Planverfahren, und weder die Zimmerzahl des Hotels noch der Termin der Fertigstellung stehen fest."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Die Levi-Pläne in Kürze",
+      "items": [
+        "Hotel: Nordufer des Sees Immeljärvi, rund 4,33 Hektar",
+        "Geschossfläche: 17.400 Quadratmeter",
+        "Auslegung des Hotelplans: 30. September bis 29. Oktober 2026",
+        "Größtes Plangebiet: Südhang, rund 38 Hektar"
+      ]
+    },
+    {
+      "t": "p",
       "text": "In der Gemeinde Kittilä laufen mehrere Planverfahren mit Bezug zum Tourismus, die meisten davon betreffen den Ferienort Levi und seine Umgebung. Die Planungsunterlagen der Gemeinde sehen ein Hotel im Zentrum von Levi vor, Resorts in der Nähe von Levi und in Raattama sowie Ferienhäuser an den Hängen von Levi und in Ylläsjärvi. Die Pläne sind unterschiedlich weit gediehen, einige wurden erst Ende September eingeleitet."
     },
     {
@@ -16,7 +31,11 @@
     },
     {
       "t": "p",
-      "text": "Am weitesten fortgeschritten ist die Bebauungsplanänderung für die Baublöcke 207 und 208 am Nordufer des Sees Immeljärvi im Zentrum von Levi. Sie lässt auf einer Fläche von rund 4,33 Hektar Hotel-, Geschäfts-, Wohn- und Beherbergungsgebäude zu, mit insgesamt 17.400 Quadratmetern Geschossfläche. Im Referenzentwurf steht im Süden des Areals ein Hotel, in dem ein Restaurant und ein Saunabereich Platz finden können, im Norden sind Ferienwohnungen vorgesehen. Beantragt hat die Änderung das Unternehmen Partnos Oy."
+      "text": "Am weitesten fortgeschritten ist die Bebauungsplanänderung für die Baublöcke 207 und 208 am Nordufer des Sees Immeljärvi im Zentrum von Levi. Sie lässt auf einer Fläche von rund 4,33 Hektar Hotel-, Geschäfts-, Wohn- und Beherbergungsgebäude zu, mit insgesamt 17.400 Quadratmetern Geschossfläche."
+    },
+    {
+      "t": "p",
+      "text": "Im Referenzentwurf steht im Süden des Areals ein Hotel, in dem ein Restaurant und ein Saunabereich Platz finden können, im Norden sind Ferienwohnungen vorgesehen. Beantragt hat die Änderung das Unternehmen Partnos Oy."
     },
     {
       "t": "p",
@@ -31,7 +50,8 @@
       "text": "Resorts an der Seidantie und in Raattama"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-resortit",
       "items": [
         "Seidantie, Levi: Metsähallitus, die Verwaltung der staatseigenen Flächen, und das Forstunternehmen Tornator haben eine Planänderung beantragt, die am Ende der Seidantie auf rund 3,5 Hektar ein Resort mit Unterkünften ermöglichen würde. Das Verfahren wurde am 30. September eingeleitet, laut Zeitplan würde der Gemeinderat im Juni 2027 darüber beraten.",
         "Harrisaajo, Raattama: Auf rund 25,9 Hektar ist ein kleines Resort mit 30–60 kleinen Unterkünften für zwei bis vier Personen geplant, dazu neun Grundstücke für Ferienhäuser. Das Gebiet liegt nahe dem Dorf Raattama, auf der Straße etwa 80 km vom Zentrum von Kittilä entfernt. Der Vorentwurf lag im Juni 2026 öffentlich aus.",
@@ -40,10 +60,11 @@
     },
     {
       "t": "h2",
-      "text": "Ferienhäuser an den Hängen von Levi und in Ylläsjärvi"
+      "text": "Ferienhäuser in Levi und Ylläsjärvi"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loma-asunnot",
       "items": [
         "Südosthang von Levi und Taalo: Der Campingplatz am Südosthang wird als Gebiet für Ferienhäuser geprüft, in Taalovaara würden bestehende Baurechte auf mehr Grundstücke aufgeteilt. Der Plan umfasst rund 11 Hektar, das Verfahren wurde am 30. September eingeleitet. Laut Zeitplan würde der Gemeinderat im September 2027 darüber beraten.",
         "Rajalammentie, Ylläsjärvi: Baublöcke für Ferienhäuser, drei Grundstücke für Einfamilienhäuser und ein kleiner Block etwa für ein Café, ein Restaurant oder eine Unterkunft, rund 1,2 km vom Dorf Ylläsjärvi entfernt. Die Geschossfläche beträgt insgesamt 13.150 Quadratmeter. Der Vorentwurf lag im Sommer 2025 öffentlich aus."
@@ -51,11 +72,15 @@
     },
     {
       "t": "h2",
-      "text": "Was auf der größten Fläche entsteht, ist noch offen"
+      "text": "Die größte Fläche ist noch offen"
     },
     {
       "t": "p",
-      "text": "Flächenmäßig der größte der Levi-Pläne ist die Änderung und Erweiterung des Bebauungsplans für den Südhang, rund 38 Hektar neben den Südhängen von Levi. Eigentümer der Flächen sind der finnische Staat und Levi Ski Resort. Bei der Planung werden die Ergebnisse eines Ideenwettbewerbs berücksichtigt, den Metsähallitus und der Fachbereich Architektur der Universität Oulu ausgerichtet haben. Was dort gebaut werden soll, ist noch nicht öffentlich bekannt. Laut Zeitplan würde der Gemeinderat im Februar 2027 über den Plan beraten."
+      "text": "Flächenmäßig der größte der Levi-Pläne ist die Änderung und Erweiterung des Bebauungsplans für den Südhang, rund 38 Hektar neben den Südhängen von Levi. Eigentümer der Flächen sind der finnische Staat und Levi Ski Resort. Bei der Planung werden die Ergebnisse eines Ideenwettbewerbs berücksichtigt, den Metsähallitus und der Fachbereich Architektur der Universität Oulu ausgerichtet haben."
+    },
+    {
+      "t": "p",
+      "text": "Was dort gebaut werden soll, ist noch nicht öffentlich bekannt. Laut Zeitplan würde der Gemeinderat im Februar 2027 über den Plan beraten."
     },
     {
       "t": "link",

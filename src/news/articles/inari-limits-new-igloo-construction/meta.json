@@ -51,5 +51,10 @@
   "ogCard": {
     "line": "Inari brakes new aurora cabin building",
     "focus": "50% 50%"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    }
   }
 }

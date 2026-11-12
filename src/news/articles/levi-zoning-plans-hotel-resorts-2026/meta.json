@@ -92,5 +92,16 @@
   ],
   "ogCard": {
     "line": "What Levi’s new plans include"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    },
+    "facts-resortit": {
+      "kind": "facts"
+    },
+    "facts-loma-asunnot": {
+      "kind": "facts"
+    }
   }
 }

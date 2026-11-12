@@ -8,6 +8,21 @@
   "body": [
     {
       "t": "p",
+      "text": "Levi tem em projeto um novo hotel, resorts e casas de temporada. Tudo ainda está na fase de plano urbanístico, e não se sabe nem o número de quartos do hotel nem a data de conclusão."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Os planos de Levi em resumo",
+      "items": [
+        "Hotel: margem norte do lago Immeljärvi, cerca de 4,33 hectares",
+        "Área construída: 17.400 metros quadrados",
+        "Consulta pública: de 30 de setembro a 29 de outubro de 2026",
+        "Maior plano: Encosta Sul, cerca de 38 hectares"
+      ]
+    },
+    {
+      "t": "p",
       "text": "O município de Kittilä tem vários planos urbanísticos ligados ao turismo em andamento, e a maioria envolve o centro turístico de Levi e seus arredores. Os documentos de planejamento do município preveem um hotel no centro de Levi, resorts perto de Levi e em Raattama e casas de temporada nas encostas de Levi e em Ylläsjärvi. Os planos estão em etapas diferentes, e alguns só foram abertos no fim de setembro."
     },
     {
@@ -16,7 +31,11 @@
     },
     {
       "t": "p",
-      "text": "O processo mais adiantado é a alteração do plano urbanístico detalhado das quadras 207 e 208, na margem norte do lago Immeljärvi, no centro de Levi. Ela permite prédios de hotel, comércio, moradia e hospedagem em uma área de cerca de 4,33 hectares, com área construída total de 17.400 metros quadrados. No projeto de referência, um hotel com espaço para restaurante e área de sauna fica na parte sul do terreno, e apartamentos de temporada na parte norte. A alteração foi solicitada pela empresa Partnos Oy."
+      "text": "O processo mais adiantado é a alteração do plano urbanístico detalhado das quadras 207 e 208, na margem norte do lago Immeljärvi, no centro de Levi. Ela permite prédios de hotel, comércio, moradia e hospedagem em uma área de cerca de 4,33 hectares, com área construída total de 17.400 metros quadrados."
+    },
+    {
+      "t": "p",
+      "text": "No projeto de referência, um hotel com espaço para restaurante e área de sauna fica na parte sul do terreno, e apartamentos de temporada na parte norte. A alteração foi solicitada pela empresa Partnos Oy."
     },
     {
       "t": "p",
@@ -31,7 +50,8 @@
       "text": "Resorts na rua Seidantie e em Raattama"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-resortit",
       "items": [
         "Seidantie, Levi: a Metsähallitus, órgão que administra as terras do Estado, e a empresa florestal Tornator pediram uma alteração do plano que permitiria construir um resort com hospedagem no fim da rua Seidantie, em uma área de cerca de 3,5 hectares. O processo foi aberto em 30 de setembro e, pelo cronograma, a Câmara Municipal o analisaria em junho de 2027.",
         "Harrisaajo, Raattama: em uma área de cerca de 25,9 hectares está previsto um pequeno resort com 30–60 pequenas unidades de hospedagem para duas a quatro pessoas, além de nove lotes para casas de temporada. A área fica perto do vilarejo de Raattama, a cerca de 80 km de estrada do centro de Kittilä. A minuta do plano ficou em consulta pública em junho de 2026.",
@@ -40,10 +60,11 @@
     },
     {
       "t": "h2",
-      "text": "Casas de temporada nas encostas de Levi e em Ylläsjärvi"
+      "text": "Casas de temporada em Levi e Ylläsjärvi"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loma-asunnot",
       "items": [
         "Encosta sudeste de Levi e Taalo: a área de camping da encosta sudeste está sendo estudada para casas de temporada, e em Taalovaara os direitos de construção existentes seriam divididos entre mais lotes. O plano abrange cerca de 11 hectares e foi aberto em 30 de setembro. Pelo cronograma, a Câmara Municipal o analisaria em setembro de 2027.",
         "Rajalammentie, Ylläsjärvi: quadras de casas de temporada, três lotes para casas unifamiliares e uma pequena quadra para, por exemplo, café, restaurante ou hospedagem, a cerca de 1,2 km do vilarejo de Ylläsjärvi. A área construída total é de 13.150 metros quadrados. A minuta do plano ficou em consulta pública no verão finlandês de 2025."
@@ -55,7 +76,11 @@
     },
     {
       "t": "p",
-      "text": "Em área, o maior dos planos de Levi é a alteração e ampliação do plano da Encosta Sul, cerca de 38 hectares ao lado das pistas da encosta sul de Levi. Os terrenos pertencem ao Estado finlandês e à Levi Ski Resort, e o planejamento leva em conta os resultados de um concurso de ideias promovido pela Metsähallitus e pela unidade de arquitetura da Universidade de Oulu. Ainda não foi divulgado o que será construído ali. Pelo cronograma, a Câmara Municipal analisaria o plano em fevereiro de 2027."
+      "text": "Em área, o maior dos planos de Levi é a alteração e ampliação do plano da Encosta Sul, cerca de 38 hectares ao lado das pistas da encosta sul de Levi. Os terrenos pertencem ao Estado finlandês e à Levi Ski Resort, e o planejamento leva em conta os resultados de um concurso de ideias promovido pela Metsähallitus e pela unidade de arquitetura da Universidade de Oulu."
+    },
+    {
+      "t": "p",
+      "text": "Ainda não foi divulgado o que será construído ali. Pelo cronograma, a Câmara Municipal analisaria o plano em fevereiro de 2027."
     },
     {
       "t": "link",

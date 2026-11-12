@@ -8,31 +8,62 @@
   "body": [
     {
       "t": "p",
-      "text": "Der Umbau des historischen Lääninhallitus-Viertels in Rovaniemi zu einem Hotelareal hat begonnen. Laut Lapin Kansa konzentrieren sich die Arbeiten zunächst auf das Hauptgebäude der Provinzialregierung, wo die Trennwände zwischen den Büroräumen abgerissen werden, um Platz für Hotelzimmer zu schaffen."
+      "text": "Der Umbau des historischen Lääninhallitus-Viertels in Rovaniemi zu einem Hotel hat begonnen. Für Reisende ändert sich in diesem und im nächsten Winter nichts, denn Zimmer sind noch nicht im Verkauf."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Das Hotelprojekt in Kürze",
+      "items": [
+        "Eigentümer: City-Hotelli Oy, ein Familienunternehmen aus Rovaniemi",
+        "Kauf: März 2026, laut Yle 4,5 Millionen Euro",
+        "Arbeitsname: Arctic Garden",
+        "Eröffnung: für den Sommer 2028 geplant"
+      ]
     },
     {
       "t": "p",
-      "text": "Eigentümer ist City-Hotelli Oy, ein Familienunternehmen aus Rovaniemi, das in der Stadt bereits das Arctic City Hotel und das Arctic Light Hotel betreibt. Es kaufte das Viertel im März 2026 von der staatlichen Immobiliengesellschaft Senaatti-kiinteistöt, und laut Yle lag der Preis bei 4,5 Millionen Euro. Der Arbeitsname des neuen Hotels ist Arctic Garden, Mikael Gröhn hat allerdings gesagt, dass es auch Arctic Avenue werden kann. Die Familie sagt, sie wolle die Geschichte der denkmalgeschützten Gebäude sichtbar halten und das parkartige Viertel wieder für die Menschen in Rovaniemi öffnen."
+      "text": "Laut Lapin Kansa konzentrieren sich die Arbeiten zunächst auf das Hauptgebäude der Provinzialregierung, wo die Trennwände zwischen den Büroräumen abgerissen werden, um Platz für Hotelzimmer zu schaffen."
+    },
+    {
+      "t": "p",
+      "text": "Eigentümer ist City-Hotelli Oy, ein Familienunternehmen aus Rovaniemi, das in der Stadt bereits das Arctic City Hotel und das Arctic Light Hotel betreibt. Es kaufte das Viertel im März 2026 von der staatlichen Immobiliengesellschaft Senaatti-kiinteistöt, und laut Yle lag der Preis bei 4,5 Millionen Euro."
+    },
+    {
+      "t": "p",
+      "text": "Der Arbeitsname des neuen Hotels ist Arctic Garden, Mikael Gröhn hat allerdings gesagt, dass es auch Arctic Avenue werden kann. Die Familie sagt, sie wolle die Geschichte der denkmalgeschützten Gebäude sichtbar halten und das parkartige Viertel wieder für die Menschen in Rovaniemi öffnen."
     },
     {
       "t": "h2",
-      "text": "Ein Viertel, das fast unverändert geblieben ist"
+      "text": "Ein fast unverändertes Viertel"
     },
     {
       "t": "p",
-      "text": "Das als Koskenranta bekannte Viertel liegt am Ufer des Kemijoki zwischen den Brücken Jätkänkynttilä und Ounaskoski. Laut Senaatti-kiinteistöt wurde das Amtsgebäude der Provinzialregierung 1947 fertiggestellt und das Haus des Flößereivereins am Kemijoki 1939. Das Haus des Flößereivereins ist das älteste Gebäude auf dem Grundstück und das einzige, das die Zerstörung des Lapplandkriegs überstand. Zum Viertel gehören außerdem die Residenz des Gouverneurs, deren Sauna- und Wirtschaftsgebäude, ein für Beamte gebautes Reihenhaus und das alte Heizwerk."
+      "text": "Das als Koskenranta bekannte Viertel liegt am Ufer des Kemijoki zwischen den Brücken Jätkänkynttilä und Ounaskoski. Laut Senaatti-kiinteistöt wurde das Amtsgebäude der Provinzialregierung 1947 fertiggestellt und das Haus des Flößereivereins am Kemijoki 1939."
     },
     {
       "t": "p",
-      "text": "Das Ensemble ist Teil des von Alvar Aalto entworfenen Stadtplans Poronsarvi, der nach dem Zweiten Weltkrieg die Form des Verwaltungs- und Kulturzentrums von Rovaniemi festlegte. Senaatti-kiinteistöt gibt an, die bebaute Umgebung sei fast siebzig Jahre praktisch unverändert geblieben und der Großteil der Gebäude samt Höfen sei 2025 durch eine Entscheidung des ELY-Zentrums Lappland unter Schutz gestellt worden. Die Räume stehen leer, seit das Regionalverwaltungsamt für Lappland 2024 ausgezogen ist."
+      "text": "Das Haus des Flößereivereins ist das älteste Gebäude auf dem Grundstück und das einzige, das die Zerstörung des Lapplandkriegs überstand. Zum Viertel gehören außerdem die Residenz des Gouverneurs, deren Sauna- und Wirtschaftsgebäude, ein für Beamte gebautes Reihenhaus und das alte Heizwerk."
+    },
+    {
+      "t": "p",
+      "text": "Das Ensemble ist Teil des von Alvar Aalto entworfenen Stadtplans Poronsarvi, der nach dem Zweiten Weltkrieg die Form des Verwaltungs- und Kulturzentrums von Rovaniemi festlegte."
+    },
+    {
+      "t": "p",
+      "text": "Senaatti-kiinteistöt gibt an, die bebaute Umgebung sei fast siebzig Jahre praktisch unverändert geblieben und der Großteil der Gebäude samt Höfen sei 2025 durch eine Entscheidung des ELY-Zentrums Lappland unter Schutz gestellt worden. Die Räume stehen leer, seit das Regionalverwaltungsamt für Lappland 2024 ausgezogen ist."
     },
     {
       "t": "h2",
-      "text": "Villa-Suiten, ein Restaurant im Festsaal und eine Blockhaussauna"
+      "text": "Suiten, Restaurant und Sauna"
     },
     {
       "t": "p",
-      "text": "Mikael Gröhn sagte im März, die drei Wohnungen von mehr als 100 Quadratmetern im Haus am Fluss würden zu Hotelsuiten im Villa-Stil, die Repräsentationsräume des Gouverneurs könnten als Veranstaltungsraum genutzt werden und das Gästehaus aus Rundstämmen könnte als private Sauna des Hotels dienen. Das Restaurant ist für den Festsaal geplant, der wie beim Arctic Light Hotel um einen Glasanbau erweitert würde."
+      "text": "Mikael Gröhn sagte im März, die drei Wohnungen von mehr als 100 Quadratmetern im Haus am Fluss würden zu Hotelsuiten im Villa-Stil, die Repräsentationsräume des Gouverneurs könnten als Veranstaltungsraum genutzt werden und das Gästehaus aus Rundstämmen könnte als private Sauna des Hotels dienen."
+    },
+    {
+      "t": "p",
+      "text": "Das Restaurant ist für den Festsaal geplant, der wie beim Arctic Light Hotel um einen Glasanbau erweitert würde."
     },
     {
       "t": "p",
@@ -40,7 +71,7 @@
     },
     {
       "t": "h2",
-      "text": "Der Park im Innenhof ist für alle gedacht"
+      "text": "Ein Park im Innenhof für alle"
     },
     {
       "t": "p",
@@ -52,11 +83,23 @@
     },
     {
       "t": "p",
-      "text": "Für Reisende ändert das Viertel in diesem und im nächsten Winter nichts. Es sind keine Zimmer im Verkauf, und auf der eigenen Website gibt das Unternehmen an, der Zeitplan des Projekts werde noch präzisiert, und nennt kein Eröffnungsdatum. Laut Lapin Kansa soll das Hotel im Sommer 2028 öffnen, laut Yle lautete die Schätzung bei der Unterzeichnung des Kaufs im März dagegen Oktober 2027. Für das Gebiet ist zudem eine 2018 begonnene Änderung des Stadtplans weiter anhängig."
+      "text": "Für Reisende ändert das Viertel in diesem und im nächsten Winter nichts. Es sind keine Zimmer im Verkauf, und auf der eigenen Website gibt das Unternehmen an, der Zeitplan des Projekts werde noch präzisiert, und nennt kein Eröffnungsdatum."
     },
     {
       "t": "p",
-      "text": "Bis das Viertel öffnet, lassen sich die beiden Hotels derselben Familie im Zentrum buchen. Das Arctic Light Hotel hat 57 Zimmer in einem Gebäude des Architekten Ferdinand Salokangas, und das seit 1978 geöffnete Arctic City Hotel hat 55 Classic-Zimmer, 33 Style-Zimmer und zwei Junior Suiten mit Sauna."
+      "text": "Laut Lapin Kansa soll das Hotel im Sommer 2028 öffnen, laut Yle lautete die Schätzung bei der Unterzeichnung des Kaufs im März dagegen Oktober 2027. Für das Gebiet ist zudem eine 2018 begonnene Änderung des Stadtplans weiter anhängig."
+    },
+    {
+      "t": "p",
+      "text": "Bis das Viertel öffnet, lassen sich die beiden Hotels derselben Familie im Zentrum buchen."
+    },
+    {
+      "t": "embed",
+      "id": "facts-hotellit",
+      "items": [
+        "Arctic Light Hotel: 57 Zimmer in einem Gebäude des Architekten Ferdinand Salokangas",
+        "Arctic City Hotel: seit 1978 geöffnet, mit 55 Classic-Zimmern, 33 Style-Zimmern und zwei Junior Suiten mit Sauna"
+      ]
     },
     {
       "t": "link",

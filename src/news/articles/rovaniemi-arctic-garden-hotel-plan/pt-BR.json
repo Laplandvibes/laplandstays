@@ -8,11 +8,30 @@
   "body": [
     {
       "t": "p",
-      "text": "A transformação da histórica quadra de Lääninhallitus, em Rovaniemi, em uma área hoteleira começou. Segundo o Lapin Kansa, as obras se concentram primeiro no prédio principal do governo provincial, onde as paredes divisórias entre as salas de escritório estão sendo derrubadas para dar lugar aos quartos de hotel."
+      "text": "Começou a transformação da histórica quadra de Lääninhallitus, em Rovaniemi, em hotel. Para quem viaja, nada muda neste inverno nem no próximo, porque ainda não há quartos à venda."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "O projeto do hotel em resumo",
+      "items": [
+        "Proprietária: City-Hotelli Oy, empresa familiar de Rovaniemi",
+        "Compra: março de 2026, 4,5 milhões de euros segundo o Yle",
+        "Nome provisório: Arctic Garden",
+        "Abertura: prevista para o verão de 2028"
+      ]
     },
     {
       "t": "p",
-      "text": "A proprietária é a City-Hotelli Oy, uma empresa familiar de Rovaniemi que já administra na cidade o Arctic City Hotel e o Arctic Light Hotel. Ela comprou a quadra da empresa imobiliária estatal Senaatti-kiinteistöt em março de 2026 e, segundo o Yle, o preço foi de 4,5 milhões de euros. O nome provisório do novo hotel é Arctic Garden, mas Mikael Gröhn disse que ele também pode se chamar Arctic Avenue. A família afirma que quer manter visível a história dos prédios protegidos e abrir de novo aos moradores de Rovaniemi a quadra com ar de parque."
+      "text": "Segundo o Lapin Kansa, as obras se concentram primeiro no prédio principal do governo provincial, onde as paredes divisórias entre as salas de escritório estão sendo derrubadas para dar lugar aos quartos de hotel."
+    },
+    {
+      "t": "p",
+      "text": "A proprietária é a City-Hotelli Oy, uma empresa familiar de Rovaniemi que já administra na cidade o Arctic City Hotel e o Arctic Light Hotel. Ela comprou a quadra da empresa imobiliária estatal Senaatti-kiinteistöt em março de 2026 e, segundo o Yle, o preço foi de 4,5 milhões de euros."
+    },
+    {
+      "t": "p",
+      "text": "O nome provisório do novo hotel é Arctic Garden, mas Mikael Gröhn disse que ele também pode se chamar Arctic Avenue. A família afirma que quer manter visível a história dos prédios protegidos e abrir de novo aos moradores de Rovaniemi a quadra com ar de parque."
     },
     {
       "t": "h2",
@@ -20,19 +39,31 @@
     },
     {
       "t": "p",
-      "text": "A quadra, conhecida como Koskenranta, fica na margem do Kemijoki, entre as pontes Jätkänkynttilä e Ounaskoski. Segundo a Senaatti-kiinteistöt, o prédio de escritórios do governo provincial foi concluído em 1947 e a casa da associação de flutuação de toras do Kemijoki, em 1939. A casa da associação de flutuação é o prédio mais antigo do terreno e o único que sobreviveu à destruição da guerra da Lapônia. Na quadra estão também a residência do governador, sua sauna e sua edificação de serviço, uma casa em fileira construída para funcionários públicos e a antiga central de aquecimento."
+      "text": "A quadra, conhecida como Koskenranta, fica na margem do Kemijoki, entre as pontes Jätkänkynttilä e Ounaskoski. Segundo a Senaatti-kiinteistöt, o prédio de escritórios do governo provincial foi concluído em 1947 e a casa da associação de flutuação de toras do Kemijoki, em 1939."
     },
     {
       "t": "p",
-      "text": "O conjunto faz parte do plano urbanístico Poronsarvi desenhado por Alvar Aalto, que definiu a forma do centro administrativo e cultural de Rovaniemi depois da Segunda Guerra Mundial. A Senaatti-kiinteistöt afirma que o ambiente construído se manteve praticamente inalterado por quase setenta anos e que a maior parte dos prédios e de seus pátios foi protegida por uma decisão do centro ELY da Lapônia em 2025. As salas estão vazias desde que a agência administrativa regional da Lapônia se mudou em 2024."
+      "text": "A casa da associação de flutuação é o prédio mais antigo do terreno e o único que sobreviveu à destruição da guerra da Lapônia. Na quadra estão também a residência do governador, sua sauna e sua edificação de serviço, uma casa em fileira construída para funcionários públicos e a antiga central de aquecimento."
+    },
+    {
+      "t": "p",
+      "text": "O conjunto faz parte do plano urbanístico Poronsarvi desenhado por Alvar Aalto, que definiu a forma do centro administrativo e cultural de Rovaniemi depois da Segunda Guerra Mundial."
+    },
+    {
+      "t": "p",
+      "text": "A Senaatti-kiinteistöt afirma que o ambiente construído se manteve praticamente inalterado por quase setenta anos e que a maior parte dos prédios e de seus pátios foi protegida por uma decisão do centro ELY da Lapônia em 2025. As salas estão vazias desde que a agência administrativa regional da Lapônia se mudou em 2024."
     },
     {
       "t": "h2",
-      "text": "Suítes tipo vila, um restaurante no salão de festas e uma sauna de troncos"
+      "text": "Suítes, restaurante e sauna"
     },
     {
       "t": "p",
-      "text": "Mikael Gröhn disse em março que os três apartamentos de mais de 100 metros quadrados da casa à beira do rio vão virar suítes de hotel do tipo vila, que as salas de representação do governador podem passar a ser usadas como espaço para eventos e que a casa de hóspedes de troncos roliços poderia servir de sauna privativa do hotel. O restaurante está planejado para o salão de festas, que seria ampliado com um anexo de vidro, do mesmo jeito que no Arctic Light Hotel."
+      "text": "Mikael Gröhn disse em março que os três apartamentos de mais de 100 metros quadrados da casa à beira do rio vão virar suítes de hotel do tipo vila, que as salas de representação do governador podem passar a ser usadas como espaço para eventos e que a casa de hóspedes de troncos roliços poderia servir de sauna privativa do hotel."
+    },
+    {
+      "t": "p",
+      "text": "O restaurante está planejado para o salão de festas, que seria ampliado com um anexo de vidro, do mesmo jeito que no Arctic Light Hotel."
     },
     {
       "t": "p",
@@ -52,11 +83,23 @@
     },
     {
       "t": "p",
-      "text": "Para quem viaja, a quadra não muda nada neste inverno nem no próximo. Não há quartos à venda e, no próprio site, a empresa afirma que o cronograma do projeto ainda está sendo ajustado e não dá uma data de abertura. Segundo o Lapin Kansa, o hotel deve abrir no verão de 2028, enquanto, segundo o Yle, a estimativa dada na assinatura da compra em março era outubro de 2027. Na área também continua em andamento uma alteração do plano urbanístico iniciada em 2018."
+      "text": "Para quem viaja, a quadra não muda nada neste inverno nem no próximo. Não há quartos à venda e, no próprio site, a empresa afirma que o cronograma do projeto ainda está sendo ajustado e não dá uma data de abertura."
     },
     {
       "t": "p",
-      "text": "Até a quadra abrir, o que você pode reservar são os dois hotéis da mesma família no centro. O Arctic Light Hotel tem 57 quartos em um prédio projetado pelo arquiteto Ferdinand Salokangas, e o Arctic City Hotel, aberto desde 1978, tem 55 quartos Classic, 33 quartos Style e duas junior suites com sauna."
+      "text": "Segundo o Lapin Kansa, o hotel deve abrir no verão de 2028, enquanto, segundo o Yle, a estimativa dada na assinatura da compra em março era outubro de 2027. Na área também continua em andamento uma alteração do plano urbanístico iniciada em 2018."
+    },
+    {
+      "t": "p",
+      "text": "Até a quadra abrir, o que você pode reservar são os dois hotéis da mesma família no centro."
+    },
+    {
+      "t": "embed",
+      "id": "facts-hotellit",
+      "items": [
+        "Arctic Light Hotel: 57 quartos em um prédio projetado pelo arquiteto Ferdinand Salokangas",
+        "Arctic City Hotel: aberto desde 1978, com 55 quartos Classic, 33 quartos Style e duas junior suites com sauna"
+      ]
     },
     {
       "t": "link",

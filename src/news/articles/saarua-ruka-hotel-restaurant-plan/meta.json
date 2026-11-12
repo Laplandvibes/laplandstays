@@ -78,5 +78,10 @@
   ],
   "ogCard": {
     "line": "A new hotel planned in Ruka"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    }
   }
 }

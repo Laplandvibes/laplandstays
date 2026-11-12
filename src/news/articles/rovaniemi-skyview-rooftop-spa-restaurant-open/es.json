@@ -2,13 +2,29 @@
   "title": "El resort de iglús de Rovaniemi abre su spa de azotea y su restaurante",
   "seoTitle": "SkyView Rovaniemi: spa de azotea y restaurante abiertos",
   "description": "El spa de azotea del SkyView Igloo Resort de Olleronvaara y el restaurante Aura, creado con el chef Tomi Björck, también atienden a quienes no se alojan allí.",
-  "dek": "Arctic Spa Culta abrió el 16 de octubre. Un turno de dos horas cuesta 129 euros y se admite un máximo de 16 personas a la vez.",
+  "dek": "Arctic Spa Culta abrió en octubre. Un turno de dos horas cuesta 129 euros y se admite un máximo de 16 personas a la vez.",
   "heroAlt": "Vista desde la pista de esquí de Ounasvaara, en Rovaniemi, en verano: en primer plano, un telesilla y pinos; en el centro, el río Kemijoki y sus puentes de acero; y en la orilla opuesta, casas entre el bosque.",
   "heroCaption": "Rovaniemi y los puentes sobre el Kemijoki, vistos en verano desde la pista de esquí de Ounasvaara. SkyView Igloo Resort está en otra colina, Olleronvaara, a unos 10 kilómetros del centro.",
   "body": [
     {
       "t": "p",
-      "text": "SkyView Igloo Resort, en Olleronvaara (Rovaniemi), ha abierto un spa de azotea y un restaurante que también reciben a visitantes que no se alojan en el resort. Según la empresa, el spa Arctic Spa Culta abrió el 16 de octubre y en su azotea hay una piscina infinita climatizada y una sauna panorámica. El restaurante Aura se creó junto al chef Tomi Björck."
+      "text": "SkyView Igloo Resort, en Olleronvaara (Rovaniemi), ha abierto un spa de azotea y un restaurante que también reciben a visitantes que no se alojan en el resort."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "El spa y el restaurante en breve",
+      "items": [
+        "Turno de spa: 129 euros por persona, dos horas",
+        "Inicio de los turnos: a las 9, las 12, las 15, las 18 y las 21",
+        "Aforo: un máximo de 16 personas a la vez",
+        "Bufé de desayuno: 39 euros, de 7 a 11",
+        "Cena: de 17 a 23"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Según la empresa, el spa Arctic Spa Culta abrió el 16 de octubre y en su azotea hay una piscina infinita climatizada y una sauna panorámica. El restaurante Aura se creó junto al chef Tomi Björck."
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "Un turno de spa cuesta 129 euros"
+      "text": "Turnos y precio del spa"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Productos del norte y sabores asiáticos en Aura"
+      "text": "El restaurante Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "Los iglús tienen dos plantas"
+      "text": "Los iglús y su ubicación"
     },
     {
       "t": "p",

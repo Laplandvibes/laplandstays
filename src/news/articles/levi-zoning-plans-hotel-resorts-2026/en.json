@@ -8,6 +8,21 @@
   "body": [
     {
       "t": "p",
+      "text": "A new hotel, resorts and holiday homes are being planned in Levi. The projects are still at the zoning stage, and neither the hotel’s room count nor its completion date is known yet."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Levi’s plans in brief",
+      "items": [
+        "Hotel: northern shore of Lake Immeljärvi, about 4.33 hectares",
+        "Floor area: 17,400 square metres",
+        "Hotel plan on display: 30 September to 29 October 2026",
+        "Largest plan area: South Slope, about 38 hectares"
+      ]
+    },
+    {
+      "t": "p",
       "text": "Several tourism-related zoning plans are under way in the municipality of Kittilä, and most of them concern the Levi resort and the area around it. The municipality’s planning documents include a hotel in central Levi, resorts near Levi and in Raattama, and holiday homes on the slopes of Levi and in Ylläsjärvi. The plans are at different stages, and some were only launched at the end of September."
     },
     {
@@ -16,7 +31,11 @@
     },
     {
       "t": "p",
-      "text": "Furthest along is the amendment to the zoning plan for blocks 207 and 208 on the northern shore of Lake Immeljärvi in central Levi. It allows hotel, retail, residential and accommodation buildings on an area of about 4.33 hectares, with a total floor area of 17,400 square metres. In the reference design, a hotel with room for a restaurant and a sauna area stands in the southern part of the site, and holiday apartments in the northern part. The amendment was applied for by the company Partnos Oy."
+      "text": "Furthest along is the amendment to the zoning plan for blocks 207 and 208 on the northern shore of Lake Immeljärvi in central Levi. It allows hotel, retail, residential and accommodation buildings on an area of about 4.33 hectares, with a total floor area of 17,400 square metres."
+    },
+    {
+      "t": "p",
+      "text": "In the reference design, a hotel with room for a restaurant and a sauna area stands in the southern part of the site, and holiday apartments in the northern part. The amendment was applied for by the company Partnos Oy."
     },
     {
       "t": "p",
@@ -31,7 +50,8 @@
       "text": "Resorts on Seidantie and in Raattama"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-resortit",
       "items": [
         "Seidantie, Levi: Metsähallitus, which manages state-owned land, and the forest company Tornator have applied for a plan amendment that would allow a resort with accommodation at the end of Seidantie, on an area of about 3.5 hectares. The plan was launched on 30 September, and according to its timetable the municipal council would consider it in June 2027.",
         "Harrisaajo, Raattama: a small resort with 30–60 small units for two to four people, plus nine holiday home plots, is planned on an area of about 25.9 hectares. The site is near the village of Raattama, about 80 km by road from the centre of Kittilä. The draft plan was on display in June 2026.",
@@ -40,10 +60,11 @@
     },
     {
       "t": "h2",
-      "text": "Holiday homes on Levi’s slopes and in Ylläsjärvi"
+      "text": "Holiday homes in Levi and Ylläsjärvi"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loma-asunnot",
       "items": [
         "Levi south-east slope and Taalo: the camping site on the south-east slope is being studied as an area for holiday homes, and in Taalovaara existing building rights would be divided between more plots. The plan covers about 11 hectares and was launched on 30 September. According to its timetable, the council would consider it in September 2027.",
         "Rajalammentie, Ylläsjärvi: blocks of holiday homes, three plots for detached houses and a small block for, for example, a café, restaurant or accommodation, about 1.2 km from Ylläsjärvi village. The total floor area is 13,150 square metres. The draft plan was on display in summer 2025."
@@ -55,7 +76,11 @@
     },
     {
       "t": "p",
-      "text": "The largest of the Levi plans by area is the amendment and extension of the plan for the South Slope, about 38 hectares next to Levi’s South Slopes. The land is owned by the Finnish state and Levi Ski Resort, and the planning takes into account the results of an ideas competition held by Metsähallitus and the architecture unit of the University of Oulu. What will be built there has not yet been made public. According to the timetable, the council would consider the plan in February 2027."
+      "text": "The largest of the Levi plans by area is the amendment and extension of the plan for the South Slope, about 38 hectares next to Levi’s South Slopes. The land is owned by the Finnish state and Levi Ski Resort, and the planning takes into account the results of an ideas competition held by Metsähallitus and the architecture unit of the University of Oulu."
+    },
+    {
+      "t": "p",
+      "text": "What will be built there has not yet been made public. According to the timetable, the council would consider the plan in February 2027."
     },
     {
       "t": "link",

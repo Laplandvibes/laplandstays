@@ -8,11 +8,26 @@
   "body": [
     {
       "t": "p",
-      "text": "Um novo hotel de pequeno porte e um restaurante estão sendo planejados para o vilarejo de Saarua, no lado leste do Rukatunturi, em Kuusamo, segundo o Koillissanomat. O local fica ao lado do hotel RukaValley, num terreno da Metsähallitus entre o hotel e a estrada. Por trás do projeto está o casal de empresários Sari Helin e Ilkka Lääveri, que foi ver o terreno em setembro."
+      "text": "Um novo hotel de pequeno porte e um restaurante estão sendo planejados para o vilarejo de Saarua, no lado leste do Rukatunturi, em Kuusamo, segundo o Koillissanomat."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Saarua e Ruka em resumo",
+      "items": [
+        "Situação: em fase de planejamento, ainda nada para reservar",
+        "Vilarejo de Saarua: vai levar 8–10 anos para ficar pronto",
+        "Lote do hotel: destinado a um hotel de 200–250 quartos",
+        "Hotel da Arina em Ruka: 217 quartos, pronto para a temporada de inverno 2027–2028"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "O local fica ao lado do hotel RukaValley, num terreno da Metsähallitus entre o hotel e a estrada. Por trás do projeto está o casal de empresários Sari Helin e Ilkka Lääveri, que foi ver o terreno em setembro."
     },
     {
       "t": "h2",
-      "text": "Donos de restaurantes em Helsinque e Punkaharju"
+      "text": "O casal por trás do projeto"
     },
     {
       "t": "p",
@@ -20,19 +35,27 @@
     },
     {
       "t": "h2",
-      "text": "Um novo vilarejo está surgindo em Saarua"
+      "text": "O novo vilarejo de Saarua"
     },
     {
       "t": "p",
-      "text": "Saarua fica entre as pistas de Ruka e a reserva natural de Valtavaara. A Rukakeskus Oy está construindo ali um vilarejo para pedestres com casas de temporada e apartamentos e, segundo a empresa, o vilarejo inteiro vai levar 8–10 anos para ficar pronto. No centro do vilarejo, um lote de cerca de 11.000 metros quadrados foi destinado pelo plano urbanístico a um hotel de 200–250 quartos. Ele pertence à Metsähallitus, que está aberta a conversar sobre o desenvolvimento do lote."
+      "text": "Saarua fica entre as pistas de Ruka e a reserva natural de Valtavaara. A Rukakeskus Oy está construindo ali um vilarejo para pedestres com casas de temporada e apartamentos e, segundo a empresa, o vilarejo inteiro vai levar 8–10 anos para ficar pronto."
     },
     {
       "t": "p",
-      "text": "Em 12 de maio de 2026, a Câmara Municipal de Kuusamo aprovou por unanimidade uma alteração do plano urbanístico detalhado que abrange a maior parte do centro de Ruka Leste. O objetivo é desenvolver os serviços turísticos da região e ampliar a oferta de hospedagem. A área tem cerca de 7,5 hectares e 32.300 metros quadrados de área construída permitida e, com exceção de um lote, o terreno pertence à Metsähallitus e ao município."
+      "text": "No centro do vilarejo, um lote de cerca de 11.000 metros quadrados foi destinado pelo plano urbanístico a um hotel de 200–250 quartos. Ele pertence à Metsähallitus, que está aberta a conversar sobre o desenvolvimento do lote."
+    },
+    {
+      "t": "p",
+      "text": "Em 12 de maio de 2026, a Câmara Municipal de Kuusamo aprovou por unanimidade uma alteração do plano urbanístico detalhado que abrange a maior parte do centro de Ruka Leste. O objetivo é desenvolver os serviços turísticos da região e ampliar a oferta de hospedagem."
+    },
+    {
+      "t": "p",
+      "text": "A área tem cerca de 7,5 hectares e 32.300 metros quadrados de área construída permitida e, com exceção de um lote, o terreno pertence à Metsähallitus e ao município."
     },
     {
       "t": "h2",
-      "text": "O vilarejo de Ruka também vai ganhar um grande hotel"
+      "text": "O grande hotel do vilarejo de Ruka"
     },
     {
       "t": "p",

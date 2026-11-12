@@ -8,11 +8,26 @@
   "body": [
     {
       "t": "p",
-      "text": "Kuusamon Rukatunturin itäpuolelle Saaruan kylään suunnitellaan uutta pienimuotoista hotellia ja ravintolaa, kertoo Koillissanomat. Paikka on RukaValley-hotellin vieressä, Metsähallituksen omistamalla tontilla hotellin ja tien välissä. Hankkeen takana ovat yrittäjäpariskunta Sari Helin ja Ilkka Lääveri, jotka kävivät katsomassa tonttia syyskuussa."
+      "text": "Kuusamon Rukatunturin itäpuolelle Saaruan kylään suunnitellaan uutta pienimuotoista hotellia ja ravintolaa, kertoo Koillissanomat."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Saarua ja Ruka lyhyesti",
+      "items": [
+        "Tilanne: suunnitteluvaiheessa, varattavaa ei vielä ole",
+        "Saaruan kylä: rakentaminen kestää 8–10 vuotta",
+        "Kaavoitettu hotellitontti: 200–250 huoneen hotellille",
+        "Arinan hotelli Rukalla: 217 huonetta, valmistuu talvikaudeksi 2027–2028"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Paikka on RukaValley-hotellin vieressä, Metsähallituksen omistamalla tontilla hotellin ja tien välissä. Hankkeen takana ovat yrittäjäpariskunta Sari Helin ja Ilkka Lääveri, jotka kävivät katsomassa tonttia syyskuussa."
     },
     {
       "t": "h2",
-      "text": "Ravintoloitsijat Helsingistä ja Punkaharjulta"
+      "text": "Hankkeen tekijät"
     },
     {
       "t": "p",
@@ -20,19 +35,27 @@
     },
     {
       "t": "h2",
-      "text": "Saaruaan rakentuu uusi kylä"
+      "text": "Saaruan uusi kylä"
     },
     {
       "t": "p",
-      "text": "Saarua sijaitsee Rukan rinteiden ja Valtavaaran luonnonsuojelualueen välissä. Rukakeskus Oy rakentaa sinne kävelykylää, jossa on loma-asuntoja ja huoneistoja, ja yhtiön mukaan koko kylän rakentaminen kestää 8–10 vuotta. Kylän keskelle on kaavoitettu noin 11 000 neliömetrin tontti 200–250 huoneen hotellille. Sen omistaa Metsähallitus, joka on valmis neuvottelemaan tontin toteuttamisesta."
+      "text": "Saarua sijaitsee Rukan rinteiden ja Valtavaaran luonnonsuojelualueen välissä. Rukakeskus Oy rakentaa sinne kävelykylää, jossa on loma-asuntoja ja huoneistoja, ja yhtiön mukaan koko kylän rakentaminen kestää 8–10 vuotta."
     },
     {
       "t": "p",
-      "text": "Kuusamon kaupunginvaltuusto hyväksyi 12. toukokuuta 2026 yksimielisesti asemakaavan muutoksen, joka kattaa valtaosan Itä-Rukan keskusalueesta. Kaavan tavoitteena on kehittää alueen matkailupalveluita ja monipuolistaa majoitustarjontaa. Noin 7,5 hehtaarin alueella rakennusoikeutta on 32 300 kerrosneliömetriä, ja maa on yhtä tonttia lukuun ottamatta Metsähallituksen ja kaupungin."
+      "text": "Kylän keskelle on kaavoitettu noin 11 000 neliömetrin tontti 200–250 huoneen hotellille. Sen omistaa Metsähallitus, joka on valmis neuvottelemaan tontin toteuttamisesta."
+    },
+    {
+      "t": "p",
+      "text": "Kuusamon kaupunginvaltuusto hyväksyi 12. toukokuuta 2026 yksimielisesti asemakaavan muutoksen, joka kattaa valtaosan Itä-Rukan keskusalueesta. Kaavan tavoitteena on kehittää alueen matkailupalveluita ja monipuolistaa majoitustarjontaa."
+    },
+    {
+      "t": "p",
+      "text": "Noin 7,5 hehtaarin alueella rakennusoikeutta on 32 300 kerrosneliömetriä, ja maa on yhtä tonttia lukuun ottamatta Metsähallituksen ja kaupungin."
     },
     {
       "t": "h2",
-      "text": "Rukan kylään valmistuu myös suurhotelli"
+      "text": "Rukan kylän suurhotelli"
     },
     {
       "t": "p",

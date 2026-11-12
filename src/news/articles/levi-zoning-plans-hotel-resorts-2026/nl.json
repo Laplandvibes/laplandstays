@@ -8,6 +8,21 @@
   "body": [
     {
       "t": "p",
+      "text": "In Levi worden een nieuw hotel, resorts en vakantiewoningen gepland. De projecten zitten nog in de bestemmingsplanfase, en het aantal kamers van het hotel en de opleverdatum zijn nog niet bekend."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "De plannen voor Levi in het kort",
+      "items": [
+        "Hotel: noordoever van het meer Immeljärvi, ongeveer 4,33 hectare",
+        "Vloeroppervlak: 17.400 vierkante meter",
+        "Hotelplan ter inzage: 30 september tot en met 29 oktober 2026",
+        "Grootste plangebied: Zuidhelling, ongeveer 38 hectare"
+      ]
+    },
+    {
+      "t": "p",
       "text": "In de gemeente Kittilä zijn meerdere bestemmingsplannen in voorbereiding die met toerisme te maken hebben, en de meeste gaan over het vakantieoord Levi en de omgeving. In de plandocumenten van de gemeente staan een hotel in het centrum van Levi, resorts bij Levi en in Raattama, en vakantiewoningen op de hellingen van Levi en in Ylläsjärvi. De plannen zijn in verschillende stadia, en een deel is pas eind september gestart."
     },
     {
@@ -16,7 +31,11 @@
     },
     {
       "t": "p",
-      "text": "Het verst gevorderd is de bestemmingsplanwijziging voor de bouwblokken 207 en 208 aan de noordoever van het meer Immeljärvi in het centrum van Levi. Die maakt hotel-, winkel-, woon- en logiesgebouwen mogelijk op een terrein van ongeveer 4,33 hectare, met in totaal 17.400 vierkante meter vloeroppervlak. In het referentieontwerp staat in het zuidelijke deel van het terrein een hotel met ruimte voor een restaurant en een saunagedeelte, en in het noordelijke deel vakantieappartementen. De wijziging is aangevraagd door het bedrijf Partnos Oy."
+      "text": "Het verst gevorderd is de bestemmingsplanwijziging voor de bouwblokken 207 en 208 aan de noordoever van het meer Immeljärvi in het centrum van Levi. Die maakt hotel-, winkel-, woon- en logiesgebouwen mogelijk op een terrein van ongeveer 4,33 hectare, met in totaal 17.400 vierkante meter vloeroppervlak."
+    },
+    {
+      "t": "p",
+      "text": "In het referentieontwerp staat in het zuidelijke deel van het terrein een hotel met ruimte voor een restaurant en een saunagedeelte, en in het noordelijke deel vakantieappartementen. De wijziging is aangevraagd door het bedrijf Partnos Oy."
     },
     {
       "t": "p",
@@ -31,7 +50,8 @@
       "text": "Resorts aan de Seidantie en in Raattama"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-resortit",
       "items": [
         "Seidantie, Levi: Metsähallitus, dat de staatsgronden beheert, en het bosbouwbedrijf Tornator hebben een planwijziging aangevraagd die aan het eind van de Seidantie een resort met accommodatie mogelijk zou maken, op ongeveer 3,5 hectare. De procedure is op 30 september gestart, en volgens de planning zou de gemeenteraad het plan in juni 2027 behandelen.",
         "Harrisaajo, Raattama: op ongeveer 25,9 hectare is een klein resort gepland met 30–60 kleine verblijfseenheden voor twee tot vier personen, plus negen kavels voor vakantiewoningen. Het terrein ligt bij het dorp Raattama, over de weg ongeveer 80 km van het centrum van Kittilä. Het voorontwerp lag in juni 2026 ter inzage.",
@@ -40,10 +60,11 @@
     },
     {
       "t": "h2",
-      "text": "Vakantiewoningen op de hellingen van Levi en in Ylläsjärvi"
+      "text": "Vakantiewoningen in Levi en Ylläsjärvi"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loma-asunnot",
       "items": [
         "Zuidoosthelling van Levi en Taalo: de camping op de zuidoosthelling wordt onderzocht als gebied voor vakantiewoningen, en in Taalovaara zouden bestaande bouwrechten over meer kavels worden verdeeld. Het plangebied is ongeveer 11 hectare groot, en de procedure is op 30 september gestart. Volgens de planning zou de gemeenteraad het plan in september 2027 behandelen.",
         "Rajalammentie, Ylläsjärvi: bouwblokken voor vakantiewoningen, drie kavels voor vrijstaande woningen en een klein bouwblok voor bijvoorbeeld een café, restaurant of accommodatie, op ongeveer 1,2 km van het dorp Ylläsjärvi. Het vloeroppervlak bedraagt in totaal 13.150 vierkante meter. Het voorontwerp lag in de zomer van 2025 ter inzage."
@@ -55,7 +76,11 @@
     },
     {
       "t": "p",
-      "text": "Qua oppervlakte is het grootste van de Levi-plannen de wijziging en uitbreiding van het bestemmingsplan voor de Zuidhelling, ongeveer 38 hectare naast de zuidhellingen van Levi. De grond is eigendom van de Finse staat en Levi Ski Resort, en bij de planvorming wordt rekening gehouden met de uitkomsten van een ideeënprijsvraag van Metsähallitus en de afdeling architectuur van de Universiteit van Oulu. Wat er wordt gebouwd, is nog niet openbaar gemaakt. Volgens de planning zou de gemeenteraad het plan in februari 2027 behandelen."
+      "text": "Qua oppervlakte is het grootste van de Levi-plannen de wijziging en uitbreiding van het bestemmingsplan voor de Zuidhelling, ongeveer 38 hectare naast de zuidhellingen van Levi. De grond is eigendom van de Finse staat en Levi Ski Resort, en bij de planvorming wordt rekening gehouden met de uitkomsten van een ideeënprijsvraag van Metsähallitus en de afdeling architectuur van de Universiteit van Oulu."
+    },
+    {
+      "t": "p",
+      "text": "Wat er wordt gebouwd, is nog niet openbaar gemaakt. Volgens de planning zou de gemeenteraad het plan in februari 2027 behandelen."
     },
     {
       "t": "link",

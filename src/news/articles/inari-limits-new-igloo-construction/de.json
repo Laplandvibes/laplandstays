@@ -8,7 +8,22 @@
   "body": [
     {
       "t": "p",
-      "text": "Inari hat begonnen, den Bau von Polarlicht-Hütten zu verlangsamen. Laut Lapin Kansa hat die Gemeinde die Erteilung von Genehmigungen verschärft. Freie Grundstücke gibt es für Neuankömmlinge kaum noch, und die Linie ist in den vergangenen drei Jahren deutlich strenger geworden."
+      "text": "Inari hat begonnen, den Bau von Polarlicht-Hütten und Glasiglus zu bremsen. Für Reisende heißt das, dass neue Zimmer nur langsam hinzukommen und man die bekanntesten Häuser früher buchen sollte als bisher."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Inaris Linie in Kürze",
+      "items": [
+        "Abgelehntes Projekt: 60 Polarlicht-Hütten westlich von Ivalo",
+        "Entscheidung: Der Gemeindevorstand lehnte die Genehmigung am 4. August 2025 ab",
+        "Neue Planung: westlich von Saariselkä, bekannt gemacht am 25. März 2026",
+        "Plangebiete: etwa 110 und etwa 23 Hektar"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Laut Lapin Kansa hat die Gemeinde die Erteilung von Genehmigungen verschärft. Freie Grundstücke gibt es für Neuankömmlinge kaum noch, und die Linie ist in den vergangenen drei Jahren deutlich strenger geworden."
     },
     {
       "t": "p",
@@ -16,7 +31,7 @@
     },
     {
       "t": "h2",
-      "text": "Projekt mit 60 Hütten bei Ivalo abgelehnt"
+      "text": "Das abgelehnte Projekt bei Ivalo"
     },
     {
       "t": "p",
@@ -24,11 +39,19 @@
     },
     {
       "t": "p",
-      "text": "In seiner Entscheidung stellte der Gemeindevorstand fest, das Vorhaben schade der Planung und der sonstigen Ordnung der Bodennutzung, erschwere das Erreichen der Naturschutzziele und führe zu Bauen mit erheblichen Auswirkungen. Wo Tourismusdienste angesiedelt werden und wie viele es davon gibt, muss in einem interaktiven Planverfahren entschieden werden, in dem der Gemeinderat die Entscheidungsgewalt hat."
+      "text": "In seiner Entscheidung stellte der Gemeindevorstand fest, das Vorhaben schade der Planung und der sonstigen Ordnung der Bodennutzung, erschwere das Erreichen der Naturschutzziele und führe zu Bauen mit erheblichen Auswirkungen."
     },
     {
       "t": "p",
-      "text": "Das ELY-Zentrum Lappland hielt in seiner Stellungnahme fest, die Werte der national wertvollen Windablagerung und des Osgebiets bei Juurikangas würden am besten durch Planung gesichert. Dem Sámi-Museum Siida zufolge war die Menge an Neubau recht groß und ihre Lage sollte im Rahmen eines Plans untersucht werden. Die Rentierzüchtergenossenschaft Hammastunturi stellte fest, auf der Fläche entstehe ein für Inari großes neues Tourismusgebiet und die Ruhe des Gebiets gehe verloren."
+      "text": "Wo Tourismusdienste angesiedelt werden und wie viele es davon gibt, muss in einem interaktiven Planverfahren entschieden werden, in dem der Gemeinderat die Entscheidungsgewalt hat."
+    },
+    {
+      "t": "p",
+      "text": "Das ELY-Zentrum Lappland hielt in seiner Stellungnahme fest, die Werte der national wertvollen Windablagerung und des Osgebiets bei Juurikangas würden am besten durch Planung gesichert."
+    },
+    {
+      "t": "p",
+      "text": "Dem Sámi-Museum Siida zufolge war die Menge an Neubau recht groß und ihre Lage sollte im Rahmen eines Plans untersucht werden. Die Rentierzüchtergenossenschaft Hammastunturi stellte fest, auf der Fläche entstehe ein für Inari großes neues Tourismusgebiet und die Ruhe des Gebiets gehe verloren."
     },
     {
       "t": "h2",
@@ -40,11 +63,19 @@
     },
     {
       "t": "h2",
-      "text": "Neue Kapazität westlich von Saariselkä geplant"
+      "text": "Neue Kapazität westlich von Saariselkä"
     },
     {
       "t": "p",
-      "text": "Die Bebauungsplanung westlich von Saariselkä wurde am 25. März 2026 bekannt gemacht und wird in zwei Teilen vorbereitet. Die Planänderung und Erweiterung Kaunispää umfasst etwa 110 Hektar westlich der Nationalstraße 4, wo die Flächen für Tourismusdienste des Generalplans für Funktionen ausgewiesen werden sollen, die die Unterbringung in Saariselkä stützen. Die Erweiterung Kaunisniemi umfasst etwa 23 Hektar und würde dem Tourismusgebiet Northern Lights Village Saariselkä Wachstum ermöglichen."
+      "text": "Die Bebauungsplanung westlich von Saariselkä wurde am 25. März 2026 bekannt gemacht und wird in zwei Teilen vorbereitet."
+    },
+    {
+      "t": "p",
+      "text": "Die Planänderung und Erweiterung Kaunispää umfasst etwa 110 Hektar westlich der Nationalstraße 4, wo die Flächen für Tourismusdienste des Generalplans für Funktionen ausgewiesen werden sollen, die die Unterbringung in Saariselkä stützen. Die Erweiterung Kaunisniemi umfasst etwa 23 Hektar und würde dem Tourismusgebiet Northern Lights Village Saariselkä Wachstum ermöglichen."
+    },
+    {
+      "t": "h2",
+      "text": "Was sich dadurch ändert"
     },
     {
       "t": "p",

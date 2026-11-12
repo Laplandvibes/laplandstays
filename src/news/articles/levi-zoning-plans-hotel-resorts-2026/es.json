@@ -8,6 +8,21 @@
   "body": [
     {
       "t": "p",
+      "text": "En Levi se proyectan un nuevo hotel, resorts y viviendas vacacionales. Los proyectos siguen en fase de plan urbanístico, y todavía no se conocen ni el número de habitaciones del hotel ni su fecha de finalización."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Los planes de Levi, en breve",
+      "items": [
+        "Hotel: orilla norte del lago Immeljärvi, unas 4,33 hectáreas",
+        "Superficie construida: 17.400 metros cuadrados",
+        "Exposición pública: del 30 de septiembre al 29 de octubre de 2026",
+        "Plan más extenso: Ladera Sur, unas 38 hectáreas"
+      ]
+    },
+    {
+      "t": "p",
       "text": "En el municipio de Kittilä hay en trámite varios planes urbanísticos vinculados al turismo, y la mayoría afecta al centro turístico de Levi y sus alrededores. Los documentos de planificación del municipio contemplan un hotel en el centro de Levi, resorts cerca de Levi y en Raattama, y viviendas vacacionales en las laderas de Levi y en Ylläsjärvi. Los planes están en fases distintas, y algunos se iniciaron apenas a finales de septiembre."
     },
     {
@@ -16,7 +31,11 @@
     },
     {
       "t": "p",
-      "text": "El trámite más avanzado es la modificación del plan urbanístico detallado de las manzanas 207 y 208, en la orilla norte del lago Immeljärvi, en el centro de Levi. Permite edificios hoteleros, comerciales, residenciales y de alojamiento en un área de unas 4,33 hectáreas, con una superficie construida total de 17.400 metros cuadrados. En el diseño de referencia, un hotel con espacio para un restaurante y una zona de saunas ocupa la parte sur del terreno, y apartamentos vacacionales la parte norte. La modificación la solicitó la empresa Partnos Oy."
+      "text": "El trámite más avanzado es la modificación del plan urbanístico detallado de las manzanas 207 y 208, en la orilla norte del lago Immeljärvi, en el centro de Levi. Permite edificios hoteleros, comerciales, residenciales y de alojamiento en un área de unas 4,33 hectáreas, con una superficie construida total de 17.400 metros cuadrados."
+    },
+    {
+      "t": "p",
+      "text": "En el diseño de referencia, un hotel con espacio para un restaurante y una zona de saunas ocupa la parte sur del terreno, y apartamentos vacacionales la parte norte. La modificación la solicitó la empresa Partnos Oy."
     },
     {
       "t": "p",
@@ -28,10 +47,11 @@
     },
     {
       "t": "h2",
-      "text": "Resorts en la calle Seidantie y en Raattama"
+      "text": "Resorts en Seidantie y en Raattama"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-resortit",
       "items": [
         "Seidantie, Levi: Metsähallitus, el organismo que administra las tierras del Estado, y la empresa forestal Tornator han solicitado una modificación del plan que permitiría un resort con alojamiento al final de la calle Seidantie, en un área de unas 3,5 hectáreas. El procedimiento se inició el 30 de septiembre y, según el calendario, el concejo municipal lo debatiría en junio de 2027.",
         "Harrisaajo, Raattama: en un área de unas 25,9 hectáreas se proyecta un pequeño resort con 30–60 pequeñas unidades de alojamiento para entre dos y cuatro personas, además de nueve lotes para viviendas vacacionales. El terreno está cerca del pueblo de Raattama, a unos 80 km por carretera del centro de Kittilä. El borrador del plan estuvo en exposición pública en junio de 2026.",
@@ -40,10 +60,11 @@
     },
     {
       "t": "h2",
-      "text": "Viviendas vacacionales en las laderas de Levi y en Ylläsjärvi"
+      "text": "Viviendas vacacionales en proyecto"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loma-asunnot",
       "items": [
         "Ladera sureste de Levi y Taalo: se estudia destinar el área de camping de la ladera sureste a viviendas vacacionales, y en Taalovaara los derechos de edificación existentes se repartirían entre más parcelas. El plan abarca unas 11 hectáreas y se inició el 30 de septiembre. Según el calendario, el concejo municipal lo debatiría en septiembre de 2027.",
         "Rajalammentie, Ylläsjärvi: manzanas de viviendas vacacionales, tres lotes para casas unifamiliares y una pequeña manzana para, por ejemplo, una cafetería, un restaurante o alojamiento, a unos 1,2 km del pueblo de Ylläsjärvi. La superficie construida total es de 13.150 metros cuadrados. El borrador del plan estuvo en exposición pública en el verano de 2025."
@@ -55,7 +76,11 @@
     },
     {
       "t": "p",
-      "text": "Por superficie, el mayor de los planes de Levi es la modificación y ampliación del plan de la Ladera Sur, unas 38 hectáreas junto a las pistas de la ladera sur de Levi. Los terrenos son propiedad del Estado finlandés y de Levi Ski Resort, y la planificación tiene en cuenta los resultados de un concurso de ideas organizado por Metsähallitus y la unidad de arquitectura de la Universidad de Oulu. Aún no se ha hecho público qué se construirá allí. Según el calendario, el concejo municipal debatiría el plan en febrero de 2027."
+      "text": "Por superficie, el mayor de los planes de Levi es la modificación y ampliación del plan de la Ladera Sur, unas 38 hectáreas junto a las pistas de la ladera sur de Levi. Los terrenos son propiedad del Estado finlandés y de Levi Ski Resort, y la planificación tiene en cuenta los resultados de un concurso de ideas organizado por Metsähallitus y la unidad de arquitectura de la Universidad de Oulu."
+    },
+    {
+      "t": "p",
+      "text": "Aún no se ha hecho público qué se construirá allí. Según el calendario, el concejo municipal debatiría el plan en febrero de 2027."
     },
     {
       "t": "link",

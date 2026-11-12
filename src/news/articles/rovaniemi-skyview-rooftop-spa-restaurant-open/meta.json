@@ -72,5 +72,10 @@
   "ogCard": {
     "line": "Rooftop spa opens in Rovaniemi",
     "focus": "50% 50%"
+  },
+  "embeds": {
+    "facts-lyhyesti": {
+      "kind": "facts"
+    }
   }
 }

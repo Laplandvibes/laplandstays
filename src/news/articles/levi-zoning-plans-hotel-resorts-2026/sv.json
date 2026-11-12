@@ -8,6 +8,21 @@
   "body": [
     {
       "t": "p",
+      "text": "I Levi planeras ett nytt hotell, resorter och fritidsbostäder. Projekten är ännu i planskedet, och varken hotellets antal rum eller när det blir klart är känt."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Levis planer i korthet",
+      "items": [
+        "Hotell: Immeljärvis norra strand, cirka 4,33 hektar",
+        "Våningsyta: 17 400 kvadratmeter",
+        "Hotellplanen utställd: 30 september till 29 oktober 2026",
+        "Största planområdet: Södra sluttningen, cirka 38 hektar"
+      ]
+    },
+    {
+      "t": "p",
       "text": "Flera planer med anknytning till turismen är anhängiga i Kittilä kommun, och de flesta gäller turistorten Levi och området runt den. I kommunens planhandlingar finns ett hotell i Levi centrum, resorter nära Levi och i Raattama samt fritidsbostäder i Levis sluttningar och i Ylläsjärvi. Planerna befinner sig i olika skeden, och några inleddes först i slutet av september."
     },
     {
@@ -16,7 +31,11 @@
     },
     {
       "t": "p",
-      "text": "Längst framskriden är detaljplaneändringen för kvarteren 207 och 208 vid Immeljärvis norra strand i Levi centrum. Den tillåter hotell-, affärs-, bostads- och inkvarteringsbyggnader inom ett område på cirka 4,33 hektar, med sammanlagt 17 400 kvadratmeter våningsyta. I referensplanen ligger ett hotell med plats för en restaurang och en bastuavdelning i områdets södra del, och semesterlägenheter i den norra delen. Ändringen har sökts av bolaget Partnos Oy."
+      "text": "Längst framskriden är detaljplaneändringen för kvarteren 207 och 208 vid Immeljärvis norra strand i Levi centrum. Den tillåter hotell-, affärs-, bostads- och inkvarteringsbyggnader inom ett område på cirka 4,33 hektar, med sammanlagt 17 400 kvadratmeter våningsyta."
+    },
+    {
+      "t": "p",
+      "text": "I referensplanen ligger ett hotell med plats för en restaurang och en bastuavdelning i områdets södra del, och semesterlägenheter i den norra delen. Ändringen har sökts av bolaget Partnos Oy."
     },
     {
       "t": "p",
@@ -31,7 +50,8 @@
       "text": "Resorter vid Seidantie och i Raattama"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-resortit",
       "items": [
         "Seidantie, Levi: Forststyrelsen, som förvaltar statens mark, och skogsbolaget Tornator har ansökt om en planändring som skulle tillåta en resort med inkvartering i slutet av Seidantie, på cirka 3,5 hektar. Planläggningen inleddes den 30 september, och enligt tidtabellen skulle kommunfullmäktige behandla den i juni 2027.",
         "Harrisaajo, Raattama: på cirka 25,9 hektar planeras en liten resort med 30–60 små boendeenheter för två till fyra personer, samt nio tomter för fritidshus. Området ligger nära byn Raattama, cirka 80 km längs vägen från Kittilä centrum. Planutkastet var utställt i juni 2026.",
@@ -40,10 +60,11 @@
     },
     {
       "t": "h2",
-      "text": "Fritidsbostäder i Levis sluttningar och i Ylläsjärvi"
+      "text": "Fritidsbostäder i Levi och Ylläsjärvi"
     },
     {
-      "t": "ul",
+      "t": "embed",
+      "id": "facts-loma-asunnot",
       "items": [
         "Levis sydöstra sluttning och Taalo: campingområdet i den sydöstra sluttningen utreds som område för fritidsbostäder, och i Taalovaara skulle befintlig byggrätt fördelas på fler tomter. Planområdet omfattar cirka 11 hektar, och planläggningen inleddes den 30 september. Enligt tidtabellen skulle fullmäktige behandla den i september 2027.",
         "Rajalammentie, Ylläsjärvi: kvarter för fritidsbostäder, tre egnahemstomter och ett litet kvarter för till exempel ett kafé, en restaurang eller inkvartering, cirka 1,2 km från Ylläsjärvi by. Den sammanlagda våningsytan är 13 150 kvadratmeter. Planutkastet var utställt sommaren 2025."
@@ -55,7 +76,11 @@
     },
     {
       "t": "p",
-      "text": "Till ytan störst av Levis planer är ändringen och utvidgningen av detaljplanen för Södra sluttningen, cirka 38 hektar intill Levis södra backar. Marken ägs av finska staten och Levi Ski Resort, och i planeringen beaktas resultaten av en idétävling som Forststyrelsen och enheten för arkitektur vid Uleåborgs universitet har ordnat. Vad som ska byggas där har ännu inte offentliggjorts. Enligt tidtabellen skulle fullmäktige behandla planen i februari 2027."
+      "text": "Till ytan störst av Levis planer är ändringen och utvidgningen av detaljplanen för Södra sluttningen, cirka 38 hektar intill Levis södra backar. Marken ägs av finska staten och Levi Ski Resort, och i planeringen beaktas resultaten av en idétävling som Forststyrelsen och enheten för arkitektur vid Uleåborgs universitet har ordnat."
+    },
+    {
+      "t": "p",
+      "text": "Vad som ska byggas där har ännu inte offentliggjorts. Enligt tidtabellen skulle fullmäktige behandla planen i februari 2027."
     },
     {
       "t": "link",

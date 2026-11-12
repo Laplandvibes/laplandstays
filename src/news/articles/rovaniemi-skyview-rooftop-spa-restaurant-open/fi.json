@@ -2,13 +2,29 @@
   "title": "Rovaniemen igluresortin kattokylpylä avautui kaikille",
   "seoTitle": "SkyView Rovaniemi: kattokylpylä ja ravintola auki",
   "description": "Olleronvaaran SkyView Igloo Resortin kattokylpylä ja Tomi Björckin kanssa luotu ravintola Aura palvelevat myös muita kuin yöpyviä. Hinnat ja ajat.",
-  "dek": "Kylpylä Arctic Spa Culta avautui 16. lokakuuta. Kahden tunnin vuoro maksaa 129 euroa, ja kerrallaan sisään otetaan enintään 16 asiakasta.",
+  "dek": "Kylpylä Arctic Spa Culta avautui lokakuussa. Kahden tunnin vuoro maksaa 129 euroa, ja kerrallaan sisään otetaan enintään 16 asiakasta.",
   "heroAlt": "Näkymä Ounasvaaran laskettelurinteestä Rovaniemellä kesällä: etualalla tuolihissi ja mäntyjä, keskellä Kemijoki ja sen teräksiset sillat, vastarannalla taloja metsän keskellä.",
   "heroCaption": "Rovaniemi ja Kemijoen sillat Ounasvaaran rinteestä kesällä kuvattuna. SkyView Igloo Resort on toisella vaaralla, Olleronvaarassa, noin 10 kilometrin päässä keskustasta.",
   "body": [
     {
       "t": "p",
-      "text": "Rovaniemen Olleronvaarassa toimiva SkyView Igloo Resort on avannut kattokylpylän ja ravintolan, jotka ottavat vastaan myös muita kuin resortissa yöpyviä. Kylpylä Arctic Spa Culta avautui yhtiön mukaan 16. lokakuuta, ja sen katolla on lämmitetty infinity-allas ja panoraamasauna. Ravintola Aura on luotu yhdessä kokki Tomi Björckin kanssa."
+      "text": "Rovaniemen Olleronvaarassa toimiva SkyView Igloo Resort on avannut kattokylpylän ja ravintolan, jotka ottavat vastaan myös muita kuin resortissa yöpyviä."
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "Kylpylä ja ravintola lyhyesti",
+      "items": [
+        "Kylpylävuoro: 129 euroa hengeltä, kaksi tuntia",
+        "Vuorot alkavat: kello 9, 12, 15, 18 ja 21",
+        "Paikkoja: enintään 16 kerrallaan",
+        "Aamiaisbuffet: 39 euroa, kello 7–11",
+        "Päivällinen: kello 17–23"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "Kylpylä Arctic Spa Culta avautui yhtiön mukaan 16. lokakuuta, ja sen katolla on lämmitetty infinity-allas ja panoraamasauna. Ravintola Aura on luotu yhdessä kokki Tomi Björckin kanssa."
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "Kylpylävuoro maksaa 129 euroa"
+      "text": "Kylpylän vuorot ja hinta"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Aurassa pohjoisen raaka-aineita ja Aasian makuja"
+      "text": "Ravintola Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "Iglut ovat kaksikerroksisia"
+      "text": "Iglut ja sijainti"
     },
     {
       "t": "p",

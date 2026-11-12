@@ -22,6 +22,7 @@ import { useLocalePath } from '../i18n/useLang'
 import { useCopy } from '../locales/copy'
 import type { NewsBlock, NewsMeta } from './types'
 import { renderStaysEmbed } from './embeds'
+import { renderFactsEmbed } from './factsEmbeds'
 import './news.css'
 
 export const SITE = {
@@ -95,7 +96,7 @@ export function useNewsHead(m: {
 
 /** Jutun omat upotukset (viikkokortit, lukupaneeli): src/news/embeds.tsx. */
 export function renderEmbed(block: Extract<NewsBlock, { t: 'embed' }>, meta: NewsMeta): ReactNode {
-  return renderStaysEmbed(block, meta)
+  return renderFactsEmbed(block, meta) ?? renderStaysEmbed(block, meta)
 }
 
 /** Tällä sivustolla ei ole jutun alle tulevaa mainosruudukkoa. */

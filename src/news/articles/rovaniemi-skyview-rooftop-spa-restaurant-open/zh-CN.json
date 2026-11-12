@@ -2,13 +2,29 @@
   "title": "羅瓦涅米玻璃屋度假村的屋頂水療與餐廳對外開放",
   "seoTitle": "SkyView 羅瓦涅米：屋頂水療與餐廳開放",
   "description": "羅瓦涅米Olleronvaara的SkyView Igloo Resort屋頂水療，以及與主廚Tomi Björck打造的餐廳Aura，也對不住宿的客人開放。",
-  "dek": "水療中心Arctic Spa Culta於10月16日開放。兩小時的場次每人129歐元，每場最多只接待16位客人。",
+  "dek": "水療中心Arctic Spa Culta已經開放。兩小時的場次每人129歐元，每場最多只接待16位客人。",
   "heroAlt": "夏天從羅瓦涅米Ounasvaara滑雪坡上看到的景象：前景是纜椅和松樹，中間是Kemijoki河和河上的鋼橋，對岸的樹林間有房屋。",
   "heroCaption": "夏天從Ounasvaara滑雪坡上看到的羅瓦涅米和Kemijoki河上的橋。SkyView Igloo Resort位於另一座山丘Olleronvaara，距市中心約10公里。",
   "body": [
     {
       "t": "p",
-      "text": "位於羅瓦涅米Olleronvaara的SkyView Igloo Resort開放了屋頂水療中心和一家餐廳，兩者也接待不在度假村住宿的客人。據該公司介紹，水療中心Arctic Spa Culta於10月16日開放，屋頂上有一座溫水無邊泳池和一間全景桑拿。餐廳Aura是與主廚Tomi Björck共同打造的。"
+      "text": "位於羅瓦涅米Olleronvaara的SkyView Igloo Resort開放了屋頂水療中心和一家餐廳，兩者也接待不在度假村住宿的客人。"
+    },
+    {
+      "t": "embed",
+      "id": "facts-lyhyesti",
+      "title": "水療中心與餐廳速覽",
+      "items": [
+        "水療場次：每人129歐元，兩小時",
+        "開始時間：9點、12點、15點、18點、21點",
+        "名額：每場最多16位客人",
+        "早餐自助餐：每人39歐元，7點到11點",
+        "晚餐：17點到23點"
+      ]
+    },
+    {
+      "t": "p",
+      "text": "據該公司介紹，水療中心Arctic Spa Culta於10月16日開放，屋頂上有一座溫水無邊泳池和一間全景桑拿。餐廳Aura是與主廚Tomi Björck共同打造的。"
     },
     {
       "t": "p",
@@ -16,7 +32,7 @@
     },
     {
       "t": "h2",
-      "text": "一次水療場次129歐元"
+      "text": "水療場次與價格"
     },
     {
       "t": "p",
@@ -28,7 +44,7 @@
     },
     {
       "t": "h2",
-      "text": "Aura的北方食材與亞洲風味"
+      "text": "餐廳Aura"
     },
     {
       "t": "p",
@@ -44,7 +60,7 @@
     },
     {
       "t": "h2",
-      "text": "玻璃屋有兩層"
+      "text": "玻璃屋與位置"
     },
     {
       "t": "p",
