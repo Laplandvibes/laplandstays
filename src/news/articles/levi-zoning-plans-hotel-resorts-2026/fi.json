@@ -1,8 +1,8 @@
 {
   "title": "Levin kaavoissa uusi hotelli, resortteja ja loma-asuntoja",
   "seoTitle": "Levin uusi hotelli ja resortit: vireillä olevat kaavat",
-  "description": "Immeljärven rantaan suunnitellun hotellin kaavaehdotukseen voi jättää muistutuksen 29. lokakuuta asti. Resortteja suunnitellaan Seidantielle ja Raattamaan.",
-  "dek": "Hotellikaava on pisimmällä, ja sen ehdotus on nähtävillä lokakuun loppuun. Useimmat muut kaavat ovat vasta alkuvaiheessa, ja suurimman alueen sisältöä ei ole vielä kerrottu.",
+  "description": "Immeljärven rantaan suunnitellun hotellin kaavaehdotukseen sai jättää muistutuksen 29. lokakuuta asti. Resortteja suunnitellaan Seidantielle ja Raattamaan.",
+  "dek": "Hotellikaava on pisimmällä, ja sen ehdotus oli nähtävillä lokakuun loppuun. Useimmat muut kaavat ovat vasta alkuvaiheessa, ja suurimman alueen sisältöä ei ole vielä kerrottu.",
   "heroAlt": "Levin eturinteet valaistuina lokakuun iltana: valonheittimet nousevat rinnettä ylös sumuun, ohut lumi peittää rinteet, ja oikealla erottuvat hissin mastot.",
   "heroCaption": "Levin eturinteet valaistuina lokakuussa 2026.",
   "body": [
@@ -17,7 +17,7 @@
       "items": [
         "Hotelli: Immeljärven pohjoisranta, noin 4,33 hehtaaria",
         "Rakennusoikeus: 17 400 kerrosneliömetriä",
-        "Hotellikaava nähtävillä: 30. syyskuuta–29. lokakuuta 2026",
+        "Hotellikaava oli nähtävillä: 30. syyskuuta–29. lokakuuta 2026",
         "Suurin kaava-alue: Etelärinne, noin 38 hehtaaria"
       ]
     },
@@ -43,7 +43,7 @@
     },
     {
       "t": "p",
-      "text": "Kaavaehdotus on nähtävillä 30. syyskuuta–29. lokakuuta 2026. Kirjallisen muistutuksen voi jättää Kittilän kunnan tekniselle lautakunnalle 29. lokakuuta klo 16.00 mennessä."
+      "text": "Kaavaehdotus oli nähtävillä 30. syyskuuta–29. lokakuuta 2026. Kirjallisen muistutuksen sai jättää Kittilän kunnan tekniselle lautakunnalle 29. lokakuuta klo 16.00 mennessä."
     },
     {
       "t": "h2",

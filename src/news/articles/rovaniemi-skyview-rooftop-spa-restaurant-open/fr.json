@@ -16,10 +16,10 @@
       "title": "Le spa et le restaurant en bref",
       "items": [
         "Séance de spa : 129 euros par personne, deux heures",
-        "Début des séances : à 9, 12, 15, 18 et 21 heures",
+        "Début des séances : 9, 12, 15, 18 et 21 heures",
         "Places : 16 clients au maximum à la fois",
         "Buffet du petit-déjeuner : 39 euros, de 7 à 11 heures",
-        "Dîner : de 17 à 23 heures"
+        "Horaires du dîner : 17 à 23 heures"
       ]
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "t": "p",
-      "text": "Le Menu Björck, cinq services conçus pour les semaines d’ouverture, coûte 89 euros par personne et est servi à toute la table. Selon le restaurant, il reste à la carte jusqu’au 31 octobre, soit encore quelques jours."
+      "text": "Le Menu Björck, cinq services conçus pour les semaines d’ouverture, coûtait 89 euros par personne et était servi à toute la table. Selon le restaurant, il restait à la carte jusqu’au 31 octobre."
     },
     {
       "t": "h2",

@@ -16,10 +16,10 @@
       "title": "Spa e restaurante em resumo",
       "items": [
         "Turno no spa: 129 euros por pessoa, duas horas",
-        "Início dos turnos: às 9, às 12, às 15, às 18 e às 21",
+        "Horários de início: 9, 12, 15, 18 e 21",
         "Vagas: no máximo 16 pessoas por vez",
         "Café da manhã: bufê por 39 euros, das 7 às 11",
-        "Jantar: das 17 às 23"
+        "Horário do jantar: 17 às 23"
       ]
     },
     {
@@ -56,7 +56,7 @@
     },
     {
       "t": "p",
-      "text": "O Menu Björck, de cinco tempos e criado para as semanas de abertura, custa 89 euros por pessoa e é servido para a mesa toda. Segundo o restaurante, ele fica no cardápio até 31 de outubro, ou seja, por mais alguns dias apenas."
+      "text": "O Menu Björck, de cinco tempos e criado para as semanas de abertura, custava 89 euros por pessoa e era servido para a mesa toda. Segundo o restaurante, ele ficava no cardápio até 31 de outubro."
     },
     {
       "t": "h2",
