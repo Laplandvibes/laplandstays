@@ -1,9 +1,9 @@
 {
-  "version": "0e762c9e",
+  "version": "7578256d",
   "domain": "laplandstays.com",
   "brand": "STAYS",
   "tagline": "Glass igloos, cabins and hotels",
-  "generated": "2026-10-09T17:33:27.591Z",
+  "generated": "2026-11-12T10:38:39.200Z",
   "staticFallbackSeason": "winter",
   "seasons": {
     "summer": {
@@ -11,18 +11,20 @@
       "heroUrl": "https://laplandstays.com/images/hero-summer.webp",
       "heroAlt": "A cabin with large windows among tall pines on a rocky lakeshore, a deck and a hammock in front, in low golden sun",
       "heroSha": "f9d3ab4be0c73c59",
-      "bytes": 226643,
-      "sha256": "dd5c38db671564590ac56219ac9bd820623ac0964f121c121cc10926981d3834",
+      "bytes": 224301,
+      "sha256": "7ec15ebe71d9f7447df2e168bbecdc40267d5bd4a58f81d819c5e3d7d64ded39",
       "bandH": 168,
       "photoPct": 73.3,
       "ink": 15417,
       "inkBox": [
         365,
-        493,
+        26,
         835,
-        603
+        136
       ],
       "safe": true,
+      "palkki": "yla",
+      "xVapaa": true,
       "accentP10": 5.06,
       "accentMed": 5.06,
       "whiteP10": 17.08,
@@ -50,18 +52,20 @@
       "heroUrl": "https://laplandstays.com/images/hero-alt-2560.webp",
       "heroAlt": "Green and yellow northern lights over a row of dark pines under a starry sky",
       "heroSha": "260ca95f1e33bda9",
-      "bytes": 146291,
-      "sha256": "4bba5101e0f177dca98357a8ec020d65fa4bc594a4dfcd486596c21f75032d06",
+      "bytes": 143837,
+      "sha256": "b5f967063e63e96839d5f55e3eafeaa2d9f8b28f17f7c436fcbb34f24d75365b",
       "bandH": 168,
       "photoPct": 73.3,
       "ink": 14995,
       "inkBox": [
         388,
-        493,
+        26,
         812,
-        603
+        136
       ],
       "safe": true,
+      "palkki": "yla",
+      "xVapaa": true,
       "accentP10": 5.06,
       "accentMed": 5.06,
       "whiteP10": 17.08,
