@@ -28,13 +28,25 @@ const loaders: Record<Lang, () => Promise<{ default: Copy }>> = {
 }
 
 const cache: Partial<Record<Lang, Copy>> = {}
+
+/**
+ * Oma sid tälle osiolle (13.11.2026). HOTEL_SEARCH_FOR antaa linkit valmiilla sidillä `hero_cta` / `destination_levi`, joten
+ * tämän osion klikit ja näytöt sekoittuivat Workerin lokissa heron ja kohdekorttien kanssa: osion paikkaa ei voinut mitata.
+ */
+function omaSid(href: string, sid: string): string {
+  const u = new URL(href)
+  u.searchParams.set('sid', sid)
+  return u.toString()
+}
 preloadLazyCopy(cache, loaders)
 
 export default function BookingCTA() {
   const lang = useLang()
   const c = useCopy<Copy>(enCopy, loaders, cache)
-  const onPrimary = () => trackAffiliateClick('lodging', 'final_cta_primary', HOTEL_SEARCH_FOR(lang).lapland)
-  const onSecondary = () => trackAffiliateClick('lodging', 'final_cta_secondary', HOTEL_SEARCH_FOR(lang).levi)
+  const primaryHref = omaSid(HOTEL_SEARCH_FOR(lang).lapland, 'final_cta_primary')
+  const secondaryHref = omaSid(HOTEL_SEARCH_FOR(lang).levi, 'final_cta_secondary')
+  const onPrimary = () => trackAffiliateClick('lodging', 'final_cta_primary', primaryHref)
+  const onSecondary = () => trackAffiliateClick('lodging', 'final_cta_secondary', secondaryHref)
 
   return (
     <section className="py-20 sm:py-28 px-4 sm:px-6 relative overflow-hidden">
@@ -62,7 +74,7 @@ export default function BookingCTA() {
             secondary becomes a quiet text link instead of a twin button. */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-5 sm:gap-8 mb-10">
           <a
-            href={HOTEL_SEARCH_FOR(lang).lapland}
+            href={primaryHref}
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onPrimary}
@@ -72,7 +84,7 @@ export default function BookingCTA() {
             <ArrowRight className="w-4 h-4" />
           </a>
           <a
-            href={HOTEL_SEARCH_FOR(lang).levi}
+            href={secondaryHref}
             target="_blank"
             rel="sponsored nofollow noopener"
             onClick={onSecondary}
