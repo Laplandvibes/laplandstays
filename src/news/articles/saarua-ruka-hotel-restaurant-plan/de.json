@@ -4,7 +4,7 @@
   "description": "Neben dem Hotel RukaValley in Saarua sind ein kleines Hotel und ein Restaurant geplant. Das Paar dahinter besitzt Restaurants in Helsinki und Savonlinna.",
   "dek": "Das Grundstück gehört Metsähallitus, die Unternehmer haben es sich im September angesehen. Das Projekt ist noch in der Planungsphase, buchen lässt sich also noch nichts.",
   "heroAlt": "Der Dorfplatz von Ruka an einem Oktobermorgen nach dem ersten Schnee: in der Mitte ein weißes Gebäude mit Kegeldach, dahinter der verschneite Hang des Rukatunturi und Kabinen der Gondelbahn, zu beiden Seiten Hotelgebäude unter blauem Himmel.",
-  "heroCaption": "Das Dorf Ruka am Fuß des Fjälls im Oktober 2026. Saarua liegt auf der Ostseite des Fjälls.",
+  "heroCaption": "Das Dorf Ruka am Fuß des Fjells im Oktober 2026. Saarua liegt auf der Ostseite des Fjells.",
   "body": [
     {
       "t": "p",
@@ -60,7 +60,7 @@
     },
     {
       "t": "p",
-      "text": "Im Dorf Ruka auf der anderen Seite des Fjälls baut die Genossenschaft Osuuskauppa Arina ein siebengeschossiges Hotel mit 217 Zimmern. Laut Yle soll es zur Wintersaison 2027–2028 fertig sein."
+      "text": "Im Dorf Ruka auf der anderen Seite des Fjells baut die Genossenschaft Osuuskauppa Arina ein siebengeschossiges Hotel mit 217 Zimmern. Laut Yle soll es zur Wintersaison 2027–2028 fertig sein."
     },
     {
       "t": "link",

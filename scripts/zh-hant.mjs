@@ -96,6 +96,7 @@ const TW_TERMS = [
   ['伊納裡', '伊納里'], // Inari — GSC-haku 伊納里 110/kk (Taiwan 2158), zh-tw-Wikipedia 伊納里
   ['於拉斯圖裡國', '於拉斯通圖里國'], // Pallas-Yllästunturi: lähteestä puuttui 通 (natiivikatselmus A 18.9.)
   ['通圖裡', '通圖里'], // Yllästunturi = 於拉斯通圖里
+  ['裡孔穆奧特卡', '里孔穆奧特卡'], // Riikonmuotka (Levi): translitteroinnin 里, ei 裡 'sisällä' (natiiviluku 12.11.2026)
   ['國立公園', '國家公園'], // Taiwanin virallinen termi (國家公園法); 國立公園 on japania
   // Sanasto — OpenCC:n s2twp jätti Manner-Kiinan sanan tai valitsi IT-termin (natiivikatselmus A 18.9.)
   ['酒店', '飯店'], // hotelli: Taiwanissa 飯店; 酒店 tarkoittaa arkikielessä viihderavintolaa

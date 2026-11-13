@@ -4,7 +4,7 @@
   "description": "Um pequeno hotel e um restaurante estão previstos junto ao hotel RukaValley, em Saarua. O casal por trás do projeto tem restaurantes em Helsinque e Savonlinna.",
   "dek": "O terreno é da Metsähallitus, e os empresários foram vê-lo em setembro. O projeto está na fase de planejamento, então ainda não há nada para reservar.",
   "heroAlt": "A praça do vilarejo de Ruka numa manhã de outubro, depois da primeira neve: no centro, um prédio branco com telhado cônico; atrás dele, a encosta nevada do Rukatunturi e cabines do teleférico; e, dos dois lados, prédios de hotel sob um céu azul.",
-  "heroCaption": "O vilarejo de Ruka ao pé do fjäll, em outubro de 2026. Saarua fica do lado leste do fjäll.",
+  "heroCaption": "O vilarejo de Ruka ao pé da montanha, em outubro de 2026. Saarua fica do lado leste da montanha.",
   "body": [
     {
       "t": "p",
@@ -60,7 +60,7 @@
     },
     {
       "t": "p",
-      "text": "No vilarejo de Ruka, do outro lado do fjäll, a cooperativa Osuuskauppa Arina está construindo um hotel de sete andares com 217 quartos. Segundo a Yle, ele ficará pronto para a temporada de inverno 2027–2028."
+      "text": "No vilarejo de Ruka, do outro lado da montanha, a cooperativa Osuuskauppa Arina está construindo um hotel de sete andares com 217 quartos. Segundo a Yle, ele ficará pronto para a temporada de inverno 2027–2028."
     },
     {
       "t": "link",

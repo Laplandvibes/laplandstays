@@ -4,7 +4,7 @@
   "description": "Accanto all’hotel RukaValley, a Saarua, sono in progetto un piccolo hotel e un ristorante. La coppia dietro il progetto ha ristoranti a Helsinki e a Savonlinna.",
   "dek": "Il terreno appartiene a Metsähallitus e a settembre gli imprenditori sono andati a vederlo. Il progetto è ancora in fase di pianificazione, quindi per ora non c’è nulla da prenotare.",
   "heroAlt": "La piazza del villaggio di Ruka in una mattina di ottobre dopo la prima neve: al centro un edificio bianco con il tetto conico, alle sue spalle il pendio innevato del Rukatunturi e le cabine della cabinovia, ai lati edifici alberghieri sotto un cielo azzurro.",
-  "heroCaption": "Il villaggio di Ruka ai piedi del fjäll, a ottobre 2026. Saarua si trova sul versante est del fjäll.",
+  "heroCaption": "Il villaggio di Ruka ai piedi del fjell, a ottobre 2026. Saarua si trova sul versante est del fjell.",
   "body": [
     {
       "t": "p",
@@ -60,7 +60,7 @@
     },
     {
       "t": "p",
-      "text": "Nel villaggio di Ruka, sull’altro versante del fjäll, la cooperativa Osuuskauppa Arina sta costruendo un hotel di sette piani con 217 camere. Secondo Yle sarà pronto per la stagione invernale 2027–2028."
+      "text": "Nel villaggio di Ruka, sull’altro versante del fjell, la cooperativa Osuuskauppa Arina sta costruendo un hotel di sette piani con 217 camere. Secondo Yle sarà pronto per la stagione invernale 2027–2028."
     },
     {
       "t": "link",
