@@ -105,7 +105,8 @@
 .nw .nw-dek{font-size:clamp(17px,2.1vw,21px);line-height:1.5;max-width:60ch;margin-top:16px}
 .nw .nw-art-meta{padding-top:18px;padding-bottom:4px}
 .nw .nw-byline{color:var(--muted);font-size:14px;line-height:1.6;margin:0}
-.nw .nw-art-cap{font-size:14px;line-height:1.55;color:var(--muted);margin-top:6px}
+/* 13.11.2026 lv_permanent_rules §33: kuvateksti on leipätekstiä ⇒ 16 px (oli 14). blogiarkki-portti mittaa sen nyt myös uutisista. */
+.nw .nw-art-cap{font-size:16px;line-height:1.55;color:var(--muted);margin-top:6px}
 .nw .nw-credit a{color:var(--ink2);text-decoration:underline;text-underline-offset:2px}
 @media(max-width:640px){.nw .nw-head{padding:96px 0 44px}}
 /* 14.10.2026: alle 375 px 36 px:n otsikko kiersi neljälle riville (360 px: en/fi/de, es/pt-BR); 34 px:llä
