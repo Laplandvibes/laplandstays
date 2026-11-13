@@ -104,6 +104,34 @@ function localizeCrumbs(node: unknown, localePrefix: string, pageUrl: string): u
   return node
 }
 
+// Muiden schema-olioiden (Article.mainEntityOfPage, TouristDestination/City.url, Person.url) sisäiset osoitteet
+// samaan muotoon kuin kanoninen, hreflang ja sivukartta: sivun OMA kieliversio ja loppukauttaviiva. Ne olivat
+// englannin kauttaviivattomia (https://laplandstays.com/about, joka ohjautuu 308) joka kielellä; murupolku oli jo
+// korjattu 20.10. (localizeCrumbs). Mitattu 12.–13.11.2026, mittari lv-ops scripts/audit_jsonld_osoitteet.mjs.
+// - sivun oma osoite (canonicalPath tai jokin hreflangPaths-poluista, esim. /glass-igloos ↔ /iglumajoitus) → pageUrl
+// - muu polullinen osoite → sivun kieliversio + kauttaviiva; juuri → https://laplandstays.com/
+// - tiedostot (.jpg), ankkurit ja ulkoiset osoitteet jäävät ennalleen; BreadcrumbList hoidetaan localizeCrumbsissa
+const INTERNAL_URL = /^https:\/\/laplandstays\.com((?:\/[A-Za-z0-9_-]+)*)\/?$/
+function localizeUrls(node: unknown, localePrefix: string, pageUrl: string, ownPaths: Set<string>, key = ''): unknown {
+  if (typeof node === 'string') {
+    const m = INTERNAL_URL.exec(node)
+    if (!m) return node
+    const raw = m[1] || '/'
+    if (raw === '/' && key !== 'item') return `${SITE_URL}/`
+    const path = raw.replace(LOCALE_PATH_RE, '') || '/'
+    if (ownPaths.has(path)) return pageUrl
+    return `${SITE_URL}${localePrefix}${path === '/' ? '' : path}/`
+  }
+  if (Array.isArray(node)) return node.map((n) => localizeUrls(n, localePrefix, pageUrl, ownPaths, key))
+  if (node && typeof node === 'object') {
+    if ((node as { '@type'?: unknown })['@type'] === 'BreadcrumbList') return node
+    const out: Record<string, unknown> = {}
+    for (const [k, v] of Object.entries(node as Record<string, unknown>)) out[k] = localizeUrls(v, localePrefix, pageUrl, ownPaths, k)
+    return out
+  }
+  return node
+}
+
 export default function SEO({
   title,
   description,
@@ -129,7 +157,12 @@ export default function SEO({
   const pageUrl = `${SITE_URL}${localePrefix}${canonicalPath}`.replace(/\/?$/, '/')
   const jsonLdItems = jsonLd
     ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).map(
-        (obj) => localizeCrumbs(injectInLanguage(JSON.parse(JSON.stringify(obj)), bcp47), localePrefix, pageUrl) as object,
+        (obj) => localizeUrls(
+          localizeCrumbs(injectInLanguage(JSON.parse(JSON.stringify(obj)), bcp47), localePrefix, pageUrl),
+          localePrefix,
+          pageUrl,
+          new Set([canonicalPath, ...Object.values(hreflangPaths ?? {})].filter((p): p is string => !!p).map((p) => p.replace(/\/+$/, '') || '/')),
+        ) as object,
       )
     : []
 
