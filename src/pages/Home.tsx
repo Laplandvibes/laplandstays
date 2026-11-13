@@ -190,6 +190,10 @@ export default function Home() {
       ) : (
         <HomeAdSlots config={AD_SLOTS} locale={lang} surface="light" />
       )}
+      {/* Majoitushaku heti esiteltyjen kohteiden ja maksetun kumppanin jälkeen (Vesa 13.11.2026: "nosta ylemmäksi"). Oli sivun
+          lopussa UKK:n jälkeen: klikkiloki 18.10.–12.11. ei kirjannut sille yhtään näyttöä. Maksetun kumppanin alapuolella, jotta
+          se ei vie kumppanin paikkaa. */}
+      <BookingCTA />
       {/* Oikea tuoterivi tyhjän house-ad-kortin tilalle (Vesa 4.9.). */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
         <ProductRail partner={finlaysonRail} snapshot={finlaysonPicks} lang={lang as RailLang} sid="home_bed_linen" variant="light" />
@@ -210,7 +214,6 @@ export default function Home() {
       <Reviews />
       <ActivitiesCrossSell />
       <FAQSection items={faqItems} />
-      <BookingCTA />
       {/* EKTA travel-insurance ad removed 2026-07-03 (Vesa): off-topic for an
           accommodation site; the relevant Lomarengas cabin ad stays above. */}
       <Newsletter />
