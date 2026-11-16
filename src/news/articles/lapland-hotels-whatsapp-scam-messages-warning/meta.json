@@ -1,0 +1,55 @@
+{
+  "slug": "lapland-hotels-whatsapp-scam-messages-warning",
+  "date": "2026-11-16",
+  "hero": {
+    "src": "/images/news/saariselka-village-dusk-october-2026-1600.webp",
+    "srcSmall": "/images/news/saariselka-village-dusk-october-2026-800.webp",
+    "width": 1600,
+    "height": 901,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandstays.com/about",
+      "sourceUrl": "https://laplandstays.com/about",
+      "assetId": "20261011_183633",
+      "sourceName": "Saariselkä 2026-10-11",
+      "taken": "2026-10-11",
+      "retrieved": "2026-11-16"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Lapland Hotels & Safaris",
+      "title": "Asiakastiedote: Lapland Hotelsin nimissä lähetettävät WhatsApp-viestit – älkää avatko viesteissä olevia linkkejä",
+      "lang": "fi",
+      "url": "https://www.laplandhotels.com/fi/tietoa-meista/tiedotteet",
+      "date": "2026-11-14"
+    },
+    {
+      "publisher": "Lapland Hotels & Safaris",
+      "title": "Customer notice: WhatsApp messages sent in the name of Lapland Hotels – please do not click on any links in messages",
+      "lang": "en",
+      "url": "https://www.laplandhotels.com/en/about-us/press-releases",
+      "date": "2026-11-14"
+    },
+    {
+      "publisher": "Lapin Kansa",
+      "title": "Lapland Hotelsin nimissä lähetetään huijausviestejä WhatsAppissa",
+      "lang": "fi",
+      "url": "https://www.lapinkansa.fi/lapland-hotelsin-nimissa-lahetetaan-huijausviestej/13756514",
+      "date": "2026-11-15"
+    },
+    {
+      "publisher": "Kyberturvallisuuskeskus",
+      "title": "Kyberturvallisuuskeskuksen viikkokatsaus – 42/2026",
+      "lang": "fi",
+      "url": "https://www.kyberturvallisuuskeskus.fi/fi/uutiset/kyberturvallisuuskeskuksen-viikkokatsaus-422026",
+      "date": "2026-10-16"
+    }
+  ],
+  "ogCard": {
+    "line": "Lapland Hotels warns of WhatsApp scam",
+    "focus": "50% 50%"
+  }
+}

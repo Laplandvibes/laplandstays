@@ -1,0 +1,78 @@
+{
+  "title": "Scam WhatsApp messages sent in the name of Lapland Hotels",
+  "seoTitle": "Lapland Hotels WhatsApp scam messages: what to do",
+  "description": "Lapland Hotels says WhatsApp messages about bookings sent in its name are not from the chain. Bookings stay valid, and the links should not be opened.",
+  "dek": "The chain says it never sends WhatsApp or text messages about bookings, and that hotel bookings are valid as normal.",
+  "heroAlt": "Dark timber buildings in a Lapland resort village at dusk: in the middle a hut with a steep roof and a glazed section, tall pines on the left, a grey blue cloudy sky and one lit window in a cabin behind.",
+  "heroCaption": "Accommodation buildings in Saariselkä on an October evening in 2026. The scam messages concern Lapland Hotels bookings anywhere in Finland.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Lapland Hotels published a customer notice on 14 November 2026 about WhatsApp messages that are being sent in the chain's name. The messages deal with hotel bookings, and the chain has not sent them. Lapland Hotels says it does not send its customers WhatsApp messages or text messages about hotel bookings at all."
+    },
+    {
+      "t": "p",
+      "text": "In the notice the chain asks customers not to open any links in the messages, not to hand over payment or login details and not to make payments on the basis of the messages. Anyone who has already given payment or login details through a message should contact their bank immediately."
+    },
+    {
+      "t": "note",
+      "text": "Hotel bookings are valid as normal, Lapland Hotels says. Questions about a booking go to the hotel itself by email or telephone."
+    },
+    {
+      "t": "h2",
+      "text": "The chain heard about the messages on Saturday"
+    },
+    {
+      "t": "p",
+      "text": "Lapland Hotels & Safaris was told about the messages on Saturday and began looking into them at once. Chief executive Ilari Hovila told Lapin Kansa by email that the company takes the situation seriously, that the investigation is under way and that the extent of the incident has not yet been confirmed. According to Hovila, customers who have made a booking have been informed about the messages."
+    },
+    {
+      "t": "p",
+      "text": "The company has not said how the senders got hold of booking details or phone numbers. Because the chain does not send booking messages in WhatsApp in the first place, a WhatsApp message about your stay does not come from Lapland Hotels, however convincing the details in it look."
+    },
+    {
+      "t": "h2",
+      "text": "The messages carry real booking details"
+    },
+    {
+      "t": "p",
+      "text": "The National Cyber Security Centre at the Finnish Transport and Communications Agency said on 16 October 2026 that it had received several reports of scam messages sent in the name of accommodation services. The messages contained genuine booking details, which can make the scam hard to spot, and according to the centre the details may have leaked through an accommodation service or a booking system."
+    },
+    {
+      "t": "p",
+      "text": "In a message of this kind the criminal claims the booking needs some sort of confirmation, for which the recipient should enter card details. Seeing the right dates and the right hotel in a message is therefore no proof that it is genuine."
+    },
+    {
+      "t": "h2",
+      "text": "What to do when a message like this arrives"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Do not open the links in the message and do not enter card or login details.",
+        "Check the booking with the hotel itself. Look up the telephone number or email address on the hotel's own website, not in the message.",
+        "Type the web address in the address bar yourself instead of following a link from a messaging app.",
+        "Look at the domain name of any site that asks for your details. On phishing sites it differs from the real address, often by a letter or two.",
+        "If you have already given payment or login details, contact your bank at once. The Cyber Security Centre also advises reporting the matter to the police."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Why this touches so many Lapland trips"
+    },
+    {
+      "t": "p",
+      "text": "Lapland Hotels is the largest privately owned hotel chain in Finland, with 20 hotels and more than 2,600 rooms and apartments. In Lapland it has hotels in Ylläs, Levi, Saariselkä, Rovaniemi, Olos, Luosto, Kilpisjärvi, Pallas and Hetta, and elsewhere in the country in Helsinki, Tampere, Oulu, Kuopio and Porvoo. Its hotels cover most of the big fell resorts, so a message that names one of them looks plausible to a lot of winter travellers."
+    },
+    {
+      "t": "p",
+      "text": "The practical step before a trip is to save the direct email address and telephone number of your own hotel from the hotel's own website. After that a message that asks you to confirm something or to pay something can be checked in a minute, whoever it claims to be from."
+    },
+    {
+      "t": "link",
+      "text": "Saariselkä is one of the fell villages where the chain has a hotel. Our Saariselkä page goes through the accommodation in the village and around it.",
+      "label": "Where to stay in Saariselkä",
+      "href": "/destinations/saariselka"
+    }
+  ]
+}

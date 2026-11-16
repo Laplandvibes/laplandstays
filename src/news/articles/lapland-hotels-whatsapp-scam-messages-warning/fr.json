@@ -1,0 +1,78 @@
+{
+  "title": "Des messages WhatsApp frauduleux envoyés au nom de Lapland Hotels",
+  "seoTitle": "Lapland Hotels : messages WhatsApp frauduleux",
+  "description": "Lapland Hotels indique que les messages WhatsApp envoyés en son nom au sujet des réservations ne viennent pas d'elle. Les réservations restent valables.",
+  "dek": "La chaîne affirme qu'elle n'envoie jamais de messages WhatsApp ni de SMS au sujet des réservations, et que les réservations d'hôtel sont valables normalement.",
+  "heroAlt": "Bâtiments en bois sombre dans un village touristique de Laponie au crépuscule : au centre une kota au toit pentu avec une partie vitrée, à gauche de grands pins, un ciel nuageux gris-bleu et, derrière, une fenêtre éclairée dans un chalet.",
+  "heroCaption": "Bâtiments d'hébergement à Saariselkä lors d'une soirée d'octobre 2026. Les messages frauduleux concernent les réservations de Lapland Hotels partout en Finlande.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Lapland Hotels a publié le 14 novembre 2026 un avis à sa clientèle au sujet de messages WhatsApp envoyés au nom de la chaîne. Les messages portent sur des réservations d'hôtel, et la chaîne ne les a pas envoyés. Lapland Hotels indique qu'elle n'envoie à ses clients aucun message WhatsApp ni SMS au sujet des réservations d'hôtel."
+    },
+    {
+      "t": "p",
+      "text": "Dans cet avis, la chaîne demande à ses clients de n'ouvrir aucun lien contenu dans les messages, de ne communiquer aucune donnée de paiement ni de connexion et de ne faire aucun paiement sur la base de ces messages. Toute personne qui a déjà communiqué des données de paiement ou de connexion par un message doit contacter sa banque immédiatement."
+    },
+    {
+      "t": "note",
+      "text": "Les réservations d'hôtel sont valables normalement, indique Lapland Hotels. Les questions sur une réservation se règlent directement avec l'hôtel, par courriel ou par téléphone."
+    },
+    {
+      "t": "h2",
+      "text": "La chaîne a eu connaissance des messages samedi"
+    },
+    {
+      "t": "p",
+      "text": "Lapland Hotels & Safaris a été informée des messages samedi et a commencé aussitôt à examiner l'affaire. Le directeur général Ilari Hovila a déclaré à Lapin Kansa par courriel que l'entreprise prend la situation au sérieux, que l'enquête est en cours et que l'ampleur de l'incident n'est pas encore confirmée. Selon Hovila, les clients ayant effectué une réservation ont été informés des messages."
+    },
+    {
+      "t": "p",
+      "text": "L'entreprise n'a pas dit comment les expéditeurs ont obtenu les données de réservation ou les numéros de téléphone. Comme la chaîne n'envoie de toute façon pas de messages de réservation sur WhatsApp, un message WhatsApp concernant votre séjour ne vient pas de Lapland Hotels, aussi crédibles que paraissent les informations qu'il contient."
+    },
+    {
+      "t": "h2",
+      "text": "Les messages contiennent de vraies données de réservation"
+    },
+    {
+      "t": "p",
+      "text": "Le Centre national de cybersécurité de l'Agence finlandaise des transports et des communications Traficom a indiqué le 16 octobre 2026 avoir reçu plusieurs signalements de messages frauduleux envoyés au nom de services d'hébergement. Les messages contenaient de vraies données de réservation, ce qui peut rendre la fraude difficile à repérer, et selon le centre ces données ont pu fuiter par un service d'hébergement ou un système de réservation."
+    },
+    {
+      "t": "p",
+      "text": "Dans un message de ce type, le malfaiteur affirme que la réservation a besoin d'une forme de confirmation, pour laquelle le destinataire devrait saisir les données de sa carte. Voir les bonnes dates et le bon hôtel dans un message ne prouve donc pas qu'il est authentique."
+    },
+    {
+      "t": "h2",
+      "text": "Ce qu'il faut faire quand un tel message arrive"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "N'ouvrez pas les liens du message et ne saisissez aucune donnée de carte ni de connexion.",
+        "Vérifiez la réservation auprès de l'hôtel lui-même. Cherchez le numéro de téléphone ou l'adresse électronique sur le site de l'hôtel, pas dans le message.",
+        "Tapez vous-même l'adresse du site dans la barre d'adresse au lieu de suivre un lien venu d'une application de messagerie.",
+        "Regardez le nom de domaine du site qui demande vos informations. Sur les sites d'hameçonnage, il diffère de l'adresse réelle, souvent d'une lettre ou deux.",
+        "Si vous avez déjà communiqué des données de paiement ou de connexion, contactez votre banque immédiatement. Le Centre de cybersécurité conseille aussi de signaler l'affaire à la police."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Pourquoi cela touche autant de voyages en Laponie"
+    },
+    {
+      "t": "p",
+      "text": "Lapland Hotels est la plus grande chaîne hôtelière privée de Finlande, avec 20 hôtels et plus de 2 600 chambres et appartements. En Laponie, elle a des hôtels à Ylläs, Levi, Saariselkä, Rovaniemi, Olos, Luosto, Kilpisjärvi, Pallas et Hetta, et ailleurs dans le pays à Helsinki, Tampere, Oulu, Kuopio et Porvoo. Ses hôtels couvrent la plupart des grandes stations de fjäll, et un message qui nomme l'une d'elles paraît donc crédible à beaucoup de voyageurs d'hiver."
+    },
+    {
+      "t": "p",
+      "text": "Le geste pratique avant le départ est d'enregistrer l'adresse électronique directe et le numéro de téléphone de votre propre hôtel depuis le site de l'hôtel. Ensuite, un message qui demande de confirmer ou de payer quelque chose se vérifie en une minute, quel que soit le nom dont il se réclame."
+    },
+    {
+      "t": "link",
+      "text": "Saariselkä est l'un des villages de fjäll où la chaîne possède un hôtel. Notre page Saariselkä passe en revue les hébergements du village et de ses environs.",
+      "label": "Hébergements à Saariselkä",
+      "href": "/destinations/saariselka"
+    }
+  ]
+}

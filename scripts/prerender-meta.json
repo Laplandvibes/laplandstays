@@ -1105,6 +1105,56 @@
       "description": "Kittilä har beviljat 233 bygglov i år, och mer än hälften gäller turistboende. Vad som byggs och vilka nya ställen du kan bo på i vinter."
     }
   },
+  "/news/lapland-hotels-whatsapp-scam-messages-warning": {
+    "en": {
+      "title": "Lapland Hotels WhatsApp scam messages: what to do",
+      "description": "Lapland Hotels says WhatsApp messages about bookings sent in its name are not from the chain. Bookings stay valid, and the links should not be opened."
+    },
+    "fi": {
+      "title": "Lapland Hotels: WhatsApp-huijausviestit ja ohjeet",
+      "description": "Lapland Hotels kertoo, etteivät sen nimissä lähetetyt WhatsApp-viestit ole ketjun lähettämiä. Varaukset ovat voimassa, eikä viestien linkkejä pidä avata."
+    },
+    "de": {
+      "title": "Lapland Hotels: WhatsApp-Betrugsnachrichten im Umlauf",
+      "description": "Lapland Hotels erklärt: WhatsApp-Nachrichten zu Buchungen im Namen der Kette stammen nicht von ihr. Die Buchungen bleiben gültig, Links nicht öffnen."
+    },
+    "ja": {
+      "title": "Lapland HotelsのWhatsApp詐欺メッセージ",
+      "description": "Lapland Hotelsは、同社の名で届く予約のWhatsAppメッセージを送っていないとしています。予約は有効で、リンクは開かないよう求めています。"
+    },
+    "es": {
+      "title": "Lapland Hotels: mensajes fraudulentos de WhatsApp",
+      "description": "Lapland Hotels afirma que los mensajes de WhatsApp sobre reservas enviados en su nombre no son de la cadena. Las reservas siguen vigentes. No abra los enlaces."
+    },
+    "pt-BR": {
+      "title": "Lapland Hotels: mensagens falsas no WhatsApp",
+      "description": "A Lapland Hotels afirma que as mensagens de WhatsApp sobre reservas enviadas em seu nome não são da rede. As reservas continuam válidas. Não abra os links."
+    },
+    "zh-CN": {
+      "title": "Lapland Hotels的WhatsApp詐騙訊息",
+      "description": "Lapland Hotels表示，以其名義傳送的預訂WhatsApp訊息並非連鎖自己發出。飯店預訂照常有效，訊息中的連結不要開啟，也不要提供支付或登入資訊。"
+    },
+    "ko": {
+      "title": "Lapland Hotels WhatsApp 사기 메시지",
+      "description": "Lapland Hotels는 자사 이름을 쓴 예약 WhatsApp 메시지를 보내지 않았다고 밝혔습니다. 예약은 유효하며 링크는 열지 마십시오."
+    },
+    "fr": {
+      "title": "Lapland Hotels : messages WhatsApp frauduleux",
+      "description": "Lapland Hotels indique que les messages WhatsApp envoyés en son nom au sujet des réservations ne viennent pas d'elle. Les réservations restent valables."
+    },
+    "it": {
+      "title": "Lapland Hotels: messaggi truffa su WhatsApp",
+      "description": "Lapland Hotels dichiara che i messaggi WhatsApp sulle prenotazioni inviati a suo nome non provengono dalla catena. Le prenotazioni restano valide."
+    },
+    "nl": {
+      "title": "Lapland Hotels: valse WhatsApp-berichten",
+      "description": "Lapland Hotels laat weten dat WhatsApp-berichten over boekingen uit zijn naam niet van de keten komen. De boekingen blijven geldig. Open de links niet."
+    },
+    "sv": {
+      "title": "Lapland Hotels: bluffmeddelanden på WhatsApp",
+      "description": "Lapland Hotels uppger att WhatsApp-meddelanden om bokningar i kedjans namn inte kommer från kedjan. Bokningarna gäller, och länkarna ska inte öppnas."
+    }
+  },
   "/news/levi-zoning-plans-hotel-resorts-2026": {
     "en": {
       "title": "New hotel and resorts planned in Levi, Lapland",

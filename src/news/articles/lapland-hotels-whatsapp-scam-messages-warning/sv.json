@@ -1,0 +1,78 @@
+{
+  "title": "Bluffmeddelanden på WhatsApp skickas i Lapland Hotels namn",
+  "seoTitle": "Lapland Hotels: bluffmeddelanden på WhatsApp",
+  "description": "Lapland Hotels uppger att WhatsApp-meddelanden om bokningar i kedjans namn inte kommer från kedjan. Bokningarna gäller, och länkarna ska inte öppnas.",
+  "dek": "Kedjan säger att den aldrig skickar WhatsApp- eller sms-meddelanden om bokningar, och att hotellbokningarna gäller som vanligt.",
+  "heroAlt": "Mörka trähus i en lappländsk turistby i skymningen: i mitten en kåta med brant tak och en glasad del, höga tallar till vänster, en gråblå molnig himmel och ett upplyst fönster i en stuga bakom.",
+  "heroCaption": "Boendebyggnader i Saariselkä en oktoberkväll 2026. Bluffmeddelandena gäller Lapland Hotels bokningar överallt i Finland.",
+  "body": [
+    {
+      "t": "p",
+      "text": "Lapland Hotels publicerade den 14 november 2026 ett kundmeddelande om WhatsApp-meddelanden som skickas i kedjans namn. Meddelandena handlar om hotellbokningar, och kedjan har inte skickat dem. Lapland Hotels uppger att företaget inte alls skickar sina kunder WhatsApp-meddelanden eller sms om hotellbokningar."
+    },
+    {
+      "t": "p",
+      "text": "I meddelandet ber kedjan kunderna att inte öppna några länkar i meddelandena, att inte lämna ut betal- eller inloggningsuppgifter och att inte göra betalningar utifrån meddelandena. Den som redan har lämnat ut betal- eller inloggningsuppgifter via ett meddelande ska kontakta sin bank omedelbart."
+    },
+    {
+      "t": "note",
+      "text": "Hotellbokningarna gäller som vanligt, uppger Lapland Hotels. Frågor om en bokning sköts direkt med hotellet via e-post eller telefon."
+    },
+    {
+      "t": "h2",
+      "text": "Kedjan fick höra om meddelandena på lördagen"
+    },
+    {
+      "t": "p",
+      "text": "Lapland Hotels & Safaris fick information om meddelandena på lördagen och började genast utreda saken. Verkställande direktör Ilari Hovila berättade för Lapin Kansa per e-post att företaget tar situationen på allvar, att utredningen pågår och att händelsens omfattning ännu inte har bekräftats. Enligt Hovila har kunder som gjort en bokning informerats om meddelandena."
+    },
+    {
+      "t": "p",
+      "text": "Företaget har inte berättat var avsändarna har fått bokningsuppgifterna eller telefonnumren. Eftersom kedjan överhuvudtaget inte skickar bokningsmeddelanden på WhatsApp kommer ett WhatsApp-meddelande om din vistelse inte från Lapland Hotels, hur trovärdiga uppgifterna i det än ser ut."
+    },
+    {
+      "t": "h2",
+      "text": "Meddelandena innehåller riktiga bokningsuppgifter"
+    },
+    {
+      "t": "p",
+      "text": "Cybersäkerhetscentret vid Transport- och kommunikationsverket Traficom uppgav den 16 oktober 2026 att det hade fått flera anmälningar om bluffmeddelanden som skickats i inkvarteringstjänsters namn. Meddelandena innehöll riktiga bokningsuppgifter, vilket kan göra bluffen svår att upptäcka, och enligt centret kan uppgifterna ha läckt via en inkvarteringstjänst eller ett bokningssystem."
+    },
+    {
+      "t": "p",
+      "text": "I ett meddelande av det här slaget hävdar brottslingen att bokningen behöver någon form av bekräftelse, och för den ska mottagaren mata in sina kortuppgifter. Att se rätt datum och rätt hotell i ett meddelande är alltså inget bevis för att det är äkta."
+    },
+    {
+      "t": "h2",
+      "text": "Så gör du när ett sådant meddelande kommer"
+    },
+    {
+      "t": "ul",
+      "items": [
+        "Öppna inte länkarna i meddelandet och mata inte in kort- eller inloggningsuppgifter.",
+        "Kontrollera bokningen hos hotellet självt. Sök telefonnummer eller e-postadress på hotellets egna sidor, inte i meddelandet.",
+        "Skriv in webbadressen själv i adressfältet i stället för att följa en länk från en meddelandeapp.",
+        "Titta på domännamnet på den webbplats som frågar efter uppgifter. På nätfiskesidor skiljer det sig från den riktiga adressen, ofta med en bokstav eller två.",
+        "Om du redan har lämnat ut betal- eller inloggningsuppgifter, kontakta banken genast. Cybersäkerhetscentret rekommenderar också en polisanmälan."
+      ]
+    },
+    {
+      "t": "h2",
+      "text": "Varför det här berör så många Lapplandsresor"
+    },
+    {
+      "t": "p",
+      "text": "Lapland Hotels är Finlands största privatägda hotellkedja med 20 hotell och över 2 600 rum och lägenheter. I Lappland har kedjan hotell i Ylläs, Levi, Saariselkä, Rovaniemi, Olos, Luosto, Kilpisjärvi, Pallas och Hetta och i övriga landet i Helsingfors, Tammerfors, Uleåborg, Kuopio och Borgå. Hotellen täcker största delen av de stora fjällorterna, så ett meddelande som nämner någon av dem ser trovärdigt ut för många vinterresenärer."
+    },
+    {
+      "t": "p",
+      "text": "Det praktiska steget före resan är att spara det egna hotellets direkta e-postadress och telefonnummer från hotellets egna sidor. Efter det går det på en minut att kontrollera ett meddelande som ber dig bekräfta eller betala något, i vems namn det än kommer."
+    },
+    {
+      "t": "link",
+      "text": "Saariselkä är en av de fjällbyar där kedjan har ett hotell. Vår Saariselkä-sida går igenom boendet i byn och runt omkring.",
+      "label": "Boende i Saariselkä",
+      "href": "/destinations/saariselka"
+    }
+  ]
+}
