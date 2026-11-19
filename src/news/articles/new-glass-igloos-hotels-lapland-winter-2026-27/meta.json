@@ -1,0 +1,109 @@
+{
+  "slug": "new-glass-igloos-hotels-lapland-winter-2026-27",
+  "date": "2026-11-19",
+  "hero": {
+    "src": "/images/news/levi-chalets-first-snow-oct-1600.webp",
+    "srcSmall": "/images/news/levi-chalets-first-snow-oct-800.webp",
+    "width": 1600,
+    "height": 901,
+    "position": "50% 50%",
+    "credit": {
+      "author": "LaplandVibes",
+      "license": "© LaplandVibes",
+      "licenseUrl": "https://laplandstays.com/about",
+      "sourceUrl": "https://laplandstays.com/about",
+      "assetId": "20261014_184548",
+      "sourceName": "Levi 2026-10-14",
+      "taken": "2026-10-14",
+      "retrieved": "2026-11-19"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Euronews",
+      "title": "Glass igloos, sky villas and boutique suites: New places to stay in Finnish Lapland this winter",
+      "lang": "en",
+      "url": "https://www.euronews.com/2026/10/13/glass-igloos-sky-villas-and-boutique-suites-new-places-to-stay-in-finnish-lapland-this-win",
+      "date": "2026-10-13"
+    },
+    {
+      "publisher": "Halo Igloos",
+      "title": "Halo Riverside Resort | Glass Igloos Rovaniemi, Finnish Lapland",
+      "lang": "en",
+      "url": "https://haloigloos.com/riverside-resort",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "Halo Igloos",
+      "title": "Halo Igloos Resort | Glass Igloos in Rovaniemi, Arctic Circle",
+      "lang": "en",
+      "url": "https://haloigloos.com/",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "Aava Glass Igloos",
+      "title": "Glass Igloo Suites with Private Sauna in Rovaniemi | Aava Glass Igloos",
+      "lang": "en",
+      "url": "https://www.aavaglassigloos.com/igloos",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "Santa’s Hotels",
+      "title": "Noelle - Santa’s Hotels",
+      "lang": "en",
+      "url": "https://santashotels.fi/en/hotel/noelle-rovaniemi/",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "Arcora Boutique Hotel & Villas",
+      "title": "Arcora Boutique Hotel & Villas",
+      "lang": "en",
+      "url": "https://arcora.fi/",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "Kelo Resort",
+      "title": "Sky Villas in Finnish Lapland | Kelo Resort",
+      "lang": "en",
+      "url": "https://keloresort.com/kelo-sky-villas/",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "Kelo Resort",
+      "title": "Boutique Resort in Finnish Lapland | Kelo Resort",
+      "lang": "en",
+      "url": "https://keloresort.com/",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "North Resort",
+      "title": "Villas & Suites | North Premium Resort",
+      "lang": "en",
+      "url": "https://northresort.fi/villas-suites/",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "North Resort",
+      "title": "North Resort | Experiences at the Arctic Circle",
+      "lang": "en",
+      "url": "https://northresort.fi/",
+      "read": "2026-11-19"
+    },
+    {
+      "publisher": "North Resort",
+      "title": "Development Projects | North Premium Resort",
+      "lang": "en",
+      "url": "https://northresort.fi/development-projects/",
+      "read": "2026-11-19"
+    }
+  ],
+  "ogCard": {
+    "line": "New glass igloos and hotels in Lapland",
+    "focus": "50% 50%"
+  },
+  "embeds": {
+    "facts-avaukset": {
+      "kind": "facts"
+    }
+  }
+}

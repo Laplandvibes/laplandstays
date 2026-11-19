@@ -1205,6 +1205,56 @@
       "description": "Anmärkningar mot planen för ett hotell vid sjön Immeljärvi i Levi kunde lämnas till den 29 oktober. Resorter planeras vid Seidantie och i Raattama."
     }
   },
+  "/news/new-glass-igloos-hotels-lapland-winter-2026-27": {
+    "en": {
+      "title": "New glass igloos and hotels in Lapland, winter 2026–27",
+      "description": "Two new glass igloo resorts are already taking guests in Rovaniemi. More places to stay open this winter in Muonio, Kittilä, Pello and central Rovaniemi."
+    },
+    "fi": {
+      "title": "Uudet lasi-iglut ja hotellit Lapissa talvella 2026–27",
+      "description": "Rovaniemellä kaksi uutta lasi-iglukohdetta ottaa jo vieraita. Muonioon, Kittilään, Pelloon ja Rovaniemen keskustaan avautuu uutta majoitusta talven aikana."
+    },
+    "de": {
+      "title": "Glasiglu in Lappland: neue Hotels im Winter 2026–27",
+      "description": "Zwei neue Glasiglu-Resorts nehmen in Rovaniemi schon Gäste auf. Weitere Häuser öffnen diesen Winter in Muonio, Kittilä, Pello und im Zentrum von Rovaniemi."
+    },
+    "ja": {
+      "title": "ラップランドの新グラスイグルーとホテル、2026–27年冬",
+      "description": "ロヴァニエミでは二つの新しいグラスイグルーリゾートがすでに宿泊客を迎えています。この冬は、ムオニオ、キッティラ、ペッロ、ロヴァニエミ中心部にも新しい宿が開きます。"
+    },
+    "es": {
+      "title": "Iglús de cristal y hoteles en Laponia, invierno 2026–27",
+      "description": "Dos resorts de iglús de cristal ya reciben huéspedes en Rovaniemi. Este invierno abren más alojamientos en Muonio, Kittilä, Pello y el centro de Rovaniemi."
+    },
+    "pt-BR": {
+      "title": "Iglus de vidro e hotéis na Lapônia, inverno 2026–27",
+      "description": "Dois resorts de iglus de vidro já recebem hóspedes em Rovaniemi. Outras hospedagens abrem neste inverno em Muonio, Kittilä, Pello e no centro de Rovaniemi."
+    },
+    "zh-CN": {
+      "title": "芬蘭玻璃屋與新飯店，拉普蘭2026–27年冬季",
+      "description": "芬蘭拉普蘭的羅瓦涅米已有兩處新的玻璃屋度假村開始接待旅客。這個冬天，穆奧尼奧、基蒂萊、佩洛和羅瓦涅米市中心也有新住宿陸續開幕，以下是各處的開幕日期一覽。"
+    },
+    "ko": {
+      "title": "라플란드 새 유리 이글루와 호텔, 2026–27 겨울",
+      "description": "로바니에미에서는 새 유리 이글루 리조트 두 곳이 이미 손님을 받고 있습니다. 이번 겨울에는 무오니오, 키틸래, 펠로, 로바니에미 시내에도 새 숙소가 문을 엽니다."
+    },
+    "fr": {
+      "title": "Igloo de verre et hôtels en Laponie : hiver 2026–27",
+      "description": "Deux resorts d’igloos de verre ont déjà ouvert à Rovaniemi. D’autres hébergements ouvrent cet hiver à Muonio, Kittilä, Pello et au centre de Rovaniemi."
+    },
+    "it": {
+      "title": "Igloo di vetro e hotel in Lapponia, inverno 2026–27",
+      "description": "Due resort di igloo di vetro accolgono già gli ospiti a Rovaniemi. Altre strutture aprono quest’inverno a Muonio, Kittilä, Pello e nel centro di Rovaniemi."
+    },
+    "nl": {
+      "title": "Glazen iglo Lapland: nieuwe hotels winter 2026–27",
+      "description": "Twee nieuwe resorts met glazen iglo’s zijn in Rovaniemi al open. Deze winter openen meer verblijven in Muonio, Kittilä, Pello en het centrum van Rovaniemi."
+    },
+    "sv": {
+      "title": "Glasigloo i Lappland: nya hotell vintern 2026–27",
+      "description": "Två nya glasigloo-resorter tar redan emot gäster i Rovaniemi. Fler nya boenden öppnar i vinter i Muonio, Kittilä, Pello och centrala Rovaniemi."
+    }
+  },
   "/news/revontuli-rovaniemi-rooftop-hotel-plan": {
     "en": {
       "title": "Rovaniemi: hotel planned on top of Revontuli shopping centre",
