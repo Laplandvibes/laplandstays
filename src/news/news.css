@@ -108,6 +108,9 @@
 /* 13.11.2026 lv_permanent_rules §33: kuvateksti on leipätekstiä ⇒ 16 px (oli 14). blogiarkki-portti mittaa sen nyt myös uutisista. */
 .nw .nw-art-cap{font-size:16px;line-height:1.55;color:var(--muted);margin-top:6px}
 .nw .nw-credit a{color:var(--ink2);text-decoration:underline;text-underline-offset:2px}
+/* Tekijä + jakonappi yhdellä rivillä, kuvateksti jutun lopussa (19.11.2026: vähemmän kerroksia kuvan ja jutun välissä). */
+.nw .nw-meta-row{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px}
+.nw .nw-art-cap-end{margin-top:28px;padding-top:16px;border-top:1px solid rgba(15,23,42,.1)}
 @media(max-width:640px){.nw .nw-head{padding:96px 0 44px}}
 /* 14.10.2026: alle 375 px 36 px:n otsikko kiersi neljälle riville (360 px: en/fi/de, es/pt-BR); 34 px:llä
    enintään kolme riviä kaikilla 12 kielellä (puhelimessa kolme riviä saa olla, feedback_otsikot_ei_turhia_kolmirivisia). */
@@ -295,6 +298,21 @@
   .nw .nw-art .nw-kicker > *::before,.nw .nw-art-meta .nw-byline > *::before{content:none}
   .nw .nw-art-meta .nw-art-cap{width:fit-content;max-width:min(44ch,100%);margin-left:auto;margin-right:auto;text-align:left}
   .nw .nw-art-meta > div > button{margin-left:auto;margin-right:auto}
+  /* Alle 1024 px tekijä ja jakonappi allekkain palstan keskellä (gate:tabletti: nappi palstan keskellä). */
+  .nw .nw-art-meta .nw-meta-row{flex-direction:column;justify-content:center;gap:8px}
+  /* "Lisää majoitusuutisia" -otsikko ja kaikki-linkki keskelle kuten muut osio-otsikot alle 1024 px. */
+  .nw .nw-related-head{flex-direction:column;align-items:center;text-align:center}
+  /* Osion etusivu: murupolku, yläotsake ja otsikko keskelle; johdanto keskitetty palsta, rivit vasemmalta. */
+  .nw .nw-head-photo .nw-head-body{text-align:center}
+  .nw .nw-head-photo .crumbs{justify-content:center}
+  .nw .nw-head-photo .nw-lead{margin-left:auto;margin-right:auto;max-width:min(44.75rem,100%);text-align:left}
+}
+/* Tabletti 640–1023 px (Vesa 19.11.2026: "miten nää tekstit on näin pisin vittua tablet näkymässä"): 36 merkin
+   vasemmalle tasattu ingressi jäi kapeaksi vinoksi palstaksi koko leveän keskitetyn otsikon alle. Ingressi on nyt
+   keskitetty palsta, joka on yhtä leveä kuin jutun teksti sen alla; rivit vasemmalta (gate:tabletti: keskitetty
+   kolmirivinen kappale hyppii reunoiltaan). */
+@media(min-width:640px) and (max-width:1023.98px){
+  .nw .nw-art .nw-dek{width:auto;max-width:min(44.75rem,100%);text-align:left}
 }
 /* kapein-puhelin-20261112: alle 375 px otsikko enintään kolmella rivillä 12 kielellä. */
 @media(max-width:374.98px){.nw .nw-art .nw-h1{font-size:32px}}

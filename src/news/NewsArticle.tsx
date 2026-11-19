@@ -98,21 +98,17 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           <p className="nw-dek">{text.dek}</p>
         </div>
       </header>
+      {/* Vesa 19.11.2026 tabletilta: "näin paljon kaikkea paskaa ennen kuin juttu edes alkaa". Tekijä ja jakonappi
+          samalla rivillä; julkaisupäivä näkyy jo otsikon yläpuolella, joten sitä ei toisteta; kuvateksti ja
+          kuvaajatieto jutun loppuun lähteiden yläpuolelle. Jakonappi pysyy ylhäällä ja lopussa (Vesa 24.10.2026). */}
       <div className="wrap nw-narrow nw-art-meta">
-        <Erotinrivi className="nw-byline" osat={[
-          ui.ui.byline,
-          <>{ui.ui.published} <time dateTime={meta.date}>{formatDate(meta.date, lang)}</time></>,
-          meta.updated ? <>{ui.ui.updated} <time dateTime={meta.updated}>{formatDate(meta.updated, lang)}</time></> : null,
-        ]} />
-        <p className="nw-art-cap">
-          {text.heroCaption && <span>{text.heroCaption} </span>}
-          <span className="nw-credit">
-            {labelPrefix(ui.ui.photo, lang)}<a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
-            <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
-          </span>
-        </p>
-        {/* Jaa-nappi tekijärivin alle omalle rivilleen ja jako jutun loppuun (Vesa 24.10.2026). */}
-        <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" className="mt-4" />
+        <div className="nw-meta-row">
+          <Erotinrivi className="nw-byline" osat={[
+            ui.ui.byline,
+            meta.updated ? <>{ui.ui.updated} <time dateTime={meta.updated}>{formatDate(meta.updated, lang)}</time></> : null,
+          ]} />
+          <ShareButton lang={lang} title={text.title} excerpt={text.dek} tone="light" />
+        </div>
       </div>
 
       <article className="nw-sheet">
@@ -125,6 +121,13 @@ function ArticleView({ meta }: { meta: NewsMeta }) {
           afterIntro={AURORA_APP_NEWS.has(meta.slug) ? <AppPromoAurora placement="news_aurora_inline" /> : undefined}
         />
         <ShareBar lang={lang} title={text.title} tone="light" />
+        <p className="nw-art-cap nw-art-cap-end">
+          {text.heroCaption && <span>{text.heroCaption} </span>}
+          <span className="nw-credit">
+            {labelPrefix(ui.ui.photo, lang)}<a href={credit.sourceUrl} target="_blank" rel="noopener">{credit.author} / {credit.sourceName}</a>,{' '}
+            <a href={credit.licenseUrl} target="_blank" rel="noopener license">{credit.license}</a>
+          </span>
+        </p>
         <section className="nw-sources" aria-labelledby="nw-sources-h">
           <h2 id="nw-sources-h" className="nw-sources-h">{ui.ui.sources}</h2>
           <ol>
