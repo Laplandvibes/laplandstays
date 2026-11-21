@@ -5,7 +5,7 @@
  * Why this script exists (2026-08-02)
  * -----------------------------------
  * Truncation is the small problem. COLLISION is the real one, and it is
- * invisible: on laplandweddings.online three Wilderness hotels and three
+ * invisible: on laplandweddings.fi three Wilderness hotels and three
  * Northern Lights properties each collapsed into one shared sub-id, so their
  * CJ reporting was not shortened, it was MERGED — three hotels reporting as one
  * looks exactly like one hotel doing well. This site had the same failure in a
