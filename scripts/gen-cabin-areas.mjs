@@ -18,7 +18,10 @@
  * INPUT: ../_affiliate/lomarengas-lapland.json (monorepo root, written by
  * scripts/sync_lomarengas_feed.mjs from the Adtraction product feed, programId 1071150664).
  * The outputs are COMMITTED — CI builds the standalone repo and has no access to the root.
- * Refresh: `node ../scripts/sync_lomarengas_feed.mjs && node scripts/fetch-cabin-geo.mjs && node scripts/gen-cabin-areas.mjs`
+ * 🔴 Refresh (22.11.2026): `npm run cabins:refresh` (scripts/refresh-cabins.mjs) fetches the feed itself, refuses a
+ * broken one before anything is written, then runs fetch-cabin-geo + this script with `--src`. Lomarengas's
+ * programme terms require the data to be refreshed regularly and delisted cabins removed; a cabin that left the
+ * feed leaves the page. Manual chain (old): `node ../scripts/sync_lomarengas_feed.mjs && node scripts/fetch-cabin-geo.mjs && node scripts/gen-cabin-areas.mjs`
  * (or `--src <dump>` on both for a dump written outside the monorepo). fetch-cabin-geo reads the
  * coordinates of new cabins; this script refuses to write when a cabin is missing them. Areas,
  * municipality allowlists and distance points: scripts/cabin-areas.config.mjs + src/data/cabins/refs.json.
@@ -234,6 +237,7 @@ if (TEXT_ONLY) {
 const summary = [];
 // Every area first, then write: a missing coordinate must not leave half the pages regenerated.
 const results = [];
+const ALLOW_SPLIT_CHANGE = process.argv.includes('--allow-split-change');
 for (const [area, def] of Object.entries(AREAS)) {
   let rows = [];
   let dropped = 0;
@@ -294,6 +298,15 @@ for (const [area, def] of Object.entries(AREAS)) {
   const split = near.length >= MIN_SECTION && far.length >= MIN_SECTION ? { near: near.length, far: far.length, nearKm: NEAR_KM } : null;
   results.push({ area, def, rows, split, dropped, deadImages });
 }
+// Section split checked BEFORE writing (22.11.2026, weekly refresh): the copy of a split area has two section
+// headings and an intro with {near}/{far}, so a page whose split appears or disappears would print headings over
+// nothing. Refuse (exit 3) instead of writing and warning afterwards; `--allow-split-change` after the copy is fixed.
+const splitNow = results.filter((r) => r.split).map((r) => r.area);
+const drift = [...splitNow.filter((a) => !SPLIT_COPY.includes(a)), ...SPLIT_COPY.filter((a) => !splitNow.includes(a))];
+if (drift.length && !ALLOW_SPLIT_CHANGE) {
+  console.error(`✗ osiojako muuttuisi (${drift.join(', ')}): päivitä CabinArea.copy.*.ts split + intro ja SPLIT_COPY, aja sitten --allow-split-change. Ei kirjoitettu mitään.`);
+  process.exit(3);
+}
 for (const { area, def, rows, split, dropped, deadImages } of results) {
   // The sync script leaves `generated` null on purpose ("stamp it at run time"): this run
   // HEAD-checked every photo today, so today is the date the data was last known good.
@@ -307,7 +320,5 @@ writeText();
 // the hub linked 4 of 16 area pages).
 writeFileSync(resolve(outDir, 'areas.json'), JSON.stringify(results.map(({ area, def, rows }) => ({ area, place: def.place, count: rows.length }))));
 console.log(summary.join('\n'));
-const splitNow = results.filter((r) => r.split).map((r) => r.area);
-const drift = [...splitNow.filter((a) => !SPLIT_COPY.includes(a)), ...SPLIT_COPY.filter((a) => !splitNow.includes(a))];
-if (drift.length) console.warn(`⚠️ osiojako muuttui (${drift.join(', ')}): päivitä CabinArea.copy.*.ts split + intro ja SPLIT_COPY`);
+if (drift.length) console.warn(`⚠️ osiojako muuttui (${drift.join(', ')}), kirjoitettu --allow-split-change-lipulla: tarkista CabinArea.copy.*.ts split + intro ja SPLIT_COPY`);
 console.log(`✓ src/data/cabins/*.json + src/data/cabinAreas.gen.{${LANGS.join(',')}}.ts (lähde ${dump.count} mökkiä)`);
