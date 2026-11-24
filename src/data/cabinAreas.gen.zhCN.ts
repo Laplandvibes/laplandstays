@@ -137,7 +137,7 @@ export const cabinAreas = {
   },
   "ruka": {
     "title": "魯卡木屋",
-    "intro": "魯卡木屋：Lomarengas在魯卡及距魯卡村10公里以內收錄247棟出租木屋，另有65棟位於更遠的庫薩莫湖區。每棟木屋都列出到魯卡的距離、入住人數、臥室數、面積與星級；每週價格與可訂週次請見Lomarengas。",
+    "intro": "魯卡木屋：Lomarengas在魯卡及距魯卡村10公里以內收錄246棟出租木屋，另有65棟位於更遠的庫薩莫湖區。每棟木屋都列出到魯卡的距離、入住人數、臥室數、面積與星級；每週價格與可訂週次請見Lomarengas。",
     "lines": [
       "Ruka panorama，Ruka（Kuusamo），距魯卡約2公里：可住14人，4間臥室，300 m²，5星。",
       "Holy lake chalet b，Kuusamo，距魯卡約5公里：可住10人，4間臥室，320 m²，5星。",
@@ -535,7 +535,7 @@ export const cabinAreas = {
   },
   "salla": {
     "title": "薩拉木屋",
-    "intro": "薩拉木屋：Lomarengas收錄58棟出租木屋。每棟木屋都列出到最近村莊或度假區的距離、入住人數、臥室數、面積與星級；每週價格與可訂週次請見Lomarengas。",
+    "intro": "薩拉木屋：Lomarengas收錄56棟出租木屋。每棟木屋都列出到最近村莊或度假區的距離、入住人數、臥室數、面積與星級；每週價格與可訂週次請見Lomarengas。",
     "lines": [
       "Lux iii，Sallatunturi（Salla），距薩拉通圖里約2公里：可住10人，3間臥室，164 m²，4星。",
       "Rantahovi，Sallatunturi（Salla），距薩拉通圖里約1公里：可住10人，3間臥室，150 m²，4星。",
@@ -574,14 +574,12 @@ export const cabinAreas = {
       "Sallanrinne b，Sallatunturi（Salla），距薩拉通圖里約1公里：可住6人，2間臥室，65 m²，3星。",
       "Susitupa 5，Sallatunturi（Salla），距薩拉通圖里約1公里：可住6人，1間臥室，47 m²，3星。",
       "Teppolan rinne，Sallatunturi（Salla），距薩拉通圖里約4公里：可住6人，1間臥室，120 m²，3星。",
-      "Männikkö，Sallatunturi（Salla），距薩拉通圖里約2公里：可住5人，3間臥室，92 m²，3星。",
-      "Vuosna，Sallatunturi（Salla），距薩拉通圖里約2公里：可住5人，3間臥室，92 m²，3星。",
       "Kelokota，Sallatunturi（Salla），距薩拉通圖里約1公里：可住4人，1間臥室，62 m²，3星。",
       "Keselmäkangas，Sallatunturi（Salla），距薩拉通圖里約2公里：可住4人，55 m²，3星。",
       "Kymppi，Sallatunturi（Salla），距薩拉通圖里約1公里：可住4人，1間臥室，55 m²，3星。",
-      "Susitupa 6，Sallatunturi（Salla），距薩拉通圖里不到1公里：可住6人，1間臥室，47 m²，3星。",
       "Lomaväinö 13，Salla，距薩拉村約4公里：可住4人，36 m²，3星。",
       "Samruam b aurora cabin，Sallatunturi（Salla），距薩拉通圖里不到1公里：可住4人，32 m²，3星。",
+      "Susitupa 6，Sallatunturi（Salla），距薩拉通圖里不到1公里：可住6人，1間臥室，47 m²，3星。",
       "The cozy loggers suite，Salla，距薩拉村不到1公里：可住4人，1間臥室，68 m²，3星。",
       "Luppokero，Sallatunturi（Salla），距薩拉通圖里約2公里：可住2人，1間臥室，75 m²，3星。",
       "Kelloselkä a，Salla，距薩拉村約15公里：可住6人，2間臥室，65 m²，3星。",

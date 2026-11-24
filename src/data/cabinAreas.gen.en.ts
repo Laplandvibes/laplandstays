@@ -137,7 +137,7 @@ export const cabinAreas = {
   },
   "ruka": {
     "title": "Cabins in Ruka",
-    "intro": "Cabins in Ruka: 247 Lomarengas rental cabins in Ruka and up to 10 km from Ruka village, and 65 more further out in the Kuusamo lake country. Distance to Ruka, guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.",
+    "intro": "Cabins in Ruka: 246 Lomarengas rental cabins in Ruka and up to 10 km from Ruka village, and 65 more further out in the Kuusamo lake country. Distance to Ruka, guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.",
     "lines": [
       "Ruka panorama, Ruka (Kuusamo), about 2 km from Ruka: sleeps 14, 4 bedrooms, 300 m², 5 stars.",
       "Holy lake chalet b, Kuusamo, about 5 km from Ruka: sleeps 10, 4 bedrooms, 320 m², 5 stars.",
@@ -535,7 +535,7 @@ export const cabinAreas = {
   },
   "salla": {
     "title": "Cabins in Salla",
-    "intro": "Cabins in Salla: 58 rental cabins in the Lomarengas listings. Distance to the nearest village or resort, guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.",
+    "intro": "Cabins in Salla: 56 rental cabins in the Lomarengas listings. Distance to the nearest village or resort, guests, bedrooms, size and star rating for every cabin; weekly prices and free weeks on Lomarengas.",
     "lines": [
       "Lux iii, Sallatunturi (Salla), about 2 km from Sallatunturi: sleeps 10, 3 bedrooms, 164 m², 4 stars.",
       "Rantahovi, Sallatunturi (Salla), about 1 km from Sallatunturi: sleeps 10, 3 bedrooms, 150 m², 4 stars.",
@@ -574,14 +574,12 @@ export const cabinAreas = {
       "Sallanrinne b, Sallatunturi (Salla), about 1 km from Sallatunturi: sleeps 6, 2 bedrooms, 65 m², 3 stars.",
       "Susitupa 5, Sallatunturi (Salla), about 1 km from Sallatunturi: sleeps 6, 1 bedroom, 47 m², 3 stars.",
       "Teppolan rinne, Sallatunturi (Salla), about 4 km from Sallatunturi: sleeps 6, 1 bedroom, 120 m², 3 stars.",
-      "Männikkö, Sallatunturi (Salla), about 2 km from Sallatunturi: sleeps 5, 3 bedrooms, 92 m², 3 stars.",
-      "Vuosna, Sallatunturi (Salla), about 2 km from Sallatunturi: sleeps 5, 3 bedrooms, 92 m², 3 stars.",
       "Kelokota, Sallatunturi (Salla), about 1 km from Sallatunturi: sleeps 4, 1 bedroom, 62 m², 3 stars.",
       "Keselmäkangas, Sallatunturi (Salla), about 2 km from Sallatunturi: sleeps 4, 55 m², 3 stars.",
       "Kymppi, Sallatunturi (Salla), about 1 km from Sallatunturi: sleeps 4, 1 bedroom, 55 m², 3 stars.",
-      "Susitupa 6, Sallatunturi (Salla), under 1 km from Sallatunturi: sleeps 6, 1 bedroom, 47 m², 3 stars.",
       "Lomaväinö 13, Salla, about 4 km from Salla village: sleeps 4, 36 m², 3 stars.",
       "Samruam b aurora cabin, Sallatunturi (Salla), under 1 km from Sallatunturi: sleeps 4, 32 m², 3 stars.",
+      "Susitupa 6, Sallatunturi (Salla), under 1 km from Sallatunturi: sleeps 6, 1 bedroom, 47 m², 3 stars.",
       "The cozy loggers suite, Salla, under 1 km from Salla village: sleeps 4, 1 bedroom, 68 m², 3 stars.",
       "Luppokero, Sallatunturi (Salla), about 2 km from Sallatunturi: sleeps 2, 1 bedroom, 75 m², 3 stars.",
       "Kelloselkä a, Salla, about 15 km from Salla village: sleeps 6, 2 bedrooms, 65 m², 3 stars.",

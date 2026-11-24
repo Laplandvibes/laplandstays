@@ -137,7 +137,7 @@ export const cabinAreas = {
   },
   "ruka": {
     "title": "Stugor i Ruka",
-    "intro": "Stugor i Ruka: 247 hyrstugor från Lomarengas i Ruka och upp till 10 km från byn Ruka, och ytterligare 65 längre ut i Kuusamos sjölandskap. Avstånd till Ruka, antal personer, sovrum, storlek och stjärnklassning för varje stuga; veckopriser och lediga veckor på Lomarengas.",
+    "intro": "Stugor i Ruka: 246 hyrstugor från Lomarengas i Ruka och upp till 10 km från byn Ruka, och ytterligare 65 längre ut i Kuusamos sjölandskap. Avstånd till Ruka, antal personer, sovrum, storlek och stjärnklassning för varje stuga; veckopriser och lediga veckor på Lomarengas.",
     "lines": [
       "Ruka panorama, Ruka (Kuusamo), cirka 2 km från Ruka: plats för 14 personer, 4 sovrum, 300 m², 5 stjärnor.",
       "Holy lake chalet b, Kuusamo, cirka 5 km från Ruka: plats för 10 personer, 4 sovrum, 320 m², 5 stjärnor.",
@@ -535,7 +535,7 @@ export const cabinAreas = {
   },
   "salla": {
     "title": "Stugor i Salla",
-    "intro": "Stugor i Salla: 58 hyrstugor i Lomarengas utbud. Avstånd till närmaste by eller skidort, antal personer, sovrum, storlek och stjärnklassning för varje stuga; veckopriser och lediga veckor på Lomarengas.",
+    "intro": "Stugor i Salla: 56 hyrstugor i Lomarengas utbud. Avstånd till närmaste by eller skidort, antal personer, sovrum, storlek och stjärnklassning för varje stuga; veckopriser och lediga veckor på Lomarengas.",
     "lines": [
       "Lux iii, Sallatunturi (Salla), cirka 2 km från Sallatunturi: plats för 10 personer, 3 sovrum, 164 m², 4 stjärnor.",
       "Rantahovi, Sallatunturi (Salla), cirka 1 km från Sallatunturi: plats för 10 personer, 3 sovrum, 150 m², 4 stjärnor.",
@@ -574,14 +574,12 @@ export const cabinAreas = {
       "Sallanrinne b, Sallatunturi (Salla), cirka 1 km från Sallatunturi: plats för 6 personer, 2 sovrum, 65 m², 3 stjärnor.",
       "Susitupa 5, Sallatunturi (Salla), cirka 1 km från Sallatunturi: plats för 6 personer, 1 sovrum, 47 m², 3 stjärnor.",
       "Teppolan rinne, Sallatunturi (Salla), cirka 4 km från Sallatunturi: plats för 6 personer, 1 sovrum, 120 m², 3 stjärnor.",
-      "Männikkö, Sallatunturi (Salla), cirka 2 km från Sallatunturi: plats för 5 personer, 3 sovrum, 92 m², 3 stjärnor.",
-      "Vuosna, Sallatunturi (Salla), cirka 2 km från Sallatunturi: plats för 5 personer, 3 sovrum, 92 m², 3 stjärnor.",
       "Kelokota, Sallatunturi (Salla), cirka 1 km från Sallatunturi: plats för 4 personer, 1 sovrum, 62 m², 3 stjärnor.",
       "Keselmäkangas, Sallatunturi (Salla), cirka 2 km från Sallatunturi: plats för 4 personer, 55 m², 3 stjärnor.",
       "Kymppi, Sallatunturi (Salla), cirka 1 km från Sallatunturi: plats för 4 personer, 1 sovrum, 55 m², 3 stjärnor.",
-      "Susitupa 6, Sallatunturi (Salla), under 1 km från Sallatunturi: plats för 6 personer, 1 sovrum, 47 m², 3 stjärnor.",
       "Lomaväinö 13, Salla, cirka 4 km från Salla centrum: plats för 4 personer, 36 m², 3 stjärnor.",
       "Samruam b aurora cabin, Sallatunturi (Salla), under 1 km från Sallatunturi: plats för 4 personer, 32 m², 3 stjärnor.",
+      "Susitupa 6, Sallatunturi (Salla), under 1 km från Sallatunturi: plats för 6 personer, 1 sovrum, 47 m², 3 stjärnor.",
       "The cozy loggers suite, Salla, under 1 km från Salla centrum: plats för 4 personer, 1 sovrum, 68 m², 3 stjärnor.",
       "Luppokero, Sallatunturi (Salla), cirka 2 km från Sallatunturi: plats för 2 personer, 1 sovrum, 75 m², 3 stjärnor.",
       "Kelloselkä a, Salla, cirka 15 km från Salla centrum: plats för 6 personer, 2 sovrum, 65 m², 3 stjärnor.",

@@ -137,7 +137,7 @@ export const cabinAreas = {
   },
   "ruka": {
     "title": "Rukan ja Kuusamon mökit",
-    "intro": "Rukan ja Kuusamon mökit: Lomarenkaan valikoimassa 247 vuokramökkiä Rukalla ja enintään 10 km:n päässä Rukan kylästä sekä 65 mökkiä kauempana Kuusamon järviseudulla. Jokaisesta mökistä etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
+    "intro": "Rukan ja Kuusamon mökit: Lomarenkaan valikoimassa 246 vuokramökkiä Rukalla ja enintään 10 km:n päässä Rukan kylästä sekä 65 mökkiä kauempana Kuusamon järviseudulla. Jokaisesta mökistä etäisyys Rukalle, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
     "lines": [
       "Ruka panorama, Ruka (Kuusamo), noin 2 km Rukalta: 14 vierasta, 4 makuuhuonetta, 300 m², 5 tähteä.",
       "Holy lake chalet b, Kuusamo, noin 5 km Rukalta: 10 vierasta, 4 makuuhuonetta, 320 m², 5 tähteä.",
@@ -535,7 +535,7 @@ export const cabinAreas = {
   },
   "salla": {
     "title": "Sallan mökit",
-    "intro": "Sallan mökit: 58 vuokramökkiä Lomarenkaan valikoimassa. Jokaisesta mökistä etäisyys lähimpään kylään tai keskukseen, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
+    "intro": "Sallan mökit: 56 vuokramökkiä Lomarenkaan valikoimassa. Jokaisesta mökistä etäisyys lähimpään kylään tai keskukseen, henkilömäärä, makuuhuoneet, koko ja tähtiluokitus; viikkohinnat ja vapaat viikot Lomarenkaalla.",
     "lines": [
       "Lux iii, Sallatunturi (Salla), noin 2 km Sallatunturilta: 10 vierasta, 3 makuuhuonetta, 164 m², 4 tähteä.",
       "Rantahovi, Sallatunturi (Salla), noin 1 km Sallatunturilta: 10 vierasta, 3 makuuhuonetta, 150 m², 4 tähteä.",
@@ -574,14 +574,12 @@ export const cabinAreas = {
       "Sallanrinne b, Sallatunturi (Salla), noin 1 km Sallatunturilta: 6 vierasta, 2 makuuhuonetta, 65 m², 3 tähteä.",
       "Susitupa 5, Sallatunturi (Salla), noin 1 km Sallatunturilta: 6 vierasta, 1 makuuhuone, 47 m², 3 tähteä.",
       "Teppolan rinne, Sallatunturi (Salla), noin 4 km Sallatunturilta: 6 vierasta, 1 makuuhuone, 120 m², 3 tähteä.",
-      "Männikkö, Sallatunturi (Salla), noin 2 km Sallatunturilta: 5 vierasta, 3 makuuhuonetta, 92 m², 3 tähteä.",
-      "Vuosna, Sallatunturi (Salla), noin 2 km Sallatunturilta: 5 vierasta, 3 makuuhuonetta, 92 m², 3 tähteä.",
       "Kelokota, Sallatunturi (Salla), noin 1 km Sallatunturilta: 4 vierasta, 1 makuuhuone, 62 m², 3 tähteä.",
       "Keselmäkangas, Sallatunturi (Salla), noin 2 km Sallatunturilta: 4 vierasta, 55 m², 3 tähteä.",
       "Kymppi, Sallatunturi (Salla), noin 1 km Sallatunturilta: 4 vierasta, 1 makuuhuone, 55 m², 3 tähteä.",
-      "Susitupa 6, Sallatunturi (Salla), alle 1 km Sallatunturilta: 6 vierasta, 1 makuuhuone, 47 m², 3 tähteä.",
       "Lomaväinö 13, Salla, noin 4 km Sallan keskustasta: 4 vierasta, 36 m², 3 tähteä.",
       "Samruam b aurora cabin, Sallatunturi (Salla), alle 1 km Sallatunturilta: 4 vierasta, 32 m², 3 tähteä.",
+      "Susitupa 6, Sallatunturi (Salla), alle 1 km Sallatunturilta: 6 vierasta, 1 makuuhuone, 47 m², 3 tähteä.",
       "The cozy loggers suite, Salla, alle 1 km Sallan keskustasta: 4 vierasta, 1 makuuhuone, 68 m², 3 tähteä.",
       "Luppokero, Sallatunturi (Salla), noin 2 km Sallatunturilta: 2 vierasta, 1 makuuhuone, 75 m², 3 tähteä.",
       "Kelloselkä a, Salla, noin 15 km Sallan keskustasta: 6 vierasta, 2 makuuhuonetta, 65 m², 3 tähteä.",

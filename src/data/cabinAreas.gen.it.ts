@@ -137,7 +137,7 @@ export const cabinAreas = {
   },
   "ruka": {
     "title": "Chalet a Ruka",
-    "intro": "Chalet a Ruka: 247 chalet in affitto di Lomarengas a Ruka e fino a 10 km dal villaggio di Ruka, e altri 65 più lontano, nella zona dei laghi di Kuusamo. Per ogni chalet la distanza da Ruka, il numero di persone, le camere da letto, la superficie e le stelle; prezzi settimanali e settimane libere su Lomarengas.",
+    "intro": "Chalet a Ruka: 246 chalet in affitto di Lomarengas a Ruka e fino a 10 km dal villaggio di Ruka, e altri 65 più lontano, nella zona dei laghi di Kuusamo. Per ogni chalet la distanza da Ruka, il numero di persone, le camere da letto, la superficie e le stelle; prezzi settimanali e settimane libere su Lomarengas.",
     "lines": [
       "Ruka panorama, Ruka (Kuusamo), a circa 2 km da Ruka: per 14 persone, 4 camere da letto, 300 m², 5 stelle.",
       "Holy lake chalet b, Kuusamo, a circa 5 km da Ruka: per 10 persone, 4 camere da letto, 320 m², 5 stelle.",
@@ -535,7 +535,7 @@ export const cabinAreas = {
   },
   "salla": {
     "title": "Chalet a Salla",
-    "intro": "Chalet a Salla: 58 chalet in affitto nell'offerta di Lomarengas. Per ogni chalet la distanza dal paese o dalla stazione sciistica più vicina, il numero di persone, le camere da letto, la superficie e le stelle; prezzi settimanali e settimane libere su Lomarengas.",
+    "intro": "Chalet a Salla: 56 chalet in affitto nell'offerta di Lomarengas. Per ogni chalet la distanza dal paese o dalla stazione sciistica più vicina, il numero di persone, le camere da letto, la superficie e le stelle; prezzi settimanali e settimane libere su Lomarengas.",
     "lines": [
       "Lux iii, Sallatunturi (Salla), a circa 2 km da Sallatunturi: per 10 persone, 3 camere da letto, 164 m², 4 stelle.",
       "Rantahovi, Sallatunturi (Salla), a circa 1 km da Sallatunturi: per 10 persone, 3 camere da letto, 150 m², 4 stelle.",
@@ -574,14 +574,12 @@ export const cabinAreas = {
       "Sallanrinne b, Sallatunturi (Salla), a circa 1 km da Sallatunturi: per 6 persone, 2 camere da letto, 65 m², 3 stelle.",
       "Susitupa 5, Sallatunturi (Salla), a circa 1 km da Sallatunturi: per 6 persone, 1 camera da letto, 47 m², 3 stelle.",
       "Teppolan rinne, Sallatunturi (Salla), a circa 4 km da Sallatunturi: per 6 persone, 1 camera da letto, 120 m², 3 stelle.",
-      "Männikkö, Sallatunturi (Salla), a circa 2 km da Sallatunturi: per 5 persone, 3 camere da letto, 92 m², 3 stelle.",
-      "Vuosna, Sallatunturi (Salla), a circa 2 km da Sallatunturi: per 5 persone, 3 camere da letto, 92 m², 3 stelle.",
       "Kelokota, Sallatunturi (Salla), a circa 1 km da Sallatunturi: per 4 persone, 1 camera da letto, 62 m², 3 stelle.",
       "Keselmäkangas, Sallatunturi (Salla), a circa 2 km da Sallatunturi: per 4 persone, 55 m², 3 stelle.",
       "Kymppi, Sallatunturi (Salla), a circa 1 km da Sallatunturi: per 4 persone, 1 camera da letto, 55 m², 3 stelle.",
-      "Susitupa 6, Sallatunturi (Salla), a meno di 1 km da Sallatunturi: per 6 persone, 1 camera da letto, 47 m², 3 stelle.",
       "Lomaväinö 13, Salla, a circa 4 km dal paese di Salla: per 4 persone, 36 m², 3 stelle.",
       "Samruam b aurora cabin, Sallatunturi (Salla), a meno di 1 km da Sallatunturi: per 4 persone, 32 m², 3 stelle.",
+      "Susitupa 6, Sallatunturi (Salla), a meno di 1 km da Sallatunturi: per 6 persone, 1 camera da letto, 47 m², 3 stelle.",
       "The cozy loggers suite, Salla, a meno di 1 km dal paese di Salla: per 4 persone, 1 camera da letto, 68 m², 3 stelle.",
       "Luppokero, Sallatunturi (Salla), a circa 2 km da Sallatunturi: per 2 persone, 1 camera da letto, 75 m², 3 stelle.",
       "Kelloselkä a, Salla, a circa 15 km dal paese di Salla: per 6 persone, 2 camere da letto, 65 m², 3 stelle.",

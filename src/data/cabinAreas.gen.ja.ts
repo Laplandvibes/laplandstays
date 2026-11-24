@@ -137,7 +137,7 @@ export const cabinAreas = {
   },
   "ruka": {
     "title": "ルカのコテージ",
-    "intro": "ルカのコテージ：Lomarengasに掲載されている貸コテージのうち、ルカ村とそこから10 km以内に247軒、さらに離れたクーサモの湖水地方に65軒。各コテージについて、ルカまでの距離、定員、寝室数、広さ、星評価を記載しています。週ごとの料金と空いている週はLomarengasでご確認ください。",
+    "intro": "ルカのコテージ：Lomarengasに掲載されている貸コテージのうち、ルカ村とそこから10 km以内に246軒、さらに離れたクーサモの湖水地方に65軒。各コテージについて、ルカまでの距離、定員、寝室数、広さ、星評価を記載しています。週ごとの料金と空いている週はLomarengasでご確認ください。",
     "lines": [
       "Ruka panorama、Ruka（Kuusamo）、ルカから約2 km：定員14名、寝室4室、300 m²、5つ星。",
       "Holy lake chalet b、Kuusamo、ルカから約5 km：定員10名、寝室4室、320 m²、5つ星。",
@@ -535,7 +535,7 @@ export const cabinAreas = {
   },
   "salla": {
     "title": "サッラのコテージ",
-    "intro": "サッラのコテージ：Lomarengasに掲載されている貸コテージ58軒。各コテージについて、最寄りの村またはリゾートまでの距離、定員、寝室数、広さ、星評価を記載しています。週ごとの料金と空いている週はLomarengasでご確認ください。",
+    "intro": "サッラのコテージ：Lomarengasに掲載されている貸コテージ56軒。各コテージについて、最寄りの村またはリゾートまでの距離、定員、寝室数、広さ、星評価を記載しています。週ごとの料金と空いている週はLomarengasでご確認ください。",
     "lines": [
       "Lux iii、Sallatunturi（Salla）、サッラトゥントゥリから約2 km：定員10名、寝室3室、164 m²、4つ星。",
       "Rantahovi、Sallatunturi（Salla）、サッラトゥントゥリから約1 km：定員10名、寝室3室、150 m²、4つ星。",
@@ -574,14 +574,12 @@ export const cabinAreas = {
       "Sallanrinne b、Sallatunturi（Salla）、サッラトゥントゥリから約1 km：定員6名、寝室2室、65 m²、3つ星。",
       "Susitupa 5、Sallatunturi（Salla）、サッラトゥントゥリから約1 km：定員6名、寝室1室、47 m²、3つ星。",
       "Teppolan rinne、Sallatunturi（Salla）、サッラトゥントゥリから約4 km：定員6名、寝室1室、120 m²、3つ星。",
-      "Männikkö、Sallatunturi（Salla）、サッラトゥントゥリから約2 km：定員5名、寝室3室、92 m²、3つ星。",
-      "Vuosna、Sallatunturi（Salla）、サッラトゥントゥリから約2 km：定員5名、寝室3室、92 m²、3つ星。",
       "Kelokota、Sallatunturi（Salla）、サッラトゥントゥリから約1 km：定員4名、寝室1室、62 m²、3つ星。",
       "Keselmäkangas、Sallatunturi（Salla）、サッラトゥントゥリから約2 km：定員4名、55 m²、3つ星。",
       "Kymppi、Sallatunturi（Salla）、サッラトゥントゥリから約1 km：定員4名、寝室1室、55 m²、3つ星。",
-      "Susitupa 6、Sallatunturi（Salla）、サッラトゥントゥリから1 km未満：定員6名、寝室1室、47 m²、3つ星。",
       "Lomaväinö 13、Salla、サッラ村から約4 km：定員4名、36 m²、3つ星。",
       "Samruam b aurora cabin、Sallatunturi（Salla）、サッラトゥントゥリから1 km未満：定員4名、32 m²、3つ星。",
+      "Susitupa 6、Sallatunturi（Salla）、サッラトゥントゥリから1 km未満：定員6名、寝室1室、47 m²、3つ星。",
       "The cozy loggers suite、Salla、サッラ村から1 km未満：定員4名、寝室1室、68 m²、3つ星。",
       "Luppokero、Sallatunturi（Salla）、サッラトゥントゥリから約2 km：定員2名、寝室1室、75 m²、3つ星。",
       "Kelloselkä a、Salla、サッラ村から約15 km：定員6名、寝室2室、65 m²、3つ星。",

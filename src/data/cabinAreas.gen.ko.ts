@@ -137,7 +137,7 @@ export const cabinAreas = {
   },
   "ruka": {
     "title": "루카 코티지",
-    "intro": "루카 코티지: 루카 마을과 그 반경 10km 이내에 있는 Lomarengas 임대 코티지 247곳, 그리고 그보다 먼 쿠사모 호수 지대의 코티지 65곳입니다. 코티지마다 루카까지의 거리, 인원, 침실 수, 면적, 별 등급을 표시하며, 주당 요금과 예약 가능한 주는 Lomarengas에서 확인할 수 있습니다.",
+    "intro": "루카 코티지: 루카 마을과 그 반경 10km 이내에 있는 Lomarengas 임대 코티지 246곳, 그리고 그보다 먼 쿠사모 호수 지대의 코티지 65곳입니다. 코티지마다 루카까지의 거리, 인원, 침실 수, 면적, 별 등급을 표시하며, 주당 요금과 예약 가능한 주는 Lomarengas에서 확인할 수 있습니다.",
     "lines": [
       "Ruka panorama, Ruka (Kuusamo), 루카에서 약 2km: 최대 14명, 침실 4개, 300 m², 별 5개.",
       "Holy lake chalet b, Kuusamo, 루카에서 약 5km: 최대 10명, 침실 4개, 320 m², 별 5개.",
@@ -535,7 +535,7 @@ export const cabinAreas = {
   },
   "salla": {
     "title": "살라 코티지",
-    "intro": "살라 코티지: Lomarengas에 등록된 임대 코티지 58곳입니다. 코티지마다 가장 가까운 마을이나 리조트까지의 거리, 인원, 침실 수, 면적, 별 등급을 표시하며, 주당 요금과 예약 가능한 주는 Lomarengas에서 확인할 수 있습니다.",
+    "intro": "살라 코티지: Lomarengas에 등록된 임대 코티지 56곳입니다. 코티지마다 가장 가까운 마을이나 리조트까지의 거리, 인원, 침실 수, 면적, 별 등급을 표시하며, 주당 요금과 예약 가능한 주는 Lomarengas에서 확인할 수 있습니다.",
     "lines": [
       "Lux iii, Sallatunturi (Salla), 살라툰투리에서 약 2km: 최대 10명, 침실 3개, 164 m², 별 4개.",
       "Rantahovi, Sallatunturi (Salla), 살라툰투리에서 약 1km: 최대 10명, 침실 3개, 150 m², 별 4개.",
@@ -574,14 +574,12 @@ export const cabinAreas = {
       "Sallanrinne b, Sallatunturi (Salla), 살라툰투리에서 약 1km: 최대 6명, 침실 2개, 65 m², 별 3개.",
       "Susitupa 5, Sallatunturi (Salla), 살라툰투리에서 약 1km: 최대 6명, 침실 1개, 47 m², 별 3개.",
       "Teppolan rinne, Sallatunturi (Salla), 살라툰투리에서 약 4km: 최대 6명, 침실 1개, 120 m², 별 3개.",
-      "Männikkö, Sallatunturi (Salla), 살라툰투리에서 약 2km: 최대 5명, 침실 3개, 92 m², 별 3개.",
-      "Vuosna, Sallatunturi (Salla), 살라툰투리에서 약 2km: 최대 5명, 침실 3개, 92 m², 별 3개.",
       "Kelokota, Sallatunturi (Salla), 살라툰투리에서 약 1km: 최대 4명, 침실 1개, 62 m², 별 3개.",
       "Keselmäkangas, Sallatunturi (Salla), 살라툰투리에서 약 2km: 최대 4명, 55 m², 별 3개.",
       "Kymppi, Sallatunturi (Salla), 살라툰투리에서 약 1km: 최대 4명, 침실 1개, 55 m², 별 3개.",
-      "Susitupa 6, Sallatunturi (Salla), 살라툰투리에서 1km 이내: 최대 6명, 침실 1개, 47 m², 별 3개.",
       "Lomaväinö 13, Salla, 살라 마을에서 약 4km: 최대 4명, 36 m², 별 3개.",
       "Samruam b aurora cabin, Sallatunturi (Salla), 살라툰투리에서 1km 이내: 최대 4명, 32 m², 별 3개.",
+      "Susitupa 6, Sallatunturi (Salla), 살라툰투리에서 1km 이내: 최대 6명, 침실 1개, 47 m², 별 3개.",
       "The cozy loggers suite, Salla, 살라 마을에서 1km 이내: 최대 4명, 침실 1개, 68 m², 별 3개.",
       "Luppokero, Sallatunturi (Salla), 살라툰투리에서 약 2km: 최대 2명, 침실 1개, 75 m², 별 3개.",
       "Kelloselkä a, Salla, 살라 마을에서 약 15km: 최대 6명, 침실 2개, 65 m², 별 3개.",
