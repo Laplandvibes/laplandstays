@@ -35,6 +35,15 @@
       "text": "Lapland’s hotels fill up in the peak season. According to Statistics Finland, 79% of hotel rooms in Lapland were occupied in December 2025, when the figure for the whole country was 51%. That month Lapland also had the most expensive hotel rooms in Finland, at an average of 356 euros."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Hotels fill up in the peak season",
+      "text": "Compare places to stay early if you are coming in December, when rooms are scarcest.",
+      "items": [
+        "Stays in Lapland"
+      ]
+    },
+    {
       "t": "h2",
       "text": "New places to stay this winter"
     },

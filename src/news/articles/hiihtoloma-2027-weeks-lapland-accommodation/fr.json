@@ -50,6 +50,15 @@
       "text": "Les semaines consécutives se chevauchent donc le week-end : le samedi 27 février et le samedi 6 mars, la station accueille à la fois des vacanciers qui partent et des vacanciers qui arrivent. Cherchez un hébergement pour toute la durée de votre semaine, pas seulement pour les jours de vacances scolaires."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Réservez toute la semaine, pas seulement les jours d'école",
+      "text": "Pendant ces semaines, les familles finlandaises se disputent les chalets et les hôtels des stations de ski.",
+      "items": [
+        "Hébergements en Laponie"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Les vacances de ski en Laponie : ce que représentent ces semaines"
     },

@@ -35,6 +35,15 @@
       "text": "Los hoteles de Laponia se llenan en temporada alta. Según Statistics Finland, el instituto de estadística finlandés, en diciembre de 2025 estaba ocupado el 79 % de las habitaciones de hotel de Laponia, frente al 51 % del conjunto del país. Ese mes, las habitaciones de hotel de Laponia fueron además las más caras de Finlandia, con un precio medio de 356 euros."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Los hoteles se llenan en temporada alta",
+      "text": "Compare alojamientos con antelación si viene en diciembre, cuando quedan menos habitaciones libres.",
+      "items": [
+        "Alojamiento en Laponia"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Nuevos alojamientos para este invierno"
     },

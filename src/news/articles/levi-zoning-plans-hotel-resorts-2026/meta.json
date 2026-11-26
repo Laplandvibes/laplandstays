@@ -102,6 +102,11 @@
     },
     "facts-loma-asunnot": {
       "kind": "facts"
+    },
+    "action-stay": {
+      "type": "action",
+      "kind": "stay",
+      "href": "https://go.laplandvibes.com/go/hotels?sid=news_levi_plans_stay&ss=Levi"
     }
   }
 }

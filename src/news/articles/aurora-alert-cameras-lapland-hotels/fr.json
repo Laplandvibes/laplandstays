@@ -11,6 +11,15 @@
       "text": "Des dizaines d'hôtels et de complexes de Laponie finlandaise ont installé pour leurs clients des systèmes d'alerte aux aurores boréales fondés sur une caméra, rapporte le radiodiffuseur public finlandais Yle. La caméra vise le ciel, reconnaît seule l'aurore et envoie une alerte sur le téléphone du client, accompagnée d'une photo de ce qui se passe au-dessus de lui."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Posez la question de la caméra en réservant",
+      "text": "Comparez les hébergements dans toute la Laponie et demandez à l'établissement s'il a sa propre caméra à aurores.",
+      "items": [
+        "Hébergements en Laponie"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Ce que fait réellement l'alerte"
     },

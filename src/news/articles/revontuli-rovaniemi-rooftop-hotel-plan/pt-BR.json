@@ -34,6 +34,15 @@
       "text": "Ainda não foi anunciado quem vai operar o hotel, quantos quartos ele terá nem quando vai abrir. Para quem pretende se hospedar em Rovaniemi neste inverno ou no próximo, o plano ainda não muda nada: não há quartos à venda nem data para o início das obras."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "O hotel ainda não tem quartos à venda",
+      "text": "Para uma estadia neste inverno, compare as hospedagens de Rovaniemi que já estão abertas.",
+      "items": [
+        "Hospedagem em Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "A proposta de plano ficará em consulta pública por 30 dias, e foram pedidos pareceres ao Museu Regional da Lapônia e ao Lapin elinvoimakeskus, órgão regional do Estado na Lapônia. A prefeitura pretende levar o plano à Câmara Municipal no fim do inverno finlandês de 2027. Antes disso, a prefeitura e o proprietário do terreno precisam fechar um acordo de uso do solo."
     },

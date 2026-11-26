@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Det nya hotellet är ännu bara en plan",
+      "text": "Antalet rum och öppningsdatumet är ännu inte kända. Jämför i vinter de boenden som redan är öppna i Levi.",
+      "items": [
+        "Boenden i Levi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Flera planer med anknytning till turismen är anhängiga i Kittilä kommun, och de flesta gäller turistorten Levi och området runt den. I kommunens planhandlingar finns ett hotell i Levi centrum, resorter nära Levi och i Raattama samt fritidsbostäder i Levis sluttningar och i Ylläsjärvi. Planerna befinner sig i olika skeden, och några inleddes först i slutet av september."
     },

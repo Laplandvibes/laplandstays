@@ -50,6 +50,15 @@
       "text": "Peräkkäiset viikot menevät siis viikonloppuina päällekkäin: lauantaina 27.2. ja lauantaina 6.3. keskuksessa ovat sekä lähtevät että saapuvat lomalaiset. Hae majoitusta oman viikkosi koko jaksolle, älä pelkille koulun lomapäiville."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Varaa koko viikko, ei vain koulupäiviä",
+      "text": "Näinä viikkoina hiihtokeskusten mökeistä ja hotelleista kilpailevat kotimaiset perheet.",
+      "items": [
+        "Lapin majoitukset"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Hiihtoloma Lapissa: mitä viikot tarkoittavat"
     },

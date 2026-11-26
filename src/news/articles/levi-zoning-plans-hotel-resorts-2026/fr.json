@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Le nouvel hôtel n'est encore qu'un projet",
+      "text": "Le nombre de chambres et la date d'ouverture ne sont pas encore connus. Pour cet hiver, comparez les hébergements déjà ouverts à Levi.",
+      "items": [
+        "Hébergements à Levi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Plusieurs plans d’urbanisme liés au tourisme sont en cours dans la commune de Kittilä, et la plupart concernent la station de Levi et ses environs. Les documents d’urbanisme de la commune prévoient un hôtel au centre de Levi, des resorts près de Levi et à Raattama, ainsi que des logements de vacances sur les pentes de Levi et à Ylläsjärvi. Les plans en sont à des stades différents, et certains n’ont été lancés qu’à la fin septembre."
     },

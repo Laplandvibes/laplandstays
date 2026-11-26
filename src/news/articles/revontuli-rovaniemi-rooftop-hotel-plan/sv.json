@@ -34,6 +34,15 @@
       "text": "Vem som ska driva hotellet, hur många rum det får och när det öppnar har inte meddelats. För en vistelse i vinter eller nästa vinter ändrar planen ännu ingenting: det går inte att boka några rum och det finns inget datum för byggstarten."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Hotellet har inga rum till salu än",
+      "text": "För en vistelse i vinter, jämför boendena i Rovaniemi som är öppna nu.",
+      "items": [
+        "Boenden i Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Planförslaget ställs ut i 30 dagar, och utlåtanden har begärts av Lapplands landskapsmuseum och Livskraftscentralen i Lappland. Staden siktar på att föra planen till stadsfullmäktige på vårvintern 2027. Innan dess måste staden och markägaren komma överens om ett markanvändningsavtal."
     },

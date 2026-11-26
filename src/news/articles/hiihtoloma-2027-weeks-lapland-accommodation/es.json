@@ -50,6 +50,15 @@
       "text": "Las semanas consecutivas se solapan, por tanto, en los fines de semana: el sábado 27 de febrero y el sábado 6 de marzo la estación tiene a la vez vacacionistas que se van y que llegan. Busque alojamiento para toda la duración de su semana, no solo para los días de vacaciones escolares."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Reserve la semana entera, no solo los días de clase",
+      "text": "En estas semanas las familias finlandesas compiten por las cabañas y los hoteles de las estaciones de esquí.",
+      "items": [
+        "Alojamiento en Laponia"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Vacaciones de esquí en Laponia: qué significan las semanas"
     },

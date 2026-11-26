@@ -24,6 +24,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Kaksi uusista lasi-iglukohteista on jo auki",
+      "text": "Halo Riverside ja Aava Glass Igloos ottavat jo vieraita Rovaniemellä. Kun avautumispäivää ei ole vahvistettu, valitse hinta, jonka voi perua maksutta.",
+      "items": [
+        "Rovaniemen majoitukset",
+        "Koko Lappi"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Rovaniemi: kaksi iglukohdetta auki, keskustaan uusi hotelli"
     },

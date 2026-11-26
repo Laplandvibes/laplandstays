@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Pas encore de chambres en vente dans l'îlot au bord du fleuve",
+      "text": "Pour cet hiver et le suivant, comparez les hébergements de Rovaniemi que vous pouvez réserver dès maintenant.",
+      "items": [
+        "Hébergements à Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Selon Lapin Kansa, les travaux se concentrent d’abord sur le bâtiment principal de la préfecture, où les cloisons entre les bureaux sont abattues pour laisser place aux chambres d’hôtel."
     },

@@ -381,3 +381,27 @@
 .nw .nw-sheet section > ul[role="list"] button{background:#fff;color:#0F172A;border-color:rgba(15,23,42,.28)}
 @media(min-width:760px){.nw .nw-sheet section:has(> ul[role="list"]){padding:24px 26px 24px}}
 .nw{--lv-soft:#FDF2F8;--lv-soft-line:#FBCFE8;--lv-tile:#FFFFFF;--lv-share-bg:#EEF3FA;--lv-share-line:#C9D8EC;--lv-cap-font:var(--font-heading),"Bebas Neue",system-ui,sans-serif}
+
+/* ─────────────────────────────────────────────────────────────────────────────
+   TOIMINTANAPPI (26.11.2026, src/news/actionEmbed.tsx). Tumma esine vaalealla
+   arkilla: värit kiinteinä, jotta arkin musteet eivät koske korttiin. Pinkki vain
+   napin täytössä (#DB2777 + valkoinen 4,6:1), linkki jäänsininen #BAE6FD,
+   yläotsikko himmeä valkoinen (rauhallinen värilinja 16.11.2026). Nappi ja linkki
+   vähintään 44 px korkeita.
+   ───────────────────────────────────────────────────────────────────────────── */
+.nw .nw-act{margin:28px 0 30px;padding:22px 22px 20px;border-radius:18px;background:#0F172A;border:1px solid rgba(255,255,255,.16);color:#fff}
+.nw .nw-act p.nw-act-eyebrow{margin:0 0 8px;font:600 13px/1.3 var(--font-body),'DM Sans',system-ui,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.66)}
+.nw .nw-act h3.nw-act-title{margin:0 0 8px;font-family:var(--font-heading),'Bebas Neue',sans-serif;font-weight:400;font-size:clamp(26px,3.4vw,30px);line-height:1.08;letter-spacing:.02em;color:#fff;text-wrap:balance}
+.nw .nw-act h3.nw-act-title:lang(ja),.nw .nw-act h3.nw-act-title:lang(zh),.nw .nw-act h3.nw-act-title:lang(ko){font-family:var(--font-body),'DM Sans',system-ui,sans-serif;font-weight:700;font-size:21px;line-height:1.4;letter-spacing:0}
+.nw .nw-act p.nw-act-text{margin:0 0 16px;font-size:17px;line-height:1.6;color:rgba(255,255,255,.86);text-wrap:pretty}
+.nw .nw-act p.nw-act-text:lang(ja),.nw .nw-act p.nw-act-text:lang(zh),.nw .nw-act p.nw-act-text:lang(ko){text-wrap:balance}
+.nw .nw-act :is(h3,p):lang(ko){word-break:keep-all}
+.nw .nw-act :is(h3,p):lang(ja){word-break:auto-phrase;line-break:strict}
+.nw .nw-act-row{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px}
+.nw .nw-act a.nw-act-btn{display:inline-flex;align-items:center;gap:8px;min-height:48px;padding:11px 20px;border-radius:999px;background:#DB2777;color:#fff;font:700 16px/1.3 var(--font-body),'DM Sans',system-ui,sans-serif;text-decoration:none;max-width:100%}
+.nw .nw-act a.nw-act-btn:hover{background:#BE185D;color:#fff}
+.nw .nw-act a.nw-act-sec{display:inline-flex;align-items:center;gap:6px;min-height:44px;font:600 16px/1.3 var(--font-body),'DM Sans',system-ui,sans-serif;color:#BAE6FD;text-decoration:underline;text-underline-offset:4px;max-width:100%}
+.nw .nw-act a.nw-act-sec:hover{color:#fff}
+.nw .nw-act a:focus-visible{outline:3px solid #BAE6FD;outline-offset:3px}
+.nw .nw-act a.nw-act-btn > span:first-child{text-wrap:balance}
+@media(max-width:640px){.nw .nw-act{padding:20px 16px 18px;margin:24px 0 26px}.nw .nw-act a.nw-act-btn{width:100%;justify-content:center;padding:11px 16px}}

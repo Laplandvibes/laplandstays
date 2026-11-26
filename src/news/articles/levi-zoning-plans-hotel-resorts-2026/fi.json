@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Uusi hotelli on vasta kaavassa",
+      "text": "Huonemäärää ja avautumispäivää ei vielä tiedetä. Tälle talvelle kannattaa verrata Levin jo avoinna olevia majoituksia.",
+      "items": [
+        "Levin majoitukset"
+      ]
+    },
+    {
       "t": "p",
       "text": "Kittilässä on vireillä useita matkailuun liittyviä kaavoja, ja suurin osa niistä koskee Levin matkailukeskusta ja sen ympäristöä. Kunnan kaava-asiakirjoissa suunnitellaan hotellia Levin keskustaan, resortteja Levin lähelle ja Raattamaan sekä loma-asuntoja Levin rinteille ja Ylläsjärvelle. Kaavat ovat eri vaiheissa, ja osa tuli vireille vasta syyskuun lopussa."
     },

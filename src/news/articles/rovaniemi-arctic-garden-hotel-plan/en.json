@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "No rooms on sale in the riverside block yet",
+      "text": "For this winter and the next, compare the places to stay in Rovaniemi that you can book now.",
+      "items": [
+        "Stays in Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "According to Lapin Kansa the work is first concentrated on the main building of the provincial government, where the partition walls between office rooms are being pulled down to make way for hotel rooms."
     },

@@ -104,6 +104,12 @@
   "embeds": {
     "facts-avaukset": {
       "kind": "facts"
+    },
+    "action-stay": {
+      "type": "action",
+      "kind": "stay",
+      "href": "https://go.laplandvibes.com/go/hotels?sid=news_new_igloos_stay&ss=Rovaniemi",
+      "secondaryHref": "https://go.laplandvibes.com/go/hotels?sid=news_new_igloos_stay_lapland&ss=Lapland"
     }
   }
 }

@@ -11,6 +11,15 @@
       "text": "Decine di hotel e resort della Lapponia finlandese hanno installato per i propri ospiti sistemi di allerta per l'aurora boreale basati su telecamera, riferisce l'emittente pubblica finlandese Yle. La telecamera punta al cielo, riconosce da sola l'aurora e invia un avviso al telefono dell'ospite insieme a una foto di ciò che sta accadendo sopra di lui."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Chieda della telecamera quando prenota",
+      "text": "Confronti gli alloggi in tutta la Lapponia e chieda alla struttura se ha una propria telecamera per l'aurora.",
+      "items": [
+        "Alloggi in Lapponia"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Che cosa fa davvero l'avviso"
     },

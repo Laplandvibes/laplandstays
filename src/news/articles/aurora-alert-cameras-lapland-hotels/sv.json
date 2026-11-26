@@ -11,6 +11,15 @@
       "text": "Dussintals hotell och resorter i finska Lappland har installerat kamerabaserade norrskensvarningar åt sina gäster, rapporterar finska rundradion Yle. Kameran riktas mot himlen, känner igen norrskenet själv och skickar en varning till gästens telefon tillsammans med ett foto av det som pågår ovanför."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Fråga om kameran när du bokar",
+      "text": "Jämför boenden i hela Lappland och fråga boendet om det har en egen norrskenskamera.",
+      "items": [
+        "Boenden i Lappland"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Vad varningen faktiskt gör"
     },

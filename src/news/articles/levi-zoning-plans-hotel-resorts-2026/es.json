@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "El nuevo hotel aún es solo un plan",
+      "text": "Todavía no se conocen ni el número de habitaciones ni la fecha de apertura. Para este invierno, compare los alojamientos que ya funcionan en Levi.",
+      "items": [
+        "Alojamiento en Levi"
+      ]
+    },
+    {
       "t": "p",
       "text": "En el municipio de Kittilä hay en trámite varios planes urbanísticos vinculados al turismo, y la mayoría afecta al centro turístico de Levi y sus alrededores. Los documentos de planificación del municipio contemplan un hotel en el centro de Levi, resorts cerca de Levi y en Raattama, y viviendas vacacionales en las laderas de Levi y en Ylläsjärvi. Los planes están en fases distintas, y algunos se iniciaron apenas a finales de septiembre."
     },

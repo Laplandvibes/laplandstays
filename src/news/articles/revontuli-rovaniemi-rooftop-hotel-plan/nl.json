@@ -34,6 +34,15 @@
       "text": "Een hotelexploitant, het aantal kamers en een openingsdatum zijn nog niet bekendgemaakt. Voor een verblijf deze winter of de volgende verandert het plan nog niets: er zijn geen kamers te boeken en er is geen startdatum voor de bouw."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Het hotel heeft nog geen kamers te koop",
+      "text": "Voor een verblijf deze winter vergelijkt u de accommodaties in Rovaniemi die nu open zijn.",
+      "items": [
+        "Overnachten in Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Het ontwerpbestemmingsplan ligt 30 dagen ter inzage, en er is advies gevraagd aan het Regionaal Museum van Lapland en het Centrum voor Economische Ontwikkeling van Lapland. De gemeente streeft ernaar het plan eind winter 2027 aan de gemeenteraad voor te leggen. Voor die tijd moeten de gemeente en de grondeigenaar een overeenkomst over het grondgebruik sluiten."
     },

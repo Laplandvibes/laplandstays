@@ -55,6 +55,12 @@
   "embeds": {
     "facts-lyhyesti": {
       "kind": "facts"
+    },
+    "action-stay": {
+      "type": "action",
+      "kind": "stay",
+      "href": "https://go.laplandvibes.com/go/hotels?sid=news_inari_igloos_stay&ss=Saariselk%C3%A4",
+      "secondaryHref": "https://go.laplandvibes.com/go/hotels?sid=news_inari_igloos_stay_inari&ss=Inari"
     }
   }
 }

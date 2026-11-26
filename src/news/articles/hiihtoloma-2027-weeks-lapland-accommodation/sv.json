@@ -50,6 +50,15 @@
       "text": "Veckor i följd överlappar därför på helgerna: lördagen 27 februari och lördagen 6 mars har orten både avresande och ankommande semesterfirare. Sök boende för hela din veckas längd, inte bara för skolloven."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Boka hela veckan, inte bara skoldagarna",
+      "text": "Under de här veckorna konkurrerar finska familjer om stugorna och hotellen i skidorterna.",
+      "items": [
+        "Boenden i Lappland"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Sportlov i Lappland: vad veckorna betyder"
     },

@@ -11,6 +11,15 @@
       "text": "Decenas de hoteles y complejos de la Laponia finlandesa han instalado para sus huéspedes sistemas de aviso de auroras boreales basados en cámaras, informa la radiotelevisión pública finlandesa Yle. La cámara apunta al cielo, reconoce la aurora por sí sola y envía un aviso al móvil del huésped junto con una foto de lo que está ocurriendo sobre su cabeza."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Pregunte por la cámara al reservar",
+      "text": "Compare alojamientos en toda Laponia y pregunte al establecimiento si tiene su propia cámara de auroras.",
+      "items": [
+        "Alojamiento en Laponia"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Qué hace realmente el aviso"
     },

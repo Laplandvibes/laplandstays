@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "New rooms will come slowly",
+      "text": "Around Inari, Ivalo and Saariselkä the best-known places are worth booking earlier than before.",
+      "items": [
+        "Stays in Saariselkä",
+        "Stays in Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "According to Lapin Kansa the municipality has tightened the granting of permits, there are hardly any free plots left for newcomers, and the line has become considerably stricter over the past three years."
     },

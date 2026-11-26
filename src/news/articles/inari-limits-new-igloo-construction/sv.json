@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Nya rum kommer bara långsamt",
+      "text": "Kring Inari, Ivalo och Saariselkä lönar det sig att boka de mest kända ställena tidigare än förut.",
+      "items": [
+        "Boenden i Saariselkä",
+        "Boenden i Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "Enligt Lapin Kansa har kommunen skärpt beviljandet av lov. Lediga tomter finns det knappt kvar för nykomlingar, och linjen har blivit betydligt strängare under de tre senaste åren."
     },

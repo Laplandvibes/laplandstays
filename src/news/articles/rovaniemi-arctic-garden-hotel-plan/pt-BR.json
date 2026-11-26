@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "O quarteirão à beira do rio ainda não vende quartos",
+      "text": "Para este inverno e o próximo, compare as hospedagens de Rovaniemi que você pode reservar agora.",
+      "items": [
+        "Hospedagem em Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Segundo o Lapin Kansa, as obras se concentram primeiro no prédio principal do governo provincial, onde as paredes divisórias entre as salas de escritório estão sendo derrubadas para dar lugar aos quartos de hotel."
     },

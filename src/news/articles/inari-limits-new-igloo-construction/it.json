@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Le nuove camere arriveranno lentamente",
+      "text": "A Inari, Ivalo e Saariselkä conviene prenotare le strutture più note prima di quanto si faceva finora.",
+      "items": [
+        "Alloggi a Saariselkä",
+        "Alloggi a Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "Secondo Lapin Kansa il comune ha stretto il rilascio dei permessi. Per i nuovi arrivati non restano quasi lotti liberi e la linea si è irrigidita in modo netto in tre anni."
     },

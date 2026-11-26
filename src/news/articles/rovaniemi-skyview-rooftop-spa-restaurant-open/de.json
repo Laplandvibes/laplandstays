@@ -24,6 +24,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Für den Spa müssen Sie nicht im Resort wohnen",
+      "text": "Verbinden Sie einen Abend auf dem Olleronvaara mit einer Unterkunft anderswo in Rovaniemi, vom Zentrum bis zum Polarkreis.",
+      "items": [
+        "Unterkünfte in Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Nach Angaben des Unternehmens hat der Spa Arctic Spa Culta am 16. Oktober eröffnet, und auf seinem Dach gibt es einen beheizten Infinity-Pool und eine Panoramasauna. Das Restaurant Aura ist gemeinsam mit dem Koch Tomi Björck entstanden."
     },

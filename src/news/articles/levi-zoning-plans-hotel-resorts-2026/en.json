@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "The new hotel is still only a plan",
+      "text": "Its room count and opening date are not known yet. For this winter, compare the places already open in Levi.",
+      "items": [
+        "Stays in Levi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Several tourism-related zoning plans are under way in the municipality of Kittilä, and most of them concern the Levi resort and the area around it. The municipality’s planning documents include a hotel in central Levi, resorts near Levi and in Raattama, and holiday homes on the slopes of Levi and in Ylläsjärvi. The plans are at different stages, and some were only launched at the end of September."
     },

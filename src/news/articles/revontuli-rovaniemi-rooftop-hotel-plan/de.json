@@ -34,6 +34,15 @@
       "text": "Weder ein Hotelbetreiber noch die Zahl der Zimmer noch ein Eröffnungstermin wurden bisher genannt. Für einen Aufenthalt in diesem oder im nächsten Winter ändert der Plan noch nichts: Es gibt keine buchbaren Zimmer und keinen Termin für den Baubeginn."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Im geplanten Hotel lässt sich noch nichts buchen",
+      "text": "Für einen Aufenthalt in diesem Winter vergleichen Sie die Unterkünfte in Rovaniemi, die jetzt geöffnet sind.",
+      "items": [
+        "Unterkünfte in Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Der Planvorschlag liegt 30 Tage lang öffentlich aus. Um Stellungnahmen gebeten wurden das Regionalmuseum Lappland und das Zentrum für Wirtschaftsentwicklung Lappland. Die Stadt strebt an, den Plan im Spätwinter 2027 dem Stadtrat vorzulegen. Vorher müssen sich Stadt und Grundstückseigentümer auf einen städtebaulichen Vertrag einigen."
     },

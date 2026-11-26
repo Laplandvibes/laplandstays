@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Uusia huoneita tulee hitaasti",
+      "text": "Inarin, Ivalon ja Saariselän tunnetuimmat paikat kannattaa varata aiempaa aikaisemmin.",
+      "items": [
+        "Saariselän majoitukset",
+        "Inarin majoitukset"
+      ]
+    },
+    {
       "t": "p",
       "text": "Lapin Kansan mukaan kunta on tiukentanut lupien myöntämistä, vapaita tontteja ei tulokkaille juuri enää ole ja linja on tiukentunut kolmen vuoden aikana huomattavasti."
     },

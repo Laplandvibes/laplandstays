@@ -50,5 +50,12 @@
   ],
   "ogCard": {
     "line": "A record year for new places to stay"
+  },
+  "embeds": {
+    "action-stay": {
+      "type": "action",
+      "kind": "stay",
+      "href": "https://go.laplandvibes.com/go/hotels?sid=news_building_record_stay&ss=Lapland"
+    }
   }
 }

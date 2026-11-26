@@ -11,6 +11,15 @@
       "text": "Dezenas de hotéis e resorts da Lapônia finlandesa instalaram para seus hóspedes sistemas de alerta de aurora boreal baseados em câmera, informa a emissora pública finlandesa Yle. A câmera aponta para o céu, reconhece a aurora sozinha e envia um alerta ao celular do hóspede, junto com uma foto do que está acontecendo acima dele."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Pergunte sobre a câmera ao reservar",
+      "text": "Compare hospedagens em toda a Lapônia e pergunte ao estabelecimento se ele tem câmera própria de aurora.",
+      "items": [
+        "Hospedagem na Lapônia"
+      ]
+    },
+    {
       "t": "h2",
       "text": "O que o alerta faz de fato"
     },

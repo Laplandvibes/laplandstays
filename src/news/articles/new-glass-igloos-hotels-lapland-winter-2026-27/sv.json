@@ -24,6 +24,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Två av de nya igloresorterna har redan öppnat",
+      "text": "Halo Riverside och Aava Glass Igloos tar redan emot gäster i Rovaniemi. Om öppningsdatumet inte är bekräftat, välj ett pris som går att avboka kostnadsfritt.",
+      "items": [
+        "Boenden i Rovaniemi",
+        "Hela Lappland"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Rovaniemi: två iglo-resorter öppna, ett nytt hotell i centrum"
     },

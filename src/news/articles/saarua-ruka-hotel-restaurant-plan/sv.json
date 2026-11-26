@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Det går inte att boka i Saarua än",
+      "text": "Hotellet är fortfarande på planeringsstadiet. Jämför boendena som är öppna i Ruka nu.",
+      "items": [
+        "Boenden i Ruka"
+      ]
+    },
+    {
       "t": "p",
       "text": "Platsen ligger intill hotellet RukaValley, på en tomt som ägs av Forststyrelsen mellan hotellet och vägen. Bakom projektet står företagarparet Sari Helin och Ilkka Lääveri, som var där och tittade på tomten i september."
     },

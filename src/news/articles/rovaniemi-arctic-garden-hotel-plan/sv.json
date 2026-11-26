@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Kvarteret vid älven säljer inga rum än",
+      "text": "Jämför för den här och nästa vinter boendena i Rovaniemi som du kan boka nu.",
+      "items": [
+        "Boenden i Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Enligt Lapin Kansa koncentreras arbetet först till länsstyrelsens huvudbyggnad, där mellanväggarna mellan kontorsrummen rivs för att ge plats för hotellrum."
     },

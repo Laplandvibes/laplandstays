@@ -24,6 +24,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Du behöver inte bo på resorten för att gå på spat",
+      "text": "Kombinera en kväll på Olleronvaara med ett boende någon annanstans i Rovaniemi, från centrum till polcirkeln.",
+      "items": [
+        "Boenden i Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Enligt företaget öppnade spat Arctic Spa Culta den 16 oktober, och på taket finns en uppvärmd infinitypool och en panoramabastu. Restaurang Aura har skapats tillsammans med kocken Tomi Björck."
     },

@@ -34,6 +34,15 @@
       "text": "Non sono stati resi noti né il gestore dell’hotel, né il numero di camere, né la data di apertura. Per un soggiorno quest’inverno o il prossimo il piano non cambia ancora nulla: non ci sono camere in vendita né una data di inizio dei lavori."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "L'hotel non ha ancora camere in vendita",
+      "text": "Per un soggiorno quest'inverno, confronti gli alloggi di Rovaniemi già aperti.",
+      "items": [
+        "Alloggi a Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "La proposta di piano resterà esposta al pubblico per 30 giorni. Sono stati chiesti pareri al Museo regionale della Lapponia e al Centro per lo sviluppo economico della Lapponia. Il Comune punta a portare il piano in consiglio comunale a fine inverno 2027. Prima di allora il Comune e il proprietario del terreno devono stipulare una convenzione urbanistica."
     },

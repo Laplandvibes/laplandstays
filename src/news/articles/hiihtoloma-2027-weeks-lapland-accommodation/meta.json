@@ -122,6 +122,11 @@
     },
     "prices": {
       "kind": "stats"
+    },
+    "action-stay": {
+      "type": "action",
+      "kind": "stay",
+      "href": "https://go.laplandvibes.com/go/hotels?sid=news_hiihtoloma_2027_stay&ss=Lapland"
     }
   }
 }

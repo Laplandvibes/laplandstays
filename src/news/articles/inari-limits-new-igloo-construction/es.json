@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Las habitaciones nuevas llegarán despacio",
+      "text": "En Inari, Ivalo y Saariselkä conviene reservar los alojamientos más conocidos con más antelación que hasta ahora.",
+      "items": [
+        "Alojamiento en Saariselkä",
+        "Alojamiento en Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "Según Lapin Kansa, el municipio ha endurecido la concesión de permisos. Apenas quedan parcelas libres para los recién llegados y el criterio se ha vuelto bastante más estricto en tres años."
     },

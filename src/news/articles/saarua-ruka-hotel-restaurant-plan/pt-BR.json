@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Ainda não dá para reservar em Saarua",
+      "text": "O hotel ainda está em fase de planejamento. Compare as hospedagens que já estão abertas em Ruka.",
+      "items": [
+        "Hospedagem em Ruka"
+      ]
+    },
+    {
       "t": "p",
       "text": "O local fica ao lado do hotel RukaValley, num terreno da Metsähallitus entre o hotel e a estrada. Por trás do projeto está o casal de empresários Sari Helin e Ilkka Lääveri, que foi ver o terreno em setembro."
     },

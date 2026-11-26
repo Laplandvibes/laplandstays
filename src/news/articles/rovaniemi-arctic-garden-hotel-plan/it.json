@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Nel complesso sul fiume non si vendono ancora camere",
+      "text": "Per quest'inverno e il prossimo, confronti gli alloggi di Rovaniemi che può prenotare già adesso.",
+      "items": [
+        "Alloggi a Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Secondo Lapin Kansa i lavori si concentrano prima sull'edificio principale della prefettura, dove le pareti divisorie tra gli uffici vengono abbattute per fare posto alle camere dell'hotel."
     },

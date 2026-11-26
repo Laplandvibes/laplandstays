@@ -24,6 +24,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Para ir ao spa não é preciso se hospedar no resort",
+      "text": "Combine uma noite em Olleronvaara com uma hospedagem em outra parte de Rovaniemi, do centro ao Círculo Polar Ártico.",
+      "items": [
+        "Hospedagem em Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Segundo a empresa, o spa Arctic Spa Culta abriu em 16 de outubro, e na cobertura há uma piscina de borda infinita aquecida e uma sauna panorâmica. O restaurante Aura foi criado em parceria com o chef Tomi Björck."
     },

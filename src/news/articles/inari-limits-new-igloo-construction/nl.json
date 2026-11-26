@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Nieuwe kamers komen er maar langzaam bij",
+      "text": "Rond Inari, Ivalo en Saariselkä kunt u de bekendste accommodaties beter eerder boeken dan vroeger.",
+      "items": [
+        "Overnachten in Saariselkä",
+        "Overnachten in Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "Volgens Lapin Kansa heeft de gemeente het verlenen van vergunningen verscherpt. Vrije kavels zijn er voor nieuwkomers nauwelijks nog, en de lijn is in drie jaar aanzienlijk strenger geworden."
     },

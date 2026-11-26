@@ -82,6 +82,11 @@
   "embeds": {
     "facts-lyhyesti": {
       "kind": "facts"
+    },
+    "action-stay": {
+      "type": "action",
+      "kind": "stay",
+      "href": "https://go.laplandvibes.com/go/hotels?sid=news_saarua_hotel_stay&ss=Ruka"
     }
   }
 }

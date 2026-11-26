@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Im Block am Fluss gibt es noch keine Zimmer zu buchen",
+      "text": "Für diesen und den nächsten Winter vergleichen Sie die Unterkünfte in Rovaniemi, die Sie jetzt buchen können.",
+      "items": [
+        "Unterkünfte in Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Laut Lapin Kansa konzentrieren sich die Arbeiten zunächst auf das Hauptgebäude der Provinzialregierung, wo die Trennwände zwischen den Büroräumen abgerissen werden, um Platz für Hotelzimmer zu schaffen."
     },

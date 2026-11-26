@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Nothing to book in Saarua yet",
+      "text": "The hotel is still at the planning stage. Compare the places to stay that are open in Ruka now.",
+      "items": [
+        "Stays in Ruka"
+      ]
+    },
+    {
       "t": "p",
       "text": "The site is next to the RukaValley hotel, on a plot owned by Metsähallitus between the hotel and the road. Behind the project are the entrepreneur couple Sari Helin and Ilkka Lääveri, who went to see the plot in September."
     },

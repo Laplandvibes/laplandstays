@@ -1,0 +1,4 @@
+{
+  "_ohje": "Uutisjutut, joihin ei tule toimintanappia, ja syy (vähintään 20 merkkiä). Lisää rivi vain, kun mikään majoitus-, aktiviteetti-, lippu-, lento- tai autonappi ei sovi aiheeseen. Tarkistus: node scripts/check-news-action.mjs.",
+  "lapland-hotels-whatsapp-scam-messages-warning": "Huijausvaroitus: juttu kehottaa olemaan avaamatta varauksiin liittyviä linkkejä, joten varausnappi samassa jutussa näyttäisi juuri siltä, mistä varoitetaan (26.11.2026)."
+}

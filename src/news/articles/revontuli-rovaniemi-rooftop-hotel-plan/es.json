@@ -34,6 +34,15 @@
       "text": "No se ha anunciado qué empresa operará el hotel, cuántas habitaciones tendrá ni cuándo abrirá. Para alojarse en Rovaniemi este invierno o el próximo, el plan todavía no cambia nada: no hay habitaciones a la venta ni fecha de inicio de las obras."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "El hotel aún no tiene habitaciones a la venta",
+      "text": "Para una estancia este invierno, compare los alojamientos de Rovaniemi que ya están abiertos.",
+      "items": [
+        "Alojamiento en Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "La propuesta de plan estará en exposición pública durante 30 días, y se han solicitado informes al Museo Regional de Laponia y al Centro de Desarrollo Económico de Laponia. La ciudad aspira a llevar el plan al concejo municipal a finales del invierno de 2027. Antes, el municipio y el propietario del terreno deben cerrar un convenio urbanístico."
     },

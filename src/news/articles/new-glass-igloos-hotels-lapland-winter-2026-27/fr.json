@@ -24,6 +24,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Deux des nouveaux resorts d'igloos sont déjà ouverts",
+      "text": "Halo Riverside et Aava Glass Igloos accueillent déjà des clients à Rovaniemi. Quand la date d'ouverture n'est pas confirmée, choisissez un tarif annulable sans frais.",
+      "items": [
+        "Hébergements à Rovaniemi",
+        "Toute la Laponie"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Rovaniemi : deux resorts d’igloos ouverts, un nouvel hôtel au centre-ville"
     },

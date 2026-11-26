@@ -11,6 +11,15 @@
       "text": "Dutzende Hotels und Resorts in Finnisch-Lappland haben für ihre Gäste kamerabasierte Nordlicht-Alarmsysteme installiert, berichtet der finnische Rundfunk Yle. Die Kamera richtet sich auf den Himmel, erkennt das Nordlicht selbst und schickt dem Gast einen Alarm aufs Handy, zusammen mit einem Foto von dem, was gerade über ihm passiert."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Fragen Sie bei der Buchung nach der Kamera",
+      "text": "Vergleichen Sie Unterkünfte in ganz Lappland und fragen Sie das Haus, ob es eine eigene Nordlichtkamera hat.",
+      "items": [
+        "Unterkünfte in Lappland"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Was der Alarm wirklich leistet"
     },

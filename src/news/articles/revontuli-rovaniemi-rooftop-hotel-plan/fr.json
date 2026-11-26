@@ -34,6 +34,15 @@
       "text": "Ni l’exploitant de l’hôtel, ni le nombre de chambres, ni la date d’ouverture n’ont été annoncés. Pour un séjour cet hiver ou l’hiver prochain, le plan ne change encore rien : aucune chambre n’est en vente et aucune date de début des travaux n’est fixée."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "L'hôtel n'a pas encore de chambres en vente",
+      "text": "Pour un séjour cet hiver, comparez les hébergements de Rovaniemi ouverts dès maintenant.",
+      "items": [
+        "Hébergements à Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "La proposition de plan sera consultable par le public pendant 30 jours, et des avis ont été demandés au Musée régional de Laponie et au Centre de développement économique de Laponie. La ville vise à présenter le plan au conseil municipal à la fin de l’hiver 2027. Auparavant, la ville et le propriétaire du terrain doivent conclure un accord sur l’utilisation des sols."
     },

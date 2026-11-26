@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "In het blok aan de rivier zijn nog geen kamers te boeken",
+      "text": "Vergelijk voor deze en volgende winter de accommodaties in Rovaniemi die u nu kunt boeken.",
+      "items": [
+        "Overnachten in Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Volgens Lapin Kansa richt het werk zich eerst op het hoofdgebouw van het provinciebestuur, waar de tussenwanden tussen de kantoorruimtes worden gesloopt om plaats te maken voor hotelkamers."
     },

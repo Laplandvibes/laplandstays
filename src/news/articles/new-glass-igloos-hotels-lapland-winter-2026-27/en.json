@@ -24,6 +24,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Two of the new igloo resorts are already open",
+      "text": "Halo Riverside and Aava Glass Igloos take guests in Rovaniemi now. Where an opening date is not confirmed, choose a rate you can cancel free of charge.",
+      "items": [
+        "Stays in Rovaniemi",
+        "All of Lapland"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Rovaniemi: two igloo resorts open, a new hotel in the centre"
     },

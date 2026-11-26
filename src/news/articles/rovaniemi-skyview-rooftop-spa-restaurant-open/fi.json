@@ -24,6 +24,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Kylpylään pääsee yöpymättä resortissa",
+      "text": "Yhdistä ilta Olleronvaarassa majoitukseen muualla Rovaniemellä, keskustasta napapiirille.",
+      "items": [
+        "Rovaniemen majoitukset"
+      ]
+    },
+    {
       "t": "p",
       "text": "Kylpylä Arctic Spa Culta avautui yhtiön mukaan 16. lokakuuta, ja sen katolla on lämmitetty infinity-allas ja panoraamasauna. Ravintola Aura on luotu yhdessä kokki Tomi Björckin kanssa."
     },

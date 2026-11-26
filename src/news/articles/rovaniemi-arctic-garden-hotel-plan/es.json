@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "El bloque junto al río aún no vende habitaciones",
+      "text": "Para este invierno y el próximo, compare los alojamientos de Rovaniemi que puede reservar ya.",
+      "items": [
+        "Alojamiento en Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "Según Lapin Kansa, los trabajos se concentran primero en el edificio principal del gobierno provincial, donde se derriban los tabiques entre los despachos para dejar sitio a las habitaciones del hotel."
     },

@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Quartos novos vão surgir devagar",
+      "text": "Em Inari, Ivalo e Saariselkä, vale reservar as hospedagens mais conhecidas mais cedo do que antes.",
+      "items": [
+        "Hospedagem em Saariselkä",
+        "Hospedagem em Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "Segundo o Lapin Kansa, o município endureceu a concessão de licenças. Lotes livres para quem chega agora quase não existem, e a linha ficou bem mais rígida em três anos."
     },

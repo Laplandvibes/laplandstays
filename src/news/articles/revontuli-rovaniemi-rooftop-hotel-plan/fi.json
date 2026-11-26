@@ -34,6 +34,15 @@
       "text": "Hotellin ylläpitäjää, huonemäärää tai avauspäivää ei ole kerrottu. Tämän tai ensi talven majoitukseen kaava ei vielä vaikuta: huoneita ei ole myynnissä eikä rakentamisen aloituspäivää ole."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Hotelliin ei voi vielä varata huonetta",
+      "text": "Tämän talven matkalle vertaa Rovaniemen majoituksia, jotka ovat auki nyt.",
+      "items": [
+        "Rovaniemen majoitukset"
+      ]
+    },
+    {
       "t": "p",
       "text": "Kaavaehdotus on julkisesti nähtävillä 30 päivää, ja siitä on pyydetty lausunnot Lapin maakuntamuseolta ja Lapin elinvoimakeskukselta. Kaupunki tavoittelee kaavan viemistä kaupunginvaltuustoon kevättalvella 2027. Sitä ennen kaupungin ja maanomistajan on sovittava maankäyttösopimuksesta."
     },

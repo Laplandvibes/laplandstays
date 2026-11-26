@@ -11,6 +11,15 @@
       "text": "Dozens of hotels and resorts across Finnish Lapland have installed camera-based northern lights alert systems for their guests, Finnish public broadcaster Yle reported. The camera points at the sky, recognises the aurora by itself and sends an alert to the guest's phone with a photograph of what is happening overhead."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Ask about the camera when you book",
+      "text": "Compare places to stay across Lapland and ask the property whether it has an aurora camera of its own.",
+      "items": [
+        "Stays in Lapland"
+      ]
+    },
+    {
       "t": "h2",
       "text": "What the alert actually does"
     },

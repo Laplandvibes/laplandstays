@@ -35,6 +35,15 @@
       "text": "Os hotéis da Lapônia lotam na alta temporada. Segundo o Statistics Finland, instituto de estatística da Finlândia, 79% dos quartos de hotel da Lapônia estavam ocupados em dezembro de 2025, contra 51% no país como um todo. Naquele mês, os quartos de hotel da Lapônia também foram os mais caros da Finlândia, com diária média de 356 euros."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Os hotéis lotam na alta temporada",
+      "text": "Compare hospedagens com antecedência se você vem em dezembro, quando sobram menos quartos.",
+      "items": [
+        "Hospedagem na Lapônia"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Novas hospedagens para este inverno"
     },

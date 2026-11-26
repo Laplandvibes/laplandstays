@@ -34,6 +34,15 @@
       "text": "No hotel operator, number of rooms or opening date has been announced. For a stay this winter or next, the plan changes nothing yet: there are no rooms on sale and no construction date."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "The hotel has no rooms on sale yet",
+      "text": "For a stay this winter, compare the places in Rovaniemi that are open now.",
+      "items": [
+        "Stays in Rovaniemi"
+      ]
+    },
+    {
       "t": "p",
       "text": "The plan proposal will be on public display for 30 days, and statements have been requested from the Lapland Regional Museum and the Economic Development Centre of Lapland. The city aims to bring the plan to the city council in late winter 2027. Before that, the city and the landowner have to agree on a land use agreement."
     },

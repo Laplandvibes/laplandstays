@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Neue Zimmer kommen nur langsam",
+      "text": "Rund um Inari, Ivalo und Saariselkä lohnt es sich, die bekanntesten Unterkünfte früher als bisher zu buchen.",
+      "items": [
+        "Unterkünfte in Saariselkä",
+        "Unterkünfte in Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "Laut Lapin Kansa hat die Gemeinde die Erteilung von Genehmigungen verschärft. Freie Grundstücke gibt es für Neuankömmlinge kaum noch, und die Linie ist in den vergangenen drei Jahren deutlich strenger geworden."
     },

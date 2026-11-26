@@ -23,6 +23,15 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Jokivarren kortteliin ei myydä vielä huoneita",
+      "text": "Tälle ja ensi talvelle vertaa Rovaniemen majoituksia, jotka voi varata nyt.",
+      "items": [
+        "Rovaniemen majoitukset"
+      ]
+    },
+    {
       "t": "p",
       "text": "Lapin Kansan mukaan työt keskittyvät aluksi lääninhallituksen päärakennukseen, jossa puretaan pois toimistohuoneiden väliseiniä hotellihuoneiden tieltä."
     },

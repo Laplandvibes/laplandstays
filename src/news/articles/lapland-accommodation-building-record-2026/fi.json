@@ -35,6 +35,15 @@
       "text": "Lapin hotellit täyttyvät sesonkina. Tilastokeskuksen mukaan Lapin hotellihuoneista oli käytössä 79 prosenttia joulukuussa 2025, kun koko maassa luku oli 51 prosenttia. Samassa kuussa Lapin hotellihuoneet olivat maan kalleimpia: keskihinta oli 356 euroa."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Hotellit täyttyvät sesonkina",
+      "text": "Vertaa majoituksia ajoissa, jos tulet joulukuussa, kun vapaita huoneita on vähiten.",
+      "items": [
+        "Lapin majoitukset"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Uudet majoitukset tälle talvelle"
     },

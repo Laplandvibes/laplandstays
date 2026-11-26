@@ -23,6 +23,16 @@
       ]
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Les nouvelles chambres arriveront lentement",
+      "text": "Autour d'Inari, d'Ivalo et de Saariselkä, mieux vaut réserver les adresses les plus connues plus tôt qu'avant.",
+      "items": [
+        "Hébergements à Saariselkä",
+        "Hébergements à Inari"
+      ]
+    },
+    {
       "t": "p",
       "text": "Selon Lapin Kansa, la commune a durci la délivrance des permis. Il ne reste presque plus de terrains libres pour les nouveaux venus et la ligne s’est nettement resserrée en trois ans."
     },

@@ -11,6 +11,15 @@
       "text": "Kymmenet hotellit ja resortit eri puolilla Suomen Lappia ovat asennuttaneet asiakkailleen kameraan perustuvan revontulihälytysjärjestelmän, kertoo Yle. Kamera kuvaa taivaalle, tunnistaa revontulet itse ja lähettää hälytyksen vieraan puhelimeen sekä kuvan siitä, mitä taivaalla juuri nyt tapahtuu."
     },
     {
+      "t": "embed",
+      "id": "action-stay",
+      "title": "Kysy kamerasta jo varatessa",
+      "text": "Vertaa majoituksia eri puolilta Lappia ja kysy majoituspaikalta, onko sillä oma revontulikamera.",
+      "items": [
+        "Lapin majoitukset"
+      ]
+    },
+    {
       "t": "h2",
       "text": "Mitä hälytys oikeasti tekee"
     },
