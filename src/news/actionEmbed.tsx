@@ -101,6 +101,12 @@ export function withLang(href: string, lang: Lang): string {
   return url.toString();
 }
 
+/** Kaksi viimeistä sanaa sidotaan sitovalla välilyönnillä, ettei rivin loppuun jää yksinäistä sanaa
+ *  (mitattu 26.11.2026: text-wrap balance jätti pitkän viimeisen sanan yksin 390 px:llä). */
+function glue(s: string): string {
+  return s.replace(/ (\S+)$/, '\u00A0$1');
+}
+
 function ActionLink({ href, className, children }: { href: string; className: string; children: ReactNode }) {
   const lang = useLang();
   const to = useLocalePath();
@@ -122,8 +128,8 @@ function ActionCard({ block, cfg }: { block: Extract<NewsBlock, { t: 'embed' }>;
   return (
     <aside className="nw-act" aria-label={eyebrow ?? label}>
       {eyebrow && <p className="nw-act-eyebrow">{eyebrow}</p>}
-      {block.title && <h3 className="nw-act-title">{block.title}</h3>}
-      {block.text && <p className="nw-act-text">{block.text}</p>}
+      {block.title && <h3 className="nw-act-title">{glue(block.title)}</h3>}
+      {block.text && <p className="nw-act-text">{glue(block.text)}</p>}
       <div className="nw-act-row">
         <ActionLink href={cfg.href} className="nw-act-btn">
           <span>{label}</span>
