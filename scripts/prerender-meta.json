@@ -1405,6 +1405,56 @@
       "description": "Takspat på SkyView Igloo Resort i Olleronvaara och restaurang Aura, skapad med kocken Tomi Björck, tar även emot gäster som bor någon annanstans."
     }
   },
+  "/news/ruka-break-sokos-hotel-topping-out": {
+    "en": {
+      "title": "Break Sokos Hotel Ruka opens in November 2027",
+      "description": "The frame of the new Break Sokos Hotel Ruka is finished and the 217-room hotel opens in November 2027. Rooms go on sale at sokoshotels.fi in March 2027."
+    },
+    "fi": {
+      "title": "Break Sokos Hotel Ruka avautuu marraskuussa 2027",
+      "description": "Rukan keskustaan nousevan hotellin runko on valmis ja sisätyöt ovat käynnissä. Hotelli avautuu marraskuussa 2027, ja huoneiden myynti alkaa maaliskuussa."
+    },
+    "de": {
+      "title": "Break Sokos Hotel Ruka eröffnet im November 2027",
+      "description": "Der Rohbau des neuen Break Sokos Hotel Ruka steht, das Hotel mit 217 Zimmern eröffnet im November 2027. Der Verkauf startet im März 2027 auf sokoshotels.fi."
+    },
+    "ja": {
+      "title": "ルカのBreak Sokos Hotel、2027年11月開業",
+      "description": "Break Sokos Hotel Rukaの躯体が完成しました。217室のホテルは2027年11月に開業し、客室の販売は2027年3月に始まります。"
+    },
+    "es": {
+      "title": "Break Sokos Hotel Ruka abre en noviembre de 2027",
+      "description": "La estructura del nuevo Break Sokos Hotel Ruka está lista y el hotel de 217 habitaciones abrirá en noviembre de 2027. La venta empieza en marzo de 2027."
+    },
+    "pt-BR": {
+      "title": "Break Sokos Hotel Ruka abre em novembro de 2027",
+      "description": "A estrutura do novo Break Sokos Hotel Ruka está pronta e o hotel de 217 quartos abre em novembro de 2027. A venda dos quartos começa em março de 2027."
+    },
+    "zh-CN": {
+      "title": "魯卡的Break Sokos Hotel，2027年11月開業",
+      "description": "Break Sokos Hotel Ruka的主體結構已完工，這座217間客房的飯店將於2027年11月開業，客房銷售將於2027年3月開始。"
+    },
+    "ko": {
+      "title": "Break Sokos Hotel Ruka, 2027년 개관",
+      "description": "골조가 완성된 Break Sokos Hotel Ruka는 객실 217개 규모로 2027년 11월 개관하고 판매는 2027년 3월 시작됩니다."
+    },
+    "fr": {
+      "title": "Break Sokos Hotel Ruka ouvre en novembre 2027",
+      "description": "Le gros œuvre du nouveau Break Sokos Hotel Ruka est achevé et l’hôtel de 217 chambres ouvre en novembre 2027. Les chambres seront en vente en mars 2027."
+    },
+    "it": {
+      "title": "Break Sokos Hotel Ruka apre a novembre 2027",
+      "description": "La struttura del nuovo Break Sokos Hotel Ruka è finita e l’hotel da 217 camere apre a novembre 2027. Le camere vanno in vendita su sokoshotels.fi a marzo 2027."
+    },
+    "nl": {
+      "title": "Break Sokos Hotel Ruka opent in november 2027",
+      "description": "De ruwbouw van het nieuwe Break Sokos Hotel Ruka is klaar: het hotel met 217 kamers opent in november 2027. De verkoop begint in maart 2027 op sokoshotels.fi."
+    },
+    "sv": {
+      "title": "Break Sokos Hotel Ruka öppnar i november 2027",
+      "description": "Stommen till det nya Break Sokos Hotel Ruka är klar och hotellet med 217 rum öppnar i november 2027. Rummen börjar säljas på sokoshotels.fi i mars 2027."
+    }
+  },
   "/news/saarua-ruka-hotel-restaurant-plan": {
     "en": {
       "title": "Saarua, Ruka: new hotel and restaurant planned",

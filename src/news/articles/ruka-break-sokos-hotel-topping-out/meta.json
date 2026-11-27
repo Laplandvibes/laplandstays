@@ -1,0 +1,44 @@
+{
+  "slug": "ruka-break-sokos-hotel-topping-out",
+  "date": "2026-11-27",
+  "hero": {
+    "src": "/images/news/kuusamo-kaylankoski-winter-1600.webp",
+    "srcSmall": "/images/news/kuusamo-kaylankoski-winter-800.webp",
+    "width": 1600,
+    "height": 1067,
+    "position": "50% 55%",
+    "credit": {
+      "author": "Ninara",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kuusamo,_Finland_-_49644687656.jpg",
+      "sourceName": "Wikimedia Commons",
+      "assetId": "Kuusamo, Finland - 49644687656.jpg",
+      "taken": "2020-02-20",
+      "retrieved": "2026-11-27"
+    }
+  },
+  "sources": [
+    {
+      "publisher": "Osuuskauppa Arina",
+      "title": "Break Sokos Hotel Ruka saavutti harjakorkeuden – marraskuussa 2027 avautuva hotelli herättää jo kansainvälistä kiinnostusta",
+      "lang": "fi",
+      "url": "https://www.sttinfo.fi/tiedote/72540980/break-sokos-hotel-ruka-saavutti-harjakorkeuden-marraskuussa-2027-avautuva-hotelli-herattaa-jo-kansainvalista-kiinnostusta?publisherId=68574190&lang=fi",
+      "date": "2026-11-26"
+    }
+  ],
+  "ogCard": {
+    "line": "Ruka's new 217-room hotel tops out",
+    "focus": "50% 55%"
+  },
+  "embeds": {
+    "facts-hotelli": {
+      "kind": "facts"
+    },
+    "action-stay": {
+      "type": "action",
+      "kind": "stay",
+      "href": "https://go.laplandvibes.com/go/hotels?sid=news_break_sokos_ruka_stay&ss=Ruka"
+    }
+  }
+}

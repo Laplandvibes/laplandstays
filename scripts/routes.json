@@ -285,12 +285,27 @@
     "fallbackDescription": "News that changes how you choose a place to stay in Finnish Lapland. Every story is written from the original source, which is named and linked.",
     "ogImage": "/og/news.jpg",
     "ogCard": {
-      "hero": "/images/news/levi-chalets-first-snow-oct-1600.webp",
-      "line": "New glass igloos and hotels in Lapland"
+      "hero": "/images/news/kuusamo-kaylankoski-winter-1600.webp",
+      "line": "Ruka's new 217-room hotel tops out"
     },
     "harvestRecord": {
       "file": "node_modules/.cache/lv-news/_index/{lang}.json",
       "key": "news",
+      "mode": "jsonFile"
+    }
+  },
+  {
+    "path": "/news/ruka-break-sokos-hotel-topping-out",
+    "fallbackTitle": "Break Sokos Hotel Ruka opens in November 2027",
+    "fallbackDescription": "The frame of the new Break Sokos Hotel Ruka is finished and the 217-room hotel opens in November 2027. Rooms go on sale at sokoshotels.fi in March 2027.",
+    "ogImage": "/og/news-ruka-break-sokos-hotel-topping-out.jpg",
+    "ogCard": {
+      "hero": "/images/news/kuusamo-kaylankoski-winter-1600.webp",
+      "line": "Ruka's new 217-room hotel tops out"
+    },
+    "harvestRecord": {
+      "file": "node_modules/.cache/lv-news/ruka-break-sokos-hotel-topping-out/{lang}.json",
+      "key": "ruka-break-sokos-hotel-topping-out",
       "mode": "jsonFile"
     }
   },
